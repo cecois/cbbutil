@@ -7377,18 +7377,594 @@
 //   "location_id": 384
 // }
 
+// {
+//   "show": "cbb",
+//   "episode": 250,
+//   "slug_earwolf": "podcast-silence",
+//   "id_wikia": 3164,
+//   "url_soundcloud": "250-pete-holmes-jon-gabrus",
+//   "name": "Location",
+//   "desc": "Pete Holmes thinks Gino is maybe a Long Island stereotype.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Gino Lambardo,Tony Soprano",
+//   "tstart": "1:30:21",
+//   "tend": "1:30:36",
+//   "location_type": "poly",
+//   "location_id": 166
+// }
+// 
+
+// {
+//   "show": "cbb",
+//   "episode": 252,
+//   "slug_earwolf": "the-creeeeeeepy-halloween-special",
+//   "id_wikia": 3853,
+//   "url_soundcloud": "252-halloween-steven-yeun-paul",
+//   "name": "Location",
+//   "desc": "Steven Yeun lives at 1575 Calloway Lane but Scott won't give him a lift home.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "",
+//   "tstart": "1:26:53",
+//   "tend": "1:27:08",
+//   "location_type": "point",
+//   "location_id": 385
+// }
+// 
+// {
+//   "show": "cbb",
+//   "episode": 253,
+//   "slug_earwolf": "fieri-fight",
+//   "id_wikia": 3877,
+//   "url_soundcloud": "253-tim-heidecker-jon-daly",
+//   "name": "Location",
+//   "desc": "The Heideckers were vacationing on the Jersey Shore when he met who would become Guy Fieri.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Guy Fieri",
+//   "tstart": "22:07",
+//   "tend": "22:51",
+//   "location_type": "point",
+//   "location_id": 386
+// }
+// 
+// {
+//   "show": "cbb",
+//   "episode": 254,
+//   "slug_earwolf": "live-from-comedy-gives-back",
+//   "id_wikia": 3882,
+//   "url_soundcloud": "254-live-from-comedy-gives",
+//   "name": "Location",
+//   "desc": "Gadfly Jack Fitzgerald lives on Fordsmans Rd - perpendicular to the L.A. River.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Jack Fitzgerald",
+//   "tstart": "58:17",
+//   "tend": "58:30",
+//   "location_type": "point",
+//   "location_id": 387
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 254,
+//   "slug_earwolf": "live-from-comedy-gives-back",
+//   "id_wikia": 3882,
+//   "url_soundcloud": "254-live-from-comedy-gives",
+//   "name": "Location",
+//   "desc": "Gadfly Jack Fitzgerald lives on Fordsmans Rd - washes his clothes in the L.A. River.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Jack Fitzgerald",
+//   "tstart": "27:46",
+//   "tend": "28:03",
+//   "location_type": "point",
+//   "location_id": 387
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 254,
+//   "slug_earwolf": "live-from-comedy-gives-back",
+//   "id_wikia": 3882,
+//   "url_soundcloud": "254-live-from-comedy-gives",
+//   "name": "Location",
+//   "desc": "Gadfly Jack Fitzgerald holds court in the Starbucks at Gower Gulch.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Jack Fitzgerald",
+//   "tstart": "28:15",
+//   "tend": "28:38",
+//   "location_type": "point",
+//   "location_id": 388
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 254,
+//   "slug_earwolf": "live-from-comedy-gives-back",
+//   "id_wikia": 3882,
+//   "url_soundcloud": "254-live-from-comedy-gives",
+//   "name": "Location",
+//   "desc": "Gadfly Jack Fitzgerald hung around the United College of Arts and Sciences and Knowledge.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Jack Fitzgerald",
+//   "tstart": "43:10",
+//   "tend": "43:27",
+//   "location_type": "point",
+//   "location_id": 389
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 254,
+//   "slug_earwolf": "live-from-comedy-gives-back",
+//   "id_wikia": 3882,
+//   "url_soundcloud": "254-live-from-comedy-gives",
+//   "name": "Location",
+//   "desc": "Gadfly Jack Fitzgerald hung around the United College of Arts and Sciences and Knowledge.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Jack Fitzgerald",
+//   "tstart": "43:10",
+//   "tend": "43:27",
+//   "location_type": "point",
+//   "location_id": 389
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 254,
+//   "slug_earwolf": "live-from-comedy-gives-back",
+//   "id_wikia": 3882,
+//   "url_soundcloud": "254-live-from-comedy-gives",
+//   "name": "Location",
+//   "desc": "Zach is going to promote his window-tinting business at a Wendys on Sepulveda.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "",
+//   "tstart": "1:03:12",
+//   "tend": "1:03:50",
+//   "location_type": "point",
+//   "location_id": 390
+// }
+// 
+
+// {
+//   "show": "cbb",
+//   "episode": 346,
+//   "slug_earwolf": "that-is-wild",
+//   "id_wikia": 5421,
+//   "url_soundcloud": "346-tom-green-mary-holland-erin-whitehead",
+//   "name": "Location",
+//   "desc": "Trabitha is from Ft. Lauderdale and loves the Chicago Bulls.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Trabitha Tarteen",
+//   "tstart": "4:05",
+//   "tend": "4:41",
+//   "location_type": "poly",
+//   "location_id": 167
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 346,
+//   "slug_earwolf": "that-is-wild",
+//   "id_wikia": 5421,
+//   "url_soundcloud": "346-tom-green-mary-holland-erin-whitehead",
+//   "name": "Location",
+//   "desc": "Editing was almost called 'Kovacsing' but there was a car wash on Sepulveda with that name.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Ernie Kovacs",
+//   "tstart": "34:22",
+//   "tend": "34:34",
+//   "location_type": "point",
+//   "location_id": 391
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 346,
+//   "slug_earwolf": "that-is-wild",
+//   "id_wikia": 5421,
+//   "url_soundcloud": "346-tom-green-mary-holland-erin-whitehead",
+//   "name": "Location",
+//   "desc": "The Burbiglia clan migrated from Northern Burbank.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Gale Burbiglia",
+//   "tstart": "44:37",
+//   "tend": "45:08",
+//   "location_type": "poly",
+//   "location_id": 168
+// }
+// 
+// 192
+
+// {
+//   "show": "cbb",
+//   "episode": 347,
+//   "slug_earwolf": "foley-slumber-party",
+//   "id_wikia": 5443,
+//   "url_soundcloud": "347-kevin-pollak-seth-morris",
+//   "name": "Location",
+//   "desc": "Scott tries to guess which pizza parlor has the big organ.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Andy Pappage",
+//   "tstart": "51:24",
+//   "tend": "51:52",
+//   "location_type": "point",
+//   "location_id": 192
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 347,
+//   "slug_earwolf": "foley-slumber-party",
+//   "id_wikia": 5443,
+//   "url_soundcloud": "347-kevin-pollak-seth-morris",
+//   "name": "Location",
+//   "desc": "Somebody has been drinking on Boogie Woogie Av.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Andy Pappage",
+//   "tstart": "1:08:19",
+//   "tend": "1:08:56",
+//   "location_type": "point",
+//   "location_id": 222
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 347,
+//   "slug_earwolf": "foley-slumber-party",
+//   "id_wikia": 5443,
+//   "url_soundcloud": "347-kevin-pollak-seth-morris",
+//   "name": "Location",
+//   "desc": "Andy Pappage will be wandering around the north end of Toluca Lake educating children about foley.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Andy Pappage",
+//   "tstart": "1:08:56",
+//   "tend": "1:09:06",
+//   "location_type": "poly",
+//   "location_id": 61
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 347,
+//   "slug_earwolf": "foley-slumber-party",
+//   "id_wikia": 5443,
+//   "url_soundcloud": "347-kevin-pollak-seth-morris",
+//   "name": "Location",
+//   "desc": "Andy Pappage will be doing beach sounds in Griffith Park in honor of summer.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Andy Pappage",
+//   "tstart": "1:18:30",
+//   "tend": "1:19:06",
+//   "location_type": "point",
+//   "location_id": 395
+// }
+// 
+// 169
+// 
+
+// {
+//   "show": "cbb",
+//   "episode": 348,
+//   "slug_earwolf": "is-yall-my-daddy",
+//   "id_wikia": 5455,
+//   "url_soundcloud": "348-cameron-esposito-paul-f-tompkins-matt-gourley",
+//   "name": "Location",
+//   "desc": "Eddie Lee fanboated his way through the Panama Canal to L.A.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "J.W. Stillwater",
+//   "tstart": "22:04",
+//   "tend": "22:14",
+//   "location_type": "line",
+//   "location_id": 53
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 348,
+//   "slug_earwolf": "is-yall-my-daddy",
+//   "id_wikia": 5455,
+//   "url_soundcloud": "348-cameron-esposito-paul-f-tompkins-matt-gourley",
+//   "name": "Location",
+//   "desc": "Eddie Lee Capers parked his fanboat in Marina del Rey.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "J.W. Stillwater",
+//   "tstart": "22:04",
+//   "tend": "22:14",
+//   "location_type": "poly",
+//   "location_id": 4
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 348,
+//   "slug_earwolf": "is-yall-my-daddy",
+//   "id_wikia": 5455,
+//   "url_soundcloud": "348-cameron-esposito-paul-f-tompkins-matt-gourley",
+//   "name": "Location",
+//   "desc": "No need to check the Warner Brothers tank - it's full of Animaniacs dolls.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "J.W. Stillwater",
+//   "tstart": "31:20",
+//   "tend": "31:53",
+//   "location_type": "point",
+//   "location_id": 397
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 348,
+//   "slug_earwolf": "is-yall-my-daddy",
+//   "id_wikia": 5455,
+//   "url_soundcloud": "348-cameron-esposito-paul-f-tompkins-matt-gourley",
+//   "name": "Location",
+//   "desc": "J.W. decides his daddy needs professional care.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "J.W. Stillwater,Professor Stillwater",
+//   "tstart": "1:16:02",
+//   "tend": "1:16:23",
+//   "location_type": "point",
+//   "location_id": 398
+// }
+// 
+// 164
+
+
+// {
+//   "show": "cbb",
+//   "episode": 349,
+//   "slug_earwolf": "the-6th-anniversary-show",
+//   "id_wikia": 3325,
+//   "url_soundcloud": "349-6th-anniv-pftlapkusmiddleditchcampbellmike-hanfordjoe-wengertpaul-scheererin-whitehead",
+//   "name": "Location",
+//   "desc": "Scott and Klaus visited 168 German dance halls, entered 46 of them.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Klaus Schneider",
+//   "tstart": "28:12",
+//   "tend": "28:44",
+//   "location_type": "poly",
+//   "location_id": 164
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 349,
+//   "slug_earwolf": "the-6th-anniversary-show",
+//   "id_wikia": 3325,
+//   "url_soundcloud": "349-6th-anniv-pftlapkusmiddleditchcampbellmike-hanfordjoe-wengertpaul-scheererin-whitehead",
+//   "name": "Location",
+//   "desc": "Cake Boss has trimped around the UK and Soviet Russia.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Klaus Schneider,Cake Boss",
+//   "tstart": "31:07",
+//   "tend": "31:22",
+//   "location_type": "poly",
+//   "location_id": 173
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 349,
+//   "slug_earwolf": "the-6th-anniversary-show",
+//   "id_wikia": 3325,
+//   "url_soundcloud": "349-6th-anniv-pftlapkusmiddleditchcampbellmike-hanfordjoe-wengertpaul-scheererin-whitehead",
+//   "name": "Location",
+//   "desc": "Ho Ho goes to Germany all the time for Christnacht.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Klaus Schneider,Ho Ho the Elf",
+//   "tstart": "35:07",
+//   "tend": "35:15",
+//   "location_type": "poly",
+//   "location_id": 164
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 349,
+//   "slug_earwolf": "the-6th-anniversary-show",
+//   "id_wikia": 3325,
+//   "url_soundcloud": "349-6th-anniv-pftlapkusmiddleditchcampbellmike-hanfordjoe-wengertpaul-scheererin-whitehead",
+//   "name": "Location",
+//   "desc": "The group assumes correctly that Brad Hammerstone has celebrated Christmas on Bear Mountain.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Brad Hammerstone,Scrooge McDuck,Donald Duck",
+//   "tstart": "1:20:50",
+//   "tend": "1:20:59",
+//   "location_type": "point",
+//   "location_id": 399
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 349,
+//   "slug_earwolf": "the-6th-anniversary-show",
+//   "id_wikia": 3325,
+//   "url_soundcloud": "349-6th-anniv-pftlapkusmiddleditchcampbellmike-hanfordjoe-wengertpaul-scheererin-whitehead",
+//   "name": "Location",
+//   "desc": "Chad teleported to Earwolf from Denny's.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Chad Warren",
+//   "tstart": "1:55:07",
+//   "tend": "1:55:28",
+//   "location_type": "point",
+//   "location_id": 401
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 349,
+//   "slug_earwolf": "the-6th-anniversary-show",
+//   "id_wikia": 3325,
+//   "url_soundcloud": "349-6th-anniv-pftlapkusmiddleditchcampbellmike-hanfordjoe-wengertpaul-scheererin-whitehead",
+//   "name": "Location",
+//   "desc": "Alan Thicke was at Denny's having Moons Over Moons and may have teleported to Earwolf.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Chad Warren,Alan Thicke",
+//   "tstart": "2:02:00",
+//   "tend": "2:02:10",
+//   "location_type": "point",
+//   "location_id": 401
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 349,
+//   "slug_earwolf": "the-6th-anniversary-show",
+//   "id_wikia": 3325,
+//   "url_soundcloud": "349-6th-anniv-pftlapkusmiddleditchcampbellmike-hanfordjoe-wengertpaul-scheererin-whitehead",
+//   "name": "Location",
+//   "desc": "Alan Thicke might be responsible for Chad Warren's teleportation from Denny's to Earwolf.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Chad Warren,Alan Thicke",
+//   "tstart": "2:03:02",
+//   "tend": "2:03:20",
+//   "location_type": "point",
+//   "location_id": 401
+// }
+// 
+
+
+// {
+//   "show": "cbb",
+//   "episode": 262,
+//   "slug_earwolf": "2013-holiday-spectacular",
+//   "id_wikia": 3034,
+//   "url_soundcloud": "2013-holiday-spectacular",
+//   "name": "Location",
+//   "desc": "Frank Stallone has been to temple, Dr. Bill Cosby Bukowski has a degree *from* Temple.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Bill Cosby Bukowski,Frank Stallone",
+//   "tstart": "1:56:45",
+//   "tend": "1:57:02",
+//   "location_type": "poly",
+//   "location_id": 176
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 262,
+//   "slug_earwolf": "2013-holiday-spectacular",
+//   "id_wikia": 3034,
+//   "url_soundcloud": "2013-holiday-spectacular",
+//   "name": "Location",
+//   "desc": "The Bachelor Brothers recorded Silverchair in their recording studio.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Benny Bachelor, Barrett Bachelor,The Bachelor Brothers,Silverchair",
+//   "tstart": "2:21:38",
+//   "tend": "2:21:55",
+//   "location_type": "poly",
+//   "location_id": 117
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 262,
+//   "slug_earwolf": "2013-holiday-spectacular",
+//   "id_wikia": 3034,
+//   "url_soundcloud": "2013-holiday-spectacular",
+//   "name": "Location",
+//   "desc": "Frank Stallone does security and kung fu at The Home Depot.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Frank Stallone",
+//   "tstart": "2:27:28",
+//   "tend": "2:27:49",
+//   "location_type": "point",
+//   "location_id": 30
+// }
+// 
+
+
+// {
+//   "show": "cbb",
+//   "episode": 261,
+//   "slug_earwolf": "nubile-agape",
+//   "id_wikia": 3949,
+//   "url_soundcloud": "261-horatio-sanz-kulap",
+//   "name": "Location",
+//   "desc": "Aaron Neville frequents the In-N-Out up the street from Earwolf.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Aaron Neville",
+//   "tstart": "42:10",
+//   "tend": "42:17",
+//   "location_type": "point",
+//   "location_id": 402
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 261,
+//   "slug_earwolf": "nubile-agape",
+//   "id_wikia": 3949,
+//   "url_soundcloud": "261-horatio-sanz-kulap",
+//   "name": "Location",
+//   "desc": "According to Mel Gibson, Malibu boasts an unusually high Jewish law enforcement quotient.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Aaron Neville,Mel Gibson",
+//   "tstart": "59:38",
+//   "tend": "59:51",
+//   "location_type": "poly",
+//   "location_id": 177
+// }
+// 
+
+
+// {
+//   "show": "cbb",
+//   "episode": 260,
+//   "slug_earwolf": "tiny-cheeseburger-story",
+//   "id_wikia": 4871,
+//   "url_soundcloud": "260-mike-birbiglia-brendon",
+//   "name": "Location",
+//   "desc": "Victor is from Havana but just two days ago had his first cheeseburger",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Gino Lambardo,Victor Diamond,Tiny",
+//   "tstart": "55:29",
+//   "tend": "55:47",
+//   "location_type": "poly",
+//   "location_id": 82
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 260,
+//   "slug_earwolf": "tiny-cheeseburger-story",
+//   "id_wikia": 4871,
+//   "url_soundcloud": "260-mike-birbiglia-brendon",
+//   "name": "Location",
+//   "desc": "Victor and Tiny had just enough money for two cheeseburgers at the Jack-in-the-Box across from the ArcLight.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Gino Lambardo,Victor Diamond,Tiny",
+//   "tstart": "55:52",
+//   "tend": "56:09",
+//   "location_type": "point",
+//   "location_id": 321
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 260,
+//   "slug_earwolf": "tiny-cheeseburger-story",
+//   "id_wikia": 4871,
+//   "url_soundcloud": "260-mike-birbiglia-brendon",
+//   "name": "Location",
+//   "desc": "Tiny dreams up the perfect cross-promotion ",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Gino Lambardo,Victor Diamond,Tiny",
+//   "tstart": "56:56",
+//   "tend": "57:06",
+//   "location_type": "point",
+//   "location_id": 321
+// }
+
 {
   "show": "cbb",
-  "episode": 250,
-  "slug_earwolf": "podcast-silence",
-  "id_wikia": 3164,
-  "url_soundcloud": "250-pete-holmes-jon-gabrus",
+  "episode": 260,
+  "slug_earwolf": "tiny-cheeseburger-story",
+  "id_wikia": 4871,
+  "url_soundcloud": "260-mike-birbiglia-brendon",
   "name": "Location",
-  "desc": "Gino only knows places on Long Island for his date with Lisa.",
+  "desc": "To book Victor call a payphone on the corner of Santa Monica@Vine.",
   "elucidation": "Identifiable earth location.",
-  "tags": "Gino Lambardo,Lisa Bartin",
-  "tstart": "1:09:08",
-  "tend": "1:09:37",
+  "tags": "Gino Lambardo,Victor Diamond,Tiny",
+  "tstart": "1:11:02",
+  "tend": "1:12:07",
   "location_type": "point",
-  "location_id": 384
+  "location_id": 204
 }
