@@ -84,4 +84,4 @@ echo "{ \"nom\": \"$name\",\"anno\":\"${anno}\",\"sco\":\"${sco}\",\"confidence\
 echo "submitting..."
 # curl -g "https://pugo.cartodb.com/api/v2/sql?api_key=8ab0537993e0b06772cf3a74018105672e92daad&q=insert%20into%20dummy%20(name,anno,scnotes,the_geom)%20values('${nomnom}','${anoano}','${scosco}',ST_SetSRID(ST_GeomFromGeoJSON('${jsone}'),4326))"
 echo $json > /tmp/json.json
-php cartize.php
+php /Users/ccmiller/Desktop/cbb/cartize.php

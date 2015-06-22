@@ -7953,18 +7953,1848 @@
 //   "location_id": 321
 // }
 
-{
-  "show": "cbb",
-  "episode": 260,
-  "slug_earwolf": "tiny-cheeseburger-story",
-  "id_wikia": 4871,
-  "url_soundcloud": "260-mike-birbiglia-brendon",
-  "name": "Location",
-  "desc": "To book Victor call a payphone on the corner of Santa Monica@Vine.",
-  "elucidation": "Identifiable earth location.",
-  "tags": "Gino Lambardo,Victor Diamond,Tiny",
-  "tstart": "1:11:02",
-  "tend": "1:12:07",
-  "location_type": "point",
-  "location_id": 204
-}
+// {
+//   "show": "cbb",
+//   "episode": 260,
+//   "slug_earwolf": "tiny-cheeseburger-story",
+//   "id_wikia": 4871,
+//   "url_soundcloud": "260-mike-birbiglia-brendon",
+//   "name": "Location",
+//   "desc": "To book Victor call a payphone on the corner of Santa Monica@Vine.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Gino Lambardo,Victor Diamond,Tiny",
+//   "tstart": "1:11:02",
+//   "tend": "1:12:07",
+//   "location_type": "point",
+//   "location_id": 204
+// }
+// 
+
+// {
+//   "show": "cbb",
+//   "episode": 257,
+//   "slug_earwolf": "nuts-as-a-pile-of-nuts",
+//   "id_wikia": 3928,
+//   "url_soundcloud": "257-will-forte-paul-f-tompkins",
+//   "name": "Location",
+//   "desc": "James Madison and Howard Unruh are the only two to reach heaven using a ladder of skeletons.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Richard Harrow,Howard Unruh,James Madison",
+//   "tstart": "43:55",
+//   "tend": "45:31",
+//   "location_type": "point",
+//   "location_id": 405
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 257,
+//   "slug_earwolf": "nuts-as-a-pile-of-nuts",
+//   "id_wikia": 3928,
+//   "url_soundcloud": "257-will-forte-paul-f-tompkins",
+//   "name": "Location",
+//   "desc": "Will Forte can be told how great Nebraska was or wasn't at Peet's on Main St.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Richard Harrow",
+//   "tstart": "1:21:01",
+//   "tend": "1:21:50",
+//   "location_type": "point",
+//   "location_id": 406
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 257,
+//   "slug_earwolf": "nuts-as-a-pile-of-nuts",
+//   "id_wikia": 3928,
+//   "url_soundcloud": "257-will-forte-paul-f-tompkins",
+//   "name": "Location",
+//   "desc": "Will Forte sells Nebraska to a family in a Santa Monica Peet's.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Richard Harrow",
+//   "tstart": "1:25:10",
+//   "tend": "1:26:39",
+//   "location_type": "point",
+//   "location_id": 406
+// }
+// 
+
+
+// {
+//   "show": "cbb",
+//   "episode": 258,
+//   "slug_earwolf": "yoke-jams",
+//   "id_wikia": 3932,
+//   "url_soundcloud": "258-jimmy-pardo-bill-callahan",
+//   "name": "Location",
+//   "desc": "Bob went to peru for aioaska disguised as a soccer ball",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Bob Ducca",
+//   "tstart": "44:44",
+//   "tend": "45:02",
+//   "location_type": "poly",
+//   "location_id": 178
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 258,
+//   "slug_earwolf": "yoke-jams",
+//   "id_wikia": 3932,
+//   "url_soundcloud": "258-jimmy-pardo-bill-callahan",
+//   "name": "Location",
+//   "desc": "Bob is teaching a class in Elysian Park this weekend - just look for the garbage fire near the broken bathroom.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Bob Ducca",
+//   "tstart": "1:29:03",
+//   "tend": "1:29:23",
+//   "location_type": "poly",
+//   "location_id": 179
+// }
+// 
+
+// {
+//   "show": "cbb",
+//   "episode": 259,
+//   "slug_earwolf": "charlottes-website",
+//   "id_wikia": 3939,
+//   "url_soundcloud": "259-david-alan-grier-lauren",
+//   "name": "Location",
+//   "desc": "Mr. G doesn't sell the hot yogurt he's used to from growing up in Mobile but it's close.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Mr. G",
+//   "tstart": "50:14",
+//   "tend": "50:25",
+//   "location_type": "poly",
+//   "location_id": 180
+// }
+
+// // SANFRAN
+// {
+//   "show": "cbb",
+//   "episode": 259,
+//   "slug_earwolf": "charlottes-website",
+//   "id_wikia": 3939,
+//   "url_soundcloud": "259-david-alan-grier-lauren",
+//   "name": "Location",
+//   "desc": "Mr. G's yogurt (and free blouse) shop for women could go in any number of locations.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Mr. G",
+//   "tstart": "1:25:28",
+//   "tend": "1:25:57",
+//   "location_type": "poly",
+//   "location_id": 181
+// }
+
+// // west hollywood
+// {
+//   "show": "cbb",
+//   "episode": 259,
+//   "slug_earwolf": "charlottes-website",
+//   "id_wikia": 3939,
+//   "url_soundcloud": "259-david-alan-grier-lauren",
+//   "name": "Location",
+//   "desc": "Mr. G's yogurt (and free blouse) shop for women could go in any number of locations.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Mr. G",
+//   "tstart": "1:25:28",
+//   "tend": "1:25:57",
+//   "location_type": "poly",
+//   "location_id": 182
+// }
+
+// boise
+// {
+//   "show": "cbb",
+//   "episode": 259,
+//   "slug_earwolf": "charlottes-website",
+//   "id_wikia": 3939,
+//   "url_soundcloud": "259-david-alan-grier-lauren",
+//   "name": "Location",
+//   "desc": "Mr. G's yogurt (and free blouse) shop for women could go in any number of locations.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Mr. G",
+//   "tstart": "1:25:28",
+//   "tend": "1:25:57",
+//   "location_type": "poly",
+//   "location_id": 183
+// }
+
+// gainesville
+// {
+//   "show": "cbb",
+//   "episode": 259,
+//   "slug_earwolf": "charlottes-website",
+//   "id_wikia": 3939,
+//   "url_soundcloud": "259-david-alan-grier-lauren",
+//   "name": "Location",
+//   "desc": "Mr. G's yogurt (and free blouse) shop for women could go in any number of locations.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Mr. G",
+//   "tstart": "1:25:28",
+//   "tend": "1:25:57",
+//   "location_type": "poly",
+//   "location_id": 184
+// }
+
+// boystown
+// {
+//   "show": "cbb",
+//   "episode": 259,
+//   "slug_earwolf": "charlottes-website",
+//   "id_wikia": 3939,
+//   "url_soundcloud": "259-david-alan-grier-lauren",
+//   "name": "Location",
+//   "desc": "Mr. G's yogurt (and free blouse) shop for women could go in any number of locations.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Mr. G",
+//   "tstart": "1:25:28",
+//   "tend": "1:25:57",
+//   "location_type": "poly",
+//   "location_id": 185
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 259,
+//   "slug_earwolf": "charlottes-website",
+//   "id_wikia": 3939,
+//   "url_soundcloud": "259-david-alan-grier-lauren",
+//   "name": "Location",
+//   "desc": "Mr. G might get his free blouses from Dress Barn.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Mr. G",
+//   "tstart": "1:25:59",
+//   "tend": "1:26:12",
+//   "location_type": "point",
+//   "location_id": 408
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 259,
+//   "slug_earwolf": "charlottes-website",
+//   "id_wikia": 3939,
+//   "url_soundcloud": "259-david-alan-grier-lauren",
+//   "name": "Location",
+//   "desc": "Mr. G might get his free blouses from Ross Dress for Less.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Mr. G",
+//   "tstart": "1:25:59",
+//   "tend": "1:26:12",
+//   "location_type": "point",
+//   "location_id": 409
+// }
+// 
+
+
+// {
+//   "show": "cbb",
+//   "episode": 256,
+//   "slug_earwolf": "raw-copera",
+//   "id_wikia": 3915,
+//   "url_soundcloud": "256-brendon-small-cameron",
+//   "name": "Location",
+//   "desc": "Jesse took a walking tour of Cambodia's Angkor Wat.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Jesse Ventura",
+//   "tstart": "43:30",
+//   "tend": ":43:57",
+//   "location_type": "poly",
+//   "location_id": 186
+// }
+// 
+
+// {
+//   "show": "cbb",
+//   "episode": 264,
+//   "slug_earwolf": "creating-a-krolliverse",
+//   "id_wikia": 4093,
+//   "url_soundcloud": "264-nick-kroll-jenny-slate",
+//   "name": "Location",
+//   "desc": "C-Czar had just seen a 'mind over splatter' t-shirt at Redondo Beach and that's why Pretty Liz is pregnant.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "C-Czar,Pretty Liz",
+//   "tstart": "45:40",
+//   "tend": "45:53",
+//   "location_type": "poly",
+//   "location_id": 187
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 264,
+//   "slug_earwolf": "creating-a-krolliverse",
+//   "id_wikia": 4093,
+//   "url_soundcloud": "264-nick-kroll-jenny-slate",
+//   "name": "Location",
+//   "desc": "C-Czar will be skateboarding at Fairfax High School for the next two weeks.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "C-Czar,Pretty Liz",
+//   "tstart": "1:20:15",
+//   "tend": "1:20:20",
+//   "location_type": "poly",
+//   "location_id": 188
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 264,
+//   "slug_earwolf": "creating-a-krolliverse",
+//   "id_wikia": 4093,
+//   "url_soundcloud": "264-nick-kroll-jenny-slate",
+//   "name": "Location",
+//   "desc": "C-Czar will be setting off fireworks in Alhambra.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "C-Czar,Pretty Liz",
+//   "tstart": "1:20:20",
+//   "tend": "1:20:31",
+//   "location_type": "poly",
+//   "location_id": 189
+// }
+// 
+
+
+// {
+//   "show": "cbb",
+//   "episode": 265,
+//   "slug_earwolf": "live-from-riot-la-2",
+//   "id_wikia": 3882,
+//   "url_soundcloud": "265-live-from-riot-la-paul-f",
+//   "name": "Location",
+//   "desc": "JW is self-funded, built his own HQ in Cumberbatch.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "JW Stillwater",
+//   "tstart": "47:38",
+//   "tend": "47:57",
+//   "location_type": "poly",
+//   "location_id": 169
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 265,
+//   "slug_earwolf": "live-from-riot-la-2",
+//   "id_wikia": 3882,
+//   "url_soundcloud": "265-live-from-riot-la-paul-f",
+//   "name": "Location",
+//   "desc": "As usual, JW boated to L.A. via the Panama Canal.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "JW Stillwater",
+//   "tstart": "1:08:18",
+//   "tend": "1:08:28",
+//   "location_type": "line",
+//   "location_id": 53
+// }
+// 
+
+// {
+//   "show": "cbb",
+//   "episode": 266,
+//   "slug_earwolf": "the-calvins-twins",
+//   "id_wikia": 4137,
+//   "url_soundcloud": "266-taran-killam-paul-brittain",
+//   "name": "Location",
+//   "desc": "To reach The Calvins Bee Honey Horse Fight Fields: 605 to the 606 to the 607 til it turns into Calvins Blvd right before the 608.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "The Calvins Brothers,Bever Hopox,Chico Hands",
+//   "tstart": "1:03:41",
+//   "tend": "1:04:53",
+//   "location_type": "point",
+//   "location_id": 410
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 266,
+//   "slug_earwolf": "the-calvins-twins",
+//   "id_wikia": 4137,
+//   "url_soundcloud": "266-taran-killam-paul-brittain",
+//   "name": "Location",
+//   "desc": "Bevers will be signing copies of Chico's book in Los Feliz.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "The Calvins Brothers,Bever Hopox,Chico Hands",
+//   "tstart": "1:12:16",
+//   "tend": "1:12:30",
+//   "location_type": "point",
+//   "location_id": 411
+// }
+// 
+
+// {
+//   "show": "cbb",
+//   "episode": 268,
+//   "slug_earwolf": "what-does-the-fonz-say",
+//   "id_wikia": 2477,
+//   "url_soundcloud": "268-jimmy-pardo-betsy-sodaro",
+//   "name": "Location",
+//   "desc": "The curse on the Apple store at The Grove is that it's always too crowded.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Voda the Gypsy",
+//   "tstart": "52:30",
+//   "tend": "52:48",
+//   "location_type": "point",
+//   "location_id": 13
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 268,
+//   "slug_earwolf": "what-does-the-fonz-say",
+//   "id_wikia": 2477,
+//   "url_soundcloud": "268-jimmy-pardo-betsy-sodaro",
+//   "name": "Location",
+//   "desc": "The curse on the Apple store in Manhattan is that it's too loud.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Voda the Gypsy",
+//   "tstart": "52:30",
+//   "tend": "52:48",
+//   "location_type": "poly",
+//   "location_id": 190
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 268,
+//   "slug_earwolf": "what-does-the-fonz-say",
+//   "id_wikia": 2477,
+//   "url_soundcloud": "268-jimmy-pardo-betsy-sodaro",
+//   "name": "Location",
+//   "desc": "Voda cursed that theatre in Colorado.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Voda the Gypsy",
+//   "tstart": "1:15:40",
+//   "tend": "1:15:56",
+//   "location_type": "point",
+//   "location_id": 413
+// }
+// 
+// 414
+
+// {
+//   "show": "cbb",
+//   "episode": 270,
+//   "slug_earwolf": "off-the-grid",
+//   "id_wikia": 4251,
+//   "url_soundcloud": "270-jon-daly-james-adomian",
+//   "name": "Location",
+//   "desc": "Jon Daly takes acoustic guitar lessons from Flea at Silverlake Music Conservatory.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Flea,Red Hot Chili Peppers",
+//   "tstart": "7:47",
+//   "tend": "8:35",
+//   "location_type": "point",
+//   "location_id": 414
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 270,
+//   "slug_earwolf": "off-the-grid",
+//   "id_wikia": 4251,
+//   "url_soundcloud": "270-jon-daly-james-adomian",
+//   "name": "Location",
+//   "desc": "Jesse's been getting into ayahuasca down in Mexico, has his coffee near some Yucatán cenotes every morning.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Jesse Ventura",
+//   "tstart": "39:43",
+//   "tend": "40:22",
+//   "location_type": "poly",
+//   "location_id": 191
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 270,
+//   "slug_earwolf": "off-the-grid",
+//   "id_wikia": 4251,
+//   "url_soundcloud": "270-jon-daly-james-adomian",
+//   "name": "Location",
+//   "desc": "When General Zod told Jesse Ventura to kneel (at a Superman screening in Manhattan) Jesse said 'Hello no!' and ripped the screen down.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Jesse Ventura",
+//   "tstart": "42:20",
+//   "tend": "42:48",
+//   "location_type": "poly",
+//   "location_id": 192
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 270,
+//   "slug_earwolf": "off-the-grid",
+//   "id_wikia": 4251,
+//   "url_soundcloud": "270-jon-daly-james-adomian",
+//   "name": "Location",
+//   "desc": "Jesse surfs hundred-year waves 'all the time' in baja -- evidently somewhere near the Enigma's HQ and his home.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Jesse Ventura",
+//   "tstart": "1:03:24",
+//   "tend": "1:03:41",
+//   "location_type": "point",
+//   "location_id": 415
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 270,
+//   "slug_earwolf": "off-the-grid",
+//   "id_wikia": 4251,
+//   "url_soundcloud": "270-jon-daly-james-adomian",
+//   "name": "Location",
+//   "desc": "Jesse first met Slim Pickens at the Grand Ole Opry.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Jesse Ventura,Slim Pickens",
+//   "tstart": "1:16:47",
+//   "tend": "1:17:14",
+//   "location_type": "poly",
+//   "location_id": 194
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 270,
+//   "slug_earwolf": "off-the-grid",
+//   "id_wikia": 4251,
+//   "url_soundcloud": "270-jon-daly-james-adomian",
+//   "name": "Location",
+//   "desc": "Jesse gets to Atlanta by 'swimming up the Chattahoochee from Savannah' (which is technically impossible).",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Jesse Ventura,Ric Flair",
+//   "tstart": "1:16:03",
+//   "tend": "1:16:22",
+//   "location_type": "line",
+//   "location_id": 54
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 270,
+//   "slug_earwolf": "off-the-grid",
+//   "id_wikia": 4251,
+//   "url_soundcloud": "270-jon-daly-james-adomian",
+//   "name": "Location",
+//   "desc": "There have been moments when Jesse was walking hip-replacement-deep near his surf shack in Mexico and he had a feeling there was a presence floating above his shoulder.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Jesse Ventura",
+//   "tstart": "1:20:27",
+//   "tend": "1:20:46",
+//   "location_type": "point",
+//   "location_id": 415
+// }
+// 
+// 195poly
+// 
+
+// {
+//   "show": "cbb",
+//   "episode": 271,
+//   "slug_earwolf": "tiny-little-boy-parts",
+//   "id_wikia": 4268,
+//   "url_soundcloud": "271-nick-thune-molly-bretthauer",
+//   "name": "Location",
+//   "desc": "Scott and Nick Thune's agent's car/office is parked in North Hollywood.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Meredith Coldwell",
+//   "tstart": "22:16",
+//   "tend": "22:42",
+//   "location_type": "poly",
+//   "location_id": 195
+// }
+
+
+// {
+//   "show": "cbb",
+//   "episode": 272,
+//   "slug_earwolf": "sex-party-season",
+//   "id_wikia": 4274,
+//   "url_soundcloud": "272-gillian-jacobs-paul-f",
+//   "name": "Location",
+//   "desc": "Lentil Wiseman is from Fremont, California.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Len Wiseman",
+//   "tstart": "56:54",
+//   "tend": "56:59",
+//   "location_type": "poly",
+//   "location_id": 196
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 272,
+//   "slug_earwolf": "sex-party-season",
+//   "id_wikia": 4274,
+//   "url_soundcloud": "272-gillian-jacobs-paul-f",
+//   "name": "Location",
+//   "desc": "Lentil Wiseman and his PO Box are now in Bel Air.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Len Wiseman",
+//   "tstart": "58:33",
+//   "tend": "58:43",
+//   "location_type": "poly",
+//   "location_id": 51
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 272,
+//   "slug_earwolf": "sex-party-season",
+//   "id_wikia": 4274,
+//   "url_soundcloud": "272-gillian-jacobs-paul-f",
+//   "name": "Location",
+//   "desc": "Lentil gets cheeky with Scott about Cupertino High.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Len Wiseman",
+//   "tstart": "1:00:02",
+//   "tend": "1:00:13	",
+//   "location_type": "point",
+//   "location_id": 256
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 272,
+//   "slug_earwolf": "sex-party-season",
+//   "id_wikia": 4274,
+//   "url_soundcloud": "272-gillian-jacobs-paul-f",
+//   "name": "Location",
+//   "desc": "Garry Marshall loves Ponchick Factory and classic NYC egg creams.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Garry Marshall",
+//   "tstart": "11:00",
+//   "tend": "11:08",
+//   "location_type": "point",
+//   "location_id": 416
+// }
+// poly62
+
+
+// {
+//   "show": "cbb",
+//   "episode": 273,
+//   "slug_earwolf": "vape-cod",
+//   "id_wikia": 4288,
+//   "url_soundcloud": "273-jim-oheir-horatio-sanz",
+//   "name": "Location",
+//   "desc": "Shelly often sees Jim O'Heir walking around watching the CBB TV show.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Shelly Driftwood",
+//   "tstart": "23:02",
+//   "tend": "23:07",
+//   "location_type": "poly",
+//   "location_id": 62
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 273,
+//   "slug_earwolf": "vape-cod",
+//   "id_wikia": 4288,
+//   "url_soundcloud": "273-jim-oheir-horatio-sanz",
+//   "name": "Location",
+//   "desc": "Shelly often sees Jim O'Heir walking around watching the CBB TV show.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Shelly Driftwood",
+//   "tstart": "23:02",
+//   "tend": "23:07",
+//   "location_type": "poly",
+//   "location_id": 62
+// }
+// 
+
+
+// {
+//   "show": "cbb",
+//   "episode": 273,
+//   "slug_earwolf": "vape-cod",
+//   "id_wikia": 4288,
+//   "url_soundcloud": "273-jim-oheir-horatio-sanz",
+//   "name": "Location",
+//   "desc": "Shelly gets to Earwolf via the 110 both ways.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Shelly Driftwood",
+//   "tstart": "24:14",
+//   "tend": "24:38",
+//   "location_type": "line",
+//   "location_id": 55
+// }
+// 
+
+// {
+//   "show": "cbb",
+//   "episode": 273,
+//   "slug_earwolf": "vape-cod",
+//   "id_wikia": 4288,
+//   "url_soundcloud": "273-jim-oheir-horatio-sanz",
+//   "name": "Location",
+//   "desc": "Shelly's income is largely from Harvey at the Marina del Rey Dockers, who pays him to hang Christmas decorations.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Shelly Driftwood",
+//   "tstart": "25:59",
+//   "tend": "26:15",
+//   "location_type": "point",
+//   "location_id": 418
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 273,
+//   "slug_earwolf": "vape-cod",
+//   "id_wikia": 4288,
+//   "url_soundcloud": "273-jim-oheir-horatio-sanz",
+//   "name": "Location",
+//   "desc": "Vape Cod, Shelly Driftwood's dispensary, is either at 13574 Lincoln or 1357187 Lincoln.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Shelly Driftwood",
+//   "tstart": "28:46",
+//   "tend": "29:21",
+//   "location_type": "point",
+//   "location_id": 419
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 273,
+//   "slug_earwolf": "vape-cod",
+//   "id_wikia": 4288,
+//   "url_soundcloud": "273-jim-oheir-horatio-sanz",
+//   "name": "Location",
+//   "desc": "Vape Cod, Shelly Driftwood's dispensary, is either at 13574 Lincoln or 1357187 Lincoln.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Shelly Driftwood",
+//   "tstart": "28:46",
+//   "tend": "29:21",
+//   "location_type": "point",
+//   "location_id": 419
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 273,
+//   "slug_earwolf": "vape-cod",
+//   "id_wikia": 4288,
+//   "url_soundcloud": "273-jim-oheir-horatio-sanz",
+//   "name": "Location",
+//   "desc": "Shelly takes a circuitous route from Venice to the Staples Center.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Shelly Driftwood",
+//   "tstart": "31:27",
+//   "tend": "31:55",
+//   "location_type": "line",
+//   "location_id": 56
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 273,
+//   "slug_earwolf": "vape-cod",
+//   "id_wikia": 4288,
+//   "url_soundcloud": "273-jim-oheir-horatio-sanz",
+//   "name": "Location",
+//   "desc": "Shelly's route from Earwolf to Vape Cod is Fairfax to the 10 to 91 to 91 West, get off at Lincoln and it's a mile down the street.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Shelly Driftwood",
+//   "tstart": "50:54",
+//   "tend": "51:17",
+//   "location_type": "poly",
+//   "location_id": 198
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 273,
+//   "slug_earwolf": "vape-cod",
+//   "id_wikia": 4288,
+//   "url_soundcloud": "273-jim-oheir-horatio-sanz",
+//   "name": "Location",
+//   "desc": "Shelly's route from Earwolf to Vape Cod is Fairfax to the 10 to 91 to 91 West, get off at Lincoln and it's a mile down the street.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Shelly Driftwood",
+//   "tstart": "50:54",
+//   "tend": "51:17",
+//   "location_type": "poly",
+//   "location_id": 421
+// }
+// 
+// {
+//   "show": "cbb",
+//   "episode": 273,
+//   "slug_earwolf": "vape-cod",
+//   "id_wikia": 4288,
+//   "url_soundcloud": "273-jim-oheir-horatio-sanz",
+//   "name": "Location",
+//   "desc": "Trunks in West Hollywood is where a lot of ex-football players go to ram other dudes.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Shelly Driftwood",
+//   "tstart": "54:14",
+//   "tend": "54:36",
+//   "location_type": "point",
+//   "location_id": 421
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 273,
+//   "slug_earwolf": "vape-cod",
+//   "id_wikia": 4288,
+//   "url_soundcloud": "273-jim-oheir-horatio-sanz",
+//   "name": "Location",
+//   "desc": "Brett Butler was on Flight 93 and in fact caused its descent when she jumped out causing an internal pressure issue.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Shelly Driftwood,United Airlines Flight 93,Brett Butler",
+//   "tstart": "1:00:21",
+//   "tend": "1:01:26",
+//   "location_type": "poly",
+//   "location_id": 200
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 273,
+//   "slug_earwolf": "vape-cod",
+//   "id_wikia": 4288,
+//   "url_soundcloud": "273-jim-oheir-horatio-sanz",
+//   "name": "Location",
+//   "desc": "Shelly met Brett Butler at a 'Thousand Lakes' rehab facility.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Shelly Driftwood,Brett Butler",
+//   "tstart": "1:01:56",
+//   "tend": "1:02:15",
+//   "location_type": "point",
+//   "location_id": 422
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 273,
+//   "slug_earwolf": "vape-cod",
+//   "id_wikia": 4288,
+//   "url_soundcloud": "273-jim-oheir-horatio-sanz",
+//   "name": "Location",
+//   "desc": "Burt Reynolds put a .45 to Shelly's head in the bathroom of Dan Tana's and said 'stop doing coke.'",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Shelly Driftwood,Burt Reynolds",
+//   "tstart": "1:03:38",
+//   "tend": "1:03:51",
+//   "location_type": "point",
+//   "location_id": 220
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 273,
+//   "slug_earwolf": "vape-cod",
+//   "id_wikia": 4288,
+//   "url_soundcloud": "273-jim-oheir-horatio-sanz",
+//   "name": "Location",
+//   "desc": "Shelly had an airbag removed from Brett Butler's BMW in anticipation of a suicide jump in Topanga Canyon.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Shelly Driftwood,Brett Butler",
+//   "tstart": "1:14:45",
+//   "tend": "1:15:08",
+//   "location_type": "point",
+//   "location_id": 220
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 273,
+//   "slug_earwolf": "vape-cod",
+//   "id_wikia": 4288,
+//   "url_soundcloud": "273-jim-oheir-horatio-sanz",
+//   "name": "Location",
+//   "desc": "Shelly had an airbag removed from Brett Butler's BMW in anticipation of a suicide jump in Topanga Canyon.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Shelly Driftwood,Brett Butler",
+//   "tstart": "1:14:45",
+//   "tend": "1:15:08",
+//   "location_type": "poly",
+//   "location_id": 201
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 273,
+//   "slug_earwolf": "vape-cod",
+//   "id_wikia": 4288,
+//   "url_soundcloud": "273-jim-oheir-horatio-sanz",
+//   "name": "Location",
+//   "desc": "Shelly's route to his suicide in Topanga Canyon.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Shelly Driftwood,Brett Butler,suicide",
+//   "tstart": "1:14:45",
+//   "tend": "1:15:08",
+//   "location_type": "line",
+//   "location_id": 58
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 273,
+//   "slug_earwolf": "vape-cod",
+//   "id_wikia": 4288,
+//   "url_soundcloud": "273-jim-oheir-horatio-sanz",
+//   "name": "Location",
+//   "desc": "Shelly plugs the wrong location (1357187 Lincoln Blvd) for Vape Cod.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Shelly Driftwood",
+//   "tstart": "1:15:08",
+//   "tend": "1:15:38",
+//   "location_type": "point",
+//   "location_id": 419
+// }
+// 
+// line11
+// 
+
+
+// {
+//   "show": "cbb",
+//   "episode": 274,
+//   "slug_earwolf": "oh-golly",
+//   "id_wikia": 4321,
+//   "url_soundcloud": "274-jason-mantzoukas-andy-daly",
+//   "name": "Location",
+//   "desc": "Gil and Golly met on a boat in international waters.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Gil,Golly",
+//   "tstart": "38:57",
+//   "tend": "39:32",
+//   "location_type": "line",
+//   "location_id": 11
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 274,
+//   "slug_earwolf": "oh-golly",
+//   "id_wikia": 4321,
+//   "url_soundcloud": "274-jason-mantzoukas-andy-daly",
+//   "name": "Location",
+//   "desc": "Gil freelanced at the ArcLight for a spell.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Gil",
+//   "tstart": "53:08",
+//   "tend": "53:31",
+//   "location_type": "poly",
+//   "location_id": 133
+// }
+// 
+
+// {
+//   "show": "cbb",
+//   "episode": 275,
+//   "slug_earwolf": "live-from-sxsw-2014",
+//   "id_wikia": 3882,
+//   "url_soundcloud": "275-live-from-sxsw-2014-jonah",
+//   "name": "Location",
+//   "desc": "The Sheriff of Nottingham spends summers in Barcelona.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Sheriff of Nottingham",
+//   "tstart": "49:54",
+//   "tend": "50:03",
+//   "location_type": "poly",
+//   "location_id": 203
+// }
+// 
+
+// {
+//   "show": "cbb",
+//   "episode": 276,
+//   "slug_earwolf": "live-from-sxsw-2014-ii",
+//   "id_wikia": 3882,
+//   "url_soundcloud": "276-live-from-sxsw-2014-ii",
+//   "name": "Location",
+//   "desc": "Gino is a radio major at Nassau Community College and gets extra credit for doing 'future radio.'",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Gino Lambardo",
+//   "tstart": "5:05",
+//   "tend": "5:15",
+//   "location_type": "point",
+//   "location_id": 299
+// }
+// 
+// point423
+
+// {
+//   "show": "cbb",
+//   "episode": 301,
+//   "slug_earwolf": "theyre-twins-jonah",
+//   "id_wikia": 4806,
+//   "url_soundcloud": "301-jonah-ray-kumail-nanjiani-brendon-small",
+//   "name": "Location",
+//   "desc": "Tiny met Victor at a Burger King (near an apartment complex with a dentist in it).",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Victor Diamond,Tiny",
+//   "tstart": "38:01",
+//   "tend": "38:38",
+//   "location_type": "point",
+//   "location_id": 423
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 301,
+//   "slug_earwolf": "theyre-twins-jonah",
+//   "id_wikia": 4806,
+//   "url_soundcloud": "301-jonah-ray-kumail-nanjiani-brendon-small",
+//   "name": "Location",
+//   "desc": "Kumail's right - Victor is from Havana.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Victor Diamond,Tiny",
+//   "tstart": "53:53",
+//   "tend": "54:21",
+//   "location_type": "poly",
+//   "location_id": 82
+// }
+// 
+
+// {
+//   "show": "cbb",
+//   "episode": 302,
+//   "slug_earwolf": "milkshake-movies",
+//   "id_wikia": 4807,
+//   "url_soundcloud": "302-mary-lynn-rajskub-eddie-pepitone-twin-shadow",
+//   "name": "Location",
+//   "desc": "Howard Amethyst's wife might leave him in the Ralphs on Ventura.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Howard Amethyst",
+//   "tstart": "39:35",
+//   "tend": "42:07",
+//   "location_type": "point",
+//   "location_id": 424
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 302,
+//   "slug_earwolf": "milkshake-movies",
+//   "id_wikia": 4807,
+//   "url_soundcloud": "302-mary-lynn-rajskub-eddie-pepitone-twin-shadow",
+//   "name": "Location",
+//   "desc": "Howard Amethyst role-plays that he's on line at Rite Aid on Ventura.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Howard Amethyst",
+//   "tstart": "42:40",
+//   "tend": "43:02",
+//   "location_type": "point",
+//   "location_id": 425
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 302,
+//   "slug_earwolf": "milkshake-movies",
+//   "id_wikia": 4807,
+//   "url_soundcloud": "302-mary-lynn-rajskub-eddie-pepitone-twin-shadow",
+//   "name": "Location",
+//   "desc": "At Cedars-Sinai it's best to not use the word 'semi' when discussing earthquakes.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Howard Amethyst",
+//   "tstart": "44:50",
+//   "tend": "44:58",
+//   "location_type": "poly",
+//   "location_id": 204
+// }
+// 
+// poly157
+// 
+
+
+// {
+//   "show": "cbb",
+//   "episode": 350,
+//   "slug_earwolf": "helmets-aqueduct-crucifixion-boobs",
+//   "id_wikia": 5491,
+//   "url_soundcloud": "350-andy-richter-andy-daly",
+//   "name": "Location",
+//   "desc": "Byron admits he perhaps crossed the line when he intended to kidnap the royal baby and raising it in the dark arts on the isle of Australia.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Byron Denniston,Prince George of Cambridge",
+//   "tstart": "37:35",
+//   "tend": "37:53",
+//   "location_type": "poly",
+//   "location_id": 157
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 350,
+//   "slug_earwolf": "helmets-aqueduct-crucifixion-boobs",
+//   "id_wikia": 5491,
+//   "url_soundcloud": "350-andy-richter-andy-daly",
+//   "name": "Location",
+//   "desc": "Denniston argues that it's entirely optional whether you first consider Australia an island or a continent.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Byron Denniston",
+//   "tstart": "38:48",
+//   "tend": "38:56",
+//   "location_type": "poly",
+//   "location_id": 157
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 350,
+//   "slug_earwolf": "helmets-aqueduct-crucifixion-boobs",
+//   "id_wikia": 5491,
+//   "url_soundcloud": "350-andy-richter-andy-daly",
+//   "name": "Location",
+//   "desc": "Byron stopped in Haiti on his way to L.A. from the UK.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Byron Denniston",
+//   "tstart": "1:09:40",
+//   "tend": "1:10:01",
+//   "location_type": "line",
+//   "location_id": 59
+// }
+// 
+// point:426
+// 
+
+
+// {
+//   "show": "cbb",
+//   "episode": 351,
+//   "slug_earwolf": "cbb-the-movie",
+//   "id_wikia": 3945,
+//   "url_soundcloud": null,
+//   "name": "Location",
+//   "desc": "At Hayley Shields' school, Temecula College for the Arts, anything goes in improv.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Hayley Shields",
+//   "tstart": "1:07:59",
+//   "tend": "1:08:11",
+//   "location_type": "point",
+//   "location_id": 426
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 351,
+//   "slug_earwolf": "cbb-the-movie",
+//   "id_wikia": 3945,
+//   "url_soundcloud": null,
+//   "name": "Location",
+//   "desc": "Hayley Shields pitches in at Linkin High School.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Hayley Shields",
+//   "tstart": "1:09:43",
+//   "tend": "1:10:12",
+//   "location_type": "point",
+//   "location_id": 427
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 351,
+//   "slug_earwolf": "cbb-the-movie",
+//   "id_wikia": 3945,
+//   "url_soundcloud": null,
+//   "name": "Location",
+//   "desc": "Bang Rodgers was under the impression that CBB was a fundraiser for the Old Town Playhouse near Linkin Park.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Hayley Shields,Bang Rodgers,Linkin Park",
+//   "tstart": "1:14:19",
+//   "tend": "1:15:24",
+//   "location_type": "point",
+//   "location_id": 428
+// }
+// 
+// point429
+// 
+
+// {
+//   "show": "cbb",
+//   "episode": 12,
+//   "slug_earwolf": "the-babys-sunglasses",
+//   "id_wikia": 2426,
+//   "url_soundcloud": "the-babys-sunglasses",
+//   "name": "Location",
+//   "desc": "Scott met Bobby at the Ed Hardy store on Melrose, which is where Bobby buys t-shirts of dragons raping lions on skateboards.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Bobby Bottleservice",
+//   "tstart": "19:30",
+//   "tend": "19:46",
+//   "location_type": "point",
+//   "location_id": 429
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 12,
+//   "slug_earwolf": "the-babys-sunglasses",
+//   "id_wikia": 2426,
+//   "url_soundcloud": "the-babys-sunglasses",
+//   "name": "Location",
+//   "desc": "Bobby's move is to invite a girl to Manhattan Beach to go swimming with Dan Marino.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Bobby Bottleservice,Dan Marino",
+//   "tstart": "21:54",
+//   "tend": "22:09",
+//   "location_type": "poly",
+//   "location_id": 205
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 12,
+//   "slug_earwolf": "the-babys-sunglasses",
+//   "id_wikia": 2426,
+//   "url_soundcloud": "the-babys-sunglasses",
+//   "name": "Location",
+//   "desc": "Bobby takes ladies somewhere expensive, like Cheesecake Factory, for Tuna Oreo Parmesan.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Bobby Bottleservice",
+//   "tstart": "22:11",
+//   "tend": "22:27",
+//   "location_type": "point",
+//   "location_id": 430
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 12,
+//   "slug_earwolf": "the-babys-sunglasses",
+//   "id_wikia": 2426,
+//   "url_soundcloud": "the-babys-sunglasses",
+//   "name": "Location",
+//   "desc": "Bobby takes girls all over the world, e.g. Cancún.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Bobby Bottleservice",
+//   "tstart": "23:16",
+//   "tend": "23:27",
+//   "location_type": "poly",
+//   "location_id": 207
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 12,
+//   "slug_earwolf": "the-babys-sunglasses",
+//   "id_wikia": 2426,
+//   "url_soundcloud": "the-babys-sunglasses",
+//   "name": "Location",
+//   "desc": "As well as in addition to traveling the world, Bobby passes a lot of his cosmopolitan time at the Las Vegas Hard Rock pool on Sundays.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Bobby Bottleservice",
+//   "tstart": "23:29",
+//   "tend": "23:53",
+//   "location_type": "poly",
+//   "location_id": 208
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 12,
+//   "slug_earwolf": "the-babys-sunglasses",
+//   "id_wikia": 2426,
+//   "url_soundcloud": "the-babys-sunglasses",
+//   "name": "Location",
+//   "desc": "Bobby works in HR at H&R Block.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Bobby Bottleservice",
+//   "tstart": "24:35",
+//   "tend": "24:39",
+//   "location_type": "poly",
+//   "location_id": 431
+// }
+// 
+
+// {
+//   "show": "cbb",
+//   "episode": 27,
+//   "slug_earwolf": "a-cyberthug-take-over",
+//   "id_wikia": 2478,
+//   "url_soundcloud": "a-cyberthug-take-over",
+//   "name": "Location",
+//   "desc": "Bobby lists places where the water supply is conducive to gelling his hair into the Gotti style.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Bobby Bottleservice",
+//   "tstart": "12:53",
+//   "tend": "13:03",
+//   "location_type": "poly",
+//   "location_id": 81
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 27,
+//   "slug_earwolf": "a-cyberthug-take-over",
+//   "id_wikia": 2478,
+//   "url_soundcloud": "a-cyberthug-take-over",
+//   "name": "Location",
+//   "desc": "A date with Bobby would including swimming with Dan Marino at Manhattan Beach.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Bobby Bottleservice,Dan Marino",
+//   "tstart": "37:46",
+//   "tend": "38:24",
+//   "location_type": "poly",
+//   "location_id": 205
+// }
+// 
+// 
+// 
+// {
+//   "show": "cbb",
+//   "episode": 27,
+//   "slug_earwolf": "a-cyberthug-take-over",
+//   "id_wikia": 2478,
+//   "url_soundcloud": "a-cyberthug-take-over",
+//   "name": "Location",
+//   "desc": "A date with Bobby would including swimming with Dan Marino at Manhattan Beach.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Bobby Bottleservice,Dan Marino",
+//   "tstart": "37:46",
+//   "tend": "38:24",
+//   "location_type": "poly",
+//   "location_id": 205
+// }
+// 
+// 
+// {
+//   "show": "cbb",
+//   "episode": 27,
+//   "slug_earwolf": "a-cyberthug-take-over",
+//   "id_wikia": 2478,
+//   "url_soundcloud": "a-cyberthug-take-over",
+//   "name": "Location",
+//   "desc":"-Bobby lists great clubs in Chelsea: Bungalow 8",
+//   "elucidation":"Identifiable earth location.",
+//   "tags":"Bobby Bottleservice",
+//   "tstart":"17:06",
+//   "tend":"17:14",
+//   "location_type":"point",
+//   "location_id": 432
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 27,
+//   "slug_earwolf": "a-cyberthug-take-over",
+//   "id_wikia": 2478,
+//   "url_soundcloud": "a-cyberthug-take-over",
+//   "name": "Location",
+//   "desc":"-Bobby lists great clubs in Chelsea: Marquee",
+//   "elucidation":"Identifiable earth location.",
+//   "tags":"Bobby Bottleservice",
+//   "tstart":"17:06",
+//   "tend":"17:14",
+//   "location_type":"point",
+//   "location_id": 433
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 27,
+//   "slug_earwolf": "a-cyberthug-take-over",
+//   "id_wikia": 2478,
+//   "url_soundcloud": "a-cyberthug-take-over",
+//   "name": "Location",
+//   "desc":"-Bobby works in HR at H&R Block.",
+//   "elucidation":"Identifiable earth location.",
+//   "tags":"Bobby Bottleservice",
+//   "tstart":"17:42",
+//   "tend":"17:55",
+//   "location_type":"poly",
+//   "location_id": 431
+// }
+// 
+// {
+//   "show": "cbb",
+//   "episode": 27,
+//   "slug_earwolf": "a-cyberthug-take-over",
+//   "id_wikia": 2478,
+//   "url_soundcloud": "a-cyberthug-take-over",
+//   "name": "Location",
+//   "desc":"-Bobby B is a trainer at L.A. Fitness.",
+//   "elucidation":"Identifiable earth location.",
+//   "tags":"Bobby Bottleservice",
+//   "tstart":"24:04",
+//   "tend":"24:18",
+//   "location_type":"point",
+//   "location_id": 434
+// }
+
+//   {
+//   "show": "cbb",
+//   "episode": 27,
+//   "slug_earwolf": "a-cyberthug-take-over",
+//   "id_wikia": 2478,
+//   "url_soundcloud": "a-cyberthug-take-over",
+//   "name": "Location",
+//   "desc":"-A date with Bobby would including as much fried dough as one could consume at Santa Monica pier.",
+//   "elucidation":"Identifiable earth location.",
+//   "tags":"Bobby Bottleservice",
+//   "tstart":"37:46",
+//   "tend":"38:24",
+//   "location_type":"line",
+//   "location_id": 60
+// }
+
+//   {
+//   "show": "cbb",
+//   "episode": 27,
+//   "slug_earwolf": "a-cyberthug-take-over",
+//   "id_wikia": 2478,
+//   "url_soundcloud": "a-cyberthug-take-over",
+//   "name": "Location",
+//   "desc":"-A date with Bobby would include bathroom sex at a club in Sacramento.",
+//   "elucidation":"Identifiable earth location.",
+//   "tags":"Bobby Bottleservice",
+//   "tstart":"37:46",
+//   "tend":"38:24",
+//   "location_type":"poly",
+//   "location_id": 69
+// }
+
+//   {
+//   "show": "cbb",
+//   "episode": 27,
+//   "slug_earwolf": "a-cyberthug-take-over",
+//   "id_wikia": 2478,
+//   "url_soundcloud": "a-cyberthug-take-over",
+//   "name": "Location",
+//   "desc":"-Bobby lists places where the water supply is conducive to gelling his hair into the Gotti style: Staten Island.",
+//   "elucidation":"Identifiable earth location.",
+//   "tags":"Bobby Bottleservice",
+//   "tstart":"12:53",
+//   "tend":"13:03",
+//   "location_type":"poly",
+//   "location_id": 209
+// }
+
+//  {
+//   "show": "cbb",
+//   "episode": 27,
+//   "slug_earwolf": "a-cyberthug-take-over",
+//   "id_wikia": 2478,
+//   "url_soundcloud": "a-cyberthug-take-over",
+//   "name": "Location",
+//   "desc":"-Bobby lists places where the water supply is conducive to gelling his hair into the Gotti style: right outside of Detroit where all the Cro    atians are at.",
+//   "elucidation":"Identifiable earth location.",
+//   "tags":"Bobby Bottleservice",
+//  "tstart":"12:53",
+//  "tend":"13:03",
+//  "location_type":"point",
+//  "location_id": 435
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 36,
+//   "slug_earwolf": "another-cyberthug-take-over",
+//   "id_wikia": 2500,
+//   "url_soundcloud": "another-cyberthug-take-over",
+//   "name": "Location",
+//   "desc": "Cyberthug attended DeVry.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Cyberthug",
+//   "tstart": "46:04",
+//   "tend": "46:11",
+//   "location_type": "point",
+//   "location_id": 436
+// }
+// 
+// poly210
+// 
+
+// {
+//   "show": "cbb",
+//   "episode": 45,
+//   "slug_earwolf": "cyberthug-take-over-pt-three",
+//   "id_wikia": 2543,
+//   "url_soundcloud": "cyberthug-take-over-pt-three",
+//   "name": "Location",
+//   "desc": "Jesse posits that Estelle Getty was one of the gunmen on the grassy knoll.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Jesse Ventura,Estelle Getty",
+//   "tstart": "38:20",
+//   "tend": "38:27",
+//   "location_type": "poly",
+//   "location_id": 210
+// }
+// 
+
+// {
+//   "show": "cbb",
+//   "episode": 133,
+//   "slug_earwolf": "fortunately-unfortunately",
+//   "id_wikia": 2087,
+//   "url_soundcloud": "fortunately-unfortunately",
+//   "name": "Location",
+//   "desc": "Down in mexico (where Leslie ran a child-fighting ring) they call Leslie Schecter 'El Tigre.'",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Leslie Schecter",
+//   "tstart": "20:37",
+//   "tend": "21:05",
+//   "location_type": "poly",
+//   "location_id": 211
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 133,
+//   "slug_earwolf": "fortunately-unfortunately",
+//   "id_wikia": 2087,
+//   "url_soundcloud": "fortunately-unfortunately",
+//   "name": "Location",
+//   "desc": "Leslie is going to take his charity money and go coat shopping at a (Halloween super store?) (costume store?) on Hollywood Blvd.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Leslie Schecter",
+//   "tstart": "30:48",
+//   "tend": "31:04",
+//   "location_type": "point",
+//   "location_id": 438
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 133,
+//   "slug_earwolf": "fortunately-unfortunately",
+//   "id_wikia": 2087,
+//   "url_soundcloud": "fortunately-unfortunately",
+//   "name": "Location",
+//   "desc": "Leslie took a new mother to Miceli's.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Leslie Schecter",
+//   "tstart": "46:22",
+//   "tend": "46:41",
+//   "location_type": "point",
+//   "location_id": 437
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 133,
+//   "slug_earwolf": "fortunately-unfortunately",
+//   "id_wikia": 2087,
+//   "url_soundcloud": "fortunately-unfortunately",
+//   "name": "Location",
+//   "desc": "Leslie will pick up a costume from that place on Hollywood Blvd to sneak into the Montalban Theatre for the LA Food Bank benefit show.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Leslie Schecter",
+//   "tstart": "1:12:40",
+//   "tend": "1:13:13",
+//   "location_type": "point",
+//   "location_id": 438
+// }
+// 
+
+// {
+//   "show": "cbb",
+//   "episode": 170,
+//   "slug_earwolf": "new-scoop",
+//   "id_wikia": 3123,
+//   "url_soundcloud": "new-scoop",
+//   "name": "Location",
+//   "elucidation": "Identifiable earth location.",
+//   "desc":"The Fitzpatrick Coffee Club meets every Thursday morning 7:30 at the Hardee's off of Highway 29 in Fitzpatrick, Alabama",
+// "tstart":"28:03",
+// "tend":"28:13",
+// "location_type":"point",
+// "location_id":439
+// }
+// 
+
+// {
+//   "show": "cbb",
+//   "episode": 170,
+//   "slug_earwolf": "new-scoop",
+//   "id_wikia": 3123,
+//   "url_soundcloud": "new-scoop",
+//   "name": "Location",
+//   "elucidation": "Identifiable earth location.",
+//   "desc":"CBB has a big following in Thailand, possibly because of all of Scott's business trips there.",
+// "tstart":"33:00",
+// "tend":"33:33",
+// "location_type":"poly",
+// "location_id":212
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 170,
+//   "slug_earwolf": "new-scoop",
+//   "id_wikia": 3123,
+//   "url_soundcloud": "new-scoop",
+//   "name": "Location",
+//   "elucidation": "Identifiable earth location.",
+//   "desc":"Marci's husband went to Thailand and never came back.",
+// "tstart":"33:33",
+// "tend":"33:37",
+// "location_type":"poly",
+// "location_id":212
+// }
+// {
+//   "show": "cbb",
+//   "episode": 170,
+//   "slug_earwolf": "new-scoop",
+//   "id_wikia": 3123,
+//   "url_soundcloud": "new-scoop",
+//   "name": "Location",
+//   "elucidation": "Identifiable earth location.",
+//   "desc":"Moving the Coffee Club to the Denny's out by the turnpike was rejected by Ethel due to noise.",
+// "tstart":"33:58",
+// "tend":"34:14",
+// "location_type":"point",
+// "location_id":440
+// }
+// {
+//   "show": "cbb",
+//   "episode": 170,
+//   "slug_earwolf": "new-scoop",
+//   "id_wikia": 3123,
+//   "url_soundcloud": "new-scoop",
+//   "name": "Location",
+//   "elucidation": "Identifiable earth location.",
+//   "desc":"Ethel Branscome was born and raised in a barn in Fitzpatrick, AL.",
+// "tstart":"31:57",
+// "tend":"32:05",
+// "location_type":"poly",
+// "location_id":213
+// }
+// 
+
+
+// {
+//   "show": "cbb",
+//   "episode": 172,
+//   "slug_earwolf": "this-is-a-safe-zone",
+//   "id_wikia": 2262,
+//   "url_soundcloud": "this-is-a-safe-zone",
+//   "name": "Location",
+//   "desc": "The gamgam character in Glenn Maxx' book series lives in Pasadena.",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Glenn Maxx",
+//   "tstart": "55:01",
+//   "tend": "55:22",
+//   "location_type": "poly",
+//   "location_id": 41
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 172,
+//   "slug_earwolf": "this-is-a-safe-zone",
+//   "id_wikia": 2262,
+//   "url_soundcloud": "this-is-a-safe-zone",
+//   "name": "Location",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": "Glenn Maxx,Jermaine Jones",
+//   "desc": "Glenn Maxx' gamgam character might be a giant from Bigton, like Jermaine Jones.",
+//   "tstart": "1:12:43",
+//   "tend": "1:13:17",
+//   "location_type": "poly",
+//   "location_id": 19
+// }
+// 
+
+
+// {
+//   "show": "cbb",
+//   "episode": 177,
+//   "slug_earwolf": "penises-abounding",
+//   "id_wikia": 3160,
+//   "url_soundcloud": "penises-abounding",
+//   "name": "Location",
+//   "elucidation": "Identifiable earth location.",
+//     "tags": "Van Davion,Mike Smithd",
+//     "description":"Van Davion and Mike Smith got a meeting at Pixar because Pixar was promoting Monsters Inc. at the chopsocky festival a little north of Oakland.",
+// "tstart":"31:41",
+// "tend":"32:37",
+// "location_type":"point",
+// "location_id":441
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 177,
+//   "slug_earwolf": "penises-abounding",
+//   "id_wikia": 3160,
+//   "url_soundcloud": "penises-abounding",
+//   "name": "Location",
+//   "elucidation": "Identifiable earth location.",
+//     "tags": "Van Davion,Mike Smithd",
+//     "description":"Van Davion and Mike were distracted from their jobs at Newark Int'l Airport starting approximately August 2001 (chose newark even though they *now* work at LAX).",
+// "tstart":"36:18",
+// "tend":"36:47",
+// "location_type":"poly",
+// "location_id":215
+// }
+
+// {
+//   "show": "cbb",
+//   "episode": 177,
+//   "slug_earwolf": "penises-abounding",
+//   "id_wikia": 3160,
+//   "url_soundcloud": "penises-abounding",
+//   "name": "Location",
+//   "elucidation": "Identifiable earth location.",
+//     "tags": "Van Davion,Mike Smithd",
+//     "description":"Van Davion and Mike no longer work at one of the 9/11 airports and are now in Terminal 5 at LAX.",
+// "tstart":"1:22:35",
+// "tend":"1:22:54",
+// "location_type":"poly",
+// "location_id":216
+// }
+// 
+
+
+// {
+//   "show": "cbb",
+//   "episode": 199,
+//   "slug_earwolf": "garry-unmarried",
+//   "id_wikia": 2229,
+//   "url_soundcloud": "garry-unmarried",
+//   "name": "Location",
+//   "desc": "",
+//   "elucidation": "Identifiable earth location.",
+//   "tags": null,
+//   "tstart": "",
+//   "tend": "",
+//   "location_type": "",
+//   "location_id": null
+// }
+// 
+ // {
+ //  "show": "cbb",
+ //  "episode": 199,
+ //  "slug_earwolf": "garry-unmarried",
+ //  "id_wikia": 2229,
+ //  "url_soundcloud": "garry-unmarried",
+ //  "name": "Location",
+ //  "desc":"One of three suspended animation facilities in the U.S.: The Bull & Finch.",
+ //    "elucidation": "Identifiable earth location.",
+ //  "tags": "Garry Marshall",
+ // "tstart":"20:28",
+ // "tend":"20:40",
+ // "location_type":"point",
+ // "location_id":446
+ // }
+ 
+ // {
+ //  "show": "cbb",
+ //  "episode": 199,
+ //  "slug_earwolf": "garry-unmarried",
+ //  "id_wikia": 2229,
+ //  "url_soundcloud": "garry-unmarried",
+ //  "name": "Location",
+ //  "desc":"One of three suspended animation facilities in the U.S.: Lincoln's lap.",
+ //    "elucidation": "Identifiable earth location.",
+ //  "tags": "Garry Marshall,Abraham Lincoln",
+ // "tstart":"20:57",
+ // "tend":"21:09",
+ // "location_type":"poly",
+ // "location_id":217
+ // }
+ 
+ // {
+ //  "show": "cbb",
+ //  "episode": 199,
+ //  "slug_earwolf": "garry-unmarried",
+ //  "id_wikia": 2229,
+ //  "url_soundcloud": "garry-unmarried",
+ //  "name": "Location",
+ //  "desc":"Garry's guest house is a hollowed-out Packard on blocks behind the Hollywood Y.",
+ //    "elucidation": "Identifiable earth location.",
+ //  "tags": "Garry Marshall",
+ // "tstart":"48:07",
+ // "tend":"48:33",
+ // "location_type":"point",
+ // "location_id":447
+ // }
+ 
+ // {
+ //  "show": "cbb",
+ //  "episode": 199,
+ //  "slug_earwolf": "garry-unmarried",
+ //  "id_wikia": 2229,
+ //  "url_soundcloud": "garry-unmarried",
+ //  "name": "Location",
+ //  "desc":"Garry is worried if he chooses the wyr option to which he's leaning he will no longer live in Bel Air next to Denzel, Paul, and Bob.",
+ //    "elucidation": "Identifiable earth location.",
+ //  "tags": "Garry Marshall,Denzel Washington,Paul Reiser,Bob Eubanks",
+ // "tstart":"1:01:33",
+ // "tend":"1:01:43",
+ // "location_type":"poly",
+ // "location_id":51
+ // }
+ 
+ // {
+ //  "show": "cbb",
+ //  "episode": 199,
+ //  "slug_earwolf": "garry-unmarried",
+ //  "id_wikia": 2229,
+ //  "url_soundcloud": "garry-unmarried",
+ //  "name": "Location",
+ //  "desc":"In the Giving Directions scenario everybody eats means at Madison Square Garden center court.",
+ //    "elucidation": "Identifiable earth location.",
+ //  "tags": "Garry Marshall",
+ // "tstart":"1:03:15",
+ // "tend":"1:03:44",
+ // "location_type":"poly",
+ // "location_id":80
+ // }
+ 
+ // {
+ //  "show": "cbb",
+ //  "episode": 199,
+ //  "slug_earwolf": "garry-unmarried",
+ //  "id_wikia": 2229,
+ //  "url_soundcloud": "garry-unmarried",
+ //  "name": "Location",
+ //  "desc":"If you're a monster please surrender yourself to Garry Marshall's gated home in Bel Air.",
+  //   "elucidation": "Identifiable earth location.",
+  // "tags": "Garry Marshall",
+ // "tstart":"1:15:41",
+ // "tend":"1:15:53",
+ // "location_type":"poly",
+ // "location_id":51
+ // }
+
+// {
+//   "show": "cbb",
+//   "episode": 199,
+//   "slug_earwolf": "garry-unmarried",
+//   "id_wikia": 2229,
+//   "url_soundcloud": "garry-unmarried",
+//   "name": "Location",
+//   "desc":"Everybody wants to live in Bel Air.",
+//      "elucidation": "Identifiable earth location.",
+//   "tags": "Garry Marshall",
+// "tstart":"12:24",
+// "tend":"12:31",
+// "location_type":"poly",
+// "location_id":51
+// }
+// {
+//   "show": "cbb",
+//   "episode": 199,
+//   "slug_earwolf": "garry-unmarried",
+//   "id_wikia": 2229,
+//   "url_soundcloud": "garry-unmarried",
+//   "name": "Location",
+//   "desc":",Gilly shouldn't have married Garry in Bel Air.",
+//      "elucidation": "Identifiable earth location.",
+//   "tags": "Garry Marshall",
+// "tstart":"14:47",
+// "tend":"15:11",
+// "location_type":"poly",
+// "location_id":51
+// }
+// {
+//   "show": "cbb",
+//   "episode": 199,
+//   "slug_earwolf": "garry-unmarried",
+//   "id_wikia": 2229,
+//   "url_soundcloud": "garry-unmarried",
+//   "name": "Location",
+//   "desc":"The Bel Air divorce ceremony.",
+//      "elucidation": "Identifiable earth location.",
+//   "tags": "Garry Marshall,Denzel Washington,Paul Reiser",
+// "tstart":"15:23",
+// "tend":"17:48",
+// "location_type":"poly",
+// "location_id":51
+// }
