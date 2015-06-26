@@ -23,7 +23,7 @@ function csv_to_array($filename='', $delimiter=',')
 }
 
 // $csv = array_map('str_getcsv', file());
-$csv = csv_to_array('/tmp/cbbbits.bits-fake.csv');
+$csv = csv_to_array('cbbbits.bits.csv');
 
 $uniq = array();
 
@@ -38,7 +38,7 @@ foreach ($csv as $ep) {
 foreach ($uniq as $un) {
 	// print_r($un);
 	$url = "http://www.earwolf.com/episode/".$un['slug_earwolf'];
-	file_put_contents("/tmp/ears/".$un['slug_earwolf'].".html", file_get_contents($url));
+	file_put_contents("ears/".$un['episode'].".".$un['slug_earwolf'].".html", file_get_contents($url));
 	// echo $url."\r\n";
 }
 
