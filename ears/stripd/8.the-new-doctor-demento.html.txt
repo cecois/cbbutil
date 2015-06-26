@@ -1,0 +1,1 @@
+<title>The New Doctor Demento, episode #8 of Comedy Bang Bang: The Podcast on Earwolf</title>\r\n <a href="http://soundcloud.com/comedybangbang/the-new-doctor-demento/download" onclick="recordOutboundLink(this, 'Audio', 'MP3 Download');return false;"><i class="icon-download"></i> Download</a>

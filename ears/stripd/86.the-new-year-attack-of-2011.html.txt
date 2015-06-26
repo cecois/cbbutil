@@ -1,0 +1,1 @@
+<title>The New Year Attack of 2011, episode #86 of Comedy Bang Bang: The Podcast on Earwolf</title>\r\n <a href="http://soundcloud.com/comedybangbang/the-new-year-attack-of-2011/download" onclick="recordOutboundLink(this, 'Audio', 'MP3 Download');return false;"><i class="icon-download"></i> Download</a>

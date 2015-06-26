@@ -1,0 +1,1 @@
+<title>Attack of the Shits, episode #188 of Comedy Bang Bang: The Podcast on Earwolf</title>\r\n <a href="http://soundcloud.com/comedybangbang/attack-of-the-shits/download" onclick="recordOutboundLink(this, 'Audio', 'MP3 Download');return false;"><i class="icon-download"></i> Download</a>

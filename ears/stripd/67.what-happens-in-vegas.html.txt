@@ -1,0 +1,1 @@
+<title>What Happens In Vegas, episode #67 of Comedy Bang Bang: The Podcast on Earwolf</title>\r\n <a href="http://soundcloud.com/comedybangbang/what-happens-in-vegas/download" onclick="recordOutboundLink(this, 'Audio', 'MP3 Download');return false;"><i class="icon-download"></i> Download</a>

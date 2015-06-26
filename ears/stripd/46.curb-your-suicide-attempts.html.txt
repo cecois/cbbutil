@@ -1,0 +1,1 @@
+<title>Curb Your Suicide Attempts, episode #46 of Comedy Bang Bang: The Podcast on Earwolf</title>\r\n <a href="http://soundcloud.com/comedybangbang/curb-your-suicide-attempts/download" onclick="recordOutboundLink(this, 'Audio', 'MP3 Download');return false;"><i class="icon-download"></i> Download</a>

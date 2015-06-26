@@ -1,0 +1,1 @@
+<title>Reverse April Fools, episode #279 of Comedy Bang Bang: The Podcast on Earwolf</title>\r\n <a href="https://soundcloud.com/comedybangbang/279-patton-oswalt-lauren/download" onclick="recordOutboundLink(this, 'Audio', 'MP3 Download');return false;"><i class="icon-download"></i> Download</a>
