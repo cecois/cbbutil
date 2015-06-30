@@ -24,9 +24,9 @@ curl "https://pugo.cartodb.com/api/v1/sql?q=select%20cartodb_id%20as%20cartodb_i
  # 
 echo "refilling cbb_bits..."
  # #	WINNER-----!!!!
-mongoexport -h ds033599.mongolab.com:33599 --db cbbbits --collection bits -u cecmcgee -p 5NWpI1 --fields '_id,show,episode,slug_earwolf,id_wikia,url_soundcloud,name,desc,elucidation,tags,tstart,tend,location_type,location_id' --jsonArray --out /tmp/bits_incoming.json
+mongoexport -h ds033599.mongolab.com:33599 --db cbbbits --collection bits -u cecmcgee -p 5NWpI1 --fields '_id,show,episode,slug_earwolf,id_wikia,url_soundcloud,name,desc,elucidation,tags,tstart,tend,location_type,location_id,holding' --jsonArray --out /tmp/bits_incoming.json
 #	WINNER-----!!!!
-jq --compact-output '[.[]|{_id:._id."$oid",show:.show,episode:.episode,slug_earwolf:.slug_earwolf,id_wikia:.id_wikia,url_soundcloud:.url_soundcloud,name:.name,desc:.desc,elucidation:.elucidation,tags:.tags,tstart:.tstart,tend:.tend,location_type:.location_type,location_id:.location_id}]' < /tmp/bits_incoming.json > /tmp/bits_jqd.json
+jq --compact-output '[.[]|{_id:._id."$oid",show:.show,episode:.episode,slug_earwolf:.slug_earwolf,id_wikia:.id_wikia,url_soundcloud:.url_soundcloud,name:.name,desc:.desc,elucidation:.elucidation,tags:.tags,tstart:.tstart,tend:.tend,location_type:.location_type,location_id:.location_id,holding:.holding}]' < /tmp/bits_incoming.json > /tmp/bits_jqd.json
 
 #	WINNER (LOCAL)-----!!!!
 curl 'http://localhost:8983/solr/cbb_bits/update/json?commit=true' --data-binary @/tmp/bits_jqd.json -H 'Content-type:application/json'
