@@ -141,7 +141,7 @@
    <field name="name" type="text_general" indexed="true" stored="true" multiValued="false"/>
    <field name="desc" type="text_general" indexed="true" stored="true" multiValued="false"/>
 
-   <field name="fat_desc" type="text_general" indexed="true" stored="true" multiValued="false"/>
+   <field name="fat_name" type="text_general" indexed="true" stored="true" multiValued="false"/>
 
    <field name="elucidation" type="text_general" indexed="true" stored="true" multiValued="false"/>
    <!-- <field name="tags" type="string" indexed="true" stored="true" multiValued="false"/> -->
@@ -291,7 +291,7 @@
  <copyField source="elucidation" dest="text"/>
 <copyField source="tags" dest="text"/>
 
-   <copyField source="desc" dest="fat_desc"/>
+   <copyField source="name" dest="fat_name"/>
 
    <!-- <copyField source="cat" dest="text"/>
    <copyField source="name" dest="text"/>
