@@ -1,0 +1,15 @@
+[x] Audit css
+[x] Test Dist build
+[ ] Domain name(s)
+[ ] Google sites monitor
+[x] Sharing buttons
+[x] Sharing function (w routes)
+[x] mobile views
+[ ] Data normalization
+[ ] Normalized data re-up to mongo
+[ ] Final pull from mongo to solr
+[ ] updated schema to openshift
+[ ] Lost locations
+[ ] twitter account/follow button
+[ ] oct/github key
+[ ] add oct/github submission to unmappables, too
