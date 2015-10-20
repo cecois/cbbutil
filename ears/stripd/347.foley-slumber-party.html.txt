@@ -1,1 +1,0 @@
-<title>Foley Slumber Party, episode #347 of Comedy Bang Bang: The Podcast on Earwolf</title>\r\n <a href="http://soundcloud.com/comedybangbang/347-kevin-pollak-seth-morris/download" onclick="recordOutboundLink(this, 'Audio', 'MP3 Download');return false;"><i class="icon-download"></i> Download</a>

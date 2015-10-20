@@ -1,1 +1,0 @@
-<title>Scavenge and the Wisemen, episode #135 of Comedy Bang Bang: The Podcast on Earwolf</title>\r\n <a href="http://soundcloud.com/comedybangbang/scavenge-and-the-wisemen/download" onclick="recordOutboundLink(this, 'Audio', 'MP3 Download');return false;"><i class="icon-download"></i> Download</a>

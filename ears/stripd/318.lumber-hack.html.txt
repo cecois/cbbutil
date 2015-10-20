@@ -1,1 +1,0 @@
-<title>Lumber Hack, episode #318 of Comedy Bang Bang: The Podcast on Earwolf</title>\r\n <a href="http://soundcloud.com/comedybangbang/318-wyatt-cenac-matt-besser-jocelyn-deboer/download" onclick="recordOutboundLink(this, 'Audio', 'MP3 Download');return false;"><i class="icon-download"></i> Download</a>

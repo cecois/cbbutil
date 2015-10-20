@@ -4,7 +4,7 @@
 echo "killing cbb_bits..."
 curl http://localhost:8983/solr/cbb_bits/update --data '<delete><query>*:*</query></delete>' -H 'Content-type:text/xml; charset=utf-8' && curl http://localhost:8983/solr/cbb_bits/update --data '<commit/>' -H 'Content-type:text/xml; charset=utf-8'
 
-echo "killing cbb_carto..."
+# echo "killing cbb_carto..."
 # curl http://localhost:8983/solr/cbb_carto/update --data '<delete><query>*:*</query></delete>' -H 'Content-type:text/xml; charset=utf-8' && curl http://localhost:8983/solr/cbb_carto/update --data '<commit/>' -H 'Content-type:text/xml; charset=utf-8'
 
 
@@ -12,7 +12,7 @@ echo "killing cbb_carto..."
 # ------------------ CARTO
 
 #	TABLES UNION WITH INVALID GEOJSON -----!!!!
-echo "skipping cbb_carto..."
+# echo "skipping cbb_carto..."
 # echo "refilling cbb_carto..."
 # curl "https://pugo.cartodb.com/api/v1/sql?q=select%20cartodb_id%20as%20cartodb_id,name,confidence,anno,created_at,updated_at,ST_AsGeoJSON(the_geom)%20as%20the_geom,'point'%20as%20geom_type%20from%20cbb_point%20UNION%20ALL%20select%20cartodb_id*999%20as%20cartodb_id,name,confidence,anno,created_at,updated_at,ST_AsGeoJSON(the_geom)%20as%20the_geom,'line'%20as%20geom_type%20from%20cbb_line%20UNION%20ALL%20select%20cartodb_id*9999%20as%20cartodb_id,name,confidence,anno,created_at,updated_at,ST_AsGeoJSON(the_geom)%20as%20the_geom,'poly'%20as%20geom_type%20from%20cbb_poly" -o /tmp/pcdbraw.json;
 #	WINNER-----!!!!
@@ -25,9 +25,9 @@ echo "skipping cbb_carto..."
 echo "refilling cbb_bits..."
  # #	WINNER-----!!!!
 # mongoexport -h ds033599.mongolab.com:33599 --db cbbbits --collection bits -u cecmcgee -p 5NWpI1 --fields '_id,show,episode,slug_earwolf,id_wikia,url_soundcloud,name,desc,elucidation,tags,tstart,tend,created_at,updated_at,location_type,location_id,holding' --jsonArray --out /tmp/bits_incoming.json
-mongoexport --db cbbbits --collection bits --fields '_id,show,episode,slug_earwolf,id_wikia,url_soundcloud,name,desc,elucidation,tags,tstart,tend,created_at,updated_at,location_type,location_id,holding' --jsonArray --out /tmp/bits_incoming.json
+mongoexport --db cbbbits --collection bits --fields '_id,show,episode,slug_earwolf,id_wikia,url_soundcloud,name,instance,elucidation,tags,tstart,tend,created_at,updated_at,location_type,location_id,holding' --jsonArray --out /tmp/bits_incoming.json
 #	WINNER-----!!!!
-jq --compact-output '[.[]|{_id:._id."$oid",show:.show,episode:.episode,slug_earwolf:.slug_earwolf,id_wikia:.id_wikia,url_soundcloud:.url_soundcloud,name:.name,desc:.desc,elucidation:.elucidation,tags:.tags,tstart:.tstart,tend:.tend,created_at:.created_at,updated_at:.updated_at,location_type:.location_type,location_id:.location_id,holding:.holding}]' < /tmp/bits_incoming.json > /tmp/bits_jqd.json
+jq --compact-output '[.[]|{_id:._id."$oid",show:.show,episode:.episode,slug_earwolf:.slug_earwolf,id_wikia:.id_wikia,url_soundcloud:.url_soundcloud,name:.name,instance:.instance,created_at:.created_at,updated_at:.updated_at,elucidation:.elucidation,tags:.tags,tstart:.tstart,tend:.tend,created_at:.created_at,updated_at:.updated_at,location_type:.location_type,location_id:.location_id,holding:.holding}]' < /tmp/bits_incoming.json > /tmp/bits_jqd.json
 
 #	WINNER (LOCAL)-----!!!!
 curl 'http://localhost:8983/solr/cbb_bits/update/json?commit=true' --data-binary @/tmp/bits_jqd.json -H 'Content-type:application/json'

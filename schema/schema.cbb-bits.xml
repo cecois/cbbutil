@@ -104,17 +104,24 @@
       but other field names will not have first class support from all components
       and back compatibility is not guaranteed.  Names with both leading and
       trailing underscores (e.g. _version_) are reserved.
+
+
+<fieldType name="pipetags" class="solr.TextField">
+      <analyzer>
+        <tokenizer class="solr.PatternTokenizerFactory" pattern="|\s*" />
+      </analyzer>
+</fieldType>
+
+<field name="tags" type="pipetags" indexed="true" stored="true"/>
    -->
 
-   <fieldType name="commatags" class="solr.TextField">
+<fieldType name="commatags" class="solr.TextField">
       <analyzer>
         <tokenizer class="solr.PatternTokenizerFactory" pattern=",\s*" />
       </analyzer>
 </fieldType>
 
 <field name="tags" type="commatags" indexed="true" stored="true"/>
-
-
 
    <!-- If you remove this field, you must _also_ disable the update log in solrconfig.xml
       or Solr won't start. _version_ and update log are required for SolrCloud
@@ -137,9 +144,9 @@
       <!-- <field name="loc" type="location" indexed="true" stored="true"/> -->
 
    <field name="id_wikia" type="string" indexed="false" stored="true"/>
-   <field name="url_soundcloud" type="text_general" indexed="false" stored="true" omitNorms="true"/>
-   <field name="name" type="text_general" indexed="true" stored="true" multiValued="false"/>
-   <field name="desc" type="text_general" indexed="true" stored="true" multiValued="false"/>
+   <field name="slug_soundcloud" type="text_general" indexed="false" stored="true" omitNorms="true"/>
+   <field name="bit" type="text_general" indexed="true" stored="true" multiValued="false"/>
+   <field name="instance" type="text_general" indexed="true" stored="true" multiValued="false"/>
 
    <field name="fat_name" type="string" indexed="true" stored="true" multiValued="false"/>
    <field name="holding" type="text_general" indexed="true" stored="true" multiValued="false"/>
@@ -290,12 +297,12 @@
 
 
 <copyField source="slug_earwolf" dest="text"/>
-<copyField source="name" dest="text"/>
-   <copyField source="desc" dest="text"/>
+<copyField source="bit" dest="text"/>
+   <copyField source="instance" dest="text"/>
  <copyField source="elucidation" dest="text"/>
 <copyField source="tags" dest="text"/>
 
-   <copyField source="name" dest="fat_name"/>
+   <copyField source="bit" dest="fat_name"/>
 
    <!-- <copyField source="cat" dest="text"/>
    <copyField source="name" dest="text"/>

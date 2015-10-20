@@ -1,1 +1,0 @@
-<title>Half A Score, episode #247 of Comedy Bang Bang: The Podcast on Earwolf</title>\r\n <a href="http://soundcloud.com/comedybangbang/247-tim-meadows-horatio-sanz/download" onclick="recordOutboundLink(this, 'Audio', 'MP3 Download');return false;"><i class="icon-download"></i> Download</a>

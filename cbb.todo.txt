@@ -1,15 +1,19 @@
-[x] Audit css
-[x] Test Dist build
+[ ] add oct/github submission to unmappables, too
 [ ] Domain name(s)
+[ ] affix proper domain name to sharie
+[ ] Normalized data re-up to mongo
+[ ] updated schema to openshift
+[ ] twitter account/follow button (jokemap? zapstraighttoit?)
+[ ] return version to mark
+[ ] Final pull from mongo to solr
 [ ] Google sites monitor
+[ ] Lost locations
+[ ] oct/github key
+[x] Audit css
+[x] Data normalization
+[x] mobile views
+[x] normalize location annos
 [x] Sharing buttons
 [x] Sharing function (w routes)
-[x] mobile views
-[ ] Data normalization
-[ ] Normalized data re-up to mongo
-[ ] Final pull from mongo to solr
-[ ] updated schema to openshift
-[ ] Lost locations
-[ ] twitter account/follow button
-[ ] oct/github key
-[ ] add oct/github submission to unmappables, too
+[x] Test Dist build
+[x] turn disqus back on

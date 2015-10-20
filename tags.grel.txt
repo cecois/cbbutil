@@ -1,0 +1,22 @@
+if(isNonBlank(cells["tagarray 10"].value),cells["tagarray 10"].value+","+cells["tagarray 9"].value+","+cells["tagarray 8"].value+","+cells["tagarray 7"].value+","+cells["tagarray 6"].value+","+cells["tagarray 5"].value+","+cells["tagarray 4"].value+","+cells["tagarray 3"].value+","+cells["tagarray 2"].value+","+cells["tagarray 1"].value,
+if(isNonBlank(cells["tagarray 9"].value),cells["tagarray 9"].value+","+cells["tagarray 8"].value+","+cells["tagarray 7"].value+","+cells["tagarray 6"].value+","+cells["tagarray 5"].value+","+cells["tagarray 4"].value+","+cells["tagarray 3"].value+","+cells["tagarray 2"].value+","+cells["tagarray 1"].value,
+if(isNonBlank(cells["tagarray 8"].value),cells["tagarray 8"].value+","+cells["tagarray 7"].value+","+cells["tagarray 6"].value+","+cells["tagarray 5"].value+","+cells["tagarray 4"].value+","+cells["tagarray 3"].value+","+cells["tagarray 2"].value+","+cells["tagarray 1"].value,
+if(isNonBlank(cells["tagarray 7"].value),cells["tagarray 7"].value+","+cells["tagarray 6"].value+","+cells["tagarray 5"].value+","+cells["tagarray 4"].value+","+cells["tagarray 3"].value+","+cells["tagarray 2"].value+","+cells["tagarray 1"].value,
+if(isNonBlank(cells["tagarray 6"].value),cells["tagarray 6"].value+","+cells["tagarray 5"].value+","+cells["tagarray 4"].value+","+cells["tagarray 3"].value+","+cells["tagarray 2"].value+","+cells["tagarray 1"].value,
+if(isNonBlank(cells["tagarray 5"].value),cells["tagarray 5"].value+","+cells["tagarray 4"].value+","+cells["tagarray 3"].value+","+cells["tagarray 2"].value+","+cells["tagarray 1"].value,
+if(isNonBlank(cells["tagarray 4"].value),cells["tagarray 4"].value+","+cells["tagarray 3"].value+","+cells["tagarray 2"].value+","+cells["tagarray 1"].value,
+if(isNonBlank(cells["tagarray 3"].value),cells["tagarray 3"].value+","+cells["tagarray 2"].value+","+cells["tagarray 1"].value,
+if(isNonBlank(cells["tagarray 2"].value),cells["tagarray 2"].value+","+cells["tagarray 1"].value,
+if(isNonBlank(cells["tagarray 1"].value),cells["tagarray 1"].value,
+NULL
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)

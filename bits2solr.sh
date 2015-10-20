@@ -8,7 +8,8 @@
 # mongoexport --db test --collection traffic --out traffic.json
 
 #	WINNER-----!!!!
-mongoexport -h ds033599.mongolab.com:33599 --db cbbbits --collection bits -u cecmcgee -p 5NWpI1 --fields '_id,show,episode,slug_earwolf,id_wikia,url_soundcloud,name,desc,elucidation,tags,tstart,tend,location_type,location_id' --jsonArray --out /tmp/bits_incoming.json
+# mongoexport -h ds033599.mongolab.com:33599 --db cbbbits --collection bits -u cecmcgee -p 5NWpI1 --fields '_id,show,episode,slug_earwolf,id_wikia,slug_soundcloud,bit,instance,elucidation,tags,tstart,tend,location_type,location_id' --jsonArray --out /tmp/bits_incoming.json
+mongoexport -h localhost --db cbbbits --collection bits --fields '_id,show,episode,slug_earwolf,id_wikia,slug_soundcloud,bit,instance,elucidation,tags,tstart,tend,location_type,location_id,holding,created_at,updated_at' --jsonArray --out /tmp/bits_incoming.json
 
 # from shell
 # mongo ds033599.mongolab.com:33599/cbbbits -u cecmcgee -p 5NWpI1
@@ -18,8 +19,13 @@ mongoexport -h ds033599.mongolab.com:33599 --db cbbbits --collection bits -u cec
 # jq '.[]|{id:._id."$oid",show:.show,episode:.episode,slug_earwolf:.slug_earwolf}' < /tmp/bits_incoming.json >> /tmp/bits_jqd.json
 # echo "]">>/tmp/bits_jqd.json
 
+# [OPTIONALLY] clear out current solr index
+# 
+curl http://localhost:8983/solr/cbb_bits/update --data '<delete><query>*:*</query></delete>' -H 'Content-type:text/xml; charset=utf-8' && curl http://localhost:8983/solr/cbb_bits/update --data '<commit/>' -H 'Content-type:text/xml; charset=utf-8'
+
+
 #	WINNER-----!!!!
-jq --compact-output '[.[]|{_id:._id."$oid",show:.show,episode:.episode,slug_earwolf:.slug_earwolf,id_wikia:.id_wikia,url_soundcloud:.url_soundcloud,name:.name,desc:.desc,elucidation:.elucidation,tags:.tags,tstart:.tstart,tend:.tend,location_type:.location_type,location_id:.location_id}]' < /tmp/bits_incoming.json > /tmp/bits_jqd.json
+jq --compact-output '[.[]|{_id:._id."$oid",show:.show,episode:.episode,slug_earwolf:.slug_earwolf,id_wikia:.id_wikia,slug_soundcloud:.slug_soundcloud,bit:.bit,instance:.instance,elucidation:.elucidation,holding:.holding,created_at:.created_at,updated_at:.updated_at,tags:.tags,tstart:.tstart,tend:.tend,location_type:.location_type,location_id:.location_id}]' < /tmp/bits_incoming.json > /tmp/bits_jqd.json
 
 
 #	WINNER (LOCAL)-----!!!!
