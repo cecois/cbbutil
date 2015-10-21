@@ -1,14 +1,18 @@
-[ ] add oct/github submission to unmappables, too
 [ ] Domain name(s)
 [ ] affix proper domain name to sharie
-[ ] Normalized data re-up to mongo
-[ ] updated schema to openshift
 [ ] twitter account/follow button (jokemap? zapstraighttoit?)
+[ ] fast timeout for sharie shortener
 [ ] return version to mark
-[ ] Final pull from mongo to solr
 [ ] Google sites monitor
 [ ] Lost locations
-[ ] oct/github key
+[ ] remove dummy basemap
+[ ] set default basemap
+[ ] add oct/github submission to unmappables, too
+
+[x] oct/github key
+[x] Final pull from mongo to solr
+[x] updated schema to openshift
+[x] Normalized data re-up to mongo
 [x] Audit css
 [x] Data normalization
 [x] mobile views
