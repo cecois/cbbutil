@@ -1,14 +1,15 @@
-[ ] Domain name(s)
-[ ] affix proper domain name to sharie
 [ ] twitter account/follow button (jokemap? zapstraighttoit?)
 [ ] fast timeout for sharie shortener
 [ ] return version to mark
+[ ] maybe an auto-justifier/truncator plugin for the bitlist?
 [ ] Google sites monitor
 [ ] Lost locations
 [ ] remove dummy basemap
 [ ] set default basemap
 [ ] add oct/github submission to unmappables, too
 
+[x] affix proper domain name to sharie
+[x] Domain name(s)
 [x] oct/github key
 [x] Final pull from mongo to solr
 [x] updated schema to openshift
