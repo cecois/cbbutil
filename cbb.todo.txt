@@ -1,13 +1,15 @@
-[ ] twitter account/follow button (jokemap? zapstraighttoit?)
+[ ] twitter account/follow button (jokemap? ZapStraightToIt?)
 [ ] fast timeout for sharie shortener
 [ ] return version to mark
-[ ] maybe an auto-justifier/truncator plugin for the bitlist?
-[ ] Google sites monitor
 [ ] Lost locations
-[ ] remove dummy basemap
-[ ] set default basemap
 [ ] add oct/github submission to unmappables, too
+[ ] index vs index-dist
+[ ] verify the sharie sites work
+[ ] sort facets by count
 
+[x] set default basemap
+[x] remove dummy basemap
+[x] Google sites monitor
 [x] affix proper domain name to sharie
 [x] Domain name(s)
 [x] oct/github key
