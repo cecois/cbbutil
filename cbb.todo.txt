@@ -1,12 +1,13 @@
-[ ] twitter account/follow button (jokemap? ZapStraightToIt?)
-[ ] fast timeout for sharie shortener
+[ ] verify the sharie sites work
+[ ] index vs index-dist
 [ ] return version to mark
 [ ] Lost locations
 [ ] add oct/github submission to unmappables, too
-[ ] index vs index-dist
-[ ] verify the sharie sites work
-[ ] sort facets by count
+[ ] fast timeout for sharie shortener
+[ ] you know that mobile needs a complete overhaul so that it acts mobile
+[ ] firing query should scroll to top of query tab (rather than remain scrolled to bottom cuzza other tab)
 
+[x] twitter account/follow button (jokemap? ZapStraightToIt?)
 [x] set default basemap
 [x] remove dummy basemap
 [x] Google sites monitor
