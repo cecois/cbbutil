@@ -5,13 +5,13 @@ cartoize_test()
 {
 
   echo "first I would pull down fresh cartodb to tmp like this:"
-  echo "curl \"https://pugo.cartodb.com/api/v1/sql?q=select%20cartodb_id%20as%20cartodb_id,name,confidence,anno,created_at,updated_at,ST_AsGeoJSON(the_geom)%20as%20the_geom,'point'%20as%20geom_type%20from%20cbb_point%20UNION%20ALL%20select%20cartodb_id*999%20as%20cartodb_id,name,confidence,anno,created_at,updated_at,ST_AsGeoJSON(the_geom)%20as%20the_geom,'line'%20as%20geom_type%20from%20cbb_line%20UNION%20ALL%20select%20cartodb_id*9999%20as%20cartodb_id,name,confidence,anno,created_at,updated_at,ST_AsGeoJSON(the_geom)%20as%20the_geom,'poly'%20as%20geom_type%20from%20cbb_poly\" -o /tmp/pcdbraw.json;"
+  # echo "curl \"https://pugo.cartodb.com/api/v1/sql?q=select%20cartodb_id%20as%20cartodb_id,name,confidence,anno,created_at,updated_at,ST_AsGeoJSON(the_geom)%20as%20the_geom,'point'%20as%20geom_type%20from%20cbb_point%20UNION%20ALL%20select%20cartodb_id*999%20as%20cartodb_id,name,confidence,anno,created_at,updated_at,ST_AsGeoJSON(the_geom)%20as%20the_geom,'line'%20as%20geom_type%20from%20cbb_line%20UNION%20ALL%20select%20cartodb_id*9999%20as%20cartodb_id,name,confidence,anno,created_at,updated_at,ST_AsGeoJSON(the_geom)%20as%20the_geom,'poly'%20as%20geom_type%20from%20cbb_poly\" -o /tmp/pcdbraw.json;"
 
-  echo "then i would jq it like this:"
-  echo "jq .rows /tmp/pcdbraw.json > /tmp/pcdb.json"
+  # echo "then i would jq it like this:"
+  # echo "jq .rows /tmp/pcdbraw.json > /tmp/pcdb.json"
 
-  echo "then i would push it into solr like this"
-  echo "curl $SOLRHOME'/solr/cbb_carto/update/json?commit=true' --data-binary @/tmp/pcdb.json -H 'Content-type:application/json'"
+  # echo "then i would push it into solr like this"
+  # echo "curl $SOLRHOME'/solr/cbb_carto/update/json?commit=true' --data-binary @/tmp/pcdb.json -H 'Content-type:application/json'"
 
 }
 
@@ -22,31 +22,75 @@ read -p "We're really going to push cartodb data to "${MACHINE}" if you press [E
 
   echo "for real sending cartodb to "$MACHINE"..."
 
-  curl "https://pugo.cartodb.com/api/v1/sql?q=select%20cartodb_id%20as%20cartodb_id,name,confidence,anno,created_at,updated_at,ST_AsGeoJSON(the_geom)%20as%20the_geom,'point'%20as%20geom_type%20from%20cbb_point%20UNION%20ALL%20select%20cartodb_id*999%20as%20cartodb_id,name,confidence,anno,created_at,updated_at,ST_AsGeoJSON(the_geom)%20as%20the_geom,'line'%20as%20geom_type%20from%20cbb_line%20UNION%20ALL%20select%20cartodb_id*9999%20as%20cartodb_id,name,confidence,anno,created_at,updated_at,ST_AsGeoJSON(the_geom)%20as%20the_geom,'poly'%20as%20geom_type%20from%20cbb_poly" -o /tmp/pcdbraw.json;
+  # curl "https://pugo.cartodb.com/api/v1/sql?q=select%20cartodb_id%20as%20cartodb_id,name,confidence,anno,created_at,updated_at,ST_AsGeoJSON(the_geom)%20as%20the_geom,'point'%20as%20geom_type%20from%20cbb_point%20UNION%20ALL%20select%20cartodb_id*999%20as%20cartodb_id,name,confidence,anno,created_at,updated_at,ST_AsGeoJSON(the_geom)%20as%20the_geom,'line'%20as%20geom_type%20from%20cbb_line%20UNION%20ALL%20select%20cartodb_id*9999%20as%20cartodb_id,name,confidence,anno,created_at,updated_at,ST_AsGeoJSON(the_geom)%20as%20the_geom,'poly'%20as%20geom_type%20from%20cbb_poly" -o /tmp/pcdbraw.json;
 
   echo "really JQing"
-  jq .rows /tmp/pcdbraw.json > /tmp/pcdb.json
+  # jq .rows /tmp/pcdbraw.json > /tmp/pcdb.json
 
   echo "actually pushing into "${MACHINE}" solr..."
-  curl $SOLRHOME'/solr/cbb_carto/update/json?commit=true' --data-binary @/tmp/pcdb.json -H 'Content-type:application/json'
+  # curl $SOLRHOME'/solr/cbb_carto/update/json?commit=true' --data-binary @/tmp/pcdb.json -H 'Content-type:application/json'
 
 }
 
 mongoize_test()
 {
   echo "first we WOULD HAVe backEDup the extant mongodb db on "${MACHINE}" to localhost with MONGOCMD_BU"
-  echo "then quickly tarballed that to save a little space with TARCMD"
-  echo "then dropped the db on machine "${MACHINE}
-  echo "then imported to mongo cbbbits:bits on "${MACHINE}" using MONGOCMD_IM"
+  # echo "then quickly tarballed that to save a little space with TARCMD"
+  # echo "then dropped the db on machine "${MACHINE}
+  # echo "then imported to mongo cbbbits:bits on "${MACHINE}" using MONGOCMD_IM"
 
 }
 
 mongoize()
 {
+read -p "We're really going to move some Mongo stuff on "${MACHINE}" if you press [Enter]"
+
+	echo "Backing up MongoDB on "$MACHINE
   $MONGOCMD_BU
+  echo "Compressing MongoDB backup..."
   $TARCMD
+  echo "Dropping Mongo db..."
   $MONGOCMD_DROP
+  echo "Importing fresh csv from "$FILEIN
   $MONGOCMD_IM
+
+}
+
+carto2solr()
+{
+
+
+echo "pulling UNIONized dump from CartoDB into "$CARTORAW"..."
+
+	curl "https://pugo.cartodb.com/api/v1/sql?q=select%20cartodb_id%20as%20cartodb_id,name,confidence,anno,created_at,updated_at,ST_AsGeoJSON(the_geom)%20as%20the_geom,'point'%20as%20geom_type%20from%20cbb_point%20UNION%20ALL%20select%20cartodb_id*999%20as%20cartodb_id,name,confidence,anno,created_at,updated_at,ST_AsGeoJSON(the_geom)%20as%20the_geom,'line'%20as%20geom_type%20from%20cbb_line%20UNION%20ALL%20select%20cartodb_id*9999%20as%20cartodb_id,name,confidence,anno,created_at,updated_at,ST_AsGeoJSON(the_geom)%20as%20the_geom,'poly'%20as%20geom_type%20from%20cbb_poly" -o $CARTORAW;
+
+echo "JQing rows from "$CARTORAW" to "$CARTOJQ"..."
+	jq .rows $CARTORAW > $CARTOJQ
+
+echo "killing Solr cbb_carto on "$MACHINE"..."
+curl --noproxy localhost ${SOLRHOME}cbb_carto/update?commit=true --data '<delete><query>*:*</query></delete>' -H 'Content-type:text/xml; charset=utf-8'
+
+echo "refilling Solr cbb_carto on "$MACHINE"..."
+curl --noproxy localhost ${SOLRHOME}cbb_carto/update/json?commit=true --data-binary @${CARTOJQ} -H 'Content-type:application/json'
+
+}
+
+mongo2solr()
+{
+
+
+echo "pulling fresh LOCALHOST (always) Mongo from MongoDB into "$MONGORAW"..."
+
+	mongoexport --db cbbbits --collection bits --fields '_id,show,episode,slug_earwolf,id_wikia,url_soundcloud,name,instance,elucidation,tags,tstart,tend,created_at,updated_at,location_type,location_id,holding' --jsonArray --out $MONGORAW
+
+echo "JQing rows from "$MONGORAW" to "$MONGOJQ"..."
+	jq --compact-output '[.[]|{_id:._id."$oid",show:.show,episode:.episode,slug_earwolf:.slug_earwolf,id_wikia:.id_wikia,url_soundcloud:.url_soundcloud,name:.name,instance:.instance,created_at:.created_at,updated_at:.updated_at,elucidation:.elucidation,tags:.tags,tstart:.tstart,tend:.tend,created_at:.created_at,updated_at:.updated_at,location_type:.location_type,location_id:.location_id,holding:.holding}]' < $MONGORAW > $MONGOJQ
+
+echo "killing Solr cbb_bits on "$MACHINE"..."
+curl --noproxy localhost ${SOLRHOME}cbb_bits/update?commit=true --data '<delete><query>*:*</query></delete>' -H 'Content-type:text/xml; charset=utf-8'
+
+echo "refilling Solr cbb_bits on "$MACHINE"..."
+curl --noproxy localhost ${SOLRHOME}cbb_bits/update/json?commit=true --data-binary @$MONGOJQ -H 'Content-type:application/json'
 
 }
 
@@ -58,8 +102,12 @@ test()
 
 read -p "IF THIS WERE REAL...you would have exported from Refine first, ja?"
 
-cartoize_test
-mongoize_test
+# cartoize_test
+# mongoize_test
+
+# carto2solr_test
+# mongo2solr_test
+
 
   exit 1
 }
@@ -85,6 +133,11 @@ VERBOSE=
 HELP=
 FILEDATE=$(date +'%Y%m%d')
 MONGOXFILE="/tmp/bits2solr.csv"
+CARTORAW="/tmp/pcdbraw.json"
+CARTOJQ="/tmp/pcdb.json"
+
+MONGORAW="/tmp/bits_incoming.json"
+MONGOJQ="/tmp/bits_jqd.json"
 
 while getopts “hvm:f:t” OPTION
 do
@@ -109,17 +162,16 @@ do
 
                TARCMD="tar -cvzf $BUFILE.tgz $BUFILE.csv"
 
+
+
                elif [[ $MACHINE == 'production' ]]; then
                SOLRHOME="http://solr-lbones.rhcloud.com/"
                BUFILE="/Users/ccmiller/Documents/bu/mongo/mongolab/bits-"$FILEDATE
-               MONGOCMD_BU="mongoexport -h ds033599.mongolab.com:33599 -d cbbbits -c bits -u cecmcgee -p 5NWpI1 -o $BUFILE.csv --csv -f _id,episode,show,time,tstart,tend,instance,bit,elucidation,created_at,updated_at,url_soundcloud,tagarray,tags,tagarray_og,tagarray,tagarray,tagarray,tagarray,tagarray,tagarray,tagarray,tagarray,tagarray,tagarray,slug_soundcloud,location_type,location_id,slug_earwolf,id_wikia,holding"
-               MONGOCMD_DROP="mongo -h ds033599.mongolab.com:33599 --eval \"db.dropDatabase();\""
-              MONGOCMD_IM="mongoimport -h ds033599.mongolab.com:33599 -d cbbbits -u cecmcgee -p 5NWpI1 -c bits --type csv --file $FILEIN --headerline"
-              MONGOCMD_EX="mongoexport -h ds033599.mongolab.com:33599 --db cbbbits --collection bits -u cecmcgee -p 5NWpI1 --fields '_id,show,episode,slug_earwolf,id_wikia,slug_soundcloud,bit,instance,elucidation,tags,tstart,tend,location_type,location_id' --jsonArray --out "$MONGOXFILE
-              TARCMD="tar -cvzf $BUFILE.tgz $BUFILE.csv"
+
 
              else
-               SOLRHOME="http://DUMMYSOLRHOST:PORT/solr/"
+             	echo "Nothin?"
+             	exit 0
              fi
              ;;
          v)
@@ -136,9 +188,9 @@ do
      esac
 done
 
-if [[ -z $MACHINE || -z $FILEIN ]]
+if [[ -z $MACHINE ]]
 then
-    echo "No machine specified or no FIEIN value, don't wanna guess"
+    echo "No machine specified or no FILEIN value, don't wanna guess"
      usage
      exit 1
 fi
