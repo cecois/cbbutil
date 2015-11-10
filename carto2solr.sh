@@ -24,7 +24,7 @@
  # jq .row_to_json /tmp/pcdbrows.json > /tmp/pcdb.json
 
 #	WINNER (LOCAL)-----!!!!
- curl 'http://localhost:8983/solr/cbb_carto/update/json?commit=true' --data-binary @/tmp/pcdb.json -H 'Content-type:application/json'
+ # curl 'http://localhost:8983/solr/cbb_carto/update/json?commit=true' --data-binary @/tmp/pcdb.json -H 'Content-type:application/json'
 
 #	WINNER (OPENSHIFT)-----!!!!
-#curl 'http://solr-lbones.rhcloud.com/cbb/update/json?commit=true' --data-binary @/tmp/pcdb.json -H 'Content-type:application/json'
+curl 'http://solr-lbones.rhcloud.com/#/cbb_carto/update/json?commit=true' --data-binary @/tmp/pcdb.json -H 'Content-type:application/json'

@@ -1,12 +1,16 @@
-[ ] verify the sharie sites work
-[ ] index vs index-dist
 [ ] return version to mark
+[ ] just link to disqus, don't embed - it's ugly
 [ ] Lost locations
 [ ] add oct/github submission to unmappables, too
+[ ] maybe specify js order in Gruntfile to reduce erratic -dist behavior
 [ ] fast timeout for sharie shortener
 [ ] you know that mobile needs a complete overhaul so that it acts mobile
 [ ] firing query should scroll to top of query tab (rather than remain scrolled to bottom cuzza other tab)
 
+[x] new query with a facet on retains that facet?
+[x] verify the sharie sites work -- all params included?
+[x] index vs index-dist
+[x] tooltips for basemap menu items
 [x] twitter account/follow button (jokemap? ZapStraightToIt?)
 [x] set default basemap
 [x] remove dummy basemap

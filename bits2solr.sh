@@ -25,7 +25,7 @@
 
 
 #	WINNER-----!!!!
-# jq --compact-output '[.[]|{_id:._id."$oid",show:.show,episode:.episode,slug_earwolf:.slug_earwolf,id_wikia:.id_wikia,slug_soundcloud:.slug_soundcloud,bit:.bit,instance:.instance,elucidation:.elucidation,holding:.holding,created_at:.created_at,updated_at:.updated_at,tags:.tags,tstart:.tstart,tend:.tend,location_type:.location_type,location_id:.location_id}]' < /tmp/bits_incoming.json > /tmp/bits_jqd.json
+jq --compact-output '[.[]|{_id:._id."$oid",show:.show,episode:.episode,slug_earwolf:.slug_earwolf,id_wikia:.id_wikia,slug_soundcloud:.slug_soundcloud,bit:.bit,instance:.instance,elucidation:.elucidation,holding:.holding,created_at:.created_at,updated_at:.updated_at,tags:.tags,tstart:.tstart,tend:.tend,location_type:.location_type,location_id:.location_id}]' < /tmp/bits_incoming.json > /tmp/bits_jqd.json
 
 
 #	WINNER (LOCAL)-----!!!!
