@@ -1,12 +1,15 @@
-[ ] return version to mark
-[ ] just link to disqus, don't embed - it's ugly
 [ ] Lost locations
 [ ] add oct/github submission to unmappables, too
-[ ] maybe specify js order in Gruntfile to reduce erratic -dist behavior
+[ ] popup gets a zoomtome bt?
 [ ] fast timeout for sharie shortener
 [ ] you know that mobile needs a complete overhaul so that it acts mobile
 [ ] firing query should scroll to top of query tab (rather than remain scrolled to bottom cuzza other tab)
 
+[x] check any _id queries - those IDs don't persist across updates, i bet
+[x] fill up wikia
+[x] maybe specify js order in Gruntfile to reduce erratic -dist behavior
+[x] just link to disqus, don't embed - it's ugly
+[x] return version to mark
 [x] new query with a facet on retains that facet?
 [x] verify the sharie sites work -- all params included?
 [x] index vs index-dist
