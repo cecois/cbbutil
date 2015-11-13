@@ -4,6 +4,9 @@
 [ ] fast timeout for sharie shortener
 [ ] you know that mobile needs a complete overhaul so that it acts mobile
 [ ] firing query should scroll to top of query tab (rather than remain scrolled to bottom cuzza other tab)
+[ ] scott's question at 1:07:06 #359
+[ ] missing pardo? 1:14:25 #370
+[ ] missing heynong? 1:25:25 #370
 
 [x] check any _id queries - those IDs don't persist across updates, i bet
 [x] fill up wikia
