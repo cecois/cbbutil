@@ -122,6 +122,9 @@
 </fieldType>
 
 <field name="tags" type="commatags" indexed="true" stored="true"/>
+<field name="guests" type="commatags" indexed="true" stored="true"/>
+
+<!-- <field name="guests_string" type="text_en_splitting" indexed="true" stored="true"/> -->
 
    <!-- If you remove this field, you must _also_ disable the update log in solrconfig.xml
       or Solr won't start. _version_ and update log are required for SolrCloud
@@ -140,6 +143,7 @@
    <field name="_id" type="string" indexed="true" stored="true" required="true" multiValued="false" />
    <field name="show" type="string" indexed="false" stored="false"/>
    <field name="episode" type="string" indexed="true" stored="true"/>
+      <field name="episode_title" type="text_en_splitting" indexed="true" stored="true"/>
    <field name="slug_earwolf" type="string" indexed="true" stored="true"/>
       <!-- <field name="loc" type="location" indexed="true" stored="true"/> -->
 
@@ -301,6 +305,12 @@
    <copyField source="instance" dest="text"/>
  <copyField source="elucidation" dest="text"/>
 <copyField source="tags" dest="text"/>
+
+
+<!-- <copyField source="guests" dest="guests_string"/> -->
+
+<copyField source="guests" dest="text"/>
+<copyField source="episode_title" dest="text"/>
 
    <copyField source="bit" dest="fat_name"/>
 

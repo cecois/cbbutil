@@ -1,18 +1,17 @@
 #!/bin/sh
 
 
-echo "your master is now mongolab"
-exit 0
+echo "YOUR MASTER IS NOW MONGOLAB"
 
 echo "This script will perform the following automatically:"
 echo "    A) backup/tarball both local and MongoLab cbb dbs"
 echo "    B) drop local bits"
-echo "    C) import to local fresh bits from a Refine export"
+echo "    C) sync TO local fresh bits from MongoLab master"
 echo "    D) export those bits outta Mongo"
 echo "    E) push those bits into local Solr"
 echo "Then, pending approval:"
-echo "    F) drop MongoLab bits"
-echo "    G) push those same local bits into production (OpenShift) Solr"
+echo "    F) drop MongoLab bits on production (OpenShift) Solr"
+echo "    G) push those same fresh bits into production (OpenShift) Solr"
 
 usage(){
 	echo "it's your script, read it :-/"
@@ -46,7 +45,7 @@ echo "backing up localhost Mongo bits..."
 mongoexport -d cbbbits -c bits -o $MONGOBUFILE.csv --type=csv -f $MONGOFIELDS
 echo "tarballing same..."
 tar -cvzf $MONGOBUFILE.tgz $MONGOBUFILE.csv
-echo "removing the csv copy..."
+echo "removing the local csv copy..."
 rm $MONGOBUFILE.csv
 
 
@@ -57,58 +56,49 @@ echo "backing up MongoLab Mongo bits..."
 mongoexport -h ds033599.mongolab.com:33599 -d cbbbits -c bits -u cecmcgee -p 5NWpI1 -o $MONGOBUFILE.csv --type=csv -f $MONGOFIELDS
 echo "tarballing same..."
 tar -cvzf $MONGOBUFILE.tgz $MONGOBUFILE.csv
-echo "removing the csv copy..."
+echo "removing the mongo csv copy..."
 rm $MONGOBUFILE.csv
 
 # read -p "You wanna check that quick, cowboy? [Enter]"
 
-if [[ -z $FILEIN ]]
-then
-      echo "No FILEIN specified, we'll quit with just a backup done."
-     exit 1
- else
- 	echo "using FILEIN:"$FILEIN"...hope that's fresh!"
- 	echo "first we drop extant on localhost:"
+#   echo "then we drop extant on localhost:"
 
-mongo cbbbits --eval "db.dropDatabase();"
-mongoimport -d cbbbits -c bits --type csv --file $FILEIN --headerline
+# mongo cbbbits --eval "db.dropDatabase();"
+# mongoimport -d cbbbits -c bits --type csv --file $MONGOBUFILE.csv --headerline
 
-#  	echo "Now we kill some MongoLab stuff..."
-mongo ds033599.mongolab.com:33599/cbbbits -u cecmcgee -p 5NWpI1 --eval "db.dropDatabase();"
+#   echo "in this version we fill up localhost with a copyDatabase sync from MongoLab..."
+# mongo --eval 'db.copyDatabase("cbbbits","cbbbits","ds033599.mongolab.com:33599","cecmcgee","5NWpI1");'
 
 # read -p "You wanna check that quick, cowboy? [Enter]"
 
-#  	echo "And fill it back up with same data we just pushed local..."
-mongoimport -h ds033599.mongolab.com:33599 -u cecmcgee -p 5NWpI1 -d cbbbits -c bits --type csv --file $FILEIN --headerline
-
-# read -p "You wanna check that quick, cowboy? [Enter]"
 
 ###################################################################################################### MONGO2SOLR
 
-echo "now taking it right back out of local for solr..."
-	mongoexport --db cbbbits --collection bits --fields $MONGOFIELDS --jsonArray --out $MONGORAW
+echo "now taking it right back out of MongoLab for solr..."
+  mongoexport -h ds033599.mongolab.com:33599 --db cbbbits --collection bits --fields $MONGOFIELDS --jsonArray --out $MONGORAW
 
 
 echo "JQing rows from "$MONGORAW" to "$MONGOJQ"..."
-	jq --compact-output '[.[]|{_id:._id."$oid",show:.show,episode:.episode,episode_title:.episode_title,guests:.episode_guests,slug_earwolf:.slug_earwolf,id_wikia:.id_wikia,slug_soundcloud:.url_soundcloud,bit:.bit,instance:.instance,created_at:.created_at,updated_at:.updated_at,elucidation:.elucidation,tags:.tags,tstart:.tstart,tend:.tend,created_at:.created_at,updated_at:.updated_at,location_type:.location_type,location_id:.location_id,holding:.holding}]' < $MONGORAW > $MONGOJQ
+  jq --compact-output '[.[]|{_id:._id."$oid",show:.show,episode:.episode,episode_title:.episode_title,guests:.episode_guests,slug_earwolf:.slug_earwolf,id_wikia:.id_wikia,slug_soundcloud:.url_soundcloud,bit:.bit,instance:.instance,created_at:.created_at,updated_at:.updated_at,elucidation:.elucidation,tags:.tags,tstart:.tstart,tend:.tend,created_at:.created_at,updated_at:.updated_at,location_type:.location_type,location_id:.location_id,holding:.holding}]' < $MONGORAW > $MONGOJQ
 
+read -p "You wanna check $MONGOJQ quick, there, cowboy? [Enter]"
 
 SOLRHOME="http://localhost:8983/solr/"
   echo "killing Solr cbb_bits on localhost..."
 curl --noproxy localhost ${SOLRHOME}cbb_bits/update?commit=true --data '<delete><query>*:*</query></delete>' -H 'Content-type:text/xml; charset=utf-8'
 
-read -p "You wanna check that quick, cowboy? [Enter]"
+read -p "You wanna check $SOLRHOME quick, cowboy? [Enter]"
 
 echo "refilling Solr cbb_bits on localhost..."
 curl --noproxy localhost ${SOLRHOME}cbb_bits/update/json?commit=true --data-binary @$MONGOJQ -H 'Content-type:application/json'
 
-read -p "You wanna check that quick, cowboy? [Enter]"
+read -p "You wanna check $SOLRHOME quick, cowboy? [Enter]"
 
 SOLRHOME="http://solr-lbones.rhcloud.com/"
   echo "killing Solr cbb_bits on OpenShift..."
 curl ${SOLRHOME}cbb_bits/update?commit=true --data '<delete><query>*:*</query></delete>' -H 'Content-type:text/xml; charset=utf-8'
 
-# read -p "You wanna check that quick, cowboy? [Enter]"
+read -p "You wanna check $SOLRHOME quick, cowboy? [Enter]"
 
 echo "refilling Solr cbb_bits on OpenShift..."
 curl ${SOLRHOME}cbb_bits/update/json?commit=true --data-binary @$MONGOJQ -H 'Content-type:application/json'

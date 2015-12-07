@@ -1,6 +1,4 @@
-[ ] fix .leaflet-control-container webkit rotate directive
 [ ] add oct/github submission to unmappables, too
-[ ] popup gets a zoomtome bt?
 [ ] fast timeout for sharie shortener
 [ ] you know that mobile needs a complete overhaul so that it acts mobile
 [ ] firing query should scroll to top of query tab (rather than remain scrolled to bottom cuzza other tab)
@@ -8,7 +6,10 @@
 [ ] missing pardo? 1:14:25 #370
 [ ] missing heynong? 1:25:25 #370
 [ ] first sexico mitty ref in #370 is at 1:07:51 #370
+[ ] better source than wikia for ep titles
 
+[x] popup gets a zoomtome bt? (opted to just check for singles)
+[x] fix .leaflet-control-container webkit rotate directive
 [x] Lost locations
 [x] check any _id queries - those IDs don't persist across updates, i bet
 [x] fill up wikia
