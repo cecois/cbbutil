@@ -75,7 +75,7 @@ rm $MONGOBUFILE.csv
 ###################################################################################################### MONGO2SOLR
 
 echo "now taking it right back out of MongoLab for solr..."
-  mongoexport -h ds033599.mongolab.com:33599 --db cbbbits --collection bits --fields $MONGOFIELDS --jsonArray --out $MONGORAW
+  mongoexport -h ds033599.mongolab.com:33599 -u cecmcgee -p 5NWpI1 --db cbbbits --collection bits --fields $MONGOFIELDS --jsonArray --out $MONGORAW
 
 
 echo "JQing rows from "$MONGORAW" to "$MONGOJQ"..."
