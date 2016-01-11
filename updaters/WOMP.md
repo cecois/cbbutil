@@ -76,3 +76,5 @@
 * http://howl.fm/audio/34633/live-from-san-francisco-2012,57:20,isn't it ironic - morrissette
 * http://howl.fm/audio/34632/live-from-san-diego-2012,29:20,walk the dinosaur - was not was
 * http://howl.fm/audio/34627/live-from-nyc-2012-part-1,45:00,love shack - b-52s
+* 394,7:30,shock the monkey
+* 394,37:30,problem child - ?
