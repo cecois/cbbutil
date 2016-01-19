@@ -82,4 +82,6 @@
 * 378,8:40,i waste so much of my day looking at zeros
 * 394,??:??,im a sugar daddy
 * http://howl.fm/audio/26164/live-from-san-francisco-2013,23:20,unmistakable sound of the breaking of a human toe
-* 
+* http://howl.fm/audio/26163/live-from-vancouver-2013,16:30,scott aukerman's ass in a seat
+* http://howl.fm/audio/26163/live-from-vancouver-2013,20:23,the audience's reaction is correct
+* http://howl.fm/audio/26163/live-from-vancouver-2013,29:40,why must we be charged?
