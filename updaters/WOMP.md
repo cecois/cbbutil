@@ -79,3 +79,5 @@
 * 394,7:30,shock the monkey
 * 394,37:30,problem child - ?
 * http://howl.fm/audio/26163/live-from-vancouver-2013,20:23,turn turn turn (yardbirds?)
+* http://howl.fm/audio/26162/live-from-washington-dc-2013-part-2,1:18:30,old fashioned love song
+* http://howl.fm/audio/26162/live-from-washington-dc-2013-part-2,1:21:50,the end - doors
