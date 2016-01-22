@@ -81,3 +81,7 @@
 * http://howl.fm/audio/26163/live-from-vancouver-2013,20:23,turn turn turn (yardbirds?)
 * http://howl.fm/audio/26162/live-from-washington-dc-2013-part-2,1:18:30,old fashioned love song
 * http://howl.fm/audio/26162/live-from-washington-dc-2013-part-2,1:21:50,the end - doors
+* 396,1:30,genie in a bottle - aguilera
+* 396,1:04:15,rock n' roll - led zeppelin
+* http://howl.fm/audio/26160/live-from-toronto-2013,1:08:30,there is a light that never goes out - the smiths
+* 
