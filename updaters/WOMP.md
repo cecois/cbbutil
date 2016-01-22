@@ -84,4 +84,5 @@
 * 396,1:30,genie in a bottle - aguilera
 * 396,1:04:15,rock n' roll - led zeppelin
 * http://howl.fm/audio/26160/live-from-toronto-2013,1:08:30,there is a light that never goes out - the smiths
-* 
+* http://howl.fm/audio/26159/live-from-seattle-2013,1:21:30,cop killer - ice t
+* http://howl.fm/audio/26158/live-from-portland-2013,1:21:30,horse with no name
