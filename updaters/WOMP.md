@@ -89,3 +89,6 @@
 * http://howl.fm/audio/26157/live-from-philadelphia-2013,31:15,hang the dj - the smiths
 * http://howl.fm/audio/26157/live-from-philadelphia-2013,40:00,royals - lorde
 * http://howl.fm/audio/26157/live-from-philadelphia-2013,40:04,enter sandman - metallica
+* 397,27:10,she's a lady & white punks - the tubes
+* 397,1:05:00,put em on the glass - sir mixalot
+* 397,1:21:30,watch me whip
