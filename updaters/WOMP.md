@@ -86,3 +86,6 @@
 * http://howl.fm/audio/26160/live-from-toronto-2013,1:08:30,there is a light that never goes out - the smiths
 * http://howl.fm/audio/26159/live-from-seattle-2013,1:21:30,cop killer - ice t
 * http://howl.fm/audio/26158/live-from-portland-2013,1:21:30,horse with no name
+* http://howl.fm/audio/26157/live-from-philadelphia-2013,31:15,hang the dj - the smiths
+* http://howl.fm/audio/26157/live-from-philadelphia-2013,40:00,royals - lorde
+* http://howl.fm/audio/26157/live-from-philadelphia-2013,40:04,enter sandman - metallica
