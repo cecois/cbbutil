@@ -1031,3 +1031,25 @@
     "id_wikia": null,
     "holding": "false"
 }
+
+{
+    "episode": "http://howl.fm/audio/26154/live-from-milwaukee-2013",
+    "show": "cbb",
+"tstart": "42:51",
+"tend": "43:02",
+"instance": "Can I ask you a different question?",
+"bit": "...but watch yourself, councilor.",
+        "elucidation": "law & order (via john mulaney) is quoted",
+"tags": "Garry Marshall",
+"location_type": "",
+"location_id": "",
+    "updated_at": "2016-01-26T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2016-01-26T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "Live from Milwaukee 2013",
+    "episode_guests": "Horatio Sanz,Paul F. Tompkins",
+    "id_wikia": null,
+    "holding": "false"
+}
