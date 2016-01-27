@@ -92,3 +92,6 @@
 * 397,27:10,she's a lady & white punks - the tubes
 * 397,1:05:00,put em on the glass - sir mixalot
 * 397,1:21:30,watch me whip
+* http://howl.fm/audio/26154/live-from-milwaukee-2013,1:06:30,doctor-doctor
+* http://howl.fm/audio/26153/live-from-detroit-2013,51:00,personal jesus - depeche
+* http://howl.fm/audio/26153/live-from-detroit-2013,1:13:30,everything in its right place - radiohead
