@@ -63,8 +63,8 @@ rm $MONGOBUFILE.csv
 
 #   echo "then we drop extant on localhost:"
 
-# mongo cbbbits --eval "db.dropDatabase();"
-# mongoimport -d cbbbits -c bits --type csv --file $MONGOBUFILE.csv --headerline
+mongo cbbbits --eval "db.dropDatabase();"
+mongoimport -d cbbbits -c bits --type csv --file $MONGOBUFILE.csv --headerline
 
 #   echo "in this version we fill up localhost with a copyDatabase sync from MongoLab..."
 # mongo --eval 'db.copyDatabase("cbbbits","cbbbits","ds033599.mongolab.com:33599","cecmcgee","5NWpI1");'
@@ -95,13 +95,13 @@ curl --noproxy localhost ${SOLRHOME}cbb_bits/update/json?commit=true --data-bina
 read -p "You wanna check $SOLRHOME quick, cowboy? [Enter]"
 
 SOLRHOME="http://solr-lbones.rhcloud.com/"
-  echo "killing Solr cbb_bits on OpenShift..."
-curl ${SOLRHOME}cbb_bits/update?commit=true --data '<delete><query>*:*</query></delete>' -H 'Content-type:text/xml; charset=utf-8'
+  # echo "killing Solr cbb_bits on OpenShift..."
+# curl ${SOLRHOME}cbb_bits/update?commit=true --data '<delete><query>*:*</query></delete>' -H 'Content-type:text/xml; charset=utf-8'
 
-read -p "You wanna check $SOLRHOME quick, cowboy? [Enter]"
+# read -p "You wanna check $SOLRHOME quick, cowboy? [Enter]"
 
-echo "refilling Solr cbb_bits on OpenShift..."
-curl ${SOLRHOME}cbb_bits/update/json?commit=true --data-binary @$MONGOJQ -H 'Content-type:application/json'
+# echo "refilling Solr cbb_bits on OpenShift..."
+# curl ${SOLRHOME}cbb_bits/update/json?commit=true --data-binary @$MONGOJQ -H 'Content-type:application/json'
 
 
 fi # -z FILEIN
