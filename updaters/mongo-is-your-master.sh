@@ -57,7 +57,7 @@ mongoexport -h ds033599.mongolab.com:33599 -d cbbbits -c bits -u cecmcgee -p 5NW
 echo "tarballing same..."
 tar -cvzf $MONGOBUFILE.tgz $MONGOBUFILE.csv
 echo "removing the mongo csv copy..."
-rm $MONGOBUFILE.csv
+# rm $MONGOBUFILE.csv
 
 # read -p "You wanna check that quick, cowboy? [Enter]"
 
