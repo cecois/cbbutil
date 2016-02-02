@@ -4,3 +4,8 @@
 * http://howl.fm/audio/26157/live-from-philadelphia-2013,58:50,halfaleafclover.us
 * http://howl.fm/audio/26157/live-from-philadelphia-2013,59:20,casanovagirdles.com
 * http://howl.fm/audio/26157/live-from-philadelphia-2013,1:00:35,illegalpussy.com
+* http://howl.fm/audio/26142/live-from-chicago-2014,44:30,fastpussy.net
+* http://howl.fm/audio/26142/live-from-chicago-2014,46:30,junglecondoms.com
+* http://howl.fm/audio/26142/live-from-chicago-2014,51:49,badbitchbailbonds.com
+* http://howl.fm/audio/26142/live-from-chicago-2014,54:10,naughtynotary.net
+* http://howl.fm/audio/26142/live-from-chicago-2014,1:14:15,wrongpussy.pr
