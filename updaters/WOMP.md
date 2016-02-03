@@ -96,3 +96,11 @@
 * http://howl.fm/audio/26153/live-from-detroit-2013,51:00,personal jesus - depeche
 * http://howl.fm/audio/26153/live-from-detroit-2013,1:13:30,everything in its right place - radiohead
 * http://howl.fm/audio/26150/live-from-boston-2013-part-1,23:00,fuck the police - ice t & body count
+* http://howl.fm/audio/26124/live-from-comic-con-2015,52:15,wrex'neffects w/ k7 - all i wanna do is zoom zoom...
+* http://howl.fm/audio/26124/live-from-comic-con-2015,52:45,buck owens - you don't know me but...
+* http://howl.fm/audio/26124/live-from-comic-con-2015,52:45,buck owens - act naturally (they're gona put me in the movies)
+* http://howl.fm/audio/26124/live-from-comic-con-2015,57:15,tired of being alone - al green
+* http://howl.fm/audio/26124/live-from-comic-con-2015,58:11,??? - selena
+* http://howl.fm/audio/26124/live-from-comic-con-2015,59:45,thank you for being a friend (golden girls)
+* 204,1:12:50,ribbon in the sky - stevie wonder & RHCP cover (?)
+* 204,1:12:50,psycho sexy - RHCP
