@@ -46,7 +46,7 @@
 * howl.34637,35:22,crosstown traffic - hendrix
 * BO2015.2,2:07:50,christmas even in hollis queens
 * BO2015.3,(i forget)
-* BO2015.3,16:00,night and day (cole porter?)
+* BO2015.3,16:00,night and day (cole porter - but sinatra version)
 * BO2015.3,17:00,you're so nice to come home to (sinatra)
 * BO2015.3,20:00,new york (sinatra)
 * BO2015.3,32:00,goodbye norma jean (elton john)
@@ -106,3 +106,4 @@
 * 204,1:12:50,psycho sexy - RHCP
 * 400,39:50,the longest time - billy joel
 * 400,1:34:00,heard it through the grapevine - the **
+* bo2015.3,11:00,it's a family reunion
