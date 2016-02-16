@@ -107,3 +107,7 @@
 * 400,39:50,the longest time - billy joel
 * 400,1:34:00,heard it through the grapevine - the **
 * bo2015.3,11:00,it's a family reunion
+* 401,1:07:30,you're so vain - simon (also much earlier in the ep)
+* 401,1:15:50,rock 'n roll - led zeppelin
+* 401,1:39:00,hey leonardo - blessed union of souls
+* 

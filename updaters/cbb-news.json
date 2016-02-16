@@ -19,3 +19,113 @@
     "id_wikia": null,
     "holding": "false"
 }
+
+{
+    "episode": 395,
+    "show": "cbb",
+    "tstart": "35:00",
+    "tend": "35:16",
+    "instance": "Did you just roll your eyes at me?",
+"bit": "You're a Real Person",
+        "elucidation": "someone confirms that it's ok that a character is this insulting because they're obviously a real person",
+    "tags": "Gene Rottenberry",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-02-12T10:51:29Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/395-whitney-cummings-john-gemberling-mary-holland/#t=35:00",
+    "created_at": "2016-02-12T10:51:29Z",
+    "slug_soundcloud": "395-whitney-cummings-john-gemberling-mary-holland",
+    "slug_earwolf": "yupparently",
+    "episode_title": "Yupparently",
+    "episode_guests": "Whitney Cummings,John Gemberling,Mary Holland",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 396,
+    "show": "cbb",
+    "tstart": "57:03",
+    "tend": "57:21",
+    "instance": "When [Scott] climaxes he makes a very small noise - what does that noise sound like?",
+"bit": "My Wife!",
+        "elucidation": "borat",
+    "tags": "Gino Lambardo,Marissa Wompler",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-02-12T10:51:29Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/396-rob-huebel-jon-gabrus-jessica-st-clair/#t=57:03",
+    "created_at": "2016-02-12T10:51:29Z",
+    "slug_soundcloud": "396-rob-huebel-jon-gabrus-jessica-st-clair",
+    "slug_earwolf": "the-intern-challenge",
+    "episode_title": "The Intern Challenge",
+    "episode_guests": "Rob Huebel,Jon Gabrus,Jessica St. Clair",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 396,
+    "show": "cbb",
+    "tstart": "1:17:17",
+    "tend": "1:17:23",
+    "instance": "But we made a big announcement in the future.",
+"bit": "Oh Boy",
+        "elucidation": "something is disgusting in some way",
+    "tags": "Gino Lambardo,Marissa Wompler",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-02-12T10:51:29Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/396-rob-huebel-jon-gabrus-jessica-st-clair/#t=1:17:17",
+    "created_at": "2016-02-12T10:51:29Z",
+    "slug_soundcloud": "396-rob-huebel-jon-gabrus-jessica-st-clair",
+    "slug_earwolf": "the-intern-challenge",
+    "episode_title": "The Intern Challenge",
+    "episode_guests": "Rob Huebel,Jon Gabrus,Jessica St. Clair",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 397,
+    "show": "cbb",
+    "tstart": "23:27",
+    "tend": "23:33",
+    "instance": "Who's going to tell Al?",
+        "bit": "Oh Boy",
+        "elucidation": "something is disgusting in some way",
+    "tags": "Bruce Springsteen",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-02-12T10:51:29Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/397-weird-al-yankovic-lauren-lapkus-joe-wengert/#t=23:27",
+    "created_at": "2016-02-12T10:51:29Z",
+    "slug_soundcloud": "397-weird-al-yankovic-lauren-lapkus-joe-wengert",
+    "slug_earwolf": "my-silly-moss-man",
+    "episode_title": "My Silly Moss Man",
+    "episode_guests": "Weird Al Yankovic,Joe Wengert,Lauren Lapkus",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 398,
+    "show": "cbb",
+    "tstart": "5:39",
+    "tend": "5:46",
+    "instance": "You're doing 2,000 pounds worth of press.",
+ "bit": "Group Coupon",
+        "elucidation": "scott articulates obvious data (acronyms, abbreviations, etc.)",
+    "tags": "",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-02-12T10:51:29Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/398-samantha-bee-drew-tarver-ryan-gaul/#t=5:39",
+    "created_at": "2016-02-12T10:51:29Z",
+    "slug_soundcloud": "398-samantha-bee-drew-tarver-ryan-gaul",
+    "slug_earwolf": "prayer-orgy",
+    "episode_title": "Prayer Orgy",
+    "episode_guests": "Samantha Bee,Drew Tarver,Ryan Gaul",
+    "id_wikia": null,
+    "holding": "false"
+}
