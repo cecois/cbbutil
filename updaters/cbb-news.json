@@ -129,3 +129,25 @@
     "id_wikia": null,
     "holding": "false"
 }
+
+{
+    "episode": 398,
+    "show": "cbb",
+    "tstart": "31:45",
+    "tend": "31:55",
+    "instance": "What's your favorite French word?",
+"bit": "Scott's Questions",
+        "elucidation": "(in progress) - all of scott's spiced questions",
+    "tags": "",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-02-12T10:51:29Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/398-samantha-bee-drew-tarver-ryan-gaul/#t=31:45",
+    "created_at": "2016-02-12T10:51:29Z",
+    "slug_soundcloud": "398-samantha-bee-drew-tarver-ryan-gaul",
+    "slug_earwolf": "prayer-orgy",
+    "episode_title": "Prayer Orgy",
+    "episode_guests": "Samantha Bee,Drew Tarver,Ryan Gaul",
+    "id_wikia": null,
+    "holding": "false"
+}
