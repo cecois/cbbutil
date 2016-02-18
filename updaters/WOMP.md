@@ -110,4 +110,20 @@
 * 401,1:07:30,you're so vain - simon (also much earlier in the ep)
 * 401,1:15:50,rock 'n roll - led zeppelin
 * 401,1:39:00,hey leonardo - blessed union of souls
-* 
+* 402,8:15,somewhere out there - peabo bryson?
+* 402,12:30,pump pump - snoop dogg
+* 402,18:55,going to the (break?) - ??
+* 402,32:00,let's talk about sex - salt n pepa
+* 402,32:30,mamob no 5 - lou bega
+* 402,39:40,ah freak out! - ??
+* 402,53:30,take me home tonight - eddie money
+* 402,54:00,baby come back - hall & oates
+* 402,54;00,baby back (ribs) - ?? (original to chili's?)
+* 402,54:45,happy talk - ??
+* 402,55:00,dream a little dream
+* 402,55:10,don't dream it's over - tears for fears?
+* 402,55:20,all star - smashmouth
+* 402,56:10,not throwing away my shot - ?
+* 402,57:30,feed me seymour - little shop
+* 402,1:00:00,who wrote the book of love - ?
+* 402,1:01:00,dancing in teh streets - ?

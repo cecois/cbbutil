@@ -151,3 +151,47 @@
     "id_wikia": null,
     "holding": "false"
 }
+
+{
+    "episode": "BO2015.1",
+    "show": "cbb",
+    "tstart": "6:55",
+    "tend": "7:14",
+    "instance": "Six giant jugs of pre-made whiskey eggnogg.",
+"bit": "The Widow Howl.app",
+        "elucidation": "the (sad future of) the cbb matriarch",
+    "tags": "",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2015-12-21T10:51:29Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/best-of-2015-pt-1/#t=6:55",
+    "created_at": "2015-12-17T10:51:29Z",
+    "slug_soundcloud": "best-of-2015-pt-1",
+    "slug_earwolf": "best-of-2015-pt-1",
+    "episode_title": "Best of 2015 Pt. 1",
+    "episode_guests": "Paul F. Tompkins",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 394,
+    "show": "cbb",
+    "tstart": "50:49",
+    "tend": "50:54",
+    "instance": "He puts me in The Widow Kulap's nightgown.",
+"bit": "Open Door Policy",
+        "elucidation": "cbb's open door policy is cited or blamed",
+    "tags": "Scott's nephew Todd",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-02-11T10:51:29Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/394-zach-galifianakis-lauren-lapkus-tim-baltz/#t=50:49",
+    "created_at": "2016-02-11T10:51:29Z",
+    "slug_soundcloud": "394-zach-galifianakis-lauren-lapkus-tim-baltz",
+    "slug_earwolf": "wisconsin-sugar-babies",
+    "episode_title": "Wisconsin Sugar Babies",
+    "episode_guests": "Zach Galifianakis,Lauren Lapkus,Tim Baltz",
+    "id_wikia": null,
+    "holding": "false"
+}
