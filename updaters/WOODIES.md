@@ -1,61 +1,61 @@
-280,6:43,it’s a cinderalla story
-370,1:07:30,shot off a balcony
-384,27:50,forget it i don't care
-384,59:06,may i ask where you ejaculate?
-384,47:20,do you not have hemmheroids?!
-035,35:00,the ibrain
-301,54:13,victor interviews a dentist
-301,1:04:10,that was unlistenable
-301,58:43,he handed us a flash drive!
-276,18:05,hooch the mooch doesn't joke about politics
-274,6:29,your farts smell bro?
-274,1:09:33,yeah i guess so
-272,1:26:23,like ten?
-272,1:24:59,technicality no down boo over
-262,2:24:43,i have two grammies
-BO2013.3,1:28:28,pft describes CBB
-261,1:04:23,aaron neville's 6 days of kwanzaa
-260,1:11:55,am i going out of my mind - was there a 5?
-260,1:03:36,victor gives it one more shot
-260,57:41,normal everyday regular eating procedure
-260,49:30,that's a problem that i have
-260,51:50,why is everybody laughing?
-260,45:29,this is the guy you're supposed to understand
-257,1:25:15,this one's a little shitheel
-257,1:10:45,how about some (recent) pyramid stuff?
-280,37:18,some lady
-280,47:47,psychological test
-280,1:00:05,how do u make a whore moan?
-222,43:07,you strike me as a creep
-346,1:08:00,that is wild
-216,28:45,did u ever notice that i look 53
-218,29:30,glue some whiskers on my face you idiots
-218,43:58,could you have put that any cruder?
-235,36:03,a load of old bullshit
-235,36:29,fuck yes!
-236,34:53,oh the money thing
-236,35:50,i don’t understand your issue
-236,49:18,boys we’re in business cha-ching
-236,1:03:30,i’m in charge now
-247,53:25,beef over
-249,1:13:48,hey shrek - time to fuck
-257,34:00,is this a ghost burger?
-257,43:55,wait - what? u can use a regular ladder?
-353,50:01,scott feeds benny schwaz a 9/11 premise for his headline game
-356,50:20,have we talked about this? we haven't!
-356,55:43,Go fund yourself...what?
-356,37:48,like abbott trying to be costello
-384,10:28,well i just asked a question but ok
-357,35:33,we both stumped!
-361,1:11:15,funny!
-366,57:07,for a person it's terrifyingly fast
-366,1:03:13,wet beans or dry beans?
-182,43:04-44:14,your name is zazzoo
-349,21:40-21:49,you put words in my mouth ho ho/shut up cake boss
-215,20:35-20:50,i ain't down with that gay shit
-215,25:05-25:16,i ain't down with that gay shit
-215,21:30-21:55,the darkest of africa
-390,1:14:57,maybe you can suck a fuck
+* 280,6:43,it’s a cinderalla story
+* 370,1:07:30,shot off a balcony
+* 384,27:50,forget it i don't care
+* 384,59:06,may i ask where you ejaculate?
+* 384,47:20,do you not have hemmheroids?!
+* 035,35:00,the ibrain
+* 301,54:13,victor interviews a dentist
+* 301,1:04:10,that was unlistenable
+* 301,58:43,he handed us a flash drive!
+* 276,18:05,hooch the mooch doesn't joke about politics
+* 274,6:29,your farts smell bro?
+* 274,1:09:33,yeah i guess so
+* 272,1:26:23,like ten?
+* 272,1:24:59,technicality no down boo over
+* 262,2:24:43,i have two grammies
+* BO2013.3,1:28:28,pft describes CBB
+* 261,1:04:23,aaron neville's 6 days of kwanzaa
+* 260,1:11:55,am i going out of my mind - was there a 5?
+* 260,1:03:36,victor gives it one more shot
+* 260,57:41,normal everyday regular eating procedure
+* 260,49:30,that's a problem that i have
+* 260,51:50,why is everybody laughing?
+* 260,45:29,this is the guy you're supposed to understand
+* 257,1:25:15,this one's a little shitheel
+* 257,1:10:45,how about some (recent) pyramid stuff?
+* 280,37:18,some lady
+* 280,47:47,psychological test
+* 280,1:00:05,how do u make a whore moan?
+* 222,43:07,you strike me as a creep
+* 346,1:08:00,that is wild
+* 216,28:45,did u ever notice that i look 53
+* 218,29:30,glue some whiskers on my face you idiots
+* 218,43:58,could you have put that any cruder?
+* 235,36:03,a load of old bullshit
+* 235,36:29,fuck yes!
+* 236,34:53,oh the money thing
+* 236,35:50,i don’t understand your issue
+* 236,49:18,boys we’re in business cha-ching
+* 236,1:03:30,i’m in charge now
+* 247,53:25,beef over
+* 249,1:13:48,hey shrek - time to fuck
+* 257,34:00,is this a ghost burger?
+* 257,43:55,wait - what? u can use a regular ladder?
+* 353,50:01,scott feeds benny schwaz a 9/11 premise for his headline game
+* 356,50:20,have we talked about this? we haven't!
+* 356,55:43,Go fund yourself...what?
+* 356,37:48,like abbott trying to be costello
+* 384,10:28,well i just asked a question but ok
+* 357,35:33,we both stumped!
+* 361,1:11:15,funny!
+* 366,57:07,for a person it's terrifyingly fast
+* 366,1:03:13,wet beans or dry beans?
+* 182,43:04-44:14,your name is zazzoo
+* 349,21:40-21:49,you put words in my mouth ho ho/shut up cake boss
+* 215,20:35-20:50,i ain't down with that gay shit
+* 215,25:05-25:16,i ain't down with that gay shit
+* 215,21:30-21:55,the darkest of africa
+* 390,1:14:57,maybe you can suck a fuck
 * who said it shamon
 * 94,25:16,i used to operate a b&b
 * 94,?????,now if that doesn’t go so good
@@ -106,9 +106,8 @@ BO2013.3,1:28:28,pft describes CBB
 * who’s the most fuckable huxtable? ++++
 * Every foam ending
 * 150,44:44,glamourpuss
-* Show me dat Piece!
-* something a little off about him
-* 304, ,would anyone like some tea? ++++
+* 329,42:00,Show me dat Piece!
+* 329,49:30,something a little off about him
 * 310,1:00:00,button puss speech +++
 * 310,1:01:09,United flight 93
 * bo2010,,huell drowns pigs
@@ -145,4 +144,4 @@ BO2013.3,1:28:28,pft describes CBB
 * http://howl.fm/audio/26163/live-from-vancouver-2013,29:40,why must we be charged?
 * http://howl.fm/audio/26155/live-from-nyc-2013-part-1,10:20,mom-n-pop FedEx
 * 394,57:00,don't try to show off for your podcast friends
-* 297,2:00,last day in june - neil finn
+* 329,40:30,i was not there when she was born

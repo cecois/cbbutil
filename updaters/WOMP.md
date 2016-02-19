@@ -127,3 +127,6 @@
 * 402,57:30,feed me seymour - little shop
 * 402,1:00:00,who wrote the book of love - ?
 * 402,1:01:00,dancing in teh streets - ?
+* 297,2:00,last day in june - neil finN
+* 378,25:00,fight the power - public enemy
+* 304,57:30,take a look at me now - phil collins
