@@ -97,3 +97,5 @@
 
 * dick francis
 	* 399,1:07:50 	
+* jason hates scott
+	* 384,24:30

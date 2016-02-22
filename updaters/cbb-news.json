@@ -85,3 +85,25 @@
     "id_wikia": "",
     "holding": "false"
 }
+
+{
+    "episode": 384,
+    "show": "cbb",
+    "tstart": "23:42",
+    "tend": "23:50",
+    "instance": "We're back with Jason Heynongmantzoukas.",
+"bit": "Heynong Man",
+        "elucidation": "the cbb sorbet",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-02-22T08:27:24Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/384-jason-mantzoukas-paul-f-tompkins/#t=23:42",
+    "tags": "",
+    "created_at": "2016-02-22T20:13:49Z",
+    "slug_soundcloud": "384-jason-mantzoukas-paul-f-tompkins",
+    "slug_earwolf": "numbers-cannot-lie",
+    "episode_title": "Numbers Cannot Lie",
+    "episode_guests": "Jason Mantzoukas,Paul F. Tompkins",
+    "id_wikia": "",
+    "holding": "false"
+}
