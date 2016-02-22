@@ -131,3 +131,7 @@
 * 378,25:00,fight the power - public enemy
 * 304,57:30,take a look at me now - phil collins
 * 215,9:00,?? - heaven on their minds - JC superstar
+* 403,1:21:04,who do you love - bo diddley
+* 403,1:28:00,you've lost that lovin feeling - righteous (check that - prolly  isleys first or something)
+* 384,6:10,ordinary love - sadé
+* 384,6:

@@ -19,3 +19,69 @@
   "id_wikia": 3948,
   "holding": "false"
 }
+
+{
+    "episode": 384,
+    "show": "cbb",
+    "tstart": "4:55",
+    "tend": "5:02",
+    "instance": "We have, of course, Jason Mantzoukas née Characterwheaties here...",
+    "bit": "Jeffrey Characterwheaties",
+        "elucidation": "a real sweetheart plays a real dirtbag",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-02-22T08:27:24Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/384-jason-mantzoukas-paul-f-tompkins/#t=4:55",
+    "tags": "Jeffrey Characterwheaties",
+    "created_at": "2016-02-22T20:13:49Z",
+    "slug_soundcloud": "384-jason-mantzoukas-paul-f-tompkins",
+    "slug_earwolf": "numbers-cannot-lie",
+    "episode_title": "Numbers Cannot Lie",
+    "episode_guests": "Jason Mantzoukas,Paul F. Tompkins",
+    "id_wikia": "",
+    "holding": "false"
+}
+
+{
+    "episode": 384,
+    "show": "cbb",
+    "tstart": "6:42",
+    "tend": "6:56",
+    "instance": "Hello, Jeffrey Characterwheaties.",
+    "bit": "Jeffrey Characterwheaties",
+        "elucidation": "a real sweetheart plays a real dirtbag",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-02-22T08:27:24Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/384-jason-mantzoukas-paul-f-tompkins/#t=6:42",
+    "tags": "Jeffrey Characterwheaties,Sadé",
+    "created_at": "2016-02-22T20:13:49Z",
+    "slug_soundcloud": "384-jason-mantzoukas-paul-f-tompkins",
+    "slug_earwolf": "numbers-cannot-lie",
+    "episode_title": "Numbers Cannot Lie",
+    "episode_guests": "Jason Mantzoukas,Paul F. Tompkins",
+    "id_wikia": "",
+    "holding": "false"
+}
+
+{
+    "episode": 384,
+    "show": "cbb",
+    "tstart": "8:28",
+    "tend": "8:36",
+    "instance": "Not your home because it will be my home with The Widow Kulap.",
+"bit": "The Widow Howl.app",
+        "elucidation": "the (sad future of) the cbb matriarch",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-02-22T08:27:24Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/384-jason-mantzoukas-paul-f-tompkins/#t=8:28",
+    "tags": "",
+    "created_at": "2016-02-22T20:13:49Z",
+    "slug_soundcloud": "384-jason-mantzoukas-paul-f-tompkins",
+    "slug_earwolf": "numbers-cannot-lie",
+    "episode_title": "Numbers Cannot Lie",
+    "episode_guests": "Jason Mantzoukas,Paul F. Tompkins",
+    "id_wikia": "",
+    "holding": "false"
+}
