@@ -66,8 +66,10 @@
 * don't joke about irobot
 	* early in bo2015.1
 	* bo2015.2,12:00
-* not into that g** shi*
+* i ain't down with (into) that g** shi*
 	* http://howl.fm/audio/26138/live-from-nyc-2014-part-1,46:00
+	* 215,20:34
+	* 215,24:57
 	* other moynahan/pft eps
 * but they could also send them to your twitter
 	* http://howl.fm/audio/26139/live-from-nyc-2014-part-2,1:01:00
@@ -87,3 +89,11 @@
 	* (tons of others, obv)
 * German craigslist
 	* 401,50:45
+
+* just a cardboard cutout inaugural
+
+* that's the show
+	* 399,1:07:08
+
+* dick francis
+	* 399,1:07:50 	

@@ -54,7 +54,7 @@
 * 349,21:40-21:49,you put words in my mouth ho ho/shut up cake boss
 * 215,20:35-20:50,i ain't down with that gay shit
 * 215,25:05-25:16,i ain't down with that gay shit
-* 215,21:30-21:55,the darkest of africa
+* 215,21:30-21:55,maybe in the darkest of africa
 * 390,1:14:57,maybe you can suck a fuck
 * who said it shamon
 * 94,25:16,i used to operate a b&b

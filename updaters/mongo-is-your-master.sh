@@ -36,7 +36,7 @@ done
 
 # we'll do these backups either way
 FILEDATE=$(date +'%Y%m%d')
-MONGOFIELDS="_id,episode,show,time,tstart,tend,instance,bit,elucidation,created_at,updated_at,url_soundcloud,tagarray,tags,tagarray_og,tagarray,tagarray,tagarray,tagarray,tagarray,tagarray,tagarray,tagarray,tagarray,tagarray,slug_soundcloud,location_type,location_id,slug_earwolf,id_wikia,holding,episode_title,episode_guests"
+MONGOFIELDS="_id,episode,show,time,tstart,tend,instance,bit,elucidation,created_at,updated_at,url_soundcloud,tagarray,tags,tagarray_og,tagarray,slug_soundcloud,location_type,location_id,slug_earwolf,id_wikia,holding,episode_title,episode_guests"
 MONGORAW="/tmp/mongolocal2solr.json"
 MONGOJQ="/tmp/mongolocal2solrJQ.json"
 
