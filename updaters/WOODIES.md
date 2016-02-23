@@ -74,12 +74,13 @@
 * bo2012.1,40:35,yeah, that’s what i know
 * 148,30:17,wipeout +++
 * 161,23:45,I love woodies
+* 150,5:30,dracularic activities
 * 161,54:00,scarecrow doesn’t know what to fuck
 * 161,59:58,mmm come on (daycare w/ tony)
 * 182,43:00,your name is Zazzoo!
 * 326,1:58:00,what about goo from a spider?
 * 335,1:05:43,2 things for you to do
-* 150,38:30,William Shatner drowning his wife +++
+* 150,38:20,William Shatner drowning his wife +++
 * 174,1:07:58,What?! (George St. Geegland gets the bad news about Bruno Kirby)
 * 174,And you're Gil
 * 150,16:53,you don't still got it after all
@@ -145,3 +146,6 @@
 * http://howl.fm/audio/26155/live-from-nyc-2013-part-1,10:20,mom-n-pop FedEx
 * 394,57:00,don't try to show off for your podcast friends
 * 329,40:30,i was not there when she was born
+* 384,59:00,may i ask where you ejaculate?
+* 384,59:30,i think the second thing was probably doggie style
+* 384,1:06:30,why would i be wearing two crowns on the top of my head hey-o

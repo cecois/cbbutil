@@ -107,3 +107,158 @@
     "id_wikia": "",
     "holding": "false"
 }
+
+{
+    "episode": 384,
+    "show": "cbb",
+    "tstart": "1:04:43",
+    "tend": "1:04:50",
+    "instance": "Can you imagine finding the love of your life in high school?",
+"bit": "Oh Boy",
+        "elucidation": "something is disgusting in some way",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-02-23T08:27:24Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/384-jason-mantzoukas-paul-f-tompkins/#t=1:04:43",
+    "tags": "Atherton J. Witherflower",
+    "created_at": "2016-02-23T20:13:49Z",
+    "slug_soundcloud": "384-jason-mantzoukas-paul-f-tompkins",
+    "slug_earwolf": "numbers-cannot-lie",
+    "episode_title": "Numbers Cannot Lie",
+    "episode_guests": "Jason Mantzoukas,Paul F. Tompkins",
+    "id_wikia": "",
+    "holding": "false"
+}
+
+{
+    "episode": 384,
+    "show": "cbb",
+    "tstart": "1:04:43",
+    "tend": "1:04:57",
+    "instance": "The Widow Kulap is gonna be so much better with me.",
+"bit": "The Widow Howl.app",
+        "elucidation": "the (sad future of) the cbb matriarch",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-02-23T08:27:24Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/384-jason-mantzoukas-paul-f-tompkins/#t=1:04:43",
+    "tags": "Atherton J. Witherflower",
+    "created_at": "2016-02-23T20:13:49Z",
+    "slug_soundcloud": "384-jason-mantzoukas-paul-f-tompkins",
+    "slug_earwolf": "numbers-cannot-lie",
+    "episode_title": "Numbers Cannot Lie",
+    "episode_guests": "Jason Mantzoukas,Paul F. Tompkins",
+    "id_wikia": "",
+    "holding": "false"
+}
+
+{
+    "episode": 384,
+    "show": "cbb",
+    "tstart": "1:20:55",
+    "tend": "1:21:21",
+    "instance": "How much do auto-tunes go for?",
+"bit": "Mine's Under My Bed",
+        "elucidation": "some purchased thing is never used or no longer used",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-02-23T08:27:24Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/384-jason-mantzoukas-paul-f-tompkins/#t=1:20:55",
+    "tags": "Atherton J. Witherflower",
+    "created_at": "2016-02-23T20:13:49Z",
+    "slug_soundcloud": "384-jason-mantzoukas-paul-f-tompkins",
+    "slug_earwolf": "numbers-cannot-lie",
+    "episode_title": "Numbers Cannot Lie",
+    "episode_guests": "Jason Mantzoukas,Paul F. Tompkins",
+    "id_wikia": "",
+    "holding": "false"
+}
+
+{
+
+    "episode": 150,
+    "show": "cbb",
+    "tstart": "23:27",
+    "tend": "23:38",
+    "instance": "Rest in peace, Davy Jones.",
+        "bit": "What's This, Now?!",
+        "elucidation": "something surprises someone",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-02-23T10:51:29Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/time-bobby/#t=23:27",
+    "tags": "Fourvel,Andrew Lloyd Weber,Davy Jones,The Monkees",
+    "created_at": "2016-02-23T10:51:29Z",
+    "slug_soundcloud": "time-bobby",
+    "slug_earwolf": "time-bobby",
+    "episode_title": "Time Bobby",
+    "episode_guests": "Bobby Moynihan,Paul F. Tompkins",
+    "id_wikia": 2358,
+    "holding": "false"
+}
+
+{
+    "episode": 150,
+    "show": "cbb",
+    "tstart": "28:25",
+    "tend": "28:48",
+    "instance": "That is, in large part, all I do on this program.",
+"bit": "Uneasy Lies the Head",
+        "elucidation": "someone (pft) steps on the reset",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-02-23T10:51:29Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/time-bobby/#t=28:25",
+    "tags": "Fourvel,Andrew Lloyd Weber",
+    "created_at": "2016-02-23T10:51:29Z",
+    "slug_soundcloud": "time-bobby",
+    "slug_earwolf": "time-bobby",
+    "episode_title": "Time Bobby",
+    "episode_guests": "Bobby Moynihan,Paul F. Tompkins",
+    "id_wikia": 2358,
+    "holding": "false"
+}
+
+{
+    "episode": 150,
+    "show": "cbb",
+    "tstart": "57:23",
+    "tend": "58:18",
+    "instance": "He had a mouth full of hot dogs.",
+"bit": "Slimer",
+"elucidation": "from ghostbusters",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-02-23T10:51:29Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/time-bobby/#t=57:23",
+    "tags": "Fourvel,Andrew Lloyd Weber,Ghostbusters (film)",
+    "created_at": "2016-02-23T10:51:29Z",
+    "slug_soundcloud": "time-bobby",
+    "slug_earwolf": "time-bobby",
+    "episode_title": "Time Bobby",
+    "episode_guests": "Bobby Moynihan,Paul F. Tompkins",
+    "id_wikia": 2358,
+    "holding": "false"
+}
+
+{
+    "episode": 150,
+    "show": "cbb",
+    "tstart": "59:49",
+    "tend": "1:00:02",
+    "instance": "In order to curb your more stabrionic tendencies what if I were to put you in a special room...",
+    "bit": "Topping Hat",
+    "elucidation": "dsalw speaks the queen's english",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-02-23T10:51:29Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/time-bobby/#t=59:49",
+    "tags": "Fourvel,Andrew Lloyd Weber",
+    "created_at": "2016-02-23T10:51:29Z",
+    "slug_soundcloud": "time-bobby",
+    "slug_earwolf": "time-bobby",
+    "episode_title": "Time Bobby",
+    "episode_guests": "Bobby Moynihan,Paul F. Tompkins",
+    "id_wikia": 2358,
+    "holding": "false"
+}

@@ -84,8 +84,10 @@
 	* 401,41:15
 	* 401,56:00
 	* basically all #thicke eps
-* plugs close appendage
+* that's a good song (plugs appendage)
 	* 401,1:46:00
+	* 384,1:23:33
+	* 384,1:28:00
 	* (tons of others, obv)
 * German craigslist
 	* 401,50:45
@@ -99,3 +101,7 @@
 	* 399,1:07:50 	
 * jason hates scott
 	* 384,24:30
+* constantly high-fiving
+	* 384,25:00
+* men of a certain age
+	* 384,47:30

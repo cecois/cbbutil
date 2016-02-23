@@ -134,4 +134,7 @@
 * 403,1:21:04,who do you love - bo diddley
 * 403,1:28:00,you've lost that lovin feeling - righteous (check that - prolly  isleys first or something)
 * 384,6:10,ordinary love - sadé
-* 384,6:
+* 384,6:10,(some other sadé)
+* 384,45:30,oh sheila - ?
+* 384,45:30,oh donna - richie valens
+* 150,35:00,cop killer - ice t & body count
