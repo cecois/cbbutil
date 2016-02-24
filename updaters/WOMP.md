@@ -16,6 +16,7 @@
 * 377,1:18:48,song remains the same - zep
 * 377,1:26:40,in the air tonight - P.C.
 * 003,3:25,man on the moon - R.E.M.
+* 215,1:08:47,johnny b. goode
 * 003,8:07,vaseline - STP
 * 003,19:45,breakin my stride - matthew wilder
 * 007,3:15,raised on radio - journey
