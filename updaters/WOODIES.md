@@ -14,6 +14,7 @@
 * 272,1:24:59,technicality no down boo over
 * 262,2:24:43,i have two grammies
 * BO2013.3,1:28:28,pft describes CBB
+* 23,14:25,tig i'm gonna ask you to shut your mouth
 * 261,1:04:23,aaron neville's 6 days of kwanzaa
 * 260,1:11:55,am i going out of my mind - was there a 5?
 * 260,1:03:36,victor gives it one more shot
@@ -33,6 +34,8 @@
 * 218,43:58,could you have put that any cruder?
 * 235,36:03,a load of old bullshit
 * 235,36:29,fuck yes!
+* 235,40:00,i am a man
+* 235,1:02:30,i don't care for this vaudeville
 * 236,34:53,oh the money thing
 * 236,35:50,i don’t understand your issue
 * 236,49:18,boys we’re in business cha-ching

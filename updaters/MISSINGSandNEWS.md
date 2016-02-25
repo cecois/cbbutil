@@ -75,8 +75,9 @@
 	* 215,20:34
 	* 215,24:57
 	* other moynahan/pft eps
-* but they could also send them to your twitter
+* but they could also send them (wyr) to your twitter
 	* http://howl.fm/audio/26139/live-from-nyc-2014-part-2,1:01:00
+	* 235,58:30
 * gershwin, my baby
 	* 400, multiple
 	* 400, ~28:30

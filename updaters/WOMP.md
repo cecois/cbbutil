@@ -139,3 +139,6 @@
 * 384,45:30,oh sheila - ?
 * 384,45:30,oh donna - richie valens
 * 150,35:00,cop killer - ice t & body count
+* 235,52:35,???? - journey
+* 235,52:35,wheel in the sky - journey
+* 235,53:00,don't stop believin - journey
