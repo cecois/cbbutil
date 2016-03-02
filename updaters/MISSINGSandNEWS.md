@@ -5,6 +5,11 @@
 	* several tompkins eps
 	* 378 kroll does tons
 * rounds of catchphrase
+* all the cities of the country
+	* 404,16:00
+* r2d2soon
+	* bo2015*
+	* 404,21:15
 * players playing other players' characters
 	* 286
 	* bo2015.1,1:49:44

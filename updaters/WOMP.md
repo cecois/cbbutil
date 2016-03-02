@@ -142,3 +142,5 @@
 * 235,52:35,???? - journey
 * 235,52:35,wheel in the sky - journey
 * 235,53:00,don't stop believin - journey
+* 404,23:15,hot hot hot - buster
+* 404,32:00,itsy bitsy teeny weeny bikini - ?
