@@ -144,3 +144,5 @@
 * 235,53:00,don't stop believin - journey
 * 404,23:15,hot hot hot - buster
 * 404,32:00,itsy bitsy teeny weeny bikini - ?
+* 405,9:30,18 & life - skid row
+* 405,47:00,9 to 5 - dolly parton
