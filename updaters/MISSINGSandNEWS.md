@@ -4,6 +4,7 @@
 	* daly intervention
 	* several tompkins eps
 	* 378 kroll does tons
+	* 406,1:06:00,Murphy O'Malaman && Todd
 * rounds of catchphrase
 * all the cities of the country
 	* 404,16:00
@@ -15,6 +16,7 @@
 	* bo2015.1,1:49:44
 	* 356,14:44,zouks does adomian's leykis 
 	* 378,34:50,kroll is asked to do sappity-tappity
+	* 406,55:08,scott does ho-ho
 * goodbye listeners! 
 	* bo2015.3,32:00
 	* 349,1:01:30
@@ -30,6 +32,7 @@
 	* bo2015.4,~38:00
 * ET no homo
 	* 356,1:12:00
+	* 406,54:50
 * fictional people - dead but reaonsable
 	* san francisco 2012,23:00+
 	* seattle 2013,55:45
