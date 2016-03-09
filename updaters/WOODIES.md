@@ -70,6 +70,7 @@
 * 103,1:32:20,yeah scott u idiot
 * 103,1:37:20,i’m inside this fella (huell f. tompkins)
 * 136,1:44:58,great question chupacabra
+* 34,20:30,gay! (oh, chupacabra's back)
 * 136,1:47:24,governor venturabody boss
 * 148,5:15,12 nights of oscars
 * bo2012.1,35:40,a great silence envelopes the nation

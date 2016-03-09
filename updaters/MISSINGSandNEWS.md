@@ -5,6 +5,7 @@
 	* several tompkins eps
 	* 378 kroll does tons
 	* 406,1:06:00,Murphy O'Malaman && Todd
+	* 32,53:00,brendon small does impressions
 * rounds of catchphrase
 * all the cities of the country
 	* 404,16:00
@@ -123,3 +124,5 @@
 	* time bobbys?
 	* dsalw eps
 	* 405,33:15
+* santa baby
+	* 33,6:00

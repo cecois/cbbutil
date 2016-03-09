@@ -147,3 +147,8 @@
 * 405,9:30,18 & life - skid row
 * 405,47:00,9 to 5 - dolly parton
 * 406,1:03:30,hello - lionel richie
+* 31,1:30,say my name - destiny's child
+* 31,5:45,something to talk about - bonnie raitt
+* 31,9:50,lady picture show - STP
+* 33,10:50,welcome to jam rock - damion marley
+* 33,12:00,friends are friends forever - michael w. smith
