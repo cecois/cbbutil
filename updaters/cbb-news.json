@@ -107,3 +107,157 @@
 	"id_wikia": 2498,
 	"holding": "false"
 }
+
+{
+	"episode": 34,
+	"show": "cbb",
+	"tstart": "49:59",
+	"tend": "40:25",
+	"instance": "I think we have a winner - I think he won.",
+	"bit":"Shut the Fuck Up!",
+	"elucidation":"someone simply wants everyone else specifically to shut the fuck up",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-03-10T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/have-a-merry-christmas/#t=49:59",
+	"tags": "John C. Reilly",
+	"created_at": "2016-03-10T10:51:29Z",
+	"slug_soundcloud": "have-a-merry-christmas",
+	"slug_earwolf": "have-a-merry-christmas",
+	"episode_title": "Have a Merry Christmas...",
+	"episode_guests": "Jon Hamm,Doug Benson,Nick Kroll,Kulap Vilaysack,Paul F. Tompkins,James Adomian",
+	"id_wikia": 2498,
+	"holding": "false"
+}
+
+{
+	"episode": 34,
+	"show": "cbb",
+	"tstart": "1:02:00",
+	"tend": "1:02:05",
+	"instance": "What if you were to go, 'ladies and gentlemen - Michael Boob'?",
+	"bit":"Scott's Questions",
+	"elucidation":"(in progress) - scott's questions",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-03-10T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/have-a-merry-christmas/#t=1:02:00",
+	"tags": "John C. Reilly",
+	"created_at": "2016-03-10T10:51:29Z",
+	"slug_soundcloud": "have-a-merry-christmas",
+	"slug_earwolf": "have-a-merry-christmas",
+	"episode_title": "Have a Merry Christmas...",
+	"episode_guests": "Jon Hamm,Doug Benson,Nick Kroll,Kulap Vilaysack,Paul F. Tompkins,James Adomian",
+	"id_wikia": 2498,
+	"holding": "false"
+}
+
+{
+	"episode": 37,
+	"show": "cbb",
+	"tstart": "5:49",
+	"tend": "6:00",
+	"instance": "We'll take a break but you're great.",
+	"bit": "We'll Be Right Back",
+	"elucidation": "somebody (usually todd glass) throws to commercial after a bit",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-03-11T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/exclusive-prince-interview/#t=5:49",
+	"tags": "",
+	"created_at": "2016-03-11T10:51:29Z",
+	"slug_soundcloud": "exclusive-prince-interview",
+	"slug_earwolf": "exclusive-prince-interview",
+	"episode_title": "Exclusive Prince Interview",
+	"episode_guests": "Sarah Silverman,Todd Glass,Hannibal Buress",
+	"id_wikia": 2502,
+	"holding": "false"
+}
+
+{
+	"episode": 37,
+	"show": "cbb",
+	"tstart": "22:55",
+	"tend": "23:08",
+	"instance": "Everyone behaves.",
+	"bit": "We'll Be Right Back",
+	"elucidation": "somebody (usually todd glass) throws to commercial after a bit",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-03-11T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/exclusive-prince-interview/#t=22:55",
+	"tags": "Friends (TV)",
+	"created_at": "2016-03-11T10:51:29Z",
+	"slug_soundcloud": "exclusive-prince-interview",
+	"slug_earwolf": "exclusive-prince-interview",
+	"episode_title": "Exclusive Prince Interview",
+	"episode_guests": "Sarah Silverman,Todd Glass,Hannibal Buress",
+	"id_wikia": 2502,
+	"holding": "false"
+}
+
+{
+	"episode": 37,
+	"show": "cbb",
+	"tstart": "29:35",
+	"tend": "29:50",
+	"instance": "Is Patrick Swayze's show picked up?",
+	"bit": "We'll Be Right Back",
+	"elucidation": "somebody (usually todd glass) throws to commercial after a bit",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-03-11T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/exclusive-prince-interview/#t=29:35",
+	"tags": "Patrick Swayze",
+	"created_at": "2016-03-11T10:51:29Z",
+	"slug_soundcloud": "exclusive-prince-interview",
+	"slug_earwolf": "exclusive-prince-interview",
+	"episode_title": "Exclusive Prince Interview",
+	"episode_guests": "Sarah Silverman,Todd Glass,Hannibal Buress",
+	"id_wikia": 2502,
+	"holding": "false"
+}
+
+{
+	"episode": 37,
+	"show": "cbb",
+	"tstart": "29:35",
+	"tend": "29:50",
+	"instance": "Is Patrick Swayze's show picked up?",
+	"bit": "Too Soon",
+	"elucidation": "someone uses, misuses, or riffs on 'too soon'",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-03-11T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/exclusive-prince-interview/#t=29:35",
+	"tags": "Patrick Swayze",
+	"created_at": "2016-03-11T10:51:29Z",
+	"slug_soundcloud": "exclusive-prince-interview",
+	"slug_earwolf": "exclusive-prince-interview",
+	"episode_title": "Exclusive Prince Interview",
+	"episode_guests": "Sarah Silverman,Todd Glass,Hannibal Buress",
+	"id_wikia": 2502,
+	"holding": "false"
+}
+
+{
+	"episode": 37,
+	"show": "cbb",
+	"tstart": "33:30",
+	"tend": "33:51",
+	"instance": "Is this at Disneyland?",
+	"bit": "We'll Be Right Back",
+	"elucidation": "somebody (usually todd glass) throws to commercial after a bit",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-03-11T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/exclusive-prince-interview/#t=33:30",
+	"tags": "Patrick Swayze",
+	"created_at": "2016-03-11T10:51:29Z",
+	"slug_soundcloud": "exclusive-prince-interview",
+	"slug_earwolf": "exclusive-prince-interview",
+	"episode_title": "Exclusive Prince Interview",
+	"episode_guests": "Sarah Silverman,Todd Glass,Hannibal Buress",
+	"id_wikia": 2502,
+	"holding": "false"
+}
