@@ -152,3 +152,13 @@
 * 31,9:50,lady picture show - STP
 * 33,10:50,welcome to jam rock - damion marley
 * 33,12:00,friends are friends forever - michael w. smith
+* 407,2:00,what goes up - 3 dog night?
+* 407,8:00,gold - spandeau ballet
+* 407,12:40,how to be a zillionaire - ABC
+* 407,18:10,scenarios - tribe called quest
+* 407,34:30,all the things she said - tatu
+* 407,34:30,they're not gonna get us - tatu
+* 407,1:03:50,little plastic castles - ani difranco
+* 407,1:04:05,two little girls - ani difranco
+* 407,1:06:30,gravel - ani difranco
+* 407,1:21:20,goody two shoes - adam ant
