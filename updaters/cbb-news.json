@@ -108,3 +108,113 @@
 	"id_wikia": 2502,
 	"holding": "false"
 }
+
+{
+	"episode": 37,
+	"show": "cbb",
+	"tstart": "39:45",
+	"tend": "40:09",
+	"instance": "A black person that wants to marry a white person.",
+	"bit": "We'll Be Right Back",
+	"elucidation": "somebody (usually todd glass) throws to commercial after a bit",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-03-11T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/exclusive-prince-interview/#t=39:45",
+	"tags": "Patrick Swayze",
+	"created_at": "2016-03-11T10:51:29Z",
+	"slug_soundcloud": "exclusive-prince-interview",
+	"slug_earwolf": "exclusive-prince-interview",
+	"episode_title": "Exclusive Prince Interview",
+	"episode_guests": "Sarah Silverman,Todd Glass,Hannibal Buress",
+	"id_wikia": 2502,
+	"holding": "false"
+}
+
+{
+	"episode": 37,
+	"show": "cbb",
+	"tstart": "52:54",
+	"tend": "53:07",
+	"instance": "Let's go to one more song.",
+	"bit": "We'll Be Right Back",
+	"elucidation": "somebody (usually todd glass) throws to commercial after a bit",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-03-11T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/exclusive-prince-interview/#t=52:54",
+	"tags": "Patrick Swayze",
+	"created_at": "2016-03-11T10:51:29Z",
+	"slug_soundcloud": "exclusive-prince-interview",
+	"slug_earwolf": "exclusive-prince-interview",
+	"episode_title": "Exclusive Prince Interview",
+	"episode_guests": "Sarah Silverman,Todd Glass,Hannibal Buress",
+	"id_wikia": 2502,
+	"holding": "false"
+}
+
+{
+	"episode": 38,
+	"show": "cbb",
+	"tstart": "08:21",
+	"tend": "08:39",
+	"instance": "We went up back to Hogsback and we drove up and we were...and then Laurie.",
+	"bit": "Location",
+	"elucidation": "identifiable earth location",
+	"location_type": "point",
+	"location_id": "594",
+	"updated_at": "2016-13-16T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/paul-f-tompkins-steps-in/#t=08:21",
+	"tags": "Grandma Jonesy,Grandma Levon",
+	"created_at": "2016-03-16T10:51:29Z",
+	"slug_soundcloud": "paul-f-tompkins-steps-in",
+	"slug_earwolf": "paul-f-tompkins-steps-in",
+	"episode_title": "Paul F. Tompkins Steps In",
+	"episode_guests": "Kaitlin Olson,Jeremy Carter,Mark McConville,Matt Gourley,Paul F. Tompkins",
+	"id_wikia": 2506,
+	"holding": "false"
+}
+
+{
+	"episode": 38,
+	"show": "cbb",
+	"tstart": "9:45",
+	"tend": "9:57",
+	"instance": "How was the trip here from Texas?",
+	"bit": "Location",
+	"elucidation": "identifiable earth location",
+	"location_type": "line",
+	"location_id": "89",
+	"updated_at": "2016-13-16T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/paul-f-tompkins-steps-in/#t=9:45",
+	"tags": "Grandma Jonesy,Grandma Levon",
+	"created_at": "2016-03-16T10:51:29Z",
+	"slug_soundcloud": "paul-f-tompkins-steps-in",
+	"slug_earwolf": "paul-f-tompkins-steps-in",
+	"episode_title": "Paul F. Tompkins Steps In",
+	"episode_guests": "Kaitlin Olson,Jeremy Carter,Mark McConville,Matt Gourley,Paul F. Tompkins",
+	"id_wikia": 2506,
+	"holding": "false"
+}
+
+{
+	"episode": 38,
+	"show": "cbb",
+	"tstart": "14:15",
+	"tend": "15:21",
+	"instance": "I think it was like nine of us. Or three times that number.",
+	"bit": "Location",
+	"elucidation": "identifiable earth location",
+	"location_type": "point",
+	"location_id": "595",
+	"updated_at": "2016-13-16T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/paul-f-tompkins-steps-in/#t=14:15",
+	"tags": "Grandma Jonesy,Grandma Levon",
+	"created_at": "2016-03-16T10:51:29Z",
+	"slug_soundcloud": "paul-f-tompkins-steps-in",
+	"slug_earwolf": "paul-f-tompkins-steps-in",
+	"episode_title": "Paul F. Tompkins Steps In",
+	"episode_guests": "Kaitlin Olson,Jeremy Carter,Mark McConville,Matt Gourley,Paul F. Tompkins",
+	"id_wikia": 2506,
+	"holding": "false"
+}
