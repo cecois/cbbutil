@@ -2,7 +2,8 @@
 
 // could parse this out but fuggit
 $hardep = "407";
-$incoming = "/Users/ccmiller/Desktop/cbb/updaters/cbb-live-json.json";
+// $incoming = "/Users/ccmiller/Desktop/cbb/updaters/cbb-live-json.json";
+$incoming = "/Users/ccmiller/Desktop/cbb/updaters/cbb-news-json.json";
 
 $bitsraw = array();
 
