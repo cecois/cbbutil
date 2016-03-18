@@ -10,7 +10,7 @@
 	"location_id": "594",
 	"updated_at": "2016-13-16T10:51:29Z",
 	"url_soundcloud": "http://soundcloud.com/comedybangbang/paul-f-tompkins-steps-in/#t=08:21",
-	"tags": "Grandma Jonesy,Grandma Levon",
+	"tags": "Grandma Jonesy,Grandma (Queen Bee) Levon",
 	"created_at": "2016-03-16T10:51:29Z",
 	"slug_soundcloud": "paul-f-tompkins-steps-in",
 	"slug_earwolf": "paul-f-tompkins-steps-in",
@@ -32,7 +32,7 @@
 	"location_id": "89",
 	"updated_at": "2016-13-16T10:51:29Z",
 	"url_soundcloud": "http://soundcloud.com/comedybangbang/paul-f-tompkins-steps-in/#t=9:45",
-	"tags": "Grandma Jonesy,Grandma Levon",
+	"tags": "Grandma Jonesy,Grandma (Queen Bee) Levon",
 	"created_at": "2016-03-16T10:51:29Z",
 	"slug_soundcloud": "paul-f-tompkins-steps-in",
 	"slug_earwolf": "paul-f-tompkins-steps-in",
@@ -54,7 +54,7 @@
 	"location_id": "595",
 	"updated_at": "2016-13-16T10:51:29Z",
 	"url_soundcloud": "http://soundcloud.com/comedybangbang/paul-f-tompkins-steps-in/#t=14:15",
-	"tags": "Grandma Jonesy,Grandma Levon",
+	"tags": "Grandma Jonesy,Grandma (Queen Bee) Levon",
 	"created_at": "2016-03-16T10:51:29Z",
 	"slug_soundcloud": "paul-f-tompkins-steps-in",
 	"slug_earwolf": "paul-f-tompkins-steps-in",
@@ -63,3 +63,26 @@
 	"id_wikia": 2506,
 	"holding": "false"
 }
+
+{
+	"episode": 38,
+	"show": "cbb",
+	"tstart": "34:07",
+	"tend": "34:27",
+	"instance": "I'm sorry it's only 13.",
+	"bit":"Leave Him Alone!",
+	"elucidation":"someone (typically victor diamond) rises to defend a friend",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-13-17T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/paul-f-tompkins-steps-in/#t=34:07",
+	"tags": "Grandma Jonesy,Grandma (Queen Bee) Levon",
+	"created_at": "2016-03-17T10:51:29Z",
+	"slug_soundcloud": "paul-f-tompkins-steps-in",
+	"slug_earwolf": "paul-f-tompkins-steps-in",
+	"episode_title": "Paul F. Tompkins Steps In",
+	"episode_guests": "Kaitlin Olson,Jeremy Carter,Mark McConville,Matt Gourley,Paul F. Tompkins",
+	"id_wikia": 2506,
+	"holding": "false"
+}
+

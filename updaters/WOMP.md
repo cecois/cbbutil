@@ -162,3 +162,9 @@
 * 407,1:04:05,two little girls - ani difranco
 * 407,1:06:30,gravel - ani difranco
 * 407,1:21:20,goody two shoes - adam ant
+* 408,54:00,oklahoma! - rodgers & whosis?
+* 408,1:18:30,i wanna hold your hand - the beatles
+* 408,1:24:00,tiny dancer - elton john
+* 408,1:25:30,milkshake - kelis
+* 408,1:26:10,like a bird - (natalie imbruglia?)
+* 408,1:32:15,mr. sandman - ??

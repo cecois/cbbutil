@@ -51,6 +51,7 @@
 	* bo2015.2,2:07:30
 	* bo2015.3,5:00
 	* bo2015.4,5:00
+	* 408,1:00:00
 * look it up, (scotty|pauly) - 
 	* 349,42:30
 	* bo2015.4,8:00
@@ -72,6 +73,7 @@
 	* bo2015.*
 * and...10 more minutes
 	* 400,50:00
+	* 408,32:00
 * ~~jeffrey characterwheaties~~
 	* ~~2:03:55,kroll+mantzoukas daemon episode~~
 	* ~~394,41:10~~
