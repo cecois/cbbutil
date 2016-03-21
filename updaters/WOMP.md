@@ -168,3 +168,6 @@
 * 408,1:25:30,milkshake - kelis
 * 408,1:26:10,like a bird - (natalie imbruglia?)
 * 408,1:32:15,mr. sandman - ??
+* 409,1:00,shake it off - taylor swift
+* 409,11:35,tracks of my tears - smokey robinson
+* 409,16:41,wqouldn't it be nice - beach boys
