@@ -86,3 +86,68 @@
 	"holding": "false"
 }
 
+{
+	"episode": "b3",
+	"show": "cbb",
+	"tstart": "6:51",
+	"tend": "7:06",
+	"instance": "Improvisers say 'Yes, and...' and comedians are like, 'Ah, I don\'t think so.'",
+	"bit":"Yes, And...",
+	"elucidation":"the rule of 'yes, and' is invoked or abused",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-03-22T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/live-from-ucb-ny/#t=6:51",
+	"tags": "",
+	"created_at": "2016-03-22T10:51:29Z",
+	"slug_soundcloud": "live-from-ucb-ny",
+	"slug_earwolf": "live-from-ucb-ny",
+	"episode_title": "Live from UCB NY!",
+	"episode_guests": "Zach Galifianakis,David Cross,Todd Barry,John Gemberling,Ted Leo",
+	"id_wikia": 2507,
+	"holding": "false"
+}
+
+{
+	"episode": "b3",
+	"show": "cbb",
+	"tstart": "29:16",
+	"tend": "29:27",
+	"instance": "Is anyone live-Tweeting this?",
+	"bit":"That is the Dream",
+	"elucidation":"scott seems jealous or just commendatory",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-03-22T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/live-from-ucb-ny/#t=29:16",
+	"tags": "",
+	"created_at": "2016-03-22T10:51:29Z",
+	"slug_soundcloud": "live-from-ucb-ny",
+	"slug_earwolf": "live-from-ucb-ny",
+	"episode_title": "Live from UCB NY!",
+	"episode_guests": "Zach Galifianakis,David Cross,Todd Barry,John Gemberling,Ted Leo",
+	"id_wikia": 2507,
+	"holding": "false"
+}
+
+{
+	"episode": "b3",
+	"show": "cbb",
+	"tstart": "56:43",
+	"tend": "56:57",
+	"instance": "No, I had to be cut out of her.",
+	"bit":"Furgina",
+	"elucidation":"scott has trouble speaking the word 'vagina'",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-03-22T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/live-from-ucb-ny/#t=56:43",
+	"tags": "",
+	"created_at": "2016-03-22T10:51:29Z",
+	"slug_soundcloud": "live-from-ucb-ny",
+	"slug_earwolf": "live-from-ucb-ny",
+	"episode_title": "Live from UCB NY!",
+	"episode_guests": "Zach Galifianakis,David Cross,Todd Barry,John Gemberling,Ted Leo",
+	"id_wikia": 2507,
+	"holding": "false"
+}
