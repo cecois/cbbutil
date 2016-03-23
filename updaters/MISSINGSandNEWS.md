@@ -132,3 +132,6 @@
 	* 405,33:15
 * santa baby
 	* 33,6:00
+* symmetrical face
+	* 41,29:00
+	* some earlier than 41, too

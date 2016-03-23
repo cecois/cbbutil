@@ -172,3 +172,5 @@
 * 409,11:35,tracks of my tears - smokey robinson
 * 409,16:41,wqouldn't it be nice - beach boys
 * b3,57:00,kickstart my heart - motley crue?
+* 40,58:00,lamb/broadway - genesis
+* 41,37:45,you are in my heart - phil collins

@@ -151,3 +151,113 @@
 	"id_wikia": 2507,
 	"holding": "false"
 }
+
+{
+	"episode": 40,
+	"show": "cbb",
+	"tstart": "21:49",
+	"tend": "21:57",
+	"instance": "You would admit that you're, I mean, somewhat of a dullard, right Doug?",
+	"bit":"Scott's Questions",
+	"elucidation":"(in progress) - scott's questions",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2015-10-16T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/happy-valentines-day/#t=21:49",
+	"tags": "",
+	"created_at": "2015-04-03T10:51:29Z",
+	"slug_soundcloud": "happy-valentines-day",
+	"slug_earwolf": "happy-valentines-day",
+	"episode_title": "Happy Valentines Day",
+	"episode_guests": "Doug Benson,Harris Wittels,Paul F. Tompkins,James Adomian",
+	"id_wikia": 2509,
+	"holding": "false"
+}
+
+{
+	"episode": 40,
+	"show": "cbb",
+	"tstart": "43:24",
+	"tend": "43:37",
+	"instance": "Like in 'The Rocky Horror Picture Show'?",
+	"bit":"Who?",
+	"elucidation":"somebody doesn't know who or what something famous is",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2015-10-16T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/happy-valentines-day/#t=43:24",
+	"tags": "Garry Marshall,Rocky Horror Picture Show (film)",
+	"created_at": "2015-04-03T10:51:29Z",
+	"slug_soundcloud": "happy-valentines-day",
+	"slug_earwolf": "happy-valentines-day",
+	"episode_title": "Happy Valentines Day",
+	"episode_guests": "Doug Benson,Harris Wittels,Paul F. Tompkins,James Adomian",
+	"id_wikia": 2509,
+	"holding": "false"
+}
+
+{
+	"episode": 41,
+	"show": "cbb",
+	"tstart": "12:54",
+	"tend": "13:15",
+	"instance": "Do you think The Beatles knew that their song would be used liked that?",
+	"bit":"Scott's Questions",
+	"elucidation":"(in progress) - scott's questions",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2015-10-16T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/winter-olympic-fever/#t=12:54",
+	"tags": "The Beatles",
+	"created_at": "2015-04-03T10:51:29Z",
+	"slug_soundcloud": "winter-olympic-fever",
+	"slug_earwolf": "winter-olympic-fever",
+	"episode_title": "Winter Olympic Fever",
+	"episode_guests": "Aimee Mann,Drew Droege,Kumail Nanjiani",
+	"id_wikia": 2532,
+	"holding": "false"
+}
+
+{
+	"episode": 41,
+	"show": "cbb",
+	"tstart": "13:24",
+	"tend": "13:31",
+	"instance": "Are any of [The Beatles] still alive?",
+	"bit":"Scott's Questions",
+	"elucidation":"(in progress) - scott's questions",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2015-10-16T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/winter-olympic-fever/#t=13:24",
+	"tags": "The Beatles",
+	"created_at": "2015-04-03T10:51:29Z",
+	"slug_soundcloud": "winter-olympic-fever",
+	"slug_earwolf": "winter-olympic-fever",
+	"episode_title": "Winter Olympic Fever",
+	"episode_guests": "Aimee Mann,Drew Droege,Kumail Nanjiani",
+	"id_wikia": 2532,
+	"holding": "false"
+}
+
+{
+	"episode": 41,
+	"show": "cbb",
+	"tstart": "36:52",
+	"tend": "37:01",
+	"instance": "What about really good blues?",
+	"bit":"Scott's Questions",
+	"elucidation":"(in progress) - scott's questions",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2015-10-16T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/winter-olympic-fever/#t=36:52",
+	"tags": "The Beatles",
+	"created_at": "2015-04-03T10:51:29Z",
+	"slug_soundcloud": "winter-olympic-fever",
+	"slug_earwolf": "winter-olympic-fever",
+	"episode_title": "Winter Olympic Fever",
+	"episode_guests": "Aimee Mann,Drew Droege,Kumail Nanjiani",
+	"id_wikia": 2532,
+	"holding": "false"
+}
