@@ -1,9 +1,12 @@
 <?php
 
-// could parse this out but fuggit
-$hardep = "408";
-$incoming = "/Users/ccmiller/Desktop/cbb/updaters/cbb-live-json.json";
-// $incoming = "/Users/ccmiller/Desktop/cbb/updaters/cbb-news-json.json";
+$which = "live";
+$which = $argv[1];
+
+
+// $hardep = "408";
+// $incoming = "/Users/ccmiller/Desktop/cbb/updaters/cbb-live-json.json";
+$incoming = "/Users/ccmiller/Desktop/cbb/updaters/cbb-".$which."-json.json";
 
 $bitsraw = array();
 
@@ -13,7 +16,8 @@ try {
 
 	foreach ($fullfile as $key => $value) {
 
-		$bits[] = $value->bit;
+		$bits[] = array($value->bit);
+
 	}
 
 } catch (Exception $e) {
@@ -22,7 +26,10 @@ try {
 
 }
 
-$uniq = array_count_values($bits);
+
+$uniq = array_count_values($bits->bits);
+
+var_dump($uniq);die();
 
 foreach ($uniq as $bit => $count) {
 
