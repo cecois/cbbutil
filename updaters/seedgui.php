@@ -65,11 +65,12 @@ foreach ($uniqeps as $key => $value) {
 // echo json_encode($EPS);
 // die();
 $BITS = array();
-foreach ($uniqbits as $k => $bit) {
+foreach ($uniqbits as $bit => $count) {
 
 	// $totals = json_decode(file_get_contents("http://solr-lbones.rhcloud.com/cbb_bits/select?fl=bit&rows=0&wt=json&q=bit:%22" . urlencode($bit) . "%22"));
 	// $total = $totals->response->numFound;
-	echo $bit;
+	echo "bit:" . $bit;
+	die();
 	$total = 9999;
 	$BITS[$bit]['count'] = $total;
 
