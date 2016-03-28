@@ -174,3 +174,5 @@
 * b3,57:00,kickstart my heart - motley crue?
 * 40,58:00,lamb/broadway - genesis
 * 41,37:45,you are in my heart - phil collins
+* 410,29:20,(song sung in the last dragon) - vanity
+* 410,59:25,kiss from a rose - seal
