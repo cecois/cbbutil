@@ -38,8 +38,8 @@ $BITEPZ = array();
 foreach ($BITEPS as $key => $value) {
 
 // key is ep no
-	$BITEPZ[$key] = $key;
-	$BITEPZ[$key]['bitz'] = "count goes here";
+	$BITEPZ['episodes'][] = array('episode' => $key, 'bits' => array_count_values($value['bits']));
+	// $BITEPZ['bitz'] = ;
 
 }
 
