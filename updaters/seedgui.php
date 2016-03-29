@@ -8,46 +8,51 @@ if (isset($argv[1])) {
 
 // $hardep = "408";
 // $incoming = "/Users/ccmiller/Desktop/cbb/updaters/cbb-live-json.json";
-// $incoming = "/Users/ccmiller/Desktop/cbb/updaters/cbb-" . $which . "-json.json";
-$incoming = "/Users/ch23936/git/cbbutil/updaters/cbb-" . $which . "-json.json";
+	$incoming = "/Users/ccmiller/Desktop/cbb/updaters/cbb-" . $which . "-json.json";
+// $incoming = "/Users/ch23936/git/cbbutil/updaters/cbb-" . $which . "-json.json";
 
-$BITS = array();
-$EPS = array();
-$BITEPS = array();
-$allowed = ['bit', 'episode'];
+// $BITS = array();
+// $EPS = array();
+	$BITEPS = array();
+	$allowed = ['bit', 'episode'];
 
-try {
+	try {
 
-	$fullfile = json_decode(file_get_contents($incoming), true);
+		$fullfile = json_decode(file_get_contents($incoming), true);
 
-	$j = 2;
-	foreach ($fullfile as $key => $value) {
+	// $j = 2;
+		foreach ($fullfile as $key => $value) {
 
-		$BITEPS[$value['episode']]['bits'][] = $value['bit'];
+			$BITEPS[$value['episode']]['bits'][] = $value['bit'];
+			$BITS[] = $value['bit'];
+
+		}
+
+	} catch (Exception $e) {
+
+		var_dump($e);die();
 
 	}
 
-} catch (Exception $e) {
+	// first let's get master unique bits so we can get full count
+	$uniqbits = array_count_values($BITS);
 
-	var_dump($e);die();
 
-}
+	$BITEPZ = array();
 
-$BITEPZ = array();
-
-foreach ($BITEPS as $key => $value) {
+	foreach ($BITEPS as $key => $value) {
 
 // key is ep no
-	$BITEPZ['episodes'][] = array('episode' => $key, 'bits' => array_count_values($value['bits']));
+		$BITEPZ['episodes'][] = array('episode' => $key, 'bits' => array_count_values($value['bits']));
 	// $BITEPZ['bitz'] = ;
 
-}
+	}
 
-var_dump($BITEPZ);
-die();
+	echo json_encode($BITEPZ);
+	die();
 
-$BEU = array_unique($BITEPS, SORT_REGULAR);
-var_dump($BITEPS);die();
+	// $BEU = array_unique($BITEPS, SORT_REGULAR);
+	// var_dump($BITEPS);die();
 
 // $fullfilex = array_intersect_key($fullfile, array_flip($allowed));
 
@@ -86,59 +91,59 @@ var_dump($BITEPS);die();
 // });
 
 // var_dump($ar);die();
-$EPS = array();
-foreach ($uniqeps as $key => $value) {
-	// echo "key: " . $key;
-	// echo "value: " . $value;
-	// global $key;
-	$EPS[$key]['bits'] = array_filter($fullfilex, function ($elem) use ($key) {
-		// var_dump($elem);
-		return $elem->episode == $key;
-		// if($elem->episode == $key){
-		// 	return $elem->bit;
-		// }
-		// return "key";
-	});
+	// $EPS = array();
+	// foreach ($uniqeps as $key => $value) {
+	// // echo "key: " . $key;
+	// // echo "value: " . $value;
+	// // global $key;
+	// 	$EPS[$key]['bits'] = array_filter($fullfilex, function ($elem) use ($key) {
+	// 	// var_dump($elem);
+	// 		return $elem->episode == $key;
+	// 	// if($elem->episode == $key){
+	// 	// 	return $elem->bit;
+	// 	// }
+	// 	// return "key";
+	// 	});
 
-	// $uniqeps[$key]["bits"] = array_filter($fullfile, function ($b) {
+	// // $uniqeps[$key]["bits"] = array_filter($fullfile, function ($b) {
 
-	// 	var_dump($key);
-	// 	return $b->episode == $key;
-	// });
-}
+	// // 	var_dump($key);
+	// // 	return $b->episode == $key;
+	// // });
+	// }
 // echo json_encode($EPS);
 // die();
-$BITS = array();
-foreach ($uniqbits as $bit => $count) {
+	// $BITS = array();
+	// foreach ($uniqbits as $bit => $count) {
 
-	// $totals = json_decode(file_get_contents("http://solr-lbones.rhcloud.com/cbb_bits/select?fl=bit&rows=0&wt=json&q=bit:%22" . urlencode($bit) . "%22"));
-	// $total = $totals->response->numFound;
-	$total = 9999;
-	$BITS[$bit]['count'] = $total;
+	// // $totals = json_decode(file_get_contents("http://solr-lbones.rhcloud.com/cbb_bits/select?fl=bit&rows=0&wt=json&q=bit:%22" . urlencode($bit) . "%22"));
+	// // $total = $totals->response->numFound;
+	// 	$total = 9999;
+	// 	$BITS[$bit]['count'] = $total;
 
-}
+	// }
 
-echo "BITS:";
-var_dump($BITS);
-echo "EPS:";
-var_dump($EPS);
-die();
+	// echo "BITS:";
+	// var_dump($BITS);
+	// echo "EPS:";
+	// var_dump($EPS);
+	// die();
 
-foreach ($EPS as $EP) {
+	// foreach ($EPS as $EP) {
 
-	$totals = json_decode(file_get_contents("http://solr-lbones.rhcloud.com/cbb_bits/select?fl=bit&rows=0&wt=json&q=bit:%22" . urlencode($bit) . "%22"));
-	// $total = count($totals->response->docs);
-	$total = $totals->response->numFound;
-	// $total = "999";
+	// 	$totals = json_decode(file_get_contents("http://solr-lbones.rhcloud.com/cbb_bits/select?fl=bit&rows=0&wt=json&q=bit:%22" . urlencode($bit) . "%22"));
+	// // $total = count($totals->response->docs);
+	// 	$total = $totals->response->numFound;
+	// // $total = "999";
 
-	// var_dump($total);die();
-	$li = "<li>" . $count . " new <em><a href='#query/episode:" . $hardep . " AND bit:" . urlencode('"' . $bit . '"') . "'>" . $bit . "</a></em> (<a href='#query/bit:" . urlencode('"' . $bit . '"') . "'>" . $total . " total</a>)</li>";
+	// // var_dump($total);die();
+	// 	$li = "<li>" . $count . " new <em><a href='#query/episode:" . $hardep . " AND bit:" . urlencode('"' . $bit . '"') . "'>" . $bit . "</a></em> (<a href='#query/bit:" . urlencode('"' . $bit . '"') . "'>" . $total . " total</a>)</li>";
 
-	// <a href="#query/episode:33 AND bit:%22I%27d%20Love%20to%20Hear%20It%22"><em>I'd Love to Hear It</em></a> (<a href="#query/bit:%22I%27d%20Love%20to%20Hear%20It%22">22 total</a>)</li>
+	// // <a href="#query/episode:33 AND bit:%22I%27d%20Love%20to%20Hear%20It%22"><em>I'd Love to Hear It</em></a> (<a href="#query/bit:%22I%27d%20Love%20to%20Hear%20It%22">22 total</a>)</li>
 
-	echo $li;
+	// 	echo $li;
 
-}
+	// }
 
 // foreach ($uniqbits as $bit => $count) {
 
@@ -156,4 +161,4 @@ foreach ($EPS as $EP) {
 
 // }
 
-?>
+	?>
