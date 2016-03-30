@@ -153,4 +153,7 @@
 * 384,59:00,may i ask where you ejaculate?
 * 384,59:30,i think the second thing was probably doggie style
 * 384,1:06:30,why would i be wearing two crowns on the top of my head hey-o
-* 34,50:00,active-off w/ john c. reilly
+* 34,50:00,acting-off w/ john c. reilly
+* 44,43:10,that was broad comedy (i'll say it was)
+* 44,45:13,he's performing some dirty business
+* 46,45:00,where was conan going with that?

@@ -176,3 +176,7 @@
 * 41,37:45,you are in my heart - phil collins
 * 410,29:20,(song sung in the last dragon) - vanity
 * 410,59:25,kiss from a rose - seal
+* 43,20:00,my sharona - the knack
+* 43,47:50,get outta my car - billy ocean
+* 44,51:50,headmaster ritual - the smiths
+* 46,27:20,one step ahead - split ends
