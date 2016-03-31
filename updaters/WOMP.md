@@ -180,3 +180,6 @@
 * 43,47:50,get outta my car - billy ocean
 * 44,51:50,headmaster ritual - the smiths
 * 46,27:20,one step ahead - split ends
+* 47,9:50,hyperactive - thomas dolby
+* 47,11:00,new toys - thomas dolby
+* 47,44:15,hey hey paula - ??
