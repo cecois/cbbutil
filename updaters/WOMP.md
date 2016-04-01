@@ -183,3 +183,5 @@
 * 47,9:50,hyperactive - thomas dolby
 * 47,11:00,new toys - thomas dolby
 * 47,44:15,hey hey paula - ??
+* 411,1:02:30,jackass theme song - minutemen
+* 411,1:22:08,eat it - weird al
