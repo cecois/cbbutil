@@ -1,4 +1,6 @@
 # possible new bits: 
+* i have time for x more
+	* 412,1:13:47,2 more
 * character bonanzas
 	* 286
 	* daly intervention
@@ -35,6 +37,7 @@
 	* bo2015.3,1:02:00
 	* bo2015.4,~36:00?
 	* bo2015.4,~38:00
+	* 412,9:40
 * ET no homo
 	* 356,1:12:00
 	* 406,54:50

@@ -157,3 +157,4 @@
 * 44,43:10,that was broad comedy (i'll say it was)
 * 44,45:13,he's performing some dirty business
 * 46,45:00,where was conan going with that?
+* 412,49:00,you remind me of a little mynabird
