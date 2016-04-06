@@ -526,3 +526,91 @@
 	"id_wikia": 2545,
 	"holding": "false"
 }
+
+{
+	"episode": 48,
+	"show": "cbb",
+	"tstart": "9:45",
+	"tend": "10:02",
+	"instance": "Which, significantly, I was the president of the MGM Studios parade in Orlando, Florida.",
+	"bit": "Location",
+	"elucidation": "identifiable earth location",
+	"location_type": "poly",
+	"location_id": "287",
+	"updated_at": "2016-04-05T11:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/in-the-thicke-of-the-night/#t=9:45",
+	"tags": "Steve Guttenberg,J. Montgomery Scott",
+	"created_at": "2016-04-03T10:51:29Z",
+	"slug_soundcloud": "in-the-thicke-of-the-night",
+	"slug_earwolf": "in-the-thicke-of-the-night",
+	"episode_title": "In the Thicke of the Night",
+	"episode_guests": "Paul Scheer,Jason Sklar,Randy Sklar",
+	"id_wikia": 2596,
+	"holding": "false"
+}
+
+{
+	"episode": 49,
+	"show": "cbb",
+	"tstart": "1:10",
+	"tend": "1:25",
+	"instance": "Where is this person?",
+	"bit":"What's This, Now?!",
+	"elucidation":"something surprises someone",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-04-05T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/family-counseling/#t=1:10",
+	"tags": " Cathy McDowell,James McDowell",
+	"created_at": "2016-04-05T10:51:29Z",
+	"slug_soundcloud": "family-counseling",
+	"slug_earwolf": "family-counseling",
+	"episode_title": "Family Counseling",
+	"episode_guests": "Adam Scott,Matt Walsh,June Diane Raphael,Chris Fairbanks,James Pumphrey",
+	"id_wikia": 2603,
+	"holding": "false"
+}
+
+{
+	"episode": 49,
+	"show": "cbb",
+	"tstart": "14:40",
+	"tend": "14:56",
+	"instance": "Do you have a big, dramatic final scene where you, like, you die or someone dies in your arms and you shout up to the heavens like Wolverine, 'No!'",
+	"bit":"Scott's Questions",
+	"elucidation":"(in progress) - scott's questions",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-04-05T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/family-counseling/#t=14:40",
+	"tags": " Cathy McDowell,James McDowell",
+	"created_at": "2016-04-05T10:51:29Z",
+	"slug_soundcloud": "family-counseling",
+	"slug_earwolf": "family-counseling",
+	"episode_title": "Family Counseling",
+	"episode_guests": "Adam Scott,Matt Walsh,June Diane Raphael,Chris Fairbanks,James Pumphrey",
+	"id_wikia": 2603,
+	"holding": "false"
+}
+
+{
+	"episode": 49,
+	"show": "cbb",
+	"tstart": "20:45",
+	"tend": "20:54",
+	"instance": "Your name is Adam Scott and my name is Scott, is that gonna be...are we alright, here?",
+	"bit":"Scott's Questions",
+	"elucidation":"(in progress) - scott's questions",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-04-05T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/family-counseling/#t=20:45",
+	"tags": " Cathy McDowell,James McDowell",
+	"created_at": "2016-04-05T10:51:29Z",
+	"slug_soundcloud": "family-counseling",
+	"slug_earwolf": "family-counseling",
+	"episode_title": "Family Counseling",
+	"episode_guests": "Adam Scott,Matt Walsh,June Diane Raphael,Chris Fairbanks,James Pumphrey",
+	"id_wikia": 2603,
+	"holding": "false"
+}
