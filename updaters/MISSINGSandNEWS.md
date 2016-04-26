@@ -1,6 +1,8 @@
 # possible new bits: 
 * i have time for x more
 	* 412,1:13:47,2 more
+* serial podcast
+	* 417,16:00
 * character bonanzas
 	* 286
 	* daly intervention
