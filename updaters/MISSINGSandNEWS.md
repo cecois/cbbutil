@@ -1,4 +1,7 @@
 # possible new bits: 
+* ice t's love of non-standard air travel
+	* that time he wz in the met life blimp
+	* 51,24:00
 * i have time for x more
 	* 412,1:13:47,2 more
 * serial podcast
@@ -10,6 +13,8 @@
 	* 378 kroll does tons
 	* 406,1:06:00,Murphy O'Malaman && Todd
 	* 32,53:00,brendon small does impressions
+	* 51,22:00+
+	* 51,39:30
 * rounds of catchphrase
 * all the cities of the country
 	* 404,16:00
