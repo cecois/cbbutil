@@ -198,3 +198,10 @@
 * 414,32:00,girl talkers - ?
 * 414,32:00,macarena
 * 414,32:13,bits and pieces - oingo boingo
+* 419,3:00,hey nineteen - paul hardcastle (also a billion other times)
+* 419,4:20,ditto
+* 419,5:40,ditto
+* 419,15:00,ditto
+* 419,28:20,ditto
+* 419,47:00,night moves (seger)
+* 419,56:00,1999 (prince)

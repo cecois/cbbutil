@@ -154,3 +154,5 @@
 * http://howl.fm/audio/26164/live-from-san-francisco-2013,23:20,unmistakable sound of the breaking of a human toe
 * who said it shamon
 * who’s the most fuckable huxtable? ++++
+* 419,46:00,what is going on? (bethesda fountain)
+* 419,58:20,morris day (when he went solo)

@@ -88,6 +88,8 @@
 * starting too low
 	* bo2015.2,1:14:30
 	* bo2015.*
+	* 419,3:00
+	* 419,4:20
 * and...10 more minutes
 	* 400,50:00
 	* 408,32:00
@@ -153,3 +155,5 @@
 * symmetrical face
 	* 41,29:00
 	* some earlier than 41, too
+* Hey hey hey have a good day (shelly driftwood)
+	* 419,1:34:50 (*2)
