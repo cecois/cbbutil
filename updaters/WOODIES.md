@@ -156,3 +156,4 @@
 * who’s the most fuckable huxtable? ++++
 * 419,46:00,what is going on? (bethesda fountain)
 * 419,58:20,morris day (when he went solo)
+* howl tour apr 30 ace,17:31,i gotta take the first of my three shits
