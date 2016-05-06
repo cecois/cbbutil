@@ -1,5 +1,5 @@
 {
-    "episode": "<howl url goes here>",
+    "episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
     "show": "cbb",
     "tstart": "6:09",
     "tend": "6:23",
@@ -21,7 +21,7 @@
 }
 
 {
-    "episode": "<howl url goes here>",
+    "episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
     "show": "cbb",
     "tstart": "12:39",
     "tend": "13:02",
@@ -43,7 +43,51 @@
 }
 
 {
-    "episode": "<howl url goes here>",
+    "episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
+    "show": "cbb",
+    "tstart": "10:44",
+    "tend": "10:53",
+    "instance": "Who invented the stool from the chair?",
+    "bit":"Scott's Questions",
+    "elucidation":"(in progress) - scott's questions",
+    "tags": "",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-05-04T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2016-05-04T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "April 30 - Los Angeles, The Theater at Ace Hotel",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Neil Campbell,Weird Al Yankovic,Jason Mantzoukas",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
+    "show": "cbb",
+    "tstart": "11:55",
+    "tend": "12:05",
+    "instance": "Hey, buddy, I gotta ask - did you get a little lick in on the way out?",
+    "bit":"Scott's Questions",
+    "elucidation":"(in progress) - scott's questions",
+    "tags": "",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-05-04T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2016-05-04T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "April 30 - Los Angeles, The Theater at Ace Hotel",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Neil Campbell,Weird Al Yankovic,Jason Mantzoukas",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
     "show": "cbb",
     "tstart": "11:00",
     "tend": "11:18",
@@ -65,7 +109,7 @@
 }
 
 {
-    "episode": "<howl url goes here>",
+    "episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
     "show": "cbb",
     "tstart": "13:56",
     "tend": "14:10",
@@ -87,7 +131,7 @@
 }
 
 {
-    "episode": "<howl url goes here>",
+    "episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
     "show": "cbb",
     "tstart": "14:25",
     "tend": "14:37",
@@ -109,7 +153,7 @@
 }
 
 {
-    "episode": "<howl url goes here>",
+    "episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
     "show": "cbb",
     "tstart": "14:25",
     "tend": "14:55",
@@ -131,7 +175,7 @@
 }
 
 {
-    "episode": "<howl url goes here>",
+    "episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
     "show": "cbb",
     "tstart": "16:15",
     "tend": "16:27",
@@ -153,7 +197,7 @@
 }
 
 {
-    "episode": "<howl url goes here>",
+    "episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
     "show": "cbb",
     "tstart": "16:25",
     "tend": "16:46",
@@ -175,7 +219,7 @@
 }
 
 {
-    "episode": "<howl url goes here>",
+    "episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
     "show": "cbb",
     "tstart": "16:25",
     "tend": "16:46",
@@ -197,7 +241,7 @@
 }
 
 {
-    "episode": "<howl url goes here>",
+    "episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
     "show": "cbb",
     "tstart": "16:54",
     "tend": "17:03",
@@ -219,7 +263,7 @@
 }
 
 {
-    "episode": "<howl url goes here>",
+    "episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
     "show": "cbb",
     "tstart":"19:27",
     "tend":"19:50",
@@ -241,7 +285,7 @@
 }
 
 {
-    "episode": "<howl url goes here>",
+    "episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
     "show": "cbb",
     "tstart":"25:06",
     "tend":"25:18",
@@ -263,7 +307,7 @@
 }
 
 {
-    "episode": "<howl url goes here>",
+    "episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
     "show": "cbb",
     "tstart":"31:18",
     "tend":"31:52",
@@ -285,7 +329,7 @@
 }
 
 {
-    "episode": "<howl url goes here>",
+    "episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
     "show": "cbb",
     "tstart":"32:18",
     "tend":"32:30",
@@ -307,7 +351,7 @@
 }
 
 {
-    "episode": "<howl url goes here>",
+    "episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
     "show": "cbb",
     "tstart":"37:32",
     "tend":"37:57",
@@ -329,13 +373,13 @@
 }
 
 {
-    "episode": "<howl url goes here>",
+    "episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
     "show": "cbb",
     "tstart":"50:14",
     "tend":"50:29",
     "instance": "I usually have an instrument with me.",
     "bit": "It's Been a While",
-"elucidation": "not it's been",
+    "elucidation": "not it's been",
     "tags": "",
     "location_type": "",
     "location_id": "",
@@ -351,13 +395,13 @@
 }
 
 {
-    "episode": "<howl url goes here>",
+    "episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
     "show": "cbb",
     "tstart":"54:03",
     "tend":"54:50",
     "instance": "Let's remind everyone exactly of your details.",
-"bit":"You're Terrible at This",
-        "elucidation":"impromptu reviews of scott's hosting",
+    "bit":"You're Terrible at This",
+    "elucidation":"impromptu reviews of scott's hosting",
     "tags": "Big Sue,Werner Herzog,Charlie Rose,Benjamin Netanyahu",
     "location_type": "",
     "location_id": "",
@@ -373,13 +417,13 @@
 }
 
 {
-    "episode": "<howl url goes here>",
+    "episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
     "show": "cbb",
     "tstart":"55:03",
     "tend":"55:41",
     "instance": "My store's going out of business.",
-"bit":"Location",
-        "elucidation":"identifiable earth location",
+    "bit":"Location",
+    "elucidation":"identifiable earth location",
     "tags": "Big Sue,Werner Herzog",
     "location_type": "point",
     "location_id": "482",
@@ -395,12 +439,12 @@
 }
 
 {
-    "episode": "<howl url goes here>",
+    "episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
     "show": "cbb",
     "tstart":"1:13:24",
     "tend":"1:13:40",
     "instance": "Mr. Characterwheaties, may I provide you with a treat while you wait in the dunce corner? Perhaps an egged-salad sandwich?",
-"bit":"Jeffrey Characterwheaties",
+    "bit":"Jeffrey Characterwheaties",
     "elucidation":"a real sweetheart plays a real dirtbag",
     "tags": "Big Sue,Werner Herzog,Mailer Daemon",
     "location_type": "",
@@ -417,13 +461,13 @@
 }
 
 {
-    "episode": "<howl url goes here>",
+    "episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
     "show": "cbb",
     "tstart":"1:16:14",
     "tend":"1:16:23",
     "instance": "Don't you think it would be more effective if Werner did a commercial for Leesa?",
-"bit": "Pimpings",
-"elucidation": "superclass of all otherwise non-specific pimps",
+    "bit": "Pimpings",
+    "elucidation": "superclass of all otherwise non-specific pimps",
     "tags": "Big Sue,Werner Herzog,Mailer Daemon",
     "location_type": "",
     "location_id": "",
@@ -439,13 +483,35 @@
 }
 
 {
-    "episode": "<howl url goes here>",
+    "episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
+    "show": "cbb",
+    "tstart":"59:37",
+    "tend":"59:51",
+    "instance": "Controversially, I feel like this is a business that I wouldn't mind Werner Herzog doing a commercial for.",
+    "bit": "Pimpings",
+    "elucidation": "superclass of all otherwise non-specific pimps",
+    "tags": "Big Sue,Werner Herzog",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-05-04T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2016-05-04T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "April 30 - Los Angeles, The Theater at Ace Hotel",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Neil Campbell,Weird Al Yankovic,Jason Mantzoukas",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
     "show": "cbb",
     "tstart":"1:19:04",
     "tend":"1:16:23",
     "instance": "Everybody here probably uses the internet, I mean - what did Big Sue...what was her activity like?",
-"bit": "Pimpings",
-"elucidation": "superclass of all otherwise non-specific pimps",
+    "bit": "Pimpings",
+    "elucidation": "superclass of all otherwise non-specific pimps",
     "tags": "Big Sue,Werner Herzog,Mailer Daemon",
     "location_type": "",
     "location_id": "",
@@ -461,13 +527,13 @@
 }
 
 {
-    "episode": "<howl url goes here>",
+    "episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
     "show": "cbb",
     "tstart":"1:26:46",
     "tend":"1:26:58",
     "instance": "If you guys were to go out on a date...",
-"bit": "Pimpings",
-"elucidation": "superclass of all otherwise non-specific pimps",
+    "bit": "Pimpings",
+    "elucidation": "superclass of all otherwise non-specific pimps",
     "tags": "Big Sue,Werner Herzog,Mailer Daemon",
     "location_type": "",
     "location_id": "",
