@@ -2,8 +2,14 @@
 * ice t's love of non-standard air travel
 	* that time he wz in the met life blimp
 	* 51,24:00
+* regina krimp doesn't make it through her song
+	* tarrytown 2016,4:46
 * i have time for x more
 	* 412,1:13:47,2 more
+* len wiseman's self description (good looking guy etc.)
+	* tarrytown 2016,40:00
+	* tarrytown 2016,44:00
+	* every other wiseman appearance *10
 * serial podcast
 	* 417,16:00
 * character bonanzas
