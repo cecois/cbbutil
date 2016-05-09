@@ -205,3 +205,17 @@
 * 419,28:20,ditto
 * 419,47:00,night moves (seger)
 * 419,56:00,1999 (prince)
+* 2016.toronto,31:00,mornin' (al jarreau)
+* 2016.toronto,31:00,theme frm moonlighting (al jarreau)
+* 2016.toronto,1:09:00,la woman (mojo rising) (doors)
+* 420,12:30,night moves (bob seger)
+* 420,1:05:50,everything in its right place (radiohead)
+* 420,1:05:50,good morning (beatles)
+* 420,1:05:50,piggies (beatles)
+* 420,1:06:30,melt w/ you (modern english)
+* 420,1:07:00,come on ride the train
+* 420,1:08:00,one for my baby - solo piano version (sinatra)
+* 420,1:08:00,please please please (smiths)
+* 420,1:19:30,send in the clowns (streisand version)
+* 420,1:22:00,under pressue (queen)
+* 420,1:31:00,town cryer (costello)
