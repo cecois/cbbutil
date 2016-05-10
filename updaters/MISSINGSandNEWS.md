@@ -12,6 +12,9 @@
 	* every other wiseman appearance *10
 * serial podcast
 	* 417,16:00
+* pft delivers extremely lengthy description of an abbreviation
+	* toronto.2016.06,1:00:30
+	* toronto.2016.06,at least once earlier than that
 * character bonanzas
 	* 286
 	* daly intervention
@@ -75,6 +78,7 @@
 	* bo2015.3,5:00
 	* bo2015.4,5:00
 	* 408,1:00:00
+	* 2016.boston7pm,34:40
 * look it up, (scotty|pauly) - 
 	* 349,42:30
 	* bo2015.4,8:00
@@ -131,6 +135,7 @@
 	* 401,41:15
 	* 401,56:00
 	* basically all #thicke eps
+	* 2016.boston.7pm,19:15
 * that's a good song (plugs appendage)
 	* 401,1:46:00
 	* 384,1:23:33

@@ -160,3 +160,6 @@
 * 2016.toronto0506,32:30,well i guess they know what they're doing (locking the piano)
 * 2016.toronto0505,34:00,please welcome ms. crimp (nope)
 * 2016.toronto0506,59:47,i can't belive that's true
+* 2016.toronto0506,22:15,you wanna pretend to be someone that i have a gay crush on?
+* 2016.toronto0506,1:22:00,canada day
+* 2016.boston10pm,29:55,thin accusation - to accuse someone of not eating something
