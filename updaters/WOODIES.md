@@ -157,5 +157,6 @@
 * 419,46:00,what is going on? (bethesda fountain)
 * 419,58:20,morris day (when he went solo)
 * howl tour apr 30 ace,17:31,i gotta take the first of my three shits
-* 2016.toronto,32:30,well i guess they know what they're doing (locking the piano)
-* 2016.toronto,34:00,please welcome ms. crimp (nope)
+* 2016.toronto0506,32:30,well i guess they know what they're doing (locking the piano)
+* 2016.toronto0505,34:00,please welcome ms. crimp (nope)
+* 2016.toronto0506,59:47,i can't belive that's true
