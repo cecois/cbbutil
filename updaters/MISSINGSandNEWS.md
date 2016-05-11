@@ -24,6 +24,7 @@
 	* 32,53:00,brendon small does impressions
 	* 51,22:00+
 	* 51,39:30
+	* 2016.dc,whole time basically
 * rounds of catchphrase
 * all the cities of the country
 	* 404,16:00
@@ -79,6 +80,7 @@
 	* bo2015.4,5:00
 	* 408,1:00:00
 	* 2016.boston7pm,34:40
+	* 2016.philly,1:21:05
 * look it up, (scotty|pauly) - 
 	* 349,42:30
 	* bo2015.4,8:00

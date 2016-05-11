@@ -220,3 +220,5 @@
 * 420,1:22:00,under pressue (queen)
 * 420,1:31:00,town cryer (costello)
 * 2016.toronto2ndnight,freeze frame (j. geils band)
+* 2016.philadelphia,8:30,streets of philadelphia (springsteen)
+* 2016.dc,23:00,scenes from an italian restaurant (billy joel)
