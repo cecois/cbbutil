@@ -723,3 +723,135 @@
     "id_wikia": null,
     "holding": "false"
 }
+
+{
+    "episode": "http://howl.fm/audio/41287/may-7-boston-wilbur-theatre-10-pm",
+    "show": "cbb",
+    "tstart": "45:07",
+    "tend": "45:35",
+    "instance": "We will probably go into the space program's storied 'Vomit Comet.'",
+    "bit":"Location",
+    "elucidation":"identifiable earth location",
+    "tags": "Werner Herzog,Big Sue",
+    "location_type": "poly",
+    "location_id": "299",
+    "updated_at": "2016-05-10T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2016-05-10T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 7 - Boston, Wilbur Theatre (10 PM)",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Neil Campbell",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": "http://howl.fm/audio/41287/may-7-boston-wilbur-theatre-10-pm",
+    "show": "cbb",
+    "tstart": "47:37",
+    "tend": "47:51",
+    "instance": "Tick-tock, yes indeed.",
+    "bit": "Tick Tock",
+"elucidation": "the timekeeper's catchphrase",
+    "tags": "Werner Herzog,Big Sue,Maxwell Keeper",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-05-10T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2016-05-10T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 7 - Boston, Wilbur Theatre (10 PM)",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Neil Campbell",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": "http://howl.fm/audio/41287/may-7-boston-wilbur-theatre-10-pm",
+    "show": "cbb",
+    "tstart": "48:31",
+    "tend": "48:48",
+    "instance": "Just down the coast here.",
+    "bit": "Location",
+"elucidation": "identifiable earth location",
+    "tags": "Werner Herzog,Big Sue,Maxwell Keeper",
+    "location_type": "point",
+    "location_id": "484",
+    "updated_at": "2016-05-10T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2016-05-10T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 7 - Boston, Wilbur Theatre (10 PM)",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Neil Campbell",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": "http://howl.fm/audio/41287/may-7-boston-wilbur-theatre-10-pm",
+    "show": "cbb",
+    "tstart": "54:04",
+    "tend": "48:48",
+    "instance": "Just down the coast here.",
+    "bit": "Location",
+"elucidation": "identifiable earth location",
+    "tags": "Werner Herzog,Big Sue,Maxwell Keeper",
+    "location_type": "point",
+    "location_id": "484",
+    "updated_at": "2016-05-10T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2016-05-10T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 7 - Boston, Wilbur Theatre (10 PM)",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Neil Campbell",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": "http://howl.fm/audio/41287/may-7-boston-wilbur-theatre-10-pm",
+    "show": "cbb",
+    "tstart": "54:04",
+    "tend": "55:11",
+    "instance": "One of the children said 'Look! 'Tis akin to modern times!'",
+    "bit": "Location",
+"elucidation": "identifiable earth location",
+    "tags": "Werner Herzog,Big Sue,Maxwell Keeper",
+    "location_type": "poly",
+    "location_id": "300",
+    "updated_at": "2016-05-10T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2016-05-10T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 7 - Boston, Wilbur Theatre (10 PM)",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Neil Campbell",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": "http://howl.fm/audio/41287/may-7-boston-wilbur-theatre-10-pm",
+    "show": "cbb",
+    "tstart": "1:02:15",
+    "tend": "1:02:28",
+    "instance": "The time I went to Epcot Center with Desmond for the entire day.",
+    "bit": "Location",
+"elucidation": "identifiable earth location",
+    "tags": "Werner Herzog,Big Sue,Maxwell Keeper",
+    "location_type": "poly",
+    "location_id": "143",
+    "updated_at": "2016-05-10T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2016-05-10T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 7 - Boston, Wilbur Theatre (10 PM)",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Neil Campbell",
+    "id_wikia": null,
+    "holding": "false"
+}
