@@ -225,3 +225,7 @@
 * 2016.nc,14:00,people are people (depeche mode)
 * 2016.nc,15:00,let's hear it for the boy
 * (82||161),??,on and on (stephen bishop)
+* 2016.atl,21:20,i don't care (icona pop)
+* 2016.??,??:??,i don't care (icona pop)=
+* 2016.atl,28:45,girl u know it's true (milli)
+* 2016.atl,54:30,bitches ain't shit but hos and tricks
