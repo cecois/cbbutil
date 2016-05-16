@@ -165,3 +165,4 @@
 * 2016.boston10pm,29:55,thin accusation - to accuse someone of not eating something
 * 2016.dc,45:30,did we not tell you that we're brother and sister?
 * 2016.nc,1:17:00,arigato - arigato - arigato
+* 2016.gramercy930,14:00,terrible tune, though

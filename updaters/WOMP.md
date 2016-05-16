@@ -229,3 +229,6 @@
 * 2016.??,??:??,i don't care (icona pop)=
 * 2016.atl,28:45,girl u know it's true (milli)
 * 2016.atl,54:30,bitches ain't shit but hos and tricks
+* 2016.nyc930,31:45,who could it be? (men at work?)
+* 2016.nyc930,33:00,tomorrow (annie)
+* 2016.nyc930,41:20,freeze frame (j. geils band)
