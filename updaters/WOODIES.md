@@ -166,3 +166,5 @@
 * 2016.dc,45:30,did we not tell you that we're brother and sister?
 * 2016.nc,1:17:00,arigato - arigato - arigato
 * 2016.gramercy930,14:00,terrible tune, though
+* 2016.gramercy05147pm,1:14:35,in heaven nephew spanks you
+* 2016.gramercy05147pm,1:16:30,are you stuck wearing the same clothes over and over and over again?

@@ -1,4 +1,9 @@
 # possible new bits: 
+* hollywood facts
+	* lots
+	* 421,??:??
+	* 421,??:??
+	* 421,59:52
 * ice t's love of non-standard air travel
 	* that time he wz in the met life blimp
 	* 51,24:00
@@ -61,10 +66,11 @@
 * ET no homo
 	* 356,1:12:00
 	* 406,54:50
-* fictional people - dead but reaonsable
+* fictional people - dead but reasonable
 	* san francisco 2012,23:00+
 	* seattle 2013,55:45
 	* lotsa cakeboss/pft eps
+	* 2016.nyc0514,59:30,church lady
 * huell turns into a crowbot
 	* 29,51:48
 	* howl.fm in DC,36:00
@@ -90,6 +96,10 @@
 	* 399,1:15:10
 	* 407,46:15
 	* 413,26:13
+	* 421,17:40
+	* 421,19:20
+	* 421,39:45
+	* 421,41:45
 * ball droid - bb8
 	* 349,15:00
 	* bo2015.2,58:30
