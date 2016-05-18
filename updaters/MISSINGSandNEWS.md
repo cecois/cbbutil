@@ -1,4 +1,8 @@
 # possible new bits: 
+* literally nowhere else to go
+	* every 2016 tour stop?
+* crimp can't make it through a song
+	* 2016.tour,lots
 * hollywood facts
 	* lots
 	* 421,??:??
@@ -36,6 +40,7 @@
 * r2d2soon
 	* bo2015*
 	* 404,21:15
+	* 2016nyc05015.930,31:00
 * the godfather, movies like that
 	* 411,53:50
 	* 413,1:00:30 (mark twain)
@@ -100,6 +105,7 @@
 	* 421,19:20
 	* 421,39:45
 	* 421,41:45
+	* 2016.gramercy0514930pm,39:57
 * ball droid - bb8
 	* 349,15:00
 	* bo2015.2,58:30
