@@ -1,6 +1,7 @@
 # possible new bits: 
 * literally nowhere else to go
 	* every 2016 tour stop?
+	* 2016.dallas,39:00
 * crimp can't make it through a song
 	* 2016.tour,lots
 * hollywood facts
@@ -175,6 +176,7 @@
 * constantly high-fiving
 	* 384,25:00
 * men of a certain age
+	* 2016.dallas,11:00
 	* 384,47:30
 * got it one
 	* time bobbys?

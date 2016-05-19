@@ -244,3 +244,5 @@
 * 2016.nyc0515.930,12:00,hey...satellite (?) (dmb)
 * 2016.nyc0515.930,22:00,love shack (b-52s)
 * 2016.nyc0515.930,22:00,cryptonite (?) (three doors down)
+* 2016.nyc0515.930,1:22:30,walking on the sun (smashmouth)
+* 2016.dallas,35:00,[transgender] magic (ELO)
