@@ -1009,3 +1009,157 @@
         "id_wikia": null,
         "holding": "false"
     }
+
+    {
+        "episode": "http://howl.fm/audio/42012/may-18-austin-tx-paramount-theatre",
+        "show": "cbb",
+        "tstart": "13:21",
+        "tend": "13:36",
+        "instance": "Around there, yeah. In that neighborhood.",
+        "bit":"Location",
+        "elucidation":"identifiable earth location",
+        "tags": "Smooth Criminal Al A. Peterson",
+        "location_type": "poly",
+        "location_id": "86",
+        "updated_at": "2016-05-20T11:51:29Z",
+        "url_soundcloud": "",
+        "created_at": "2016-05-20T11:51:29Z",
+        "slug_soundcloud": "",
+        "slug_earwolf": "",
+        "episode_title": "May 18 - Austin Tx, Paramount Theatre",
+        "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
+        "id_wikia": null,
+        "holding": "false"
+    }
+
+    {
+        "episode": "http://howl.fm/audio/42012/may-18-austin-tx-paramount-theatre",
+        "show": "cbb",
+        "tstart": "26:51",
+        "tend": "27:10",
+        "instance": "By 'canines' do you mean the teeth in the human head? (Do you see what it's like?)",
+        "bit":"You're Terrible at This",
+        "elucidation":"impromptu reviews of scott's hosting",
+        "tags": "Smooth Criminal Al A. Peterson",
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2016-05-20T11:51:29Z",
+        "url_soundcloud": "",
+        "created_at": "2016-05-20T11:51:29Z",
+        "slug_soundcloud": "",
+        "slug_earwolf": "",
+        "episode_title": "May 18 - Austin Tx, Paramount Theatre",
+        "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
+        "id_wikia": null,
+        "holding": "false"
+    }
+
+    {
+        "episode": "http://howl.fm/audio/42012/may-18-austin-tx-paramount-theatre",
+        "show": "cbb",
+        "tstart": "51:14",
+        "tend": "51:25",
+        "instance": "Let's guess Shaquille O'Neal.",
+        "bit":"Every Word You Are Saying",
+        "elucidation":"despite everybody's best efforts, a private conversation is overheard",
+        "tags": "Smooth Criminal Al A. Peterson,Traci Rearden,Shaquille O'Neal",
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2016-05-20T11:51:29Z",
+        "url_soundcloud": "",
+        "created_at": "2016-05-20T11:51:29Z",
+        "slug_soundcloud": "",
+        "slug_earwolf": "",
+        "episode_title": "May 18 - Austin Tx, Paramount Theatre",
+        "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
+        "id_wikia": null,
+        "holding": "false"
+    }
+
+    {
+        "episode": "http://howl.fm/audio/42012/may-18-austin-tx-paramount-theatre",
+        "show": "cbb",
+        "tstart": "57:42",
+        "tend": "57:55",
+        "instance": "Are these shows canon? I can't tell",
+        "bit":"Is This Canon?",
+        "elucidation":"somebody worries if this or that makes sense, canonically",
+        "tags": "Smooth Criminal Al A. Peterson,Traci Rearden",
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2016-05-20T11:51:29Z",
+        "url_soundcloud": "",
+        "created_at": "2016-05-20T11:51:29Z",
+        "slug_soundcloud": "",
+        "slug_earwolf": "",
+        "episode_title": "May 18 - Austin Tx, Paramount Theatre",
+        "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
+        "id_wikia": null,
+        "holding": "false"
+    }
+
+    {
+        "episode": "http://howl.fm/audio/42012/may-18-austin-tx-paramount-theatre",
+        "show": "cbb",
+        "tstart": "58:40",
+        "tend": "59:06",
+        "instance": "I just went to college like a lot of people do. Let's not make a big fuss out of it.",
+        "bit":"Location",
+        "elucidation":"identifiable earth location",
+        "tags": "Smooth Criminal Al A. Peterson,Traci Rearden",
+        "location_type": "poly",
+        "location_id": "86",
+        "updated_at": "2016-05-20T11:51:29Z",
+        "url_soundcloud": "",
+        "created_at": "2016-05-20T11:51:29Z",
+        "slug_soundcloud": "",
+        "slug_earwolf": "",
+        "episode_title": "May 18 - Austin Tx, Paramount Theatre",
+        "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
+        "id_wikia": null,
+        "holding": "false"
+    }
+
+    {
+        "episode": "http://howl.fm/audio/42012/may-18-austin-tx-paramount-theatre",
+        "show": "cbb",
+        "tstart": "1:04:45",
+        "tend": "1:05:06",
+        "instance": "Sorry, I have that New England accent.",
+        "bit":"Location",
+        "elucidation":"identifiable earth location",
+        "tags": "Smooth Criminal Al A. Peterson,Traci Rearden,Archie Butts",
+        "location_type": "poly",
+        "location_id": "312",
+        "updated_at": "2016-05-20T11:51:29Z",
+        "url_soundcloud": "",
+        "created_at": "2016-05-20T11:51:29Z",
+        "slug_soundcloud": "",
+        "slug_earwolf": "",
+        "episode_title": "May 18 - Austin Tx, Paramount Theatre",
+        "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
+        "id_wikia": null,
+        "holding": "false"
+    }
+
+    {
+        "episode": "http://howl.fm/audio/42012/may-18-austin-tx-paramount-theatre",
+        "show": "cbb",
+        "tstart": "1:06:47",
+        "tend": "1:07:10",
+        "instance": "I would put on the white outfit and go 'thank you very much.'",
+        "bit":"Location",
+        "elucidation":"identifiable earth location",
+        "tags": "Traci Rearden,Archie Butts,Elvis Presley",
+        "location_type": "point",
+        "location_id": "179",
+        "updated_at": "2016-05-20T11:51:29Z",
+        "url_soundcloud": "",
+        "created_at": "2016-05-20T11:51:29Z",
+        "slug_soundcloud": "",
+        "slug_earwolf": "",
+        "episode_title": "May 18 - Austin Tx, Paramount Theatre",
+        "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
+        "id_wikia": null,
+        "holding": "false"
+    }

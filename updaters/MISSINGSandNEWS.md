@@ -2,6 +2,7 @@
 * literally nowhere else to go
 	* every 2016 tour stop?
 	* 2016.dallas,39:00
+	* 2016.austin,36:30
 * crimp can't make it through a song
 	* 2016.tour,lots
 * hollywood facts
@@ -9,6 +10,11 @@
 	* 421,??:??
 	* 421,??:??
 	* 421,59:52
+	* 2016.??,??:??
+	* 2016.austin,22:00
+	* 2016.austin,53:00
+* am i doing it?
+	* 2016.austin,1:13:50
 * ice t's love of non-standard air travel
 	* that time he wz in the met life blimp
 	* 51,24:00
