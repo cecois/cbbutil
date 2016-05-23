@@ -246,3 +246,5 @@
 * 2016.nyc0515.930,22:00,cryptonite (?) (three doors down)
 * 2016.nyc0515.930,1:22:30,walking on the sun (smashmouth)
 * 2016.dallas,35:00,[transgender] magic (ELO)
+* 2016.minneapolis,4:45,something to talk about (bonnie raitt)
+* 2016.minneapolis,10:00,i don't care (icona pop)
