@@ -3,6 +3,7 @@
 	* every 2016 tour stop?
 	* 2016.dallas,39:00
 	* 2016.austin,36:30
+	* 2016.minneapolis,45:00
 * crimp can't make it through a song
 	* 2016.tour,lots
 * hollywood facts
@@ -13,8 +14,11 @@
 	* 2016.??,??:??
 	* 2016.austin,22:00
 	* 2016.austin,53:00
+	* 2016.minneapolis,59:00
+	* 2016.minneapolis,1:04:42
 * am i doing it?
 	* 2016.austin,1:13:50
+	* 423,42:19,one thousand gigawatts
 * ice t's love of non-standard air travel
 	* that time he wz in the met life blimp
 	* 51,24:00
@@ -48,6 +52,7 @@
 	* bo2015*
 	* 404,21:15
 	* 2016nyc05015.930,31:00
+	* 423,16:45
 * the godfather, movies like that
 	* 411,53:50
 	* 413,1:00:30 (mark twain)
@@ -99,6 +104,8 @@
 	* 408,1:00:00
 	* 2016.boston7pm,34:40
 	* 2016.philly,1:21:05
+	* 423,42:20
+	* 423,1:18:30
 * look it up, (scotty|pauly) - 
 	* 349,42:30
 	* bo2015.4,8:00
@@ -147,6 +154,7 @@
 	* 215,20:34
 	* 215,24:57
 	* other moynahan/pft eps
+	* 423,46:50
 * but they could also send them (wyr) to your twitter
 	* http://howl.fm/audio/26139/live-from-nyc-2014-part-2,1:01:00
 	* 235,58:30
@@ -167,6 +175,8 @@
 	* 384,1:23:33
 	* 384,1:28:00
 	* (tons of others, obv)
+	* 423,1:22:00
+	* 2016.minneapolis,58:55
 * German craigslist
 	* 401,50:45
 

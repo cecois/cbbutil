@@ -169,3 +169,8 @@
 * 2016.gramercy05147pm,1:14:35,in heaven nephew spanks you
 * 2016.gramercy05147pm,1:16:30,are you stuck wearing the same clothes over and over and over again?
 * 2016.gramercy0514930pm,33:12,i think it's different thing to see it happen right in front of your face
+* 423,29:30,choke on some hot goss
+* 423,30:30,get up in them guts
+* 423,1:04:15,you started to say the stupidest shit
+* 2016.minneapolis,1:00:00,you trying to talk about yr feelings and i hafta take out my earbuds? we goin there tonight
+* 

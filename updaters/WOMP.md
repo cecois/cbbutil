@@ -248,3 +248,16 @@
 * 2016.dallas,35:00,[transgender] magic (ELO)
 * 2016.minneapolis,4:45,something to talk about (bonnie raitt)
 * 2016.minneapolis,10:00,i don't care (icona pop)
+* 423,3:00,last christmas (wham?)
+* 423,10:00,hello again (neil diamond)
+* 423,10:00,turn on your heartlight (neil diamond)
+* 423,14:00,love in an elevator (aerosmith)
+* 423,14:20,just a gigolo (d.l. roth)
+* 423,15:00,do you see what i see?
+* 423,24:40,Theme From Mahogany (Do You Know Where You're Going To?) (diana ross)
+* 423,26:45,epiphany (sondheim)
+* 423,32:30,catch a falling star
+* 423,33:00,fugue for the tinhorns (guys n dolls)
+* 423,50:30,i try (macy gray) 
+* 423,51:50,fiddle about (the who)
+* 2016.minneapolis,45:45,under pressure (queen+bowie)
