@@ -4,6 +4,8 @@
 	* 2016.dallas,39:00
 	* 2016.austin,36:30
 	* 2016.minneapolis,45:00
+	* 2016.chicago730,33:00
+	* 2016.chicago730,57:00
 * crimp can't make it through a song
 	* 2016.tour,lots
 * hollywood facts
@@ -88,6 +90,7 @@
 	* seattle 2013,55:45
 	* lotsa cakeboss/pft eps
 	* 2016.nyc0514,59:30,church lady
+	* 2016.chicago730,17:20
 * huell turns into a crowbot
 	* 29,51:48
 	* howl.fm in DC,36:00
@@ -137,18 +140,23 @@
 * and...10 more minutes
 	* 400,50:00
 	* 408,32:00
-* ~~jeffrey characterwheaties~~
+* jeffrey characterwheaties
 	* ~~2:03:55,kroll+mantzoukas daemon episode~~
 	* ~~394,41:10~~
 * interesting vote from an interesting player
 	* http://howl.fm/audio/26163/live-from-vancouver-2013,51:50
-* ~~is dick francis a horse?~~ 
+* is dick francis a horse?
 	* ~~bo2015.4,8:00~~
 	* ~~bo2015.4,1:17:00~~
 	* 398,1:08:00
+	* 2016.chicago10,27:30
 * don't joke about irobot
 	* early in bo2015.1
 	* bo2015.2,12:00
+* that sounds good to me
+	* 2015 BOs?
+	* 2016.chicago10,28:00
+	* 2016.chicago10,31:00
 * i ain't down with (into) that g** shi*
 	* http://howl.fm/audio/26138/live-from-nyc-2014-part-1,46:00
 	* 215,20:34

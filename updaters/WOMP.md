@@ -261,3 +261,6 @@
 * 423,50:30,i try (macy gray) 
 * 423,51:50,fiddle about (the who)
 * 2016.minneapolis,45:45,under pressure (queen+bowie)
+* 2016.chicago730,55:45,i don't care (icona pop)
+* 2016.chicago10,03:00,take me to church (hozier)
+* 2016.chicago10,04:00,cross eyed painless (talking heads)
