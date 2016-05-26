@@ -107,3 +107,91 @@
     "id_wikia": null,
     "holding": "false"
 }
+
+{
+    "episode": "http://howl.fm/audio/42026/may-22-denver-co-paramount-theatre",
+    "show": "cbb",
+    "tstart": "27:17",
+    "tend": "27:37",
+    "instance": "We were simple country folk.",
+ "bit":"Everybody Shut Up",
+        "elucidation":"pft or a pft character tries to silence the room",
+    "tags": "Charles Dumpster",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-05-25T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2016-05-25T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 22 - Denver CO, Paramount Theatre",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": "http://howl.fm/audio/42026/may-22-denver-co-paramount-theatre",
+    "show": "cbb",
+    "tstart": "30:12",
+    "tend": "30:51",
+    "instance": "What is [your dumpster mansion] in back of?",
+ "bit":"Location",
+        "elucidation":"identifiable earth location",
+    "tags": "Charles Dumpster,Denzel Washington",
+    "location_type": "poly",
+    "location_id": "51",
+    "updated_at": "2016-05-25T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2016-05-25T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 22 - Denver CO, Paramount Theatre",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": "http://howl.fm/audio/42026/may-22-denver-co-paramount-theatre",
+    "show": "cbb",
+    "tstart": "35:45",
+    "tend": "35:58",
+    "instance": "And I live in a giant trash can.",
+ "bit":"That's Also True",
+        "elucidation":"catchy thing from the first tenacious d album",
+    "tags": "Charles Dumpster",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-05-25T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2016-05-25T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 22 - Denver CO, Paramount Theatre",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": "http://howl.fm/audio/42026/may-22-denver-co-paramount-theatre",
+    "show": "cbb",
+    "tstart": "42:04",
+    "tend": "42:15",
+    "instance": "Do you recall in the early days of film, when they would show movies in the cinema...",
+ "bit":"The Train Effect",
+        "elucidation":"among scott's favorite films is evidently \"l'arrivé d'un train en gare de la ciotat\"",
+    "tags": "Charles Dumpster",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-05-25T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2016-05-25T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 22 - Denver CO, Paramount Theatre",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
+    "id_wikia": null,
+    "holding": "false"
+}
