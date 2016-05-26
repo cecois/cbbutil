@@ -6,6 +6,7 @@
 	* 2016.minneapolis,45:00
 	* 2016.chicago730,33:00
 	* 2016.chicago730,57:00
+	* 2016.chicago10,37:45
 * crimp can't make it through a song
 	* 2016.tour,lots
 * hollywood facts
