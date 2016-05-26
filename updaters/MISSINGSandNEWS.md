@@ -7,6 +7,17 @@
 	* 2016.chicago730,33:00
 	* 2016.chicago730,57:00
 	* 2016.chicago10,37:45
+	* 2016.denver,44:45
+	* 2016.oakland,34:00
+	* 2016.oakland,1:04:00
+	* 2016.portland7,30:00
+	* 2016.portland7,48:55
+* world record holders
+	* some early tour stop
+	* 2016.denver,46:30
+* PJ
+	* basically every 2016 tour stop
+	* 2016.oakland,54:45
 * #1 with a bullet
 	* 2016.denver,10:00
 * "fantastic"
@@ -28,6 +39,7 @@
 	* 2016.austin,53:00
 	* 2016.minneapolis,59:00
 	* 2016.minneapolis,1:04:42
+	* 2016.denver,1:39:45
 * am i doing it?
 	* 2016.austin,1:13:50
 	* 423,42:19,one thousand gigawatts
@@ -42,6 +54,8 @@
 	* tarrytown 2016,40:00
 	* tarrytown 2016,44:00
 	* every other wiseman appearance *10
+	* 2016.oakland,35:28
+	* 2016.oakland,36:50
 * serial podcast
 	* 417,16:00
 * pft delivers extremely lengthy description of an abbreviation
@@ -87,6 +101,7 @@
 * buttercream effeft
 	* 215,~59:30
 	* 215,~1:01:30
+	* 2016.oakland,1:01:12
 * muppets gonna eff?
 	* bo2015.x?
 	* bo2015.3,1:02:00
@@ -97,6 +112,8 @@
 	* 356,1:12:00
 	* 406,54:50
 	* 2016.detroit,1:43:15
+	* 2016.oakland,11:00
+	* 2016.oakland,13:20
 * fictional people - dead but reasonable
 	* san francisco 2012,23:00+
 	* seattle 2013,55:45
@@ -172,6 +189,10 @@
 	* 2016.chicago10,28:00
 	* 2016.chicago10,31:00
 	* 2016.denver,22:30
+	* 2016.denver,1:12:20
+	* 2016.denver,1:28:20
+	* 2016.oakland,13:45
+	* 2016.oakland,34:00
 * i ain't down with (into) that g** shi*
 	* http://howl.fm/audio/26138/live-from-nyc-2014-part-1,46:00
 	* 215,20:34
