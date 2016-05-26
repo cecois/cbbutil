@@ -7,8 +7,17 @@
 	* 2016.chicago730,33:00
 	* 2016.chicago730,57:00
 	* 2016.chicago10,37:45
-* crimp can't make it through a song
+* #1 with a bullet
+	* 2016.denver,10:00
+* "fantastic"
+	* 2016.chicago10,37:45
+	* 2016.chicago10,52:40
+	* 2016.detroit,25:57
+	* 2016.detroit,35:13
+* lapkus can't make it through a song
+	* 2016.detroit,53:37
 	* 2016.tour,lots
+	* 2016.chicago10,47:30
 * hollywood facts
 	* lots
 	* 421,??:??
@@ -56,6 +65,7 @@
 	* 404,21:15
 	* 2016nyc05015.930,31:00
 	* 423,16:45
+	* 2016.detroit,1:24:45
 * the godfather, movies like that
 	* 411,53:50
 	* 413,1:00:30 (mark twain)
@@ -86,12 +96,14 @@
 * ET no homo
 	* 356,1:12:00
 	* 406,54:50
+	* 2016.detroit,1:43:15
 * fictional people - dead but reasonable
 	* san francisco 2012,23:00+
 	* seattle 2013,55:45
 	* lotsa cakeboss/pft eps
 	* 2016.nyc0514,59:30,church lady
 	* 2016.chicago730,17:20
+	* 2016.detroit,40:50
 * huell turns into a crowbot
 	* 29,51:48
 	* howl.fm in DC,36:00
@@ -124,6 +136,7 @@
 	* 421,39:45
 	* 421,41:45
 	* 2016.gramercy0514930pm,39:57
+	* 2016.denver,05:10
 * ball droid - bb8
 	* 349,15:00
 	* bo2015.2,58:30
@@ -158,6 +171,7 @@
 	* 2015 BOs?
 	* 2016.chicago10,28:00
 	* 2016.chicago10,31:00
+	* 2016.denver,22:30
 * i ain't down with (into) that g** shi*
 	* http://howl.fm/audio/26138/live-from-nyc-2014-part-1,46:00
 	* 215,20:34
@@ -170,7 +184,8 @@
 * gershwin, my baby
 	* 400, multiple
 	* 400, ~28:30
-* ~~that's the show~~
+* that's the show
+	* 399,1:07:08
 	* ~~mulaney/kroll (ep. w/ mark david chapman thing)~~
 	* ~~395,46:55~~
 	* ~~bo2015.3,:30~~
@@ -191,8 +206,6 @@
 
 * just a cardboard cutout inaugural
 
-* that's the show
-	* 399,1:07:08
 
 * dick francis
 	* 399,1:07:50 	

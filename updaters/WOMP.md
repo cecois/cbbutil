@@ -266,3 +266,4 @@
 * 2016.chicago10,04:00,cross eyed painless (talking heads)
 * 2016.chicago10,43:20,rock lobster (b-52s)
 * 2016.chicago10,43:20,take me to church (b-52s)
+* 2016.denver,22:30,i don't care (icona pop)
