@@ -12,12 +12,20 @@
 	* 2016.oakland,1:04:00
 	* 2016.portland7,30:00
 	* 2016.portland7,48:55
+	* 2016.portland10,21:00
+* suck my clit (pam frm big bear catchphrase)
+	* all 2016.tour stops w/ pamela
 * world record holders
 	* some early tour stop
 	* 2016.denver,46:30
+* Indiana Jones
+	* basically every 2016 tour stop
+	* end of portland7
+	* 2016.portland10,9:25
 * PJ
 	* basically every 2016 tour stop
 	* 2016.oakland,54:45
+	* 2016.portland10,24:45
 * #1 with a bullet
 	* 2016.denver,10:00
 * "fantastic"
@@ -25,6 +33,7 @@
 	* 2016.chicago10,52:40
 	* 2016.detroit,25:57
 	* 2016.detroit,35:13
+	* 2016.portland10,15:50
 * lapkus can't make it through a song
 	* 2016.detroit,53:37
 	* 2016.tour,lots

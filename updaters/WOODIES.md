@@ -175,3 +175,4 @@
 * 2016.minneapolis,1:00:00,you trying to talk about yr feelings and i hafta take out my earbuds? we goin there tonight
 * 2016.chicago10,36:00,i can't realistically kill every goose...
 * 2016.portland7,27:11,are you big bird? (freudian slip)
+* 2016.portland7,1:20:20,i think it was the phrase "free-flowing"
