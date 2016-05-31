@@ -14,8 +14,12 @@
 	* 2016.portland7,48:55
 	* 2016.portland10,21:00
 	* 2016.seattle,31:00
+* asked and answered
+	* countless
+	* 2016.seattle,1:22:00
 * icona pop
 	* all 2016.tour stops
+	* 2016.seattle,1:23:25
 * suck my clit (pam frm big bear catchphrase)
 	* all 2016.tour stops w/ pamela
 	* 2016.portland10,39:00
@@ -209,6 +213,7 @@
 	* 2016.denver,1:28:20
 	* 2016.oakland,13:45
 	* 2016.oakland,34:00
+	* 2016.seattle,1:06:20
 * i ain't down with (into) that g** shi*
 	* http://howl.fm/audio/26138/live-from-nyc-2014-part-1,46:00
 	* 215,20:34

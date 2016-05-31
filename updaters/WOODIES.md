@@ -176,3 +176,5 @@
 * 2016.chicago10,36:00,i can't realistically kill every goose...
 * 2016.portland7,27:11,are you big bird? (freudian slip)
 * 2016.portland7,1:20:20,i think it was the phrase "free-flowing"
+* 2016.seattle,50:45,i think they famously had wood in jesus' time
+* 2016.seattle,1:22:00,the n stands for – uh oh

@@ -284,3 +284,4 @@
 * 2016.portland7,59:00,i don't care (icona pop)
 * 2016.portland7,1:07:45,closer to free (bodeans)
 * 2016.portland10,39:30,i love it (icona pop)
+* 2016.seattle,1:23:25,i love it (icona pop)
