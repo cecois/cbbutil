@@ -13,8 +13,14 @@
 	* 2016.portland7,30:00
 	* 2016.portland7,48:55
 	* 2016.portland10,21:00
+	* 2016.seattle,31:00
+* icona pop
+	* all 2016.tour stops
 * suck my clit (pam frm big bear catchphrase)
 	* all 2016.tour stops w/ pamela
+	* 2016.portland10,39:00
+	* 2016.portland10,43:45
+	* 2016.portland10,46:00
 * world record holders
 	* some early tour stop
 	* 2016.denver,46:30
@@ -34,6 +40,7 @@
 	* 2016.detroit,25:57
 	* 2016.detroit,35:13
 	* 2016.portland10,15:50
+	* 2016.seattle,31:00
 * lapkus can't make it through a song
 	* 2016.detroit,53:37
 	* 2016.tour,lots

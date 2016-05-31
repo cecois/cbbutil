@@ -283,3 +283,4 @@
 * 2016.portland7,53:00,new york state of mind (billy joel)
 * 2016.portland7,59:00,i don't care (icona pop)
 * 2016.portland7,1:07:45,closer to free (bodeans)
+* 2016.portland10,39:30,i love it (icona pop)
