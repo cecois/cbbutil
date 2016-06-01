@@ -46,6 +46,7 @@
 	* 2016.detroit,35:13
 	* 2016.portland10,15:50
 	* 2016.seattle,31:00
+	* 52,41:45
 * lapkus can't make it through a song
 	* 2016.detroit,53:37
 	* 2016.tour,lots
@@ -160,6 +161,7 @@
 	* 2016.philly,1:21:05
 	* 423,42:20
 	* 423,1:18:30
+	* 424,1:27:45
 * look it up, (scotty|pauly) - 
 	* 349,42:30
 	* bo2015.4,8:00
