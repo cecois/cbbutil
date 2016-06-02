@@ -106,7 +106,7 @@ foreach ($BITEPZ['episodes'] as $ep) {
 		// die();
 		$BITTOT = $tbit[0]['total'];
 
-		$dump .= "<li>" . $v . " <em><a href='#query/episode:" . $ep['episode'] . " AND bit:%22" . urlencode($k) . "%22'>" . $k . "</a></em>  from ep." . $ep['episode'] . " (<a href='#query/bit:%22" . urlencode($k) . "%22'>" . $BITTOT . " total</a>)</li>";
+		$dump .= "<li>" . $v . " <em><a href='#query/episode:" . $ep['episode'] . " AND bit:%22" . urlencode($k) . "%22'>" . $k . "</a></em> from ep." . $ep['episode'] . " (<a href='#query/bit:%22" . urlencode($k) . "%22'>" . $BITTOT . " total</a>)</li>";
 		// <li>1 new <em><a href='#query/episode:408 AND bit:%22Bottom+of+a+Deep+Pool%22'>Bottom of a Deep Pool</a></em> (<a href='#query/bit:%22Bottom+of+a+Deep+Pool%22'>7 total</a>)</li>
 	}
 }
