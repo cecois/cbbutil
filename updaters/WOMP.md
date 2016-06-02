@@ -300,3 +300,9 @@
 * 2016.vancouver,1:52:40,i don't care (icona pop)
 * 424,31:45,?? (the killers)
 * 52,1:03:27,the streak (ray stevens)
+* 425,1:50,wait for the midnight hour (wilson pickett)
+* 425,8:00,let's fall in love (cole porter)
+* 425,29:50,grandma got run over by a reindeer
+* 425,52:00,just my imagination (commodores?)
+* 54,24:00,beat it (jacko)
+* 54,25:00,fat lip (sum 41)

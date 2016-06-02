@@ -37,7 +37,7 @@
 	* basically every 2016 tour stop
 	* 2016.oakland,54:45
 	* 2016.portland10,24:45
-* #1 with a bullet
+* \#1 with a bullet
 	* 2016.denver,10:00
 * "fantastic"
 	* 2016.chicago10,37:45
@@ -47,6 +47,10 @@
 	* 2016.portland10,15:50
 	* 2016.seattle,31:00
 	* 52,41:45
+	* 425,1:12:00
+	* 425,1:12:20
+	* 425,1:13:00
+	* 55,1:42
 * lapkus can't make it through a song
 	* 2016.detroit,53:37
 	* 2016.tour,lots
@@ -62,6 +66,7 @@
 	* 2016.minneapolis,59:00
 	* 2016.minneapolis,1:04:42
 	* 2016.denver,1:39:45
+	* 425,1:00:15
 * am i doing it?
 	* 2016.austin,1:13:50
 	* 423,42:19,one thousand gigawatts
@@ -93,6 +98,7 @@
 	* 51,22:00+
 	* 51,39:30
 	* 2016.dc,whole time basically
+	* 425,kroll does schrift/daemon/fabrice/stallone/chupa/mrs. doubtfire/bill maher/creaky gate/faizon
 * rounds of catchphrase
 * all the cities of the country
 	* 404,16:00

@@ -1122,3 +1122,91 @@
 			"id_wikia": 2619,
 			"holding": "false"
 		}
+
+		{
+			"episode": 54,
+			"show": "cbb",
+			"tstart": "5:58",
+			"tend": "6:03",
+			"instance": "Now, Marc, answer this seriously: have you ever hit a woman?",
+			"bit":"Scott's Questions",
+			"elucidation":"(in progress) - scott's questions",
+			"location_type": "",
+			"location_id": "",
+			"updated_at": "2016-06-02T10:51:29Z",
+			"url_soundcloud": "http://soundcloud.com/comedybangbang/the-wacky-ding-dongs/#t=5:58",
+			"tags": "",
+			"created_at": "2016-06-02T10:51:29Z",
+			"slug_soundcloud": "the-wacky-ding-dongs",
+			"slug_earwolf": "the-wacky-ding-dongs",
+			"episode_title": "The Wacky Ding Dongs",
+			"episode_guests": "Marc Maron,Birthday Boys",
+			"id_wikia": 2628,
+			"holding": "false"
+		}
+
+		{
+			"episode": 54,
+			"show": "cbb",
+			"tstart": "12:10",
+			"tend": "12:16",
+			"instance": "When you say that the exterminator guy 'sprayed everything' do you mean he ejaculated in your face?",
+			"bit":"Scott's Questions",
+			"elucidation":"(in progress) - scott's questions",
+			"location_type": "",
+			"location_id": "",
+			"updated_at": "2016-06-02T10:51:29Z",
+			"url_soundcloud": "http://soundcloud.com/comedybangbang/the-wacky-ding-dongs/#t=12:10",
+			"tags": "",
+			"created_at": "2016-06-02T10:51:29Z",
+			"slug_soundcloud": "the-wacky-ding-dongs",
+			"slug_earwolf": "the-wacky-ding-dongs",
+			"episode_title": "The Wacky Ding Dongs",
+			"episode_guests": "Marc Maron,Birthday Boys",
+			"id_wikia": 2628,
+			"holding": "false"
+		}
+
+		{
+			"episode": 54,
+			"show": "cbb",
+			"tstart": "21:15",
+			"tend": "21:38",
+			"instance": "You mean to say that there's a crowd forming outside?",
+			"bit":"Location",
+			"elucidation":"identifiable earth location",
+			"location_type": "point",
+			"location_id": "111",
+			"updated_at": "2016-06-02T10:51:29Z",
+			"url_soundcloud": "http://soundcloud.com/comedybangbang/the-wacky-ding-dongs/#t=21:15",
+			"tags": "",
+			"created_at": "2016-06-02T10:51:29Z",
+			"slug_soundcloud": "the-wacky-ding-dongs",
+			"slug_earwolf": "the-wacky-ding-dongs",
+			"episode_title": "The Wacky Ding Dongs",
+			"episode_guests": "Marc Maron,Birthday Boys",
+			"id_wikia": 2628,
+			"holding": "false"
+		}
+
+		{
+			"episode": 54,
+			"show": "cbb",
+			"tstart": "32:15",
+			"tend": "32:50",
+			"instance": "He mimed untying my hand.",
+			"bit":"Verisimilitude",
+			"elucidation":"some conceit of the show is abused, broken, or exposed",
+			"location_type": "",
+			"location_id": "",
+			"updated_at": "2016-06-02T10:51:29Z",
+			"url_soundcloud": "http://soundcloud.com/comedybangbang/the-wacky-ding-dongs/#t=32:15",
+			"tags": "",
+			"created_at": "2016-06-02T10:51:29Z",
+			"slug_soundcloud": "the-wacky-ding-dongs",
+			"slug_earwolf": "the-wacky-ding-dongs",
+			"episode_title": "The Wacky Ding Dongs",
+			"episode_guests": "Marc Maron,Birthday Boys",
+			"id_wikia": 2628,
+			"holding": "false"
+		}
