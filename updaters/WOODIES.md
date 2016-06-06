@@ -180,3 +180,4 @@
 * 2016.seattle,1:22:00,the n stands for – uh oh
 * 425,24:30,but he's a tiny boy with big fat tits
 * 425,34:20,i also noticed you have a big, fat asshole
+* 59,44:30,you mean the story of how you were molested as a child that caused you to do that?

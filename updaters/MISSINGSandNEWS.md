@@ -15,9 +15,14 @@
 	* 2016.portland10,21:00
 	* 2016.seattle,31:00
 	* 2016.vancouver,1:19:50 (honorary)
+* german germany cannibalism
+	* 59,42:45 (inaugural)
+	* 
 * asked and answered
 	* countless
 	* 2016.seattle,1:22:00
+* pft has time for x more questions
+	* 59,12:00
 * icona pop
 	* all 2016.tour stops
 	* 2016.seattle,1:23:25
@@ -51,6 +56,7 @@
 	* 425,1:12:20
 	* 425,1:13:00
 	* 55,1:42
+	* 57,8:00
 * lapkus can't make it through a song
 	* 2016.detroit,53:37
 	* 2016.tour,lots
@@ -200,6 +206,7 @@
 * and...10 more minutes
 	* 400,50:00
 	* 408,32:00
+	* 426,35:00
 * jeffrey characterwheaties
 	* ~~2:03:55,kroll+mantzoukas daemon episode~~
 	* ~~394,41:10~~
