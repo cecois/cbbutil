@@ -306,3 +306,6 @@
 * 425,52:00,just my imagination (commodores?)
 * 54,24:00,beat it (jacko)
 * 54,25:00,fat lip (sum 41)
+* 2016.losangeles,14:00,wanksta (50 cent)
+* 2016.tarrytown,56:15,age ain't nothing (aleayah)
+* 

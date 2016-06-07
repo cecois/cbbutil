@@ -15,9 +15,14 @@
 	* 2016.portland10,21:00
 	* 2016.seattle,31:00
 	* 2016.vancouver,1:19:50 (honorary)
+* fu, howl subscribers
+	* 2016.losangeles,52:02
+	* 2016.losangeles,28:45
+	* 2016.losangeles,1:23:00
 * asked and answered
 	* countless
 	* 2016.seattle,1:22:00
+	* 2016.losangeles,1:09:00
 * icona pop
 	* all 2016.tour stops
 	* 2016.seattle,1:23:25
@@ -35,11 +40,16 @@
 	* 2016.portland10,9:25
 * PJ
 	* basically every 2016 tour stop
+	* 2016.tarrytown,1:20:40
 	* 2016.oakland,54:45
 	* 2016.portland10,24:45
+* someone (usually lapkus) prompts a leesa spot
+	* 
 * \#1 with a bullet
 	* 2016.denver,10:00
 * "fantastic"
+	* 2016.losangeles,1:04:17
+	* 2016.losangeles,1:09:30
 	* 2016.chicago10,37:45
 	* 2016.chicago10,52:40
 	* 2016.detroit,25:57
@@ -51,10 +61,20 @@
 	* 425,1:12:20
 	* 425,1:13:00
 	* 55,1:42
+	* 2016.tarrytown,1:07:22
 * lapkus can't make it through a song
+	* 2016.tarrytown,5:00
+	* 2016.tarrytown,14:23
+	* 2016.tarrytown,40:39
+	* 2016.tarrytown,41:10
 	* 2016.detroit,53:37
 	* 2016.tour,lots
 	* 2016.chicago10,47:30
+	* tarrytown 2016,4:46
+	* tarrytown.2016,51:55
+	* tarrytown.2016,56:00
+	* tarrytown.2016,57:15
+	* tarrytown.2016,1:16:20
 * hollywood facts
 	* lots
 	* 421,??:??
@@ -73,21 +93,25 @@
 * ice t's love of non-standard air travel
 	* that time he wz in the met life blimp
 	* 51,24:00
-* regina krimp doesn't make it through her song
-	* tarrytown 2016,4:46
 * i have time for x more
 	* 412,1:13:47,2 more
 * len wiseman's self description (good looking guy etc.)
-	* tarrytown 2016,40:00
-	* tarrytown 2016,44:00
+	* 2016.tarrytown,20:30
+	* 2016.tarrytown,40:00
+	* 2016.tarrytown,44:00
 	* every other wiseman appearance *10
 	* 2016.oakland,35:28
 	* 2016.oakland,36:50
 * serial podcast
 	* 417,16:00
-* pft delivers extremely lengthy description of an abbreviation
+* pft delivers extremely lengthy elucidation of something (characters, abbreviations, etc.)
 	* toronto.2016.06,1:00:30
-	* toronto.2016.06,at least once earlier than that
+	* toronto.2016.06,at least once earlier than 1:00:30
+	* 2016.losangeles,39:00
+	* 2016.losangeles,42:30
+ 	* 2016.losangeles,1:01:00
+	* 2016.losangeles,(maybe 10m prior to 1:01:00)
+	* 2016.losangeles,1:00:40
 * character bonanzas
 	* 286
 	* daly intervention
@@ -126,7 +150,7 @@
 	* 215,59:23
 	* 2016.toronto0506,58:40,fuck you listners!
 * ~~fix scott's nephew todd tag~~
-* buttercream effeft
+* buttercream effect
 	* 215,~59:30
 	* 215,~1:01:30
 	* 2016.oakland,1:01:12
@@ -205,11 +229,6 @@
 	* ~~394,41:10~~
 * interesting vote from an interesting player
 	* http://howl.fm/audio/26163/live-from-vancouver-2013,51:50
-* is dick francis a horse?
-	* ~~bo2015.4,8:00~~
-	* ~~bo2015.4,1:17:00~~
-	* 398,1:08:00
-	* 2016.chicago10,27:30
 * don't joke about irobot
 	* early in bo2015.1
 	* bo2015.2,12:00
@@ -255,12 +274,13 @@
 	* 2016.minneapolis,58:55
 * German craigslist
 	* 401,50:45
-
 * just a cardboard cutout inaugural
-
-
 * dick francis
-	* 399,1:07:50 	
+	* 399,1:07:50
+	* ~~bo2015.4,8:00~~
+	* ~~bo2015.4,1:17:00~~
+	* 398,1:08:00
+	* 2016.chicago10,27:30	
 * jason hates scott
 	* 384,24:30
 * constantly high-fiving
@@ -280,6 +300,3 @@
 	* some earlier than 41, too
 * Hey hey hey have a good day (shelly driftwood)
 	* 419,1:34:50 (*2)
-* PFT goes all-in on a character backstory
-	* 2016 ace hotel,1:01:00
-	* 2016 ace hotel,(maybe 10m prior to 1:01:00)
