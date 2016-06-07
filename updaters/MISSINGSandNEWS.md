@@ -23,6 +23,14 @@
 	* countless
 	* 2016.seattle,1:22:00
 	* 2016.losangeles,1:09:00
+* german germany cannibalism
+	* 59,42:45 (inaugural)
+	* 
+* asked and answered
+	* countless
+	* 2016.seattle,1:22:00
+* pft has time for x more questions
+	* 59,12:00
 * icona pop
 	* all 2016.tour stops
 	* 2016.seattle,1:23:25
@@ -62,6 +70,7 @@
 	* 425,1:13:00
 	* 55,1:42
 	* 2016.tarrytown,1:07:22
+	* 57,8:00
 * lapkus can't make it through a song
 	* 2016.tarrytown,5:00
 	* 2016.tarrytown,14:23
@@ -224,6 +233,7 @@
 * and...10 more minutes
 	* 400,50:00
 	* 408,32:00
+	* 426,35:00
 * jeffrey characterwheaties
 	* ~~2:03:55,kroll+mantzoukas daemon episode~~
 	* ~~394,41:10~~
