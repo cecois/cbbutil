@@ -21,6 +21,7 @@
 * asked and answered
 	* countless
 	* 2016.seattle,1:22:00
+	* 2016.toronto0506,1:28:00
 * pft has time for x more questions
 	* 59,12:00
 * icona pop
@@ -57,6 +58,7 @@
 	* 425,1:13:00
 	* 55,1:42
 	* 57,8:00
+	* 2016.toronto0506,39:30
 * lapkus can't make it through a song
 	* 2016.detroit,53:37
 	* 2016.tour,lots
@@ -79,7 +81,7 @@
 * ice t's love of non-standard air travel
 	* that time he wz in the met life blimp
 	* 51,24:00
-* regina krimp doesn't make it through her song
+* regina crimp doesn't make it through her song
 	* tarrytown 2016,4:46
 * i have time for x more
 	* 412,1:13:47,2 more
@@ -92,8 +94,8 @@
 * serial podcast
 	* 417,16:00
 * pft delivers extremely lengthy description of an abbreviation
-	* toronto.2016.06,1:00:30
-	* toronto.2016.06,at least once earlier than that
+	* toronto.2016.0506,1:00:30 (mocap)
+	* toronto.2016.0506,44:30 (box office)
 * character bonanzas
 	* 286
 	* daly intervention
@@ -216,6 +218,7 @@
 	* ~~bo2015.4,8:00~~
 	* ~~bo2015.4,1:17:00~~
 	* 398,1:08:00
+	* 399,1:07:50
 	* 2016.chicago10,27:30
 * don't joke about irobot
 	* early in bo2015.1
@@ -265,9 +268,6 @@
 
 * just a cardboard cutout inaugural
 
-
-* dick francis
-	* 399,1:07:50 	
 * jason hates scott
 	* 384,24:30
 * constantly high-fiving
