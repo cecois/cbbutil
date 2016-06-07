@@ -1,6 +1,5 @@
 # possible new bits: 
 * literally nowhere else to go
-	* every 2016 tour stop?
 	* 2016.dallas,39:00
 	* 2016.austin,36:30
 	* 2016.minneapolis,45:00
@@ -25,10 +24,10 @@
 	* 2016.losangeles,1:09:00
 * german germany cannibalism
 	* 59,42:45 (inaugural)
-	* 
 * asked and answered
 	* countless
 	* 2016.seattle,1:22:00
+	* 2016.toronto,8:45
 * pft has time for x more questions
 	* 59,12:00
 * icona pop
@@ -44,6 +43,7 @@
 	* 2016.denver,46:30
 * Indiana Jones
 	* basically every 2016 tour stop
+	* 2016.toronto,1:02:00
 	* end of portland7
 	* 2016.portland10,9:25
 * PJ
@@ -55,6 +55,7 @@
 	* 
 * \#1 with a bullet
 	* 2016.denver,10:00
+	* 2016.toronto,41:00
 * "fantastic"
 	* 2016.losangeles,1:04:17
 	* 2016.losangeles,1:09:30
