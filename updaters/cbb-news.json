@@ -1212,50 +1212,50 @@
 		}
 
 		{
-    "episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
-    "show": "cbb",
-    "tstart": "1:03:20",
-    "tend": "1:03:55",
-    "instance": "So come on down to Carpets & Rugs Down There.",
-    "bit":"Shirley",
-        "elucidation":"a character can't pull a detail they absolutely should know",
-    "tags": "",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2016-06-04T11:51:29Z",
-    "url_soundcloud": "",
-    "created_at": "2016-06-04T11:51:29Z",
-    "slug_soundcloud": "",
-    "slug_earwolf": "",
-    "episode_title": "April 30 - Los Angeles, The Theater at Ace Hotel",
-    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Nick Kroll,Weird Al Yankovic,Jason Mantzoukas",
-    "id_wikia": null,
-    "holding": "false"
-}
+			"episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
+			"show": "cbb",
+			"tstart": "1:03:20",
+			"tend": "1:03:55",
+			"instance": "So come on down to Carpets & Rugs Down There.",
+			"bit":"Shirley",
+			"elucidation":"a character can't pull a detail they absolutely should know",
+			"tags": "",
+			"location_type": "",
+			"location_id": "",
+			"updated_at": "2016-06-04T11:51:29Z",
+			"url_soundcloud": "",
+			"created_at": "2016-06-04T11:51:29Z",
+			"slug_soundcloud": "",
+			"slug_earwolf": "",
+			"episode_title": "April 30 - Los Angeles, The Theater at Ace Hotel",
+			"episode_guests": "Lauren Lapkus,Paul F. Tompkins,Nick Kroll,Weird Al Yankovic,Jason Mantzoukas",
+			"id_wikia": null,
+			"holding": "false"
+		}
 
-{
-    "episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
-    "show": "cbb",
-    "tstart": "1:21:09",
-    "tend": "1:21:25",
-    "instance": "Wow, guys.",
-    "bit": "You're Terrible at This",
-    "elucidation": "impromptu reviews of scott's hosting",
-    "tags": "",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2016-06-04T11:51:29Z",
-    "url_soundcloud": "",
-    "created_at": "2016-06-04T11:51:29Z",
-    "slug_soundcloud": "",
-    "slug_earwolf": "",
-    "episode_title": "April 30 - Los Angeles, The Theater at Ace Hotel",
-    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Nick Kroll,Weird Al Yankovic,Jason Mantzoukas",
-    "id_wikia": null,
-    "holding": "false"
-}
+		{
+			"episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
+			"show": "cbb",
+			"tstart": "1:21:09",
+			"tend": "1:21:25",
+			"instance": "Wow, guys.",
+			"bit": "You're Terrible at This",
+			"elucidation": "impromptu reviews of scott's hosting",
+			"tags": "",
+			"location_type": "",
+			"location_id": "",
+			"updated_at": "2016-06-04T11:51:29Z",
+			"url_soundcloud": "",
+			"created_at": "2016-06-04T11:51:29Z",
+			"slug_soundcloud": "",
+			"slug_earwolf": "",
+			"episode_title": "April 30 - Los Angeles, The Theater at Ace Hotel",
+			"episode_guests": "Lauren Lapkus,Paul F. Tompkins,Nick Kroll,Weird Al Yankovic,Jason Mantzoukas",
+			"id_wikia": null,
+			"holding": "false"
+		}
 
-{
+		{
 			"episode": 56,
 			"show": "cbb",
 			"tstart": "1:46",
@@ -1714,5 +1714,27 @@
 				"episode_title": "Now Hiring Interns!",
 				"episode_guests": "Donald Glover,Brendon Walsh,Jessica St. Clair",
 				"id_wikia": 2643,
+				"holding": "false"
+			}
+
+			{
+				"episode": "http://howl.fm/audio/41288/may-7-boston-wilbur-theatre-7-pm",
+				"show": "cbb",
+				"tstart": "23:30",
+				"tend": "23:42",
+				"instance": "I feel as if you're only listening to every other word I say.",
+				"bit":"You're Terrible at This",
+				"elucidation":"impromptu reviews of scott's hosting",
+				"tags": "Alan Thicke",
+				"location_type": "",
+				"location_id": "",
+				"updated_at": "2016-06-07T11:51:29Z",
+				"url_soundcloud": "",
+				"created_at": "2016-06-07T11:51:29Z",
+				"slug_soundcloud": "",
+				"slug_earwolf": "",
+				"episode_title": "May 7 - Boston, Wilbur Theatre (7 PM)",
+				"episode_guests": "Lauren Lapkus,Paul F. Tompkins",
+				"id_wikia": null,
 				"holding": "false"
 			}
