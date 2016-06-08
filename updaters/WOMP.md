@@ -349,3 +349,4 @@
 * 426,1:15:53,american woman (the ??)
 * 2016.toronto,1:09:35,l.a. woman (doors)
 * 2016.boston10pm,31:45,isn't it ironic - morrissette
+* 2016.dc,50:45,i don't care (icona pop) (inaugural)

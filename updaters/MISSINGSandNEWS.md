@@ -14,10 +14,12 @@
 	* 2016.portland10,21:00
 	* 2016.seattle,31:00
 	* 2016.vancouver,1:19:50 (honorary)
+	* 2016.nc,40:25
 * fu, howl subscribers
 	* 2016.losangeles,52:02
 	* 2016.losangeles,28:45
 	* 2016.losangeles,1:23:00
+	* 2016.nc,42:14
 * asked and answered
 	* countless
 	* 2016.seattle,1:22:00
@@ -42,11 +44,12 @@
 * world record holders
 	* some early tour stop
 	* 2016.denver,46:30
-* Indiana Jones
+* Indiana Jones/Raiders
 	* basically every 2016 tour stop
 	* 2016.toronto,1:02:00
 	* end of portland7
 	* 2016.portland10,9:25
+	* 2016.philly,1:28:00
 * PJ
 	* basically every 2016 tour stop
 	* 2016.tarrytown,1:20:40
@@ -75,6 +78,10 @@
 	* 57,8:00
 	* 2016.toronto0506,39:30
 	* 2016.boston10pm,18:20
+	* 2016.boston10pm,1:07:28
+	* 2016.dc,25:20
+	* 2016.nc,33:25
+	* 2016.nc,43:40
 * lapkus can't make it through a song
 	* 2016.tarrytown,5:00
 	* 2016.tarrytown,14:23
@@ -322,6 +329,8 @@
 	* 41,9:30
 * symmetrical face
 	* 41,29:00
+	* 2016.dc,1:00:00
+	* 2016.dc,1:06:30
 	* some earlier than 41, too
 * Hey hey hey have a good day (shelly driftwood)
 	* 419,1:34:50 (*2)
