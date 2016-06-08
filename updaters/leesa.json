@@ -25,7 +25,7 @@
     "show": "cbb",
     "tstart": "12:13",
     "tend": "12:40",
-    "instance": "Speaking of bedrooms...",
+    "instance": "But when you're on my bed, what kind of mattress do you sleep on?",
     "bit": "???",
     "elucidation": "someone (typically Lapkus) prompts a Leesa spot",
     "tags": "",
@@ -38,6 +38,28 @@
     "slug_earwolf": "",
     "episode_title": "April 30 - Los Angeles, The Theater at Ace Hotel",
     "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Nick Kroll,Weird Al Yankovic,Jason Mantzoukas",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": "http://howl.fm/audio/41286/may-6-toronto-convocation-hall",
+    "show": "cbb",
+    "tstart": "27:09",
+    "tend": "27:47",
+    "instance": "Speaking of bedrooms...",
+    "bit": "???",
+    "elucidation": "someone (typically Lapkus) prompts a Leesa spot",
+    "tags": "",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-06-04T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2016-06-07T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 6 - Toronto, Convocation Hall",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Tim Baltz,Kristian Bruun",
     "id_wikia": null,
     "holding": "false"
 }

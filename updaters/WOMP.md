@@ -347,3 +347,5 @@
 * 426,1:06:30,don't know much (sam cooke)
 * 426,1:11:52,hearts on fire (?)
 * 426,1:15:53,american woman (the ??)
+* 2016.toronto,1:09:35,l.a. woman (doors)
+* 2016.boston10pm,31:45,isn't it ironic - morrissette
