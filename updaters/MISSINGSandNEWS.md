@@ -15,6 +15,8 @@
 	* 2016.seattle,31:00
 	* 2016.vancouver,1:19:50 (honorary)
 	* 2016.nc,40:25
+	* 2016.atl,53:04
+	* 2016.nyc930,33:50
 * fu, howl subscribers
 	* 2016.losangeles,52:02
 	* 2016.losangeles,28:45
@@ -83,6 +85,10 @@
 	* 2016.dc,25:20
 	* 2016.nc,33:25
 	* 2016.nc,43:40
+	* 2016.atl,1:00:30
+	* 2016.nyc930,33:30
+	* 2016.nyc930,43:45
+	* 2016.nyc930,47:45
 * lapkus can't make it through a song
 	* 2016.tarrytown,5:00
 	* 2016.tarrytown,14:23
@@ -335,3 +341,5 @@
 	* some earlier than 41, too
 * Hey hey hey have a good day (shelly driftwood)
 	* 419,1:34:50 (*2)
+* E.T.A.D.
+	* 2016.nyc930,1:03:30

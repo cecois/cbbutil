@@ -129,3 +129,113 @@
     "id_wikia": null,
     "holding": "false"
 }
+
+{
+    "episode": "http://howl.fm/audio/41307/may-11-atlanta-the-tabernacle-atlanta",
+    "show": "cbb",
+    "tstart": "7:45",
+    "tend": "8:04",
+    "instance": "Do you have to keep it in, like, a miniature refrigerator?",
+    "bit": "???",
+    "elucidation": "someone (typically Lapkus) prompts a Leesa spot",
+    "tags": "Ho Ho",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-06-09T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2016-06-09T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 11 - Atlanta, The Tabernacle Atlanta",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Drew Tarver",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": "http://howl.fm/audio/41307/may-11-atlanta-the-tabernacle-atlanta",
+    "show": "cbb",
+    "tstart": "31:00",
+    "tend": "31:45",
+    "instance": "I'm always thinking of new contraptions in my brain.",
+    "bit": "???",
+    "elucidation": "someone (typically Lapkus) prompts a Leesa spot",
+    "tags": "Ho Ho,The Contraptionaire",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-06-09T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2016-06-09T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 11 - Atlanta, The Tabernacle Atlanta",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Drew Tarver",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": "http://howl.fm/audio/41307/may-11-atlanta-the-tabernacle-atlanta",
+    "show": "cbb",
+    "tstart": "43:27",
+    "tend": "43:38",
+    "instance": "Are you the type who save all of his money in a mattress, sir?",
+    "bit": "???",
+    "elucidation": "someone (typically Lapkus) prompts a Leesa spot",
+    "tags": "Ho Ho,The Contraptionaire",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-06-09T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2016-06-09T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 11 - Atlanta, The Tabernacle Atlanta",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Drew Tarver",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": "http://howl.fm/audio/41308/may-13-nyc-gramercy-theatre-7-pm",
+    "show": "cbb",
+    "tstart": "58:35",
+    "tend": "59:00",
+    "instance": "Dear Pen28, I'm having a lot of trouble sleeping...",
+    "bit": "???",
+    "elucidation": "someone (typically Lapkus) prompts a Leesa spot",
+    "tags": "Reverend Robert Parsimony,Natalie Scoppapoppalee",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-05-14T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2016-05-14T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 13 - NYC, Gramercy Theatre (9:30 PM)",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Rogue Wave",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": "http://howl.fm/audio/41309/may-13-nyc-gramercy-theatre-9-30-pm",
+    "show": "cbb",
+    "tstart": "1:07:09",
+    "tend": "1:07:29",
+    "instance": "That's something we do to pass the time - put poops in a bedpan and make a bedcake.",
+    "bit": "???",
+    "elucidation": "someone (typically Lapkus) prompts a Leesa spot",
+    "tags": "Andrew Lloyd Webber,Whitney Peeps,Wally Cobb,Tommy",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-06-08T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2016-06-08T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 13 - NYC, Gramercy Theatre (9:30 PM)",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Neil Campbell,Fran Gillespie",
+    "id_wikia": null,
+    "holding": "false"
+}
