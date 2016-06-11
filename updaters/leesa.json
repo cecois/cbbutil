@@ -1,4 +1,4 @@
-{
+  {
     "episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
     "show": "cbb",
     "tstart": "1:33:45",
@@ -223,7 +223,7 @@
     "show": "cbb",
     "tstart": "1:07:09",
     "tend": "1:07:29",
-    "instance": "That's something we do to pass the time - put poops in a bedpan and make a bedcake.",
+    "instance": "You know what the comfortable mattress to have a bedpan in is?",
     "bit": "???",
     "elucidation": "someone (typically Lapkus) prompts a Leesa spot",
     "tags": "Andrew Lloyd Webber,Whitney Peeps,Wally Cobb,Tommy",
@@ -238,4 +238,92 @@
     "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Neil Campbell,Fran Gillespie",
     "id_wikia": null,
     "holding": "false"
+}
+
+{
+    "episode": "http://howl.fm/audio/41310/may-14-nyc-gramercy-theatre-7-pm",
+    "show": "cbb",
+    "tstart": "40:32",
+    "tend": "40:43",
+    "instance": "Mr. Lennon, what kind of mattress do you sleep on?",
+    "bit": "???",
+    "elucidation": "someone (typically Lapkus) prompts a Leesa spot",
+    "tags": "Scott's Nephew Todd,John Lennon",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-06-10T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2016-06-10T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 14 - NYC, Gramercy Theatre (7 pm)",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+  "episode": "http://howl.fm/audio/41311/may-14-nyc-gramercy-theatre-9-30-pm",
+  "show": "cbb",
+  "tstart": "11:45",
+  "tend": "12:00",
+  "instance": "What, is it just a cardboard box and you sit inside it and do your little talk show?",
+  "bit": "???",
+  "elucidation": "someone (typically Lapkus) prompts a Leesa spot",
+  "tags": "Regina Crimp",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2016-06-10T11:51:29Z",
+  "url_soundcloud": "",
+  "created_at": "2016-06-10T11:51:29Z",
+  "slug_soundcloud": "",
+  "slug_earwolf": "",
+  "episode_title": "May 14 - NYC, Gramercy Theatre (9:30 pm)",
+  "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Neil Campbell",
+  "id_wikia": null,
+  "holding": "false"
+}
+
+{
+  "episode": "http://howl.fm/audio/41311/may-14-nyc-gramercy-theatre-9-30-pm",
+  "show": "cbb",
+  "tstart": "1:07:39",
+  "tend": "1;07:45",
+  "instance": "But, yeah, I landed on a pile of Leesa mattresses...",
+  "bit": "???",
+  "elucidation": "someone (typically Lapkus) prompts a Leesa spot",
+  "tags": "Regina Crimp,Maxwell Keeper",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2016-06-10T11:51:29Z",
+  "url_soundcloud": "",
+  "created_at": "2016-06-10T11:51:29Z",
+  "slug_soundcloud": "",
+  "slug_earwolf": "",
+  "episode_title": "May 14 - NYC, Gramercy Theatre (9:30 pm)",
+  "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Neil Campbell",
+  "id_wikia": null,
+  "holding": "false"
+}
+
+{
+  "episode": "http://howl.fm/audio/41311/may-14-nyc-gramercy-theatre-9-30-pm",
+  "show": "cbb",
+  "tstart": "42:51",
+  "tend": "43:04",
+  "instance": "I think that's gauche...",
+  "bit": "???",
+  "elucidation": "someone (typically Lapkus) prompts a Leesa spot",
+  "tags": "Regina Crimp,Sam Elliott",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2016-06-10T11:51:29Z",
+  "url_soundcloud": "",
+  "created_at": "2016-06-10T11:51:29Z",
+  "slug_soundcloud": "",
+  "slug_earwolf": "",
+  "episode_title": "May 14 - NYC, Gramercy Theatre (9:30 pm)",
+  "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Neil Campbell",
+  "id_wikia": null,
+  "holding": "false"
 }

@@ -16,7 +16,7 @@
 	* 2016.vancouver,1:19:50 (honorary)
 	* 2016.nc,40:25
 	* 2016.atl,53:04
-	* 2016.nyc930,33:50
+	* 2016.nyc0513930,33:50
 * fu, howl subscribers
 	* 2016.losangeles,52:02
 	* 2016.losangeles,28:45
@@ -35,6 +35,7 @@
 	* 2016.toronto,8:45
 * pft has time for x more questions
 	* 59,12:00
+	* 2016.nyc05147pm,1:01:00
 * icona pop
 	* all 2016.tour stops
 	* 2016.seattle,1:23:25
@@ -52,13 +53,12 @@
 	* end of portland7
 	* 2016.portland10,9:25
 	* 2016.philly,1:28:00
+	* 2016.nyc05147pm,50:00
 * PJ
 	* basically every 2016 tour stop
 	* 2016.tarrytown,1:20:40
 	* 2016.oakland,54:45
-	* 2016.portland10,24:45
-* someone (usually lapkus) prompts a leesa spot
-	* 
+	* 2016.portland10,24:45 
 * \#1 with a bullet
 	* 2016.denver,10:00
 	* 2016.toronto,41:00
@@ -86,9 +86,12 @@
 	* 2016.nc,33:25
 	* 2016.nc,43:40
 	* 2016.atl,1:00:30
-	* 2016.nyc930,33:30
-	* 2016.nyc930,43:45
-	* 2016.nyc930,47:45
+	* 2016.nyc0513930,33:30
+	* 2016.nyc0513930,43:45
+	* 2016.nyc0513930,47:45
+	* 2016.nyc05147pm,35:15
+	* 2016.nyc05147pm,35:45
+	* 2016.nyc05147pm,43:37
 * lapkus can't make it through a song
 	* 2016.tarrytown,5:00
 	* 2016.tarrytown,14:23
@@ -102,6 +105,10 @@
 	* tarrytown.2016,56:00
 	* tarrytown.2016,57:15
 	* tarrytown.2016,1:16:20
+	* 2016.nyc0514930,07:45
+	* 2016.nyc0514930,12:04
+	* 2016.nyc0514930,16:54
+	* 2016.nyc0514930,27:30
 * hollywood facts
 	* lots
 	* 421,??:??
@@ -203,7 +210,7 @@
 	* san francisco 2012,23:00+
 	* seattle 2013,55:45
 	* lotsa cakeboss/pft eps
-	* 2016.nyc0514,59:30,church lady
+	* 2016.nyc05147pm,59:30,church lady
 	* 2016.chicago730,17:20
 	* 2016.detroit,40:50
 * huell turns into a crowbot
@@ -243,6 +250,7 @@
 * ball droid - bb8
 	* 349,15:00
 	* bo2015.2,58:30
+	* 2016.nyc0514930,42:00
 * bing it
 	* 378,4:50
 * mr. microphone
