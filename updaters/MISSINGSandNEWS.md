@@ -92,6 +92,12 @@
 	* 2016.nyc05147pm,35:15
 	* 2016.nyc05147pm,35:45
 	* 2016.nyc05147pm,43:37
+	* 427,4:10
+	* 427,28:17
+	* 427,29:20
+	* 427,34:30
+	* 427,40:50
+	* 427,1:11:36
 * lapkus can't make it through a song
 	* 2016.tarrytown,5:00
 	* 2016.tarrytown,14:23
@@ -140,6 +146,7 @@
 	* 2016.oakland,36:50
 * serial podcast
 	* 417,16:00
+	* 427,54:30
 * pft delivers extremely lengthy description of an abbreviation
 	* toronto.2016.0506,1:00:30 (mocap)
 	* toronto.2016.0506,44:30 (box office)
@@ -352,3 +359,5 @@
 	* 419,1:34:50 (*2)
 * E.T.A.D.
 	* 2016.nyc930,1:03:30
+* dads and grads
+	* 427,1:30
