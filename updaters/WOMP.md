@@ -355,3 +355,5 @@
 * 2016.nyc0514930pm,17:52,i don't care (icona pop)
 * 427,51:30,under pressure/billy on the street
 * 427,1:15:45,tiny dancer (elton john)
+* 2016.nyc0514930pm,27:47,i don't care (icona pop)
+* 2016.nyc0514930pm,29:45,take me to church (hozier)
