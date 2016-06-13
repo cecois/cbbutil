@@ -353,3 +353,5 @@
 * 2016.atl,21:15,i don't care (icona pop)
 * 2016.nyc05137pm,24:20,i don't care (icona pop)
 * 2016.nyc0514930pm,17:52,i don't care (icona pop)
+* 2016.nyc0514930pm,27:47,i don't care (icona pop)
+* 2016.nyc0514930pm,29:45,take me to church (hozier)
