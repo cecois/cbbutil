@@ -17,6 +17,7 @@
 	* 2016.nc,40:25
 	* 2016.atl,53:04
 	* 2016.nyc0513930,33:50
+	* 2016.nyc05157pm,31:02
 * fu, howl subscribers
 	* 2016.losangeles,52:02
 	* 2016.losangeles,28:45
@@ -54,11 +55,13 @@
 	* 2016.portland10,9:25
 	* 2016.philly,1:28:00
 	* 2016.nyc05147pm,50:00
+	* 2016.nyc0515930pm,05:30
 * PJ
 	* basically every 2016 tour stop
 	* 2016.tarrytown,1:20:40
 	* 2016.oakland,54:45
-	* 2016.portland10,24:45 
+	* 2016.portland10,24:45
+	* 2016.nyc05157pm,1:05:45
 * \#1 with a bullet
 	* 2016.denver,10:00
 	* 2016.toronto,41:00
@@ -98,6 +101,10 @@
 	* 427,34:30
 	* 427,40:50
 	* 427,1:11:36
+	* 2016.nyc0514930pm,1:13:30
+	* 2016.nyc05157pm,02:55
+	* 2016.nyc05157pm,21:27
+	* 2016.nyc05157pm,52:57
 * lapkus can't make it through a song
 	* 2016.tarrytown,5:00
 	* 2016.tarrytown,14:23

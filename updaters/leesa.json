@@ -18,9 +18,9 @@
     "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Nick Kroll,Weird Al Yankovic,Jason Mantzoukas",
     "id_wikia": null,
     "holding": "false"
-}
+  }
 
-{
+  {
     "episode": "http://howl.fm/audio/41272/april-30-los-angeles-the-theater-at-ace-hotel",
     "show": "cbb",
     "tstart": "12:13",
@@ -40,9 +40,9 @@
     "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Nick Kroll,Weird Al Yankovic,Jason Mantzoukas",
     "id_wikia": null,
     "holding": "false"
-}
+  }
 
-{
+  {
     "episode": "http://howl.fm/audio/41286/may-6-toronto-convocation-hall",
     "show": "cbb",
     "tstart": "27:09",
@@ -62,9 +62,9 @@
     "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Tim Baltz,Kristian Bruun",
     "id_wikia": null,
     "holding": "false"
-}
+  }
 
-{
+  {
     "episode": "http://howl.fm/audio/41287/may-7-boston-wilbur-theatre-10-pm",
     "show": "cbb",
     "tstart": "57:15",
@@ -84,9 +84,9 @@
     "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Neil Campbell",
     "id_wikia": null,
     "holding": "false"
-}
+  }
 
-{
+  {
     "episode": "http://howl.fm/audio/41291/may-8-philadelphia-keswick-theatre",
     "show": "cbb",
     "tstart": "28:16",
@@ -106,9 +106,9 @@
     "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Michelle Biloon",
     "id_wikia": null,
     "holding": "false"
-}
+  }
 
-{
+  {
     "episode": "http://howl.fm/audio/41301/may-9-washington-dc-the-lincoln-theatre",
     "show": "cbb",
     "tstart": "10:22",
@@ -128,9 +128,9 @@
     "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Neil Campbell",
     "id_wikia": null,
     "holding": "false"
-}
+  }
 
-{
+  {
     "episode": "http://howl.fm/audio/41307/may-11-atlanta-the-tabernacle-atlanta",
     "show": "cbb",
     "tstart": "7:45",
@@ -150,9 +150,9 @@
     "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
-}
+  }
 
-{
+  {
     "episode": "http://howl.fm/audio/41307/may-11-atlanta-the-tabernacle-atlanta",
     "show": "cbb",
     "tstart": "31:00",
@@ -172,9 +172,9 @@
     "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
-}
+  }
 
-{
+  {
     "episode": "http://howl.fm/audio/41307/may-11-atlanta-the-tabernacle-atlanta",
     "show": "cbb",
     "tstart": "43:27",
@@ -194,9 +194,9 @@
     "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
-}
+  }
 
-{
+  {
     "episode": "http://howl.fm/audio/41308/may-13-nyc-gramercy-theatre-7-pm",
     "show": "cbb",
     "tstart": "58:35",
@@ -216,9 +216,9 @@
     "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Rogue Wave",
     "id_wikia": null,
     "holding": "false"
-}
+  }
 
-{
+  {
     "episode": "http://howl.fm/audio/41309/may-13-nyc-gramercy-theatre-9-30-pm",
     "show": "cbb",
     "tstart": "1:07:09",
@@ -238,9 +238,9 @@
     "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Neil Campbell,Fran Gillespie",
     "id_wikia": null,
     "holding": "false"
-}
+  }
 
-{
+  {
     "episode": "http://howl.fm/audio/41310/may-14-nyc-gramercy-theatre-7-pm",
     "show": "cbb",
     "tstart": "40:32",
@@ -260,70 +260,92 @@
     "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
     "id_wikia": null,
     "holding": "false"
-}
+  }
 
-{
-  "episode": "http://howl.fm/audio/41311/may-14-nyc-gramercy-theatre-9-30-pm",
-  "show": "cbb",
-  "tstart": "11:45",
-  "tend": "12:00",
-  "instance": "What, is it just a cardboard box and you sit inside it and do your little talk show?",
-  "bit": "???",
-  "elucidation": "someone (typically Lapkus) prompts a Leesa spot",
-  "tags": "Regina Crimp",
-  "location_type": "",
-  "location_id": "",
-  "updated_at": "2016-06-10T11:51:29Z",
-  "url_soundcloud": "",
-  "created_at": "2016-06-10T11:51:29Z",
-  "slug_soundcloud": "",
-  "slug_earwolf": "",
-  "episode_title": "May 14 - NYC, Gramercy Theatre (9:30 pm)",
-  "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Neil Campbell",
-  "id_wikia": null,
-  "holding": "false"
-}
+  {
+    "episode": "http://howl.fm/audio/41311/may-14-nyc-gramercy-theatre-9-30-pm",
+    "show": "cbb",
+    "tstart": "11:45",
+    "tend": "12:00",
+    "instance": "What, is it just a cardboard box and you sit inside it and do your little talk show?",
+    "bit": "???",
+    "elucidation": "someone (typically Lapkus) prompts a Leesa spot",
+    "tags": "Regina Crimp",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-06-10T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2016-06-10T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 14 - NYC, Gramercy Theatre (9:30 pm)",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Neil Campbell",
+    "id_wikia": null,
+    "holding": "false"
+  }
 
-{
-  "episode": "http://howl.fm/audio/41311/may-14-nyc-gramercy-theatre-9-30-pm",
-  "show": "cbb",
-  "tstart": "1:07:39",
-  "tend": "1;07:45",
-  "instance": "But, yeah, I landed on a pile of Leesa mattresses...",
-  "bit": "???",
-  "elucidation": "someone (typically Lapkus) prompts a Leesa spot",
-  "tags": "Regina Crimp,Maxwell Keeper",
-  "location_type": "",
-  "location_id": "",
-  "updated_at": "2016-06-10T11:51:29Z",
-  "url_soundcloud": "",
-  "created_at": "2016-06-10T11:51:29Z",
-  "slug_soundcloud": "",
-  "slug_earwolf": "",
-  "episode_title": "May 14 - NYC, Gramercy Theatre (9:30 pm)",
-  "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Neil Campbell",
-  "id_wikia": null,
-  "holding": "false"
-}
+  {
+    "episode": "http://howl.fm/audio/41311/may-14-nyc-gramercy-theatre-9-30-pm",
+    "show": "cbb",
+    "tstart": "1:07:39",
+    "tend": "1;07:45",
+    "instance": "But, yeah, I landed on a pile of Leesa mattresses...",
+    "bit": "???",
+    "elucidation": "someone (typically Lapkus) prompts a Leesa spot",
+    "tags": "Regina Crimp,Maxwell Keeper",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-06-10T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2016-06-10T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 14 - NYC, Gramercy Theatre (9:30 pm)",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Neil Campbell",
+    "id_wikia": null,
+    "holding": "false"
+  }
 
-{
-  "episode": "http://howl.fm/audio/41311/may-14-nyc-gramercy-theatre-9-30-pm",
-  "show": "cbb",
-  "tstart": "42:51",
-  "tend": "43:04",
-  "instance": "I think that's gauche...",
-  "bit": "???",
-  "elucidation": "someone (typically Lapkus) prompts a Leesa spot",
-  "tags": "Regina Crimp,Sam Elliott",
-  "location_type": "",
-  "location_id": "",
-  "updated_at": "2016-06-10T11:51:29Z",
-  "url_soundcloud": "",
-  "created_at": "2016-06-10T11:51:29Z",
-  "slug_soundcloud": "",
-  "slug_earwolf": "",
-  "episode_title": "May 14 - NYC, Gramercy Theatre (9:30 pm)",
-  "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Neil Campbell",
-  "id_wikia": null,
-  "holding": "false"
-}
+  {
+    "episode": "http://howl.fm/audio/41311/may-14-nyc-gramercy-theatre-9-30-pm",
+    "show": "cbb",
+    "tstart": "42:51",
+    "tend": "43:04",
+    "instance": "I think that's gauche...",
+    "bit": "???",
+    "elucidation": "someone (typically Lapkus) prompts a Leesa spot",
+    "tags": "Regina Crimp,Sam Elliott",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-06-10T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2016-06-10T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 14 - NYC, Gramercy Theatre (9:30 pm)",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Neil Campbell",
+    "id_wikia": null,
+    "holding": "false"
+  }
+
+  {
+    "episode": "http://howl.fm/audio/41313/may-15-nyc-gramercy-theatre-7-pm",
+    "show": "cbb",
+    "tstart": "1:06:19",
+    "tend": "1:06:30",
+    "instance": "I know I'm gonna sleep well tonight.",
+    "bit": "???",
+    "elucidation": "someone (typically Lapkus) prompts a Leesa spot",
+    "tags": "Cal Solomon,Harmony Moongloss,Fourvel",
+    "location_type": "line",
+    "location_id": "101",
+    "updated_at": "2016-05-18T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2016-05-18T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 15 - NYC, Gramercy Theatre (7 pm)",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Bobby Moynihan",
+    "id_wikia": null,
+    "holding": "false"
+  }
