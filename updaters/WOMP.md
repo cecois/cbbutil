@@ -247,6 +247,7 @@
 * 2016.nyc0515.930,1:22:30,walking on the sun (smashmouth)
 * 2016.dallas,35:00,[transgender] magic (ELO)
 * 2016.minneapolis,4:45,something to talk about (bonnie raitt)
+* 2016.minneapolis,45:50,under pressure (queen)
 * 2016.minneapolis,10:00,i don't care (icona pop)
 * 423,3:00,last christmas (wham?)
 * 423,10:00,hello again (neil diamond)
@@ -358,4 +359,6 @@
 * 2016.nyc0514930pm,27:47,i don't care (icona pop)
 * 2016.nyc0514930pm,29:45,take me to church (hozier)
 * 2016.nyc0515930pm,1:09:45,kryptonite (3 doors down)
-* 
+* 2016.austin,49:00,bang bang (a. grande)
+* 2016.minneapolis,10:00,i don't care (icona pop)
+* 2016.minneapolis,24:20,piano man (billy joel)

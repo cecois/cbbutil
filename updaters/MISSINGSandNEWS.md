@@ -18,11 +18,15 @@
 	* 2016.atl,53:04
 	* 2016.nyc0513930,33:50
 	* 2016.nyc05157pm,31:02
+	* 2016.dallas,39:05
+	* 2016.austin,36:30
+	* 2016.minneapolis,45:00
 * fu, howl subscribers
 	* 2016.losangeles,52:02
 	* 2016.losangeles,28:45
 	* 2016.losangeles,1:23:00
 	* 2016.nc,42:14
+	* 2016.dallas,40:00
 * asked and answered
 	* countless
 	* 2016.seattle,1:22:00
@@ -45,27 +49,32 @@
 	* 2016.portland10,39:00
 	* 2016.portland10,43:45
 	* 2016.portland10,46:00
+	* 2016.minneapolis,47:00
+	* 2016.minneapolis,47:45
+	* 2016.minneapolis,1:02:50
 * world record holders
 	* some early tour stop
 	* 2016.denver,46:30
 * Indiana Jones/Raiders
-	* basically every 2016 tour stop
 	* 2016.toronto,1:02:00
 	* end of portland7
 	* 2016.portland10,9:25
 	* 2016.philly,1:28:00
 	* 2016.nyc05147pm,50:00
 	* 2016.nyc0515930pm,05:30
+	* 2016.chicago7pm,08:05
 * PJ
 	* basically every 2016 tour stop
 	* 2016.tarrytown,1:20:40
 	* 2016.oakland,54:45
 	* 2016.portland10,24:45
 	* 2016.nyc05157pm,1:05:45
+	* 2016.austin,54:54
 * \#1 with a bullet
 	* 2016.denver,10:00
 	* 2016.toronto,41:00
 	* 289,10:15
+	* 2016.dallas,33:40
 * "fantastic"
 	* 2016.losangeles,1:04:17
 	* 2016.losangeles,1:09:30
@@ -110,8 +119,15 @@
 	* 2016.nyc0515930pm,51:13
 	* 2016.nyc0515930pm,51:20
 	* 2016.nyc0515930pm,1:05:29
+	* 2016.dallas,1:16:00
+	* 2016.austin,32:11
+	* 2016.austin,35:15
+	* 2016.austin,36:30
+	* 2016.chicago730pm,11:38
+	* 2016.chicago730pm,17:28
 * lapkus can't make it through a song
 	* 2016.tarrytown,5:00
+	* 2016.tarrytown,4:46
 	* 2016.tarrytown,14:23
 	* 2016.tarrytown,40:39
 	* 2016.tarrytown,41:10
@@ -139,14 +155,17 @@
 	* 2016.minneapolis,1:04:42
 	* 2016.denver,1:39:45
 	* 425,1:00:15
+	* 2016.austin,22:00
+	* 2016.austin,53:00
+	* 2016.minneapolis,59:07
+	* 2016.minneapolis,1:04:42
 * am i doing it?
 	* 2016.austin,1:13:50
 	* 423,42:19,one thousand gigawatts
+	* 2016.austin,1:13:38
 * ice t's love of non-standard air travel
 	* that time he wz in the met life blimp
 	* 51,24:00
-* regina crimp doesn't make it through her song
-	* tarrytown 2016,4:46
 * i have time for x more
 	* 412,1:13:47,2 more
 * len wiseman's self description (good looking guy etc.)
@@ -310,6 +329,7 @@
 	* 2016.oakland,34:00
 	* 2016.seattle,1:06:20
 	* 2016.vancouver,1:15:00
+	* 2016.austin,1:15:30
 * i ain't down with (into) that g** shi*
 	* http://howl.fm/audio/26138/live-from-nyc-2014-part-1,46:00
 	* 215,20:34
@@ -375,4 +395,7 @@
 	* 427,1:30
 * certainly
 	* 2016.dallas,16:50
-	
+* all I ask in return (mike)
+	* 2016.dallas,37:40	
+* classic joke structure
+	* 2016.austin,18:10
