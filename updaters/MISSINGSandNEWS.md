@@ -105,6 +105,11 @@
 	* 2016.nyc05157pm,02:55
 	* 2016.nyc05157pm,21:27
 	* 2016.nyc05157pm,52:57
+	* 2016.nyc0515930pm,26:15
+	* 2016.nyc0515930pm,49:36
+	* 2016.nyc0515930pm,51:13
+	* 2016.nyc0515930pm,51:20
+	* 2016.nyc0515930pm,1:05:29
 * lapkus can't make it through a song
 	* 2016.tarrytown,5:00
 	* 2016.tarrytown,14:23
@@ -368,3 +373,6 @@
 	* 2016.nyc930,1:03:30
 * dads and grads
 	* 427,1:30
+* certainly
+	* 2016.dallas,16:50
+	
