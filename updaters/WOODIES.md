@@ -182,3 +182,4 @@
 * 425,34:20,i also noticed you have a big, fat asshole
 * 59,44:30,you mean the story of how you were molested as a child that caused you to do that?
 * 2016.boston10pm,12:17,do you feel as if i'm being a real goofball right now?
+* 2016.chicago730pm,20:30,it seems you don't have a firm grasp on the story of goldilocks, either
