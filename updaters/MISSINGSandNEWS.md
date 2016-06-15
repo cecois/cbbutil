@@ -8,14 +8,22 @@
 	* 2016.boston10pm,1:07:28
 	* 2016.chicago10,37:45
 	* 2016.chicago10,52:40
-	* 2016.chicago730,33:21
-	* 2016.chicago730,40:21
+	* 2016.chicago10,26:00
+	* 2016.chicago10,34:58
+	* 2016.chicago10,37:33
+	* 2016.chicago10,52:37
+	* 2016.chicago730pm,33:21
+	* 2016.chicago730pm,40:21
 	* 2016.chicago730pm,11:38
 	* 2016.chicago730pm,17:28
+	* 2016.chicago730pm,52:08
 	* 2016.dallas,1:16:00
 	* 2016.dc,25:20
+	* 2016.detroit,4:37
 	* 2016.detroit,25:57
-	* 2016.detroit,35:13
+	* 2016.detroit,35:10
+	* 2016.detroit,50:38
+	* 2016.detroit,53:35
 	* 2016.losangeles,1:04:17
 	* 2016.losangeles,1:09:30
 	* 2016.nc,33:25
@@ -53,11 +61,12 @@
 	* 57,8:00
 * literally nowhere else to go
 	* 2016.dallas,39:00
+	* 2016.detroit,53:35
 	* 2016.austin,36:30
 	* 2016.minneapolis,45:00
 	* 2016.chicago730,33:00
 	* 2016.chicago730,57:00
-	* 2016.chicago10,37:45
+	* 2016.chicago10,37:43
 	* 2016.denver,44:45
 	* 2016.oakland,34:00
 	* 2016.oakland,1:04:00
@@ -80,10 +89,12 @@
 	* 2016.losangeles,1:23:00
 	* 2016.nc,42:14
 	* 2016.dallas,40:00
+	* 2016.denver,1:18:50
 * asked and answered
 	* countless
 	* 2016.seattle,1:22:00
 	* 2016.losangeles,1:09:00
+	* 2016.chicago10,35:00
 * german germany cannibalism
 	* 59,42:45 (inaugural)
 * asked and answered
@@ -123,6 +134,8 @@
 	* 2016.portland10,24:45
 	* 2016.nyc05157pm,1:05:45
 	* 2016.austin,54:54
+	* 2016.chicago10,42:00
+	* 2016.oakland,11:42
 * \#1 with a bullet
 	* 2016.denver,10:00
 	* 2016.toronto,41:00
@@ -137,6 +150,8 @@
 	* 2016.detroit,53:37
 	* 2016.tour,lots
 	* 2016.chicago10,47:30
+	* 2016.chicago10,47:00
+	* 2016.chicago7pm,1:22:18
 	* tarrytown 2016,4:46
 	* tarrytown.2016,51:55
 	* tarrytown.2016,56:00
@@ -246,7 +261,7 @@
 	* 406,54:50
 	* 2016.detroit,1:43:15
 	* 2016.oakland,11:00
-	* 2016.oakland,13:20
+	* 2016.oakland,13:00
 * fictional people - dead but reasonable
 	* san francisco 2012,23:00+
 	* seattle 2013,55:45
@@ -398,9 +413,16 @@
 	* 427,1:30
 * certainly
 	* 2016.dallas,16:50
+	* 2016.detroit,5:55
 * all I ask in return (mike)
 	* 2016.dallas,37:40	
 * classic joke structure
 	* 2016.austin,18:10
-* face/off
-	* 2016.minneapolis,30:50
+* face / off
+	* 2016.minneapolis,30:50 (not sure now)
+	* 2016.chicago7pm,30:55
+	* 2016.chicago10,54:50
+* i'm from new jersey
+	* 2016.detroit,18:10
+	* 2016.detroit,22:28
+	* 2016.detroit,38:20

@@ -459,3 +459,91 @@
     "id_wikia": null,
     "holding": "false"
   }
+
+  {
+    "episode": "http://howl.fm/audio/42016/may-20-chicago-athenaeum-theatre-7-pm",
+    "show": "cbb",
+    "tstart": "52:30",
+    "tend": "52:41",
+    "instance": "Do you know what we could use after that marathon session of love-making? A new bed.",
+    "bit": "???",
+    "elucidation": "someone (typically Lapkus) prompts a Leesa spot",
+    "tags": "Werner Herzog,Big Sue",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-06-15T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2016-06-15T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 20 - Chicago, Athenaeum Theatre (7 pm)",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
+    "id_wikia": null,
+    "holding": "false"
+  }
+
+  {
+   "episode": "http://howl.fm/audio/42017/may-20-chicago-athenaeum-theatre-10-pm",
+   "show": "cbb",
+   "tstart": "1:15:23",
+   "tend": "1:15:35",
+   "instance": "Like, what about the bedroom?",
+   "bit": "???",
+   "elucidation": "someone (typically Lapkus) prompts a Leesa spot",
+   "tags": "Whitney Peeps,Chesley Burnett Sullenberger,Calvin Redding",
+   "location_type": "",
+   "location_id": "",
+   "updated_at": "2016-06-15T11:51:29Z",
+   "url_soundcloud": "",
+   "created_at": "2016-06-15T11:51:29Z",
+   "slug_soundcloud": "",
+   "slug_earwolf": "",
+   "episode_title": "May 20 - Chicago, Athenaeum Theatre (10 pm)",
+   "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
+   "id_wikia": null,
+   "holding": "false"
+ }
+
+ {
+   "episode": "http://howl.fm/audio/42018/may-21-detroit-royal-oak-music-theatre",
+   "show": "cbb",
+   "tstart": "57:28",
+   "tend": "57:35",
+   "instance": "Not Leesa enough.",
+   "bit": "???",
+   "elucidation": "someone (typically Lapkus) prompts a Leesa spot",
+   "tags": "Dinky Liddle",
+   "location_type": "",
+   "location_id": "",
+   "updated_at": "2016-06-15T11:51:29Z",
+   "url_soundcloud": "",
+   "created_at": "2016-06-15T11:51:29Z",
+   "slug_soundcloud": "",
+   "slug_earwolf": "",
+   "episode_title": "May 21 - Detroit, Royal Oak Music Theatre",
+   "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
+   "id_wikia": null,
+   "holding": "false"
+ }
+
+ {
+  "episode": "http://howl.fm/audio/42026/may-22-denver-co-paramount-theatre",
+  "show": "cbb",
+  "tstart": "1:00:00",
+  "tend": "1:00:21",
+  "instance": "I live in a Dumpster but there's no trash in it.",
+  "bit": "???",
+  "elucidation": "someone (typically Lapkus) prompts a Leesa spot",
+  "tags": "Frank Dorito,Charles Dumpster,John Lennon",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2016-05-25T11:51:29Z",
+  "url_soundcloud": "",
+  "created_at": "2016-05-25T11:51:29Z",
+  "slug_soundcloud": "",
+  "slug_earwolf": "",
+  "episode_title": "May 22 - Denver CO, Paramount Theatre",
+  "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
+  "id_wikia": null,
+  "holding": "false"
+}
