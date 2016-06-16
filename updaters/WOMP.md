@@ -365,3 +365,4 @@
 * 2016.chicago7pm,55:50,i don't care (icona pop)
 * 2016.detroit,14:00,blurred lines (r. thicke)
 * 2016.detroit,47:35,blurred lines (r. thicke)
+* 2016.portland7,58:50,i love it (icona pop)
