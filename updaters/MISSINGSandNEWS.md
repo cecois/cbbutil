@@ -44,9 +44,11 @@
 	* 2016.nyc0515930pm,51:13
 	* 2016.nyc0515930pm,51:20
 	* 2016.portland10,15:50
-	* 2016.seattle,31:00
+	* 2016.seattle,31:14
 	* 2016.tarrytown,1:07:22
 	* 2016.toronto0506,39:30
+	* 2016.vancouver,34:04
+	* 2016.vancouver,34:09
 	* 425,1:12:00
 	* 425,1:12:20
 	* 425,1:13:00
@@ -72,8 +74,8 @@
 	* 2016.oakland,1:04:00
 	* 2016.portland7,30:00
 	* 2016.portland7,48:55
-	* 2016.portland10,21:00
-	* 2016.seattle,31:00
+	* 2016.portland10,21:15
+	* 2016.seattle,31:14
 	* 2016.vancouver,1:19:50 (honorary)
 	* 2016.nc,40:25
 	* 2016.atl,53:04
@@ -110,6 +112,11 @@
 	* 2016.seattle,1:23:25
 * suck my clit (pam frm big bear catchphrase)
 	* all 2016.tour stops w/ pamela
+	* 2016.portland10,23:09
+	* 2016.portland10,23:23
+	* 2016.portland10,23:29
+	* 2016.portland10,26:49
+	* 2016.portland10,30:10
 	* 2016.portland10,39:00
 	* 2016.portland10,43:45
 	* 2016.portland10,46:00
@@ -127,11 +134,13 @@
 	* 2016.nyc05147pm,50:00
 	* 2016.nyc0515930pm,05:30
 	* 2016.chicago7pm,08:05
+	* 2016.portland7,1:25:31
+	* 2016.portland10,9:20
 * PJ
 	* basically every 2016 tour stop
 	* 2016.tarrytown,1:20:40
 	* 2016.oakland,54:45
-	* 2016.portland10,24:45
+	* 2016.portland10,24:42
 	* 2016.nyc05157pm,1:05:45
 	* 2016.austin,54:54
 	* 2016.chicago10,42:00

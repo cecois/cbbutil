@@ -292,7 +292,7 @@
 * 2016.vancouver,46:00,i am the walrus (beatles)
 * 2016.vancouver,1:15:00,we dem boys (whiz kalifa)
 * 2016.vancouver,1:15:00,i don't care (icona pop)
-* 2016.vancouver,1:25:00,i don't care (icona pop)
+* 2016.vancouver,1:24:59,i don't care (icona pop)
 * 2016.vancouver,1:32:00,why don't you get a job (offspring)
 * 2016.vancouver,1:32:00,come out and play (offspring)
 * 2016.vancouver,1:32:00,keep em separated (offspring)
@@ -365,3 +365,4 @@
 * 2016.chicago7pm,55:50,i don't care (icona pop)
 * 2016.detroit,14:00,blurred lines (r. thicke)
 * 2016.detroit,47:35,blurred lines (r. thicke)
+* 2016.seattle,2:55,doin it (ll cool j)

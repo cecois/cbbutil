@@ -547,3 +547,47 @@
   "id_wikia": null,
   "holding": "false"
 }
+
+{
+ "episode": "http://howl.fm/audio/42032/may-24-portland-or-revolution-hall-10pm",
+ "show": "cbb",
+ "tstart": "39:35",
+ "tend": "39:57",
+ "instance": "My mattress got bedbugs.",
+ "bit": "???",
+ "elucidation": "someone (typically Lapkus) prompts a Leesa spot",
+ "tags": "Pamela from Big Bear,Andrew Lloyd Webber",
+ "location_type": "",
+ "location_id": "",
+ "updated_at": "2016-06-16T11:51:29Z",
+ "url_soundcloud": "",
+ "created_at": "2016-06-16T11:51:29Z",
+ "slug_soundcloud": "",
+ "slug_earwolf": "",
+ "episode_title": "May 24 - Portland OR, Revolution Hall (10pm)",
+ "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Tim Baltz",
+ "id_wikia": null,
+ "holding": "false"
+}
+
+{
+  "episode": "http://howl.fm/audio/42033/may-26-vancouver-vogue-theatre",
+  "show": "cbb",
+  "tstart": "1:50:58",
+  "tend": "1:51:07",
+  "instance": "I'll watch it from my bed.",
+  "bit": "???",
+  "elucidation": "someone (typically Lapkus) prompts a Leesa spot",
+  "tags": "Santa Claus,Ho Ho",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2016-06-16T11:51:29Z",
+  "url_soundcloud": "",
+  "created_at": "2016-06-16T11:51:29Z",
+  "slug_soundcloud": "",
+  "slug_earwolf": "",
+  "episode_title": "May 26 - Vancouver, Vogue Theatre",
+  "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford,Dan Mangan,Tim Baltz",
+  "id_wikia": null,
+  "holding": "false"
+}
