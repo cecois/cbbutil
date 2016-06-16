@@ -76,6 +76,9 @@
 	* 2016.portland7,48:55
 	* 2016.portland10,21:15
 	* 2016.seattle,31:14
+	* 2016.portland7,58:50
+	* 2016.portland10,21:00
+	* 2016.seattle,31:00
 	* 2016.vancouver,1:19:50 (honorary)
 	* 2016.nc,40:25
 	* 2016.atl,53:04
@@ -145,6 +148,7 @@
 	* 2016.austin,54:54
 	* 2016.chicago10,42:00
 	* 2016.oakland,11:42
+	* 2016.oakland,54:33
 * \#1 with a bullet
 	* 2016.denver,10:00
 	* 2016.toronto,41:00
@@ -271,6 +275,7 @@
 	* 2016.detroit,1:43:15
 	* 2016.oakland,11:00
 	* 2016.oakland,13:00
+	* 2016.oakland,54:33
 * fictional people - dead but reasonable
 	* san francisco 2012,23:00+
 	* seattle 2013,55:45
