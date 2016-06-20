@@ -226,7 +226,7 @@
 * 2016.nc,15:00,let's hear it for the boy
 * (82||161),??,on and on (stephen bishop)
 * 2016.atl,21:20,i don't care (icona pop)
-* 2016.??,??:??,i don't care (icona pop)=
+* 2016.??,??:??,i don't care (icona pop)
 * 2016.atl,28:45,girl u know it's true (milli)
 * 2016.atl,54:30,bitches ain't shit but hos and tricks
 * 2016.nyc930,31:45,who could it be? (men at work?)
@@ -369,3 +369,10 @@
 * 2016.portland7,58:50,i love it (icona pop)
 * 428,52:55,for your eyes only (james bond - ??)
 * 428,1:20:20,rapture (blondie)
+* 429,9:22,all star (smashmouth)
+* 429,10:30,steal my sunshine (len ?)
+* 429,15:50,under pressure (queen)
+* 429,21:00,under pressure (queen)
+* 429,28:00,this is how we do it (montel jordan)
+* 429,41:10,i don't care (icona pop)
+* 429,1:37:30,this is how we do it (montel jordan)
