@@ -621,8 +621,8 @@
   "tstart": "47:30",
   "tend": "47:54",
   "instance": "What kind of mattress was on his race car bed?",
-  "bit": "Location",
-  "elucidation": "identifiable earth location",
+  "bit": "???",
+  "elucidation": "someone (typically Lapkus) prompts a Leesa spot",
   "created_at": "2016-06-16T11:51:29Z",
   "updated_at": "2016-06-16T11:51:29Z",
   "url_soundcloud": "",
@@ -637,4 +637,28 @@
   "holding": "false",
   "episode_title": "May 24 - Portland OR, Revolution Hall (7pm)",
   "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Tim Baltz"
+}
+
+{
+  "episode" : "http://howl.fm/audio/42033/may-26-vancouver-vogue-theatre",
+  "show" : "cbb",
+  "tstart" : "1:08:26",
+  "tend" : "1:08:52",
+  "instance" : "I'll watch it from my bed.",
+  "bit": "???",
+  "elucidation": "someone (typically Lapkus) prompts a Leesa spot",
+  "created_at" : "2016-06-16T11:51:29Z",
+  "updated_at" : "2016-06-16T11:51:29Z",
+  "url_soundcloud" : "",
+  "tagarray" : "",
+  "tags" : "Ho Ho,Santa Claus",
+  "tagarray_og" : "",
+  "slug_soundcloud" : "",
+  "location_type" : "",
+  "location_id" : "",
+  "slug_earwolf" : "",
+  "id_wikia" : "",
+  "holding" : "false",
+  "episode_title" : "May 26 - Vancouver, Vogue Theatre",
+  "episode_guests" : "Lauren Lapkus,Paul F. Tompkins,Mike Hanford,Dan Mangan,Tim Baltz"
 }

@@ -1,99 +1,8 @@
 # possible new bits: 
 * "fantastic"
-	* 428,41:09
- 	* 428,13:43
-	* 428,15:38
-	* 428,27:18
-	* 428,33:55
-	* 428,38:31
-	* 2016.atl,1:00:30
-	* 2016.austin,32:11
-	* 2016.austin,35:15
-	* 2016.austin,36:30
-	* 2016.boston10pm,18:20
-	* 2016.boston10pm,1:07:28
-	* 2016.chicago10,37:45
-	* 2016.chicago10,52:40
-	* 2016.chicago10,26:00
-	* 2016.chicago10,34:58
-	* 2016.chicago10,37:33
-	* 2016.chicago10,52:37
-	* 2016.chicago730pm,33:21
-	* 2016.chicago730pm,40:21
-	* 2016.chicago730pm,11:38
-	* 2016.chicago730pm,17:28
-	* 2016.chicago730pm,52:08
-	* 2016.dallas,1:16:00
-	* 2016.dc,25:20
-	* 2016.detroit,4:37
-	* 2016.detroit,25:57
-	* 2016.detroit,35:10
-	* 2016.detroit,50:38
-	* 2016.detroit,53:35
-	* 2016.losangeles,1:04:17
-	* 2016.losangeles,1:09:30
-	* 2016.nc,33:25
-	* 2016.nc,43:40
-	* 2016.nyc0513930,33:30
-	* 2016.nyc0513930,43:45
-	* 2016.nyc0513930,47:45
-	* 2016.nyc05147pm,35:15
-	* 2016.nyc05147pm,35:45
-	* 2016.nyc05147pm,43:37
-	* 2016.nyc0514930pm,1:13:30
-	* 2016.nyc05157pm,02:55
-	* 2016.nyc05157pm,21:27
-	* 2016.nyc05157pm,52:57
-	* 2016.nyc0515930pm,1:05:29
-	* 2016.nyc0515930pm,26:15
-	* 2016.nyc0515930pm,49:36
-	* 2016.nyc0515930pm,51:13
-	* 2016.nyc0515930pm,51:20
-	* 2016.portland10,15:50
-	* 2016.seattle,31:14
-	* 2016.tarrytown,1:07:22
-	* 2016.toronto0506,39:30
-	* 2016.vancouver,34:04
-	* 2016.vancouver,34:09
-	* 425,1:12:00
-	* 425,1:12:20
-	* 425,1:13:00
-	* 427,1:11:36
-	* 427,28:17
-	* 427,29:20
-	* 427,34:30
-	* 427,40:50
-	* 427,4:10
-	* 52,41:45
-	* 55,1:42
-	* 57,8:00
+	* see [cbb-fantastic.json](/Users/ccmiller/Desktop/cbb/updaters/cbb-fantastic.json)
 * literally nowhere else to go
-	* 2016.dallas,39:00
-	* 2016.detroit,53:35
-	* 2016.austin,36:30
-	* 2016.minneapolis,45:00
-	* 2016.chicago730,33:00
-	* 2016.chicago730,57:00
-	* 2016.chicago10,37:43
-	* 2016.denver,44:45
-	* 2016.oakland,34:00
-	* 2016.oakland,1:04:00
-	* 2016.portland7,30:00
-	* 2016.portland7,48:55
-	* 2016.portland10,21:15
-	* 2016.seattle,31:14
-	* 2016.portland7,58:50
-	* 2016.portland10,21:00
-	* 2016.seattle,31:00
-	* 2016.vancouver,1:19:50 (honorary)
-	* 2016.nc,40:25
-	* 2016.atl,53:04
-	* 2016.nyc0513930,33:50
-	* 2016.nyc05157pm,31:02
-	* 2016.dallas,39:05
-	* 2016.austin,36:30
-	* 2016.minneapolis,45:00
-	* 2016.chicago730,33:21
+	* see [cbb-literally.json](/Users/ccmiller/Desktop/cbb/updaters/cbb-literally.json)
 * fu, howl subscribers
 	* 2016.losangeles,52:02
 	* 2016.losangeles,28:45
@@ -103,9 +12,6 @@
 	* 2016.denver,1:18:50
 * asked and answered
 	* countless
-	* 2016.seattle,1:22:00
-	* 2016.losangeles,1:09:00
-	* 2016.chicago10,35:00
 * german germany cannibalism
 	* 59,42:45 (inaugural)
 * asked and answered
@@ -113,6 +19,9 @@
 	* 2016.seattle,1:22:00
 	* 2016.toronto0506,1:28:00
 	* 2016.toronto,8:45
+	* 2016.seattle,1:22:00
+	* 2016.losangeles,1:09:00
+	* 2016.chicago10,35:00
 * pft has time for x more questions
 	* 59,12:00
 	* 2016.nyc05147pm,1:01:00

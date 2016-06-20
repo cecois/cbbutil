@@ -41,3 +41,91 @@
 	"id_wikia": null,
 	"holding": "false"
 }
+
+{
+	"episode": 428,
+	"show": "cbb",
+	"tstart": "45:48",
+	"tend": "46:12",
+	"instance": "Her dad, he knows about bleedin' if anybody.",
+	"bit":"Location",
+	"elucidation":"identifiable earth location",
+	"tags": "Margie Donk",
+	"location_type": "point",
+	"location_id": "649",
+	"updated_at": "2016-06-18T11:51:29Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/428-rhys-darby-mary-holland-londale-theus-jr/#t=45:48",
+	"created_at": "2016-06-18T11:51:29Z",
+	"slug_soundcloud": "428-rhys-darby-mary-holland-londale-theus-jr",
+	"slug_earwolf": "get-donkd",
+	"episode_title": "Get Donk’d",
+	"episode_guests": "Rhys Darby, Mary Holland, Londale Theus Jr.",
+	"id_wikia": null,
+	"holding": "false"
+}
+
+{
+	"episode": 428,
+	"show": "cbb",
+	"tstart": "1:04:00",
+	"tend": "1:04:20",
+	"instance": "Do you do squats?",
+	"bit":"Not That Kind of a Show",
+        "elucidation":"cbb gets a little blue",
+	"tags": "Margie Donk,Reggie Tote",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-06-18T11:51:29Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/428-rhys-darby-mary-holland-londale-theus-jr/#t=1:04:00",
+	"created_at": "2016-06-18T11:51:29Z",
+	"slug_soundcloud": "428-rhys-darby-mary-holland-londale-theus-jr",
+	"slug_earwolf": "get-donkd",
+	"episode_title": "Get Donk’d",
+	"episode_guests": "Rhys Darby, Mary Holland, Londale Theus Jr.",
+	"id_wikia": null,
+	"holding": "false"
+}
+
+{
+	"episode": 428,
+	"show": "cbb",
+	"tstart": "1:06:20",
+	"tend": "1:06:25",
+	"instance": "Are you a trainer to the stars (seekingstars)?",
+	"bit":"Cactus Something",
+        "elucidation":"a superclass of inter-episode callbacks/forwards and/or character cross-pollenization or canon-building",
+	"tags": "Margie Donk,Reggie Tote,Chip Gardner",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-06-18T11:51:29Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/428-rhys-darby-mary-holland-londale-theus-jr/#t=1:06:20",
+	"created_at": "2016-06-18T11:51:29Z",
+	"slug_soundcloud": "428-rhys-darby-mary-holland-londale-theus-jr",
+	"slug_earwolf": "get-donkd",
+	"episode_title": "Get Donk’d",
+	"episode_guests": "Rhys Darby, Mary Holland, Londale Theus Jr.",
+	"id_wikia": null,
+	"holding": "false"
+}
+
+{
+	"episode": 428,
+	"show": "cbb",
+	"tstart": "1:24:27",
+	"tend": "1:24:44",
+	"instance": "Over the course of this show I did start to get a little worried.",
+	"bit":"Location",
+        "elucidation":"identifiable earth location",
+	"tags": "Margie Donk,Reggie Tote,Chip Gardner",
+	"location_type": "poly",
+	"location_id": "323",
+	"updated_at": "2016-06-18T11:51:29Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/428-rhys-darby-mary-holland-londale-theus-jr/#t=1:24:27",
+	"created_at": "2016-06-18T11:51:29Z",
+	"slug_soundcloud": "428-rhys-darby-mary-holland-londale-theus-jr",
+	"slug_earwolf": "get-donkd",
+	"episode_title": "Get Donk’d",
+	"episode_guests": "Rhys Darby, Mary Holland, Londale Theus Jr.",
+	"id_wikia": null,
+	"holding": "false"
+}
