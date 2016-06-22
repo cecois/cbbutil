@@ -30,18 +30,7 @@
 	* all 2016.tour stops
 	* 2016.seattle,1:23:25
 * suck my clit (pam frm big bear catchphrase)
-	* all 2016.tour stops w/ pamela
-	* 2016.portland10,23:09
-	* 2016.portland10,23:23
-	* 2016.portland10,23:29
-	* 2016.portland10,26:49
-	* 2016.portland10,30:10
-	* 2016.portland10,39:00
-	* 2016.portland10,43:45
-	* 2016.portland10,46:00
-	* 2016.minneapolis,47:00
-	* 2016.minneapolis,47:45
-	* 2016.minneapolis,1:02:50
+	* see [cbb-smc.json](/Users/ccmiller/Desktop/cbb/updaters/cbb-smc.json)
 * world record holders
 	* some early tour stop
 	* 2016.denver,46:30
