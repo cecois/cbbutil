@@ -10,8 +10,8 @@
 	* 2016.nc,42:14
 	* 2016.dallas,40:00
 	* 2016.denver,1:18:50
-* asked and answered
-	* countless
+* unwanted heimlich maneuvers
+	* http://howl.fm/audio/42018/may-21-detroit-royal-oak-music-theatre,37:30
 * german germany cannibalism
 	* 59,42:45 (inaugural)
 	* 429,1:17:42
