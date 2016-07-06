@@ -1452,3 +1452,111 @@
 	"id_wikia": null,
 	"holding": "false"
 }
+
+{
+	"episode": 432,
+	"show": "cbb",
+	"tstart": "20:00",
+	"tend": "20:07",
+	"instance": "If you can get to the 5th question you know it can be great.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-07-05T11:51:29Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/432-dana-carvey-john-gemberling-drew-tarver/#t=20:00",
+	"created_at": "2016-07-05T11:51:29Z",
+	"slug_soundcloud": "432-dana-carvey-john-gemberling-drew-tarver",
+	"slug_earwolf": "dana-carvey-micro-impressions",
+	"episode_title": "Dana Carvey’s Micro-Impressions",
+	"episode_guests": "Dana Carvey, John Gemberling, Drew Tarver",
+	"id_wikia": null,
+	"holding": "false"
+}
+
+{
+	"episode": 432,
+	"show": "cbb",
+	"tstart": "24:24",
+	"tend": "24:27",
+	"instance": "They're fun, right? Microimpressions.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-07-05T11:51:29Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/432-dana-carvey-john-gemberling-drew-tarver/#t=24:24",
+	"created_at": "2016-07-05T11:51:29Z",
+	"slug_soundcloud": "432-dana-carvey-john-gemberling-drew-tarver",
+	"slug_earwolf": "dana-carvey-micro-impressions",
+	"episode_title": "Dana Carvey’s Micro-Impressions",
+	"episode_guests": "Dana Carvey, John Gemberling, Drew Tarver",
+	"id_wikia": null,
+	"holding": "false"
+}
+
+{
+	"episode": 432,
+	"show": "cbb",
+	"tstart": "45:31",
+	"tend": "45:44",
+	"instance": "Owen Wilson tells a toddler they can't have a new toy.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"tags": "Owen Wilson",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-07-05T11:51:29Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/432-dana-carvey-john-gemberling-drew-tarver/#t=45:31",
+	"created_at": "2016-07-05T11:51:29Z",
+	"slug_soundcloud": "432-dana-carvey-john-gemberling-drew-tarver",
+	"slug_earwolf": "dana-carvey-micro-impressions",
+	"episode_title": "Dana Carvey’s Micro-Impressions",
+	"episode_guests": "Dana Carvey, John Gemberling, Drew Tarver",
+	"id_wikia": null,
+	"holding": "false"
+}
+
+{
+	"episode": 60,
+	"tstart": "1:04:25",
+	"tend": "1:04:29",
+	"slug_earwolf": "now-hiring-interns",
+	"instance": "I'm doing an hour.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"tags": "",
+	"created_at": "2016-07-06T10:51:29Z",
+	"updated_at": "2016-07-06T10:51:29Z",
+	"episode_title": "Now Hiring Interns!",
+	"guests": "Donald Glover,Brendon Walsh,Jessica St. Clair",
+	"slug_soundcloud": "http://soundcloud.com/comedybangbang/now-hiring-interns/#t=1:04:25",
+	"location_type": "",
+	"location_id": "",
+	"holding": "false",
+	"id_wikia": "2643",
+}
+
+{
+	"episode": 64,
+	"show": "cbb",
+	"tstart": "17:58",
+	"tend": "18:14",
+	"instance": "Do you think that whenever Calista Flockhart makes him some chicken and she asks him how it is, he says 'chewy'?",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-07-06T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/harrison-ford-approved/#t=17:58",
+	"tags": "Merrill Shindler",
+	"created_at": "2016-07-06T10:51:29Z",
+	"slug_soundcloud": "harrison-ford-approved",
+	"slug_earwolf": "harrison-ford-approved",
+	"episode_title": "Harrison Ford Approved",
+	"episode_guests": "Sarah Silverman,Mary Lynn Rajskub,James Adomian",
+	"id_wikia": 2677,
+	"holding": "false"
+}

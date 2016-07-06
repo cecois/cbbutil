@@ -47,7 +47,7 @@
 "tstart":"1:52:40",
 "bit":"I Don't Care"}
 {"episode":"2016.dc",
-"tstart":"50:45", 
+"tstart":"50:45",
 "tags":"inaugural",
 "bit":"I Don't Care"}
 {"episode":"2016.atl",
@@ -73,4 +73,10 @@
 "bit":"I Don't Care"}
 {"episode":429,
 "tstart":"41:10",
+"bit":"I Don't Care"}
+{"episode":432,
+"tstart":"1:10:10",
+"bit":"I Don't Care"}
+{"episode":432,
+"tstart":"1:16:20",
 "bit":"I Don't Care"}
