@@ -1560,3 +1560,91 @@
 	"id_wikia": 2677,
 	"holding": "false"
 }
+
+{
+	"episode": 64,
+	"show": "cbb",
+	"tstart": "1:07:32",
+	"tend": "1:07:49",
+	"instance": "It's phase 1 of the website.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-07-06T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/harrison-ford-approved/#t=1:07:32",
+	"tags": "Merrill Shindler",
+	"created_at": "2016-07-06T10:51:29Z",
+	"slug_soundcloud": "harrison-ford-approved",
+	"slug_earwolf": "harrison-ford-approved",
+	"episode_title": "Harrison Ford Approved",
+	"episode_guests": "Sarah Silverman,Mary Lynn Rajskub,James Adomian",
+	"id_wikia": 2677,
+	"holding": "false"
+}
+
+{
+	"episode": 65,
+	"show": "cbb",
+	"tstart": "29:30",
+	"tend": "29:40",
+	"instance": "We will hopefully hook you if you hear one.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-07-07T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/welcome-to-earwolf/#t=29:30",
+	"tags": "Bob Ducca",
+	"created_at": "2016-07-07T10:51:29Z",
+	"slug_soundcloud": "welcome-to-earwolf",
+	"slug_earwolf": "welcome-to-earwolf",
+	"episode_title": "Welcome to Earwolf!",
+	"episode_guests": "Jason Sklar,Randy Sklar,Seth Morris",
+	"id_wikia": 2382,
+	"holding": "false"
+}
+
+{
+	"episode": 67,
+	"show": "cbb",
+	"tstart": "1:37",
+	"tend": "1:44",
+	"instance": "Comedian Paul F. Tompkins will be here.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-07-08T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/what-happens-in-vegas/#t=1:37",
+	"tags": "",
+	"created_at": "2016-07-08T10:51:29Z",
+	"slug_soundcloud": "what-happens-in-vegas",
+	"slug_earwolf": "what-happens-in-vegas",
+	"episode_title": "What Happens In Vegas",
+	"episode_guests": "Rob Corddry,Lake Bell,Paul F. Tompkins",
+	"id_wikia": 2697,
+	"holding": "false"
+}
+
+{
+	"episode": 67,
+	"show": "cbb",
+	"tstart": "8:55",
+	"tend": "9:03",
+	"instance": "It was a great, fantastic, show.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-07-08T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/what-happens-in-vegas/#t=8:55",
+	"tags": "",
+	"created_at": "2016-07-08T10:51:29Z",
+	"slug_soundcloud": "what-happens-in-vegas",
+	"slug_earwolf": "what-happens-in-vegas",
+	"episode_title": "What Happens In Vegas",
+	"episode_guests": "Rob Corddry,Lake Bell,Paul F. Tompkins",
+	"id_wikia": 2697,
+	"holding": "false"
+}
