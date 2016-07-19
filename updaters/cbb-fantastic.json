@@ -1648,3 +1648,47 @@
 	"id_wikia": 2697,
 	"holding": "false"
 }
+
+{
+	"episode": 433,
+	"show": "cbb",
+	"tstart": "1:21:00",
+	"tend": "1:21:08",
+	"instance": "My website is aparnacomedy.com and it has the full schedule on there.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"tags": "Ming",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-07-18T11:51:29Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/433-aparna-nancherla-jeremy-rowley-ryan-gaul/#t=1:21:00",
+	"created_at": "2016-07-18T11:51:29Z",
+	"slug_soundcloud": "433-aparna-nancherla-jeremy-rowley-ryan-gaul",
+	"slug_earwolf": "government-pizza",
+	"episode_title": "Government Pizza",
+	"episode_guests": "Aparna Nancherla, Jeremy Rowley, Ryan Gaul",
+	"id_wikia": null,
+	"holding": "false"
+}
+
+{
+	"episode": 434,
+	"show": "cbb",
+	"tstart": "1:21:06",
+	"tend": "1:21:16",
+	"instance": "I can recommend Erin Witehead's Twitter, '@GirlWithaTail.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"tags": "Patty Pecker",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-07-18T11:51:29Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/434-brent-weinbach-brendon-small-erin-whitehead/#t=1:21:06",
+	"created_at": "2016-07-18T11:51:29Z",
+	"slug_soundcloud": "434-brent-weinbach-brendon-small-erin-whitehead",
+	"slug_earwolf": "doubt-about-that",
+	"episode_title": "Doubt About That",
+	"episode_guests": "Brent Weinbach, Brendon Small, Erin Whitehead",
+	"id_wikia": null,
+	"holding": "false"
+}
