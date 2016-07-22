@@ -89,7 +89,7 @@
   "show": "cbb",
   "tstart": "30:48",
   "tend": "31:02",
-  "instance": "A lot of people, they say 'you\'re in the ballpark' - um, isn't it a good thing to be out of the ballpark?",
+  "instance": "A lot of people, they say 'youre in the ballpark' - um, isn't it a good thing to be out of the ballpark?",
   "bit":"Scott's Questions",
   "elucidation":"(in progress) - scott's questions",
   "tags": "Ming",
@@ -191,6 +191,8 @@
   "slug_earwolf": "doubt-about-that",
   "episode_title": "Doubt About That",
   "episode_guests": "Brent Weinbach, Brendon Small, Erin Whitehead",
+  "id_wikia": null,
+  "holding": "false"
 }
 
 {
