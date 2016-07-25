@@ -329,3 +329,91 @@
     "id_wikia": 2697,
     "holding": "false"
 }
+
+{
+    "episode": 67,
+    "show": "cbb",
+    "tstart": "21:54",
+    "tend": "22:05",
+    "instance": "You know I work with these jidgrools at their place and they're always messing up.",
+    "bit": "Marone!",
+    "elucidation": "any italian expletive",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-07-19T10:51:29Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/what-happens-in-vegas/#t=21:54",
+    "tags": "",
+    "created_at": "2016-07-19T10:51:29Z",
+    "slug_soundcloud": "what-happens-in-vegas",
+    "slug_earwolf": "what-happens-in-vegas",
+    "episode_title": "What Happens In Vegas",
+    "episode_guests": "Rob Corddry,Lake Bell,Paul F. Tompkins",
+    "id_wikia": 2697,
+    "holding": "false"
+}
+
+{
+    "episode": 67,
+    "show": "cbb",
+    "tstart": "22:08",
+    "tend": "22:15",
+    "instance": "And I'm like 'c\'mon, you jackamopes, you gotta get on the stick.'",
+    "bit": "Marone!",
+    "elucidation": "any italian expletive",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-07-19T10:51:29Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/what-happens-in-vegas/#t=22:08",
+    "tags": "",
+    "created_at": "2016-07-19T10:51:29Z",
+    "slug_soundcloud": "what-happens-in-vegas",
+    "slug_earwolf": "what-happens-in-vegas",
+    "episode_title": "What Happens In Vegas",
+    "episode_guests": "Rob Corddry,Lake Bell,Paul F. Tompkins",
+    "id_wikia": 2697,
+    "holding": "false"
+}
+
+{
+    "episode": 67,
+    "show": "cbb",
+    "tstart": "1:10:24",
+    "tend": "1:10:38",
+    "instance": "Well, I'm just gonna be making cakes.",
+    "bit":"Highly Unorthodox",
+    "elucidation":"somebody (pft) bucks protocol and cedes their plug time",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-07-19T10:51:29Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/what-happens-in-vegas/#t=1:10:24",
+    "tags": "Cake Boss",
+    "created_at": "2016-07-19T10:51:29Z",
+    "slug_soundcloud": "what-happens-in-vegas",
+    "slug_earwolf": "what-happens-in-vegas",
+    "episode_title": "What Happens In Vegas",
+    "episode_guests": "Rob Corddry,Lake Bell,Paul F. Tompkins",
+    "id_wikia": 2697,
+    "holding": "false"
+}
+
+{
+    "episode": 67,
+    "show": "cbb",
+    "tstart": "1:12:40",
+    "tend": "1:12:45",
+    "instance": "Thank you so much, Buddy, for being here.",
+    "bit": "Cake Boss!",
+    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-07-19T10:51:29Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/what-happens-in-vegas/#t=1:12:40",
+    "tags": "Cake Boss",
+    "created_at": "2016-07-19T10:51:29Z",
+    "slug_soundcloud": "what-happens-in-vegas",
+    "slug_earwolf": "what-happens-in-vegas",
+    "episode_title": "What Happens In Vegas",
+    "episode_guests": "Rob Corddry,Lake Bell,Paul F. Tompkins",
+    "id_wikia": 2697,
+    "holding": "false"
+}

@@ -188,6 +188,7 @@
 	* 2016.nyc05147pm,59:30,church lady
 	* 2016.chicago730,17:20
 	* 2016.detroit,40:50
+	* 67,32:00 (inaugural)
 * huell turns into a crowbot
 	* 29,51:48
 	* howl.fm in DC,36:00
@@ -351,3 +352,4 @@
 	* 2016.detroit,18:10
 	* 2016.detroit,22:28
 	* 2016.detroit,38:20
+	* 67,20:00

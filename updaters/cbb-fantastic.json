@@ -1692,3 +1692,25 @@
 	"id_wikia": null,
 	"holding": "false"
 }
+
+{
+	"episode": 67,
+	"show": "cbb",
+	"tstart": "14:08",
+	"tend": "14:16",
+	"instance": "Off-microphone we spoke a little about the things to come up in the season.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-07-19T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/what-happens-in-vegas/#t=14:08",
+	"tags": "",
+	"created_at": "2016-07-19T10:51:29Z",
+	"slug_soundcloud": "what-happens-in-vegas",
+	"slug_earwolf": "what-happens-in-vegas",
+	"episode_title": "What Happens In Vegas",
+	"episode_guests": "Rob Corddry,Lake Bell,Paul F. Tompkins",
+	"id_wikia": 2697,
+	"holding": "false"
+}
