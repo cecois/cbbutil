@@ -112,6 +112,7 @@
 	* every other wiseman appearance *10
 	* 2016.oakland,35:28
 	* 2016.oakland,36:50
+	* 2016.tour.bo.1,41:13
 * serial podcast
 	* 417,16:00
 	* 427,54:30
