@@ -18,7 +18,7 @@
 * 003,3:25,man on the moon - R.E.M.
 * 215,1:08:47,johnny b. goode
 * 003,8:07,vaseline - STP
-* 003,19:45,breakin my stride - matthew wilder
+* 003,19:45,breakin  my stride - matthew wilder
 * 007,3:15,raised on radio - journey
 * 378,25:00,don't believe the hype - public enemy
 * 378,25:49,we didn't start the fire - billy joel
@@ -360,3 +360,5 @@
 * 435,1:25:20,american woman (the guess who?)
 * 433,13:10,pour some sugar on me (def leppard)
 * 67,1:04:40,kiss me on the (?) (soulja boy)
+* 2016.tour.bo.1,16:30,i have a feeling (black eyed peas)
+* 2016.tour.bo.1,16:30,milf$ (fergie)
