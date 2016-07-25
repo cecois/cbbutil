@@ -1692,3 +1692,24 @@
 	"id_wikia": null,
 	"holding": "false"
 }
+
+{    "episode": "http://howl.fm/audio/42827/cbb-2016-tour-best-of-pt-1",
+"show": "cbb",
+"tstart": "16:50",
+"tend": "17:08",
+"instance": "Can we talk about 'Milf$,' by the way?",
+"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+"tags": "Fergie,Kim Kardashian",
+"location_type": "",
+"location_id": "",
+"updated_at": "2016-07-24T11:51:29Z",
+"url_soundcloud": "",
+"created_at": "2016-07-24T11:51:29Z",
+"slug_soundcloud": "",
+"slug_earwolf": "",
+"episode_title": "CBB 2016 Tour Best Of Pt. 1",
+"episode_guests": "Paul F. Tompkins, Lauren Lapkis, Neill Campbell",
+"id_wikia": null,
+"holding": "false"
+}
