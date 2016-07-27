@@ -375,3 +375,6 @@
 * live-from-comic-con-2016,23:45,woke up like this (beyonce)
 * live-from-comic-con-2016,40:00,downeaster alexa (b. joel)
 * live-from-comic-con-2016,43:30,beat it (m. jackson)
+* 70,10:00,puttin on the ritz (taco)
+* 70,?:?:?,trees (rush)
+* 70,1:28:45,limelight (rush)

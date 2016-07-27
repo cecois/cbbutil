@@ -27,6 +27,7 @@
 * pft has time for x more questions
 	* 59,12:00
 	* 2016.nyc05147pm,1:01:00
+	* 70,36:45
 * icona pop
 	* all 2016.tour stops
 	* 2016.seattle,1:23:25
@@ -138,6 +139,7 @@
 	* 51,39:30
 	* 2016.dc,whole time basically
 	* 425,kroll does schrift/daemon/fabrice/stallone/chupa/mrs. doubtfire/bill maher/creaky gate/faizon
+	* 71,kroll does chupa/vinnie/other
 * rounds of catchphrase
 * all the cities of the country
 	* 404,16:00
