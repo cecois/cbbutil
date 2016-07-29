@@ -1736,3 +1736,247 @@
 "id_wikia": null,
 "holding": "false"
 }
+
+{
+
+	"episode": 71,
+	"show": "cbb",
+	"tstart": "37:00",
+	"tend": "37:08",
+	"instance": "Wow, that's fantastic, guys.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-07-27T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/comedy-death-scott/#t=37:00",
+	"tags": "",
+	"created_at": "2016-07-27T10:51:29Z",
+	"slug_soundcloud": "comedy-death-scott",
+	"slug_earwolf": "comedy-death-scott",
+	"episode_title": "Comedy Death Scott",
+	"episode_guests": "Nick Kroll,Paul Scheer",
+	"id_wikia": 2713,
+	"holding": "false"
+}
+
+{
+
+	"episode": 71,
+	"show": "cbb",
+	"tstart": "38:54",
+	"tend": "39:05",
+	"instance": "HeHateMe is gonna be on the show this year.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-07-27T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/comedy-death-scott/#t=38:54",
+	"tags": "HeHateMe",
+	"created_at": "2016-07-27T10:51:29Z",
+	"slug_soundcloud": "comedy-death-scott",
+	"slug_earwolf": "comedy-death-scott",
+	"episode_title": "Comedy Death Scott",
+	"episode_guests": "Nick Kroll,Paul Scheer",
+	"id_wikia": 2713,
+	"holding": "false"
+}
+
+{
+	"episode": 72,
+	"show": "cbb",
+	"tstart": "0:53",
+	"tend": "1:03",
+	"instance": "Working with Brian Eno, boy.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2015-07-29T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/history-in-the-making/#t=0:53",
+	"tags": "",
+	"created_at": "2015-07-29T10:51:29Z",
+	"slug_soundcloud": "history-in-the-making",
+	"slug_earwolf": "history-in-the-making",
+	"episode_title": "History in the Making",
+	"episode_guests": "Andy Dick,Janeane Garofalo,James Adomian",
+	"id_wikia": 2715,
+	"holding": "false"
+}
+
+{
+	"episode": 72,
+	"show": "cbb",
+	"tstart": "18:34",
+	"tend": "18:40",
+	"instance": "It's fantastic to have you back.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2015-07-29T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/history-in-the-making/#t=18:34",
+	"tags": "",
+	"created_at": "2015-07-29T10:51:29Z",
+	"slug_soundcloud": "history-in-the-making",
+	"slug_earwolf": "history-in-the-making",
+	"episode_title": "History in the Making",
+	"episode_guests": "Andy Dick,Janeane Garofalo,James Adomian",
+	"id_wikia": 2715,
+	"holding": "false"
+}
+
+{
+	"episode": 72,
+	"show": "cbb",
+	"tstart": "31:55",
+	"tend": "32:10",
+	"instance": "I'm not playing the Great Dane, that's for goddamn sure.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2015-07-29T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/history-in-the-making/#t=31:55",
+	"tags": "Paul Giamatti,Marmaduke (film)",
+	"created_at": "2015-07-29T10:51:29Z",
+	"slug_soundcloud": "history-in-the-making",
+	"slug_earwolf": "history-in-the-making",
+	"episode_title": "History in the Making",
+	"episode_guests": "Andy Dick,Janeane Garofalo,James Adomian",
+	"id_wikia": 2715,
+	"holding": "false"
+}
+
+{
+	"episode": 72,
+	"show": "cbb",
+	"tstart": "34:32",
+	"tend": "34:39",
+	"instance": "I had no idea that's why he was banging the shoe.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2015-07-29T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/history-in-the-making/#t=34:32",
+	"tags": "Paul Giamatti,Nikita Khrushchev",
+	"created_at": "2015-07-29T10:51:29Z",
+	"slug_soundcloud": "history-in-the-making",
+	"slug_earwolf": "history-in-the-making",
+	"episode_title": "History in the Making",
+	"episode_guests": "Andy Dick,Janeane Garofalo,James Adomian",
+	"id_wikia": 2715,
+	"holding": "false"
+}
+
+{
+	"episode": 72,
+	"show": "cbb",
+	"tstart": "1:04:04",
+	"tend": "1:04:08",
+	"instance": "It was a fantastic, uh, success.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2015-07-29T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/history-in-the-making/#t=1:04:04",
+	"tags": "",
+	"created_at": "2015-07-29T10:51:29Z",
+	"slug_soundcloud": "history-in-the-making",
+	"slug_earwolf": "history-in-the-making",
+	"episode_title": "History in the Making",
+	"episode_guests": "Andy Dick,Janeane Garofalo,James Adomian",
+	"id_wikia": 2715,
+	"holding": "false"
+}
+
+{
+	"episode": 72,
+	"show": "cbb",
+	"tstart": "1:07:04",
+	"tend": "1:07:09",
+	"instance": "This football movie, I'm the lead.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2015-07-29T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/history-in-the-making/#t=1:07:04",
+	"tags": "",
+	"created_at": "2015-07-29T10:51:29Z",
+	"slug_soundcloud": "history-in-the-making",
+	"slug_earwolf": "history-in-the-making",
+	"episode_title": "History in the Making",
+	"episode_guests": "Andy Dick,Janeane Garofalo,James Adomian",
+	"id_wikia": 2715,
+	"holding": "false"
+}
+
+{
+	"episode": 73,
+	"show": "cbb",
+	"tstart": "36:45",
+	"tend": "37:00",
+	"instance": "Comedy Death Ray t-shirts.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-07-29T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/featuring-betty-white/#t=36:45",
+	"tags": "Bill Cosby Bukowski",
+	"created_at": "2016-07-29T10:51:29Z",
+	"slug_soundcloud": "featuring-betty-white",
+	"slug_earwolf": "featuring-betty-white",
+	"episode_title": "Featuring Betty White!",
+	"episode_guests": "Nick Swardson,Jon Daly",
+	"id_wikia": 2717,
+	"holding": "false"
+}
+
+{
+	"episode": 73,
+	"show": "cbb",
+	"tstart": "1:13:50",
+	"tend": "1:14:00",
+	"instance": "How long did it take you to do that? Don't answer.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-07-29T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/featuring-betty-white/#t=1:13:50",
+	"tags": "Bill Cosby Bukowski",
+	"created_at": "2016-07-29T10:51:29Z",
+	"slug_soundcloud": "featuring-betty-white",
+	"slug_earwolf": "featuring-betty-white",
+	"episode_title": "Featuring Betty White!",
+	"episode_guests": "Nick Swardson,Jon Daly",
+	"id_wikia": 2717,
+	"holding": "false"
+}
+
+{
+	"episode": 73,
+	"show": "cbb",
+	"tstart": "1:14:36",
+	"tend": "1:14:41",
+	"instance": "We've seen some of that material at Comedy Death Ray recently...",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-07-29T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/featuring-betty-white/#t=1:14:36",
+	"tags": "Bill Cosby Bukowski",
+	"created_at": "2016-07-29T10:51:29Z",
+	"slug_soundcloud": "featuring-betty-white",
+	"slug_earwolf": "featuring-betty-white",
+	"episode_title": "Featuring Betty White!",
+	"episode_guests": "Nick Swardson,Jon Daly",
+	"id_wikia": 2717,
+	"holding": "false"
+}

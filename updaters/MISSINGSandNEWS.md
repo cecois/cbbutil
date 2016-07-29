@@ -140,6 +140,7 @@
 	* 2016.dc,whole time basically
 	* 425,kroll does schrift/daemon/fabrice/stallone/chupa/mrs. doubtfire/bill maher/creaky gate/faizon
 	* 71,kroll does chupa/vinnie/other
+	* 73,1:17:00,swardson does his brother nad betty white
 * rounds of catchphrase
 * all the cities of the country
 	* 404,16:00
@@ -199,6 +200,7 @@
 	* bo2009,38:00
 	* bo2009,1:01:15
 	* bo2009,1:25:00
+	* 72,1:00:00
 * it's good now
 	* BO2015.2,1:41:00
 	* 400,17:45
@@ -229,6 +231,7 @@
 	* 2016.denver,05:10
 	* 429,28:30
 	* 433,13:32
+	* 2016.tour.bo.2,10:20
 * ball droid - bb8
 	* 349,15:00
 	* bo2015.2,58:30
