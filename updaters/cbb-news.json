@@ -596,3 +596,136 @@
     "id_wikia": 2713,
     "holding": "false"
 }
+
+{
+
+    "episode": 71,
+    "show": "cbb",
+    "tstart": "1:30:50",
+    "tend": "1:04:02",
+    "instance": "I'm so glad I decided to eat all that ecstacy that was inside of the booth.",
+    "bit":"Why Did I Eat That Peyote Button?",
+    "elucidation":"somebody (usually pft or a pft character) confesses to getting high before the show",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-07-27T10:51:29Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/comedy-death-scott/#t=1:30:50",
+    "tags": "El Chupacabra,Goat",
+    "created_at": "2016-07-27T10:51:29Z",
+    "slug_soundcloud": "comedy-death-scott",
+    "slug_earwolf": "comedy-death-scott",
+    "episode_title": "Comedy Death Scott",
+    "episode_guests": "Nick Kroll,Paul Scheer",
+    "id_wikia": 2713,
+    "holding": "false"
+}
+
+{
+    "episode": 73,
+    "show": "cbb",
+    "tstart": "27:37",
+    "tend": "27:48",
+    "instance": "And then I'll go to Toronto.",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "location_type": "point",
+    "location_id": "655",
+    "updated_at": "2016-07-29T10:51:29Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/featuring-betty-white/#t=27:37",
+    "tags": "Bill Cosby Bukowski",
+    "created_at": "2016-07-29T10:51:29Z",
+    "slug_soundcloud": "featuring-betty-white",
+    "slug_earwolf": "featuring-betty-white",
+    "episode_title": "Featuring Betty White!",
+    "episode_guests": "Nick Swardson,Jon Daly",
+    "id_wikia": 2717,
+    "holding": "false"
+}
+
+{
+    "episode": 73,
+    "show": "cbb",
+    "tstart": "32:26",
+    "tend": "32:40",
+    "instance": "This show occasionally gets blue but that is just inappropriate for the listener.",
+    "bit":"Not That Kind of a Show",
+    "elucidation":"cbb gets a little blue",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-07-29T10:51:29Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/featuring-betty-white/#t=32:26",
+    "tags": "Bill Cosby Bukowski",
+    "created_at": "2016-07-29T10:51:29Z",
+    "slug_soundcloud": "featuring-betty-white",
+    "slug_earwolf": "featuring-betty-white",
+    "episode_title": "Featuring Betty White!",
+    "episode_guests": "Nick Swardson,Jon Daly",
+    "id_wikia": 2717,
+    "holding": "false"
+}
+
+{
+    "episode": 73,
+    "show": "cbb",
+    "tstart": "1:03:24",
+    "tend": "1:03:33",
+    "instance": "And those are live horns from The Magic Castle, right?",
+    "bit":"Opening Fanfare",
+    "elucidation":"somebody guesses at the origin of the wyr theme",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-07-29T10:51:29Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/featuring-betty-white/#t=1:03:24",
+    "tags": "Bill Cosby Bukowski",
+    "created_at": "2016-07-29T10:51:29Z",
+    "slug_soundcloud": "featuring-betty-white",
+    "slug_earwolf": "featuring-betty-white",
+    "episode_title": "Featuring Betty White!",
+    "episode_guests": "Nick Swardson,Jon Daly",
+    "id_wikia": 2717,
+    "holding": "false"
+}
+
+{
+    "episode": 73,
+    "show": "cbb",
+    "tstart": "1:05:05",
+    "tend": "1:05:16 ",
+    "instance": "I have not answered Jon – er, uh...",
+    "bit":"Who's Paul?",
+    "elucidation":"a character is referred to by the name/pronoun of their player",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-07-29T10:51:29Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/featuring-betty-white/#t=1:05:05",
+    "tags": "Bill Cosby Bukowski",
+    "created_at": "2016-07-29T10:51:29Z",
+    "slug_soundcloud": "featuring-betty-white",
+    "slug_earwolf": "featuring-betty-white",
+    "episode_title": "Featuring Betty White!",
+    "episode_guests": "Nick Swardson,Jon Daly",
+    "id_wikia": 2717,
+    "holding": "false"
+}
+
+{
+    "episode": 73,
+    "show": "cbb",
+    "tstart": "1:16:15",
+    "tend": "1:16:36 ",
+    "instance": "That's probably last week.",
+    "bit":"Verisimilitude",
+    "elucidation":"some conceit of the show is abused, broken, or exposed",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-07-29T10:51:29Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/featuring-betty-white/#t=1:16:15",
+    "tags": "Bill Cosby Bukowski",
+    "created_at": "2016-07-29T10:51:29Z",
+    "slug_soundcloud": "featuring-betty-white",
+    "slug_earwolf": "featuring-betty-white",
+    "episode_title": "Featuring Betty White!",
+    "episode_guests": "Nick Swardson,Jon Daly",
+    "id_wikia": 2717,
+    "holding": "false"
+}
