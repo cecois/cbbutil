@@ -10,13 +10,12 @@ if (isset($argv[1])) {
 
 // $hardep = "408";
 // $incoming = "/Users/ccmiller/Desktop/cbb/updaters/cbb-live-json.json";
-$incoming = "/Users/ccmiller/Desktop/cbb/updaters/cbb-" . $which . "-json.json";
+$incoming = "/home/ccmiller/git/cbbutil/updaters/cbb-" . $which . "-json.json";
 // $incoming = "/Users/ch23936/git/cbbutil/updaters/cbb-" . $which . "-json.json";
-
 // $BITS = array();
 // $EPS = array();
 $BITEPS = array();
-$allowed = ['bit', 'episode'];
+$allowed = array('bit', 'episode');
 
 try {
 
@@ -81,7 +80,8 @@ foreach ($BITEPS as $key => $value) {
 if (count($uniqeps) > 1) {
 	$UE = " episodes " . implode(", ", array_flip($uniqeps));
 } else {
-	$UE = " episode " . array_keys($uniqeps)[0];
+	$uep = array_keys($uniqeps);
+	$UE = " episode " . $uep[0];
 }
 
 $dump = "<p>" .
