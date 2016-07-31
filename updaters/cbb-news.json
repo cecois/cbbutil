@@ -15,7 +15,7 @@
     "location_type": "",
     "location_id": "",
     "holding": "false",
-    "id_wikia": "2643",
+    "id_wikia": "2643"
 }
 
 {
@@ -35,7 +35,7 @@
     "location_type": "",
     "location_id": "",
     "holding": "false",
-    "id_wikia": "2643",
+    "id_wikia": "2643"
 }
 
 {
@@ -55,7 +55,7 @@
     "location_type": "",
     "location_id": "",
     "holding": "false",
-    "id_wikia": "2643",
+    "id_wikia": "2643"
 }
 
 {
@@ -75,7 +75,7 @@
     "tend": "38:08",
     "location_type": "",
     "location_id": "",
-    "holding": "false",
+    "holding": "false"
 }
 
 {
@@ -95,7 +95,7 @@
     "tend": "47:58",
     "location_type": "",
     "location_id": "",
-    "holding": "false",
+    "holding": "false"
 }
 
 {
@@ -115,7 +115,7 @@
     "tend": "39:06",
     "location_type": "",
     "location_id": "",
-    "holding": "false",
+    "holding": "false"
 }
 
 {
@@ -135,7 +135,7 @@
     "tend": "15:21",
     "location_type": "",
     "location_id": "",
-    "holding": "false",
+    "holding": "false"
 }
 
 {
@@ -155,7 +155,7 @@
     "tend": "32:18",
     "location_type": "poly",
     "location_id": "327",
-    "holding": "false",
+    "holding": "false"
 }
 
 {
@@ -175,7 +175,7 @@
     "tend": "36:30",
     "location_type": "",
     "location_id": "",
-    "holding": "false",
+    "holding": "false"
 }
 
 {
@@ -195,7 +195,7 @@
     "tend": "57:57",
     "location_type": "",
     "location_id": "",
-    "holding": "false",
+    "holding": "false"
 }
 
 {
@@ -357,7 +357,7 @@
     "show": "cbb",
     "tstart": "22:08",
     "tend": "22:15",
-    "instance": "And I'm like 'c\'mon, you jackamopes, you gotta get on the stick.'",
+    "instance": "And I'm like 'cmon, you jackamopes, you gotta get on the stick.'",
     "bit": "Marone!",
     "elucidation": "any italian expletive",
     "location_type": "",
@@ -691,7 +691,7 @@
     "show": "cbb",
     "tstart": "1:05:05",
     "tend": "1:05:16 ",
-    "instance": "I have not answered Jon – er, uh...",
+    "instance": "I have not answered Jon -- er, uh...",
     "bit":"Who's Paul?",
     "elucidation":"a character is referred to by the name/pronoun of their player",
     "location_type": "",
