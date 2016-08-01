@@ -200,6 +200,8 @@
 * 414,32:00,macarena
 * 414,32:13,bits and pieces - oingo boingo
 * 419,3:00,hey nineteen - paul hardcastle (also a billion other times)
+* 74,40:00,hey nineteen (paul hardcastle)
+* 74,40:00,nineteen (steely dan)
 * 419,4:20,ditto
 * 419,5:40,ditto
 * 419,15:00,ditto
@@ -397,3 +399,6 @@
 * 2016.tour.bo.2,58:20,shine a light (wolf parade)
 * 2016.tour.bo.2,1:15:20,you're beautiful (james blunt)
 * 2016.tour.bo.2,1:27:20,kiling me softly (roberta flack)
+* 74,8:30,in your eyes (peter gabriel)
+* 74,27:20,let's dance (david bowie)
+* 74,1:14:25,come on irene (dexie's midnight runners)

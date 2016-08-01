@@ -17,7 +17,7 @@
 * 180,39:45,a great silence envelopes the nation
 * 180,44:40,yeah that's what i know
 * 182,43:00,your name is Zazzoo!
-* 182,43:04-44:14,your name is zazzoo
+* 182,43:04-44:14,your name is zazzoo 
 * 185,59:10-1:00:56,Scott does kulap
 * 191,19:35,horses in bathrooms (foam)
 * 200,1:23:38,off a girl who has no idea what’s going on +++
@@ -184,3 +184,4 @@
 * 2016.boston10pm,12:17,do you feel as if i'm being a real goofball right now?
 * 2016.chicago730pm,20:30,it seems you don't have a firm grasp on the story of goldilocks, either
 * 2016.vancouver,1:47:00,do it have a pussy? (that's you)
+* 74,11:30,take out her eyes
