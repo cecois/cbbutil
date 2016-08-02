@@ -30,6 +30,7 @@
 * 208,51:15,just a lady fucking a horse ++++++
 * 215,20:35-20:50,i ain't down with that gay shit
 * 215,21:30-21:55,maybe in the darkest of africa
+* 76.1,35:45,the bally jungles of africa
 * 215,21:30,the darkest of africa
 * 215,25:03,i'm not down with that gay shit
 * 215,25:05-25:16,i ain't down with that gay shit
@@ -185,3 +186,5 @@
 * 2016.chicago730pm,20:30,it seems you don't have a firm grasp on the story of goldilocks, either
 * 2016.vancouver,1:47:00,do it have a pussy? (that's you)
 * 74,11:30,take out her eyes
+* 76.1,1:07:00,what are some of the cats that you like?
+* 76.2,39:30,turned into a red foxx party album
