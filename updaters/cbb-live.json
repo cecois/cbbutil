@@ -1,4 +1,4 @@
-{
+z{
 	"episode": "http://howl.fm/audio/42881/live-from-montreal-2016",
 	"show": "cbb",
 	"tstart": "5:47",
@@ -75,6 +75,28 @@
 	"tags": "Gil Faizon,George St. Geegland",
 	"location_type": "point",
 	"location_id": "659",
+	"updated_at": "2016-08-01T11:51:29Z",
+	"url_soundcloud": "http://howl.fm/audio/42881/live-from-montreal-2016",
+	"created_at": "2016-08-01T11:51:29Z",
+	"slug_soundcloud": "",
+	"slug_earwolf": "",
+	"episode_title": "Live from Montreal 2016",
+	"episode_guests": "John Mulaney,Lauren Lapkus,Nick Kroll,Paul F. Tompkins",
+	"id_wikia": null,
+	"holding": "false"
+}
+
+{
+	"episode": "http://howl.fm/audio/42881/live-from-montreal-2016",
+	"show": "cbb",
+	"tstart": "1:10:14",
+	"tend": "1:10:21",
+	"instance": "God, the lack of regard you have for me.",
+	"bit":"Group Coupon",
+        "elucidation":"scott articulates obvious data (acronyms, abbreviations, etc.)",
+	"tags": "Gil Faizon,George St. Geegland",
+	"location_type": "",
+	"location_id": "",
 	"updated_at": "2016-08-01T11:51:29Z",
 	"url_soundcloud": "http://howl.fm/audio/42881/live-from-montreal-2016",
 	"created_at": "2016-08-01T11:51:29Z",
