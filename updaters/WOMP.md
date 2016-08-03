@@ -408,3 +408,6 @@
 * 76.1,41:50,brick house (the commodores)
 * 76.1,41:50,easy like sunday morninf (the commodores)
 * 77,36:00,ghostbusters (ray parker jr)
+* 78,3:00,parents just don't understand
+* 78,3:15,buttons (? - pussycat dolls)
+* 78,1:11:20,help myself (tom jones)

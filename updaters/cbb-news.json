@@ -240,3 +240,25 @@
 	"id_wikia": 2724,
 	"holding": "false"
 }
+
+{
+	"episode": 78,
+	"show": "cbb",
+	"tstart": "1:06:46",
+	"tend": "1:07:33",
+	"instance": "When I saw The Beatles for the first time...",
+	"bit": "Location",
+	"elucidation": "identifiable earth location",
+	"location_type": "point",
+	"location_id": 264,
+	"updated_at": "2016-08-03T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/poundin-puss-in-heaven/#t=1:06:46",
+	"tags": "Pastor Rhe Holner,John Lennon",
+	"created_at": "2016-08-03T10:51:29Z",
+	"slug_soundcloud": "poundin-puss-in-heaven",
+	"slug_earwolf": "poundin-puss-in-heaven",
+	"episode_title": "Poundin' Puss in Heaven",
+	"episode_guests": "Doug Benson,John Gemberling",
+	"id_wikia": 2729,
+	"holding": "false"
+}
