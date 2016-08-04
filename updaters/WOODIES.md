@@ -1,3 +1,25 @@
+### episodes
+78
+76.1
+76.2
+74
+72
+71
+62
+59
+55
+51.1
+44
+43
+40
+34
+31
+28
+24
+23
+15
+
+### instances
 * 035,35:00,the ibrain
 * 103,1:32:20,yeah scott u idiot
 * 103,1:37:20,i’m inside this fella (huell f. tompkins)

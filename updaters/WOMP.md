@@ -411,3 +411,10 @@
 * 78,3:00,parents just don't understand
 * 78,3:15,buttons (? - pussycat dolls)
 * 78,1:11:20,help myself (tom jones)
+* 80,4:22,you say hello (beatles)
+* 80,4:22,obladi (beatles)
+* 80,5:20,bullet the blue sky (u2)
+* 80,44:20,rock the bells (ll cool j)
+* 80,1:04:20,the stroke (billy squire)
+* 80,1:05:50,unforgettable fire (u2)
+* 80,1:33:35,like a bird (nelly furtado)

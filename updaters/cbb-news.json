@@ -262,3 +262,113 @@
 	"id_wikia": 2729,
 	"holding": "false"
 }
+
+{
+	"episode": 79,
+	"show": "cbb",
+	"tstart": "1:08:40",
+	"tend": "1:08:49",
+	"instance": "Well I did have a fake arm earlier but I got rid of it.",
+	"bit":"Time to Get Into That",
+	"elucidation":"scott wishes there was time to get into some topic - but there just isn't",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-08-04T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/whod-fuck-tom-brady/#t=1:08:40",
+	"tags": "Claire Woodruff",
+	"created_at": "2016-08-04T10:51:29Z",
+	"slug_soundcloud": "whod-fuck-tom-brady",
+	"slug_earwolf": "whod-fuck-tom-brady",
+	"episode_title": "Who'd Fuck Tom Brady?",
+	"episode_guests": "Eugene Mirman,Jackie Clarke,Mookie Blaiklock",
+	"id_wikia": 2732,
+	"holding": "false"
+}
+
+{
+	"episode": 80,
+	"show": "cbb",
+	"tstart": "32:15",
+	"tend": "32:44",
+	"instance": "We carpooled up here.",
+	"bit": "Location",
+	"elucidation": "identifiable earth location",
+	"location_type": "line",
+	"location_id": "108",
+	"updated_at": "2016-08-04T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/enigma-force-five-reunion/#t=32:15",
+	"tags": "Ice T,Jesse Ventura",
+	"created_at": "2016-08-04T10:51:29Z",
+	"slug_soundcloud": "enigma-force-five-reunion",
+	"slug_earwolf": "enigma-force-five-reunion",
+	"episode_title": "Enigma Force Five Reunion",
+	"episode_guests": "Adam Scott,Paul F. Tompkins,James Adomian",
+	"id_wikia": 2442,
+	"holding": "false"
+}
+
+{
+	"episode": 80,
+	"show": "cbb",
+	"tstart": "49:03",
+	"tend": "49:24",
+	"instance": "Ice T's Ultimate Family Cornucopia.",
+	"bit":"Ice T Causes Crib Death",
+	"elucidation":"ice t's new venture is dead in the water",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-08-04T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/enigma-force-five-reunion/#t=49:03",
+	"tags": "Ice T,Jesse Ventura",
+	"created_at": "2016-08-04T10:51:29Z",
+	"slug_soundcloud": "enigma-force-five-reunion",
+	"slug_earwolf": "enigma-force-five-reunion",
+	"episode_title": "Enigma Force Five Reunion",
+	"episode_guests": "Adam Scott,Paul F. Tompkins,James Adomian",
+	"id_wikia": 2442,
+	"holding": "false"
+}
+
+{
+	"episode": 80,
+	"show": "cbb",
+	"tstart": "1:04:33",
+	"tend": "1:04:43",
+	"instance": "Short for 'application.'",
+	"bit":"Group Coupon",
+	"elucidation":"scott articulates obvious data (acronyms, abbreviations, etc.)",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-08-04T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/enigma-force-five-reunion/#t=1:04:33",
+	"tags": "Ice T",
+	"created_at": "2016-08-04T10:51:29Z",
+	"slug_soundcloud": "enigma-force-five-reunion",
+	"slug_earwolf": "enigma-force-five-reunion",
+	"episode_title": "Enigma Force Five Reunion",
+	"episode_guests": "Adam Scott,Paul F. Tompkins,James Adomian",
+	"id_wikia": 2442,
+	"holding": "false"
+}
+
+{
+	"episode": 80,
+	"show": "cbb",
+	"tstart": "1:14:35",
+	"tend": "1:14:48",
+	"instance": "I pulled an Obi-Wan Kenobi on you.",
+	"bit":"Who?",
+	"elucidation":"somebody doesn't know who or what something famous is",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-08-04T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/enigma-force-five-reunion/#t=1:14:35",
+	"tags": "Ice T,Jesse Ventura,Obi-Wan Kenobi,Star Wars (film)",
+	"created_at": "2016-08-04T10:51:29Z",
+	"slug_soundcloud": "enigma-force-five-reunion",
+	"slug_earwolf": "enigma-force-five-reunion",
+	"episode_title": "Enigma Force Five Reunion",
+	"episode_guests": "Adam Scott,Paul F. Tompkins,James Adomian",
+	"id_wikia": 2442,
+	"holding": "false"
+}
