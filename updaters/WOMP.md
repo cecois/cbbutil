@@ -420,4 +420,11 @@
 * 80,1:33:35,like a bird (nelly furtado)
 * 2016.jflmontreal2016,46:50,birdland (weather report)
 * 2016.jflmontreal2016,46:50,meet the mets (??)
-
+* 2016.tour.bo.3,:25,what's going on? (4 non blondes)
+* 2016.tour.bo.3,5:00,pop muzik (m)
+* 2016.tour.bo.3,7:00,get off (prince)
+* 2016.tour.bo.3,9:50,rappers delight (sugar hill/blondie)
+* 2016.tour.bo.3,15:20,so ruff so tuff (zapp & roger)
+* 2016.tour.bo.3,26:45,and i am telling you (jhud)
+* 2016.tour.bo.3,29:00,i wanna be like you (jungle book)
+* 2016.tour.bo.3,1:30:10,tossed salad (frazier theme)
