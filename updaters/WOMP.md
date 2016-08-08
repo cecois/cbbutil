@@ -9,6 +9,7 @@
 * 2016.atl,28:45,girl u know it's true (milli)
 * 2016.atl,54:30,bitches ain't shit but hos and tricks
 * 2016.austin,49:00,bang bang (a. grande)
+* 2016.austin,18:00,hips don't like (shakira)
 * 2016.boston10pm,31:45,isn't it ironic - morrissette
 * 2016.chicago10,03:00,take me to church (hozier)
 * 2016.chicago10,04:00,cross eyed painless (talking heads)
@@ -428,3 +429,6 @@
 * live-from-comic-con-2016,23:45,woke up like this (beyonce)
 * live-from-comic-con-2016,40:00,downeaster alexa (b. joel)
 * live-from-comic-con-2016,43:30,beat it (m. jackson)
+* 438,2:45,grease lightning (grease)
+* 438,1:09:30,grease lightning (grease)
+* 438,1:11:11,dancing in the streets (jaggar/bowie)

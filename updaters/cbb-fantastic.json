@@ -2222,3 +2222,25 @@
 	"id_wikia": 2732,
 	"holding": "false"
 }
+
+{
+	"episode": 81,
+	"show": "cbb",
+	"tstart": "9:21",
+	"tend": "9:30",
+	"instance": "That is what is so fantastic about you as a comedian.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-08-08T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/todd-barry-vs-borders/#t=9:21",
+	"tags": " Leo Carnell,Dr. Nathan Morrow",
+	"created_at": "2016-08-08T10:51:29Z",
+	"slug_soundcloud": "todd-barry-vs-borders",
+	"slug_earwolf": "todd-barry-vs-borders",
+	"episode_title": "Todd Barry Vs. Borders",
+	"episode_guests": "Todd Barry,Neil Campbell,Paul Rust",
+	"id_wikia": 2735,
+	"holding": "false"
+}

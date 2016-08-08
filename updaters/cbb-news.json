@@ -372,3 +372,25 @@
 	"id_wikia": 2442,
 	"holding": "false"
 }
+
+{
+	"episode": 81,
+	"show": "cbb",
+	"tstart": "3:53",
+	"tend": "4:00",
+	"instance": "In screenwriters' parlance, cut to New York.",
+	"bit":"Smash Cut",
+	"elucidation":"scott directs someone's story",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-08-08T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/todd-barry-vs-borders/#t=3:53",
+	"tags": " Leo Carnell,Dr. Nathan Morrow",
+	"created_at": "2016-08-08T10:51:29Z",
+	"slug_soundcloud": "todd-barry-vs-borders",
+	"slug_earwolf": "todd-barry-vs-borders",
+	"episode_title": "Todd Barry Vs. Borders",
+	"episode_guests": "Todd Barry,Neil Campbell,Paul Rust",
+	"id_wikia": 2735,
+	"holding": "false"
+}
