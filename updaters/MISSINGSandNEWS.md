@@ -13,6 +13,8 @@
 	* 2016.tour.bo.1,15:30
 * unwanted heimlich maneuvers
 	* http://howl.fm/audio/42018/may-21-detroit-royal-oak-music-theatre,37:30
+* thanks, reggie
+	* almost every ep at least thru 82
 * german germany cannibalism
 	* 59,42:45 (inaugural)
 	* 429,1:17:42

@@ -432,3 +432,8 @@
 * 438,2:45,grease lightning (grease)
 * 438,1:09:30,grease lightning (grease)
 * 438,1:11:11,dancing in the streets (jaggar/bowie)
+* 82,59:00,say my name (destiny's child)
+* 82,1:00:00,walking w/ a ghost (tegan and sara)
+* 82,1:00:00,(down in jamaica they got...),(??)
+* 82,1:19:30,get it in (?),50 Cent
+* 82,1:24:30,dancing in the streets (jaggar/bowie)
