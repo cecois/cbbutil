@@ -394,3 +394,25 @@
 	"id_wikia": 2735,
 	"holding": "false"
 }
+
+{
+    "episode": "http://howl.fm/audio/42030/may-25-seattle-wa-moore-theatre",
+    "show": "cbb",
+    "tstart": "1:09:48",
+    "tend": "1:10:20",
+    "instance": "She went away to Pheasant Hill.",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "tags": "Garry Marshall,Carmela Pointe,Peter Finn,Maggie Wells",
+    "location_type": "point",
+    "location_id": "662",
+    "updated_at": "2016-08-08T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2016-08-08T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 25 - Seattle WA, Moore Theatre",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Tim Baltz,Mike Hanford",
+    "id_wikia": null,
+    "holding": "false"
+}
