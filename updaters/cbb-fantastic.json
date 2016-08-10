@@ -2244,3 +2244,25 @@
 	"id_wikia": 2735,
 	"holding": "false"
 }
+
+{
+	"episode": 82,
+	"show": "cbb",
+	"tstart": "1:31:58",
+	"tend": "1:32:04",
+	"instance": "December 2nd.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-08-09T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/dammit-that-was-a-hot-jam/#t=1:31:58",
+	"tags": "",
+	"created_at": "2016-08-09T10:51:29Z",
+	"slug_soundcloud": "dammit-that-was-a-hot-jam",
+	"slug_earwolf": "dammit-that-was-a-hot-jam",
+	"episode_title": "Dammit That Was a Hot Jam",
+	"episode_guests": "Kevin Nealon,Sarah Silverman,Tig Notaro,Jon Daly,Jerry Minor,Miles Archer",
+	"id_wikia": 2737,
+	"holding": "false"
+}
