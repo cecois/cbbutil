@@ -14,7 +14,8 @@
 * unwanted heimlich maneuvers
 	* http://howl.fm/audio/42018/may-21-detroit-royal-oak-music-theatre,37:30
 * thanks, reggie
-	* almost every ep at least thru 82
+	* almost every ep at least thru 84
+	* 84,2:30
 * german germany cannibalism
 	* 59,42:45 (inaugural)
 	* 429,1:17:42
@@ -139,6 +140,7 @@
 	* 32,53:00,brendon small does impressions
 	* 51,22:00+
 	* 51,39:30
+	* 85,4:00(+?),campbell does christmas characters
 	* 2016.dc,whole time basically
 	* 425,kroll does schrift/daemon/fabrice/stallone/chupa/mrs. doubtfire/bill maher/creaky gate/faizon
 	* 71,kroll does chupa/vinnie/other

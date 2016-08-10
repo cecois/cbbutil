@@ -570,3 +570,47 @@
 	"id_wikia": 2737,
 	"holding": "false"
 }
+
+{
+	"episode": 84,
+	"show": "cbb",
+	"tstart": "26:31",
+	"tend": "26:52",
+	"instance": "In what line of work are you a teamster?",
+	"bit": "Location",
+	"elucidation": "identifiable earth location",
+	"location_type": "point",
+	"location_id": "663",
+	"updated_at": "2015-10-16T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/impotent-teamsters-unite/#t=26:31",
+	"tags": "Teamster Tommy Malone",
+	"created_at": "2015-04-03T10:51:29Z",
+	"slug_soundcloud": "impotent-teamsters-unite",
+	"slug_earwolf": "impotent-teamsters-unite",
+	"episode_title": "Impotent Teamsters Unite",
+	"episode_guests": "Eddie Pepitone,Harris Wittels,Reggie Watts",
+	"id_wikia": 2741,
+	"holding": "false"
+}
+
+{
+	"episode": 84,
+	"show": "cbb",
+	"tstart": "1:03:38",
+	"tend": "1:03:51",
+	"instance": "Feel free to add to this, Reggie.",
+	"bit":"Rudimentary Drum Solos",
+	"elucidation":"scott performs a drum solo",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2015-10-16T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/impotent-teamsters-unite/#t=1:03:38",
+	"tags": "Teamster Tommy Malone",
+	"created_at": "2015-04-03T10:51:29Z",
+	"slug_soundcloud": "impotent-teamsters-unite",
+	"slug_earwolf": "impotent-teamsters-unite",
+	"episode_title": "Impotent Teamsters Unite",
+	"episode_guests": "Eddie Pepitone,Harris Wittels,Reggie Watts",
+	"id_wikia": 2741,
+	"holding": "false"
+}

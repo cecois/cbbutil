@@ -437,3 +437,5 @@
 * 82,1:00:00,(down in jamaica they got...),(??)
 * 82,1:19:30,get it in (?),50 Cent
 * 82,1:24:30,dancing in the streets (jaggar/bowie)
+* 84,6:00,unbelievable (EMF)
+* 84,41:39,dragonslayer (yes)
