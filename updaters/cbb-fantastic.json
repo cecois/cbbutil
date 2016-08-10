@@ -2266,3 +2266,69 @@
 	"id_wikia": 2737,
 	"holding": "false"
 }
+
+{
+	"episode": 83,
+	"show": "cbb",
+	"tstart": "11:57",
+	"tend": "12:09",
+	"instance": "Ben Garant...also appeared on the show.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-08-10T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/family-matters/#t=11:57",
+	"tags": "Bob Ducca",
+	"created_at": "2016-08-10T10:51:29Z",
+	"slug_soundcloud": "family-matters",
+	"slug_earwolf": "family-matters",
+	"episode_title": "Family Matters",
+	"episode_guests": "Michael Ian Black,Seth Morris",
+	"id_wikia": 2739,
+	"holding": "false"
+}
+
+{
+	"episode": 85,
+	"show": "cbb",
+	"tstart": "2:12",
+	"tend": "2:22",
+	"instance": "'The Holidays,' we should say.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-08-10T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/thats-one-way-of-doing-it/#t=2:12",
+	"tags": "",
+	"created_at": "2016-08-10T10:51:29Z",
+	"slug_soundcloud": "thats-one-way-of-doing-it",
+	"slug_earwolf": "thats-one-way-of-doing-it",
+	"episode_title": "That's One Way of Doing It",
+	"episode_guests": "Colin Hanks,Andy Daly,Nick Kroll,Brett Gelman,Neil Campbell,Paul F. Tompkins,Seth Morris",
+	"id_wikia": 2744,
+	"holding": "false"
+}
+
+{
+	"episode": 85,
+	"show": "cbb",
+	"tstart": "3:06",
+	"tend": "3:12",
+	"instance": "We have a fantastic show.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-08-10T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/thats-one-way-of-doing-it/#t=3:06",
+	"tags": "",
+	"created_at": "2016-08-10T10:51:29Z",
+	"slug_soundcloud": "thats-one-way-of-doing-it",
+	"slug_earwolf": "thats-one-way-of-doing-it",
+	"episode_title": "That's One Way of Doing It",
+	"episode_guests": "Colin Hanks,Andy Daly,Nick Kroll,Brett Gelman,Neil Campbell,Paul F. Tompkins,Seth Morris",
+	"id_wikia": 2744,
+	"holding": "false"
+}
