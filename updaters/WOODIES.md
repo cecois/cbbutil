@@ -164,7 +164,7 @@
 * 99,41:54,don dimello’s first memory
 * 99,9:26,you are interrupting so yr hopes are dashed
 * b02010,59:30,human being pig
-* bo2010,,huell drowns pigs
+* bo2010,53:30,huell drowns pigs
 * bo2012.1,35:40,a great silence envelopes the nation
 * bo2012.1,38:15,i wish we had time
 * bo2012.1,40:35,yeah, that’s what i know
@@ -211,3 +211,5 @@
 * 76.1,1:07:00,what are some of the cats that you like?
 * 76.2,39:30,turned into a red foxx party album
 * 438,34:45,he was a coward
+* 85,58:00,i have been told i'm a bit of a drooler
+* b02010,1:54:30,let us link legs at the knee

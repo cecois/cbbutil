@@ -439,3 +439,6 @@
 * 82,1:24:30,dancing in the streets (jaggar/bowie)
 * 84,6:00,unbelievable (EMF)
 * 84,41:39,dragonslayer (yes)
+* 439,76 trombones (?)
+* bo2010,59:00,lodi (CCR)
+* bo2010,1:39:20,hot in herrr (nelly)

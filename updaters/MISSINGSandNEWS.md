@@ -19,6 +19,7 @@
 * german germany cannibalism
 	* 59,42:45 (inaugural)
 	* 429,1:17:42
+	* bo2010,46:50
 * asked and answered
 	* countless
 	* 2016.seattle,1:22:00
@@ -31,6 +32,8 @@
 	* 59,12:00
 	* 2016.nyc05147pm,1:01:00
 	* 70,36:45
+	* 85,37:44
+	* bo2010,52:45
 * icona pop
 	* all 2016.tour stops
 	* 2016.seattle,1:23:25
@@ -141,6 +144,7 @@
 	* 51,22:00+
 	* 51,39:30
 	* 85,4:00(+?),campbell does christmas characters
+	* 85,1:57:00+
 	* 2016.dc,whole time basically
 	* 425,kroll does schrift/daemon/fabrice/stallone/chupa/mrs. doubtfire/bill maher/creaky gate/faizon
 	* 71,kroll does chupa/vinnie/other
@@ -301,6 +305,7 @@
 	* 395,46:55
 	* bo2015.3,:30
 	* 432,1:25:20
+	* 439,44:51
 * "Pains"
 	* 401,41:15
 	* 401,56:00
