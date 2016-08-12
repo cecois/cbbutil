@@ -347,6 +347,8 @@
 	* 2016.dc,1:00:00
 	* 2016.dc,1:06:30
 	* some earlier than 41, too
+	* 87,50:00
+	* 87,52:45
 * Hey hey hey have a good day (shelly driftwood)
 	* 419,1:34:50 (*2)
 * E.T.A.D.

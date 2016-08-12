@@ -2419,3 +2419,91 @@
 	"id_wikia": 3263,
 	"holding": "false"
 }
+
+{
+	"episode": 86,
+	"show": "cbb",
+	"tstart": "48:51",
+	"tend": "48:57",
+	"instance": "Thank you for sharing that.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-08-12T10:50:25Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/the-new-year-attack-of-2011/#t=48:51",
+	"tags": "30 Rock",
+	"created_at": "2016-08-12T10:50:25Z",
+	"slug_soundcloud": "the-new-year-attack-of-2011",
+	"slug_earwolf": "the-new-year-attack-of-2011",
+	"episode_title": "The New Year Attack of 2011",
+	"episode_guests": "Patton Oswalt,Rob Huebel",
+	"id_wikia": 2748,
+	"holding": "false"
+}
+
+{
+	"episode": 87,
+	"show": "cbb",
+	"tstart": "33:42",
+	"tend": "33:47",
+	"instance": "Nick Thune on Comedy Death Ray radio.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-08-12T14:33:15Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/droppin-wallets/#t=33:42",
+	"tags": "",
+	"created_at": "2016-08-12T14:33:15Z",
+	"slug_soundcloud": "droppin-wallets",
+	"slug_earwolf": "droppin-wallets",
+	"episode_title": "Droppin' Wallets!",
+	"episode_guests": "Chelsea Peretti,Nick Thune",
+	"id_wikia": 2750,
+	"holding": "false"
+}
+
+{
+	"episode": 87,
+	"show": "cbb",
+	"tstart": "37:19",
+	"tend": "37:28",
+	"instance": "Go to earwolf.com to look at that picture.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-08-12T14:33:15Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/droppin-wallets/#t=37:19",
+	"tags": "",
+	"created_at": "2016-08-12T14:33:15Z",
+	"slug_soundcloud": "droppin-wallets",
+	"slug_earwolf": "droppin-wallets",
+	"episode_title": "Droppin' Wallets!",
+	"episode_guests": "Chelsea Peretti,Nick Thune",
+	"id_wikia": 2750,
+	"holding": "false"
+}
+
+{
+	"episode": 88,
+	"show": "cbb",
+	"tstart": "5:12",
+	"tend": "5:20",
+	"instance": "It was a surprise to me when I heard the episode what you came up with.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2015-10-16T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/impression-off/#t=5:12",
+	"tags": "Engineer Doug",
+	"created_at": "2015-04-03T10:51:29Z",
+	"slug_soundcloud": "impression-off",
+	"slug_earwolf": "impression-off",
+	"episode_title": "Impression Off",
+	"episode_guests": "Chris Hardwick,Matt Braunger",
+	"id_wikia": 2752,
+	"holding": "false"
+}
