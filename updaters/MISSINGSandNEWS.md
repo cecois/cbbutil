@@ -372,3 +372,14 @@
 	* 2016.detroit,22:28
 	* 2016.detroit,38:20
 	* 67,20:00
+* clumsy portmanteau
+	* 2016.tour al peterson
+	* 440,44:40 
+	* 439,34:45
+	* 439,40:43
+	* 439,55:00
+* a little buzz
+	* 440,55:20
+* off the rails/retiring a train
+	* 439,40:10
+	* 440,1:16:00

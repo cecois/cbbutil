@@ -108,3 +108,46 @@
     "holding": "false"
 }
 
+{
+    "episode": 89,
+    "show": "cbb",
+    "tstart": "7:19",
+    "tend": "7:28",
+    "instance": "A gymnasium?",
+    "bit":"Group Coupon",
+    "elucidation":"scott articulates obvious data (acronyms, abbreviations, etc.)",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-08-15T10:51:29Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/great-big-hill-of-hope/#t=7:19",
+    "tags": "",
+    "created_at": "2016-08-15T10:51:29Z",
+    "slug_soundcloud": "great-big-hill-of-hope",
+    "slug_earwolf": "great-big-hill-of-hope",
+    "episode_title": "Great Big Hill of Hope",
+    "episode_guests": "Nick Kroll,Harris Wittels",
+    "id_wikia": 2754,
+    "holding": "false"
+}
+
+{
+    "episode": 89,
+    "show": "cbb",
+    "tstart": "16:30",
+    "tend": "16:45",
+    "instance": "I am 5-foot, 10 years old.",
+    "bit": "She's Not Okay",
+    "elucidation": "somebody gets emotional",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-08-15T10:51:29Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/great-big-hill-of-hope/#t=16:30",
+    "tags": "Fabrice Fabrice",
+    "created_at": "2016-08-15T10:51:29Z",
+    "slug_soundcloud": "great-big-hill-of-hope",
+    "slug_earwolf": "great-big-hill-of-hope",
+    "episode_title": "Great Big Hill of Hope",
+    "episode_guests": "Nick Kroll,Harris Wittels",
+    "id_wikia": 2754,
+    "holding": "false"
+}
