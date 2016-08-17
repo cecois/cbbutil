@@ -2550,3 +2550,69 @@
 	"id_wikia": 2754,
 	"holding": "false"
 }
+
+{
+	"episode": 90,
+	"show": "cbb",
+	"tstart": "2:24",
+	"tend": "2:34",
+	"instance": "Is this good?",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-08-17T08:14:07Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/is-this-sexual-harassment/#t=2:24",
+	"tags": "",
+	"created_at": "2016-08-17T08:14:07Z",
+	"slug_soundcloud": "is-this-sexual-harassment",
+	"slug_earwolf": "is-this-sexual-harassment",
+	"episode_title": "Is This Sexual Harassment?",
+	"episode_guests": "Michael Gladis,Maria Thayer,Brett Gelman",
+	"id_wikia": 2769,
+	"holding": "false"
+}
+
+{
+	"episode": 90,
+	"show": "cbb",
+	"tstart": "1:24:10",
+	"tend": "1:24:24",
+	"instance": "And then M. Ward is doing it.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-08-17T08:14:07Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/is-this-sexual-harassment/#t=1:24:10",
+	"tags": "M. Ward ",
+	"created_at": "2016-08-17T08:14:07Z",
+	"slug_soundcloud": "is-this-sexual-harassment",
+	"slug_earwolf": "is-this-sexual-harassment",
+	"episode_title": "Is This Sexual Harassment?",
+	"episode_guests": "Michael Gladis,Maria Thayer,Brett Gelman",
+	"id_wikia": 2769,
+	"holding": "false"
+}
+
+{
+	"episode": 91,
+	"show": "cbb",
+	"tstart": "2:08",
+	"tend": "2:11",
+	"instance": "We have a fantastic show today.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-08-17T13:54:42Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/garry-marshall-presents/#t=2:08",
+	"tags": "",
+	"created_at": "2016-08-17T13:54:47Z",
+	"slug_soundcloud": "garry-marshall-presents",
+	"slug_earwolf": "garry-marshall-presents",
+	"episode_title": "Garry Marshall Presents",
+	"episode_guests": "Yankovic,Tom Scharpling,Paul F. Tompkins",
+	"id_wikia": 2771,
+	"holding": "false"
+}
