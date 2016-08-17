@@ -466,3 +466,4 @@
 * 88,1:33:30,pinball wiz (who)
 * 89,11:30,what's going on (4-non blondes)
 * 89,24:45,tiny dancer (e.john)
+* 89,1:17:00,i love l.a. (randy newman)
