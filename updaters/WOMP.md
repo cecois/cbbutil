@@ -478,3 +478,4 @@
 * 91,1:03:10,we are the champions (queen)
 * 91,1:08:00,i only have eyes for you (?)
 * 91,1:30:15,jet (p. mccartney)
+* 92,33:30,we are the champions (queen)
