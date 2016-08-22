@@ -479,3 +479,13 @@
 * 91,1:08:00,i only have eyes for you (?)
 * 91,1:30:15,jet (p. mccartney)
 * 92,33:30,we are the champions (queen)
+* 92,1:05:00,word up (cameo)
+* 93,1:14:00,take me home tonight (eddy money)
+* 94,30:20,cruel summer (bananarama)
+* 94,??:??,goodnight sweetheart
+* 94,??:??,take out the papers and the trash
+* 94,44:00,"
+* 94,44:12,walk the dinosaur (was not was)
+* 94,52:00,yellow purple people eater (?)
+* 94,52:20,itsy bitsy teeny weeny...bikini
+* 94,54:00,earth angel
