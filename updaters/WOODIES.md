@@ -156,7 +156,7 @@
 * 44,45:13,he's performing some dirty business
 * 46,45:00,where was conan going with that?
 * 55,27:56,You should do that as a profession - just make up funny names.
-* 94,?????,now if that doesn’t go so good
+* 94,37:09,now if that doesn’t go so good
 * 94,25:16,i used to operate a b&b
 * 97,17:19,there’s a wet leaf in my throat
 * 99,22:38,church basement beauty and the beast
@@ -214,3 +214,4 @@
 * 85,58:00,i have been told i'm a bit of a drooler
 * b02010,1:54:30,let us link legs at the knee
 * 441,1:10:20,a lot of people have seen a kid on the same day they jacked off
+* 94,47:20,i hope that's not true because then i'd have to crazy

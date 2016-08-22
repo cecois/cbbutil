@@ -490,3 +490,13 @@
 * 441,48:00,walking on air (??)
 * 441,51:30,motownphilly (boyzIImen)
 * 441,53:40,rush rush (blondie - but miami bass?!)
+* 92,1:05:00,word up (cameo)
+* 93,1:14:00,take me home tonight (eddy money)
+* 94,30:20,cruel summer (bananarama)
+* 94,??:??,goodnight sweetheart
+* 94,??:??,take out the papers and the trash
+* 94,44:00,"
+* 94,44:12,walk the dinosaur (was not was)
+* 94,52:00,yellow purple people eater (?)
+* 94,52:20,itsy bitsy teeny weeny...bikini
+* 94,54:00,earth angel
