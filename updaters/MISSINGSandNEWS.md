@@ -68,6 +68,7 @@
 	* 2016.toronto,41:00
 	* 289,10:15
 	* 2016.dallas,33:40
+	* 441,12:00
 * lapkus can't make it through a song
 	* 2016.tarrytown,5:00
 	* 2016.tarrytown,4:46
@@ -242,6 +243,7 @@
 	* 429,28:30
 	* 433,13:32
 	* 2016.tour.bo.2,10:20
+	* 441,42:20
 * ball droid - bb8
 	* 349,15:00
 	* bo2015.2,58:30
@@ -384,3 +386,6 @@
 * off the rails/retiring a train
 	* 439,40:10
 	* 440,1:16:00
+	* 441,5:30
+* stoppin up the jams
+	* 441,lotsa (inaugural)
