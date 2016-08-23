@@ -2616,3 +2616,113 @@
 	"id_wikia": 2771,
 	"holding": "false"
 }
+
+{
+	"episode": 95,
+	"show": "cbb",
+	"tstart": "1:19:47",
+	"tend": "1:19:54",
+	"instance": "The special is just me, Natasha.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-08-21T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/phishing-for-compliments/#t=1:19:47",
+	"tags": "King George VI",
+	"created_at": "2016-08-21T10:51:29Z",
+	"slug_soundcloud": "phishing-for-compliments",
+	"slug_earwolf": "phishing-for-compliments",
+	"episode_title": "Phishing for Compliments",
+	"episode_guests": "Harris Wittels,Natasha Leggero,Matt Besser",
+	"id_wikia": 2807,
+	"holding": "false"
+}
+
+{
+	"episode": 95,
+	"show": "cbb",
+	"tstart": "1:22:30",
+	"tend": "1:22:39",
+	"instance": "There is a clue hidden in this show about who the guest is.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-08-21T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/phishing-for-compliments/#t=1:22:30",
+	"tags": "King George VI",
+	"created_at": "2016-08-21T10:51:29Z",
+	"slug_soundcloud": "phishing-for-compliments",
+	"slug_earwolf": "phishing-for-compliments",
+	"episode_title": "Phishing for Compliments",
+	"episode_guests": "Harris Wittels,Natasha Leggero,Matt Besser",
+	"id_wikia": 2807,
+	"holding": "false"
+}
+
+{
+	"episode": 96,
+	"show": "cbb",
+	"tstart": "6:45",
+	"tend": "6:58",
+	"instance": "I just realized I don't actually know the name of the place.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-08-22T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/live-from-sxsw/#t=6:45",
+	"tags": "",
+	"created_at": "2016-08-22T10:51:29Z",
+	"slug_soundcloud": "live-from-sxsw",
+	"slug_earwolf": "live-from-sxsw",
+	"episode_title": "Live from SXSW!",
+	"episode_guests": "Paul Reubens,Dave Foley,Thomas Lennon",
+	"id_wikia": 2827,
+	"holding": "false"
+}
+
+{
+	"episode": 96,
+	"show": "cbb",
+	"tstart": "59:30",
+	"tend": "59:48",
+	"instance": "Paul Reubens!",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-08-22T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/live-from-sxsw/#t=59:30",
+	"tags": "",
+	"created_at": "2016-08-22T10:51:29Z",
+	"slug_soundcloud": "live-from-sxsw",
+	"slug_earwolf": "live-from-sxsw",
+	"episode_title": "Live from SXSW!",
+	"episode_guests": "Paul Reubens,Dave Foley,Thomas Lennon",
+	"id_wikia": 2827,
+	"holding": "false"
+}
+
+{
+	"episode": 96,
+	"show": "cbb",
+	"tstart": "1:06:54",
+	"tend": "1:07:05",
+	"instance": "Well that's 45 minutes.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-08-22T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/live-from-sxsw/#t=1:06:54",
+	"tags": "",
+	"created_at": "2016-08-22T10:51:29Z",
+	"slug_soundcloud": "live-from-sxsw",
+	"slug_earwolf": "live-from-sxsw",
+	"episode_title": "Live from SXSW!",
+	"episode_guests": "Paul Reubens,Dave Foley,Thomas Lennon",
+	"id_wikia": 2827,
+	"holding": "false"
+}

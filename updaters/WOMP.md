@@ -500,3 +500,16 @@
 * 94,52:00,yellow purple people eater (?)
 * 94,52:20,itsy bitsy teeny weeny...bikini
 * 94,54:00,earth angel
+* 95,25:36,don't go back to rockville (r.e.m.)
+* 95,1:09:10,don't go back to rockville (r.e.m.)
+* 96,1:17:20,i whip my hair back and forth (w. smith)
+* 96,1:18:00,miami (will smith)
+* 97,22:35,i hear you talking in yr sleep (the romantics)
+* 97,59:45,pink cadillac (springsteen?)
+* 98,3:50,jungle boogie?
+* 98,6:00,laffy taffy (d4l)
+* 98,47:00,staying alive (bee-gees)
+* 98,47:10,bohemian rhapsody (queen)
+* 98,47:33,africa (toto)
+* 98,48:35,summer of '69 (bryan adams)
+* 98,50:10,we built this city (starship)
