@@ -2726,3 +2726,25 @@
 	"id_wikia": 2827,
 	"holding": "false"
 }
+
+{
+	"episode": 99,
+	"show": "cbb",
+	"tstart": "1:35",
+	"tend": "1:41",
+	"instance": "I am Hot Suacerman, this is Comedy Death Ray Radio.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-08-24T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/somethin-for-daddy/#t=1:35",
+	"tags": "Don Dimello",
+	"created_at": "2016-08-24T10:51:29Z",
+	"slug_soundcloud": "somethin-for-daddy",
+	"slug_earwolf": "somethin-for-daddy",
+	"episode_title": "Somethin' for Daddy!",
+	"episode_guests": "Patton Oswalt,Andy Daly",
+	"id_wikia": 2843,
+	"holding": "false"
+}

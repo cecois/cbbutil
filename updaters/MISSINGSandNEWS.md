@@ -12,8 +12,11 @@
 	* 2016.denver,1:18:50
 	* 2016.tour.bo.1,15:30
 	* 2016.toronto0506,58:40,fuck you listners!
+* i like a round pie (big sue)
+	* 
 * we're really gonna probe his psyche
 	* 98,1:30
+	* 99,1:40
 * unwanted heimlich maneuvers
 	* http://howl.fm/audio/42018/may-21-detroit-royal-oak-music-theatre,37:30
 * thanks, reggie
@@ -411,3 +414,6 @@
 	* 440,1:16:00
 * stoppin up the jams
 	* 441,lotsa (inaugural)
+* biodigital jazz
+	* several prior to 101
+	* 101,1:08:00
