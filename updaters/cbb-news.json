@@ -921,3 +921,135 @@
         "id_wikia": 2890,
         "holding": "false"
     }
+
+    {
+        "episode": 102,
+        "show": "cbb",
+        "tstart": "1:06:40",
+        "tend": "1:06:53",
+        "instance": "Shocking disc jockey.",
+        "bit":"Group Coupon",
+        "elucidation":"scott articulates obvious data (acronyms, abbreviations, etc.)",
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2015-10-16T10:51:29Z",
+        "url_soundcloud": "http://soundcloud.com/comedybangbang/behind-the-music/#t=1:06:40",
+        "tags": "Neil Hamburger",
+        "created_at": "2015-04-03T10:51:29Z",
+        "slug_soundcloud": "behind-the-music",
+        "slug_earwolf": "behind-the-music",
+        "episode_title": "Behind the Music",
+        "episode_guests": "Tim Heidecker,Neil Hamburger",
+        "id_wikia": 2890,
+        "holding": "false"
+    }
+
+    {
+        "episode": 102,
+        "show": "cbb",
+        "tstart": "1:06:52",
+        "tend": "1:06:59",
+        "instance": "Ambush disc jockey.",
+        "bit":"Group Coupon",
+        "elucidation":"scott articulates obvious data (acronyms, abbreviations, etc.)",
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2015-10-16T10:51:29Z",
+        "url_soundcloud": "http://soundcloud.com/comedybangbang/behind-the-music/#t=1:06:52",
+        "tags": "Neil Hamburger",
+        "created_at": "2015-04-03T10:51:29Z",
+        "slug_soundcloud": "behind-the-music",
+        "slug_earwolf": "behind-the-music",
+        "episode_title": "Behind the Music",
+        "episode_guests": "Tim Heidecker,Neil Hamburger",
+        "id_wikia": 2890,
+        "holding": "false"
+    }
+
+    {
+        "episode": 102,
+        "show": "cbb",
+        "tstart": "1:14:35",
+        "tend": "1:14:54",
+        "instance": "I'm trying to place your accent.",
+        "bit":"Where Are You From?",
+        "elucidation":"a character trait or detail is challenged or prompted",
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2015-10-16T10:51:29Z",
+        "url_soundcloud": "http://soundcloud.com/comedybangbang/behind-the-music/#t=1:14:35",
+        "tags": "Elton John,Bernie Taupin",
+        "created_at": "2015-04-03T10:51:29Z",
+        "slug_soundcloud": "behind-the-music",
+        "slug_earwolf": "behind-the-music",
+        "episode_title": "Behind the Music",
+        "episode_guests": "Tim Heidecker,Neil Hamburger",
+        "id_wikia": 2890,
+        "holding": "false"
+    }
+
+    {
+        "episode": 102,
+        "show": "cbb",
+        "tstart": "1:28:58",
+        "tend": "1:29:21",
+        "instance": "A glympse into rock n' roll history.",
+        "bit":"Location",
+        "elucidation":"identifiable earth location",
+        "location_type": "poly",
+        "location_id": "340",
+        "updated_at": "2015-10-16T10:51:29Z",
+        "url_soundcloud": "http://soundcloud.com/comedybangbang/behind-the-music/#t=1:28:58",
+        "tags": "Elton John,Bernie Taupin",
+        "created_at": "2015-04-03T10:51:29Z",
+        "slug_soundcloud": "behind-the-music",
+        "slug_earwolf": "behind-the-music",
+        "episode_title": "Behind the Music",
+        "episode_guests": "Tim Heidecker,Neil Hamburger",
+        "id_wikia": 2890,
+        "holding": "false"
+    }
+
+    {
+        "episode": 385,
+        "show": "cbb",
+        "tstart": "6:52",
+        "tend": "7:01",
+        "instance": "Are you in the 1% financially, by the way?",
+        "bit":"What's Your Address?",
+        "elucidation":"scott asks an inappropriately personal question",
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2016-08-25T15:56:19Z",
+        "url_soundcloud": "http://soundcloud.com/comedybangbang/385-john-mulaney-lauren-lapkus-betsy-sodaro/#t=6:52",
+        "tags": "",
+        "created_at": "2016-08-25T15:56:25Z",
+        "slug_soundcloud": "385-john-mulaney-lauren-lapkus-betsy-sodaro",
+        "slug_earwolf": "the-beatles-of-cults",
+        "episode_title": "The Beatles of Cults",
+        "episode_guests": "John Mulaney,Lauren Lapkus,Betsy Sodaro",
+        "id_wikia": "",
+        "holding": "false"
+    }
+
+    {
+        "episode": 385,
+        "show": "cbb",
+        "tstart": "15:29",
+        "tend": "15:39",
+        "instance": "Do you think that pants being so short was a result of they already had long socks?",
+        "bit":"Scott's Questions",
+        "elucidation":"(in progress) - scott's questions",
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2016-08-25T15:56:19Z",
+        "url_soundcloud": "http://soundcloud.com/comedybangbang/385-john-mulaney-lauren-lapkus-betsy-sodaro/#t=15:29",
+        "tags": "",
+        "created_at": "2016-08-25T15:56:25Z",
+        "slug_soundcloud": "385-john-mulaney-lauren-lapkus-betsy-sodaro",
+        "slug_earwolf": "the-beatles-of-cults",
+        "episode_title": "The Beatles of Cults",
+        "episode_guests": "John Mulaney,Lauren Lapkus,Betsy Sodaro",
+        "id_wikia": "",
+        "holding": "false"
+    }

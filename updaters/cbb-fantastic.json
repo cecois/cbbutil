@@ -2748,3 +2748,25 @@
 	"id_wikia": 2843,
 	"holding": "false"
 }
+
+{
+	"episode": 102,
+	"show": "cbb",
+	"tstart": "1:28:57",
+	"tend": "1:29:02",
+	"instance": "That was fantastic, guys.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2015-10-16T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/behind-the-music/#t=1:28:57",
+	"tags": "Elton John,Bernie Taupin",
+	"created_at": "2015-04-03T10:51:29Z",
+	"slug_soundcloud": "behind-the-music",
+	"slug_earwolf": "behind-the-music",
+	"episode_title": "Behind the Music",
+	"episode_guests": "Tim Heidecker,Neil Hamburger",
+	"id_wikia": 2890,
+	"holding": "false"
+}

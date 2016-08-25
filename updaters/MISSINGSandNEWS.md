@@ -1,8 +1,8 @@
 # possible new bits: 
 * "fantastic"
-	* see [cbb-fantastic.json](/Users/ccmiller/Desktop/cbb/updaters/cbb-fantastic.json)
+	* see [cbb-fantastic.json](cbb-fantastic.json)
 * literally nowhere else to go
-	* see [cbb-literally.json](/Users/ccmiller/Desktop/cbb/updaters/cbb-literally.json)
+	* see [cbb-literally.json](cbb-literally.json)
 * fu, howl subscribers
 	* 2016.losangeles,52:02
 	* 2016.losangeles,28:45
@@ -13,7 +13,7 @@
 	* 2016.tour.bo.1,15:30
 	* 2016.toronto0506,58:40,fuck you listners!
 * i like a round pie (big sue)
-	* 
+	* see [cbb-roundpie.json](cbb-roundpie.json)
 * we're really gonna probe his psyche
 	* 98,1:30
 	* 99,1:40
@@ -27,6 +27,8 @@
 	* 59,42:45 (inaugural)
 	* 429,1:17:42
 	* bo2010,46:50
+* one toilet per person
+	* 2016.chicago7,39:20
 * asked and answered
 	* 97,50:30
 	* countless
@@ -417,3 +419,5 @@
 * biodigital jazz
 	* several prior to 101
 	* 101,1:08:00
+* queue the music
+	* 2016.tour.bos10,43:00

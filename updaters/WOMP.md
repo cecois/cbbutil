@@ -526,3 +526,6 @@
 * 100,32:30,one step over the line (??)
 * 101,1:00,carry that weight (beatles)
 * 102,20:45,every breath you take (police)
+* 102,1:16:00,your song (elton john)
+* 2016.tour.boston10pm,32:45,sugar in the morning (the mcguire sisters)
+* 2016.tour.boston10pm,43:00,time of my life (dirty dancing)
