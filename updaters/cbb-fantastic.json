@@ -2770,3 +2770,69 @@
 	"id_wikia": 2890,
 	"holding": "false"
 }
+
+{
+	"episode": 385,
+	"show": "cbb",
+	"tstart": "44:58",
+	"tend": "45:12",
+	"instance": "Louis C.K. and Margaret Cho.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-08-25T15:56:19Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/385-john-mulaney-lauren-lapkus-betsy-sodaro/#t=44:58",
+	"tags": "Big Sue,Louis C.K.,Margaret Cho",
+	"created_at": "2016-08-25T15:56:25Z",
+	"slug_soundcloud": "385-john-mulaney-lauren-lapkus-betsy-sodaro",
+	"slug_earwolf": "the-beatles-of-cults",
+	"episode_title": "The Beatles of Cults",
+	"episode_guests": "John Mulaney,Lauren Lapkus,Betsy Sodaro",
+	"id_wikia": "",
+	"holding": "false"
+}
+
+{
+	"episode": 385,
+	"show": "cbb",
+	"tstart": "54:23",
+	"tend": "54:52",
+	"instance": "A cravat like Austin Powers.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-08-25T15:56:19Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/385-john-mulaney-lauren-lapkus-betsy-sodaro/#t=54:23",
+	"tags": "Big Sue,Austin Powers",
+	"created_at": "2016-08-25T15:56:25Z",
+	"slug_soundcloud": "385-john-mulaney-lauren-lapkus-betsy-sodaro",
+	"slug_earwolf": "the-beatles-of-cults",
+	"episode_title": "The Beatles of Cults",
+	"episode_guests": "John Mulaney,Lauren Lapkus,Betsy Sodaro",
+	"id_wikia": "",
+	"holding": "false"
+}
+
+{
+	"episode": 385,
+	"show": "cbb",
+	"tstart": "1:20:13",
+	"tend": "1:20:19",
+	"instance": "We all make a lot of funny choices.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-08-25T15:56:19Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/385-john-mulaney-lauren-lapkus-betsy-sodaro/#t=1:20:13",
+	"tags": "Big Sue,Austin Powers",
+	"created_at": "2016-08-25T15:56:25Z",
+	"slug_soundcloud": "385-john-mulaney-lauren-lapkus-betsy-sodaro",
+	"slug_earwolf": "the-beatles-of-cults",
+	"episode_title": "The Beatles of Cults",
+	"episode_guests": "John Mulaney,Lauren Lapkus,Betsy Sodaro",
+	"id_wikia": "",
+	"holding": "false"
+}
