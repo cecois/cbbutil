@@ -1053,3 +1053,25 @@
         "id_wikia": "",
         "holding": "false"
     }
+
+    {
+        "episode": 385,
+        "show": "cbb",
+        "tstart": "1:15:24",
+        "tend": "1:1`5:32",
+        "instance": "Can you imaging ollieing right over Sue's foot?",
+        "bit":"That is the Dream",
+        "elucidation":"scott seems jealous or just commendatory",
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2016-08-25T15:56:19Z",
+        "url_soundcloud": "http://soundcloud.com/comedybangbang/385-john-mulaney-lauren-lapkus-betsy-sodaro/#t=1:15:24",
+        "tags": "Big Sue,Nancy K",
+        "created_at": "2016-08-25T15:56:25Z",
+        "slug_soundcloud": "385-john-mulaney-lauren-lapkus-betsy-sodaro",
+        "slug_earwolf": "the-beatles-of-cults",
+        "episode_title": "The Beatles of Cults",
+        "episode_guests": "John Mulaney,Lauren Lapkus,Betsy Sodaro",
+        "id_wikia": "",
+        "holding": "false"
+    }
