@@ -2770,3 +2770,47 @@
 	"id_wikia": 2890,
 	"holding": "false"
 }
+
+{
+	"episode": 385,
+	"show": "cbb",
+	"tstart": "32:08",
+	"tend": "32:14",
+	"instance": "Can you stick around, John?",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-08-25T15:56:19Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/385-john-mulaney-lauren-lapkus-betsy-sodaro/#t=32:08",
+	"tags": "",
+	"created_at": "2016-08-25T15:56:25Z",
+	"slug_soundcloud": "385-john-mulaney-lauren-lapkus-betsy-sodaro",
+	"slug_earwolf": "the-beatles-of-cults",
+	"episode_title": "The Beatles of Cults",
+	"episode_guests": "John Mulaney,Lauren Lapkus,Betsy Sodaro",
+	"id_wikia": "",
+	"holding": "false"
+}
+
+{
+	"episode": 385,
+	"show": "cbb",
+	"tstart": "32:58",
+	"tend": "33:04",
+	"instance": "It's all fake, it's all special effects.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-08-25T15:56:19Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/385-john-mulaney-lauren-lapkus-betsy-sodaro/#t=32:58",
+	"tags": "",
+	"created_at": "2016-08-25T15:56:25Z",
+	"slug_soundcloud": "385-john-mulaney-lauren-lapkus-betsy-sodaro",
+	"slug_earwolf": "the-beatles-of-cults",
+	"episode_title": "The Beatles of Cults",
+	"episode_guests": "John Mulaney,Lauren Lapkus,Betsy Sodaro",
+	"id_wikia": "",
+	"holding": "false"
+}
