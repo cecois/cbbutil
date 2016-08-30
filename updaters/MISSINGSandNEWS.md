@@ -4,7 +4,7 @@
 * literally nowhere else to go
 	* see [cbb-literally.json](cbb-literally.json)
 * fu, howl subscribers
-	* 2016.losangeles,52:02
+	* 2016.losangeles,52:45
 	* 2016.losangeles,28:45
 	* 2016.losangeles,1:23:00
 	* 2016.nc,42:14
@@ -36,7 +36,7 @@
 	* 2016.toronto0506,1:28:00
 	* 2016.toronto,8:45
 	* 2016.seattle,1:22:00
-	* 2016.losangeles,1:09:00
+	* 2016.losangeles,1:08:50
 	* 2016.chicago10,35:00
 	* 91,1:40:10
 * pft has time for x more questions
@@ -143,7 +143,6 @@
 	* 2016.losangeles,39:00
 	* 2016.losangeles,42:30
 	* 2016.losangeles,1:01:00
-	* 2016.losangeles,(maybe 10m prior to 1:01:00)
 	* 2016.losangeles,1:00:40
 * character bonanzas
 	* 286
