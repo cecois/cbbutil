@@ -531,3 +531,7 @@
 * 2016.tour.boston10pm,43:00,time of my life (dirty dancing)
 * 442,1:20:40,glass onion (beatles)
 * 442,1:20:40,fool on the hill (beatles)
+* 2016.brisbane,cat's in the cradle (harry chapin)
+* 2016.brisbane,1:33:13,hello - lionel richie
+* 2016.melbourne,30:45,octopus' garden (beatles)
+* 2016.melbourne,39:31,devil went down to georgia (daniels)

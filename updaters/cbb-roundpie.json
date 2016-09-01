@@ -453,3 +453,112 @@
 		"id_wikia": null,
 		"holding": "false"
 	}
+
+	{
+		"episode": "http://howl.fm/audio/42016/may-20-chicago-athenaeum-theatre-7-pm",
+		"show": "cbb",
+		"tstart": "36:12",
+		"tend": "36:35",
+		"instance": "Big Sue's parameters for her pizza; round, crust; tomato sauce, red; cheese on top, melted; maybe pepperoni or sausage.",
+		"bit":"A Round Pie.",
+		"elucidation":"a lapkus character describes food (or causes the description of food)",
+		"tags": "Big Sue",
+		"location_type": "",
+		"location_id": "",
+		"updated_at": "2016-08-30T11:51:29Z",
+		"url_soundcloud": "",
+		"created_at": "2016-08-30T11:51:29Z",
+		"slug_soundcloud": "",
+		"slug_earwolf": "",
+		"episode_title": "May 20 - Chicago, Athenaeum Theatre (7 pm)",
+		"episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
+		"id_wikia": null,
+		"holding": "false"
+	}
+
+	{
+		"episode": "http://howl.fm/audio/42016/may-20-chicago-athenaeum-theatre-7-pm",
+		"show": "cbb",
+		"tstart": "36:52",
+		"tend": "37:08",
+		"instance": "Where Big Sue might differ from Chicago; thin crust; sauce on top of the crust.",
+		"bit":"A Round Pie.",
+		"elucidation":"a lapkus character describes food (or causes the description of food)",
+		"tags": "Big Sue",
+		"location_type": "",
+		"location_id": "",
+		"updated_at": "2016-08-30T11:51:29Z",
+		"url_soundcloud": "",
+		"created_at": "2016-08-30T11:51:29Z",
+		"slug_soundcloud": "",
+		"slug_earwolf": "",
+		"episode_title": "May 20 - Chicago, Athenaeum Theatre (7 pm)",
+		"episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
+		"id_wikia": null,
+		"holding": "false"
+	}
+
+	{
+		"episode": "http://howl.fm/audio/42016/may-20-chicago-athenaeum-theatre-7-pm",
+		"show": "cbb",
+		"tstart": "45:17",
+		"tend": "45:35",
+		"instance": "Pizzas in Big Sue's documentary; round pies; red sauce, tomato sauce; cheese melted on it; maybe some pepperoni, maybe some sausage.",
+		"bit":"A Round Pie.",
+		"elucidation":"a lapkus character describes food (or causes the description of food)",
+		"tags": "Big Sue",
+		"location_type": "",
+		"location_id": "",
+		"updated_at": "2016-08-30T11:51:29Z",
+		"url_soundcloud": "",
+		"created_at": "2016-08-30T11:51:29Z",
+		"slug_soundcloud": "",
+		"slug_earwolf": "",
+		"episode_title": "May 20 - Chicago, Athenaeum Theatre (7 pm)",
+		"episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
+		"id_wikia": null,
+		"holding": "false"
+	}
+
+	{
+		"episode": "http://howl.fm/audio/42016/may-20-chicago-athenaeum-theatre-7-pm",
+		"show": "cbb",
+		"tstart": "1:22:10",
+		"tend": "1:23:07",
+		"instance": "Big Sue's song about pizza; round with a little bit of sauce; cheese on top; maybe pepperoni, maybe sausage.",
+		"bit":"A Round Pie.",
+		"elucidation":"a lapkus character describes food (or causes the description of food)",
+		"tags": "Big Sue",
+		"location_type": "",
+		"location_id": "",
+		"updated_at": "2016-08-30T11:51:29Z",
+		"url_soundcloud": "",
+		"created_at": "2016-08-30T11:51:29Z",
+		"slug_soundcloud": "",
+		"slug_earwolf": "",
+		"episode_title": "May 20 - Chicago, Athenaeum Theatre (7 pm)",
+		"episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
+		"id_wikia": null,
+		"holding": "false"
+	}
+
+	{    "episode": "http://howl.fm/audio/43254/august-25-brisbane-city-hall-qld",
+	"show": "cbb",
+	"tstart": "22:52",
+	"tend": "23:01",
+	"instance": "Todd's school's pizza: square with sausage on it; some sauce; cheese.",
+	"bit":"A Round Pie.",
+	"elucidation":"a lapkus character describes food (or causes the description of food)",
+	"tags": "Scott's Nephew Todd,Big Sue",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-08-30T11:51:29Z",
+	"url_soundcloud": "",
+	"created_at": "2016-08-30T11:51:29Z",
+	"slug_soundcloud": "",
+	"slug_earwolf": "",
+	"episode_title": "August 25 - Brisbane City Hall, Qld",
+	"episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
+	"id_wikia": null,
+	"holding": "false"
+}

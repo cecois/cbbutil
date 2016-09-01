@@ -268,6 +268,8 @@
 	* 429,28:30
 	* 433,13:32
 	* 2016.tour.bo.2,10:20
+	* 2016.melbourne,0:50
+	* 2016.sydney,0:30
 * ball droid - bb8
 	* 349,15:00
 	* bo2015.2,58:30
@@ -314,6 +316,7 @@
 	* 2016.seattle,1:06:20
 	* 2016.vancouver,1:15:00
 	* 2016.austin,1:15:30
+	* 2016.brisbane,31:52
 * i ain't down with (into) that g** shi*
 	* http://howl.fm/audio/26138/live-from-nyc-2014-part-1,46:00
 	* 215,20:34
@@ -346,6 +349,7 @@
 	* 423,1:22:00
 	* 2016.minneapolis,58:55
 	* 434,1:18:00
+	* 2016.brisbane,1:35:00
 * German craigslist
 	* 401,50:45
 * just a cardboard cutout inaugural
