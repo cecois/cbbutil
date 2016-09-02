@@ -71,6 +71,7 @@
 	* 2016.chicago10,42:00
 	* 2016.oakland,11:42
 	* 2016.oakland,54:33
+	* 2016.sydney,1:04:30
 * \#1 with a bullet
 	* 2016.denver,10:00
 	* 2016.toronto,41:00
@@ -218,7 +219,7 @@
 	* bo2009,1:01:15
 	* bo2009,1:25:00
 	* 72,1:00:00
-	* 80,1:32:30
+	* 80,1:32:30M
 * it's good now
 	* BO2015.2,1:41:00
 	* 400,17:45
@@ -323,6 +324,7 @@
 	* 215,24:57
 	* other moynahan/pft eps
 	* 423,46:50
+	* 2016.sydney,55:45
 * but they could also send them (wyr) to your twitter
 	* http://howl.fm/audio/26139/live-from-nyc-2014-part-2,1:01:00
 	* 235,58:30
@@ -417,6 +419,7 @@
 	* 441,5:30
 	* 439,40:10
 	* 440,1:16:00
+	* 2016.sydney,37:30
 * stoppin up the jams
 	* 441,lotsa (inaugural)
 * biodigital jazz
@@ -424,3 +427,5 @@
 	* 101,1:08:00
 * queue the music
 	* 2016.tour.bos10,43:00
+* ha'penny
+	* 2016.sydney,1:21:30

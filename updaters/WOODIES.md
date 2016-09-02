@@ -215,3 +215,4 @@
 * b02010,1:54:30,let us link legs at the knee
 * 441,1:10:20,a lot of people have seen a kid on the same day they jacked off
 * 94,47:20,i hope that's not true because then i'd have to crazy
+* 2016.sydney,1:33:12,tom petty was in line to see richard petty
