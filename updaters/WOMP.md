@@ -546,3 +546,6 @@
 * 103,1:46:30,hot in herrrr (nelly)
 * 103,1:51:43,boys don't cry (the cure)
 * 103,1:55:00,you wear it well (rod stewart)
+* 2016.perth,1:24:29,the devil went down to georgia (daniels)
+* 443,12:00,put me in coach (j. fogerty)
+* 443,38:40,every morning (sugar ray)

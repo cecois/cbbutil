@@ -12,6 +12,8 @@
 	* 2016.denver,1:18:50
 	* 2016.tour.bo.1,15:30
 	* 2016.toronto0506,58:40,fuck you listners!
+* deep cut
+	* 2016.perth,56:09
 * i like a round pie (big sue)
 	* see [cbb-roundpie.json](cbb-roundpie.json)
 * we're really gonna probe his psyche
@@ -375,6 +377,7 @@
 * santa baby
 	* 33,6:00
 	* 41,9:30
+	* 2016.perth,1:05:10
 * symmetrical face
 	* 41,29:00
 	* 2016.dc,1:00:00
