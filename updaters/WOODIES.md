@@ -216,3 +216,5 @@
 * 441,1:10:20,a lot of people have seen a kid on the same day they jacked off
 * 94,47:20,i hope that's not true because then i'd have to crazy
 * 2016.sydney,1:33:12,tom petty was in line to see richard petty
+* 2016.perth,~40:00,i'm a creature of love
+* 2016.perth,48:23,i gave him a wooden horse
