@@ -2911,3 +2911,91 @@
 	"id_wikia": 2115,
 	"holding": "false"
 }
+
+{
+	"episode": 104,
+	"show": "cbb",
+	"tstart": "3:45",
+	"tend": "3:52",
+	"instance": "He recognized me...and gave me some of his books.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-09-07T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/shut-up-dracula/#t=3:45",
+	"tags": "Paul Hornschemeier",
+	"created_at": "2016-09-07T10:51:29Z",
+	"slug_soundcloud": "shut-up-dracula",
+	"slug_earwolf": "shut-up-dracula",
+	"episode_title": "Shut Up Dracula!",
+	"episode_guests": "Paul Feig,Birthday Boys",
+	"id_wikia": 2892,
+	"holding": "false"
+}
+
+{
+	"episode": 104,
+	"show": "cbb",
+	"tstart": "4:25",
+	"tend": "4:34",
+	"instance": "Pick up his books if you get a chance.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-09-07T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/shut-up-dracula/#t=4:25",
+	"tags": "Paul Hornschemeier",
+	"created_at": "2016-09-07T10:51:29Z",
+	"slug_soundcloud": "shut-up-dracula",
+	"slug_earwolf": "shut-up-dracula",
+	"episode_title": "Shut Up Dracula!",
+	"episode_guests": "Paul Feig,Birthday Boys",
+	"id_wikia": 2892,
+	"holding": "false"
+}
+
+{
+	"episode": 105,
+	"show": "cbb",
+	"tstart": "33:50",
+	"tend": "33:58",
+	"instance": "I've got some disgusting and racist limericks.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-09-07T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/comedy-is-honey/#t=33:50",
+	"tags": "Sappity Tappity",
+	"created_at": "2016-09-07T10:51:29Z",
+	"slug_soundcloud": "comedy-is-honey",
+	"slug_earwolf": "comedy-is-honey",
+	"episode_title": "Comedy is Honey",
+	"episode_guests": "Matt Walsh,Scot Armstrong,Jon Daly",
+	"id_wikia": 2929,
+	"holding": "false"
+}
+
+{
+	"episode": 105,
+	"show": "cbb",
+	"tstart": "47:33",
+	"tend": "47:38",
+	"instance": "Both of those EPs are fantastic.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-09-07T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/comedy-is-honey/#t=47:33",
+	"tags": "Don't Stop or We'll Die (band)",
+	"created_at": "2016-09-07T10:51:29Z",
+	"slug_soundcloud": "comedy-is-honey",
+	"slug_earwolf": "comedy-is-honey",
+	"episode_title": "Comedy is Honey",
+	"episode_guests": "Matt Walsh,Scot Armstrong,Jon Daly",
+	"id_wikia": 2929,
+	"holding": "false"
+}
