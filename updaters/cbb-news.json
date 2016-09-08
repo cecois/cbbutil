@@ -1258,23 +1258,23 @@
         "tstart": "51:38",
         "tend": "52:15",
         "instance": "We all know that branches are leaves' [sic] dicks.",
-           "bit": "Trees Have Dicks",
-           "elucidation": "the cbb theory of tree reproduction",
-           "location_type": "",
-           "location_id": "",
-           "updated_at": "2015-09-02T10:51:29Z",
-           "url_soundcloud": "http://soundcloud.com/comedybangbang/these-times-they-are-a-changin/#t=51:38",
-           "tags": "Truck Bastien",
-           "created_at": "2015-09-02T10:51:29Z",
-           "slug_soundcloud": "these-times-they-are-a-changin",
-           "slug_earwolf": "these-times-they-are-a-changin",
-           "episode_title": "These Times They Are A-Changin'",
-           "episode_guests": "Andy Daly,James Adomian,Nick Kroll,Paul F. Tompkins,Paul Scheer,Reggie Watts,Tig Notaro",
-           "id_wikia": 2115,
-           "holding": "false"
-       }
+         "bit": "Trees Have Dicks",
+         "elucidation": "the cbb theory of tree reproduction",
+         "location_type": "",
+         "location_id": "",
+         "updated_at": "2015-09-02T10:51:29Z",
+         "url_soundcloud": "http://soundcloud.com/comedybangbang/these-times-they-are-a-changin/#t=51:38",
+         "tags": "Truck Bastien",
+         "created_at": "2015-09-02T10:51:29Z",
+         "slug_soundcloud": "these-times-they-are-a-changin",
+         "slug_earwolf": "these-times-they-are-a-changin",
+         "episode_title": "These Times They Are A-Changin'",
+         "episode_guests": "Andy Daly,James Adomian,Nick Kroll,Paul F. Tompkins,Paul Scheer,Reggie Watts,Tig Notaro",
+         "id_wikia": 2115,
+         "holding": "false"
+     }
 
-       {
+     {
         "episode": 103,
         "show": "cbb",
         "tstart": "51:58",
@@ -1747,6 +1747,28 @@
         "location_id": "",
         "updated_at": "2016-09-08T10:51:29Z",
         "url_soundcloud": "http://soundcloud.com/comedybangbang/its-a-fucking-podcast-pt-2/#t=54:08",
+        "tags": "Cake Boss",
+        "created_at": "2016-09-08T10:51:29Z",
+        "slug_soundcloud": "its-a-fucking-podcast-pt-2",
+        "slug_earwolf": "its-a-fucking-podcast-pt-2",
+        "episode_title": "",
+        "episode_guests": "",
+        "id_wikia": 2932,
+        "holding": "false"
+    }
+
+    {
+        "episode": 106.2,
+        "show": "cbb",
+        "tstart": "58:24",
+        "tend": "58:30",
+        "instance": "Got to paulftompkins.com and you could get tickets to see it.",
+        "bit": "Cake Boss!",
+        "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2016-09-08T10:51:29Z",
+        "url_soundcloud": "http://soundcloud.com/comedybangbang/its-a-fucking-podcast-pt-2/#t=58:24",
         "tags": "Cake Boss",
         "created_at": "2016-09-08T10:51:29Z",
         "slug_soundcloud": "its-a-fucking-podcast-pt-2",
