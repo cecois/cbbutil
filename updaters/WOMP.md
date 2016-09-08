@@ -550,3 +550,8 @@
 * 443,12:00,put me in coach (j. fogerty)
 * 443,38:40,every morning (sugar ray)
 * 105,43:30,free your mind (en vogue?)
+* 105,53:30,turn to stone (e.l.o.)
+* 105,58:30,between the moon and heaven ? (bachrach)
+* 106.1,7:30,is that all there is? (peggy lee)
+* 106.1,28:30,angie (rolling stones)
+* 106.2,20:00,like a surgeon (weird al)

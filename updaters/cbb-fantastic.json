@@ -2959,6 +2959,28 @@
 {
 	"episode": 105,
 	"show": "cbb",
+	"tstart": "1:03",
+	"tend": "1:14",
+	"instance": "I am the world-famous Scottabot at your service.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-09-07T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/comedy-is-honey/#t=1:03",
+	"tags": "Sappity Tappity",
+	"created_at": "2016-09-07T10:51:29Z",
+	"slug_soundcloud": "comedy-is-honey",
+	"slug_earwolf": "comedy-is-honey",
+	"episode_title": "Comedy is Honey",
+	"episode_guests": "Matt Walsh,Scot Armstrong,Jon Daly",
+	"id_wikia": 2929,
+	"holding": "false"
+}
+
+{
+	"episode": 105,
+	"show": "cbb",
 	"tstart": "33:50",
 	"tend": "33:58",
 	"instance": "I've got some disgusting and racist limericks.",
@@ -2997,5 +3019,27 @@
 	"episode_title": "Comedy is Honey",
 	"episode_guests": "Matt Walsh,Scot Armstrong,Jon Daly",
 	"id_wikia": 2929,
+	"holding": "false"
+}
+
+{
+	"episode": 106.1,
+	"show": "cbb",
+	"tstart": "1:10",
+	"tend": "1:20",
+	"instance": "It's a fantastic Monday here.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-09-08T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/its-a-fucking-podcast-pt-1/#t=1:10",
+	"tags": "",
+	"created_at": "2016-09-08T10:51:29Z",
+	"slug_soundcloud": "its-a-fucking-podcast-pt-1",
+	"slug_earwolf": "its-a-fucking-podcast-pt-1",
+	"episode_title": "",
+	"episode_guests": "",
+	"id_wikia": 2931,
 	"holding": "false"
 }

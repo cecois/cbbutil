@@ -1624,3 +1624,91 @@
         "id_wikia": 2929,
         "holding": "false"
     }
+
+    {
+        "episode": 106.1,
+        "show": "cbb",
+        "tstart": "24:42",
+        "tend": "24:48",
+        "instance": "But you must have a couple more.",
+        "bit": "How Many?",
+        "elucidation": "a pimping subclass: somebody asks for a list of things",
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2016-09-08T10:51:29Z",
+        "url_soundcloud": "http://soundcloud.com/comedybangbang/its-a-fucking-podcast-pt-1/#t=24:42",
+        "tags": "Cake Boss",
+        "created_at": "2016-09-08T10:51:29Z",
+        "slug_soundcloud": "its-a-fucking-podcast-pt-1",
+        "slug_earwolf": "its-a-fucking-podcast-pt-1",
+        "episode_title": "",
+        "episode_guests": "",
+        "id_wikia": 2931,
+        "holding": "false"
+    }
+
+    {
+        "episode": 106.1,
+        "show": "cbb",
+        "tstart": "38:44",
+        "tend": "38:55",
+        "instance": "If you can guess who said it you will get a point.",
+        "bit":"Titular",
+        "elucidation":"the titular 'titular'",
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2016-09-08T10:51:29Z",
+        "url_soundcloud": "http://soundcloud.com/comedybangbang/its-a-fucking-podcast-pt-1/#t=38:44",
+        "tags": "Cake Boss",
+        "created_at": "2016-09-08T10:51:29Z",
+        "slug_soundcloud": "its-a-fucking-podcast-pt-1",
+        "slug_earwolf": "its-a-fucking-podcast-pt-1",
+        "episode_title": "",
+        "episode_guests": "",
+        "id_wikia": 2931,
+        "holding": "false"
+    }
+
+    {
+        "episode": 106.1,
+        "show": "cbb",
+        "tstart": "40:27",
+        "tend": "40:29",
+        "instance": "Coming to you, now.",
+        "bit":"Cake Boss!",
+        "elucidation":"cake boss repeats 'cake boss'...cake boss.",
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2016-09-08T10:51:29Z",
+        "url_soundcloud": "http://soundcloud.com/comedybangbang/its-a-fucking-podcast-pt-1/#t=40:27",
+        "tags": "Cake Boss",
+        "created_at": "2016-09-08T10:51:29Z",
+        "slug_soundcloud": "its-a-fucking-podcast-pt-1",
+        "slug_earwolf": "its-a-fucking-podcast-pt-1",
+        "episode_title": "",
+        "episode_guests": "",
+        "id_wikia": 2931,
+        "holding": "false"
+    }
+
+    {
+        "episode": 106.2,
+        "show": "cbb",
+        "tstart": "19:29",
+        "tend": "19:33",
+        "instance": "We are here with Andy Richter.",
+        "bit": "Cake Boss!",
+        "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2016-09-08T10:51:29Z",
+        "url_soundcloud": "http://soundcloud.com/comedybangbang/its-a-fucking-podcast-pt-2/#t=19:29",
+        "tags": "Cake Boss",
+        "created_at": "2016-09-08T10:51:29Z",
+        "slug_soundcloud": "its-a-fucking-podcast-pt-2",
+        "slug_earwolf": "its-a-fucking-podcast-pt-2",
+        "episode_title": "",
+        "episode_guests": "",
+        "id_wikia": 2932,
+        "holding": "false"
+    }

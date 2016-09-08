@@ -48,6 +48,7 @@
 	* 85,37:44
 	* bo2010,52:45
 	* 412,1:13:47,2 more
+	* 106.2,12:50
 * icona pop
 	* all 2016.tour stops
 	* 2016.seattle,1:23:25
@@ -214,6 +215,8 @@
 	* 2016.chicago730,17:20
 	* 2016.detroit,40:50
 	* 67,32:00 (inaugural)
+	* 106.1,51:00
+	* 106.2,4:30
 * huell turns into a crowbot
 	* 29,51:48
 	* howl.fm in DC,36:00
