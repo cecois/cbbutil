@@ -1712,3 +1712,47 @@
         "id_wikia": 2932,
         "holding": "false"
     }
+
+    {
+        "episode": 106.2,
+        "show": "cbb",
+        "tstart": "52:02",
+        "tend": "52:11",
+        "instance": "You live with that for the rest of your days.",
+        "bit": "Cake Boss!",
+        "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2016-09-08T10:51:29Z",
+        "url_soundcloud": "http://soundcloud.com/comedybangbang/its-a-fucking-podcast-pt-2/#t=52:02",
+        "tags": "Cake Boss",
+        "created_at": "2016-09-08T10:51:29Z",
+        "slug_soundcloud": "its-a-fucking-podcast-pt-2",
+        "slug_earwolf": "its-a-fucking-podcast-pt-2",
+        "episode_title": "",
+        "episode_guests": "",
+        "id_wikia": 2932,
+        "holding": "false"
+    }
+
+    {
+        "episode": 106.2,
+        "show": "cbb",
+        "tstart": "54:08",
+        "tend": "54:13",
+        "instance": "You are the winner!",
+        "bit": "Cake Boss!",
+        "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2016-09-08T10:51:29Z",
+        "url_soundcloud": "http://soundcloud.com/comedybangbang/its-a-fucking-podcast-pt-2/#t=54:08",
+        "tags": "Cake Boss",
+        "created_at": "2016-09-08T10:51:29Z",
+        "slug_soundcloud": "its-a-fucking-podcast-pt-2",
+        "slug_earwolf": "its-a-fucking-podcast-pt-2",
+        "episode_title": "",
+        "episode_guests": "",
+        "id_wikia": 2932,
+        "holding": "false"
+    }
