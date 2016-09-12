@@ -85,6 +85,7 @@
 	* 2016.toronto,41:00
 	* 289,10:15
 	* 2016.dallas,33:40
+	* 444,1:16:37
 * lapkus can't make it through a song
 	* 2016.tarrytown,5:00
 	* 2016.tarrytown,4:46
