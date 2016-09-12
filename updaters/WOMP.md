@@ -555,3 +555,8 @@
 * 106.1,7:30,is that all there is? (peggy lee)
 * 106.1,28:30,angie (rolling stones)
 * 106.2,20:00,like a surgeon (weird al)
+* 106.2.1:00:20,the gambler (rodgers)
+* 107,27:00,more than words (extreme)
+* 107,28:50,to be with you (mr. big)
+* 107,28:50,green-tinted 60s mind (mr. big)
+* 107,1:04:00,tennessee (arrested development)

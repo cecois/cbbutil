@@ -121,6 +121,7 @@
 	* 2016.austin,53:00
 	* 2016.minneapolis,59:07
 	* 2016.minneapolis,1:04:42
+	* 109,50:00 (inaugural)
 * am i doing it?
 	* 2016.austin,1:13:50
 	* 423,42:19,one thousand gigawatts
@@ -163,6 +164,8 @@
 	* 425,kroll does schrift/daemon/fabrice/stallone/chupa/mrs. doubtfire/bill maher/creaky gate/faizon
 	* 71,kroll does chupa/vinnie/other
 	* 73,1:17:00,swardson does his brother nad betty white
+	* 107,1:07:00
+	* 109,1:15:30
 * rounds of catchphrase
 * all the cities of the country
 	* 404,16:00
