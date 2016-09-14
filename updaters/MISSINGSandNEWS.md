@@ -49,6 +49,7 @@
 	* bo2010,52:45
 	* 412,1:13:47,2 more
 	* 106.2,12:50
+	* 112,41:40
 * icona pop
 	* all 2016.tour stops
 	* 2016.seattle,1:23:25
@@ -123,6 +124,8 @@
 	* 2016.minneapolis,59:07
 	* 2016.minneapolis,1:04:42
 	* 109,50:00 (inaugural)
+	* 113,13:45 (played only)
+	* 113,18:00 (bobby m remix)
 * am i doing it?
 	* 2016.austin,1:13:50
 	* 423,42:19,one thousand gigawatts
@@ -377,7 +380,6 @@
 * men of a certain age
 	* 2016.dallas,11:00
 	* 384,47:30
-* got it one
 * time bobbys?
 	* dsalw eps
 	* 405,33:15
@@ -439,3 +441,6 @@
 	* 2016.tour.bos10,43:00
 * ha'penny
 	* 2016.sydney,1:21:30
+* satur*day* *night* live
+	* lots
+	* 113,2:30
