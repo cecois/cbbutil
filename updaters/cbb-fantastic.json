@@ -1,25 +1,4 @@
 {
-	"episode":"http://howl.fm/audio/41307/may-11-atlanta-the-tabernacle-atlanta",
-	"show":"cbb",
-	"tstart":"1:00:30",
-	"tend": "1:00:40",
-	"instance": "I have a new album coming out.",
-	"bit":"Fantastic.",
-	"elucidation":"one of scott's 25 words",
-	"tags": "Donny Gary,Ho Ho the Elf",
-	"location_type": "",
-	"location_id": "",
-	"updated_at": "2016-06-18T11:51:29Z",
-	"url_soundcloud": "",
-	"created_at": "2016-06-18T11:51:29Z",
-	"slug_soundcloud": "",
-	"slug_earwolf": "",
-	"episode_title" : "May 11 - Atlanta, The Tabernacle Atlanta",
-	"episode_guests" : "Lauren Lapkus,Paul F. Tompkins,Drew Tarver","id_wikia": null,
-	"holding": "false"
-}
-
-{
 	"episode":"http://howl.fm/audio/42012/may-18-austin-tx-paramount-theatre",
 	"show":"cbb",
 	"tstart":"32:11",
@@ -37,6 +16,28 @@
 	"slug_earwolf": "",
 	"episode_title" : "May 18 - Austin Tx, Paramount Theatre",
 	"episode_guests" : "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
+	"id_wikia": null,
+	"holding": "false"
+}
+
+{
+	"episode":"http://howl.fm/audio/41307/may-11-atlanta-the-tabernacle-atlanta",
+	"show":"cbb",
+	"tstart":"1:00:30",
+	"tend": "1:00:40",
+	"instance": "I have a new album coming out.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"tags": "Donny Gary,Ho Ho the Elf",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-06-18T11:51:29Z",
+	"url_soundcloud": "",
+	"created_at": "2016-06-18T11:51:29Z",
+	"slug_soundcloud": "",
+	"slug_earwolf": "",
+	"episode_title" : "May 11 - Atlanta, The Tabernacle Atlanta",
+	"episode_guests" : "Lauren Lapkus,Paul F. Tompkins,Drew Tarver",
 	"id_wikia": null,
 	"holding": "false"
 }
@@ -3085,5 +3086,159 @@
 	"episode_title": "Pussy CPR",
 	"episode_guests": "James Adomian,Rob Corddry,Erinn Hayes",
 	"id_wikia": 2944,
+	"holding": "false"
+}
+
+{
+	"episode": 112,
+	"show": "cbb",
+	"tstart": "1:50",
+	"tend": "2:03",
+	"instance": "What up, hot dog?",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-09-13T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/since-youve-been-gone/#t=1:50",
+	"tags": "",
+	"created_at": "2016-09-13T10:51:29Z",
+	"slug_soundcloud": "since-youve-been-gone",
+	"slug_earwolf": "since-youve-been-gone",
+	"episode_title": "Since You've Been Gone",
+	"episode_guests": "Yankovic,Paul F. Tompkins",
+	"id_wikia": 2983,
+	"holding": "false"
+}
+
+{
+	"episode": 112,
+	"show": "cbb",
+	"tstart": "4:22",
+	"tend": "4:36",
+	"instance": "From the extrapolations and interoplations I'm being told it's going to be my biggest-charting album ever.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-09-13T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/since-youve-been-gone/#t=4:22",
+	"tags": "",
+	"created_at": "2016-09-13T10:51:29Z",
+	"slug_soundcloud": "since-youve-been-gone",
+	"slug_earwolf": "since-youve-been-gone",
+	"episode_title": "Since You've Been Gone",
+	"episode_guests": "Yankovic,Paul F. Tompkins",
+	"id_wikia": 2983,
+	"holding": "false"
+}
+
+{
+	"episode": 112,
+	"show": "cbb",
+	"tstart": "4:59",
+	"tend": "5:05",
+	"instance": "Ten? I thought it was 8 and 9.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-09-13T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/since-youve-been-gone/#t=4:59",
+	"tags": "",
+	"created_at": "2016-09-13T10:51:29Z",
+	"slug_soundcloud": "since-youve-been-gone",
+	"slug_earwolf": "since-youve-been-gone",
+	"episode_title": "Since You've Been Gone",
+	"episode_guests": "Yankovic,Paul F. Tompkins",
+	"id_wikia": 2983,
+	"holding": "false"
+}
+
+{
+	"episode": 112,
+	"show": "cbb",
+	"tstart": "6:36",
+	"tend": "8:52",
+	"instance": "All of my proceeds...will go to the Human Rights Campaign.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-09-13T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/since-youve-been-gone/#t=6:36",
+	"tags": "",
+	"created_at": "2016-09-13T10:51:29Z",
+	"slug_soundcloud": "since-youve-been-gone",
+	"slug_earwolf": "since-youve-been-gone",
+	"episode_title": "Since You've Been Gone",
+	"episode_guests": "Yankovic,Paul F. Tompkins",
+	"id_wikia": 2983,
+	"holding": "false"
+}
+
+{
+	"episode": 112,
+	"show": "cbb",
+	"tstart": "11:17",
+	"tend": "11:30",
+	"instance": "It's one of the few times somebody has written to me on Facebook...",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-09-13T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/since-youve-been-gone/#t=11:17",
+	"tags": "Robyn Von Swank",
+	"created_at": "2016-09-13T10:51:29Z",
+	"slug_soundcloud": "since-youve-been-gone",
+	"slug_earwolf": "since-youve-been-gone",
+	"episode_title": "Since You've Been Gone",
+	"episode_guests": "Yankovic,Paul F. Tompkins",
+	"id_wikia": 2983,
+	"holding": "false"
+}
+
+{
+	"episode": 112,
+	"show": "cbb",
+	"tstart": "23:40",
+	"tend": "23:46",
+	"instance": "Pick up the record.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-09-13T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/since-youve-been-gone/#t=23:40",
+	"tags": "Robyn Von Swank",
+	"created_at": "2016-09-13T10:51:29Z",
+	"slug_soundcloud": "since-youve-been-gone",
+	"slug_earwolf": "since-youve-been-gone",
+	"episode_title": "Since You've Been Gone",
+	"episode_guests": "Yankovic,Paul F. Tompkins",
+	"id_wikia": 2983,
+	"holding": "false"
+}
+
+{
+	"episode": 112,
+	"show": "cbb",
+	"tstart": "27:03",
+	"tend": "27:11",
+	"instance": "By the way the 'Perform this Way' video just came out.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-09-13T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/since-youve-been-gone/#t=27:03",
+	"tags": "Robyn Von Swank",
+	"created_at": "2016-09-13T10:51:29Z",
+	"slug_soundcloud": "since-youve-been-gone",
+	"slug_earwolf": "since-youve-been-gone",
+	"episode_title": "Since You've Been Gone",
+	"episode_guests": "Yankovic,Paul F. Tompkins",
+	"id_wikia": 2983,
 	"holding": "false"
 }

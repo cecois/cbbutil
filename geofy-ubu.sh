@@ -19,8 +19,10 @@ read anno
 
 
 # MSG=${MSG//\'/\\\'}
-nomnom=${name// /\+}
-anoano=${anno// /\+}
+# nomnom=${name// /\+}
+nomnom=${name}
+# anoano=${anno// /\+}
+anoano=${anno}
 # echo $nomnom
 
 # subl $nomnom
@@ -40,7 +42,8 @@ else
 	json=$(cat ${file} | jq '.[0].geojson')
 fi
 
-scosco=${sco// /\+}
+#scosco=${sco// /\+}
+scosco=${sco}
 
 # json=$(cat /tmp/mount+rushmore.geojson | jq '.[0].geojson')
 

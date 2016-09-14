@@ -2174,3 +2174,47 @@
         "id_wikia": 2981,
         "holding": "false"
     }
+
+    {
+        "episode": 112,
+        "show": "cbb",
+        "tstart": "4:05",
+        "tend": "4:28",
+        "instance": "Oh, I see - you're doing the math in your head.",
+        "bit": "Verisimilitude",
+        "elucidation": "some conceit of the show is abused, broken, or exposed",
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2016-09-13T10:51:29Z",
+        "url_soundcloud": "http://soundcloud.com/comedybangbang/since-youve-been-gone/#t=4:05",
+        "tags": "Andrew Lloyd Webber",
+        "created_at": "2016-09-13T10:51:29Z",
+        "slug_soundcloud": "since-youve-been-gone",
+        "slug_earwolf": "since-youve-been-gone",
+        "episode_title": "Since You've Been Gone",
+        "episode_guests": "Weird Al Yankovic,Paul F. Tompkins",
+        "id_wikia": 2983,
+        "holding": "false"
+    }
+
+    {
+        "episode": 112,
+        "show": "cbb",
+        "tstart": "32:40",
+        "tend": "33:12",
+        "instance": "How many forests in Portland did I find myself in when I was writing 'Cats?'",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2016-09-13T10:51:29Z",
+        "url_soundcloud": "http://soundcloud.com/comedybangbang/since-youve-been-gone/#t=32:40",
+        "tags": "Andrew Lloyd Webber,Cats (musical)",
+        "created_at": "2016-09-13T10:51:29Z",
+        "slug_soundcloud": "since-youve-been-gone",
+        "slug_earwolf": "since-youve-been-gone",
+        "episode_title": "Since You've Been Gone",
+        "episode_guests": "Weird Al Yankovic,Paul F. Tompkins",
+        "id_wikia": 2983,
+        "holding": "false"
+    }
