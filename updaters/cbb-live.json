@@ -63,3 +63,113 @@
 	"id_wikia": null,
 	"holding": "false"
 }
+
+{
+	"episode": 445,
+	"show": "cbb",
+	"tstart": "19:23",
+	"tend": "19:36",
+	"instance": "In the world of nature, the goose is always at fault.",
+	"bit":"Who?",
+	"elucidation":"somebody doesn't know who or what something famous is",
+	"tags": "Chesley Burnett 'Sully' Sullenberger,Werner Herzog",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-09-15T11:51:29Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/445-michelle-biloon-paul-f-tompkins/#t=19:23",
+	"created_at": "2016-09-15T11:51:29Z",
+	"slug_soundcloud": "445-michelle-biloon-paul-f-tompkins",
+	"slug_earwolf": "sully-goose",
+	"episode_title": "Sully Goose",
+	"episode_guests": "Michelle Biloon,Paul F. Tompkins",
+	"id_wikia": null,
+	"holding": "false"
+}
+
+{
+	"episode": 445,
+	"show": "cbb",
+	"tstart": "19:23",
+	"tend": "19:45",
+	"instance": "In the world of nature, the goose is always at fault.",
+	"bit":"Cactus Something",
+	"elucidation":"a superclass of inter-episode callbacks/forwards and/or character cross-pollenization or canon-building",
+	"tags": "Chesley Burnett 'Sully' Sullenberger,Werner Herzog",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-09-15T11:51:29Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/445-michelle-biloon-paul-f-tompkins/#t=19:23",
+	"created_at": "2016-09-15T11:51:29Z",
+	"slug_soundcloud": "445-michelle-biloon-paul-f-tompkins",
+	"slug_earwolf": "sully-goose",
+	"episode_title": "Sully Goose",
+	"episode_guests": "Michelle Biloon,Paul F. Tompkins",
+	"id_wikia": null,
+	"holding": "false"
+}
+
+{
+	"episode": 445,
+	"show": "cbb",
+	"tstart": "40:08",
+	"tend": "40:22",
+	"instance": "Did anyone ever call you -- and this is a little impertinent and a little rude -- but...'furbuger'?",
+	"bit":"Scott's Questions",
+	"elucidation":"(in progress) - scott's questions",
+	"tags": "Chesley Burnett 'Sully' Sullenberger",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-09-15T11:51:29Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/445-michelle-biloon-paul-f-tompkins/#t=40:08",
+	"created_at": "2016-09-15T11:51:29Z",
+	"slug_soundcloud": "445-michelle-biloon-paul-f-tompkins",
+	"slug_earwolf": "sully-goose",
+	"episode_title": "Sully Goose",
+	"episode_guests": "Michelle Biloon,Paul F. Tompkins",
+	"id_wikia": null,
+	"holding": "false"
+}
+
+{
+	"episode": 445,
+	"show": "cbb",
+	"tstart": "42:17",
+	"tend": "42:28",
+	"instance": "He went up to the top of the Empire State Building.",
+	"bit":"Location",
+	"elucidation":"identifiable earth location",
+	"tags": "Tom Hanks,Chesley Burnett 'Sully' Sullenberger",
+	"location_type": "point",
+	"location_id": "681",
+	"updated_at": "2016-09-15T11:51:29Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/445-michelle-biloon-paul-f-tompkins/#t=42:17",
+	"created_at": "2016-09-15T11:51:29Z",
+	"slug_soundcloud": "445-michelle-biloon-paul-f-tompkins",
+	"slug_earwolf": "sully-goose",
+	"episode_title": "Sully Goose",
+	"episode_guests": "Michelle Biloon,Paul F. Tompkins",
+	"id_wikia": null,
+	"holding": "false"
+}
+
+{
+	"episode": 445,
+	"show": "cbb",
+	"tstart": "1:28:11",
+	"tend": "1:28:35",
+	"instance": "Who's house are you going to visit next?",
+	"bit":"Location",
+	"elucidation":"identifiable earth location",
+	"tags": "Chesley Burnett 'Sully' Sullenberger",
+	"location_type": "poly",
+	"location_id": "357",
+	"updated_at": "2016-09-15T11:51:29Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/445-michelle-biloon-paul-f-tompkins/#t=1:28:11",
+	"created_at": "2016-09-15T11:51:29Z",
+	"slug_soundcloud": "445-michelle-biloon-paul-f-tompkins",
+	"slug_earwolf": "sully-goose",
+	"episode_title": "Sully Goose",
+	"episode_guests": "Michelle Biloon,Paul F. Tompkins",
+	"id_wikia": null,
+	"holding": "false"
+}

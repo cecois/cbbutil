@@ -12,6 +12,8 @@
 	* 2016.denver,1:18:50
 	* 2016.tour.bo.1,15:30
 	* 2016.toronto0506,58:40,fuck you listners!
+* circus in town
+	* 115,42:50
 * deep cut
 	* 2016.perth,56:09
 * i like a round pie (big sue)
@@ -442,8 +444,11 @@
 	* 2016.tour.bos10,43:00
 * ha'penny
 	* 2016.sydney,1:21:30
+	* 445,15:00
+	* 445,18:45
 * satur*day* *night* live
 	* lots
 	* 113,2:30
 * of note
 	* 445,4:00
+	* 445,19:30
