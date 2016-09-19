@@ -3484,3 +3484,47 @@
 			"id_wikia": null,
 			"holding": "false"
 		}
+
+		{
+			"episode": 116,
+			"show": "cbb",
+			"tstart": "36:19",
+			"tend": "36:27",
+			"instance": "See, Todd? You did it.",
+			"bit":"Fantastic.",
+			"elucidation":"one of scott's 25 words",
+			"location_type": "",
+			"location_id": "",
+			"updated_at": "2016-09-16T10:51:29Z",
+			"url_soundcloud": "http://soundcloud.com/comedybangbang/when-i-go-to-queens/#t=36:19",
+			"tags": "Marissa Wompler6",
+			"created_at": "2016-09-16T10:51:29Z",
+			"slug_soundcloud": "when-i-go-to-queens",
+			"slug_earwolf": "when-i-go-to-queens",
+			"episode_title": "When I Go To Queens...",
+			"episode_guests": "Todd Glass,Jessica St. Clair",
+			"id_wikia": 2940,
+			"holding": "false"
+		}
+
+		{
+			"episode": 117,
+			"show": "cbb",
+			"tstart": "12:25",
+			"tend": "12:35",
+			"instance": "You have a movie out.",
+			"bit":"Fantastic.",
+			"elucidation":"one of scott's 25 words",
+			"location_type": "",
+			"location_id": "",
+			"updated_at": "2016-09-16T11:16:03Z",
+			"url_soundcloud": "http://soundcloud.com/comedybangbang/cant-never-did-nothing/#t=12:25",
+			"tags": "",
+			"created_at": "2015-04-03T10:51:29Z",
+			"slug_soundcloud": "cant-never-did-nothing",
+			"slug_earwolf": "cant-never-did-nothing",
+			"episode_title": "Can't Never Did Nothing",
+			"episode_guests": "David Cross,Ruben Fleischer,Chad Carter",
+			"id_wikia": 2995,
+			"holding": "false"
+		}
