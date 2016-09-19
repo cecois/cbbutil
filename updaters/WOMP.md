@@ -1,16 +1,48 @@
-* (82||161),??,on and on (stephen bishop)
-* 003,19:45,breakin  my stride - matthew wilder
-* 003,3:25,man on the moon - R.E.M.
-* 003,8:07,vaseline - STP
-* 007,3:15,raised on radio - journey
+* 100,32:30,one step over the line (??)
+* 101,1:00,carry that weight (beatles)
+* 102,1:16:00,your song (elton john)
+* 102,20:45,every breath you take (police)
+* 103,13:30,the girls is mine (mj+mccartney)
+* 103,1:42:00,i won't back down (tom petty)
+* 103,1:46:30,hot in herrrr (nelly)
+* 103,1:51:43,boys don't cry (the cure)
+* 103,1:55:00,you wear it well (rod stewart)
+* 103,32:30,under the bridge (rhcp)
+* 103,34:00(??),i will follow (u2)
+* 103,38:00,angel of harlem (u2)
+* 103,39:15,jitterbug (wham)
+* 103,40:24,pride (u2)
+* 105,43:30,free your mind (en vogue?)
+* 105,53:30,turn to stone (e.l.o.)
+* 105,58:30,between the moon and heaven ? (bachrach)
+* 106.1,28:30,angie (rolling stones)
+* 106.1,7:30,is that all there is? (peggy lee)
+* 106.2,20:00,like a surgeon (weird al)
+* 106.2.1:00:20,the gambler (rodgers)
+* 107,1:04:00,tennessee (arrested development)
+* 107,27:00,more than words (extreme)
+* 107,28:50,green-tinted 60s mind (mr. big)
+* 107,28:50,to be with you (mr. big)
+* 110,1:08:50,in the air (collins)
+* 110,52:00,hold up (nate dogg)
+* 111,1:12:40,december (counting crows)
+* 111,28:40,one headlight (wallflowers)
+* 112,43:20,secret agent man (??)
+* 113,33:00,day in the life (beatles)
+* 114,55:20,this is how we do it (montel jordan)
+* 115,20:00,freedom from choice (devo)
+* 115,36:48,you better shop around (??)
 * 14,17:55,rag doll - aerosmith
 * 150,35:00,cop killer - ice t & body count
+* 161,??,on and on (stephen bishop)
 * 17,40:08,scar tissue - rhcp
 * 2016.atl,28:45,girl u know it's true (milli)
 * 2016.atl,54:30,bitches ain't shit but hos and tricks
-* 2016.austin,49:00,bang bang (a. grande)
 * 2016.austin,18:00,hips don't like (shakira)
+* 2016.austin,49:00,bang bang (a. grande)
 * 2016.boston10pm,31:45,isn't it ironic - morrissette
+* 2016.brisbane,1:33:13,hello - lionel richie
+* 2016.brisbane,cat's in the cradle (harry chapin)
 * 2016.chicago10,03:00,take me to church (hozier)
 * 2016.chicago10,04:00,cross eyed painless (talking heads)
 * 2016.chicago10,43:20,rock lobster (b-52s)
@@ -27,6 +59,8 @@
 * 2016.jflmontreal2016,46:50,birdland (weather report)
 * 2016.jflmontreal2016,46:50,meet the mets (??)
 * 2016.losangeles,14:00,wanksta (50 cent)
+* 2016.melbourne,30:45,octopus' garden (beatles)
+* 2016.melbourne,39:31,devil went down to georgia (daniels)
 * 2016.minneapolis,24:20,piano man (billy joel)
 * 2016.minneapolis,45:45,under pressure (queen+bowie)
 * 2016.minneapolis,45:50,under pressure (queen)
@@ -51,12 +85,14 @@
 * 2016.oakland,1:16:10,takin care of business (bto)
 * 2016.oakland,1:16:57,let it ride (bto?)
 * 2016.oakland,44:30,touch me (the doors)
+* 2016.perth,1:24:29,the devil went down to georgia (daniels)
 * 2016.philadelphia,8:30,streets of philadelphia (springsteen)
 * 2016.portland7,17:30,we dem boys (whiz kalifa)
 * 2016.portland7,1:07:45,closer to free (bodeans)
 * 2016.portland7,48:30,that's not my name (ting tings)
 * 2016.portland7,53:00,new york state of mind (billy joel)
 * 2016.seattle,2:55,doin it (ll cool j)
+* 2016.sydney,44:30,[some say love it is a river] (?)
 * 2016.tarrytown,56:15,age ain't nothing (aleayah)
 * 2016.toronto,1:09:00,la woman (mojo rising) (doors)
 * 2016.toronto,1:09:35,l.a. woman (doors)
@@ -100,6 +136,8 @@
 * 2016.tour.bo.3,7:00,get off (prince)
 * 2016.tour.bo.3,9:50,rappers delight (sugar hill/blondie)
 * 2016.tour.bo.3,:25,what's going on? (4 non blondes)
+* 2016.tour.boston10pm,32:45,sugar in the morning (the mcguire sisters)
+* 2016.tour.boston10pm,43:00,time of my life (dirty dancing)
 * 2016.vancouver,1:15:00,we dem boys (whiz kalifa)
 * 2016.vancouver,1:32:00,[you're under 18 you won't be doing any time] (offspring)
 * 2016.vancouver,1:32:00,come out and play (offspring)
@@ -341,7 +379,34 @@
 * 435,1:25:20,american woman (the guess who?)
 * 436,1:11:35,lights out (peter woolf)
 * 436,39:05,all mixed up (311)
+* 438,1:09:30,grease lightning (grease)
+* 438,1:11:11,dancing in the streets (jaggar/bowie)
+* 438,2:45,grease lightning (grease)
+* 439,76 trombones (?)
 * 44,51:50,headmaster ritual - the smiths
+* 440,15:20,don't think twice (dylan)
+* 440,1:19:00,play it again sam (?)
+* 440,23:00,don't do it (grandmaster melly mel)
+* 440,41:00,don't think twice (dylan)
+* 441,12:00,american woman (??)
+* 441,12:00,you give love a bad name (bon jovi)
+* 441,16:00,y.m.c.a. (village people)
+* 441,35:30,i don't know much (a. neville)
+* 441,37:40,my neck (??)
+* 441,40:00,boys don't cry (the cure)
+* 441,41:00,take on me (a-ha)
+* 441,44:12,born in the 50s (sting)
+* 441,48:00,walking on air (??)
+* 441,51:30,motownphilly (boyzIImen)
+* 441,53:40,rush rush (blondie - but miami bass?!)
+* 442,1:20:40,fool on the hill (beatles)
+* 442,1:20:40,glass onion (beatles)
+* 443,12:00,put me in coach (j. fogerty)
+* 443,38:40,every morning (sugar ray)
+* 444,1:08:44,i am the walrus (beatles)
+* 444,1:11:00,take me home country roads (??)
+* 444,3:50,all i wanna do (sheryl crow)
+* 445,1:14:45,o.p.p. (naughty by nature)
 * 46,27:20,one step ahead - split ends
 * 47,11:00,new toys - thomas dolby
 * 47,44:15,hey hey paula - ??
@@ -384,70 +449,20 @@
 * 80,4:22,obladi (beatles)
 * 80,4:22,you say hello (beatles)
 * 80,5:20,bullet the blue sky (u2)
-* 94,??:??,walk the dinosaur (was not was)
-* b3,57:00,kickstart my heart - motley crue?
-* BO2014.3,1:37:30,i'm a wheel watcher (?)
-* BO2015.1,19:35, gangster's paradise
-* BO2015.1,1:52:52,i shot the sherrif - marley
-* BO2015.1,????, enter sandman - metallica
-* BO2015.2,2:07:50,christmas even in hollis queens
-* BO2015.3,(i forget)
-* bo2015.3,11:00,it's a family reunion
-* BO2015.3,16:00,night and day (cole porter - but sinatra version)
-* BO2015.3,17:00,you're so nice to come home to (sinatra)
-* BO2015.3,1:00:00,i'm just a bill
-* BO2015.3,20:00,new york (sinatra)
-* BO2015.3,32:00,goodbye norma jean (elton john)
-* BO2015.4,1:10:00,this is it - kenny loggins feat. michael mcdonald
-* BO2015.4,1:18:10,i don't remember - ?
-* howl.34637,35:22,crosstown traffic - hendrix
-* howl.34640,1:09:15,kiss from a rose - seal
-* http://howl.fm/audio/26124/live-from-comic-con-2015,52:15,wrex'neffects w/ k7 - all i wanna do is zoom zoom...
-* http://howl.fm/audio/26124/live-from-comic-con-2015,52:45,buck owens - act naturally (they're gona put me in the movies)
-* http://howl.fm/audio/26124/live-from-comic-con-2015,52:45,buck owens - you don't know me but...
-* http://howl.fm/audio/26124/live-from-comic-con-2015,57:15,tired of being alone - al green
-* http://howl.fm/audio/26124/live-from-comic-con-2015,58:11,??? - selena
-* http://howl.fm/audio/26124/live-from-comic-con-2015,59:45,thank you for being a friend (golden girls)
-* http://howl.fm/audio/26150/live-from-boston-2013-part-1,23:00,fuck the police - ice t & body count
-* http://howl.fm/audio/26153/live-from-detroit-2013,1:13:30,everything in its right place - radiohead
-* http://howl.fm/audio/26153/live-from-detroit-2013,51:00,personal jesus - depeche
-* http://howl.fm/audio/26154/live-from-milwaukee-2013,1:06:30,doctor-doctor
-* http://howl.fm/audio/26157/live-from-philadelphia-2013,31:15,hang the dj - the smiths
-* http://howl.fm/audio/26157/live-from-philadelphia-2013,40:00,royals - lorde
-* http://howl.fm/audio/26157/live-from-philadelphia-2013,40:04,enter sandman - metallica
-* http://howl.fm/audio/26158/live-from-portland-2013,1:21:30,horse with no name
-* http://howl.fm/audio/26159/live-from-seattle-2013,1:21:30,cop killer - ice t
-* http://howl.fm/audio/26160/live-from-toronto-2013,1:08:30,there is a light that never goes out - the smiths
-* http://howl.fm/audio/26162/live-from-washington-dc-2013-part-2,1:18:30,old fashioned love song
-* http://howl.fm/audio/26162/live-from-washington-dc-2013-part-2,1:21:50,the end - doors
-* http://howl.fm/audio/26163/live-from-vancouver-2013,20:23,turn turn turn (yardbirds?)
-* http://howl.fm/audio/34627/live-from-nyc-2012-part-1,45:00,love shack - b-52s
-* http://howl.fm/audio/34632/live-from-san-diego-2012,29:50,walk the dinosaur - was not was
-* http://howl.fm/audio/34633/live-from-san-francisco-2012,57:20,isn't it ironic - morrissette
-* live-from-bumbershoot-2011-part-2,48:30,blackbird
-* live-from-bumbershoot-2011-part-2,48:30,hello - goodbye (?)
-* live-from-comic-con-2016,23:45,woke up like this (beyonce)
-* live-from-comic-con-2016,40:00,downeaster alexa (b. joel)
-* live-from-comic-con-2016,43:30,beat it (m. jackson)
-* 438,2:45,grease lightning (grease)
-* 438,1:09:30,grease lightning (grease)
-* 438,1:11:11,dancing in the streets (jaggar/bowie)
-* 82,59:00,say my name (destiny's child)
-* 82,1:00:00,walking w/ a ghost (tegan and sara)
 * 82,1:00:00,(down in jamaica they got...),(??)
+* 82,1:00:00,walking w/ a ghost (tegan and sara)
 * 82,1:19:30,get it in (?),50 Cent
 * 82,1:24:30,dancing in the streets (jaggar/bowie)
-* 84,6:00,unbelievable (EMF)
+* 82,59:00,say my name (destiny's child)
 * 84,41:39,dragonslayer (yes)
-* 439,76 trombones (?)
-* bo2010,59:00,lodi (CCR)
-* bo2010,1:39:20,hot in herrr (nelly)
+* 84,6:00,unbelievable (EMF)
 * 87,??:??,not a pretty girl (difranco)
-* 88,7:45,all the young dudes (mott the hoople version)
-* 440,15:20,don't think twice (dylan)
-* 440,23:00,don't do it (grandmaster melly mel)
-* 440,41:00,don't think twice (dylan)
-* 440,1:19:00,play it again sam (?)
+* 88,1:21:10,pinball wizard (who)
+* 88,1:33:30,candle in the wind (e. john)
+* 88,1:33:30,i'm still standing (e. john)
+* 88,1:33:30,pinball wiz (who)
+* 88,1:33:30,purple haze (jhendrix)
+* 88,1:??:??,unchained melody (righteous brothers)
 * 88,36:33,addicted to love (robert palmer)
 * 88,36:49,yesterday (the beatles)
 * 88,37:15,centerfold (j geils band)
@@ -458,70 +473,55 @@
 * 88,42:20,more than a woman (bee gees)
 * 88,43:20,bad moon rising (ccr)
 * 88,44:20,tiny dancer (e. john)
-* 88,1:21:10,pinball wizard (who)
-* 88,1:??:??,unchained melody (righteous brothers)
-* 88,1:33:30,i'm still standing (e. john)
-* 88,1:33:30,candle in the wind (e. john)
-* 88,1:33:30,purple haze (jhendrix)
-* 88,1:33:30,pinball wiz (who)
+* 88,7:45,all the young dudes (mott the hoople version)
 * 89,11:30,what's going on (4-non blondes)
-* 89,24:45,tiny dancer (e.john)
 * 89,1:17:00,i love l.a. (randy newman)
 * 89,1:21:45,in the air tonight (p collins)
-* 91,:50,jet (p. mccartney)
-* 91,:55,look what you've done (jett)
-* 91,:55,cold ass bitch (jett)
-* 91,8:30,hot n' cold (katy perry)
+* 89,24:45,tiny dancer (e.john)
 * 91,16:54,rumour (bananarama)
-* 91,54:55,jet (p. mccartney)
 * 91,1:02:10,round and round (tevin campbell)
 * 91,1:03:10,we are the champions (queen)
 * 91,1:08:00,i only have eyes for you (?)
 * 91,1:30:15,jet (p. mccartney)
-* 92,33:30,we are the champions (queen)
-* 441,12:00,you give love a bad name (bon jovi)
-* 441,12:00,american woman (??)
-* 441,16:00,y.m.c.a. (village people)
-* 441,35:30,i don't know much (a. neville)
-* 441,37:40,my neck (??)
-* 441,40:00,boys don't cry (the cure)
-* 441,41:00,take on me (a-ha)
-* 441,44:12,born in the 50s (sting)
-* 441,48:00,walking on air (??)
-* 441,51:30,motownphilly (boyzIImen)
-* 441,53:40,rush rush (blondie - but miami bass?!)
+* 91,54:55,jet (p. mccartney)
+* 91,8:30,hot n' cold (katy perry)
+* 91,:50,jet (p. mccartney)
+* 91,:55,cold ass bitch (jett)
+* 91,:55,look what you've done (jett)
 * 92,1:05:00,word up (cameo)
+* 92,33:30,we are the champions (queen)
 * 93,1:14:00,take me home tonight (eddy money)
 * 94,30:20,cruel summer (bananarama)
-* 94,??:??,goodnight sweetheart
-* 94,??:??,take out the papers and the trash
 * 94,44:00,"
 * 94,44:12,walk the dinosaur (was not was)
 * 94,52:00,yellow purple people eater (?)
 * 94,52:20,itsy bitsy teeny weeny...bikini
 * 94,54:00,earth angel
-* 95,25:36,don't go back to rockville (r.e.m.)
+* 94,??:??,goodnight sweetheart
+* 94,??:??,take out the papers and the trash
+* 94,??:??,walk the dinosaur (was not was)
 * 95,1:09:10,don't go back to rockville (r.e.m.)
+* 95,25:36,don't go back to rockville (r.e.m.)
 * 96,1:17:20,i whip my hair back and forth (w. smith)
 * 96,1:18:00,miami (will smith)
 * 97,22:35,i hear you talking in yr sleep (the romantics)
 * 97,59:45,pink cadillac (springsteen?)
 * 98,3:50,jungle boogie?
-* 98,6:00,laffy taffy (d4l)
 * 98,47:00,staying alive (bee-gees)
 * 98,47:10,bohemian rhapsody (queen)
 * 98,47:33,africa (toto)
 * 98,48:35,summer of '69 (bryan adams)
 * 98,50:10,we built this city (starship)
 * 98,51:10,we wish you a merry christmas (trad.)
-* 98,52:20,like a virgin (madonna)
-* 98,52:20,eat it (weird al)
 * 98,52:20,beat it (m.jak)
+* 98,52:20,eat it (weird al)
+* 98,52:20,like a virgin (madonna)
 * 98,53:50,best of burden (stones)
 * 98,53:50,time is on my sand (stones)
 * 98,54:30,satisfaction (stones)
-* 99,1:08:00,papa just wants the best for you (danny aiello)
+* 98,6:00,laffy taffy (d4l)
 * 99,1:08:00,papa don't preach (madonna)
+* 99,1:08:00,papa just wants the best for you (danny aiello)
 * 99,1:21:22,gonna make you sweat (c+c music factory)
 * 100,32:30,one step over the line (??)
 * 101,1:00,carry that weight (beatles)
@@ -574,3 +574,49 @@
 * 115,20:00,freedom from choice (devo)
 * 115,36:48,you better shop around (??)
 * 116,1:01:00,time of your life (green day)
+* b3,57:00,kickstart my heart - motley crue?
+* bo2010,1:39:20,hot in herrr (nelly)
+* bo2010,59:00,lodi (CCR)
+* BO2014.3,1:37:30,i'm a wheel watcher (?)
+* BO2015.1,19:35, gangster's paradise
+* BO2015.1,1:52:52,i shot the sherrif - marley
+* BO2015.1,????, enter sandman - metallica
+* BO2015.2,2:07:50,christmas even in hollis queens
+* BO2015.3,(i forget)
+* bo2015.3,11:00,it's a family reunion
+* BO2015.3,16:00,night and day (cole porter - but sinatra version)
+* BO2015.3,17:00,you're so nice to come home to (sinatra)
+* BO2015.3,1:00:00,i'm just a bill
+* BO2015.3,20:00,new york (sinatra)
+* BO2015.3,32:00,goodbye norma jean (elton john)
+* BO2015.4,1:10:00,this is it - kenny loggins feat. michael mcdonald
+* BO2015.4,1:18:10,i don't remember - ?
+* howl.34637,35:22,crosstown traffic - hendrix
+* howl.34640,1:09:15,kiss from a rose - seal
+* http://howl.fm/audio/26124/live-from-comic-con-2015,52:15,wrex'neffects w/ k7 - all i wanna do is zoom zoom...
+* http://howl.fm/audio/26124/live-from-comic-con-2015,52:45,buck owens - act naturally (they're gona put me in the movies)
+* http://howl.fm/audio/26124/live-from-comic-con-2015,52:45,buck owens - you don't know me but...
+* http://howl.fm/audio/26124/live-from-comic-con-2015,57:15,tired of being alone - al green
+* http://howl.fm/audio/26124/live-from-comic-con-2015,58:11,??? - selena
+* http://howl.fm/audio/26124/live-from-comic-con-2015,59:45,thank you for being a friend (golden girls)
+* http://howl.fm/audio/26150/live-from-boston-2013-part-1,23:00,fuck the police - ice t & body count
+* http://howl.fm/audio/26153/live-from-detroit-2013,1:13:30,everything in its right place - radiohead
+* http://howl.fm/audio/26153/live-from-detroit-2013,51:00,personal jesus - depeche
+* http://howl.fm/audio/26154/live-from-milwaukee-2013,1:06:30,doctor-doctor
+* http://howl.fm/audio/26157/live-from-philadelphia-2013,31:15,hang the dj - the smiths
+* http://howl.fm/audio/26157/live-from-philadelphia-2013,40:00,royals - lorde
+* http://howl.fm/audio/26157/live-from-philadelphia-2013,40:04,enter sandman - metallica
+* http://howl.fm/audio/26158/live-from-portland-2013,1:21:30,horse with no name
+* http://howl.fm/audio/26159/live-from-seattle-2013,1:21:30,cop killer - ice t
+* http://howl.fm/audio/26160/live-from-toronto-2013,1:08:30,there is a light that never goes out - the smiths
+* http://howl.fm/audio/26162/live-from-washington-dc-2013-part-2,1:18:30,old fashioned love song
+* http://howl.fm/audio/26162/live-from-washington-dc-2013-part-2,1:21:50,the end - doors
+* http://howl.fm/audio/26163/live-from-vancouver-2013,20:23,turn turn turn (yardbirds?)
+* http://howl.fm/audio/34627/live-from-nyc-2012-part-1,45:00,love shack - b-52s
+* http://howl.fm/audio/34632/live-from-san-diego-2012,29:50,walk the dinosaur - was not was
+* http://howl.fm/audio/34633/live-from-san-francisco-2012,57:20,isn't it ironic - morrissette
+* live-from-bumbershoot-2011-part-2,48:30,blackbird
+* live-from-bumbershoot-2011-part-2,48:30,hello - goodbye (?)
+* live-from-comic-con-2016,23:45,woke up like this (beyonce)
+* live-from-comic-con-2016,40:00,downeaster alexa (b. joel)
+* live-from-comic-con-2016,43:30,beat it (m. jackson)
