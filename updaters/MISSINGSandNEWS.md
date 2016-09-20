@@ -18,10 +18,12 @@
 * 2016.perth,56:09
 * i like a round pie (big sue)
 * see [cbb-roundpie.json](cbb-roundpie.json)
-* we're really gonna probe his psyche
+* we're really gonna probe his psyche (in-depth)
 * 98,1:30
 * 99,1:40
 * the two oswalt eps
+* 119,15:00
+* 119,15:45
 * unwanted heimlich maneuvers
 * http://howl.fm/audio/42018/may-21-detroit-royal-oak-music-theatre,37:30
 * thanks, reggie

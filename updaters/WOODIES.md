@@ -219,3 +219,5 @@
 * 2016.perth,~40:00,i'm a creature of love
 * 2016.perth,48:23,i gave him a wooden horse
 * 116,58:00,like cock sucking lips?
+* 446,1:33:30,you can be there for the birth without staring directly into her vaginal canal
+* 119,53:30,well i got my hands on an ape
