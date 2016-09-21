@@ -221,3 +221,5 @@
 * 116,58:00,like cock sucking lips?
 * 446,1:33:30,you can be there for the birth without staring directly into her vaginal canal
 * 119,53:30,well i got my hands on an ape
+* 122,55:30,like a classroom guinea pig who's lived too long
+* 123,51:30,you also rhymed 'math' with 'mathscience'
