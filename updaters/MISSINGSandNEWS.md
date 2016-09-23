@@ -38,6 +38,8 @@
 * 2016.chicago7,39:20
 * asked and answered
 * 97,50:30
+* 125,??
+* 126,1:14:28
 * countless
 * 2016.seattle,1:22:00
 * 2016.toronto0506,1:28:00
@@ -207,6 +209,7 @@
 * buttercream effect
 * 215,~59:30
 * 215,~1:01:30
+* 130,1:08:45
 * 2016.oakland,1:01:12
 * muppets gonna eff?
 * bo2015.x?
@@ -453,6 +456,7 @@
 * satur*day* *night* live
 * lots
 * 113,2:30
-* of note
+* of note/in his own right
 * 445,4:00
 * 445,19:30
+* 128,2:50

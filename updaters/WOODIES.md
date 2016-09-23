@@ -223,3 +223,4 @@
 * 119,53:30,well i got my hands on an ape
 * 122,55:30,like a classroom guinea pig who's lived too long
 * 123,51:30,you also rhymed 'math' with 'mathscience'
+* 126,59:45,true? no. false? yes.
