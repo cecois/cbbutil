@@ -4209,3 +4209,91 @@
 	"id_wikia": 2992,
 	"holding": "false"
 }
+
+{
+	"episode": 447,
+	"show": "cbb",
+	"tstart": "16:30",
+	"tend": "16:44",
+	"instance": "We have Allan McLeod...is on this show.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"tags": "Bone Queef John,Allan McLeod",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-09-26T11:51:29Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/447-aya-cash-kether-donohue-zeke-nicholson-kate-berlant/#t=16:30",
+	"created_at": "2016-09-26T11:51:29Z",
+	"slug_soundcloud": "447-aya-cash-kether-donohue-zeke-nicholson-kate-berlant",
+	"slug_earwolf": "these-are-the-worst",
+	"episode_title": "These Are the Worst",
+	"episode_guests": "Aya Cash, Kether Donohue, Zeke Nicholson, Kate Berlant",
+	"id_wikia": null,
+	"holding": "false"
+}
+
+{
+	"episode": 447,
+	"show": "cbb",
+	"tstart": "20:58",
+	"tend": "21:05",
+	"instance": "Bone Queef, have you ever taken a chemstry read?",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"tags": "Bone Queef John",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-09-26T11:51:29Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/447-aya-cash-kether-donohue-zeke-nicholson-kate-berlant/#t=20:58",
+	"created_at": "2016-09-26T11:51:29Z",
+	"slug_soundcloud": "447-aya-cash-kether-donohue-zeke-nicholson-kate-berlant",
+	"slug_earwolf": "these-are-the-worst",
+	"episode_title": "These Are the Worst",
+	"episode_guests": "Aya Cash, Kether Donohue, Zeke Nicholson, Kate Berlant",
+	"id_wikia": null,
+	"holding": "false"
+}
+
+{
+	"episode": 132,
+	"show": "cbb",
+	"tstart": "14:24",
+	"tend": "14:32",
+	"instance": "Nick Lowe, who we had on the show recently.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-09-26T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/occupy-thanksgiving/#t=14:24",
+	"tags": "Nick Lowe",
+	"created_at": "2016-09-23T10:51:29Z",
+	"slug_soundcloud": "occupy-thanksgiving",
+	"slug_earwolf": "occupy-thanksgiving",
+	"episode_title": "Occupy Thanksgiving",
+	"episode_guests": "David Wain,Margaret Cho,James Adomian,Grant-Lee Phillips",
+	"id_wikia": 3027,
+	"holding": "false"
+}
+
+{
+	"episode": 132,
+	"show": "cbb",
+	"tstart": "18:42",
+	"tend": "18:46",
+	"instance": "That was beautiful.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-09-26T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/occupy-thanksgiving/#t=18:42",
+	"tags": "Nick Lowe",
+	"created_at": "2016-09-23T10:51:29Z",
+	"slug_soundcloud": "occupy-thanksgiving",
+	"slug_earwolf": "occupy-thanksgiving",
+	"episode_title": "Occupy Thanksgiving",
+	"episode_guests": "David Wain,Margaret Cho,James Adomian,Grant-Lee Phillips",
+	"id_wikia": 3027,
+	"holding": "false"
+}

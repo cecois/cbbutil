@@ -12,6 +12,9 @@
 * 2016.denver,1:18:50
 * 2016.tour.bo.1,15:30
 * 2016.toronto0506,58:40,fuck you listners!
+* if you who if not now when?
+	* lotsa times prior to 132
+	* 132,6:30
 * circus in town
 * 115,42:50
 * deep cut
@@ -420,6 +423,7 @@
 * 2016.austin,18:10
 * face / off
 * 2016.minneapolis,30:50 (not sure now)
+* 131,33:00
 * 2016.chicago7pm,30:55
 * 2016.chicago10,54:50
 * i'm from new jersey
