@@ -22,6 +22,7 @@
 * i like a round pie (big sue)
 * see [cbb-roundpie.json](cbb-roundpie.json)
 * we're really gonna probe his psyche (in-depth)
+* 136,22:49
 * 135,46:20
 * 135,26:52
 * 133,1:14:00
@@ -172,23 +173,24 @@
 * 2016.losangeles,1:01:00
 * 2016.losangeles,1:00:40
 * character bonanzas
-* 286
-* daly intervention
-* several tompkins eps
-* 378 kroll does tons
-* 125,1:01:00,irma-bobby-other
-* 406,1:06:00,Murphy O'Malaman && Todd
-* 32,53:00,brendon small does impressions
-* 51,22:00+
-* 51,39:30
-* 85,4:00(+?),campbell does christmas characters
-* 85,1:57:00+
-* 2016.dc,whole time basically
-* 425,kroll does schrift/daemon/fabrice/stallone/chupa/mrs. doubtfire/bill maher/creaky gate/faizon
-* 71,kroll does chupa/vinnie/other
-* 73,1:17:00,swardson does his brother nad betty white
-* 107,1:07:00
-* 109,1:15:30
+	* 136,1:52:00
+	* 286
+	* daly intervention
+	* several tompkins eps
+	* 378 kroll does tons
+	* 125,1:01:00,irma-bobby-other
+	* 406,1:06:00,Murphy O'Malaman && Todd
+	* 32,53:00,brendon small does impressions
+	* 51,22:00+
+	* 51,39:30
+	* 85,4:00(+?),campbell does christmas characters
+	* 85,1:57:00+
+	* 2016.dc,whole time basically
+	* 425,kroll does schrift/daemon/fabrice/stallone/chupa/mrs. doubtfire/bill maher/creaky gate/faizon
+	* 71,kroll does chupa/vinnie/other
+	* 73,1:17:00,swardson does his brother nad betty white
+	* 107,1:07:00
+	* 109,1:15:30
 * rounds of catchphrase
 * all the cities of the country
 * 404,16:00
@@ -236,23 +238,24 @@
 * 2016.oakland,13:00
 * 2016.oakland,54:33
 * fictional people - dead but reasonable
-* san francisco 2012,23:00+
-* seattle 2013,55:45
-* lotsa cakeboss/pft eps
-* 2016.nyc05147pm,59:30,church lady
-* 2016.chicago730,17:20
-* 2016.detroit,40:50
-* 67,32:00 (inaugural)
-* 106.1,51:00
-* 106.2,4:30
+	* san francisco 2012,23:00+
+	* seattle 2013,55:45
+	* lotsa cakeboss/pft eps
+	* 2016.nyc05147pm,59:30,church lady
+	* 2016.chicago730,17:20
+	* 2016.detroit,40:50
+	* 67,32:00 (inaugural)
+	* 106.1,51:00
+	* 106.2,4:30
 * huell turns into a crowbot
-* 29,51:48
-* howl.fm in DC,36:00
-* bo2009,38:00
-* bo2009,1:01:15
-* bo2009,1:25:00
-* 72,1:00:00
-* 80,1:32:30M
+	* 29,51:48
+	* howl.fm in DC,36:00
+	* bo2009,38:00
+	* bo2009,1:01:15
+	* bo2009,1:25:00
+	* 72,1:00:00
+	* 80,1:32:30
+	* 137,1:56:00
 * it's good now
 	* BO2015.2,1:41:00
 	* 400,17:45
@@ -304,6 +307,7 @@
 	* 2016.tour.bo.2,10:20
 	* 2016.melbourne,0:50
 	* 2016.sydney,0:30
+	* 2016.leeds,8:30
 * ball droid - bb8
 	* 349,15:00
 	* bo2015.2,58:30
@@ -339,6 +343,7 @@
 	* 399,1:07:50
 	* 2016.chicago10,27:30
 	* 428,14:30
+	* 2016.leeds,25:32
 * don't joke about irobot
 	* early in bo2015.1
 	* bo2015.2,12:00
@@ -434,10 +439,11 @@
 * classic joke structure
 * 2016.austin,18:10
 * face / off
-* 2016.minneapolis,30:50 (not sure now)
-* 131,33:00
-* 2016.chicago7pm,30:55
-* 2016.chicago10,54:50
+	* 136,1:22:11
+	* 2016.minneapolis,30:50 (not sure now)
+	* 131,33:00
+	* 2016.chicago7pm,30:55
+	* 2016.chicago10,54:50
 * i'm from new jersey
 * 2016.detroit,18:10
 * 2016.detroit,22:28
@@ -452,27 +458,28 @@
 * a little buzz
 * 440,55:20
 * off the rails/retiring a train
-* 439,40:10
-* 440,1:16:00
-* 441,5:30
-* 439,40:10
-* 440,1:16:00
-* 2016.sydney,37:30
+	* 439,40:10
+	* 440,1:16:00
+	* 441,5:30
+	* 439,40:10
+	* 440,1:16:00
+	* 2016.sydney,37:30
 * stoppin up the jams
-* 441,lotsa (inaugural)
+	* 441,lotsa (inaugural)
 * biodigital jazz
-* several prior to 101
-* 101,1:08:00
+	* several prior to 101
+	* 101,1:08:00
 * queue the music
-* 2016.tour.bos10,43:00
+	* 2016.tour.bos10,43:00
 * ha'penny
-* 2016.sydney,1:21:30
-* 445,15:00
-* 445,18:45
+	* 2016.sydney,1:21:30
+	* 445,15:00
+	* 445,18:45
 * satur*day* *night* live
-* lots
-* 113,2:30
+	* lots
+	* 113,2:30
 * of note/in his own right
-* 445,4:00
-* 445,19:30
-* 128,2:50
+	* 136,9:09
+	* 445,4:00
+	* 445,19:30
+	* 128,2:50
