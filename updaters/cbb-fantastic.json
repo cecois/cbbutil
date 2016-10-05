@@ -4473,3 +4473,25 @@
 	"id_wikia": 3034,
 	"holding": "false"
 }
+
+{
+	"episode": 448,
+	"show": "cbb",
+	"tstart": "1:00:28",
+	"tend": "1:00:40",
+	"instance":"I had to wrap her in a mattress.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"tags": "Jean Clattern,Mart Clattern",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-10-05T11:51:29Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/448-robert-kirkman-ryan-gaul-john-gemberling/#t=1:00:28",
+	"created_at": "2016-10-05T11:51:29Z",
+	"slug_soundcloud": "448-robert-kirkman-ryan-gaul-john-gemberling",
+	"slug_earwolf": "master-of-horror",
+	"episode_title": "Master of Horror",
+	"episode_guests": "Robert Kirkman, Ryan Gaul, John Gemberling",
+	"id_wikia": null,
+	"holding": "false"
+}

@@ -1,51 +1,62 @@
 # possible new bits: 
+* book fade-outs
+	* 2016.leeds,1:39:20
+	* 2016.shepherds,1:49:15
+* beautiful minding
+	* several in 2016 uk tour
+	* 2016.shepherds,1:21:00
+	* 2016.shepherds,1:46:45
 * "fantastic"
-* see [cbb-fantastic.json](cbb-fantastic.json)
+	* see [cbb-fantastic.json](cbb-fantastic.json)
 * literally nowhere else to go
-* see [cbb-literally.json](cbb-literally.json)
+	* see [cbb-literally.json](cbb-literally.json)
 * fu, howl subscribers
-* 2016.losangeles,52:45
-* 2016.losangeles,28:45
-* 2016.losangeles,1:23:00
-* 2016.nc,42:14
-* 2016.dallas,40:00
-* 2016.denver,1:18:50
-* 2016.tour.bo.1,15:30
-* 2016.toronto0506,58:40,fuck you listners!
+	* 2016.losangeles,52:45
+	* 2016.losangeles,28:45
+	* 2016.losangeles,1:23:00
+	* 2016.nc,42:14
+	* 2016.dallas,40:00
+	* 2016.denver,1:18:50
+	* 2016.tour.bo.1,15:30
+	* 2016.toronto0506,58:40,fuck you listners!
 * if you who if not now when?
 	* lotsa times prior to 132
 	* 132,6:30
+* no rule against dogs playing (football|basketball)
+	* 2016.shepherds,42:45
 * circus in town
-* 115,42:50
+	* 115,42:50
 * deep cut
-* 2016.perth,56:09
+	* 2016.perth,56:09
 * i like a round pie (big sue)
-* see [cbb-roundpie.json](cbb-roundpie.json)
+	* see [cbb-roundpie.json](cbb-roundpie.json)
 * we're really gonna probe his psyche (in-depth)
-* 136,22:49
-* 135,46:20
-* 135,26:52
-* 133,1:14:00
-* 133,9:00
-* 133,43:50
-* 98,1:30
-* 99,1:40
-* the two oswalt eps
-* 119,15:00
-* 119,15:45
+	* 136,22:49
+	* 135,46:20
+	* 135,26:52
+	* 133,1:14:00
+	* 133,9:00
+	* 133,43:50
+	* 98,1:30
+	* 99,1:40
+	* the two oswalt eps
+	* 119,15:00
+	* 119,15:45
+	* 137.5,1:14:50
 * unwanted heimlich maneuvers
-* http://howl.fm/audio/42018/may-21-detroit-royal-oak-music-theatre,37:30
+	* http://howl.fm/audio/42018/may-21-detroit-royal-oak-music-theatre,37:30
 * thanks, reggie
-* almost every ep at least thru 84
-* 84,2:30
-* 93,01:40
+	* almost every ep at least thru 84
+	* 84,2:30
+	* 93,01:40
 * german germany cannibalism
-* 59,42:45 (inaugural)
-* 429,1:17:42
-* bo2010,46:50
+	* 59,42:45 (inaugural)
+	* 429,1:17:42
+	* bo2010,46:50
+	* 137,3:30
 * one toilet per person
-* 2016.nottingham,25:45
-* 2016.chicago7,39:20
+	* 2016.nottingham,25:45
+	* 2016.chicago7,39:20
 * asked and answered
 * 97,50:30
 * 125,??
@@ -73,16 +84,17 @@
 * suck my clit (pam frm big bear catchphrase)
 * see [cbb-smc.json](/Users/ccmiller/Desktop/cbb/updaters/cbb-smc.json)
 * Indiana Jones/Raiders
-* 2016.toronto,1:02:00
-* end of portland7
-* 2016.portland10,9:25
-* 2016.philly,1:28:00
-* 2016.nyc05147pm,50:00
-* 2016.nyc0515930pm,05:30
-* 2016.chicago7pm,08:05
-* 2016.portland7,1:25:31
-* 2016.portland10,9:20
-* 2016.manchester,37:00
+	* 2016.toronto,1:02:00
+	* end of portland7
+	* 2016.portland10,9:25
+	* 2016.philly,1:28:00
+	* 2016.nyc05147pm,50:00
+	* 2016.nyc0515930pm,05:30
+	* 2016.chicago7pm,08:05
+	* 2016.portland7,1:25:31
+	* 2016.portland10,9:20
+	* 2016.manchester,37:00
+	* 2016.shepherds,1:29:20
 * PJ
 * basically every 2016 tour stop
 * 2016.tarrytown,1:20:40
@@ -219,10 +231,11 @@
 * 215,59:23
 * fix scott's nephew todd tag
 * buttercream effect
-* 215,~59:30
-* 215,~1:01:30
-* 130,1:08:45
-* 2016.oakland,1:01:12
+	* 215,~59:30
+	* 215,~1:01:30
+	* 130,1:08:45
+	* 2016.oakland,1:01:12
+	* 448,13:48
 * muppets gonna eff?
 * 2016.nottingham,53:20 (?)
 * bo2015.x?
@@ -247,6 +260,7 @@
 	* 67,32:00 (inaugural)
 	* 106.1,51:00
 	* 106.2,4:30
+	* 137.5,6:30
 * huell turns into a crowbot
 	* 29,51:48
 	* howl.fm in DC,36:00
@@ -269,6 +283,7 @@
 	* 423,42:20
 	* 423,1:18:30
 	* 424,1:27:45
+	* 2016.shepherds,15:00
 * look it up, (scotty|pauly) - 
 	* 349,42:30
 	* bo2015.4,8:00
@@ -360,6 +375,7 @@
 	* 2016.vancouver,1:15:00
 	* 2016.austin,1:15:30
 	* 2016.brisbane,31:52
+	* 2016.shepherds,15:00
 * i ain't down with (into) that g** shi*
 * http://howl.fm/audio/26138/live-from-nyc-2014-part-1,46:00
 * 215,20:34
@@ -478,6 +494,7 @@
 * satur*day* *night* live
 	* lots
 	* 113,2:30
+	* 137,9:30
 * of note/in his own right
 	* 136,9:09
 	* 445,4:00
