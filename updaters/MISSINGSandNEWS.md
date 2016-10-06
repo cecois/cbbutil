@@ -43,6 +43,9 @@
 	* 119,15:00
 	* 119,15:45
 	* 137.5,1:14:50
+	* 138,17:30
+	* 139,22:30
+	* 139,33:00
 * unwanted heimlich maneuvers
 	* http://howl.fm/audio/42018/may-21-detroit-royal-oak-music-theatre,37:30
 * thanks, reggie
@@ -54,6 +57,7 @@
 	* 429,1:17:42
 	* bo2010,46:50
 	* 137,3:30
+	* 138,21:34
 * one toilet per person
 	* 2016.nottingham,25:45
 	* 2016.chicago7,39:20
@@ -329,6 +333,9 @@
 	* 2016.nyc0514930,42:00
 * bing it
 	* 378,4:50
+	* 138,5:50
+	* 138,1:06:50
+	* 138,1:10:30
 * mr. microphone
 	* 6th anniversary special
 	* BO2015.4,10:55
