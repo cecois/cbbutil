@@ -4583,3 +4583,157 @@
 	"id_wikia": 3036,
 	"holding": "false"
 }
+
+{
+	"episode": 139,
+	"show": "cbb",
+	"tstart": "53:31",
+	"tend": "53:41",
+	"instance": "You fill in the blank in the following sentence.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-10-07T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/win-a-farmhouse/#t=53:31",
+	"tags": "Paul Luzak",
+	"created_at": "2016-04-07T10:51:29Z",
+	"slug_soundcloud": "win-a-farmhouse",
+	"slug_earwolf": "win-a-farmhouse",
+	"episode_title": "Win a Farmhouse",
+	"episode_guests": "Bob Odenkirk,Brian Huskey",
+	"id_wikia": 2096,
+	"holding": "false"
+}
+
+{
+	"episode": 139,
+	"show": "cbb",
+	"tstart": "1:13:37",
+	"tend": "1:13:46",
+	"instance": "Jack, Kyle, come on the show.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-10-07T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/win-a-farmhouse/#t=1:13:37",
+	"tags": "Paul Luzak,Tenacious D (musical combination)",
+	"created_at": "2016-04-07T10:51:29Z",
+	"slug_soundcloud": "win-a-farmhouse",
+	"slug_earwolf": "win-a-farmhouse",
+	"episode_title": "Win a Farmhouse",
+	"episode_guests": "Bob Odenkirk,Brian Huskey",
+	"id_wikia": 2096,
+	"holding": "false"
+}
+
+{
+	"episode": 140,
+	"show": "cbb",
+	"tstart": "1:06:26",
+	"tend": "1:06:36",
+	"instance": "Get some chops, you little sonofabitch.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-10-07T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/ron-swanson-off/#t=1:06:26",
+	"tags": "Paul Giamatti",
+	"created_at": "2016-10-07T10:51:29Z",
+	"slug_soundcloud": "ron-swanson-off",
+	"slug_earwolf": "ron-swanson-off",
+	"episode_title": "Ron Swanson Off",
+	"episode_guests": "Nick Offerman,James Adomian",
+	"id_wikia": 3038,
+	"holding": "false"
+}
+
+{
+	"episode": 140,
+	"show": "cbb",
+	"tstart": "1:06:44",
+	"tend": "1:06:54",
+	"instance": "As long as history is not written by the winners.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-10-07T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/ron-swanson-off/#t=1:06:44",
+	"tags": "Paul Giamatti",
+	"created_at": "2016-10-07T10:51:29Z",
+	"slug_soundcloud": "ron-swanson-off",
+	"slug_earwolf": "ron-swanson-off",
+	"episode_title": "Ron Swanson Off",
+	"episode_guests": "Nick Offerman,James Adomian",
+	"id_wikia": 3038,
+	"holding": "false"
+}
+
+{
+	"episode": 140,
+	"show": "cbb",
+	"tstart": "1:09:18",
+	"tend": "1:09:30",
+	"instance": "You can get your loved one's initials branded in [a moustache comb] for $17,325.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-10-07T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/ron-swanson-off/#t=1:09:18",
+	"tags": "",
+	"created_at": "2016-10-07T10:51:29Z",
+	"slug_soundcloud": "ron-swanson-off",
+	"slug_earwolf": "ron-swanson-off",
+	"episode_title": "Ron Swanson Off",
+	"episode_guests": "Nick Offerman,James Adomian",
+	"id_wikia": 3038,
+	"holding": "false"
+}
+
+{
+	"episode": 140,
+	"show": "cbb",
+	"tstart": "1:12:34",
+	"tend": "1:12:43",
+	"instance": "You've built two [canoes] in your lifetime?",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-10-07T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/ron-swanson-off/#t=1:12:34",
+	"tags": "",
+	"created_at": "2016-10-07T10:51:29Z",
+	"slug_soundcloud": "ron-swanson-off",
+	"slug_earwolf": "ron-swanson-off",
+	"episode_title": "Ron Swanson Off",
+	"episode_guests": "Nick Offerman,James Adomian",
+	"id_wikia": 3038,
+	"holding": "false"
+}
+
+{
+	"episode": 140,
+	"show": "cbb",
+	"tstart": "1:30:05",
+	"tend": "1:13:14",
+	"instance": "In January, '30 Rock' is coming back to be our lead-in.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-10-07T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/ron-swanson-off/#t=1:30:05",
+	"tags": "",
+	"created_at": "2016-10-07T10:51:29Z",
+	"slug_soundcloud": "ron-swanson-off",
+	"slug_earwolf": "ron-swanson-off",
+	"episode_title": "Ron Swanson Off",
+	"episode_guests": "Nick Offerman,James Adomian",
+	"id_wikia": 3038,
+	"holding": "false"
+}

@@ -459,3 +459,91 @@
 	"id_wikia": 3036,
 	"holding": "false"
 }
+
+{
+	"episode": 139,
+	"show": "cbb",
+	"tstart": "36:42",
+	"tend": "37:04",
+	"instance": "Oh my god - intrigue.",
+	"bit":"We'll Be Right Back",
+	"elucidation":"somebody (usually todd glass) throws to commercial after a bit",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-10-07T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/win-a-farmhouse/#t=36:42",
+	"tags": "Paul Luzak",
+	"created_at": "2016-04-07T10:51:29Z",
+	"slug_soundcloud": "win-a-farmhouse",
+	"slug_earwolf": "win-a-farmhouse",
+	"episode_title": "Win a Farmhouse",
+	"episode_guests": "Bob Odenkirk,Brian Huskey",
+	"id_wikia": 2096,
+	"holding": "false"
+}
+
+{
+	"episode": 139,
+	"show": "cbb",
+	"tstart": "38:44",
+	"tend": "39:00",
+	"instance": "But you're not the real landlord?",
+	"bit":"We'll Be Right Back",
+	"elucidation":"somebody (usually todd glass) throws to commercial after a bit",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-10-07T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/win-a-farmhouse/#t=38:44",
+	"tags": "Paul Luzak",
+	"created_at": "2016-04-07T10:51:29Z",
+	"slug_soundcloud": "win-a-farmhouse",
+	"slug_earwolf": "win-a-farmhouse",
+	"episode_title": "Win a Farmhouse",
+	"episode_guests": "Bob Odenkirk,Brian Huskey",
+	"id_wikia": 2096,
+	"holding": "false"
+}
+
+{
+	"episode": 139,
+	"show": "cbb",
+	"tstart": "38:44",
+	"tend": "39:00",
+	"instance": "But you're not the real landlord?",
+	"bit":"Location",
+	"elucidation":"identifiable earth location",
+	"location_type": "point",
+	"location_id": "162",
+	"updated_at": "2016-10-07T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/win-a-farmhouse/#t=38:44",
+	"tags": "Paul Luzak",
+	"created_at": "2016-04-07T10:51:29Z",
+	"slug_soundcloud": "win-a-farmhouse",
+	"slug_earwolf": "win-a-farmhouse",
+	"episode_title": "Win a Farmhouse",
+	"episode_guests": "Bob Odenkirk,Brian Huskey",
+	"id_wikia": 2096,
+	"holding": "false"
+}
+
+{
+	"episode": 139,
+	"show": "cbb",
+	"tstart": "1:03:57",
+	"tend": "1:04:08",
+	"instance": "I wanna see people ordering him and ingesting him.",
+	"bit":"That is the Dream",
+	"elucidation":"scott seems jealous or just commendatory",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-10-07T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/win-a-farmhouse/#t=1:03:57",
+	"tags": "Paul Luzak",
+	"created_at": "2016-04-07T10:51:29Z",
+	"slug_soundcloud": "win-a-farmhouse",
+	"slug_earwolf": "win-a-farmhouse",
+	"episode_title": "Win a Farmhouse",
+	"episode_guests": "Bob Odenkirk,Brian Huskey",
+	"id_wikia": 2096,
+	"holding": "false"
+}

@@ -2483,3 +2483,47 @@
 	"id_wikia": 3036,
 	"holding": "false"
 }
+
+{
+	"episode": 139,
+	"show": "cbb",
+	"tstart": "1:12:20",
+	"tend": "1:12:26",
+	"instance": "I heard a rumor.",
+	"bit": "The Paul Hardcastle of Suicides",
+	"elucidation": "any song reference",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-10-07T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/win-a-farmhouse/#t=1:12:20",
+	"tags": "I Heard a Rumour (song),Bananarama (musical combination)",
+	"created_at": "2016-04-07T10:51:29Z",
+	"slug_soundcloud": "win-a-farmhouse",
+	"slug_earwolf": "win-a-farmhouse",
+	"episode_title": "Win a Farmhouse",
+	"episode_guests": "Bob Odenkirk,Brian Huskey",
+	"id_wikia": 2096,
+	"holding": "false"
+}
+
+{
+	"episode": 140,
+	"show": "cbb",
+	"tstart": "18:26",
+	"tend": "18:39",
+	"instance": "The band or the expression?",
+	"bit": "The Paul Hardcastle of Suicides",
+	"elucidation": "any song reference",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-10-07T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/ron-swanson-off/#t=18:26",
+	"tags": "LMFAO (musical combination),I'm in Miama Bitch (song)",
+	"created_at": "2016-10-07T10:51:29Z",
+	"slug_soundcloud": "ron-swanson-off",
+	"slug_earwolf": "ron-swanson-off",
+	"episode_title": "Ron Swanson Off",
+	"episode_guests": "Nick Offerman,James Adomian",
+	"id_wikia": 3038,
+	"holding": "false"
+}

@@ -46,6 +46,9 @@
 	* 138,17:30
 	* 139,22:30
 	* 139,33:00
+	* 139,34:10
+	* 139,49:55
+	* 140,30:00
 * unwanted heimlich maneuvers
 	* http://howl.fm/audio/42018/may-21-detroit-royal-oak-music-theatre,37:30
 * thanks, reggie
