@@ -50,6 +50,7 @@
 	* 139,49:55
 	* 140,30:00
 	* 141,20:45
+	* 141,49:10
 * unwanted heimlich maneuvers
 	* http://howl.fm/audio/42018/may-21-detroit-royal-oak-music-theatre,37:30
 * thanks, reggie
@@ -387,6 +388,8 @@
 	* 2016.austin,1:15:30
 	* 2016.brisbane,31:52
 	* 2016.shepherds,15:00
+	* 449,10:30
+	* 449,46:00
 * i ain't down with (into) that g** shi*
 * http://howl.fm/audio/26138/live-from-nyc-2014-part-1,46:00
 * 215,20:34

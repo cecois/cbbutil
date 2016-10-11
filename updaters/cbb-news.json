@@ -745,3 +745,47 @@
 	"id_wikia": 3040,
 	"holding": "false"
 }
+
+{
+	"episode": 142,
+	"show": "cbb",
+	"tstart": "26:02",
+	"tend": "26:15",
+	"instance": "You can go into their books and find out if they've killed someone by what they've bought.",
+	"bit":"We'll Be Right Back",
+	"elucidation":"somebody (usually todd glass) throws to commercial after a bit",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2015-10-16T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/popcorn-com/#t=26:02",
+	"tags": "",
+	"created_at": "2015-04-03T10:51:29Z",
+	"slug_soundcloud": "popcorn-com",
+	"slug_earwolf": "popcorn-com",
+	"episode_title": "Popcorn.com",
+	"episode_guests": "Tim & Eric,James Adomian",
+	"id_wikia": 3049,
+	"holding": "false"
+}
+
+{
+	"episode": 142,
+	"show": "cbb",
+	"tstart": "45:56",
+	"tend": "46:15",
+	"instance": "I should screen the guests a little better.",
+	"bit":"Shut the Fuck Up!",
+	"elucidation":"someone simply wants everyone else specifically to shut the fuck up",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2015-10-16T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/popcorn-com/#t=45:56",
+	"tags": "Dr. Bronner",
+	"created_at": "2015-04-03T10:51:29Z",
+	"slug_soundcloud": "popcorn-com",
+	"slug_earwolf": "popcorn-com",
+	"episode_title": "Popcorn.com",
+	"episode_guests": "Tim & Eric,James Adomian",
+	"id_wikia": 3049,
+	"holding": "false"
+}
