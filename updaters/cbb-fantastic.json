@@ -4781,3 +4781,25 @@
 	"id_wikia": 3040,
 	"holding": "false"
 }
+
+{
+	"episode": 449,
+	"show": "cbb",
+	"tstart": "2:42",
+	"tend": "2:55",
+	"instance": "It turns out they were all murdered.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"tags": "Quincy M.E. (TV)",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-10-10T11:51:29Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/449-paul-f-tompkins-drew-tarver-ryan-gaul-mandell-maughan-dan-ahdoot/#t=2:42",
+	"created_at": "2016-10-10T11:51:29Z",
+	"slug_soundcloud": "449-paul-f-tompkins-drew-tarver-ryan-gaul-mandell-maughan-dan-ahdoot",
+	"slug_earwolf": "nasty-lyrics",
+	"episode_title": "Nasty Lyrics",
+	"episode_guests": "Paul F. Tompkins, Drew Tarver, Ryan Gaul, Mandell Maughan, Dan Ahdoot",
+	"id_wikia": null,
+	"holding": "false"
+}

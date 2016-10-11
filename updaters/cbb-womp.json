@@ -2571,3 +2571,25 @@
  	"id_wikia": 3040,
  	"holding": "false"
  }
+
+ {
+ 	"episode": 449,
+ 	"show": "cbb",
+ 	"tstart": "1:40",
+ 	"tend": "1:53",
+ 	"instance": "How else would the countdown go if not by minutes?",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"tags": "Seasons of Love (song),Rent (musical)",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-10-10T11:51:29Z",
+ 	"url_soundcloud": "https://soundcloud.com/comedybangbang/449-paul-f-tompkins-drew-tarver-ryan-gaul-mandell-maughan-dan-ahdoot/#t=1:40",
+ 	"created_at": "2016-10-10T11:51:29Z",
+ 	"slug_soundcloud": "449-paul-f-tompkins-drew-tarver-ryan-gaul-mandell-maughan-dan-ahdoot",
+ 	"slug_earwolf": "nasty-lyrics",
+ 	"episode_title": "Nasty Lyrics",
+ 	"episode_guests": "Paul F. Tompkins, Drew Tarver, Ryan Gaul, Mandell Maughan, Dan Ahdoot",
+ 	"id_wikia": null,
+ 	"holding": "false"
+ }
