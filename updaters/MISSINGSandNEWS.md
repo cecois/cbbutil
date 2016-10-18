@@ -207,6 +207,7 @@
 	* 51,39:30
 	* 85,4:00(+?),campbell does christmas characters
 	* 85,1:57:00+
+	* 451,tiny and victor et al
 	* 2016.dc,whole time basically
 	* 425,kroll does schrift/daemon/fabrice/stallone/chupa/mrs. doubtfire/bill maher/creaky gate/faizon
 	* 71,kroll does chupa/vinnie/other
@@ -334,6 +335,7 @@
 	* 2016.melbourne,0:50
 	* 2016.sydney,0:30
 	* 2016.leeds,8:30
+	* 450,3:00
 * ball droid - bb8
 	* 349,15:00
 	* bo2015.2,58:30
@@ -343,6 +345,7 @@
 	* 138,5:50
 	* 138,1:06:50
 	* 138,1:10:30
+	* 146,8:30
 * mr. microphone
 	* 6th anniversary special
 	* BO2015.4,10:55
@@ -392,6 +395,7 @@
 	* 2016.shepherds,15:00
 	* 449,10:30
 	* 449,46:00
+	* 450,1:15:29
 * i ain't down with (into) that g** shi*
 * http://howl.fm/audio/26138/live-from-nyc-2014-part-1,46:00
 * 215,20:34
@@ -450,6 +454,7 @@
 * 41,9:30
 * 2016.perth,1:05:10
 * symmetrical face
+* 146,4:30
 * 41,29:00
 * 2016.dc,1:00:00
 * 2016.dc,1:06:30
@@ -496,6 +501,7 @@
 	* 439,40:10
 	* 440,1:16:00
 	* 2016.sydney,37:30
+	* 451,2:00
 * stoppin up the jams
 	* 441,lotsa (inaugural)
 * biodigital jazz
@@ -516,3 +522,4 @@
 	* 445,4:00
 	* 445,19:30
 	* 128,2:50
+	* 450,4:10
