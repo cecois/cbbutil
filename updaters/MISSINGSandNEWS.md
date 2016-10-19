@@ -58,6 +58,7 @@
 	* almost every ep at least thru 84
 	* 84,2:30
 	* 93,01:40
+	* 149,5:00
 * german germany cannibalism
 	* 59,42:45 (inaugural)
 	* 429,1:17:42
@@ -195,6 +196,7 @@
 * 2016.losangeles,1:01:00
 * 2016.losangeles,1:00:40
 * character bonanzas
+	* 148,1:15:00
 	* 136,1:52:00
 	* 286
 	* daly intervention
@@ -346,6 +348,10 @@
 	* 138,1:06:50
 	* 138,1:10:30
 	* 146,8:30
+	* 148,9:00
+	* 148,50:50
+	* 148,1:03:20
+	* 148,1:06:20
 * mr. microphone
 	* 6th anniversary special
 	* BO2015.4,10:55
