@@ -29,7 +29,7 @@
 * 148,30:17,wipeout +++
 * 148,5:15,12 nights of oscars
 * 150,16:53,you don't still got it after all
-* 150,38:20,William Shatner drowning his wife +++
+* 150,38:10,William Shatner drowning his wife +++
 * 150,44:44,glamourpuss
 * 150,5:30,dracularic activities
 * 161,23:45,I love woodies

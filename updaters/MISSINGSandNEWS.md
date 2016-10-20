@@ -1,4 +1,31 @@
 # possible new bits: 
+* we're really gonna probe his psyche (in-depth)
+	* 150,0:20
+	* 150,7:20
+	* 150,29:20
+	* 151,16:10
+	* 151,19:00
+	* 136,22:49
+	* 135,46:20
+	* 135,26:52
+	* 133,1:14:00
+	* 133,9:00
+	* 133,43:50
+	* 98,1:30
+	* 99,1:40
+	* the two oswalt eps
+	* 119,15:00
+	* 119,15:45
+	* 137.5,1:14:50
+	* 138,17:30
+	* 139,22:30
+	* 139,33:00
+	* 139,34:10
+	* 139,49:55
+	* 140,30:00
+	* 141,20:45
+	* 141,49:10
+	* 145,9:30
 * book fade-outs
 	* 2016.leeds,1:39:20
 	* 2016.shepherds,1:49:15
@@ -30,28 +57,6 @@
 	* 2016.perth,56:09
 * i like a round pie (big sue)
 	* see [cbb-roundpie.json](cbb-roundpie.json)
-* we're really gonna probe his psyche (in-depth)
-	* 136,22:49
-	* 135,46:20
-	* 135,26:52
-	* 133,1:14:00
-	* 133,9:00
-	* 133,43:50
-	* 98,1:30
-	* 99,1:40
-	* the two oswalt eps
-	* 119,15:00
-	* 119,15:45
-	* 137.5,1:14:50
-	* 138,17:30
-	* 139,22:30
-	* 139,33:00
-	* 139,34:10
-	* 139,49:55
-	* 140,30:00
-	* 141,20:45
-	* 141,49:10
-	* 145,9:30
 * unwanted heimlich maneuvers
 	* http://howl.fm/audio/42018/may-21-detroit-royal-oak-music-theatre,37:30
 * thanks, reggie
