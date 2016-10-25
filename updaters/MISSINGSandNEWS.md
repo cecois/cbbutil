@@ -3,8 +3,10 @@
 	* 150,0:20
 	* 150,7:20
 	* 150,29:20
+	* 152,21:30
 	* 151,16:10
 	* 151,19:00
+	* 152,24:05
 	* 136,22:49
 	* 135,46:20
 	* 135,26:52
@@ -225,11 +227,12 @@
 * all the cities of the country
 * 404,16:00
 * r2d2soon
-* bo2015*
-* 404,21:15
-* 2016nyc05015.930,31:00
-* 423,16:45
-* 2016.detroit,1:24:45
+	* bo2015*
+	* 404,21:15
+	* 2016nyc05015.930,31:00
+	* 423,16:45
+	* 2016.detroit,1:24:45
+	* 452,1:09:00
 * maybe it's just me but for me
 * 145,31:55
 * 411,53:50
@@ -357,6 +360,9 @@
 	* 148,50:50
 	* 148,1:03:20
 	* 148,1:06:20
+	* 152,9:20
+	* 152,18:00
+	* 153,1:04:10
 * mr. microphone
 	* 6th anniversary special
 	* BO2015.4,10:55
@@ -534,3 +540,18 @@
 	* 445,19:30
 	* 128,2:50
 	* 450,4:10
+* urls
+	* 153,27:50
+	* http://howl.fm/audio/26157/live-from-philadelphia-2013,49:35,fuglyducklings.biz
+	* http://howl.fm/audio/26157/live-from-philadelphia-2013,49:35,barelylegalcollegeprep.org
+	* http://howl.fm/audio/26157/live-from-philadelphia-2013,58:15,emptydouchebags.org
+	* http://howl.fm/audio/26157/live-from-philadelphia-2013,58:50,halfaleafclover.us
+	* http://howl.fm/audio/26157/live-from-philadelphia-2013,59:20,casanovagirdles.com
+	* http://howl.fm/audio/26157/live-from-philadelphia-2013,1:00:35,illegalpussy.com
+	* http://howl.fm/audio/26142/live-from-chicago-2014,44:30,fastpussy.net
+	* http://howl.fm/audio/26142/live-from-chicago-2014,46:30,junglecondoms.com
+	* http://howl.fm/audio/26142/live-from-chicago-2014,51:49,badbitchbailbonds.com
+	* http://howl.fm/audio/26142/live-from-chicago-2014,54:10,naughtynotary.net
+	* http://howl.fm/audio/26142/live-from-chicago-2014,1:14:15,wrongpussy.pr
+	* 412,1:32:00,john316.cnn.god
+	* 412,1:32:00,john316.kittenparty
