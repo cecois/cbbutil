@@ -217,3 +217,113 @@
 	"id_wikia": 3066,
 	"holding": "false"
 }
+
+{
+	"episode": 154,
+	"show": "cbb",
+	"tstart": "1:24",
+	"tend": "1:38",
+	"instance": "There are no Jews in here.",
+	"bit":"Good Advice",
+	"elucidation":"a guest performs before they're announced",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-10-25T14:33:40Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/finger-guns/#t=1:24",
+	"tags": "Marissa Wompler",
+	"created_at": "2016-10-25T14:33:40Z",
+	"slug_soundcloud": "finger-guns",
+	"slug_earwolf": "finger-guns",
+	"episode_title": "Finger Guns",
+	"episode_guests": "Lennon Parham,Jessica St. Clair",
+	"id_wikia": 2341,
+	"holding": "false"
+}
+
+{
+	"episode": 154,
+	"show": "cbb",
+	"tstart": "19:05",
+	"tend": "19:13",
+	"instance": "I also have a blog.",
+	"bit":"Group Coupon",
+	"elucidation":"scott articulates obvious data (acronyms, abbreviations, etc.)",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-10-25T14:33:40Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/finger-guns/#t=19:05",
+	"tags": "Marissa Wompler,Charlotte Listler",
+	"created_at": "2016-10-25T14:33:40Z",
+	"slug_soundcloud": "finger-guns",
+	"slug_earwolf": "finger-guns",
+	"episode_title": "Finger Guns",
+	"episode_guests": "Lennon Parham,Jessica St. Clair",
+	"id_wikia": 2341,
+	"holding": "false"
+}
+
+{
+	"episode": 154,
+	"show": "cbb",
+	"tstart": "21:12",
+	"tend": "21:24",
+	"instance": "I'm giving finger guns to my cans right now.",
+	"bit":"Oh Boy",
+	"elucidation":"something is disgusting in some way",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-10-25T14:33:40Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/finger-guns/#t=21:12",
+	"tags": "Marissa Wompler,Charlotte Listler",
+	"created_at": "2016-10-25T14:33:40Z",
+	"slug_soundcloud": "finger-guns",
+	"slug_earwolf": "finger-guns",
+	"episode_title": "Finger Guns",
+	"episode_guests": "Lennon Parham,Jessica St. Clair",
+	"id_wikia": 2341,
+	"holding": "false"
+}
+
+{
+	"episode": 154,
+	"show": "cbb",
+	"tstart": "22:40",
+	"tend": "22:50",
+	"instance": "Oh that's right - you take improv classes at your school.",
+	"bit":"Yes, And...",
+	"elucidation":"the rule of 'yes, and' is invoked or abused",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-10-25T14:33:40Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/finger-guns/#t=22:40",
+	"tags": "Marissa Wompler,Charlotte Listler",
+	"created_at": "2016-10-25T14:33:40Z",
+	"slug_soundcloud": "finger-guns",
+	"slug_earwolf": "finger-guns",
+	"episode_title": "Finger Guns",
+	"episode_guests": "Lennon Parham,Jessica St. Clair",
+	"id_wikia": 2341,
+	"holding": "false"
+}
+
+{
+	"episode": 154,
+	"show": "cbb",
+	"tstart": "37:03",
+	"tend": "37:15",
+	"instance": "I'm sorry that you don't have a daughter and you're obviously putting a lot of parental shit on me.",
+	"bit":"Oh Boy",
+	"elucidation":"something is disgusting in some way",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-10-25T14:33:40Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/finger-guns/#t=37:03",
+	"tags": "Marissa Wompler,Charlotte Listler",
+	"created_at": "2016-10-25T14:33:40Z",
+	"slug_soundcloud": "finger-guns",
+	"slug_earwolf": "finger-guns",
+	"episode_title": "Finger Guns",
+	"episode_guests": "Lennon Parham,Jessica St. Clair",
+	"id_wikia": 2341,
+	"holding": "false"
+}
