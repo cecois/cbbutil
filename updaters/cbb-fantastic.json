@@ -5573,3 +5573,25 @@
 	"id_wikia": 3093,
 	"holding": "false"
 }
+
+{
+	"episode": 453,
+	"show": "cbb",
+	"tstart": "39:12",
+	"tend": "39:21",
+	"instance": "I've never seen Ralph Fiennes' penis but I would welcome it.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-10-28T10:24:00Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/453-johnny-pemberton-eden-sher-londale-theus-jr/#t=39:12",
+	"tags": "Ralph Fiennes",
+	"created_at": "2016-10-28T10:24:00Z",
+	"slug_soundcloud": "453-johnny-pemberton-eden-sher-londale-theus-jr/",
+	"slug_earwolf": "unblocked-and-unlocked",
+	"episode_title": "Unblocked and Unlocked",
+	"episode_guests": "Johnny Pemberton,Eden Sher,Londale Theus Jr.",
+	"id_wikia": 3093,
+	"holding": "false"
+}
