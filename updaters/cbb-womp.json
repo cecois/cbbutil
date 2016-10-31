@@ -4332,7 +4332,7 @@
  	"holding": "false"
  }
 
-  {
+ {
  	"episode": 453,
  	"show": "cbb",
  	"tstart": "1:03:42",
@@ -4350,6 +4350,116 @@
  	"slug_earwolf": "unblocked-and-unlocked",
  	"episode_title": "Unblocked and Unlocked",
  	"episode_guests": "Johnny Pemberton,Eden Sher,Londale Theus Jr.",
+ 	"id_wikia": 3093,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 454,
+ 	"show": "cbb",
+ 	"tstart": "43:02",
+ 	"tend": "43:48",
+ 	"instance": "Do you have the dogs here?",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-10-31T10:24:00Z",
+ 	"url_soundcloud": "https://soundcloud.com/comedybangbang/454-halloween-jon-daly-allan-mcleod-paul-rust-nick-wiger-caroline-anderson/#t=43:02",
+ 	"tags": "Beuford le Barron,Ghost Boy,Leo Carpazzi,Who Let the Dogs Out (song),Baja Men (musical combination)",
+ 	"created_at": "2016-10-31T10:24:00Z",
+ 	"slug_soundcloud": "454-halloween-jon-daly-allan-mcleod-paul-rust-nick-wiger-caroline-anderson",
+ 	"slug_earwolf": "return-to-suicide-house-part-tricks-or-treats",
+ 	"episode_title": "Return to Suicide House Part Tricks-or-Treats",
+ 	"episode_guests": "Jon Daly, Allan McLeod, Paul Rust, Nick Wiger, Caroline Anderson",
+ 	"id_wikia": 3093,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 454,
+ 	"show": "cbb",
+ 	"tstart": "52:05",
+ 	"tend": "52:13",
+ 	"instance": "Everyone got in on that - even Scaroline.",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-10-31T10:24:00Z",
+ 	"url_soundcloud": "https://soundcloud.com/comedybangbang/454-halloween-jon-daly-allan-mcleod-paul-rust-nick-wiger-caroline-anderson/#t=52:05",
+ 	"tags": "Beuford le Barron,Ghost Boy,Leo Carpazzi,I Saw Her Standing There (song),The Beatles (musical combination),Scaroline",
+ 	"created_at": "2016-10-31T10:24:00Z",
+ 	"slug_soundcloud": "454-halloween-jon-daly-allan-mcleod-paul-rust-nick-wiger-caroline-anderson",
+ 	"slug_earwolf": "return-to-suicide-house-part-tricks-or-treats",
+ 	"episode_title": "Return to Suicide House Part Tricks-or-Treats",
+ 	"episode_guests": "Jon Daly, Allan McLeod, Paul Rust, Nick Wiger, Caroline Anderson",
+ 	"id_wikia": 3093,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 454,
+ 	"show": "cbb",
+ 	"tstart": "55:29",
+ 	"tend": "55:36",
+ 	"instance": "I know 'It's Not Easy When You're Seventeen,' right?",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-10-31T10:24:00Z",
+ 	"url_soundcloud": "https://soundcloud.com/comedybangbang/454-halloween-jon-daly-allan-mcleod-paul-rust-nick-wiger-caroline-anderson/#t=55:29",
+ 	"tags": "Blink 182 (musical combination),Leo Carpazzi,Dr. Traygo,Peggy Sue (song)",
+ 	"created_at": "2016-10-31T10:24:00Z",
+ 	"slug_soundcloud": "454-halloween-jon-daly-allan-mcleod-paul-rust-nick-wiger-caroline-anderson",
+ 	"slug_earwolf": "return-to-suicide-house-part-tricks-or-treats",
+ 	"episode_title": "Return to Suicide House Part Tricks-or-Treats",
+ 	"episode_guests": "Jon Daly, Allan McLeod, Paul Rust, Nick Wiger, Caroline Anderson",
+ 	"id_wikia": 3093,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 454,
+ 	"show": "cbb",
+ 	"tstart": "55:29",
+ 	"tend": "55:46",
+ 	"instance": "Surprises let me know she cares.",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-10-31T10:24:00Z",
+ 	"url_soundcloud": "https://soundcloud.com/comedybangbang/454-halloween-jon-daly-allan-mcleod-paul-rust-nick-wiger-caroline-anderson/#t=55:29",
+ 	"tags": "Blink 182 (musical combination),Leo Carpazzi,Dr. Traygo,All the Small Things (song)",
+ 	"created_at": "2016-10-31T10:24:00Z",
+ 	"slug_soundcloud": "454-halloween-jon-daly-allan-mcleod-paul-rust-nick-wiger-caroline-anderson",
+ 	"slug_earwolf": "return-to-suicide-house-part-tricks-or-treats",
+ 	"episode_title": "Return to Suicide House Part Tricks-or-Treats",
+ 	"episode_guests": "Jon Daly, Allan McLeod, Paul Rust, Nick Wiger, Caroline Anderson",
+ 	"id_wikia": 3093,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 454,
+ 	"show": "cbb",
+ 	"tstart": "55:29",
+ 	"tend": "56:01",
+ 	"instance": "One of my Twitter followers, I believe.",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-10-31T10:24:00Z",
+ 	"url_soundcloud": "https://soundcloud.com/comedybangbang/454-halloween-jon-daly-allan-mcleod-paul-rust-nick-wiger-caroline-anderson/#t=55:29",
+ 	"tags": "Blink 182 (musical combination),Leo Carpazzi,Dr. Traygo,Josie (song),Twitter",
+ 	"created_at": "2016-10-31T10:24:00Z",
+ 	"slug_soundcloud": "454-halloween-jon-daly-allan-mcleod-paul-rust-nick-wiger-caroline-anderson",
+ 	"slug_earwolf": "return-to-suicide-house-part-tricks-or-treats",
+ 	"episode_title": "Return to Suicide House Part Tricks-or-Treats",
+ 	"episode_guests": "Jon Daly, Allan McLeod, Paul Rust, Nick Wiger, Caroline Anderson",
  	"id_wikia": 3093,
  	"holding": "false"
  }

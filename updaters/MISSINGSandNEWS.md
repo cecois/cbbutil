@@ -30,6 +30,8 @@
 	* 141,20:45
 	* 141,49:10
 	* 145,9:30
+* working in the lab
+	* all halloween specials
 * book fade-outs
 	* 2016.leeds,1:39:20
 	* 2016.shepherds,1:49:15
