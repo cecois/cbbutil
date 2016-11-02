@@ -4332,7 +4332,7 @@
  	"holding": "false"
  }
 
-  {
+ {
  	"episode": 453,
  	"show": "cbb",
  	"tstart": "1:03:42",
@@ -4351,5 +4351,181 @@
  	"episode_title": "Unblocked and Unlocked",
  	"episode_guests": "Johnny Pemberton,Eden Sher,Londale Theus Jr.",
  	"id_wikia": 3093,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 454,
+ 	"show": "cbb",
+ 	"tstart": "43:02",
+ 	"tend": "43:48",
+ 	"instance": "Do you have the dogs here?",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-10-31T10:24:00Z",
+ 	"url_soundcloud": "https://soundcloud.com/comedybangbang/454-halloween-jon-daly-allan-mcleod-paul-rust-nick-wiger-caroline-anderson/#t=43:02",
+ 	"tags": "Beuford le Barron,Ghost Boy,Leo Carpazzi,Who Let the Dogs Out (song),Baja Men (musical combination)",
+ 	"created_at": "2016-10-31T10:24:00Z",
+ 	"slug_soundcloud": "454-halloween-jon-daly-allan-mcleod-paul-rust-nick-wiger-caroline-anderson",
+ 	"slug_earwolf": "return-to-suicide-house-part-tricks-or-treats",
+ 	"episode_title": "Return to Suicide House Part Tricks-or-Treats",
+ 	"episode_guests": "Jon Daly, Allan McLeod, Paul Rust, Nick Wiger, Caroline Anderson",
+ 	"id_wikia": 3093,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 454,
+ 	"show": "cbb",
+ 	"tstart": "52:05",
+ 	"tend": "52:13",
+ 	"instance": "Everyone got in on that - even Scaroline.",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-10-31T10:24:00Z",
+ 	"url_soundcloud": "https://soundcloud.com/comedybangbang/454-halloween-jon-daly-allan-mcleod-paul-rust-nick-wiger-caroline-anderson/#t=52:05",
+ 	"tags": "Beuford le Barron,Ghost Boy,Leo Carpazzi,I Saw Her Standing There (song),The Beatles (musical combination),Scaroline",
+ 	"created_at": "2016-10-31T10:24:00Z",
+ 	"slug_soundcloud": "454-halloween-jon-daly-allan-mcleod-paul-rust-nick-wiger-caroline-anderson",
+ 	"slug_earwolf": "return-to-suicide-house-part-tricks-or-treats",
+ 	"episode_title": "Return to Suicide House Part Tricks-or-Treats",
+ 	"episode_guests": "Jon Daly, Allan McLeod, Paul Rust, Nick Wiger, Caroline Anderson",
+ 	"id_wikia": 3093,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 454,
+ 	"show": "cbb",
+ 	"tstart": "55:29",
+ 	"tend": "55:36",
+ 	"instance": "I know 'It's Not Easy When You're Seventeen,' right?",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-10-31T10:24:00Z",
+ 	"url_soundcloud": "https://soundcloud.com/comedybangbang/454-halloween-jon-daly-allan-mcleod-paul-rust-nick-wiger-caroline-anderson/#t=55:29",
+ 	"tags": "Blink 182 (musical combination),Leo Carpazzi,Dr. Traygo,Peggy Sue (song)",
+ 	"created_at": "2016-10-31T10:24:00Z",
+ 	"slug_soundcloud": "454-halloween-jon-daly-allan-mcleod-paul-rust-nick-wiger-caroline-anderson",
+ 	"slug_earwolf": "return-to-suicide-house-part-tricks-or-treats",
+ 	"episode_title": "Return to Suicide House Part Tricks-or-Treats",
+ 	"episode_guests": "Jon Daly, Allan McLeod, Paul Rust, Nick Wiger, Caroline Anderson",
+ 	"id_wikia": 3093,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 454,
+ 	"show": "cbb",
+ 	"tstart": "55:29",
+ 	"tend": "55:46",
+ 	"instance": "Surprises let me know she cares.",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-10-31T10:24:00Z",
+ 	"url_soundcloud": "https://soundcloud.com/comedybangbang/454-halloween-jon-daly-allan-mcleod-paul-rust-nick-wiger-caroline-anderson/#t=55:29",
+ 	"tags": "Blink 182 (musical combination),Leo Carpazzi,Dr. Traygo,All the Small Things (song)",
+ 	"created_at": "2016-10-31T10:24:00Z",
+ 	"slug_soundcloud": "454-halloween-jon-daly-allan-mcleod-paul-rust-nick-wiger-caroline-anderson",
+ 	"slug_earwolf": "return-to-suicide-house-part-tricks-or-treats",
+ 	"episode_title": "Return to Suicide House Part Tricks-or-Treats",
+ 	"episode_guests": "Jon Daly, Allan McLeod, Paul Rust, Nick Wiger, Caroline Anderson",
+ 	"id_wikia": 3093,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 454,
+ 	"show": "cbb",
+ 	"tstart": "55:29",
+ 	"tend": "56:01",
+ 	"instance": "One of my Twitter followers, I believe.",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-10-31T10:24:00Z",
+ 	"url_soundcloud": "https://soundcloud.com/comedybangbang/454-halloween-jon-daly-allan-mcleod-paul-rust-nick-wiger-caroline-anderson/#t=55:29",
+ 	"tags": "Blink 182 (musical combination),Leo Carpazzi,Dr. Traygo,Josie (song),Twitter",
+ 	"created_at": "2016-10-31T10:24:00Z",
+ 	"slug_soundcloud": "454-halloween-jon-daly-allan-mcleod-paul-rust-nick-wiger-caroline-anderson",
+ 	"slug_earwolf": "return-to-suicide-house-part-tricks-or-treats",
+ 	"episode_title": "Return to Suicide House Part Tricks-or-Treats",
+ 	"episode_guests": "Jon Daly, Allan McLeod, Paul Rust, Nick Wiger, Caroline Anderson",
+ 	"id_wikia": 3093,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 161,
+ 	"show": "cbb",
+ 	"tstart": "1:29:40",
+ 	"tend": "1:29:58",
+ 	"instance": "How long does it take to get into the Rock 'n Roll Hall of Fame?",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-11-01T09:25:48Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/highly-illogical/#t=1:29:40",
+ 	"tags": "Barry R,Ministry (musical combination),The Mind is a Terrible Thing to Taste (song)",
+ 	"created_at": "2016-11-01T09:25:48Z",
+ 	"slug_soundcloud": "highly-illogical",
+ 	"slug_earwolf": "highly-illogical",
+ 	"episode_title": "Highly Illogical",
+ 	"episode_guests": "Reggie Watts,Tim Heidecker,Andy Daly,Jon Daly",
+ 	"id_wikia": 3097,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 162,
+ 	"show": "cbb",
+ 	"tstart": "1:09:26",
+ 	"tend": "1:09:35",
+ 	"instance":"Because that's what life is about - the human connection.",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-11-02T10:09:51Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/best-bro-hang/#t=1:09:26",
+ 	"tags": "Bro,Bruce Springsteen,Human Touch (song)",
+ 	"created_at": "2016-11-02T10:09:51Z",
+ 	"slug_soundcloud": "best-bro-hang",
+ 	"slug_earwolf": "best-bro-hang",
+ 	"episode_title": "Best Bro Hang",
+ 	"episode_guests": "Andy Samberg,Adam Pally",
+ 	"id_wikia": 3099,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 163,
+ 	"show": "cbb",
+ 	"tstart": "25:27",
+ 	"tend": "25:40",
+ 	"instance": "It's 'tah-mahr-ah,' as in Mark's future.",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-11-02T15:00:27Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/burning-love/#t=25:27",
+ 	"tags": "Annie (musical),Tomorrow (song),Tamara G,Mark Orlando",
+ 	"created_at": "2016-11-02T15:00:27Z",
+ 	"slug_soundcloud": "burning-love",
+ 	"slug_earwolf": "burning-love",
+ 	"episode_title": "Burning Love",
+ 	"episode_guests": "Ken Marino,Steve Agee,Janet Varney,Deanna Russo",
+ 	"id_wikia": 3101,
  	"holding": "false"
  }
