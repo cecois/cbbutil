@@ -1,5 +1,6 @@
 # possible new bits: 
 * we're really gonna probe his psyche (in-depth)
+	* 162,33:45
 	* 155,26:20
 	* 160,52:00
 	* 150,0:20
@@ -160,25 +161,26 @@
 * 2016.nyc0514930,16:54
 * 2016.nyc0514930,27:30
 * hollywood facts
-* lots
-* 421,??:??
-* 421,??:??
-* 421,59:52
-* 2016.??,??:??
-* 2016.austin,22:00
-* 2016.austin,53:00
-* 2016.minneapolis,59:00
-* 2016.minneapolis,1:04:42
-* 2016.denver,1:39:45
-* 425,1:00:15
-* 2016.austin,22:00
-* 2016.austin,53:00
-* 2016.minneapolis,59:07
-* 2016.minneapolis,1:04:42
-* 109,50:00 (inaugural)
-* 113,13:45 (played only)
-* 113,18:00 (bobby m remix)
-* 114,20:45 (played only)
+	* lots
+	* 162,57:45
+	* 421,??:??
+	* 421,??:??
+	* 421,59:52
+	* 2016.??,??:??
+	* 2016.austin,22:00
+	* 2016.austin,53:00
+	* 2016.minneapolis,59:00
+	* 2016.minneapolis,1:04:42
+	* 2016.denver,1:39:45
+	* 425,1:00:15
+	* 2016.austin,22:00
+	* 2016.austin,53:00
+	* 2016.minneapolis,59:07
+	* 2016.minneapolis,1:04:42
+	* 109,50:00 (inaugural)
+	* 113,13:45 (played only)
+	* 113,18:00 (bobby m remix)
+	* 114,20:45 (played only)
 * am i doing it?
 * 2016.austin,1:13:50
 * 423,42:19,one thousand gigawatts
@@ -238,11 +240,12 @@
 	* 2016.detroit,1:24:45
 	* 452,1:09:00
 * maybe it's just me but for me
-* 145,31:55
-* 411,53:50
-* 413,1:00:30 (mark twain)
-* 416,13:30
-* 182,36:15
+	* 145,31:55
+	* 161,18:50
+	* 411,53:50
+	* 413,1:00:30 (mark twain)
+	* 416,13:30
+	* 182,36:15
 * morch (march)
 * 411,1:30
 * players playing other players' characters
@@ -499,9 +502,9 @@
 * 2016.dallas,16:50
 * 2016.detroit,5:55
 * all I ask in return (mike)
-* 2016.dallas,37:40	
+	* 2016.dallas,37:40	
 * classic joke structure
-* 2016.austin,18:10
+	* 2016.austin,18:10
 * face / off
 	* 136,1:22:11
 	* 2016.minneapolis,30:50 (not sure now)
@@ -515,12 +518,12 @@
 * 67,20:00
 * clumsy portmanteau
 * 2016.tour al peterson
-* 440,44:40 
-* 439,34:45
-* 439,40:43
-* 439,55:00
+	* 440,44:40 
+	* 439,34:45
+	* 439,40:43
+	* 439,55:00
 * a little buzz
-* 440,55:20
+	* 440,55:20
 * off the rails/retiring a train
 	* 439,40:10
 	* 440,1:16:00
@@ -540,10 +543,11 @@
 	* 2016.sydney,1:21:30
 	* 445,15:00
 	* 445,18:45
-* satur*day* *night* live
+* saturday (day) night live
 	* lots
 	* 113,2:30
 	* 137,9:30
+	* 162,8:45
 * of note/in his own right
 	* 136,9:09
 	* 445,4:00
@@ -552,6 +556,7 @@
 	* 450,4:10
 * urls
 	* 153,27:50
+	* 161,??:??
 	* http://howl.fm/audio/26157/live-from-philadelphia-2013,49:35,fuglyducklings.biz
 	* http://howl.fm/audio/26157/live-from-philadelphia-2013,49:35,barelylegalcollegeprep.org
 	* http://howl.fm/audio/26157/live-from-philadelphia-2013,58:15,emptydouchebags.org
