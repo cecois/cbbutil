@@ -5705,3 +5705,47 @@
 	"id_wikia": 3101,
 	"holding": "false"
 }
+
+{
+	"episode": 164,
+	"show": "cbb",
+	"tstart": "1:25",
+	"tend": "1:33",
+	"instance": "Thank you to Leland Rodriguez, by the way, for that catchphrase.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-11-04T13:44:25Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/clifton-was-here/#t=1:25",
+	"tags": "",
+	"created_at": "2016-11-04T13:44:25Z",
+	"slug_soundcloud": "clifton-was-here",
+	"slug_earwolf": "clifton-was-here",
+	"episode_title": "Clifton Was Here",
+	"episode_guests": "Tony Clifton,Ben Schwartz",
+	"id_wikia": 3103,
+	"holding": "false"
+}
+
+{
+	"episode": 164,
+	"show": "cbb",
+	"tstart": "47:52",
+	"tend": "47:56",
+	"instance": "Aren't these girls gorgeous?",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-11-04T13:44:25Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/clifton-was-here/#t=47:52",
+	"tags": "Tony Clifton",
+	"created_at": "2016-11-04T13:44:25Z",
+	"slug_soundcloud": "clifton-was-here",
+	"slug_earwolf": "clifton-was-here",
+	"episode_title": "Clifton Was Here",
+	"episode_guests": "Tony Clifton,Ben Schwartz",
+	"id_wikia": 3103,
+	"holding": "false"
+}

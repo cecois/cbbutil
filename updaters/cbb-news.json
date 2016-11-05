@@ -1757,3 +1757,69 @@
 	"id_wikia": 3101,
 	"holding": "false"
 }
+
+{
+	"episode": 163,
+	"show": "cbb",
+	"tstart": "1:11:47",
+	"tend": "1:12:02",
+	"instance": "How many points did I have prior to that? (-1000)",
+	"bit":"Classic WYR Blunder: The Floor is Closed",
+	"elucidation":"one of several potential wyr blunders",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-11-02T15:00:27Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/burning-love/#t=1:11:47",
+	"tags": "Mark Orlando",
+	"created_at": "2016-11-02T15:00:27Z",
+	"slug_soundcloud": "burning-love",
+	"slug_earwolf": "burning-love",
+	"episode_title": "Burning Love",
+	"episode_guests": "Ken Marino,Steve Agee,Janet Varney,Deanna Russo",
+	"id_wikia": 3101,
+	"holding": "false"
+}
+
+{
+	"episode": 164,
+	"show": "cbb",
+	"tstart": "33:50",
+	"tend": "34:04",
+	"instance": "Uh, please stay.",
+	"bit":"Not That Kind of a Show",
+	"elucidation":"cbb gets a little blue",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-11-04T13:44:25Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/clifton-was-here/#t=33:50",
+	"tags": "Tony Clifton",
+	"created_at": "2016-11-04T13:44:25Z",
+	"slug_soundcloud": "clifton-was-here",
+	"slug_earwolf": "clifton-was-here",
+	"episode_title": "Clifton Was Here",
+	"episode_guests": "Tony Clifton,Ben Schwartz",
+	"id_wikia": 3103,
+	"holding": "false"
+}
+
+{
+	"episode": 164,
+	"show": "cbb",
+	"tstart": "36:50",
+	"tend": "37:07",
+	"instance": "The pickaninnies - those guys.",
+	"bit":"Oh Boy",
+	"elucidation":"something is disgusting in some way",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-11-04T13:44:25Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/clifton-was-here/#t=36:50",
+	"tags": "Tony Clifton,The Wayans",
+	"created_at": "2016-11-04T13:44:25Z",
+	"slug_soundcloud": "clifton-was-here",
+	"slug_earwolf": "clifton-was-here",
+	"episode_title": "Clifton Was Here",
+	"episode_guests": "Tony Clifton,Ben Schwartz",
+	"id_wikia": 3103,
+	"holding": "false"
+}
