@@ -31,6 +31,9 @@
 	* 141,20:45
 	* 141,49:10
 	* 145,9:30
+* shutting down from coast to coast
+	* 456,* (inaugural)
+	* 456,52:00
 * working in the lab
 	* all halloween specials
 * book fade-outs
@@ -361,6 +364,7 @@
 	* 164,19:40
 	* 164,28:30
 	* 164,54:40
+	* 165,12:50
 	* 163,1:14:30
 	* 378,4:50
 	* 159,19:00
@@ -563,6 +567,10 @@
 * urls
 	* 153,27:50
 	* 161,??:??
+	* 165,1:50
+	* 165,12:40
+	* 165,40:45
+	* 165,51:30
 	* http://howl.fm/audio/26157/live-from-philadelphia-2013,49:35,fuglyducklings.biz
 	* http://howl.fm/audio/26157/live-from-philadelphia-2013,49:35,barelylegalcollegeprep.org
 	* http://howl.fm/audio/26157/live-from-philadelphia-2013,58:15,emptydouchebags.org
