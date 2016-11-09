@@ -5969,3 +5969,91 @@
 	"id_wikia": 3109,
 	"holding": "false"
 }
+
+{
+	"episode": 168,
+	"show": "cbb",
+	"tstart": "3:13",
+	"tend": "3:23",
+	"instance": "By the way, I was on your TV show this week and I heard so many compliments.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-11-09T07:50:04Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/breaking-bread/#t=3:13",
+	"tags": "",
+	"created_at": "2016-11-09T07:50:04Z",
+	"slug_soundcloud": "breaking-bread",
+	"slug_earwolf": "breaking-bread",
+	"episode_title": "Breaking Bread",
+	"episode_guests": "Bob Odenkirk,Matt Besser",
+	"id_wikia": 3119,
+	"holding": "false"
+}
+
+{
+	"episode": 168,
+	"show": "cbb",
+	"tstart": "4:06",
+	"tend": "4:15",
+	"instance": "Thanks for being on it.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-11-09T07:50:04Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/breaking-bread/#t=4:06",
+	"tags": "",
+	"created_at": "2016-11-09T07:50:04Z",
+	"slug_soundcloud": "breaking-bread",
+	"slug_earwolf": "breaking-bread",
+	"episode_title": "Breaking Bread",
+	"episode_guests": "Bob Odenkirk,Matt Besser",
+	"id_wikia": 3119,
+	"holding": "false"
+}
+
+{
+	"episode": 169,
+	"show": "cbb",
+	"tstart": "2:24",
+	"tend": "2:30",
+	"instance": "We have a show for you today.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-11-09T09:57:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/immortal-mustache/#t=2:24",
+	"tags": "",
+	"created_at": "2016-11-09T09:57:29Z",
+	"slug_soundcloud": "immortal-mustache",
+	"slug_earwolf": "immortal-mustache",
+	"episode_title": "Immortal Mustache",
+	"episode_guests": "Jay Chandrasekhar,Paul F. Tompkins",
+	"id_wikia": 3121,
+	"holding": "false"
+}
+
+{
+	"episode": 169,
+	"show": "cbb",
+	"tstart": "7:50",
+	"tend": "7:58",
+	"instance": "Did you get that high b-flat?",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-11-09T09:57:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/immortal-mustache/#t=7:50",
+	"tags": "West Side Story (musical)",
+	"created_at": "2016-11-09T09:57:29Z",
+	"slug_soundcloud": "immortal-mustache",
+	"slug_earwolf": "immortal-mustache",
+	"episode_title": "Immortal Mustache",
+	"episode_guests": "Jay Chandrasekhar,Paul F. Tompkins",
+	"id_wikia": 3121,
+	"holding": "false"
+}

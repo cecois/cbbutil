@@ -5168,3 +5168,91 @@
  	"id_wikia": 3109,
  	"holding": "false"
  }
+
+ {
+ 	"episode": 168,
+ 	"show": "cbb",
+ 	"tstart": "45:49",
+ 	"tend": "45:58",
+ 	"instance": "Marching band hat.",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-11-09T07:50:04Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/breaking-bread/#t=45:49",
+ 	"tags": "Pope Benedict XVI,Seventy-Six Trombones (song),Meredith Willson,The Music Man (musical)",
+ 	"created_at": "2016-11-09T07:50:04Z",
+ 	"slug_soundcloud": "breaking-bread",
+ 	"slug_earwolf": "breaking-bread",
+ 	"episode_title": "Breaking Bread",
+ 	"episode_guests": "Bob Odenkirk,Matt Besser",
+ 	"id_wikia": 3119,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 169,
+ 	"show": "cbb",
+ 	"tstart": "50:10",
+ 	"tend": "50:31",
+ 	"instance": "What you're missing is *the* most famous Jackson, I have to say.",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-11-09T09:57:29Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/immortal-mustache/#t=50:10",
+ 	"tags": "Cake Boss,Michael Jackson,Thriller (song)",
+ 	"created_at": "2016-11-09T09:57:29Z",
+ 	"slug_soundcloud": "immortal-mustache",
+ 	"slug_earwolf": "immortal-mustache",
+ 	"episode_title": "Immortal Mustache",
+ 	"episode_guests": "Jay Chandrasekhar,Paul F. Tompkins",
+ 	"id_wikia": 3121,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 169,
+ 	"show": "cbb",
+ 	"tstart": "50:10",
+ 	"tend": "50:31",
+ 	"instance": "What you're missing is *the* most famous Jackson, I have to say.",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-11-09T09:57:29Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/immortal-mustache/#t=50:10",
+ 	"tags": "Cake Boss,Michael Jackson,Beat It (song)",
+ 	"created_at": "2016-11-09T09:57:29Z",
+ 	"slug_soundcloud": "immortal-mustache",
+ 	"slug_earwolf": "immortal-mustache",
+ 	"episode_title": "Immortal Mustache",
+ 	"episode_guests": "Jay Chandrasekhar,Paul F. Tompkins",
+ 	"id_wikia": 3121,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 169,
+ 	"show": "cbb",
+ 	"tstart": "50:10",
+ 	"tend": "50:31",
+ 	"instance": "What you're missing is *the* most famous Jackson, I have to say.",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-11-09T09:57:29Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/immortal-mustache/#t=50:10",
+ 	"tags": "Cake Boss,Michael Jackson,The Girl is Mine (song),Paul McCartney",
+ 	"created_at": "2016-11-09T09:57:29Z",
+ 	"slug_soundcloud": "immortal-mustache",
+ 	"slug_earwolf": "immortal-mustache",
+ 	"episode_title": "Immortal Mustache",
+ 	"episode_guests": "Jay Chandrasekhar,Paul F. Tompkins",
+ 	"id_wikia": 3121,
+ 	"holding": "false"
+ }

@@ -293,6 +293,7 @@
 	* 106.1,51:00
 	* 106.2,4:30
 	* 137.5,6:30
+	* 169,31:45
 * huell turns into a crowbot
 	* 29,51:48
 	* howl.fm in DC,36:00
@@ -515,6 +516,9 @@
 	* 2016.dallas,37:40	
 * classic joke structure
 	* 2016.austin,18:10
+	* 168,1:01:20
+	* 168,1:02:20
+	* 168,1:11:20
 * face / off
 	* 136,1:22:11
 	* 2016.minneapolis,30:50 (not sure now)
@@ -523,10 +527,11 @@
 	* 2016.chicago10,54:50
 	* 164,46:30
 * i'm from new jersey
-* 2016.detroit,18:10
-* 2016.detroit,22:28
-* 2016.detroit,38:20
-* 67,20:00
+	* 2016.detroit,18:10
+	* 2016.detroit,22:28
+	* 2016.detroit,38:20
+	* 67,20:00
+	* 169,24:00
 * clumsy portmanteau
 * 2016.tour al peterson
 	* 440,44:40 
