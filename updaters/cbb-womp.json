@@ -5256,3 +5256,91 @@
  	"id_wikia": 3121,
  	"holding": "false"
  }
+
+ {
+ 	"episode": 170,
+ 	"show": "cbb",
+ 	"tstart": "16:35",
+ 	"tend": "17:50",
+ 	"instance": "What's your style'?",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2015-10-16T10:51:29Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/new-scoop/#t=16:35",
+ 	"tags": "Rihanna,What's My Name? (song)",
+ 	"created_at": "2015-10-16T10:51:29Z",
+ 	"slug_soundcloud": "new-scoop",
+ 	"slug_earwolf": "new-scoop",
+ 	"episode_title": "New Scoop",
+ 	"episode_guests": "Martin Starr,Lennon Parham,Neil Campbell",
+ 	"id_wikia": 3123,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 170,
+ 	"show": "cbb",
+ 	"tstart": "31:08",
+ 	"tend": "31:19",
+ 	"instance": "Joseph's coat - I don't know if you remember that.",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2015-10-16T10:51:29Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/new-scoop/#t=31:08",
+ 	"tags": "Ethel Branscome,Joseph and the Amazing Technicolor Dreamcoat (musical),Coat of Many Colors (song),Dolly Parton",
+ 	"created_at": "2015-10-16T10:51:29Z",
+ 	"slug_soundcloud": "new-scoop",
+ 	"slug_earwolf": "new-scoop",
+ 	"episode_title": "New Scoop",
+ 	"episode_guests": "Martin Starr,Lennon Parham,Neil Campbell",
+ 	"id_wikia": 3123,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 170,
+ 	"show": "cbb",
+ 	"tstart": "1:10:48",
+ 	"tend": "1:11:35",
+ 	"instance": "I won't be inviting UB40 over.",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2015-10-16T10:51:29Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/new-scoop/#t=1:10:48",
+ 	"tags": "Ethel Branscome,UB40 (musical combination),Red Red Wine (song),Neil Diamond",
+ 	"created_at": "2015-10-16T10:51:29Z",
+ 	"slug_soundcloud": "new-scoop",
+ 	"slug_earwolf": "new-scoop",
+ 	"episode_title": "New Scoop",
+ 	"episode_guests": "Martin Starr,Lennon Parham,Neil Campbell",
+ 	"id_wikia": 3123,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 170,
+ 	"show": "cbb",
+ 	"tstart": "1:24:03",
+ 	"tend": "1:24:11",
+ 	"instance": "Brown sugar's on sale at the Piggly Wiggly.",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2015-10-16T10:51:29Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/new-scoop/#t=1:24:03",
+ 	"tags": "Ethel Branscome,Sir Mix-a-Lot,Baby Got Back (song)",
+ 	"created_at": "2015-10-16T10:51:29Z",
+ 	"slug_soundcloud": "new-scoop",
+ 	"slug_earwolf": "new-scoop",
+ 	"episode_title": "New Scoop",
+ 	"episode_guests": "Martin Starr,Lennon Parham,Neil Campbell",
+ 	"id_wikia": 3123,
+ 	"holding": "false"
+ }
