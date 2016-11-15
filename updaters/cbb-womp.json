@@ -5344,3 +5344,135 @@
  	"id_wikia": 3123,
  	"holding": "false"
  }
+
+ {
+ 	"episode": 457,
+ 	"show": "cbb",
+ 	"tstart": "42:19",
+ 	"tend": "44:09",
+ 	"instance": "Start puttin' 'em on.",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-11-14T09:30:59Z",
+ 	"url_soundcloud": "https://soundcloud.com/comedybangbang/457-michael-showalter-paul-brittain-jeremy-rowley/#t=42:19",
+ 	"tags": "Dr. Brian Blouse,New York New York (song),Frank Sinatra",
+ 	"created_at": "2016-11-14T09:30:59Z",
+ 	"slug_soundcloud": "457-michael-showalter-paul-brittain-jeremy-rowley",
+ 	"slug_earwolf": "prepare-the-quake",
+ 	"episode_title": "Prepare for the Quake",
+ 	"episode_guests": "Michael Showalter, Paul Brittain, Jeremy Rowley",
+ 	"id_wikia": null,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 457,
+ 	"show": "cbb",
+ 	"tstart": "44:03",
+ 	"tend": "44:12",
+ 	"instance": "Paul Anka did the English translation of 'My Way.'",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-11-14T09:30:59Z",
+ 	"url_soundcloud": "https://soundcloud.com/comedybangbang/457-michael-showalter-paul-brittain-jeremy-rowley/#t=44:03",
+ 	"tags": "Dr. Brian Blouse,My Way (song),Frank Sinatra,Paul Anka",
+ 	"created_at": "2016-11-14T09:30:59Z",
+ 	"slug_soundcloud": "457-michael-showalter-paul-brittain-jeremy-rowley",
+ 	"slug_earwolf": "prepare-the-quake",
+ 	"episode_title": "Prepare for the Quake",
+ 	"episode_guests": "Michael Showalter, Paul Brittain, Jeremy Rowley",
+ 	"id_wikia": null,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 171,
+ 	"show": "cbb",
+ 	"tstart": "32:08",
+ 	"tend": "32:18",
+ 	"instance": "She's a wonderful dancer, isn't she.",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-11-15T09:58:00Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/scrog-secretions/#t=32:08",
+ 	"tags": "David Eros,Kulap,Queen (musical combination),Bohemian Rhapsody (song)",
+ 	"created_at": "2016-11-15T09:58:00Z",
+ 	"slug_soundcloud": "scrog-secretions",
+ 	"slug_earwolf": "scrog-secretions",
+ 	"episode_title": "Scrog Secretions",
+ 	"episode_guests": "Megan Mullally,Nick Kroll,Stephanie Hunt",
+ 	"id_wikia": 3126,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 171,
+ 	"show": "cbb",
+ 	"tstart": "32:08",
+ 	"tend": "32:18",
+ 	"instance": "She's a wonderful dancer, isn't she.",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-11-15T09:58:00Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/scrog-secretions/#t=32:08",
+ 	"tags": "David Eros,Kulap,Queen (musical combination),We Will Rock You (song)",
+ 	"created_at": "2016-11-15T09:58:00Z",
+ 	"slug_soundcloud": "scrog-secretions",
+ 	"slug_earwolf": "scrog-secretions",
+ 	"episode_title": "Scrog Secretions",
+ 	"episode_guests": "Megan Mullally,Nick Kroll,Stephanie Hunt",
+ 	"id_wikia": 3126,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 172,
+ 	"show": "cbb",
+ 	"tstart": "1:13",
+ 	"tend": "1:23",
+ 	"instance": "And we'll be right back with the countdown.",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-11-15T13:34:52Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/this-is-a-safe-zone/#t=1:13",
+ 	"tags": "The Lemon Drop Kid (film),Bob Hope,Silver Bells (song)",
+ 	"created_at": "2016-11-15T13:34:52Z",
+ 	"slug_soundcloud": "this-is-a-safe-zone",
+ 	"slug_earwolf": "this-is-a-safe-zone",
+ 	"episode_title": "This is a Safe Zone",
+ 	"episode_guests": "Todd Glass,Brian Huskey",
+ 	"id_wikia": 2262,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 172,
+ 	"show": "cbb",
+ 	"tstart": "55:09",
+ 	"tend": "55:22",
+ 	"instance": "Kind of a nice walk-up.",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-11-15T14:15:39Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/this-is-a-safe-zone/#t=55:09",
+ 	"tags": "Glenn Maxx,Little Old Lady from Pasadena (song),Jan and Dean (musical combination)",
+ 	"created_at": "2016-11-15T14:15:39Z",
+ 	"slug_soundcloud": "this-is-a-safe-zone",
+ 	"slug_earwolf": "this-is-a-safe-zone",
+ 	"episode_title": "This is a Safe Zone",
+ 	"episode_guests": "Todd Glass,Brian Huskey",
+ 	"id_wikia": 2262,
+ 	"holding": "false"
+ }

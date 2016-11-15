@@ -6123,3 +6123,157 @@
 	"id_wikia": 3123,
 	"holding": "false"
 }
+
+{
+	"episode": 457,
+	"show": "cbb",
+	"tstart": "4:20",
+	"tend": "4:30",
+	"instance": "Of all time? Really!",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-11-14T09:30:59Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/457-michael-showalter-paul-brittain-jeremy-rowley/#t=4:20",
+	"tags": "The State (TV)",
+	"created_at": "2016-11-14T09:30:59Z",
+	"slug_soundcloud": "457-michael-showalter-paul-brittain-jeremy-rowley",
+	"slug_earwolf": "prepare-the-quake",
+	"episode_title": "Prepare for the Quake",
+	"episode_guests": "Michael Showalter, Paul Brittain, Jeremy Rowley",
+	"id_wikia": null,
+	"holding": "false"
+}
+
+{
+	"episode": 171,
+	"show": "cbb",
+	"tstart": "12:38",
+	"tend": "12:48",
+	"instance": "But you can do it the other way.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-11-15T09:58:00Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/scrog-secretions/#t=12:38",
+	"tags": "",
+	"created_at": "2016-11-15T09:58:00Z",
+	"slug_soundcloud": "scrog-secretions",
+	"slug_earwolf": "scrog-secretions",
+	"episode_title": "Scrog Secretions",
+	"episode_guests": "Megan Mullally,Nick Kroll,Stephanie Hunt",
+	"id_wikia": 3126,
+	"holding": "false"
+}
+
+{
+	"episode": 171,
+	"show": "cbb",
+	"tstart": "19:13",
+	"tend": "19:18",
+	"instance": "We just heard your first song.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-11-15T09:58:00Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/scrog-secretions/#t=19:13",
+	"tags": "",
+	"created_at": "2016-11-15T09:58:00Z",
+	"slug_soundcloud": "scrog-secretions",
+	"slug_earwolf": "scrog-secretions",
+	"episode_title": "Scrog Secretions",
+	"episode_guests": "Megan Mullally,Nick Kroll,Stephanie Hunt",
+	"id_wikia": 3126,
+	"holding": "false"
+}
+
+{
+	"episode": 171,
+	"show": "cbb",
+	"tstart": "38:50",
+	"tend": "38:59",
+	"instance": "David, are you crying?",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-11-15T09:58:00Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/scrog-secretions/#t=38:50",
+	"tags": "David Eros",
+	"created_at": "2016-11-15T09:58:00Z",
+	"slug_soundcloud": "scrog-secretions",
+	"slug_earwolf": "scrog-secretions",
+	"episode_title": "Scrog Secretions",
+	"episode_guests": "Megan Mullally,Nick Kroll,Stephanie Hunt",
+	"id_wikia": 3126,
+	"holding": "false"
+}
+
+{
+	"episode": 171,
+	"show": "cbb",
+	"tstart": "54:32",
+	"tend": "54:40",
+	"instance": "I have a lot of time on my own.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-11-15T09:58:00Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/scrog-secretions/#t=54:32",
+	"tags": "Goat",
+	"created_at": "2016-11-15T09:58:00Z",
+	"slug_soundcloud": "scrog-secretions",
+	"slug_earwolf": "scrog-secretions",
+	"episode_title": "Scrog Secretions",
+	"episode_guests": "Megan Mullally,Nick Kroll,Stephanie Hunt",
+	"id_wikia": 3126,
+	"holding": "false"
+}
+
+{
+	"episode": 172,
+	"show": "cbb",
+	"tstart": "13:32",
+	"tend": "13:40",
+	"instance": "It sounds like a really copacetic relationship.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-11-15T14:15:39Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/this-is-a-safe-zone/#t=13:32",
+	"tags": "",
+	"created_at": "2016-11-15T14:15:39Z",
+	"slug_soundcloud": "this-is-a-safe-zone",
+	"slug_earwolf": "this-is-a-safe-zone",
+	"episode_title": "This is a Safe Zone",
+	"episode_guests": "Todd Glass,Brian Huskey",
+	"id_wikia": 2262,
+	"holding": "false"
+}
+
+{
+	"episode": 172,
+	"show": "cbb",
+	"tstart": "53:00",
+	"tend": "53:08",
+	"instance": "And I been pretty good up to now.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-11-15T14:15:39Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/this-is-a-safe-zone/#t=53:00",
+	"tags": "",
+	"created_at": "2016-11-15T14:15:39Z",
+	"slug_soundcloud": "this-is-a-safe-zone",
+	"slug_earwolf": "this-is-a-safe-zone",
+	"episode_title": "This is a Safe Zone",
+	"episode_guests": "Todd Glass,Brian Huskey",
+	"id_wikia": 2262,
+	"holding": "false"
+}

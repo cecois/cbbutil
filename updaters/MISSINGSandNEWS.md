@@ -1,6 +1,7 @@
 # possible new bits: 
 * we're really gonna probe his psyche (in-depth)
 	* 162,33:45
+	* 172,19:15
 	* 155,26:20
 	* 160,52:00
 	* 150,0:20
@@ -31,11 +32,16 @@
 	* 141,20:45
 	* 141,49:10
 	* 145,9:30
+* year in advance
+	* 172,1:02:30
+	* (tons b4 172)
 * shutting down from coast to coast
 	* 456,* (inaugural)
 	* 456,52:00
 * working in the lab
 	* all halloween specials
+* woody allen's turning point
+	* 457,29:00
 * book fade-outs
 	* 2016.leeds,1:39:20
 	* 2016.shepherds,1:49:15
@@ -133,16 +139,17 @@
 * 2016.oakland,54:33
 * 2016.sydney,1:04:30
 * \#1 with a bullet
-* 2016.denver,10:00
-* 2016.toronto,41:00
-* 289,10:15
-* 2016.dallas,33:40
-* 441,12:00
-* 2016.denver,10:00
-* 2016.toronto,41:00
-* 289,10:15
-* 2016.dallas,33:40
-* 444,1:16:37
+	* 2016.denver,10:00
+	* 2016.toronto,41:00
+	* 289,10:15
+	* 2016.dallas,33:40
+	* 441,12:00
+	* 2016.denver,10:00
+	* 2016.toronto,41:00
+	* 289,10:15
+	* 2016.dallas,33:40
+	* 444,1:16:37
+	* 457,all episode long
 * lapkus can't make it through a song
 * 2016.tarrytown,5:00
 * 2016.tarrytown,4:46
@@ -212,6 +219,7 @@
 * 2016.losangeles,1:01:00
 * 2016.losangeles,1:00:40
 * character bonanzas
+	* 171,*
 	* 148,1:15:00
 	* 136,1:52:00
 	* 286
@@ -365,6 +373,7 @@
 	* 164,19:40
 	* 164,28:30
 	* 164,54:40
+	* 172,52:00
 	* 165,12:50
 	* 166,1:20
 	* 163,1:14:30
