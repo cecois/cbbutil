@@ -6277,3 +6277,69 @@
 	"id_wikia": 2262,
 	"holding": "false"
 }
+
+{
+	"episode": 172,
+	"show": "cbb",
+	"tstart": "1:14:14",
+	"tend": "1:14:25",
+	"instance": "She had wonderful, wonderful eyesight.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-11-15T14:15:39Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/this-is-a-safe-zone/#t=1:14:14",
+	"tags": "Glenn Maxx",
+	"created_at": "2016-11-15T14:15:39Z",
+	"slug_soundcloud": "this-is-a-safe-zone",
+	"slug_earwolf": "this-is-a-safe-zone",
+	"episode_title": "This is a Safe Zone",
+	"episode_guests": "Todd Glass,Brian Huskey",
+	"id_wikia": 2262,
+	"holding": "false"
+}
+
+{
+	"episode": 172,
+	"show": "cbb",
+	"tstart": "1:21:35",
+	"tend": "1:21:40",
+	"instance": "That was one of the best ones we've ever had.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-11-15T14:15:39Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/this-is-a-safe-zone/#t=1:21:35",
+	"tags": "Glenn Maxx",
+	"created_at": "2016-11-15T14:15:39Z",
+	"slug_soundcloud": "this-is-a-safe-zone",
+	"slug_earwolf": "this-is-a-safe-zone",
+	"episode_title": "This is a Safe Zone",
+	"episode_guests": "Todd Glass,Brian Huskey",
+	"id_wikia": 2262,
+	"holding": "false"
+}
+
+{
+	"episode": 173,
+	"show": "cbb",
+	"tstart": "24:08",
+	"tend": "24:18",
+	"instance": "It seemed to me like the lyrics took a turn there in the middle.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-11-16T09:52:30Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/ride-like-hell/#t=24:08",
+	"tags": "Werner Herzog",
+	"created_at": "2016-11-16T09:52:30Z",
+	"slug_soundcloud": "ride-like-hell",
+	"slug_earwolf": "ride-like-hell",
+	"episode_title": "Ride Like Hell",
+	"episode_guests": "Paul F. Tompkins,Paul Scheer,Brent Weinbach",
+	"id_wikia": 3133,
+	"holding": "false"
+}

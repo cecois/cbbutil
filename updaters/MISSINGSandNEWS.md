@@ -18,6 +18,7 @@
 	* 133,9:00
 	* 133,43:50
 	* 98,1:30
+	* 174,46:30
 	* 99,1:40
 	* the two oswalt eps
 	* 119,15:00
@@ -86,6 +87,7 @@
 	* bo2010,46:50
 	* 137,3:30
 	* 138,21:34
+	* 173,6:50
 * one toilet per person
 	* 2016.nottingham,25:45
 	* 2016.chicago7,39:20
@@ -149,6 +151,7 @@
 	* 289,10:15
 	* 2016.dallas,33:40
 	* 444,1:16:37
+	* 174,11:00
 	* 457,all episode long
 * lapkus can't make it through a song
 * 2016.tarrytown,5:00

@@ -540,3 +540,217 @@
     "id_wikia": 2262,
     "holding": "false"
 }
+
+{
+    "episode": 172,
+    "show": "cbb",
+    "tstart": "1:16:46",
+    "tend": "1:16:54",
+    "instance": "Todd, I think you owe him an apology, quite honestly.",
+    "bit":"Time to Get Into That","elucidation":"scott wishes there was time to get into some topic - but there just isn't",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-11-15T14:15:39Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/this-is-a-safe-zone/#t=1:16:46",
+    "tags": "Glenn Maxx",
+    "created_at": "2016-11-15T14:15:39Z",
+    "slug_soundcloud": "this-is-a-safe-zone",
+    "slug_earwolf": "this-is-a-safe-zone",
+    "episode_title": "This is a Safe Zone",
+    "episode_guests": "Todd Glass,Brian Huskey",
+    "id_wikia": 2262,
+    "holding": "false"
+}
+
+{
+    "episode": 172,
+    "show": "cbb",
+    "tstart": "1:27:52",
+    "tend": "1:27:55",
+    "instance": "I forgot one more thing.",
+    "bit":"Oh Boy",
+    "elucidation":"something is disgusting in some way",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-11-15T14:15:39Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/this-is-a-safe-zone/#t=1:27:52",
+    "tags": "",
+    "created_at": "2016-11-15T14:15:39Z",
+    "slug_soundcloud": "this-is-a-safe-zone",
+    "slug_earwolf": "this-is-a-safe-zone",
+    "episode_title": "This is a Safe Zone",
+    "episode_guests": "Todd Glass,Brian Huskey",
+    "id_wikia": 2262,
+    "holding": "false"
+}
+
+{
+    "episode": 173,
+    "show": "cbb",
+    "tstart": "17:54",
+    "tend": "18:02",
+    "instance": "Rhythm and Blues",
+    "bit":"Group Coupon","elucidation":"scott articulates obvious data (acronyms, abbreviations, etc.)",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-11-16T09:52:30Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/ride-like-hell/#t=17:54",
+    "tags": "Werner Herzog",
+    "created_at": "2016-11-16T09:52:30Z",
+    "slug_soundcloud": "ride-like-hell",
+    "slug_earwolf": "ride-like-hell",
+    "episode_title": "Ride Like Hell",
+    "episode_guests": "Paul F. Tompkins,Paul Scheer,Brent Weinbach",
+    "id_wikia": 3133,
+    "holding": "false"
+}
+
+{
+    "episode": 173,
+    "show": "cbb",
+    "tstart": "42:28",
+    "tend": "43:00",
+    "instance": "I'm always a busy guy.",
+    "bit":"Location.",
+    "elucidation":"identifiable earth location",
+    "location_type": "point",
+    "location_id": "262",
+    "updated_at": "2016-11-16T09:52:30Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/ride-like-hell/#t=42:28",
+    "tags": "Werner Herzog,King Kong (1976 film),Scott Jeffries",
+    "created_at": "2016-11-16T09:52:30Z",
+    "slug_soundcloud": "ride-like-hell",
+    "slug_earwolf": "ride-like-hell",
+    "episode_title": "Ride Like Hell",
+    "episode_guests": "Paul F. Tompkins,Paul Scheer,Brent Weinbach",
+    "id_wikia": 3133,
+    "holding": "false"
+}
+
+{
+    "episode": 173,
+    "show": "cbb",
+    "tstart": "44:02",
+    "tend": "44:24",
+    "instance": "Seems to me like she has a legitimate beef with you.",
+    "bit":"My Wife!","elucidation":"borat",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-11-16T09:52:30Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/ride-like-hell/#t=44:02",
+    "tags": "Werner Herzog,Scott Jeffries",
+    "created_at": "2016-11-16T09:52:30Z",
+    "slug_soundcloud": "ride-like-hell",
+    "slug_earwolf": "ride-like-hell",
+    "episode_title": "Ride Like Hell",
+    "episode_guests": "Paul F. Tompkins,Paul Scheer,Brent Weinbach",
+    "id_wikia": 3133,
+    "holding": "false"
+}
+
+{
+    "episode": 173,
+    "show": "cbb",
+    "tstart": "49:10",
+    "tend": "49:33",
+    "instance": "I am not overly familiar with New Mexico but I do know Chicopee Lane.",
+    "bit":"Location.",
+    "elucidation":"identifiable earth location",
+    "location_type": "poly",
+    "location_id": "381",
+    "updated_at": "2016-11-16T09:52:30Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/ride-like-hell/#t=49:10",
+    "tags": "Werner Herzog,Scott Jeffries",
+    "created_at": "2016-11-16T09:52:30Z",
+    "slug_soundcloud": "ride-like-hell",
+    "slug_earwolf": "ride-like-hell",
+    "episode_title": "Ride Like Hell",
+    "episode_guests": "Paul F. Tompkins,Paul Scheer,Brent Weinbach",
+    "id_wikia": 3133,
+    "holding": "false"
+}
+
+{
+    "episode": 173,
+    "show": "cbb",
+    "tstart": "52:30",
+    "tend": "52:53",
+    "instance": "Is it like mastering Pac-Man?",
+    "bit":"Who?","elucidation":"somebody doesn't know who or what something famous is",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-11-16T09:52:30Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/ride-like-hell/#t=52:30",
+    "tags": "Werner Herzog,Scott Jeffries,Pac-Man (game)",
+    "created_at": "2016-11-16T09:52:30Z",
+    "slug_soundcloud": "ride-like-hell",
+    "slug_earwolf": "ride-like-hell",
+    "episode_title": "Ride Like Hell",
+    "episode_guests": "Paul F. Tompkins,Paul Scheer,Brent Weinbach",
+    "id_wikia": 3133,
+    "holding": "false"
+}
+
+{
+    "episode": 173,
+    "show": "cbb",
+    "tstart": "1:21:53",
+    "tend": "1:22:09",
+    "instance": "Scott, I realize this is a highly unorthodox procedure.",
+    "bit":"Highly Unorthodox","elucidation":"somebody (pft) bucks protocol and cedes their plug time",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-11-16T09:52:30Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/ride-like-hell/#t=1:21:53",
+    "tags": "Werner Herzog,Scott Jeffries",
+    "created_at": "2016-11-16T09:52:30Z",
+    "slug_soundcloud": "ride-like-hell",
+    "slug_earwolf": "ride-like-hell",
+    "episode_title": "Ride Like Hell",
+    "episode_guests": "Paul F. Tompkins,Paul Scheer,Brent Weinbach",
+    "id_wikia": 3133,
+    "holding": "false"
+}
+
+{
+    "episode": 174,
+    "show": "cbb",
+    "tstart": "13:00",
+    "tend": "13:08",
+    "instance": "'Dressed to the Borgnines,' that was his earnest singing group.",
+    "bit":"Oh Boy",
+    "elucidation":"something is disgusting in some way",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-11-16T14:55:57Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/series-regulars/#t=13:00",
+    "tags": "Ernest Borgnine",
+    "created_at": "2016-11-16T14:55:57Z",
+    "slug_soundcloud": "series-regulars",
+    "slug_earwolf": "series-regulars",
+    "episode_title": "Series Regulars",
+    "episode_guests": "Lizzy Caplan,John Mulaney,Nick Kroll",
+    "id_wikia": 3135,
+    "holding": "false"
+}
+
+{
+    "episode": 174,
+    "show": "cbb",
+    "tstart": "1:00:10",
+    "tend": "1:00:19",
+    "instance": "You need your arms to do that.",
+    "bit":"Fake Badge","elucidation":"george st. geegland uses a fake badge",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-11-16T14:55:57Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/series-regulars/#t=1:00:10",
+    "tags": "George St. Geegland,Gil Faizon",
+    "created_at": "2016-11-16T14:55:57Z",
+    "slug_soundcloud": "series-regulars",
+    "slug_earwolf": "series-regulars",
+    "episode_title": "Series Regulars",
+    "episode_guests": "Lizzy Caplan,John Mulaney,Nick Kroll",
+    "id_wikia": 3135,
+    "holding": "false"
+}
