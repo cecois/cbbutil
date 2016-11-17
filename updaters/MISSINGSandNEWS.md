@@ -1,6 +1,7 @@
 # possible new bits: 
 * we're really gonna probe his psyche (in-depth)
 	* 162,33:45
+	* 172,19:15
 	* 155,26:20
 	* 160,52:00
 	* 150,0:20
@@ -17,6 +18,7 @@
 	* 133,9:00
 	* 133,43:50
 	* 98,1:30
+	* 174,46:30
 	* 99,1:40
 	* the two oswalt eps
 	* 119,15:00
@@ -31,11 +33,16 @@
 	* 141,20:45
 	* 141,49:10
 	* 145,9:30
+* year in advance
+	* 172,1:02:30
+	* (tons b4 172)
 * shutting down from coast to coast
 	* 456,* (inaugural)
 	* 456,52:00
 * working in the lab
 	* all halloween specials
+* woody allen's turning point
+	* 457,29:00
 * book fade-outs
 	* 2016.leeds,1:39:20
 	* 2016.shepherds,1:49:15
@@ -80,6 +87,7 @@
 	* bo2010,46:50
 	* 137,3:30
 	* 138,21:34
+	* 173,6:50
 * one toilet per person
 	* 2016.nottingham,25:45
 	* 2016.chicago7,39:20
@@ -133,16 +141,18 @@
 * 2016.oakland,54:33
 * 2016.sydney,1:04:30
 * \#1 with a bullet
-* 2016.denver,10:00
-* 2016.toronto,41:00
-* 289,10:15
-* 2016.dallas,33:40
-* 441,12:00
-* 2016.denver,10:00
-* 2016.toronto,41:00
-* 289,10:15
-* 2016.dallas,33:40
-* 444,1:16:37
+	* 2016.denver,10:00
+	* 2016.toronto,41:00
+	* 289,10:15
+	* 2016.dallas,33:40
+	* 441,12:00
+	* 2016.denver,10:00
+	* 2016.toronto,41:00
+	* 289,10:15
+	* 2016.dallas,33:40
+	* 444,1:16:37
+	* 174,11:00
+	* 457,all episode long
 * lapkus can't make it through a song
 * 2016.tarrytown,5:00
 * 2016.tarrytown,4:46
@@ -212,6 +222,7 @@
 * 2016.losangeles,1:01:00
 * 2016.losangeles,1:00:40
 * character bonanzas
+	* 171,*
 	* 148,1:15:00
 	* 136,1:52:00
 	* 286
@@ -249,6 +260,7 @@
 	* 413,1:00:30 (mark twain)
 	* 416,13:30
 	* 182,36:15
+	* 175,16:10
 * morch (march)
 * 411,1:30
 * players playing other players' characters
@@ -365,6 +377,8 @@
 	* 164,19:40
 	* 164,28:30
 	* 164,54:40
+	* 172,52:00
+	* 176,2:45
 	* 165,12:50
 	* 166,1:20
 	* 163,1:14:30
@@ -480,7 +494,8 @@
 * 398,1:08:00
 * 2016.chicago10,27:30	
 * jason hates scott
-* 384,24:30
+	* 384,24:30
+	* 176,8:45
 * constantly high-fiving
 * 384,25:00
 * men of a certain age
