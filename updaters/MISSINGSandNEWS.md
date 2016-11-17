@@ -260,6 +260,7 @@
 	* 413,1:00:30 (mark twain)
 	* 416,13:30
 	* 182,36:15
+	* 175,16:10
 * morch (march)
 * 411,1:30
 * players playing other players' characters
@@ -377,6 +378,7 @@
 	* 164,28:30
 	* 164,54:40
 	* 172,52:00
+	* 176,2:45
 	* 165,12:50
 	* 166,1:20
 	* 163,1:14:30
@@ -492,7 +494,8 @@
 * 398,1:08:00
 * 2016.chicago10,27:30	
 * jason hates scott
-* 384,24:30
+	* 384,24:30
+	* 176,8:45
 * constantly high-fiving
 * 384,25:00
 * men of a certain age

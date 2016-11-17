@@ -5520,3 +5520,25 @@
  	"id_wikia": 3135,
  	"holding": "false"
  }
+
+ {
+ 	"episode": 175,
+ 	"show": "cbb",
+ 	"tstart": "17:14",
+ 	"tend": "17:20",
+ 	"instance":"Crazy, this life!",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-11-17T09:21:09Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/mop-water/#t=17:14",
+ 	"tags": "The Grateful Dead (musical combination),Truckin (song)",
+ 	"created_at": "2016-11-17T09:21:09Z",
+ 	"slug_soundcloud": "mop-water",
+ 	"slug_earwolf": "mop-water",
+ 	"episode_title": "Mop Water",
+ 	"episode_guests": "Justin Kirk,Paul F. Tompkins",
+ 	"id_wikia": 3137,
+ 	"holding": "false"
+ }

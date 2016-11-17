@@ -6343,3 +6343,25 @@
 	"id_wikia": 3133,
 	"holding": "false"
 }
+
+{
+	"episode": 174,
+	"show": "cbb",
+	"tstart": "1:12:55",
+	"tend": "1:13:02",
+	"instance": "You're one of America's greatest stars.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-11-16T14:55:57Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/series-regulars/#t=1:12:55",
+	"tags": "George St. Geegland,Gil Faizon",
+	"created_at": "2016-11-16T14:55:57Z",
+	"slug_soundcloud": "series-regulars",
+	"slug_earwolf": "series-regulars",
+	"episode_title": "Series Regulars",
+	"episode_guests": "Lizzy Caplan,John Mulaney,Nick Kroll",
+	"id_wikia": 3135,
+	"holding": "false"
+}
