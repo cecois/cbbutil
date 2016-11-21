@@ -144,3 +144,66 @@
 	"id_wikia": null,
 	"holding": "false"
 }
+
+{
+	"episode": 458,
+	"show": "cbb",
+	"tstart": "33:34",
+	"tend": "33:37",
+	"instance": "Do ghosts have buttholes?",
+	"bit":"Scott's Questions","elucidation":"(in progress) - scott's questions",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-11-18T10:13:45Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/458-ben-schwartz/#t=33:34",
+	"tags": "",
+	"created_at": "2016-11-18T10:13:45Z",
+	"slug_soundcloud": "458-ben-schwartz",
+	"slug_earwolf": "solo-bolo-cuatrolo",
+	"episode_title": "Solo Bolo Cuatrolo",
+	"episode_guests": "Ben Schwartz",
+	"id_wikia": 3160,
+	"holding": "false"
+}
+
+{
+	"episode": 458,
+	"show": "cbb",
+	"tstart": "37:35",
+	"tend": "37:56",
+	"instance": "Someone else's shit.",
+	"bit":"My Wife!","elucidation":"borat",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-11-18T10:13:45Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/458-ben-schwartz/#t=37:35",
+	"tags": "",
+	"created_at": "2016-11-18T10:13:45Z",
+	"slug_soundcloud": "458-ben-schwartz",
+	"slug_earwolf": "solo-bolo-cuatrolo",
+	"episode_title": "Solo Bolo Cuatrolo",
+	"episode_guests": "Ben Schwartz",
+	"id_wikia": 3160,
+	"holding": "false"
+}
+
+{
+	"episode": 458,
+	"show": "cbb",
+	"tstart": "55:40",
+	"tend": "56:55",
+	"instance": "Heynong Man Ain't Nuthing ta Fuck Wit",
+	"bit":"Heynong Man","elucidation":"the cbb sorbet",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-11-18T10:13:45Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/458-ben-schwartz/#t=55:28",
+	"tags": "Wu-Tang Clan Ain't Nuthing ta Fuck Wit (song),Wu-Tang Clan (musical combination)",
+	"created_at": "2016-11-18T10:13:45Z",
+	"slug_soundcloud": "458-ben-schwartz",
+	"slug_earwolf": "solo-bolo-cuatrolo",
+	"episode_title": "Solo Bolo Cuatrolo",
+	"episode_guests": "Ben Schwartz",
+	"id_wikia": 3160,
+	"holding": "false"
+}
