@@ -6906,3 +6906,93 @@
  	"id_wikia": 3160,
  	"holding": "false"
  }
+
+ {
+ 	"episode": 460,
+ 	"show": "cbb",
+ 	"tstart": "9:14",
+ 	"tend": "9:42",
+ 	"instance": "Every serious George Clooney movie just had bloopers at the end.",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-11-28T08:54:57Z",
+ 	"url_soundcloud": "https://soundcloud.com/comedybangbang/460-weird-al-yankovic-ryan-gaul-jeremy-rowley-drew-tarver/#t=9:14",
+ 	"tags": "George Clooney,Yakety Sax (song),Boots Randolph,Benny Hill",
+ 	"created_at": "2016-11-28T08:54:57Z",
+ 	"slug_soundcloud": "460-weird-al-yankovic-ryan-gaul-jeremy-rowley-drew-tarver",
+ 	"slug_earwolf": "persons-of-interest",
+ 	"episode_title": "Persons of Interest",
+ 	"episode_guests": "Weird Al Yankovic,Ryan Gaul,Jeremy Rowley,Drew Tarver",
+ 	"id_wikia": null,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 460,
+ 	"show": "cbb",
+ 	"tstart": "23:25",
+ 	"tend": "23:38",
+ 	"instance": "To me that seems unbelievable.",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-11-28T08:54:57Z",
+ 	"url_soundcloud": "https://soundcloud.com/comedybangbang/460-weird-al-yankovic-ryan-gaul-jeremy-rowley-drew-tarver/#t=23:25",
+ 	"tags": "You're Unbelievable (song),EMF (musical combination),Detective James P. Garetty",
+ 	"created_at": "2016-11-28T08:54:57Z",
+ 	"slug_soundcloud": "460-weird-al-yankovic-ryan-gaul-jeremy-rowley-drew-tarver",
+ 	"slug_earwolf": "persons-of-interest",
+ 	"episode_title": "Persons of Interest",
+ 	"episode_guests": "Weird Al Yankovic,Ryan Gaul,Jeremy Rowley,Drew Tarver",
+ 	"id_wikia": null,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 178,
+ 	"show": "cbb",
+ 	"tstart": "27:42",
+ 	"tend": "27:50",
+ 	"instance": "This is how we Womp it.",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-11-18T10:13:45Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/motor-boating-around-town/#t=27:42",
+ 	"tags": "Montell Jordan,This is How We Do It (song),Marissa Wompler,The Fat Boys (musical combination)",
+ 	"created_at": "2016-11-18T10:13:45Z",
+ 	"slug_soundcloud": "motor-boating-around-town",
+ 	"slug_earwolf": "motor-boating-around-town",
+ 	"episode_title": "Motor Boating Around Town",
+ 	"episode_guests": "Rob Corddry,Jessica St. Clair",
+ 	"id_wikia": 3162,
+ 	"time": "",
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 178,
+ 	"show": "cbb",
+ 	"tstart": "31:21",
+ 	"tend": "31:44",
+ 	"instance": "I was gonna let him have the whole tamale, papi, I really was.",
+ 	"bit": "The Paul Hardcastle of Suicides",
+ 	"elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-11-18T10:13:45Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/motor-boating-around-town/#t=31:21",
+ 	"tags": "Moondance (song),Van Morrison,Marissa Wompler,Eric (Gutterballs) Gutterman",
+ 	"created_at": "2016-11-18T10:13:45Z",
+ 	"slug_soundcloud": "motor-boating-around-town",
+ 	"slug_earwolf": "motor-boating-around-town",
+ 	"episode_title": "Motor Boating Around Town",
+ 	"episode_guests": "Rob Corddry,Jessica St. Clair",
+ 	"id_wikia": 3162,
+ 	"time": "",
+ 	"holding": "false"
+ }
