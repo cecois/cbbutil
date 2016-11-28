@@ -41,7 +41,7 @@
 }
 
 {
-    "episode": 177,
+    "episode": 178,
     "show": "cbb",
     "tstart": "14:45",
     "tend": "15:07",
@@ -50,13 +50,102 @@
     "location_type": "",
     "location_id": "",
     "updated_at": "2016-11-18T10:13:45Z",
-    "url_soundcloud": "http://soundcloud.com/comedybangbang/penises-abounding/#t=14:45",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/motor-boating-around-town/#t=14:45",
     "tags": "Marissa Wompler",
     "created_at": "2016-11-18T10:13:45Z",
-    "slug_soundcloud": "penises-abounding",
-    "slug_earwolf": "penises-abounding",
-    "episode_title": "Penises Abounding",
-    "episode_guests": "B.J. Novak,Jordan Peele,Wyatt Cenac,Keegan-Michael Key",
-    "id_wikia": 3160,
+    "slug_soundcloud": "motor-boating-around-town",
+    "slug_earwolf": "motor-boating-around-town",
+    "episode_title": "Motor Boating Around Town",
+    "episode_guests": "Rob Corddry,Jessica St. Clair",
+    "id_wikia": 3162,
+    "time": "",
+    "holding": "false"
+}
+
+{
+    "episode": 178,
+    "show": "cbb",
+    "tstart": "24:08",
+    "tend": "24:12",
+    "instance": "Did we say your name?",
+    "bit":"Womp it Up!","elucidation":"wompler's catchphrase",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-11-18T10:13:45Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/motor-boating-around-town/#t=24:08",
+    "tags": "Marissa Wompler",
+    "created_at": "2016-11-18T10:13:45Z",
+    "slug_soundcloud": "motor-boating-around-town",
+    "slug_earwolf": "motor-boating-around-town",
+    "episode_title": "Motor Boating Around Town",
+    "episode_guests": "Rob Corddry,Jessica St. Clair",
+    "id_wikia": 3162,
+    "time": "",
+    "holding": "false"
+}
+
+{
+    "episode": 178,
+    "show": "cbb",
+    "tstart": "27:42",
+    "tend": "27:50",
+    "instance": "This gentleman, Eric Gutterman...",
+    "bit":"Oh Boy","elucidation":"something is disgusting in some way",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-11-18T10:13:45Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/motor-boating-around-town/#t=27:42",
+    "tags": "Marissa Wompler,Eric (Gutterballs) Gutterman",
+    "created_at": "2016-11-18T10:13:45Z",
+    "slug_soundcloud": "motor-boating-around-town",
+    "slug_earwolf": "motor-boating-around-town",
+    "episode_title": "Motor Boating Around Town",
+    "episode_guests": "Rob Corddry,Jessica St. Clair",
+    "id_wikia": 3162,
+    "time": "",
+    "holding": "false"
+}
+
+{
+    "episode": 178,
+    "show": "cbb",
+    "tstart": "37:30",
+    "tend": "37:44",
+    "instance": "I thought you were being fresh again.",
+    "bit":"Womp it Up!","elucidation":"wompler's catchphrase",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-11-18T10:13:45Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/motor-boating-around-town/#t=37:30",
+    "tags": "Marissa Wompler",
+    "created_at": "2016-11-18T10:13:45Z",
+    "slug_soundcloud": "motor-boating-around-town",
+    "slug_earwolf": "motor-boating-around-town",
+    "episode_title": "Motor Boating Around Town",
+    "episode_guests": "Rob Corddry,Jessica St. Clair",
+    "id_wikia": 3162,
+    "time": "",
+    "holding": "false"
+}
+
+{
+    "episode": 178,
+    "show": "cbb",
+    "tstart": "53:44",
+    "tend": "54:00",
+    "instance": "I've always thought that you were, like, an old soul trapped in the brain of, like, a 2-year-old's autistic child.",
+    "bit":"Womp it Up!","elucidation":"wompler's catchphrase",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-11-18T10:13:45Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/motor-boating-around-town/#t=53:44",
+    "tags": "Marissa Wompler",
+    "created_at": "2016-11-18T10:13:45Z",
+    "slug_soundcloud": "motor-boating-around-town",
+    "slug_earwolf": "motor-boating-around-town",
+    "episode_title": "Motor Boating Around Town",
+    "episode_guests": "Rob Corddry,Jessica St. Clair",
+    "id_wikia": 3162,
+    "time": "",
     "holding": "false"
 }
