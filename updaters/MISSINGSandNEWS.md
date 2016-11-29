@@ -261,6 +261,7 @@
 	* 416,13:30
 	* 182,36:15
 	* 175,16:10
+	* 180,5:20
 * morch (march)
 * 411,1:30
 * players playing other players' characters
@@ -430,6 +431,7 @@
 	* 2016.chicago10,27:30
 	* 428,14:30
 	* 2016.leeds,25:32
+	* 179,54:20
 * don't joke about irobot
 	* early in bo2015.1
 	* bo2015.2,12:00
