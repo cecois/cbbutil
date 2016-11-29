@@ -259,3 +259,213 @@
     "time": "",
     "holding": "false"
 }
+
+{
+    "episode": 179,
+    "show": "cbb",
+    "tstart": "14:10",
+    "tend": "14:29",
+    "instance": "How does that go - can we hear a little bit of that?",
+    "bit":"I'd Love to Hear It","elucidation":"a pimping subclass: somebody is asked to recite or sing a poem or song",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-11-29T10:11:56Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/pitch-slapped/#t=14:10",
+    "tags": "Jesse Frederick,Everywhere You Look (song),Full House (TV)",
+    "created_at": "2016-11-29T10:11:56Z",
+    "slug_soundcloud": "pitch-slapped",
+    "slug_earwolf": "pitch-slapped",
+    "episode_title": "Pitch Slapped",
+    "episode_guests": "Adam DeVine,Paul Scheer,Kay Cannon,Hana Mae Lee",
+    "id_wikia": 3164,
+    "holding": "false"
+}
+
+{
+    "episode": 180,
+    "show": "cbb",
+    "tstart": "37:47",
+    "tend": "38:00",
+    "instance": "I feel, like, really blessed to have the opportunity to share this with you guys on this podcast which probably reaches, like, a bunch of people.",
+    "bit":"Possibly Hundreds","elucidation":"cbb's listenership is questioned",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-11-29T12:36:54Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/friends-without-words/#t=37:47",
+    "tags": "Garry Marshall,Tracy",
+    "created_at": "2016-11-29T12:36:54Z",
+    "slug_soundcloud": "friends-without-words",
+    "slug_earwolf": "friends-without-words",
+    "episode_title": "Friends Without Words",
+    "episode_guests": "Gillian Jacobs,Paul F. Tompkins,Lauren Lapkus",
+    "id_wikia": 2438,
+    "holding": "false"
+}
+
+{
+    "episode": 180,
+    "show": "cbb",
+    "tstart": "42:10",
+    "tend": "42:36",
+    "instance": "It was very traumatic - we were all robbed.",
+    "bit":"Time to Get Into That","elucidation":"scott wishes there was time to get into some topic - but there just isn't",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-11-29T12:36:54Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/friends-without-words/#t=42:10",
+    "tags": "Garry Marshall,Tracy",
+    "created_at": "2016-11-29T12:36:54Z",
+    "slug_soundcloud": "friends-without-words",
+    "slug_earwolf": "friends-without-words",
+    "episode_title": "Friends Without Words",
+    "episode_guests": "Gillian Jacobs,Paul F. Tompkins,Lauren Lapkus",
+    "id_wikia": 2438,
+    "holding": "false"
+}
+
+{
+    "episode": 180,
+    "show": "cbb",
+    "tstart": "44:32",
+    "tend": "44:50",
+    "instance": "I think that means 'bend over, bitch' in Italian.",
+    "bit":"Not That Kind of a Show","elucidation":"cbb gets a little blue",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-11-29T12:36:54Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/friends-without-words/#t=44:32",
+    "tags": "Garry Marshall,Tracy",
+    "created_at": "2016-11-29T12:36:54Z",
+    "slug_soundcloud": "friends-without-words",
+    "slug_earwolf": "friends-without-words",
+    "episode_title": "Friends Without Words",
+    "episode_guests": "Gillian Jacobs,Paul F. Tompkins,Lauren Lapkus",
+    "id_wikia": 2438,
+    "holding": "false"
+}
+
+{
+    "episode": 180,
+    "show": "cbb",
+    "tstart": "50:49",
+    "tend": "51:02",
+    "instance": "Gina Lollobrigida",
+    "bit":"#RIPossible?","elucidation":"dead/not dead?",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-11-29T12:36:54Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/friends-without-words/#t=50:49",
+    "tags": "Garry Marshall,Tracy,Gina Lollobrigida",
+    "created_at": "2016-11-29T12:36:54Z",
+    "slug_soundcloud": "friends-without-words",
+    "slug_earwolf": "friends-without-words",
+    "episode_title": "Friends Without Words",
+    "episode_guests": "Gillian Jacobs,Paul F. Tompkins,Lauren Lapkus",
+    "id_wikia": 2438,
+    "holding": "false"
+}
+
+{
+    "episode": 180,
+    "show": "cbb",
+    "tstart": "51:30",
+    "tend": "51:43",
+    "instance": "We'll have more from Mrs. Garry Marshall.",
+    "bit":"My Wife!","elucidation":"borat",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-11-29T12:36:54Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/friends-without-words/#t=51:30",
+    "tags": "Garry Marshall,Tracy",
+    "created_at": "2016-11-29T12:36:54Z",
+    "slug_soundcloud": "friends-without-words",
+    "slug_earwolf": "friends-without-words",
+    "episode_title": "Friends Without Words",
+    "episode_guests": "Gillian Jacobs,Paul F. Tompkins,Lauren Lapkus",
+    "id_wikia": 2438,
+    "holding": "false"
+}
+
+{
+    "episode": 180,
+    "show": "cbb",
+    "tstart": "54:12",
+    "tend": "54:20",
+    "instance": "Do a lot of people die in Italy?",
+    "bit":"Scott's Questions","elucidation":"(in progress) - scott's questions",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-11-29T12:36:54Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/friends-without-words/#t=54:12",
+    "tags": "Garry Marshall,Tracy",
+    "created_at": "2016-11-29T12:36:54Z",
+    "slug_soundcloud": "friends-without-words",
+    "slug_earwolf": "friends-without-words",
+    "episode_title": "Friends Without Words",
+    "episode_guests": "Gillian Jacobs,Paul F. Tompkins,Lauren Lapkus",
+    "id_wikia": 2438,
+    "holding": "false"
+}
+
+{
+    "episode": 180,
+    "show": "cbb",
+    "tstart": "59:54",
+    "tend": "1:00:20",
+    "instance": "It sounds grammatically unsound.",
+    "bit":"#RIPossible?","elucidation":"dead/not dead?",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-11-29T12:36:54Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/friends-without-words/#t=59:54",
+    "tags": "Garry Marshall",
+    "created_at": "2016-11-29T12:36:54Z",
+    "slug_soundcloud": "friends-without-words",
+    "slug_earwolf": "friends-without-words",
+    "episode_title": "Friends Without Words",
+    "episode_guests": "Gillian Jacobs,Paul F. Tompkins,Lauren Lapkus",
+    "id_wikia": 2438,
+    "holding": "false"
+}
+
+{
+    "episode": 180,
+    "show": "cbb",
+    "tstart": "1:00:28",
+    "tend": "1:00:44",
+    "instance": "It's like Papoo's Hot Dog Show.",
+    "bit":"#RIPossible?","elucidation":"dead/not dead?",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-11-29T12:36:54Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/friends-without-words/#t=1:00:28",
+    "tags": "Garry Marshall",
+    "created_at": "2016-11-29T12:36:54Z",
+    "slug_soundcloud": "friends-without-words",
+    "slug_earwolf": "friends-without-words",
+    "episode_title": "Friends Without Words",
+    "episode_guests": "Gillian Jacobs,Paul F. Tompkins,Lauren Lapkus",
+    "id_wikia": 2438,
+    "holding": "false"
+}
+
+{
+    "episode": 180,
+    "show": "cbb",
+    "tstart": "1:01:11",
+    "tend": "1:01:16",
+    "instance": "It's time to play a very special feature here on the show.",
+    "bit":"What's This, Now?!","elucidation":"something surprises someone",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-11-29T12:36:54Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/friends-without-words/#t=1:01:11",
+    "tags": "Garry Marshall",
+    "created_at": "2016-11-29T12:36:54Z",
+    "slug_soundcloud": "friends-without-words",
+    "slug_earwolf": "friends-without-words",
+    "episode_title": "Friends Without Words",
+    "episode_guests": "Gillian Jacobs,Paul F. Tompkins,Lauren Lapkus",
+    "id_wikia": 2438,
+    "holding": "false"
+}

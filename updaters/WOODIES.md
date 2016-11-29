@@ -38,7 +38,7 @@
 * 161,59:58,mmm come on (daycare w/ tony)
 * 174,1:07:58,What?! (George St. Geegland gets the bad news about Bruno Kirby)
 * 174,1:08:30,And you're Gil
-* 180,39:45,a great silence envelopes the nation
+* 180,39:37,a great silence envelopes the nation
 * 180,44:40,yeah that's what i know
 * 182,43:00,your name is Zazzoo!
 * 182,43:04-44:14,your name is zazzoo 
