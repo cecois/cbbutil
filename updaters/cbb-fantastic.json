@@ -6387,3 +6387,25 @@
 	"id_wikia": 3164,
 	"holding": "false"
 }
+
+{
+	"episode": 181,
+	"show": "cbb",
+	"tstart": "33:20",
+	"tend": "33:27",
+	"instance": "Takin' a lot of good shits?",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2015-10-16T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/happy-endings/#t=33:20",
+	"tags": "Louie Louie (song),The Kingsmen (musical combination)",
+	"created_at": "2015-04-03T10:51:29Z",
+	"slug_soundcloud": "happy-endings",
+	"slug_earwolf": "happy-endings",
+	"episode_title": "Happy Endings",
+	"episode_guests": "Casey Wilson,Adam Pally",
+	"id_wikia": 3166,
+	"holding": "false"
+}
