@@ -60,3 +60,171 @@
     "id_wikia": 3166,
     "holding": "false"
 }
+
+{
+    "episode": 183,
+    "show": "cbb",
+    "tstart": "4:11",
+    "tend": "4:31",
+    "instance": "I guess Slimer from 'The Ghostbusters' is kinda creepy.",
+    "bit":"Slimer","elucidation":"from ghostbusters",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-12-01T08:10:36Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/return-to-suicide-house/#t=4:11",
+    "tags": "Messmore le Barron,Beuford le Barron",
+    "created_at": "2016-12-01T08:10:36Z",
+    "slug_soundcloud": "return-to-suicide-house",
+    "slug_earwolf": "return-to-suicide-house",
+    "episode_title": "Return to Suicide House",
+    "episode_guests": "Brett Gelman,Jon Daly,Allan McLeod,James Adomian",
+    "id_wikia": 3183,
+    "holding": "false"
+}
+
+{
+    "episode": 183,
+    "show": "cbb",
+    "tstart": "20:10",
+    "tend": "20:29",
+    "instance": "Do you do anything that's not during Halloween?",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "location_type": "poly",
+    "location_id": "382",
+    "updated_at": "2016-12-01T08:10:36Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/return-to-suicide-house/#t=20:10",
+    "tags": "Messmore le Barron,Beuford le Barron",
+    "created_at": "2016-12-01T08:10:36Z",
+    "slug_soundcloud": "return-to-suicide-house",
+    "slug_earwolf": "return-to-suicide-house",
+    "episode_title": "Return to Suicide House",
+    "episode_guests": "Brett Gelman,Jon Daly,Allan McLeod,James Adomian",
+    "id_wikia": 3183,
+    "holding": "false"
+}
+
+{
+    "episode": 183,
+    "show": "cbb",
+    "tstart": "29:09",
+    "tend": "29:30",
+    "instance": "What are some of the other houses that you've given 'Murder House' status to?",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "location_type": "point",
+    "location_id": "449",
+    "updated_at": "2016-12-01T08:10:36Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/return-to-suicide-house/#t=29:09",
+    "tags": "Messmore le Barron,Beuford le Barron,Caine Sherman,John Holmes",
+    "created_at": "2016-12-01T08:10:36Z",
+    "slug_soundcloud": "return-to-suicide-house",
+    "slug_earwolf": "return-to-suicide-house",
+    "episode_title": "Return to Suicide House",
+    "episode_guests": "Brett Gelman,Jon Daly,Allan McLeod,James Adomian",
+    "id_wikia": 3183,
+    "holding": "false"
+}
+
+{
+    "episode": 183,
+    "show": "cbb",
+    "tstart": "29:28",
+    "tend": "29:42",
+    "instance":"I recently visited the John Wayne Gacy murder house on John Wayne Gacy court [sic].",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "location_type": "point",
+    "location_id": "734",
+    "updated_at": "2016-12-01T08:10:36Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/return-to-suicide-house/#t=29:28",
+    "tags": "Messmore le Barron,Beuford le Barron,Caine Sherman,John Wayne Gacy",
+    "created_at": "2016-12-01T08:10:36Z",
+    "slug_soundcloud": "return-to-suicide-house",
+    "slug_earwolf": "return-to-suicide-house",
+    "episode_title": "Return to Suicide House",
+    "episode_guests": "Brett Gelman,Jon Daly,Allan McLeod,James Adomian",
+    "id_wikia": 3183,
+    "holding": "false"
+}
+
+{
+    "episode": 183,
+    "show": "cbb",
+    "tstart": "29:44",
+    "tend": "29:55",
+    "instance":"Where he lived and was murdered by Dick Tracy himself.",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "location_type": "point",
+    "location_id": "735",
+    "updated_at": "2016-12-01T08:10:36Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/return-to-suicide-house/#t=29:44",
+    "tags": "Messmore le Barron,Beuford le Barron,Caine Sherman,Bugsy Siegel",
+    "created_at": "2016-12-01T08:10:36Z",
+    "slug_soundcloud": "return-to-suicide-house",
+    "slug_earwolf": "return-to-suicide-house",
+    "episode_title": "Return to Suicide House",
+    "episode_guests": "Brett Gelman,Jon Daly,Allan McLeod,James Adomian",
+    "id_wikia": 3183,
+    "holding": "false"
+}
+
+{
+    "episode": 183,
+    "show": "cbb",
+    "tstart": "33:23",
+    "tend": "33:34",
+    "instance":"That was 2006 I think?",
+    "bit":"#RIPossible?","elucidation":"dead/not dead?",
+    "location_type": "point",
+    "location_id": "735",
+    "updated_at": "2016-12-01T08:10:36Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/return-to-suicide-house/#t=33:23",
+    "tags": "Messmore le Barron,Beuford le Barron,Caine Sherman,O.J. Simpson,Kato Kaelin",
+    "created_at": "2016-12-01T08:10:36Z",
+    "slug_soundcloud": "return-to-suicide-house",
+    "slug_earwolf": "return-to-suicide-house",
+    "episode_title": "Return to Suicide House",
+    "episode_guests": "Brett Gelman,Jon Daly,Allan McLeod,James Adomian",
+    "id_wikia": 3183,
+    "holding": "false"
+}
+
+{
+    "episode": 183,
+    "show": "cbb",
+    "tstart": "1:14:20",
+    "tend": "1:14:27",
+    "instance":"I won't make fun of any of your plugs, frog. I mean I won't, ribbit.",
+    "bit":"Oh Boy","elucidation":"something is disgusting in some way",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2016-12-01T08:10:36Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/return-to-suicide-house/#t=1:14:20",
+    "tags": "Messmore le Barron,Beuford le Barron,Caine Sherman",
+    "created_at": "2016-12-01T08:10:36Z",
+    "slug_soundcloud": "return-to-suicide-house",
+    "slug_earwolf": "return-to-suicide-house",
+    "episode_title": "Return to Suicide House",
+    "episode_guests": "Brett Gelman,Jon Daly,Allan McLeod,James Adomian",
+    "id_wikia": 3183,
+    "holding": "false"
+}
+
+{
+    "episode": 184,
+    "show": "cbb",
+    "tstart": "20:00",
+    "tend": "20:20",
+    "instance": "I didn't know I liked showbusiness or could do it at all.",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "location_type": "point",
+    "location_id": "736",
+    "updated_at": "2016-12-02T13:30:48Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/pop-and-politics/#t=20:00",
+    "tags": "The Washington Monugents",
+    "created_at": "2016-12-02T13:30:48Z",
+    "slug_soundcloud": "pop-and-politics",
+    "slug_earwolf": "pop-and-politics",
+    "episode_title": "Pop and Politics",
+    "episode_guests": "Aziz Ansari,Bob Odenkirk,Neil Campbell,Mike Hanford,James Adomian",
+    "id_wikia": 3185,
+    "holding": "false"
+}
