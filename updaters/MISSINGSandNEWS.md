@@ -41,6 +41,15 @@
 	* 456,52:00
 * working in the lab
 	* all halloween specials
+	* 183,11:30
+	* 183,11:38
+	* 183,20:50
+	* 183,28:35
+	* 183,31:15
+	* 183,32:00
+	* 183,35:35
+	* 183,37:40
+	* 183,1:01:20
 * woody allen's turning point
 	* 457,29:00
 * book fade-outs
@@ -243,6 +252,7 @@
 	* 73,1:17:00,swardson does his brother nad betty white
 	* 107,1:07:00
 	* 109,1:15:30
+	* 183,40+
 * rounds of catchphrase
 * all the cities of the country
 * 404,16:00
@@ -281,6 +291,8 @@
 	* 130,1:08:45
 	* 2016.oakland,1:01:12
 	* 448,13:48
+	* 461,9:20
+	* 461,1:11:00
 * muppets gonna eff?
 * 2016.nottingham,53:20 (?)
 * bo2015.x?
@@ -289,12 +301,12 @@
 * bo2015.4,~38:00
 * 412,9:40
 * ET no homo
-* 356,1:12:00
-* 406,54:50
-* 2016.detroit,1:43:15
-* 2016.oakland,11:00
-* 2016.oakland,13:00
-* 2016.oakland,54:33
+	* 356,1:12:00
+	* 406,54:50
+	* 2016.detroit,1:43:15
+	* 2016.oakland,11:00
+	* 2016.oakland,13:00
+	* 2016.oakland,54:33
 * fictional people - dead but reasonable
 	* san francisco 2012,23:00+
 	* seattle 2013,55:45
@@ -400,6 +412,7 @@
 	* 152,9:20
 	* 152,18:00
 	* 153,1:04:10
+	* 461,55:45
 * mr. microphone
 	* 6th anniversary special
 	* BO2015.4,10:55
@@ -613,3 +626,6 @@
 	* 178,46:20,movingon.org
 	* 178,46:20,movingon.net
 	* 178,1:13:20,moveon.tv
+	* 183,6:00,www.spookyguyz.com
+	* 183,1:12:20,spookyguyz.com
+	* 183,37:50,sillyguyz.com
