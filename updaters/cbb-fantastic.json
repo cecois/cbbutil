@@ -6475,3 +6475,135 @@
 	"id_wikia": 3188,
 	"holding": "false"
 }
+
+{
+	"episode": 187,
+	"show": "cbb",
+	"tstart": "16:22",
+	"tend": "16:31",
+	"instance": "You have a great cast.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-12-07T08:25:54Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/finger-chimes/#t=16:22",
+	"tags": "",
+	"created_at": "2016-12-07T08:25:54Z",
+	"slug_soundcloud": "finger-chimes",
+	"slug_earwolf": "finger-chimes",
+	"episode_title": "Finger Chimes",
+	"episode_guests": "Nat Faxon,Lennon Parham",
+	"id_wikia": 3190,
+	"holding": "false"
+}
+
+{
+	"episode": 187,
+	"show": "cbb",
+	"tstart": "1:19:37",
+	"tend": "1:19:44",
+	"instance": "I simply just played him a song and sent him on his way.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-12-07T08:25:54Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/finger-chimes/#t=1:19:37",
+	"tags": "Forsythia",
+	"created_at": "2016-12-07T08:25:54Z",
+	"slug_soundcloud": "finger-chimes",
+	"slug_earwolf": "finger-chimes",
+	"episode_title": "Finger Chimes",
+	"episode_guests": "Nat Faxon,Lennon Parham",
+	"id_wikia": 3190,
+	"holding": "false"
+}
+
+{
+	"episode": 188,
+	"show": "cbb",
+	"tstart": "1:38",
+	"tend": "1:44",
+	"instance": "Boy, we have a show, here.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-12-07T11:19:59Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/attack-of-the-shits/#t=1:38",
+	"tags": "",
+	"created_at": "2016-12-07T11:19:59Z",
+	"slug_soundcloud": "attack-of-the-shits",
+	"slug_earwolf": "attack-of-the-shits",
+	"episode_title": "Attack of the Shits",
+	"episode_guests": "Judd Apatow,Graham Parker,Jessica St. Clair",
+	"id_wikia": 2801,
+	"holding": "false"
+}
+
+{
+	"episode": 188,
+	"show": "cbb",
+	"tstart": "46:40",
+	"tend": "46:46",
+	"instance": "I'm producing 'Anchorman 2.'",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-12-07T11:19:59Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/attack-of-the-shits/#t=46:40",
+	"tags": "",
+	"created_at": "2016-12-07T11:19:59Z",
+	"slug_soundcloud": "attack-of-the-shits",
+	"slug_earwolf": "attack-of-the-shits",
+	"episode_title": "Attack of the Shits",
+	"episode_guests": "Judd Apatow,Graham Parker,Jessica St. Clair",
+	"id_wikia": 2801,
+	"holding": "false"
+}
+
+{
+	"episode": 189,
+	"show": "cbb",
+	"tstart": "2:15",
+	"tend": "2:23",
+	"instance": "I have a co-host here with me.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-12-07T13:16:17Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/the-pancake-man/#t=2:15",
+	"tags": "Werner Herzog",
+	"created_at": "2016-12-07T13:16:17Z",
+	"slug_soundcloud": "the-pancake-man",
+	"slug_earwolf": "the-pancake-man",
+	"episode_title": "The Pancake Man",
+	"episode_guests": "Chris Fairbanks,Paul F. Tompkins",
+	"id_wikia": 3196,
+	"holding": "false"
+}
+
+{
+	"episode": 189,
+	"show": "cbb",
+	"tstart": "1:08:49",
+	"tend": "1:08:54",
+	"instance": "I would love to break my record of being on a third time.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-12-07T13:16:17Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/the-pancake-man/#t=1:08:49",
+	"tags": "",
+	"created_at": "2016-12-07T13:16:17Z",
+	"slug_soundcloud": "the-pancake-man",
+	"slug_earwolf": "the-pancake-man",
+	"episode_title": "The Pancake Man",
+	"episode_guests": "Chris Fairbanks,Paul F. Tompkins",
+	"id_wikia": 3196,
+	"holding": "false"
+}

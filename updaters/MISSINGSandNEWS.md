@@ -599,6 +599,10 @@
 	* 113,2:30
 	* 137,9:30
 	* 162,8:45
+* record-breaking appearance
+	* 189,2:30
+	* 189,1:08:30
+	* (previous herzog appear)
 * of note/in his own right
 	* 136,9:09
 	* 445,4:00
