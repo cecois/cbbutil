@@ -713,8 +713,8 @@
 	"show": "cbb",
 	"tstart": "37:18",
 	"tend": "37:30",
-	"instance": "",
-	"bit" : "I wanna ask you some very important questions.",
+	"instance": "I wanna ask you some very important questions.",
+	"bit" : "I Literally Have Nowhere Else to Be",
 	"elucidation" : "a guest defaults to sticking around for the rest of the show",
 	"location_type": "",
 	"location_id": "",
@@ -727,5 +727,27 @@
 	"episode_title": "Ghost Protocol",
 	"episode_guests": "Andy Richter,Paul F. Tompkins",
 	"id_wikia": 3036,
+	"holding": "false"
+}
+
+{
+	"episode": 463,
+	"show": "cbb",
+	"tstart": "28:33",
+	"tend": "28:43",
+	"instance": "Gino, you better be here the entire time.",
+	"bit" : "I Literally Have Nowhere Else to Be",
+	"elucidation" : "a guest defaults to sticking around for the rest of the show",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-12-12T08:16:50Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/463-2016-holiday-spectacular/#t=28:33",
+	"tags": "Gino Lambardo,Smooth Criminal Al A. Peterson",
+	"created_at": "2016-12-12T08:16:50Z",
+	"slug_soundcloud": "463-2016-holiday-spectacular",
+	"slug_earwolf": "2016-holiday-spectacular",
+	"episode_title": "2016 Holiday Spectacular",
+	"episode_guests": "Jason Mantzoukas, Jon Gabrus, Mike Hanford, Paul F. Tompkins, Tawny Newsome, Tim Baltz, Neil Campbell, Rhea Butcher, Will Hines, Ryan Gaul, Jeremy Rowley, Drew Tarver, James Adomian, Zeke Nicholson, Brendon Small",
+	"id_wikia": null,
 	"holding": "false"
 }
