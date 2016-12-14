@@ -6607,3 +6607,135 @@
 	"id_wikia": 3196,
 	"holding": "false"
 }
+
+{
+	"episode": 191,
+	"show": "cbb",
+	"tstart": "1:13",
+	"tend": "1:20",
+	"instance": "We are here for our 'Comedy Bang! Bang!' Holiday Spectacular.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-12-08T10:43:26Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/2012-holiday-spectacular/#t=1:13",
+	"tags": "",
+	"created_at": "2016-12-08T10:43:26Z",
+	"slug_soundcloud": "2012-holiday-spectacular",
+	"slug_earwolf": "2012-holiday-spectacular",
+	"episode_title": "2012 Holiday Spectacular",
+	"episode_guests": "Harris Wittels,Matt Besser,Paul Rust,Paul F. Tompkins,Jon Daly,Nick Kroll",
+	"id_wikia": 3258,
+	"holding": "false"
+}
+
+{
+	"episode": 191,
+	"show": "cbb",
+	"tstart": "22:05",
+	"tend": "22:16",
+	"instance": "She's a musician.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-12-08T10:43:26Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/2012-holiday-spectacular/#t=22:05",
+	"tags": "Bjork",
+	"created_at": "2016-12-08T10:43:26Z",
+	"slug_soundcloud": "2012-holiday-spectacular",
+	"slug_earwolf": "2012-holiday-spectacular",
+	"episode_title": "2012 Holiday Spectacular",
+	"episode_guests": "Harris Wittels,Matt Besser,Paul Rust,Paul F. Tompkins,Jon Daly,Nick Kroll",
+	"id_wikia": 3258,
+	"holding": "false"
+}
+
+{
+	"episode": 191,
+	"show": "cbb",
+	"tstart": "46:31",
+	"tend": "46:38",
+	"instance": "You never know who's gonna drop by the show.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-12-08T10:43:26Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/2012-holiday-spectacular/#t=46:31",
+	"tags": "Neil Young",
+	"created_at": "2016-12-08T10:43:26Z",
+	"slug_soundcloud": "2012-holiday-spectacular",
+	"slug_earwolf": "2012-holiday-spectacular",
+	"episode_title": "2012 Holiday Spectacular",
+	"episode_guests": "Harris Wittels,Matt Besser,Paul Rust,Paul F. Tompkins,Jon Daly,Nick Kroll",
+	"id_wikia": 3258,
+	"holding": "false"
+}
+
+{
+	"episode": 191,
+	"show": "cbb",
+	"tstart": "1:20:50",
+	"tend": "1:20:56",
+	"instance": "Billy Braggart!",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-12-08T10:43:26Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/2012-holiday-spectacular/#t=1:20:50",
+	"tags": "Billy Braggart",
+	"created_at": "2016-12-08T10:43:26Z",
+	"slug_soundcloud": "2012-holiday-spectacular",
+	"slug_earwolf": "2012-holiday-spectacular",
+	"episode_title": "2012 Holiday Spectacular",
+	"episode_guests": "Harris Wittels,Matt Besser,Paul Rust,Paul F. Tompkins,Jon Daly,Nick Kroll",
+	"id_wikia": 3258,
+	"holding": "false"
+}
+
+{
+	"episode": 191,
+	"show": "cbb",
+	"tstart": "1:38:50",
+	"tend": "1:38:59",
+	"instance": "We're taking a page out of Community's book and we're all gonna be anthropomorphic animals for this one episode.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-12-08T10:43:26Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/2012-holiday-spectacular/#t=1:38:50",
+	"tags": "Ice T,Community (TV)",
+	"created_at": "2016-12-08T10:43:26Z",
+	"slug_soundcloud": "2012-holiday-spectacular",
+	"slug_earwolf": "2012-holiday-spectacular",
+	"episode_title": "2012 Holiday Spectacular",
+	"episode_guests": "Harris Wittels,Matt Besser,Paul Rust,Paul F. Tompkins,Jon Daly,Nick Kroll",
+	"id_wikia": 3258,
+	"holding": "false"
+}
+
+{
+	"episode": "bo2012.1",
+	"show": "cbb",
+	"tstart": "6:19",
+	"tend": "6:28",
+	"instance": "Such great people did the show this year.",
+	"bit":"Fantastic.",
+	"elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-12-09T12:13:02Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/best-of-2012-pt-1/#t=6:19",
+	"tags": "Simply the Best (song),Tina Turner",
+	"created_at": "2016-12-09T12:13:02Z",
+	"slug_soundcloud": "best-of-2012-pt-1",
+	"slug_earwolf": "best-of-2012-pt-1",
+	"episode_title": "",
+	"episode_guests": "",
+	"id_wikia": 3266,
+	"holding": "false"
+}

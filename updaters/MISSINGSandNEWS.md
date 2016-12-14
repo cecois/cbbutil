@@ -33,9 +33,15 @@
 	* 141,20:45
 	* 141,49:10
 	* 145,9:30
+* zouks wants clarification
+	* 463,2:22:00
+* gino's commuter train map
+	* 463,2:19:20
 * kulap
 	* 185,59:10
 	* 185,1:00:40
+* begs the question
+	* 463,14:30
 * year in advance
 	* 172,1:02:30
 	* (tons b4 172)
@@ -255,6 +261,7 @@
 	* 73,1:17:00,swardson does his brother nad betty white
 	* 107,1:07:00
 	* 109,1:15:30
+	* 191,1:41:00
 	* 183,40+
 * rounds of catchphrase
 * all the cities of the country
@@ -417,6 +424,8 @@
 	* 152,18:00
 	* 153,1:04:10
 	* 461,55:45
+	* 190,34:45
+	* 191,1:12:00
 * mr. microphone
 	* 6th anniversary special
 	* BO2015.4,10:55
@@ -470,6 +479,7 @@
 	* 449,46:00
 	* 450,1:15:29
 	* 460,1:35:00
+	* 463,1:54:15
 * i ain't down with (into) that g** shi*
 * http://howl.fm/audio/26138/live-from-nyc-2014-part-1,46:00
 * 215,20:34
@@ -573,6 +583,7 @@
 	* 439,34:45
 	* 439,40:43
 	* 439,55:00
+	* 463,16:30
 * a little buzz
 	* 440,55:20
 * off the rails/retiring a train
@@ -610,8 +621,10 @@
 	* 128,2:50
 	* 450,4:10
 	* 462,1:30
+	* 463,1:08:00
 * urls
 	* 153,27:50
+	* 191,1:12:00
 	* 161,??:??
 	* 165,1:50
 	* 165,12:40
