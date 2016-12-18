@@ -9152,3 +9152,108 @@
  	"id_wikia": null,
  	"holding": "false"
  }
+
+ {
+ 	"episode": 192,
+ 	"show": "cbb",
+ 	"tstart": "4:15",
+ 	"tend": "4:26",
+ 	"instance": "Then I can relax.",
+ 	"bit": "The Paul Hardcastle of Suicides","elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-12-15T09:19:25Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/goodfelines/#t=4:15",
+ 	"tags": "The Bangles (musical combination),Walk Like an Egyptian (song)",
+ 	"created_at": "2016-12-15T09:19:25Z",
+ 	"slug_soundcloud": "goodfelines",
+ 	"slug_earwolf": "goodfelines",
+ 	"episode_title": "GoodFelines",
+ 	"episode_guests": "Ben Schwartz,Horatio Sanz",
+ 	"id_wikia": 3284,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 193,
+ 	"show": "cbb",
+ 	"tstart": "1:03:54",
+ 	"tend": "1:04:10",
+ 	"instance": "Because he was a loser?",
+ 	"bit": "The Paul Hardcastle of Suicides","elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-12-15T12:54:36Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/what-else-what-else/#t=1:03:54",
+ 	"tags": "Rick Faber,Beck,Loser (song)",
+ 	"created_at": "2016-12-15T12:54:36Z",
+ 	"slug_soundcloud": "what-else-what-else",
+ 	"slug_earwolf": "what-else-what-else",
+ 	"episode_title": "What Else? What Else?",
+ 	"episode_guests": "Kristen Schaal,Neil Campbell,Pamela Murphy",
+ 	"id_wikia": 3286,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 194,
+ 	"show": "cbb",
+ 	"tstart": "21:57",
+ 	"tend": "22:13",
+ 	"instance": "How's the burn, Chels?",
+ 	"bit": "The Paul Hardcastle of Suicides","elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-12-15T15:21:05Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/me-gusta-characters/#t=21:57",
+ 	"tags": "The Trashmen (musical combination),Surfin' Bird (song)",
+ 	"created_at": "2016-12-15T15:21:05Z",
+ 	"slug_soundcloud": "me-gusta-characters",
+ 	"slug_earwolf": "me-gusta-characters",
+ 	"episode_title": "Me Gusta Characters!",
+ 	"episode_guests": "Nick Kroll,Chelsea Peretti",
+ 	"id_wikia": 3397,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 194,
+ 	"show": "cbb",
+ 	"tstart": "33:20",
+ 	"tend": "33:31",
+ 	"instance": "I'm crazy for you, that's what I know.",
+ 	"bit": "The Paul Hardcastle of Suicides","elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-12-15T15:21:05Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/me-gusta-characters/#t=33:20",
+ 	"tags": "Chance,Borderline (song),Madonna",
+ 	"created_at": "2016-12-15T15:21:05Z",
+ 	"slug_soundcloud": "me-gusta-characters",
+ 	"slug_earwolf": "me-gusta-characters",
+ 	"episode_title": "Me Gusta Characters!",
+ 	"episode_guests": "Nick Kroll,Chelsea Peretti",
+ 	"id_wikia": 3397,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 194,
+ 	"show": "cbb",
+ 	"tstart": "33:20",
+ 	"tend": "33:31",
+ 	"instance": "I'm crazy for you, that's what I know.",
+ 	"bit": "The Paul Hardcastle of Suicides","elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-12-15T15:21:05Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/me-gusta-characters/#t=33:20",
+ 	"tags": "Chance,Crazy for You (song),Madonna",
+ 	"created_at": "2016-12-15T15:21:05Z",
+ 	"slug_soundcloud": "me-gusta-characters",
+ 	"slug_earwolf": "me-gusta-characters",
+ 	"episode_title": "Me Gusta Characters!",
+ 	"episode_guests": "Nick Kroll,Chelsea Peretti",
+ 	"id_wikia": 3397,
+ 	"holding": "false"
+ }
