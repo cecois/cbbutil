@@ -110,17 +110,18 @@
 	* 2016.nottingham,25:45
 	* 2016.chicago7,39:20
 * asked and answered
-* 97,50:30
-* 125,??
-* 126,1:14:28
-* countless
-* 2016.seattle,1:22:00
-* 2016.toronto0506,1:28:00
-* 2016.toronto,8:45
-* 2016.seattle,1:22:00
-* 2016.losangeles,1:08:50
-* 2016.chicago10,35:00
-* 91,1:40:10
+	* 97,50:30
+	* 125,??
+	* 126,1:14:28
+	* countless
+	* 2016.seattle,1:22:00
+	* 2016.toronto0506,1:28:00
+	* 2016.toronto,8:45
+	* 2016.seattle,1:22:00
+	* 2016.losangeles,1:08:50
+	* 2016.chicago10,35:00
+	* 91,1:40:10
+	* bo.2016.1,11:30
 * pft has time for x more questions
 * 59,12:00
 * 2016.nyc05147pm,1:01:00
@@ -171,6 +172,7 @@
 	* 444,1:16:37
 	* 174,11:00
 	* 457,all episode long
+	* bo.2016.1,50:40
 * lapkus can't make it through a song
 * 2016.tarrytown,5:00
 * 2016.tarrytown,4:46
@@ -431,6 +433,7 @@
 	* 6th anniversary special
 	* BO2015.4,10:55
 	* 2016.nyc930,32:45
+	* bo.2016.1,52:25
 * starting too low
 	* 2016.manchester,1:38:00
 	* bo2015.2,1:14:30
@@ -623,6 +626,9 @@
 	* 450,4:10
 	* 462,1:30
 	* 463,1:08:00
+* can i see you in the kitchen?
+	* bo2016.1,1:26:20
+	* pft ep very close/prior to bo2016.1
 * urls
 	* 153,27:50
 	* 191,1:12:00

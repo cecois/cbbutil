@@ -9257,3 +9257,255 @@
  	"id_wikia": 3397,
  	"holding": "false"
  }
+
+ {
+ 	"episode": "bo2016.1",
+ 	"show": "cbb",
+ 	"tstart": "0:50",
+ 	"tend": "1:00",
+ 	"instance": "I thought it was fourteen.",
+ 	"bit": "The Paul Hardcastle of Suicides","elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-12-19T08:24:00Z",
+ 	"url_soundcloud": "https://soundcloud.com/comedybangbang/best-of-2016-pt-1/#t=0:50",
+ 	"tags": "Paul Hardcastle,Hey Nineteen (song)",
+ 	"created_at": "2016-12-19T08:24:00Z",
+ 	"slug_soundcloud": "best-of-2016-pt-1",
+ 	"slug_earwolf": "best-of-2016-pt-1",
+ 	"episode_title": "Best of 2016 Pt. 1",
+ 	"episode_guests": "Paul F. Tompkins",
+ 	"id_wikia": null,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": "bo2016.1",
+ 	"show": "cbb",
+ 	"tstart": "2:32",
+ 	"tend": "2:53",
+ 	"instance": "That was fun for a while.",
+ 	"bit": "The Paul Hardcastle of Suicides","elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-12-19T08:24:00Z",
+ 	"url_soundcloud": "https://soundcloud.com/comedybangbang/best-of-2016-pt-1/#t=2:32",
+ 	"tags": "State of Shock (song),The Jacksons (musical combination),Mick Jagger,Michael Jackson",
+ 	"created_at": "2016-12-19T08:24:00Z",
+ 	"slug_soundcloud": "best-of-2016-pt-1",
+ 	"slug_earwolf": "best-of-2016-pt-1",
+ 	"episode_title": "Best of 2016 Pt. 1",
+ 	"episode_guests": "Paul F. Tompkins",
+ 	"id_wikia": null,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": "bo2016.1",
+ 	"show": "cbb",
+ 	"tstart": "4:29",
+ 	"tend": "4:45",
+ 	"instance": "There have been some substitute hosts over the years.",
+ 	"bit": "The Paul Hardcastle of Suicides","elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-12-19T08:24:00Z",
+ 	"url_soundcloud": "https://soundcloud.com/comedybangbang/best-of-2016-pt-1/#t=4:29",
+ 	"tags": "Rock and Roll (song),Led Zeppelin (musical combination)",
+ 	"created_at": "2016-12-19T08:24:00Z",
+ 	"slug_soundcloud": "best-of-2016-pt-1",
+ 	"slug_earwolf": "best-of-2016-pt-1",
+ 	"episode_title": "Best of 2016 Pt. 1",
+ 	"episode_guests": "Paul F. Tompkins",
+ 	"id_wikia": null,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": "bo2016.1",
+ 	"show": "cbb",
+ 	"tstart": "4:45",
+ 	"tend": "4:51",
+ 	"instance": "Since we've had a guest host.",
+ 	"bit": "The Paul Hardcastle of Suicides","elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-12-19T08:24:00Z",
+ 	"url_soundcloud": "https://soundcloud.com/comedybangbang/best-of-2016-pt-1/#t=4:45",
+ 	"tags": "Since U Been Gone (song),Kelly Clarkson",
+ 	"created_at": "2016-12-19T08:24:00Z",
+ 	"slug_soundcloud": "best-of-2016-pt-1",
+ 	"slug_earwolf": "best-of-2016-pt-1",
+ 	"episode_title": "Best of 2016 Pt. 1",
+ 	"episode_guests": "Paul F. Tompkins",
+ 	"id_wikia": null,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": "bo2016.1",
+ 	"show": "cbb",
+ 	"tstart": "6:38",
+ 	"tend": "6:54",
+ 	"instance": "Being for the benefit of the listener.",
+ 	"bit": "The Paul Hardcastle of Suicides","elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-12-19T08:24:00Z",
+ 	"url_soundcloud": "https://soundcloud.com/comedybangbang/best-of-2016-pt-1/#t=6:38",
+ 	"tags": "Being for the Benefit of Mr. Kite! (song),The Beatles (musical combination)",
+ 	"created_at": "2016-12-19T08:24:00Z",
+ 	"slug_soundcloud": "best-of-2016-pt-1",
+ 	"slug_earwolf": "best-of-2016-pt-1",
+ 	"episode_title": "Best of 2016 Pt. 1",
+ 	"episode_guests": "Paul F. Tompkins",
+ 	"id_wikia": null,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": "bo2016.1",
+ 	"show": "cbb",
+ 	"tstart": "9:49",
+ 	"tend": "10:05",
+ 	"instance": "Going on 2017.",
+ 	"bit": "The Paul Hardcastle of Suicides","elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-12-19T08:24:00Z",
+ 	"url_soundcloud": "https://soundcloud.com/comedybangbang/best-of-2016-pt-1/#t=9:49",
+ 	"tags": "Sixteen Going On Seventeen (song),The Sound of Music (musical),Oscar Hammerstein II,Richard Rodgers",
+ 	"created_at": "2016-12-19T08:24:00Z",
+ 	"slug_soundcloud": "best-of-2016-pt-1",
+ 	"slug_earwolf": "best-of-2016-pt-1",
+ 	"episode_title": "Best of 2016 Pt. 1",
+ 	"episode_guests": "Paul F. Tompkins",
+ 	"id_wikia": null,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": "bo2016.1",
+ 	"show": "cbb",
+ 	"tstart": "23:50",
+ 	"tend": "23:59",
+ 	"instance": "Remember this is part of 'Star Wars.'",
+ 	"bit": "The Paul Hardcastle of Suicides","elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-12-19T08:24:00Z",
+ 	"url_soundcloud": "https://soundcloud.com/comedybangbang/best-of-2016-pt-1/#t=23:50",
+ 	"tags": "September (song),Earth, Wind & Fire (musical combination),Star Wars (film)",
+ 	"created_at": "2016-12-19T08:24:00Z",
+ 	"slug_soundcloud": "best-of-2016-pt-1",
+ 	"slug_earwolf": "best-of-2016-pt-1",
+ 	"episode_title": "Best of 2016 Pt. 1",
+ 	"episode_guests": "Paul F. Tompkins",
+ 	"id_wikia": null,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": "bo2016.1",
+ 	"show": "cbb",
+ 	"tstart": "1:17:39",
+ 	"tend": "1:17:47",
+ 	"instance": "I was about to say anyone can do one rhyme.",
+ 	"bit": "The Paul Hardcastle of Suicides","elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-12-19T08:24:00Z",
+ 	"url_soundcloud": "https://soundcloud.com/comedybangbang/best-of-2016-pt-1/#t=1:17:39",
+ 	"tags": "Under Pressure (song),Queen (musical combination),David Bowie",
+ 	"created_at": "2016-12-19T08:24:00Z",
+ 	"slug_soundcloud": "best-of-2016-pt-1",
+ 	"slug_earwolf": "best-of-2016-pt-1",
+ 	"episode_title": "Best of 2016 Pt. 1",
+ 	"episode_guests": "Paul F. Tompkins",
+ 	"id_wikia": null,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": "bo2016.1",
+ 	"show": "cbb",
+ 	"tstart": "1:17:46",
+ 	"tend": "1:17:54",
+ 	"instance": "If you were to get a poll, go 'hey do a freestyle rap.'",
+ 	"bit": "The Paul Hardcastle of Suicides","elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-12-19T08:24:00Z",
+ 	"url_soundcloud": "https://soundcloud.com/comedybangbang/best-of-2016-pt-1/#t=1:17:46",
+ 	"tags": "Under Pressure (song),Queen (musical combination),David Bowie",
+ 	"created_at": "2016-12-19T08:24:00Z",
+ 	"slug_soundcloud": "best-of-2016-pt-1",
+ 	"slug_earwolf": "best-of-2016-pt-1",
+ 	"episode_title": "Best of 2016 Pt. 1",
+ 	"episode_guests": "Paul F. Tompkins",
+ 	"id_wikia": null,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": "bo2016.1",
+ 	"show": "cbb",
+ 	"tstart": "1:29:41",
+ 	"tend": "1:30:00",
+ 	"instance": "This is what we do.",
+ 	"bit": "The Paul Hardcastle of Suicides","elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-12-19T08:24:00Z",
+ 	"url_soundcloud": "https://soundcloud.com/comedybangbang/best-of-2016-pt-1/#t=1:29:41",
+ 	"tags": "Girls on Film (song),Duran Duran (musical combination)",
+ 	"created_at": "2016-12-19T08:24:00Z",
+ 	"slug_soundcloud": "best-of-2016-pt-1",
+ 	"slug_earwolf": "best-of-2016-pt-1",
+ 	"episode_title": "Best of 2016 Pt. 1",
+ 	"episode_guests": "Paul F. Tompkins",
+ 	"id_wikia": null,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 195,
+ 	"show": "cbb",
+ 	"tstart": "19:55",
+ 	"tend": "20:03",
+ 	"instance": "Long, long time ago.",
+ 	"bit": "The Paul Hardcastle of Suicides","elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-12-19T14:42:33Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/making-the-snow-angel/#t=19:55",
+ 	"tags": "American Pie (song),Don McLean",
+ 	"created_at": "2016-12-19T14:42:33Z",
+ 	"slug_soundcloud": "making-the-snow-angel",
+ 	"slug_earwolf": "making-the-snow-angel",
+ 	"episode_title": "Making the Snow Angel",
+ 	"episode_guests": "Billy Eichner,Reggie Watts,Matt Besser",
+ 	"id_wikia": 2176,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 195,
+ 	"show": "cbb",
+ 	"tstart": "23:00",
+ 	"tend": "23:11",
+ 	"instance": "Don't call me - it's been - Bill on the street-street-street-street.",
+ 	"bit": "The Paul Hardcastle of Suicides","elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-12-19T14:42:33Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/making-the-snow-angel/#t=23:00",
+ 	"tags": "Daughter (song),Pearl Jam (musical combination)",
+ 	"created_at": "2016-12-19T14:42:33Z",
+ 	"slug_soundcloud": "making-the-snow-angel",
+ 	"slug_earwolf": "making-the-snow-angel",
+ 	"episode_title": "Making the Snow Angel",
+ 	"episode_guests": "Billy Eichner,Reggie Watts,Matt Besser",
+ 	"id_wikia": 2176,
+ 	"holding": "false"
+ }
