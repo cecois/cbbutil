@@ -9494,7 +9494,7 @@
  	"show": "cbb",
  	"tstart": "23:00",
  	"tend": "23:11",
- 	"instance": "Don't call me - it's been - Bill on the street-street-street-street.",
+ 	"instance": "Don't call me - it's been - Billy on the street-street-street-street.",
  	"bit": "The Paul Hardcastle of Suicides","elucidation": "any song reference",
  	"location_type": "",
  	"location_id": "",
@@ -9507,5 +9507,173 @@
  	"episode_title": "Making the Snow Angel",
  	"episode_guests": "Billy Eichner,Reggie Watts,Matt Besser",
  	"id_wikia": 2176,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 195,
+ 	"show": "cbb",
+ 	"tstart": "42:42",
+ 	"tend": "43:08",
+ 	"instance": "Or the policemen come.",
+ 	"bit": "The Paul Hardcastle of Suicides","elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-12-19T14:42:33Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/making-the-snow-angel/#t=42:42",
+ 	"tags": "Frosty the Snowman,Cop Killer (song),Body Count (musical combination),Andrew Lloyd Webber,Ice T",
+ 	"created_at": "2016-12-19T14:42:33Z",
+ 	"slug_soundcloud": "making-the-snow-angel",
+ 	"slug_earwolf": "making-the-snow-angel",
+ 	"episode_title": "Making the Snow Angel",
+ 	"episode_guests": "Billy Eichner,Reggie Watts,Matt Besser",
+ 	"id_wikia": 2176,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 195,
+ 	"show": "cbb",
+ 	"tstart": "49:21",
+ 	"tend": "49:33",
+ 	"instance": "I like good music.",
+ 	"bit": "The Paul Hardcastle of Suicides","elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-12-19T14:42:33Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/making-the-snow-angel/#t=49:21",
+ 	"tags": "Frosty the Snowman,Rihanna,What's My Name? (song)",
+ 	"created_at": "2016-12-19T14:42:33Z",
+ 	"slug_soundcloud": "making-the-snow-angel",
+ 	"slug_earwolf": "making-the-snow-angel",
+ 	"episode_title": "Making the Snow Angel",
+ 	"episode_guests": "Billy Eichner,Reggie Watts,Matt Besser",
+ 	"id_wikia": 2176,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 195,
+ 	"show": "cbb",
+ 	"tstart": "53:20",
+ 	"tend": "53:35",
+ 	"instance": "Think about that - you're about to cum and then all of a sudden you have no life.",
+ 	"bit": "The Paul Hardcastle of Suicides","elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-12-19T14:42:33Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/making-the-snow-angel/#t=53:20",
+ 	"tags": "Frosty the Snowman,Culture Club (musical combination),Karma Chameleon (song)",
+ 	"created_at": "2016-12-19T14:42:33Z",
+ 	"slug_soundcloud": "making-the-snow-angel",
+ 	"slug_earwolf": "making-the-snow-angel",
+ 	"episode_title": "Making the Snow Angel",
+ 	"episode_guests": "Billy Eichner,Reggie Watts,Matt Besser",
+ 	"id_wikia": 2176,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 196,
+ 	"show": "cbb",
+ 	"tstart": "1:05:23",
+ 	"tend": "1:05:32",
+ 	"instance": "Deferential to a ghost.",
+ 	"bit": "The Paul Hardcastle of Suicides","elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-12-20T12:20:32Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/a-different-huelliverse/#t=1:05:23",
+ 	"tags": "Walking with a Ghost (song),Tegan and Sara (musical combination)",
+ 	"created_at": "2016-12-20T12:20:32Z",
+ 	"slug_soundcloud": "a-different-huelliverse",
+ 	"slug_earwolf": "a-different-huelliverse",
+ 	"episode_title": "A Different Huelliverse",
+ 	"episode_guests": "Jeff Garlin,James Adomian",
+ 	"id_wikia": 2201,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 197,
+ 	"show": "cbb",
+ 	"tstart": "13:25",
+ 	"tend": "13:35",
+ 	"instance": "It sounds like a bass.",
+ 	"bit": "The Paul Hardcastle of Suicides","elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-12-20T13:38:48Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/please-claire-ify/#t=13:25",
+ 	"tags": "Boris the Spider (song),The Who (musical combination)",
+ 	"created_at": "2016-12-20T13:38:48Z",
+ 	"slug_soundcloud": "please-claire-ify",
+ 	"slug_earwolf": "please-claire-ify",
+ 	"episode_title": "Please Claire-ify",
+ 	"episode_guests": "Tim Heidecker,Paul Rust,Jon Daly",
+ 	"id_wikia": 3290,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 197,
+ 	"show": "cbb",
+ 	"tstart": "55:49",
+ 	"tend": "56:00",
+ 	"instance": "When you say it out loud yeah - I kinda feel like love is an emotion, yeah.",
+ 	"bit": "The Paul Hardcastle of Suicides","elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-12-20T13:38:48Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/please-claire-ify/#t=55:49",
+ 	"tags": "What's Love Got to Do with It? (song),Tina Turner",
+ 	"created_at": "2016-12-20T13:38:48Z",
+ 	"slug_soundcloud": "please-claire-ify",
+ 	"slug_earwolf": "please-claire-ify",
+ 	"episode_title": "Please Claire-ify",
+ 	"episode_guests": "Tim Heidecker,Paul Rust,Jon Daly",
+ 	"id_wikia": 3290,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 197,
+ 	"show": "cbb",
+ 	"tstart": "1:01:50",
+ 	"tend": "1:02:00",
+ 	"instance": "He wasn't writing about me.",
+ 	"bit": "The Paul Hardcastle of Suicides","elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-12-20T13:38:48Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/please-claire-ify/#t=1:01:50",
+ 	"tags": "My Generation (song),The Who (musical combination),George Burns",
+ 	"created_at": "2016-12-20T13:38:48Z",
+ 	"slug_soundcloud": "please-claire-ify",
+ 	"slug_earwolf": "please-claire-ify",
+ 	"episode_title": "Please Claire-ify",
+ 	"episode_guests": "Tim Heidecker,Paul Rust,Jon Daly",
+ 	"id_wikia": 3290,
+ 	"holding": "false"
+ }
+
+ {
+ 	"episode": 197,
+ 	"show": "cbb",
+ 	"tstart": "1:06:13",
+ 	"tend": "1:06:39",
+ 	"instance": "I got a Bill Cosby BuDoors album coming out.",
+ 	"bit": "The Paul Hardcastle of Suicides","elucidation": "any song reference",
+ 	"location_type": "",
+ 	"location_id": "",
+ 	"updated_at": "2016-12-20T13:38:48Z",
+ 	"url_soundcloud": "http://soundcloud.com/comedybangbang/please-claire-ify/#t=1:06:13",
+ 	"tags": "Bill Cosby Bukowski,The Doors (musical combination),Riders on the Storm (song)",
+ 	"created_at": "2016-12-20T13:38:48Z",
+ 	"slug_soundcloud": "please-claire-ify",
+ 	"slug_earwolf": "please-claire-ify",
+ 	"episode_title": "Please Claire-ify",
+ 	"episode_guests": "Tim Heidecker,Paul Rust,Jon Daly",
+ 	"id_wikia": 3290,
  	"holding": "false"
  }
