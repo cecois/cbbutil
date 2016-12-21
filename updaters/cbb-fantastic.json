@@ -6724,8 +6724,7 @@
 	"tstart": "6:19",
 	"tend": "6:28",
 	"instance": "Such great people did the show this year.",
-	"bit":"Fantastic.",
-	"elucidation":"one of scott's 25 words",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
 	"location_type": "",
 	"location_id": "",
 	"updated_at": "2016-12-09T12:13:02Z",
@@ -6737,5 +6736,68 @@
 	"episode_title": "",
 	"episode_guests": "",
 	"id_wikia": 3266,
+	"holding": "false"
+}
+
+{
+	"episode": 195,
+	"show": "cbb",
+	"tstart": "2:05",
+	"tend": "2:13",
+	"instance": "We have a guest that I can't believe we got coming up a little later.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-12-19T14:42:33Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/making-the-snow-angel/#t=2:05",
+	"tags": "",
+	"created_at": "2016-12-19T14:42:33Z",
+	"slug_soundcloud": "making-the-snow-angel",
+	"slug_earwolf": "making-the-snow-angel",
+	"episode_title": "Making the Snow Angel",
+	"episode_guests": "Billy Eichner,Reggie Watts,Matt Besser",
+	"id_wikia": 2176,
+	"holding": "false"
+}
+
+{
+	"episode": 196,
+	"show": "cbb",
+	"tstart": "14:49",
+	"tend": "15:04",
+	"instance": "The good people at IFC paid for the movie.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-12-20T12:20:32Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/a-different-huelliverse/#t=14:49",
+	"tags": "Robert DeNiro",
+	"created_at": "2016-12-20T12:20:32Z",
+	"slug_soundcloud": "a-different-huelliverse",
+	"slug_earwolf": "a-different-huelliverse",
+	"episode_title": "A Different Huelliverse",
+	"episode_guests": "Jeff Garlin,James Adomian",
+	"id_wikia": 2201,
+	"holding": "false"
+}
+
+{
+	"episode": 197,
+	"show": "cbb",
+	"tstart": "2:25",
+	"tend": "2:30",
+	"instance": "We have a show today.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-12-20T13:38:48Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/please-claire-ify/#t=2:25",
+	"tags": "",
+	"created_at": "2016-12-20T13:38:48Z",
+	"slug_soundcloud": "please-claire-ify",
+	"slug_earwolf": "please-claire-ify",
+	"episode_title": "Please Claire-ify",
+	"episode_guests": "Tim Heidecker,Paul Rust,Jon Daly",
+	"id_wikia": 3290,
 	"holding": "false"
 }
