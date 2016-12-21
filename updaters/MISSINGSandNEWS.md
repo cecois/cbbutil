@@ -33,6 +33,9 @@
 	* 141,20:45
 	* 141,49:10
 	* 145,9:30
+* did __ just walk in here?
+	* 199,multiple
+	* 199,1:00:00
 * jelloems
 	* 197,34:30
 	* 197,35:50
@@ -51,6 +54,8 @@
 * shutting down from coast to coast
 	* 456,* (inaugural)
 	* 456,52:00
+* but they can send them to you personally
+	* 199,55:00
 * working in the lab
 	* all halloween specials
 	* 183,11:30
@@ -457,6 +462,7 @@
 	* 394,41:10
 * interesting vote from an interesting player
 	* http://howl.fm/audio/26163/live-from-vancouver-2013,51:50
+	* 198,53:00
 * is dick francis a horse?
 	* bo2015.4,8:00
 	* bo2015.4,1:17:00
@@ -636,7 +642,9 @@
 * urls
 	* 153,27:50
 	* 191,1:12:00
+	* 200,29:30
 	* 161,??:??
+	* 200,21:00
 	* 165,1:50
 	* 165,12:40
 	* 165,40:45

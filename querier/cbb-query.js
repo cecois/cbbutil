@@ -2,8 +2,9 @@ var request = require('request');
 var clipboard = require('child_process').spawn('pbcopy')
 
 var qs = process.argv[2]
+var qss = qs.replace(" ","+")
 
-var q = 'http://solr-lbones.rhcloud.com/cbb_bits/select?fl=bit%2Celucidation%2Ctags&wt=json&rows=1&q='+qs;
+var q = 'http://solr-lbones.rhcloud.com/cbb_bits/select?fl=bit%2Celucidation%2Ctags&wt=json&rows=1&q='+qss;
 
 request(q, function (error, response, body) {
   if (!error && response.statusCode == 200) {
