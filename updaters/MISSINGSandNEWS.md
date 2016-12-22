@@ -33,6 +33,13 @@
 	* 141,20:45
 	* 141,49:10
 	* 145,9:30
+* rest in power
+	* bo2016.2,multiple
+	* bo2016.2,1:07:20
+* this is what we do
+	* (once long before bo2016.1)
+	* bo2016.1,??:??
+	* bo2016.2,0:45
 * did __ just walk in here?
 	* 199,multiple
 	* 199,1:00:00
@@ -114,6 +121,7 @@
 	* 137,3:30
 	* 138,21:34
 	* 173,6:50
+	* 401,??:?? (alan thicke)
 * one toilet per person
 	* 2016.nottingham,25:45
 	* 2016.chicago7,39:20
@@ -181,6 +189,7 @@
 	* 174,11:00
 	* 457,all episode long
 	* bo.2016.1,50:40
+	* 423,??:??
 * lapkus can't make it through a song
 * 2016.tarrytown,5:00
 * 2016.tarrytown,4:46
@@ -365,6 +374,9 @@
 	* 424,1:27:45
 	* 2016.shepherds,15:00
 * look it up, (scotty|pauly) - 
+	* bo2016.2,1:54:15
+	* bo2016.2,1:55:20
+	* bo2016.2,2:16:30
 	* 349,42:30
 	* bo2015.4,8:00
 	* 393,57:29
@@ -475,6 +487,7 @@
 * don't joke about irobot
 	* early in bo2015.1
 	* bo2015.2,12:00
+	* bo2016.2,2:15:30
 * that sounds good to me
 	* 2015 BOs?
 	* 2016.chicago10,28:00
@@ -624,6 +637,7 @@
 	* 113,2:30
 	* 137,9:30
 	* 162,8:45
+	* bo2016.2,43:20
 * record-breaking appearance
 	* 189,2:30
 	* 189,1:08:30

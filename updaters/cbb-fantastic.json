@@ -6969,3 +6969,87 @@
 	"id_wikia": 2229,
 	"holding": "false"
 }
+
+{
+	"episode": 201,
+	"show": "cbb",
+	"tstart": "1:09",
+	"tend": "1:18",
+	"instance": "Catchphrase.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-12-22T15:14:26Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/end-scene/#t=1:09",
+	"tags": "",
+	"created_at": "2016-12-22T15:14:26Z",
+	"slug_soundcloud": "end-scene",
+	"slug_earwolf": "end-scene",
+	"episode_title": "End Scene",
+	"episode_guests": "Jon Glaser,Matt Besser",
+	"id_wikia": 3306,
+	"holding": "false"
+}
+
+{
+	"episode": 201,
+	"show": "cbb",
+	"tstart": "2:28",
+	"tend": "2:37",
+	"instance": "We have incredible guest stars this year.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-12-22T15:14:26Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/end-scene/#t=2:28",
+	"tags": "",
+	"created_at": "2016-12-22T15:14:26Z",
+	"slug_soundcloud": "end-scene",
+	"slug_earwolf": "end-scene",
+	"episode_title": "End Scene",
+	"episode_guests": "Jon Glaser,Matt Besser",
+	"id_wikia": 3306,
+	"holding": "false"
+}
+
+{
+	"episode": 201,
+	"show": "cbb",
+	"tstart": "12:17",
+	"tend": "12:24",
+	"instance": "I'm in L.A. doing some 'Parks & Recreation' episodes.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-12-22T15:14:26Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/end-scene/#t=12:17",
+	"tags": "Parks & Recreation (TV)",
+	"created_at": "2016-12-22T15:14:26Z",
+	"slug_soundcloud": "end-scene",
+	"slug_earwolf": "end-scene",
+	"episode_title": "End Scene",
+	"episode_guests": "Jon Glaser,Matt Besser",
+	"id_wikia": 3306,
+	"holding": "false"
+}
+
+{
+	"episode": 201,
+	"show": "cbb",
+	"tstart": "50:52",
+	"tend": "50:59",
+	"instance": "But they believed in me and I believe in them.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2016-12-22T15:14:26Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/end-scene/#t=50:52",
+	"tags": "Pope Benedict XVI",
+	"created_at": "2016-12-22T15:14:26Z",
+	"slug_soundcloud": "end-scene",
+	"slug_earwolf": "end-scene",
+	"episode_title": "End Scene",
+	"episode_guests": "Jon Glaser,Matt Besser",
+	"id_wikia": 3306,
+	"holding": "false"
+}
