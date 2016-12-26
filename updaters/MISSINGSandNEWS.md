@@ -33,6 +33,16 @@
 	* 141,20:45
 	* 141,49:10
 	* 145,9:30
+* rest in power
+	* bo2016.2,multiple
+	* bo2016.2,1:07:20
+* this is what we do
+	* (once long before bo2016.1)
+	* bo2016.1,??:??
+	* bo2016.2,0:45
+* did __ just walk in here?
+	* 199,multiple
+	* 199,1:00:00
 * jelloems
 	* 197,34:30
 	* 197,35:50
@@ -51,6 +61,8 @@
 * shutting down from coast to coast
 	* 456,* (inaugural)
 	* 456,52:00
+* but they can send them to you personally
+	* 199,55:00
 * working in the lab
 	* all halloween specials
 	* 183,11:30
@@ -109,6 +121,7 @@
 	* 137,3:30
 	* 138,21:34
 	* 173,6:50
+	* 401,??:?? (alan thicke)
 * one toilet per person
 	* 2016.nottingham,25:45
 	* 2016.chicago7,39:20
@@ -176,6 +189,7 @@
 	* 174,11:00
 	* 457,all episode long
 	* bo.2016.1,50:40
+	* 423,??:??
 * lapkus can't make it through a song
 * 2016.tarrytown,5:00
 * 2016.tarrytown,4:46
@@ -360,6 +374,9 @@
 	* 424,1:27:45
 	* 2016.shepherds,15:00
 * look it up, (scotty|pauly) - 
+	* bo2016.2,1:54:15
+	* bo2016.2,1:55:20
+	* bo2016.2,2:16:30
 	* 349,42:30
 	* bo2015.4,8:00
 	* 393,57:29
@@ -457,6 +474,7 @@
 	* 394,41:10
 * interesting vote from an interesting player
 	* http://howl.fm/audio/26163/live-from-vancouver-2013,51:50
+	* 198,53:00
 * is dick francis a horse?
 	* bo2015.4,8:00
 	* bo2015.4,1:17:00
@@ -469,6 +487,7 @@
 * don't joke about irobot
 	* early in bo2015.1
 	* bo2015.2,12:00
+	* bo2016.2,2:15:30
 * that sounds good to me
 	* 2015 BOs?
 	* 2016.chicago10,28:00
@@ -618,6 +637,7 @@
 	* 113,2:30
 	* 137,9:30
 	* 162,8:45
+	* bo2016.2,43:20
 * record-breaking appearance
 	* 189,2:30
 	* 189,1:08:30
@@ -636,7 +656,9 @@
 * urls
 	* 153,27:50
 	* 191,1:12:00
+	* 200,29:30
 	* 161,??:??
+	* 200,21:00
 	* 165,1:50
 	* 165,12:40
 	* 165,40:45
