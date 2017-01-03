@@ -7053,3 +7053,24 @@
 	"id_wikia": 3306,
 	"holding": "false"
 }
+
+{
+	"episode": "bo2016.3",
+	"show": "cbb",
+	"tstart": "1:24:11",
+	"tend": "1:24:20",
+	"instance": "The fact that those two guys make time to do the show...",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-01-03T11:15:09Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/best-of-2016-pt-3/#t=1:24:11",
+	"tags": "",
+	"created_at": "2017-01-03T11:15:09Z",
+	"slug_soundcloud": "best-of-2016-pt-3",
+	"slug_earwolf": "best-of-2016-pt-3",
+	"episode_title": "Best of 2016 Pt. 3",
+	"episode_guests": "Paul F. Tompkins",
+	"id_wikia": null,
+	"holding": "false"
+}
