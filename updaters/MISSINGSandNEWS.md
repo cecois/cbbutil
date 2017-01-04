@@ -33,9 +33,13 @@
 	* 141,20:45
 	* 141,49:10
 	* 145,9:30
+* auggiedoggie
+	* tons
+	* bo2016.3,4:45
 * rest in power
 	* bo2016.2,multiple
 	* bo2016.2,1:07:20
+	* bo2016.3,3:30
 * this is what we do
 	* (once long before bo2016.1)
 	* bo2016.1,??:??
@@ -190,6 +194,7 @@
 	* 457,all episode long
 	* bo.2016.1,50:40
 	* 423,??:??
+	* bo2016.3,57:30
 * lapkus can't make it through a song
 * 2016.tarrytown,5:00
 * 2016.tarrytown,4:46
@@ -417,6 +422,8 @@
 	* 2016.leeds,8:30
 	* 450,3:00
 	* 462,40:15
+	* bo2016.3,6:55
+	* bo2016.3,17:45
 * ball droid - bb8
 	* 349,15:00
 	* bo2015.2,58:30
@@ -455,6 +462,7 @@
 	* BO2015.4,10:55
 	* 2016.nyc930,32:45
 	* bo.2016.1,52:25
+	* bo.2016.3,6:45
 * starting too low
 	* 2016.manchester,1:38:00
 	* bo2015.2,1:14:30
@@ -507,6 +515,7 @@
 	* 450,1:15:29
 	* 460,1:35:00
 	* 463,1:54:15
+	* bo2016.4,12:00
 * i ain't down with (into) that g** shi*
 * http://howl.fm/audio/26138/live-from-nyc-2014-part-1,46:00
 * 215,20:34
@@ -653,6 +662,8 @@
 * can i see you in the kitchen?
 	* bo2016.1,1:26:20
 	* pft ep very close/prior to bo2016.1
+	* bo2016.3,47:45
+	* bo2016.3,1:18:55
 * urls
 	* 153,27:50
 	* 191,1:12:00
