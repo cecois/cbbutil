@@ -483,6 +483,7 @@
 * interesting vote from an interesting player
 	* http://howl.fm/audio/26163/live-from-vancouver-2013,51:50
 	* 198,53:00
+	* 203,1:00:30
 * is dick francis a horse?
 	* bo2015.4,8:00
 	* bo2015.4,1:17:00
@@ -653,6 +654,7 @@
 	* (previous herzog appear)
 * of note/in his own right
 	* 136,9:09
+	* 202,1:30
 	* 445,4:00
 	* 445,19:30
 	* 128,2:50

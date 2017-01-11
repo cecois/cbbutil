@@ -7074,3 +7074,66 @@
 	"id_wikia": null,
 	"holding": "false"
 }
+
+{
+	"episode": 203,
+	"show": "cbb",
+	"tstart": "1:14:32",
+	"tend": "1:14:41",
+	"instance": "Eventually there will be an album there.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-01-05T14:49:27Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/the-vicar-of-yanks/#t=1:14:32",
+	"tags": "",
+	"created_at": "2017-01-05T14:49:27Z",
+	"slug_soundcloud": "the-vicar-of-yanks",
+	"slug_earwolf": "the-vicar-of-yanks",
+	"episode_title": "The Vicar of Yanks",
+	"episode_guests": "Yankovic,Paul F. Tompkins",
+	"id_wikia": 3308,
+	"holding": "false"
+}
+
+{
+	"episode": 203,
+	"show": "cbb",
+	"tstart": "1:17:07",
+	"tend": "1:17:13",
+	"instance": "Year of our Lord 2013.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-01-05T14:49:27Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/the-vicar-of-yanks/#t=1:17:07",
+	"tags": "Andrew Lloyd Webber",
+	"created_at": "2017-01-05T14:49:27Z",
+	"slug_soundcloud": "the-vicar-of-yanks",
+	"slug_earwolf": "the-vicar-of-yanks",
+	"episode_title": "The Vicar of Yanks",
+	"episode_guests": "Yankovic,Paul F. Tompkins",
+	"id_wikia": 3308,
+	"holding": "false"
+}
+
+{
+	"episode": 204,
+	"show": "cbb",
+	"tstart": "1:23",
+	"tend": "1:30",
+	"instance": "We have an episode for you today.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2015-10-16T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/the-pepper-men/#t=1:23",
+	"tags": "",
+	"created_at": "2015-04-03T10:51:29Z",
+	"slug_soundcloud": "the-pepper-men",
+	"slug_earwolf": "the-pepper-men",
+	"episode_title": "The Pepper Men",
+	"episode_guests": "Zach Galifianakis,Jon Daly,Neil Campbell",
+	"id_wikia": 2158,
+	"holding": "false"
+}
