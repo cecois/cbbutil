@@ -33,6 +33,14 @@
 	* 141,20:45
 	* 141,49:10
 	* 145,9:30
+* race to death/the end
+	* multiple prior to 214
+	* 214,6:00 (howl adfree)
+* mike the janitor's mantra
+	* 218,24:20(ear)
+	* 218,24:50(ear)
+	* 218,30:33(ear)
+	* 218,1:14:00(ear)
 * auggiedoggie
 	* tons
 	* bo2016.3,4:45
@@ -288,6 +296,7 @@
 	* 109,1:15:30
 	* 191,1:41:00
 	* 183,40+
+	* 215,1:04:00+
 * rounds of catchphrase
 * all the cities of the country
 * 404,16:00
@@ -322,6 +331,8 @@
 * fix scott's nephew todd tag
 * buttercream effect
 	* 215,~59:30
+	* 215,54:20
+	* 215,56:00
 	* 215,~1:01:30
 	* 130,1:08:45
 	* 2016.oakland,1:01:12
@@ -457,6 +468,7 @@
 	* 153,1:04:10
 	* 461,55:45
 	* 190,34:45
+	* 215:1:04:30 (earw)
 	* 191,1:12:00
 * mr. microphone
 	* 6th anniversary special
@@ -485,6 +497,7 @@
 	* http://howl.fm/audio/26163/live-from-vancouver-2013,51:50
 	* 198,53:00
 	* 203,1:00:30
+	* 216,56:20 (earw)
 * is dick francis a horse?
 	* bo2015.4,8:00
 	* bo2015.4,1:17:00
@@ -567,8 +580,15 @@
 * constantly high-fiving
 * 384,25:00
 * men of a certain age
-* 2016.dallas,11:00
-* 384,47:30
+	* 2016.dallas,11:00
+	* 384,47:30
+	* 218,23:30(ear),inaugural
+	* 218,27:20(ear)
+	* 218,28:20(ear)
+	* 218,50:00(ear)
+	* 218,57:50(ear)
+	* 218,1:09:40(ear)
+	* 218,1:29:20(ear)
 * time bobbys?
 * dsalw eps
 * 405,33:15
@@ -585,6 +605,7 @@
 	* some earlier than 41, too
 	* 87,50:00
 	* 87,52:45
+	* 214,22:00 (ear adfree)
 * Hey hey hey have a good day (shelly driftwood)
 * 419,1:34:50 (*2)
 * E.T.A.D.
@@ -663,6 +684,10 @@
 	* 450,4:10
 	* 462,1:30
 	* 463,1:08:00
+	* 212,1:20
+	* 214,2:20
+	* 218,3:20(ear)
+	* 218,20:40(ear)
 * can i see you in the kitchen?
 	* bo2016.1,1:26:20
 	* pft ep very close/prior to bo2016.1

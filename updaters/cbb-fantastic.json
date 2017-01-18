@@ -7389,3 +7389,297 @@
 	"id_wikia": 3313,
 	"holding": "false"
 }
+
+{
+	"episode": 212,
+	"show": "cbb",
+	"tstart": "1:07",
+	"tend": "1:15",
+	"instance": "We have a show for you here today.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-01-12T07:58:43Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/comedy-bleep-bleep/#t=1:07",
+	"tags": "",
+	"created_at": "2017-01-12T07:58:43Z",
+	"slug_soundcloud": "comedy-bleep-bleep",
+	"slug_earwolf": "comedy-bleep-bleep",
+	"episode_title": "Comedy Bleep Bleep",
+	"episode_guests": "Brendon Walsh,James Adomian,Neil Campbell",
+	"id_wikia": 4656,
+	"holding": "false"
+}
+
+{
+	"episode": 213,
+	"show": "cbb",
+	"tstart": "3:16",
+	"tend": "3:25",
+	"instance": "Do you smell me?",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-01-12T09:42:34Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/star-graves/#t=3:16",
+	"tags": "",
+	"created_at": "2017-01-12T09:42:34Z",
+	"slug_soundcloud": "star-graves",
+	"slug_earwolf": "star-graves",
+	"episode_title": "Star Graves",
+	"episode_guests": "Jerrod Carmichael,Horatio Sanz",
+	"id_wikia": 3315,
+	"holding": "false"
+}
+
+{
+	"episode": 215,
+	"show": "cbb",
+	"tstart": "1:10:23",
+	"tend": "1:10:37",
+	"instance": "Every good boy loves fudge and deserves it.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-01-12T14:58:44Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/time-bobby-2/#t=1:10:23",
+	"tags": "Andrew Lloyd Webber,Fourvel",
+	"created_at": "2017-01-12T14:58:44Z",
+	"slug_soundcloud": "time-bobby-2",
+	"slug_earwolf": "time-bobby-2",
+	"episode_title": "Time Bobby 2",
+	"episode_guests": "Bobby Moynihan,Paul F. Tompkins",
+	"id_wikia": 2358,
+	"holding": "false"
+}
+
+{
+	"episode": 216,
+	"show": "cbb",
+	"tstart": "0:56",
+	"tend": "1:07",
+	"instance": "You can't get a fistful of ants with an acid-covered hand.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-01-13T10:43:26Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/216-kristen-schaal-michaela/#t=0:56",
+	"tags": "",
+	"created_at": "2017-01-13T10:43:26Z",
+	"slug_soundcloud": "216-kristen-schaal-michaela",
+	"slug_earwolf": "top-of-the-schaal-to-you",
+	"episode_title": "Top of the Schaal To You!",
+	"episode_guests": "Kristen Schaal,Neil Campbell,Michaela Watkins",
+	"id_wikia": 3319,
+	"holding": "false"
+}
+
+{
+	"episode": 216,
+	"show": "cbb",
+	"tstart": "2:51",
+	"tend": "3:07",
+	"instance": "I'm gonna stick with the original order, if that's ok, Dr. Levine.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-01-13T10:43:26Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/216-kristen-schaal-michaela/#t=2:51",
+	"tags": "Dr. Sherri Levine",
+	"created_at": "2017-01-13T10:43:26Z",
+	"slug_soundcloud": "216-kristen-schaal-michaela",
+	"slug_earwolf": "top-of-the-schaal-to-you",
+	"episode_title": "Top of the Schaal To You!",
+	"episode_guests": "Kristen Schaal,Neil Campbell,Michaela Watkins",
+	"id_wikia": 3319,
+	"holding": "false"
+}
+
+{
+	"episode": 216,
+	"show": "cbb",
+	"tstart": "8:18",
+	"tend": "8:35",
+	"instance": "She's doing wonderfully under my supervision.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-01-13T10:43:26Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/216-kristen-schaal-michaela/#t=8:18",
+	"tags": "Dr. Sherri Levine,Heidi Klum,Seal",
+	"created_at": "2017-01-13T10:43:26Z",
+	"slug_soundcloud": "216-kristen-schaal-michaela",
+	"slug_earwolf": "top-of-the-schaal-to-you",
+	"episode_title": "Top of the Schaal To You!",
+	"episode_guests": "Kristen Schaal,Neil Campbell,Michaela Watkins",
+	"id_wikia": 3319,
+	"holding": "false"
+}
+
+{
+	"episode": 216,
+	"show": "cbb",
+	"tstart": "35:22",
+	"tend": "35:28",
+	"instance": "They can be applicable to any person.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-01-13T10:43:26Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/216-kristen-schaal-michaela/#t=35:22",
+	"tags": "Dr. Sherri Levine,Buford Dorsey",
+	"created_at": "2017-01-13T10:43:26Z",
+	"slug_soundcloud": "216-kristen-schaal-michaela",
+	"slug_earwolf": "top-of-the-schaal-to-you",
+	"episode_title": "Top of the Schaal To You!",
+	"episode_guests": "Kristen Schaal,Neil Campbell,Michaela Watkins",
+	"id_wikia": 3319,
+	"holding": "false"
+}
+
+{
+	"episode": 216,
+	"show": "cbb",
+	"tstart": "45:31",
+	"tend": "45:40",
+	"instance": "Pretty easy, right?",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-01-13T10:43:26Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/216-kristen-schaal-michaela/#t=45:31",
+	"tags": "",
+	"created_at": "2017-01-13T10:43:26Z",
+	"slug_soundcloud": "216-kristen-schaal-michaela",
+	"slug_earwolf": "top-of-the-schaal-to-you",
+	"episode_title": "Top of the Schaal To You!",
+	"episode_guests": "Kristen Schaal,Neil Campbell,Michaela Watkins",
+	"id_wikia": 3319,
+	"holding": "false"
+}
+
+{
+	"episode": 217,
+	"show": "cbb",
+	"tstart": "0:50",
+	"tend": "1:00",
+	"instance": "Is that what politics is life?",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-01-17T13:01:16Z",
+	"url_soundcloud": "https://s3.amazonaws.com/archives.howl.fm/CBB-217-20130123-Maron-v02-PW.mp3",
+	"tags": "",
+	"created_at": "2017-01-17T13:01:16Z",
+	"slug_soundcloud": "CBB-217-20130123-Maron-v02-PW",
+	"slug_earwolf": "the-wtf-hour",
+	"episode_title": "The WTF Hour",
+	"episode_guests": "Marc Maron",
+	"id_wikia": 3319,
+	"holding": "false"
+}
+
+{
+	"episode": 217,
+	"show": "cbb",
+	"tstart": "37:22",
+	"tend": "37:30",
+	"instance": "I've got a book coming out as well.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-01-17T13:01:16Z",
+	"url_soundcloud": "https://s3.amazonaws.com/archives.howl.fm/CBB-217-20130123-Maron-v02-PW.mp3",
+	"tags": "",
+	"created_at": "2017-01-17T13:01:16Z",
+	"slug_soundcloud": "CBB-217-20130123-Maron-v02-PW",
+	"slug_earwolf": "the-wtf-hour",
+	"episode_title": "The WTF Hour",
+	"episode_guests": "Marc Maron",
+	"id_wikia": 3319,
+	"holding": "false"
+}
+
+{
+	"episode": 217,
+	"show": "cbb",
+	"tstart": "42:17",
+	"tend": "42:23",
+	"instance": "He went on to be the head writer at Conan.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-01-17T13:01:16Z",
+	"url_soundcloud": "https://s3.amazonaws.com/archives.howl.fm/CBB-217-20130123-Maron-v02-PW.mp3",
+	"tags": "",
+	"created_at": "2017-01-17T13:01:16Z",
+	"slug_soundcloud": "CBB-217-20130123-Maron-v02-PW",
+	"slug_earwolf": "the-wtf-hour",
+	"episode_title": "The WTF Hour",
+	"episode_guests": "Marc Maron",
+	"id_wikia": 3319,
+	"holding": "false"
+}
+
+{
+	"episode": 218,
+	"show": "cbb",
+	"tstart": "20:11",
+	"tend": "20:19",
+	"instance": "'Real Wheel Reversals 2' coming out next year.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-01-18T09:25:50Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/218-4th-anniversary-david-wain/#t=20:11",
+	"tags": "Marissa Wompler,Traci Rearden",
+	"created_at": "2017-01-18T09:25:50Z",
+	"slug_soundcloud": "218-4th-anniversary-david-wain",
+	"slug_earwolf": "the-4th-anniversary-extravaganza",
+	"episode_title": "The 4th Anniversary Extravaganza!",
+	"episode_guests": "David Wain,Lauren Lapkus,Jessica St. Clair,Paul F. Tompkins,Jason Mantzoukas,Paul Rust,Neil Campbell",
+	"id_wikia": 3325,
+	"holding": "false"
+}
+
+{
+	"episode": 218,
+	"show": "cbb",
+	"tstart": "1:27:18",
+	"tend": "1:27:23",
+	"instance":"We're moving over to Bachelor Brothers Podcasting Network.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-01-18T09:25:50Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/218-4th-anniversary-david-wain/#t=1:27:18",
+	"tags": "The Bachelor Brothers",
+	"created_at": "2017-01-18T09:25:50Z",
+	"slug_soundcloud": "218-4th-anniversary-david-wain",
+	"slug_earwolf": "the-4th-anniversary-extravaganza",
+	"episode_title": "The 4th Anniversary Extravaganza!",
+	"episode_guests": "David Wain,Lauren Lapkus,Jessica St. Clair,Paul F. Tompkins,Jason Mantzoukas,Paul Rust,Neil Campbell",
+	"id_wikia": 3325,
+	"holding": "false"
+}
+
+{
+	"episode": 219,
+	"show": "cbb",
+	"tstart": "13:41",
+	"tend": "13:54",
+	"instance": "This production level was crazy.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-01-18T14:01:30Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/219-adam-scott-harris-wittels/#t=13:41",
+	"tags": "",
+	"created_at": "2017-01-18T14:01:30Z",
+	"slug_soundcloud": "219-adam-scott-harris-wittels",
+	"slug_earwolf": "farts-and-procreation-3",
+	"episode_title": "Farts and Procreation 3",
+	"episode_guests": "Adam Scott,Harris Wittels,Chelsea Peretti",
+	"id_wikia": 2186,
+	"holding": "false"
+}
