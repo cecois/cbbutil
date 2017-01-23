@@ -776,3 +776,87 @@
     "id_wikia": 3333,
     "holding": "false"
 }
+
+{
+    "episode": 224,
+    "show": "cbb",
+    "tstart": "8:08",
+    "tend": "8:12",
+    "instance": "Brandon, what kind of porn you into?",
+    "bit":"Scott's Questions","elucidation":"(in progress) - scott's questions",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-01-23T11:45:26Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/224-live-from-austin-paul/#t=8:08",
+    "tags": "",
+    "created_at": "2017-01-23T11:45:26Z",
+    "slug_soundcloud": "224-live-from-austin-paul",
+    "slug_earwolf": "live-from-austin",
+    "episode_title": "Live from Austin",
+    "episode_guests": "Paul Scheer,Martin Starr,Brandon Johnson,Neil Campbell",
+    "id_wikia": 3882,
+    "holding": "false"
+}
+
+{
+    "episode": 224,
+    "show": "cbb",
+    "tstart": "56:22",
+    "tend": "56:32",
+    "instance": "There was no warning, obviously.",
+    "bit":"The Floor Closes","elucidation":"the wyr floor closes abruptly",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-01-23T11:45:26Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/224-live-from-austin-paul/#t=56:22",
+    "tags": "Bill Diesel",
+    "created_at": "2017-01-23T11:45:26Z",
+    "slug_soundcloud": "224-live-from-austin-paul",
+    "slug_earwolf": "live-from-austin",
+    "episode_title": "Live from Austin",
+    "episode_guests": "Paul Scheer,Martin Starr,Brandon Johnson,Neil Campbell",
+    "id_wikia": 3882,
+    "holding": "false"
+}
+
+{
+    "episode": 225,
+    "show": "cbb",
+    "tstart": "10:10",
+    "tend": "10:18",
+    "instance": "Are you able to look at anyone in the room and determine whether they are a cut-up or not?",
+    "bit":"Scott's Questions","elucidation":"(in progress) - scott's questions",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-01-23T13:24:00Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/225-taran-killam-paul-brittain/#t=10:10",
+    "tags": "",
+    "created_at": "2017-01-23T13:24:00Z",
+    "slug_soundcloud": "225-taran-killam-paul-brittain",
+    "slug_earwolf": "super-chums",
+    "episode_title": "Super Chums",
+    "episode_guests": "Taran Killam,Paul Brittain",
+    "id_wikia": 2330,
+    "holding": "false"
+}
+
+{
+    "episode": 225,
+    "show": "cbb",
+    "tstart": "30:18",
+    "tend": "30:27",
+    "instance": "My new wife's kid is always listening to that stuff on his iListener or whatchallit.",
+    "bit":"iPads? iPods?","elucidation":"scott just doesn't know anymore",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-01-23T13:24:00Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/225-taran-killam-paul-brittain/#t=30:18",
+    "tags": "Mark Johnson Sr.,Lon Smudge",
+    "created_at": "2017-01-23T13:24:00Z",
+    "slug_soundcloud": "225-taran-killam-paul-brittain",
+    "slug_earwolf": "super-chums",
+    "episode_title": "Super Chums",
+    "episode_guests": "Taran Killam,Paul Brittain",
+    "id_wikia": 2330,
+    "holding": "false"
+}
