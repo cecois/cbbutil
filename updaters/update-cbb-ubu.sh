@@ -10,22 +10,22 @@ MONGOJQ="/tmp/mongolocal2solrJQ.json"
 
 MONGOBUFILE="/home/ccmiller/Documents/bu/mongo/mongolab/bits-"$FILEDATE
 
-#echo "backing up MongoLab Mongo bits..."
-#mongoexport -h ds033599.mongolab.com:33599 -d cbbbits -c bits -u cecmcgee -p 5NWpI1 -o $MONGOBUFILE.csv --type=csv -f $MONGOFIELDS
-#echo "tarballing same..."
-#tar -cvzf $MONGOBUFILE.tgz $MONGOBUFILE.csv
-# rm $MONGOBUFILE.csv
+echo "backing up MongoLab Mongo bits..."
+mongoexport -h ds033599.mongolab.com:33599 -d cbbbits -c bits -u cecmcgee -p 5NWpI1 -o $MONGOBUFILE.csv --type=csv -f $MONGOFIELDS
+echo "tarballing same..."
+tar -cvzf $MONGOBUFILE.tgz $MONGOBUFILE.csv
+rm $MONGOBUFILE.csv
 
 
-# echo "exporting from MongoLab for solr..."
-# mongoexport -h ds033599.mongolab.com:33599 -u cecmcgee -p 5NWpI1 --db cbbbits --collection bits --fields $MONGOFIELDS --jsonArray --out $MONGORAW
+echo "exporting from MongoLab for solr..."
+mongoexport -h ds033599.mongolab.com:33599 -u cecmcgee -p 5NWpI1 --db cbbbits --collection bits --fields $MONGOFIELDS --jsonArray --out $MONGORAW
 
-# echo "tarballing same..."
-# tar -cvzf $MONGOBUFILE.tgz $MONGORAW
-# rm $MONGORAW
+echo "tarballing same..."
+tar -cvzf $MONGOBUFILE.tgz $MONGORAW
+rm $MONGORAW
 
-# echo "now the new stuff goes in..."
-# mongoimport -h ds033599.mongolab.com:33599 -d cbbbits -c bits -u cecmcgee -p 5NWpI1 --file /home/ccmiller/git/cbbutil/updaters/cbb-news.json
+echo "now the new stuff goes in..."
+mongoimport -h ds033599.mongolab.com:33599 -d cbbbits -c bits -u cecmcgee -p 5NWpI1 --file /home/ccmiller/git/cbbutil/updaters/cbb-live.json
 
 echo "...and comes right back out"
 mongoexport -h ds033599.mongolab.com:33599 -u cecmcgee -p 5NWpI1 --db cbbbits --collection bits --fields $MONGOFIELDS --jsonArray --out $MONGORAW

@@ -500,6 +500,7 @@
 	* 223,1:04:45(ear)
 	* 203,1:00:30
 	* 216,56:20 (earw)
+	* 224,58:15(ear)
 * is dick francis a horse?
 	* bo2015.4,8:00
 	* bo2015.4,1:17:00
@@ -674,6 +675,7 @@
 	* 137,9:30
 	* 162,8:45
 	* bo2016.2,43:20
+	* 225,6:45(ear)
 * record-breaking appearance
 	* 189,2:30
 	* 189,1:08:30
@@ -728,3 +730,5 @@
 	* 183,6:00,www.spookyguyz.com
 	* 183,1:12:20,spookyguyz.com
 	* 183,37:50,sillyguyz.com
+* and-ah
+	* 225,25:51(ear)
