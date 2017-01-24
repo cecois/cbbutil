@@ -7683,3 +7683,108 @@
 	"id_wikia": 2186,
 	"holding": "false"
 }
+
+{
+	"episode": 222,
+	"show": "cbb",
+	"tstart": "40:16",
+	"tend": "40:26",
+	"instance": "Most of my time is spent grabbing that tasy air I was talking about just moments ago.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-01-20T08:22:44Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/222-paul-f-tompkins-gillian/#t=40:16",
+	"tags": "Garry Marshall,Ducky Powell",
+	"created_at": "2017-01-20T08:22:44Z",
+	"slug_soundcloud": "222-paul-f-tompkins-gillian",
+	"slug_earwolf": "a-peanut-in-the-rain",
+	"episode_title": "A Peanut In The Rain",
+	"episode_guests": "Paul F. Tompkins,Gillian Jacobs,Mike Hanford",
+	"id_wikia": 3327,
+	"holding": "false"
+}
+
+{
+	"episode": 223,
+	"show": "cbb",
+	"tstart": "10:05",
+	"tend": "10:14",
+	"instance": "You...not only wrote it together but directed it together.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-01-20T12:35:53Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/223-seth-rogen/#t=10:05",
+	"tags": "",
+	"created_at": "2017-01-20T12:35:53Z",
+	"slug_soundcloud": "223-seth-rogen",
+	"slug_earwolf": "roll-over-seth-rogen",
+	"episode_title": "Roll Over, Seth Rogen",
+	"episode_guests": "Seth Rogen",
+	"id_wikia": 3333,
+	"holding": "false"
+}
+
+{
+	"episode": 223,
+	"show": "cbb",
+	"tstart": "24:20",
+	"tend": "24:32",
+	"instance": "It's about two journalists who try to assassinate the president of North Korea while interviewing him.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-01-20T12:35:53Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/223-seth-rogen/#t=24:20",
+	"tags": "The Interview (film)",
+	"created_at": "2017-01-20T12:35:53Z",
+	"slug_soundcloud": "223-seth-rogen",
+	"slug_earwolf": "roll-over-seth-rogen",
+	"episode_title": "Roll Over, Seth Rogen",
+	"episode_guests": "Seth Rogen",
+	"id_wikia": 3333,
+	"holding": "false"
+}
+
+{
+	"episode": 223,
+	"show": "cbb",
+	"tstart": "24:36",
+	"tend": "24:44",
+	"instance": "Congratulations.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-01-20T12:35:53Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/223-seth-rogen/#t=24:36",
+	"tags": "The Interview (film)",
+	"created_at": "2017-01-20T12:35:53Z",
+	"slug_soundcloud": "223-seth-rogen",
+	"slug_earwolf": "roll-over-seth-rogen",
+	"episode_title": "Roll Over, Seth Rogen",
+	"episode_guests": "Seth Rogen",
+	"id_wikia": 3333,
+	"holding": "false"
+}
+
+{
+	"episode": 223,
+	"show": "cbb",
+	"tstart": "1:06:37",
+	"tend": "1:06:44",
+	"instance": "That was...'Plugs,' by Sally.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-01-20T12:35:53Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/223-seth-rogen/#t=1:06:37",
+	"tags": "The Interview (film)",
+	"created_at": "2017-01-20T12:35:53Z",
+	"slug_soundcloud": "223-seth-rogen",
+	"slug_earwolf": "roll-over-seth-rogen",
+	"episode_title": "Roll Over, Seth Rogen",
+	"episode_guests": "Seth Rogen",
+	"id_wikia": 3333,
+	"holding": "false"
+}

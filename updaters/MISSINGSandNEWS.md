@@ -366,6 +366,7 @@
 	* 137.5,6:30
 	* 169,31:45
 	* 210,44:00
+	* 221,26:30(ear)
 * huell turns into a crowbot
 	* 29,51:48
 	* howl.fm in DC,36:00
@@ -496,6 +497,7 @@
 * interesting vote from an interesting player
 	* http://howl.fm/audio/26163/live-from-vancouver-2013,51:50
 	* 198,53:00
+	* 223,1:04:45(ear)
 	* 203,1:00:30
 	* 216,56:20 (earw)
 * is dick francis a horse?
@@ -637,6 +639,7 @@
 	* 67,20:00
 	* 169,24:00
 	* 208,33:10
+	* 221,28:10
 * clumsy portmanteau
 * 2016.tour al peterson
 	* 440,44:40 
