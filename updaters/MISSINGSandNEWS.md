@@ -1,5 +1,5 @@
-# possible new bits: 
-* we're really gonna probe his psyche (in-depth)
+# possible new bits:
+* we're really gonna probe his psyche (in-depth - wtf - actors pain)
 	* 162,33:45
 	* 172,19:15
 	* 155,26:20
@@ -33,14 +33,18 @@
 	* 141,20:45
 	* 141,49:10
 	* 145,9:30
+	* 228,16:00(howl)
+* runoff/run-off p (all howl stamps)
+	* 228,11:45
+	* 228,15:45
 * race to death/the end
 	* multiple prior to 214
-	* 214,6:00 (howl adfree)
+	* 214,6:00 (howl)
 * mike the janitor's mantra
-	* 218,24:20(ear)
-	* 218,24:50(ear)
-	* 218,30:33(ear)
-	* 218,1:14:00(ear)
+	* 218,24:20(howl)
+	* 218,24:50(howl)
+	* 218,30:33(howl)
+	* 218,1:14:00(howl)
 * auggiedoggie
 	* tons
 	* bo2016.3,4:45
@@ -151,19 +155,19 @@
 	* 91,1:40:10
 	* bo.2016.1,11:30
 * pft has time for x more questions
-* 59,12:00
-* 2016.nyc05147pm,1:01:00
-* 70,36:45
-* 85,37:44
-* bo2010,52:45
-* 412,1:13:47,2 more
-* 106.2,12:50
-* 112,41:40
+	* 59,12:00
+	* 2016.nyc05147pm,1:01:00
+	* 70,36:45
+	* 85,37:44
+	* bo2010,52:45
+	* 412,1:13:47,2 more
+	* 106.2,12:50
+	* 112,41:40
 * icona pop
-* all 2016.tour stops
-* 2016.seattle,1:23:25
+	* all 2016.tour stops
+	* 2016.seattle,1:23:25
 * suck my clit (pam frm big bear catchphrase)
-* see [cbb-smc.json](/Users/ccmiller/Desktop/cbb/updaters/cbb-smc.json)
+	* see [cbb-smc.json](/Users/ccmiller/Desktop/cbb/updaters/cbb-smc.json)
 * Indiana Jones/Raiders
 	* 2016.toronto,1:02:00
 	* end of portland7
@@ -177,16 +181,16 @@
 	* 2016.manchester,37:00
 	* 2016.shepherds,1:29:20
 * PJ
-* basically every 2016 tour stop
-* 2016.tarrytown,1:20:40
-* 2016.oakland,54:45
-* 2016.portland10,24:42
-* 2016.nyc05157pm,1:05:45
-* 2016.austin,54:54
-* 2016.chicago10,42:00
-* 2016.oakland,11:42
-* 2016.oakland,54:33
-* 2016.sydney,1:04:30
+	* basically every 2016 tour stop
+	* 2016.tarrytown,1:20:40
+	* 2016.oakland,54:45
+	* 2016.portland10,24:42
+	* 2016.nyc05157pm,1:05:45
+	* 2016.austin,54:54
+	* 2016.chicago10,42:00
+	* 2016.oakland,11:42
+	* 2016.oakland,54:33
+	* 2016.sydney,1:04:30
 * \#1 with a bullet
 	* 2016.denver,10:00
 	* 2016.toronto,41:00
@@ -204,25 +208,25 @@
 	* 423,??:??
 	* bo2016.3,57:30
 * lapkus can't make it through a song
-* 2016.tarrytown,5:00
-* 2016.tarrytown,4:46
-* 2016.tarrytown,14:23
-* 2016.tarrytown,40:39
-* 2016.tarrytown,41:10
-* 2016.detroit,53:37
-* 2016.tour,lots
-* 2016.chicago10,47:30
-* 2016.chicago10,47:00
-* 2016.chicago7pm,1:22:18
-* tarrytown 2016,4:46
-* tarrytown.2016,51:55
-* tarrytown.2016,56:00
-* tarrytown.2016,57:15
-* tarrytown.2016,1:16:20
-* 2016.nyc0514930,07:45
-* 2016.nyc0514930,12:04
-* 2016.nyc0514930,16:54
-* 2016.nyc0514930,27:30
+	* 2016.tarrytown,5:00
+	* 2016.tarrytown,4:46
+	* 2016.tarrytown,14:23
+	* 2016.tarrytown,40:39
+	* 2016.tarrytown,41:10
+	* 2016.detroit,53:37
+	* 2016.tour,lots
+	* 2016.chicago10,47:30
+	* 2016.chicago10,47:00
+	* 2016.chicago7pm,1:22:18
+	* tarrytown 2016,4:46
+	* tarrytown.2016,51:55
+	* tarrytown.2016,56:00
+	* tarrytown.2016,57:15
+	* tarrytown.2016,1:16:20
+	* 2016.nyc0514930,07:45
+	* 2016.nyc0514930,12:04
+	* 2016.nyc0514930,16:54
+	* 2016.nyc0514930,27:30
 * hollywood facts
 	* lots
 	* 162,57:45
@@ -245,32 +249,32 @@
 	* 113,18:00 (bobby m remix)
 	* 114,20:45 (played only)
 * am i doing it?
-* 2016.austin,1:13:50
-* 423,42:19,one thousand gigawatts
-* 2016.austin,1:13:38
+	* 2016.austin,1:13:50
+	* 423,42:19,one thousand gigawatts
+	* 2016.austin,1:13:38
 * ice t's love of non-standard air travel
-* that time he wz in the met life blimp
-* 51,24:00
+	* that time he wz in the met life blimp
+	* 51,24:00
 * len wiseman's self description (good looking guy etc.)
-* 2016.tarrytown,20:30
-* 2016.tarrytown,40:00
-* 2016.tarrytown,44:00
-* every other wiseman appearance *10
-* 2016.oakland,35:28
-* 2016.oakland,36:50
-* 2016.tour.bo.1,41:13
+	* 2016.tarrytown,20:30
+	* 2016.tarrytown,40:00
+	* 2016.tarrytown,44:00
+	* every other wiseman appearance *10
+	* 2016.oakland,35:28
+	* 2016.oakland,36:50
+	* 2016.tour.bo.1,41:13
 * serial podcast
-* 417,16:00
-* 427,54:30
+	* 417,16:00
+	* 427,54:30
 * pft delivers extremely lengthy elucidation of something (characters, abbreviations, etc.)
-* toronto.2016.0506,1:00:30 (mocap)
-* toronto.2016.0506,44:30 (box office)
-* toronto.2016.06,1:00:30
-* toronto.2016.06,at least once earlier than 1:00:30
-* 2016.losangeles,39:00
-* 2016.losangeles,42:30
-* 2016.losangeles,1:01:00
-* 2016.losangeles,1:00:40
+	* toronto.2016.0506,1:00:30 (mocap)
+	* toronto.2016.0506,44:30 (box office)
+	* toronto.2016.06,1:00:30
+	* toronto.2016.06,at least once earlier than 1:00:30
+	* 2016.losangeles,39:00
+	* 2016.losangeles,42:30
+	* 2016.losangeles,1:01:00
+	* 2016.losangeles,1:00:40
 * character bonanzas
 	* 171,*
 	* 148,1:15:00
@@ -299,7 +303,7 @@
 	* 215,1:04:00+
 * rounds of catchphrase
 * all the cities of the country
-* 404,16:00
+	* 404,16:00
 * r2d2soon
 	* bo2015*
 	* 404,21:15
@@ -317,17 +321,17 @@
 	* 175,16:10
 	* 180,5:20
 * morch (march)
-* 411,1:30
+	* 411,1:30
 * players playing other players' characters
-* 286
-* bo2015.1,1:49:44
-* 356,14:44,zouks does adomian's leykis 
-* 378,34:50,kroll is asked to do sappity-tappity
-* 406,55:08,scott does ho-ho
-* goodbye listeners! 
-* bo2015.3,32:00
-* 349,1:01:30
-* 215,59:23
+	* 286
+	* bo2015.1,1:49:44
+	* 356,14:44,zouks does adomian's leykis
+	* 378,34:50,kroll is asked to do sappity-tappity
+	* 406,55:08,scott does ho-ho
+* goodbye listeners!
+	* bo2015.3,32:00
+	* 349,1:01:30
+	* 215,59:23
 * fix scott's nephew todd tag
 * buttercream effect
 	* 215,~59:30
@@ -340,12 +344,12 @@
 	* 461,9:20
 	* 461,1:11:00
 * muppets gonna eff?
-* 2016.nottingham,53:20 (?)
-* bo2015.x?
-* bo2015.3,1:02:00
-* bo2015.4,~36:00?
-* bo2015.4,~38:00
-* 412,9:40
+	* 2016.nottingham,53:20 (?)
+	* bo2015.x?
+	* bo2015.3,1:02:00
+	* bo2015.4,~36:00?
+	* bo2015.4,~38:00
+	* 412,9:40
 * ET no homo
 	* 356,1:12:00
 	* 406,54:50
@@ -366,7 +370,7 @@
 	* 137.5,6:30
 	* 169,31:45
 	* 210,44:00
-	* 221,26:30(ear)
+	* 221,26:30(howl)
 * huell turns into a crowbot
 	* 29,51:48
 	* howl.fm in DC,36:00
@@ -391,7 +395,7 @@
 	* 423,1:18:30
 	* 424,1:27:45
 	* 2016.shepherds,15:00
-* look it up, (scotty|pauly) - 
+* look it up, (scotty|pauly) -
 	* bo2016.2,1:54:15
 	* bo2016.2,1:55:20
 	* bo2016.2,2:16:30
@@ -469,7 +473,7 @@
 	* 153,1:04:10
 	* 461,55:45
 	* 190,34:45
-	* 215:1:04:30 (earw)
+	* 215:1:04:30(howl)
 	* 191,1:12:00
 * mr. microphone
 	* 6th anniversary special
@@ -491,16 +495,18 @@
 	* 408,32:00
 	* 426,35:00
 	* 164,15:07
+	* 229,55:00
 * jeffrey characterwheaties
 	* 2:03:55,kroll+mantzoukas daemon episode
 	* 394,41:10
 * interesting vote from an interesting player
 	* http://howl.fm/audio/26163/live-from-vancouver-2013,51:50
 	* 198,53:00
-	* 223,1:04:45(ear)
+	* 223,1:04:45(howl)
+	* 226,1:06:10(howl)
 	* 203,1:00:30
-	* 216,56:20 (earw)
-	* 224,58:15(ear)
+	* 216,56:20(howl)
+	* 224,58:15(howl)
 * is dick francis a horse?
 	* bo2015.4,8:00
 	* bo2015.4,1:17:00
@@ -576,29 +582,29 @@
 * bo2015.4,8:00
 * bo2015.4,1:17:00
 * 398,1:08:00
-* 2016.chicago10,27:30	
+* 2016.chicago10,27:30
 * jason hates scott
 	* 384,24:30
 	* 176,8:45
 * constantly high-fiving
-* 384,25:00
+	* 384,25:00
 * men of a certain age
 	* 2016.dallas,11:00
 	* 384,47:30
-	* 218,23:30(ear),inaugural
-	* 218,27:20(ear)
-	* 218,28:20(ear)
-	* 218,50:00(ear)
-	* 218,57:50(ear)
-	* 218,1:09:40(ear)
-	* 218,1:29:20(ear)
+	* 218,23:30(howl),inaugural
+	* 218,27:20(howl)
+	* 218,28:20(howl)
+	* 218,50:00(howl)
+	* 218,57:50(howl)
+	* 218,1:09:40(howl)
+	* 218,1:29:20(howl)
 * time bobbys?
-* dsalw eps
-* 405,33:15
+	* dsalw eps
+	* 405,33:15
 * santa baby
-* 33,6:00
-* 41,9:30
-* 2016.perth,1:05:10
+	* 33,6:00
+	* 41,9:30
+	* 2016.perth,1:05:10
 * symmetrical face
 	* 158,1:00:00
 	* 146,4:30
@@ -608,19 +614,19 @@
 	* some earlier than 41, too
 	* 87,50:00
 	* 87,52:45
-	* 214,22:00 (ear adfree)
+	* 214,22:00(howl)
 * Hey hey hey have a good day (shelly driftwood)
-* 419,1:34:50 (*2)
+	* 419,1:34:50 (*2)
 * E.T.A.D.
-* 2016.nyc930,1:03:30
+	* 2016.nyc930,1:03:30
 * dads and grads
-* 427,1:30
-* 430,1:15
+	* 427,1:30
+	* 430,1:15
 * certainly
-* 2016.dallas,16:50
-* 2016.detroit,5:55
+	* 2016.dallas,16:50
+	* 2016.detroit,5:55
 * all I ask in return (mike)
-	* 2016.dallas,37:40	
+	* 2016.dallas,37:40
 * classic joke structure
 	* 2016.austin,18:10
 	* 168,1:01:20
@@ -642,8 +648,8 @@
 	* 208,33:10
 	* 221,28:10
 * clumsy portmanteau
-* 2016.tour al peterson
-	* 440,44:40 
+	* 2016.tour al peterson
+	* 440,44:40
 	* 439,34:45
 	* 439,40:43
 	* 439,55:00
@@ -675,13 +681,14 @@
 	* 137,9:30
 	* 162,8:45
 	* bo2016.2,43:20
-	* 225,6:45(ear)
+	* 225,6:45(howl)
 * record-breaking appearance
 	* 189,2:30
 	* 189,1:08:30
 	* (previous herzog appear)
 * of note/in his own right
 	* 136,9:09
+	* 228,10:15
 	* 202,1:30
 	* 445,4:00
 	* 445,19:30
@@ -691,8 +698,9 @@
 	* 463,1:08:00
 	* 212,1:20
 	* 214,2:20
-	* 218,3:20(ear)
-	* 218,20:40(ear)
+	* 218,3:20(howl)
+	* 218,20:40(howl)
+	* 229,1:10:25(howl)
 * can i see you in the kitchen?
 	* bo2016.1,1:26:20
 	* pft ep very close/prior to bo2016.1
@@ -700,6 +708,9 @@
 	* bo2016.3,1:18:55
 * urls
 	* 153,27:50
+	* 226,35:45(howl)
+	* 226,44:20(howl)
+	* 226,1:14:45(howl)
 	* 207,35:50
 	* 191,1:12:00
 	* 200,29:30
@@ -730,5 +741,19 @@
 	* 183,6:00,www.spookyguyz.com
 	* 183,1:12:20,spookyguyz.com
 	* 183,37:50,sillyguyz.com
-* and-ah
-	* 225,25:51(ear)
+* and-ah (all howl stamps)
+	* 225,25:51
+	* 226,1:12
+	* 226,48:58
+	* 226,1:12:30
+	* 227,:50
+	* 227,1:45
+	* 227,2:30
+	* 227,4:35
+	* 227,9:10
+	* 227,55:36
+	* 229,4:35
+	* 229,4:42
+	* 229,1:00:30
+	* 229,1:07:40
+	* 230,47:59

@@ -7788,3 +7788,108 @@
 	"id_wikia": 3333,
 	"holding": "false"
 }
+
+{
+    "episode": 226,
+    "show": "cbb",
+    "tstart": "1:13:38",
+    "tend": "1:13:45",
+    "instance": "That is...one of my favorite guests here.",
+"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-01-24T08:26:59Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/226-paul-feig-horatio-sanz/#t=1:13:38",
+    "tags": "Psy,Gangnam Style (song)",
+    "created_at": "2017-01-24T08:26:59Z",
+    "slug_soundcloud": "226-paul-feig-horatio-sanz",
+    "slug_earwolf": "aspira",
+    "episode_title": "Â¡Aspira!",
+    "episode_guests": "Paul Feig,Horatio Sanz",
+    "id_wikia": 2627,
+    "holding": "false"
+}
+
+{
+    "episode": 228,
+    "show": "cbb",
+    "tstart": "28:30",
+    "tend": "28:41",
+    "instance": "And we toasted Grasshoppers in the twilight of our years and I became obsessed with my mortality from then on.",
+    "bit":"Fantastic.","elucidation":"one of scott's 25 words",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-01-24T14:50:20Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/228-john-hodgman-paul-f/#t=28:30",
+    "tags": "",
+    "created_at": "2017-01-24T14:50:20Z",
+    "slug_soundcloud": "228-john-hodgman-paul-f",
+    "slug_earwolf": "acapella-cuddle-puddle",
+    "episode_title": "Acapella Cuddle Puddle",
+    "episode_guests": "John Hodgman,Paul F. Tompkins",
+    "id_wikia": 2484,
+    "holding": "false"
+}
+
+{
+    "episode": 228,
+    "show": "cbb",
+    "tstart": "1:24:25",
+    "tend": "1:24:37",
+    "instance": "It's gonna be the most realistic game of Box Office ever.",
+        "bit":"Fantastic.","elucidation":"one of scott's 25 words",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-01-24T14:50:20Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/228-john-hodgman-paul-f/#t=1:24:25",
+    "tags": "Ice T",
+    "created_at": "2017-01-24T14:50:20Z",
+    "slug_soundcloud": "228-john-hodgman-paul-f",
+    "slug_earwolf": "acapella-cuddle-puddle",
+    "episode_title": "Acapella Cuddle Puddle",
+    "episode_guests": "John Hodgman,Paul F. Tompkins",
+    "id_wikia": 2484,
+    "holding": "false"
+}
+
+{
+    "episode": 229,
+    "show": "cbb",
+    "tstart": "1:11:49",
+    "tend": "1:11:57",
+    "instance": "This is a return engagement.",
+    "bit":"Fantastic.","elucidation":"one of scott's 25 words",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-01-25T11:28:40Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/229-ben-schwartz-paul-f/#t=1:11:49",
+    "tags": "Werner Herzog,Snoop Dogg,Gin and Juice (song)",
+    "created_at": "2017-01-25T11:28:40Z",
+    "slug_soundcloud": "229-ben-schwartz-paul-f",
+    "slug_earwolf": "two-thumbs-and-not-much-else",
+    "episode_title": "Two Thumbs & Not Much Else",
+    "episode_guests": "Ben Schwartz,Paul F. Tompkins",
+    "id_wikia": 2652,
+    "holding": "false"
+}
+
+{
+    "episode": 230,
+    "show": "cbb",
+    "tstart": "34:37",
+    "tend": "34:47",
+    "instance": "Oh, is it over?",
+    "bit":"Fantastic.","elucidation":"one of scott's 25 words",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-01-25T14:56:38Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/reggie-watts-neil-campbell/#t=34:37",
+    "tags": "",
+    "created_at": "2017-01-25T14:56:38Z",
+    "slug_soundcloud": "reggie-watts-neil-campbell",
+    "slug_earwolf": "something-for-everything",
+    "episode_title": "Something for Everything",
+    "episode_guests": "Reggie Watts,Neil Campbell",
+    "id_wikia": 2850,
+    "holding": "false"
+}
