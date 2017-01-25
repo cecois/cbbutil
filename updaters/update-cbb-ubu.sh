@@ -10,11 +10,11 @@ MONGOJQ="/tmp/mongolocal2solrJQ.json"
 
 MONGOBUFILE="/home/ccmiller/Documents/bu/mongo/mongolab/bits-"$FILEDATE
 
-#echo "backing up MongoLab Mongo bits..."
-#mongoexport -h ds033599.mongolab.com:33599 -d cbbbits -c bits -u cecmcgee -p 5NWpI1 -o $MONGOBUFILE.csv --type=csv -f $MONGOFIELDS
-#echo "tarballing same..."
-#tar -cvzf $MONGOBUFILE.tgz $MONGOBUFILE.csv
-# rm $MONGOBUFILE.csv
+echo "backing up MongoLab Mongo bits..."
+mongoexport -h ds033599.mongolab.com:33599 -d cbbbits -c bits -u cecmcgee -p 5NWpI1 -o $MONGOBUFILE.csv --type=csv -f $MONGOFIELDS
+echo "tarballing same..."
+tar -cvzf $MONGOBUFILE.tgz $MONGOBUFILE.csv
+rm $MONGOBUFILE.csv
 
 
 echo "exporting from MongoLab for solr..."
