@@ -7893,3 +7893,87 @@
     "id_wikia": 2850,
     "holding": "false"
 }
+
+{
+    "episode": 233,
+    "show": "cbb",
+    "tstart": "15:16",
+    "tend": "15:22",
+    "instance": "I would suggest getting the physical copy and the audio copy.",
+    "bit":"Fantastic.","elucidation":"one of scott's 25 words",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-01-26T14:45:13Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/233-bob-odenkirk-andy-daly/#t=15:16",
+    "tags": "",
+    "created_at": "2017-01-26T14:45:13Z",
+    "slug_soundcloud": "233-bob-odenkirk-andy-daly",
+    "slug_earwolf": "royal-watching",
+    "episode_title": "Royal Watching",
+    "episode_guests": "Bob Odenkirk,Andy Daly",
+    "id_wikia": 2814,
+    "holding": "false"
+}
+
+{
+    "episode": 233,
+    "show": "cbb",
+    "tstart": "16:16",
+    "tend": "16:21",
+    "instance": "There's so many people on that episode.",
+    "bit":"Fantastic.","elucidation":"one of scott's 25 words",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-01-26T14:45:13Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/233-bob-odenkirk-andy-daly/#t=16:16",
+    "tags": "",
+    "created_at": "2017-01-26T14:45:13Z",
+    "slug_soundcloud": "233-bob-odenkirk-andy-daly",
+    "slug_earwolf": "royal-watching",
+    "episode_title": "Royal Watching",
+    "episode_guests": "Bob Odenkirk,Andy Daly",
+    "id_wikia": 2814,
+    "holding": "false"
+}
+
+{
+    "episode": 233,
+    "show": "cbb",
+    "tstart": "17:43",
+    "tend": "17:49",
+    "instance": "The show is called 'The Birthday Boys.'",
+    "bit":"Fantastic.","elucidation":"one of scott's 25 words",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-01-26T14:45:13Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/233-bob-odenkirk-andy-daly/#t=17:43",
+    "tags": "",
+    "created_at": "2017-01-26T14:45:13Z",
+    "slug_soundcloud": "233-bob-odenkirk-andy-daly",
+    "slug_earwolf": "royal-watching",
+    "episode_title": "Royal Watching",
+    "episode_guests": "Bob Odenkirk,Andy Daly",
+    "id_wikia": 2814,
+    "holding": "false"
+}
+
+{
+    "episode": 233,
+    "show": "cbb",
+    "tstart": "1:08:22",
+    "tend": "1:08:27",
+    "instance": "It comes out in September along with the tour.",
+    "bit":"Fantastic.","elucidation":"one of scott's 25 words",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-01-26T14:45:13Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/233-bob-odenkirk-andy-daly/#t=1:08:22",
+    "tags": "",
+    "created_at": "2017-01-26T14:45:13Z",
+    "slug_soundcloud": "233-bob-odenkirk-andy-daly",
+    "slug_earwolf": "royal-watching",
+    "episode_title": "Royal Watching",
+    "episode_guests": "Bob Odenkirk,Andy Daly",
+    "id_wikia": 2814,
+    "holding": "false"
+}
