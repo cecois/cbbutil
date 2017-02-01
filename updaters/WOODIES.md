@@ -72,6 +72,7 @@
 * 235,36:03,a load of old bullshit
 * 235,36:29,fuck yes!
 * 235,40:00,i am a man
+* 235,54:15,why do people listen to this?
 * 236,1:03:30,i’m in charge now
 * 236,34:53,oh the money thing
 * 236,35:50,i don’t understand your issue
