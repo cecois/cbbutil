@@ -25,7 +25,7 @@ tar -cvzf $MONGOBUFILE.tgz $MONGORAW
 rm $MONGORAW
 
 echo "now the new stuff goes in..."
-mongoimport -h ds033599.mongolab.com:33599 -d cbbbits -c bits -u cecmcgee -p 5NWpI1 --file /home/ccmiller/git/cbbutil/updaters/cbb-news.json
+mongoimport -h ds033599.mongolab.com:33599 -d cbbbits -c bits -u cecmcgee -p 5NWpI1 --file /home/ccmiller/git/cbbutil/updaters/cbb-live.json
 
 echo "...and comes right back out"
 mongoexport -h ds033599.mongolab.com:33599 -u cecmcgee -p 5NWpI1 --db cbbbits --collection bits --fields $MONGOFIELDS --jsonArray --out $MONGORAW
