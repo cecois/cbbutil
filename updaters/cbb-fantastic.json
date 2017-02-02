@@ -8019,3 +8019,45 @@
     "id_wikia": 2722,
     "holding": "false"
 }
+
+{
+    "episode": 237,
+    "show": "cbb",
+    "tstart": "9:46",
+    "tend": "9:52",
+    "instance": "Just a big steak with blue cheese.",
+    "bit":"Fantastic.","elucidation":"one of scott's 25 words",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-02-01T10:32:30Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/237-jonah-ray-nick-thune/#t=9:46",
+    "tags": "",
+    "created_at": "2017-02-01T10:32:30Z",
+    "slug_soundcloud": "237-jonah-ray-nick-thune",
+    "slug_earwolf": "filipino-blockbuster",
+    "episode_title": "Filipino Blockbuster",
+    "episode_guests": "Jonah Ray,Nick Thune,Eugene Cordero",
+    "id_wikia": 3113,
+    "holding": "false"
+}
+
+{
+    "episode": 238,
+    "show": "cbb",
+    "tstart": "1:06:25",
+    "tend": "1:06:35",
+    "instance": "The Comedy Bang! Bang! tour - NYC and L.A. sold out.",
+    "bit":"Fantastic.","elucidation":"one of scott's 25 words",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-02-01T12:42:44Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/238-jessica-st-clair-lennon/#t=1:06:25",
+    "tags": "",
+    "created_at": "2017-02-01T12:42:44Z",
+    "slug_soundcloud": "238-jessica-st-clair-lennon",
+    "slug_earwolf": "the-5th-anniversary-show",
+    "episode_title": "Marissa Wompler's Birthday Pool Party LIVE",
+    "episode_guests": "Jessica St. Clair,Lennon Parham,Jason Mantzoukas,Brian Huskey,Melissa Rauch",
+    "id_wikia": 3325,
+    "holding": "false"
+}

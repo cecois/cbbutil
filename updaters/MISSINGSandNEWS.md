@@ -1,6 +1,7 @@
 # possible new bits:
 * we're really gonna probe his psyche (in-depth - wtf - actors pain)
 	* 162,33:45
+	* 236,21:16
 	* 234,20:55
 	* 468,21:30
 	* 172,19:15
@@ -81,6 +82,7 @@
 	* 456,52:00
 * but they can send them to you personally
 	* 199,55:00
+	* 235,55:00(howl)
 * working in the lab
 	* all halloween specials
 	* 183,11:30
@@ -373,6 +375,8 @@
 	* 169,31:45
 	* 210,44:00
 	* 221,26:30(howl)
+	* 236,49:45(howl)
+	* 236,1:12:10(howl)
 * huell turns into a crowbot
 	* 29,51:48
 	* howl.fm in DC,36:00
@@ -690,6 +694,7 @@
 	* 189,1:08:30
 	* (previous herzog appear)
 * of note/in his own right
+	* 238,1:06:50(howl)
 	* 136,9:09
 	* 228,10:15
 	* 202,1:30
@@ -771,3 +776,12 @@
 	* 234,1:00
 	* 234,1:06
 	* 234,21:05
+	* 235,55:00
+	* 236,4:25
+	* 236,1:11:20
+	* 237,0:50
+	* 237,1:00
+	* 237,3:10
+	* 237,5:10
+	* 237,15:40
+	* 237,46:10
