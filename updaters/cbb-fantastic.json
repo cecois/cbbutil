@@ -8061,3 +8061,66 @@
     "id_wikia": 3325,
     "holding": "false"
 }
+
+{
+    "episode": 239,
+    "show": "cbb",
+    "tstart": "3:30",
+    "tend": "3:44",
+    "instance": "Even though I'm silent - he still refuses to speak.",
+    "bit":"Fantastic.","elucidation":"one of scott's 25 words",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-02-03T09:42:59Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/239-jay-mohr-matt-besser/#t=3:30",
+    "tags": "",
+    "created_at": "2017-02-03T09:42:59Z",
+    "slug_soundcloud": "239-jay-mohr-matt-besser",
+    "slug_earwolf": "new-dad",
+    "episode_title": "New Dad",
+    "episode_guests": "Jay Mohr,Matt Besser",
+    "id_wikia": 3355,
+    "holding": "false"
+}
+
+{
+    "episode": 239,
+    "show": "cbb",
+    "tstart": "31:04",
+    "tend": "31:14",
+    "instance": "Jay Mohr: Saturday Night Live: The Book of Matthew.",
+    "bit":"Fantastic.","elucidation":"one of scott's 25 words",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-02-03T09:42:59Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/239-jay-mohr-matt-besser/#t=31:04",
+    "tags": "",
+    "created_at": "2017-02-03T09:42:59Z",
+    "slug_soundcloud": "239-jay-mohr-matt-besser",
+    "slug_earwolf": "new-dad",
+    "episode_title": "New Dad",
+    "episode_guests": "Jay Mohr,Matt Besser",
+    "id_wikia": 3355,
+    "holding": "false"
+}
+
+{
+	"episode": 469,
+	"show": "cbb",
+	"tstart": "31:00",
+	"tend": "31:07",
+	"instance": "You post it up yourself.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-02-06T11:49:56Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/469-john-hodgma.n-zeke-nicholson-carl-tart/#t=31:00",
+	"tags": "",
+	"created_at": "2017-02-06T11:49:56Z",
+	"slug_soundcloud": "469-john-hodgman-zeke-nicholson-carl-tart",
+	"slug_earwolf": "quiznos-what-quizdid",
+	"episode_title": "Quiznos What QuizDid",
+	"episode_guests": "John Hodgman,Zeke Nicholson,Carl Tart",
+	"id_wikia": null,
+	"holding": "false"
+}

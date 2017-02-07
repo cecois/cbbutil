@@ -35,8 +35,10 @@
 	* 140,30:00
 	* 141,20:45
 	* 141,49:10
-	* 145,9:30
+	* 145,9:30oyn
 	* 228,16:00(howl)
+* more celebrities should email each other
+	* this is bit:"congratulatory text"
 * runoff/run-off p (all howl stamps)
 	* 228,11:45
 	* 228,15:45
@@ -199,6 +201,7 @@
 	* 2016.denver,10:00
 	* 2016.toronto,41:00
 	* 289,10:15
+	* 469,2:15
 	* 2016.dallas,33:40
 	* 441,12:00
 	* 2016.denver,10:00
@@ -547,48 +550,48 @@
 	* 463,1:54:15
 	* bo2016.4,12:00
 * i ain't down with (into) that g** shi*
-* http://howl.fm/audio/26138/live-from-nyc-2014-part-1,46:00
-* 215,20:34
-* 215,24:57
-* other moynahan/pft eps
-* 423,46:50
-* 2016.sydney,55:45
+	* http://howl.fm/audio/26138/live-from-nyc-2014-part-1,46:00
+	* 215,20:34
+	* 215,24:57
+	* other moynahan/pft eps
+	* 423,46:50
+	* 2016.sydney,55:45
 * but they could also send them (wyr) to your twitter
-* http://howl.fm/audio/26139/live-from-nyc-2014-part-2,1:01:00
-* 235,58:30
+	* http://howl.fm/audio/26139/live-from-nyc-2014-part-2,1:01:00
+	* 235,58:30
 * gershwin, my baby
-* 400, multiple
-* 400, ~28:30
+	* 400, multiple
+	* 400, ~28:30
 * that's the show
-* 399,1:07:08
-* mulaney/kroll (ep. w/ mark david chapman thing)
-* 395,46:55
-* bo2015.3,:30
-* 432,1:25:20
-* 439,44:51
+	* 399,1:07:08
+	* mulaney/kroll (ep. w/ mark david chapman thing)
+	* 395,46:55
+	* bo2015.3,:30
+	* 432,1:25:20
+	* 439,44:51
 * "Pains"
-* 401,41:15
-* 401,56:00
-* basically all #thicke eps
-* 2016.boston.7pm,19:15
+	* 401,41:15
+	* 401,56:00
+	* basically all #thicke eps
+	* 2016.boston.7pm,19:15
 * that's a good song (plugs appendage)
-* 401,1:46:00
-* 384,1:23:33
-* 384,1:28:00
-* (tons of others, obv)
-* 423,1:22:00
-* 2016.minneapolis,58:55
-* 434,1:18:00
-* 2016.brisbane,1:35:00
+	* 401,1:46:00
+	* 384,1:23:33
+	* 384,1:28:00
+	* (tons of others, obv)
+	* 423,1:22:00
+	* 2016.minneapolis,58:55
+	* 434,1:18:00
+	* 2016.brisbane,1:35:00
 * German craigslist
-* 401,50:45
+	* 401,50:45
 * just a cardboard cutout inaugural
 * dick francis
-* 399,1:07:50
-* bo2015.4,8:00
-* bo2015.4,1:17:00
-* 398,1:08:00
-* 2016.chicago10,27:30
+	* 399,1:07:50
+	* bo2015.4,8:00
+	* bo2015.4,1:17:00
+	* 398,1:08:00
+	* 2016.chicago10,27:30
 * jason hates scott
 	* 384,24:30
 	* 176,8:45
@@ -678,6 +681,7 @@
 	* 101,1:08:00
 * queue the music
 	* 2016.tour.bos10,43:00
+	* mike the janitor/bachelor bros ep
 * ha'penny
 	* 2016.sydney,1:21:30
 	* 445,15:00
@@ -716,6 +720,7 @@
 	* bo2016.3,1:18:55
 * urls
 	* 153,27:50
+	* 469,20:50
 	* 226,35:45(howl)
 	* 226,44:20(howl)
 	* 226,1:14:45(howl)
@@ -785,3 +790,7 @@
 	* 237,5:10
 	* 237,15:40
 	* 237,46:10
+	* 239,1:30
+	* 239,58:50
+	* 469,5:15
+	* 469,1:15:05
