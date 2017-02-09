@@ -37,6 +37,10 @@
 	* 141,49:10
 	* 145,9:30oyn
 	* 228,16:00(howl)
+* someone calls another character by their own name
+	* 241,41:00(howl)
+	* 469,near the end
+	* ???,"and you're gil"
 * more celebrities should email each other
 	* this is bit:"congratulatory text"
 * runoff/run-off p (all howl stamps)
@@ -64,6 +68,7 @@
 * did __ just walk in here?
 	* 199,multiple
 	* 199,1:00:00
+	* 241,35:20(howl)
 * jelloems
 	* 197,34:30
 	* 197,35:50
@@ -286,6 +291,7 @@
 	* 171,*
 	* 148,1:15:00
 	* 136,1:52:00
+	* 243,51:00+
 	* 286
 	* daly intervention
 	* several tompkins eps
@@ -511,6 +517,7 @@
 * interesting vote from an interesting player
 	* http://howl.fm/audio/26163/live-from-vancouver-2013,51:50
 	* 198,53:00
+	* 242,57:00(howl)
 	* 223,1:04:45(howl)
 	* 226,1:06:10(howl)
 	* 203,1:00:30
@@ -613,6 +620,8 @@
 * santa baby
 	* 33,6:00
 	* 41,9:30
+	* 242,58:14(howl)
+	* 242,1:05:45(howl)
 	* 2016.perth,1:05:10
 * symmetrical face
 	* 158,1:00:00
@@ -699,6 +708,8 @@
 	* (previous herzog appear)
 * of note/in his own right
 	* 238,1:06:50(howl)
+	* 243,3:45(howl)
+	* 243,46:50(howl)
 	* 136,9:09
 	* 228,10:15
 	* 202,1:30
@@ -720,6 +731,10 @@
 	* bo2016.3,1:18:55
 * urls
 	* 153,27:50
+	* 243,18:50(howl)
+	* 243,31:00(howl)
+	* 243,31:25(howl)
+	* 243,34:00(howl)
 	* 469,20:50
 	* 226,35:45(howl)
 	* 226,44:20(howl)
@@ -794,3 +809,6 @@
 	* 239,58:50
 	* 469,5:15
 	* 469,1:15:05
+	* 240,5:30
+	* 241,1:20
+	* 242,3:09
