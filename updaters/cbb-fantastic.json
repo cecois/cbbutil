@@ -8334,3 +8334,87 @@
     "id_wikia": 3572,
     "holding": "false"
 }
+
+{
+    "episode": 244,
+    "show": "cbb",
+    "tstart": "0:40",
+    "tend": "0:48",
+    "instance": "What a catchphrase submission.",
+    "bit":"Fantastic.","elucidation":"one of scott's 25 words",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-02-10T12:41:41Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/244-andy-samberg-eddie/#t=0:40",
+    "tags": "",
+    "created_at": "2017-02-10T12:41:41Z",
+    "slug_soundcloud": "244-andy-samberg-eddie",
+    "slug_earwolf": "an-ode-to-new-york",
+    "episode_title": "An Ode To New York!",
+    "episode_guests": "Andy Samberg,Eddie Pepitone",
+    "id_wikia": 3602,
+    "holding": "false"
+}
+
+{
+    "episode": 244,
+    "show": "cbb",
+    "tstart": "52:40",
+    "tend": "52:50",
+    "instance": "The information is in my possession.",
+    "bit":"Fantastic.","elucidation":"one of scott's 25 words",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-02-10T12:41:41Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/244-andy-samberg-eddie/#t=52:40",
+    "tags": "Howard Stern",
+    "created_at": "2017-02-10T12:41:41Z",
+    "slug_soundcloud": "244-andy-samberg-eddie",
+    "slug_earwolf": "an-ode-to-new-york",
+    "episode_title": "An Ode To New York!",
+    "episode_guests": "Andy Samberg,Eddie Pepitone",
+    "id_wikia": 3602,
+    "holding": "false"
+}
+
+{
+    "episode": 244,
+    "show": "cbb",
+    "tstart": "1:10:46",
+    "tend": "1:10:52",
+    "instance": "You're the lead-in for 'The New Girl.'",
+    "bit":"Fantastic.","elucidation":"one of scott's 25 words",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-02-10T12:41:41Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/244-andy-samberg-eddie/#t=1:10:46",
+    "tags": "The New Girl (TV)",
+    "created_at": "2017-02-10T12:41:41Z",
+    "slug_soundcloud": "244-andy-samberg-eddie",
+    "slug_earwolf": "an-ode-to-new-york",
+    "episode_title": "An Ode To New York!",
+    "episode_guests": "Andy Samberg,Eddie Pepitone",
+    "id_wikia": 3602,
+    "holding": "false"
+}
+
+{
+    "episode": 244,
+    "show": "cbb",
+    "tstart": "1:12:35",
+    "tend": "1:12:42",
+    "instance": "No, it's a great record.",
+    "bit":"Fantastic.","elucidation":"one of scott's 25 words",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-02-10T12:41:41Z",
+    "url_soundcloud": "http://soundcloud.com/comedybangbang/244-andy-samberg-eddie/#t=1:12:35",
+    "tags": "Lonely Island (musical combination)",
+    "created_at": "2017-02-10T12:41:41Z",
+    "slug_soundcloud": "244-andy-samberg-eddie",
+    "slug_earwolf": "an-ode-to-new-york",
+    "episode_title": "An Ode To New York!",
+    "episode_guests": "Andy Samberg,Eddie Pepitone",
+    "id_wikia": 3602,
+    "holding": "false"
+}
