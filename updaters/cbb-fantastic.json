@@ -8418,3 +8418,24 @@
     "id_wikia": 3602,
     "holding": "false"
 }
+
+{
+	"episode": 470,
+	"show": "cbb",
+	"tstart": "2:43",
+	"tend": "2:55",
+	"instance": "Are you guys so used to applause that when you're introduced and you don't hear it you feel the need to supply it?",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-02-13T08:01:27Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/470-electric-guest-mary-holland-erin-whitehead/#t=2:43",
+	"tags": "",
+	"created_at": "2017-02-13T08:01:27Z",
+	"slug_soundcloud": "470-electric-guest-mary-holland-erin-whitehead",
+	"slug_earwolf": "electric-guest-are-masculine",
+	"episode_title": "Electric Guest Are Masculine",
+	"episode_guests": "Electric Guest (musical combination),Mary Holland,Erin Whitehead",
+	"id_wikia": null,
+	"holding": "false"
+}
