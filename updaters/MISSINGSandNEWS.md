@@ -850,3 +850,13 @@
 	* 249,7:57
 	* 249,15:00
 	* 249,1:11:40
+	* comedy-bang-bang-best-of-uk-tour,:47
+	* comedy-bang-bang-best-of-uk-tour,:57
+	* comedy-bang-bang-best-of-uk-tour,4:50
+	* comedy-bang-bang-best-of-uk-tour,6:05
+	* comedy-bang-bang-best-of-uk-tour,6:15
+	* comedy-bang-bang-best-of-uk-tour,15:18
+	* comedy-bang-bang-best-of-uk-tour,55:15
+	* comedy-bang-bang-best-of-uk-tour,56:30
+	* comedy-bang-bang-best-of-uk-tour,1:08:42
+	* comedy-bang-bang-best-of-uk-tour,1:13:40
