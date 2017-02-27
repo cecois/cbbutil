@@ -8712,3 +8712,45 @@
     "id_wikia": null,
     "holding": "false"
 }
+
+{
+    "episode": 471,
+    "show": "cbb",
+    "tstart": "2:22",
+    "tend": "2:30",
+    "instance": "That is an exploration of little tiny humans going up into King Kong's rectum.",
+    "bit":"Fantastic.","elucidation":"one of scott's 25 words",
+    "tags": "",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-02-27T10:09:16Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/471-jason-mantzoukas-kate-berlant-john-early/#t=2:22",
+    "created_at": "2017-02-27T10:09:16Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "shy-by-nature-outgoing-by-nurture",
+    "episode_title": "Shy By Nature, Outgoing By Nurture",
+    "episode_guests": "Jason Mantzoukas, Kate Berlant, John Early",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 471,
+    "show": "cbb",
+    "tstart": "1:18:06",
+    "tend": "1:18:11",
+    "instance": "I'm pluggin that and 'How Did This Get Made?'",
+    "bit":"Fantastic.","elucidation":"one of scott's 25 words",
+    "tags": "",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-02-27T10:09:16Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/471-jason-mantzoukas-kate-berlant-john-early/#t=1:18:06",
+    "created_at": "2017-02-27T10:09:16Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "shy-by-nature-outgoing-by-nurture",
+    "episode_title": "Shy By Nature, Outgoing By Nurture",
+    "episode_guests": "Jason Mantzoukas, Kate Berlant, John Early",
+    "id_wikia": null,
+    "holding": "false"
+}
