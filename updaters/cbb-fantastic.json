@@ -8754,3 +8754,45 @@
     "id_wikia": null,
     "holding": "false"
 }
+
+{
+    "episode": 472,
+    "show": "cbb",
+    "tstart": "1:28:32",
+    "tend": "1:28:44",
+    "instance": "You *get* to be a member of Audible.",
+    "bit":"Fantastic.","elucidation":"one of scott's 25 words",
+    "tags": "",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-02-28T08:09:38Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/472-kurt-braunohler-will-hines-holly-prazoff/#t=1:28:32",
+    "created_at": "2017-02-28T08:09:38Z",
+    "slug_soundcloud": "472-kurt-braunohler-will-hines-holly-prazoff",
+    "slug_earwolf": "pleats-please",
+    "episode_title": "Pleats, Please!",
+    "episode_guests": "Kurt Braunohler,Will Hines,Holly Prazoff",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 473,
+    "show": "cbb",
+    "tstart": "1:18:14",
+    "tend": "1:18:18",
+    "instance": "I play 'Dewey' in 'Duck Tales.'",
+            "bit":"Fantastic.","elucidation":"one of scott's 25 words",
+    "tags": "",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-03-01T08:56:52Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/473-ben-schwartz-thomas-middleditch/#t=1:18:14",
+    "created_at": "2017-03-01T08:56:52Z",
+    "slug_soundcloud": "473-ben-schwartz-thomas-middleditch",
+    "slug_earwolf": "tight-tort",
+    "episode_title": "Tight Tort",
+    "episode_guests": "Ben Schwartz,Thomas Middleditch",
+    "id_wikia": null,
+    "holding": "false"
+}
