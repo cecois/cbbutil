@@ -1,6 +1,6 @@
 var request = require('request');
 var clipboard = require('child_process').spawn('pbcopy')
-var sys = require('sys')
+var sys = require('util')
 var exec = require('child_process').exec;
 
 var qs = process.argv[2]
@@ -18,6 +18,6 @@ request(q, function (error, response, body) {
     var d = '"bit":"'+bit+'","elucidation":"'+elucidation+'",'
     clipboard.stdin.write(d);
     clipboard.stdin.end();
-	exec("noti -t CBB -m "+bit);
+  exec("noti -t CBB -m back from Solr");
   }
 })
