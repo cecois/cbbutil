@@ -239,3 +239,5 @@
 * 169,1:06:30,yesk
 * 186,1:15:30,why isn't this blinking guy eating a plate of dogshit?
 * 474,29:45(howl),this better be worth it
+* 261,1:01:15,a tattoo of a knife on my face
+* 476,4:32,barbecued eggplant
