@@ -10992,3 +10992,129 @@
 	"id_wikia": 4106,
 	"holding": "false"
 }
+
+{
+	"episode": 266,
+	"show": "cbb",
+	"tstart": "17:23",
+	"tend": "17:33",
+	"instance": "Not Mercury rotations.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-03-23T10:08:10Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/266-taran-killam-paul-brittain/#t=17:23",
+	"tags": "",
+	"created_at": ""bit":"Come On Guys","elucidation":"cum on guys",",
+	"slug_soundcloud": "266-taran-killam-paul-brittain",
+	"slug_earwolf": "the-calvins-twins",
+	"episode_title": "The Calvins Twins",
+	"episode_guests": "Taran Killam,Paul Brittain",
+	"id_wikia": 4137,
+	"holding": "false"
+}
+
+{
+	"episode": 266,
+	"show": "cbb",
+	"tstart": "18:10",
+	"tend": "18:17",
+	"instance": "Was she great?",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-03-23T10:08:10Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/266-taran-killam-paul-brittain/#t=18:10",
+	"tags": "",
+	"created_at": ""bit":"Come On Guys","elucidation":"cum on guys",",
+	"slug_soundcloud": "266-taran-killam-paul-brittain",
+	"slug_earwolf": "the-calvins-twins",
+	"episode_title": "The Calvins Twins",
+	"episode_guests": "Taran Killam,Paul Brittain",
+	"id_wikia": 4137,
+	"holding": "false"
+}
+
+{
+	"episode": 266,
+	"show": "cbb",
+	"tstart": "1:08:29",
+	"tend": "1:08:36",
+	"instance": "He signs all my books.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-03-23T10:08:10Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/266-taran-killam-paul-brittain/#t=1:08:29",
+	"tags": "The Calvins Twins,The Calvins Brothers,Chico Hands,Bever Hopox",
+	"created_at": "2017-03-23T10:08:10Z",
+	"slug_soundcloud": "266-taran-killam-paul-brittain",
+	"slug_earwolf": "the-calvins-twins",
+	"episode_title": "The Calvins Twins",
+	"episode_guests": "Taran Killam,Paul Brittain",
+	"id_wikia": 4137,
+	"holding": "false"
+}
+
+{
+	"episode": 477,
+	"show": "cbb",
+	"tstart": "1:20",
+	"tend": "1:24",
+	"instance": "We have a show today.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-03-23T12:34:12Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/477-american-football-mike-hanford-mary-holland-tim-baltz/#t=1:20",
+	"created_at": "2017-03-23T12:34:12Z",
+	"slug_soundcloud": "477-american-football-mike-hanford-mary-holland-tim-baltz",
+	"slug_earwolf": "two-fingers-wide",
+	"episode_title": "Two Fingers Wide",
+	"episode_guests": "American Football,Mike Hanford,Mary Holland,Tim Baltz",
+	"id_wikia": null,
+	"holding": "false"
+}
+
+{
+	"episode": 477,
+	"show": "cbb",
+	"tstart": "1:27:10",
+	"tend": "1:27:15",
+	"instance": "Julyish.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-03-23T12:34:12Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/477-american-football-mike-hanford-mary-holland-tim-baltz/#t=1:27:10",
+	"created_at": "2017-03-23T12:34:12Z",
+	"slug_soundcloud": "477-american-football-mike-hanford-mary-holland-tim-baltz",
+	"slug_earwolf": "two-fingers-wide",
+	"episode_title": "Two Fingers Wide",
+	"episode_guests": "American Football,Mike Hanford,Mary Holland,Tim Baltz",
+	"id_wikia": null,
+	"holding": "false"
+}
+
+{
+	"episode": 477,
+	"show": "cbb",
+	"tstart": "1:32:44",
+	"tend": "1:32:52",
+	"instance": "You've cemented it, certainly, with this appearance.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-03-23T12:34:12Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/477-american-football-mike-hanford-mary-holland-tim-baltz/#t=1:32:44",
+	"created_at": "2017-03-23T12:34:12Z",
+	"slug_soundcloud": "477-american-football-mike-hanford-mary-holland-tim-baltz",
+	"slug_earwolf": "two-fingers-wide",
+	"episode_title": "Two Fingers Wide",
+	"episode_guests": "American Football,Mike Hanford,Mary Holland,Tim Baltz",
+	"id_wikia": null,
+	"holding": "false"
+}
