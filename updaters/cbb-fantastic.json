@@ -11118,3 +11118,24 @@
 	"id_wikia": null,
 	"holding": "false"
 }
+
+{
+	"episode": 267,
+	"show": "cbb",
+	"tstart": "13:20",
+	"tend": "13:28",
+	"instance": "I have an announcement to make.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "Michael Jackson",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-03-24T11:51:38Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/267-jerrod-carmichael-neil/#t=13:20",
+	"created_at": ""bit":"12 Days of Oscar","elucidation":"scott's favorite time of year",",
+	"slug_soundcloud": "267-jerrod-carmichael-neil",
+	"slug_earwolf": "that-wasnt-it-im-back-hee-hee",
+	"episode_title": "That Wasn't It (I'm Back) [Hee Hee]",
+	"episode_guests": "Jerrod Carmichael,Neil Campbell,Mookie Blaiklock",
+	"id_wikia": 4192,
+	"holding": "false"
+}
