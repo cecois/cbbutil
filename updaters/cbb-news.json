@@ -526,21 +526,10 @@
 {
     "episode": 262,
     "show": "cbb",
-<<<<<<< HEAD
-    "tstart": "1:19:25",
-    "tend": "1:19:35",
-    "instance": "Remember when I asked if Homie played the game?",
-    "bit": "Vicar, Please!","elucidation": "somebody repeats their joke lest it pass unnoticed",
-    "tstart": "3:52",
-    "tend": "3:56",
-    "instance": "Do you like it if someone asks you if you've scribed something?",
-    "bit":"Scott's Questions","elucidation":"(in progress) - scott's questions",
-=======
     "tstart": "1:08:10",
     "tend": "1:08:15",
     "instance": "Someone's here.",
     "bit":"Oh Boy","elucidation":"something is disgusting in some way",
->>>>>>> fd306fa5554511bd265f6d1f7e1b4fe253da96c2
     "location_type": "",
     "location_id": "",
     "updated_at": "2017-03-15T13:57:42Z",
@@ -558,18 +547,9 @@
 {
     "episode": 262,
     "show": "cbb",
-<<<<<<< HEAD
-    "tstart": "1:22:00",
-    "tend": "1:22:09",
-    "instance": "I've know you five years, Scott.",
-    "tstart": "42:20",
-    "tend": "42:25",
-    "instance": "The Lady Ga Ga special.",
-=======
     "tstart": "1:15:05",
     "tend": "1:15:24",
     "instance": "Did you write the theme song to 'Its a Living'?",
->>>>>>> fd306fa5554511bd265f6d1f7e1b4fe253da96c2
     "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
     "location_type": "",
     "location_id": "",
@@ -693,21 +673,10 @@
 {
     "episode": 262,
     "show": "cbb",
-<<<<<<< HEAD
-    "tstart": "44:46",
-    "tend": "45:03",
-    "instance": "The video, especially.",
-    "bit": "Who?","elucidation": "somebody doesn't know who or what something famous is",
-    "tstart": "41:40",
-    "tend": "42:08",
-    "instance": "Don't stop 'til you've had enough...food.",
-    "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
-=======
     "tstart": "2:08:09",
     "tend": "2:08:22",
     "instance": "There's at least a load of my cum in every box.",
     "bit":"Oh Boy","elucidation":"something is disgusting in some way",
->>>>>>> fd306fa5554511bd265f6d1f7e1b4fe253da96c2
     "location_type": "",
     "location_id": "",
     "updated_at": "2017-03-15T13:57:42Z",
@@ -725,18 +694,9 @@
 {
     "episode": 262,
     "show": "cbb",
-<<<<<<< HEAD
-    "tstart": "44:46",
-    "tend": "45:13",
-    "instance": "It's too dancy.",
-    "tstart": "41:40",
-    "tend": "42:08",
-    "instance": "Nobody wants to hear 'Thriller.'",
-=======
     "tstart": "2:10:05",
     "tend": "2:10:20",
     "instance": "We recorded em' today and it's comin' out tomorrow.",
->>>>>>> fd306fa5554511bd265f6d1f7e1b4fe253da96c2
     "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
     "location_type": "",
     "location_id": "",
@@ -756,19 +716,9 @@
 {
     "episode": "bo2013.1",
     "show": "cbb",
-<<<<<<< HEAD
-    "tstart": "58:59",
-    "tend": "59:16",
-    "instance": "For 'Weekend Update' I'm Amy--",
-    "bit":"Uneasy Lies the Head","elucidation":"someone (pft) steps on the reset",
-    "tstart": "46:09",
-    "tend": "46:26",
-    "instance": "Stevie Wonder has gotta be amazing.",
-=======
     "tstart": "5:32",
     "tend": "5:42",
     "instance": "If you want the best --",
->>>>>>> fd306fa5554511bd265f6d1f7e1b4fe253da96c2
     "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
     "location_type": "",
     "location_id": "",
@@ -787,19 +737,9 @@
 {
     "episode": "bo2013.1",
     "show": "cbb",
-<<<<<<< HEAD
-    "tstart": "1:00:52",
-    "tend": "1:00:56",
-    "instance": "Amy and Alan - what's the best cocaine you've ever had?",
-    "bit":"Scott's Questions","elucidation":"(in progress) - scott's questions",
-    "tstart": "46:26",
-    "tend": "46:36",
-    "instance": "That was a better collaboration than the Paul McCartney one.",
-=======
     "tstart": "5:32",
     "tend": "6:22",
     "instance": "If you want the best --",
->>>>>>> fd306fa5554511bd265f6d1f7e1b4fe253da96c2
     "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
     "location_type": "",
     "location_id": "",
@@ -1181,17 +1121,6 @@
     "bit":"You're Terrible at This","elucidation":"impromptu reviews of scott's hosting",
     "location_type": "",
     "location_id": "",
-<<<<<<< HEAD
-    "updated_at": "2017-03-07T15:14:37Z",
-    "url_soundcloud": "http://soundcloud.com/comedybangbang/257-will-forte-paul-f-tompkins/#t=1:14:54",
-    "tags": "Three Times a Lady (song),Lionel Richie",
-    "created_at": "2017-03-07T15:14:37Z",
-    "slug_soundcloud": "257-will-forte-paul-f-tompkins",
-    "slug_earwolf": "nuts-as-a-pile-of-nuts",
-    "episode_title": "Nuts As A Pile Of Nuts",
-    "episode_guests": "Will Forte,Paul F. Tompkins",
-    "id_wikia": 3928,
-=======
     "updated_at": "2017-03-21T08:28:58Z",
     "url_soundcloud": "http://soundcloud.com/comedybangbang/best-of-2013-pt-3/#t=1:21:37",
     "tags": "",
@@ -1201,7 +1130,6 @@
     "episode_title": "",
     "episode_guests": "",
     "id_wikia": 4033,
->>>>>>> fd306fa5554511bd265f6d1f7e1b4fe253da96c2
     "holding": "false"
 }
 
@@ -1502,15 +1430,9 @@
 {
     "episode": 263,
     "show": "cbb",
-<<<<<<< HEAD
-    "tstart": "58:28",
-    "tend": "58:58",
-    "instance": "In white words on top of the picture it said 'Started from the Bottom Now We Here'.",
-=======
     "tstart": "44:22",
     "tend": "44:39",
     "instance": "I know that one about cotton.",
->>>>>>> fd306fa5554511bd265f6d1f7e1b4fe253da96c2
     "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
     "location_type": "",
     "location_id": "",
