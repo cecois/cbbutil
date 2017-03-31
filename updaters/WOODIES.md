@@ -96,7 +96,7 @@
 * 272,1:24:59,technicality no down boo over
 * 272,1:26:23,like ten?
 * 274,1:09:33,yeah i guess so
-* 274,6:29,your farts smell bro?
+* 274,6:10(howl),your farts smell bro?
 * 276,18:05,hooch the mooch doesn't joke about politics
 * 280,1:00:05,how do u make a whore moan?
 * 280,37:18,some lady
@@ -239,6 +239,8 @@
 * 169,1:06:30,yesk
 * 186,1:15:30,why isn't this blinking guy eating a plate of dogshit?
 * 474,29:45(howl),this better be worth it
-* 261,1:01:15,a tattoo of a knife on my face
+* 261,1:01:15(howl),a tattoo of a knife on my face
 * 476,4:32,barbecued eggplant
 * 478,21:00,doof!
+* 272,33:20(howl),some love outta frank sinatra - no dice
+* 272,1:22:00(howl),like 10?
