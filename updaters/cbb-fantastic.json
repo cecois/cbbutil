@@ -11601,3 +11601,129 @@
 	"id_wikia": 4288,
 	"holding": "false"
 }
+
+{
+	"episode": 479,
+	"show": "cbb",
+	"tstart": "46:31",
+	"tend": "46:39",
+	"instance": "Is that a recent one or is that one of your classics?",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "Richard Bunn,R. Kelly",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-04-03T09:54:41Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/479-gerry-duggan-paul-brittain-kirby-howell-baptiste/#t=46:31",
+	"created_at": "2017-04-03T09:54:41Z",
+	"slug_soundcloud": "479-gerry-duggan-paul-brittain-kirby-howell-baptiste",
+	"slug_earwolf": "the-bunn-process",
+	"episode_title": "The Bunn Process",
+	"episode_guests": "Gerry Duggan,Paul Brittain,Kirby Howell-Baptiste",
+	"id_wikia": null,
+	"holding": "false"
+}
+
+{
+	"episode": 479,
+	"show": "cbb",
+	"tstart": "1:23:10",
+	"tend": "1:23:22",
+	"instance": "Here's the code to let Jerry know you're a fan.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-04-03T09:54:41Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/479-gerry-duggan-paul-brittain-kirby-howell-baptiste/#t=1:23:10",
+	"created_at": "2017-04-03T09:54:41Z",
+	"slug_soundcloud": "479-gerry-duggan-paul-brittain-kirby-howell-baptiste",
+	"slug_earwolf": "the-bunn-process",
+	"episode_title": "The Bunn Process",
+	"episode_guests": "Gerry Duggan,Paul Brittain,Kirby Howell-Baptiste",
+	"id_wikia": null,
+	"holding": "false"
+}
+
+{
+	"episode": 275,
+	"show": "cbb",
+	"tstart": "33:38",
+	"tend": "33:57",
+	"instance": "Adam, what are your influences?",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "Eddie Murphy",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-04-04T10:17:23Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/275-live-from-sxsw-2014-jonah/#t=33:38",
+	"created_at": "2017-04-04T10:17:23Z",
+	"slug_soundcloud": "275-live-from-sxsw-2014-jonah",
+	"slug_earwolf": "live-from-sxsw-2014",
+	"episode_title": "LIVE from SXSW 2014",
+	"episode_guests": "Jonah Ray,Adam Cayton-Holland,James Adomian",
+	"id_wikia": 3882,
+	"holding": "false"
+}
+
+{
+	"episode": 275,
+	"show": "cbb",
+	"tstart": "39:51",
+	"tend": "39:58",
+	"instance": "It'll give me time to think of it, as well.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "Sheriff of Nottingham",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-04-04T10:17:23Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/275-live-from-sxsw-2014-jonah/#t=39:51",
+	"created_at": "2017-04-04T10:17:23Z",
+	"slug_soundcloud": "275-live-from-sxsw-2014-jonah",
+	"slug_earwolf": "live-from-sxsw-2014",
+	"episode_title": "LIVE from SXSW 2014",
+	"episode_guests": "Jonah Ray,Adam Cayton-Holland,James Adomian",
+	"id_wikia": 3882,
+	"holding": "false"
+}
+
+{
+	"episode": 275,
+	"show": "cbb",
+	"tstart": "1:05:51",
+	"tend": "1:05:56",
+	"instance": "I wanted to know the monetary value.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "Sheriff of Nottingham",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-04-04T10:17:23Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/275-live-from-sxsw-2014-jonah/#t=1:05:51",
+	"created_at": "2017-04-04T10:17:23Z",
+	"slug_soundcloud": "275-live-from-sxsw-2014-jonah",
+	"slug_earwolf": "live-from-sxsw-2014",
+	"episode_title": "LIVE from SXSW 2014",
+	"episode_guests": "Jonah Ray,Adam Cayton-Holland,James Adomian",
+	"id_wikia": 3882,
+	"holding": "false"
+}
+
+{
+	"episode": 277,
+	"show": "cbb",
+	"tstart": "27:17",
+	"tend": "27:26",
+	"instance": "So that was a moment.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-04-05T12:07:20Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/277-chelsea-peretti-paul-rust/#t=27:17",
+	"created_at": "2017-04-05T12:07:20Z",
+	"slug_soundcloud": "277-chelsea-peretti-paul-rust",
+	"slug_earwolf": "comedy-bang-me",
+	"episode_title": "Comedy Bang Me!",
+	"episode_guests": "Chelsea Peretti,Paul Rust,Neil Campbell",
+	"id_wikia": 4406,
+	"holding": "false"
+}
