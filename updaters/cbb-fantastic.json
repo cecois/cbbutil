@@ -12105,3 +12105,87 @@
 	"id_wikia": 4492,
 	"holding": "false"
 }
+
+{
+	"episode": 281,
+	"show": "cbb",
+	"tstart": "38:23",
+	"tend": "38:32",
+	"instance": "Watching a re-run is very green.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-04-12T08:19:05Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/281-matt-walsh-tim-simons/#t=38:23",
+	"created_at": "2017-04-12T08:19:05Z",
+	"slug_soundcloud": "281-matt-walsh-tim-simons",
+	"slug_earwolf": "bro-boarders",
+	"episode_title": "Bro Boarders",
+	"episode_guests": "Matt Walsh,Tim Simons",
+	"id_wikia": 4528,
+	"holding": "false"
+}
+
+{
+	"episode": 281,
+	"show": "cbb",
+	"tstart": "1:02:24",
+	"tend": "1:02:39",
+	"instance": "Why don't you do a spot for Red Bull right now?",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "XJR&",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-04-12T08:19:05Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/281-matt-walsh-tim-simons/#t=1:02:24",
+	"created_at": "2017-04-12T08:19:05Z",
+	"slug_soundcloud": "281-matt-walsh-tim-simons",
+	"slug_earwolf": "bro-boarders",
+	"episode_title": "Bro Boarders",
+	"episode_guests": "Matt Walsh,Tim Simons",
+	"id_wikia": 4528,
+	"holding": "false"
+}
+
+{
+	"episode": 282,
+	"show": "cbb",
+	"tstart": "5:14",
+	"tend": "5:24",
+	"instance": "How do you spell 'Listler,' by the way?",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "Charlotte Listler,Marissa Wompler",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-04-12T11:27:37Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/282-jessica-st-clair-lennon-parham/#t=5:14",
+	"created_at": "2017-04-12T11:27:37Z",
+	"slug_soundcloud": "282-jessica-st-clair-lennon-parham",
+	"slug_earwolf": "wompsters-university",
+	"episode_title": "Wompster's University",
+	"episode_guests": "Jessica St. Clair,Lennon Parham",
+	"id_wikia": 4541,
+	"holding": "false"
+}
+
+{
+	"episode": 282,
+	"show": "cbb",
+	"tstart": "1:07:04",
+	"tend": "1:07:12",
+	"instance": "I'm gonna set my D, uh, DVR.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "Charlotte Listler,Marissa Wompler",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-04-12T11:27:37Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/282-jessica-st-clair-lennon-parham/#t=1:07:04",
+	"created_at": "2017-04-12T11:27:37Z",
+	"slug_soundcloud": "282-jessica-st-clair-lennon-parham",
+	"slug_earwolf": "wompsters-university",
+	"episode_title": "Wompster's University",
+	"episode_guests": "Jessica St. Clair,Lennon Parham",
+	"id_wikia": 4541,
+	"holding": "false"
+}
