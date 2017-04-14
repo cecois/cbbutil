@@ -12189,3 +12189,108 @@
 	"id_wikia": 4541,
 	"holding": "false"
 }
+
+{
+	"episode": 283,
+	"show": "cbb",
+	"tstart": "1:52:13",
+	"tend": "1:52:17",
+	"instance": "On Tuesdays, is that correct?",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-04-13T07:44:22Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/283-jessica-st-clairlennon-parhamjason-mantzoukaslauren-lapkusmatt-besserpftpaul-rneil-c/#t=1:52:13",
+	"created_at": "2017-04-13T07:44:22Z",
+	"slug_soundcloud": "283-jessica-st-clairlennon-parhamjason-mantzoukaslauren-lapkusmatt-besserpftpaul-rneil-c",
+	"slug_earwolf": "the-5th-anniversary-show",
+	"episode_title": "The 5th Anniversary Show!",
+	"episode_guests": "Jessica St. Clair,Lennon Parham,Jason Mantzoukas,Lauren Lapkus,Matt Besser,Paul F. Tompkins,Paul Rust,Neil Campbell",
+	"id_wikia": 3325,
+	"holding": "false"
+}
+
+{
+	"episode": 284,
+	"show": "cbb",
+	"tstart": "23:17",
+	"tend": "23:25",
+	"instance": "A lot of great people on this.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-04-13T15:04:24Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/284-the-thrilling-adventure-hour/#t=23:17",
+	"created_at": "2017-04-13T15:04:24Z",
+	"slug_soundcloud": "284-the-thrilling-adventure-hour",
+	"slug_earwolf": "a-thrilling-cbb-adventure-hour",
+	"episode_title": "A Thrilling CBB Adventure Hour",
+	"episode_guests": "Marc Evan Jackson,Mark Gagliardi,Paul F. Tompkins",
+	"id_wikia": 4597,
+	"holding": "false"
+}
+
+{
+	"episode": 284,
+	"show": "cbb",
+	"tstart": "1:03:16",
+	"tend": "1:03:41",
+	"instance": "Goodbye, K, I love you.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "K of the Cosmos",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-04-13T15:04:24Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/284-the-thrilling-adventure-hour/#t=1:03:16",
+	"created_at": "2017-04-13T15:04:24Z",
+	"slug_soundcloud": "284-the-thrilling-adventure-hour",
+	"slug_earwolf": "a-thrilling-cbb-adventure-hour",
+	"episode_title": "A Thrilling CBB Adventure Hour",
+	"episode_guests": "Marc Evan Jackson,Mark Gagliardi,Paul F. Tompkins",
+	"id_wikia": 4597,
+	"holding": "false"
+}
+
+{
+	"episode": 284,
+	"show": "cbb",
+	"tstart": "1:07:08",
+	"tend": "1:07:14",
+	"instance": "Of course when are the podcasts released?",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "K of the Cosmos",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-04-13T15:04:24Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/284-the-thrilling-adventure-hour/#t=1:07:08",
+	"created_at": "2017-04-13T15:04:24Z",
+	"slug_soundcloud": "284-the-thrilling-adventure-hour",
+	"slug_earwolf": "a-thrilling-cbb-adventure-hour",
+	"episode_title": "A Thrilling CBB Adventure Hour",
+	"episode_guests": "Marc Evan Jackson,Mark Gagliardi,Paul F. Tompkins",
+	"id_wikia": 4597,
+	"holding": "false"
+}
+
+{
+	"episode": 284,
+	"show": "cbb",
+	"tstart": "1:13:32",
+	"tend": "1:13:45",
+	"instance": "I have been waiting for this moment since I arrived in this center.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "K of the Cosmos,Croach the Tracker",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-04-13T15:04:24Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/284-the-thrilling-adventure-hour/#t=1:13:32",
+	"created_at": "2017-04-13T15:04:24Z",
+	"slug_soundcloud": "284-the-thrilling-adventure-hour",
+	"slug_earwolf": "a-thrilling-cbb-adventure-hour",
+	"episode_title": "A Thrilling CBB Adventure Hour",
+	"episode_guests": "Marc Evan Jackson,Mark Gagliardi,Paul F. Tompkins",
+	"id_wikia": 4597,
+	"holding": "false"
+}
