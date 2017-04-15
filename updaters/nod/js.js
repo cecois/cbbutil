@@ -12,20 +12,23 @@ BSON = require('mongodb-core').BSON
 ,assert = require('assert')
 ,__ = require('underscore')
 // ,J2CSV = require('json2csv')
+,Config = require("./Config.json")
 ;
 
-Config = {
-  "mongodb":"cbbbits",
-  "mongoport":"33599",
-  "mongohost":"ds033599.mongolab.com"
-}
 
-var url = 'mongodb://'+Config.mongohost+':'+Config.mongoport+'/'+Config.mongodb;
+//Config = {
+ // "mongodb":"cbbbits",
+  //"mongoport":"33599",
+  //"mongohost":"ds033599.mongolab.com"
+//}
+
+
+var url = 'mongodb://'+Config.mongouser+':'+Config.mongopsswd+'@'+Config.mongohost+':'+Config.mongoport+'/'+Config.mongodb;
+//ngodb://user:pass@host:port/db';
 
 var get_bitz = function(db, CEEBEE) {
 
 
-// top 10 loneliest bikes' rides
 var BZ =db.collection('bits').findOne();
 
 console.log(BZ);
