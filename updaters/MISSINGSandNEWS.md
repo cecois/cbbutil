@@ -59,6 +59,7 @@
 	* 214,6:00(howl)
 	* 250,45:20(howl)
 	* 275,57:55(howl)
+	* 482,1:23:30
 * hot shit/cold diahrrea
 	* 479,42:45(howl - w/ ads)
 * mike the janitor's mantra
@@ -145,6 +146,7 @@
 	* 132,6:30
 * no rule against dogs playing (football|basketball)
 	* 2016.shepherds,42:45
+	* late 400s episode
 * circus in town
 	* 115,42:50
 * deep cut
@@ -689,6 +691,7 @@
 	* 427,1:30
 	* 430,1:15
 * certainly
+	* 482,30:35
 	* 2016.dallas,16:50
 	* 2016.detroit,5:55
 * all I ask in return (mike)
@@ -731,6 +734,9 @@
 	* 2016.sydney,37:30
 	* 451,2:00
 	* 471,20:08(howl)
+* out of the park (fair ball / foul ball )
+	* tig+alynne episode
+	* 482,25:35(howl)
 * stoppin up the jams
 	* 441,lotsa (inaugural)
 * biodigital jazz
@@ -1262,3 +1268,15 @@
 	* 284,21:22
 	* 284,1:10:38
 	* 284,1:13:30
+	* 482,1:44
+	* 482,1:48
+	* 482,9:57
+	* 482,13:49
+	* 482,19:30
+	* 482,29:38
+	* 482,30:38
+	* 482,47:00
+	* 482,54:35
+	* 482,1:18:23
+	* 482,1:21:12
+	* 482,1:21:59
