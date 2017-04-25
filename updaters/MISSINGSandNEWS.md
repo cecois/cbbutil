@@ -43,6 +43,8 @@
 	* 141,49:10
 	* 145,9:30oyn
 	* 228,16:00(howl)
+* colin show
+	* missing one from #483
 * sequel numbering
 	* 477,15:30
 * someone calls another character by their own name
@@ -161,6 +163,7 @@
 	* 93,01:40
 	* 149,5:00
 	* 248,12:00
+	* 484,6:10
 * german germany cannibalism
 	* 59,42:45 (inaugural)
 	* 429,1:17:42
@@ -175,6 +178,7 @@
 	* 2016.chicago7,39:20
 * asked and answered
 	* 97,50:30
+	* 484,54:30(howl)
 	* 125,??
 	* 126,1:14:28
 	* countless
@@ -374,6 +378,7 @@
 	* 215,59:23
 	* bo2013.1,6:45(howl)
 	* bo2013.1,7:45(howl)
+	* 484,42:20(howl)
 * fix scott's nephew todd tag
 * buttercream effect
 	* 215,~59:30
@@ -568,10 +573,12 @@
 	* 428,14:30
 	* 2016.leeds,25:32
 	* 179,54:20
+	* 484,1:15:45(howl w/ comm)
 * don't joke about irobot
 	* early in bo2015.1
 	* bo2015.2,12:00
 	* bo2016.2,2:15:30
+	* 484,39:20(howl w/ comm)
 * that sounds good to me
 	* 2015 BOs?
 	* 2016.chicago10,28:00
@@ -695,6 +702,7 @@
 	* 483,8:30(howl)
 	* 2016.dallas,16:50
 	* 2016.detroit,5:55
+	* 484,1:40
 * all I ask in return (mike)
 	* 2016.dallas,37:40
 * classic joke structure
@@ -797,6 +805,7 @@
 	* bo2016.3,1:18:55
 * urls
 	* 153,27:50
+	* 484,49:00(howl)
 	* 284,25:30(howl)
 	* 270,8:55(howl)
 	* 270,44:25(howl)
@@ -1303,3 +1312,9 @@
 	* 483,1:15:26
 	* 483,1:18:39
 	* 483,1:19:05
+	* 484,11:19
+	* 484,30:18
+	* 484,31:05
+	* 484,31:15
+	* 484,1:30:00
+	* 484,1:30:15
