@@ -12294,3 +12294,66 @@
 	"id_wikia": 4597,
 	"holding": "false"
 }
+
+{
+	"episode": 285,
+	"show": "cbb",
+	"tstart": "21:51",
+	"tend": "21:56",
+	"instance": "The other guys on your show.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-04-26T08:20:14Z",
+	"url_soundcloud": "http://howl.fm/audio/playlists/4343/comedy-bang-bang-the-podcast",
+	"created_at": "2017-04-26T08:20:14Z",
+	"slug_soundcloud": "",
+	"slug_earwolf": "solo-bolo",
+	"episode_title": "Solo Bolo",
+	"episode_guests": "Ben Schwartz",
+	"id_wikia": 4605,
+	"holding": "false"
+}
+
+{
+	"episode": 285,
+	"show": "cbb",
+	"tstart": "22:07",
+	"tend": "22:12",
+	"instance": "Ryan Gaul is in The Groundlings.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-04-26T08:20:14Z",
+	"url_soundcloud": "http://howl.fm/audio/playlists/4343/comedy-bang-bang-the-podcast",
+	"created_at": "2017-04-26T08:20:14Z",
+	"slug_soundcloud": "",
+	"slug_earwolf": "solo-bolo",
+	"episode_title": "Solo Bolo",
+	"episode_guests": "Ben Schwartz",
+	"id_wikia": 4605,
+	"holding": "false"
+}
+
+{
+	"episode": 285,
+	"show": "cbb",
+	"tstart": "22:46",
+	"tend": "22:49",
+	"instance": "So we killed you with comedy.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-04-26T08:20:14Z",
+	"url_soundcloud": "http://howl.fm/audio/playlists/4343/comedy-bang-bang-the-podcast",
+	"created_at": "2017-04-26T08:20:14Z",
+	"slug_soundcloud": "",
+	"slug_earwolf": "solo-bolo",
+	"episode_title": "Solo Bolo",
+	"episode_guests": "Ben Schwartz",
+	"id_wikia": 4605,
+	"holding": "false"
+}
