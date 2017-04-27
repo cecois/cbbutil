@@ -1,5 +1,6 @@
 ### episodes
 78
+286
 76.1
 76.2
 74
@@ -245,3 +246,5 @@
 * 272,33:20(howl),some love outta frank sinatra - no dice
 * 272,1:22:00(howl),like 10?
 * 283,1:43(howl),donk
+* 286,56:20(howl),which is how i like em
+* 286,1:40:50,it's me, jaz-jaz

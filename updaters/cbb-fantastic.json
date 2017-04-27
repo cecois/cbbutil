@@ -12357,3 +12357,45 @@
 	"id_wikia": 4605,
 	"holding": "false"
 }
+
+{
+	"episode": 286,
+	"show": "cbb",
+	"tstart": "45:13",
+	"tend": "45:21",
+	"instance": "Coding words for us."
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "Andrew Lloyd Webber",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-04-27T08:35:37Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/286-bobby-moynihan-paul-f-tompkins/#t=45:13",
+	"created_at": "2017-04-27T08:35:37Z",
+	"slug_soundcloud": "286-bobby-moynihan-paul-f-tompkins",
+	"slug_earwolf": "time-bobby-3",
+	"episode_title": "Time Bobby 3",
+	"episode_guests": "Bobby Moynihan,Paul F. Tompkins",
+	"id_wikia": 2358,
+	"holding": "false"
+}
+
+{
+	"episode": 286,
+	"show": "cbb",
+	"tstart": "1:00:26",
+	"tend": "1:00:33",
+	"instance": "He's wonderful in 'Lone Survivor.'"
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "Andrew Lloyd Webber,Fourvel,Lone Survivor (film)",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-04-27T08:35:37Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/286-bobby-moynihan-paul-f-tompkins/#t=1:00:26",
+	"created_at": "2017-04-27T08:35:37Z",
+	"slug_soundcloud": "286-bobby-moynihan-paul-f-tompkins",
+	"slug_earwolf": "time-bobby-3",
+	"episode_title": "Time Bobby 3",
+	"episode_guests": "Bobby Moynihan,Paul F. Tompkins",
+	"id_wikia": 2358,
+	"holding": "false"
+}
