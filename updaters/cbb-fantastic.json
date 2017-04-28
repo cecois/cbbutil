@@ -12399,3 +12399,45 @@
 	"id_wikia": 2358,
 	"holding": "false"
 }
+
+{
+	"episode": 287,
+	"show": "cbb",
+	"tstart": "15:13",
+	"tend": "15:18",
+	"instance": "You're not gonna walk out in the middle of it like some people do?",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-04-28T12:34:54Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/287-shane-torres-lauren-lapkus/#t=15:13",
+	"created_at": "2017-04-28T12:34:54Z",
+	"slug_soundcloud": "287-shane-torres-lauren-lapkus",
+	"slug_earwolf": "stinky-chips",
+	"episode_title": "Stinky Chips",
+	"episode_guests": "Shane Torres,Lauren Lapkus",
+	"id_wikia": 4652,
+	"holding": "false"
+}
+
+{
+	"episode": 287,
+	"show": "cbb",
+	"tstart": "42:58",
+	"tend": "43:01",
+	"instance": "He wanted his green card.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "Mizz Chips,Pierre LaFont",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-04-28T12:34:54Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/287-shane-torres-lauren-lapkus/#t=42:58",
+	"created_at": "2017-04-28T12:34:54Z",
+	"slug_soundcloud": "287-shane-torres-lauren-lapkus",
+	"slug_earwolf": "stinky-chips",
+	"episode_title": "Stinky Chips",
+	"episode_guests": "Shane Torres,Lauren Lapkus",
+	"id_wikia": 4652,
+	"holding": "false"
+}
