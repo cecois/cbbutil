@@ -751,3 +751,25 @@
 	"id_wikia": null,
 	"holding": "false"
 }
+
+{
+    "episode": 485,
+    "show": "cbb",
+    "tstart": "1:47:51",
+    "tend": "1:48:00",
+    "instance":"I'm lost.",
+    "bit" : "I Literally Have Nowhere Else to Be",
+	"elucidation" : "a guest defaults to sticking around for the rest of the show",
+    "tags": "Chuckie Spliff,Chief,Bone Queef John St. Gynecologist,Regina Crimp,Cake Boss,Gino Lambardo,John Lennon",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-05-01T13:11:31Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/485-8th-anniversary/#t=1:47:51",
+    "created_at": "2017-05-01T13:11:31Z",
+    "slug_soundcloud": "485-8th-anniversary",
+    "slug_earwolf": "the-8th-anniversary-show",
+    "episode_title": "The 8th Anniversary Show!",
+    "episode_guests": "Jon Gabrus,Paul F. Tompkins,Lauren Lapkus,Zeke Nicholson,Carl Tart,Mary Holland,Mike Hanford,Jessica McKenna,Tawny Newsome,Tim Baltz,Ryan Gaul,Drew Tarver,Jeremy Rowley,Nick Kroll",
+    "id_wikia": null,
+    "holding": "false"
+}
