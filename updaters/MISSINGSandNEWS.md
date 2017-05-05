@@ -1,6 +1,7 @@
 # possible new bits:
 * we're really gonna probe his psyche (in-depth - wtf - actors pain)
 	* 162,33:45
+	* 289,44:00(paywall)
 	* 280,2:39
 	* 271,1:30
 	* 279,32:45
@@ -235,7 +236,8 @@
 	* 2016.denver,10:00
 	* 2016.toronto,41:00
 	* 262,9:30
-	* 289,10:15
+	* 289,9:50(howl)
+	* 289,46:00(howl)
 	* 469,2:15
 	* 2016.dallas,33:40
 	* 441,12:00
@@ -329,6 +331,7 @@
 	* 2016.losangeles,1:00:40
 * character bonanzas
 	* 485,30:00+
+	* 290,1:00:00+
 	* 171,*
 	* 148,1:15:00
 	* 136,1:52:00
@@ -417,6 +420,7 @@
 	* 2016.oakland,13:00
 	* 2016.oakland,54:33
 * fictional people - dead but reasonable
+	* 289,21:45(howl)
 	* san francisco 2012,23:00+
 	* seattle 2013,55:45
 	* lotsa cakeboss/pft eps
@@ -720,6 +724,8 @@
 	* 2016.dallas,16:50
 	* 2016.detroit,5:55
 	* 484,1:40
+	* 289,1:15:45
+	* 289,1:18:20
 * all I ask in return (mike)
 	* 2016.dallas,37:40
 * classic joke structure
@@ -1375,3 +1381,15 @@
 	* 288,1:26:33
 	* 288,1:28:20
 	* 288,1:28:33
+	* 289,6:12
+	* 289,10:40
+	* 289,17:22
+	* 289,27:30
+	* 289,1:29:12
+	* 290,0:55
+	* 290,2:30
+	* 290,3:55
+	* 290,22:52
+	* 290,35:03
+	* 290,44:15
+	* 290,1:39:20

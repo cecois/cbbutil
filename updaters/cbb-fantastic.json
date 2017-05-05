@@ -12441,3 +12441,87 @@
 	"id_wikia": 4652,
 	"holding": "false"
 }
+
+{
+	"episode": 289,
+	"show": "cbb",
+	"tstart": "38:32",
+	"tend": "38:44",
+	"instance": "Wouldn't it be great if our rib cages were a second, articulating mandible jaw that we could vanquish our foes with?",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "H.R. Giger",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-05-04T08:48:47Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/289-paul-f-tompkins-matt-gourley/#t=38:32",
+	"created_at": "2017-05-04T08:48:47Z",
+	"slug_soundcloud": "289-paul-f-tompkins-matt-gourley",
+	"slug_earwolf": "the-exorcism-of-cake-boss",
+	"episode_title": "The Exorcism of Cake Boss",
+	"episode_guests": "Paul F. Tompkins,Matt Gourley",
+	"id_wikia": 4668,
+	"holding": "false"
+}
+
+{
+	"episode": 289,
+	"show": "cbb",
+	"tstart": "1:25:55",
+	"tend": "1:26:04",
+	"instance": "S-O-U-L, Korea.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "Cake Boss",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-05-04T08:48:47Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/289-paul-f-tompkins-matt-gourley/#t=1:25:55",
+	"created_at": "2017-05-04T08:48:47Z",
+	"slug_soundcloud": "289-paul-f-tompkins-matt-gourley",
+	"slug_earwolf": "the-exorcism-of-cake-boss",
+	"episode_title": "The Exorcism of Cake Boss",
+	"episode_guests": "Paul F. Tompkins,Matt Gourley",
+	"id_wikia": 4668,
+	"holding": "false"
+}
+
+{
+	"episode": 290,
+	"show": "cbb",
+	"tstart": "40:24",
+	"tend": "40:30",
+	"instance": "It's a little more serious than we actually do in the show but it's great.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-05-04T15:45:50Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/290-todd-glass-james-adomian/#t=40:24",
+	"created_at": "2017-05-04T15:45:50Z",
+	"slug_soundcloud": "290-todd-glass-james-adomian",
+	"slug_earwolf": "shed-busting",
+	"episode_title": "Shed Busting",
+	"episode_guests": "Todd Glass,James Adomian",
+	"id_wikia": 4682,
+	"holding": "false"
+}
+
+{
+	"episode": 290,
+	"show": "cbb",
+	"tstart": "1:13:14",
+	"tend": "1:13:26",
+	"instance": "I mostly just keep them shut.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "George W. Bush,The Doors (musical combination)",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-05-04T15:45:50Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/290-todd-glass-james-adomian/#t=1:13:14",
+	"created_at": "2017-05-04T15:45:50Z",
+	"slug_soundcloud": "290-todd-glass-james-adomian",
+	"slug_earwolf": "shed-busting",
+	"episode_title": "Shed Busting",
+	"episode_guests": "Todd Glass,James Adomian",
+	"id_wikia": 4682,
+	"holding": "false"
+}
