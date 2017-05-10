@@ -12525,3 +12525,129 @@
 	"id_wikia": 4682,
 	"holding": "false"
 }
+
+{
+	"episode": 291,
+	"show": "cbb",
+	"tstart": "11:08",
+	"tend": "11:15",
+	"instance": "Do you call it a book or do you call it a memoir?",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-05-09T08:40:21Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/291-bob-odenkirk-adam-resnick-neil-casey-fran-gillespie/#t=11:08",
+	"created_at": "2017-05-09T08:40:21Z",
+	"slug_soundcloud": "291-bob-odenkirk-adam-resnick-neil-casey-fran-gillespie",
+	"slug_earwolf": "summer-haunted-house",
+	"episode_title": "Summer Haunted House",
+	"episode_guests": "Bob Odenkirk,Adam Resnick,Neil Casey,Fran Gillespie",
+	"id_wikia": 4686,
+	"holding": "false"
+}
+
+{
+	"episode": 291,
+	"show": "cbb",
+	"tstart": "11:15",
+	"tend": "11:25",
+	"instance": "New book.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-05-09T08:40:21Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/291-bob-odenkirk-adam-resnick-neil-casey-fran-gillespie/#t=11:15",
+	"created_at": "2017-05-09T08:40:21Z",
+	"slug_soundcloud": "291-bob-odenkirk-adam-resnick-neil-casey-fran-gillespie",
+	"slug_earwolf": "summer-haunted-house",
+	"episode_title": "Summer Haunted House",
+	"episode_guests": "Bob Odenkirk,Adam Resnick,Neil Casey,Fran Gillespie",
+	"id_wikia": 4686,
+	"holding": "false"
+}
+
+{
+	"episode": 292,
+	"show": "cbb",
+	"tstart": "1:41",
+	"tend": "1:46",
+	"instance": "That seems right.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-05-09T13:00:38Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/292-jenny-slate-merrill-garbus-jon-daly/#t=1:41",
+	"created_at": "2017-05-09T13:00:38Z",
+	"slug_soundcloud": "292-jenny-slate-merrill-garbus-jon-daly",
+	"slug_earwolf": "djs-are-sleaze-js",
+	"episode_title": "DJs Are Sleaze Js",
+	"episode_guests": "Jenny Slate,Merrill Garbus,Jon Daly",
+	"id_wikia": 4710,
+	"holding": "false"
+}
+
+{
+	"episode": 292,
+	"show": "cbb",
+	"tstart": "2:00",
+	"tend": "2:06",
+	"instance": "I'm across the table from two artists.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-05-09T13:00:38Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/292-jenny-slate-merrill-garbus-jon-daly/#t=2:00",
+	"created_at": "2017-05-09T13:00:38Z",
+	"slug_soundcloud": "292-jenny-slate-merrill-garbus-jon-daly",
+	"slug_earwolf": "djs-are-sleaze-js",
+	"episode_title": "DJs Are Sleaze Js",
+	"episode_guests": "Jenny Slate,Merrill Garbus,Jon Daly",
+	"id_wikia": 4710,
+	"holding": "false"
+}
+
+{
+	"episode": 292,
+	"show": "cbb",
+	"tstart": "4:26",
+	"tend": "4:31",
+	"instance": "She has a new film coming out which I saw the other night.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-05-09T13:00:38Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/292-jenny-slate-merrill-garbus-jon-daly/#t=4:26",
+	"created_at": "2017-05-09T13:00:38Z",
+	"slug_soundcloud": "292-jenny-slate-merrill-garbus-jon-daly",
+	"slug_earwolf": "djs-are-sleaze-js",
+	"episode_title": "DJs Are Sleaze Js",
+	"episode_guests": "Jenny Slate,Merrill Garbus,Jon Daly",
+	"id_wikia": 4710,
+	"holding": "false"
+}
+
+{
+	"episode": 293,
+	"show": "cbb",
+	"tstart": "1:15:18",
+	"tend": "1:15:34",
+	"instance": "We're down to five.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2015-10-16T10:51:29Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/293-phil-lord-chris-miller-jon-gabrus-eugene-cordero/#t=1:15:18",
+	"created_at": "2015-04-03T10:51:29Z",
+	"slug_soundcloud": "293-phil-lord-chris-miller-jon-gabrus-eugene-cordero",
+	"slug_earwolf": "monster-muscles",
+	"episode_title": "Monster Muscles",
+	"episode_guests": "Phil Lord,Chris Miller,Jon Gabrus,Eugene Cordero",
+	"id_wikia": 4711,
+	"holding": "false"
+}
