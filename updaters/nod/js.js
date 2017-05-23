@@ -16,26 +16,23 @@ BSON = require('mongodb-core').BSON
 ;
 
 
-//Config = {
- // "mongodb":"cbbbits",
-  //"mongoport":"33599",
-  //"mongohost":"ds033599.mongolab.com"
-//}
 
 
 var url = 'mongodb://'+Config.mongouser+':'+Config.mongopsswd+'@'+Config.mongohost+':'+Config.mongoport+'/'+Config.mongodb;
-//ngodb://user:pass@host:port/db';
 
 var get_bitz = function(db, CEEBEE) {
 
 
 var BZ =db.collection('bits').findOne();
 
-console.log(BZ);
+
+console.log(typeof BZ);
 
 CEEBEE();
 
-}
+
+
+}//get_bitz
 
 MongoClient.connect(url, function(err, db) {
   assert.equal(null, err);
