@@ -13454,3 +13454,66 @@
 	"id_wikia": 4833,
 	"holding": "false"
 }
+
+{
+	"episode": 309,
+	"show": "cbb",
+	"tstart": "1:13:34",
+	"tend": "1:13:38",
+	"instance": "This is a value.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-05-31T07:56:46Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/309-nick-kroll-jimmy-pardo-claudia-odoherty/#t=1:13:34",
+	"created_at": "2017-05-31T07:56:46Z",
+	"slug_soundcloud": "309-nick-kroll-jimmy-pardo-claudia-odoherty",
+	"slug_earwolf": "tony-macaroni",
+	"episode_title": "Tony Macaroni",
+	"episode_guests": "Nick Kroll,Jimmy Pardo,Claudia O'Doherty",
+	"id_wikia": 4892,
+	"holding": "false"
+}
+
+{
+	"episode": 309,
+	"show": "cbb",
+	"tstart": "1:16:10",
+	"tend": "1:16:15",
+	"instance": "The times are from noon to midnight.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "R. Shrift",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-05-31T07:56:46Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/309-nick-kroll-jimmy-pardo-claudia-odoherty/#t=1:16:10",
+	"created_at": "2017-05-31T07:56:46Z",
+	"slug_soundcloud": "309-nick-kroll-jimmy-pardo-claudia-odoherty",
+	"slug_earwolf": "tony-macaroni",
+	"episode_title": "Tony Macaroni",
+	"episode_guests": "Nick Kroll,Jimmy Pardo,Claudia O'Doherty",
+	"id_wikia": 4892,
+	"holding": "false"
+}
+
+{
+	"episode": 310,
+	"show": "cbb",
+	"tstart": "18:25",
+	"tend": "18:30",
+	"instance": "Something borrowed, something blue.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-05-31T12:03:38Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/310-kevin-allison-pamela-murphy-john-gemberling/#t=18:25",
+	"created_at": "2017-05-31T12:03:38Z",
+	"slug_soundcloud": "310-kevin-allison-pamela-murphy-john-gemberling",
+	"slug_earwolf": "little-button-puss",
+	"episode_title": "Little Button Puss",
+	"episode_guests": "Kevin Allison,Pamela Murphy,John Gemberling",
+	"id_wikia": 4896,
+	"holding": "false"
+}
