@@ -13517,3 +13517,124 @@
 	"id_wikia": 4896,
 	"holding": "false"
 }
+
+{
+	"episode": 311,
+	"show":"cbb",
+	"tstart": "6:38",
+	"tend": "6:44",
+	"instance": "Do you mind if I steal that?",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-05-31T15:03:19Z",
+	"created_at": "2017-05-31T15:03:19Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/311-joe-lo-truglio-beth-dover/#t=6:38",
+	"slug_soundcloud": "311-joe-lo-truglio-beth-dover",
+	"slug_earwolf": "dennys-boys",
+	"episode_title": "Denny's Boys",
+	"id_wikia": 4904,
+	"holding": "false"
+}
+
+{
+	"episode": 311,
+	"show":"cbb",
+	"tstart": "11:10",
+	"tend": "11:15",
+	"instance": "She did let me be next to her often.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-05-31T15:03:19Z",
+	"created_at": "2017-05-31T15:03:19Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/311-joe-lo-truglio-beth-dover/#t=11:10",
+	"slug_soundcloud": "311-joe-lo-truglio-beth-dover",
+	"slug_earwolf": "dennys-boys",
+	"episode_title": "Denny's Boys",
+	"id_wikia": 4904,
+	"holding": "false"
+}
+
+{
+	"episode": 311,
+	"show":"cbb",
+	"tstart": "16:10",
+	"tend": "16:15",
+	"instance": "We were the apex of the greatest moment in television history.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-05-31T15:03:19Z",
+	"created_at": "2017-05-31T15:03:19Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/311-joe-lo-truglio-beth-dover/#t=16:10",
+	"slug_soundcloud": "311-joe-lo-truglio-beth-dover",
+	"slug_earwolf": "dennys-boys",
+	"episode_title": "Denny's Boys",
+	"id_wikia": 4904,
+	"holding": "false"
+}
+
+{
+	"episode": 311,
+	"show":"cbb",
+	"tstart": "16:40",
+	"tend": "16:49",
+	"instance": "You're not saying there *will* be sharks or killer robots, you're raising the spectre of possibility.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-05-31T15:03:19Z",
+	"created_at": "2017-05-31T15:03:19Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/311-joe-lo-truglio-beth-dover/#t=16:40",
+	"slug_soundcloud": "311-joe-lo-truglio-beth-dover",
+	"slug_earwolf": "dennys-boys",
+	"episode_title": "Denny's Boys",
+	"id_wikia": 4904,
+	"holding": "false"
+}
+
+{
+	"episode": 311,
+	"show":"cbb",
+	"tstart": "58:21",
+	"tend": "58:28",
+	"instance": "Do I have a question?",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "Saman Thughgh",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-05-31T15:03:19Z",
+	"created_at": "2017-05-31T15:03:19Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/311-joe-lo-truglio-beth-dover/#t=58:21",
+	"slug_soundcloud": "311-joe-lo-truglio-beth-dover",
+	"slug_earwolf": "dennys-boys",
+	"episode_title": "Denny's Boys",
+	"id_wikia": 4904,
+	"holding": "false"
+}
+
+{
+	"episode": 313,
+	"show": "cbb",
+	"tstart": "55:55",
+	"tend": "56:00",
+	"instance": "Very moving.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "Suddenly Seymour (song),Little Shop of Horrors (musical)",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-06-01T11:27:42Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/313-ben-schwartz-horatio-sanz-paul-banks/#t=55:55",
+	"created_at": "2017-06-01T11:27:42Z",
+	"slug_soundcloud": "313-ben-schwartz-horatio-sanz-paul-banks",
+	"slug_earwolf": "gumbo-challenge",
+	"episode_title": "Gumbo Challenge",
+	"episode_guests": "Ben Schwartz,Horatio Sanz,Paul Banks",
+	"id_wikia": 4918,
+	"holding": "false"
+}
