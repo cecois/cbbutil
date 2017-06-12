@@ -13954,3 +13954,129 @@
 	"id_wikia": 4960,
 	"holding": "false"
 }
+
+{
+	"episode": 318,
+	"show": "cbb",
+	"tstart": "1:25",
+	"tend": "1:30",
+	"instance": "Scott Aukerman, here, and we have a show.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-06-08T07:34:24Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/318-wyatt-cenac-matt-besser-jocelyn-deboer/#t=1:25",
+	"created_at": "2017-06-08T07:34:24Z",
+	"slug_soundcloud": "318-wyatt-cenac-matt-besser-jocelyn-deboer",
+	"slug_earwolf": "lumber-hack",
+	"episode_title": "Lumber Hack",
+	"episode_guests": "Wyatt Cenac,Matt Besser,Jocelyn DeBoer",
+	"id_wikia": 4968,
+	"holding": "false"
+}
+
+{
+	"episode": 318,
+	"show": "cbb",
+	"tstart": "8:21",
+	"tend": "8:25",
+	"instance": "Why didn't you record that yourself?",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "Paul Funyuns (The Lumberhack)",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-06-08T07:34:24Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/318-wyatt-cenac-matt-besser-jocelyn-deboer/#t=8:21",
+	"created_at": "2017-06-08T07:34:24Z",
+	"slug_soundcloud": "318-wyatt-cenac-matt-besser-jocelyn-deboer",
+	"slug_earwolf": "lumber-hack",
+	"episode_title": "Lumber Hack",
+	"episode_guests": "Wyatt Cenac,Matt Besser,Jocelyn DeBoer",
+	"id_wikia": 4968,
+	"holding": "false"
+}
+
+{
+	"episode": 320,
+	"show": "cbb",
+	"tstart": "20:01",
+	"tend": "20:09",
+	"instance": "A lot of people don't know that David Mamet wrote the original script of 'Star Wars'.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "Star Wars (film),David Mamet",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-06-09T12:23:32Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/320-alex-borstein-brendon-small-molly-bretthauer/#t=20:01",
+	"created_at": "2017-06-09T12:23:32Z",
+	"slug_soundcloud": "320-alex-borstein-brendon-small-molly-bretthauer",
+	"slug_earwolf": "charging-kids",
+	"episode_title": "Charging Kids",
+	"episode_guests": "Alex Borstein,Brendon Small,Molly Bretthauer",
+	"id_wikia": 4982,
+	"holding": "false"
+}
+
+{
+	"episode": 320,
+	"show": "cbb",
+	"tstart": "22:52",
+	"tend": "22:57",
+	"instance": "Suction thing and the mirror.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-06-09T12:23:32Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/320-alex-borstein-brendon-small-molly-bretthauer/#t=22:52",
+	"created_at": "2017-06-09T12:23:32Z",
+	"slug_soundcloud": "320-alex-borstein-brendon-small-molly-bretthauer",
+	"slug_earwolf": "charging-kids",
+	"episode_title": "Charging Kids",
+	"episode_guests": "Alex Borstein,Brendon Small,Molly Bretthauer",
+	"id_wikia": 4982,
+	"holding": "false"
+}
+
+{
+	"episode": 320,
+	"show": "cbb",
+	"tstart": "1:39:54",
+	"tend": "1:40:00",
+	"instance": "Alex...job.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "Miss D.",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-06-09T12:23:32Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/320-alex-borstein-brendon-small-molly-bretthauer/#t=1:39:54",
+	"created_at": "2017-06-09T12:23:32Z",
+	"slug_soundcloud": "320-alex-borstein-brendon-small-molly-bretthauer",
+	"slug_earwolf": "charging-kids",
+	"episode_title": "Charging Kids",
+	"episode_guests": "Alex Borstein,Brendon Small,Molly Bretthauer",
+	"id_wikia": 4982,
+	"holding": "false"
+}
+
+{
+	"episode": 491,
+	"show": "cbb",
+	"tstart": "42:55",
+	"tend": "43:06",
+	"instance": "I certainly was a teach and I certainly consider myself to still be one.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "Caroline BelindaCarlisle",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-06-12T11:40:42Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/491-rory-scovel-mike-hanford-darcy-carden/#t=42:55",
+	"created_at": "2017-06-12T11:40:42Z",
+	"slug_soundcloud": "491-rory-scovel-mike-hanford-darcy-carden",
+	"slug_earwolf": "goo-it",
+	"episode_title": "Goo It",
+	"episode_guests": "Rory Scovel,Mike Hanford,D'Arcy Carden",
+	"id_wikia": null,
+	"holding": "false"
+}
