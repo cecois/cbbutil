@@ -14080,3 +14080,108 @@
 	"id_wikia": null,
 	"holding": "false"
 }
+
+{
+	"episode": 321,
+	"show": "cbb",
+	"tstart": "0:45",
+	"tend": "0:56",
+	"instance": "Bilingual.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "Gino Lambardo",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-06-13T08:09:42Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/321-ana-gasteyer-jon-gabrus-mookie-blaiklock/#t=0:45",
+	"created_at": "2017-06-13T08:09:42Z",
+	"slug_soundcloud": "321-ana-gasteyer-jon-gabrus-mookie-blaiklock",
+	"slug_earwolf": "big-fat-voice",
+	"episode_title": "Big Fat Voice",
+	"episode_guests": "Ana Gasteyer,Jon Gabrus,Mookie Blaiklock",
+	"id_wikia": 4987,
+	"holding": "false"
+}
+
+{
+	"episode": 321,
+	"show": "cbb",
+	"tstart": "9:45",
+	"tend": "9:50",
+	"instance": "What, do you own or you rent there?",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "Gino Lambardo",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-06-13T08:09:42Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/321-ana-gasteyer-jon-gabrus-mookie-blaiklock/#t=9:45",
+	"created_at": "2017-06-13T08:09:42Z",
+	"slug_soundcloud": "321-ana-gasteyer-jon-gabrus-mookie-blaiklock",
+	"slug_earwolf": "big-fat-voice",
+	"episode_title": "Big Fat Voice",
+	"episode_guests": "Ana Gasteyer,Jon Gabrus,Mookie Blaiklock",
+	"id_wikia": 4987,
+	"holding": "false"
+}
+
+{
+	"episode": 321,
+	"show": "cbb",
+	"tstart": "31:28",
+	"tend": "31:32",
+	"instance": "Anna, I have to ask.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "Gino Lambardo",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-06-13T08:09:42Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/321-ana-gasteyer-jon-gabrus-mookie-blaiklock/#t=31:28",
+	"created_at": "2017-06-13T08:09:42Z",
+	"slug_soundcloud": "321-ana-gasteyer-jon-gabrus-mookie-blaiklock",
+	"slug_earwolf": "big-fat-voice",
+	"episode_title": "Big Fat Voice",
+	"episode_guests": "Ana Gasteyer,Jon Gabrus,Mookie Blaiklock",
+	"id_wikia": 4987,
+	"holding": "false"
+}
+
+{
+	"episode": 321,
+	"show": "cbb",
+	"tstart": "42:22",
+	"tend": "42:29",
+	"instance": "I follow Ruth Buzzi.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "Gino Lambardo,Ruth Buzzi",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-06-13T08:09:42Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/321-ana-gasteyer-jon-gabrus-mookie-blaiklock/#t=42:22",
+	"created_at": "2017-06-13T08:09:42Z",
+	"slug_soundcloud": "321-ana-gasteyer-jon-gabrus-mookie-blaiklock",
+	"slug_earwolf": "big-fat-voice",
+	"episode_title": "Big Fat Voice",
+	"episode_guests": "Ana Gasteyer,Jon Gabrus,Mookie Blaiklock",
+	"id_wikia": 4987,
+	"holding": "false"
+}
+
+{
+	"episode": 321,
+	"show": "cbb",
+	"tstart": "1:19:23",
+	"tend": "1:19:30",
+	"instance": "You can make free phone calls on that.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "Jay Gutwill",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-06-13T08:09:42Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/321-ana-gasteyer-jon-gabrus-mookie-blaiklock/#t=1:19:23",
+	"created_at": "2017-06-13T08:09:42Z",
+	"slug_soundcloud": "321-ana-gasteyer-jon-gabrus-mookie-blaiklock",
+	"slug_earwolf": "big-fat-voice",
+	"episode_title": "Big Fat Voice",
+	"episode_guests": "Ana Gasteyer,Jon Gabrus,Mookie Blaiklock",
+	"id_wikia": 4987,
+	"holding": "false"
+}
