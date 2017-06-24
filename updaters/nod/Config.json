@@ -1,0 +1,7 @@
+ {
+   "mongodb":"cbbbits",
+"mongoport":"33599",
+"mongohost":"ds033599.mongolab.com"
+,"mongouser":"cecmcgee"
+,"mongopsswd":"5NWpI1"
+ }

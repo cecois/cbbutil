@@ -251,3 +251,8 @@
 * 286,1:40:50,it's me, jaz-jaz
 * 485,22:45,pease respect my neck
 * 286,1:27:20,Rottweiler snatch
+* 308,43:05,red box
+* 309,29:00,ringo starr
+* 323,48:45,ooh i love this bit(paywall)
+* 323,49:45,who look like they smell smoke(paywall)
+* 326,1:52:55,stories about mordor are 5th in the order
