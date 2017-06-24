@@ -1,2 +1,5 @@
 .DS_Store
 updaters/nod/node_modules
+node_modules
+updaters/nod/Config.json
+querier/node_modules
