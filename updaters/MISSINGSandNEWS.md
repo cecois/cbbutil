@@ -53,6 +53,9 @@
 	* missing one from #483
 * sequel numbering
 	* 477,15:30
+* the size of screens these days
+	* 330,10:25(pw)
+	* at least once before that
 * someone calls another character by their own name
 	* 241,41:00(howl)
 	* 469,near the end
@@ -65,6 +68,9 @@
 	* 228,11:45
 	* 228,15:45
 	* 324,14:00
+* EGOTSGCA (spike guys' choice)
+	* 330,25:45(pw)
+	* at least once prior
 * race to death/the end
 	* multiple prior to 214
 	* 214,6:00(howl)
@@ -114,6 +120,7 @@
 * kulap
 	* 185,59:10
 	* 185,1:00:40
+	* 237,45:50(pw)
 * begs the question
 	* 463,14:30
 * year in advance
@@ -766,6 +773,7 @@
 	* 297,24:50(paywall)
 	* 490,1:30(paywall)
 	* 491,1:57
+	* 493,2:05
 * interesting people
 	* several of the 480+ eps
 	* 490,1:55(paywall)
@@ -775,6 +783,10 @@
 	* 492,2:42(paywall)
 	* 492,53:45(paywall)
 	* 492,57:35(paywall)
+	* 493,1:06:45(pw)
+	* 495,10:20
+	* 495,14:40
+	* 495,19:55
 * certainly
 	* 482,30:35
 	* 489,2:20
@@ -802,6 +814,8 @@
 	* 2016.chicago10,54:50
 	* 164,46:30
 	* 325,58:50(paywall)
+	* 494,1:13:30
+	* 330,15:30(pw)
 * i'm from new jersey
 	* 2016.detroit,18:10
 	* 2016.detroit,22:28
@@ -859,6 +873,7 @@
 	* 247,4:35(howl)
 	* 281,19:35(howl)
 	* 320,16:00(paywall)
+	* 327,6:30(pw)
 * record-breaking appearance
 	* 189,2:30
 	* 189,1:08:30
