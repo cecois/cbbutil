@@ -1,4 +1,22 @@
 # possible new bits:
+* interesting people
+	* several of the 480+ eps
+	* 490,1:55(paywall)
+	* 490,28:48(paywall)
+	* 491,1:30
+	* 491,1:06:10
+	* 492,2:42(paywall)
+	* 492,53:45(paywall)
+	* 492,57:35(paywall)
+	* 493,1:06:45(pw)
+	* 495,10:20
+	* 495,14:40
+	* 495,19:55
+	* 496,9:44
+	* 496,12:45
+	* 496,54:40
+	* 496,1:04:00
+	* 496,1:08:20
 * we're really gonna probe his psyche (in-depth - wtf - actors pain)
 	* 162,33:45
 	* 316,5:30(paywall)
@@ -774,19 +792,6 @@
 	* 490,1:30(paywall)
 	* 491,1:57
 	* 493,2:05
-* interesting people
-	* several of the 480+ eps
-	* 490,1:55(paywall)
-	* 490,28:48(paywall)
-	* 491,1:30
-	* 491,1:06:10
-	* 492,2:42(paywall)
-	* 492,53:45(paywall)
-	* 492,57:35(paywall)
-	* 493,1:06:45(pw)
-	* 495,10:20
-	* 495,14:40
-	* 495,19:55
 * certainly
 	* 482,30:35
 	* 489,2:20
