@@ -2834,6 +2834,27 @@
 }
 
 {
+    "episode": 495,
+    "show": "cbb",
+    "tstart": "1:01:03",
+    "tend": "1:01:22",
+    "instance": "Are you Garfield?",
+    "bit":"Scott's Questions","elucidation":"(in progress) - scott's questions",
+    "tags": "Jennifer Spot,Jason Turley",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-06-30T09:14:49Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/495-jason-mantzoukas-mary-holland-tim-baltz/#t=1:01:03",
+    "created_at": "2017-06-30T09:14:49Z",
+    "slug_soundcloud": "495-jason-mantzoukas-mary-holland-tim-baltz",
+    "slug_earwolf": "who-cbbeefed",
+    "episode_title": "Who CBBeefed?",
+    "episode_guests": "Jason Mantzoukas,Mary Holland,Tim Baltz",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
     "episode": 496,
     "show": "cbb",
     "tstart": "1:23:55",
@@ -2850,6 +2871,153 @@
     "slug_earwolf": "the-dream-lords",
     "episode_title": "The Dream Lords",
     "episode_guests": "Andrea Savage, Jon Gabrus, Will Hines, Holly Prazoff",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 497,
+    "show": "cbb",
+    "tstart": "16:24",
+    "tend": "16:34",
+    "instance": "Speculation.",
+    "bit":"Group Coupon","elucidation":"scott articulates obvious data (acronyms, abbreviations, etc.)",
+    "tags": "",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-07-11T09:02:39Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/497-kumail-nanjiani-emily-v-gordon-horatio-sanz-eliza-skinner/#t=16:24",
+    "created_at": "2017-07-11T09:02:39Z",
+    "slug_soundcloud": "497-kumail-nanjiani-emily-v-gordon-horatio-sanz-eliza-skinner",
+    "slug_earwolf": "wait-awhile",
+    "episode_title": "Wait Awhile",
+    "episode_guests": "Kumail Nanjiani,Emily V. Gordon,Horatio Sanz,Eliza Skinner",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 497,
+    "show": "cbb",
+    "tstart": "23:10",
+    "tend": "23:17",
+    "instance": "Property Department.",
+    "bit":"Group Coupon","elucidation":"scott articulates obvious data (acronyms, abbreviations, etc.)",
+    "tags": "",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-07-11T09:02:39Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/497-kumail-nanjiani-emily-v-gordon-horatio-sanz-eliza-skinner/#t=23:10",
+    "created_at": "2017-07-11T09:02:39Z",
+    "slug_soundcloud": "497-kumail-nanjiani-emily-v-gordon-horatio-sanz-eliza-skinner",
+    "slug_earwolf": "wait-awhile",
+    "episode_title": "Wait Awhile",
+    "episode_guests": "Kumail Nanjiani,Emily V. Gordon,Horatio Sanz,Eliza Skinner",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 497,
+    "show": "cbb",
+    "tstart": "24:05",
+    "tend": "24:11",
+    "instance": "We'll see whoever comes the closest.",
+    "bit":"Price is Right Rules","elucidation":"without going over",
+    "tags": "",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-07-11T09:02:39Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/497-kumail-nanjiani-emily-v-gordon-horatio-sanz-eliza-skinner/#t=24:05",
+    "created_at": "2017-07-11T09:02:39Z",
+    "slug_soundcloud": "497-kumail-nanjiani-emily-v-gordon-horatio-sanz-eliza-skinner",
+    "slug_earwolf": "wait-awhile",
+    "episode_title": "Wait Awhile",
+    "episode_guests": "Kumail Nanjiani,Emily V. Gordon,Horatio Sanz,Eliza Skinner",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 497,
+    "show": "cbb",
+    "tstart": "26:36",
+    "tend": "26:50",
+    "instance": "Ray Romano is here.",
+    "bit":"Debra!","elucidation":"scott does his ray romano",
+    "tags": "",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-07-11T09:02:39Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/497-kumail-nanjiani-emily-v-gordon-horatio-sanz-eliza-skinner/#t=26:36",
+    "created_at": "2017-07-11T09:02:39Z",
+    "slug_soundcloud": "497-kumail-nanjiani-emily-v-gordon-horatio-sanz-eliza-skinner",
+    "slug_earwolf": "wait-awhile",
+    "episode_title": "Wait Awhile",
+    "episode_guests": "Kumail Nanjiani,Emily V. Gordon,Horatio Sanz,Eliza Skinner",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 497,
+    "show": "cbb",
+    "tstart": "35:40",
+    "tend": "35:58",
+    "instance": "You pick up a phone like this one.",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": "Cooper F. Worthington-Tompkins",
+    "location_type": "poly",
+    "location_id": "128",
+    "updated_at": "2017-07-11T09:02:39Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/497-kumail-nanjiani-emily-v-gordon-horatio-sanz-eliza-skinner/#t=35:40",
+    "created_at": "2017-07-11T09:02:39Z",
+    "slug_soundcloud": "497-kumail-nanjiani-emily-v-gordon-horatio-sanz-eliza-skinner",
+    "slug_earwolf": "wait-awhile",
+    "episode_title": "Wait Awhile",
+    "episode_guests": "Kumail Nanjiani,Emily V. Gordon,Horatio Sanz,Eliza Skinner",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 497,
+    "show": "cbb",
+    "tstart": "49:10",
+    "tend": "49:27",
+    "instance": "Did you say 'Ruthless People'?",
+    "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "tags": "Cooper F. Worthington-Tompkins,Ruthless People (song),Mick Jagger",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-07-11T09:02:39Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/497-kumail-nanjiani-emily-v-gordon-horatio-sanz-eliza-skinner/#t=49:10",
+    "created_at": "2017-07-11T09:02:39Z",
+    "slug_soundcloud": "497-kumail-nanjiani-emily-v-gordon-horatio-sanz-eliza-skinner",
+    "slug_earwolf": "wait-awhile",
+    "episode_title": "Wait Awhile",
+    "episode_guests": "Kumail Nanjiani,Emily V. Gordon,Horatio Sanz,Eliza Skinner",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 497,
+    "show": "cbb",
+    "tstart": "58:13",
+    "tend": "58:41",
+    "instance": "Don't cry for me, Oklahoma.",
+    "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "tags": "Cooper F. Worthington-Tompkins,Don't Cry for Me Argentina (song),Andrew Lloyd Webber,Tim Rice,Lindsey Cumdrop",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-07-11T09:02:39Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/497-kumail-nanjiani-emily-v-gordon-horatio-sanz-eliza-skinner/#t=58:13",
+    "created_at": "2017-07-11T09:02:39Z",
+    "slug_soundcloud": "497-kumail-nanjiani-emily-v-gordon-horatio-sanz-eliza-skinner",
+    "slug_earwolf": "wait-awhile",
+    "episode_title": "Wait Awhile",
+    "episode_guests": "Kumail Nanjiani,Emily V. Gordon,Horatio Sanz,Eliza Skinner",
     "id_wikia": null,
     "holding": "false"
 }

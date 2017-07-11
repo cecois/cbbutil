@@ -17,6 +17,8 @@
 	* 496,54:40
 	* 496,1:04:00
 	* 496,1:08:20
+	* 497,1:30
+	* 497,42:05
 * we're really gonna probe his psyche (in-depth - wtf - actors pain)
 	* 162,33:45
 	* 316,5:30(paywall)
