@@ -3021,3 +3021,108 @@
     "id_wikia": null,
     "holding": "false"
 }
+
+{
+    "episode": 498,
+    "show": "cbb",
+    "tstart": "12:38",
+    "tend": "12:55",
+    "instance": "The D-Bag of the Century was born there.",
+    "bit":"Too Soon","elucidation":"someone uses, misuses, or riffs on 'too soon'",
+    "tags": "Ming,Adolph Hitler",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-07-13T14:27:45Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/498-flula-borg-jeremy-rowley-brendon-small/#t=12:38",
+    "created_at": "2017-07-13T14:27:45Z",
+    "slug_soundcloud": "498-flula-borg-jeremy-rowley-brendon-small",
+    "slug_earwolf": "what-that-dos",
+    "episode_title": "What That DOS",
+    "episode_guests": "Flula Borg, Jeremy Rowley, Brendon Small",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 498,
+    "show": "cbb",
+    "tstart": "40:09",
+    "tend": "40:14",
+    "instance": "Can I tell you about another video game?",
+    "bit":"You Don't Have to Ask","elucidation":"scott explains that permission need not be requested in order to ask a question",
+    "tags": "Ming",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-07-13T14:27:45Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/498-flula-borg-jeremy-rowley-brendon-small/#t=40:09",
+    "created_at": "2017-07-13T14:27:45Z",
+    "slug_soundcloud": "498-flula-borg-jeremy-rowley-brendon-small",
+    "slug_earwolf": "what-that-dos",
+    "episode_title": "What That DOS",
+    "episode_guests": "Flula Borg, Jeremy Rowley, Brendon Small",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 498,
+    "show": "cbb",
+    "tstart": "48:45",
+    "tend": "48:58",
+    "instance": "Does an arrow ever go right in the hole?",
+    "bit":"Scott's Questions","elucidation":"(in progress) - scott's questions",
+    "tags": "Ming",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-07-13T14:27:45Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/498-flula-borg-jeremy-rowley-brendon-small/#t=48:45",
+    "created_at": "2017-07-13T14:27:45Z",
+    "slug_soundcloud": "498-flula-borg-jeremy-rowley-brendon-small",
+    "slug_earwolf": "what-that-dos",
+    "episode_title": "What That DOS",
+    "episode_guests": "Flula Borg, Jeremy Rowley, Brendon Small",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 498,
+    "show": "cbb",
+    "tstart": "58:21",
+    "tend": "58:39",
+    "instance": "That song might be about titties.",
+    "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "tags": "Ming,Drake,Started from the Bottom (song),Willard Mapleton",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-07-13T14:27:45Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/498-flula-borg-jeremy-rowley-brendon-small/#t=58:21",
+    "created_at": "2017-07-13T14:27:45Z",
+    "slug_soundcloud": "498-flula-borg-jeremy-rowley-brendon-small",
+    "slug_earwolf": "what-that-dos",
+    "episode_title": "What That DOS",
+    "episode_guests": "Flula Borg, Jeremy Rowley, Brendon Small",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 498,
+    "show": "cbb",
+    "tstart": "1:07:17",
+    "tend": "1:07:26",
+    "instance": "Where is the pilot set?",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": "Captain Moustache,Willard Mapleton",
+    "location_type": "poly",
+    "location_id": "444",
+    "updated_at": "2017-07-13T14:27:45Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/498-flula-borg-jeremy-rowley-brendon-small/#t=1:07:17",
+    "created_at": "2017-07-13T14:27:45Z",
+    "slug_soundcloud": "498-flula-borg-jeremy-rowley-brendon-small",
+    "slug_earwolf": "what-that-dos",
+    "episode_title": "What That DOS",
+    "episode_guests": "Flula Borg, Jeremy Rowley, Brendon Small",
+    "id_wikia": null,
+    "holding": "false"
+}
