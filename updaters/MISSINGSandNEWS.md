@@ -17,6 +17,10 @@
 	* 496,54:40
 	* 496,1:04:00
 	* 496,1:08:20
+	* 497,1:30
+	* 497,42:05
+* classic jarles
+	* 498,51:10(added)
 * we're really gonna probe his psyche (in-depth - wtf - actors pain)
 	* 162,33:45
 	* 316,5:30(paywall)
@@ -758,6 +762,8 @@
 * time bobbys?
 	* dsalw eps
 	* 405,33:15
+* d'artagnan
+	* 498,52:45
 * santa baby
 	* 33,6:00
 	* 41,9:30
@@ -792,18 +798,6 @@
 	* 490,1:30(paywall)
 	* 491,1:57
 	* 493,2:05
-* certainly
-	* 482,30:35
-	* 489,2:20
-	* 487,36:18(paywall)
-	* 483,8:30(howl)
-	* 2016.dallas,16:50
-	* 2016.detroit,5:55
-	* 484,1:40
-	* 289,1:15:45
-	* 289,1:18:20
-	* 488,1:28
-	* 488,1:35
 * all I ask in return (mike)
 	* 2016.dallas,37:40
 * classic joke structure
@@ -1769,4 +1763,4 @@
 	* bo2014.3,39:34
 	* bo2014.3,40:30
 	* bo2014.3,45:18
-	* bo2014.3,45:28
+	* bo2014.3,45:28****

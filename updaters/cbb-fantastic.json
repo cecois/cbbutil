@@ -15088,3 +15088,66 @@
 	"id_wikia": null,
 	"holding": "false"
 }
+
+{
+	"episode": 330,
+	"show": "cbb",
+	"tstart": "1:35:35",
+	"tend": "1:35:42",
+	"instance": "And man's reach should exceed man's grasp.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-06-29T10:41:52Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/330-jim-rash-horatio-sanz/#t=1:35:35",
+	"created_at": "2017-06-29T10:41:52Z",
+	"slug_soundcloud": "330-jim-rash-horatio-sanz",
+	"slug_earwolf": "peruvian-pullovers",
+	"episode_title": "Peruvian Pullovers",
+	"episode_guests": "Jim Rash,Horatio Sanz",
+	"id_wikia": 5151,
+	"holding": "false"
+}
+
+{
+	"episode": 330,
+	"show": "cbb",
+	"tstart": "1:42:46",
+	"tend": "1:42:32",
+	"instance": "Congrats, Foamy and Green.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-06-29T10:41:52Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/330-jim-rash-horatio-sanz/#t=1:42:46",
+	"created_at": "2017-06-29T10:41:52Z",
+	"slug_soundcloud": "330-jim-rash-horatio-sanz",
+	"slug_earwolf": "peruvian-pullovers",
+	"episode_title": "Peruvian Pullovers",
+	"episode_guests": "Jim Rash,Horatio Sanz",
+	"id_wikia": 5151,
+	"holding": "false"
+}
+
+{
+	"episode": 498,
+	"show": "cbb",
+	"tstart": "50:39",
+	"tend": "50:40",
+	"instance": "This is great, Ming.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "Ming",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-07-13T14:27:45Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/498-flula-borg-jeremy-rowley-brendon-small/#t=50:39",
+	"created_at": "2017-07-13T14:27:45Z",
+	"slug_soundcloud": "498-flula-borg-jeremy-rowley-brendon-small",
+	"slug_earwolf": "what-that-dos",
+	"episode_title": "What That DOS",
+	"episode_guests": "Flula Borg, Jeremy Rowley, Brendon Small",
+	"id_wikia": null,
+	"holding": "false"
+}

@@ -2834,6 +2834,27 @@
 }
 
 {
+    "episode": 495,
+    "show": "cbb",
+    "tstart": "1:01:03",
+    "tend": "1:01:22",
+    "instance": "Are you Garfield?",
+    "bit":"Scott's Questions","elucidation":"(in progress) - scott's questions",
+    "tags": "Jennifer Spot,Jason Turley",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-06-30T09:14:49Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/495-jason-mantzoukas-mary-holland-tim-baltz/#t=1:01:03",
+    "created_at": "2017-06-30T09:14:49Z",
+    "slug_soundcloud": "495-jason-mantzoukas-mary-holland-tim-baltz",
+    "slug_earwolf": "who-cbbeefed",
+    "episode_title": "Who CBBeefed?",
+    "episode_guests": "Jason Mantzoukas,Mary Holland,Tim Baltz",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
     "episode": 496,
     "show": "cbb",
     "tstart": "1:23:55",
@@ -2850,6 +2871,258 @@
     "slug_earwolf": "the-dream-lords",
     "episode_title": "The Dream Lords",
     "episode_guests": "Andrea Savage, Jon Gabrus, Will Hines, Holly Prazoff",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 497,
+    "show": "cbb",
+    "tstart": "16:24",
+    "tend": "16:34",
+    "instance": "Speculation.",
+    "bit":"Group Coupon","elucidation":"scott articulates obvious data (acronyms, abbreviations, etc.)",
+    "tags": "",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-07-11T09:02:39Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/497-kumail-nanjiani-emily-v-gordon-horatio-sanz-eliza-skinner/#t=16:24",
+    "created_at": "2017-07-11T09:02:39Z",
+    "slug_soundcloud": "497-kumail-nanjiani-emily-v-gordon-horatio-sanz-eliza-skinner",
+    "slug_earwolf": "wait-awhile",
+    "episode_title": "Wait Awhile",
+    "episode_guests": "Kumail Nanjiani,Emily V. Gordon,Horatio Sanz,Eliza Skinner",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 497,
+    "show": "cbb",
+    "tstart": "23:10",
+    "tend": "23:17",
+    "instance": "Property Department.",
+    "bit":"Group Coupon","elucidation":"scott articulates obvious data (acronyms, abbreviations, etc.)",
+    "tags": "",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-07-11T09:02:39Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/497-kumail-nanjiani-emily-v-gordon-horatio-sanz-eliza-skinner/#t=23:10",
+    "created_at": "2017-07-11T09:02:39Z",
+    "slug_soundcloud": "497-kumail-nanjiani-emily-v-gordon-horatio-sanz-eliza-skinner",
+    "slug_earwolf": "wait-awhile",
+    "episode_title": "Wait Awhile",
+    "episode_guests": "Kumail Nanjiani,Emily V. Gordon,Horatio Sanz,Eliza Skinner",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 497,
+    "show": "cbb",
+    "tstart": "24:05",
+    "tend": "24:11",
+    "instance": "We'll see whoever comes the closest.",
+    "bit":"Price is Right Rules","elucidation":"without going over",
+    "tags": "",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-07-11T09:02:39Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/497-kumail-nanjiani-emily-v-gordon-horatio-sanz-eliza-skinner/#t=24:05",
+    "created_at": "2017-07-11T09:02:39Z",
+    "slug_soundcloud": "497-kumail-nanjiani-emily-v-gordon-horatio-sanz-eliza-skinner",
+    "slug_earwolf": "wait-awhile",
+    "episode_title": "Wait Awhile",
+    "episode_guests": "Kumail Nanjiani,Emily V. Gordon,Horatio Sanz,Eliza Skinner",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 497,
+    "show": "cbb",
+    "tstart": "26:36",
+    "tend": "26:50",
+    "instance": "Ray Romano is here.",
+    "bit":"Debra!","elucidation":"scott does his ray romano",
+    "tags": "",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-07-11T09:02:39Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/497-kumail-nanjiani-emily-v-gordon-horatio-sanz-eliza-skinner/#t=26:36",
+    "created_at": "2017-07-11T09:02:39Z",
+    "slug_soundcloud": "497-kumail-nanjiani-emily-v-gordon-horatio-sanz-eliza-skinner",
+    "slug_earwolf": "wait-awhile",
+    "episode_title": "Wait Awhile",
+    "episode_guests": "Kumail Nanjiani,Emily V. Gordon,Horatio Sanz,Eliza Skinner",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 497,
+    "show": "cbb",
+    "tstart": "35:40",
+    "tend": "35:58",
+    "instance": "You pick up a phone like this one.",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": "Cooper F. Worthington-Tompkins",
+    "location_type": "poly",
+    "location_id": "128",
+    "updated_at": "2017-07-11T09:02:39Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/497-kumail-nanjiani-emily-v-gordon-horatio-sanz-eliza-skinner/#t=35:40",
+    "created_at": "2017-07-11T09:02:39Z",
+    "slug_soundcloud": "497-kumail-nanjiani-emily-v-gordon-horatio-sanz-eliza-skinner",
+    "slug_earwolf": "wait-awhile",
+    "episode_title": "Wait Awhile",
+    "episode_guests": "Kumail Nanjiani,Emily V. Gordon,Horatio Sanz,Eliza Skinner",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 497,
+    "show": "cbb",
+    "tstart": "49:10",
+    "tend": "49:27",
+    "instance": "Did you say 'Ruthless People'?",
+    "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "tags": "Cooper F. Worthington-Tompkins,Ruthless People (song),Mick Jagger",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-07-11T09:02:39Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/497-kumail-nanjiani-emily-v-gordon-horatio-sanz-eliza-skinner/#t=49:10",
+    "created_at": "2017-07-11T09:02:39Z",
+    "slug_soundcloud": "497-kumail-nanjiani-emily-v-gordon-horatio-sanz-eliza-skinner",
+    "slug_earwolf": "wait-awhile",
+    "episode_title": "Wait Awhile",
+    "episode_guests": "Kumail Nanjiani,Emily V. Gordon,Horatio Sanz,Eliza Skinner",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 497,
+    "show": "cbb",
+    "tstart": "58:13",
+    "tend": "58:41",
+    "instance": "Don't cry for me, Oklahoma.",
+    "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "tags": "Cooper F. Worthington-Tompkins,Don't Cry for Me Argentina (song),Andrew Lloyd Webber,Tim Rice,Lindsey Cumdrop",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-07-11T09:02:39Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/497-kumail-nanjiani-emily-v-gordon-horatio-sanz-eliza-skinner/#t=58:13",
+    "created_at": "2017-07-11T09:02:39Z",
+    "slug_soundcloud": "497-kumail-nanjiani-emily-v-gordon-horatio-sanz-eliza-skinner",
+    "slug_earwolf": "wait-awhile",
+    "episode_title": "Wait Awhile",
+    "episode_guests": "Kumail Nanjiani,Emily V. Gordon,Horatio Sanz,Eliza Skinner",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 498,
+    "show": "cbb",
+    "tstart": "12:38",
+    "tend": "12:55",
+    "instance": "The D-Bag of the Century was born there.",
+    "bit":"Too Soon","elucidation":"someone uses, misuses, or riffs on 'too soon'",
+    "tags": "Ming,Adolph Hitler",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-07-13T14:27:45Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/498-flula-borg-jeremy-rowley-brendon-small/#t=12:38",
+    "created_at": "2017-07-13T14:27:45Z",
+    "slug_soundcloud": "498-flula-borg-jeremy-rowley-brendon-small",
+    "slug_earwolf": "what-that-dos",
+    "episode_title": "What That DOS",
+    "episode_guests": "Flula Borg, Jeremy Rowley, Brendon Small",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 498,
+    "show": "cbb",
+    "tstart": "40:09",
+    "tend": "40:14",
+    "instance": "Can I tell you about another video game?",
+    "bit":"You Don't Have to Ask","elucidation":"scott explains that permission need not be requested in order to ask a question",
+    "tags": "Ming",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-07-13T14:27:45Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/498-flula-borg-jeremy-rowley-brendon-small/#t=40:09",
+    "created_at": "2017-07-13T14:27:45Z",
+    "slug_soundcloud": "498-flula-borg-jeremy-rowley-brendon-small",
+    "slug_earwolf": "what-that-dos",
+    "episode_title": "What That DOS",
+    "episode_guests": "Flula Borg, Jeremy Rowley, Brendon Small",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 498,
+    "show": "cbb",
+    "tstart": "48:45",
+    "tend": "48:58",
+    "instance": "Does an arrow ever go right in the hole?",
+    "bit":"Scott's Questions","elucidation":"(in progress) - scott's questions",
+    "tags": "Ming",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-07-13T14:27:45Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/498-flula-borg-jeremy-rowley-brendon-small/#t=48:45",
+    "created_at": "2017-07-13T14:27:45Z",
+    "slug_soundcloud": "498-flula-borg-jeremy-rowley-brendon-small",
+    "slug_earwolf": "what-that-dos",
+    "episode_title": "What That DOS",
+    "episode_guests": "Flula Borg, Jeremy Rowley, Brendon Small",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 498,
+    "show": "cbb",
+    "tstart": "58:21",
+    "tend": "58:39",
+    "instance": "That song might be about titties.",
+    "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "tags": "Ming,Drake,Started from the Bottom (song),Willard Mapleton",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-07-13T14:27:45Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/498-flula-borg-jeremy-rowley-brendon-small/#t=58:21",
+    "created_at": "2017-07-13T14:27:45Z",
+    "slug_soundcloud": "498-flula-borg-jeremy-rowley-brendon-small",
+    "slug_earwolf": "what-that-dos",
+    "episode_title": "What That DOS",
+    "episode_guests": "Flula Borg, Jeremy Rowley, Brendon Small",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+{
+    "episode": 498,
+    "show": "cbb",
+    "tstart": "1:07:17",
+    "tend": "1:07:26",
+    "instance": "Where is the pilot set?",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": "Captain Moustache,Willard Mapleton",
+    "location_type": "poly",
+    "location_id": "444",
+    "updated_at": "2017-07-13T14:27:45Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/498-flula-borg-jeremy-rowley-brendon-small/#t=1:07:17",
+    "created_at": "2017-07-13T14:27:45Z",
+    "slug_soundcloud": "498-flula-borg-jeremy-rowley-brendon-small",
+    "slug_earwolf": "what-that-dos",
+    "episode_title": "What That DOS",
+    "episode_guests": "Flula Borg, Jeremy Rowley, Brendon Small",
     "id_wikia": null,
     "holding": "false"
 }
