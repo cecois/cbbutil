@@ -4,3 +4,4 @@ node_modules
 updaters/nod/Config.json
 querier/node_modules
 querier/yarn.lock
+updaters/nod/package-lock.json

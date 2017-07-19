@@ -24,6 +24,7 @@ FS = require('fs')
 ,ZLIB = require('zlib')
 ;
 
+<<<<<<< HEAD:updaters/nod/js.js
 
 var url = 'mongodb://'+CONFIG.mongouser+':'+CONFIG.mongopsswd+'@'+CONFIG.mongohost+':'+CONFIG.mongoport+'/'+CONFIG.mongodb;
 var runid = MOMENT().format('YYYY_MMMM_dddd_hh_mm_ss');
@@ -77,6 +78,8 @@ compress.end();
 //     cursor.toArray(callback);
 //     db.close();
 // });
+=======
+>>>>>>> 13981fa546ccb2c792ce225db080d24ce8f114de:updaters/nod/sandbox.js
 var url = 'mongodb://'+Config.mongouser+':'+Config.mongopsswd+'@'+Config.mongohost+':'+Config.mongoport+'/'+Config.mongodb;
 
 var get_bit = function(db, CEEBEE){
@@ -88,6 +91,7 @@ var get_bit = function(db, CEEBEE){
       CEEBEE();
   });
 
+<<<<<<< HEAD:updaters/nod/js.js
 	var D = db.collection('bits').find(
 	// {"episode":281}
 	{}
@@ -110,6 +114,8 @@ var get_bit = function(db, CEEBEE){
 		}
 
 	});
+=======
+>>>>>>> 13981fa546ccb2c792ce225db080d24ce8f114de:updaters/nod/sandbox.js
 }//get_bitz
 
 var get_live = function(CEEBEE){
@@ -126,6 +132,7 @@ var get_live = function(CEEBEE){
 }); //readfile
 	} //get_live
 
+<<<<<<< HEAD:updaters/nod/js.js
 	if(err){console.log("error connecting to "+CONFIG.mongohost+"...");} else {console.log("connected to "+CONFIG.mongohost+", fetching bits...");}
 
 
@@ -144,3 +151,7 @@ var get_live = function(CEEBEE){
 // });
 
 get_live()
+=======
+
+	get_live()
+>>>>>>> 13981fa546ccb2c792ce225db080d24ce8f114de:updaters/nod/sandbox.js

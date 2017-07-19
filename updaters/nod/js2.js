@@ -12,7 +12,7 @@ FS = require('fs')
 ;
 
 
-var output = FS.createWriteStream('/tmp/test.gz');
+var output = FS.createWriteStream('/tmp/test.tgz');
 var compress = ZLIB.createGzip();
 /* The following line will pipe everything written into compress to the file stream */
 compress.pipe(output);
