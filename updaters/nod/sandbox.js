@@ -10,9 +10,6 @@ FS = require('fs')
 ,Config = require("./Config.json")
 ;
 
-
-
-
 var url = 'mongodb://'+Config.mongouser+':'+Config.mongopsswd+'@'+Config.mongohost+':'+Config.mongoport+'/'+Config.mongodb;
 
 var get_bit = function(db, CEEBEE){
@@ -23,7 +20,6 @@ var get_bit = function(db, CEEBEE){
       console.log(doc);//else case
       CEEBEE();
   });
-
 
 }//get_bitz
 
@@ -41,14 +37,5 @@ var get_live = function(CEEBEE){
 }); //readfile
 	} //get_live
 
-// MONGOCLIENT.connect(url, function(err, db) {
-	// assert.equal(null, err);
 
-	// if(err){console.log("error connecting to "+Config.mongohost+"...");} else {console.log("connected to "+Config.mongohost+", fetching bits...");}
-
-	// get_bit(db, function() {
-	// 	db.close();
-	// });
-// });
-
-get_live()
+	get_live()

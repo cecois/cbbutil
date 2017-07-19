@@ -8,12 +8,12 @@ var main = async () =>{
 			throw("typo prolly");
 			process.exit();
 		}
-		// get a batch of 311s
-		// var guess = await guess();
-		// get extant carto records - this could eventually get unwieldy #returnto
-		// var cartoz = await get_cartoz();
-
-		// var s311j=JSON.parse(s311z)
+		// SERIES:
+		// read bits from file
+		// determine the episodes in question
+		// fetch from mongo those episodes (instances only prolly)
+		// for each incoming bit, throw its episode+instance couple against same from mongo
+		// any matches alert, exit
 
 		// clean list of carto tid values
 		// var extantz = __.pluck(JSON.parse(cartoz).rows,'tid')
