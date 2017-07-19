@@ -15151,3 +15151,45 @@
 	"id_wikia": null,
 	"holding": "false"
 }
+
+{
+	"episode": 499,
+	"show": "cbb",
+	"tstart": "18:10",
+	"tend": "18:20",
+	"instance": "It's a film.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-07-18T11:38:38Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/499-kyle-mooney-paul-rust-neil-campbell-fran-gillespie/#t=18:10",
+	"created_at": "2017-07-18T11:38:38Z",
+	"slug_soundcloud": "499-kyle-mooney-paul-rust-neil-campbell-fran-gillespie",
+	"slug_earwolf": "the-freak",
+	"episode_title": "The Freak",
+	"episode_guests": "Kyle Mooney,Paul Rust,Neil Campbell,Fran Gillespie",
+	"id_wikia": null,
+	"holding": "false"
+}
+
+{
+	"episode": 499,
+	"show": "cbb",
+	"tstart": "23:55",
+	"tend": "23:41",
+	"instance": "Mark Hamill is in it.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-07-18T11:38:38Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/499-kyle-mooney-paul-rust-neil-campbell-fran-gillespie/#t=23:55",
+	"created_at": "2017-07-18T11:38:38Z",
+	"slug_soundcloud": "499-kyle-mooney-paul-rust-neil-campbell-fran-gillespie",
+	"slug_earwolf": "the-freak",
+	"episode_title": "The Freak",
+	"episode_guests": "Kyle Mooney,Paul Rust,Neil Campbell,Fran Gillespie",
+	"id_wikia": null,
+	"holding": "false"
+}
