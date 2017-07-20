@@ -52,11 +52,52 @@ Not all tasks need to use streams, a gulpfile is just another node program
 };
 
 var clean = ()=>{
-  // You can use multiple globbing patterns as you would with `gulp.src`,
-  // for example if you are using del 2.0 or above, return its promise
+  console.log("cleaning "+paths.jsons.dest+"...");
   return DEL([
-    paths.jsons.staging
-    ]);
+   paths.jsons.dest
+   ]);
+}
+
+/* ------------------------- BACKUP ------------- */
+
+var url = 'mongodb://'+CONFIG.mongouser+':'+CONFIG.mongopsswd+'@'+CONFIG.mongohost+':'+CONFIG.mongoport+'/'+CONFIG.mongodb;
+var runid = MOMENT().format('YYYY_MMMM_dddd_hh_mm_ss');
+var bud = CONFIG.budir+"/"+runid;
+var buf = "bu."+runid+".json";
+var but = bud+".tar";
+
+var bu = (set,runid)=>{
+
+  console.log("backing up runid:"+runid+"...");
+
+
+  FS.mkdir(bud, null, function(err) {
+    if(err) {
+      return console.log(err);
+    } else {
+      console.log("madedir "+bud+" - time to fill it with "+set.length+" bits");
+
+      FS.writeFile(bud+"/"+buf, JSON.stringify(set), function(err) {
+        if(err) {
+          return console.log(err);
+        } else {
+          console.log("set backed up as "+buf+", tarballing now...");
+
+          var output = FS.createWriteStream(bud+"/"+buf+".tgz");
+          var compress = ZLIB.createGzip();
+          /* The following line will pipe everything written into compress to the file stream */
+          compress.pipe(output);
+// send some stuff to the compress object
+compress.write(JSON.stringify(set));
+compress.end();
+
+}
+});
+
+    }
+  }); 
+
+
 }
 
 /* ------------------------- IMG ------------- */
@@ -169,61 +210,17 @@ var clean = ()=>{
     .pipe(GULP.dest('src-scripts/'));
   }
 
-  /* ------------------------- JEKYLL ------------- */
+  /* ------------------------- WATCHES ------------- */
 
-  var messages = {
-    jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
-  };
-
-
-/**
- * Build the Jekyll Site
- */
- var jekyll = ()=>{
-  // var jekyllCommand = 'jekyll';
-  // browserSync.notify(messages.jekyllBuild);
-  return CP.spawn('jekyll', ['build'], {stdio: 'inherit'})
-  // .on('close', done);
-}
- // gulp.task('jekyll-build', function (done) {
- //  browserSync.notify(messages.jekyllBuild);
- //  return cp.spawn(jekyllCommand, ['build'], {stdio: 'inherit'})
- //  .on('close', done);
- // });
-
- /* ------------------------- TEMPLATES ------------- */
-
- var watch_style = ()=>{
-  return GULP
-  .watch(paths.styles.src, styles)
-}
-var watch_js = ()=>{
-  return GULP
-  .watch(paths.scripts.src, scripts);
-}
-var watch_handle = ()=>{
-  return GULP
-  .watch('templates/*', handlez);
-}
-var watch_img = ()=>{
-  return GULP
-  .watch('src-img/**', img);
-}
-
-var watch_jek = ()=>{
-  return GULP
-  .watch('_posts/*',jekyll)
-}
+  var watch_style = ()=>{
+    return GULP
+    .watch(paths.styles.src, styles)
+  }
 
 /*
  * You can use CommonJS `exports` module notation to declare tasks
  */
  exports.clean = clean;
- exports.stage = stage;
- exports.styles = styles;
- exports.handlez = handlez;
- exports.scripts = scripts;
- exports.img = img;
 
 /*
  * Specify if tasks run in series or parallel using `GULP.series` and `GULP.parallel`
