@@ -44,9 +44,9 @@ Not all tasks need to use streams, a gulpfile is just another node program
 
  var browsersync =()=>{
   BROWSERSYNC({
-    files: ['_site' + '/**']
+    files: ['../_site' + '/**']
     ,server: {
-      baseDir: '_site'
+      baseDir: '../_site'
     }
   });
 };
@@ -61,14 +61,7 @@ var clean = ()=>{
 
 /* ------------------------- IMG ------------- */
 
- // gulp.task('imagemin', function() {
- //  return gulp.src('src/img/**/*.{jpg,png,gif}')
- //  .pipe(PLUMBER())
- //  .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
- //  .pipe(gulp.dest('assets/img/'));
- // });
-
- var img = ()=>{
+var img = ()=>{
   return GULP.src(paths.img.src)
   .pipe(PLUMBER())
   .pipe(IMAGEMIN({ optimizationLevel: 3, progressive: true, interlaced: true }))
@@ -162,68 +155,25 @@ var clean = ()=>{
     .pipe(HANDLEBARS())
     .pipe(WRAP('Handlebars.template(<%= contents %>)'))
     .pipe(DECLARE({
-      namespace: 'CVJEK.templates',
+      namespace: 'CBB.templates',
       noRedeclare: true, // Avoid duplicate declarations
     }))
     .pipe(CONCAT('H-templates-compiled.js'))
     .pipe(GULP.dest('src-scripts/'));
   }
 
-  /* ------------------------- JEKYLL ------------- */
 
-  var messages = {
-    jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
-  };
+  /* ------------------------- WATCHES ------------- */
 
-
-/**
- * Build the Jekyll Site
- */
- var jekyll = ()=>{
-  // var jekyllCommand = 'jekyll';
-  // browserSync.notify(messages.jekyllBuild);
-  return CP.spawn('jekyll', ['build'], {stdio: 'inherit'})
-  // .on('close', done);
-}
- // gulp.task('jekyll-build', function (done) {
- //  browserSync.notify(messages.jekyllBuild);
- //  return cp.spawn(jekyllCommand, ['build'], {stdio: 'inherit'})
- //  .on('close', done);
- // });
-
- /* ------------------------- TEMPLATES ------------- */
-
- var watch_style = ()=>{
-  return GULP
-  .watch(paths.styles.src, styles)
-}
-var watch_js = ()=>{
-  return GULP
-  .watch(paths.scripts.src, scripts);
-}
-var watch_handle = ()=>{
-  return GULP
-  .watch('templates/*', handlez);
-}
-var watch_img = ()=>{
-  return GULP
-  .watch('src-img/**', img);
-}
-
-var watch_jek = ()=>{
-  return GULP
-  .watch('_posts/*',jekyll)
-}
+  var watch_style = ()=>{
+    return GULP
+    .watch(paths.styles.src, styles)
+  }
 
 /*
  * You can use CommonJS `exports` module notation to declare tasks
  */
  exports.clean = clean;
- exports.stage = stage;
- exports.styles = styles;
- exports.handlez = handlez;
- exports.scripts = scripts;
- exports.img = img;
 
 /*
  * Specify if tasks run in series or parallel using `GULP.series` and `GULP.parallel`
@@ -241,7 +191,7 @@ var watch_jek = ()=>{
 // do fresh export of Mongo into dev and prod Solrs
 // test
 // build #updates template && globals.js queries from same
-// 
+//
 var build = GULP.series(
   stage
   // clean //clean out stagin area

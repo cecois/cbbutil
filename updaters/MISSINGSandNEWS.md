@@ -23,6 +23,7 @@
 	* 498,51:10(added)
 * we're really gonna probe his psyche (in-depth - wtf - actors pain)
 	* 162,33:45
+	* 331,25:35(pw)
 	* 316,5:30(paywall)
 	* 309,4:15
 	* 300,18:50
@@ -879,6 +880,7 @@
 	* (previous herzog appear)
 * of note/in his own right
 	* 292,2:24
+	* 331,2:45(paywall)
 	* 325,3:15(paywall)
 	* 317,5:12(paywall)
 	* 305,29:15(paywall)
