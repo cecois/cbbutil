@@ -1,5 +1,8 @@
 var GULP = require('gulp')
 ,LESS = require('gulp-less')
+,FS = require('fs')
+// ,MONGOCLIENT = require('mongodb').MongoClient
+// ,MONGO = require('mongo-async')
 ,CONCAT = require('gulp-concat')
 ,UGLIFY = require('gulp-uglify')
 ,BROWSERSYNC = require('browser-sync')
@@ -17,17 +20,15 @@ var GULP = require('gulp')
 ,FSTREAM = require("fstream")
 ,TAR = require("tar-fs")
 ,ZLIB = require('zlib')
+RP=require('request-promise')
 ;
 
-var url = 'mongodb://'+CONFIG.mongouser+':'+CONFIG.mongopsswd+'@'+CONFIG.mongohost+':'+CONFIG.mongoport+'/'+CONFIG.mongodb;
-var runid = MOMENT().format('YYYY_MMMM_dddd_hh_mm_ss');
-var bud = CONFIG.budir+"/"+runid;
-var buf = "bu."+runid+".json";
-var but = bud+".tar";
+// var url = 'mongodb://'+CONFIG.mongouser+':'+CONFIG.mongopsswd+'@'+CONFIG.mongohost+':'+CONFIG.mongoport+'/'+CONFIG.mongodb;
+
 
 var paths = {
-  staging:"staging/"
-  ,backup:"backup/"
+  staging:"staging"
+  ,backup:"backup"
   ,styles: {
     src: 'src-css/**/*.less'
     ,staging:"staging/"
@@ -66,46 +67,74 @@ Not all tasks need to use streams, a gulpfile is just another node program
 var clean = ()=>{
   console.log("cleaning "+paths.jsons.dest+"...");
   return DEL([
-   paths.jsons.dest
-   ]);
+    paths.jsons.dest+"/*"
+    ]);
 }
 
 /* ------------------------- BACKUP ------------- */
 
+// var test = async function () {
+//   return await MongoClient.connect(url);
+// }
+
+var write_extant_bits = async ()=>{
 
 
-var backup = (set,runid)=>{
+// https://api.mlab.com/api/1/databases/my-db/collections/my-coll?apiKey=myAPIKey
 
+// Optional parameters
+// [q=<query>][&c=true][&f=<fields>][&fo=true][&s=<order>][&sk=<skip>][&l=<limit>]
+
+var url = "https://api.mlab.com/api/1/databases/"+CONFIG.mongodb+"/collections/"+CONFIG.mongocollx+"?apiKey="+CONFIG.mongokey+"&l=2"
+
+const options = {method: 'GET',json: true,uri: url};
+
+try {
+  const response = await RP(options);
+
+  var fil = paths.jsons.dest+"bu.json"
+  FS.writeFile(fil,JSON.stringify(response),async (e)=>{
+    if(e){throw e};
+  })
+
+  return fil;
+}
+catch (error) {
+  console.log(error);
+  return false;
+}
+
+
+}//write_extant_bits
+
+
+var backup = async (f)=>{
+
+  var runid = MOMENT().format('YYYY_MMMM_dddd_hh_mm_ss');
   console.log("backing up runid:"+runid+"...");
+  var bud = paths.backup+"/"+runid;
+  var buf = "bu.json";
+  var but = bud+".tar";
+
+  console.log("awaiting mongoset...");
+  var mongoset = await write_extant_bits();
 
 
   FS.mkdir(bud, null, function(err) {
     if(err) {
       return console.log(err);
     } else {
-      console.log("madedir "+bud+" - time to fill it with "+set.length+" bits");
+      console.log("madedir "+bud+" - time to fill it with bits");
 
-      FS.writeFile(bud+"/"+buf, JSON.stringify(set), function(err) {
-        if(err) {
-          return console.log(err);
-        } else {
-          console.log("set backed up as "+buf+", tarballing now...");
+      const gzip = ZLIB.createGzip();
+      const inp = FS.createReadStream(paths.jsons.dest+"bu.json");
+      const out = FS.createWriteStream(bud+"/"+buf+".gz");
 
-          var output = FS.createWriteStream(paths.backup+"/"+bud+"/"+buf+".tgz");
-          var compress = ZLIB.createGzip();
-          /* The following line will pipe everything written into compress to the file stream */
-          compress.pipe(output);
-// send some stuff to the compress object
-compress.write(JSON.stringify(set));
-compress.end();
-
-return GULP.src(paths.backup+"/"+bud+"/"+buf+".tgz");
+      inp.pipe(gzip).pipe(out);
 
 }
-});
 
-    }
-  });
+}); //mkdir
 
 
 }
@@ -213,10 +242,6 @@ var img = ()=>{
     .pipe(GULP.dest('src-scripts/'));
   }
 
-  <<<<<<< HEAD
-
-  =======
-  >>>>>>> 3e52ffb22dcfab468ba212ac359f0bdf6044292a
   /* ------------------------- WATCHES ------------- */
 
   var watch_style = ()=>{
@@ -229,14 +254,13 @@ var img = ()=>{
  */
  exports.clean = clean;
  exports.backup = backup;
+ exports.write_extant_bits = write_extant_bits;
 
 /*
  * Specify if tasks run in series or parallel using `GULP.series` and `GULP.parallel`
  */
 
-// clean any leftover stuff
-// back up extant mongo
-// test for UN-indexed carto records
+// test for UN-indexed dcarto records
 // (if any) back up extant carto
 // send unindexed carto records to both dev (localhost) and prod (openshift) Solrs
 // get hot episodes from -live && -news (unless they're merged already)
@@ -248,7 +272,11 @@ var img = ()=>{
 // build #updates template && globals.js queries from same
 //
 var build = GULP.series(
-  stage
+// clean any leftover stuff
+  clean,
+// back up extant mongo
+  backup
+  ,clean
   // clean //clean out stagin area
   // ,GULP.parallel(
   //   copystyle

@@ -2,6 +2,8 @@
 updaters/nod/node_modules
 node_modules
 updaters/nod/Config.json
+updaters/nod/backup
+updaters/nod/staging
 querier/node_modules
 querier/yarn.lock
 updaters/nod/package-lock.json
