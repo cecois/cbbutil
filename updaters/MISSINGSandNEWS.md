@@ -2,6 +2,7 @@
 * interesting people
 	* several of the 480+ eps
 	* 490,1:55(paywall)
+	* 500,15:00
 	* 490,28:48(paywall)
 	* 491,1:30
 	* 491,1:06:10
@@ -21,6 +22,7 @@
 	* 497,42:05
 * classic jarles
 	* 498,51:10(added)
+	* 500,2:08
 * we're really gonna probe his psyche (in-depth - wtf - actors pain)
 	* 162,33:45
 	* 331,25:35(pw)
@@ -392,6 +394,7 @@
 	* 2016.losangeles,1:00:40
 * character bonanzas
 	* 300,bill carter+
+	* 500,1:25:45
 	* 485,30:00+
 	* 290,1:00:00+
 	* 171,*
@@ -461,6 +464,7 @@
 	* 215,54:20
 	* 215,56:00
 	* 215,~1:01:30
+	* 332,50:30(pw)
 	* 130,1:08:45
 	* 286,1:38:50(howl)
 	* 2016.oakland,1:01:12
@@ -623,6 +627,7 @@
 	* 133,41:50
 	* 133,55:59
 	* 133,59:30
+	* 500,1:08:30
 	* 400,50:00
 	* 408,32:00
 	* 426,35:00
@@ -846,6 +851,7 @@
 	* 451,2:00
 	* 471,20:08(howl)
 	* 486,21:50(ads)
+	* 500,3:00
 * out of the park (fair ball / foul ball )
 	* tig+alynne episode
 	* 482,25:35(howl)

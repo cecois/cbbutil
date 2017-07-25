@@ -15193,3 +15193,24 @@
 	"id_wikia": null,
 	"holding": "false"
 }
+
+{
+	"episode": 332,
+	"show": "cbb",
+	"tstart": "31:20",
+	"tend": "31:25",
+	"instance": "I wish I was there.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-07-25T14:24:26Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/332-kyle-kinane-matt-braunger-fran-gillespie-neil-campbell/#t=31:20",
+	"created_at": "2017-07-25T14:24:26Z",
+	"slug_soundcloud": "332-kyle-kinane-matt-braunger-fran-gillespie-neil-campbell",
+	"slug_earwolf": "what-winsome-said",
+	"episode_title": "What Winsome Said",
+	"episode_guests": "Kyle Kinane,Matt Braunger,Fran Gillespie,Neil Campbell",
+	"id_wikia": 5167,
+	"holding": "false"
+}

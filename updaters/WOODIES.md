@@ -256,3 +256,5 @@
 * 323,48:45,ooh i love this bit(paywall)
 * 323,49:45,who look like they smell smoke(paywall)
 * 326,1:52:55,stories about mordor are 5th in the order
+* 500,34:00,i feel like i missed something
+* 500,1:25:18,and gil faizon
