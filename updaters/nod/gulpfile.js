@@ -104,6 +104,12 @@ catch (error) {
   return false;
 }
 
+var compare = async ()=>{
+
+var extant = FS.read
+
+}//compare
+
 
 }//write_extant_bits
 
@@ -266,7 +272,7 @@ var img = ()=>{
 // get hot episodes from -live && -news (unless they're merged already)
 // pull an array of extant instances for those eps
 // each through the eps, testing for existence
-// for nonexistent, insert to Mongo
+// for nonexisten1t, insert to Mongo
 // do fresh export of Mongo into dev and prod Solrs
 // test
 // build #updates template && globals.js queries from same
@@ -276,6 +282,7 @@ var build = GULP.series(
   clean,
 // back up extant mongo
   backup
+  ,compare
   ,clean
   // clean //clean out stagin area
   // ,GULP.parallel(
