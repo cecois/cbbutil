@@ -87,6 +87,7 @@
 	* ???,"and you're gil"
 * more celebrities should email each other
 	* this is bit:"congratulatory text"
+	* 335,1:38:30(pw)
 	* bo2014.3,1:37:10(paywall)
 	* bo2014.3,1:22:00(pw)
 * runoff/run-off p (all howl stamps)
@@ -372,6 +373,8 @@
 	* 2016.tarrytown,20:30
 	* 2016.tarrytown,40:00
 	* 2016.tarrytown,44:00
+	* 335,3:00(pw)
+	* 335,1:00:40(pw)
 	* every other wiseman appearance *10
 	* 2016.oakland,35:28
 	* 2016.oakland,36:50
@@ -394,6 +397,7 @@
 	* 2016.losangeles,1:00:40
 * character bonanzas
 	* 300,bill carter+
+	* 335,wiseman|marshal|thicke
 	* 500,1:25:45
 	* 485,30:00+
 	* 290,1:00:00+
@@ -533,6 +537,9 @@
 	* bo2016.2,2:16:30
 	* 349,42:30
 	* bo2015.4,8:00
+	* 335,1:17:10(pw)
+	* 335,1:30:15(pw)
+	* 335,1:40:30(pw)
 	* 393,57:29
 	* 394 - 18:45
 	* 394 - 24:28
@@ -715,6 +722,7 @@
 * "Pains"
 	* 401,41:15
 	* 401,56:00
+	* 335,1:16:20(pw)
 	* 280,30:10
 	* 280,34:38
 	* 280,51:36
@@ -778,6 +786,7 @@
 	* 2016.perth,1:05:10
 * symmetrical face
 	* 158,1:00:00
+	* 333,28:00(pw)
 	* 480,2:20
 	* 146,4:30
 	* 41,29:00
@@ -886,6 +895,7 @@
 	* (previous herzog appear)
 * of note/in his own right
 	* 292,2:24
+	* 335,2:20(pw)
 	* 331,2:45(paywall)
 	* 325,3:15(paywall)
 	* 317,5:12(paywall)
