@@ -121,7 +121,8 @@
 * 329,40:30,i was not there when she was born
 * 329,42:00,Show me dat Piece!
 * 329,49:30,something a little off about him
-* 335,1:05:43,2 things for you to do
+* 335,1:04:00(pw),2 things for you to do
+* 337,15:45(pw),why am i here?
 * 337,1:09:19,picasso trigger
 * 337,1:18:30,crayon on crayon
 * 337,30:55,another great interview question in the can
