@@ -106,7 +106,7 @@ catch (error) {
 
 var compare = async ()=>{
 
-var extant = FS.read
+  var extant = FS.read
 
 }//compare
 
@@ -138,7 +138,7 @@ var backup = async (f)=>{
 
       inp.pipe(gzip).pipe(out);
 
-}
+    }
 
 }); //mkdir
 
@@ -279,11 +279,11 @@ var img = ()=>{
 //
 var build = GULP.series(
 // clean any leftover stuff
-  clean,
+clean,
 // back up extant mongo
-  backup
-  ,compare
-  ,clean
+backup
+,compare
+  // ,clean
   // clean //clean out stagin area
   // ,GULP.parallel(
   //   copystyle
