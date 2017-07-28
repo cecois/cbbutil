@@ -15781,3 +15781,45 @@
 	"id_wikia": 5284,
 	"holding": "false"
 }
+
+{
+	"episode": 338,
+	"show": "cbb",
+	"tstart": "1:45:23",
+	"tend": "1:45:28",
+	"instance": "As I think we've all learned today.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-07-27T14:17:42Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/338-michael-ableson-paul-f-tompkins-andy-daly-lauren-lapkus/#t=1:45:23",
+	"created_at": "2017-07-27T14:17:42Z",
+	"slug_soundcloud": "338-michael-ableson-paul-f-tompkins-andy-daly-lauren-lapkus",
+	"slug_earwolf": "be-my-guest-literally",
+	"episode_title": "Be My Guest, Literally!",
+	"episode_guests": "Michael Ableson,Paul F. Tompkins,Lauren Lapkus,Andy Daly",
+	"id_wikia": 5284,
+	"holding": "false"
+}
+
+{
+	"episode": 338,
+	"show": "cbb",
+	"tstart": "1:45:33",
+	"tend": "1:45:38",
+	"instance": "And, uh, it's time for plugs.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-07-27T14:17:42Z",
+	"url_soundcloud": "http://soundcloud.com/comedybangbang/338-michael-ableson-paul-f-tompkins-andy-daly-lauren-lapkus/#t=1:45:33",
+	"created_at": "2017-07-27T14:17:42Z",
+	"slug_soundcloud": "338-michael-ableson-paul-f-tompkins-andy-daly-lauren-lapkus",
+	"slug_earwolf": "be-my-guest-literally",
+	"episode_title": "Be My Guest, Literally!",
+	"episode_guests": "Michael Ableson,Paul F. Tompkins,Lauren Lapkus,Andy Daly",
+	"id_wikia": 5284,
+	"holding": "false"
+}
