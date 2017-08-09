@@ -93,57 +93,64 @@ var audit = async ()=>{
 
             return {
               "episode":b.episode
-              ,"finder":b.instance+b.bit+b.tags
+              ,"finder":b.episode+b.instance+b.bit+b.tags
             }
 
           });
 
-          var eps = __.map(__.unique(__.pluck(inc,'episode')),(e)=>{
 
-            return {episode:e}
+          try {
 
-  })//map
+            FS.readFile('../cbb-news-json.json',async (e,d)=>{
+              if(e){reject(e)}
+                else
+                {
+                  var inc = __.map(JSON.parse(d),(b)=>{
 
-          var rpoptions = {
-            uri: 'https://api.mlab.com/api/1/databases/cbbbits/collections/bits',
-            qs: {
-              apiKey:CONFIG.mongokey
-        // ,q: '{ $or: [ { "episode": 498 }, { "episode": 498 } ] }' // -> uri + '?access_token=xxxxx%20xxxxx'
-        ,q: '{ $or: '+JSON.stringify(eps)+' }' // -> uri + '?access_token=xxxxx%20xxxxx'
-      },
-      headers: {
-        'User-Agent': 'Request-Promise'
-      },
-    json: true // Automatically parses the JSON string in the response
-  }
+                    return {
+                      "episode":b.episode,
+                      "show":b.show,
+                      "tstart":b.tstart,
+                      "tend":b.tend,
+                      "instance":b.instance,
+                      "bit":b.bit,
+                      "elucidation":b.elucidation,
+                      "tags":b.tags,
+                      "location_type":b.location_type,
+                      "location_id":b.location_id,
+                      "updated_at":b.updated_at,
+                      "url_soundcloud":b.url_soundcloud,
+                      "created_at":b.created_at,
+                      "slug_soundcloud":b.slug_soundcloud,
+                      "slug_earwolf":b.slug_earwolf,
+                      "episode_title":b.episode_title,
+                      "episode_guests":b.episode_guests,
+                      "id_wikia":b.id_wikia,
+                      "holding":b.holding
+                      ,"finder":b.episode+b.instance+b.bit+b.tags
+                    }
 
-  try {
-    const response = await RP(rpoptions);
-    var ext = __.map(response,(b)=>{
-      return {episode:b.episode,finder:b.instance+b.bit+b.tags}
-    });
+          });//map
 
-    var dupez = __.filter(inc,async (d)=>{
+                  var du = __.intersection(__.pluck(inc,'finder'), __.pluck(ext,'finder'));
 
-      return (__.pluck(ext,'finder'),d.finder==true)
+                  console.log("lenth:")
+                  console.log(du.length)
+                  if(du.length>0){
+                    reject("duplicates found")
+                  } else{
+                    resolve(du);}
+                  }
 
-    })
+  })//readfile2
 
-    console.log("dupez:",dupez)
-
-    resolve(dupez)
-
-    // return Promise.resolve(inc);
-  }
-  catch (error) {
-    // return Promise.reject(error);
-    reject(error)
-  }
-
-          // resolve(inc);
+          }
+          catch (error) {
+            reject(error)
+          }
         }
 
-  })//readfile
+  })//readfile1
   });//promise
 
 
