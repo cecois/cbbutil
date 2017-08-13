@@ -3,6 +3,7 @@ var GULP = require('gulp')
 ,FS = require('fs')
 // ,MONGOCLIENT = require('mongodb').MongoClient
 // ,MONGO = require('mongo-async')
+,__ = require('underscore')
 ,CONCAT = require('gulp-concat')
 ,UGLIFY = require('gulp-uglify')
 ,BROWSERSYNC = require('browser-sync')
@@ -46,6 +47,8 @@ var paths = {
     src: '../*.json',
     dest: 'staging/'
   }
+  ,backup:'bu/'
+
 };
 
 /*
@@ -77,71 +80,178 @@ var clean = ()=>{
 //   return await MongoClient.connect(url);
 // }
 
+var audit = async ()=>{
+
+
+  return new Promise((resolve, reject) => {
+    var filbu = paths.jsons.dest+"bu.json"
+    FS.readFile(filbu,async (e,d)=>{
+      if(e){reject(e)}
+        else
+        {
+          var ext = __.map(JSON.parse(d),(b)=>{
+
+            return {
+              "episode":b.episode
+              ,"finder":b.instance+b.bit+b.tags
+            }
+
+          });
+
+          var eps = __.map(__.unique(__.pluck(inc,'episode')),(e)=>{
+
+            return {episode:e}
+
+  })//map
+
+          var rpoptions = {
+            uri: 'https://api.mlab.com/api/1/databases/cbbbits/collections/bits',
+            qs: {
+              apiKey:CONFIG.mongokey
+        // ,q: '{ $or: [ { "episode": 498 }, { "episode": 498 } ] }' // -> uri + '?access_token=xxxxx%20xxxxx'
+        ,q: '{ $or: '+JSON.stringify(eps)+' }' // -> uri + '?access_token=xxxxx%20xxxxx'
+      },
+      headers: {
+        'User-Agent': 'Request-Promise'
+      },
+    json: true // Automatically parses the JSON string in the response
+  }
+
+  try {
+    const response = await RP(rpoptions);
+    var ext = __.map(response,(b)=>{
+      return {episode:b.episode,finder:b.instance+b.bit+b.tags}
+    });
+
+    var dupez = __.filter(inc,async (d)=>{
+
+      return (__.pluck(ext,'finder'),d.finder==true)
+
+    })
+
+    console.log("dupez:",dupez)
+
+    resolve(dupez)
+
+    // return Promise.resolve(inc);
+  }
+  catch (error) {
+    // return Promise.reject(error);
+    reject(error)
+  }
+
+          // resolve(inc);
+        }
+
+  })//readfile
+  });//promise
+
+
+}//audit
+
 var write_extant_bits = async ()=>{
 
+  var url = "https://api.mlab.com/api/1/databases/"+CONFIG.mongodb+"/collections/"+CONFIG.mongocollx+"?apiKey="+CONFIG.mongokey+"&l=2"
 
-// https://api.mlab.com/api/1/databases/my-db/collections/my-coll?apiKey=myAPIKey
+  const options = {method: 'GET',json: true,uri: url};
 
-// Optional parameters
-// [q=<query>][&c=true][&f=<fields>][&fo=true][&s=<order>][&sk=<skip>][&l=<limit>]
+  try {
+    const response = await RP(options);
 
-var url = "https://api.mlab.com/api/1/databases/"+CONFIG.mongodb+"/collections/"+CONFIG.mongocollx+"?apiKey="+CONFIG.mongokey+"&l=2"
+// first  we reduce clutter
+var cleand = __.map(response,(d)=>{
 
-const options = {method: 'GET',json: true,uri: url};
+  return {"_id": d._id,
+  "episode": d.episode,
+  "show":d.show,
+  "tstart":d.tstart,
+  "tend":d.tend,
+  "instance":d.instance,
+  "bit":d.bit,
+  "location_type":d.location_type,
+  "location_id":d.location_id,
+  "updated_at":d.updated_at,
+  "elucidation":d.elucidation,
+  "url_soundcloud":d.url_soundcloud,
+  "tags": d.tags,
+  "created_at":d.created_at,
+  "slug_soundcloud":d.slug_soundcloud,
+  "slug_earwolf":d.slug_earwolf,
+  "episode_title":d.episode_title,
+  "episode_guests":d.episode_guests,
+  "id_wikia":d.id_wikia,
+  "holding":d.holding
+}
 
-try {
-  const response = await RP(options);
-
-  var fil = paths.jsons.dest+"bu.json"
-  FS.writeFile(fil,JSON.stringify(response),async (e)=>{
-    if(e){throw e};
-  })
-
+})//map
+// then  write to a file we can compress and store
+var fil = paths.jsons.dest+"bu.json"
+FS.writeFile(fil,JSON.stringify(cleand),async (e)=>{
+  if(e){throw e};
   return fil;
+})
+
 }
 catch (error) {
   console.log(error);
   return false;
 }
 
-var compare = async ()=>{
-
-  var extant = FS.read
-
-}//compare
-
-
 }//write_extant_bits
 
+var backupf = async()=>{
 
-var backup = async (f)=>{
+  var runid = MOMENT().format('YYYY_MMMM_dddd_hh_mm_ss');
+  console.log("backing up runid:"+runid+"...");
+  // var bud = paths.backup+"/"+runid;
+  // var buf = "bu.json";
+  // var but = bud+".tar";
+
+  var options = {
+    uri: 'https://api.mlab.com/api/1/databases/cbbbits/collections/bits',
+    qs: {
+      apiKey:CONFIG.mongokey
+        // ,q: '{ $or: [ { "episode": 498 }, { "episode": 498 } ] }' // -> uri + '?access_token=xxxxx%20xxxxx'
+        // ,q: '{ $or: '+JSON.stringify(eps)+' }' // -> uri + '?access_token=xxxxx%20xxxxx'
+      },
+      headers: {
+        'User-Agent': 'Request-Promise'
+      },
+    json: true // Automatically parses the JSON string in the response
+  }
+
+  try {
+    const response = await RP(options);
+
+    const gzip = ZLIB.createGzip();
+    const inp = FS.createReadStream(response);
+    const out = FS.createWriteStream(paths.backup+"/"+runid+".gz");
+
+    inp.pipe(gzip).pipe(out);
+
+    return Promise.resolve();
+  }
+  catch (error) {
+    return Promise.reject(error);
+  }
+
+}//backup
+
+var backup = async ()=>{
 
   var runid = MOMENT().format('YYYY_MMMM_dddd_hh_mm_ss');
   console.log("backing up runid:"+runid+"...");
   var bud = paths.backup+"/"+runid;
   var buf = "bu.json";
-  var but = bud+".tar";
+
 
   console.log("awaiting mongoset...");
-  var mongoset = await write_extant_bits();
+  // var mongoset = await write_extant_bits();
 
-
-  FS.mkdir(bud, null, function(err) {
-    if(err) {
-      return console.log(err);
-    } else {
-      console.log("madedir "+bud+" - time to fill it with bits");
-
-      const gzip = ZLIB.createGzip();
-      const inp = FS.createReadStream(paths.jsons.dest+"bu.json");
-      const out = FS.createWriteStream(bud+"/"+buf+".gz");
-
-      inp.pipe(gzip).pipe(out);
-
-    }
-
-}); //mkdir
-
+  const gzip = ZLIB.createGzip();
+  const inp = FS.createReadStream(paths.jsons.dest+"bu.json");
+  const out = FS.createWriteStream(paths.backup+"/"+runid+".gz");
+  inp.pipe(gzip).pipe(out);
 
 }
 
@@ -261,6 +371,7 @@ var img = ()=>{
  exports.clean = clean;
  exports.backup = backup;
  exports.write_extant_bits = write_extant_bits;
+ exports.audit = audit;
 
 /*
  * Specify if tasks run in series or parallel using `GULP.series` and `GULP.parallel`
@@ -279,10 +390,12 @@ var img = ()=>{
 //
 var build = GULP.series(
 // clean any leftover stuff
-clean,
+// clean,
 // back up extant mongo
-backup
-,compare
+write_extant_bits,
+// ,backup
+// backup
+audit
   // ,clean
   // clean //clean out stagin area
   // ,GULP.parallel(
