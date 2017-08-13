@@ -74,11 +74,32 @@ var clean = ()=>{
     ]);
 }
 
-/* ------------------------- BACKUP ------------- */
+var send = async ()=>{
 
-// var test = async function () {
-//   return await MongoClient.connect(url);
-// }
+  return new Promise((resolve,reject)=>{
+
+// we'll read incoming bits here
+console.log("reading incoming...")
+
+// we'll throw fresh bits to local solr here
+console.log("sending locally...")
+
+// then, pending success (failure might indicate a syntax issue), post to mlab
+console.log("sending to mlab...")
+
+// then resolve/reject
+var nb= 99;
+
+console.log("fake count:",nb)
+
+if(nb>0){
+  resolve();} else{
+    reject("fewer than 0 bits made it to mlab")
+  }
+
+})//promise
+
+}//send
 
 var audit = async ()=>{
 
@@ -134,12 +155,12 @@ var audit = async ()=>{
 
                   var du = __.intersection(__.pluck(inc,'finder'), __.pluck(ext,'finder'));
 
-                  console.log("lenth:")
+                  console.log("duplicate count:")
                   console.log(du.length)
                   if(du.length>0){
                     reject("duplicates found")
                   } else{
-                    resolve(du);}
+                    resolve();}
                   }
 
   })//readfile2
@@ -155,6 +176,40 @@ var audit = async ()=>{
 
 
 }//audit
+
+
+var globals = async ()=>{
+
+
+  return new Promise((resolve, reject) => {
+    var filbu = '../cbb-news-json.json'
+    FS.readFile(filbu,async (e,d)=>{
+      if(e){reject(e)}
+        else
+        {
+
+          var raw = JSON.parse(d);
+          // var eps = __.unique(__.pluck(raw,'episode'))
+          // var eps = __.first(__.unique(__.pluck(raw,'episode')),10)
+
+          var bits = __.countBy(raw,'bit')
+
+          console.log(bits)
+
+          var R = {}
+          R.count = raw.length
+          R.episodes = (eps.length<=10)?eps.join(", "):"more than 10 episodes";
+
+          // console.log("R",R)
+
+          resolve(R)
+        }
+
+  })//readfile1
+  });//promise
+
+
+}//globals
 
 var write_extant_bits = async ()=>{
 
@@ -191,6 +246,9 @@ var cleand = __.map(response,(d)=>{
 }
 
 })//map
+
+console.log("writing "+cleand.length+" extant bits...")
+
 // then  write to a file we can compress and store
 var fil = paths.jsons.dest+"bu.json"
 FS.writeFile(fil,JSON.stringify(cleand),async (e)=>{
@@ -260,7 +318,7 @@ var backup = async ()=>{
   const out = FS.createWriteStream(paths.backup+"/"+runid+".gz");
   inp.pipe(gzip).pipe(out);
 
-}
+}//backup
 
 /* ------------------------- IMG ------------- */
 
@@ -350,7 +408,6 @@ var img = ()=>{
     .pipe(GULP.dest(paths.jsons.dest));
   };
 
-
   /* ------------------------- TEMPLATES ------------- */
 
   var handlez = ()=>{
@@ -387,23 +444,23 @@ var img = ()=>{
 // test for UN-indexed dcarto records
 // (if any) back up extant carto
 // send unindexed carto records to both dev (localhost) and prod (openshift) Solrs
-// get hot episodes from -live && -news (unless they're merged already)
+// optionally backup from mlab api
+// get hot episodes from -live || -news
 // pull an array of extant instances for those eps
-// each through the eps, testing for existence
-// for nonexisten1t, insert to Mongo
-// do fresh export of Mongo into dev and prod Solrs
-// test
+// dupe test
+// if dupes, error out, else...
+// send -news || -lives to local && remote solrs
 // build #updates template && globals.js queries from same
-//
+
+// run remaining (standard) gulp tasks to build site
+
 var build = GULP.series(
-// clean any leftover stuff
 // clean,
-// back up extant mongo
-write_extant_bits,
+// write_extant_bits,
 // ,backup
-// backup
-audit
-  // ,clean
+// audit,
+send
+,globals
   // clean //clean out stagin area
   // ,GULP.parallel(
   //   copystyle
