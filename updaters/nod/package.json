@@ -45,6 +45,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-wrap": "^0.13.0",
+    "handlebars": "^4.0.10",
     "jeet": "^6.1.4",
     "kouto-swiss": "^0.11.14",
     "mongobackup": "^0.3.5",
