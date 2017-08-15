@@ -8,6 +8,7 @@ var GULP = require('gulp')
 ,UGLIFY = require('gulp-uglify')
 ,BROWSERSYNC = require('browser-sync')
 ,HANDLEBARS      = require('gulp-handlebars')
+,HBC      = require('handlebars')
 ,PLUMBER     = require('gulp-plumber')
 ,WRAP    = require('gulp-wrap')
 ,DECLARE    = require('gulp-declare')
@@ -177,30 +178,56 @@ var audit = async ()=>{
 
 }//audit
 
+var test = async()=>{
 
-var globals = async ()=>{
+  return new Promise((resolve, reject) => {
+    console.log("whats comin in ",filin)
+    resolve(1);
+  });
+
+}//test
+
+var render = async ()=>{
 
 
   return new Promise((resolve, reject) => {
-    var filbu = '../cbb-news-json.json'
-    FS.readFile(filbu,async (e,d)=>{
+    var filin = '../cbb-news-json.json'
+    FS.readFile(filin,async (e,d)=>{
       if(e){reject(e)}
         else
         {
 
           var raw = JSON.parse(d);
           // var eps = __.unique(__.pluck(raw,'episode'))
-          // var eps = __.first(__.unique(__.pluck(raw,'episode')),10)
-
-          var bits = __.countBy(raw,'bit')
-
-          console.log(bits)
+          var eps = __.first(__.unique(__.pluck(raw,'episode')),10)
 
           var R = {}
-          R.count = raw.length
-          R.episodes = (eps.length<=10)?eps.join(", "):"more than 10 episodes";
+          R.date = MOMENT().format('YYYY.MMM.DD')
+          R.eps = []
+          R.count = eps.length
 
-          // console.log("R",R)
+          __.each(eps,(ep)=>{
+
+            var er = {episode:ep}
+            var bfe = __.filter(raw,(e)=>{return e.episode==ep});
+            er.bits = __.countBy(bfe,'bit')
+
+            R.eps.push(er)
+
+          })//each.eps
+
+          R.epstring = eps.join(", ")+":"
+
+          var source = "<div class='pull-left col-sm-12'><h3>{{date}}</h3><div style='padding-bottom:10px;'>{{count}} from episodes {{epstring}}{{#each eps}}<ul><h4>from ep.{{this.episode}}:</h4>{{#each this.bits}}"
+          +"<li><a href='#query/episode:{{../episode}} AND bit:%22{{@key}}%22'>{{this}} {{@key}}</a></li>"
+          +"{{/each}}</ul>{{/each}}</div></div>";
+
+          var template = HBC.compile(source);
+
+          var result = template(R);
+
+          // console.log(result)
+          // console.log(JSON.stringify(R))
 
           resolve(R)
         }
@@ -460,7 +487,8 @@ var build = GULP.series(
 // ,backup
 // audit,
 send
-,globals
+,render
+// ,test
   // clean //clean out stagin area
   // ,GULP.parallel(
   //   copystyle
