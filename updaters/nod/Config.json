@@ -3,7 +3,7 @@
    "mongokey":"Oej5kBywWZELoJuzhnfbjcH6daERHti9",
    "mongocollx":"bits",
 "mongoport":"33599",
-"mongohost":"ds033599.mlab.com"
-,"mongouser":"cecmcgee"
-,"mongopsswd":"5NWpI1"
+"mongohost":"localhost"
+,"mongouser":""
+,"mongopsswd":""
  }
