@@ -226,7 +226,7 @@ var render = async ()=>{
 
           var result = template(R);
 
-          // console.log(result)
+          console.log(result)
           // console.log(JSON.stringify(R))
 
           resolve(R)
