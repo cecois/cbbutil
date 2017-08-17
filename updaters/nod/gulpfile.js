@@ -333,16 +333,16 @@ var backup = async ()=>{
 
   var runid = MOMENT().format('YYYY_MMMM_dddd_hh_mm_ss');
   console.log("backing up runid:"+runid+"...");
-  var bud = paths.backup+"/"+runid;
+  var bud = paths.backup+runid;
+  console.log("bud is ",bud);
   var buf = "bu.json";
-
 
   console.log("awaiting mongoset...");
   // var mongoset = await write_extant_bits();
 
   const gzip = ZLIB.createGzip();
   const inp = FS.createReadStream(paths.jsons.dest+"bu.json");
-  const out = FS.createWriteStream(paths.backup+"/"+runid+".gz");
+  const out = FS.createWriteStream(paths.backup+runid+".gz");
   inp.pipe(gzip).pipe(out);
 
 }//backup
@@ -484,10 +484,10 @@ var img = ()=>{
 var build = GULP.series(
 // clean,
 // write_extant_bits,
-// ,backup
-// audit,
-send
-,render
+// backup
+audit
+,send
+// ,render
 // ,test
   // clean //clean out stagin area
   // ,GULP.parallel(
