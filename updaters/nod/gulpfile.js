@@ -1,7 +1,7 @@
 var GULP = require('gulp')
 ,LESS = require('gulp-less')
 ,FS = require('fs')
-// ,MONGOCLIENT = require('mongodb').MongoClient
+,MONGO = require('mongodb').MongoClient
 // ,MONGO = require('mongo-async')
 ,__ = require('underscore')
 ,CONCAT = require('gulp-concat')
@@ -10,10 +10,12 @@ var GULP = require('gulp')
 ,HANDLEBARS      = require('gulp-handlebars')
 ,HBC      = require('handlebars')
 ,PLUMBER     = require('gulp-plumber')
+,DEBUG     = require('gulp-debug')
 ,WRAP    = require('gulp-wrap')
 ,DECLARE    = require('gulp-declare')
 ,RENAME = require('gulp-rename')
 ,CLEANCSS = require('gulp-clean-css')
+,SOLR = require('solr-client')
 ,DEL = require('del')
 ,IMAGEMIN    = require('gulp-imagemin')
 ,CP          = require('child_process')
@@ -25,12 +27,14 @@ var GULP = require('gulp')
 RP=require('request-promise')
 ;
 
-// var url = 'mongodb://'+CONFIG.mongouser+':'+CONFIG.mongopsswd+'@'+CONFIG.mongohost+':'+CONFIG.mongoport+'/'+CONFIG.mongodb;
-
 
 var paths = {
   staging:"staging"
-  ,backup:"backup"
+  ,site:{
+    src:"../../site/src"
+    ,dist:"../../site/dist"
+  }
+  // ,backup:"backup"
   ,styles: {
     src: 'src-css/**/*.less'
     ,staging:"staging/"
@@ -75,32 +79,82 @@ var clean = ()=>{
     ]);
 }
 
-var send = async ()=>{
+var mongify = async ()=>{
+
+  return new Promise((resolve,reject)=>{
+    FS.readFile('../cbb-news-json.json',async (e,d)=>{
+      if(e){reject(e)}
+        else
+        {
+
+
+          var docs = __.first(JSON.parse(d),2);
+          
+          const url = 'mongodb://localhost/cbbbits'
+          
+          MONGO.connect(url, function(err, db) {
+            var col = db.collection('bits');
+            col.insertMany(docs).then((r)=>{
+              db.close();
+              resolve(r);
+            });
+
+          });
+
+
+}//else
+
+  })//readfile
+
+})//promise
+
+}//mongify
+
+var solrfy = async ()=>{
 
   return new Promise((resolve,reject)=>{
 
 // we'll read incoming bits here
 console.log("reading incoming...")
 
-// we'll throw fresh bits to local solr here
-console.log("sending locally...")
+var options = {
+  host : "localhost",
+  port : "8983",
+  core : "cbb_bits",
+  path : "/solr",
+  solrVersion: "4.10.2"
+};
 
-// then, pending success (failure might indicate a syntax issue), post to mlab
-console.log("sending to mlab...")
+var client = SOLR.createClient(options);
 
-// then resolve/reject
-var nb= 99;
+// Switch on "auto commit", by default `client.autoCommit = false`
+client.autoCommit = true;
 
-console.log("fake count:",nb)
+FS.readFile(paths.staging+"/bu.json",async (e,d)=>{
+  if(e){reject(e)}
+    else
+    {
 
-if(nb>0){
-  resolve();} else{
-    reject("fewer than 0 bits made it to mlab")
-  }
+
+      var docs = __.first(JSON.parse(d),2);
+// Add documents
+client.add(docs,function(err,obj){
+ if(err){
+  console.log(err);
+  reject(err)
+}else{
+  console.log(obj);
+  resolve(obj)
+}
+});//add
+
+}//else
+
+  })//readfile
 
 })//promise
 
-}//send
+}//solrfy
 
 var audit = async ()=>{
 
@@ -141,7 +195,7 @@ var audit = async ()=>{
                       "location_type":b.location_type,
                       "location_id":b.location_id,
                       "updated_at":b.updated_at,
-                      "url_soundcloud":b.url_soundcloud,
+                      // "url_soundcloud":b.url_soundcloud,
                       "created_at":b.created_at,
                       "slug_soundcloud":b.slug_soundcloud,
                       "slug_earwolf":b.slug_earwolf,
@@ -178,16 +232,8 @@ var audit = async ()=>{
 
 }//audit
 
-var test = async()=>{
 
-  return new Promise((resolve, reject) => {
-    console.log("whats comin in ",filin)
-    resolve(1);
-  });
-
-}//test
-
-var render = async ()=>{
+var render_update_copy = async ()=>{
 
 
   return new Promise((resolve, reject) => {
@@ -198,7 +244,6 @@ var render = async ()=>{
         {
 
           var raw = JSON.parse(d);
-          // var eps = __.unique(__.pluck(raw,'episode'))
           var eps = __.first(__.unique(__.pluck(raw,'episode')),10)
 
           var R = {}
@@ -228,15 +273,21 @@ var render = async ()=>{
 
           console.log(result)
           // console.log(JSON.stringify(R))
+          FS.writeFile(paths.staging+"/update.html",result,async (e)=>{
+            if(e){reject(e);}
+            else{
+              resolve(R)
+        }//else
+          });//writefile
 
-          resolve(R)
+
         }
 
   })//readfile1
   });//promise
 
 
-}//globals
+}//render_update_copy
 
 var write_extant_bits = async ()=>{
 
@@ -250,7 +301,7 @@ var write_extant_bits = async ()=>{
 // first  we reduce clutter
 var cleand = __.map(response,(d)=>{
 
-  return {"_id": d._id,
+  return {"_id": d._id.$oid,
   "episode": d.episode,
   "show":d.show,
   "tstart":d.tstart,
@@ -261,13 +312,13 @@ var cleand = __.map(response,(d)=>{
   "location_id":d.location_id,
   "updated_at":d.updated_at,
   "elucidation":d.elucidation,
-  "url_soundcloud":d.url_soundcloud,
+  // "url_soundcloud":d.url_soundcloud,
   "tags": d.tags,
   "created_at":d.created_at,
   "slug_soundcloud":d.slug_soundcloud,
   "slug_earwolf":d.slug_earwolf,
   "episode_title":d.episode_title,
-  "episode_guests":d.episode_guests,
+  "guests":d.episode_guests,
   "id_wikia":d.id_wikia,
   "holding":d.holding
 }
@@ -291,43 +342,43 @@ catch (error) {
 
 }//write_extant_bits
 
-var backupf = async()=>{
+// var backupf = async()=>{
 
-  var runid = MOMENT().format('YYYY_MMMM_dddd_hh_mm_ss');
-  console.log("backing up runid:"+runid+"...");
-  // var bud = paths.backup+"/"+runid;
-  // var buf = "bu.json";
-  // var but = bud+".tar";
+//   var runid = MOMENT().format('YYYY_MMMM_dddd_hh_mm_ss');
+//   console.log("backing up runid:"+runid+"...");
+//   // var bud = paths.backup+"/"+runid;
+//   // var buf = "bu.json";
+//   // var but = bud+".tar";
 
-  var options = {
-    uri: 'https://api.mlab.com/api/1/databases/cbbbits/collections/bits',
-    qs: {
-      apiKey:CONFIG.mongokey
-        // ,q: '{ $or: [ { "episode": 498 }, { "episode": 498 } ] }' // -> uri + '?access_token=xxxxx%20xxxxx'
-        // ,q: '{ $or: '+JSON.stringify(eps)+' }' // -> uri + '?access_token=xxxxx%20xxxxx'
-      },
-      headers: {
-        'User-Agent': 'Request-Promise'
-      },
-    json: true // Automatically parses the JSON string in the response
-  }
+//   var options = {
+//     uri: 'https://api.mlab.com/api/1/databases/cbbbits/collections/bits',
+//     qs: {
+//       apiKey:CONFIG.mongokey
+//         // ,q: '{ $or: [ { "episode": 498 }, { "episode": 498 } ] }' // -> uri + '?access_token=xxxxx%20xxxxx'
+//         // ,q: '{ $or: '+JSON.stringify(eps)+' }' // -> uri + '?access_token=xxxxx%20xxxxx'
+//       },
+//       headers: {
+//         'User-Agent': 'Request-Promise'
+//       },
+//     json: true // Automatically parses the JSON string in the response
+//   }
 
-  try {
-    const response = await RP(options);
+//   try {
+//     const response = await RP(options);
 
-    const gzip = ZLIB.createGzip();
-    const inp = FS.createReadStream(response);
-    const out = FS.createWriteStream(paths.backup+"/"+runid+".gz");
+//     const gzip = ZLIB.createGzip();
+//     const inp = FS.createReadStream(response);
+//     const out = FS.createWriteStream(paths.backup+"/"+runid+".gz");
 
-    inp.pipe(gzip).pipe(out);
+//     inp.pipe(gzip).pipe(out);
 
-    return Promise.resolve();
-  }
-  catch (error) {
-    return Promise.reject(error);
-  }
+//     return Promise.resolve();
+//   }
+//   catch (error) {
+//     return Promise.reject(error);
+//   }
 
-}//backup
+//}//backup
 
 var backup = async ()=>{
 
@@ -337,8 +388,6 @@ var backup = async ()=>{
   console.log("bud is ",bud);
   var buf = "bu.json";
 
-  console.log("awaiting mongoset...");
-  // var mongoset = await write_extant_bits();
 
   const gzip = ZLIB.createGzip();
   const inp = FS.createReadStream(paths.jsons.dest+"bu.json");
@@ -350,10 +399,11 @@ var backup = async ()=>{
 /* ------------------------- IMG ------------- */
 
 var img = ()=>{
-  return GULP.src(paths.img.src)
+  return GULP.src(paths.site.src+"/images/**/*.{jpg,png,gif,svg}")
   .pipe(PLUMBER())
   .pipe(IMAGEMIN({ optimizationLevel: 3, progressive: true, interlaced: true }))
-  .pipe(GULP.dest(paths.img.dest));
+  .pipe(DEBUG())
+  .pipe(GULP.dest(paths.site.dist+"/images/"));
  }//img
 
  /* ------------------------- STYLE ------------- */
@@ -390,13 +440,6 @@ var img = ()=>{
 
 
   /* ------------------------- JS ------------- */
-  function scriptsog() {
-    return GULP.src(paths.scripts.src, { sourcemaps: true })
-    // .pipe(babel())
-    .pipe(uglify())
-    .pipe(concat('main.min.js'))
-    .pipe(GULP.dest(paths.scripts.dest));
-  }
 
 
   var scripts = ()=>{
@@ -460,9 +503,12 @@ var img = ()=>{
  * You can use CommonJS `exports` module notation to declare tasks
  */
  exports.clean = clean;
+ exports.write_extan
+ t_bits = write_extant_bits;
  exports.backup = backup;
- exports.write_extant_bits = write_extant_bits;
  exports.audit = audit;
+ exports.mongify = mongify;
+ exports.solrfy = solrfy;
 
 /*
  * Specify if tasks run in series or parallel using `GULP.series` and `GULP.parallel`
@@ -485,16 +531,18 @@ var build = GULP.series(
 // clean,
 // write_extant_bits,
 // backup
-audit
-,send
-// ,render
+// audit,
+// mongify
+// write_extant_bits
+// solrfy
+// render_update_copy
 // ,test
   // clean //clean out stagin area
-  // ,GULP.parallel(
-  //   copystyle
-  //   ,copyjs
-  //   ,img
-  //   ) //parallel
+  GULP.parallel(
+    img
+    // copystyle
+    // ,copyjs
+    ) //parallel
   // ,handlez
   // ,GULP.parallel(
   //   styles

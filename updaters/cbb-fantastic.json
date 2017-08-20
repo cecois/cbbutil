@@ -15823,3 +15823,66 @@
 	"id_wikia": 5284,
 	"holding": "false"
 }
+
+{
+	"episode": 501,
+	"show": "cbb",
+	"tstart": "16:00",
+	"tend": "16:07",
+	"instance": "I really enjoy that.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-08-16T08:06:14Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/501-manchester-orchestra-jessica-mckenna-zach-reino/#t=16:00",
+	"created_at": "2017-08-16T08:06:14Z",
+	"slug_soundcloud": "501-manchester-orchestra-jessica-mckenna-zach-reino",
+	"slug_earwolf": "manchester-orchestras-kith-and-kin",
+	"episode_title": "Manchester Orchestra’s Kith and Kin",
+	"episode_guests": "Manchester Orchestra,Jessica McKenna,Zach Reino",
+	"id_wikia": null,
+	"holding": "false"
+}
+
+{
+	"episode": 501,
+	"show": "cbb",
+	"tstart": "49:44",
+	"tend": "49:50",
+	"instance": "It's like a subliminal sort of suggestion.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "Sissy Montgomery",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-08-16T08:06:14Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/501-manchester-orchestra-jessica-mckenna-zach-reino/#t=49:44",
+	"created_at": "2017-08-16T08:06:14Z",
+	"slug_soundcloud": "501-manchester-orchestra-jessica-mckenna-zach-reino",
+	"slug_earwolf": "manchester-orchestras-kith-and-kin",
+	"episode_title": "Manchester Orchestra’s Kith and Kin",
+	"episode_guests": "Manchester Orchestra,Jessica McKenna,Zach Reino",
+	"id_wikia": null,
+	"holding": "false"
+}
+
+{
+	"episode": 501,
+	"show": "cbb",
+	"tstart": "1:25:30",
+	"tend": "1:25:39",
+	"instance": "I hold them there in posterity.",
+	"bit":"Fantastic.","elucidation":"one of scott's 25 words",
+	"tags": "Sissy Montgomery",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2017-08-16T08:06:14Z",
+	"url_soundcloud": "https://soundcloud.com/comedybangbang/501-manchester-orchestra-jessica-mckenna-zach-reino/#t=1:25:30",
+	"created_at": "2017-08-16T08:06:14Z",
+	"slug_soundcloud": "501-manchester-orchestra-jessica-mckenna-zach-reino",
+	"slug_earwolf": "manchester-orchestras-kith-and-kin",
+	"episode_title": "Manchester Orchestra’s Kith and Kin",
+	"episode_guests": "Manchester Orchestra,Jessica McKenna,Zach Reino",
+	"id_wikia": null,
+	"holding": "false"
+}
