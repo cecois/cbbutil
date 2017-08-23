@@ -41,7 +41,7 @@
     "gulp-cssmin": "^0.2.0",
     "gulp-debug": "^3.1.0",
     "gulp-declare": "^0.3.0",
-    "gulp-handlebars": "^4.0.0",
+    "gulp-handlebars": "^4.0.10",
     "gulp-less": "^3.3.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
