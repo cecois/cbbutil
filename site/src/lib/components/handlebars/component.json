@@ -1,0 +1,16 @@
+{
+  "name": "handlebars",
+  "repo": "components/handlebars.js",
+  "version": "1.0.0",
+  "main": "handlebars.js",
+  "scripts": [
+    "handlebars.js"
+  ],
+  "readme": "Handlebars.js\n=============\n\nShim repository for [Handlebars.js](http://handlebarsjs.com).\n\nPackage Managers\n----------------\n\n* [Bower](http://twitter.github.com/bower/): `handlebars`\n* [Component](http://github.com/component/component): `components/handlebars.js`\n* [Composer](http://packagist.org/packages/components/handlebars.js): `components/handlebars.js`\n",
+  "_id": "handlebars@1.0.0",
+  "description": "Handlebars.js =============",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/components/handlebars.js"
+  }
+}
