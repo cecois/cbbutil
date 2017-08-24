@@ -2,6 +2,7 @@
 * interesting people
 	* several of the 480+ eps
 	* 490,1:55(paywall)
+	* 505,10:00
 	* 503,24:00
 	* 503,1:05:20
 	* 502,14:45
