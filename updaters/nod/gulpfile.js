@@ -54,10 +54,8 @@ var paths = {
 
 var browsersync =()=>{
   BROWSERSYNC({
-    files: ['../site/src/js/models/**/*','../site/src/js/views/**/*','../site/src/js/*.js','!../site/src/js/H-templates-compiled.js']
-    ,server: {
-      baseDir: paths.site.src
-    }
+    files: [paths.site.src+"/js/*.js"]
+    ,server: ['interm/*/**']
   });
 };
 
@@ -341,14 +339,14 @@ var copyjs=  ()=>{
     ,paths.site.src+"/lib/tile.stamen.js?v1.2.0"
     ,paths.site.src+"/js/H-templates-compiled.js"
     ,paths.site.src+"/lib/components/jquery/jquery.min.js"
-    ,paths.site.src+"/js/jquery.liveFilter.js"
-    ,paths.site.src+"/js/wicket.js"
-    ,paths.site.src+"/js/leaflet-history.js"
-    ,paths.site.src+"/js/wicket-leaflet.js"
-    ,paths.site.src+"/js/nprogress.js"
-    ,paths.site.src+"/js/bootstrap.min.js"
-    ,paths.site.src+"/js/underscore-min.js"
-    ,paths.site.src+"/js/backbone-min.js"
+    ,paths.site.src+"/lib/jquery.liveFilter.js"
+    ,paths.site.src+"/lib/Wicket/wicket.js"
+    ,paths.site.src+"/lib/leaflet-history.js"
+    ,paths.site.src+"/lib/Wicket/wicket-leaflet.js"
+    ,paths.site.src+"/lib/nprogress.js"
+    ,paths.site.src+"/lib/bootstrap.min.js"
+    ,paths.site.src+"/lib/underscore-min.js"
+    ,paths.site.src+"/lib/backbone-min.js"
     ,paths.site.src+"/js/globals.js"
     ])
   .pipe(GULP.dest("interm/js/"));
@@ -442,6 +440,8 @@ var develop = GULP.series(
   handlez_dev
   ,htmlmin
   ,views_y_models
+  ,copyjs
+  ,copycss
   ,GULP.parallel(
     browsersync
     // ,watch_dev
