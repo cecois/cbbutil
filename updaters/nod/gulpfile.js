@@ -56,7 +56,7 @@ var browsersync =()=>{
   BROWSERSYNC({
     files: ['../site/src/js/models/**/*','../site/src/js/views/**/*','../site/src/js/*.js','!../site/src/js/H-templates-compiled.js']
     ,server: {
-      baseDir: "interm/"
+      baseDir: paths.site.src
     }
   });
 };
@@ -223,9 +223,10 @@ var stagejs = ()=> {
 /* ------------------------- JS ------------- */
 
 
-var views = ()=>{
+var views_y_models = ()=>{
   return GULP.src([
-    paths.site.src+"/js/views/BaseLayerMenuItemView.js"
+    paths.site.src+"/js/models.js"
+    ,paths.site.src+"/js/views/BaseLayerMenuItemView.js"
     ,paths.site.src+"/js/views/ActivityView.js"
     ,paths.site.src+"/js/views/BaseLayersMenuView.js"
     ,paths.site.src+"/js/views/BaseLayersView.js"
@@ -250,10 +251,12 @@ var views = ()=>{
     ,paths.site.src+"/js/views/QuerySubNavView.js"
     ,paths.site.src+"/js/views/QueryView.js"
     ,paths.site.src+"/js/views/SolrFieldzView.js"
+    ,paths.site.src+"/js/app.js"
+    ,paths.site.src+"/js/routes.js"
     ])
   .pipe(PLUMBER())
   .pipe(UGLIFY())
-  .pipe(CONCAT('views.min.js'))
+  .pipe(CONCAT('vm.min.js'))
   .pipe(GULP.dest("interm/js/"))
 }
 
@@ -327,18 +330,37 @@ var htmlmin = ()=>{
   .pipe(GULP.dest("interm/"))
 }
 
-  // var copyjs=  ()=>{
-  //   return GULP.src([
-  //     'src-scripts/App.js'
-  //     ,'src-scripts/Routes.js'
-  //     ])
-  //   .pipe(GULP.dest(paths.scripts.dest));
-  // };
-
-  var stage=  ()=>{
-    return GULP.src(paths.jsons.src)
-    .pipe(GULP.dest(paths.jsons.dest));
+var copyjs=  ()=>{
+  return GULP.src([
+    paths.site.src+"/lib/less-1.7.5.min.js"
+    ,paths.site.src+"/lib/components/handlebars/handlebars.runtime.min.js"
+    ,paths.site.src+"/lib/moment.js"
+    ,paths.site.src+"/lib/octokat.js"
+    ,paths.site.src+"/lib/components/throbber.js/throbber.js"
+    ,paths.site.src+"/lib/leaflet/leaflet.js"
+    ,paths.site.src+"/lib/tile.stamen.js?v1.2.0"
+    ,paths.site.src+"/js/H-templates-compiled.js"
+    ,paths.site.src+"/lib/components/jquery/jquery.min.js"
+    ,paths.site.src+"/js/jquery.liveFilter.js"
+    ,paths.site.src+"/js/wicket.js"
+    ,paths.site.src+"/js/leaflet-history.js"
+    ,paths.site.src+"/js/wicket-leaflet.js"
+    ,paths.site.src+"/js/nprogress.js"
+    ,paths.site.src+"/js/bootstrap.min.js"
+    ,paths.site.src+"/js/underscore-min.js"
+    ,paths.site.src+"/js/backbone-min.js"
+    ,paths.site.src+"/js/globals.js"
+    ])
+  .pipe(GULP.dest("interm/js/"));
+};
+  // 
+  var copycss=  ()=>{
+    return GULP.src(
+      paths.site.src+"/css/*.*")
+    .pipe(GULP.dest("interm/css/"));
   };
+
+
 
   /* ------------------------- TEMPLATES ------------- */
 
@@ -392,8 +414,10 @@ var htmlmin = ()=>{
  exports.handlez = handlez;
  exports.handlez_dev = handlez_dev;
  exports.stagejs = stagejs;
+ exports.copycss = copycss;
+ exports.copyjs = copyjs;
  // exports.scripts = scripts;
- exports.views = views;
+ exports.views_y_models = views_y_models;
  exports.htmlmin = htmlmin;
  exports.offline = offline;
 
@@ -416,9 +440,14 @@ var htmlmin = ()=>{
 
 var develop = GULP.series(
   handlez_dev
-  ,browsersync
-  // ,watch_dev
+  ,htmlmin
+  ,views_y_models
+  ,GULP.parallel(
+    browsersync
+    // ,watch_dev
+    )
   );//develop
+
 
 var build = GULP.series(
   GULP.parallel(
@@ -429,7 +458,7 @@ var build = GULP.series(
     ,lessen
     ,htmlmin
     ,stagejs
-    ,views
+    ,views_y_models
     // ,handlez
     ) //parallel
   // ,handlez
@@ -458,5 +487,5 @@ var build = GULP.series(
 /*
  * Define default task that can be called by just running `gulp` from cli
  */
- GULP.task('default', build);
- // GULP.task('default', develop);
+ // GULP.task('default', build);
+ GULP.task('default', develop);
