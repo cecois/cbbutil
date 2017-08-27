@@ -55,7 +55,7 @@ var paths = {
 var browsersync =()=>{
   BROWSERSYNC({
     files: [paths.site.src+"/js/*.js"]
-    ,server: ['interm/*/**']
+    ,server: ['interm/']
   });
 };
 
@@ -92,6 +92,7 @@ var fonts = ()=> {
     paths.site.src+"/css/fonts/**/*.{otf,ttf}"
     ,paths.site.src+"/lib/icomoon/fonts/**/*.{eot,svg,ttf,woff}"
     ,paths.site.src+"/lib/components/bootstrap/fonts/**/*.{eot,svg,ttf,woff}"
+    ,paths.site.src+"/lib/icomoon/fonts/*.{woff,ttf,svg,eot}"
     ]
     )
   .pipe(DEBUG())
@@ -109,7 +110,7 @@ var stylecopy = ()=> {
     ,paths.site.src+"/lib/components/off-canvas-menu/general.css"
     ,paths.site.src+"/lib/components/off-canvas-menu/header.css"
     ,paths.site.src+"/lib/components/bootstrap/dist/css/bootstrap.min.css"
-    ,paths.site.src+"/lib/leaflet-history.css"
+    // ,paths.site.src+"/lib/leaflet-history.css"
     ,paths.site.src+"/lib/icomoon/style.css"
     ]
     )
@@ -117,105 +118,7 @@ var stylecopy = ()=> {
   .pipe(GULP.dest("interm/css/"))
 };
 
-var stagejs = ()=> {
-  return GULP.src(
-    [
-    paths.site.src+"/lib/components/handlebars/handlebars.runtime.min.js"
-    ,paths.site.src+"/lib/moment.js"
-    ,paths.site.src+"/lib/octokat.js"
-    ,paths.site.src+"/lib/components/throbber.js/throbber.js"
-    ,paths.site.src+"/lib/less-1.7.5.min.js"
-    ,paths.site.src+"/js/globals.js"
-    ,paths.site.src+"/lib/leaflet/leaflet.js"
-    ,paths.site.src+"/lib/tile.stamen.js"
-    ,paths.site.src+"/js/H-templates-compiled.js"
-    ,paths.site.src+"/lib/components/jquery/jquery.min.js"
-    ,paths.site.src+"/lib/jquery.liveFilter.js"
-    ,paths.site.src+"/lib/Wicket/wicket.js"
-    ,paths.site.src+"/lib/leaflet-history.js"
-    ,paths.site.src+"/lib/Wicket/wicket-leaflet.js"
-    ,paths.site.src+"/lib/nprogress.js"
-    ,paths.site.src+"/lib/bootstrap.min.js"
-    ,paths.site.src+"/lib/underscore-min.js"
-    ,paths.site.src+"/lib/backbone-min.js"
-    ,paths.site.src+"/js/models.js"
-    // ,paths.site.src+"/js/views/BaseLayerMenuItemView.js"
-    // ,paths.site.src+"/js/views/ActivityView.js"
-    // ,paths.site.src+"/js/views/BaseLayersMenuView.js"
-    // ,paths.site.src+"/js/views/BaseLayersView.js"
-    // ,paths.site.src+"/js/views/BaseMapView.js"
-    // ,paths.site.src+"/js/views/CartoCollxCountView.js"
-    // ,paths.site.src+"/js/views/BitsView.js"
-    // ,paths.site.src+"/js/views/BitsCountView.js"
-    // ,paths.site.src+"/js/views/CartoCollxView.js"
-    // ,paths.site.src+"/js/views/CartoListView.js"
-    // ,paths.site.src+"/js/views/ConsoleView.js"
-    // ,paths.site.src+"/js/views/EpisodesView.js"
-    // ,paths.site.src+"/js/views/EpisodeView.js"
-    // ,paths.site.src+"/js/views/RecentsView.js"
-    // ,paths.site.src+"/js/views/FacetsView.js"
-    // ,paths.site.src+"/js/views/StatesView.js"
-    // ,paths.site.src+"/js/views/SharesView.js"
-    // ,paths.site.src+"/js/views/HuhView.js"
-    // ,paths.site.src+"/js/views/UpdateView.js"
-    // ,paths.site.src+"/js/views/HelpView.js"
-    // ,paths.site.src+"/js/views/MethodView.js"
-    // ,paths.site.src+"/js/views/PopupView.js"
-    // ,paths.site.src+"/js/views/QuerySubNavView.js"
-    // ,paths.site.src+"/js/views/QueryView.js"
-    // ,paths.site.src+"/js/views/SolrFieldzView.js"
-    ,paths.site.src+"/js/app.js"
-    ,paths.site.src+"/js/routes.js"
-    ,paths.site.src+"/lib/moment.js"
-    ,paths.site.src+"/lib/octokat.js"
-    ,paths.site.src+"/lib/components/throbber.js/throbber.js"
-    ,paths.site.src+"/lib/less-1.7.5.min.js"
-    ,paths.site.src+"/js/globals.js"
-    ,paths.site.src+"/lib/leaflet/leaflet.js"
-    ,paths.site.src+"/lib/tile.stamen.js?v1.2.0"
-    ,paths.site.src+"/js/H-templates-compiled.js"
-    ,paths.site.src+"/lib/components/jquery/jquery.min.js"
-    ,paths.site.src+"/lib/jquery.liveFilter.js"
-    ,paths.site.src+"/lib/Wicket/wicket.js"
-    ,paths.site.src+"/lib/leaflet-history.js"
-    ,paths.site.src+"/lib/Wicket/wicket-leaflet.js"
-    ,paths.site.src+"/lib/nprogress.js"
-    ,paths.site.src+"/lib/bootstrap.min.js"
-    ,paths.site.src+"/lib/underscore-min.js"
-    ,paths.site.src+"/lib/backbone-min.js"
-    ,paths.site.src+"/js/models.js"
-    ,paths.site.src+"/js/views/ActivityView.js"
-    ,paths.site.src+"/js/views/BaseLayerMenuItemView.js"
-    ,paths.site.src+"/js/views/BaseLayersMenuView.js"
-    ,paths.site.src+"/js/views/BaseLayersView.js"
-    ,paths.site.src+"/js/views/BaseMapView.js"
-    ,paths.site.src+"/js/views/CartoCollxCountView.js"
-    ,paths.site.src+"/js/views/BitsView.js"
-    ,paths.site.src+"/js/views/BitsCountView.js"
-    ,paths.site.src+"/js/views/CartoCollxView.js"
-    ,paths.site.src+"/js/views/CartoListView.js"
-    ,paths.site.src+"/js/views/ConsoleView.js"
-    ,paths.site.src+"/js/views/EpisodesView.js"
-    ,paths.site.src+"/js/views/EpisodeView.js"
-    ,paths.site.src+"/js/views/RecentsView.js"
-    ,paths.site.src+"/js/views/FacetsView.js"
-    ,paths.site.src+"/js/views/StatesView.js"
-    ,paths.site.src+"/js/views/SharesView.js"
-    ,paths.site.src+"/js/views/HuhView.js"
-    ,paths.site.src+"/js/views/UpdateView.js"
-    ,paths.site.src+"/js/views/HelpView.js"
-    ,paths.site.src+"/js/views/MethodView.js"
-    ,paths.site.src+"/js/views/PopupView.js"
-    ,paths.site.src+"/js/views/QuerySubNavView.js"
-    ,paths.site.src+"/js/views/QueryView.js"
-    ,paths.site.src+"/js/views/SolrFieldzView.js"
-    ,paths.site.src+"/js/app.js"
-    ,paths.site.src+"/js/routes.js"
-    ]
-    )
-.pipe(DEBUG())
-.pipe(GULP.dest("interm/js/"))
-};
+
 
 
 /* ------------------------- JS ------------- */
@@ -223,7 +126,8 @@ var stagejs = ()=> {
 
 var views_y_models = ()=>{
   return GULP.src([
-    paths.site.src+"/js/models.js"
+    paths.site.src+"/js/H-templates-compiled.js"
+    ,paths.site.src+"/js/models.js"
     ,paths.site.src+"/js/views/BaseLayerMenuItemView.js"
     ,paths.site.src+"/js/views/ActivityView.js"
     ,paths.site.src+"/js/views/BaseLayersMenuView.js"
@@ -298,7 +202,7 @@ var styles = ()=>{
     ,paths.styles.staging+"/general.css"
     ,paths.styles.staging+"/header.css"
     ,paths.styles.staging+"/bootstrap.min.css"
-    ,paths.styles.staging+"/leaflet-history.css"
+    // ,paths.styles.staging+"/leaflet-history.css"
     ,paths.styles.staging+"/style.css"
     ,paths.styles.staging+"/zzzz.css"
     ]
@@ -332,16 +236,16 @@ var copyjs=  ()=>{
   return GULP.src([
     paths.site.src+"/lib/less-1.7.5.min.js"
     ,paths.site.src+"/lib/components/handlebars/handlebars.runtime.min.js"
-    ,paths.site.src+"/lib/moment.js"
-    ,paths.site.src+"/lib/octokat.js"
+    ,paths.site.src+"/lib/moment.min.js"
+    ,paths.site.src+"/lib/octokat.min.js"
     ,paths.site.src+"/lib/components/throbber.js/throbber.js"
     ,paths.site.src+"/lib/leaflet/leaflet.js"
-    ,paths.site.src+"/lib/tile.stamen.js?v1.2.0"
+    ,paths.site.src+"/lib/tile.stamen.js"
     ,paths.site.src+"/js/H-templates-compiled.js"
     ,paths.site.src+"/lib/components/jquery/jquery.min.js"
     ,paths.site.src+"/lib/jquery.liveFilter.js"
     ,paths.site.src+"/lib/Wicket/wicket.js"
-    ,paths.site.src+"/lib/leaflet-history.js"
+    // ,paths.site.src+"/lib/leaflet-history.js"
     ,paths.site.src+"/lib/Wicket/wicket-leaflet.js"
     ,paths.site.src+"/lib/nprogress.js"
     ,paths.site.src+"/lib/bootstrap.min.js"
@@ -354,7 +258,20 @@ var copyjs=  ()=>{
   // 
   var copycss=  ()=>{
     return GULP.src(
-      paths.site.src+"/css/*.*")
+      [
+      paths.site.src+"/css/*.*"
+      ,paths.site.src+"/lib/leaflet/leaflet.css"
+      ,paths.site.src+"/lib/nprogress.css"
+      ,paths.site.src+"/css/fonts/fonts-offline.css"
+      ,paths.site.src+"/lib/components/off-canvas-menu/vendor/normalize.css"
+      ,paths.site.src+"/lib/components/off-canvas-menu/off-canvas-menu.css"
+      ,paths.site.src+"/lib/components/off-canvas-menu/header.css"
+      ,paths.site.src+"/lib/components/off-canvas-menu/general.css"
+      ,paths.site.src+"/lib/components/bootstrap/docs/dist/css/bootstrap.min.css"
+      // ,paths.site.src+"/lib/leaflet-history.css"
+      ,paths.site.src+"/lib/icomoon/style.css"
+      ]
+      )
     .pipe(GULP.dest("interm/css/"));
   };
 
@@ -411,7 +328,6 @@ var copyjs=  ()=>{
  exports.styles = styles;
  exports.handlez = handlez;
  exports.handlez_dev = handlez_dev;
- exports.stagejs = stagejs;
  exports.copycss = copycss;
  exports.copyjs = copyjs;
  // exports.scripts = scripts;
@@ -441,7 +357,9 @@ var develop = GULP.series(
   ,htmlmin
   ,views_y_models
   ,copyjs
+  ,img
   ,copycss
+  ,fonts
   ,GULP.parallel(
     browsersync
     // ,watch_dev
@@ -457,7 +375,6 @@ var build = GULP.series(
     ,fonts
     ,lessen
     ,htmlmin
-    ,stagejs
     ,views_y_models
     // ,handlez
     ) //parallel

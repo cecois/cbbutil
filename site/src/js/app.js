@@ -561,8 +561,8 @@ $(document).ready(function() {
         $("#solrfields-list").toggleClass('hidden')
     }) //solrfields.click
 
-    L.control.zoom({position:'topright'}).addTo(map)
-    new L.HistoryControl().addTo(map);
+    // L.control.zoom({position:'topright'}).addTo(map)
+    // new L.HistoryControl().addTo(map);
 
     appActivityView.stfu()
 
