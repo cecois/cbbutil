@@ -103,7 +103,7 @@ window.appActivityView = new ActivityView({
     model: appActivity
 });
 
-window.appURL = new URL();
+// window.appURL = new URL();
 window.appEpisodes = new Episodes();
 window.appEpisodesView = new EpisodesView({
     collection: appEpisodes
@@ -144,23 +144,23 @@ var baselayersdesk = {
         "source": "mapbox",
         "nom": "Duncan Graham's Super Mario",
         "thumb": "offline/mapbox-mario.png",
-            "mapis": "light",
-            "definition": {
-                "subdomains": ["a", "b", "c"],
-                "maxZoom": 18,
-                "url": "https://{s}.tiles.mapbox.com/v4/duncangraham.552f58b0/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiZHVuY2FuZ3JhaGFtIiwiYSI6IlJJcWdFczQifQ.9HUpTV1es8IjaGAf_s64VQ",
-                "noWrap": true
-            }
-        }, {
-            "name": "lichtenstein",
-            "active": false,
-            "source": "mapbox",
-            "nom": "Katie Kowalsky's Pop Art (Inspored by Roy lichtenstein)",
-            "thumb": "offline/mapbox-popart.png",
-            "mapis": "dark",
-            "definition": {
-                "subdomains": ["a", "b", "c"],
-                "maxZoom": 18,
+        "mapis": "light",
+        "definition": {
+            "subdomains": ["a", "b", "c"],
+            "maxZoom": 18,
+            "url": "https://{s}.tiles.mapbox.com/v4/duncangraham.552f58b0/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiZHVuY2FuZ3JhaGFtIiwiYSI6IlJJcWdFczQifQ.9HUpTV1es8IjaGAf_s64VQ",
+            "noWrap": true
+        }
+    }, {
+        "name": "lichtenstein",
+        "active": false,
+        "source": "mapbox",
+        "nom": "Katie Kowalsky's Pop Art (Inspored by Roy lichtenstein)",
+        "thumb": "offline/mapbox-popart.png",
+        "mapis": "dark",
+        "definition": {
+            "subdomains": ["a", "b", "c"],
+            "maxZoom": 18,
             "url": "https://{s}.tiles.mapbox.com/v4/katiekowalsky.236692c1/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1Ijoia2F0aWVrb3dhbHNreSIsImEiOiJHR2hfdlBNIn0.GUMLsSnT-SYx4ew7b77kqw",
             "noWrap": true
         }
@@ -179,55 +179,55 @@ var baselayersdesk = {
             "noWrap": true
         }
     }
-        , {
-            "name": "opencycle_landscape",
-            "active": false,
-            "source": "opencycle",
-            "nom": "OpenCycle Landscape",
-            "thumb": "offline/opencycleland.png",
-            "mapis": "dark",
-            "definition": {
-                "maxZoom": 18,
-                "subdomains": ["a", "b", "c"],
-                "noWrap": true,
-                "url": "http://{s}.tile3.opencyclemap.org/landscape/{z}/{x}/{y}.png"
-            }
+    , {
+        "name": "opencycle_landscape",
+        "active": false,
+        "source": "opencycle",
+        "nom": "OpenCycle Landscape",
+        "thumb": "offline/opencycleland.png",
+        "mapis": "dark",
+        "definition": {
+            "maxZoom": 18,
+            "subdomains": ["a", "b", "c"],
+            "noWrap": true,
+            "url": "http://{s}.tile3.opencyclemap.org/landscape/{z}/{x}/{y}.png"
         }
-        ]
     }
+    ]
+}
 
-    var baselayersmobile = {
-        "layers": [{
-            "name": "pencil",
-            "active": true,
-            "source": "mapbox",
-            "nom": "Aj Ashton's Pencil Map",
-            "thumb": "offline/mapbox-pencil.png",
-            "mapis": "dark",
-            "definition": {
-                "subdomains": ["a", "b", "c"],
-                "maxZoom": 18,
-                "url": "https://{s}.tiles.mapbox.com/v4/aj.03e9e12d/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiYWoiLCJhIjoiY2lrZW1pczJzMDA1d3VybTJha216azVtdSJ9.vJBkGAq6CvN9vt0IwakQ-A",
-                "noWrap": true
-            }
-        }, {
-            "name": "dummy",
-            "active": false,
-            "source": "localhost",
-            "nom": "A Real Dummy",
-            "thumb": "offline/dummy-thumb.png",
-            "mapis": "dark",
-            "definition": {
-                "maxZoom": 18,
-                "url": "offline/dummy-thumb.png",
-                "noWrap": true
-            }
+var baselayersmobile = {
+    "layers": [{
+        "name": "pencil",
+        "active": true,
+        "source": "mapbox",
+        "nom": "Aj Ashton's Pencil Map",
+        "thumb": "offline/mapbox-pencil.png",
+        "mapis": "dark",
+        "definition": {
+            "subdomains": ["a", "b", "c"],
+            "maxZoom": 18,
+            "url": "https://{s}.tiles.mapbox.com/v4/aj.03e9e12d/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiYWoiLCJhIjoiY2lrZW1pczJzMDA1d3VybTJha216azVtdSJ9.vJBkGAq6CvN9vt0IwakQ-A",
+            "noWrap": true
         }
-        ]
+    }, {
+        "name": "dummy",
+        "active": false,
+        "source": "localhost",
+        "nom": "A Real Dummy",
+        "thumb": "offline/dummy-thumb.png",
+        "mapis": "dark",
+        "definition": {
+            "maxZoom": 18,
+            "url": "offline/dummy-thumb.png",
+            "noWrap": true
+        }
     }
+    ]
+}
 
-    if(dev==true){
-        baselayers=baselayersdummified
+if(dev==true){
+    baselayers=baselayersdummified
 } else {
 
     if(agent=='mobile'){
@@ -382,17 +382,17 @@ function locTrigger(e, goto, active) {
             var goto = true
         }
 
-if(typeof active !== 'undefined'){
-    if(active.indexOf("point:")>=0 || active.indexOf("poly:")>=0 || active.indexOf("line:")>=0){
-        var loctype = active.split(":")[0]
-            var locid = doctorId(loctype,active.split(":")[1]);
-            activeFactory(active)
-            qstring = "location_type:"+loctype+" AND location_id:"+locid
-    } else {
-        qstring = $(e.currentTarget).attr("data-string")
-    }
-    appCartoQuery.set({rawstring:qstring})
-}
+        if(typeof active !== 'undefined'){
+            if(active.indexOf("point:")>=0 || active.indexOf("poly:")>=0 || active.indexOf("line:")>=0){
+                var loctype = active.split(":")[0]
+                var locid = doctorId(loctype,active.split(":")[1]);
+                activeFactory(active)
+                qstring = "location_type:"+loctype+" AND location_id:"+locid
+            } else {
+                qstring = $(e.currentTarget).attr("data-string")
+            }
+            appCartoQuery.set({rawstring:qstring})
+        }
     }
 
     function activeFactory(a){
@@ -416,30 +416,30 @@ if(typeof active !== 'undefined'){
 
         function urlFactory(goto,qs) {
             if (typeof goto == 'undefined') {
-            var hel = $(".mainpanel:not('.hidden')")
-            var h = '#' + $(hel).attr("id")
-            if (h == "#undefined") {
-                h = "#huh"
+                var hel = $(".mainpanel:not('.hidden')")
+                var h = '#' + $(hel).attr("id")
+                if (h == "#undefined") {
+                    h = "#huh"
+                }
+            } else {
+                var h = goto;
             }
-        } else {
-            var h = goto;
-        }
-        var bbx = map.getBounds().toBBoxString();
+            var bbx = map.getBounds().toBBoxString();
 
-        var qs = appCartoQuery.get("urlstring")
-        var bl = appBaseLayers.findWhere({
-            active: true
-        }).get("name")
-        var fa = appCartoQuery.get("facetarray").join(",");
+            var qs = appCartoQuery.get("urlstring")
+            var bl = appBaseLayers.findWhere({
+                active: true
+            }).get("name")
+            var fa = appCartoQuery.get("facetarray").join(",");
 
-        var url = h + "/" + qs + "/" + bbx + "/" + bl 
+            var url = h + "/" + qs + "/" + bbx + "/" + bl 
 
-        if(typeof activecouple !== 'undefined' && activecouple !== null){
-            var ac = activeFactory();
+            if(typeof activecouple !== 'undefined' && activecouple !== null){
+                var ac = activeFactory();
 
-url+="/"+ac.join(":")
+                url+="/"+ac.join(":")
 
-}
+            }
 
             return url
         }
@@ -455,18 +455,18 @@ url+="/"+ac.join(":")
                 active: true
             }).get("name")
 
-        var fa = encodeURIComponent(appCartoQuery.get("facetarray").join(","));
+            var fa = encodeURIComponent(appCartoQuery.get("facetarray").join(","));
 
 
-        if(typeof activecouple !== 'undefined' && activecouple !== null){
-            var ac = activeFactory();
+            if(typeof activecouple !== 'undefined' && activecouple !== null){
+                var ac = activeFactory();
 
-            acv=ac.join(":")
+                acv=ac.join(":")
 
-        } else {
-            acv="noactive"
-        }
-        var url = "http://" + thedomain+ "/"+ h + "/" + qs + "/" + bbx + "/" + bl +"/"+acv+"/"+fa
+            } else {
+                acv="noactive"
+            }
+            var url = "http://" + thedomain+ "/"+ h + "/" + qs + "/" + bbx + "/" + bl +"/"+acv+"/"+fa
 
             return url
 
@@ -515,50 +515,50 @@ url+="/"+ac.join(":")
     appWikiaz.fetch();
     appRecents.fetch({reset:true});
 
-var fields = {
-    "fields": [{
-        "order": 1,
-        "name": "anno",
-        "nom": "short annotation of the location -- e.g. 'one of Huell Howser's homes'",
-        "scope_and_use": "use it freely, e.g. <span class='copy-trigger' data-string='anno:huell'><span class='loc-string'>anno:huell</span><i class='glyphicon glyphicon-map-marker cbb-trigger-inline'></i></span> or <span class='copy-trigger' data-string='anno:cake+boss'><span class='loc-string'>anno:cake+boss</span><i class='glyphicon glyphicon-map-marker cbb-trigger-inline'></i></span>"
-    }, {
-        "order": 5,
-        "name": "cartodb_id",
-        "nom": "unique id per site",
-        "scope_and_use": "use it to link to a specific instance, e.g. <span class='copy-trigger' data-string='cartodb_id:108'><span class='loc-string'>cartodb_id:108</span><i class='glyphicon glyphicon-map-marker cbb-trigger-inline'></i></span> - ~site of Bob Ducca's booth at the Silver Lake Farmers Market"
-    }, {
-        "order": 3,
-        "name": "created_at",
-        "nom": "date the location was logged (has nothing to do with its appearance on the show)",
-        "scope_and_use": "I'm not sure anybody could possibly care. But I guess you could do Solr range queries with it."
-    }, {
-        "order": 0,
-        "name": "name",
-        "nom": "name of the site (e.g. 'Six Flags Valencia' or 'Boston, MA'",
-        "scope_and_use": "this and anno are the primary fields and this is the one with the placename"
-    }, {
-        "order": 2,
-        "name": "text",
-        "nom": "catch-all field",
-        "scope_and_use": "searching this field queries both anno and name fields (and eventually any other text we wanna throw in). If you don't type a specific field (e.g. you just type 'Dimello') this is the field that gets called."
-    }, {
-        "order": 4,
-        "name": "updated_at",
-        "nom": "date of the last update to this record",
-        "scope_and_use": "Eh. You can <a href='#recent'>query for updates</a> with it I suppose."
-    }]
-}
-window.appSoFoz = new SolrFieldz(fields.fields);
-window.appSoFozView = new SolrFieldzView({
-    collection: appSoFoz
-});
+    var fields = {
+        "fields": [{
+            "order": 1,
+            "name": "anno",
+            "nom": "short annotation of the location -- e.g. 'one of Huell Howser's homes'",
+            "scope_and_use": "use it freely, e.g. <span class='copy-trigger' data-string='anno:huell'><span class='loc-string'>anno:huell</span><i class='glyphicon glyphicon-map-marker cbb-trigger-inline'></i></span> or <span class='copy-trigger' data-string='anno:cake+boss'><span class='loc-string'>anno:cake+boss</span><i class='glyphicon glyphicon-map-marker cbb-trigger-inline'></i></span>"
+        }, {
+            "order": 5,
+            "name": "cartodb_id",
+            "nom": "unique id per site",
+            "scope_and_use": "use it to link to a specific instance, e.g. <span class='copy-trigger' data-string='cartodb_id:108'><span class='loc-string'>cartodb_id:108</span><i class='glyphicon glyphicon-map-marker cbb-trigger-inline'></i></span> - ~site of Bob Ducca's booth at the Silver Lake Farmers Market"
+        }, {
+            "order": 3,
+            "name": "created_at",
+            "nom": "date the location was logged (has nothing to do with its appearance on the show)",
+            "scope_and_use": "I'm not sure anybody could possibly care. But I guess you could do Solr range queries with it."
+        }, {
+            "order": 0,
+            "name": "name",
+            "nom": "name of the site (e.g. 'Six Flags Valencia' or 'Boston, MA'",
+            "scope_and_use": "this and anno are the primary fields and this is the one with the placename"
+        }, {
+            "order": 2,
+            "name": "text",
+            "nom": "catch-all field",
+            "scope_and_use": "searching this field queries both anno and name fields (and eventually any other text we wanna throw in). If you don't type a specific field (e.g. you just type 'Dimello') this is the field that gets called."
+        }, {
+            "order": 4,
+            "name": "updated_at",
+            "nom": "date of the last update to this record",
+            "scope_and_use": "Eh. You can <a href='#recent'>query for updates</a> with it I suppose."
+        }]
+    }
+    window.appSoFoz = new SolrFieldz(fields.fields);
+    window.appSoFozView = new SolrFieldzView({
+        collection: appSoFoz
+    });
 
-/* -------------------------------------------------- READY -----------------------  */
-$(document).ready(function() {
+    /* -------------------------------------------------- READY -----------------------  */
+    $(document).ready(function() {
 
-    $("#bt-solrfields").click(function(e) {
-        e.preventDefault()
-        $("#solrfields-list").toggleClass('hidden')
+        $("#bt-solrfields").click(function(e) {
+            e.preventDefault()
+            $("#solrfields-list").toggleClass('hidden')
     }) //solrfields.click
 
     // L.control.zoom({position:'topright'}).addTo(map)
@@ -568,41 +568,41 @@ $(document).ready(function() {
 
     //
 }); //ready
-$(document).keydown(function(e) {
-    if (e.keyCode == 17) {
+    $(document).keydown(function(e) {
+        if (e.keyCode == 17) {
 
-        appStatesView.swap();
+            appStatesView.swap();
 
 
+        }
+    });
+
+    /* -------------------------------------------------- STRAIGHT UP FUNCS -----------------------  */
+
+    function doctorId(type,id,updown){
+
+        if(typeof updown =='undefined' || updown==null)
+            {var updown="down"}
+
+        var cid = null
+        switch(type) {
+            case 'line':
+            if(updown=="down"){cid=Number(id)/plierline} else {cid=Number(id)*plierline}
+                break;
+            case 'poly':
+            if(updown=="down"){cid=Number(id)/plierpoly} else {cid=Number(id)*plierpoly}
+                break;
+            default:
+            cid = Number(id);
+        }
+        return cid
     }
-});
+    function cwmccallback(){
+        if(verbose==true){console.log("breaker breaker")}
+            if(verbose==true){console.log("------> (generic) cwmccallback")}
+        }
 
-/* -------------------------------------------------- STRAIGHT UP FUNCS -----------------------  */
-
-function doctorId(type,id,updown){
-
-    if(typeof updown =='undefined' || updown==null)
-        {var updown="down"}
-
-    var cid = null
-    switch(type) {
-        case 'line':
-        if(updown=="down"){cid=Number(id)/plierline} else {cid=Number(id)*plierline}
-            break;
-        case 'poly':
-        if(updown=="down"){cid=Number(id)/plierpoly} else {cid=Number(id)*plierpoly}
-            break;
-        default:
-        cid = Number(id);
-    }
-    return cid
-}
-function cwmccallback(){
-    if(verbose==true){console.log("breaker breaker")}
-        if(verbose==true){console.log("------> (generic) cwmccallback")}
-    }
-
-function puFactory(p){
+    function puFactory(p){
     /* -------
     this receives one-time fires of popup events and completely wipes their guts, replacing them with...well, the same thing cept it's all bound up in Backbone goodness
     ---- */

@@ -7,6 +7,7 @@ var GULP = require('gulp')
 ,CONCAT = require('gulp-concat')
 ,UGLIFY = require('gulp-uglify')
 ,BROWSERSYNC = require('browser-sync')
+,DEL = require('del')
 ,HANDLEBARS      = require('gulp-handlebars')
 // ,HBC      = require('handlebars')
 ,PLUMBER     = require('gulp-plumber')
@@ -168,7 +169,7 @@ var lessen = ()=>{
   return GULP.src(
     paths.site.src+"/css/app.less"
     )
-  // .pipe(LESS())
+  .pipe(LESS())
   .pipe(DEBUG())
   // .pipe(RENAME({
   //   basename: 'zzzz'
@@ -232,6 +233,10 @@ var htmlmin = ()=>{
   .pipe(GULP.dest("interm/"))
 }
 
+var clean = ()=>{
+  return DEL("interm/*")
+}
+
 var copyjs=  ()=>{
   return GULP.src([
     paths.site.src+"/lib/less-1.7.5.min.js"
@@ -259,7 +264,10 @@ var copyjs=  ()=>{
   var copycss=  ()=>{
     return GULP.src(
       [
-      paths.site.src+"/css/*.*"
+      paths.site.src+"/css/banner.css"
+      ,paths.site.src+"/css/debug.css"
+      ,paths.site.src+"/css/devmarkers.css"
+      ,paths.site.src+"/css/googlefont.mandali.css"
       ,paths.site.src+"/lib/leaflet/leaflet.css"
       ,paths.site.src+"/lib/nprogress.css"
       ,paths.site.src+"/css/fonts/fonts-offline.css"
@@ -334,6 +342,7 @@ var copyjs=  ()=>{
  exports.views_y_models = views_y_models;
  exports.htmlmin = htmlmin;
  exports.offline = offline;
+ exports.clean = clean;
 
 /*
  * Specify if tasks run in series or parallel using `GULP.series` and `GULP.parallel`
@@ -353,13 +362,16 @@ var copyjs=  ()=>{
 // run remaining (standard) gulp tasks to build site
 
 var develop = GULP.series(
-  handlez_dev
-  ,htmlmin
-  ,views_y_models
-  ,copyjs
-  ,img
-  ,copycss
-  ,fonts
+  clean
+  ,handlez_dev
+  ,GULP.parallel(
+    htmlmin
+    ,views_y_models
+    ,copyjs
+    ,img
+    ,copycss
+    ,lessen
+    ,fonts)
   ,GULP.parallel(
     browsersync
     // ,watch_dev

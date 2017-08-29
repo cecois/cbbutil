@@ -10,26 +10,34 @@ var Route = Backbone.Router.extend({
             // "about": "about",
             // "search/lll:hash": "searchWithHashed",
             // "search/p:page/:querystring": "search"
-    },
-    initialize: function() {},
-    update: function(el) {
-        var url = urlFactory(el)
-    },
-    default: function(h, q, bbox, basemap, activecouple, facetsin) {
+        },
+        initialize: function() {},
+        update: function(el) {
+            var url = urlFactory(el)
+        },
+        default: function(h, q, bbox, basemap, activecouple, facetsin) {
             /*
             Tried to not do this, but it does kinda make sense to make the active mod a global. Otherwise we have to pass it to BitCollection first, and then *further* on to CartoCollx since Carto gets filled *after* the custom parse of bits.
-             */
+            */
+           
+          console.log("h",h);
+          console.log("q",q);
+          console.log("bbox",bbox);
+          console.log("basemap",basemap);
+          console.log("activecouple",activecouple);
+          console.log("facetsin",facetsin);
+
             window.activecouple = activecouple
             if (typeof basemap !== 'undefined' && basemap !== null) {
                 var inbl = appBaseLayers.findWhere({
                     "name": basemap
                 })
                 if(typeof inbl !== 'undefined'){
-                                inbl.set({
-                                    active: true
-                                })}
-            }
-            if (typeof h == 'undefined' || h == null) {
+                    inbl.set({
+                        active: true
+                    })}
+                }
+                if (typeof h == 'undefined' || h == null) {
                 // h = "query";
                 h = "huh";
             }
@@ -66,41 +74,10 @@ var Route = Backbone.Router.extend({
                 var bboxarr = []
                 bboxarr.push(southwest)
                 bboxarr.push(northeast)
+                console.log("bboxarr",bboxarr);
                 map.fitBounds(bboxarr);
             }
             //                 
-            // if (h == 'query') {
-                // this.update("#query")
-                // appCartoQueryView.fire(false)
-                // appActivity.set({
-                //     message: "querying bits..."
-                // })
-                // console.log("appbits.fetch@routes 86")
-                // appBits.fetch({
-                //     reset: true,
-                //     success: function() {
-                //                         appActivity.set({message: "pulling out locations..."})
-                //         appCBB.fetch({
-                //             reset: true,
-                //             success: function(collx) {
-                //                 if (typeof activecouple !== 'undefined' && activecouple !== null) {
-                //                     collx.activate();
-                //                     appCBBListView.pulleps()
-                //                 }
-                //                 appActivityView.stfu()
-                //             }
-                //         })
-                //     }, //success fetch
-                //     error: function() {
-                //         appConsole.set({
-                //                 message: "query errored out"
-                //             })
-                //         $("#querylist-locations").append("<li style='margin-top:50px;font-size:2em;'>QUERY ERRORED OUT, SRY</li>")
-                //         $("#querylist-bits").append("<li style='margin-top:50px;font-size:2em;'>QUERY ERRORED OUT, SRY</li>")
-                //     }
-                // })
-            // } //h is query for fetch
-            // ok, well here's a funny thing - yes, we're manually calling the little badge thing here cuzzi i simply didn't wanna rearrange and diagnose a bunch of inter-model/view calls and I didn't wanna create a view just for this. What!? Ok, #returnto
             appCBBCountView.throbtab()
             if (facetsin !== null && typeof facetsin !== 'undefined') {
                 facetsinscrubbed = facetsin.split(",")
@@ -109,10 +86,10 @@ var Route = Backbone.Router.extend({
             }
             if (typeof q !== 'undefined' && q !== null ) {
                 // if(q!=="null"){
-                if (verbose == true) {
-                    console.log("q existed, setting appcartoquery to q, which is");
-                    console.log(q);
-                }
+                    if (verbose == true) {
+                        console.log("q existed, setting appcartoquery to q, which is");
+                        console.log(q);
+                    }
                 // appCartoQuery.set({
                 //     rawstring: q
                 // })
@@ -137,6 +114,6 @@ var Route = Backbone.Router.extend({
             // appCartoQueryView.fire(false)
             return this
         } // end home
-});
+    });
 var appRoute = new Route();
 Backbone.history.start();
