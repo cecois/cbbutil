@@ -40,7 +40,10 @@ var paths = {
 
 var browsersync =()=>{
   BROWSERSYNC({
-    files: [paths.site.src+"/js/*.js"]
+    files: [
+    paths.site.src+"/js/*.js"
+    ,paths.site.src+"/*.html"
+    ]
     ,server: ['interm/']
   });
 };
@@ -81,7 +84,7 @@ var copyjs=  ()=>{
     // ,paths.site.src+"/lib/components/throbber.js/throbber.js"
     ,paths.site.src+"/lib/leaflet/leaflet.js"
     // ,paths.site.src+"/lib/tile.stamen.js"
-    ,paths.site.src+"/js/H-templates-compiled.js"
+    //,paths.site.src+"/js/H-templates-compiled.js"
     ,paths.site.src+"/lib/components/jquery/jquery.min.js"
     // ,paths.site.src+"/lib/jquery.liveFilter.js"
     // ,paths.site.src+"/lib/Wicket/wicket.js"
@@ -91,6 +94,13 @@ var copyjs=  ()=>{
     ,paths.site.src+"/lib/bootstrap.min.js"
     ,paths.site.src+"/lib/underscore-min.js"
     ,paths.site.src+"/lib/backbone-min.js"
+   // ,paths.site.src+"/js/Config.js"
+    ,paths.site.src+"/js/Activity-Model.js"
+    ,paths.site.src+"/js/Activity-View.js"
+    ,paths.site.src+"/js/State-Model.js"
+    ,paths.site.src+"/js/State-View.js"
+    ,paths.site.src+"/js/App.js"
+    ,paths.site.src+"/js/Routes.js"
     // ,paths.site.src+"/js/globals.js"
     ])
   .pipe(GULP.dest("interm/js/"));
@@ -98,7 +108,7 @@ var copyjs=  ()=>{
 
 var views_y_models = ()=>{
   return GULP.src([
-    paths.site.src+"/js/Config.js"
+    //paths.site.src+"/js/Config.js"
     // paths.site.src+"/js/H-templates-compiled.js"
     // ,paths.site.src+"/js/models.js"
     // ,paths.site.src+"/js/views/BaseLayerMenuItemView.js"
@@ -200,7 +210,7 @@ var handlez = ()=>{
       noRedeclare: true, // Avoid duplicate declarations
     }))
   .pipe(CONCAT('H-templates-compiled.js'))
-  .pipe(GULP.dest(paths.site.src+'/js/'));
+.pipe(GULP.dest("interm/js/"));
 }
 
 
@@ -243,7 +253,7 @@ var develop = GULP.series(
   ,handlez
   ,GULP.parallel(
     htmlmin
-    ,views_y_models
+    // ,views_y_models
     ,copyjs
     ,img
     ,copycss

@@ -1,63 +1,45 @@
 var Route = Backbone.Router.extend({
     routes: {
-        // "": "default",
-        // ":hash": "default",
-        // docs/:section(/:subsection)
-        // ":hash(/:q)(/:bbox)": "default",
-        "(:hash)(/:q)(/:bbox)(/:basemap)(/:activecouple)(/:facetsin)(/)": "default"
-            // ":hash": "routepractice"
-            // "home": "home",
-            // "about": "about",
-            // "search/lll:hash": "searchWithHashed",
-            // "search/p:page/:querystring": "search"
+        "(:hash)(/:q)(/:panestate)(/:basemap)(/:bbox)(/:activecouple)(/)": "default"
         },
         initialize: function() {},
         update: function(el) {
             var url = urlFactory(el)
-        },
-        default: function(h, q, bbox, basemap, activecouple, facetsin) {
+        }
+        ,default: function(h, q, panestate, basemap,bbox, activecouple) {
             /*
             Tried to not do this, but it does kinda make sense to make the active mod a global. Otherwise we have to pass it to BitCollection first, and then *further* on to CartoCollx since Carto gets filled *after* the custom parse of bits.
             */
-           
-          console.log("h",h);
-          console.log("q",q);
-          console.log("bbox",bbox);
-          console.log("basemap",basemap);
-          console.log("activecouple",activecouple);
-          console.log("facetsin",facetsin);
 
-            window.activecouple = activecouple
-            if (typeof basemap !== 'undefined' && basemap !== null) {
-                var inbl = appBaseLayers.findWhere({
-                    "name": basemap
-                })
-                if(typeof inbl !== 'undefined'){
-                    inbl.set({
-                        active: true
-                    })}
-                }
-                if (typeof h == 'undefined' || h == null) {
-                // h = "query";
-                h = "huh";
-            }
+/*
+appState.set({
+    slug:h
+    ,query:q
+    ,panestate:panestate
+    ,bbox:bbox
+    ,basemap:basemap
+    ,active:activecouple
+})
+*/
+           
             // now we are sure there's an h there's this universal, what *panelizer*? anyway we can position lotsa window elements at once
             // appStatesView.prebaked(h)
-            var hmod = "#" + h;
-            _.each($("#main > .mainpanel"), function(p) {
-                if (p.id == h) {
-                    $(p).removeClass("hidden")
-                } else {
-                    $(p).addClass("hidden")
-                }
-            });
-            _.each($("nav.site-nav > ul > li > a"), function(m) {
-                if ($(m).attr("href") == hmod) {
-                    $(m).addClass("active")
-                } else {
-                    $(m).removeClass("active")
-                }
-            }, this)
+//            var hmod = "#" + h;
+//            _.each($("#main > .mainpanel"), function(p) {
+//                if (p.id == h) {
+//                    $(p).removeClass("hidden")
+//                } else {
+//                    $(p).addClass("hidden")
+//                }
+//            });
+//            _.each($("nav.site-nav > ul > li > a"), function(m) {
+//                if ($(m).attr("href") == hmod) {
+//                    $(m).addClass("active")
+//                } else {
+//                    $(m).removeClass("active")
+//                }
+//            }, this)
+            /*
             if (typeof bbox !== 'undefined' && bbox !== null && bbox !== "null") {
                 // #returnto to clean this up
                 var asarr = bbox.split(",");
@@ -77,13 +59,17 @@ var Route = Backbone.Router.extend({
                 console.log("bboxarr",bboxarr);
                 map.fitBounds(bboxarr);
             }
+            */
             //                 
-            appCBBCountView.throbtab()
+            // appCBBCountView.throbtab()
+           /*
             if (facetsin !== null && typeof facetsin !== 'undefined') {
                 facetsinscrubbed = facetsin.split(",")
             } else {
                 facetsinscrubbed = []
             }
+            */
+            /*
             if (typeof q !== 'undefined' && q !== null ) {
                 // if(q!=="null"){
                     if (CONFIG.verbose == true) {
@@ -107,13 +93,14 @@ var Route = Backbone.Router.extend({
             } else {
                 appCartoQuery.set({rawstring:queryinit})
             }
+            */
             // else {
             //      appCartoQuery.set({facetarray:facetsinscrubbed,rawstring:'huell'});
             // }
             // #returnto - this shouldn't be necessary but seems to be
             // appCartoQueryView.fire(false)
             return this
-        } // end home
+        } // default
     });
 var appRoute = new Route();
 Backbone.history.start();

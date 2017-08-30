@@ -12,7 +12,7 @@ var ActivityView = Backbone.View.extend({
         });
 
         this.model.bind("change", this.render, this);
-        this.render();
+        //this.render();
     },
     stfu: function(){
         NProgress.done()

@@ -1,5 +1,10 @@
 /* -------------------------------------------------- GLOBALS -----------------------  */
-
+var CONFIG = {
+	verbose:true
+	,proxy:null
+	,query:"*:*"
+	,basemap:"pencil"
+}
 // if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 //     window.agent = "mobile";
 // } else {
@@ -83,17 +88,14 @@ lineseen = {
     opacity: .6,
 };
 //
-// new activity model and view
-var appActivity = new Activity({message:"loading..."});
-var appActivityView = new ActivityView({
-    model: appActivity
-});
 
 // window.appURL = new URL();
+/*
 var appEpisodes = new Episodes();
 var appEpisodesView = new EpisodesView({
     collection: appEpisodes
 });
+*/
 
 /* -------------------------------------------------- BASEMAPS -----------------------  */
 var baselayersdummified = {
@@ -276,11 +278,19 @@ var shares = [
 }
 ]
 
-var appState = new State(
-    states
+// new activity model and view
+var appActivity = new Activity({message:"loading..."});
+var appActivityView = new ActivityView({
+    model: appActivity
+});
+
+/*var appState = new State(
+  states
     );
+    */
+   var appState = new State();
 var appStateView = new StateView({
-    collection: appState
+    model: appState
 });
 
 // var appShares = new Shares(
