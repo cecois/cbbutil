@@ -1,0 +1,442 @@
+{
+  "rows": [
+    {
+      "the_geom": "0101000020E61000003191A7BCAAAF5DC0E605C707590C4140",
+      "name": "Loudon Wainright III's M*A*S*H Jeep",
+      "anno": "Crags Rd in Malibu Creek State Park",
+      "confidence": "high",
+      "cartodb_id": 1,
+      "created_at": "2014-08-13T00:14:34Z",
+      "updated_at": "2014-08-13T00:14:34Z",
+      "the_geom_webmercator": "0101000020110F000065080B47663669C14659C94611D64E41"
+    },
+    {
+      "the_geom": "0101000020E6100000B55F6448459A5EC09D99052EFDE44240",
+      "name": "SF Sketchfest - Marines' Memorial Theatre",
+      "anno": "Where PFT (and, ironically, Cake Boss) first met Loudon Wainwright III - taping of 'Wits'",
+      "confidence": "high",
+      "cartodb_id": 5,
+      "created_at": "2014-08-13T00:14:34Z",
+      "updated_at": "2014-08-13T00:14:34Z",
+      "the_geom_webmercator": "0101000020110F000083EBF504A6FD69C14D291580065B5141"
+    },
+    {
+      "the_geom": "0101000020E6100000A0D90D62C2885DC095F31E0B92124140",
+      "name": "Pasadena Fairytale Theatre",
+      "anno": "Don Dimello's primary playhouse",
+      "confidence": "very low",
+      "cartodb_id": 6,
+      "created_at": "2014-08-13T00:14:34Z",
+      "updated_at": "2014-08-13T00:14:34Z",
+      "the_geom_webmercator": "0101000020110F00007B7320F25A1569C1231CF0D3D5E24E41"
+    },
+    {
+      "the_geom": "0101000020E6100000568A9DD91A4353C02F96510B90734340",
+      "name": "George Washington University",
+      "anno": "Felipe's walk-in freezer",
+      "confidence": "medium",
+      "cartodb_id": 8,
+      "created_at": "2014-08-13T00:14:34Z",
+      "updated_at": "2014-08-13T00:14:34Z",
+      "the_geom_webmercator": "0101000020110F0000F584502AFD5B60C15A7418B56CF55141"
+    },
+    {
+      "the_geom": "0101000020E6100000C53C23BE739A5DC03AD15E4790084140",
+      "name": "Jensen's Jackson Exhibition 2009",
+      "anno": "Michael Jackson auction at the Beverly Hilton, 9900 Wilshire Blvd\nBeverly Hills, CA 90210",
+      "confidence": "high",
+      "cartodb_id": 9,
+      "created_at": "2014-08-13T00:14:34Z",
+      "updated_at": "2014-08-13T00:14:34Z",
+      "the_geom_webmercator": "0101000020110F0000D93C80BB612469C1CDA973814ECE4E41"
+    },
+    {
+      "the_geom": "0101000020E6100000F25B4335537B52C0BBBBF37D2C6A4440",
+      "name": "Yankee Stadium",
+      "anno": "1 E 161st St\nBronx, NY 10451",
+      "confidence": "high",
+      "cartodb_id": 10,
+      "created_at": "2014-08-13T00:14:34Z",
+      "updated_at": "2014-08-13T00:14:34Z",
+      "the_geom_webmercator": "0101000020110F0000EC2A48B5A1645FC18E5CB9B655065341"
+    },
+    {
+      "the_geom": "0101000020E6100000DB6B7F3E552A5EC03D010BE74EA64140",
+      "name": "KCPR Cal Poly Radio",
+      "anno": "Weird Al Records 'My Bologna' in a bathroom in\nBuilding 26, Room 301\n1 Grand Ave\nSan Luis Obispo, CA 93407",
+      "confidence": "high",
+      "cartodb_id": 11,
+      "created_at": "2014-08-13T00:14:34Z",
+      "updated_at": "2014-08-13T00:14:34Z",
+      "the_geom_webmercator": "0101000020110F0000B898CE6F949E69C15E1281CF140A5041"
+    },
+    {
+      "the_geom": "0101000020E6100000C24FFB31D69D5DC02992544B5FFD4040",
+      "name": "Venice, CA",
+      "anno": "Todd Wickey's roller blade repair guy",
+      "confidence": "low",
+      "cartodb_id": 15,
+      "created_at": "2014-08-13T16:30:07Z",
+      "updated_at": "2014-08-13T16:30:37Z",
+      "the_geom_webmercator": "0101000020110F000010AA5E9C412769C165936EE25EB74E41"
+    },
+    {
+      "the_geom": "0101000020E61000003049658A39A65DC0C03DCF9F36364140",
+      "name": "Six Flags Magic Mountain",
+      "anno": "Valencia, CA",
+      "confidence": "high",
+      "cartodb_id": 7,
+      "created_at": "2014-08-13T00:14:34Z",
+      "updated_at": "2014-08-13T12:06:10Z",
+      "the_geom_webmercator": "0101000020110F00008912175A612E69C14307B5121C2C4F41"
+    },
+    {
+      "the_geom": "0101000020E61000007749FF3F0C4B5DC0F710BF28625B4040",
+      "name": "San Diego, CA",
+      "anno": "popular vacation spot",
+      "confidence": "low",
+      "cartodb_id": 21,
+      "created_at": "2014-08-14T13:12:09Z",
+      "updated_at": "2014-08-14T13:12:30Z",
+      "the_geom_webmercator": "0101000020110F000022FF2196F1E068C1F1AFDF50F96D4D41"
+    },
+    {
+      "the_geom": "0101000020E6100000C87B93AE327E52C0BD3BCF2B60664440",
+      "name": "300 Riverside Dr.",
+      "anno": "Loudon Wainright III's phony (?) NYC address",
+      "confidence": "high",
+      "cartodb_id": 3,
+      "created_at": "2014-08-13T00:14:34Z",
+      "updated_at": "2014-08-13T15:30:49Z",
+      "the_geom_webmercator": "0101000020110F000063DA09FC82695FC1B2E33B9712025341"
+    },
+    {
+      "the_geom": "0101000020E61000003091FBEB0F9A5EC0E4AF3D71884B4440",
+      "name": "Shasta, CA",
+      "anno": "Todd Wickey's fast pitch softball semifinals",
+      "confidence": "low",
+      "cartodb_id": 16,
+      "created_at": "2014-08-13T16:40:51Z",
+      "updated_at": "2014-08-13T16:41:16Z",
+      "the_geom_webmercator": "0101000020110F000039AE2BB378FD69C1AD811A1B01E45241"
+    },
+    {
+      "the_geom": "0101000020E610000033BB72E6ECA65DC08B3E3802E5144140",
+      "name": "5150 San Feliciano Dr., Woodland Hills, CA",
+      "anno": "Loudon Wainright III's Woodland Hills address",
+      "confidence": "high",
+      "cartodb_id": 4,
+      "created_at": "2014-08-13T00:14:34Z",
+      "updated_at": "2014-08-13T15:31:10Z",
+      "the_geom_webmercator": "0101000020110F000077A39BAEF92E69C1D07202109BE74E41"
+    },
+    {
+      "the_geom": "0101000020E610000083BE150551965DC0ECCB67B3C9184140",
+      "name": "Burbank Marriott",
+      "anno": "Site of the 2009 Back to the Future Convention, attended by Scott and Rob Heubel (among others)",
+      "confidence": "high",
+      "cartodb_id": 2,
+      "created_at": "2014-08-13T00:14:34Z",
+      "updated_at": "2014-08-13T15:31:53Z",
+      "the_geom_webmercator": "0101000020110F00000F490B8FDE2069C1ABEB047A99EF4E41"
+    },
+    {
+      "the_geom": "0101000020E6100000D4DC02F0AC9F5DC024A2904BB9014140",
+      "name": "Nordstrom Santa Monica",
+      "anno": "Possibly where Danny Mahoney bought his coat",
+      "confidence": "low",
+      "cartodb_id": 17,
+      "created_at": "2014-08-13T20:55:39Z",
+      "updated_at": "2014-08-13T20:56:13Z",
+      "the_geom_webmercator": "0101000020110F000090619369D12869C138EA2A3F49C04E41"
+    },
+    {
+      "the_geom": "0101000020E610000042F100A222965DC0F33C3403470D4140",
+      "name": "Turning East onto Franklin from La Brea at 4:30 on a Friday",
+      "anno": " a local reference from L.A. comedian Shooter",
+      "confidence": "medium",
+      "cartodb_id": 18,
+      "created_at": "2014-08-14T03:18:26Z",
+      "updated_at": "2014-08-14T03:21:54Z",
+      "the_geom_webmercator": "0101000020110F0000BDA98829B72069C1EFE73073F9D74E41"
+    },
+    {
+      "the_geom": "0101000020E6100000000000CC975F5EC08B047F89CC494340",
+      "name": "Sacramento, CA",
+      "anno": "one of Huell Howser's homes",
+      "confidence": "low",
+      "cartodb_id": 39,
+      "created_at": "2014-08-16T01:54:30Z",
+      "updated_at": "2014-08-19T01:12:15Z",
+      "the_geom_webmercator": "0101000020110F000060E14444D0CB69C16AB18037F3C75141"
+    },
+    {
+      "the_geom": "0101000020E61000001EA003E4EE965DC06133E11342134140",
+      "name": "Toluca Lake, CA",
+      "anno": "Scott met Todd Wickey at a café here somewhere",
+      "confidence": "low",
+      "cartodb_id": 14,
+      "created_at": "2014-08-13T16:24:07Z",
+      "updated_at": "2014-08-13T16:25:17Z",
+      "the_geom_webmercator": "0101000020110F0000DFC774A3642169C123578B213FE44E41"
+    },
+    {
+      "the_geom": "0101000020E6100000E4FEFA5370965DC07208C9C0090E4140",
+      "name": "Runyon Canyon",
+      "anno": "Shooter's place smelled like this when he returned from San Diego",
+      "confidence": "medium",
+      "cartodb_id": 22,
+      "created_at": "2014-08-14T13:19:34Z",
+      "updated_at": "2014-08-14T13:20:39Z",
+      "the_geom_webmercator": "0101000020110F0000BAEC1826F92069C1D230F8F388D94E41"
+    },
+    {
+      "the_geom": "0101000020E6100000F31441B564975DC0C33B4C3D830C4140",
+      "name": "Outdoor tables at the Sunset 5 Buzz Coffee",
+      "anno": "L.A. comedian Shooter notices the escalator view of Cardio Ballet letting out from here",
+      "confidence": "medium",
+      "cartodb_id": 19,
+      "created_at": "2014-08-14T03:33:40Z",
+      "updated_at": "2014-08-14T03:35:13Z",
+      "the_geom_webmercator": "0101000020110F0000AF2668B3C82169C1745C66DB67D64E41"
+    },
+    {
+      "the_geom": "0101000020E6100000302DEA93DC965DC035ECF7C43A094140",
+      "name": "The Grove",
+      "anno": "Richard Leslie's Dog Bakery/Shooter's Dancing Waters reference",
+      "confidence": "high",
+      "cartodb_id": 13,
+      "created_at": "2014-08-13T15:33:24Z",
+      "updated_at": "2014-08-14T12:56:15Z",
+      "the_geom_webmercator": "0101000020110F00005314DA15552169C14BF8731BACCF4E41"
+    },
+    {
+      "the_geom": "0101000020E6100000458E00B0B2435DC0905DB3A643044140",
+      "name": "Yucaipa, CA",
+      "anno": "one of Huell Howser's homes, possibly home of a walnut festival?",
+      "confidence": "medium",
+      "cartodb_id": 37,
+      "created_at": "2014-08-16T01:42:50Z",
+      "updated_at": "2014-08-17T02:24:39Z",
+      "the_geom_webmercator": "0101000020110F000056602993B3DA68C18C9CF11D7EC54E41"
+    },
+    {
+      "the_geom": "0101000020E6100000C665E44509955DC09C981EE2D90C4140",
+      "name": "Hollywood Public Library",
+      "anno": "Shooter's place smelled bad when he returned from vacation",
+      "confidence": "low",
+      "cartodb_id": 23,
+      "created_at": "2014-08-14T13:27:28Z",
+      "updated_at": "2014-08-14T13:27:55Z",
+      "the_geom_webmercator": "0101000020110F00000F3E0934C81F69C1D88D6F9619D74E41"
+    },
+    {
+      "the_geom": "0101000020E61000000CBBFFFA2E6358C06E8BCFF028CC4140",
+      "name": "Long John Silver's/Taco Bell Combo",
+      "anno": "perhaps the busiest Long John Silver's/Taco Bell toilet on the planet",
+      "confidence": "low",
+      "cartodb_id": 27,
+      "created_at": "2014-08-14T19:39:56Z",
+      "updated_at": "2014-08-14T19:40:33Z",
+      "the_geom_webmercator": "0101000020110F00008E910B7556B664C1A67F1B048B315041"
+    },
+    {
+      "the_geom": "0101000020E61000001B7EBB1557975DC00D0A39A5720C4140",
+      "name": "Burke Williams Day Spa",
+      "anno": "Shooter's place made the Hollywood Public Library smell like this place",
+      "confidence": "medium",
+      "cartodb_id": 24,
+      "created_at": "2014-08-14T13:29:25Z",
+      "updated_at": "2014-08-14T13:29:53Z",
+      "the_geom_webmercator": "0101000020110F000066157421BD2169C1991794D145D64E41"
+    },
+    {
+      "the_geom": "0101000020E61000007307FBC05F945DC026E1A5487C0D4140",
+      "name": "La Poubelle",
+      "anno": "\"How do you say 'shitty service' in French,\" Shooter asked",
+      "confidence": "high",
+      "cartodb_id": 25,
+      "created_at": "2014-08-14T13:32:50Z",
+      "updated_at": "2014-08-14T13:33:15Z",
+      "the_geom_webmercator": "0101000020110F0000A683063B381F69C12C6C30BB66D84E41"
+    },
+    {
+      "the_geom": "0101000020E61000000DCC02D4F1945DC09DBA3476700C4140",
+      "name": "ArcLight Cinemas",
+      "anno": "shenanigans",
+      "confidence": "high",
+      "cartodb_id": 26,
+      "created_at": "2014-08-14T19:16:18Z",
+      "updated_at": "2014-08-14T19:16:54Z",
+      "the_geom_webmercator": "0101000020110F0000ADEFA24AB41F69C10898E75641D64E41"
+    },
+    {
+      "the_geom": "0101000020E610000091200148929E5DC03B86CFEFDE0F4140",
+      "name": "Getty Center/kinda Skirball Exits",
+      "anno": "Thomas Lennon's Hyundai breakdown",
+      "confidence": "medium",
+      "cartodb_id": 28,
+      "created_at": "2014-08-15T03:23:57Z",
+      "updated_at": "2014-08-15T03:25:10Z",
+      "the_geom_webmercator": "0101000020110F00005BFF325AE12769C12556CF944BDD4E41"
+    },
+    {
+      "the_geom": "0101000020E6100000C9EBFB4F02905DC0BDECF03A8F064140",
+      "name": "Angels Flight",
+      "anno": "Angels Flight funicular railway",
+      "confidence": "high",
+      "cartodb_id": 32,
+      "created_at": "2014-08-16T01:11:48Z",
+      "updated_at": "2014-08-16T01:12:17Z",
+      "the_geom_webmercator": "0101000020110F0000B01AEF2F831B69C19340EA9832CA4E41"
+    },
+    {
+      "the_geom": "0101000020E6100000D8110334BC975DC091DB483C4D0C4140",
+      "name": "The Standard, Hollywood",
+      "anno": "there's a girl in a display case here",
+      "confidence": "high",
+      "cartodb_id": 20,
+      "created_at": "2014-08-14T13:06:45Z",
+      "updated_at": "2014-08-15T15:58:01Z",
+      "the_geom_webmercator": "0101000020110F000018C9AD02132269C1DFC02B15F9D54E41"
+    },
+    {
+      "the_geom": "0101000020E610000002147E04D9935DC0B080D7A1790C4140",
+      "name": "The Home Depot - Sunset",
+      "anno": "Dr. Bill Cosby bought sand, met Scott.",
+      "confidence": "medium",
+      "cartodb_id": 30,
+      "created_at": "2014-08-15T20:00:57Z",
+      "updated_at": "2014-08-15T20:01:42Z",
+      "the_geom_webmercator": "0101000020110F00007C628BCCC51E69C1E57F752654D64E41"
+    },
+    {
+      "the_geom": "0101000020E61000004902818C08095EC0FE83A33F0F4C4140",
+      "name": "Solvang Festival Theatre",
+      "anno": "Solvang Festival Theatre",
+      "confidence": "medium",
+      "cartodb_id": 29,
+      "created_at": "2014-08-15T19:09:26Z",
+      "updated_at": "2014-08-15T19:09:58Z",
+      "the_geom_webmercator": "0101000020110F00006B440D694C8269C1EEB83F3A24594F41"
+    },
+    {
+      "the_geom": "0101000020E61000008D307F643E925DC01B3DC8FC6D0C4140",
+      "name": "KCET Studios",
+      "anno": "(former) KCET Studios - Huell Howser's origin",
+      "confidence": "medium",
+      "cartodb_id": 31,
+      "created_at": "2014-08-16T00:57:59Z",
+      "updated_at": "2014-08-16T00:58:51Z",
+      "the_geom_webmercator": "0101000020110F00000D60190E691D69C1551E9B433CD64E41"
+    },
+    {
+      "the_geom": "0101000020E6100000B3F50470D0835DC08654D5F4EE044140",
+      "name": "Whittier Narrows",
+      "anno": "a good place to listen to the radio and talk to people about what shoes they brought out for the swallows",
+      "confidence": "medium",
+      "cartodb_id": 34,
+      "created_at": "2014-08-16T01:30:23Z",
+      "updated_at": "2014-08-16T01:31:42Z",
+      "the_geom_webmercator": "0101000020110F0000E81E27C7271169C18E1AF33FDDC64E41"
+    },
+    {
+      "the_geom": "0101000020E6100000FE6CFD570AAD5DC008E9C6474DDD4140",
+      "name": "Glennville, CA",
+      "anno": "Valley of the Ladybugs",
+      "confidence": "low",
+      "cartodb_id": 33,
+      "created_at": "2014-08-16T01:25:33Z",
+      "updated_at": "2014-08-16T01:26:07Z",
+      "the_geom_webmercator": "0101000020110F00007D89B7362B3469C1A2B3594876435041"
+    },
+    {
+      "the_geom": "0101000020E610000058FB01309A9E5EC0C58CF0F6A0E84240",
+      "name": "Golden Gate Bridge",
+      "anno": "confusing art deco landmark",
+      "confidence": "high",
+      "cartodb_id": 35,
+      "created_at": "2014-08-16T01:33:19Z",
+      "updated_at": "2014-08-16T01:33:37Z",
+      "the_geom_webmercator": "0101000020110F000039E601D053016AC1EA433F13F05E5141"
+    },
+    {
+      "the_geom": "0101000020E61000002253FCE702705DC07462ACC2A8D14040",
+      "name": "Verizon Ampitheater",
+      "anno": "Verizon Wireless Ampitheater",
+      "confidence": "high",
+      "cartodb_id": 36,
+      "created_at": "2014-08-16T01:37:55Z",
+      "updated_at": "2014-08-16T01:38:42Z",
+      "the_geom_webmercator": "0101000020110F0000B6212D39560069C1191C451E025E4E41"
+    },
+    {
+      "the_geom": "0101000020E610000000000000C0035EC0A65D8E4FAF4A4140",
+      "name": "Santa Ynez Valley",
+      "anno": "one of Huell Howser's homes",
+      "confidence": "medium",
+      "cartodb_id": 38,
+      "created_at": "2014-08-16T01:52:32Z",
+      "updated_at": "2014-08-16T01:53:02Z",
+      "the_geom_webmercator": "0101000020110F00001C00B1B0CF7D69C1364684134E564F41"
+    },
+    {
+      "the_geom": "0101000020E61000001F42018048EC5DC0967541755A354140",
+      "name": "Santa Barbara, CA",
+      "anno": "one of Huell Howser's homes",
+      "confidence": "medium",
+      "cartodb_id": 40,
+      "created_at": "2014-08-16T01:57:53Z",
+      "updated_at": "2014-08-16T01:58:18Z",
+      "the_geom_webmercator": "0101000020110F00004A99C184E16969C1BEBD40B9562A4F41"
+    },
+    {
+      "the_geom": "0101000020E6100000CB84FCBFACCF5DC0F44E891498394140",
+      "name": "Ojai, CA",
+      "anno": "one of Huell Howser's homes",
+      "confidence": "medium",
+      "cartodb_id": 41,
+      "created_at": "2014-08-16T01:59:39Z",
+      "updated_at": "2014-08-16T01:59:51Z",
+      "the_geom_webmercator": "0101000020110F000090399174955169C170E1C68112334F41"
+    },
+    {
+      "the_geom": "0101000020E61000002D89FDAF440A5FC0E2F50D0AD2664440",
+      "name": "Eureka, CA",
+      "anno": "one of Huell Howser's homes",
+      "confidence": "medium",
+      "cartodb_id": 42,
+      "created_at": "2014-08-16T02:01:26Z",
+      "updated_at": "2014-08-16T02:01:39Z",
+      "the_geom_webmercator": "0101000020110F00003F9E02A7C45C6AC11FB6B75892025341"
+    }
+  ],
+  "time": 0.015,
+  "fields": {
+    "the_geom": {
+      "type": "geometry"
+    },
+    "name": {
+      "type": "string"
+    },
+    "anno": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "string"
+    },
+    "cartodb_id": {
+      "type": "number"
+    },
+    "created_at": {
+      "type": "date"
+    },
+    "updated_at": {
+      "type": "date"
+    },
+    "the_geom_webmercator": {
+      "type": "geometry"
+    }
+  },
+  "total_rows": 106
+}

@@ -1,0 +1,110 @@
+/*
+===========================
+Stylesheet Author: Zee Zali
+===========================
+*/
+*:before,
+*:after,
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  overflow-x: hidden;
+}
+/*
+ * OFF CANVAS MENU TEMPLATE
+ *
+ */
+.off-canvas-container {
+  position: fixed;
+  width: 280px;
+  top: 0;
+  right: 0;
+  padding: 0;
+  background: #282828;
+  color: #fff;
+  overflow-y: auto;
+  min-height: 100%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-overflow-scrolling: touch;
+  display: none;
+}
+.js-off-canvas-menu__active .off-canvas-container {
+  display: block;
+}
+@media (min-width: 30em) {
+  .off-canvas-container {
+    width: 350px;
+  }
+}
+@media (min-width: 60.5em) {
+  .off-canvas-container {
+    display: block !important;
+    width: 100%;
+    height: auto !important;
+    min-height: 0;
+    overflow: hidden;
+    z-index: 10;
+  }
+}
+.off-canvas-contents {
+  padding: 2em;
+  min-height: 40em;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+@media (min-width: 60.5em) {
+  .off-canvas-contents {
+    min-height: 0;
+  }
+}
+.non-menu-container {
+  position: relative;
+  z-index: 1;
+  background: #fff;
+  -webkit-transition: -webkit-transform 330ms ease;
+          transition: transform 330ms ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  min-height: 100%;
+}
+@media (min-width: 60.5em) {
+  .non-menu-container {
+    position: static;
+  }
+}
+.js-off-canvas-menu__active .non-menu-container {
+  -webkit-transform: translateX(-280px) translateZ(0);
+          transform: translateX(-280px) translateZ(0);
+}
+@media (min-width: 30em) {
+  .js-off-canvas-menu__active .non-menu-container {
+    -webkit-transform: translateX(-350px) translateZ(0);
+            transform: translateX(-350px) translateZ(0);
+  }
+}
+.csstransforms3d .js-off-canvas-menu__active .non-menu-container {
+  -webkit-transform: translate3d(-280px, 0, 0);
+          transform: translate3d(-280px, 0, 0);
+}
+@media (min-width: 30em) {
+  .csstransforms3d .js-off-canvas-menu__active .non-menu-container {
+    -webkit-transform: translate3d(-350px, 0, 0);
+            transform: translate3d(-350px, 0, 0);
+  }
+}
+@media (min-width: 60.5em) {
+  .js-off-canvas-menu__active .non-menu-container {
+    -webkit-transform: none !important;
+        -ms-transform: none !important;
+            transform: none !important;
+  }
+}
