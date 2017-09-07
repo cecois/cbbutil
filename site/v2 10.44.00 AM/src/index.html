@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>BitMap: CBB</title>
+    <link rel="icon"
+      type="image/png"
+      href="images/ico.cbb.png">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="lib/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="lib/nprogress.css" />
+    <script type="text/javascript" language="Javascript" src="lib/components/handlebars/handlebars.runtime.min.js"></script>
+    <script type="text/javascript" language="Javascript" src="lib/moment.js"></script>
+<script type="text/javascript" language="Javascript" src="lib/octokat.js"></script>
+
+<script type="text/javascript" language="Javascript" src="lib/components/throbber.js/throbber.js"></script>
+    <link href='css/fonts/fonts-offline.css' rel='stylesheet' type='text/css'>
+
+    <link href="lib/components/off-canvas-menu/vendor/normalize.css" rel="stylesheet" type="text/css">
+    <link href="lib/components/off-canvas-menu/off-canvas-menu.css" rel="stylesheet" type="text/css">
+    <link href="lib/components/off-canvas-menu/general.css" rel="stylesheet" type="text/css">
+    <link href="lib/components/off-canvas-menu/header.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="lib/components/bootstrap/dist/css/bootstrap.min.css">
+
+
+    <link rel="stylesheet" href="lib/leaflet-history.css">
+
+
+    <link rel="stylesheet" href="lib/icomoon/style.css">
+
+    <link rel="stylesheet/less" type="text/css" href="css/app.less" >
+        <script src="lib/less-1.7.5.min.js" type="text/javascript"></script>
+    </head>
+    <body ontouchstart="">
+        <div id="map"></div>
+
+
+        <!-- <div id="wrapper"> -->
+            <!-- header -->
+            <header class="site-header row" >
+
+                <div id="banner-bang" class="content-wrap col-sm-1">
+                <span class="icom-bang"><span id="banner-copy">CBB<br/>Bit<br/>Map</span></span>
+                </div>
+                <div id="banner-nav" class="content-wrap col-sm-5">
+
+                    <nav class="site-nav col-sm-12" role="navigation">
+                        <ul class="col-sm-12">
+                            <li class="col-sm-2"><a href="#huh" class="link">Huh?</a></li>
+                            <li class="col-sm-3"><a href="#query" class="link">Query</a><span id="query-new-throb" style="position: absolute; top: 12px; right: 20px; font-size: 0.5em; font-variant: all-small-caps;" class="badge-homemade hidden"></span></li>
+                            <li class="col-sm-4"><a href="#fullstory" class="link">Full Story</a></li>
+                            <li class="col-sm-3"><a href="#help" class="link">Help</a></li>
+
+
+    </ul>
+</nav> <!-- site-nav -->
+</div> <!-- banner-nav -->
+
+<div id="query-wrapper" class="content-wrap pull-left col-sm-4">
+
+<div class="pull-right col-sm-12" id="activityContainer"><span class="activity-message pull-left">loading...</span></div>
+
+ <div id="query-form" class="col-lg-12"></div><!-- /.#query-form -->
+
+ </div>
+</header>
+
+
+<div id="btn-statie" class="">
+    <div data-toggle="tooltip" title="toggle page elements (show/cover the map) - the CTRL key will also do this" class="circle-trigger-false icom-bang">
+<span class="pull-right hider-copy">toggle the map</span>
+</div>
+</div> <!-- btn-statie -->
+
+<div id="main" class="col-lg-12 pull-left">
+
+
+<div id="huh" class="mainpanel hidden">
+<div id="huh-copy" class="col-lg-12"></div>
+<div id="huh-recent" class="col-lg-12"></div>
+</div> <!-- ./huh -->
+
+<div id="updates" class="mainpanel hidden">
+<div class="panel-wrap">
+
+<!-- hipster mode /////////////////////////////////////////////////////////// -->
+
+
+<div class="slide"><div id="" class="slide1 gnpanel col-lg-12">
+    <div class="block" style="">
+        <h1 style="text-align:center;">Updates?!
+        <span class="icom-bang" style="font-size:2em;"></span>
+        </h1>
+<div id="updates-copy">
+
+
+</div>
+
+    </div>
+</div></div>
+
+
+<!-- /////////////////////////////////////////////////////////// /hipster mode -->
+</div>
+</div> <!-- ./updates-->
+
+
+<div id="fullstory" class="mainpanel hidden">
+<div class="panel-wrap">
+
+</div>
+</div> <!-- ./fullstory-->
+
+<div id="minutiae" class="mainpanel hidden">
+<div class="panel-wrap">
+
+</div>
+</div> <!-- ./minutiae-->
+
+<div id="help" class="mainpanel hidden">
+<div class="panel-wrap">
+
+    <div id="help-copy"></div>
+     <div class="gnpanel-0 pull-left col-lg-12 mobile-wrapper mobile-wrapper-2"><div class="block">
+</div></div>
+
+</div>
+</div> <!-- ./help-->
+
+
+
+
+<div id="query" class="mainpanel hidden">
+
+
+
+<div class="panel-wrap">
+
+
+<div class="row">
+<div id="query-subnav" class="col-sm-12">
+
+  <div id="query-subnav" class="col-sm-3">
+</div>
+
+</div>
+
+  </div>
+
+</div>
+
+    <ul id="querylist-bits" class="pull-left col-lg-4 mobile-wrapper mobile-wrapper-1">
+    </ul>
+
+<div id="episodes" class="hidden col-lg-12">
+     <ul id="episodes-list" class="episodes pull-left col-lg-12 list-unstyled hidden">
+      <li>None selected.</li>
+    </ul>
+
+</div>  <!-- ./episodes  -->
+
+    <ul id="querylist-locations" class="pull-left col-lg-4 mobile-wrapper mobile-wrapper-2">
+    </ul>
+<ul id="querylist-facets" class="pull-right col-lg-3 mobile-wrapper mobile-wrapper-3">
+    <div id="facet-tags" class="col-sm-12 pull-left"></div>
+    <div id="facet-names" class="col-sm-12 pull-left"></div>
+    <div id="facet-slugs" class="col-sm-12 pull-left"></div>
+
+    </ul>
+
+</div>
+</div> <!-- ./query -->
+</div>  <!-- ./main  -->
+
+
+<div id="livefooter" class="col-sm-12">
+
+<ul id="mnuBaseMap" class="col-sm-6 list-inline pull-left" ></ul>
+
+<div id="btn-sharie" class="pull-right">
+    <div data-toggle="tooltip" title="share current page/state" class="icom-bang">
+<span class="glyphicon glyphicon-share-alt share-copy"></span>
+</div>
+</div>
+
+</div> <!-- livefooter -->
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Tweet This</h4>
+      </div>
+      <div class="modal-body">
+        <div id="share-container-modal"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- /share-container-modal -->
+<script src="js/globals.js"></script>
+<script src="lib/leaflet/leaflet.js"></script>
+<script type="text/javascript" src="lib/tile.stamen.js?v1.2.0"></script>
+<script src="js/H-templates-compiled.js"></script>
+<script src="lib/components/jquery/jquery.min.js"></script>
+<script type="text/javascript" language="Javascript" src="lib/jquery.liveFilter.js"></script>
+<script type="text/javascript" language="Javascript" src="lib/Wicket/wicket.js"></script>
+
+<script type="text/javascript" language="Javascript" src="lib/leaflet-history.js"></script>
+<script type="text/javascript" language="Javascript" src="lib/Wicket/wicket-leaflet.js"></script>
+<script type="text/javascript" language="Javascript" src="lib/nprogress.js"></script>
+<script src="lib/bootstrap.min.js"></script>
+<script type = "text/javascript" language = "Javascript" src = "lib/underscore-min.js"></script>
+<script type = "text/javascript" language = "Javascript" src = "lib/backbone-min.js"></script>
+
+<script type="text/javascript" language="Javascript" src="js/models.js"></script>
+
+    <script type="text/javascript" language="Javascript" src="js/views/ActivityView.js"></script><script type="text/javascript" language="Javascript" src="js/views/BaseLayerMenuItemView.js"></script><script type="text/javascript" language="Javascript" src="js/views/BaseLayersMenuView.js"></script><script type="text/javascript" language="Javascript" src="js/views/BaseLayersView.js"></script><script type="text/javascript" language="Javascript" src="js/views/BaseMapView.js"></script><script type="text/javascript" language="Javascript" src="js/views/CartoCollxCountView.js"></script><script type="text/javascript" language="Javascript" src="js/views/BitsView.js"></script><script type="text/javascript" language="Javascript" src="js/views/BitsCountView.js"></script><script type="text/javascript" language="Javascript" src="js/views/CartoCollxView.js"></script><script type="text/javascript" language="Javascript" src="js/views/CartoListView.js"></script><script type="text/javascript" language="Javascript" src="js/views/ConsoleView.js"></script><script type="text/javascript" language="Javascript" src="js/views/EpisodesView.js"></script><script type="text/javascript" language="Javascript" src="js/views/EpisodeView.js"></script><script type="text/javascript" language="Javascript" src="js/views/RecentsView.js"></script><script type="text/javascript" language="Javascript" src="js/views/FacetsView.js"></script><script type="text/javascript" language="Javascript" src="js/views/StatesView.js"></script><script type="text/javascript" language="Javascript" src="js/views/SharesView.js"></script><script type="text/javascript" language="Javascript" src="js/views/HuhView.js"></script><script type="text/javascript" language="Javascript" src="js/views/UpdateView.js"></script><script type="text/javascript" language="Javascript" src="js/views/HelpView.js"></script><script type="text/javascript" language="Javascript" src="js/views/MethodView.js"></script><script type="text/javascript" language="Javascript" src="js/views/PopupView.js"></script><script type="text/javascript" language="Javascript" src="js/views/QuerySubNavView.js"></script><script type="text/javascript" language="Javascript" src="js/views/QueryView.js"></script><script type="text/javascript" language="Javascript" src="js/views/SolrFieldzView.js"></script>
+
+
+<script type="text/javascript" language="Javascript" src="js/app.js"></script>
+<script type="text/javascript" language="Javascript" src="js/routes.js"></script>
+</body>
+</html>

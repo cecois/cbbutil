@@ -1,0 +1,104 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 1
+  },
+  "index": {
+    "numDocs": 106,
+    "maxDoc": 106,
+    "deletedDocs": 0,
+    "indexHeapUsageBytes": 13672,
+    "version": 19,
+    "segmentCount": 1,
+    "current": true,
+    "hasDeletions": false,
+    "directory": "org.apache.lucene.store.NRTCachingDirectory:NRTCachingDirectory(MMapDirectory@/usr/local/Cellar/solr/4.10.2/example/solr/cbb/data/index lockFactory=NativeFSLockFactory@/usr/local/Cellar/solr/4.10.2/example/solr/cbb/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0)",
+    "userData": {
+      "commitTimeMSec": "1420934320493"
+    },
+    "lastModified": "2015-01-10T23:58:40.493Z"
+  },
+  "fields": {
+    "_version_": {
+      "type": "long",
+      "schema": "I-S-----OF------",
+      "index": "-TS-------------",
+      "docs": 106
+    },
+    "anno": {
+      "type": "text_general",
+      "schema": "ITS-------------",
+      "index": "ITS-------------",
+      "docs": 106
+    },
+    "cartodb_id": {
+      "type": "string",
+      "schema": "I-S-----OF-----l",
+      "index": "ITS-----OF------",
+      "docs": 106
+    },
+    "created_at": {
+      "type": "date",
+      "schema": "I-S------F------",
+      "index": "-TS-------------",
+      "docs": 106
+    },
+    "loc": {
+      "type": "location",
+      "schema": "I-S------F------"
+    },
+    "loc_0_coordinate": {
+      "type": "tdouble",
+      "schema": "I-------OF------",
+      "dynamicBase": "*_coordinate",
+      "index": "(unstored field)",
+      "docs": 106
+    },
+    "loc_1_coordinate": {
+      "type": "tdouble",
+      "schema": "I-------OF------",
+      "dynamicBase": "*_coordinate",
+      "index": "(unstored field)",
+      "docs": 106
+    },
+    "name": {
+      "type": "text_general",
+      "schema": "ITS-------------",
+      "index": "ITS-------------",
+      "docs": 106
+    },
+    "text": {
+      "type": "text_general",
+      "schema": "IT--M-----------",
+      "index": "(unstored field)",
+      "docs": 106
+    },
+    "updated_at": {
+      "type": "date",
+      "schema": "I-S------F------",
+      "index": "-TS-------------",
+      "docs": 106
+    }
+  },
+  "info": {
+    "key": {
+      "I": "Indexed",
+      "T": "Tokenized",
+      "S": "Stored",
+      "D": "DocValues",
+      "M": "Multivalued",
+      "V": "TermVector Stored",
+      "o": "Store Offset With TermVector",
+      "p": "Store Position With TermVector",
+      "O": "Omit Norms",
+      "F": "Omit Term Frequencies & Positions",
+      "P": "Omit Positions",
+      "H": "Store Offsets with Positions",
+      "L": "Lazy",
+      "B": "Binary",
+      "f": "Sort Missing First",
+      "l": "Sort Missing Last"
+    },
+    "NOTE": "Document Frequency (df) is not updated when a document is marked for deletion.  df values include deleted documents."
+  }
+}
