@@ -1899,17 +1899,18 @@ width:auto;
 }
 } //basemapconsolewrapper
 
-#mnuBaseMap {
+#basemap-menu {
   @media @mobile{
     display:none;
   }
   @media @desktop{
-  position:fixed;
+  position:relative;
+  width:55px;
   margin:0;
-  bottom:-35px;
+  left:-5%;
+  bottom:0;
       background-color: transparent;
       list-style: none;
-      text-align: center;
       cursor: pointer;
       li {
           background-color: transparent;

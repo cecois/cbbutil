@@ -40,10 +40,12 @@ var paths = {
 
 var browsersync =()=>{
   BROWSERSYNC({
-    files: [
-    paths.site.src+"/js/*.js"
-    ,paths.site.src+"/*.html"
-    ]
+    // files: [
+    // paths.site.src+"/js/*.js"
+    // ,paths.site.src+"/*.html"
+    // ]
+    files: ['interm/*']
+    // ,
     ,server: ['interm/']
   });
 };
@@ -94,13 +96,21 @@ var copyjs=  ()=>{
     ,paths.site.src+"/lib/bootstrap.min.js"
     ,paths.site.src+"/lib/underscore-min.js"
     ,paths.site.src+"/lib/backbone-min.js"
-   // ,paths.site.src+"/js/Config.js"
-    ,paths.site.src+"/js/Activity-Model.js"
-    ,paths.site.src+"/js/Activity-View.js"
-    ,paths.site.src+"/js/State-Model.js"
-    ,paths.site.src+"/js/State-View.js"
-    ,paths.site.src+"/js/App.js"
-    ,paths.site.src+"/js/Routes.js"
+//   
+,paths.site.src+"/js/Query-Model.js"
+,paths.site.src+"/js/Util-Model.js"
+,paths.site.src+"/js/BaseLayer-Model.js"
+,paths.site.src+"/js/BaseLayers-Collection.js"
+,paths.site.src+"/js/BaseLayers-View.js"
+,paths.site.src+"/js/BaseLayersMenuItem-View.js"
+,paths.site.src+"/js/BaseLayersMenu-View.js"
+   // 
+   ,paths.site.src+"/js/Activity-Model.js"
+   ,paths.site.src+"/js/Activity-View.js"
+   ,paths.site.src+"/js/State-Model.js"
+   ,paths.site.src+"/js/State-View.js"
+   ,paths.site.src+"/js/App.js"
+   ,paths.site.src+"/js/Routes.js"
     // ,paths.site.src+"/js/globals.js"
     ])
   .pipe(GULP.dest("interm/js/"));
@@ -113,7 +123,6 @@ var views_y_models = ()=>{
     // ,paths.site.src+"/js/models.js"
     // ,paths.site.src+"/js/views/BaseLayerMenuItemView.js"
     // ,paths.site.src+"/js/views/ActivityView.js"
-    // ,paths.site.src+"/js/views/BaseLayersMenuView.js"
     // ,paths.site.src+"/js/views/BaseLayersView.js"
     // ,paths.site.src+"/js/views/BaseMapView.js"
     // ,paths.site.src+"/js/views/CartoCollxCountView.js"
@@ -136,6 +145,8 @@ var views_y_models = ()=>{
     // ,paths.site.src+"/js/views/QuerySubNavView.js"
     // ,paths.site.src+"/js/views/QueryView.js"
     // ,paths.site.src+"/js/views/SolrFieldzView.js"
+    ,paths.site.src+"/js/BaseLayersMenuItem-View.js"
+    ,paths.site.src+"/js/BaseLayersMenu-View.js"
     ,paths.site.src+"/js/Activity-Model.js"
     ,paths.site.src+"/js/Activity-View.js"
     ,paths.site.src+"/js/State-Model.js"
@@ -210,9 +221,26 @@ var handlez = ()=>{
       noRedeclare: true, // Avoid duplicate declarations
     }))
   .pipe(CONCAT('H-templates-compiled.js'))
-.pipe(GULP.dest("interm/js/"));
+  .pipe(GULP.dest("interm/js/"));
 }
 
+
+/* ------------------------- WATCHES ------------- */
+
+var watch = ()=>{
+  return GULP
+  .watch([
+    paths.site.src+"/js/*.js"
+    ,paths.site.src+"/*.html"
+    ], GULP.series(
+      handlez
+      ,htmlmin
+      ,copyjs
+      ,img
+      ,copycss
+      ,lessen
+      ))
+}
 
 
 exports.img = img;
@@ -253,7 +281,6 @@ var develop = GULP.series(
   ,handlez
   ,GULP.parallel(
     htmlmin
-    // ,views_y_models
     ,copyjs
     ,img
     ,copycss
@@ -261,6 +288,7 @@ var develop = GULP.series(
     ,fonts)
   ,GULP.parallel(
     browsersync
+    ,watch
     // ,watch_dev
     )
   );//develop

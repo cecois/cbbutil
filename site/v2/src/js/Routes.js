@@ -1,105 +1,88 @@
 var Route = Backbone.Router.extend({
     routes: {
-        "(:hash)(/:q)(/:panestate)(/:basemap)(/:bbox)(/:activecouple)(/)": "default"
-        },
-        initialize: function() {},
-        update: function(el) {
-            var url = urlFactory(el)
-        }
-        ,default: function(h, q, panestate, basemap,bbox, activecouple) {
-            /*
-            Tried to not do this, but it does kinda make sense to make the active mod a global. Otherwise we have to pass it to BitCollection first, and then *further* on to CartoCollx since Carto gets filled *after* the custom parse of bits.
-            */
+        "(:slug)(/:page)(/:query)(/:panestate)(/:activecouple)(/:basemap)(/:bbox)(/)": "default"
+    },
+    initialize: function(options) {
+        options || (options={});
+        this.listenTo(map,'moveend',this.up)
+        this.listenTo(appBaseLayers,'change:active',this.up)
+        return this
+    },
+    up: function(){
+        console.log("upping to ",this.url());
+        return this
+        .navigate(this.url(),{trigger:true,replace:false})
+    }
+    ,url:function(){
 
-/*
-appState.set({
-    slug:h
-    ,query:q
-    ,panestate:panestate
-    ,bbox:bbox
-    ,basemap:basemap
-    ,active:activecouple
-})
-*/
-           
-            // now we are sure there's an h there's this universal, what *panelizer*? anyway we can position lotsa window elements at once
-            // appStatesView.prebaked(h)
-//            var hmod = "#" + h;
-//            _.each($("#main > .mainpanel"), function(p) {
-//                if (p.id == h) {
-//                    $(p).removeClass("hidden")
-//                } else {
-//                    $(p).addClass("hidden")
-//                }
-//            });
-//            _.each($("nav.site-nav > ul > li > a"), function(m) {
-//                if ($(m).attr("href") == hmod) {
-//                    $(m).addClass("active")
-//                } else {
-//                    $(m).removeClass("active")
-//                }
-//            }, this)
-            /*
-            if (typeof bbox !== 'undefined' && bbox !== null && bbox !== "null") {
-                // #returnto to clean this up
-                var asarr = bbox.split(",");
-                var bbwest = asarr[0];
-                var bbsouth = asarr[1];
-                var bbeast = asarr[2];
-                var bbnorth = asarr[3];
-                var southwest = []
-                southwest.push(Number(bbsouth))
-                southwest.push(Number(bbwest))
-                var northeast = []
-                northeast.push(Number(bbnorth))
-                northeast.push(Number(bbeast))
-                var bboxarr = []
-                bboxarr.push(southwest)
-                bboxarr.push(northeast)
-                console.log("bboxarr",bboxarr);
-                map.fitBounds(bboxarr);
-            }
-            */
-            //                 
-            // appCBBCountView.throbtab()
-           /*
-            if (facetsin !== null && typeof facetsin !== 'undefined') {
-                facetsinscrubbed = facetsin.split(",")
-            } else {
-                facetsinscrubbed = []
-            }
-            */
-            /*
-            if (typeof q !== 'undefined' && q !== null ) {
-                // if(q!=="null"){
-                    if (CONFIG.verbose == true) {
-                        console.log("q existed, setting appcartoquery to q, which is");
-                        console.log(q);
-                    }
-                // appCartoQuery.set({
-                //     rawstring: q
-                // })
-                // facetsin.split(",")
-                // facetsinscrubbed=['tags:"Golly"','tags:"Chip Gardner"']
-                appCartoQuery.set({
-                    facetarray: facetsinscrubbed,
-                    rawstring: q
-                });
-                // }
-            } else if(appCartoQuery.get("rawstring") !== queryinit && appCartoQuery.get("rawstring") !== "") {
-                if(CONFIG.verbose==true){
-                    console.log("a fresh rawstring has been set, routing should leave it alone");
-                }
-            } else {
-                appCartoQuery.set({rawstring:queryinit})
-            }
-            */
-            // else {
-            //      appCartoQuery.set({facetarray:facetsinscrubbed,rawstring:'huell'});
-            // }
-            // #returnto - this shouldn't be necessary but seems to be
-            // appCartoQueryView.fire(false)
-            return this
+        vz=[]
+        var uslug=appState.get("slug")
+        ,upage=(typeof appQuery.get("page")=='undefined')?1:appQuery.get("page")
+        ,uquer=(typeof appQuery.get("querystring") == 'undefined')?'nil':appQuery.get("querystring")
+        ,ublay=appBaseLayers.findWhere({active:true}).get("name")
+        ,udown=(typeof appState.get("downout") == 'undefined')?'nil':appState.get("downout")
+        ,uacti=(typeof appState.get("active") == 'undefined')?'nil':appState.get("active")
+        ,ubbox=map.getBounds().toBBoxString()
+
+        console.log("in url, uslug",uslug)
+        console.log("in url, upage",upage)
+        console.log("in url, uquer",uquer)
+        console.log("in url, ublay",ublay)
+        console.log("in url, udown",udown)
+        console.log("in url, uacti",uacti)
+        console.log("in url, ubbox",ubbox)
+
+        vz.push(uslug)
+        vz.push(upage)
+        vz.push(uquer)
+        vz.push(ublay)
+        vz.push(udown)
+        vz.push(uacti)
+        vz.push(ubbox)
+
+        var state = "#"+vz.join("/")
+
+        return state
+    }
+    ,default: function(s,p,q,b,d,a,x) {
+
+        console.log("in default:");
+        var slug = (typeof s == 'undefined' || s==null)?"home":s
+        ,query = (typeof q == 'undefined' || q==null)?"*:*":q
+        ,page = (typeof p == 'undefined' || p==null)?1:p
+        ,active = (typeof a == 'undefined' || a==null)?"nil":a
+        ,downout = (typeof d == 'undefined' || d==null)?"down":d
+        ,basemap = (typeof b == 'undefined' || b==null)?"pencil":b
+        ,bbox = (typeof x == 'undefined' || x==null)?"-112.8515625,22.105998799750566,37.44140625,57.61010702068388":x
+        ;
+
+        if(x!==null && (typeof x!=='undfined')){
+            console.log("fitting incoming bounds, x",x);
+            map.fitBounds(UTIL.bounds_ob_from_bbox_string(x))
+        }
+
+        if(appBaseLayers.findWhere({active:true}).get("name")!==b && b!==null){appBaseLayers.switch(b)}
+
+            appQuery.set({
+                querystring:query
+                ,page:page
+            })
+
+        appState.set({
+            downout:downout
+            ,active:active
+            ,slug:slug
+        })
+// does s differ?
+// if(appState.get("slug")!==s && s!==null)
+// does q differ?
+// does p differ?
+// does a differ?
+// does b differ?
+// does x differ?
+
+
+return this
         } // default
     });
 var appRoute = new Route();

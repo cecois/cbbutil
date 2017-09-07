@@ -1,19 +1,19 @@
 var StateView = Backbone.View.extend({
     el: $("#btn-statie"),
-    template: CBB['templates']['statesViewTpl'],
+    template: CBB['templates']['statesViewTpl']
     ,render: function(){
-return this
-},
-  
+        return this
+    },
+    
 
 
 
 
-        swap: function(){
-            $(this.el).find('[data-toggle="tooltip"]').tooltip('destroy')
-            return this.render()
-        },
-   prebaked: function(set) {
+    swap: function(){
+        $(this.el).find('[data-toggle="tooltip"]').tooltip('destroy')
+        return this.render()
+    },
+    prebaked: function(set) {
         if (CONFIG.verbose == true) {
             console.info("------> StatesVIew --> prebakedOG")
         }

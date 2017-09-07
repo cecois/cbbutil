@@ -1,9 +1,10 @@
 /* -------------------------------------------------- GLOBALS -----------------------  */
 var CONFIG = {
 	verbose:true
-	,proxy:null
-	,query:"*:*"
-	,basemap:"pencil"
+    ,dev:true
+    ,proxy:null
+    ,query:"*:*"
+    ,basemap:"pencil"
 }
 // if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 //     window.agent = "mobile";
@@ -104,11 +105,11 @@ var baselayersdummified = {
         "active": true,
         "source": "localhost",
         "nom": "A Real Dummy",
-        "thumb": "offline/dummy-thumb.png",
+        "thumb": "/images/bm-dummy-thumb.png",
         "mapis": "dark",
         "definition": {
             "maxZoom": 18,
-            "url": "offline/dummy-thumb.png",
+            "url": "/images/bm-dummy-thumb.png",
             "noWrap": true
         }
     },{
@@ -116,11 +117,11 @@ var baselayersdummified = {
         "active": false,
         "source": "localhost",
         "nom": "A Real Dummy",
-        "thumb": "offline/dummy-thumb.png",
+        "thumb": "/images/bm-dummy-thumb.png",
         "mapis": "dark",
         "definition": {
             "maxZoom": 18,
-            "url": "offline/dummy-thumb.png",
+            "url": "/images/bm-dummy-thumb.png",
             "noWrap": true
         }
     }]
@@ -131,7 +132,7 @@ var baselayersdesk = {
         "active": false,
         "source": "mapbox",
         "nom": "Duncan Graham's Super Mario",
-        "thumb": "offline/mapbox-mario.png",
+        "thumb": "/images/bm-mapbox-mario.png",
         "mapis": "light",
         "definition": {
             "subdomains": ["a", "b", "c"],
@@ -144,7 +145,7 @@ var baselayersdesk = {
         "active": false,
         "source": "mapbox",
         "nom": "Katie Kowalsky's Pop Art (Inspored by Roy lichtenstein)",
-        "thumb": "offline/mapbox-popart.png",
+        "thumb": "/images/bm-mapbox-popart.png",
         "mapis": "dark",
         "definition": {
             "subdomains": ["a", "b", "c"],
@@ -158,7 +159,7 @@ var baselayersdesk = {
         "active": true,
         "source": "mapbox",
         "nom": "Aj Ashton's Pencil Map",
-        "thumb": "offline/mapbox-pencil.png",
+        "thumb": "/images/bm-mapbox-pencil.png",
         "mapis": "dark",
         "definition": {
             "subdomains": ["a", "b", "c"],
@@ -172,7 +173,7 @@ var baselayersdesk = {
         "active": false,
         "source": "opencycle",
         "nom": "OpenCycle Landscape",
-        "thumb": "offline/opencycleland.png",
+        "thumb": "/images/bm-opencycleland.png",
         "mapis": "dark",
         "definition": {
             "maxZoom": 18,
@@ -190,7 +191,7 @@ var baselayersmobile = {
         "active": true,
         "source": "mapbox",
         "nom": "Aj Ashton's Pencil Map",
-        "thumb": "offline/mapbox-pencil.png",
+        "thumb": "/images/bm-mapbox-pencil.png",
         "mapis": "dark",
         "definition": {
             "subdomains": ["a", "b", "c"],
@@ -203,37 +204,28 @@ var baselayersmobile = {
         "active": false,
         "source": "localhost",
         "nom": "A Real Dummy",
-        "thumb": "offline/dummy-thumb.png",
+        "thumb": "/images/bm-dummy-thumb.png",
         "mapis": "dark",
         "definition": {
             "maxZoom": 18,
-            "url": "offline/dummy-thumb.png",
+            "url": "/images/bm-dummy-thumb.png",
             "noWrap": true
         }
     }
     ]
 }
 
-// if(dev==true){
-//     baselayers=baselayersdummified
-// } else {
 
-//     if(agent=='mobile'){
-//         baselayers=baselayersmobile
-//     }else{baselayers=baselayersdesk}}
-
-//     var appBaseLayers = new BaseLayersCollection(baselayers.layers);
-// var appBaseLayersMenuView = new BaseLayersMenuView({
-//     collection: appBaseLayers
-// });
-
-// var appBaseLayersView = new BaseLayersView({
-//     collection: appBaseLayers
-// });
 
 // var appCartoQuery = new CartoQuery();
 // var appCartoQueryView = new QueryView({
 //     model: appCartoQuery
+// });
+// 
+// 
+var appQuery = new Query();
+// var appQueryView = new QueryView({
+//     model: appQuery
 // });
 
 
@@ -278,6 +270,8 @@ var shares = [
 }
 ]
 
+var UTIL = new Util();
+
 // new activity model and view
 var appActivity = new Activity({message:"loading..."});
 var appActivityView = new ActivityView({
@@ -288,11 +282,27 @@ var appActivityView = new ActivityView({
   states
     );
     */
-   var appState = new State();
-var appStateView = new StateView({
-    model: appState
-});
+    var appState = new State();
+    var appStateView = new StateView({
+        model: appState
+    });
 
+    // if(CONFIG.dev==true){
+    //     baselayers=baselayersdummified
+    // } else {
+
+    //     if(agent=='mobile'){
+    //     }else{baselayers=baselayersdesk}}
+
+    baselayers=baselayersdesk
+    var appBaseLayers = new BaseLayersCollection(baselayers.layers);
+    var appBaseLayersMenuView = new BaseLayersMenuView({
+        collection: appBaseLayers
+    });
+
+var appBaseMapView = new BaseLayersView({
+    collection: appBaseLayers
+});
 // var appShares = new Shares(
 //     shares
 //     );
