@@ -113,15 +113,15 @@ var baselayersdummified = {
             "noWrap": true
         }
     },{
-        "name": "dummy",
+        "name": "dummy2",
         "active": false,
         "source": "localhost",
-        "nom": "A Real Dummy",
-        "thumb": "/images/bm-dummy-thumb.png",
+        "nom": "A Real Second Dummy",
+        "thumb": "/images/bm-dummy-thumb2.png",
         "mapis": "dark",
         "definition": {
             "maxZoom": 18,
-            "url": "/images/bm-dummy-thumb.png",
+            "url": "/images/bm-dummy-thumb2.png",
             "noWrap": true
         }
     }]
@@ -216,32 +216,6 @@ var baselayersmobile = {
 }
 
 
-
-// var appCartoQuery = new CartoQuery();
-// var appCartoQueryView = new QueryView({
-//     model: appCartoQuery
-// });
-// 
-// 
-var appQuery = new Query();
-// var appQueryView = new QueryView({
-//     model: appQuery
-// });
-
-
-// var appConsole = new Console().set({
-//     message: "Console. Quasi-important messages will appear here."
-// });
-// var appConsoleView = new ConsoleView({
-//     model: appConsole
-// });
-
-// var appQuerySubNav = new QuerySubNav();
-// var appQuerySubNavView = new QuerySubNavView({
-//     model: appQuerySubNav
-// });
-
-
 var states = [{
     "name": "main",
     "posish": "open",
@@ -270,6 +244,32 @@ var shares = [
 }
 ]
 
+// var appCartoQuery = new CartoQuery();
+// var appCartoQueryView = new QueryView({
+//     model: appCartoQuery
+// });
+// 
+// 
+var appQuery = new Query();
+// var appQueryView = new QueryView({
+//     model: appQuery
+// });
+
+
+// var appConsole = new Console().set({
+//     message: "Console. Quasi-important messages will appear here."
+// });
+// var appConsoleView = new ConsoleView({
+//     model: appConsole
+// });
+
+// var appQuerySubNav = new QuerySubNav();
+// var appQuerySubNavView = new QuerySubNavView({
+//     model: appQuerySubNav
+// });
+
+
+
 var UTIL = new Util();
 
 // new activity model and view
@@ -294,15 +294,15 @@ var appActivityView = new ActivityView({
     //     if(agent=='mobile'){
     //     }else{baselayers=baselayersdesk}}
 
-    baselayers=baselayersdesk
+    baselayers=baselayersdummified
     var appBaseLayers = new BaseLayersCollection(baselayers.layers);
     var appBaseLayersMenuView = new BaseLayersMenuView({
         collection: appBaseLayers
     });
 
-var appBaseMapView = new BaseLayersView({
-    collection: appBaseLayers
-});
+    var appBaseMapView = new BaseLayersView({
+        collection: appBaseLayers
+    });
 // var appShares = new Shares(
 //     shares
 //     );

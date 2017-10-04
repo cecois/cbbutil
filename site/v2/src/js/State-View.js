@@ -4,11 +4,6 @@ var StateView = Backbone.View.extend({
     ,render: function(){
         return this
     },
-    
-
-
-
-
     swap: function(){
         $(this.el).find('[data-toggle="tooltip"]').tooltip('destroy')
         return this.render()

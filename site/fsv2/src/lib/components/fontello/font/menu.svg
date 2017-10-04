@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2014 by original authors @ fontello.com</metadata>
+<defs>
+<font id="menu" horiz-adv-x="1000" >
+<font-face font-family="menu" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="menu" unicode="&#xe800;" d="m0 29v71q0 15 11 25t25 11h785q15 0 26-11t10-25v-71q0-15-10-26t-26-10h-785q-15 0-25 10t-11 26z m0 285v72q0 14 11 25t25 10h785q15 0 26-10t10-25v-72q0-14-10-25t-26-10h-785q-15 0-25 10t-11 25z m0 286v71q0 15 11 26t25 10h785q15 0 26-10t10-26v-71q0-15-10-25t-26-11h-785q-15 0-25 11t-11 25z" horiz-adv-x="857.1" />
+<glyph glyph-name="search-circled" unicode="&#xe801;" d="m0 350q0 207 147 354t353 146 354-146 146-354-146-354-354-146-353 146-147 354z m223-193l90-90 109 109q53-27 113-27 100 0 171 71t71 171-71 171-172 71-171-71-70-171q0-70 37-129l-2 0z m177 234q0 57 39 96t95 39 95-39 39-96-39-96-95-39-95 39-39 96z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

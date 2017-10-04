@@ -1,0 +1,125 @@
+/*
+===========================
+Stylesheet Author: Zee Zali
+===========================
+*/
+/*
+===================================
+GLOBAL STYLES
+// styles that impact the 
+// overall layout
+===================================
+*/
+body {
+  font: normal normal 300 100%/1 Helvetica, Arial, sans-serif;
+  background: #fff;
+  color: #323232;
+}
+.clear-list {
+  list-style: none;
+}
+.section {
+  padding: 13em 0;
+}
+.section:nth-child(2n+1) {
+  background: #f0f0f0;
+}
+#wrapper {
+  height: 100%;
+}
+/* ======================= */
+/* custom amends to resets */
+/* ======================= */
+strong,
+.strong {
+  font-weight: 700;
+}
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+  outline: none;
+}
+a {
+  color: $pink-1;
+  outline: 0;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:focus {
+  outline: 0;
+}
+.btn {
+  appearance: none;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  outline: 0;
+  background: transparent;
+  cursor: pointer;
+}
+/* content wrap */
+/* centers the inner content area and limits it's width */
+.content-wrap {
+  position: relative;
+  max-width: 75em;
+  padding: 0 5%;
+  margin: 0 auto;
+}
+@media (min-width: 75em) {
+  .content-wrap {
+    padding: 0 3%;
+  }
+}
+@media (min-width: 87.5em) {
+  .content-wrap {
+    padding: 0 2em;
+  }
+}
+/***
+ * off canvas menu trigger
+ *
+ */
+.menu-trigger {
+  float: right;
+  position: relative;
+  z-index: 5;
+  margin: 0.8em;
+  background: 0;
+  appearance: none;
+  border: 0;
+}
+.menu-trigger .icon {
+  width: 1.5em;
+}
+.menu-trigger:hover .shape,
+.menu-trigger:active .shape {
+  fill: $grey-2;
+}
+.menu-trigger .open-icon,
+.menu-trigger .close-icon {
+  -webkit-transition: opacity 250ms ease;
+          transition: opacity 250ms ease;
+}
+.menu-trigger .close-icon {
+  opacity: 0;
+}
+.js-off-canvas-menu__active .menu-trigger {
+  -webkit-transform: translateX(-20%);
+      -ms-transform: translateX(-20%);
+          transform: translateX(-20%);
+}
+.js-off-canvas-menu__active .menu-trigger .close-icon {
+  opacity: 1;
+}
+.js-off-canvas-menu__active .menu-trigger .open-icon {
+  opacity: 0;
+}
+@media (min-width: 60.5em) {
+  .menu-trigger {
+    display: none;
+  }
+}

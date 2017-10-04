@@ -12,6 +12,7 @@ var BaseLayersCollection = Backbone.Collection.extend({
 		.activate(nn)
 	}
 	,activate: function(nn){
+		console.log("switching to ",nn)
 		var nl = (nn)?nn:appState.get("baselayer")
 
 		var nm = this.findWhere({name:nl})
