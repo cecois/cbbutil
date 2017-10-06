@@ -1,6 +1,23 @@
 var __ = require ('underscore')
 ,FS = require('fs')
 ,HANDLEBARS = require('handlebars')
+,CONFIG = require("./Config.json")
+,FSTREAM = require("fstream")
+,TAR = require("tar-fs")
+,ZLIB = require('zlib')
+,DB = require('mongodb').Db
+,MongoClient = require('mongodb').MongoClient
+,Server = require('mongodb').Server
+,ReplSetServers = require('mongodb').ReplSetServers
+,ObjectID = require('mongodb').ObjectID
+,Binary = require('mongodb').Binary
+,GridStore = require('mongodb').GridStore
+,Grid = require('mongodb').Grid
+,Code = require('mongodb').Code
+,BSON = require('mongodb-core').BSON
+,FS = require('fs')
+,assert = require('assert')
+,MOMENT = require('moment')
 ;
 
 var audit = async (inc) =>{
@@ -73,8 +90,6 @@ return o
 }) //map
 
 var sumo = {bits:sum,length:sum.length}
-console.log(sumo);
-// process.exit();
 
 		    // make the buffer into a string
 		    // var source = data.toString();
@@ -121,6 +136,7 @@ var incoming = async (ln) =>{
 	return new Promise(function(resolve, reject) {
 		var r = []
 
+var fakeln = ln+'-fake'
 		FS.readFile('../cbb-'+ln+'-json.json',async (e,d)=>{
 			if(e){reject(e)}
 				else
@@ -138,7 +154,58 @@ var bu = async () =>{
 
 return new Promise((resolve, reject)=>{
 
+	var url = 'mongodb://'+CONFIG.mongouser+':'+CONFIG.mongopsswd+'@'+CONFIG.mongohost+':'+CONFIG.mongoport+'/'+CONFIG.mongodb;
+	var runid = MOMENT().format('YYYY_MMMM_dddd_hh_mm_ss');
+	var bud = CONFIG.budir+"/"+runid;
+	var buf = "bu."+runid+".json";
+	var but = bud+".tar";
 var r = []
+
+var D = db.collection('bits').find({},(err,cursor)=>{
+	if(err){r.flag=err;reject(r);} else {
+
+		cursor.toArray((err,docs)=>{
+			if(err){console.log("conversion of cursor to array bombed out w/ ",err)} else {
+
+				FS.mkdir(bud, null, function(err) {
+					if(err) {
+						return console.log(err);
+					} else {
+						console.log("madedir "+bud+" - time to fill it with "+set.length+" bits");
+
+
+
+						FS.writeFile(bud+"/"+buf, JSON.stringify(set), function(err) {
+							if(err) {
+								return console.log(err);
+							} else {
+								console.log("set backed up as "+buf+", tarballing now...");
+
+								var output = FS.createWriteStream(bud+"/"+buf+".tgz");
+								var compress = ZLIB.createGzip();
+								/* The following line will pipe everything written into compress to the file stream */
+								compress.pipe(output);
+			// send some stuff to the compress object
+			compress.write(JSON.stringify(set));
+			compress.end();
+				db.close();
+				resolve();
+
+			}
+			});
+
+					}
+				});
+
+			}
+
+
+}) //toarray
+	}
+
+});
+
+
 	r.push("Mongo export of N documents completed without error")
 	resolve(r)
 });
@@ -158,14 +225,14 @@ var inc = await incoming(ln);
 
 R=
 {
-	// "backup":await bu(),
-	"incoming": inc.length,//just length count and audit result
-	"audit":await audit(inc),
+	"backup":await bu(),
+	// "incoming": inc.length,//just length count and audit result
+	// "audit":await audit(inc),
 	// "send":await send(),
 	// "export":await bu(),
 	// "index":await esify(),
-	"report":await report(inc),
-	"prepapp":await prepapp(inc),
+	// "report":await report(inc),
+	// "prepapp":await prepapp(inc),
 	// "clean":await clean(),
 }
 
