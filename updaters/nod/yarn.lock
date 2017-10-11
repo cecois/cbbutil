@@ -3304,6 +3304,12 @@ mongodb@^2.1.4, mongodb@^2.2.25:
     mongodb-core "2.1.9"
     readable-stream "2.1.5"
 
+mongolab-data-api@^1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/mongolab-data-api/-/mongolab-data-api-1.1.6.tgz#8877bab3416bc05a499d6bfbb6867da79c44783e"
+  dependencies:
+    xmlhttprequest "^1.8.0"
+
 ms@0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.1.tgz#9cd13c03adbff25b65effde7ce864ee952017098"
@@ -5150,6 +5156,10 @@ xmlbuilder@^4.1.0:
 xmlhttprequest-ssl@1.5.3:
   version "1.5.3"
   resolved "https://registry.yarnpkg.com/xmlhttprequest-ssl/-/xmlhttprequest-ssl-1.5.3.tgz#185a888c04eca46c3e4070d99f7b49de3528992d"
+
+xmlhttprequest@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/xmlhttprequest/-/xmlhttprequest-1.8.0.tgz#67fe075c5c24fef39f9d65f5f7b7fe75171968fc"
 
 "xtend@>=4.0.0 <4.1.0-0", xtend@^4.0.0, xtend@~4.0.0, xtend@~4.0.1:
   version "4.0.1"

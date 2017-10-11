@@ -4,19 +4,23 @@ var __ = require ('underscore')
 ,CONFIG = require("./Config.json")
 ,FSTREAM = require("fstream")
 ,TAR = require("tar-fs")
+,PATH = require('path')
 ,ZLIB = require('zlib')
 ,DB = require('mongodb').Db
-,MongoClient = require('mongodb').MongoClient
-,Server = require('mongodb').Server
-,ReplSetServers = require('mongodb').ReplSetServers
-,ObjectID = require('mongodb').ObjectID
-,Binary = require('mongodb').Binary
-,GridStore = require('mongodb').GridStore
-,Grid = require('mongodb').Grid
-,Code = require('mongodb').Code
-,BSON = require('mongodb-core').BSON
+,RP = require('request-promise')
+,MLAB = require('mongolab-data-api')(CONFIG.mongokey)
+// ,MONGOCLIENT = require('mongodb').MongoClient
+// ,DOOKIE = require('dookie')
+// ,Server = require('mongodb').Server
+// ,ReplSetServers = require('mongodb').ReplSetServers
+// ,ObjectID = require('mongodb').ObjectID
+// ,Binary = require('mongodb').Binary
+// ,GridStore = require('mongodb').GridStore
+// ,Grid = require('mongodb').Grid
+// ,Code = require('mongodb').Code
+// ,BSON = require('mongodb-core').BSON
 ,FS = require('fs')
-,assert = require('assert')
+// ,assert = require('assert')
 ,MOMENT = require('moment')
 ;
 
@@ -31,17 +35,17 @@ var fakeext = ['The Paul Hardcastle of SuicidesSounds loud, right?Black Sabbath 
 // __.map(inc,(b)=>{return b.bit+b.instance+b.tags})
 __.each(inc,(c)=>{
 
-var finder = c.bit+c.instance+c.tags
-if(__.contains(fakeext,finder)){
-	dupes.push(finder)
-}
+	var finder = c.bit+c.instance+c.tags
+	if(__.contains(fakeext,finder)){
+		dupes.push(finder)
+	}
 
 })
 
 var flag=(dupes.length>0)?'stop':null
-		var r = {flag:flag,msg:"of "+inc.length+" incoming bits, "+dupes.length+" were sketchy",candidates:dupes.join(",")}
-		resolve(r)
-	});
+var r = {flag:flag,msg:"of "+inc.length+" incoming bits, "+dupes.length+" were sketchy",candidates:dupes.join(",")}
+resolve(r)
+});
 }
 
 var clean = async () =>{
@@ -70,9 +74,9 @@ var report = async (inc) =>{
 	return new Promise(function(resolve, reject) {
 		// var tpl = 'foo'
 		FS.readFile('Update.hbs',(err, template)=>{
-		  if (!err) {
+			if (!err) {
 
-var groupd = __.groupBy(inc,'bit');
+				var groupd = __.groupBy(inc,'bit');
 
 // console.log(groupd);
 
@@ -80,7 +84,7 @@ var sum = __.map(groupd,(G,i,L)=>{
 
 	var len = G.length
 	,bit = i
-,instances = __.pluck(G,'instance')
+	,instances = __.pluck(G,'instance')
 	;
 
 // console.log("bit",bit);
@@ -95,23 +99,23 @@ var sumo = {bits:sum,length:sum.length}
 		    // var source = data.toString();
 		    // call the render function
 		    // renderToString(source, fooJson);
-				var tpl = HANDLEBARS.compile(template.toString());
- var result = tpl(sumo);
- FS.writeFile('/tmp/cbb-update.html',result,(err,suc)=>{
-	 if(!err){
-		var r={flag:null,rendering:"report generated using Update.hbs, written to /tmp/cbb-update.html"}
-		resolve(r)
-	} else {
-		var r={flag:'stop',rendering:"report gen failed, check /tmp/cbb-update.html"}
-		reject()
-	}
- })
+		    var tpl = HANDLEBARS.compile(template.toString());
+		    var result = tpl(sumo);
+		    FS.writeFile('/tmp/cbb-update.html',result,(err,suc)=>{
+		    	if(!err){
+		    		var r={flag:null,rendering:"report generated using Update.hbs, written to /tmp/cbb-update.html"}
+		    		resolve(r)
+		    	} else {
+		    		var r={flag:'stop',rendering:"report gen failed, check /tmp/cbb-update.html"}
+		    		reject()
+		    	}
+		    })
 
-		  } else {
+		} else {
 		    // handle file read error
-				reject(err)
-		  }
-		});
+		    reject(err)
+		}
+	});
 
 	});
 }
@@ -134,85 +138,149 @@ var send = async () =>{
 
 var incoming = async (ln) =>{
 	return new Promise(function(resolve, reject) {
-		var r = []
+		var r = {}
 
-var fakeln = ln+'-fake'
+		var ln = ln+'-fake'
+
 		FS.readFile('../cbb-'+ln+'-json.json',async (e,d)=>{
-			if(e){reject(e)}
-				else
-				{
-					var DJ = JSON.parse(d)
-		resolve(DJ)
-				}
+			if(e){console.log("readfile err");
+			r.flag='stop'
+			r.msg='read of *.json failed'
+			reject(e)
+		}
+		else
+		{
+			var DJ = JSON.parse(d)
+
+			r.flag=null
+			r.msg = "incoming "+ln+" with "+DJ.length
+			r.payload = DJ
+			resolve(r)
+		}
 
 		})//readfile
 
 	});
 }
 
+var extant_offline = async () =>{
+
+	return new Promise((resolve,reject)=>{
+
+		var files = FS.readdirSync(CONFIG.budir);
+    // use underscore for max()
+    var max = __.max(files, function (f) {
+    	var fullpath = PATH.join(CONFIG.budir, f);
+
+        // ctime = creation time is used
+        // replace with mtime for modification time
+        return FS.statSync(fullpath).ctime;
+    });
+    console.log(max);
+    resolve(max);
+
+	})//promise
+}
+
+var extant = async () =>{
+
+	return new Promise((resolve,reject)=>{
+
+		var options = {
+			database: CONFIG.mongodb,
+			collectionName: CONFIG.mongocollx,
+			query: null,
+			limit:999999999
+		};
+
+		MLAB.listDocuments(options, function (err, data) {
+			if(err){reject(err)}else {
+				
+				var runid = MOMENT().format('YYYY_MMMM_dddd_hh_mm_ss');
+				var buf = CONFIG.budir+"/bu."+runid+".json";
+
+				FS.writeFile(buf,JSON.stringify(data),(err,res)=>{
+
+					if(err){reject(err)} else {
+
+						resolve({flag:null,msg:"raw backup written to "+buf})
+
+}//fs.writefile.if.err.else
+
+})//writefile
+
+			}
+  // console.log(data); //=> [ { _id: 1234, ...  } ] 
+  // resolve();
+});
+
+})//promise
+}//extant
+
 var bu = async () =>{
 
-return new Promise((resolve, reject)=>{
+	return new Promise((resolve, reject)=>{
 
-	var url = 'mongodb://'+CONFIG.mongouser+':'+CONFIG.mongopsswd+'@'+CONFIG.mongohost+':'+CONFIG.mongoport+'/'+CONFIG.mongodb;
-	var runid = MOMENT().format('YYYY_MMMM_dddd_hh_mm_ss');
-	var bud = CONFIG.budir+"/"+runid;
-	var buf = "bu."+runid+".json";
-	var but = bud+".tar";
-var r = []
+		var url = 'mongodb://'+CONFIG.mongouser+':'+CONFIG.mongopsswd+'@'+CONFIG.mongohost+':'+CONFIG.mongoport+'/'+CONFIG.mongodb;
+		var runid = MOMENT().format('YYYY_MMMM_dddd_hh_mm_ss');
+		var bud = CONFIG.budir+"/"+runid;
+		var buf = "bu."+runid+".json";
+		var but = bud+".tar";
+		var r = []
 
-var D = db.collection('bits').find({},(err,cursor)=>{
-	if(err){r.flag=err;reject(r);} else {
+		var D = db.collection('bits').find({},(err,cursor)=>{
+			if(err){r.flag=err;reject(r);} else {
 
-		cursor.toArray((err,docs)=>{
-			if(err){console.log("conversion of cursor to array bombed out w/ ",err)} else {
+				cursor.toArray((err,docs)=>{
+					if(err){console.log("conversion of cursor to array bombed out w/ ",err)} else {
 
-				FS.mkdir(bud, null, function(err) {
-					if(err) {
-						return console.log(err);
-					} else {
-						console.log("madedir "+bud+" - time to fill it with "+set.length+" bits");
-
-
-
-						FS.writeFile(bud+"/"+buf, JSON.stringify(set), function(err) {
+						FS.mkdir(bud, null, function(err) {
 							if(err) {
 								return console.log(err);
 							} else {
-								console.log("set backed up as "+buf+", tarballing now...");
+								console.log("madedir "+bud+" - time to fill it with "+set.length+" bits");
 
-								var output = FS.createWriteStream(bud+"/"+buf+".tgz");
-								var compress = ZLIB.createGzip();
-								/* The following line will pipe everything written into compress to the file stream */
-								compress.pipe(output);
+
+
+								FS.writeFile(bud+"/"+buf, JSON.stringify(set), function(err) {
+									if(err) {
+										return console.log(err);
+									} else {
+										console.log("set backed up as "+buf+", tarballing now...");
+
+										var output = FS.createWriteStream(bud+"/"+buf+".tgz");
+										var compress = ZLIB.createGzip();
+										/* The following line will pipe everything written into compress to the file stream */
+										compress.pipe(output);
 			// send some stuff to the compress object
 			compress.write(JSON.stringify(set));
 			compress.end();
-				db.close();
-				resolve();
+			db.close();
+			resolve();
 
-			}
-			});
+		}
+	});
+
+							}
+						});
 
 					}
-				});
-
-			}
 
 
 }) //toarray
-	}
+			}
 
-});
+		});
 
 
-	r.push("Mongo export of N documents completed without error")
-	resolve(r)
-});
+		r.push("Mongo export of N documents completed without error")
+		resolve(r)
+	});
 
 }
 
 var main = async () =>{
+	var R = {}
 	try {
 		var ln = process.argv[2]
 
@@ -221,11 +289,16 @@ var main = async () =>{
 			process.exit();
 		} else {
 
-var inc = await incoming(ln);
+			var inca = await incoming(ln);
+			R.incoming=inc.msg
+			var inc = inc.payload
+			// var ext = await extant();
+			var ext = await extant_offline();
+			process.exit();
 
-R=
-{
-	"backup":await bu(),
+			R=
+			{
+				// "backup":await bu(),
 	// "incoming": inc.length,//just length count and audit result
 	// "audit":await audit(inc),
 	// "send":await send(),
@@ -245,11 +318,11 @@ if(R.audit.flag == 'stop'){
 }
 
 
-		}
+}
 
-	} catch(error) {
-		console.error(error);
-	}
+} catch(error) {
+	console.error(error);
+}
 }
 
 main();
