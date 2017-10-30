@@ -41,6 +41,7 @@
   },
   "dependencies": {
     "del": "^3.0.0",
+    "elasticsearch": "^13.3.1",
     "gulp-clean-css": "^3.4.2",
     "gulp-cssmin": "^0.2.0",
     "gulp-debug": "^3.1.0",

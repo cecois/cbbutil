@@ -5,7 +5,7 @@ var ELASTIC = require('elasticsearch')
 
 
 var client = new ELASTIC.Client({
-	host: 'localhost:9200',
+	host: 'milleria.org:9200',
 	log: 'trace'
 });
 
@@ -14,7 +14,7 @@ var elastic_array =[];
 
 
 
-FS.readFile('bits.json',(err,dat)=>{
+FS.readFile('bu/bu.2017_October_Friday_07_30_38.json',(err,dat)=>{
 	if(err){console.log(err);process.exit();}
 
 
