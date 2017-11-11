@@ -19,7 +19,6 @@ var __ = require ('underscore')
 // ,Grid = require('mongodb').Grid
 // ,Code = require('mongodb').Code
 // ,BSON = require('mongodb-core').BSON
-,FS = require('fs')
 // ,assert = require('assert')
 ,MOMENT = require('moment')
 ;
