@@ -25,15 +25,15 @@ var url = process.argv[2]
 
 function SCRAPE(err, resp, html) {
   if (err) return console.error(err)
-var parsedHTML = $.load(html)
+    var parsedHTML = $.load(html)
 
-var fs = require('fs');
-fs.writeFile("/tmp/cbb-frm-node.html", parsedHTML, function(err) {
+  var fs = require('fs');
+  fs.writeFile("/tmp/cbb-frm-node.html", parsedHTML, function(err) {
     if(err) {
-        return console.log(err);
+      return console.log(err);
     }
 
-});
+  });
 // var htmlString = fs.readFileSync('/tmp/cbb.html').toString()
 // var parsedHTML = $.load(htmlString)
 
@@ -65,7 +65,8 @@ parsedHTML('.showtitle').map(function(i, foo) {
 parsedHTML('.title__h2').map(function(i, foo) {
   // var u = $(foo).attr('href')
   var u = "href"
-  D.url_soundcloud=u+"/#t=yy:yy";
+  D.url_soundcloud=null;
+  D.slug_soundcloud=null;
   // D.url_soundcloud="/#t=yy:yy";
 })
 
@@ -84,4 +85,4 @@ parsedHTML('html head title').map(function(i, foo) {
 //SCRAPE
 }
 
-    request(url, SCRAPE)
+request(url, SCRAPE)

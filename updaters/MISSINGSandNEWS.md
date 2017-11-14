@@ -1,7 +1,26 @@
 # possible new bits:
 * interesting people
 	* several of the 480+ eps
+	* 510,1:17:45(commercialed)
+	* 510,4:45(commercialed)
+	* 509,2:20(commercialed)
+	* 509,1:01:40(commercialed)
+	* 508,1:11:20(commercialed)
 	* 490,1:55(paywall)
+	* 518,1:50
+	* 518,47:55
+	* 518,53:00
+	* 518,42:12
+	* 518,33:10
+	* 517,1:45
+	* 517,10:45
+	* 517,32:00
+	* 517,45:15
+	* 507,54:00
+	* 507,1:05:00
+	* 507,2;40
+	* 507,42:18
+	* 506,12:35
 	* 505,10:00
 	* 503,24:00
 	* 503,1:05:20
@@ -28,11 +47,28 @@
 	* 496,1:08:20
 	* 497,1:30
 	* 497,42:05
+* standing up shaking your fist/risen
+	* 373,multiple
+	* 372?
+	* 374,13:50(pw)
+	* 376,1:04:45(pw)
+* whistling pete
+	* 372,44:00(pw)
+	* 372,1:03:00(pw)
+	* 388,27:30(pw)
 * classic jarles
 	* 498,51:10(added)
 	* 500,2:08
+	* 342,12:50
+	* 344,30:20(pw)
+	* 344,35:11(pw)
+	* 365,1:06:20(pw)
+	* 365,1:08:50(pw)
+	* 365,1:09:50(pw)
 * we're really gonna probe his psyche (in-depth - wtf - actors pain)
 	* 162,33:45
+	* 510,8:45(commercialed)
+	* 357,7:00(pw)
 	* 331,25:35(pw)
 	* 316,5:30(paywall)
 	* 309,4:15
@@ -82,6 +118,9 @@
 	* 141,49:10
 	* 145,9:30oyn
 	* 228,16:00(howl)
+* c+ - the highest grade
+	* 362,6:15(pw)
+	* 366,23:00(pw)
 * colin show
 	* missing one from #483
 * sequel numbering
@@ -116,6 +155,7 @@
 	* 287,1:13:35(howl)
 	* 307,45:20
 	* 318,28:40(paywall)
+	* 356,2:15(pw)
 * hot shit/cold diahrrea
 	* 479,42:45(howl - w/ ads)
 * mike the janitor's mantra
@@ -125,8 +165,21 @@
 	* 218,1:14:00(howl)
 	* 283,1:00:13(howl)
 	* bo2014.2,1:39:54
+	* 507,17:00
+	* 356,56:00(pw)
+	* 384,42:50(pw)
 * auggiedoggie
 	* tons
+	* 515,1:00
+	* 381,0:45(pw)
+	* 372,1:20(pw)
+	* 512,1:20
+	* 512,1:46:30
+	* 514,1:20
+	* 370,1:25
+	* 371,0:40
+	* 371,2:10
+	* lotsa mid-300s
 	* bo2016.3,4:45
 * rest in power
 	* bo2016.2,multiple
@@ -142,6 +195,7 @@
 	* 241,35:20(howl)
 	* 283,1:36:35(howl)
 	* 474,1:10:20(howl)
+	* 363,1:23:45(pw)
 * jelloems
 	* 197,34:30
 	* 197,35:50
@@ -170,6 +224,9 @@
 	* 235,55:00(howl)
 * working in the lab
 	* all halloween specials
+	* 515,1:01:30
+	* 383,59:50(pw)
+	* 383,1:05:00(pw)
 	* 183,11:30
 	* 183,11:38
 	* 183,20:50
@@ -184,6 +241,15 @@
 	* 319,27:12(paywall)
 	* 319,42:20(paywall)
 	* 319,56:40(paywall)
+	* 383,10:25(pw)
+	* 383,16:30(pw)
+	* 383,19:00(pw)
+	* 383,23:40(pw)
+	* 383,33:50(pw)
+	* 383,36:15(pw)
+	* 383,38:00(pw)
+	* 383,55:10(pw)
+	* 383,56:10(pw)
 * woody allen's turning point
 	* 457,29:00
 * book fade-outs
@@ -230,6 +296,7 @@
 	* 484,6:10
 	* 316,0:45(paywall)
 	* 323,1:20(paywall)
+	* 353,3:45(pw)
 * german germany cannibalism
 	* 59,42:45 (inaugural)
 	* 429,1:17:42
@@ -299,6 +366,9 @@
 * \#1 with a bullet
 	* 2016.denver,10:00
 	* 2016.toronto,41:00
+	* 508,1:24:10(commercialed)
+	* 382,40:00(pw)
+	* 386,40:50(pw)
 	* 262,9:30
 	* 289,9:50(howl)
 	* 289,46:00(howl)
@@ -317,6 +387,7 @@
 	* bo2016.3,57:30
 	* 323,1:03:17(paywall)
 	* 324,6:00(paywall)
+	* 384,23:50(pw)
 	* bo2014.3,1:41:23(paywall)
 	* bo2014_4,8:55(PW)
 * lapkus can't make it through a song
@@ -350,8 +421,11 @@
 	* 485,1:54:47(ads)
 	* 307,43:20
 	* 307,1:02:40
+	* 385,45:00(pw)
 * hollywood facts
 	* lots
+	* 519,1:41:00(commercialed)
+	* 371,56:00(pw)
 	* 162,57:45
 	* 421,??:??
 	* 421,??:??
@@ -385,6 +459,7 @@
 	* 2016.tarrytown,44:00
 	* 335,3:00(pw)
 	* 335,1:00:40(pw)
+	* 384,49:45(pw)
 	* every other wiseman appearance *10
 	* 2016.oakland,35:28
 	* 2016.oakland,36:50
@@ -407,6 +482,7 @@
 	* 2016.losangeles,1:00:40
 * character bonanzas
 	* 300,bill carter+
+	* 345,all explosiones
 	* 335,wiseman|marshal|thicke
 	* 500,1:25:45
 	* 485,30:00+
@@ -437,10 +513,14 @@
 	* 191,1:41:00
 	* 183,40+
 	* 215,1:04:00+
+	* 378,kroll does mailer,live,fabrice,others
 * rounds of catchphrase
 * all the cities of the country
 	* 404,16:00
 	* 485,1:49:00(ads)
+	* 349,1:08:30(pw)
+	* 365,13:45(pw)
+	* 375,30:30(pw)
 * r2d2soon
 	* bo2015*
 	* 404,21:15
@@ -470,6 +550,7 @@
 * goodbye listeners!
 	* bo2015.3,32:00
 	* 349,1:01:30
+	* 349,55:20(pw)
 	* 215,59:23
 	* bo2013.1,6:45(howl)
 	* bo2013.1,7:45(howl)
@@ -495,12 +576,15 @@
 	* bo2015.4,~38:00
 	* 412,9:40
 * ET no homo
-	* 356,1:12:00
+	* 356,1:06:30(pw)
+	* 382,36:50(pw)
 	* 406,54:50
+	* 371,55:00(pw)
 	* 2016.detroit,1:43:15
 	* 2016.oakland,11:00
 	* 2016.oakland,13:00
 	* 2016.oakland,54:33
+	* 513,1:03:12
 * fictional people - dead but reasonable
 	* 289,21:45(howl)
 	* san francisco 2012,23:00+
@@ -532,6 +616,7 @@
 	* 196,50:30
 * it's good now
 	* BO2015.2,1:41:00
+	* 513,1:05:00
 	* 400,17:45
 	* 400,24:13
 	* bo2015.2,2:07:30
@@ -549,6 +634,7 @@
 	* bo2016.2,1:55:20
 	* bo2016.2,2:16:30
 	* 349,42:30
+	* 349,40:14(pw)
 	* bo2015.4,8:00
 	* 335,1:17:10(pw)
 	* 335,1:30:15(pw)
@@ -557,6 +643,7 @@
 	* 394 - 18:45
 	* 394 - 24:28
 	* 399,1:15:10
+	* 367,7:00(pw)
 	* 407,46:15
 	* 413,26:13
 	* 421,17:40
@@ -632,11 +719,15 @@
 	* 191,1:12:00
 	* 246,31:40(howl)
 * mr. microphone
-	* 6th anniversary special
+	* 349,38:25(pw)
+	* 349,40:30(pw)
 	* BO2015.4,10:55
 	* 2016.nyc930,32:45
 	* bo.2016.1,52:25
 	* bo.2016.3,6:45
+	* 507,12:40
+	* 507,35:00
+	* 513,32:45
 * starting too low
 	* 2016.manchester,1:38:00
 	* bo2015.2,1:14:30
@@ -647,6 +738,7 @@
 	* 133,41:50
 	* 133,55:59
 	* 133,59:30
+	* 354,34:00(pw)
 	* 500,1:08:30
 	* 400,50:00
 	* 408,32:00
@@ -660,12 +752,14 @@
 	* 473,24:00(howl)
 	* 473,25:15(howl)
 	* bo2013.1,45:20(howl)
+	* 516,3:45
 * jeffrey characterwheaties
 	* 2:03:55,kroll+mantzoukas daemon episode
 	* 394,41:10
 * interesting vote from an interesting player
 	* http://howl.fm/audio/26163/live-from-vancouver-2013,51:50
 	* 198,53:00
+	* 363,1:06:20(pw)
 	* 325,1:27:55(paywall)
 	* 269,1:10:30
 	* 271,1:01:57
@@ -676,9 +770,11 @@
 	* 203,1:00:30
 	* 216,56:20(howl)
 	* 224,58:15(howl)
+	* 377,1:19:30(pw)
 * is dick francis a horse?
 	* bo2015.4,8:00
 	* bo2015.4,1:17:00
+	* 514,1:36:00
 	* 398,1:08:00
 	* 399,1:07:50
 	* 2016.chicago10,27:30
@@ -686,10 +782,13 @@
 	* 2016.leeds,25:32
 	* 179,54:20
 	* 484,1:15:45(howl w/ comm)
+	* 507,39:00
+	* 507,1:04:50
 * don't joke about irobot
 	* early in bo2015.1
 	* bo2015.2,12:00
 	* bo2016.2,2:15:30
+	* 512,1:06:30(pw)
 	* 484,39:20(howl w/ comm)
 * that sounds good to me
 	* 2015 BOs?
@@ -723,6 +822,9 @@
 	* http://howl.fm/audio/26139/live-from-nyc-2014-part-2,1:01:00
 	* 235,58:30
 	* 338,1:23:10(pw)
+* you say baby too
+	* 508,45:12(pw)
+	* 515,12:30
 * gershwin, my baby
 	* 400, multiple
 	* 400, ~28:30
@@ -771,9 +873,10 @@
 	* 398,1:08:00
 	* 2016.chicago10,27:30
 * jason hates scott
-	* 384,24:30
+	* 384,18:30(pw)
 	* 176,8:45
 	* 274,4:37
+	* 365,13:30(pw)
 * constantly high-fiving
 	* 384,25:00
 * men of a certain age
@@ -792,14 +895,21 @@
 	* 405,33:15
 * d'artagnan
 	* 498,52:45
+	* 512,46:30
 * santa baby
 	* 33,6:00
 	* 41,9:30
 	* 242,58:14(howl)
 	* 242,1:05:45(howl)
 	* 2016.perth,1:05:10
+	* 388,10:10(pw)
+	* 388,20:10(pw)
 * symmetrical face
 	* 158,1:00:00
+	* 379,1:00:20(pw)
+	* 376,26:50(pw)
+	* 346,17:45(pw)
+	* 343,1:10:00(pw)
 	* 333,28:00(pw)
 	* 480,2:20
 	* 146,4:30
@@ -818,7 +928,12 @@
 	* 2016.nyc930,1:03:30
 * dads and grads
 	* 427,1:30
+	* 509,1:00(commercialed)
+	* 358,0:50(pw)
+	* 359,0:50(pw)
 	* 430,1:15
+	* 355,1:00(pw)
+	* 351,1:20(pw)
 	* 296,13:30(paywall)
 	* 296,(early show)(paywall)
 	* 296,45:10(paywall)
@@ -834,6 +949,8 @@
 	* 168,1:01:20
 	* 168,1:02:20
 	* 168,1:11:20
+	* 377,45:20(pw)
+	* 384,33:00(pw)
 * face / off
 	* 136,1:22:11
 	* 2016.minneapolis,30:50 (not sure now)
@@ -853,6 +970,8 @@
 	* 208,33:10
 	* 221,28:10
 	* 303,1:25:30
+	* 349,22:50(pw)
+	* 349,30:00(pw)
 * clumsy portmanteau
 	* 2016.tour al peterson
 	* 440,44:40
@@ -864,6 +983,8 @@
 * a little buzz
 	* 440,55:20
 	* 301,49:30(paywall)
+	* missed at least one b/t 301 and 346
+	* 346,2:50(pw)
 * off the rails/retiring a train
 	* 439,40:10
 	* 440,1:16:00
@@ -892,7 +1013,9 @@
 	* 445,18:45
 * saturday (day) night live
 	* lots
+	* 363,8:30(pw)
 	* 113,2:30
+	* 358,3:30(pw)
 	* 137,9:30
 	* 162,8:45
 	* bo2016.2,43:20
@@ -909,6 +1032,13 @@
 	* (previous herzog appear)
 * of note/in his own right
 	* 292,2:24
+	* 381,2:15(pw)
+	* 382,44:20(pw)
+	* 366,3:30(pw)
+	* 357,6:45(pw)
+	* 363,1:25:20(pw)
+	* 343,18:38(pw)
+	* 340,2:00(pw)
 	* 335,2:20(pw)
 	* 331,2:45(paywall)
 	* 325,3:15(paywall)
@@ -945,6 +1075,13 @@
 	* bo2016.3,1:18:55
 * urls
 	* 295,153,27:50
+	* 517,58:45
+	* 382,43:30(pw)
+	* 513,59:30
+	* 368,49:00(pw)
+	* 366,1:16:30(pw)
+	* 352,25:00(pw)
+	* 352,1:15:00(pw)
 	* 502,28:30
 	* 321,2:14(paywall)
 	* 487,36:00
@@ -1017,6 +1154,8 @@
 	* 483,52:52
 * interesting people
 	* 486,1:30
+	* 514,1:36
+	* 515,1:20
 	* 486,46:35
 	* (the several shows before 486)
 * strains credulity

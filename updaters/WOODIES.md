@@ -22,7 +22,8 @@
 
 ### instances
 * 035,35:00,the ibrain
-* 293,1:13:30(no ads),friends plugs theme
+* 346,1:05:00(pw),that is wild
+* 293,1:13:30(pw),friends plugs theme
 * 474,1:07:40,i like though you say a thing and then you just look down at the ground
 * 166,1:12:34,martha plimpton hanged out with you
 * 191,19:50,horses in bathrooms
@@ -130,14 +131,17 @@
 * 337,46:00,scott’s interviewing style
 * 338,1:43:45,answerless questions in wyr
 * 338,1:53:33,santa fights scott +++
+* 386,49:50,make sure you interrupt my answer
 * 34,20:30,gay! (oh, chupacabra's back)
 * 34,50:00,acting-off w/ john c. reilly
 * 342,1:34:30,oh no! click!
+* 343,1:09:45(pw),from where I'm from i think I sound just like a-you
 * 343,1:36:15,this is why this story is so long
 * 343,50:35,you went someplace and there was a thing there? well that's standard.
 * 346,1:08:00,that is wild
 * 349,21:40-21:49,you put words in my mouth ho ho/shut up cake boss
 * 353,50:01,scott feeds benny schwaz a 9/11 premise for his headline game
+* 356,10:00(pw),is this what you wanted?
 * 356,37:48,like abbott trying to be costello
 * 356,50:20,have we talked about this? we haven't!
 * 356,55:43,Go fund yourself...what?
@@ -149,13 +153,14 @@
 * 370,1:07:30,shot off a balcony
 * 375,24:27,How the fuck are you gonna get a motorcycle all the way to Europe, man?
 * 378,8:40,i waste so much of my day looking at zeros
-* 384,1:06:30,why would i be wearing two crowns on the top of my head hey-o
+* 384,57:50(pw),why would i be wearing two crowns on the top of my head hey-o
 * 384,10:28,well i just asked a question but ok
 * 384,27:50,forget it i don't care
 * 384,47:20,do you not have hemmheroids?!
 * 384,59:00,may i ask where you ejaculate?
 * 384,59:06,may i ask where you ejaculate?
 * 384,59:30,i think the second thing was probably doggie style
+* 390,36:22(pw),scott man i'm telling a regular story
 * 390,1:14:57,maybe you can suck a fuck
 * 394,53:03,im a sugar daddy
 * 221,1:23:30,cuz you got a bad back for a brain
@@ -259,3 +264,15 @@
 * 326,1:52:55,stories about mordor are 5th in the order
 * 500,34:00,i feel like i missed something
 * 500,1:25:18,and gil faizon
+* 342,1:28:10,tell that to china
+* 347,24:00,chunk and danish greg
+* 347,1:01:20(pw),boys get upstairs
+* 350,23:00(pw),kate...uh...middleton
+* 350,30:45(pw),the baby was slaughtered
+* 354,47:10(pw),at the airport a plane takes off
+* 362,18:45(pw),big tobackup industry
+* 510,59:50(pw),are web sites webs that can see?
+* 511,38:18,it sounds unbearable
+* 512,3:55,i would think 10 maybe 11
+* 514,21:20,don't get us started on that cracker
+* 514,1:13:15,try a different strategy idiot
