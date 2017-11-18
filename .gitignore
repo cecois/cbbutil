@@ -8,4 +8,5 @@ updaters/nod/staging
 querier/node_modules
 querier/yarn.lock
 updaters/nod/package-lock.json
+updaters/nod/interm
 site/dist

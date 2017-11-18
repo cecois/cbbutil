@@ -151,6 +151,7 @@
 * 366,57:07,for a person it's terrifyingly fast
 * 366,57:15,35 mph is terrifyingly fast for a kid
 * 370,1:07:30,shot off a balcony
+* 335,??:??,why don't you sit there and shut up - there's two things for you to do
 * 375,24:27,How the fuck are you gonna get a motorcycle all the way to Europe, man?
 * 378,8:40,i waste so much of my day looking at zeros
 * 384,57:50(pw),why would i be wearing two crowns on the top of my head hey-o
@@ -276,3 +277,4 @@
 * 512,3:55,i would think 10 maybe 11
 * 514,21:20,don't get us started on that cracker
 * 514,1:13:15,try a different strategy idiot
+* 365,??:??,i'm not an android and i'm tired of the question
