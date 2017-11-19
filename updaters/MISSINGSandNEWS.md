@@ -204,7 +204,7 @@
 	* 471,1:10:40(howl)
 * gino's commuter train map
 	* 463,2:19:20
-	* 475,17:50(howl)
+	* 475,17:20(howl)
 	* 485,5:45(ads)
 	* 305,37:30
 * kulap

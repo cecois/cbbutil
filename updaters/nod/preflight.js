@@ -23,13 +23,18 @@ var __ = require ('underscore')
 ,MOMENT = require('moment')
 ;
 
-var audit = async (inc) =>{
+var audit = async (inc,ext) =>{
 	return new Promise(function(resolve, reject) {
 		var dupes = []
+		var extants = []
 
 //find most recent *.json in bu dir
 // fs.readfile and compare (mapped) contents to mapped inc
-var fakeext = ['The Paul Hardcastle of SuicidesSounds loud, right?Black Sabbath (musical combination),Heaven and Hell (song)']
+// var fakeext = ['The Paul Hardcastle of SuicidesSounds loud, right?Black Sabbath (musical combination),Heaven and Hell (song)']
+var extants = JSON.parse(FS.readFileSync(CONFIG.budir+"/"+ext, 'utf8'));
+
+console.log('extants.length',extants.length);
+process.exit()
 
 // __.map(inc,(b)=>{return b.bit+b.instance+b.tags})
 __.each(inc,(c)=>{
@@ -139,7 +144,7 @@ var incoming = async (ln) =>{
 	return new Promise(function(resolve, reject) {
 		var r = {}
 
-		var ln = ln+'-fake'
+		// var ln = ln+'-fake'
 
 		FS.readFile('../cbb-'+ln+'-json.json',async (e,d)=>{
 			if(e){console.log("readfile err");
@@ -150,7 +155,6 @@ var incoming = async (ln) =>{
 		else
 		{
 			var DJ = JSON.parse(d)
-
 			r.flag=null
 			r.msg = "incoming "+ln+" with "+DJ.length
 			r.payload = DJ
@@ -162,10 +166,11 @@ var incoming = async (ln) =>{
 	});
 }
 
-var extant_offline = async () =>{
+var most_recent = async () =>{
 
 	return new Promise((resolve,reject)=>{
 
+console.log("sniffing most recent...");
 		var files = FS.readdirSync(CONFIG.budir);
     // use underscore for max()
     var max = __.max(files, function (f) {
@@ -195,6 +200,7 @@ var extant = async () =>{
 		MLAB.listDocuments(options, function (err, data) {
 			if(err){reject(err)}else {
 				
+				console.log("into mlab, writing out...");
 				var runid = MOMENT().format('YYYY_MMMM_dddd_hh_mm_ss');
 				var buf = CONFIG.budir+"/bu."+runid+".json";
 
@@ -288,18 +294,19 @@ var main = async () =>{
 			process.exit();
 		} else {
 
-			var inca = await incoming(ln);
+			var inc = await incoming(ln);
 			R.incoming=inc.msg
 			var inc = inc.payload
-			// var ext = await extant();
-			var ext = await extant_offline();
-			process.exit();
+			
+			// var bu = await extant();
+			var ext = await most_recent();
+			// process.exit();
 
 			R=
 			{
 				// "backup":await bu(),
-	// "incoming": inc.length,//just length count and audit result
-	// "audit":await audit(inc),
+	"incoming": inc.length,//just length count and audit result
+	"audit":await audit(inc,ext),
 	// "send":await send(),
 	// "export":await bu(),
 	// "index":await esify(),
