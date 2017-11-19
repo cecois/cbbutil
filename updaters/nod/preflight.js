@@ -25,32 +25,24 @@ var __ = require ('underscore')
 
 var audit = async (inc,ext) =>{
 	return new Promise(function(resolve, reject) {
-		var dupes = []
-		var extants = []
 
-//find most recent *.json in bu dir
-// fs.readfile and compare (mapped) contents to mapped inc
-// var fakeext = ['The Paul Hardcastle of SuicidesSounds loud, right?Black Sabbath (musical combination),Heaven and Hell (song)']
-var extants = JSON.parse(FS.readFileSync(CONFIG.budir+"/"+ext, 'utf8'));
+		var flag=null;
+		
 
-console.log('extants.length',extants.length);
-process.exit()
+// map some values together as a kinda informal key
+var inc_finder = __.map(inc,(b)=>{return b.episode+"---->"+b.bit+"---->"+b.instance+"---->"+b.tags})
+var ext_finder = __.map(ext,(b)=>{return b.episode+"---->"+b.bit+"---->"+b.instance+"---->"+b.tags})
 
-// __.map(inc,(b)=>{return b.bit+b.instance+b.tags})
-__.each(inc,(c)=>{
+// see if any match
+var candidates = __.intersection(inc_finder,ext_finder);
 
-	var finder = c.bit+c.instance+c.tags
-	if(__.contains(fakeext,finder)){
-		dupes.push(finder)
-	}
+// if there's even 1 we need to halt and investigate
+var flag=(candidates.length>0)?'stop':null
 
-})
-
-var flag=(dupes.length>0)?'stop':null
-var r = {flag:flag,msg:"of "+inc.length+" incoming bits, "+dupes.length+" were sketchy",candidates:dupes.join(",")}
+var r = {flag:flag,msg:"of "+inc.length+" incoming bits, "+candidates.length+" were sketchy",candidates:candidates.join(",")}
 resolve(r)
-});
-}
+});//Promise
+}//audit
 
 var clean = async () =>{
 	return new Promise(function(resolve, reject) {
@@ -186,6 +178,33 @@ console.log("sniffing most recent...");
 	})//promise
 }
 
+var extant_parse = async (F) =>{
+
+	return new Promise((resolve,reject)=>{
+
+var r = {}
+
+console.log("reading bits from most recent *.json...");
+				FS.readFile(CONFIG.budir+"/"+F,async (e,d)=>{
+			if(e){console.log("readfile err");
+			r.flag='stop'
+			r.msg='read of *.json failed'
+			reject(e)
+		}
+		else
+		{
+			var DJ = JSON.parse(d)
+			r.flag=null
+			r.msg = "extant length:"+DJ.length
+			r.payload = DJ
+			resolve(r)
+		}
+
+		})//readfile
+
+	})//promise
+}
+
 var extant = async () =>{
 
 	return new Promise((resolve,reject)=>{
@@ -215,8 +234,6 @@ var extant = async () =>{
 })//writefile
 
 			}
-  // console.log(data); //=> [ { _id: 1234, ...  } ] 
-  // resolve();
 });
 
 })//promise
@@ -286,6 +303,8 @@ var bu = async () =>{
 
 var main = async () =>{
 	var R = {}
+	R.audit = {flag:null}
+
 	try {
 		var ln = process.argv[2]
 
@@ -294,26 +313,50 @@ var main = async () =>{
 			process.exit();
 		} else {
 
+// read in incoming bits from $ln file
+// msg notes length, payload is actual bits
 			var inc = await incoming(ln);
 			R.incoming=inc.msg
-			var inc = inc.payload
+			var inca = inc.payload
 			
+// pull everything out of MLAB into a local file
 			// var bu = await extant();
-			var ext = await most_recent();
-			// process.exit();
 
-			R=
-			{
+// check backup dir for the MOST RECENT *.json bu
+// this allows us to pull/not pull a backup every time
+			var ext_source = await most_recent();
+
+// parse that file
+						var extant_parsed = await extant_parse(ext_source);
+						R.extant=extant_parsed.msg
+
+			var exta = extant_parsed.payload
+
+// do some comparing to make sure we're not resending already sent
+			var audited = await audit(inca,exta);
+			R.audit = audited.msg
+
+// if audit found anything sketchy we stop
+			if(R.audit.flag=='stop'){
+	throw Error ('audit.flag wz stop due to ',audited.msg);
+	process.exit()
+}
+
+// no? ok, we're sending
+				
+			// R=
+			// {
 				// "backup":await bu(),
-	"incoming": inc.length,//just length count and audit result
-	"audit":await audit(inc,ext),
+	// "incoming": inca.length,//just length count and audit result
+	// "extant": exta.length,//just length count and audit result
+	// "audit":await audit(inca,exta),
 	// "send":await send(),
 	// "export":await bu(),
 	// "index":await esify(),
 	// "report":await report(inc),
 	// "prepapp":await prepapp(inc),
 	// "clean":await clean(),
-}
+// }
 
 console.log(R);
 
