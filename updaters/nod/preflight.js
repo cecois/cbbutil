@@ -27,7 +27,7 @@ var audit = async (inc,ext) =>{
 	return new Promise(function(resolve, reject) {
 
 		var flag=null;
-		
+
 
 // map some values together as a kinda informal key
 var inc_finder = __.map(inc,(b)=>{return b.episode+"---->"+b.bit+"---->"+b.instance+"---->"+b.tags})
@@ -124,10 +124,10 @@ var esify = async () =>{
 	});
 }
 
-var send = async () =>{
+var send = async (bits) =>{
 	return new Promise(function(resolve, reject) {
 		var r = []
-		r.push("result of mongo send")
+		r.push("result of mongo send should be "+bits.length+" additional documents")
 		resolve(r)
 	});
 }
@@ -218,7 +218,7 @@ var extant = async () =>{
 
 		MLAB.listDocuments(options, function (err, data) {
 			if(err){reject(err)}else {
-				
+
 				console.log("into mlab, writing out...");
 				var runid = MOMENT().format('YYYY_MMMM_dddd_hh_mm_ss');
 				var buf = CONFIG.budir+"/bu."+runid+".json";
@@ -318,7 +318,7 @@ var main = async () =>{
 			var inc = await incoming(ln);
 			R.incoming=inc.msg
 			var inca = inc.payload
-			
+
 // pull everything out of MLAB into a local file
 			// var bu = await extant();
 
@@ -343,7 +343,8 @@ var main = async () =>{
 }
 
 // no? ok, we're sending
-				
+sent = await send(inca);
+console.log(sent);
 			// R=
 			// {
 				// "backup":await bu(),
