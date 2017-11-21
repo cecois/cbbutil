@@ -1,6 +1,8 @@
 # possible new bits:
 * interesting people
 	* several of the 480+ eps
+	* 521,5:02
+	* 520,0:35
 	* 510,1:17:45(commercialed)
 	* 510,4:45(commercialed)
 	* 509,2:20(commercialed)
@@ -189,6 +191,8 @@
 	* (once long before bo2016.1)
 	* bo2016.1,??:??
 	* bo2016.2,0:45
+* The Bible
+	* 521,17:25
 * did __ just walk in here?
 	* 199,multiple
 	* 199,1:00:00
@@ -204,6 +208,7 @@
 	* 471,1:10:40(howl)
 * gino's commuter train map
 	* 463,2:19:20
+	* 521,12:00
 	* 475,17:20(howl)
 	* 485,5:45(ads)
 	* 305,37:30
@@ -583,6 +588,7 @@
 * ET no homo
 	* 356,1:06:30(pw)
 	* 382,36:50(pw)
+	* 521,43:00
 	* 406,54:50
 	* 371,55:00(pw)
 	* 2016.detroit,1:43:15
@@ -830,6 +836,7 @@
 	* 235,58:30
 	* 338,1:23:10(pw)
 * you say baby too
+	* 521,1:02:00
 	* 508,45:12(pw)
 	* 515,12:30
 * gershwin, my baby

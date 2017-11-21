@@ -124,12 +124,31 @@ var esify = async () =>{
 	});
 }
 
-var send = async (bits) =>{
+var sendNON= async (bits) =>{
 	return new Promise(function(resolve, reject) {
 		var r = []
 		r.push("result of mongo send should be "+bits.length+" additional documents")
 		resolve(r)
 	});
+}
+
+var send = async (bits) =>{
+	return new Promise(function(resolve, reject) {
+
+		var options = {
+			database: CONFIG.mongodb,
+			collectionName: CONFIG.mongocollx,
+			documents:bits
+		};
+				MLAB.insertDocuments(options, function (err, d) {
+			if(err){reject(err)}else {
+
+				resolve({msg:d});
+}//err.else
+		});//MONGO.connecdt
+
+
+	});//Promise
 }
 
 var incoming = async (ln) =>{
@@ -308,7 +327,7 @@ var main = async () =>{
 	try {
 		var ln = process.argv[2]
 
-		if(__.contains(['news','live'],ln)!==true){
+		if(__.contains(['news','live','fake'],ln)!==true){
 			throw("typo prolly");
 			process.exit();
 		} else {
@@ -320,7 +339,7 @@ var main = async () =>{
 			var inca = inc.payload
 
 // pull everything out of MLAB into a local file
-			// var bu = await extant();
+			var bu = await extant();
 
 // check backup dir for the MOST RECENT *.json bu
 // this allows us to pull/not pull a backup every time

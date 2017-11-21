@@ -20721,3 +20721,45 @@
 	"id_wikia": null,
 	"holding": "false"
 }
+
+{
+  "episode": 521,
+  "show": "cbb",
+  "tstart": "7:22",
+  "tend": "7:32",
+  "instance": "How are you?",
+  "bit":"Fantastic.","elucidation":"one of scott's 25 words",
+ "tags":"",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2017-11-20T10:57:18Z",
+  "url_soundcloud": null,
+  "created_at": "2017-11-20T10:57:25Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "comedy-bang-bang",
+  "episode_title": "Bing Bong Goodbye",
+  "episode_guests": "John Hodgman,Jon Gabrus,Lauren Lapkus,D’Arcy Carden",
+  "id_wikia": null,
+  "holding": "false"
+}
+
+{
+  "episode": 521,
+  "show": "cbb",
+  "tstart": "17:30",
+  "tend": "17:44",
+  "instance": "It's probably my second favorite book I've read this year.",
+  "bit":"Fantastic.","elucidation":"one of scott's 25 words",
+ "tags":"Gino Lambardo",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2017-11-20T10:57:18Z",
+  "url_soundcloud": null,
+  "created_at": "2017-11-20T10:57:25Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "comedy-bang-bang",
+  "episode_title": "Bing Bong Goodbye",
+  "episode_guests": "John Hodgman,Jon Gabrus,Lauren Lapkus,D’Arcy Carden",
+  "id_wikia": null,
+  "holding": "false"
+}

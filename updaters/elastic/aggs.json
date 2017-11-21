@@ -1,0 +1,44 @@
+{
+  "query": {
+    "bool" : {
+      "must" : [
+        {"term" : { "episode" : "333" }}
+        ]
+}
+},
+"aggregations": {
+      "all_bits": {
+         "global": {},
+         "aggregations": {
+            "bits": {
+               "filter": {
+                  "bool": {"must":[
+                                       {
+                                          "terms": {"episode": ["333"]}
+                                       }
+                                    ]}
+               },
+               "aggregations": {
+                  "filtered_bits": {
+                     "terms": {"field": "bit.keyword"}
+                  }
+               }
+            },
+            "tags": {
+               "filter": {
+                  "bool": {"must":[
+                                       {
+                                          "terms": {"episode": ["333"]}
+                                       }
+                                    ]}
+               },
+               "aggregations": {
+                  "filtered_tags": {
+                     "terms": {"field": "tags.comma_del"}
+                  }
+               }
+            }
+         }
+      }
+   }
+   }
