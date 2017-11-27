@@ -159,7 +159,7 @@ var main = async () =>{
 	try {
 
 		var incomingz = [
-		// '/Users/ccmiller/Downloads/cbb_point.geojson',
+		'/Users/ccmiller/Downloads/cbb_point.geojson',
 		'/Users/ccmiller/Downloads/cbb_line.geojson'
 		]
 

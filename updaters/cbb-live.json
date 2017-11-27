@@ -5501,3 +5501,276 @@
   "id_wikia": null,
   "holding": "false"
 }
+
+{
+  "episode": 521,
+  "show": "cbb",
+  "tstart": "1:02:30",
+  "tend": "1:03:02",
+  "instance": "'Gina' is my mom and sister.",
+  "bit":"Location","elucidation":"identifiable earth location",
+ "tags":"Gino Lambardo,Scott's Nephew Todd,Caroline Belinda-Carlisle",
+  "location_type": "poly",
+  "location_id": "420",
+  "updated_at": "2017-11-20T10:57:18Z",
+  "url_soundcloud": null,
+  "created_at": "2017-11-20T10:57:25Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "comedy-bang-bang",
+  "episode_title": "Bing Bong Goodbye",
+  "episode_guests": "John Hodgman,Jon Gabrus,Lauren Lapkus,D’Arcy Carden",
+  "id_wikia": null,
+  "holding": "false"
+}
+
+{
+  "episode": 521,
+  "show": "cbb",
+  "tstart": "1:03:02",
+  "tend": "1:03:24",
+  "instance": "That's what Uncle Scott sings when he does his dance on the roof every day.",
+  "bit":"Location","elucidation":"identifiable earth location",
+ "tags":"Gino Lambardo,Scott's Nephew Todd,Caroline Belinda-Carlisle,Jump (song),Kriss Kross (musical combination)",
+  "location_type": "poly",
+  "location_id": "420",
+  "updated_at": "2017-11-20T10:57:18Z",
+  "url_soundcloud": null,
+  "created_at": "2017-11-20T10:57:25Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "comedy-bang-bang",
+  "episode_title": "Bing Bong Goodbye",
+  "episode_guests": "John Hodgman,Jon Gabrus,Lauren Lapkus,D’Arcy Carden",
+  "id_wikia": null,
+  "holding": "false"
+}
+
+{
+  "episode": 521,
+  "show": "cbb",
+  "tstart": "1:04:47",
+  "tend": "1:05:01",
+  "instance": "Can you do a split?",
+  "bit": "Cactus Something","elucidation": "a superclass of inter-episode callbacks/forwards and/or character cross-pollenization or canon-building",
+ "tags":"Gino Lambardo,Scott's Nephew Todd,Caroline Belinda-Carlisle,Dagmar the Small",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2017-11-20T10:57:18Z",
+  "url_soundcloud": null,
+  "created_at": "2017-11-20T10:57:25Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "comedy-bang-bang",
+  "episode_title": "Bing Bong Goodbye",
+  "episode_guests": "John Hodgman,Jon Gabrus,Lauren Lapkus,D’Arcy Carden",
+  "id_wikia": null,
+  "holding": "false"
+}
+
+{
+  "episode": 521,
+  "show": "cbb",
+  "tstart": "1:05:07",
+  "tend": "1:05:25",
+  "instance": "I'm 50 on the dot.",
+  "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+ "tags":"Gino Lambardo,Scott's Nephew Todd,Caroline Belinda-Carlisle,The Ballad of Gilligan’s Isle (song),Sherwood Schwartz,George Wyle",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2017-11-20T10:57:18Z",
+  "url_soundcloud": null,
+  "created_at": "2017-11-20T10:57:25Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "comedy-bang-bang",
+  "episode_title": "Bing Bong Goodbye",
+  "episode_guests": "John Hodgman,Jon Gabrus,Lauren Lapkus,D’Arcy Carden",
+  "id_wikia": null,
+  "holding": "false"
+}
+
+{
+  "episode": 521,
+  "show": "cbb",
+  "tstart": "1:07:02",
+  "tend": "1:07:40",
+  "instance": "I didn't even get prepped.",
+  "bit":"Location","elucidation":"identifiable earth location",
+ "tags":"Gino Lambardo,Scott's Nephew Todd,Marc Summers",
+  "location_type": "point",
+  "location_id": "299",
+  "updated_at": "2017-11-20T10:57:18Z",
+  "url_soundcloud": null,
+  "created_at": "2017-11-20T10:57:25Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "comedy-bang-bang",
+  "episode_title": "Bing Bong Goodbye",
+  "episode_guests": "John Hodgman,Jon Gabrus,Lauren Lapkus,D’Arcy Carden",
+  "id_wikia": null,
+  "holding": "false"
+}
+
+{
+  "episode": 521,
+  "show": "cbb",
+  "tstart": "1:09:32",
+  "tend": "1:09:48",
+  "instance": "Am I part of the gang?",
+  "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+ "tags":"Gino Lambardo,Scott's Nephew Todd,Lynn Anderson,Caroline Belinda-Carlisle,I Beg Your Pardon (song)",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2017-11-20T10:57:18Z",
+  "url_soundcloud": null,
+  "created_at": "2017-11-20T10:57:25Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "comedy-bang-bang",
+  "episode_title": "Bing Bong Goodbye",
+  "episode_guests": "John Hodgman,Jon Gabrus,Lauren Lapkus,D’Arcy Carden",
+  "id_wikia": null,
+  "holding": "false"
+}
+
+{
+  "episode": 521,
+  "show": "cbb",
+  "tstart": "1:12:39",
+  "tend": "1:13:05",
+  "instance": "A teacher that doesn't know what listening is?",
+ "bit":"Location","elucidation":"identifiable earth location",
+ "tags":"Gino Lambardo,Scott's Nephew Todd,Lynn Anderson,Caroline Belinda-Carlisle,I Beg Your Pardon (song)",
+  "location_type": "poly",
+  "location_id": "469",
+  "updated_at": "2017-11-20T10:57:18Z",
+  "url_soundcloud": null,
+  "created_at": "2017-11-20T10:57:25Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "comedy-bang-bang",
+  "episode_title": "Bing Bong Goodbye",
+  "episode_guests": "John Hodgman,Jon Gabrus,Lauren Lapkus,D’Arcy Carden",
+  "id_wikia": null,
+  "holding": "false"
+}
+
+{
+  "episode": 521,
+  "show": "cbb",
+  "tstart": "1:13:25",
+  "tend": "1:13:54",
+  "instance": "I'm showrunning the 3rd season of 'Stranger Things.'",
+ "bit": "Jeremy, Jeremy, Jeremy","elucidation": "jeremy piven is referenced, often sung (happens a lot)",
+ "tags":"Gino Lambardo,Scott's Nephew Todd,Lynn Anderson,Caroline Belinda-Carlisle,Stranger Things (TV)",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2017-11-20T10:57:18Z",
+  "url_soundcloud": null,
+  "created_at": "2017-11-20T10:57:25Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "comedy-bang-bang",
+  "episode_title": "Bing Bong Goodbye",
+  "episode_guests": "John Hodgman,Jon Gabrus,Lauren Lapkus,D’Arcy Carden",
+  "id_wikia": null,
+  "holding": "false"
+}
+
+{
+  "episode": 521,
+  "show": "cbb",
+  "tstart": "1:22:45",
+  "tend": "1:23:22",
+  "instance": "He considers all his poops dead.",
+ "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+ "tags":"Gino Lambardo,Scott's Nephew Todd,Lynn Anderson,Caroline Belinda-Carlisle,Zombie (song),The Cranberries (musical combination)",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2017-11-20T10:57:18Z",
+  "url_soundcloud": null,
+  "created_at": "2017-11-20T10:57:25Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "comedy-bang-bang",
+  "episode_title": "Bing Bong Goodbye",
+  "episode_guests": "John Hodgman,Jon Gabrus,Lauren Lapkus,D’Arcy Carden",
+  "id_wikia": null,
+  "holding": "false"
+}
+
+{
+  "episode": 521,
+  "show": "cbb",
+  "tstart": "1:23:23",
+  "tend": "1:23:38",
+  "instance": "The last thing you want is space in between your cheeks, that's for sure.",
+  "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+ "tags":"Gino Lambardo,Scott's Nephew Todd,Caroline Belinda-Carlisle,The Space Between (song),Dave Matthews Band (musical combination)",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2017-11-20T10:57:18Z",
+  "url_soundcloud": null,
+  "created_at": "2017-11-20T10:57:25Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "comedy-bang-bang",
+  "episode_title": "Bing Bong Goodbye",
+  "episode_guests": "John Hodgman,Jon Gabrus,Lauren Lapkus,D’Arcy Carden",
+  "id_wikia": null,
+  "holding": "false"
+}
+
+{
+  "episode": 521,
+  "show": "cbb",
+  "tstart": "1:23:23",
+  "tend": "1:23:38",
+  "instance": "The last thing you want is space in between your cheeks, that's for sure.",
+  "bit": "Too Soon","elucidation": "someone uses, misuses, or riffs on 'too soon'",
+ "tags":"Gino Lambardo,Scott's Nephew Todd,Caroline Belinda-Carlisle,The Space Between (song),Dave Matthews Band (musical combination)",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2017-11-20T10:57:18Z",
+  "url_soundcloud": null,
+  "created_at": "2017-11-20T10:57:25Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "comedy-bang-bang",
+  "episode_title": "Bing Bong Goodbye",
+  "episode_guests": "John Hodgman,Jon Gabrus,Lauren Lapkus,D’Arcy Carden",
+  "id_wikia": null,
+  "holding": "false"
+}
+
+{
+  "episode": 521,
+  "show": "cbb",
+  "tstart": "1:25:02",
+  "tend": "1:25:12",
+  "instance": "I flush the euphemism one down the toilet.",
+ "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+ "tags":"Gino Lambardo,Scott's Nephew Todd,Lynn Anderson,Caroline Belinda-Carlisle,Zombie (song),The Cranberries (musical combination)",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2017-11-20T10:57:18Z",
+  "url_soundcloud": null,
+  "created_at": "2017-11-20T10:57:25Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "comedy-bang-bang",
+  "episode_title": "Bing Bong Goodbye",
+  "episode_guests": "John Hodgman,Jon Gabrus,Lauren Lapkus,D’Arcy Carden",
+  "id_wikia": null,
+  "holding": "false"
+}
+
+{
+  "episode": 521,
+  "show": "cbb",
+  "tstart": "1:31:43",
+  "tend": "1:32:01",
+  "instance": "I peeled that sticker off to put what I thought was a valet ticket into what I thought was a horse's ass.",
+ "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+ "tags":"Gino Lambardo,Scott's Nephew Todd,Lynn Anderson,Caroline Belinda-Carlisle,Blame It on the Rain (son),Milli Vanilli (musical combination)",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2017-11-20T10:57:18Z",
+  "url_soundcloud": null,
+  "created_at": "2017-11-20T10:57:25Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "comedy-bang-bang",
+  "episode_title": "Bing Bong Goodbye",
+  "episode_guests": "John Hodgman,Jon Gabrus,Lauren Lapkus,D’Arcy Carden",
+  "id_wikia": null,
+  "holding": "false"
+}
