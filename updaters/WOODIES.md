@@ -58,6 +58,7 @@
 * 204,56:59,there are literally hundreds of ways you could spoil it for yourself
 * 204,7:40,guy in subaru doesn't give a shit what cop has to say +++
 * 208,51:15,just a lady fucking a horse ++++++
+* bo2015.4,3:40,it took a long time (gotcha)
 * 215,20:35-20:50,i ain't down with that gay shit
 * 215,21:30-21:55,maybe in the darkest of africa
 * 76.1,35:45,the bally jungles of africa
