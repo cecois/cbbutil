@@ -849,7 +849,7 @@
 * that's the show
 	* 399,1:07:08
 	* mulaney/kroll (ep. w/ mark david chapman thing)
-	* 395,46:55
+	* 395,40:22(pw)
 	* bo2015.3,:30
 	* 432,1:25:20
 	* 439,44:51
@@ -1054,6 +1054,7 @@
 	* (previous herzog appear)
 * of note/in his own right
 	* 292,2:24
+	* 395,6:00(pw)
 	* 381,2:15(pw)
 	* 382,44:20(pw)
 	* 366,3:30(pw)
