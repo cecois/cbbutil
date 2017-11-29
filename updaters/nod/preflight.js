@@ -1,4 +1,4 @@
-var __ = require ('underscore')
+var __ = require('underscore')
 ,FS = require('fs')
 ,HANDLEBARS = require('handlebars')
 ,CONFIG = require("./Config.json")
@@ -9,19 +9,21 @@ var __ = require ('underscore')
 ,DB = require('mongodb').Db
 ,RP = require('request-promise')
 ,MLAB = require('mongolab-data-api')(CONFIG.mongokey)
-// ,MONGOCLIENT = require('mongodb').MongoClient
-// ,DOOKIE = require('dookie')
-// ,Server = require('mongodb').Server
-// ,ReplSetServers = require('mongodb').ReplSetServers
-// ,ObjectID = require('mongodb').ObjectID
-// ,Binary = require('mongodb').Binary
-// ,GridStore = require('mongodb').GridStore
-// ,Grid = require('mongodb').Grid
-// ,Code = require('mongodb').Code
-// ,BSON = require('mongodb-core').BSON
-// ,assert = require('assert')
 ,MOMENT = require('moment')
 ;
+
+var prep_update = async (bits) =>{
+	return new Promise((resolve, reject)=>{
+
+var r = {}
+		resolve(r)
+
+// console.log("first",__.first(bits));
+// 		var episodes = __.pluck(bits,'episode');
+// 		console.log('episodes in prep',episodes)
+
+	});//Promise
+}//prep_update
 
 var audit = async (inc,ext) =>{
 	return new Promise(function(resolve, reject) {
@@ -36,7 +38,7 @@ var ext_finder = __.map(ext,(b)=>{return b.episode+"---->"+b.bit+"---->"+b.insta
 // see if any match
 var candidates = __.intersection(inc_finder,ext_finder);
 
-// if there's even 1 we need to halt and investigate
+// if there's even 1 we need to halt and investigate so we set the flag we check at the end to stop
 var flag=(candidates.length>0)?'stop':null
 
 var r = {flag:flag,msg:"of "+inc.length+" incoming bits, "+candidates.length+" were sketchy",candidates:candidates.join(",")}
@@ -143,10 +145,65 @@ var send = async (bits) =>{
 				MLAB.insertDocuments(options, function (err, d) {
 			if(err){reject(err)}else {
 
-				resolve({msg:d});
+				resolve({documents:d});
 }//err.else
 		});//MONGO.connecdt
 
+
+	});//Promise
+}
+
+var fake_send = async () =>{
+	return new Promise(function(resolve, reject) {
+
+		var d = [{
+  "_id": {
+      "$oid": "5651b1df43aee61b9fc03f88"
+    },
+  "episode": 001,
+  "show": "cbb",
+  "tstart": "00:00",
+  "tend": "00:00",
+  "instance": "DUMMY INST 1",
+  "bit": "DUMMY BIT",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "1975-06-24T10:51:29Z",
+  "elucidation": "CBB ELUC",
+  "url_soundcloud": null,
+  "tags": "",
+  "created_at": "1975-06-24T10:51:29Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "dummy-slug",
+  "episode_title": "DUMMY TITLE",
+  "episode_guests": "",
+  "id_wikia": null,
+  "holding": "false"
+},{
+  "_id": {
+      "$oid": "5651b1df431ee61b9fc03f88"
+    },
+  "episode": 222,
+  "show": "cbb",
+  "tstart": "00:00",
+  "tend": "00:00",
+  "instance": "DUMMY INST 2",
+  "bit": "DUMMY BIT",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "1975-06-24T10:51:29Z",
+  "elucidation": "CBB ELUC",
+  "url_soundcloud": null,
+  "tags": "",
+  "created_at": "1975-06-24T10:51:29Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "dummy-slug",
+  "episode_title": "DUMMY TITLE",
+  "episode_guests": "",
+  "id_wikia": null,
+  "holding": "false"
+}]
+				resolve({documents:d});
 
 	});//Promise
 }
@@ -239,7 +296,7 @@ var extant = async () =>{
 			if(err){reject(err)}else {
 
 				console.log("into mlab, writing out...");
-				var runid = MOMENT().format('YYYY_MMMM_dddd_hh_mm_ss');
+				var runid = MOMENT().format('YYYY_MMMM_DD_dddd_hh_mm_ss');
 				var buf = CONFIG.budir+"/bu."+runid+".json";
 
 				FS.writeFile(buf,JSON.stringify(data),(err,res)=>{
@@ -263,7 +320,7 @@ var bu = async () =>{
 	return new Promise((resolve, reject)=>{
 
 		var url = 'mongodb://'+CONFIG.mongouser+':'+CONFIG.mongopsswd+'@'+CONFIG.mongohost+':'+CONFIG.mongoport+'/'+CONFIG.mongodb;
-		var runid = MOMENT().format('YYYY_MMMM_dddd_hh_mm_ss');
+		var runid = MOMENT().format('YYYY_MMMM_DD_dddd_hh_mm_ss');
 		var bud = CONFIG.budir+"/"+runid;
 		var buf = "bu."+runid+".json";
 		var but = bud+".tar";
@@ -313,7 +370,6 @@ var bu = async () =>{
 
 		});
 
-
 		r.push("Mongo export of N documents completed without error")
 		resolve(r)
 	});
@@ -332,59 +388,58 @@ var main = async () =>{
 			process.exit();
 		} else {
 
+/* ----------------------------------------------- 
 // read in incoming bits from $ln file
 // msg notes length, payload is actual bits
 			var inc = await incoming(ln);
 			R.incoming=inc.msg
 			var inca = inc.payload
+*/
 
-// pull everything out of MLAB into a local file
+/* ----------------------------------------------- 
+// pull everything out of MLAB into a local file in budir - e.g. bu.2017_November_Sunday_02_06_35.json
 			var bu = await extant();
+*/
 
-// check backup dir for the MOST RECENT *.json bu
+/* ----------------------------------------------- 
+// check budir for the MOST RECENT *.json bu
 // this allows us to pull/not pull a backup every time
 			var ext_source = await most_recent();
+*/
 
+/* ----------------------------------------------- 
 // parse that file
-						var extant_parsed = await extant_parse(ext_source);
-						R.extant=extant_parsed.msg
+			var extant_parsed = await extant_parse(ext_source);
+			R.extant=extant_parsed.msg
 
 			var exta = extant_parsed.payload
+			// exta is now our live copy of everything that's come before
+*/
 
-// do some comparing to make sure we're not resending already sent
+/* ----------------------------------------------- 
+// we send the fresh stuff and the archive for audit
+// audit maps inca and exta into comparable arrays (concatenating several presumably distinct fields [episode+bit+instance+tags] into one nonsensical but probably-unique string) - N.B. this is not foolproof
 			var audited = await audit(inca,exta);
-			R.audit = audited.msg
+			R.audit = audited
 
 // if audit found anything sketchy we stop
 			if(R.audit.flag=='stop'){
-	throw Error ('audit.flag wz stop due to ',audited.msg);
+	throw Error ('audit.flag wz stop due to ',R.audit.msg);
 	process.exit()
 }
+*/
 
-// no? ok, we're sending
-sent = await send(inca);
-console.log(sent);
-			// R=
-			// {
-				// "backup":await bu(),
-	// "incoming": inca.length,//just length count and audit result
-	// "extant": exta.length,//just length count and audit result
-	// "audit":await audit(inca,exta),
-	// "send":await send(),
-	// "export":await bu(),
-	// "index":await esify(),
-	// "report":await report(inc),
-	// "prepapp":await prepapp(inc),
-	// "clean":await clean(),
-// }
+/* ----------------------------------------------- 
+*/
+// audit wz clean so we're sending
+// console.log("R.audit",R.audit);
+// sent = await send(inca);
 
-console.log(R);
+// sent = await fake_send();
 
-if(R.audit.flag == 'stop'){
-	console.log("stopping due to audit flag, check "+JSON.stringify(R.audit));
-} else {
-	console.log("preflight complete, send to ES and finish");
-}
+console.log('440');
+
+// updates = await prep_update(sent.documents);
 
 
 }
