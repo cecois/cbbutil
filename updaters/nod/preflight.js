@@ -13,15 +13,42 @@ var __ = require('underscore')
 ;
 
 var prep_update = async (bits) =>{
+
 	return new Promise((resolve, reject)=>{
 
-var r = {}
+var r = []
+
+			console.log("bits before",bits.length)
+
+
+		var episodes = __.pluck(bits,'episode');
+
+			var eps = () => __.map(bits,(b)=>{b.foo="bar";return b})
+
+			console.log("eps?",eps());
+			
+
+		// __.each(episodes,(e,i,l)=>{
+
+		// 	console.log("is this",{episode:e});
+		// 	console.log("...in bits:",bits);
+
+		// 	var eps = __.filter(bits,{episode:e})
+		// 	console.log("eps",eps.length)
+		// 	var bits = __.uniq(__.pluck(eps,'bit'))
+		// 	console.log("bits",bits.length)
+			
+		// 	var lr = {
+		// 		count:eps.length
+		// 		,ep:e
+		// 		,bits:bits.join(", ")
+		// 	}
+
+		// 	r.push(lr)
+
+		// })//each
+
 		resolve(r)
-
-// console.log("first",__.first(bits));
-// 		var episodes = __.pluck(bits,'episode');
-// 		console.log('episodes in prep',episodes)
-
 	});//Promise
 }//prep_update
 
@@ -160,7 +187,7 @@ var fake_send = async () =>{
   "_id": {
       "$oid": "5651b1df43aee61b9fc03f88"
     },
-  "episode": 001,
+  "episode": 35,
   "show": "cbb",
   "tstart": "00:00",
   "tend": "00:00",
@@ -202,8 +229,44 @@ var fake_send = async () =>{
   "episode_guests": "",
   "id_wikia": null,
   "holding": "false"
+},{
+  "_id": {
+      "$oid": "5651b1df431ee61b9fc03f88"
+    },
+  "episode": 222,
+  "show": "cbb",
+  "tstart": "00:00",
+  "tend": "00:00",
+  "instance": "DUMMY INST 3",
+  "bit": "DUMMY BIT 2",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "1975-06-24T10:51:29Z",
+  "elucidation": "CBB ELUC",
+  "url_soundcloud": null,
+  "tags": "",
+  "created_at": "1975-06-24T10:51:29Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "dummy-slug",
+  "episode_title": "DUMMY TITLE",
+  "episode_guests": "",
+  "id_wikia": null,
+  "holding": "false"
 }]
-				resolve({documents:d});
+
+var m = __.map(d,(e,i,l)=>{
+
+var o = {
+	_id:e._id["$oid"]
+	,episode:e.episode
+	,bit:e.bit
+	,instance:e.instance
+}
+
+return o
+
+})///.map
+				resolve({documents:m});
 
 	});//Promise
 }
@@ -435,11 +498,12 @@ var main = async () =>{
 // console.log("R.audit",R.audit);
 // sent = await send(inca);
 
-// sent = await fake_send();
+sent = await fake_send();
 
-console.log('440');
+// console.log('440');
 
-// updates = await prep_update(sent.documents);
+updates = await prep_update(sent.documents);
+console.log(updates)
 
 
 }
