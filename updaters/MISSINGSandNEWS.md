@@ -1,6 +1,7 @@
 # possible new bits:
 * interesting people
 	* several of the 480+ eps
+	* 522,2:20
 	* 521,5:02
 	* 520,0:35
 	* 510,1:17:45(commercialed)
@@ -61,12 +62,15 @@
 * classic jarles
 	* 498,51:10(added)
 	* 500,2:08
+	* 522,9:00
 	* 342,12:50
 	* 344,30:20(pw)
 	* 344,35:11(pw)
 	* 365,1:06:20(pw)
 	* 365,1:08:50(pw)
 	* 365,1:09:50(pw)
+* batman the ride
+	* 522,3:50
 * we're really gonna probe his psyche (in-depth - wtf - actors pain)
 	* 162,33:45
 	* 510,8:45(commercialed)
@@ -1054,6 +1058,7 @@
 	* (previous herzog appear)
 * of note/in his own right
 	* 292,2:24
+	* 522,3:00
 	* 395,6:00(pw)
 	* 381,2:15(pw)
 	* 382,44:20(pw)
