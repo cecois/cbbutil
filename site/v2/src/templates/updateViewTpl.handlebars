@@ -1,0 +1,38 @@
+<h3 class="is-size-4"><strong>Most Recent Update:</strong></h4>
+
+	<span class="has-text-grey-light">{{meta.date}} {{#if meta.episodes}} / {{meta.episodes}}</em></span>
+
+
+{{#if meta.anno}}<div style="margin-top:3%;">{{meta.anno}}</div>
+{{/if}}
+<!-- if.anno -->
+<hr/>
+{{/if}}
+<!-- if.episodes -->
+
+{{#each report}}
+<div class="tile is-ancestor">
+{{#each this}}
+
+  <div class="tile is-parent is-3">
+    <article class="tile is-child box">
+
+<figure class="image">
+  <img class="earwolf-img" src="{{this.image}}">
+</figure>
+<span class="has-text-grey-light">from ep.{{#episodizer this.episode}}{{/episodizer}}:</span>
+<div>{{#each this.bits_sum}}
+<div class="" style="">
+<span style="font-size:1.58em;">{{count}}</span> {{bit}} <a href="#" class="update-toolbar cbb-trigger" data-type="" data-target="episode:{{../this.episode}} +bit:{{bit}}"><i style="font-size:.7em;" class="fa fa-search-plus"></i></a href="#">
+{{/each}}<!-- each.this.bits_sum -->
+</div>
+</div><!-- each.this.bits_sum -->
+    </article>
+  </div>
+  <!-- ./tile -->
+
+{{/each}}
+</div>
+<!-- .tile.is-ancestor -->
+{{/each}}
+<!-- each.report -->

@@ -5085,6 +5085,27 @@
 {
   "episode": 521,
   "show": "cbb",
+  "tstart": "49:35",
+  "tend": "49:51",
+  "instance": "He likes to know what it's gonna look like coming out so he only eats stuff that looks the same as poop.",
+  "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+  "tags":"Stir it Up (song),Bob Marley,The Wailers (musical combination)",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2017-11-20T10:57:18Z",
+  "url_soundcloud": null,
+  "created_at": "2017-11-20T10:57:25Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "comedy-bang-bang",
+  "episode_title": "Bing Bong Goodbye",
+  "episode_guests": "John Hodgman,Jon Gabrus,Lauren Lapkus,D’Arcy Carden",
+  "id_wikia": null,
+  "holding": "false"
+}
+
+{
+  "episode": 521,
+  "show": "cbb",
   "tstart": "5:20",
   "tend": "5:39",
   "instance": "I wrote it in calligraphy; I sealed it with my insignia ring; and I mailed it to myself.",
@@ -5790,7 +5811,7 @@
   "created_at": "2017-11-29T09:27:37Z",
   "slug_soundcloud": null,
   "slug_earwolf": "",
-  "episode_title": "Carlie's Bucket List",
+  "episode_title": "Charlie's Bucket List",
   "episode_guests": "Sarah Silverman,Paul F. Tompkins,Madeline Walter,Ego Nwodim",
   "id_wikia": null,
   "holding": "false"
@@ -5811,7 +5832,154 @@
   "created_at": "2017-11-29T09:27:37Z",
   "slug_soundcloud": null,
   "slug_earwolf": "",
-  "episode_title": "Carlie's Bucket List",
+  "episode_title": "Charlie's Bucket List",
+  "episode_guests": "Sarah Silverman,Paul F. Tompkins,Madeline Walter,Ego Nwodim",
+  "id_wikia": null,
+  "holding": "false"
+}
+
+{
+  "episode": 522,
+  "show": "cbb",
+  "tstart": "27:23",
+  "tend": "27:36",
+  "instance": "They put the dicks in addicts.",
+  "bit":"Shoulda Mailed it to Yourself, Stupid","elucidation":"someone (usually pft) recommends email (attachments) as a solution",
+  "tags": "",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2017-11-29T09:27:37Z",
+  "url_soundcloud": null,
+  "created_at": "2017-11-29T09:27:37Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "",
+  "episode_title": "Charlie's Bucket List",
+  "episode_guests": "Sarah Silverman,Paul F. Tompkins,Madeline Walter,Ego Nwodim",
+  "id_wikia": null,
+  "holding": "false"
+}
+
+{
+  "episode": 522,
+  "show": "cbb",
+  "tstart": "38:23",
+  "tend": "38:34",
+  "instance": "Wreck it Ralph is the Charlie Manson of Disney characters, would you agree, Sarah?",
+  "bit":"Scott's Questions","elucidation":"(in progress) - scott's questions",
+  "tags": "",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2017-11-29T09:27:37Z",
+  "url_soundcloud": null,
+  "created_at": "2017-11-29T09:27:37Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "",
+  "episode_title": "Charlie's Bucket List",
+  "episode_guests": "Sarah Silverman,Paul F. Tompkins,Madeline Walter,Ego Nwodim",
+  "id_wikia": null,
+  "holding": "false"
+}
+
+{
+  "episode": 522,
+  "show": "cbb",
+  "tstart": "39:07",
+  "tend": "39:18",
+  "instance": "I'm not scared of heights but I sure am scared of noise.",
+  "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+  "tags": "Panama (song),Van Halen (musical combination),Charles Manson",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2017-11-29T09:27:37Z",
+  "url_soundcloud": null,
+  "created_at": "2017-11-29T09:27:37Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "",
+  "episode_title": "Charlie's Bucket List",
+  "episode_guests": "Sarah Silverman,Paul F. Tompkins,Madeline Walter,Ego Nwodim",
+  "id_wikia": null,
+  "holding": "false"
+}
+
+{
+  "episode": 522,
+  "show": "cbb",
+  "tstart": "48:31",
+  "tend": "50:31",
+  "instance": "I love that song about how you're shaped.",
+  "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+  "tags": "Ed Sheeran,Charles Manson,Shape of You (song)",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2017-11-29T09:27:37Z",
+  "url_soundcloud": null,
+  "created_at": "2017-11-29T09:27:37Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "",
+  "episode_title": "Charlie's Bucket List",
+  "episode_guests": "Sarah Silverman,Paul F. Tompkins,Madeline Walter,Ego Nwodim",
+  "id_wikia": null,
+  "holding": "false"
+}
+
+{
+  "episode": 522,
+  "show": "cbb",
+  "tstart": "53:52",
+  "tend": "54:08",
+  "instance": "Things are gender-neutral now and sometimes we get our pronouns mixed up.",
+  "bit":"Who's Paul?","elucidation":"a character is referred to by the name/pronoun of their player",
+  "tags": "Charles Manson",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2017-11-29T09:27:37Z",
+  "url_soundcloud": null,
+  "created_at": "2017-11-29T09:27:37Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "",
+  "episode_title": "Charlie's Bucket List",
+  "episode_guests": "Sarah Silverman,Paul F. Tompkins,Madeline Walter,Ego Nwodim",
+  "id_wikia": null,
+  "holding": "false"
+}
+
+{
+  "episode": 522,
+  "show": "cbb",
+  "tstart": "1:16:42",
+  "tend": "1:16:58",
+  "instance": "That was women - this would be, you know...men.",
+  "bit":"Who's Paul?","elucidation":"a character is referred to by the name/pronoun of their player",
+  "tags": "Charles Manson,Prince Chinedu,Broad City (TV)",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2017-11-29T09:27:37Z",
+  "url_soundcloud": null,
+  "created_at": "2017-11-29T09:27:37Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "",
+  "episode_title": "Charlie's Bucket List",
+  "episode_guests": "Sarah Silverman,Paul F. Tompkins,Madeline Walter,Ego Nwodim",
+  "id_wikia": null,
+  "holding": "false"
+}
+
+{
+  "episode": 522,
+  "show": "cbb",
+  "tstart": "1:24:35",
+  "tend": "1:24:58",
+  "instance": "I went inside with a burger - they didn't like it.",
+  "bit":"Location","elucidation":"identifiable earth location",
+  "tags": "Charles Manson,Prince Chinedu,Prince",
+  "location_type": "poly",
+  "location_id": "416",
+  "updated_at": "2017-11-29T09:27:37Z",
+  "url_soundcloud": null,
+  "created_at": "2017-11-29T09:27:37Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "",
+  "episode_title": "Charlie's Bucket List",
   "episode_guests": "Sarah Silverman,Paul F. Tompkins,Madeline Walter,Ego Nwodim",
   "id_wikia": null,
   "holding": "false"

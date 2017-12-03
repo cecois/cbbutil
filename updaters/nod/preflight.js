@@ -8,7 +8,7 @@ var __ = require('underscore')
 ,ZLIB = require('zlib')
 ,DB = require('mongodb').Db
 ,RP = require('request-promise')
-,MLAB = require('mongolab-data-api')(CONFIG.mongokey)
+// ,MLAB = require('mongolab-data-api')(CONFIG.mongokey)
 ,MOMENT = require('moment')
 ;
 
@@ -16,39 +16,45 @@ var prep_update = async (bits) =>{
 
 	return new Promise((resolve, reject)=>{
 
-var r = []
+		var episodes_updated = __.uniq(__.pluck(bits,'episode'));
 
-			console.log("bits before",bits.length)
+		var reports = () => __.map(episodes_updated,(e,i,l)=>{
+			var O = {episode:e}
+			var eps_bits = __.pluck(__.filter(bits,{episode:e}),'bit');
+			O.raw_bits = eps_bits;
+			var beets = __.map(__.uniq(eps_bits),(m)=>{
+				var o = {
+					bit:m
+					,count:__.filter(eps_bits,(li)=>{return li==m;}).length
+				}; //o
+				return o;
+			});//map.beets
+			O.bits_sum=beets;
+			return O;
+		})//map
+		var R = {
+			date:MOMENT().format('YYYY.MMM.DD'),
+			episodes:bits.length+" bits from "+episodes_updated.length+" episodes (eps "+episodes_updated.join(", ")+")",
+			report:reports()
+		}
 
 
-		var episodes = __.pluck(bits,'episode');
+		// resolve();
+		var npath = "./bu/updates-"+MOMENT().format('YYYY.MMM.DD_HH_mm_ss')+".json"
+		FS.writeFile(npath,JSON.stringify(R),(err,suc)=>{
 
-			var eps = () => __.map(bits,(b)=>{b.foo="bar";return b})
+			if(err){reject(err);} else {
 
-			console.log("eps?",eps());
-			
+FS.writeFile('../../site/v2/src/offline/update.json',JSON.stringify(R),(err,suc)=>{
 
-		// __.each(episodes,(e,i,l)=>{
+if(err){reject(err);} else
+{				resolve(suc)}
+})
 
-		// 	console.log("is this",{episode:e});
-		// 	console.log("...in bits:",bits);
+			}
 
-		// 	var eps = __.filter(bits,{episode:e})
-		// 	console.log("eps",eps.length)
-		// 	var bits = __.uniq(__.pluck(eps,'bit'))
-		// 	console.log("bits",bits.length)
-			
-		// 	var lr = {
-		// 		count:eps.length
-		// 		,ep:e
-		// 		,bits:bits.join(", ")
-		// 	}
+		})
 
-		// 	r.push(lr)
-
-		// })//each
-
-		resolve(r)
 	});//Promise
 }//prep_update
 
@@ -169,7 +175,7 @@ var send = async (bits) =>{
 			collectionName: CONFIG.mongocollx,
 			documents:bits
 		};
-				MLAB.insertDocuments(options, function (err, d) {
+		MLAB.insertDocuments(options, function (err, d) {
 			if(err){reject(err)}else {
 
 				resolve({documents:d});
@@ -183,93 +189,150 @@ var send = async (bits) =>{
 var fake_send = async () =>{
 	return new Promise(function(resolve, reject) {
 
-		var d = [{
-  "_id": {
-      "$oid": "5651b1df43aee61b9fc03f88"
-    },
-  "episode": 35,
-  "show": "cbb",
-  "tstart": "00:00",
-  "tend": "00:00",
-  "instance": "DUMMY INST 1",
-  "bit": "DUMMY BIT",
-  "location_type": "",
-  "location_id": "",
-  "updated_at": "1975-06-24T10:51:29Z",
-  "elucidation": "CBB ELUC",
-  "url_soundcloud": null,
-  "tags": "",
-  "created_at": "1975-06-24T10:51:29Z",
-  "slug_soundcloud": null,
-  "slug_earwolf": "dummy-slug",
-  "episode_title": "DUMMY TITLE",
-  "episode_guests": "",
-  "id_wikia": null,
-  "holding": "false"
+
+// "bit": "Shut the Fuck Up!"
+// "bit":"Jeffrey Characterwheaties"
+// "bit":"The Paul Hardcastle of Suicides"
+// "bit":"The Paul Hardcastle of Suicides"
+// "bit":"Ducca List"
+// "bit":"Ducca List"
+// "bit":"Ducca List"
+// "bit":"Location"
+
+var d = [{
+	"_id": {
+		"$oid": "5651b1df43aee61b9fc03f88"
+	},
+	"episode": 35,
+	"show": "cbb",
+	"tstart": "00:00",
+	"tend": "00:00",
+	"instance": "DUMMY INST 1",
+	"bit": "Shut the Fuck Up!",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "1975-06-24T10:51:29Z",
+	"elucidation": "CBB ELUC",
+	"url_soundcloud": null,
+	"tags": "",
+	"created_at": "1975-06-24T10:51:29Z",
+	"slug_soundcloud": null,
+	"slug_earwolf": "dummy-slug",
+	"episode_title": "DUMMY TITLE",
+	"episode_guests": "",
+	"id_wikia": null,
+	"holding": "false"
 },{
-  "_id": {
-      "$oid": "5651b1df431ee61b9fc03f88"
-    },
-  "episode": 222,
-  "show": "cbb",
-  "tstart": "00:00",
-  "tend": "00:00",
-  "instance": "DUMMY INST 2",
-  "bit": "DUMMY BIT",
-  "location_type": "",
-  "location_id": "",
-  "updated_at": "1975-06-24T10:51:29Z",
-  "elucidation": "CBB ELUC",
-  "url_soundcloud": null,
-  "tags": "",
-  "created_at": "1975-06-24T10:51:29Z",
-  "slug_soundcloud": null,
-  "slug_earwolf": "dummy-slug",
-  "episode_title": "DUMMY TITLE",
-  "episode_guests": "",
-  "id_wikia": null,
-  "holding": "false"
+	"_id": {
+		"$oid": "5651b1dfgaee61b9fc03f88"
+	},
+	"episode": 35,
+	"show": "cbb",
+	"tstart": "00:00",
+	"tend": "00:00",
+	"instance": "DUMMY INST 2nd stfu in 35",
+	"bit": "Shut the Fuck Up!",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "1975-06-24T10:51:29Z",
+	"elucidation": "CBB ELUC",
+	"url_soundcloud": null,
+	"tags": "",
+	"created_at": "1975-06-24T10:51:29Z",
+	"slug_soundcloud": null,
+	"slug_earwolf": "dummy-slug",
+	"episode_title": "DUMMY TITLE",
+	"episode_guests": "",
+	"id_wikia": null,
+	"holding": "false"
 },{
-  "_id": {
-      "$oid": "5651b1df431ee61b9fc03f88"
-    },
-  "episode": 222,
-  "show": "cbb",
-  "tstart": "00:00",
-  "tend": "00:00",
-  "instance": "DUMMY INST 3",
-  "bit": "DUMMY BIT 2",
-  "location_type": "",
-  "location_id": "",
-  "updated_at": "1975-06-24T10:51:29Z",
-  "elucidation": "CBB ELUC",
-  "url_soundcloud": null,
-  "tags": "",
-  "created_at": "1975-06-24T10:51:29Z",
-  "slug_soundcloud": null,
-  "slug_earwolf": "dummy-slug",
-  "episode_title": "DUMMY TITLE",
-  "episode_guests": "",
-  "id_wikia": null,
-  "holding": "false"
+	"_id": {
+		"$oid": "5651b1df431ee61b9fc03f88"
+	},
+	"episode": 222,
+	"show": "cbb",
+	"tstart": "00:00",
+	"tend": "00:00",
+	"instance": "DUMMY INST 2",
+	"bit": "Shut the Fuck Up!",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "1975-06-24T10:51:29Z",
+	"elucidation": "CBB ELUC",
+	"url_soundcloud": null,
+	"tags": "",
+	"created_at": "1975-06-24T10:51:29Z",
+	"slug_soundcloud": null,
+	"slug_earwolf": "dummy-slug",
+	"episode_title": "DUMMY TITLE",
+	"episode_guests": "",
+	"id_wikia": null,
+	"holding": "false"
+},{
+	"_id": {
+		"$oid": "5651b1df431ee61b9fc03f88"
+	},
+	"episode": 222,
+	"show": "cbb",
+	"tstart": "00:00",
+	"tend": "00:00",
+	"instance": "DUMMY INST 3",
+	"bit":"Ducca List",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "1975-06-24T10:51:29Z",
+	"elucidation": "CBB ELUC",
+	"url_soundcloud": null,
+	"tags": "",
+	"created_at": "1975-06-24T10:51:29Z",
+	"slug_soundcloud": null,
+	"slug_earwolf": "dummy-slug",
+	"episode_title": "DUMMY TITLE",
+	"episode_guests": "",
+	"id_wikia": null,
+	"holding": "false"
+},{
+	"_id": {
+		"$oid": "5651z1df431ee61b9fc03f88"
+	},
+	"episode": 999,
+	"show": "cbb",
+	"tstart": "00:00",
+	"tend": "00:00",
+	"instance": "DUMMY INST 3",
+	"bit":"Location",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "1975-06-24T10:51:29Z",
+	"elucidation": "CBB ELUC",
+	"url_soundcloud": null,
+	"tags": "",
+	"created_at": "1975-06-24T10:51:29Z",
+	"slug_soundcloud": null,
+	"slug_earwolf": "dummy-slug",
+	"episode_title": "DUMMY TITLE",
+	"episode_guests": "",
+	"id_wikia": null,
+	"holding": "false"
 }]
 
 var m = __.map(d,(e,i,l)=>{
 
-var o = {
-	_id:e._id["$oid"]
-	,episode:e.episode
-	,bit:e.bit
-	,instance:e.instance
-}
+	var o = {
+		_id:e._id["$oid"]
+		,episode:e.episode
+		,bit:e.bit
+		,instance:e.instance
+	}
 
-return o
+	return o
 
 })///.map
-				resolve({documents:m});
+resolve({documents:m});
 
 	});//Promise
 }
+
 
 var incoming = async (ln) =>{
 	return new Promise(function(resolve, reject) {
@@ -301,7 +364,7 @@ var most_recent = async () =>{
 
 	return new Promise((resolve,reject)=>{
 
-console.log("sniffing most recent...");
+		console.log("sniffing most recent...");
 		var files = FS.readdirSync(CONFIG.budir);
     // use underscore for max()
     var max = __.max(files, function (f) {
@@ -321,10 +384,10 @@ var extant_parse = async (F) =>{
 
 	return new Promise((resolve,reject)=>{
 
-var r = {}
+		var r = {}
 
-console.log("reading bits from most recent *.json...");
-				FS.readFile(CONFIG.budir+"/"+F,async (e,d)=>{
+		console.log("reading bits from most recent *.json...");
+		FS.readFile(CONFIG.budir+"/"+F,async (e,d)=>{
 			if(e){console.log("readfile err");
 			r.flag='stop'
 			r.msg='read of *.json failed'
@@ -373,7 +436,7 @@ var extant = async () =>{
 })//writefile
 
 			}
-});
+		});
 
 })//promise
 }//extant
@@ -451,35 +514,35 @@ var main = async () =>{
 			process.exit();
 		} else {
 
-/* ----------------------------------------------- 
+/* -----------------------------------------------
 // read in incoming bits from $ln file
 // msg notes length, payload is actual bits
 			var inc = await incoming(ln);
 			R.incoming=inc.msg
 			var inca = inc.payload
-*/
+			*/
 
-/* ----------------------------------------------- 
+/* -----------------------------------------------
 // pull everything out of MLAB into a local file in budir - e.g. bu.2017_November_Sunday_02_06_35.json
 			var bu = await extant();
-*/
+			*/
 
-/* ----------------------------------------------- 
+/* -----------------------------------------------
 // check budir for the MOST RECENT *.json bu
 // this allows us to pull/not pull a backup every time
 			var ext_source = await most_recent();
-*/
+			*/
 
-/* ----------------------------------------------- 
+/* -----------------------------------------------
 // parse that file
 			var extant_parsed = await extant_parse(ext_source);
 			R.extant=extant_parsed.msg
 
 			var exta = extant_parsed.payload
 			// exta is now our live copy of everything that's come before
-*/
+			*/
 
-/* ----------------------------------------------- 
+/* -----------------------------------------------
 // we send the fresh stuff and the archive for audit
 // audit maps inca and exta into comparable arrays (concatenating several presumably distinct fields [episode+bit+instance+tags] into one nonsensical but probably-unique string) - N.B. this is not foolproof
 			var audited = await audit(inca,exta);
@@ -492,7 +555,7 @@ var main = async () =>{
 }
 */
 
-/* ----------------------------------------------- 
+/* -----------------------------------------------
 */
 // audit wz clean so we're sending
 // console.log("R.audit",R.audit);
@@ -503,7 +566,7 @@ sent = await fake_send();
 // console.log('440');
 
 updates = await prep_update(sent.documents);
-console.log(updates)
+// console.log(JSON.stringify(prior_updates))
 
 
 }

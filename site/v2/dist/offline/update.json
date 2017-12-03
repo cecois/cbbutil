@@ -1,0 +1,78 @@
+{
+	"date": "2017.Nov.30",
+	"episodes": "5 bits from 3 episodes (eps 35, 222, 999)",
+	"anno": "lorum ipsum blah blah SAD!",
+	"report": [
+		{
+			"episode": 35,
+			"image":"images/IMG_7152.jpg",
+			"raw_bits": [
+				"Shut the Fuck Up!",
+				"Shut the Fuck Up!"
+			],
+			"bits_sum": [
+				{
+					"bit": "Shut the Fuck Up!",
+					"count": 2
+				}
+			]
+		},
+		{
+			"episode": 222,
+			"image":"images/IMG_7295.jpg",
+			"raw_bits": [
+				"Shut the Fuck Up!",
+				"Ducca List"
+			],
+			"bits_sum": [
+				{
+					"bit": "Shut the Fuck Up!",
+					"count": 1
+				},
+				{
+					"bit": "Ducca List",
+					"count": 1
+				}
+			]
+		},
+		{
+			"episode": 999,
+			"image":"images/IMG_7658.jpg",
+			"raw_bits": [
+				"Location"
+			],
+			"bits_sum": [
+				{
+					"bit": "Location",
+					"count": 1
+				}
+			]
+		},
+		{
+			"episode": 999,
+			"image":"images/IMG_7658.jpg",
+			"raw_bits": [
+				"Location"
+			],
+			"bits_sum": [
+				{
+					"bit": "Location",
+					"count": 1
+				}
+			]
+		},
+		{
+			"episode": 999,
+			"image":"images/IMG_7658.jpg",
+			"raw_bits": [
+				"Location"
+			],
+			"bits_sum": [
+				{
+					"bit": "Location",
+					"count": 1
+				}
+			]
+		}
+	]
+}
