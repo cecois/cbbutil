@@ -5984,3 +5984,108 @@
   "id_wikia": null,
   "holding": "false"
 }
+
+{
+  "episode": 522,
+  "show": "cbb",
+  "tstart": "33:50",
+  "tend": "34:36",
+  "instance": "Many of you may have thought I was in a hospital.",
+  "bit":"Location","elucidation":"identifiable earth location",
+  "tags": "Charles Manson",
+  "location_type": "poly",
+  "location_id": "470",
+  "updated_at": "2017-11-29T09:27:37Z",
+  "url_soundcloud": null,
+  "created_at": "2017-11-29T09:27:37Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "",
+  "episode_title": "Carlie's Bucket List",
+  "episode_guests": "Sarah Silverman,Paul F. Tompkins,Madeline Walter,Ego Nwodim",
+  "id_wikia": null,
+  "holding": "false"
+}
+
+{
+  "episode": 522,
+  "show": "cbb",
+  "tstart": "1:22:20",
+  "tend": "1:22:44",
+  "instance": "Flat guy with glasses?",
+  "bit":"Location","elucidation":"identifiable earth location",
+  "tags": "Charles Manson,Prince Chinedu,Jared Fogle",
+  "location_type": "poly",
+  "location_id": "470",
+  "updated_at": "2017-11-29T09:27:37Z",
+  "url_soundcloud": null,
+  "created_at": "2017-11-29T09:27:37Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "",
+  "episode_title": "Carlie's Bucket List",
+  "episode_guests": "Sarah Silverman,Paul F. Tompkins,Madeline Walter,Ego Nwodim",
+  "id_wikia": null,
+  "holding": "false"
+}
+
+{
+  "episode": 522,
+  "show": "cbb",
+  "tstart": "1:07:33",
+  "tend": "1:08:10",
+  "instance": "My teeth get cold when I have ice in my drink.",
+  "bit":"Location","elucidation":"identifiable earth location",
+  "tags": "Charles Manson,Prince Chinedu",
+  "location_type": "point",
+  "location_id": "791",
+  "updated_at": "2017-11-29T09:27:37Z",
+  "url_soundcloud": null,
+  "created_at": "2017-11-29T09:27:37Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "",
+  "episode_title": "Charlie's Bucket List",
+  "episode_guests": "Sarah Silverman,Paul F. Tompkins,Madeline Walter,Ego Nwodim",
+  "id_wikia": null,
+  "holding": "false"
+}
+
+{
+  "episode": 522,
+  "show": "cbb",
+  "tstart": "1:34:17",
+  "tend": "1:35:02",
+  "instance": "I'm there at least twice a day.",
+  "bit":"Location","elucidation":"identifiable earth location",
+  "tags": "Charles Manson,Prince Chinedu",
+  "location_type": "point",
+  "location_id": "791",
+  "updated_at": "2017-11-29T09:27:37Z",
+  "url_soundcloud": null,
+  "created_at": "2017-11-29T09:27:37Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "",
+  "episode_title": "Charlie's Bucket List",
+  "episode_guests": "Sarah Silverman,Paul F. Tompkins,Madeline Walter,Ego Nwodim",
+  "id_wikia": null,
+  "holding": "false"
+}
+
+{
+  "episode": 522,
+  "show": "cbb",
+  "tstart": "1:21:10",
+  "tend": "1:21:53",
+  "instance": "The manager told me I was funny - he said I should take improv.",
+  "bit":"Location","elucidation":"identifiable earth location",
+  "tags": "Charles Manson,Prince Chinedu",
+  "location_type": "point",
+  "location_id": "846",
+  "updated_at": "2017-11-29T09:27:37Z",
+  "url_soundcloud": null,
+  "created_at": "2017-11-29T09:27:37Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "",
+  "episode_title": "Charlie's Bucket List",
+  "episode_guests": "Sarah Silverman,Paul F. Tompkins,Madeline Walter,Ego Nwodim",
+  "id_wikia": null,
+  "holding": "false"
+}

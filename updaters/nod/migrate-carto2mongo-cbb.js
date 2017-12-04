@@ -54,6 +54,9 @@ var incoming_curl_poly = async () =>{
 	return new Promise(function(resolve, reject) {
 		var r = {}
 
+// e.g. from ...
+// curl "https://pugo.cartodb.com/api/v1/sql?q=select%20cartodb_id,name,confidence,anno,created_at,scnotes,updated_at,ST_AsGeoJSON(the_geom)%20as%20the_geom%20from%20cbb_poly%20ORDER%20BY%20cartodb_id%20desc%20LIMIT%201;" -o ~/Downloads/cbb-poly-curl-sql.json;
+
 		var ln = '/Users/ccmiller/Downloads/cbb-poly-curl-sql.json'
 
 		FS.readFile(ln,async (e,d)=>{
