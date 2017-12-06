@@ -59,29 +59,30 @@ var Bits = Backbone.Collection.extend({
 		})
 
 		appState.set({locations:locations.join(",")})
-		if(appLocations.length>0){
+		if(locations.length>0){
+			// some! - we fetch here due to a 'too much recursion' issue with the listenTo
 			appLocations.fetch()}
 
 
-		appActivity.set({message:"setting facets..."})
-		var fat_bits = _.map(data.aggregations.all_bits.bits.filtered_bits.buckets,function(v,k){
+			appActivity.set({message:"setting facets..."})
+			var fat_bits = _.map(data.aggregations.all_bits.bits.filtered_bits.buckets,function(v,k){
 
-			var b = {bit:v.key}
+				var b = {bit:v.key}
 
-			var active = (appQueryFacets.findWhere(b))?'is-active':'';
-			return {type:'bits',facet:v.key,count:v.doc_count,active:active}
-
-		})//.Map
-		appFacetsBits.reset(fat_bits)
-
-		if(typeof data.aggregations.all_bits.tags !== 'undefined'){
-			var fat_tags = _.map(data.aggregations.all_bits.tags.filtered_tags.buckets,function(v,k){
-				var b = {tags:v.key}
 				var active = (appQueryFacets.findWhere(b))?'is-active':'';
-				return {type:'tags',facet:v.key,count:v.doc_count,active:active}
+				return {type:'bits',facet:v.key,count:v.doc_count,active:active}
 
 		})//.Map
-			appFacetsTags.reset(fat_tags)
+			appFacetsBits.reset(fat_bits)
+
+			if(typeof data.aggregations.all_bits.tags !== 'undefined'){
+				var fat_tags = _.map(data.aggregations.all_bits.tags.filtered_tags.buckets,function(v,k){
+					var b = {tags:v.key}
+					var active = (appQueryFacets.findWhere(b))?'is-active':'';
+					return {type:'tags',facet:v.key,count:v.doc_count,active:active}
+
+		})//.Map
+				appFacetsTags.reset(fat_tags)
 	}//if.facet
 
 	if(typeof data.aggregations.all_bits.guests !== 'undefined'){

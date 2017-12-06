@@ -5,8 +5,8 @@ var CONFIG = {
     ,mode:"33"
     ,proxy:null
     ,basemap:"pencil"
-    ,index_root:"http://milleria.org:9200/cbb/_search?"
-    // ,index_root:"http://localhost:9200/cbb/_search?"
+    // ,index_root:"http://milleria.org:9200/cbb/_search?"
+    ,index_root:"http://localhost:9200/cbb/_search?"
     ,default_query:"watch"
 }
 

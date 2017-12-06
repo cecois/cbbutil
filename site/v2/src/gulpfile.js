@@ -65,11 +65,11 @@ var img = ()=>{
  var fonts = ()=> {
   return GULP.src(
     [
-    paths.site.src+"/css/fonts/**/*.{otf,ttf}"
+    paths.site.src+"/node_modules/font-awesome/fonts/*.{woff,ttf,svg,eot,woff2,otf}"
+    ,paths.site.src+"/css/fonts/**/*.{otf,ttf}"
     ,paths.site.src+"/lib/icomoon/fonts/**/*.{eot,svg,ttf,woff}"
     // ,paths.site.src+"/lib/components/bootstrap/fonts/**/*.{eot,svg,ttf,woff}"
     ,paths.site.src+"/lib/icomoon/fonts/*.{woff,ttf,svg,eot}"
-    ,paths.site.src+"/node_modules/font-awesome/fonts/*.{woff,ttf,svg,eot,woff2,otf}"
     ]
     )
   // .pipe(DEBUG())
