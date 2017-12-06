@@ -1,7 +1,7 @@
 {
-	"date": "2017.Nov.30",
-	"episodes": "5 bits from 3 episodes (eps 35, 222, 999)",
-	"anno": "lorum ipsum blah blah SAD!",
+	"date": "2017.Dec.06",
+	"episodes": "5,000+ adds from across the entirety of CBB's 8 years",
+	"anno": "Yes. Seriously. Ordinarily what will appear hear is a rundown of the ~10-20 new bits from the week's new episode or something picked up during a re-listen to older content. But something big has happened here at CBB.BitMap HQ that needs some explanation ('needs'). Changes to the pricing models of a couple of platforms on which this used to be built caused a shutdown in September 2017. And a complete rewrite to both the back-end processing routines and this web app itself. And that's as good a time as any to add <a href='#' class='cbb-trigger' data-type='bit' data-target='Fantastic'>~1000 instances of Fantastic</a>; ~4700 stragglers (or Hardcastles) from episodes 1-400 (401-52x will also be reslistened-to for same); and then 311 from episodes 511-523. You'll also perhaps notice a new Browse tab; less (zero) sequestering of Location bits; and a tiny little complete fuxking overhaul.",
 	"report": [
 		{
 			"episode": 35,
