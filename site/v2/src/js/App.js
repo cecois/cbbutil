@@ -1,7 +1,7 @@
 /* -------------------------------------------------- GLOBALS -----------------------  */
 var CONFIG = {
-	verbose:true
-    ,dev:true
+	verbose:false
+    ,dev:false
     ,mode:"33"
     ,proxy:null
     ,basemap:"pencil"
@@ -227,6 +227,7 @@ var appFacetsEpisodes = new Facets();
 var appFacetsTags = new Facets();
 var appFacetsGuests = new Facets();
 
+var BitGroup = new L.featureGroup().addTo(map);
 var appLocations = new Locations();
 var appBits = new Bits();
 var appBitsView = new BitsView({collection:appBits});

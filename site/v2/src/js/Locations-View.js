@@ -3,7 +3,7 @@ var LocationsView = Backbone.View.extend({
   events: {
   },
   initialize: function() {
-    var BitGroup = new L.featureGroup().addTo(map);
+    // var BitGroup = new L.featureGroup().addTo(map);
       // this.listenTo(this.collection,"change","render")
       this.collection.bind("sync", this.render, this);
       return this
