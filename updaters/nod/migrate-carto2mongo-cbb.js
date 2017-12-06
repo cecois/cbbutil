@@ -162,23 +162,24 @@ var main = async () =>{
 	try {
 
 		var incomingz = [
-		'/Users/ccmiller/Downloads/cbb_point.geojson',
-		'/Users/ccmiller/Downloads/cbb_line.geojson'
+		'/Users/ccmiller/Downloads/cbb_point.geojson'
+		// ,'/Users/ccmiller/Downloads/cbb_line.geojson'
 		]
 
-		// __.each(incomingz,async (ln)=>{
+		__.each(incomingz,async (ln)=>{
 
-		// 	var inca = await incoming(ln);
-		// 	console.log(ln+":"+inca.payload.length)
-		// 	var sent = await send(inca.payload)
-		// 	console.log(sent.msg)
+			var inca = await incoming(ln);
+			console.log(ln+":"+inca.payload.length)
+			var sent = await send(inca.payload)
+			console.log(sent.msg)
 
-		// })
+		})
 
-		var incapoly = await incoming_curl_poly();
-		console.log(incapoly.msg)
-		var sent = await send(incapoly.payload)
-		console.log(sent.msg)
+// curl "https://pugo.cartodb.com/api/v1/sql?q=select%20cartodb_id,name,confidence,anno,created_at,scnotes,updated_at,ST_AsGeoJSON(the_geom)%20as%20the_geom%20from%20cbb_poly%20ORDER%20BY%20cartodb_id%20desc%20LIMIT%201;" -o ~/Downloads/cbb-poly-curl-sql.json;
+		// var incapoly = await incoming_curl_poly();
+		// console.log(incapoly.msg)
+		// var sent = await send(incapoly.payload)
+		// console.log(sent.msg)
 
 
 } catch(error) {

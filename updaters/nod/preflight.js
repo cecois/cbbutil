@@ -8,7 +8,7 @@ var __ = require('underscore')
 ,ZLIB = require('zlib')
 ,DB = require('mongodb').Db
 ,RP = require('request-promise')
-// ,MLAB = require('mongolab-data-api')(CONFIG.mongokey)
+,MLAB = require('mongolab-data-api')(CONFIG.mongokey)
 ,MOMENT = require('moment')
 ;
 
@@ -340,7 +340,7 @@ var incoming = async (ln) =>{
 
 		// var ln = ln+'-fake'
 
-		FS.readFile('../cbb-'+ln+'-json.json',async (e,d)=>{
+		FS.readFile('../cbb-'+ln+'.json',async (e,d)=>{
 			if(e){console.log("readfile err");
 			r.flag='stop'
 			r.msg='read of *.json failed'
@@ -509,7 +509,7 @@ var main = async () =>{
 	try {
 		var ln = process.argv[2]
 
-		if(__.contains(['news','live','fake'],ln)!==true){
+		if(__.contains(['news','live','fake','fantastic'],ln)!==true){
 			throw("typo prolly");
 			process.exit();
 		} else {
@@ -517,15 +517,15 @@ var main = async () =>{
 /* -----------------------------------------------
 // read in incoming bits from $ln file
 // msg notes length, payload is actual bits
+			*/
 			var inc = await incoming(ln);
 			R.incoming=inc.msg
 			var inca = inc.payload
-			*/
 
 /* -----------------------------------------------
 // pull everything out of MLAB into a local file in budir - e.g. bu.2017_November_Sunday_02_06_35.json
-			var bu = await extant();
 			*/
+			var bu = await extant();
 
 /* -----------------------------------------------
 // check budir for the MOST RECENT *.json bu
@@ -561,11 +561,11 @@ var main = async () =>{
 // console.log("R.audit",R.audit);
 // sent = await send(inca);
 
-sent = await fake_send();
+// sent = await fake_send();
 
 // console.log('440');
 
-updates = await prep_update(sent.documents);
+// updates = await prep_update(sent.documents);
 // console.log(JSON.stringify(prior_updates))
 
 
