@@ -198,8 +198,8 @@ var baselayersmobile = {
 
 var appSlugs = new Slugs(
     [
-    {name:"Home",slug:"home",active:false}
-    ,{name:"Huh?",slug:"huh",active:'is-active'}
+    {name:"Home",slug:"home",active:'is-active'}
+    ,{name:"Huh?",slug:"huh",active:false}
     ,{name:"Search",slug:"search",active:false}
     ,{name:"Browse",slug:"browse",active:false}
     ,{name:"Update",slug:"update",active:false}
