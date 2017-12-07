@@ -164,8 +164,8 @@ var js_cbb_cp = ()=>{
 ,paths.site.src+"/js/Routes.js"
 ])
   // .pipe(PLUMBER())
-  .pipe(BABEL({ presets: ['es2015'] }))
-  .pipe(UGLIFY())
+  // .pipe(BABEL({ presets: ['es2015'] }))
+  // .pipe(UGLIFY())
   .pipe(GULP.dest(paths.site.dist+"/js/"));
 }
 
