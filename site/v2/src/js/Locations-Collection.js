@@ -15,7 +15,7 @@ var Locations = Backbone.Collection.extend({
 			u = 'http://localhost:3030/geoms/offline?q='+appState.get("locations");
 			break;
 			case '33':
-			u = 'http://milleria.org:3030/geoms/cbb?q='+appState.get("locations");
+			u = 'http://localhost:3030/geoms/cbb?q='+appState.get("locations");
 			break;
 			default:
 			u = 'http://milleria.org:3030/geoms/cbb?q='+appState.get("locations");

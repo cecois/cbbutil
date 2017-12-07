@@ -53,7 +53,7 @@ var Bits = Backbone.Collection.extend({
 
 		appActivity.set({message:"extracting locations..."})
 		var locations = _.map(_.filter(data.hits.hits,function(d){
-			return d._source.bit=="Location"}),function(d){
+			return (d._source.bit=="Location" && d._source.location_id!=='' && d._source.location_type!=='')}),function(d){
 
 			return d._source.location_type+":"+d._source.location_id
 		})
