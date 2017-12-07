@@ -163,7 +163,7 @@ var js_cbb_cp = ()=>{
     paths.site.src+"/js/App.js"
 ,paths.site.src+"/js/Routes.js"
 ])
-  .pipe(PLUMBER())
+  // .pipe(PLUMBER())
   .pipe(BABEL({ presets: ['es2015'] }))
   .pipe(UGLIFY())
   .pipe(GULP.dest(paths.site.dist+"/js/"));
