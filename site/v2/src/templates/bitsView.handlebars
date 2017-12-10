@@ -7,7 +7,7 @@
 		<span class='tooltip is-tooltip-left' data-tooltip="{{elucidation}}"><a href="#" class="cbb-trigger" data-type="bit" data-target="{{bit}}">{{bit}}</a></span> | <a class="tooltip is-tooltip-right cbb-trigger" data-tooltip="ep.{{episode}}" data-type="episode" data-target="{{episode}}" href="#">{{meta.episode_string}}</a> ~{{tstart}} | <span class="cbb-bit-meta-bt icon"><i id="" class="fa fa-caret-right is-size-7"></i></span>
 
 	<div style="" class='bit-data-meta'>
-( added: {{meta.created}} {{#if meta.updated}}[updated {{meta.updated}}]{{/if}} | tagged: {{#each meta.tags}}<a href="#" class="cbb-trigger" data-type="tags" data-target="{{this}}">{{this}}</a>{{#unless @last}}, {{/unless}}{{/each}} )
+( added: {{meta.created}} {{#if meta.updated}}[updated {{meta.updated}}]{{/if}} {{#if meta.tags}}| tagged: {{#each meta.tags}}<a href="#" class="cbb-trigger" data-type="tags" data-target="{{this}}">{{this}}</a>{{#unless @last}}, {{/unless}}{{/each}} {{/if}} | elucidation: {{meta.elucidation}})
 	</div><!-- /.bit-data-meta -->
 
 	</div><!-- /.bit-data -->

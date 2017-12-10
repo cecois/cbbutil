@@ -23,7 +23,10 @@ var QueryView = Backbone.View.extend({
     }
     ,set: function(e){
 
-        this.model.set({raw:"episode:200"})
+var v = $("#query-form input").val()
+
+
+        this.model.set({raw:v})
 
         return this
 

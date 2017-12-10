@@ -164,9 +164,11 @@ this["CBB"]["templates"]["bitsView"] = Handlebars.template({"1":function(contain
     + alias3(alias4(((stack1 = (depth0 != null ? depth0.meta : depth0)) != null ? stack1.created : stack1), depth0))
     + " "
     + ((stack1 = helpers["if"].call(depth0,((stack1 = (depth0 != null ? depth0.meta : depth0)) != null ? stack1.updated : stack1),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + " | tagged: "
-    + ((stack1 = helpers.each.call(depth0,((stack1 = (depth0 != null ? depth0.meta : depth0)) != null ? stack1.tags : stack1),{"name":"each","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + " )\n	</div><!-- /.bit-data-meta -->\n\n	</div><!-- /.bit-data -->\n\n\n\n</div>\n</li>\n";
+    + " "
+    + ((stack1 = helpers["if"].call(depth0,((stack1 = (depth0 != null ? depth0.meta : depth0)) != null ? stack1.tags : stack1),{"name":"if","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + " | elucidation: "
+    + alias3(alias4(((stack1 = (depth0 != null ? depth0.meta : depth0)) != null ? stack1.elucidation : stack1), depth0))
+    + ")\n	</div><!-- /.bit-data-meta -->\n\n	</div><!-- /.bit-data -->\n\n\n\n</div>\n</li>\n";
 },"2":function(container,depth0,helpers,partials,data) {
     var helper, alias1=helpers.helperMissing, alias2="function", alias3=container.escapeExpression;
 
@@ -182,6 +184,12 @@ this["CBB"]["templates"]["bitsView"] = Handlebars.template({"1":function(contain
     + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.meta : depth0)) != null ? stack1.updated : stack1), depth0))
     + "]";
 },"6":function(container,depth0,helpers,partials,data) {
+    var stack1;
+
+  return "| tagged: "
+    + ((stack1 = helpers.each.call(depth0,((stack1 = (depth0 != null ? depth0.meta : depth0)) != null ? stack1.tags : stack1),{"name":"each","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + " ";
+},"7":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=container.lambda, alias2=container.escapeExpression;
 
   return "<a href=\"#\" class=\"cbb-trigger\" data-type=\"tags\" data-target=\""
@@ -189,8 +197,8 @@ this["CBB"]["templates"]["bitsView"] = Handlebars.template({"1":function(contain
     + "\">"
     + alias2(alias1(depth0, depth0))
     + "</a>"
-    + ((stack1 = helpers.unless.call(depth0,(data && data.last),{"name":"unless","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
-},"7":function(container,depth0,helpers,partials,data) {
+    + ((stack1 = helpers.unless.call(depth0,(data && data.last),{"name":"unless","hash":{},"fn":container.program(8, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
+},"8":function(container,depth0,helpers,partials,data) {
     return ", ";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1;
