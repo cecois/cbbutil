@@ -4,6 +4,7 @@ var BitsView = Backbone.View.extend({
     events: {
       "click i.fa-map-marker": "zoomto",
       "click .cbb-trigger": "trigger",
+      "click .cbb-facet-remove": function(e){e.preventDefault();appQueryFacets.reset();},
       "click .cbb-bit-meta-bt": "meta"
     },
     initialize: function() {
@@ -58,7 +59,7 @@ if(this.collection.length<1){
   var qu = (appQuery.get("raw")==null || appQuery.get("raw")=='')?"null query":appQuery.get("raw")+appQuery.query_facetadd();
 
   $(this.el).html(
-    "no bits for "+qu
+    "no bits for "+qu + " (maybe <a href='#' class='cbb-facet-remove'>remove the facet</a>?)"
     );
 } else {
   $(this.el).html(this.template({rows:this.collection.toJSON()}));}

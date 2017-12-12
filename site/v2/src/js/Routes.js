@@ -6,7 +6,7 @@ var Route = Backbone.Router.extend({
         options || (options={});
         this.listenTo(appBaseLayers,'change:active',this.up)
         this.listenTo(appSlugs,'reset',this.up)
-        this.listenTo(appQueryFacets,'add remove',this.up)
+        this.listenTo(appQueryFacets,'add remove reset',this.up)
         this.listenTo(appQuery,'change:raw',this.up)
         return this
     },

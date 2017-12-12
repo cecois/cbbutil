@@ -28,7 +28,7 @@ var Bits = Backbone.Collection.extend({
 	,initialize:function(options){
 		options||(options={})
 		this.listenTo(appQuery,'change:raw',this.upf)
-		this.listenTo(appQueryFacets,'add remove',this.upf)
+		this.listenTo(appQueryFacets,'add remove reset',this.upf)
 		return this
 	}
 	,upf:function(){
@@ -118,11 +118,14 @@ var Bits = Backbone.Collection.extend({
 
 		var eti = (b._source.episode_title==null ||b._source.episode_title=='')?b._source.episode.split("/")[b._source.episode.split("/").length-1]:b._source.episode_title;
 
+var otags = (b._source.tags!=='' && b._source.tags!==null && (typeof b._source.tags !== 'undefined'))?b._source.tags.split(","):null;
+
 		o.meta={
 			created:moment(b._source.created_at).format("YYYY.MMM.DD")
 			,updated:upd
 			,episode_string:eti
-			,tags:b._source.tags.split(",")
+			,tags:otags
+			,elucidation:b._source.elucidation
 		}
 		return o
 	})

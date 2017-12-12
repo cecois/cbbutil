@@ -5,9 +5,9 @@ var CONFIG = {
     ,mode:"33"
     ,proxy:null
     ,basemap:"pencil"
-    // ,index_root:"http://milleria.org:9200/cbb/_search?"
-    ,index_root:"http://localhost:9200/cbb/_search?"
-    ,default_query:"watch"
+    ,index_root:"http://milleria.org:9200/cbb/_search?"
+    // ,index_root:"http://localhost:9200/cbb/_search?"
+    ,default_query:"episode:523"
 }
 
 window.map = new L.Map('map',
@@ -198,8 +198,8 @@ var baselayersmobile = {
 
 var appSlugs = new Slugs(
     [
-    {name:"Home",slug:"home",active:false}
-    ,{name:"Huh?",slug:"huh",active:'is-active'}
+    {name:"Home",slug:"home",active:'is-active'}
+    ,{name:"Huh?",slug:"huh",active:false}
     ,{name:"Search",slug:"search",active:false}
     ,{name:"Browse",slug:"browse",active:false}
     ,{name:"Update",slug:"update",active:false}

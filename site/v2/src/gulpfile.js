@@ -158,6 +158,17 @@ paths.site.src+"/js/Util-Model.js"
   .pipe(GULP.dest(paths.site.dist+"/js/"));
 };
 
+// var js_cbb_cp = ()=>{
+//   return GULP.src([
+//     paths.site.src+"/js/App.js"
+// ,paths.site.src+"/js/Routes.js"
+// ])
+//   // .pipe(PLUMBER())
+//   // .pipe(BABEL({ presets: ['es2015'] }))
+//   // .pipe(UGLIFY())
+//   .pipe(GULP.dest(paths.site.dist+"/js/"));
+// }
+
 
 /* ------------------------- STYLE ------------- */
 var lessen = ()=>{
@@ -325,6 +336,7 @@ exports.cssify = cssify;
 exports.offline = offline;
 exports.js_lib = js_lib;
 exports.js_cbb = js_cbb;
+// exports.js_cbb_cp = js_cbb_cp;
 exports.fonts = fonts;
 exports.html = html;
 exports.clean = clean;
@@ -345,6 +357,7 @@ var develop = GULP.series(
     cssify
     ,js_lib
     ,js_cbb
+    // ,js_cbb_cp
     )
   ,GULP.parallel(
     browsersync

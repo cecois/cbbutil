@@ -150,7 +150,8 @@ return this
     default:
     return {
       radius: 6,
-      fillColor: "rgba(6, 6, 6, 50)",
+      // fillColor: "rgba(6, 6, 6, 50)",
+      fillColor: "rgba(255, 128, 0)",
       color: "#000",
       weight: 1,
       opacity: 1,
