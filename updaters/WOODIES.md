@@ -280,3 +280,12 @@
 * 514,21:20,don't get us started on that cracker
 * 514,1:13:15,try a different strategy idiot
 * 365,??:??,i'm not an android and i'm tired of the question
+* 524,1:00,they know (BCB)
+* 524,4:30,that sounds like heaven
+* 524,5:10,i remember i got overcome with soup fumes
+* 524,15:45,bon appetite!
+* 524,26:00,ultimate feedback
+* 524,57:32,bruce dern
+* 524,1:03:00,patty luphone
+* 524,1:15:30,wasn't judy dench in the big chill?
+* 524,1:49:00,yeah i don't like you and you don't like me?
