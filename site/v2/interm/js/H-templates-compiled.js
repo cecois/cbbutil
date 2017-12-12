@@ -144,7 +144,9 @@ this["CBB"]["templates"]["bitsView"] = Handlebars.template({"1":function(contain
     + alias3(((helper = (helper = helpers._id || (depth0 != null ? depth0._id : depth0)) != null ? helper : alias1),(typeof helper === alias2 ? helper.call(depth0,{"name":"_id","hash":{},"data":data}) : helper)))
     + "\">\n	"
     + ((stack1 = (helpers.equal || (depth0 && depth0.equal) || alias1).call(depth0,(depth0 != null ? depth0.bit : depth0),"Location",{"name":"equal","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\n<span class=\"bit-instance\">"
+    + "\n<span data-id=\""
+    + alias3(alias4(((stack1 = (depth0 != null ? depth0.meta : depth0)) != null ? stack1._id : stack1), depth0))
+    + "\" class=\"bit-instance\">"
     + alias3(((helper = (helper = helpers.instance || (depth0 != null ? depth0.instance : depth0)) != null ? helper : alias1),(typeof helper === alias2 ? helper.call(depth0,{"name":"instance","hash":{},"data":data}) : helper)))
     + "</span>\n<div class=\"columns\">\n	<div style=\"\" class='column bit-data'>\n		<span class='tooltip is-tooltip-left' data-tooltip=\""
     + alias3(((helper = (helper = helpers.elucidation || (depth0 != null ? depth0.elucidation : depth0)) != null ? helper : alias1),(typeof helper === alias2 ? helper.call(depth0,{"name":"elucidation","hash":{},"data":data}) : helper)))

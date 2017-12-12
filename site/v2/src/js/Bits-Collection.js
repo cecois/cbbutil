@@ -126,6 +126,7 @@ var otags = (b._source.tags!=='' && b._source.tags!==null && (typeof b._source.t
 			,episode_string:eti
 			,tags:otags
 			,elucidation:b._source.elucidation
+			,_id:"_id:"+b._id
 		}
 		return o
 	})
