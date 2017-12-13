@@ -339,4 +339,24 @@
     "id_wikia": null,
     "holding": "false"
 }
+,{
+    "episode": 524,
+    "show": "cbb",
+    "tstart": "46:00",
+    "tend": "46:24",
+    "instance": "What comes after 3?",
+    "bit":"Scott's Questions","elucidation":"(in progress) - scott's questions",
+    "tags": "Big Chunky Bubbles",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2017-12-11T08:35:06Z",
+    "url_soundcloud": null,
+    "created_at": "2017-12-11T08:35:06Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "merry-chunky-christmas-with-neil-patrick-harris",
+    "episode_title": "Merry Chunky Christmas with Neil Patrick Harris",
+    "episode_guests": "Neil Patrick Harris,Paul F. Tompkins,Shaun Diston",
+    "id_wikia": null,
+    "holding": "false"
+}
 ]
