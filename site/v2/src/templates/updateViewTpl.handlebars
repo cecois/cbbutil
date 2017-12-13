@@ -1,7 +1,38 @@
 <h3 class="is-size-4"><strong>Most Recent Update:</strong></h4>
 
-	<span class="has-text-grey-light">2017.Dec.06 / 5,000+ adds from across the entirety of CBB's 8 years</span>
+	<span class="has-text-grey-light">{{meta.date}} {{#if meta.episodes}} / {{meta.episodes}}</em></span>
 
-<div style="margin-top:3%;">
-Yes. Seriously. Ordinarily what will appear here is a rundown of the ~10-20 new bits from the week's new episode or something picked up during a re-listen to older content. But something big has happened here at CBB.BitMap HQ that needs some explanation ('needs'). Changes to the pricing models of a couple of platforms on which this used to be built caused a shutdown in September 2017. A complete rewrite to both the back-end processing routines and this web app itself ensued. And that's as good a time as any to add <a href='#' class='cbb-trigger' data-type='bit' data-target='Fantastic'>~1000 instances of Fantastic</a>; ~4700 stragglers (or <a href='#' class='cbb-trigger' data-type='bit' data-target='The Paul Hardcastle of Suicides'>Hardcastles</a>) from episodes 1-400 (401-52x will also undergo a relistening for same); and then <a href='#' class='cbb-trigger' data-type='' data-target='episode:[511 TO 523]'>300+ from episodes 511-523</a>. You'll also perhaps notice a new Browse tab; less (zero) sequestering of Location bits; fully bookmarkable application state (hence no share buttons); and a tiny little complete fuxking overhaul.
+
+{{#if meta.anno}}<div style="margin-top:3%;">{{meta.anno}}</div>
+{{/if}}
+<!-- if.anno -->
+<hr/>
+{{/if}}
+<!-- if.episodes -->
+
+{{#each report}}
+<div class="tile is-ancestor">
+{{#each this}}
+
+  <div class="tile is-parent is-3">
+    <article class="tile is-child box">
+
+<figure class="image">
+  <img class="earwolf-img" src="{{this.image}}">
+</figure>
+<span class="has-text-grey-light">from ep.{{#episodizer this.episode}}{{/episodizer}}:</span>
+<div>{{#each this.bits_sum}}
+<div class="" style="">
+<span style="font-size:1.58em;">{{count}}</span> {{bit}} <a href="#" class="update-toolbar cbb-trigger" data-type="" data-target="episode:{{../this.episode}} +bit:{{bit}}"><i style="font-size:.7em;" class="fa fa-search-plus"></i></a href="#">
+{{/each}}<!-- each.this.bits_sum -->
 </div>
+</div><!-- each.this.bits_sum -->
+    </article>
+  </div>
+  <!-- ./tile -->
+
+{{/each}}
+</div>
+<!-- .tile.is-ancestor -->
+{{/each}}
+<!-- each.report -->
