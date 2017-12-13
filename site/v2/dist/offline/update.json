@@ -1,78 +1,66 @@
 {
-	"date": "2017.Dec.06",
-	"episodes": "5,000+ adds from across the entirety of CBB's 8 years",
-	"anno": "Yes. Seriously. Ordinarily what will appear hear is a rundown of the ~10-20 new bits from the week's new episode or something picked up during a re-listen to older content. But something big has happened here at CBB.BitMap HQ that needs some explanation ('needs'). Changes to the pricing models of a couple of platforms on which this used to be built caused a shutdown in September 2017. And a complete rewrite to both the back-end processing routines and this web app itself. And that's as good a time as any to add <a href='#' class='cbb-trigger' data-type='bit' data-target='Fantastic'>~1000 instances of Fantastic</a>; ~4700 stragglers (or Hardcastles) from episodes 1-400 (401-52x will also be reslistened-to for same); and then 311 from episodes 511-523. You'll also perhaps notice a new Browse tab; less (zero) sequestering of Location bits; and a tiny little complete fuxking overhaul.",
-	"report": [
-		{
-			"episode": 35,
-			"image":"images/IMG_7152.jpg",
-			"raw_bits": [
-				"Shut the Fuck Up!",
-				"Shut the Fuck Up!"
-			],
-			"bits_sum": [
-				{
-					"bit": "Shut the Fuck Up!",
-					"count": 2
-				}
-			]
-		},
-		{
-			"episode": 222,
-			"image":"images/IMG_7295.jpg",
-			"raw_bits": [
-				"Shut the Fuck Up!",
-				"Ducca List"
-			],
-			"bits_sum": [
-				{
-					"bit": "Shut the Fuck Up!",
-					"count": 1
-				},
-				{
-					"bit": "Ducca List",
-					"count": 1
-				}
-			]
-		},
-		{
-			"episode": 999,
-			"image":"images/IMG_7658.jpg",
-			"raw_bits": [
-				"Location"
-			],
-			"bits_sum": [
-				{
-					"bit": "Location",
-					"count": 1
-				}
-			]
-		},
-		{
-			"episode": 999,
-			"image":"images/IMG_7658.jpg",
-			"raw_bits": [
-				"Location"
-			],
-			"bits_sum": [
-				{
-					"bit": "Location",
-					"count": 1
-				}
-			]
-		},
-		{
-			"episode": 999,
-			"image":"images/IMG_7658.jpg",
-			"raw_bits": [
-				"Location"
-			],
-			"bits_sum": [
-				{
-					"bit": "Location",
-					"count": 1
-				}
-			]
-		}
-	]
+  "date": "2017.Dec.12",
+  "episodes": "22 bits from ep.524",
+  "report": [
+    {
+      "episode": 524,
+      "image": "http://farm5.staticflickr.com/4565/38135424315_1b96f4809c_b.jpg",
+      "raw_bits": [
+        "The Paul Hardcastle of Suicides",
+        "The Paul Hardcastle of Suicides",
+        "The Paul Hardcastle of Suicides",
+        "The Paul Hardcastle of Suicides",
+        "The Paul Hardcastle of Suicides",
+        "The Paul Hardcastle of Suicides",
+        "The Paul Hardcastle of Suicides",
+        "Scott's Questions",
+        "Scott's Questions",
+        "Scott's Questions",
+        "Location",
+        "Location",
+        "Location",
+        "Location",
+        "Fantastic.",
+        "Favorite Feature",
+        "Oh Boy",
+        "Oh Boy",
+        "What's This, Now?!",
+        "Willfully Obtuse"
+      ],
+      "bits_sum": [
+        {
+          "bit": "The Paul Hardcastle of Suicides",
+          "count": 7
+        },
+        {
+          "bit": "Scott's Questions",
+          "count": 3
+        },
+        {
+          "bit": "Location",
+          "count": 4
+        },
+        {
+          "bit": "Fantastic.",
+          "count": 1
+        },
+        {
+          "bit": "Favorite Feature",
+          "count": 1
+        },
+        {
+          "bit": "Oh Boy",
+          "count": 2
+        },
+        {
+          "bit": "What's This, Now?!",
+          "count": 1
+        },
+        {
+          "bit": "Willfully Obtuse",
+          "count": 1
+        }
+      ]
+    }
+  ]
 }

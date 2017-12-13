@@ -14,7 +14,7 @@ var elastic_array =[];
 
 
 
-FS.readFile('bu/bu.2017_December_05_Tuesday_10_49_20.json',(err,dat)=>{
+FS.readFile('bu/bu.2017_December_12_Tuesday_10_13_55.json',(err,dat)=>{
 	if(err){console.log(err);process.exit();}
 
 

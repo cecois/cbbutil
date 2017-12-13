@@ -517,10 +517,10 @@ var main = async () =>{
 /* -----------------------------------------------
 // read in incoming bits from $ln file
 // msg notes length, payload is actual bits
-			*/
 			var inc = await incoming(ln);
 			R.incoming=inc.msg
 			var inca = inc.payload
+			*/
 
 /* -----------------------------------------------
 // pull everything out of MLAB into a local file in budir - e.g. bu.2017_November_Sunday_02_06_35.json
@@ -556,14 +556,12 @@ var main = async () =>{
 */
 
 /* -----------------------------------------------
-*/
+// sent = await fake_send();
 // audit wz clean so we're sending
-// console.log("R.audit",R.audit);
+console.log("R.audit",R.audit);
+*/
 // sent = await send(inca);
 
-// sent = await fake_send();
-
-// console.log('440');
 
 // updates = await prep_update(sent.documents);
 // console.log(JSON.stringify(prior_updates))

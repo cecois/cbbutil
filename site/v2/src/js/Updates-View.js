@@ -24,10 +24,10 @@ var meta =
 while (a.length > 0)
     reports.push(a.splice(0, size));
 $(this.el).html(this.template(
-// {
-//     meta:meta
-//     ,report:reports
-// }
+{
+    meta:meta
+    ,report:reports
+}
 )
 );
 
