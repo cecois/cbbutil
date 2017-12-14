@@ -6,7 +6,7 @@ var incoming = async (ln) =>{
 	return new Promise(function(resolve, reject) {
 		var r = {}
 
-		FS.readFile('../cbb-news.json',async (e,d)=>{
+		FS.readFile('../'+ln+'.json',async (e,d)=>{
 			if(e){console.log("readfile err");reject(e);
 
 		}

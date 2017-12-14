@@ -9,6 +9,8 @@ var __ = require('underscore')
 ,DB = require('mongodb').Db
 ,RP = require('request-promise')
 ,MLAB = require('mongolab-data-api')(CONFIG.mongokey)
+,MLAB = null
+,ELASTIC = require('elasticsearch')
 ,MOMENT = require('moment')
 ;
 
@@ -45,11 +47,11 @@ var prep_update = async (bits) =>{
 
 			if(err){reject(err);} else {
 
-FS.writeFile('../../site/v2/src/offline/update.json',JSON.stringify(R),(err,suc)=>{
+				FS.writeFile('../../site/v2/src/offline/update.json',JSON.stringify(R),(err,suc)=>{
 
-if(err){reject(err);} else
-{				resolve(suc)}
-})
+					if(err){reject(err);} else
+					{				resolve(suc)}
+				})
 
 			}
 
@@ -142,11 +144,11 @@ var sumo = {bits:sum,length:sum.length}
 		    	}
 		    })
 
-		} else {
+		  } else {
 		    // handle file read error
 		    reject(err)
-		}
-	});
+		  }
+		});
 
 	});
 }
@@ -186,161 +188,15 @@ var send = async (bits) =>{
 	});//Promise
 }
 
-var fake_send = async () =>{
-	return new Promise(function(resolve, reject) {
-
-
-// "bit": "Shut the Fuck Up!"
-// "bit":"Jeffrey Characterwheaties"
-// "bit":"The Paul Hardcastle of Suicides"
-// "bit":"The Paul Hardcastle of Suicides"
-// "bit":"Ducca List"
-// "bit":"Ducca List"
-// "bit":"Ducca List"
-// "bit":"Location"
-
-var d = [{
-	"_id": {
-		"$oid": "5651b1df43aee61b9fc03f88"
-	},
-	"episode": 35,
-	"show": "cbb",
-	"tstart": "00:00",
-	"tend": "00:00",
-	"instance": "DUMMY INST 1",
-	"bit": "Shut the Fuck Up!",
-	"location_type": "",
-	"location_id": "",
-	"updated_at": "1975-06-24T10:51:29Z",
-	"elucidation": "CBB ELUC",
-	"url_soundcloud": null,
-	"tags": "",
-	"created_at": "1975-06-24T10:51:29Z",
-	"slug_soundcloud": null,
-	"slug_earwolf": "dummy-slug",
-	"episode_title": "DUMMY TITLE",
-	"episode_guests": "",
-	"id_wikia": null,
-	"holding": "false"
-},{
-	"_id": {
-		"$oid": "5651b1dfgaee61b9fc03f88"
-	},
-	"episode": 35,
-	"show": "cbb",
-	"tstart": "00:00",
-	"tend": "00:00",
-	"instance": "DUMMY INST 2nd stfu in 35",
-	"bit": "Shut the Fuck Up!",
-	"location_type": "",
-	"location_id": "",
-	"updated_at": "1975-06-24T10:51:29Z",
-	"elucidation": "CBB ELUC",
-	"url_soundcloud": null,
-	"tags": "",
-	"created_at": "1975-06-24T10:51:29Z",
-	"slug_soundcloud": null,
-	"slug_earwolf": "dummy-slug",
-	"episode_title": "DUMMY TITLE",
-	"episode_guests": "",
-	"id_wikia": null,
-	"holding": "false"
-},{
-	"_id": {
-		"$oid": "5651b1df431ee61b9fc03f88"
-	},
-	"episode": 222,
-	"show": "cbb",
-	"tstart": "00:00",
-	"tend": "00:00",
-	"instance": "DUMMY INST 2",
-	"bit": "Shut the Fuck Up!",
-	"location_type": "",
-	"location_id": "",
-	"updated_at": "1975-06-24T10:51:29Z",
-	"elucidation": "CBB ELUC",
-	"url_soundcloud": null,
-	"tags": "",
-	"created_at": "1975-06-24T10:51:29Z",
-	"slug_soundcloud": null,
-	"slug_earwolf": "dummy-slug",
-	"episode_title": "DUMMY TITLE",
-	"episode_guests": "",
-	"id_wikia": null,
-	"holding": "false"
-},{
-	"_id": {
-		"$oid": "5651b1df431ee61b9fc03f88"
-	},
-	"episode": 222,
-	"show": "cbb",
-	"tstart": "00:00",
-	"tend": "00:00",
-	"instance": "DUMMY INST 3",
-	"bit":"Ducca List",
-	"location_type": "",
-	"location_id": "",
-	"updated_at": "1975-06-24T10:51:29Z",
-	"elucidation": "CBB ELUC",
-	"url_soundcloud": null,
-	"tags": "",
-	"created_at": "1975-06-24T10:51:29Z",
-	"slug_soundcloud": null,
-	"slug_earwolf": "dummy-slug",
-	"episode_title": "DUMMY TITLE",
-	"episode_guests": "",
-	"id_wikia": null,
-	"holding": "false"
-},{
-	"_id": {
-		"$oid": "5651z1df431ee61b9fc03f88"
-	},
-	"episode": 999,
-	"show": "cbb",
-	"tstart": "00:00",
-	"tend": "00:00",
-	"instance": "DUMMY INST 3",
-	"bit":"Location",
-	"location_type": "",
-	"location_id": "",
-	"updated_at": "1975-06-24T10:51:29Z",
-	"elucidation": "CBB ELUC",
-	"url_soundcloud": null,
-	"tags": "",
-	"created_at": "1975-06-24T10:51:29Z",
-	"slug_soundcloud": null,
-	"slug_earwolf": "dummy-slug",
-	"episode_title": "DUMMY TITLE",
-	"episode_guests": "",
-	"id_wikia": null,
-	"holding": "false"
-}]
-
-var m = __.map(d,(e,i,l)=>{
-
-	var o = {
-		_id:e._id["$oid"]
-		,episode:e.episode
-		,bit:e.bit
-		,instance:e.instance
-	}
-
-	return o
-
-})///.map
-resolve({documents:m});
-
-	});//Promise
-}
-
 
 var incoming = async (ln) =>{
 	return new Promise(function(resolve, reject) {
 		var r = {}
 
-		// var ln = ln+'-fake'
+		var F = '../cbb-'+ln+'.json';
+		console.log("reading in from "+F)
 
-		FS.readFile('../cbb-'+ln+'.json',async (e,d)=>{
+		FS.readFile(F,async (e,d)=>{
 			if(e){console.log("readfile err");
 			r.flag='stop'
 			r.msg='read of *.json failed'
@@ -351,6 +207,7 @@ var incoming = async (ln) =>{
 			var DJ = JSON.parse(d)
 			r.flag=null
 			r.msg = "incoming "+ln+" with "+DJ.length
+			console.log("read successful: "+r.msg)
 			r.payload = DJ
 			resolve(r)
 		}
@@ -366,14 +223,16 @@ var most_recent = async () =>{
 
 		console.log("sniffing most recent...");
 		var files = FS.readdirSync(CONFIG.budir);
+		console.log("found these:"+files)
     // use underscore for max()
-    var max = __.max(files, function (f) {
+
+    var max = __.max(__.reject(files,(f)=>{return f==".DS_Store"}), (f)=>{
     	var fullpath = PATH.join(CONFIG.budir, f);
 
         // ctime = creation time is used
         // replace with mtime for modification time
         return FS.statSync(fullpath).ctime;
-    });
+      });
     console.log(max);
     resolve(max);
 
@@ -398,6 +257,7 @@ var extant_parse = async (F) =>{
 			var DJ = JSON.parse(d)
 			r.flag=null
 			r.msg = "extant length:"+DJ.length
+			console.log("flat null, "+r.msg)
 			r.payload = DJ
 			resolve(r)
 		}
@@ -502,6 +362,79 @@ var bu = async () =>{
 
 }
 
+var elastify = async (docs)=>{
+
+	return new Promise((resolve,reject)=>{
+
+
+		var client = new ELASTIC.Client({
+			host: 'milleria.org:9200',
+			log: 'trace'
+		});
+
+
+
+		var datm = __.map(docs,(D)=>{
+
+
+			var ob = {
+				_id:D._id.$oid
+			// ,body:{
+				,episode:D.episode.toString()
+				,tstart:D.tstart
+				,tend:D.tend
+				,instance:D.instance
+				,bit:D.bit
+				,elucidation:D.elucidation
+				,tags:D.tags
+				,location_type:D.location_type
+				,location_id:D.location_id
+				,updated_at:D.updated_at
+				,created_at:D.created_at
+				,slug_earwolf:D.slug_earwolf
+				,episode_title:D.episode_title
+				,episode_guests:D.episode_guests
+				,holding:D.holding
+			// }
+		}
+
+		return ob
+
+	})//map
+
+		console.log("mapped new docs:",datm)
+		console.log("mapped new docs.length:",datm.length)
+
+		__.each(datm,(D)=>{
+			elastic_array.push({
+				index: {
+					_index: 'cbb',
+					_type: 'bit',
+					_id: D._id
+				}
+			});
+			delete D._id
+			elastic_array.push(D);
+		})
+
+		console.log("expect:",elastic_array.length)
+	// client.bulk({
+	// 	timeout: '5m',
+	// 	body: elastic_array
+	// }).then(function (success) {
+	// 	// console.log(JSON.stringify(success));
+// resolve(success)
+	// }, function (err) {
+	// 	console.log(JSON.stringify(err));
+// reject(err)
+	// });
+
+	resolve()
+
+})//promise
+
+}
+
 var main = async () =>{
 	var R = {}
 	R.audit = {flag:null}
@@ -517,30 +450,30 @@ var main = async () =>{
 /* -----------------------------------------------
 // read in incoming bits from $ln file
 // msg notes length, payload is actual bits
-			var inc = await incoming(ln);
-			R.incoming=inc.msg
-			var inca = inc.payload
-			*/
+*/
+var inc = await incoming(ln);
+R.incoming=inc.msg
+var inca = inc.payload
 
 /* -----------------------------------------------
 // pull everything out of MLAB into a local file in budir - e.g. bu.2017_November_Sunday_02_06_35.json
-			*/
-			var bu = await extant();
+*/
+			// var bu = await extant();
 
 /* -----------------------------------------------
 // check budir for the MOST RECENT *.json bu
 // this allows us to pull/not pull a backup every time
-			var ext_source = await most_recent();
-			*/
+var ext_source = await most_recent();
+*/
 
 /* -----------------------------------------------
 // parse that file
-			var extant_parsed = await extant_parse(ext_source);
-			R.extant=extant_parsed.msg
+var extant_parsed = await extant_parse(ext_source);
+R.extant=extant_parsed.msg
 
-			var exta = extant_parsed.payload
+var exta = extant_parsed.payload
+*/
 			// exta is now our live copy of everything that's come before
-			*/
 
 /* -----------------------------------------------
 // we send the fresh stuff and the archive for audit
@@ -556,16 +489,35 @@ var main = async () =>{
 */
 
 /* -----------------------------------------------
-// sent = await fake_send();
 // audit wz clean so we're sending
 console.log("R.audit",R.audit);
+sent = await send(inca);
 */
-// sent = await send(inca);
+
+/* -----------------------------------------------
+if(sent.documents.length !== inca.length){
+	console.log("ERROR: mismatching in sent ("+sent.documents.length+') and incoming raw ('+inca.length+'),  exiting...');
+	process.exit();
+}
+*/
+
+-----------------------------------------------
+// Now we repeat bu and most_recent cuzzits gonna have sent.documents.length more
+var bu2 = await extant();
+
+var ext_source2 = await most_recent();
+var extant_parsed2 = await extant_parse(ext_source2);
+var exta2 = extant_parsed2.payload
+var E = await elastify(exta2);
 
 
-// updates = await prep_update(sent.documents);
-// console.log(JSON.stringify(prior_updates))
 
+/* -----------------------------------------------
+// GEN update summary
+*/
+updates = await prep_update(sent.documents);
+
+console.log("let's end this :-?")
 
 }
 
