@@ -9,7 +9,6 @@ var __ = require('underscore')
 ,DB = require('mongodb').Db
 ,RP = require('request-promise')
 ,MLAB = require('mongolab-data-api')(CONFIG.mongokey)
-,MLAB = null
 ,ELASTIC = require('elasticsearch')
 ,MOMENT = require('moment')
 ;
@@ -63,20 +62,25 @@ var prep_update = async (bits) =>{
 var audit = async (inc,ext) =>{
 	return new Promise(function(resolve, reject) {
 
+console.log("audit flag null to start")
 		var flag=null;
 
 
 // map some values together as a kinda informal key
-var inc_finder = __.map(inc,(b)=>{return b.episode+"---->"+b.bit+"---->"+b.instance+"---->"+b.tags})
-var ext_finder = __.map(ext,(b)=>{return b.episode+"---->"+b.bit+"---->"+b.instance+"---->"+b.tags})
+var inc_finder = __.map(inc,(b)=>{return b.episode+"---->"+b.bit+"---->"+b.instance})
+var ext_finder = __.map(ext,(b)=>{return b.episode+"---->"+b.bit+"---->"+b.instance})
 
+
+console.log("intersecting "+inc_finder.length+" incomings against "+ext_finder.length+" extants...")
 // see if any match
 var candidates = __.intersection(inc_finder,ext_finder);
 
+console.log("candidates.length",candidates.length)
+console.log("CANDIDATES!!!",candidates)
 // if there's even 1 we need to halt and investigate so we set the flag we check at the end to stop
-var flag=(candidates.length>0)?'stop':null
+var flag=(candidates.length>0)?'stop':'go'
 
-var r = {flag:flag,msg:"of "+inc.length+" incoming bits, "+candidates.length+" were sketchy",candidates:candidates.join(",")}
+var r = {flag:flag,msg:"of "+inc.length+" incoming bits, "+candidates.length+" were sketchy - see console"}
 resolve(r)
 });//Promise
 }//audit
@@ -257,7 +261,7 @@ var extant_parse = async (F) =>{
 			var DJ = JSON.parse(d)
 			r.flag=null
 			r.msg = "extant length:"+DJ.length
-			console.log("flat null, "+r.msg)
+			console.log("flag null, "+r.msg)
 			r.payload = DJ
 			resolve(r)
 		}
@@ -362,7 +366,7 @@ var bu = async () =>{
 
 }
 
-var elastify = async (docs)=>{
+var elastify = async (J)=>{
 
 	return new Promise((resolve,reject)=>{
 
@@ -372,13 +376,19 @@ var elastify = async (docs)=>{
 			log: 'trace'
 		});
 
+var elastic_array =[];
 
 
-		var datm = __.map(docs,(D)=>{
+
+FS.readFile(CONFIG.budir+"/"+J,(err,dat)=>{
+	if(err){console.log(err);process.exit();}
 
 
-			var ob = {
-				_id:D._id.$oid
+	var datm = __.map(JSON.parse(dat),(D)=>{
+
+
+		var ob = {
+			_id:D._id.$oid
 			// ,body:{
 				,episode:D.episode.toString()
 				,tstart:D.tstart
@@ -400,36 +410,38 @@ var elastify = async (docs)=>{
 
 		return ob
 
-	})//map
+	})
 
-		console.log("mapped new docs:",datm)
-		console.log("mapped new docs.length:",datm.length)
+	__.each(datm,(D)=>{
+		elastic_array.push({
+			index: {
+				_index: 'cbb',
+				_type: 'bit',
+				_id: D._id
+			}
+		});
+		delete D._id
+		elastic_array.push(D);
+	})
 
-		__.each(datm,(D)=>{
-			elastic_array.push({
-				index: {
-					_index: 'cbb',
-					_type: 'bit',
-					_id: D._id
-				}
-			});
-			delete D._id
-			elastic_array.push(D);
-		})
+// console.log(JSON.stringify(elastic_array));
+// 	console.log("expect:",elastic_array.length)
+// resolve()
 
-		console.log("expect:",elastic_array.length)
-	// client.bulk({
-	// 	timeout: '5m',
-	// 	body: elastic_array
-	// }).then(function (success) {
-	// 	// console.log(JSON.stringify(success));
-// resolve(success)
-	// }, function (err) {
-	// 	console.log(JSON.stringify(err));
-// reject(err)
-	// });
+	client.bulk({
+		timeout: '5m',
+		body: elastic_array
+	}).then(function (success) {
+		// console.log(JSON.stringify(success));
+		resolve(success);
+	}, function (err) {
+		console.log(JSON.stringify(err));
+		reject(err);
+	});
 
-	resolve()
+
+})//fs.readfile
+
 
 })//promise
 
@@ -455,15 +467,20 @@ var inc = await incoming(ln);
 R.incoming=inc.msg
 var inca = inc.payload
 
+console.log("inca.length",inca.length)
+
 /* -----------------------------------------------
 // pull everything out of MLAB into a local file in budir - e.g. bu.2017_November_Sunday_02_06_35.json
+console.log("awaiting extant...")
+			var bu = await extant();
 */
-			// var bu = await extant();
 
 /* -----------------------------------------------
 // check budir for the MOST RECENT *.json bu
 // this allows us to pull/not pull a backup every time
+console.log("awaiting most recent...")
 var ext_source = await most_recent();
+console.log("found to be:",ext_source)
 */
 
 /* -----------------------------------------------
@@ -472,15 +489,18 @@ var extant_parsed = await extant_parse(ext_source);
 R.extant=extant_parsed.msg
 
 var exta = extant_parsed.payload
-*/
+console.log("exta.length",exta.length)
 			// exta is now our live copy of everything that's come before
+*/
 
 /* -----------------------------------------------
 // we send the fresh stuff and the archive for audit
 // audit maps inca and exta into comparable arrays (concatenating several presumably distinct fields [episode+bit+instance+tags] into one nonsensical but probably-unique string) - N.B. this is not foolproof
+console.log("awaiting audit...")
 			var audited = await audit(inca,exta);
 			R.audit = audited
 
+console.log("audit.flag:",R.audit.flag)
 // if audit found anything sketchy we stop
 			if(R.audit.flag=='stop'){
 	throw Error ('audit.flag wz stop due to ',R.audit.msg);
@@ -490,7 +510,7 @@ var exta = extant_parsed.payload
 
 /* -----------------------------------------------
 // audit wz clean so we're sending
-console.log("R.audit",R.audit);
+console.log("--------------------> sending "+inca.length+" documents to MLAB...");
 sent = await send(inca);
 */
 
@@ -501,21 +521,23 @@ if(sent.documents.length !== inca.length){
 }
 */
 
------------------------------------------------
+/* -----------------------------------------------
 // Now we repeat bu and most_recent cuzzits gonna have sent.documents.length more
 var bu2 = await extant();
 
+console.log("getting most recent bu again (should be newer than before");
 var ext_source2 = await most_recent();
-var extant_parsed2 = await extant_parse(ext_source2);
-var exta2 = extant_parsed2.payload
-var E = await elastify(exta2);
+console.log("it's:",ext_source2);
+console.log("ELASTIFYING!");
+var E = await elastify(ext_source2);
+*/
 
 
 
 /* -----------------------------------------------
 // GEN update summary
 */
-updates = await prep_update(sent.documents);
+updates = await prep_update(inca);
 
 console.log("let's end this :-?")
 
