@@ -10,6 +10,7 @@ var __ = require('underscore')
 ,ZLIB = require('zlib')
 ,RP = require('request-promise')
 ,MOMENT = require('moment')
+,DOWNLOAD = require('image-downloader')
 ;
 
 
@@ -37,13 +38,21 @@ var write = async = async (UF)=>{
 })//promise
 }//write
 
+var download_img = async (options)=>{
+	try {
+		const { filename, image } = await DOWNLOAD.image(options)
+    resolve(filename) // => /path/to/dest/image.jpg
+  } catch (e) {
+  	throw e
+  }
+}
 
-var figure_figure=async(slug)=>{
+var figure_figure=async(o)=>{
 
 	return new Promise((resolve,reject)=>{
 
 		var fake = false;
-		var uri = (fake==true)?"http://localhost:8000/www.earwolf.com/episode/merry-chunky-christmas-with-neil-patrick-harris/":"http://www.earwolf.com/episode/"+slug
+		var uri = (fake==true)?"http://localhost:8000/www.earwolf.com/episode/merry-chunky-christmas-with-neil-patrick-harris/":"http://www.earwolf.com/episode/"+o.slug
 
 		REQUEST({'url':uri,'proxy':CONFIG.proxy}, (err, response, body)=>{
 
@@ -52,27 +61,48 @@ var figure_figure=async(slug)=>{
 			} else {
 				var $ = CHEERIO.load(body);
 
-				var pimgz = __.filter($('meta[property="og:image"]'),(I)=>{
+// here we grab all the <meta elements from the earwolf html
+var pimgz = __.filter($('meta[property="og:image"]'),(I)=>{
+					// we only return those with IMG_
+					// N.B. very fragile1! when they get a new camera it will break
 					return ($(I).attr('content').indexOf("IMG_")>0)
 
 })//filter.imgz
 
 
-				var sample = $(__.first(pimgz)).attr('content').split("/")
-
-				var qimg = __.first(__.map(pimgz,(I)=>{
-
-					var splitted = $(I).attr('content').split("/")
-
-					return splitted[(splitted.length-1)]
-
+var sample = $(__.first(pimgz)).attr('content').split("/")
+var qimg = __.first(__.map(pimgz,async (I)=>{
+	var splitted = $(I).attr('content').split("/")
+	return splitted[(splitted.length-1)]
 						})//map
 			)//first
 
-				I=__.first(sample,sample.length-1).join("/")+"/"+qimg;
+var outf = "/tmp/cbb.ep."+o.episode+".jpg"
 
-				console.log("we resolving figure_figure w/ I=="+I)
-				resolve(I)
+// Download to a directory and save with an another filename
+var I={source:__.first(sample,sample.length-1).join("/")+"/"+qimg}
+options = {
+	url: I.source,
+	dest: outf
+}
+
+var lf = await download_img(I.options);
+
+I.local="file://"+ lf
+
+// download.image(options)
+// .then(({ filename, image }) => {
+// 	console.log('File saved to', filename)
+// }).catch((err) => {
+// 	throw err
+// })
+
+
+
+
+// console.log("before we resolve,options are "+JSON.stringify(options))
+// console.log("we resolving figure_figure w/ I=="+I)
+resolve(I)
 
         } //subrequest.statuscode
 }) //subrequest
@@ -91,7 +121,7 @@ var imagify = async (U)=>{
 		__.each(U.report,async (r,i,l)=>{
 
 			var o =r;
-			o.image=await figure_figure(r.slug)
+			o.image=await figure_figure(r)
 			if(typeof o.image!=='undefined'){imdgz.push(o)}
 
 				if((i+1) == l.length){
