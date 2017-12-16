@@ -96,7 +96,7 @@ var copyjs=  ()=>{
     ,paths.site.src+"/lib/bootstrap.min.js"
     ,paths.site.src+"/lib/underscore-min.js"
     ,paths.site.src+"/lib/backbone-min.js"
-//   
+//
 ,paths.site.src+"/js/Query-Model.js"
 ,paths.site.src+"/js/Util-Model.js"
 ,paths.site.src+"/js/BaseLayer-Model.js"
@@ -104,7 +104,7 @@ var copyjs=  ()=>{
 ,paths.site.src+"/js/BaseLayers-View.js"
 ,paths.site.src+"/js/BaseLayersMenuItem-View.js"
 ,paths.site.src+"/js/BaseLayersMenu-View.js"
-   // 
+   //
    ,paths.site.src+"/js/Activity-Model.js"
    ,paths.site.src+"/js/Activity-View.js"
    ,paths.site.src+"/js/State-Model.js"
@@ -195,6 +195,11 @@ var copycss=  ()=>{
   .pipe(GULP.dest("interm/css/"));
 };
 
+var offline=  ()=>{
+  return GULP.src(paths.site.src+"/offlien/**/*.{json}")
+  .pipe(GULP.dest("offline/"));
+};
+
 /* ------------------------- HTML ------------- */
 var htmlmin = ()=>{
   return GULP.src(paths.site.src+"/index.html")
@@ -256,7 +261,7 @@ exports.img = img;
  // exports.scripts = scripts;
  exports.views_y_models = views_y_models;
  exports.htmlmin = htmlmin;
- // exports.offline = offline;
+ exports.offline = offline;
  exports.clean = clean;
 
 /*
@@ -282,6 +287,7 @@ var develop = GULP.series(
   ,GULP.parallel(
     htmlmin
     ,copyjs
+    ,offline
     ,img
     ,copycss
     ,lessen

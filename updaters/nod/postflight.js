@@ -45,10 +45,11 @@ var figure_figure=async(o)=>{
 
 	return new Promise((resolve,reject)=>{
 
-		var fake = false;
-		var uri = (fake==true)?"http://localhost:8000":"http://www.earwolf.com/episode/"+o.slug
+		// var fake = true;
+		// var uri = (fake==true)?"http://localhost:8000":"http://www.earwolf.com/episode/"+o.slug
+		var uri = "http://www.earwolf.com/episode/"+o.slug
 
-console.log("figuring figure from here:",uri);
+		console.log("figuring figure from:",uri);
 
 		REQUEST({'url':uri,'proxy':CONFIG.proxy}, (err, response, body)=>{
 
@@ -65,10 +66,7 @@ var pimgz = __.filter($('meta[property="og:image"]'),(I)=>{
 
 })//filter.imgz
 
-// console.log("meta objects of type og:image:",pimgz.length);
-
-// console.log("sampling one for the url base");
-
+console.log("pulled "+pimgz.length+" meta tags");
 var sample = $(__.first(pimgz)).attr('content').split("/")
 
 var qimg = __.first(__.map(pimgz,(I)=>{
@@ -77,19 +75,10 @@ var qimg = __.first(__.map(pimgz,(I)=>{
 						})//map
 			)//first
 
-// console.log("source will be:",qimg);
-
 var outn = "cbb.ep."+o.episode+".jpg"
 var outf = "/tmp/"+outn
-// console.log("outfile will be:",outf);
-
-
-// var source = await __.first(sample,sample.length-1).join("/")+"/"+qimg
-
-// Download to a directory and save with an another filename
 var I={source:qimg,outfile:outf}
-// console.log("I.source",I.source);
-// console.log("I",I);
+console.log("determined I:",I);
 
 
 options = {
@@ -101,25 +90,14 @@ options = {
 /* ------------------------------------- JIMP DIRECT
 */
 JIMP.read(I.source).then((lenna)=>{
-    lenna.resize(333, 222)            // resize 
-         .quality(60)                 // set JPEG quality 
-         // .greyscale()                 // set greyscale 
-         .write(I.outfile); // save 
-}).catch(function (err) {
-    console.error(err);
-});
+    lenna.resize(333, JIMP.AUTO)            // resize
+         .quality(70)                 // set JPEG quality
+         // .greyscale()                 // set greyscale
+         .write(I.outfile,(i)=>{resolve(i)}) // save
 
-
-/* ------------------------------------- DOWNLOAD IMG
-DOWNLOAD.image(options)
-		.then(({ out, image }) => {
-	console.log('File saved to', options.dest)
-	I.image_file_local=options.dest
-    resolve(I) // => /path/to/dest/image.jpg it
-}).catch((err) => {
-	throw err
-})
-*/
+       }).catch(function (err) {
+       	console.error(err);
+       });
 
 
         } //subrequest.statuscode
@@ -128,23 +106,6 @@ DOWNLOAD.image(options)
 })//promise
 
 }
-
-
-// var download_img = async (options)=>{
-
-// return new Promise((resolve,reject)=>{
-
-// 		const { filename, image } = DOWNLOAD.image(options)
-// 		.then(({ filename, image }) => {
-// 	console.log('File saved to', filename)
-//     resolve(filename) // => /path/to/dest/image.jpg
-// }).catch((err) => {
-// 	throw err
-// })
-
-// })//promise
-
-// }
 
 var imagify = async (U)=>{
 
@@ -158,11 +119,13 @@ var imagify = async (U)=>{
 			o.image=await figure_figure(r)
 			if(typeof o.image!=='undefined'){imdgz.push(o)}
 
-				if((i+1) == l.length){
-					console.log((i+1)+" equals "+l.length+" so we resolve imdgz of len:"+imdgz.length)
-					resolve(imdgz)
-				}
-			})
+				console.log("currently at "+(i+1)+" of "+l.length)
+
+			if(imdgz.length == l.length){
+				console.log(imdgz.length+" equals "+l.length+" so we resolve")
+				resolve(imdgz)
+			}
+		})
 
 })//promise
 
@@ -179,7 +142,7 @@ var summarize = async (bits) =>{
 		var reports = () => __.map(episodes_updated,(e,i,l)=>{
 			var epno = parseInt(e.split(".")[0])
 			var epslug = e.split(".")[1]
-			var O = {episode:epno,slug:epslug,ep_url:"http://www.earwolf.com/episode/"+epslug}
+			var O = {episode:epno,image:'null',slug:epslug,ep_url:"http://www.earwolf.com/episode/"+epslug}
 			var eps_bits = __.pluck(__.filter(bits,{episode:epno}),'bit');
 
 			O.raw_bits = eps_bits;
@@ -195,8 +158,9 @@ var summarize = async (bits) =>{
 		})//map
 
 		var R = {
-			date:MOMENT().format('YYYY.MMM.DD'),
-			episodes:bits.length+" bits from "+episodes_updated.length+" episodes (eps "+__.map(episodes_updated,(E)=>{return E.split(".")[0]}).join(", ")+")",
+			date:MOMENT().format('YYYY.MMM.DD')
+			,query:"("+__.map(episodes_updated,(e)=>{return "episode:"+e.split(".")[0]}).join(" OR ")+")"
+			,episodes:bits.length+" bits from "+episodes_updated.length+" episodes (eps "+__.map(episodes_updated,(E)=>{return E.split(".")[0]}).join(", ")+")",
 			report:reports()
 		}
 
@@ -236,6 +200,63 @@ var incoming = async (ln) =>{
 	});
 }
 
+var write = async(UP)=>{
+
+	return new Promise((resolve,reject)=>{
+
+		// console.log("UPJ in write:",UPJ)
+		// var UP = JSON.parse(UPJ);
+
+		// console.log("UP in write:",UP)
+
+		// var episodes_updated = __.uniq(__.pluck(UP,'episode'));
+
+		// console.log("episodes_updated in write:",episodes_updated)
+
+		// var reports = () => __.map(episodes_updated,(e,i,l)=>{
+		// 	var O = {episode:e}
+		// 	var eps_bits = __.pluck(__.filter(UP,{episode:e}),'bit');
+		// 	console.log("eps_bits in write:",eps_bits)
+		// 	var ep_image = __.pluck(__.filter(UP,{episode:e}),'image');
+		// 	O.image=ep_image[0];
+		// 	O.raw_bits = eps_bits;
+		// 	var beets = __.map(__.uniq(eps_bits),(m)=>{
+		// 		var o = {
+		// 			bit:m
+		// 			,count:__.filter(eps_bits,(li)=>{return li==m;}).length
+		// 		}; //o
+		// 		return o;
+		// 	});//map.beets
+		// 	O.bits_sum=beets;
+		// 	return O;
+		// })//map
+
+		// var R = {
+		// 	date:MOMENT().format('YYYY.MMM.DD'),
+		// 	episodes:UP.length+" bits from "+episodes_updated.length+" episodes ("+episodes_updated.join(", ")+")",
+		// 	report:reports()
+		// }
+
+		var npath = "./bu/updates-"+MOMENT().format('YYYY.MMM.DD_HH_mm_ss')+".json"
+
+		// resolve(npath)
+		FS.writeFile(npath,JSON.stringify(UP),(err,suc)=>{
+
+			if(err){reject(err);} else {
+
+				FS.writeFile('../../site/v2/src/offline/update.json',JSON.stringify(UP),(err,suc)=>{
+
+					if(err){reject(err);} else
+					{				resolve(npath)}
+				})
+
+			}
+
+		})//fs.write
+
+})//promise
+
+}
 
 var main = async () =>{
 	var R = {}
@@ -263,13 +284,14 @@ var inca = inc.payload
 /* -----------------------------------------------
 // GEN update summary
 */
-// console.log("we'll prep an update...")
 var summary = await summarize(inca);
 
-var update  = await imagify(summary);
-// console.log("UPDATE:")
-console.log(update)
-// console.log("let's end this :-?")
+// var imgd = await imagify(summary);
+imagify(summary);
+// var writ = await write(summary);
+write(summary);
+
+console.log("/tmp")
 
 }
 
