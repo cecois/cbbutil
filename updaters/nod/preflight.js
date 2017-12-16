@@ -537,9 +537,9 @@ var E = await elastify(ext_source2);
 /* -----------------------------------------------
 // GEN update summary
 */
-updates = await prep_update(inca);
+// updates = await prep_update(inca);
 
-console.log("let's end this :-?")
+// console.log("let's end this :-?")
 
 }
 

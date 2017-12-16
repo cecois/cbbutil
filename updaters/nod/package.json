@@ -52,7 +52,6 @@
     "gulp-less": "^3.3.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
-    "image-downloader": "^3.3.0",
     "jeet": "^6.1.4",
     "jimp": "^0.2.28",
     "kouto-swiss": "^0.11.14",

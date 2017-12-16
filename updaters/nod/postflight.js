@@ -10,7 +10,8 @@ var __ = require('underscore')
 ,ZLIB = require('zlib')
 ,RP = require('request-promise')
 ,MOMENT = require('moment')
-,DOWNLOAD = require('image-downloader')
+,JIMP = require('jimp')
+// ,DOWNLOAD = require('image-downloader')
 ;
 
 
@@ -38,21 +39,16 @@ var write = async = async (UF)=>{
 })//promise
 }//write
 
-var download_img = async (options)=>{
-	try {
-		const { filename, image } = await DOWNLOAD.image(options)
-    resolve(filename) // => /path/to/dest/image.jpg
-  } catch (e) {
-  	throw e
-  }
-}
+
 
 var figure_figure=async(o)=>{
 
 	return new Promise((resolve,reject)=>{
 
 		var fake = false;
-		var uri = (fake==true)?"http://localhost:8000/www.earwolf.com/episode/merry-chunky-christmas-with-neil-patrick-harris/":"http://www.earwolf.com/episode/"+o.slug
+		var uri = (fake==true)?"http://localhost:8000":"http://www.earwolf.com/episode/"+o.slug
+
+console.log("figuring figure from here:",uri);
 
 		REQUEST({'url':uri,'proxy':CONFIG.proxy}, (err, response, body)=>{
 
@@ -69,40 +65,62 @@ var pimgz = __.filter($('meta[property="og:image"]'),(I)=>{
 
 })//filter.imgz
 
+// console.log("meta objects of type og:image:",pimgz.length);
+
+// console.log("sampling one for the url base");
 
 var sample = $(__.first(pimgz)).attr('content').split("/")
-var qimg = __.first(__.map(pimgz,async (I)=>{
+
+var qimg = __.first(__.map(pimgz,(I)=>{
 	var splitted = $(I).attr('content').split("/")
-	return splitted[(splitted.length-1)]
+	return __.first(sample,sample.length-1).join("/")+"/"+splitted[(splitted.length-1)]
 						})//map
 			)//first
 
-var outf = "/tmp/cbb.ep."+o.episode+".jpg"
+// console.log("source will be:",qimg);
+
+var outn = "cbb.ep."+o.episode+".jpg"
+var outf = "/tmp/"+outn
+// console.log("outfile will be:",outf);
+
+
+// var source = await __.first(sample,sample.length-1).join("/")+"/"+qimg
 
 // Download to a directory and save with an another filename
-var I={source:__.first(sample,sample.length-1).join("/")+"/"+qimg}
+var I={source:qimg,outfile:outf}
+// console.log("I.source",I.source);
+// console.log("I",I);
+
+
 options = {
 	url: I.source,
-	dest: outf
+	dest: I.outfile
 }
 
-var lf = await download_img(I.options);
 
-I.local="file://"+ lf
+/* ------------------------------------- JIMP DIRECT
+*/
+JIMP.read(I.source).then((lenna)=>{
+    lenna.resize(333, 222)            // resize 
+         .quality(60)                 // set JPEG quality 
+         // .greyscale()                 // set greyscale 
+         .write(I.outfile); // save 
+}).catch(function (err) {
+    console.error(err);
+});
 
-// download.image(options)
-// .then(({ filename, image }) => {
-// 	console.log('File saved to', filename)
-// }).catch((err) => {
-// 	throw err
-// })
 
+/* ------------------------------------- DOWNLOAD IMG
+DOWNLOAD.image(options)
+		.then(({ out, image }) => {
+	console.log('File saved to', options.dest)
+	I.image_file_local=options.dest
+    resolve(I) // => /path/to/dest/image.jpg it
+}).catch((err) => {
+	throw err
+})
+*/
 
-
-
-// console.log("before we resolve,options are "+JSON.stringify(options))
-// console.log("we resolving figure_figure w/ I=="+I)
-resolve(I)
 
         } //subrequest.statuscode
 }) //subrequest
@@ -111,6 +129,22 @@ resolve(I)
 
 }
 
+
+// var download_img = async (options)=>{
+
+// return new Promise((resolve,reject)=>{
+
+// 		const { filename, image } = DOWNLOAD.image(options)
+// 		.then(({ filename, image }) => {
+// 	console.log('File saved to', filename)
+//     resolve(filename) // => /path/to/dest/image.jpg
+// }).catch((err) => {
+// 	throw err
+// })
+
+// })//promise
+
+// }
 
 var imagify = async (U)=>{
 
