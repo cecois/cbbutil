@@ -11,6 +11,7 @@ var __ = require('underscore')
 ,RP = require('request-promise')
 ,MOMENT = require('moment')
 ,JIMP = require('jimp')
+,DELAY = require('delay')
 // ,DOWNLOAD = require('image-downloader')
 ;
 
@@ -45,11 +46,9 @@ var figure_figure=async(o)=>{
 
 	return new Promise((resolve,reject)=>{
 
-		// var fake = true;
-		// var uri = (fake==true)?"http://localhost:8000":"http://www.earwolf.com/episode/"+o.slug
+		var fake = true;
+		var uri = (fake==true)?"http://localhost:8000":"http://www.earwolf.com/episode/"+o.slug
 		var uri = "http://www.earwolf.com/episode/"+o.slug
-
-		console.log("figuring figure from:",o.episode+"-->"+uri);
 
 		REQUEST({'url':uri,'proxy':CONFIG.proxy}, (err, response, body)=>{
 
@@ -73,23 +72,23 @@ if(typeof pimgz == 'undefined' || pimgz.length==0){
 } else {
 
 
-var sample = $(__.first(pimgz)).attr('content').split("/")
+	var sample = $(__.first(pimgz)).attr('content').split("/")
 
-var qimg = __.first(__.map(pimgz,(I)=>{
-	var splitted = $(I).attr('content').split("/")
-	return __.first(sample,sample.length-1).join("/")+"/"+splitted[(splitted.length-1)]
+	var qimg = __.first(__.map(pimgz,(I)=>{
+		var splitted = $(I).attr('content').split("/")
+		return __.first(sample,sample.length-1).join("/")+"/"+splitted[(splitted.length-1)]
 						})//map
 			)//first
 
-var outn = "cbb.ep."+o.episode+".jpg"
-var outf = "/tmp/"+outn
-var I={source:qimg,outfile:outf}
+	var outn = "cbb.ep."+o.episode+".jpg"
+	var outf = "/tmp/"+outn
+	var I={source:qimg,outfile:outf}
 
 
-options = {
-	url: I.source,
-	dest: I.outfile
-}
+	options = {
+		url: I.source,
+		dest: I.outfile
+	}
 
 
 /* ------------------------------------- JIMP DIRECT
@@ -295,11 +294,16 @@ var inca = inc.payload
 var summary = await summarize(inca);
 
 // var imgd = await imagify(summary);
-imagify(summary);
+// console.log("delayin 5000 to let earwolf's wp catch up")
+// DELAY(5000)
+// .then(() => {
+        // Executed after 200 milliseconds
+        imagify(summary)
+        write(summary);
+        console.log("/tmp")
+      // });
 // var writ = await write(summary);
-write(summary);
 
-console.log("/tmp")
 
 }
 
