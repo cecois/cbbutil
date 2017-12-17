@@ -49,7 +49,7 @@ var figure_figure=async(o)=>{
 		// var uri = (fake==true)?"http://localhost:8000":"http://www.earwolf.com/episode/"+o.slug
 		var uri = "http://www.earwolf.com/episode/"+o.slug
 
-		console.log("figuring figure from:",uri);
+		console.log("figuring figure from:",o.episode+"-->"+uri);
 
 		REQUEST({'url':uri,'proxy':CONFIG.proxy}, (err, response, body)=>{
 
@@ -66,7 +66,13 @@ var pimgz = __.filter($('meta[property="og:image"]'),(I)=>{
 
 })//filter.imgz
 
-console.log("pulled "+pimgz.length+" meta tags");
+if(typeof pimgz == 'undefined' || pimgz.length==0){
+	console.log("uri "+uri+" had no meta tags")
+	console.log("heres raw cheerio title",$('title').text())
+
+} else {
+
+
 var sample = $(__.first(pimgz)).attr('content').split("/")
 
 var qimg = __.first(__.map(pimgz,(I)=>{
@@ -78,7 +84,6 @@ var qimg = __.first(__.map(pimgz,(I)=>{
 var outn = "cbb.ep."+o.episode+".jpg"
 var outf = "/tmp/"+outn
 var I={source:qimg,outfile:outf}
-console.log("determined I:",I);
 
 
 options = {
@@ -101,6 +106,9 @@ JIMP.read(I.source).then((lenna)=>{
 
 
         } //subrequest.statuscode
+
+        }//else.meta.tags
+
 }) //subrequest
 
 })//promise
