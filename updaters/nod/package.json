@@ -37,7 +37,9 @@
     "tar": "^2.2.1",
     "tar-fs": "^1.15.3",
     "underscore": "^1.8.3",
-    "zlib": "^1.0.5"
+    "zlib": "^1.0.5",
+    "node-nominatim2": "^0.1.0",
+    "prompt": "^1.0.0"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
