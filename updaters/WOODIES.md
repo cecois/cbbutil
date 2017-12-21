@@ -290,3 +290,5 @@
 * 524,1:15:30,wasn't judy dench in the big chill?
 * 524,1:49:00,yeah i don't like you and you don't like me?
 * 525,49:40,where's that break comin?
+* 419,41:03,i'm john lennon, how do you do? \\ i just bought a brand new tennis shoe
+* 419,41:30,rap is foreign to me
