@@ -6,8 +6,18 @@ var State = Backbone.Model.extend({
         options || (options = {});
 
         // this.listenTo(this,'change:facets',this.proxy)
+        this.listenTo(this,'change:locations',this.proxy_locations)
 
         return this
+    }
+        ,proxy_locations: function(){
+
+        if(typeof this.get("locations")!=='undefined' && this.get("locations")!==null){
+            // some! - we fetch here due to a 'too much recursion' issue with the listenTo
+            appLocations.fetch()
+        }
+            return this
+
     }
     ,slugify: function(ss){
 

@@ -19,9 +19,8 @@ var Updates = Backbone.Collection.extend({
 	}
 	,parse: function(data) {
 
-		console.log("data",data)
 		// appQuery.set({raw:"(episode:100 OR episode:200)"})
-		appQuery.set({raw:data.query})
+		// appQuery.set({raw:data.query})
 
 		return data
 

@@ -93,7 +93,7 @@ return new Promise((resolve,reject)=>{
 
 
 var Q = {
-  q: "Napa Valley, CA",
+  q: "Westchester County Airport",
   addressdetails: 0,
   format: 'json',
   limit: 1,

@@ -25,6 +25,7 @@ var Locations = Backbone.Collection.extend({
 
 	}
 	,sync: function(method, collection, options) {
+		console.log("syncing locations...");
 		options.dataType = "jsonp";
 		options.jsonpCallback = 'cwmccallback';
 		return Backbone.sync(method, collection, options)

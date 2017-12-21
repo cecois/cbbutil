@@ -285,7 +285,7 @@ var inc = await incoming(ln);
 R.incoming=inc.msg
 var inca = inc.payload
 
-// console.log("inca.length",inca.length)
+console.log("inca.length",inca.length)
 
 
 /* -----------------------------------------------

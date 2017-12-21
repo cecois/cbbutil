@@ -657,7 +657,7 @@ this["CBB"]["templates"]["updateViewTpl"] = Handlebars.template({"1":function(co
 
   return " / "
     + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.meta : depth0)) != null ? stack1.episodes : stack1), depth0))
-    + "</em></span>\n\n\n"
+    + "</em></span>\n\n<br/>\n<br/>\n\n<div class=\"notification is-warning\">\n  There's some issue with the geometry behind Gino Lambardo's <a href=\"#\" class=\"cbb-trigger\" data-type=\"\" data-target=\"+&quot;white plains airport&quot;\">\"White Plains Airport\"</a> (<a href=\"https://www.openstreetmap.org/way/224512238\">Westchester County Airport</a>). Until we fix it, that shape won't render properly on the map. Maybe visit <a href=\"#\" class=\"cbb-trigger\" data-type=\"\" data-target=\"location_id:72 +location_type:poly\">New Jersey</a> instead.\n</div>\n\n"
     + ((stack1 = helpers["if"].call(depth0,((stack1 = (depth0 != null ? depth0.meta : depth0)) != null ? stack1.anno : stack1),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "<!-- if.anno -->\n<hr/>\n";
 },"2":function(container,depth0,helpers,partials,data) {

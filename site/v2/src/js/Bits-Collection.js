@@ -59,9 +59,7 @@ var Bits = Backbone.Collection.extend({
 		})
 
 		appState.set({locations:locations.join(",")})
-		if(locations.length>0){
-			// some! - we fetch here due to a 'too much recursion' issue with the listenTo
-			appLocations.fetch()}
+
 
 
 			appActivity.set({message:"setting facets..."})

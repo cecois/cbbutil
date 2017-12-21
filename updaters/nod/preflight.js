@@ -462,12 +462,11 @@ var main = async () =>{
 /* -----------------------------------------------
 // read in incoming bits from $ln file
 // msg notes length, payload is actual bits
-*/
 var inc = await incoming(ln);
 R.incoming=inc.msg
 var inca = inc.payload
-
 console.log("inca.length",inca.length)
+*/
 
 /* -----------------------------------------------
 // pull everything out of MLAB into a local file in budir - e.g. bu.2017_November_Sunday_02_06_35.json
@@ -487,7 +486,6 @@ console.log("found to be:",ext_source)
 // parse that file
 var extant_parsed = await extant_parse(ext_source);
 R.extant=extant_parsed.msg
-
 var exta = extant_parsed.payload
 console.log("exta.length",exta.length)
 			// exta is now our live copy of everything that's come before
@@ -523,14 +521,13 @@ if(sent.documents.length !== inca.length){
 
 /* -----------------------------------------------
 // Now we repeat bu and most_recent cuzzits gonna have sent.documents.length more
+*/
 var bu2 = await extant();
-
 console.log("getting most recent bu again (should be newer than before");
 var ext_source2 = await most_recent();
 console.log("it's:",ext_source2);
 console.log("ELASTIFYING!");
 var E = await elastify(ext_source2);
-*/
 
 
 
