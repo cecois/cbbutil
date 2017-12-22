@@ -43,6 +43,7 @@
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
+    "colors": "^1.1.2",
     "del": "^3.0.0",
     "delay": "^2.0.0",
     "elasticsearch": "^13.3.1",
