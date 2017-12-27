@@ -21,6 +21,8 @@ FS.readFile(F,(err,data)=>{
 
 	var J = JSON.parse(data);
 
+
+
 var O = {
 	geometry:J[0].geojson
 	,properties:{name:J[0].display_name.split(",")[0]
@@ -31,6 +33,8 @@ var O = {
 		,updated_at:MOMENT().format('YYYY-MM-DDTHH:mm:ss')+'Z'
 		,scnotes:"temporary nominatimizor"}
 };
+
+
 
 		MONGO.connect(url,(err, db)=>{
 			if(err) reject(err);
@@ -55,6 +59,7 @@ var send = async (G,mid,anno)=>{
 		const url = "mongodb://app:7GT8Cdl*fq4Z@cl00-shard-00-00-uacod.mongodb.net:27017,cl00-shard-00-01-uacod.mongodb.net:27017,cl00-shard-00-02-uacod.mongodb.net:27017/cbb?ssl=true&replicaSet=CL00-shard-0&authSource=admin";
 
 var O = {
+	type:"Feature",
 	geometry:G[0].geojson
 	,properties:{name:G[0].display_name.split(",")[0]
 		,anno:anno
@@ -64,6 +69,7 @@ var O = {
 		,updated_at:MOMENT().format('YYYY-MM-DDTHH:mm:ss')+'Z'
 		,scnotes:"temporary nominatimizor"}
 };
+
 
 		MONGO.connect(url,(err, db)=>{
 			if(err) reject(err);
