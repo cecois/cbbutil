@@ -94,7 +94,7 @@ if(typeof pimgz == 'undefined' || pimgz.length==0){
 /* ------------------------------------- JIMP DIRECT
 */
 JIMP.read(I.source).then((lenna)=>{
-    lenna.resize(333, JIMP.AUTO)            // resize
+    lenna.resize(444, JIMP.AUTO)            // resize
          .quality(70)                 // set JPEG quality
          // .greyscale()                 // set greyscale
          .write(I.outfile,(i)=>{resolve(i)}) // save

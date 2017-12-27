@@ -41,7 +41,14 @@ return this
   var key=keys.split(":")
 if(typeof BitGroup !== 'undefined'){
   var a = _.find(BitGroup.getLayers(),function(l){return (l.options.location_id==key[1] && l.options.location_type.indexOf(key[0])>=0)});
-  map.fitBounds(a.getBounds());}
+
+  if(typeof a !== 'undefined'){
+  
+  a.openPopup()
+    map.fitBounds(a.getBounds());
+  }
+
+}
 
   return this
 }
