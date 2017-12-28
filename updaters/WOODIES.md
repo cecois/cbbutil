@@ -292,3 +292,4 @@
 * 525,49:40,where's that break comin?
 * 419,41:03,i'm john lennon, how do you do? \\ i just bought a brand new tennis shoe
 * 419,41:30,rap is foreign to me
+* bo2017.1,3:17,did you read that article that popeye wrote?
