@@ -293,3 +293,4 @@
 * 419,41:03,i'm john lennon, how do you do? \\ i just bought a brand new tennis shoe
 * 419,41:30,rap is foreign to me
 * bo2017.1,3:17,did you read that article that popeye wrote?
+* bo2017.2,20:30,we'll watch whatever comes up

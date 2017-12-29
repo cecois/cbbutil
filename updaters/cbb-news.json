@@ -2050,4 +2050,24 @@
   "id_wikia": null,
   "holding": "false"
 }
+,{
+  "episode": 421,
+  "show": "cbb",
+  "tstart": "18:11",
+  "tend": "18:22",
+  "instance": "I've seen the first two episodes...",
+  "bit": "Fantastic.","elucidation": "one of scott's 25 words",
+  "tags": "",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2017-12-29T14:40:35Z",
+  "url_soundcloud": null,
+  "created_at": "2017-12-29T14:40:35Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "i-got-your-results",
+  "episode_title": "I Got Your Results",
+  "episode_guests": "Maria Bamford,Will Hines",
+  "id_wikia": null,
+  "holding": "false"
+}
 ]
