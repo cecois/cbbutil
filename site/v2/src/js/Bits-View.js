@@ -1,6 +1,7 @@
 var BitsView = Backbone.View.extend({
   el: "#search-bits",
     template: CBB['templates']['bitsView'],
+    template_solo_bolo: CBB['templates']['bitsViewSolo'],
     events: {
       "click i.fa-map-marker": "zoomto",
       "click .cbb-trigger": "trigger",
@@ -66,7 +67,10 @@ if(this.collection.length<1){
   $(this.el).html(
     "no bits for "+qu + " (maybe <a href='#' class='cbb-facet-remove'>remove the facet</a>?)"
     );
-} else {
+} else if(this.collection.length==1){
+  $(this.el).html(this.template_solo_bolo({rows:this.collection.toJSON()}));
+}
+else {
   $(this.el).html(this.template({rows:this.collection.toJSON()}));}
 
         appActivityView.stfu();

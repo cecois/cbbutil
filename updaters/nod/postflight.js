@@ -80,7 +80,7 @@ if(typeof pimgz == 'undefined' || pimgz.length==0){
 						})//map
 			)//first
 
-	var outn = "cbb.ep."+o.episode+".jpg"
+	var outn = o.slug+".jpg"
 	var outf = "/tmp/"+outn
 	var I={source:qimg,outfile:outf}
 
@@ -144,11 +144,12 @@ var summarize = async (bits) =>{
 
 		// var episodes_updated = __.uniq(__.pluck(bits,'episode'));
 
-		var episodes_updated = __.uniq(__.map(bits,(E)=>{var o = E.episode+"."+E.slug_earwolf;return o; }));
+		var episodes_updated = __.uniq(__.map(bits,(E)=>{var o = E.episode+":::"+E.slug_earwolf;return o; }));
 
 		var reports = () => __.map(episodes_updated,(e,i,l)=>{
-			var epno = parseInt(e.split(".")[0])
-			var epslug = e.split(".")[1]
+			// var epno = parseInt(e.split(":::")[0])
+			var epno = e.split(":::")[0]
+			var epslug = e.split(":::")[1]
 			var O = {episode:epno,image:'null',slug:epslug,ep_url:"http://www.earwolf.com/episode/"+epslug}
 			var eps_bits = __.pluck(__.filter(bits,{episode:epno}),'bit');
 
@@ -166,8 +167,8 @@ var summarize = async (bits) =>{
 
 		var R = {
 			date:MOMENT().format('YYYY.MMM.DD')
-			,query:"("+__.map(episodes_updated,(e)=>{return "episode:"+e.split(".")[0]}).join(" OR ")+")"
-			,episodes:bits.length+" bits from "+episodes_updated.length+" episodes (eps "+__.map(episodes_updated,(E)=>{return E.split(".")[0]}).join(", ")+")",
+			,query:"("+__.map(episodes_updated,(e)=>{return "episode:"+e.split(":::")[0]}).join(" OR ")+")"
+			,episodes:bits.length+" bits from "+episodes_updated.length+" episodes (eps "+__.map(episodes_updated,(E)=>{return E.split(":::")[0]}).join(", ")+")",
 			report:reports()
 		}
 
@@ -293,16 +294,10 @@ console.log("inca.length",inca.length)
 */
 var summary = await summarize(inca);
 
-// var imgd = await imagify(summary);
-// console.log("delayin 5000 to let earwolf's wp catch up")
-// DELAY(5000)
-// .then(() => {
-        // Executed after 200 milliseconds
+
         imagify(summary)
         write(summary);
         console.log("/tmp")
-      // });
-// var writ = await write(summary);
 
 
 }
