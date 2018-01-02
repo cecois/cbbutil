@@ -81,6 +81,7 @@
 	* 497,42:05
 * pft does star wars talk
 	* all bo2017.*
+	* bo2017.3,30:25
 * i think you've forgotten how to do this
 	* (lotsa new no-nos)
 	* 406,22:45(pw)
