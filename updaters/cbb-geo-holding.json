@@ -1,0 +1,34 @@
+problem: management
+emphasize "team" at Purdue
+
+problem: "leading" data development
+emphasize role on Purdue grant teams
+
+amalgam career of abstract academic and [hands-on], practical systems and policies (and vagaries) of building, maintaining, and distributing datasets vital to immediate research and implentation as well as future re-use, iteration and accumulation
+
+background in academic and practical librarianship but also on the front lines of data management and use; i know very well the frustration of unmanaged data; i know the vagaries and complications of managing data; but i also know that it does get done - the explosion of mobile couldn't have happened without clearly-written, clearly-documented APIs and other data access endpoints (but mostly APIs); the moden web is basically all what used to be misnomered as "mashups" when, it turns out, it's really a design principle that makes absolute sense in digital - platform/framework + api/endpoint + ?? = usable application. 
+
+long commitment to making data open and available
+
+long commitment to making data discoverable, understandable, and re-usable for the next team, project, or citizen down the line
+
+keen, if not voracious, appetite for developments in geo* and general web infrastructure with an eye out for where those two can improve each other
+
+an early background in the EsriSphere but a now-long 
+
+experience with (or, where deficient, awareness of) a plethora of data and geodata platforms and projects:
+gdal/ogr
+postgis
+leaflet
+openlayers
+Esri
+CKAN
+OpenGeoPortal
+NodeJS
+MongoDB
+MySQL
+php
+BackboneJS
+FeathersJS
+VueJS
+*nix/MacOS
