@@ -1,51 +1,22 @@
-librarian - trained in organization, collaborator with many types, domains (NSF, USDA, blah)
-data-based researcher
-
-...which means, as much as i've been an organizer and producer of data, most often a user
-
-problem solving at every stage of above
-
-
-amalgam career of abstract academic and [hands-on], practical systems and policies (and vagaries) of building, maintaining, and distributing datasets vital to immediate research and implentation as well as future re-use, iteration and accumulation
-
-background in academic and practical librarianship but also on the front lines of data management and use; i know very well the frustration of unmanaged data; i know the vagaries and complications of managing data; but i also know that it does get done - the explosion of mobile couldn't have happened without clearly-written, clearly-documented APIs and other data access endpoints (but mostly APIs); the moden web is basically all what used to be misnomered as "mashups" when, it turns out, it's really a design principle that makes absolute sense in digital - platform/framework + api/endpoint + ?? = usable application.
-
-long commitment to making data open and available
-
-long commitment to making data discoverable, understandable, and re-usable for the next team, project, or citizen down the line
-
-keen, if not voracious, appetite for developments in geo* and general web infrastructure with an eye out for where those two can improve each other
-
-a data *program*
-
-This is almost an anti-focus now, as The Lab undertakes work across a gamut of topics, including, yes, missile defense and radar and the like, but also weather surveillance, disaster response, and
-
-interesting place but its data problems are common
-
-----------
-
-problem: management
-emphasize "team" at Purdue
-
-problem: "leading" data development
-emphasize role on Purdue grant teams
-----------
-
-an early background in the EsriSphere but a now-long
-
-experience with (or, where defficient, awareness of) a plethora of data and geodata platforms and projects:
-gdal/ogr
-postgis
-leaflet
-openlayers
-Esri
-CKAN
-OpenGeoPortal
-NodeJS
-MongoDB
-MySQL
-php
-BackboneJS
-FeathersJS
-VueJS
-*nix/MacOS
+SpaceShip Earth (epcot)
+site of: Soon-Yi Previn's classic New York apartment
+,{
+  "episode": 422,
+  "show": "cbb",
+  "tstart": "47:39",
+  "tend": "48:01",
+  "instance": "And she's at the top - a classic New York apartment.",
+  "bit":"Location","elucidation":"identifiable earth location",
+  "tags": "Woody Allen,Soon-Yi Previn,Renalda",
+  "location_type": "point",
+  "location_id": "",
+  "updated_at": "2018-01-03T13:40:20Z",
+  "url_soundcloud": null,
+  "created_at": "2018-01-03T13:40:20Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "the-woodyverse",
+  "episode_title": "The WoodyVerse",
+  "episode_guests": "Chris Gethard,Anthony Atamanuik,Connor Ratliff,Shannon O'Neill",
+  "id_wikia": null,
+  "holding": "false"
+}
