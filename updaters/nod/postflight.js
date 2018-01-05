@@ -142,7 +142,13 @@ var summarize = async (bits) =>{
 
 	return new Promise((resolve, reject)=>{
 
-		// var episodes_updated = __.uniq(__.pluck(bits,'episode'));
+// var bitz = __.filter(bits,(b)=>{
+// 	console.log(b.episode)
+// 	return b.episode==420
+// })
+// console.log("blength",bitz.length)
+// resolve(bitz)
+// process.exit()
 
 		var episodes_updated = __.uniq(__.map(bits,(E)=>{var o = E.episode+":::"+E.slug_earwolf;return o; }));
 
@@ -150,8 +156,13 @@ var summarize = async (bits) =>{
 			// var epno = parseInt(e.split(":::")[0])
 			var epno = e.split(":::")[0]
 			var epslug = e.split(":::")[1]
+
+			console.log("reporting on ",epno)
+			
+			
 			var O = {episode:epno,image:'null',slug:epslug,ep_url:"http://www.earwolf.com/episode/"+epslug}
-			var eps_bits = __.pluck(__.filter(bits,{episode:epno}),'bit');
+			// var eps_bits = __.pluck(__.filter(bits,{episode:epno}),'bit');
+			var eps_bits = __.pluck(__.filter(bits,(b)=>{return b.episode==epno}),'bit');
 
 			O.raw_bits = eps_bits;
 			var beets = __.map(__.uniq(eps_bits),(m)=>{
