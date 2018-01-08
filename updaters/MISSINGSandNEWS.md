@@ -13,6 +13,7 @@
 
 * interesting people
 	* several of the 480+ eps
+	* 526,30:45
 	* bo2017.1,12:50
 	* bo2017.2,9:15
 	* 486,1:30

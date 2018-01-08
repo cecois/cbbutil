@@ -79,4 +79,64 @@
         "id_wikia": null,
         "holding": "false"
     }
+    ,{
+        "episode": 423,
+        "show": "cbb",
+        "tstart": "33:00",
+        "tend": "33:26",
+        "instance": "We're not supposed to sing all of the verses all at the same time.",
+        "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+        "tags": "Andrew Lloyd Webber,Fourvel,Row Row Row Your Boat (song),Eliphalet Oram Lyte",
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2018-01-05T15:52:34Z",
+        "url_soundcloud": null,
+        "created_at": "2018-01-05T15:52:34Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "time-bobby-4",
+        "episode_title": "Time Bobby 4",
+        "episode_guests": "Paul F. Tompkins,Bobby Moynihan",
+        "id_wikia": null,
+        "holding": "false"
+    }
+    ,{
+        "episode": 423,
+        "show": "cbb",
+        "tstart": "44:45",
+        "tend": "45:14",
+        "instance": "Not Aunt Macy Gray-miated.",
+        "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+        "tags": "Andrew Lloyd Webber,Fourvel,Macy Gray,I Try (song)",
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2018-01-05T15:52:34Z",
+        "url_soundcloud": null,
+        "created_at": "2018-01-05T15:52:34Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "time-bobby-4",
+        "episode_title": "Time Bobby 4",
+        "episode_guests": "Paul F. Tompkins,Bobby Moynihan",
+        "id_wikia": null,
+        "holding": "false"
+    }
+    ,{
+        "episode": 423,
+        "show": "cbb",
+        "tstart": "46:05",
+        "tend": "46:29",
+        "instance": "Were you just fiddling about down there and shot some webbing out?",
+        "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+        "tags": "Andrew Lloyd Webber,Fourvel,The Who (musical combination),Fiddle About (song)",
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2018-01-05T15:52:34Z",
+        "url_soundcloud": null,
+        "created_at": "2018-01-05T15:52:34Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "time-bobby-4",
+        "episode_title": "Time Bobby 4",
+        "episode_guests": "Paul F. Tompkins,Bobby Moynihan",
+        "id_wikia": null,
+        "holding": "false"
+    }
 ]
