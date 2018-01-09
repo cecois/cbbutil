@@ -13,6 +13,7 @@
 
 * interesting people
 	* several of the 480+ eps
+	* 526,30:45
 	* bo2017.1,12:50
 	* bo2017.2,9:15
 	* 486,1:30
@@ -653,6 +654,7 @@
 	* 2016.oakland,13:00
 	* 2016.oakland,54:33
 	* 513,1:03:12
+	* 423,41:00(pw)
 * fictional people - dead but reasonable
 	* 289,21:45(howl)
 	* san francisco 2012,23:00+
@@ -671,6 +673,7 @@
 	* 236,49:45(howl)
 	* 236,1:12:10(howl)
 	* bo2014.4,16:30(PW)
+	* bo2017.4,2:22:20
 * huell turns into a crowbot
 	* 29,51:48
 	* howl.fm in DC,36:00
@@ -697,6 +700,7 @@
 	* 408,1:00:00
 	* 2016.boston7pm,34:40
 	* 2016.philly,1:21:05
+	* 423,36:40(pw)
 	* 423,42:20
 	* 423,1:18:30
 	* 424,1:27:45
@@ -803,6 +807,7 @@
 	* 507,35:00
 	* 513,32:45
 	* bo2017.4,14:30
+	* bo2016.4,2:19:25
 * starting too low
 	* 2016.manchester,1:38:00
 	* bo2015.2,1:12:03(pw) - inaugural
@@ -908,6 +913,7 @@
 	* 521,1:02:00
 	* 525,5:00
 	* 525,33:00
+	* bo2017.4,3:03:00
 * gershwin, my baby
 	* 400, multiple
 	* 400, ~28:30
