@@ -27,7 +27,7 @@ var main = async () =>{
 	var R = {}
 
 	try {
-		var inc = await incoming('cbb-news');
+		var inc = await incoming('cbb-live');
 
 
 	} catch(error) {
