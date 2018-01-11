@@ -161,10 +161,10 @@ var main = async () =>{
 	var R = {}
 	try {
 
-		var incomingz = [
-		'/Users/ccmiller/Downloads/cbb_point.geojson'
-		// ,'/Users/ccmiller/Downloads/cbb_line.geojson'
-		]
+		// var incomingz = [
+		// '/Users/ccmiller/Downloads/cbb_point.geojson'
+		// // ,'/Users/ccmiller/Downloads/cbb_line.geojson'
+		// ]
 
 		// __.each(incomingz,async (ln)=>{
 
