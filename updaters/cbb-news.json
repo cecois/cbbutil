@@ -119,4 +119,44 @@
     "id_wikia": null,
     "holding": "false"
 }
+,{
+  "episode": 431,
+  "show": "cbb",
+  "tstart": "56:00",
+  "tend": "56:16",
+  "instance": "You can use your same metro card no matter what city on the globe you travel to.",
+  "bit":"Location","elucidation":"identifiable earth location",
+  "tags": "Ydeda Elaine Brown",
+  "location_type": "point",
+  "location_id": "865",
+  "updated_at": "2018-01-11T14:37:53Z",
+  "url_soundcloud": "https://soundcloud.com/comedybangbang/431-brett-gelman-mike-obrien-tawny-newsome/#t=1:21",
+  "created_at": "2018-01-11T14:37:53Z",
+  "slug_soundcloud": "431-brett-gelman-mike-obrien-tawny-newsome",
+  "slug_earwolf": "ghost-pets-are-liars",
+  "episode_title": "Ghost Pets Are Liars",
+  "episode_guests": "Brett Gelman, Mike O'Brien, Tawny Newsome",
+  "id_wikia": null,
+  "holding": "false"
+}
+,  {
+  "episode": 431,
+  "show": "cbb",
+  "tstart": "1:02:23",
+  "tend": "1:03:10",
+  "instance": "We're going to have enough syringes to put down...as many pets as the demand.",
+  "bit":"Location","elucidation":"identifiable earth location",
+  "tags": "Chris Dante",
+  "location_type": "point",
+  "location_id": "866",
+  "updated_at": "2018-01-11T14:37:53Z",
+  "url_soundcloud": "https://soundcloud.com/comedybangbang/431-brett-gelman-mike-obrien-tawny-newsome/#t=1:21",
+  "created_at": "2018-01-11T14:37:53Z",
+  "slug_soundcloud": "431-brett-gelman-mike-obrien-tawny-newsome",
+  "slug_earwolf": "ghost-pets-are-liars",
+  "episode_title": "Ghost Pets Are Liars",
+  "episode_guests": "Brett Gelman, Mike O'Brien, Tawny Newsome",
+  "id_wikia": null,
+  "holding": "false"
+}
 ]

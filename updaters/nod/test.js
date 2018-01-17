@@ -27,8 +27,16 @@ var main = async () =>{
 	var R = {}
 
 	try {
-		var inc = await incoming('cbb-news');
 
+		var ln = process.argv[2]
+
+		if(__.contains(['news','live','fake','fantastic'],ln)!==true){
+			throw("typo prolly");
+			process.exit();
+} else {
+		var inc = await incoming('cbb-'+ln);
+	
+}
 
 	} catch(error) {
 		console.error(error);
