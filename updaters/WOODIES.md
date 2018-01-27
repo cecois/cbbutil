@@ -296,3 +296,6 @@
 * bo2017.1,3:17,did you read that article that popeye wrote?
 * bo2017.2,20:30,we'll watch whatever comes up
 * 431,1:00:40,i don't want it - you don't want it - let's not do it!
+* 437,1:03:00,and they chose the beard not the tongue?
+* 438,31:00,i thought it was a clumsy portmanteau...
+* 441,1:06:45(pw),I'm the best loaner there is...baby!

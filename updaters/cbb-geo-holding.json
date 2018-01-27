@@ -221,3 +221,115 @@ Pedra Pintada, Roraima; (https://www.openstreetmap.org/node/5309275733)
         "id_wikia": null,
         "holding": "false"
     }
+    ,{
+      "episode": 442,
+      "show": "cbb",
+      "tstart": "40:33",
+      "tend": "41:05",
+      "instance": "But first: I don't think we heard why vampires don't get AIDS. Was there an ending to that joke?",
+      "bit":"Location","elucidation":"identifiable earth location",
+      "tags": "Neptuna,Ming",
+      "location_type": "",
+      "location_id": "",
+      "updated_at": "2018-01-25T11:00:08Z",
+      "url_soundcloud": null,
+      "created_at": "2018-01-25T11:00:08Z",
+      "slug_soundcloud": null,
+      "slug_earwolf": "atlantis-dire-warning",
+      "episode_title": "Atlantis Dire Warning",
+      "episode_guests": "Andy Daly, Jeremy Rowley",
+      "id_wikia": null,
+      "holding": "false"
+  }
+
+  Dr. Edidiong Kaminska (8700 Beverly Blvd, Los Angeles, CA 90048)
+  possible dermatologist of: Nick Nolte
+  ,{
+    "episode": 436,
+    "show": "cbb",
+    "tstart": "1:10:19",
+    "tend": "1:10:40",
+    "instance": "Once I'm sedated I'm like a mule - you can do whatever you want.",
+    "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "tags": "Nick Nolte",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2018-01-23T14:42:04Z",
+    "url_soundcloud": null,
+    "created_at": "2018-01-23T14:42:04Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "rich-mind-vain",
+    "episode_title": "Rich Mind Vain",
+    "episode_guests": "Sean Clements,Chris Tallman,Eliza Skinner",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+freeway tunnel/underpass in ATL
+possible site of: Dr. Bill Phil's half-body-loss
+,{
+  "episode": 437,
+  "show": "cbb",
+  "tstart": "56:10",
+  "tend": "56:47",
+  "instance": "It was like a cartoon - you know like when a coyote goes and he thinks it's a tunnel but it's paint?",
+  "bit":"Location","elucidation":"identifiable earth location",
+  "tags": "Dr. Bill Phil,Lisa Taco",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2018-01-24T10:48:22Z",
+  "url_soundcloud": null,
+  "created_at": "2018-01-24T10:48:22Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "fart-face-fuckers-2",
+  "episode_title": "Fart Face Fuckers 2",
+  "episode_guests": "Mike Birbiglia,Horatio Sanz,Mary Holland",
+  "id_wikia": null,
+  "holding": "false"
+}
+
+Belasco Theatre
+site of: Molly Ringwald in Enchanted April, once - possibly the "upper east side" show that Jack Sparks witnessed
+,{
+  "episode": 443,
+  "show": "cbb",
+  "tstart": "1:05:00",
+  "tend": "1:05:25",
+  "instance": "Shout-out to Molly Ringwald.",
+  "bit":"Location","elucidation":"identifiable earth location",
+  "tags": "Jack Sparks,This is Your Boy Troy,Molly Ringwald",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2018-01-25T12:19:58Z",
+  "url_soundcloud": null,
+  "created_at": "2018-01-25T12:19:58Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "this-is-your-boy-troy",
+  "episode_title": "This Is Your Boy Troy",
+  "episode_guests": "Adam Scott,Will Hines,Jessica McKenna",
+  "id_wikia": null,
+  "holding": "false"
+}
+
+Milken Community High School
+proxy for: This is Your Boy Troy's McKernan High School
+,{
+  "episode": 443,
+  "show": "cbb",
+  "tstart": "49:23",
+  "tend": "50:07",
+  "instance": "Where my Wildcats at?",
+  "bit":"Location","elucidation":"identifiable earth location",
+  "tags": "Jack Sparks,This is Your Boy Troy",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2018-01-25T12:19:58Z",
+  "url_soundcloud": null,
+  "created_at": "2018-01-25T12:19:58Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "this-is-your-boy-troy",
+  "episode_title": "This Is Your Boy Troy",
+  "episode_guests": "Adam Scott,Will Hines,Jessica McKenna",
+  "id_wikia": null,
+  "holding": "false"
+}

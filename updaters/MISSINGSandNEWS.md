@@ -10,6 +10,7 @@
 4. germany cannibalism
 5. icona pop
 6. s my c
+7. subepisodes
 
 * interesting people
 	* several of the 480+ eps
@@ -87,6 +88,8 @@
 	* 429,23:30(pw)
 	* 429,29:20(pw)
 	* 429,1:17:30(pw)
+	* 443,13:30(pw)
+	* 443,27:00(pw)
 * pft does star wars talk
 	* all bo2017.*
 	* bo2017.3,30:25
@@ -99,6 +102,7 @@
 	* 372?
 	* 374,13:50(pw)
 	* 376,1:04:45(pw)
+	* 442,26:45(pw)
 * Bone Queef
 	* 430,***
 * whistling pete
@@ -238,6 +242,10 @@
 	* 371,2:10
 	* lotsa mid-300s
 	* bo2016.3,4:45
+	* 437,0:50(pw)
+	* 437,2:00(pw)
+	* 441,1:00(pw)
+	* 442,1:00(pw)
 * rest in power
 	* bo2016.2,multiple
 	* bo2016.2,1:07:20
@@ -340,6 +348,7 @@
 * no rule against dogs playing (football|basketball)
 	* 2016.shepherds,42:45
 	* late 400s episode
+	* 438,28:40(pw)
 * circus in town
 	* 115,42:50
 * deep cut
@@ -433,7 +442,7 @@
 	* 289,46:00(howl)
 	* 469,2:15
 	* 2016.dallas,33:40
-	* 441,12:00
+	* 441,11:20(pw)
 	* 2016.denver,10:00
 	* 2016.toronto,41:00
 	* 289,10:15
@@ -514,6 +523,7 @@
 	* 2016.austin,1:13:50
 	* 423,42:19,one thousand gigawatts
 	* 2016.austin,1:13:38
+	* 437,27:40(pw)
 * ice t's love of non-standard air travel
 	* that time he wz in the met life blimp
 	* 51,24:00
@@ -773,6 +783,7 @@
 	* bo2014.1,13:45(paywall)
 	* bo2014.1,2:05:08
 	* bo2014.4,1:25:30(pw)
+	* 441,37:00(pw)
 * ball droid - bb8
 	* 349,15:00
 	* bo2015.2,58:30
@@ -935,7 +946,7 @@
 	* 395,40:22(pw)
 	* bo2015.3,:30
 	* 432,1:25:20
-	* 439,44:51
+	* 439,42:40(pw)
 	* 398,1:00:30(pw)
 * "Pains"
 	* 401,41:15
@@ -1086,20 +1097,22 @@
 * clumsy portmanteau
 	* 2016.tour al peterson
 	* 440,44:40
+	* 438,30:50(pw)
+	* 438,31:15(pw)
 	* 439,34:45
-	* 439,40:43
+	* 439,41:30(pw)
 	* 439,55:00
 	* 463,16:30
 	* 485,1:03:35(ads)
 * a little buzz
-	* 440,55:20
+	* 440,52:50(pw)
 	* 301,49:30(paywall)
 	* missed at least one b/t 301 and 346
 	* 346,2:50(pw)
 * off the rails/retiring a train
 	* 439,40:10
-	* 440,1:16:00
-	* 441,5:30
+	* 440,1:09:00(pw)
+	* 441,4:45(pw)
 	* 439,40:10
 	* 440,1:16:00
 	* 2016.sydney,37:30
@@ -1107,9 +1120,12 @@
 	* 471,20:08(howl)
 	* 486,21:50(ads)
 	* 500,3:00
+	* 438,36:00(pw)
 * out of the park (fair ball / foul ball )
 	* tig+alynne episode
 	* 482,25:35(howl)
+	* 438,12:50(pw)
+	* 438,26:45(pw)
 * stoppin up the jams
 	* 441,lotsa (inaugural)
 * biodigital jazz
@@ -1195,6 +1211,7 @@
 	* bo2017.2,2:19:45
 * urls
 	* 295,153,27:50
+	* 437,39:30(pw)
 	* 433,1:00:30(pw)
 	* 417,8:45(pw)
 	* 417,13:40(pw)
