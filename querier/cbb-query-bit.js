@@ -17,6 +17,7 @@ request(q, function (error, response, body) {
 		var bit = js.hits.hits[0]._source.bit;
 		var elucidation = js.hits.hits[0]._source.elucidation;
 		var d = '"bit":"'+bit+'","elucidation":"'+elucidation+'",'
+console.log(d);
 		clipboard.stdin.write(d);
 		clipboard.stdin.end();
 		exec("noti -t CBB -m back from Solr");
