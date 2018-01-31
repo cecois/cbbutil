@@ -237,6 +237,7 @@
 * 2016.perth,~40:00,i'm a creature of love
 * 2016.perth,48:23,i gave him a wooden horse
 * 116,58:00,like cock sucking lips?
+* 446,32:30(pw),hi i'm pregnant
 * 446,1:33:30,you can be there for the birth without staring directly into her vaginal canal
 * 119,53:30,well i got my hands on an ape
 * 122,55:30,like a classroom guinea pig who's lived too long
@@ -299,3 +300,5 @@
 * 437,1:03:00,and they chose the beard not the tongue?
 * 438,31:00,i thought it was a clumsy portmanteau...
 * 441,1:06:45(pw),I'm the best loaner there is...baby!
+* 529,23:30,Am I a what?
+* 444,22:45(pw),for my dollar that's the worst-smelling food there is
