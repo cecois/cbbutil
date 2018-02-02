@@ -15,7 +15,7 @@
     "slug_soundcloud": null,
     "slug_earwolf": "mind-your-please-and-questions",
     "episode_title": "Mind Your Please and Questions",
-    "episode_guests": "Tig Notaro, Mike Hanford, Drew Tarver",
+    "episode_guests": "Tig Notaro,Mike Hanford,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
 }
@@ -35,7 +35,7 @@
     "slug_soundcloud": null,
     "slug_earwolf": "mind-your-please-and-questions",
     "episode_title": "Mind Your Please and Questions",
-    "episode_guests": "Tig Notaro, Mike Hanford, Drew Tarver",
+    "episode_guests": "Tig Notaro,Mike Hanford,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
 }
@@ -55,7 +55,7 @@
     "slug_soundcloud": null,
     "slug_earwolf": "mind-your-please-and-questions",
     "episode_title": "Mind Your Please and Questions",
-    "episode_guests": "Tig Notaro, Mike Hanford, Drew Tarver",
+    "episode_guests": "Tig Notaro,Mike Hanford,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
 }
@@ -75,7 +75,7 @@
     "slug_soundcloud": null,
     "slug_earwolf": "mind-your-please-and-questions",
     "episode_title": "Mind Your Please and Questions",
-    "episode_guests": "Tig Notaro, Mike Hanford, Drew Tarver",
+    "episode_guests": "Tig Notaro,Mike Hanford,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
 }
@@ -95,7 +95,7 @@
     "slug_soundcloud": null,
     "slug_earwolf": "mind-your-please-and-questions",
     "episode_title": "Mind Your Please and Questions",
-    "episode_guests": "Tig Notaro, Mike Hanford, Drew Tarver",
+    "episode_guests": "Tig Notaro,Mike Hanford,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
 }
@@ -115,7 +115,7 @@
     "slug_soundcloud": null,
     "slug_earwolf": "mind-your-please-and-questions",
     "episode_title": "Mind Your Please and Questions",
-    "episode_guests": "Tig Notaro, Mike Hanford, Drew Tarver",
+    "episode_guests": "Tig Notaro,Mike Hanford,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
 }
@@ -135,7 +135,7 @@
     "slug_soundcloud": null,
     "slug_earwolf": "mind-your-please-and-questions",
     "episode_title": "Mind Your Please and Questions",
-    "episode_guests": "Tig Notaro, Mike Hanford, Drew Tarver",
+    "episode_guests": "Tig Notaro,Mike Hanford,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
 }
@@ -155,7 +155,7 @@
     "slug_soundcloud": null,
     "slug_earwolf": "mind-your-please-and-questions",
     "episode_title": "Mind Your Please and Questions",
-    "episode_guests": "Tig Notaro, Mike Hanford, Drew Tarver",
+    "episode_guests": "Tig Notaro,Mike Hanford,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
 }
@@ -175,7 +175,7 @@
     "slug_soundcloud": null,
     "slug_earwolf": "mind-your-please-and-questions",
     "episode_title": "Mind Your Please and Questions",
-    "episode_guests": "Tig Notaro, Mike Hanford, Drew Tarver",
+    "episode_guests": "Tig Notaro,Mike Hanford,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
 }
@@ -195,7 +195,7 @@
     "slug_soundcloud": null,
     "slug_earwolf": "mind-your-please-and-questions",
     "episode_title": "Mind Your Please and Questions",
-    "episode_guests": "Tig Notaro, Mike Hanford, Drew Tarver",
+    "episode_guests": "Tig Notaro,Mike Hanford,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
 }
@@ -503,82 +503,6 @@
     "holding": "false"
 }
 ,{
-    "episode": 436,
-    "show": "cbb",
-    "tstart": "1:10:19",
-    "tend": "1:10:40",
-    "instance": "Once I'm sedated I'm like a mule - you can do whatever you want.",
-    "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
-    "tags": "Nick Nolte",
-    "location_type": "point","location_id": "877",
-    "updated_at": "2018-01-23T14:42:04Z",
-    "url_soundcloud": null,
-    "created_at": "2018-01-23T14:42:04Z",
-    "slug_soundcloud": null,
-    "slug_earwolf": "rich-mind-vain",
-    "episode_title": "Rich Mind Vain",
-    "episode_guests": "Sean Clements,Chris Tallman,Eliza Skinner",
-    "id_wikia": null,
-    "holding": "false"
-}
-,{
-  "episode": 437,
-  "show": "cbb",
-  "tstart": "56:10",
-  "tend": "56:47",
-  "instance": "It was like a cartoon - you know like when a coyote goes and he thinks it's a tunnel but it's paint?",
-  "bit":"Location","elucidation":"identifiable earth location",
-  "tags": "Dr. Bill Phil,Lisa Taco",
-  "location_type": "point","location_id": "878",
-  "updated_at": "2018-01-24T10:48:22Z",
-  "url_soundcloud": null,
-  "created_at": "2018-01-24T10:48:22Z",
-  "slug_soundcloud": null,
-  "slug_earwolf": "fart-face-fuckers-2",
-  "episode_title": "Fart Face Fuckers 2",
-  "episode_guests": "Mike Birbiglia,Horatio Sanz,Mary Holland",
-  "id_wikia": null,
-  "holding": "false"
-}
-,{
-  "episode": 443,
-  "show": "cbb",
-  "tstart": "1:05:00",
-  "tend": "1:05:25",
-  "instance": "Shout-out to Molly Ringwald.",
-  "bit":"Location","elucidation":"identifiable earth location",
-  "tags": "Jack Sparks,This is Your Boy Troy,Molly Ringwald",
-  "location_type": "poly","location_id": "493",
-  "updated_at": "2018-01-25T12:19:58Z",
-  "url_soundcloud": null,
-  "created_at": "2018-01-25T12:19:58Z",
-  "slug_soundcloud": null,
-  "slug_earwolf": "this-is-your-boy-troy",
-  "episode_title": "This Is Your Boy Troy",
-  "episode_guests": "Adam Scott,Will Hines,Jessica McKenna",
-  "id_wikia": null,
-  "holding": "false"
-}
-,{
-  "episode": 443,
-  "show": "cbb",
-  "tstart": "49:23",
-  "tend": "50:07",
-  "instance": "Where my Wildcats at?",
-  "bit":"Location","elucidation":"identifiable earth location",
-  "tags": "Jack Sparks,This is Your Boy Troy",
-  "location_type": "poly","location_id": "494",
-  "updated_at": "2018-01-25T12:19:58Z",
-  "url_soundcloud": null,
-  "created_at": "2018-01-25T12:19:58Z",
-  "slug_soundcloud": null,
-  "slug_earwolf": "this-is-your-boy-troy",
-  "episode_title": "This Is Your Boy Troy",
-  "episode_guests": "Adam Scott,Will Hines,Jessica McKenna",
-  "id_wikia": null,
-  "holding": "false"
-}
-,{
   "episode": 444,
   "show": "cbb",
   "tstart": "7:32",
@@ -593,7 +517,27 @@
   "slug_soundcloud": null,
   "slug_earwolf": "mind-your-please-and-questions",
   "episode_title": "Mind Your Please and Questions",
-  "episode_guests": "Tig Notaro, Mike Hanford, Drew Tarver",
+  "episode_guests": "Tig Notaro,Mike Hanford,Drew Tarver",
+ "id_wikia": null,
+  "holding": "false"
+} 
+,{
+  "episode": 451,
+  "show": "cbb",
+  "tstart": "7:35",
+  "tend": "7:53",
+  "instance": "I spend every day with you.",
+  "bit":"Group Coupon","elucidation":"scott articulates obvious data (acronyms, abbreviations, etc.)",
+  "tags": "The Weeknd,Frank Dorito",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2018-02-01T10:50:33Z",
+  "url_soundcloud": null,
+  "created_at": "2018-02-01T10:50:33Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "wishing-with-the-grawlix",
+  "episode_title": "Wishing with The Grawlix",
+  "episode_guests": "Ben Roy, Andrew Orvedahl,Paul F. Tompkins, Lauren Lapkus, Brendon Small",
   "id_wikia": null,
   "holding": "false"
 }
@@ -612,7 +556,26 @@
   "slug_soundcloud": null,
   "slug_earwolf": "mind-your-please-and-questions",
   "episode_title": "Mind Your Please and Questions",
-  "episode_guests": "Tig Notaro, Mike Hanford, Drew Tarver",
+  "episode_guests": "Tig Notaro,Mike Hanford,Drew Tarver",
+"id_wikia": null,
+  "holding": "false"
+},{
+  "episode": 452,
+  "show": "cbb",
+  "tstart": "1:09:09",
+  "tend": "1:09:34",
+  "instance": "Whenever I feel wind on my face \\ I'll be like 'Leonard Cohens up in this place'",
+  "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+  "tags": "Beth,Leonard Cohen,Hallelujah (song)",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2018-02-01T14:26:09Z",
+  "url_soundcloud": null,
+  "created_at": "2018-02-01T14:26:09Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "pow-pow-power-wheels",
+  "episode_title": "Pow! Pow! Power Wheels!",
+  "episode_guests": "Weird Al Yankovic, Claudia O'Doherty, Jessica McKenna",
   "id_wikia": null,
   "holding": "false"
 }
