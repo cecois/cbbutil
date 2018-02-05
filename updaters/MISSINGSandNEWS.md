@@ -81,6 +81,10 @@
 	* 496,1:08:20
 	* 497,1:30
 	* 497,42:05
+* video on demand
+	* 530,22:30
+* content deleters
+	* 530,22:45
 * drippin milk/talkin tang (any subepisode)
 	* 429,17:00(pw)
 	* 42*?,??:??
@@ -263,6 +267,7 @@
 	* 452,6:50(pw)
 	* 452,8:30(pw)
 	* 452,30:50(pw)
+	* 530,2:20
 * rest in power
 	* bo2016.2,multiple
 	* bo2016.2,1:07:20
