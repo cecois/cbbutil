@@ -539,4 +539,61 @@
     "id_wikia": null,
     "holding": "false"
 }
+,{
+  "episode": 453,
+  "show": "cbb",
+  "tstart": "43:55",
+  "tend": "44:17",
+  "instance": "I don't touch the devil's food; I don't touch anything solid.",
+  "bit":"Location","elucidation":"identifiable earth location",
+  "tags": "Reverend T.P. Stain",
+  "location_type": "poly","location_id": "502",
+  "updated_at": "2018-02-06T08:54:16Z",
+  "url_soundcloud": null,
+  "created_at": "2018-02-06T08:54:16Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "unblocked-and-unlocked",
+  "episode_title": "Unblocked and Unlocked",
+  "episode_guests": "Johnny Pemberton,Eden Sher,Londale Theus Jr.",
+  "id_wikia": null,
+  "holding": "false"
+}
+,{
+  "episode": 453,
+  "show": "cbb",
+  "tstart": "1:08:12",
+  "tend": "1:08:33",
+  "instance": "I've done my share of time on the rock.",
+  "bit":"Location","elucidation":"identifiable earth location",
+  "tags": "Reverend T.P. Stain,Dicker Troy",
+  "location_type": "point","location_id": "887",
+  "updated_at": "2018-02-06T08:54:16Z",
+  "url_soundcloud": null,
+  "created_at": "2018-02-06T08:54:16Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "unblocked-and-unlocked",
+  "episode_title": "Unblocked and Unlocked",
+  "episode_guests": "Johnny Pemberton,Eden Sher,Londale Theus Jr.",
+  "id_wikia": null,
+  "holding": "false"
+}
+,{
+  "episode": 459,
+  "show": "cbb",
+  "tstart": "1:15:45",
+  "tend": "1:16:04",
+  "instance": "Luckily I haven't been bombed by the military with active munitions.",
+  "bit":"Location","elucidation":"identifiable earth location",
+  "tags": "Paul Giamatti",
+  "location_type": "point","location_id": "888",
+  "updated_at": "2018-02-08T11:05:38Z",
+  "url_soundcloud": null,
+  "created_at": "2018-02-08T11:05:38Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "giamatti-gives-thanks",
+  "episode_title": "Giamatti Gives Thanks",
+  "episode_guests": "Maria Thayer, James Adomian, Tawny Newsome",
+  "id_wikia": null,
+  "holding": "false"
+}
 ]
