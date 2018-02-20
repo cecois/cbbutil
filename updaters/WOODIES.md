@@ -302,3 +302,6 @@
 * 441,1:06:45(pw),I'm the best loaner there is...baby!
 * 529,23:30,Am I a what?
 * 444,22:45(pw),for my dollar that's the worst-smelling food there is
+* 463,15:50(pw),carlifer/clumsy portmanteau
+* 532,1:04:23,what if a bathroom floods over some jewels?
+* 532,1:39:40,we're done with chaka khan facts already?
