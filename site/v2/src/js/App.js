@@ -7,7 +7,7 @@ var CONFIG = {
     ,basemap:"pencil"
     ,index_root:"http://milleria.org:9200/cbb/_search?"
     // ,index_root:"http://localhost:9200/cbb/_search?"
-    ,default_query:"(episode:532)"
+    ,default_query:"(episode:460 OR episode:461 OR episode:462 OR episode:463 OR episode:bo2016.1)"
 }
 
 window.map = new L.Map('map',
