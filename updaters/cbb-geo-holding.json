@@ -1,68 +1,65 @@
-Brasil
-home country of: Jergen Tavikya
+Bevery Hills High School
+high school of: Claudia O'Doherty's mother, Judd Apatow
 ,{
-    "episode": 533,
+    "episode": 534,
     "show": "cbb",
-    "tstart": "53:23",
-    "tend": "53:55",
-    "instance": "I don't get most of anything that people say.",
+    "tstart": "5:45",
+    "tend": "6:03",
+    "instance": "She went to high school with Judd Apatow.",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Jergen Tavikya,Debbie Creepy",
+    "tags": "",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2018-02-26T11:24:09Z",
+    "updated_at": "2018-03-06T08:48:37Z",
     "url_soundcloud": null,
-    "created_at": "2018-02-26T11:24:09Z",
+    "created_at": "2018-03-06T08:48:37Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "is-that-chocolate-or-what",
-    "episode_title": "Is That Chocolate, Or What?",
-    "episode_guests": "Weird Al Yankovic,Mary Holland,Mano Agapion",
+    "slug_earwolf": "solid-as-a-rock",
+    "episode_title": "Solid as a Rock",
+    "episode_guests": "Carl Tart,Ego Nwodim,Claudia O'Doherty,Paul Rust",
     "id_wikia": null,
     "holding": "false"
 }
 
-Switzerland
-home country of: Jergen Tavikya
+a dorm at University of Wisconsin–Oshkosh
+site of: Bashford (Bashford & Franklin), learning to become a geologist and discovering gold
 ,{
-    "episode": 533,
+    "episode": 534,
     "show": "cbb",
-    "tstart": "53:23",
-    "tend": "53:55",
-    "instance": "I don't get most of anything that people say.",
+    "tstart": "46:34",
+    "tend": "46:54",
+    "instance": "How did you get into the science of Geology?",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Jergen Tavikya,Debbie Creepy",
+    "tags": "Bashford & Franklin (musical combination)",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2018-02-26T11:24:09Z",
+    "updated_at": "2018-03-06T08:48:37Z",
     "url_soundcloud": null,
-    "created_at": "2018-02-26T11:24:09Z",
+    "created_at": "2018-03-06T08:48:37Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "is-that-chocolate-or-what",
-    "episode_title": "Is That Chocolate, Or What?",
-    "episode_guests": "Weird Al Yankovic,Mary Holland,Mano Agapion",
+    "slug_earwolf": "solid-as-a-rock",
+    "episode_title": "Solid as a Rock",
+    "episode_guests": "Carl Tart,Ego Nwodim,Claudia O'Doherty,Paul Rust",
     "id_wikia": null,
     "holding": "false"
 }
-
-Prussia
-home country of: Jergen Tavikya
 ,{
-    "episode": 533,
+    "episode": 534,
     "show": "cbb",
-    "tstart": "53:23",
-    "tend": "53:55",
-    "instance": "I don't get most of anything that people say.",
+    "tstart": "50:00",
+    "tend": "50:23",
+    "instance": "You dug into the floor but it was really *your* roof?",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Jergen Tavikya,Debbie Creepy",
+    "tags": "Bashford & Franklin (musical combination)",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2018-02-26T11:24:09Z",
+    "updated_at": "2018-03-06T08:48:37Z",
     "url_soundcloud": null,
-    "created_at": "2018-02-26T11:24:09Z",
+    "created_at": "2018-03-06T08:48:37Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "is-that-chocolate-or-what",
-    "episode_title": "Is That Chocolate, Or What?",
-    "episode_guests": "Weird Al Yankovic,Mary Holland,Mano Agapion",
+    "slug_earwolf": "solid-as-a-rock",
+    "episode_title": "Solid as a Rock",
+    "episode_guests": "Carl Tart,Ego Nwodim,Claudia O'Doherty,Paul Rust",
     "id_wikia": null,
     "holding": "false"
 }
