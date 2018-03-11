@@ -253,7 +253,7 @@
 * 186,1:15:30,why isn't this blinking guy eating a plate of dogshit?
 * 474,29:45(howl),this better be worth it
 * 261,1:01:15(howl),a tattoo of a knife on my face
-* 476,4:32,barbecued eggplant
+* 476,3:50(pw),barbecued eggplant
 * 478,21:00,doof!
 * 272,33:20(howl),some love outta frank sinatra - no dice
 * 272,1:22:00(howl),like 10?
