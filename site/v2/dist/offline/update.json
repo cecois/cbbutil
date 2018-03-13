@@ -1,1 +1,49 @@
-{"date":"2018.Mar.10","query":"(episode:534)","episodes":"9 bits from 1 episodes (eps 534)","report":[{"episode":"534","image":"https://farm5.staticflickr.com/4796/26865695248_220e3807b3_m.jpg","slug":"solid-as-a-rock","ep_url":"http://www.earwolf.com/episode/solid-as-a-rock","raw_bits":["The Paul Hardcastle of Suicides","The Paul Hardcastle of Suicides","The Paul Hardcastle of Suicides","The Floor Closes","Who's Paul?","Fantastic.","Location","Location","Location"],"bits_sum":[{"bit":"The Paul Hardcastle of Suicides","count":3},{"bit":"The Floor Closes","count":1},{"bit":"Who's Paul?","count":1},{"bit":"Fantastic.","count":1},{"bit":"Location","count":3}]}]}
+{
+  "date": "2018.Mar.13",
+  "episodes": "16 bits from 1 episodes (eps 535)",
+  "query": "(episode:535)",
+  "report": [
+    {
+      "bits_sum": [
+        {
+          "bit": "Scott's Questions",
+          "count": 3
+        },
+        {
+          "bit": "The Paul Hardcastle of Suicides",
+          "count": 6
+        },
+        {
+          "bit": "You Don't Have to Ask",
+          "count": 5
+        },
+        {
+          "bit": "Location",
+          "count": 2
+        }
+      ],
+      "ep_url": "http://www.earwolf.com/episode/niles-per-hour",
+      "episode": "535",
+      "image": "https://farm5.staticflickr.com/4782/38985193620_7fc6e4906a_m.jpg",
+      "raw_bits": [
+        "Scott's Questions",
+        "Scott's Questions",
+        "The Paul Hardcastle of Suicides",
+        "The Paul Hardcastle of Suicides",
+        "The Paul Hardcastle of Suicides",
+        "The Paul Hardcastle of Suicides",
+        "You Don't Have to Ask",
+        "You Don't Have to Ask",
+        "Location",
+        "Location",
+        "You Don't Have to Ask",
+        "You Don't Have to Ask",
+        "The Paul Hardcastle of Suicides",
+        "The Paul Hardcastle of Suicides",
+        "You Don't Have to Ask",
+        "Scott's Questions"
+      ],
+      "slug": "niles-per-hour"
+    }
+  ]
+}
