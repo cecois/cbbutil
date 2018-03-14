@@ -1,23 +1,23 @@
 [
-{
-      "episode": 472,
-      "show": "cbb",
-      "tstart": "13:10",
-      "tend": "13:35",
-      "instance": "From what I know about Comedy Central specials - they're usually 30 minutes or they're usually 60 minutes - and usually they're not doing anything in between nor over, um, so what I want to ask you, then, is, um, how many minutes is this special?",
-      "bit":"Scott's Questions","elucidation":"(in progress) - scott's questions",
-      "tags": "",
-      "location_type": "",
-      "location_id": "",
-      "updated_at": "2018-03-06T12:54:49Z",
-      "url_soundcloud": null,
-      "created_at": "2018-03-06T12:54:49Z",
-      "slug_soundcloud": null,
-      "slug_earwolf": "pleats-please",
-      "episode_title": "Pleats, Please!",
-      "episode_guests": "Kurt Braunohler,Will Hines,Holly Prazoff",
-      "id_wikia": null,
-      "holding": "false"
+  {
+    "episode": 472,
+    "show": "cbb",
+    "tstart": "13:10",
+    "tend": "13:35",
+    "instance": "From what I know about Comedy Central specials - they're usually 30 minutes or they're usually 60 minutes - and usually they're not doing anything in between nor over, um, so what I want to ask you, then, is, um, how many minutes is this special?",
+    "bit":"Scott's Questions","elucidation":"(in progress) - scott's questions",
+    "tags": "",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2018-03-06T12:54:49Z",
+    "url_soundcloud": null,
+    "created_at": "2018-03-06T12:54:49Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "pleats-please",
+    "episode_title": "Pleats, Please!",
+    "episode_guests": "Kurt Braunohler,Will Hines,Holly Prazoff",
+    "id_wikia": null,
+    "holding": "false"
 }
 ,{
     "episode": 474,
@@ -38,5 +38,65 @@
     "episode_guests": "Gillian Jacobs,Paul Rust,Paul F. Tompkins",
     "id_wikia": null,
     "holding": "false"
+}
+,{
+    "episode": 476,
+    "show": "cbb",
+    "tstart": "1:18:26",
+    "tend": "1:18:54",
+    "instance": "It's a solo spinoff - there's no other Addams Family members.",
+    "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "tags": "Tracy Evigan,Addams Groove (song),MC Hammer,Felton Pilate,Vic Mizzy,Toluca Graves",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2018-03-14T12:25:25Z",
+    "url_soundcloud": null,
+    "created_at": "2018-03-14T12:25:25Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "the-evigan-way",
+    "episode_title": "The Evigan Way",
+    "episode_guests": "Ryan Gaul,Heidi Gardner,Jordan Black",
+    "id_wikia": null,
+    "holding": "false"
+}
+,{
+  "episode": 477,
+  "show": "cbb",
+  "tstart": "24:03",
+  "tend": "24:15",
+  "instance": "We're not gonna even answer mine?",
+  "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+  "tags": "John Lennon,Twist and Shout (song),Phil Medley,Bert Berns",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2018-03-14T15:35:48Z",
+  "url_soundcloud": null,
+  "created_at": "2018-03-14T15:35:48Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "two-fingers-wide",
+  "episode_title": "Two Fingers Wide",
+  "episode_guests": "American Football,Mike Hanford,Mary Holland,Tim Baltz",
+  "id_wikia": null,
+  "holding": "false"
+}
+,{
+  "episode": 477,
+  "show": "cbb",
+  "tstart": "24:20",
+  "tend": "24:45",
+  "instance": "Can you imagine being a person and leaving a comment?",
+  "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+  "tags": "John Lennon,Alison (song),Elvis Costello",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2018-03-14T15:35:48Z",
+  "url_soundcloud": null,
+  "created_at": "2018-03-14T15:35:48Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "two-fingers-wide",
+  "episode_title": "Two Fingers Wide",
+  "episode_guests": "American Football,Mike Hanford,Mary Holland,Tim Baltz",
+  "id_wikia": null,
+  "holding": "false"
 }
 ]
