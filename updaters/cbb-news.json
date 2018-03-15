@@ -18,8 +18,8 @@
     "episode_guests": "Kurt Braunohler,Will Hines,Holly Prazoff",
     "id_wikia": null,
     "holding": "false"
-}
-,{
+  }
+  ,{
     "episode": 474,
     "show": "cbb",
     "tstart": "3:00",
@@ -38,8 +38,8 @@
     "episode_guests": "Gillian Jacobs,Paul Rust,Paul F. Tompkins",
     "id_wikia": null,
     "holding": "false"
-}
-,{
+  }
+  ,{
     "episode": 476,
     "show": "cbb",
     "tstart": "1:18:26",
@@ -58,45 +58,85 @@
     "episode_guests": "Ryan Gaul,Heidi Gardner,Jordan Black",
     "id_wikia": null,
     "holding": "false"
-}
-,{
-  "episode": 477,
-  "show": "cbb",
-  "tstart": "24:03",
-  "tend": "24:15",
-  "instance": "We're not gonna even answer mine?",
-  "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
-  "tags": "John Lennon,Twist and Shout (song),Phil Medley,Bert Berns",
-  "location_type": "",
-  "location_id": "",
-  "updated_at": "2018-03-14T15:35:48Z",
-  "url_soundcloud": null,
-  "created_at": "2018-03-14T15:35:48Z",
-  "slug_soundcloud": null,
-  "slug_earwolf": "two-fingers-wide",
-  "episode_title": "Two Fingers Wide",
-  "episode_guests": "American Football,Mike Hanford,Mary Holland,Tim Baltz",
-  "id_wikia": null,
-  "holding": "false"
-}
-,{
-  "episode": 477,
-  "show": "cbb",
-  "tstart": "24:20",
-  "tend": "24:45",
-  "instance": "Can you imagine being a person and leaving a comment?",
-  "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
-  "tags": "John Lennon,Alison (song),Elvis Costello",
-  "location_type": "",
-  "location_id": "",
-  "updated_at": "2018-03-14T15:35:48Z",
-  "url_soundcloud": null,
-  "created_at": "2018-03-14T15:35:48Z",
-  "slug_soundcloud": null,
-  "slug_earwolf": "two-fingers-wide",
-  "episode_title": "Two Fingers Wide",
-  "episode_guests": "American Football,Mike Hanford,Mary Holland,Tim Baltz",
-  "id_wikia": null,
-  "holding": "false"
-}
+  }
+  ,{
+    "episode": 477,
+    "show": "cbb",
+    "tstart": "24:03",
+    "tend": "24:15",
+    "instance": "We're not gonna even answer mine?",
+    "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "tags": "John Lennon,Twist and Shout (song),Phil Medley,Bert Berns",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2018-03-14T15:35:48Z",
+    "url_soundcloud": null,
+    "created_at": "2018-03-14T15:35:48Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "two-fingers-wide",
+    "episode_title": "Two Fingers Wide",
+    "episode_guests": "American Football,Mike Hanford,Mary Holland,Tim Baltz",
+    "id_wikia": null,
+    "holding": "false"
+  }
+  ,{
+    "episode": 477,
+    "show": "cbb",
+    "tstart": "24:20",
+    "tend": "24:45",
+    "instance": "Can you imagine being a person and leaving a comment?",
+    "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "tags": "John Lennon,Alison (song),Elvis Costello",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2018-03-14T15:35:48Z",
+    "url_soundcloud": null,
+    "created_at": "2018-03-14T15:35:48Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "two-fingers-wide",
+    "episode_title": "Two Fingers Wide",
+    "episode_guests": "American Football,Mike Hanford,Mary Holland,Tim Baltz",
+    "id_wikia": null,
+    "holding": "false"
+  }
+  ,{
+    "episode": 478,
+    "show": "cbb",
+    "tstart": "9:25",
+    "tend": "9:39",
+    "instance": "What's that like - were there tears? Were there beers?",
+    "bit":"Scott's Questions","elucidation":"(in progress) - scott's questions",
+    "tags": "",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2018-03-15T09:09:01Z",
+    "url_soundcloud": null,
+    "created_at": "2018-03-15T09:09:01Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "spank-me-with-a-feather",
+    "episode_title": "Spank Me With A Feather!",
+    "episode_guests": "Kristian Bruun, Tatiana Maslany, Paul F. Tompkins, Mary Holland, Lauren Lapkus",
+    "id_wikia": null,
+    "holding": "false"
+  }
+  ,{
+    "episode": 478,
+    "show": "cbb",
+    "tstart": "9:25",
+    "tend": "9:39",
+    "instance": "That's a predictsh.",
+    "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "tags": "Everybody Wants to Rule the World (song),Tears for Fears (musical combination)",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2018-03-15T09:09:01Z",
+    "url_soundcloud": null,
+    "created_at": "2018-03-15T09:09:01Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "spank-me-with-a-feather",
+    "episode_title": "Spank Me With A Feather!",
+    "episode_guests": "Kristian Bruun, Tatiana Maslany, Paul F. Tompkins, Mary Holland, Lauren Lapkus",
+    "id_wikia": null,
+    "holding": "false"
+  }
 ]
