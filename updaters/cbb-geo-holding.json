@@ -1,68 +1,90 @@
-Alamo Draft House
-site of: Gino Lambardo watching 'Blind Spot'
-{
-    "episode": 536,
+Joliet, Illinois
+home city of: Janine Blackwell
+
+,{
+    "episode": 537,
     "show": "cbb",
-    "tstart": "3:53",
-    "tend": "4:14",
-    "instance": "It's just a woman, tatted-up, facing away from the camera for an hour.",
+    "tstart": "32:24",
+    "tend": "32:38",
+    "instance": "What is this, an improv troupe?",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Gino Lambardo",
+    "tags": "Janine Blackwell",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2018-03-16T11:30:26Z",
+    "updated_at": "2018-03-19T11:43:38Z",
     "url_soundcloud": null,
-    "created_at": "2018-03-16T11:30:26Z",
+    "created_at": "2018-03-19T11:43:38Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "live-from-sxsw-2018",
-    "episode_title": "Live from SXSW 2018",
-    "episode_guests": "Tatiana Maslany,Jon Gabrus,Lauren Lapkus,Paul Scheer,James Adomian",
+    "slug_earwolf": "silly-cone-valley-poo-crew-minus-one",
+    "episode_title": "Silly Cone Valley Poo Crew Minus One",
+    "episode_guests": "Thomas Middleditch,Martin Starr",
     "id_wikia": null,
     "holding": "false"
 }
 
-VICELAND party lot (98 Red River St., Austin, tx)
-site of: Gino Lambardo fucking a horse
-{
-    "episode": 536,
+,{
+    "episode": 537,
     "show": "cbb",
-    "tstart": "53:03",
-    "tend": "53:28",
-    "instance": "You know somebody goes to Westworld to fuck the horses, right?",
+    "tstart": "55:50",
+    "tend": "56:24",
+    "instance": "I have decided to dig up all the graves of my dead kids, grind the bones into a fine powder, and sprinkle them all over the streets of Chicago.",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Gino Lambardo,Scott Jeffries,Scott's Nephew Todd",
+    "tags": "Janine Blackwell",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2018-03-16T11:30:26Z",
+    "updated_at": "2018-03-19T11:43:38Z",
     "url_soundcloud": null,
-    "created_at": "2018-03-16T11:30:26Z",
+    "created_at": "2018-03-19T11:43:38Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "live-from-sxsw-2018",
-    "episode_title": "Live from SXSW 2018",
-    "episode_guests": "Tatiana Maslany,Jon Gabrus,Lauren Lapkus,Paul Scheer,James Adomian",
+    "slug_earwolf": "silly-cone-valley-poo-crew-minus-one",
+    "episode_title": "Silly Cone Valley Poo Crew Minus One",
+    "episode_guests": "Thomas Middleditch,Martin Starr",
     "id_wikia": null,
     "holding": "false"
 }
 
-Roosevelt Field Mall: Time Out Arcade (-73.611432,40.738602)
-site of: Gino Lambardo, left alone when Terminator 2 came out
-{
-    "episode": 536,
+Berlin, Germany
+permanent residence of: Janine Blackwell's first husband
+,{
+    "episode": 537,
     "show": "cbb",
-    "tstart": "1:17:00",
-    "tend": "1:17:23",
-    "instance": "My dad did the same thing for me when 'Terminator 2' came out.",
+    "tstart": "39:30",
+    "tend": "39:57",
+    "instance": "Why can't you hold down a man?",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Gino Lambardo,Scott's Nephew Todd,Scott Jeffries",
+    "tags": "Janine Blackwell",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2018-03-16T11:30:26Z",
+    "updated_at": "2018-03-19T11:43:38Z",
     "url_soundcloud": null,
-    "created_at": "2018-03-16T11:30:26Z",
+    "created_at": "2018-03-19T11:43:38Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "live-from-sxsw-2018",
-    "episode_title": "Live from SXSW 2018",
-    "episode_guests": "Tatiana Maslany,Jon Gabrus,Lauren Lapkus,Paul Scheer,James Adomian",
+    "slug_earwolf": "silly-cone-valley-poo-crew-minus-one",
+    "episode_title": "Silly Cone Valley Poo Crew Minus One",
+    "episode_guests": "Thomas Middleditch,Martin Starr",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+downhill biking near Jacksonville, WY
+site of: Janine Blackwell's second husband's tragic downhill bicycling accident
+,{
+    "episode": 537,
+    "show": "cbb",
+    "tstart": "40:05",
+    "tend": "40:29",
+    "instance": "What about husband #2?",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": "Janine Blackwell",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2018-03-19T11:43:38Z",
+    "url_soundcloud": null,
+    "created_at": "2018-03-19T11:43:38Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "silly-cone-valley-poo-crew-minus-one",
+    "episode_title": "Silly Cone Valley Poo Crew Minus One",
+    "episode_guests": "Thomas Middleditch,Martin Starr",
     "id_wikia": null,
     "holding": "false"
 }
