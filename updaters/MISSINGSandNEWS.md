@@ -414,6 +414,7 @@
 	* 316,0:45(paywall)
 	* 323,1:20(paywall)
 	* 353,3:45(pw)
+	* 537,00:35
 * german germany cannibalism
 	* 59,42:45 (inaugural)
 	* 429,1:06:45(pw)
@@ -645,6 +646,7 @@
 	* 183,40+
 	* 215,1:04:00+
 	* 378,kroll does mailer,live,fabrice,others
+	* 537,53:45
 * rounds of catchphrase
 * all the cities of the country
 	* 404,16:00
