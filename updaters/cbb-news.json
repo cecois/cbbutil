@@ -18,8 +18,8 @@
     "episode_guests": "Kurt Braunohler,Will Hines,Holly Prazoff",
     "id_wikia": null,
     "holding": "false"
-  }
-  ,{
+}
+,{
     "episode": 474,
     "show": "cbb",
     "tstart": "3:00",
@@ -38,8 +38,8 @@
     "episode_guests": "Gillian Jacobs,Paul Rust,Paul F. Tompkins",
     "id_wikia": null,
     "holding": "false"
-  }
-  ,{
+}
+,{
     "episode": 476,
     "show": "cbb",
     "tstart": "1:18:26",
@@ -58,8 +58,8 @@
     "episode_guests": "Ryan Gaul,Heidi Gardner,Jordan Black",
     "id_wikia": null,
     "holding": "false"
-  }
-  ,{
+}
+,{
     "episode": 477,
     "show": "cbb",
     "tstart": "24:03",
@@ -78,8 +78,8 @@
     "episode_guests": "American Football,Mike Hanford,Mary Holland,Tim Baltz",
     "id_wikia": null,
     "holding": "false"
-  }
-  ,{
+}
+,{
     "episode": 477,
     "show": "cbb",
     "tstart": "24:20",
@@ -98,8 +98,8 @@
     "episode_guests": "American Football,Mike Hanford,Mary Holland,Tim Baltz",
     "id_wikia": null,
     "holding": "false"
-  }
-  ,{
+}
+,{
     "episode": 478,
     "show": "cbb",
     "tstart": "9:25",
@@ -115,11 +115,11 @@
     "slug_soundcloud": null,
     "slug_earwolf": "spank-me-with-a-feather",
     "episode_title": "Spank Me With A Feather!",
-    "episode_guests": "Kristian Bruun, Tatiana Maslany, Paul F. Tompkins, Mary Holland, Lauren Lapkus",
+    "episode_guests": "Kristian Bruun,Tatiana Maslany,Paul F. Tompkins,Mary Holland,Lauren Lapkus",
     "id_wikia": null,
     "holding": "false"
-  }
-  ,{
+}
+,{
     "episode": 478,
     "show": "cbb",
     "tstart": "9:25",
@@ -135,8 +135,48 @@
     "slug_soundcloud": null,
     "slug_earwolf": "spank-me-with-a-feather",
     "episode_title": "Spank Me With A Feather!",
-    "episode_guests": "Kristian Bruun, Tatiana Maslany, Paul F. Tompkins, Mary Holland, Lauren Lapkus",
+    "episode_guests": "Kristian Bruun,Tatiana Maslany,Paul F. Tompkins,Mary Holland,Lauren Lapkus",
     "id_wikia": null,
     "holding": "false"
-  }
+}
+,{
+  "episode": 479,
+  "show": "cbb",
+  "tstart": "46:24",
+  "tend": "46:38",
+  "instance": "I mean the remix was a big hit.",
+  "bit": "Fantastic.","elucidation": "one of scott's 25 words",
+  "tags": "Richard Bunn",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2018-03-20T08:23:22Z",
+  "url_soundcloud": null,
+  "created_at": "2018-03-20T08:23:22Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "the-bunn-process",
+  "episode_title": "The Bunn Process",
+  "episode_guests": "Gerry Duggan,Paul Brittain,Kirby Howell-Baptiste",
+  "id_wikia": null,
+  "holding": "false"
+}
+,{
+  "episode": 480,
+  "show": "cbb",
+  "tstart": "0:25",
+  "tend": "0:35",
+  "instance": "Once I was afraid I was petrified \\ but now I'm in the natural history museum.",
+  "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+  "tags": "Gloria Gaynor,I Will Survive (song),Freddie Perren,Dino Fekaris",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2018-03-20T15:23:39Z",
+  "url_soundcloud": null,
+  "created_at": "2018-03-20T15:23:39Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "tooth-of-the-sea",
+  "episode_title": "Tooth of the Sea",
+  "episode_guests": "Jane Lynch,Kate Mines,Paul Witten,Drew Tarver,Madeline Walter",
+  "id_wikia": null,
+  "holding": "false"
+}
 ]

@@ -172,6 +172,7 @@
 * 44,43:10,that was broad comedy (i'll say it was)
 * 44,45:13,he's performing some dirty business
 * 46,45:00,where was conan going with that?
+* 46,50:00(?pw),you like people better than corpses, right?
 * 55,27:56,You should do that as a profession - just make up funny names.
 * 94,37:09,now if that doesn’t go so good
 * 94,25:16,i used to operate a b&b

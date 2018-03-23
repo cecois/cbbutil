@@ -416,7 +416,7 @@
 	* 353,3:45(pw)
 	* 537,00:35
 * german germany cannibalism
-	* 59,42:45 (inaugural)
+	* 59,42:25 (pw)
 	* 429,1:06:45(pw)
 	* bo2010,46:50
 	* 137,3:30
@@ -1363,6 +1363,7 @@
 	* 183,6:00,www.spookyguyz.com
 	* 183,1:12:20,spookyguyz.com
 	* 183,37:50,sillyguyz.com
+	* 46,45:00(rough estim - pw),ice_t.blogspot.com
 * shallatoo (maxwell keeper's new catchphrase)
 	* 483,several
 	* 483,18:10

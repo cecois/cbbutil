@@ -1,90 +1,22 @@
-Joliet, Illinois
-home city of: Janine Blackwell
-
-,{
-    "episode": 537,
-    "show": "cbb",
-    "tstart": "32:24",
-    "tend": "32:38",
-    "instance": "What is this, an improv troupe?",
-    "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Janine Blackwell",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2018-03-19T11:43:38Z",
-    "url_soundcloud": null,
-    "created_at": "2018-03-19T11:43:38Z",
-    "slug_soundcloud": null,
-    "slug_earwolf": "silly-cone-valley-poo-crew-minus-one",
-    "episode_title": "Silly Cone Valley Poo Crew Minus One",
-    "episode_guests": "Thomas Middleditch,Martin Starr",
-    "id_wikia": null,
-    "holding": "false"
-}
-
-,{
-    "episode": 537,
-    "show": "cbb",
-    "tstart": "55:50",
-    "tend": "56:24",
-    "instance": "I have decided to dig up all the graves of my dead kids, grind the bones into a fine powder, and sprinkle them all over the streets of Chicago.",
-    "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Janine Blackwell",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2018-03-19T11:43:38Z",
-    "url_soundcloud": null,
-    "created_at": "2018-03-19T11:43:38Z",
-    "slug_soundcloud": null,
-    "slug_earwolf": "silly-cone-valley-poo-crew-minus-one",
-    "episode_title": "Silly Cone Valley Poo Crew Minus One",
-    "episode_guests": "Thomas Middleditch,Martin Starr",
-    "id_wikia": null,
-    "holding": "false"
-}
-
-Berlin, Germany
-permanent residence of: Janine Blackwell's first husband
-,{
-    "episode": 537,
-    "show": "cbb",
-    "tstart": "39:30",
-    "tend": "39:57",
-    "instance": "Why can't you hold down a man?",
-    "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Janine Blackwell",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2018-03-19T11:43:38Z",
-    "url_soundcloud": null,
-    "created_at": "2018-03-19T11:43:38Z",
-    "slug_soundcloud": null,
-    "slug_earwolf": "silly-cone-valley-poo-crew-minus-one",
-    "episode_title": "Silly Cone Valley Poo Crew Minus One",
-    "episode_guests": "Thomas Middleditch,Martin Starr",
-    "id_wikia": null,
-    "holding": "false"
-}
-
-downhill biking near Jacksonville, WY
-site of: Janine Blackwell's second husband's tragic downhill bicycling accident
-,{
-    "episode": 537,
-    "show": "cbb",
-    "tstart": "40:05",
-    "tend": "40:29",
-    "instance": "What about husband #2?",
-    "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Janine Blackwell",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2018-03-19T11:43:38Z",
-    "url_soundcloud": null,
-    "created_at": "2018-03-19T11:43:38Z",
-    "slug_soundcloud": null,
-    "slug_earwolf": "silly-cone-valley-poo-crew-minus-one",
-    "episode_title": "Silly Cone Valley Poo Crew Minus One",
-    "episode_guests": "Thomas Middleditch,Martin Starr",
-    "id_wikia": null,
-    "holding": "false"
+Melrose @ Gower (-118.322182,34.083525)
+site of: Danny Mahoney accosting S. Aukerman on the sidewalk
+{
+  "episode": 14,
+  "show": "cbb",
+  "tstart": "18:00",
+  "tend": "18:45",
+  "instance": "Whenever I say something on the street someone's ears will prick up.",
+  "bit":"Location","elucidation":"identifiable earth location",
+  "tags": "Danny Mahoney",
+  "location_type": "",
+  "location_id": "",
+  "updated_at": "2018-03-22T12:00:52Z",
+  "url_soundcloud": null,
+  "created_at": "2018-03-22T12:00:52Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "an-old-fashioned-dinner",
+  "episode_title": "An Old Fashioned Dinner",
+  "episode_guests": "Zach Galifianakis,Andy Samberg,Andy Daly,Doug Benson",
+  "id_wikia": null,
+  "holding": "false"
 }
