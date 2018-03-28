@@ -198,6 +198,9 @@
 	* 141,49:10
 	* 145,9:30oyn
 	* 228,16:00(howl)
+* cut - least favorite word
+	* (many)
+	* 538,21:00
 * c+ - the highest grade
 	* 362,6:15(pw)
 	* 366,23:00(pw)
