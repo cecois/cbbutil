@@ -30,7 +30,7 @@ var main = async () =>{
 
 		var ln = process.argv[2]
 
-		if(__.contains(['news','live','fake','fantastic'],ln)!==true){
+		if(__.contains(['news','live','fake','fantastic','adds'],ln)!==true){
 			throw("typo prolly");
 			process.exit();
 } else {
