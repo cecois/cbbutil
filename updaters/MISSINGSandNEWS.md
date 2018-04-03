@@ -2,11 +2,11 @@
 
 0. clean up nephew todd tag, "tiny reviews music" eluc
 1. jarles
-2. len wiseman
-2. gino's commuter map
-3. URLs
 4. clumsy portmanteau
 5. lapkus can't make it through a song
+2. gino's commuter map
+2. len wiseman
+3. URLs
 3. literally nowhere else
 4. germany cannibalism
 5. icona pop
@@ -52,6 +52,7 @@
 	* 447,36:38(pw)
 	* 447,48:15(pw)
 	* 447,1:06:35(pw)
+	* live-from-vulture-fest-2017,1:20:00
 * whistling pete
 	* 372,44:00(pw)
 	* 372,1:03:00(pw)
@@ -69,8 +70,8 @@
 	  * ~~451,36:40(pw)~~
 	  * ~~498,51:10(added)~~
 	  * ~~500,2:08~~
-	  * 522,9:00
-	  * bo2017.1,1:00:45
+	  * ~~522,9:00~~
+	  * ~~bo2017.1,1:00:45~~
 * batman the ride
 	* 522,3:50
 * we're really gonna probe his psyche (in-depth - wtf - actors pain)
@@ -167,6 +168,8 @@
 	* 307,45:20
 	* 318,28:40(paywall)
 	* 356,2:15(pw)
+	* 539,13:20(pw)
+	* 307,45:25(pw)
 * hot shit/cold diahrrea
 	* 479,42:45(howl - w/ ads)
 * mike the janitor's mantra
@@ -930,6 +933,7 @@
 	* bo2017.4,3:03:00
 	* 536,16:00
 	* 536,19:50
+	* http://howl.fm/audio/46644/live-from-vulture-fest-2017,39:29(pw)
 * gershwin, my baby
 	* 400, multiple
 	* 400, ~28:30
@@ -1089,15 +1093,10 @@
 	* 349,22:50(pw)
 	* 349,30:00(pw)
 * clumsy portmanteau
-	* 2016.tour al peterson
-	* 440,44:40
-	* 438,30:50(pw)
-	* 438,31:15(pw)
-	* 439,34:45
-	* 439,41:30(pw)
-	* 439,55:00
-	* 463,15:50(pw)
-	* 485,1:03:35(ads)
+	* ~~438,30:50(pw)~~
+	* ~~463,15:50(pw)~~
+	* ~~485,1:03:35(ads)~~
+	* ~~2016.tour al peterson~~
 * a little buzz
 	* 440,52:50(pw)
 	* 301,49:30(paywall)
@@ -1245,7 +1244,9 @@
 	* 270,8:55(howl)
 	* 270,44:25(howl)
 	* 258,4:30(howl)
-	* 259,1:30:30(howl)
+	* 259,44:10(stitcher)
+	* 259,60:30(stitcher)
+	* 259,1:30:30(stitcher)
 	* 256,1:14:00(howl)
 	* 256,22:10(howl)
 	* 254,52:30(howl)
@@ -1385,3 +1386,5 @@
 	* 532,1:40
 	* 536,1:45
 	* 536,24:45
+theatre tunnels
+	* http://howl.fm/audio/46644/live-from-vulture-fest-2017,21:30(stitcher)
