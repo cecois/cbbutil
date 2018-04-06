@@ -559,4 +559,80 @@
     "id_wikia": null,
     "holding": "false"
 }
+,{
+    "episode": "http://howl.fm/audio/46644/live-from-vulture-fest-2017",
+    "show": "cbb",
+    "tstart": "51:45",
+    "tend": "52:17",
+    "instance": "I went to sleep underneath the stairway in my Harry Potter bedroom on my aerobed that has a hole in it.",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": "Marisa Wompler,Charlotte Listler,Smooth Criminal Al A. Peterson",
+    "location_type": "poly","location_id": "508",
+    "updated_at": "2018-03-30T14:15:25Z",
+    "url_soundcloud": null,
+    "created_at": "2018-03-30T14:15:25Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "live-from-vulture-fest-2017",
+    "episode_title": "Live from Vulture Fest 2017",
+    "episode_guests": "Paul F. Tompkins,Lauren Lapkus,Lennon Parham,Jessica St. Clair,Anthony Atamanuik,John Gemberling,Ryan Gaul,Drew Tarver",
+    "id_wikia": null,
+    "holding": "false"
+}
+,{
+    "episode": "http://howl.fm/audio/46644/live-from-vulture-fest-2017",
+    "show": "cbb",
+    "tstart": "1:01:30",
+    "tend": "1:02:27",
+    "instance": "I ought to shake your hand right back down to that chair.",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": "Marisa Wompler,Charlotte Listler,Smooth Criminal Al A. Peterson",
+    "location_type": "poly","location_id": "509",
+    "updated_at": "2018-03-30T14:15:25Z",
+    "url_soundcloud": null,
+    "created_at": "2018-03-30T14:15:25Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "live-from-vulture-fest-2017",
+    "episode_title": "Live from Vulture Fest 2017",
+    "episode_guests": "Paul F. Tompkins,Lauren Lapkus,Lennon Parham,Jessica St. Clair,Anthony Atamanuik,John Gemberling,Ryan Gaul,Drew Tarver",
+    "id_wikia": null,
+    "holding": "false"
+}
+,{
+    "episode": "http://howl.fm/audio/46644/live-from-vulture-fest-2017",
+    "show": "cbb",
+    "tstart": "1:08:30",
+    "tend": "1:09:10",
+    "instance": "Back then it was a great table.",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": "George Burns,Gracie Allen,Freddy Krueger,Candyman,Jason Voorhees",
+    "location_type": "point","location_id": "903",
+    "updated_at": "2018-03-30T14:15:25Z",
+    "url_soundcloud": null,
+    "created_at": "2018-03-30T14:15:25Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "live-from-vulture-fest-2017",
+    "episode_title": "Live from Vulture Fest 2017",
+    "episode_guests": "Paul F. Tompkins,Lauren Lapkus,Lennon Parham,Jessica St. Clair,Anthony Atamanuik,John Gemberling,Ryan Gaul,Drew Tarver",
+    "id_wikia": null,
+    "holding": "false"
+}
+,{
+    "episode": "http://howl.fm/audio/46644/live-from-vulture-fest-2017",
+    "show": "cbb",
+    "tstart": "1:17:45",
+    "tend": "1:18:02",
+    "instance": "So she flipped those flappers, we went straight up to the top of the ocean, found oursleves in an apartment off of La Brea & Fountain.",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": "George Burns,Gracie Allen",
+    "location_type": "point","location_id": "904",
+    "updated_at": "2018-03-30T14:15:25Z",
+    "url_soundcloud": null,
+    "created_at": "2018-03-30T14:15:25Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "live-from-vulture-fest-2017",
+    "episode_title": "Live from Vulture Fest 2017",
+    "episode_guests": "Paul F. Tompkins,Lauren Lapkus,Lennon Parham,Jessica St. Clair,Anthony Atamanuik,John Gemberling,Ryan Gaul,Drew Tarver",
+    "id_wikia": null,
+    "holding": "false"
+}
 ]
