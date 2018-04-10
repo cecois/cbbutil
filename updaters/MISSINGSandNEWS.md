@@ -1,6 +1,7 @@
 # possible new bits:
 
 0. clean up nephew todd tag, "tiny reviews music" eluc
+1. fix "Regina Krimp" vs. "Crimp"
 1. jarles
 4. clumsy portmanteau
 5. lapkus can't make it through a song
@@ -59,6 +60,7 @@
 	* 388,27:30(pw)
 	* 411,4:00(pw)
 	* 419,40:38(pw)
+	* may-20-chicago-athenaeum-theatre-7-pm,1:09:00(pw)
 * classic jarles
 	  * ~~342,12:50~~
 	  * ~~344,30:20(pw)~~
@@ -349,15 +351,17 @@
 	* 323,1:20(paywall)
 	* 353,3:45(pw)
 	* 537,00:35
-* german germany cannibalism
+* german craigslist
 	* 59,42:25 (pw)
 	* 429,1:06:45(pw)
+	* 540,1:20:40(pw)
 	* bo2010,46:50
 	* 137,3:30
 	* 138,21:34
 	* 173,6:50
 	* 401,46:30(pw)
 	* 478,50:00(pw)
+	* 540,32:30(pw)
 * one toilet per person
 	* 2016.nottingham,25:45
 	* 2016.chicago7,39:20
@@ -407,7 +411,7 @@
 	* 2016.shepherds,1:29:20
 * PJ
 	* basically every 2016 tour stop
-	* 2016.tarrytown,1:20:40
+	* 2016.tarrytown,1:20:40(pw)
 	* 2016.oakland,54:45
 	* 2016.portland10,24:42
 	* 2016.nyc05157pm,1:05:45
@@ -419,6 +423,7 @@
 * \#1 with a bullet
 	* 2016.denver,10:00
 	* 2016.toronto,41:00
+	* 540,25:20(pw)
 	* 508,1:24:10(commercialed)
 	* 382,40:00(pw)
 	* 386,40:50(pw)
@@ -448,37 +453,31 @@
 	* 457,33:50(pw)
 	* 457,38:45(pw)
 * lapkus can't make it through a song
-	* 2016.tarrytown,5:00
-	* 2016.tarrytown,4:46
-	* 2016.tarrytown,14:23
-	* 2016.tarrytown,40:39
-	* 2016.tarrytown,41:10
+	* ~~2016.tarrytown,5:00~~
+	* ~~2016.tarrytown,4:46~~
+	* ~~2016.tarrytown,14:23~~
+	* ~~2016.tarrytown,40:39~~
+	* ~~2016.tarrytown,41:10~~
+	* ~~2016.nyc0514930,07:45~~
+	* ~~2016.nyc0514930,12:04~~
+	* ~~2016.nyc0514930,16:54~~
 	* 2016.detroit,53:37
 	* 2016.tour,lots
-	* 2016.chicago10,47:30
-	* 2016.chicago10,47:00
-	* 2016.chicago7pm,1:22:18
-	* tarrytown 2016,4:46
-	* tarrytown.2016,51:55
-	* tarrytown.2016,56:00
-	* tarrytown.2016,57:15
-	* tarrytown.2016,1:16:20
-	* 2016.nyc0514930,07:45
-	* 2016.nyc0514930,12:04
-	* 2016.nyc0514930,16:54
-	* 2016.nyc0514930,27:30
-	* 259,18:10(howl)
-	* 259,39:40(howl)
-	* 259,44:35(howl)
-	* 259,1:11:30(howl)
-	* 485,49:00(ads)
-	* 485,57:15(ads)
-	* 485,1:31:25(ads)
-	* 485,1:32:30(ads)
-	* 485,1:54:47(ads)
-	* 307,43:20
-	* 307,1:02:40
-	* 385,45:00(pw)
+	* ~~2016.chicago10,47:30~~
+	* ~~2016.chicago10,47:00~~
+	* ~~2016.chicago7pm,1:22:18~~
+	* ~~259,18:10(howl)~~
+	* ~~259,39:40(howl)~~
+	* ~~259,44:35(howl)~~
+	* ~~259,1:11:30(howl)~~
+	* ~~485,49:00(ads)~~
+	* ~~485,57:15(ads)~~
+	* ~~485,1:31:25(ads)~~
+	* ~~485,1:32:30(ads)~~
+	* ~~485,1:54:47(ads)~~
+	* ~~307,43:20~~
+	* ~~307,1:02:40~~
+	* ~~385,45:00(pw)~~
 * hollywood facts
 	* lots
 	* 519,1:41:00(commercialed)
@@ -516,9 +515,10 @@
 	* that time he wz in the met life blimp
 	* 51,24:00
 * len wiseman's self description (good looking guy etc.)
-	* 2016.tarrytown,20:30
-	* 2016.tarrytown,40:00
-	* 2016.tarrytown,44:00
+	* 2016.tarrytown,20:00(pw)
+	* 2016.tarrytown,33:40(pw)
+	* 2016.tarrytown,40:00(pw)
+	* 2016.tarrytown,43:50(pw)
 	* bo2015.1,1:55:45(pw)
 	* 408,28:45(pw)
 	* 411,29:00(pw)
@@ -670,7 +670,7 @@
 	* lotsa cakeboss/pft eps
 	* 2016.nyc05147pm,59:30,church lady
 	* 2016.chicago730,17:20
-	* 2016.detroit,40:50
+	* 2016.detroit,40:50(pw)
 	* 67,32:00 (inaugural)
 	* 106.1,51:00
 	* 106.2,4:30
@@ -875,7 +875,7 @@
 	* 514,1:36:00
 	* 398,1:08:00
 	* 399,1:07:50
-	* 2016.chicago10,27:30
+	* 2016.chicago10,27:30(pw)
 	* 428,14:00(pw)
 	* 2016.leeds,25:32
 	* 179,54:20
@@ -892,7 +892,7 @@
 	* bo2017.1,2:22:00
 * that sounds good to me
 	* 2015 BOs?
-	* 2016.chicago10,28:00
+	* 2016.chicago10,28:00(pw)
 	* 2016.chicago10,31:00
 	* 2016.denver,22:30
 	* 2016.denver,1:12:20
@@ -934,6 +934,7 @@
 	* 536,16:00
 	* 536,19:50
 	* http://howl.fm/audio/46644/live-from-vulture-fest-2017,39:29(pw)
+	* http://howl.fm/audio/41284/may-4-tarrytown-ny-tarrytown-music-hall,18:00(pw)
 * gershwin, my baby
 	* 400, multiple
 	* 400, ~28:30
@@ -1074,7 +1075,7 @@
 	* 2016.minneapolis,30:50 (not sure now)
 	* 131,33:00
 	* 2016.chicago7pm,30:55
-	* 2016.chicago10,54:50
+	* 2016.chicago10,54:50(pw)
 	* 164,46:30
 	* 325,58:50(paywall)
 	* 494,1:13:30
