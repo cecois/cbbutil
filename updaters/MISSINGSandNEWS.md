@@ -2,9 +2,9 @@
 
 0. clean up nephew todd tag, "tiny reviews music" eluc
 1. fix "Regina Krimp" vs. "Crimp"
-1. jarles
-4. clumsy portmanteau
-5. lapkus can't make it through a song
+1. ~~jarles~~
+4. ~~clumsy portmanteau~~
+5. ~~lapkus can't make it through a song~~
 2. gino's commuter map
 2. len wiseman
 3. URLs
@@ -684,6 +684,7 @@
 	* bo2017.4,2:22:20
 * huell turns into a crowbot
 	* 29,51:48
+	* 85,1:00(pw)
 	* howl.fm in DC,36:00
 	* 502,24:00
 	* bo2009,38:00
@@ -1126,6 +1127,7 @@
 * biodigital jazz
 	* several prior to 101
 	* 101,1:08:00
+	* bo2010,1:00(pw)
 * queue the music
 	* 2016.tour.bos10,43:00
 	* mike the janitor/bachelor bros ep
