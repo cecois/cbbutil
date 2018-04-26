@@ -1,114 +1,65 @@
-Russia
-site of: the birth of Leonard Stooltap's head
+Melrose & Vine Mini-Mart -118.326983,34.083296
+proxy for: the Texaco (and/or Volero) gas station where The Yonkers Globetrotters do some passing stuff
 ,{
-    "episode": 541,
+    "episode": 542,
     "show": "cbb",
-    "tstart": "27:40",
-    "tend": "28:09",
-    "instance": "I'm very, very posh.",
+    "tstart": "1:08:10",
+    "tend": "1:09:04",
+    "instance": "Right now we're on our gas stations tour.",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Leonard Stooltap",
-    "location_type": "",
+    "tags": "Mary Berry,Bertrand 'Sweet Sauce' Gilmore",
+    "location_type": "point",
     "location_id": "",
-    "updated_at": "2018-04-17T08:10:43Z",
+    "updated_at": "2018-04-23T08:31:37Z",
     "url_soundcloud": null,
-    "created_at": "2018-04-17T08:10:43Z",
+    "created_at": "2018-04-23T08:31:37Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "is-that-a-joke",
-    "episode_title": "Is That a Joke?",
-    "episode_guests": "Thomas Middleditch,Ben Schwartz",
+    "slug_earwolf": "big-ben-minus-ten",
+    "episode_title": "Big Ben Minus Ten",
+    "episode_guests": "Phoebe Robinson,Madeline Walter,Ronnie Adrian",
     "id_wikia": null,
     "holding": "false"
 }
 
-Amsterdam
-site of: the birth of Leonard Stooltap's legs
 ,{
-    "episode": 541,
+    "episode": 542,
     "show": "cbb",
-    "tstart": "27:40",
-    "tend": "28:09",
-    "instance": "I'm very, very posh.",
+    "tstart": "1:16:20",
+    "tend": "1:17:14",
+    "instance": "Alright, so an off-brand gas station.",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Leonard Stooltap",
-    "location_type": "",
+    "tags": "Mary Berry,Bertrand 'Sweet Sauce' Gilmore",
+    "location_type": "point",
     "location_id": "",
-    "updated_at": "2018-04-17T08:10:43Z",
+    "updated_at": "2018-04-23T08:31:37Z",
     "url_soundcloud": null,
-    "created_at": "2018-04-17T08:10:43Z",
+    "created_at": "2018-04-23T08:31:37Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "is-that-a-joke",
-    "episode_title": "Is That a Joke?",
-    "episode_guests": "Thomas Middleditch,Ben Schwartz",
+    "slug_earwolf": "big-ben-minus-ten",
+    "episode_title": "Big Ben Minus Ten",
+    "episode_guests": "Phoebe Robinson,Madeline Walter,Ronnie Adrian",
     "id_wikia": null,
     "holding": "false"
 }
 
-Switzerland
-site of: the birth of Leonard Stooltap's body
+JACOBS UNION SERVICE, 8755 W 3RD ST, LOS ANGELES, CA, 90048
 ,{
-    "episode": 541,
+    "episode": 542,
     "show": "cbb",
-    "tstart": "27:40",
-    "tend": "28:09",
-    "instance": "Oh, I'm very posh.",
+    "tstart": "1:17:55",
+    "tend": "1:18:27",
+    "instance": "Speaking of Punk'd...",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Leonard Stooltap",
-    "location_type": "",
+    "tags": "Mary Berry,Bertrand 'Sweet Sauce' Gilmore,Ashton Kutcher",
+    "location_type": "point",
     "location_id": "",
-    "updated_at": "2018-04-17T08:10:43Z",
+    "updated_at": "2018-04-23T08:31:37Z",
     "url_soundcloud": null,
-    "created_at": "2018-04-17T08:10:43Z",
+    "created_at": "2018-04-23T08:31:37Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "is-that-a-joke",
-    "episode_title": "Is That a Joke?",
-    "episode_guests": "Thomas Middleditch,Ben Schwartz",
-    "id_wikia": null,
-    "holding": "false"
-}
-
-Coney Island Cyclone (801 Riegelmann Boardwalk, Brooklyn, NY 11224)
-home of: Slippy Daniels
-,{
-    "episode": 541,
-    "show": "cbb",
-    "tstart": "53:20",
-    "tend": "54:24",
-    "instance": "When Slippy gets into something, Slippy gets *into* something.",
-    "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Slippy Daniels,Jack Pot",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2018-04-17T08:10:43Z",
-    "url_soundcloud": null,
-    "created_at": "2018-04-17T08:10:43Z",
-    "slug_soundcloud": null,
-    "slug_earwolf": "is-that-a-joke",
-    "episode_title": "Is That a Joke?",
-    "episode_guests": "Thomas Middleditch,Ben Schwartz",
-    "id_wikia": null,
-    "holding": "false"
-}
-
-Tazmania
-site of: Slippy Daniels' and Jack Pot's summer camps for adults
-,{
-    "episode": 541,
-    "show": "cbb",
-    "tstart": "1:02:44",
-    "tend": "1:03:10",
-    "instance": "The camps are all used during the summer months.",
-    "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Slippy Daniels,Jack Pot",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2018-04-17T08:10:43Z",
-    "url_soundcloud": null,
-    "created_at": "2018-04-17T08:10:43Z",
-    "slug_soundcloud": null,
-    "slug_earwolf": "is-that-a-joke",
-    "episode_title": "Is That a Joke?",
-    "episode_guests": "Thomas Middleditch,Ben Schwartz",
+    "slug_earwolf": "big-ben-minus-ten",
+    "episode_title": "Big Ben Minus Ten",
+    "episode_guests": "Phoebe Robinson,Madeline Walter,Ronnie Adrian",
     "id_wikia": null,
     "holding": "false"
 }

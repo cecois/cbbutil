@@ -7,6 +7,7 @@
 5. ~~lapkus can't make it through a song~~
 2. gino's commuter map
 2. len wiseman
+3. retiring a train
 3. URLs
 3. literally nowhere else
 4. germany cannibalism
@@ -61,6 +62,7 @@
 	* 411,4:00(pw)
 	* 419,40:38(pw)
 	* may-20-chicago-athenaeum-theatre-7-pm,1:09:00(pw)
+	* melbourne2016,35:30
 * classic jarles
 	  * ~~342,12:50~~
 	  * ~~344,30:20(pw)~~
@@ -1122,6 +1124,7 @@
 	* 482,25:35(howl)
 	* 438,12:50(pw)
 	* 438,26:45(pw)
+	* sydney2016,58:00
 * stoppin up the jams
 	* 441,lotsa (inaugural)
 * biodigital jazz
@@ -1215,6 +1218,7 @@
 	* bo2017.2,2:19:45
 * urls
 	* 295,153,27:50
+	* 542,1:28:00
 	* 473,1:20:45(pw)
 	* 449,45:30(pw)
 	* 449,1:10:45(pw)
