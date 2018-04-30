@@ -17,6 +17,9 @@
 
 * video on demand
 	* 530,22:30
+* closing sentiment-off
+	* ??
+	* 543,17:00
 * content deleters
 	* 530,22:45
 	* other previous
@@ -646,6 +649,7 @@
 	* 448,13:48
 	* 461,8:45(pw)
 	* 461,1:05:10(pw)
+	* 543,33:00
 * muppets gonna eff?
 	* 2016.nottingham,53:20 (?)
 	* bo2015.2,1:33:00(pw)
