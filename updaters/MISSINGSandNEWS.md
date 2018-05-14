@@ -347,6 +347,7 @@
 	* http://howl.fm/audio/42018/may-21-detroit-royal-oak-music-theatre,37:30
 * thanks, reggie
 	* almost every ep at least thru 84
+	* 545,1:15(pw)
 	* 84,2:30
 	* 93,01:40
 	* 149,5:00
