@@ -307,3 +307,4 @@
 * 532,1:04:23,what if a bathroom floods over some jewels?
 * 532,1:39:40,we're done with chaka khan facts already?
 * sydney2016,1:10:25,did a doctor just wander onto the stage?
+* 548,1:01:30,you're like a shetland tupac
