@@ -1,67 +1,43 @@
-34 354 00050, Hempstead, NY 11550
--73.621007,40.705991
-proxy for: Hall Town; site of: reverse emancipations
+W Hollywood, 6250 Hollywood Boulevard, Hollywood, CA, 90028
+owned by: Bean Dip
+
 ,{
-    "episode": 551,
+    "episode": 552,
     "show": "cbb",
-    "tstart": "5:25",
-    "tend": "5:43",
-    "instance":"My dad is my former dad.",
+    "tstart": "56:30",
+    "tend": "56:51",
+    "instance":"And why The W, by the way?",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Gino Lambardo",
+    "tags": "Bean Dip",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2018-06-18T08:34:44Z",
+    "updated_at": "2018-06-24T09:55:35Z",
     "url_soundcloud": null,
-    "created_at": "2018-06-18T08:34:44Z",
+    "created_at": "2018-06-24T09:55:35Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "new-to-the-wax-with-the-sloppy-boys",
-    "episode_title": "New to the Wax with The Sloppy Boys",
-    "episode_guests": "Jon Gabrus,Jefferson Dutton,Mike Hanford,Shaun Diston,Tim Kalpakis",
+    "slug_earwolf": "hey-keep-readin",
+    "episode_title": "Hey, Keep Readin'",
+    "episode_guests": "Edi Patterson,Ryan Gaul,Weird Al Yankovic",
     "id_wikia": null,
     "holding": "false"
 }
 ,{
-    "episode": 551,
+    "episode": 552,
     "show": "cbb",
-    "tstart": "6:38",
-    "tend": "6:59",
-    "instance":"Yes we went to Hall Town and we got a divorce.",
+    "tstart": "1:13:35",
+    "tend": "1:13:46",
+    "instance":"Don't get it twisted.",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Gino Lambardo",
+    "tags": "Bean Dip",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2018-06-18T08:34:44Z",
+    "updated_at": "2018-06-24T09:55:35Z",
     "url_soundcloud": null,
-    "created_at": "2018-06-18T08:34:44Z",
+    "created_at": "2018-06-24T09:55:35Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "new-to-the-wax-with-the-sloppy-boys",
-    "episode_title": "New to the Wax with The Sloppy Boys",
-    "episode_guests": "Jon Gabrus,Jefferson Dutton,Mike Hanford,Shaun Diston,Tim Kalpakis",
-    "id_wikia": null,
-    "holding": "false"
-}
-
-
-Boardy Barn Montauk, 3510, 270 W Montauk Hwy, Hampton Bays, NY 11946
-site of: Gino Lambardo & John Lennon, once
-,{
-    "episode": 551,
-    "show": "cbb",
-    "tstart": "52:40",
-    "tend": "53:08",
-    "instance":"Quart of beers - you can poor em on your head.",
-    "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Gino Lambardo",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2018-06-18T08:34:44Z",
-    "url_soundcloud": null,
-    "created_at": "2018-06-18T08:34:44Z",
-    "slug_soundcloud": null,
-    "slug_earwolf": "new-to-the-wax-with-the-sloppy-boys",
-    "episode_title": "New to the Wax with The Sloppy Boys",
-    "episode_guests": "Jon Gabrus,Jefferson Dutton,Mike Hanford,Shaun Diston,Tim Kalpakis",
+    "slug_earwolf": "hey-keep-readin",
+    "episode_title": "Hey, Keep Readin'",
+    "episode_guests": "Edi Patterson,Ryan Gaul,Weird Al Yankovic",
     "id_wikia": null,
     "holding": "false"
 }
