@@ -580,7 +580,7 @@
 	* 451,tiny and victor et al
 	* 194,44:00
 	* 2016.dc,whole time basically
-	* 425,kroll does schrift/daemon/fabrice/stallone/chupa/mrs. doubtfire/bill maher/creaky gate/faizon
+	* 425,kroll does schrift/daemon/fabrice/stallone/chupa/mrs. doubtfire/bill maher/creaky gate/faizon/johnny cash
 	* 71,kroll does chupa/vinnie/other
 	* 73,1:17:00,swardson does his brother nad betty white
 	* 107,1:07:00
