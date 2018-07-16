@@ -1,158 +1,63 @@
-#incarceratedcurrently
-#wrongreasons
-#maconeducationsquad
-#TubbitTuncan
+WaterWorld Stunt Show at Universal Studios Hollywood
+site of: JW Stillwater and Caramel Esposito at the theatre; The Great WaterWorld Fire of 1989
 
-North Carolina Coast
-site of: Lyle Cummings suckin' dick for groceries
-{
-    "episode": 554,
+,{
+    "episode": 555,
     "show": "cbb",
-    "tstart": "13:07",
-    "tend": "13:50",
-    "instance":"Honestly I don't give two squirts about this damn truck.",
+    "tstart": "34:20",
+    "tend": "30:42",
+    "instance":"Was it the Blues Brothers stunt show?",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Lyle Cummings",
-    "location_type": "",
+    "tags": "JW Stillwater",
+    "location_type": "point",
     "location_id": "",
-    "updated_at": "2018-07-09T09:37:04Z",
+    "updated_at": "2018-07-16T09:37:04Z",
     "url_soundcloud": null,
-    "created_at": "2018-07-09T09:37:04Z",
+    "created_at": "2018-07-16T09:37:04Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "educainment-squad",
-    "episode_title": "Educainment Squad",
-    "episode_guests": "Horatio Sanz,Thomas Middleditch",
+    "slug_earwolf": "what-a-wonderful-waterworld",
+    "episode_title": "What a Wonderful WaterWorld",
+    "episode_guests": "Cameron Esposito,Paul F. Tompkins,Matt Gourley",
     "id_wikia": null,
     "holding": "false"
 }
 ,{
-    "episode": 554,
+    "episode": 555,
     "show": "cbb",
-    "tstart": "32:50",
-    "tend": "33:23",
-    "instance":"Suckin' dick all the way up the Carolina coastline?",
+    "tstart": "40:10",
+    "tend": "41:02",
+    "instance":"I'll be damned if I'm not Cal Buckley, Valley Stuntman.",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Lyle Cummings",
-    "location_type": "",
+    "tags": "JW Stillwater,Valley Stuntman California Buckley",
+    "location_type": "point",
     "location_id": "",
-    "updated_at": "2018-07-09T09:37:04Z",
+    "updated_at": "2018-07-16T09:37:04Z",
     "url_soundcloud": null,
-    "created_at": "2018-07-09T09:37:04Z",
+    "created_at": "2018-07-16T09:37:04Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "educainment-squad",
-    "episode_title": "Educainment Squad",
-    "episode_guests": "Horatio Sanz,Thomas Middleditch",
+    "slug_earwolf": "what-a-wonderful-waterworld",
+    "episode_title": "What a Wonderful WaterWorld",
+    "episode_guests": "Cameron Esposito,Paul F. Tompkins,Matt Gourley",
     "id_wikia": null,
     "holding": "false"
 }
 ,{
-    "episode": 554,
+    "episode": 555,
     "show": "cbb",
-    "tstart": "1:07:00",
-    "tend": "1:07:20",
-    "instance":"You said this is less money than you got for, you know, suckin' D...",
+    "tstart": "42:00",
+    "tend": "42:26",
+    "instance":"Keep the tips of your fingers from burning off.",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Lyle Cummings",
-    "location_type": "",
+    "tags": "JW Stillwater,Valley Stuntman California Buckley",
+    "location_type": "point",
     "location_id": "",
-    "updated_at": "2018-07-09T09:37:04Z",
+    "updated_at": "2018-07-16T09:37:04Z",
     "url_soundcloud": null,
-    "created_at": "2018-07-09T09:37:04Z",
+    "created_at": "2018-07-16T09:37:04Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "educainment-squad",
-    "episode_title": "Educainment Squad",
-    "episode_guests": "Horatio Sanz,Thomas Middleditch",
-    "id_wikia": null,
-    "holding": "false"
-}
-
-(some middle school in Macon county (GA?))
-proxy for: Trenton Downey Middle School
-site of: Lyle Cummings strangling teens
-{
-    "episode": 554,
-    "show": "cbb",
-    "tstart": "14:05",
-    "tend": "15:50",
-    "instance":"These kids couldn't stop passin' out.",
-    "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Lyle Cummings",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2018-07-09T09:37:04Z",
-    "url_soundcloud": null,
-    "created_at": "2018-07-09T09:37:04Z",
-    "slug_soundcloud": null,
-    "slug_earwolf": "educainment-squad",
-    "episode_title": "Educainment Squad",
-    "episode_guests": "Horatio Sanz,Thomas Middleditch",
-    "id_wikia": null,
-    "holding": "false"
-}
-,{
-    "episode": 554,
-    "show": "cbb",
-    "tstart": "33:34",
-    "tend": "34:15",
-    "instance":"Okay, so you're doing students 360.",
-    "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Lyle Cummings,Peppers McGilly",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2018-07-09T09:37:04Z",
-    "url_soundcloud": null,
-    "created_at": "2018-07-09T09:37:04Z",
-    "slug_soundcloud": null,
-    "slug_earwolf": "educainment-squad",
-    "episode_title": "Educainment Squad",
-    "episode_guests": "Horatio Sanz,Thomas Middleditch",
-    "id_wikia": null,
-    "holding": "false"
-}
-
-(mine collapse near Macon, GA)
-proxy for: the great sherbet mine collapse
-site of: Lyle Cummings' ancestors
-{
-    "episode": 554,
-    "show": "cbb",
-    "tstart": "28:30",
-    "tend": "28:52",
-    "instance":"If you die in a coal mine - you gonna eat your way out?",
-    "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Lyle Cummings,Peppers McGilly",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2018-07-09T09:37:04Z",
-    "url_soundcloud": null,
-    "created_at": "2018-07-09T09:37:04Z",
-    "slug_soundcloud": null,
-    "slug_earwolf": "educainment-squad",
-    "episode_title": "Educainment Squad",
-    "episode_guests": "Horatio Sanz,Thomas Middleditch",
-    "id_wikia": null,
-    "holding": "false"
-}
-
-Macon County, GA
-home of: Peppers McGilly
-{
-    "episode": 554,
-    "show": "cbb",
-    "tstart": "1:03:05",
-    "tend": "1:03:34",
-    "instance":"I think she was about seconds away from puttin' her phone up to her big ol' pussy.",
-    "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Lyle Cummings,Peppers McGilly",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2018-07-09T09:37:04Z",
-    "url_soundcloud": null,
-    "created_at": "2018-07-09T09:37:04Z",
-    "slug_soundcloud": null,
-    "slug_earwolf": "educainment-squad",
-    "episode_title": "Educainment Squad",
-    "episode_guests": "Horatio Sanz,Thomas Middleditch",
+    "slug_earwolf": "what-a-wonderful-waterworld",
+    "episode_title": "What a Wonderful WaterWorld",
+    "episode_guests": "Cameron Esposito,Paul F. Tompkins,Matt Gourley",
     "id_wikia": null,
     "holding": "false"
 }

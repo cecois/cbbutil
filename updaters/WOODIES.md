@@ -1,68 +1,98 @@
 ### episodes
-78
+15
+23
+24
+28
 286
+31
+34
+40
+43
+44
+51.1
+55
+59
+62
+71
+72
+74
 76.1
 76.2
-74
-72
-71
-62
-59
-55
-51.1
-44
-43
-40
-34
-31
-28
-24
-23
-15
+78
 
 ### instances
 * 035,35:00,the ibrain
-* 521,43:45,he's always trying to teach me this
-* 346,1:05:00(pw),that is wild
-* 293,1:13:30(pw),friends plugs theme
-* 474,1:07:40,i like though you say a thing and then you just look down at the ground
-* 166,1:12:34,martha plimpton hanged out with youœ
-* 191,19:50,horses in bathrooms
 * 103,1:32:20,yeah scott u idiot
 * 103,1:37:20,i’m inside this fella (huell f. tompkins)
-* 136,20:02,yeah i guess i can see that (foam corner ends)
+* 116,58:00,like cock sucking lips?
+* 119,53:30,well i got my hands on an ape
+* 122,55:30,like a classroom guinea pig who's lived too long
+* 123,51:30,you also rhymed 'math' with 'mathscience'
+* 126,59:45,true? no. false? yes.
 * 136,1:44:58,great question chupacabra
 * 136,1:47:24,governor venturabody boss
+* 136,20:02,yeah i guess i can see that (foam corner ends)
+* 143,38:00,i love that movie - were you in it?
 * 148,28:00(pw),beachfront property!!! wipeout +++
 * 148,5:15,12 nights of oscars
 * 150,16:53,you don't still got it after all
 * 150,38:10,William Shatner drowning his wife +++
 * 150,44:44,glamourpuss
 * 150,5:30,dracularic activities
+* 154,53:45,is it mushmouth is here?
 * 161,23:45,I love woodies
 * 161,54:00,scarecrow doesn’t know what to fuck
 * 161,59:58,mmm come on (daycare w/ tony)
+* 166,1:12:34,martha plimpton hanged out with youœ
+* 169,1:06:30,yesk
 * 174,1:07:58,What?! (George St. Geegland gets the bad news about Bruno Kirby)
 * 174,1:08:30,And you're Gil
 * 180,39:37,a great silence envelopes the nation
 * 180,44:40,yeah that's what i know
 * 182,43:00,your name is Zazzoo!
-* 182,43:04-44:14,your name is zazzoo 
+* 182,43:04-44:14,your name is zazzoo
 * 185,59:10-1:00:56,Scott does kulap
+* 186,1:15:30,why isn't this blinking guy eating a plate of dogshit?
 * 191,19:35,horses in bathrooms (foam)
-* 200,1:23:38,off a girl who has no idea what’s going on +++
+* 191,19:50,horses in bathrooms
 * 200,17:50,what else is in the news?
+* 200,1:23:38,off a girl who has no idea what’s going on +++
 * 200,21:23,remember we were driving that jeep?
+* 2016.boston10pm,12:17,do you feel as if i'm being a real goofball right now?
+* 2016.boston10pm,29:55,thin accusation - to accuse someone of not eating something
+* 2016.chicago10,36:00,i can't realistically kill every goose...
+* 2016.chicago730pm,20:30,it seems you don't have a firm grasp on the story of goldilocks, either
+* 2016.dc,45:30,did we not tell you that we're brother and sister?
+* 2016.gramercy05147pm,1:14:35,in heaven nephew spanks you
+* 2016.gramercy05147pm,1:16:30,are you stuck wearing the same clothes over and over and over again?
+* 2016.gramercy0514930pm,33:12,i think it's different thing to see it happen right in front of your face
+* 2016.gramercy930,14:00,terrible tune, though
+* 2016.leeds,1:39:20,the print got lighter and lighter
+* 2016.manchester,1:34:00,you just started free-associating
+* 2016.minneapolis,1:00:00,you trying to talk about yr feelings and i hafta take out my earbuds? we goin there tonight
+* 2016.nc,1:17:00,arigato - arigato - arigato
+* 2016.perth,48:23,i gave him a wooden horse
+* 2016.perth,~40:00,i'm a creature of love
+* 2016.portland7,1:20:20,i think it was the phrase "free-flowing"
+* 2016.portland7,27:11,are you big bird? (freudian slip)
+* 2016.seattle,1:22:00,the n stands for – uh oh
+* 2016.seattle,50:45,i think they famously had wood in jesus' time
+* 2016.shepherds,1:38:30,more like home reminded you of it
+* 2016.sydney,1:33:12,tom petty was in line to see richard petty
+* 2016.toronto0505,34:00,please welcome ms. crimp (nope)
+* 2016.toronto0506,1:22:00,canada day
+* 2016.toronto0506,22:15,you wanna pretend to be someone that i have a gay crush on?
+* 2016.toronto0506,32:30,well i guess they know what they're doing (locking the piano)
+* 2016.toronto0506,59:47,i can't believe that's true
+* 2016.vancouver,1:47:00,do it have a pussy? (that's you)
 * 204,1:06:12,Quackers Feather Beaks Cuckoo Caper
 * 204,1:07:25,QFBCC's theme rap becomes all about Anthony Keidis +++
 * 204,56:59,there are literally hundreds of ways you could spoil it for yourself
 * 204,7:40,guy in subaru doesn't give a shit what cop has to say +++
 * 208,51:15,just a lady fucking a horse ++++++
-* bo2015.4,3:40,it took a long time (gotcha)
 * 215,20:35-20:50,i ain't down with that gay shit
-* 215,21:30-21:55,maybe in the darkest of africa
-* 76.1,35:45,the bally jungles of africa
 * 215,21:30,the darkest of africa
+* 215,21:30-21:55,maybe in the darkest of africa
 * 215,25:03,i'm not down with that gay shit
 * 215,25:05-25:16,i ain't down with that gay shit
 * 215,59:30,if you're just listening this for the first time
@@ -70,6 +100,7 @@
 * 216,28:45,did u ever notice that i look 53
 * 218,29:30,glue some whiskers on my face you idiots
 * 218,43:58,could you have put that any cruder?
+* 221,1:23:30,cuz you got a bad back for a brain
 * 222,43:07,you strike me as a creep
 * 222,48:25,is it the n-word?
 * 222,49:11,is the sort of a question that a host would ask?
@@ -96,10 +127,13 @@
 * 260,49:30,that's a problem that i have
 * 260,51:50,why is everybody laughing?
 * 260,57:41,normal everyday regular eating procedure
+* 261,1:01:15(howl),a tattoo of a knife on my face
 * 261,1:04:23,aaron neville's 6 days of kwanzaa
 * 262,2:24:43,i have two grammies
+* 272,1:22:00(howl),like 10?
 * 272,1:24:59,technicality no down boo over
 * 272,1:26:23,like ten?
+* 272,33:20(howl),some love outta frank sinatra - no dice
 * 274,1:09:33,yeah i guess so
 * 274,6:10(howl),your farts smell bro?
 * 276,18:05,hooch the mooch doesn't joke about politics
@@ -108,23 +142,36 @@
 * 280,47:47,psychological test
 * 280,6:43,it’s a cinderalla story
 * 283,1:00,donk!
+* 283,1:43(howl),donk
 * 284,1:04:55,riddler theme collabo (& 1:06:10 & 1:16:10)
+* 286,1:27:20,Rottweiler snatch
+* 286,1:40:50,it's me, jaz-jaz
 * 286,1:43:00,zip - i was lying the whole time!
 * 286,1:43:10,coco marx?
 * 286,53:25,we have of course threesomes
+* 286,56:20(howl),which is how i like em
 * 289,10:15,monster mash - number 1 with a bullet
 * 289,23:24,who owns star wars?
 * 291,6:41,ooh has the interview started?
+* 293,1:13:30(pw),friends plugs theme
 * 301,1:04:10,that was unlistenable
 * 301,54:13,victor interviews a dentist
 * 301,58:43,he handed us a flash drive!
+* 308,43:05,red box
+* 309,29:00,ringo starr don't look good
+* 309,36:45,showtime!
+* 309,53:30,who's this guy?
 * 310,1:00:00,button puss speech +++
 * 310,1:01:09,United flight 93
+* 323,48:45,ooh i love this bit(paywall)
+* 323,49:45,who look like they smell smoke(paywall)
+* 326,1:52:55,stories about mordor are 5th in the order
 * 326,1:58:00,what about goo from a spider?
 * 329,40:30,i was not there when she was born
 * 329,42:00,Show me dat Piece!
 * 329,49:30,something a little off about him
 * 335,1:04:00(pw),2 things for you to do
+* 335,??:??,why don't you sit there and shut up - there's two things for you to do
 * 337,15:45(pw),why am i here?
 * 337,1:09:19,picasso trigger
 * 337,1:18:30,crayon on crayon
@@ -133,180 +180,133 @@
 * 337,46:00,scott’s interviewing style
 * 338,1:43:45,answerless questions in wyr
 * 338,1:53:33,santa fights scott +++
-* 386,49:50,make sure you interrupt my answer
 * 34,20:30,gay! (oh, chupacabra's back)
 * 34,50:00,acting-off w/ john c. reilly
+* 342,1:28:10,tell that to china
 * 342,1:34:30,oh no! click!
 * 343,1:09:45(pw),from where I'm from i think I sound just like a-you
 * 343,1:36:15,this is why this story is so long
 * 343,50:35,you went someplace and there was a thing there? well that's standard.
+* 346,1:05:00(pw),that is wild
 * 346,1:08:00,that is wild
+* 347,1:01:20(pw),boys get upstairs
+* 347,24:00,chunk and danish greg
 * 349,21:40-21:49,you put words in my mouth ho ho/shut up cake boss
+* 350,23:00(pw),kate...uh...middleton
+* 350,30:45(pw),the baby was slaughtered
 * 353,50:01,scott feeds benny schwaz a 9/11 premise for his headline game
+* 354,47:10(pw),at the airport a plane takes off
 * 356,10:00(pw),is this what you wanted?
 * 356,37:48,like abbott trying to be costello
 * 356,50:20,have we talked about this? we haven't!
 * 356,55:43,Go fund yourself...what?
 * 357,35:33,we both stumped!
 * 361,1:11:15,funny!
+* 362,18:45(pw),big tobackup industry
+* 365,??:??,i'm not an android and i'm tired of the question
 * 366,1:03:13,wet beans or dry beans?
 * 366,57:07,for a person it's terrifyingly fast
 * 366,57:15,35 mph is terrifyingly fast for a kid
 * 370,1:07:30,shot off a balcony
-* 335,??:??,why don't you sit there and shut up - there's two things for you to do
 * 375,24:27,How the fuck are you gonna get a motorcycle all the way to Europe, man?
 * 378,8:40,i waste so much of my day looking at zeros
-* 384,57:50(pw),why would i be wearing two crowns on the top of my head hey-o
 * 384,10:28,well i just asked a question but ok
 * 384,27:50,forget it i don't care
 * 384,47:20,do you not have hemmheroids?!
+* 384,57:50(pw),why would i be wearing two crowns on the top of my head hey-o
 * 384,59:00,may i ask where you ejaculate?
 * 384,59:06,may i ask where you ejaculate?
 * 384,59:30,i think the second thing was probably doggie style
-* 390,36:22(pw),scott man i'm telling a regular story
+* 386,49:50,make sure you interrupt my answer
 * 390,1:14:57,maybe you can suck a fuck
+* 390,36:22(pw),scott man i'm telling a regular story
 * 394,53:03,im a sugar daddy
-* 221,1:23:30,cuz you got a bad back for a brain
 * 394,57:00,don't try to show off for your podcast friends
 * 412,49:00,you remind me of a little mynabird
+* 419,41:03,i'm john lennon, how do you do? \\ i just bought a brand new tennis shoe
+* 419,41:30,rap is foreign to me
+* 419,46:00,what is going on? (bethesda fountain)
+* 419,58:20,morris day (when he went solo)
+* 423,1:04:15,you started to say the stupidest shit
+* 423,29:30,choke on some hot goss
+* 423,30:30,get up in them guts
+* 425,24:30,but he's a tiny boy with big fat tits
+* 425,34:20,i also noticed you have a big, fat asshole
+* 425,45:30,the only part i don't get is why he's a butler
+* 431,1:00:40,i don't want it - you don't want it - let's not do it!
+* 437,1:03:00,and they chose the beard not the tongue?
+* 438,31:00,i thought it was a clumsy portmanteau...
+* 438,34:45,he was a coward
 * 44,43:10,that was broad comedy (i'll say it was)
 * 44,45:13,he's performing some dirty business
+* 441,1:06:45(pw),I'm the best loaner there is...baby!
+* 441,1:10:20,a lot of people have seen a kid on the same day they jacked off
+* 444,22:45(pw),for my dollar that's the worst-smelling food there is
+* 446,1:33:30,you can be there for the birth without staring directly into her vaginal canal
+* 446,32:30(pw),hi i'm pregnant
+* 456,surely you've seen a movie where there's been a rap song in it
 * 46,45:00,where was conan going with that?
 * 46,50:00(?pw),you like people better than corpses, right?
+* 463,15:50(pw),carlifer/clumsy portmanteau
+* 474,1:07:40,i like though you say a thing and then you just look down at the ground
+* 474,29:45(howl),this better be worth it
+* 476,3:50(pw),barbecued eggplant
+* 478,21:00,doof!
+* 485,22:45,pease respect my neck
+* 500,1:25:18,and gil faizon
+* 500,34:00,i feel like i missed something
+* 510,59:50(pw),are web sites webs that can see?
+* 511,38:18,it sounds unbearable
+* 512,3:55,i would think 10 maybe 11
+* 514,1:13:15,try a different strategy idiot
+* 514,21:20,don't get us started on that cracker
+* 521,43:45,he's always trying to teach me this
+* 524,15:45,bon appetite!
+* 524,1:00,they know (BCB)
+* 524,1:03:00,patty luphone
+* 524,1:15:30,wasn't judy dench in the big chill?
+* 524,1:49:00,yeah i don't like you and you don't like me?
+* 524,26:00,ultimate feedback
+* 524,4:30,that sounds like heaven
+* 524,57:32,bruce dern
+* 524,5:10,i remember i got overcome with soup fumes
+* 525,49:40,where's that break comin?
+* 529,23:30,Am I a what?
+* 532,1:04:23,what if a bathroom floods over some jewels?
+* 532,1:39:40,we're done with chaka khan facts already?
+* 548,1:01:30,you're like a shetland tupac
 * 55,27:56,You should do that as a profession - just make up funny names.
-* 94,37:09,now if that doesn’t go so good
+* 59,44:30,you mean the story of how you were molested as a child that caused you to do that?
+* 74,11:30,take out her eyes
+* 76.1,1:07:00,what are some of the cats that you like?
+* 76.1,35:45,the bally jungles of africa
+* 76.2,39:30,turned into a red foxx party album
+* 85,58:00,i have been told i'm a bit of a drooler
 * 94,25:16,i used to operate a b&b
+* 94,37:09,now if that doesn’t go so good
+* 94,47:20,i hope that's not true because then i'd have to crazy
 * 97,17:19,there’s a wet leaf in my throat
 * 99,22:38,church basement beauty and the beast
 * 99,33:45,it’s an absolute baccanal
 * 99,41:54,don dimello’s first memory
 * 99,9:26,you are interrupting so yr hopes are dashed
+* b02010,1:54:30,let us link legs at the knee
 * b02010,59:30,human being pig
 * bo2010,53:30,huell drowns pigs
 * bo2012.1,35:40,a great silence envelopes the nation
 * bo2012.1,38:15,i wish we had time
 * bo2012.1,40:35,yeah, that’s what i know
 * BO2013.3,1:28:28,pft describes CBB
+* bo2015.4,3:40,it took a long time (gotcha)
+* bo2017.1,3:17,did you read that article that popeye wrote?
+* bo2017.2,20:30,we'll watch whatever comes up
 * Every foam ending
+* howl tour apr 30 ace,17:31,i gotta take the first of my three shits
 * http://howl.fm/audio/26155/live-from-nyc-2013-part-1,10:20,mom-n-pop FedEx
 * http://howl.fm/audio/26163/live-from-vancouver-2013,16:30,scott aukerman's ass in a seat
 * http://howl.fm/audio/26163/live-from-vancouver-2013,20:23,the audience's reaction is correct
 * http://howl.fm/audio/26163/live-from-vancouver-2013,29:40,why must we be charged?
 * http://howl.fm/audio/26164/live-from-san-francisco-2013,23:20,unmistakable sound of the breaking of a human toe
+* sydney2016,1:10:25,did a doctor just wander onto the stage?
 * who said it shamon
 * who’s the most fuckable huxtable? ++++
-* 419,46:00,what is going on? (bethesda fountain)
-* 419,58:20,morris day (when he went solo)
-* howl tour apr 30 ace,17:31,i gotta take the first of my three shits
-* 2016.toronto0506,32:30,well i guess they know what they're doing (locking the piano)
-* 2016.toronto0505,34:00,please welcome ms. crimp (nope)
-* 2016.toronto0506,59:47,i can't believe that's true
-* 2016.toronto0506,22:15,you wanna pretend to be someone that i have a gay crush on?
-* 2016.toronto0506,1:22:00,canada day
-* 2016.boston10pm,29:55,thin accusation - to accuse someone of not eating something
-* 2016.dc,45:30,did we not tell you that we're brother and sister?
-* 2016.nc,1:17:00,arigato - arigato - arigato
-* 2016.gramercy930,14:00,terrible tune, though
-* 2016.gramercy05147pm,1:14:35,in heaven nephew spanks you
-* 2016.gramercy05147pm,1:16:30,are you stuck wearing the same clothes over and over and over again?
-* 2016.gramercy0514930pm,33:12,i think it's different thing to see it happen right in front of your face
-* 423,29:30,choke on some hot goss
-* 423,30:30,get up in them guts
-* 423,1:04:15,you started to say the stupidest shit
-* 2016.minneapolis,1:00:00,you trying to talk about yr feelings and i hafta take out my earbuds? we goin there tonight
-* 2016.chicago10,36:00,i can't realistically kill every goose...
-* 2016.portland7,27:11,are you big bird? (freudian slip)
-* 2016.portland7,1:20:20,i think it was the phrase "free-flowing"
-* 2016.seattle,50:45,i think they famously had wood in jesus' time
-* 2016.seattle,1:22:00,the n stands for – uh oh
-* 425,24:30,but he's a tiny boy with big fat tits
-* 425,34:20,i also noticed you have a big, fat asshole
-* 425,45:30,the only part i don't get is why he's a butler
-* 59,44:30,you mean the story of how you were molested as a child that caused you to do that?
-* 2016.boston10pm,12:17,do you feel as if i'm being a real goofball right now?
-* 2016.chicago730pm,20:30,it seems you don't have a firm grasp on the story of goldilocks, either
-* 2016.vancouver,1:47:00,do it have a pussy? (that's you)
-* 74,11:30,take out her eyes
-* 76.1,1:07:00,what are some of the cats that you like?
-* 76.2,39:30,turned into a red foxx party album
-* 438,34:45,he was a coward
-* 85,58:00,i have been told i'm a bit of a drooler
-* b02010,1:54:30,let us link legs at the knee
-* 441,1:10:20,a lot of people have seen a kid on the same day they jacked off
-* 94,47:20,i hope that's not true because then i'd have to crazy
-* 2016.sydney,1:33:12,tom petty was in line to see richard petty
-* 2016.perth,~40:00,i'm a creature of love
-* 2016.perth,48:23,i gave him a wooden horse
-* 116,58:00,like cock sucking lips?
-* 446,32:30(pw),hi i'm pregnant
-* 446,1:33:30,you can be there for the birth without staring directly into her vaginal canal
-* 119,53:30,well i got my hands on an ape
-* 122,55:30,like a classroom guinea pig who's lived too long
-* 123,51:30,you also rhymed 'math' with 'mathscience'
-* 126,59:45,true? no. false? yes.
-* 2016.manchester,1:34:00,you just started free-associating
-* 2016.leeds,1:39:20,the print got lighter and lighter
-* 2016.shepherds,1:38:30,more like home reminded you of it
-* 143,38:00,i love that movie - were you in it?
-* 154,53:45,is it mushmouth is here?
-* 456,surely you've seen a movie where there's been a rap song in it
-* 169,1:06:30,yesk
-* 186,1:15:30,why isn't this blinking guy eating a plate of dogshit?
-* 474,29:45(howl),this better be worth it
-* 261,1:01:15(howl),a tattoo of a knife on my face
-* 476,3:50(pw),barbecued eggplant
-* 478,21:00,doof!
-* 272,33:20(howl),some love outta frank sinatra - no dice
-* 272,1:22:00(howl),like 10?
-* 283,1:43(howl),donk
-* 286,56:20(howl),which is how i like em
-* 286,1:40:50,it's me, jaz-jaz
-* 485,22:45,pease respect my neck
-* 286,1:27:20,Rottweiler snatch
-* 308,43:05,red box
-* 309,29:00,ringo starr don't look good
-* 309,36:45,showtime!
-* 309,53:30,who's this guy?
-* 323,48:45,ooh i love this bit(paywall)
-* 323,49:45,who look like they smell smoke(paywall)
-* 326,1:52:55,stories about mordor are 5th in the order
-* 500,34:00,i feel like i missed something
-* 500,1:25:18,and gil faizon
-* 342,1:28:10,tell that to china
-* 347,24:00,chunk and danish greg
-* 347,1:01:20(pw),boys get upstairs
-* 350,23:00(pw),kate...uh...middleton
-* 350,30:45(pw),the baby was slaughtered
-* 354,47:10(pw),at the airport a plane takes off
-* 362,18:45(pw),big tobackup industry
-* 510,59:50(pw),are web sites webs that can see?
-* 511,38:18,it sounds unbearable
-* 512,3:55,i would think 10 maybe 11
-* 514,21:20,don't get us started on that cracker
-* 514,1:13:15,try a different strategy idiot
-* 365,??:??,i'm not an android and i'm tired of the question
-* 524,1:00,they know (BCB)
-* 524,4:30,that sounds like heaven
-* 524,5:10,i remember i got overcome with soup fumes
-* 524,15:45,bon appetite!
-* 524,26:00,ultimate feedback
-* 524,57:32,bruce dern
-* 524,1:03:00,patty luphone
-* 524,1:15:30,wasn't judy dench in the big chill?
-* 524,1:49:00,yeah i don't like you and you don't like me?
-* 525,49:40,where's that break comin?
-* 419,41:03,i'm john lennon, how do you do? \\ i just bought a brand new tennis shoe
-* 419,41:30,rap is foreign to me
-* bo2017.1,3:17,did you read that article that popeye wrote?
-* bo2017.2,20:30,we'll watch whatever comes up
-* 431,1:00:40,i don't want it - you don't want it - let's not do it!
-* 437,1:03:00,and they chose the beard not the tongue?
-* 438,31:00,i thought it was a clumsy portmanteau...
-* 441,1:06:45(pw),I'm the best loaner there is...baby!
-* 529,23:30,Am I a what?
-* 444,22:45(pw),for my dollar that's the worst-smelling food there is
-* 463,15:50(pw),carlifer/clumsy portmanteau
-* 532,1:04:23,what if a bathroom floods over some jewels?
-* 532,1:39:40,we're done with chaka khan facts already?
-* sydney2016,1:10:25,did a doctor just wander onto the stage?
-* 548,1:01:30,you're like a shetland tupac

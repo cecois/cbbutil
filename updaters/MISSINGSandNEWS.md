@@ -15,6 +15,8 @@
 6. s my c
 7. subepisodes
 
+* point flathand fist
+	* 555,34:15(pw)
 * video on demand
 	* 530,22:30
 * closing sentiment-off
