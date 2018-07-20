@@ -310,3 +310,66 @@
 * sydney2016,1:10:25,did a doctor just wander onto the stage?
 * who said it shamon
 * who’s the most fuckable huxtable? ++++
+
+# THREEDOM
+* 1 (mistake),4:45,scott you've cracked it
+* 1 (mistake),22:00,i'm not trying to be funny
+* 1 (mistake),50:00,i have to go over...
+* 2 (chalk),43:25,smushed in the front/party in the back (that's how i describe my body)
+* 2 (chalk),51:00,where's the bathroom?
+* 2 (chalk),55:00,krazy kumbersome kabinet
+* 2 (chalk),55:00,brother in the front/part in the back (that's how i describe my body)
+* 2 (chalk),55:00,just the tip
+* 3 (bauer),08:00,my answer is now, for you (not want to live)
+* 3 (bauer),13:30
+* 3 (bauer),46:00
+* 3 (bauer),22:40,more like chok-o-mo (kokomo)
+* 3 (bauer),31:00,i probably did know they were chaws
+* 3 (bauer),34:00,you wore sharkies!
+* 3 (bauer),36:00,this sounds easy
+* 3 (bauer),38:45,you weren't getting much (applause meter)
+* 5 (eyedol),1:30
+* 5 (eyedol),1:45
+* 5 (eyedol),4:25,i love tits
+* 5 (eyedol),10:45,jerk off now!
+* 5 (eyedol),20:43,what do you mean? (good catch)
+* 5 (eyedol),28:00,terrence house
+* 5 (eyedol),32:30,yesk (popeye)
+* 5 (eyedol),34:00,stop coddling that boy
+* 5 (eyedol),37:50,are these separate thoughts?
+* 4 (slouchy),20:00,manager millie (krupke)
+* 4 (slouchy),41:00
+* 4 (slouchy),48:15
+* 4 (slouchy),33:40
+* 4 (slouchy),36:45
+* 6 (dilly),27:45,credo shot first
+* 6 (dilly),32:00,wide gap (58:20 & 59:20 payoff)
+* 6 (dilly),38:30,don't fuck 'em
+* 6 (dilly),53:40,queen of the cockblockers
+* 7 (plural),6:25,he likes the pizza [lunchables]
+* 7 (plural),8:00,anyway lauren
+* 7 (plural),17:30,it's not weird i know you pretty well
+* 7 (plural),24:00,shoulda kept listening
+* 7 (plural),26:30,morley safer was building a house
+* 7 (plural),29:00,what are you guys pointing at? (law & order)
+* 7 (plural),30:00,gross (adoption)
+* 7 (plural),47:50,some dubloons
+* 8 (out),3:25,because i believed in [angels]
+* 8 (out),4:00,doctor angel medicine angel
+* 8 (out),6:30,that's what popeye said
+* 8 (out),9:00,lauren please (singing)
+* 8 (out),9:30,show me the money
+* 8 (out),12:50,because they're hungrier for it
+* 8 (out),14:00,my friend's getting hard right now
+* 8 (out),17:50,who dat? wut dat?
+* 8 (out),34:30,is this like a real arrest?
+* 8 (out),43:30,skittish in the airport
+* 8 (out),45:50,like a black person
+* 8 (out),53:35,go ahead stretch
+* 9 (christmas),3:20,what'd you have to wear - your old sharkies?
+* 9 (christmas),14:20,you put two microphones in front of my face
+* 9 (christmas),21:30,our books are lookin weird
+* 9 (christmas),35:15,the urkel of his show
+* 9 (christmas),38:30,that was my boner
+* 9 (christmas),40:45,it's so normal
+* 9 (christmas),45:20,but i guess i know the answer
