@@ -1,63 +1,46 @@
-WaterWorld Stunt Show at Universal Studios Hollywood
-site of: JW Stillwater and Caramel Esposito at the theatre; The Great WaterWorld Fire of 1989
+El Botón, Mx
+hometown of: Raul DeLaMancha
 
-,{
-    "episode": 555,
+{
+    "episode": 556,
     "show": "cbb",
-    "tstart": "34:20",
-    "tend": "30:42",
-    "instance":"Was it the Blues Brothers stunt show?",
+    "tstart": "49:20",
+    "tend": "49:55",
+    "instance":"I am making more money now than I have ever made in my life.",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "JW Stillwater",
-    "location_type": "point",
+    "tags": "Raul DeLaMancha",
+    "location_type": "",
     "location_id": "",
-    "updated_at": "2018-07-16T09:37:04Z",
+    "updated_at": "2018-07-23T09:37:04Z",
     "url_soundcloud": null,
-    "created_at": "2018-07-16T09:37:04Z",
+    "created_at": "2018-07-23T09:37:04Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "what-a-wonderful-waterworld",
-    "episode_title": "What a Wonderful WaterWorld",
-    "episode_guests": "Cameron Esposito,Paul F. Tompkins,Matt Gourley",
+    "slug_earwolf": "tips-n-tricks",
+    "episode_title": "Tips 'n' Tricks",
+    "episode_guests": "Kristian Bruun,John Gemberling,Gil Ozeri,Zeke Nicholson",
     "id_wikia": null,
     "holding": "false"
 }
-,{
-    "episode": 555,
+
+Reykjavik
+site of: a big gaming competition
+{
+    "episode": 556,
     "show": "cbb",
-    "tstart": "40:10",
-    "tend": "41:02",
-    "instance":"I'll be damned if I'm not Cal Buckley, Valley Stuntman.",
+    "tstart": "52:57",
+    "tend": "54:02",
+    "instance":"I'm sure a lot of gamers are going to dig this show.",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "JW Stillwater,Valley Stuntman California Buckley",
-    "location_type": "point",
+    "tags": "Raul DeLaMancha,Steven 'Sweatch' Stokey,Paul 'Erupt' Stokey",
+    "location_type": "",
     "location_id": "",
-    "updated_at": "2018-07-16T09:37:04Z",
+    "updated_at": "2018-07-23T09:37:04Z",
     "url_soundcloud": null,
-    "created_at": "2018-07-16T09:37:04Z",
+    "created_at": "2018-07-23T09:37:04Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "what-a-wonderful-waterworld",
-    "episode_title": "What a Wonderful WaterWorld",
-    "episode_guests": "Cameron Esposito,Paul F. Tompkins,Matt Gourley",
-    "id_wikia": null,
-    "holding": "false"
-}
-,{
-    "episode": 555,
-    "show": "cbb",
-    "tstart": "42:00",
-    "tend": "42:26",
-    "instance":"Keep the tips of your fingers from burning off.",
-    "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "JW Stillwater,Valley Stuntman California Buckley",
-    "location_type": "point",
-    "location_id": "",
-    "updated_at": "2018-07-16T09:37:04Z",
-    "url_soundcloud": null,
-    "created_at": "2018-07-16T09:37:04Z",
-    "slug_soundcloud": null,
-    "slug_earwolf": "what-a-wonderful-waterworld",
-    "episode_title": "What a Wonderful WaterWorld",
-    "episode_guests": "Cameron Esposito,Paul F. Tompkins,Matt Gourley",
+    "slug_earwolf": "tips-n-tricks",
+    "episode_title": "Tips 'n' Tricks",
+    "episode_guests": "Kristian Bruun,John Gemberling,Gil Ozeri,Zeke Nicholson",
     "id_wikia": null,
     "holding": "false"
 }
