@@ -373,3 +373,88 @@
 * 9 (christmas),38:30,that was my boner
 * 9 (christmas),40:45,it's so normal
 * 9 (christmas),45:20,but i guess i know the answer
+* 10 (toothless),4:20,that's also someone's worst memory
+* 10 (toothless),6:45,why would you tell us about it if we were there?
+* 10 (toothless),7:30,we would have team parties
+* 10 (toothless),12:00,he's excited he knows what a truck is
+* 10 (toothless),18:40,obviously i've been in the news
+* 10 (toothless),33:45,do you have any gray pout-hit-my-dick?
+* 10 (toothless),38:12,was that my boner?
+* 10 (toothless),48:30,can I put my penis in my mouth?
+* 10 (toothless),42:45,i go to the doctor too much
+* 11 (google),2:00,who are you byron allen?
+* 11 (google),14:45,she got rid of that boyfriend
+* 11 (google),24:00,it was you should have
+* 11 (google),26:45,the professor and maryanne anyway...
+* 11 (google),36:20,did he cum slimer?
+* 11 (google),37:20,that's a good movie (chicago accent)
+* 11 (google),40:00,who has more of a problem with that would you say?
+* 11 (google),40:00,i guess i'd fuck that cool dog
+* 11 (google),52:30,francis scott key?
+* 11 (google),1:01:00,i'm at the record store - he put out no albums
+* 12 (phoneboof),3:00,park closer dipshit
+* 12 (phoneboof),13:00,back to the future 2
+* 12 (phoneboof),17:00,barnes & noble against my will
+* 12 (phoneboof),21:00,i could write a song if the rules are that free
+* 12 (phoneboof),25:00,my first real six-string
+* 12 (phoneboof),26:20,don't turn this around on me
+* 12 (phoneboof),31:30,isolate that; send it into space
+* 12 (phoneboof),35:50,aw freak out (blech)
+* 12 (phoneboof),38:50,relax i've got 4 condoms on
+* 12 (phoneboof),46:15,well he auditioned - he was the best one (darth vader)
+* 12 (phoneboof),49:00,is there a viper under your bed?
+* 12 (phoneboof),51:00,do you know you're here?
+* 12 (phoneboof),57:00,the way you're talking to me is very insulting
+* 13 (brocus),8:30,if you had different feelings than you do would you feel differently?
+* 13 (brocus),14:00,old enough to bleed old enough to breed
+* 13 (brocus),19:00,your honor - all his peepee fell out!
+* 13 (brocus),19:00,i hate you
+* 13 (brocus),22:30,puppy wants attention
+* 13 (brocus),26:50,he can't read
+* 13 (brocus),30:00,i wasn't teeing you up for your impression
+* 13 (brocus),33:00,twodom!
+* 13 (brocus),35:40,a meme is just a wish your heart makes
+* 13 (brocus),39:45,probably the fucking watching gets boring cha-cha
+* 13 (brocus),1:01:15,you didn't know her
+* 13 (brocus),1:04:30,he's a silly guy
+* 14 (bat),1:50,no rules against [a horse playing baseball]
+* 14 (bat),4:50,stub of candle
+* 14 (bat),8:00,it just gets bigger and hotter (mrsa infection)
+* 14 (bat),13:45,alright bat boy let's hear it
+* 14 (bat),14:15,did i tell you guys about this mrsa infection i had?
+* 14 (bat),15:45,he's a baseball fan but he's a podcast interruptor first
+* 14 (bat),21:45,survey says 'what?'
+* 14 (bat),22:30,there's grass on this field - anyone can fuck here
+* 14 (bat),23:00,you don't know which you are
+* 14 (bat),23:05,and a girl...wolf
+* 14 (bat),24:45,your name was chosen out of a jar
+* 14 (bat),26:45,it bothers me a little bit
+* 14 (bat),33:00,i love grape
+* 14 (bat),35:00,this is the low point for me
+* 14 (bat),48:45,did you watch the tonys?
+* 14 (bat),49:30,i cook your penis fraud
+* 14 (bat),51:00,hey jude
+* 14 (bat),55:40,my old friend Popeye has a few words to say
+* 15 (church),14:20,fudge factory?
+* 15 (church),16:20,can i finish?
+* 15 (church),16:45,was i saying shut up and you didn't listen?
+* 15 (church),27:30,new bedding
+* 16 (baby),6:00,doo-dooplex
+* 16 (baby),8:00,i dressed it up like a person
+* 16 (baby),10:00,i blamed the hole in the wall on [the kool-aid man]
+* 16 (baby),16:30,why are you acting like this is a weird thing?
+* 16 (baby),19:30,baby fat guy dog
+* 16 (baby),33:50,here's what's cool - e.t.
+* 16 (baby),35:00,so i'm e.t. - put the moves on me
+* 16 (baby),53:30,i just realized we have passes in this game
+* 16 (baby),54:20,oh by the way you can pass
+* 17 (ch'd),11:35,typical swim team bullshit
+* 17 (ch’d),18:00,you are withholding you bitch
+* 17 (ch’d),22:50,you’re always wearing auckerpants 
+* 17 (ch’d),24:00,there’s a website that explains it
+* 17 (ch’d),25:00,I can’t believe this is happening
+* 17 (ch’d),30:15,if anyone can prank my pants off…
+* 17 (ch’d),40:20,u gotta start over
+* 17 (ch’d),46:30,he’s actually doing a lot of good work
+* 17 (ch’d),58:30,so it’s not the New York island
+* 17 (ch’d),1:02:40,jacket
