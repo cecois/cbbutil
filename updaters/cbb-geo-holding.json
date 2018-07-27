@@ -1,46 +1,68 @@
-El Botón, Mx
-hometown of: Raul DeLaMancha
-
-{
-    "episode": 556,
+1313 Mockingbird Lane, Detroid, MI
+residence of: Larry Blackmon;also the residence of: Nance (contested)
+,{
+    "episode": 557,
     "show": "cbb",
-    "tstart": "49:20",
-    "tend": "49:55",
-    "instance":"I am making more money now than I have ever made in my life.",
+    "tstart": "39:30",
+    "tend": "39:33",
+    "instance":"Wherever one lays and holds their pillow tight is really one's home.",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Raul DeLaMancha",
+    "tags": "Nance,Larry Blackmon",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2018-07-23T09:37:04Z",
+    "updated_at": "2018-07-26T09:37:04Z",
     "url_soundcloud": null,
-    "created_at": "2018-07-23T09:37:04Z",
+    "created_at": "2018-07-26T09:37:04Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "tips-n-tricks",
-    "episode_title": "Tips 'n' Tricks",
-    "episode_guests": "Kristian Bruun,John Gemberling,Gil Ozeri,Zeke Nicholson",
+    "slug_earwolf": "word-down",
+    "episode_title": "Word Down",
+    "episode_guests": "Carl Tart,Madeline Walter",
     "id_wikia": null,
     "holding": "false"
 }
 
-Reykjavik
-site of: a big gaming competition
-{
-    "episode": 556,
+a recording studio 5m from katz deli
+site of: Larry Blackmon recording a stolen 'Word Up'
+,{
+    "episode": 557,
     "show": "cbb",
-    "tstart": "52:57",
-    "tend": "54:02",
-    "instance":"I'm sure a lot of gamers are going to dig this show.",
+    "tstart": "49:40",
+    "tend": "50:34",
+    "instance":"And that word was...'word' followed by 'up.'",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Raul DeLaMancha,Steven 'Sweatch' Stokey,Paul 'Erupt' Stokey",
+    "tags": "Nance,Larry Blackmon",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2018-07-23T09:37:04Z",
+    "updated_at": "2018-07-26T09:37:04Z",
     "url_soundcloud": null,
-    "created_at": "2018-07-23T09:37:04Z",
+    "created_at": "2018-07-26T09:37:04Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "tips-n-tricks",
-    "episode_title": "Tips 'n' Tricks",
-    "episode_guests": "Kristian Bruun,John Gemberling,Gil Ozeri,Zeke Nicholson",
+    "slug_earwolf": "word-down",
+    "episode_title": "Word Down",
+    "episode_guests": "Carl Tart,Madeline Walter",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+1711 Weigh St., Los Angeles, CA
+site of: Nance casing Scott for weeks
+,{
+    "episode": 557,
+    "show": "cbb",
+    "tstart": "47:26",
+    "tend": "48:12",
+    "instance":"And that word was...'word' followed by 'up.'",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": "Nance,Larry Blackmon",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2018-07-26T09:37:04Z",
+    "url_soundcloud": null,
+    "created_at": "2018-07-26T09:37:04Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "word-down",
+    "episode_title": "Word Down",
+    "episode_guests": "Carl Tart,Madeline Walter",
     "id_wikia": null,
     "holding": "false"
 }
