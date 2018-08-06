@@ -458,4 +458,7 @@
 * 17 (ch’d),40:20,u gotta start over
 * 17 (ch’d),46:30,he’s actually doing a lot of good work
 * 17 (ch’d),58:30,so it’s not the New York island
+* 17 (ch’d),2:44,being a woman
+* 17 (ch’d),17:00,Kevin’s nodding
 * 17 (ch’d),1:02:40,jacket
+* 18 (amigo),0:45,jacket
