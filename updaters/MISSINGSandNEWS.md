@@ -871,6 +871,7 @@
 * interesting vote from an interesting player
 	* http://howl.fm/audio/26163/live-from-vancouver-2013,51:50
 	* 198,53:00
+	* 558,57:30(pw)
 	* 363,1:06:20(pw)
 	* 325,1:27:55(paywall)
 	* 269,1:10:30
@@ -1232,6 +1233,7 @@
 * urls
 	* 295,153,27:50
 	* 554,57:50(pw)
+	* 558,1:04:20(pw)
 	* 542,1:28:00
 	* 473,1:20:45(pw)
 	* 449,45:30(pw)
