@@ -460,5 +460,22 @@
 * 17 (ch’d),58:30,so it’s not the New York island
 * 17 (ch’d),2:44,being a woman
 * 17 (ch’d),17:00,Kevin’s nodding
-* 17 (ch’d),1:02:40,jacket
-* 18 (amigo),0:45,jacket
+* 17 (ch’d),1:02:40,jacket (#jacket)
+* 18 (amigo),0:45,jacket (#jacket)
+* 18 (amigo),1:00,talking to a black person
+* 18 (amigo),35:50,she sounds great
+* 18 (amigo),54:50,what a great ice-breaker!
+* 19 (visitors),1:42,i work hard all week doing this bullshit
+* 19 (visitors),4:30,sounds like my body (same)
+* 19 (visitors),6:00,do they just call you paul?
+* 19 (visitors),6:20,bitch
+* 19 (visitors),11:00,he died of blood
+* 19 (visitors),13:00,why not just seal clothes to your body?
+* 19 (visitors),15:45,she dropped her bathing suit that is
+* 19 (visitors),24:00,now you're doing real time slowed down to space invaders
+* 19 (visitors),28:00,that's a birthday (#jacket)
+* 19 (visitors),29:00,(skeptical mmm)
+* 19 (visitors),33:30,i am groot (#canifinish)
+* 19 (visitors),37:00,you wouldn't say i'm frying an egg with a bagel whale?
+* 20 (yum),23:15,can i split it? (#canifinish)
+* 20 (yum),35:30,look at me and look at you
