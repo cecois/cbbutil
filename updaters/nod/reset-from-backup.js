@@ -454,7 +454,7 @@ var main = async () =>{
 	try {
 		var ln = process.argv[2]
 
-		if(__.contains(['news','live','fake','fantastic','adds','reset'],ln)!==true){
+		if(ln.indexOf("bu")<0){
 			throw("typo prolly");
 			process.exit();
 		} else {
@@ -463,74 +463,74 @@ var main = async () =>{
 // read in incoming bits from $ln file
 // msg notes length, payload is actual bits
 */
-var inc = await incoming(ln);
-R.incoming=inc.msg
-var inca = inc.payload
-console.log("inca.length",inca.length)
+// var inc = await incoming(ln);
+// R.incoming=inc.msg
+// var inca = inc.payload
+// console.log("inca.length",inca.length)
 
 /* -----------------------------------------------
 // pull everything out of MLAB into a local file in budir - e.g. bu.2017_November_Sunday_02_06_35.json
 */
-console.log("awaiting extant...")
-			var bu = await extant();
+// console.log("awaiting extant...")
+// 			var bu = await extant();
 
 /* -----------------------------------------------
 // check budir for the MOST RECENT *.json bu
 // this allows us to pull/not pull a backup every time
 */
-console.log("awaiting most recent...")
-var ext_source = await most_recent();
-console.log("found to be:",ext_source)
+// console.log("awaiting most recent...")
+// var ext_source = await most_recent();
+// console.log("found to be:",ext_source)
 
 /* -----------------------------------------------
 // parse that file
 */
-var extant_parsed = await extant_parse(ext_source);
-R.extant=extant_parsed.msg
-var exta = extant_parsed.payload
-console.log("exta.length",exta.length)
+// var extant_parsed = await extant_parse(ext_source);
+// R.extant=extant_parsed.msg
+// var exta = extant_parsed.payload
+// console.log("exta.length",exta.length)
 			// exta is now our live copy of everything that's come before
 
 /* -----------------------------------------------
 // we send the fresh stuff and the archive for audit
 // audit maps inca and exta into comparable arrays (concatenating several presumably distinct fields [episode+bit+instance+tags] into one nonsensical but probably-unique string) - N.B. this is not foolproof
 */
-console.log("awaiting audit...")
-			var audited = await audit(inca,exta);
-			R.audit = audited
+// console.log("awaiting audit...")
+// 			var audited = await audit(inca,exta);
+// 			R.audit = audited
 
-console.log("audit.flag:",R.audit.flag)
-// if audit found anything sketchy we stop
-			if(R.audit.flag=='stop'){
-	throw Error ('audit.flag wz stop due to ',R.audit.msg);
-	process.exit()
-}
+// console.log("audit.flag:",R.audit.flag)
+// // if audit found anything sketchy we stop
+// 			if(R.audit.flag=='stop'){
+// 	throw Error ('audit.flag wz stop due to ',R.audit.msg);
+// 	process.exit()
+// }
 
 /* -----------------------------------------------
 // audit wz clean so we're sending
 */
-console.log("--------------------> sending "+inca.length+" documents to MLAB...");
-sent = await send(inca);
+// console.log("--------------------> sending "+inca.length+" documents to MLAB...");
+// sent = await send(inca);
 
 /* -----------------------------------------------
 */
 
-console.log("SENT",sent)
+// console.log("SENT",sent)
 
-if(sent.documents.n !== inca.length){
-	console.log("ERROR: mismatching in sent ("+sent.documents.n+') and incoming raw ('+inca.length+'),  exiting...');
-	process.exit();
-}
+// if(sent.documents.n !== inca.length){
+// 	console.log("ERROR: mismatching in sent ("+sent.documents.n+') and incoming raw ('+inca.length+'),  exiting...');
+// 	process.exit();
+// }
 
 /* -----------------------------------------------
 // Now we repeat bu and most_recent cuzzits gonna have sent.documents.length more
 */
-var bu2 = await extant();
-console.log("getting most recent bu again (should be newer than before");
-var ext_source2 = await most_recent();
-console.log("it's:",ext_source2);
-console.log("ELASTIFYING!");
-var E = await elastify(ext_source2);
+// var bu2 = await extant();
+// console.log("getting most recent bu again (should be newer than before");
+// var ext_source2 = await most_recent();
+// console.log("it's:",ext_source2);
+// console.log("ELASTIFYING!");
+var E = await elastify(ln);
 
 console.log("let's end this :-?")
 
