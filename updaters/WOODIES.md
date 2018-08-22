@@ -479,3 +479,8 @@
 * 19 (visitors),37:00,you wouldn't say i'm frying an egg with a bagel whale?
 * 20 (yum),23:15,can i split it? (#canifinish)
 * 20 (yum),35:30,look at me and look at you
+* 21 (vampire),8:30,i wanted to say the dumbest thing (you did it)
+* 21 (vampire),13:00,smallest rat ever
+* 21 (vampire),14:30,they're not the size of a pencil eraser
+* 21 (vampire),19:00,we have ants right now
+* 21 (vampire),29:40,did i tell you the adolf hitler thing?
