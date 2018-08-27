@@ -873,6 +873,7 @@
 * interesting vote from an interesting player
 	* http://howl.fm/audio/26163/live-from-vancouver-2013,51:50
 	* 198,53:00
+	* 562,1:13:30(pw)
 	* 558,57:30(pw)
 	* 363,1:06:20(pw)
 	* 325,1:27:55(paywall)
@@ -1066,6 +1067,7 @@
 	* 2016.nyc930,1:03:30
 * dads and grads
 	* 427,1:00(pw)
+	* 562,1:13:25(pw)
 	* 549,0:30(pw)
 	* 509,1:00(commercialed)
 	* 358,0:50(pw)
