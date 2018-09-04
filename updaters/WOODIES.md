@@ -484,3 +484,17 @@
 * 21 (vampire),14:30,they're not the size of a pencil eraser
 * 21 (vampire),19:00,we have ants right now
 * 21 (vampire),29:40,did i tell you the adolf hitler thing?
+* 22 (chinatown),04:30,what about brother to uncle?
+* 22 (chinatown),13:45,forget it the two jakes it's two chinatowns
+* 22 (chinatown),16:00,even educated bees fuck
+* 22 (chinatown),19:30,yeah sarah keonig goes up against marc maron
+* 22 (chinatown),25:00,mr. gorbacev i am not a crook lady
+* 22 (chinatown),25:50,listen to this food bitch
+* 22 (chinatown),31:50,you don't think your dad wants to buy a bunch of new bikes?
+* 22 (chinatown),38:20,go look at your house - it's lower (interested?)
+* 23 (bae),22:00,was it church?
+* 23 (bae),23:15,hey you got a good thing going here
+* 23 (bae),31:50,i feel like this weirdo is unpunishable
+* 23 (bae),43:00,porn
+* 23 (bae),48:30,stop me somebody?
+* 23 (bae),51:00,no-one from the Cocooniverse
