@@ -506,3 +506,6 @@
 * 24 (look),43:40,and buttom up the back of your pants
 * 24 (look),44:00,dress like johnny appleseed for this bitch
 * 24 (look),50:40,i bought a piano and you can buy one too
+* 25 (cactus),00:45,reporting live from #cafecordialis
+* 25 (cactus),03:45,my butt itches!
+* 25 (cactus),04:00,jeweler's loop
