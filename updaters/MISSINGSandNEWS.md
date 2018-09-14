@@ -138,6 +138,7 @@
 	* 141,49:10
 	* 145,9:30oyn
 	* 228,16:00(howl)
+	* 350,5:00(pw)
 * cut - least favorite word
 	* (many)
 	* 538,21:00

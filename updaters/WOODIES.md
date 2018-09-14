@@ -450,6 +450,7 @@
 * 16 (baby),53:30,i just realized we have passes in this game
 * 16 (baby),54:20,oh by the way you can pass
 * 17 (ch'd),11:35,typical swim team bullshit
+* 17 (ch'd),11:40,oh my hot dogs! (and legit scream)
 * 17 (ch’d),18:00,you are withholding you bitch
 * 17 (ch’d),22:50,you’re always wearing auckerpants 
 * 17 (ch’d),24:00,there’s a website that explains it
@@ -499,6 +500,7 @@
 * 23 (bae),48:30,stop me somebody?
 * 23 (bae),51:00,no-one from the Cocooniverse
 * 24 (look),12:00,i did remain friends with the ho
+* 24 (look),21:00,for a woman
 * 24 (look),22:20,can i finish (#canifinish)
 * 24 (look),30:00,when'd you kiss john cho?
 * 24 (look),43:40,and buttom up the back of your pants
