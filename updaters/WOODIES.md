@@ -498,3 +498,12 @@
 * 23 (bae),43:00,porn
 * 23 (bae),48:30,stop me somebody?
 * 23 (bae),51:00,no-one from the Cocooniverse
+* 24 (look),12:00,i did remain friends with the ho
+* 24 (look),22:20,can i finish (#canifinish)
+* 24 (look),30:00,when'd you kiss john cho?
+* 24 (look),43:40,and buttom up the back of your pants
+* 24 (look),44:00,dress like johnny appleseed for this bitch
+* 24 (look),50:40,i bought a piano and you can buy one too
+* 25 (cactus),00:45,reporting live from #cafecordialis
+* 25 (cactus),03:45,my butt itches!
+* 25 (cactus),04:00,jeweler's loop
