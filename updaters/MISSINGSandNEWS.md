@@ -2,6 +2,8 @@
 
 0. clean up nephew todd tag, "tiny reviews music" eluc
 1. fix "Regina Krimp" vs. "Crimp"
+2. you say baby too
+3. fix doobie brothers tag
 1. ~~jarles~~
 4. ~~clumsy portmanteau~~
 5. ~~lapkus can't make it through a song~~
@@ -262,6 +264,7 @@
 	* 456,5:00(pw)
 	* 456,11:15(pw)
 	* 471,1:03:30(pw)
+	* 565,24:20,it's like adobe
 * gino's commuter train map
 	* 463,2:07:20(pw)
 	* 521,12:00
@@ -944,6 +947,7 @@
 	* 338,1:23:10(pw)
 * you say baby too
 	* 521,1:02:00
+	* 565,1:08:20(pw)
 	* 508,45:12(pw)
 	* 515,12:30
 	* 521,1:02:00

@@ -509,3 +509,10 @@
 * 25 (cactus),00:45,reporting live from #cafecordialis
 * 25 (cactus),03:45,my butt itches!
 * 25 (cactus),04:00,jeweler's loop
+* 25 (cactus),23:09,bruce willis harmonica saturday night live feet
+* 25 (cactus),26:30,what's the horniest you've ever been?
+* 25 (cactus),30:10,they wanted to see time fly?
+* 25 (cactus),35:45,say hello to my best friend
+* 25 (cactus),37:50,she really liked dirty dancing
+* 25 (cactus),38:00,she was a real dorf type
+* 25 (cactus),41:30,now *i'm* the horniest i've ever been
