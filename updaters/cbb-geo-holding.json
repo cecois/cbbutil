@@ -1,69 +1,136 @@
-Greene Square, Savannah, HA
-proxy for:Greenbelt, Savannah;site of:
-,{
-    "episode": 565,
+{
+    "episode": 566,
     "show": "cbb",
-    "tstart": "50:00",
-    "tend": "50:55",
-    "instance":"We killed a raccoon to see if it would die.",
+    "tstart": "0:57",
+    "tend": "1:32",
+    "instance":"We've done some rebrandin' in the last year.",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Eugenia WOBBLES,Augustina (Auggie) Auggerman",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2018-09-17T09:37:04Z",
+    "tags": "The Calvins Twins,The Calvins Brothers,Bever Hopox,Chico Hands",
+    "location_type": "point",
+    "location_id": "410",
+    "updated_at": "2018-09-24T09:37:04Z",
     "url_soundcloud": null,
-    "created_at": "2018-09-17T09:37:04Z",
+    "created_at": "2018-09-24T09:37:04Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "cmon-bake-bake",
-    "episode_title": "C'mon Bake Bake",
-    "episode_guests": "Jason Mantzoukas,Mary Holland,D'Arcy Carden",
+    "slug_earwolf": "the-calvins-triplets",
+    "episode_title": "The Calvins Triplets",
+    "episode_guests": "Taran Killam,Paul Brittain,Ryan Gaul",
     "id_wikia": null,
     "holding": "false"
 }
 
 
-annaheim - just off the 101
-home of: Augustina (Auggie) Auggerman
-,{
-    "episode": 565,
+Amalie Arena, Tampa, FL
+site of: The Hopox empire expansion
+{
+    "episode": 566,
     "show": "cbb",
-    "tstart": "1:07:18",
-    "tend": "1:07:51",
-    "instance":"I don't wanna slut-shame her but what a slut!",
+    "tstart": "11:47",
+    "tend": "13:18",
+    "instance":"Two different locations, now!",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Hot Dog,Augustina (Auggie) Auggerman,Jamei Leighton",
+    "tags": "The Calvins Twins,The Calvins Brothers,Bever Hopox,Chico Hands,Bisby St. Hancock",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2018-09-17T09:37:04Z",
+    "updated_at": "2018-09-24T09:37:04Z",
     "url_soundcloud": null,
-    "created_at": "2018-09-17T09:37:04Z",
+    "created_at": "2018-09-24T09:37:04Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "cmon-bake-bake",
-    "episode_title": "C'mon Bake Bake",
-    "episode_guests": "Jason Mantzoukas,Mary Holland,D'Arcy Carden",
+    "slug_earwolf": "the-calvins-triplets",
+    "episode_title": "The Calvins Triplets",
+    "episode_guests": "Taran Killam,Paul Brittain,Ryan Gaul",
     "id_wikia": null,
     "holding": "false"
 }
 
-international waters
-site of: workplace of: [aukerman sex worker charactxer]
-,{
-    "episode": 565,
+Earwolf to Amarie Arena
+route of: CBB to the new Hopox horse fight arena
+{
+    "episode": 566,
     "show": "cbb",
-    "tstart": "1:16:45",
-    "tend": "1:17:51",
-    "instance":"What's up - you called me, mon.",
+    "tstart": "11:47",
+    "tend": "13:18",
+    "instance":"I don't know how familiar you are with Florida highways.",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "",
+    "tags": "The Calvins Twins,The Calvins Brothers,Bever Hopox,Chico Hands,Bisby St. Hancock",
+    "location_type": "line",
+    "location_id": "",
+    "updated_at": "2018-09-24T09:37:04Z",
+    "url_soundcloud": null,
+    "created_at": "2018-09-24T09:37:04Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "the-calvins-triplets",
+    "episode_title": "The Calvins Triplets",
+    "episode_guests": "Taran Killam,Paul Brittain,Ryan Gaul",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+Moscow
+potential site of: a third Hopox arena
+{
+    "episode": 566,
+    "show": "cbb",
+    "tstart": "19:45",
+    "tend": "20:45",
+    "instance":"We trusted this man.",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": "The Calvins Twins,The Calvins Brothers,Bever Hopox,Chico Hands,Bisby St. Hancock",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2018-09-17T09:37:04Z",
+    "updated_at": "2018-09-24T09:37:04Z",
     "url_soundcloud": null,
-    "created_at": "2018-09-17T09:37:04Z",
+    "created_at": "2018-09-24T09:37:04Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "cmon-bake-bake",
-    "episode_title": "C'mon Bake Bake",
-    "episode_guests": "Jason Mantzoukas,Mary Holland,D'Arcy Carden",
+    "slug_earwolf": "the-calvins-triplets",
+    "episode_title": "The Calvins Triplets",
+    "episode_guests": "Taran Killam,Paul Brittain,Ryan Gaul",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+Moscow
+potential site of: a third Hopox arena
+{
+    "episode": 566,
+    "show": "cbb",
+    "tstart": "22:24",
+    "tend": "23:00",
+    "instance":"What does that mean: a guy was at your farm 'and then they started doing that'?",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": "The Calvins Twins,The Calvins Brothers,Bever Hopox,Chico Hands,Bisby St. Hancock",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2018-09-24T09:37:04Z",
+    "url_soundcloud": null,
+    "created_at": "2018-09-24T09:37:04Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "the-calvins-triplets",
+    "episode_title": "The Calvins Triplets",
+    "episode_guests": "Taran Killam,Paul Brittain,Ryan Gaul",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+Ruth's Chris (near calvins ranch)
+site of: the Calvin's triplets every night
+{
+    "episode": 566,
+    "show": "cbb",
+    "tstart": "37:05",
+    "tend": "37:34",
+    "instance":"So you guys like eating cows.",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": "The Calvins Twins,The Calvins Brothers,Bever Hopox,Chico Hands,Bisby St. Hancock",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2018-09-24T09:37:04Z",
+    "url_soundcloud": null,
+    "created_at": "2018-09-24T09:37:04Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "the-calvins-triplets",
+    "episode_title": "The Calvins Triplets",
+    "episode_guests": "Taran Killam,Paul Brittain,Ryan Gaul",
     "id_wikia": null,
     "holding": "false"
 }
