@@ -1,136 +1,22 @@
-{
-    "episode": 566,
+Russia
+site of: Sergei, originally
+,{
+    "episode": 567,
     "show": "cbb",
-    "tstart": "0:57",
-    "tend": "1:32",
-    "instance":"We've done some rebrandin' in the last year.",
+    "tstart": "15:10",
+    "tend": "15:24",
+    "instance":"I'm from Russia but I go to the Ukraine.",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "The Calvins Twins,The Calvins Brothers,Bever Hopox,Chico Hands",
-    "location_type": "point",
-    "location_id": "410",
-    "updated_at": "2018-09-24T09:37:04Z",
-    "url_soundcloud": null,
-    "created_at": "2018-09-24T09:37:04Z",
-    "slug_soundcloud": null,
-    "slug_earwolf": "the-calvins-triplets",
-    "episode_title": "The Calvins Triplets",
-    "episode_guests": "Taran Killam,Paul Brittain,Ryan Gaul",
-    "id_wikia": null,
-    "holding": "false"
-}
-
-
-Amalie Arena, Tampa, FL
-site of: The Hopox empire expansion
-{
-    "episode": 566,
-    "show": "cbb",
-    "tstart": "11:47",
-    "tend": "13:18",
-    "instance":"Two different locations, now!",
-    "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "The Calvins Twins,The Calvins Brothers,Bever Hopox,Chico Hands,Bisby St. Hancock",
+    "tags": "Forsythia,Sergei",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2018-09-24T09:37:04Z",
+    "updated_at": "2018-10-01T09:37:04Z",
     "url_soundcloud": null,
-    "created_at": "2018-09-24T09:37:04Z",
+    "created_at": "2018-10-01T09:37:04Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "the-calvins-triplets",
-    "episode_title": "The Calvins Triplets",
-    "episode_guests": "Taran Killam,Paul Brittain,Ryan Gaul",
-    "id_wikia": null,
-    "holding": "false"
-}
-
-Earwolf to Amarie Arena
-route of: CBB to the new Hopox horse fight arena
-{
-    "episode": 566,
-    "show": "cbb",
-    "tstart": "11:47",
-    "tend": "13:18",
-    "instance":"I don't know how familiar you are with Florida highways.",
-    "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "The Calvins Twins,The Calvins Brothers,Bever Hopox,Chico Hands,Bisby St. Hancock",
-    "location_type": "line",
-    "location_id": "",
-    "updated_at": "2018-09-24T09:37:04Z",
-    "url_soundcloud": null,
-    "created_at": "2018-09-24T09:37:04Z",
-    "slug_soundcloud": null,
-    "slug_earwolf": "the-calvins-triplets",
-    "episode_title": "The Calvins Triplets",
-    "episode_guests": "Taran Killam,Paul Brittain,Ryan Gaul",
-    "id_wikia": null,
-    "holding": "false"
-}
-
-Moscow
-potential site of: a third Hopox arena
-{
-    "episode": 566,
-    "show": "cbb",
-    "tstart": "19:45",
-    "tend": "20:45",
-    "instance":"We trusted this man.",
-    "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "The Calvins Twins,The Calvins Brothers,Bever Hopox,Chico Hands,Bisby St. Hancock",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2018-09-24T09:37:04Z",
-    "url_soundcloud": null,
-    "created_at": "2018-09-24T09:37:04Z",
-    "slug_soundcloud": null,
-    "slug_earwolf": "the-calvins-triplets",
-    "episode_title": "The Calvins Triplets",
-    "episode_guests": "Taran Killam,Paul Brittain,Ryan Gaul",
-    "id_wikia": null,
-    "holding": "false"
-}
-
-Moscow
-potential site of: a third Hopox arena
-{
-    "episode": 566,
-    "show": "cbb",
-    "tstart": "22:24",
-    "tend": "23:00",
-    "instance":"What does that mean: a guy was at your farm 'and then they started doing that'?",
-    "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "The Calvins Twins,The Calvins Brothers,Bever Hopox,Chico Hands,Bisby St. Hancock",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2018-09-24T09:37:04Z",
-    "url_soundcloud": null,
-    "created_at": "2018-09-24T09:37:04Z",
-    "slug_soundcloud": null,
-    "slug_earwolf": "the-calvins-triplets",
-    "episode_title": "The Calvins Triplets",
-    "episode_guests": "Taran Killam,Paul Brittain,Ryan Gaul",
-    "id_wikia": null,
-    "holding": "false"
-}
-
-Ruth's Chris (near calvins ranch)
-site of: the Calvin's triplets every night
-{
-    "episode": 566,
-    "show": "cbb",
-    "tstart": "37:05",
-    "tend": "37:34",
-    "instance":"So you guys like eating cows.",
-    "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "The Calvins Twins,The Calvins Brothers,Bever Hopox,Chico Hands,Bisby St. Hancock",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2018-09-24T09:37:04Z",
-    "url_soundcloud": null,
-    "created_at": "2018-09-24T09:37:04Z",
-    "slug_soundcloud": null,
-    "slug_earwolf": "the-calvins-triplets",
-    "episode_title": "The Calvins Triplets",
-    "episode_guests": "Taran Killam,Paul Brittain,Ryan Gaul",
+    "slug_earwolf": "midnight-junket",
+    "episode_title": "Midnight Junket",
+    "episode_guests": "Lennon Parham,Nick Kroll,Gil Ozeri",
     "id_wikia": null,
     "holding": "false"
 }
