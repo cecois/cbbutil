@@ -1339,6 +1339,8 @@
   * 183,1:12:20,spookyguyz.com
   * 183,37:50,sillyguyz.com
   * 46,45:00(rough estim - pw),ice_t.blogspot.com
+* we'll pay for it (if you wanna go on another date)
+    * 567,14:00
 * shallatoo (maxwell keeper's new catchphrase)
   * 483,several
   * 483,18:10
