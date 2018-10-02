@@ -517,3 +517,7 @@
 * 25 (cactus),37:50,she really liked dirty dancing
 * 25 (cactus),38:00,she was a real dorf type
 * 25 (cactus),41:30,now *i'm* the horniest i've ever been
+* 26 (eggnogs),03:30,no I just know (about the hitler shamrock)
+* 26 (eggnogs),05:00,he's twelve!
+* 26 (eggnogs),07:45,a poxy on all your houses
+* 26 (eggnogs),18:15,shut up bitch!
