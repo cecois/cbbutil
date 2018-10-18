@@ -451,6 +451,7 @@
 * 16 (baby),54:20,oh by the way you can pass
 * 17 (ch'd),11:35,typical swim team bullshit
 * 17 (ch'd),11:40,oh my hot dogs! (and legit scream)
+* 17 (ch’d),22:45,watch this - 'consider yourself'
 * 17 (ch’d),18:00,you are withholding you bitch
 * 17 (ch’d),22:50,you’re always wearing auckerpants 
 * 17 (ch’d),24:00,there’s a website that explains it

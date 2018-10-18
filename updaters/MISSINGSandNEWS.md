@@ -30,6 +30,15 @@
   * 530,22:45
   * other previous
 * drippin milk/talkin tang (any subepisode)
+	* 429,17:00(pw)
+	* 42*?,??:??
+	* 429,21:00(pw)
+	* 429,23:30(pw)
+	* 429,29:20(pw)
+	* 429,1:17:30(pw)
+	* 443,13:30(pw)
+	* 443,27:00(pw)
+	* 565,8:00(pw)
   * 429,17:00(pw)
   * 42*?,??:??
   * 429,21:00(pw)
@@ -1427,5 +1436,5 @@
   * 532,1:40
   * 536,1:45
   * 536,24:45
-    theatre tunnels
+* theatre tunnels
   * http://howl.fm/audio/46644/live-from-vulture-fest-2017,21:30(stitcher)
