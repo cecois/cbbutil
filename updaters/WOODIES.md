@@ -246,7 +246,7 @@
 * 446,32:30(pw),hi i'm pregnant
 * 456,surely you've seen a movie where there's been a rap song in it
 * 46,45:00,where was conan going with that?
-* 46,50:00(?pw),you like people better than corpses, right?
+* 46,08:30(pw),you like people better than corpses, right?
 * 463,15:50(pw),carlifer/clumsy portmanteau
 * 474,1:07:40,i like though you say a thing and then you just look down at the ground
 * 474,29:45(howl),this better be worth it

@@ -1,46 +1,45 @@
-Russia
-site of: Sergei, originally
+City of Commerce, CA
+site of: recent pyramid news
 ,{
-    "episode": 567,
+    "episode": 569,
     "show": "cbb",
-    "tstart": "15:10",
-    "tend": "15:24",
-    "instance":"I'm from Russia but I go to the Ukraine.",
+    "tstart": "33:00",
+    "tend": "33:13",
+    "instance":"It's very difficult to get to - almost as difficult as HBO.",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Forsythia,Sergei",
+    "tags": "Luke and Matthew",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2018-10-01T09:37:04Z",
+    "updated_at": "2018-10-15T09:37:04Z",
     "url_soundcloud": null,
-    "created_at": "2018-10-01T09:37:04Z",
+    "created_at": "2018-10-15T09:37:04Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "midnight-junket",
-    "episode_title": "Midnight Junket",
-    "episode_guests": "Lennon Parham,Nick Kroll,Gil Ozeri",
+    "slug_earwolf": "dull-knives-sturdy-eyes",
+    "episode_title": "Dull Knives, Sturdy Eyes",
+    "episode_guests": "Emily Heller,Drew Tarver,Dan Lippert,Ryan Rosenberg,Jon Mackey",
     "id_wikia": null,
     "holding": "false"
 }
 
-
-Shakeys in Hollywood
-site of: Sergei and Forsythia, Sergei hopes
+Target #? (on sunset, abandoned)
+similar to: Luke and Matthew's mosoleum pyramid
 ,{
-    "episode": 567,
+    "episode": 569,
     "show": "cbb",
-    "tstart": "13:20",
-    "tend": "13:49",
-    "instance":"I don't know these Mojo Potatoes.",
+    "tstart": "35:00",
+    "tend": "35:15",
+    "instance":"They've had a bit of a rain delay with the pyramid.",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Forsythia,Sergei",
-    "location_type": "point",
+    "tags": "Luke and Matthew",
+    "location_type": "",
     "location_id": "",
-    "updated_at": "2018-10-01T09:37:04Z",
+    "updated_at": "2018-10-15T09:37:04Z",
     "url_soundcloud": null,
-    "created_at": "2018-10-01T09:37:04Z",
+    "created_at": "2018-10-15T09:37:04Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "midnight-junket",
-    "episode_title": "Midnight Junket",
-    "episode_guests": "Lennon Parham,Nick Kroll,Gil Ozeri",
+    "slug_earwolf": "dull-knives-sturdy-eyes",
+    "episode_title": "Dull Knives, Sturdy Eyes",
+    "episode_guests": "Emily Heller,Drew Tarver,Dan Lippert,Ryan Rosenberg,Jon Mackey",
     "id_wikia": null,
     "holding": "false"
 }
