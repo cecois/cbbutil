@@ -1,45 +1,88 @@
-City of Commerce, CA
-site of: recent pyramid news
+California Doughnuts - Hollywood, 5753 Hollywood Blvd, Los Angeles, CA 90028
+site of: Rudi North's new job
 ,{
-    "episode": 569,
+    "episode": 570,
     "show": "cbb",
-    "tstart": "33:00",
-    "tend": "33:13",
-    "instance":"It's very difficult to get to - almost as difficult as HBO.",
+    "tstart": "26:04",
+    "tend": "31:25",
+    "instance":"Did I leave that out? Because it's kind of important.",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Luke and Matthew",
+    "tags": "Rudi North",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2018-10-15T09:37:04Z",
+    "updated_at": "2018-10-22T09:37:04Z",
     "url_soundcloud": null,
-    "created_at": "2018-10-15T09:37:04Z",
+    "created_at": "2018-10-22T09:37:04Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "dull-knives-sturdy-eyes",
-    "episode_title": "Dull Knives, Sturdy Eyes",
-    "episode_guests": "Emily Heller,Drew Tarver,Dan Lippert,Ryan Rosenberg,Jon Mackey",
+    "slug_earwolf": "the-dirty-27",
+    "episode_title": "The Dirty 27",
+    "episode_guests": "David Wain,Thomas Middleditch,Shaun Diston",
+    "id_wikia": null,
+    "holding": "false"
+}
+,{
+    "episode": 570,
+    "show": "cbb",
+    "tstart": "55:07",
+    "tend": "55:36",
+    "instance":"Have you washed the sidewalk today?",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": "Rudi North,Brody Broderson",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2018-10-22T09:37:04Z",
+    "url_soundcloud": null,
+    "created_at": "2018-10-22T09:37:04Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "the-dirty-27",
+    "episode_title": "The Dirty 27",
+    "episode_guests": "David Wain,Thomas Middleditch,Shaun Diston",
     "id_wikia": null,
     "holding": "false"
 }
 
-Target #? (on sunset, abandoned)
-similar to: Luke and Matthew's mosoleum pyramid
+Simi Valley
+childhood     home of:Brody Broderson
 ,{
-    "episode": 569,
+    "episode": 570,
     "show": "cbb",
-    "tstart": "35:00",
-    "tend": "35:15",
-    "instance":"They've had a bit of a rain delay with the pyramid.",
+    "tstart": "38:35",
+    "tend": "38:59",
+    "instance":"So you're a California native?",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Luke and Matthew",
+    "tags": "Rudi North,Brody Broderson",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2018-10-15T09:37:04Z",
+    "updated_at": "2018-10-22T09:37:04Z",
     "url_soundcloud": null,
-    "created_at": "2018-10-15T09:37:04Z",
+    "created_at": "2018-10-22T09:37:04Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "dull-knives-sturdy-eyes",
-    "episode_title": "Dull Knives, Sturdy Eyes",
-    "episode_guests": "Emily Heller,Drew Tarver,Dan Lippert,Ryan Rosenberg,Jon Mackey",
+    "slug_earwolf": "the-dirty-27",
+    "episode_title": "The Dirty 27",
+    "episode_guests": "David Wain,Thomas Middleditch,Shaun Diston",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+Sequoia National Forest
+current home of:Brody Broderson
+,{
+    "episode": 570,
+    "show": "cbb",
+    "tstart": "42:40",
+    "tend": "43:15",
+    "instance":"I got some gardens there.",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": "Rudi North,Brody Broderson",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2018-10-22T09:37:04Z",
+    "url_soundcloud": null,
+    "created_at": "2018-10-22T09:37:04Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "the-dirty-27",
+    "episode_title": "The Dirty 27",
+    "episode_guests": "David Wain,Thomas Middleditch,Shaun Diston",
     "id_wikia": null,
     "holding": "false"
 }
