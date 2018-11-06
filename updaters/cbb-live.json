@@ -218,4 +218,64 @@
         "id_wikia": null,
         "holding": "false"
     }
+    ,{
+        "episode": 572,
+        "show": "cbb",
+        "tstart": "54:00",
+        "tend": "54:15",
+        "instance":"How aware of Eartthlings are Earthlings?",
+ "bit":"Possibly Hundreds","elucidation":"cbb's listenership is questioned",
+        "tags": "Buttonwillow McKittrick",
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2018-11-05T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2018-11-05T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "changerous",
+        "episode_title": "Changerous",
+        "episode_guests": "Jason Mantzoukas,Paul F. Tompkins",
+        "id_wikia": null,
+        "holding": "false"
+    }
+    ,{
+        "episode": 572,
+        "show": "cbb",
+        "tstart": "57:44",
+        "tend": "58:42",
+        "instance":"A lot of people I talk to have only seen one movie.",
+ "bit":"We Knew a Poet Once","elucidation":"various, even vague interminglings of character canon",
+        "tags": "Buttonwillow McKittrick,Traci Rearden,JW Stillwater",
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2018-11-05T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2018-11-05T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "changerous",
+        "episode_title": "Changerous",
+        "episode_guests": "Jason Mantzoukas,Paul F. Tompkins",
+        "id_wikia": null,
+        "holding": "false"
+    }
+    ,{
+        "episode": 572,
+        "show": "cbb",
+        "tstart": "1:00:48",
+        "tend": "1:01:00",
+        "instance":"Is this a sidebar?",
+ "bit":"...but watch yourself, councilor.","elucidation":"law & order (via john mulaney) is quoted",
+        "tags": "Buttonwillow McKittrick",
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2018-11-05T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2018-11-05T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "changerous",
+        "episode_title": "Changerous",
+        "episode_guests": "Jason Mantzoukas,Paul F. Tompkins",
+        "id_wikia": null,
+        "holding": "false"
+    }
 ]
