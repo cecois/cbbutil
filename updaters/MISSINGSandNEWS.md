@@ -276,6 +276,7 @@
   * 565,24:20,it's like adobe
   * 572,32:35(pw)
 * gino's commuter train map
+  * 571,27:45(pw)
   * 463,2:07:20(pw)
   * 521,12:00
   * 475,17:20(howl)
@@ -367,6 +368,7 @@
   * http://howl.fm/audio/42018/may-21-detroit-royal-oak-music-theatre,37:30
 * thanks, reggie
   * almost every ep at least thru 84
+  * 572,0:10(pw)
   * 545,1:15(pw)
   * 84,2:30
   * 93,01:40
@@ -958,6 +960,7 @@
   * 338,1:23:10(pw)
 * you say baby too
   * 521,1:02:00
+  * 571,48:20(pw)
   * 565,1:08:20(pw)
   * 508,45:12(pw)
   * 515,12:30
@@ -1181,6 +1184,7 @@
   * bo2017.4,4:00
   * 463,2:29:20(pw)
   * bo2016.2,2:11:50(pw)
+  * 572,1:15:33(pw)
 * saturday (day) night live
   * lots
   * 363,8:30(pw)
