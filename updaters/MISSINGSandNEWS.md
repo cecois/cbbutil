@@ -30,15 +30,15 @@
   * 530,22:45
   * other previous
 * drippin milk/talkin tang (any subepisode)
-	* 429,17:00(pw)
-	* 42*?,??:??
-	* 429,21:00(pw)
-	* 429,23:30(pw)
-	* 429,29:20(pw)
-	* 429,1:17:30(pw)
-	* 443,13:30(pw)
-	* 443,27:00(pw)
-	* 565,8:00(pw)
+  * 429,17:00(pw)
+  * 42*?,??:??
+  * 429,21:00(pw)
+  * 429,23:30(pw)
+  * 429,29:20(pw)
+  * 429,1:17:30(pw)
+  * 443,13:30(pw)
+  * 443,27:00(pw)
+  * 565,8:00(pw)
   * 429,17:00(pw)
   * 42*?,??:??
   * 429,21:00(pw)
@@ -274,6 +274,7 @@
   * 456,11:15(pw)
   * 471,1:03:30(pw)
   * 565,24:20,it's like adobe
+  * 572,32:35(pw)
 * gino's commuter train map
   * 571,27:45(pw)
   * 463,2:07:20(pw)
@@ -972,6 +973,7 @@
   * http://howl.fm/audio/46644/live-from-vulture-fest-2017,39:29(pw)
   * http://howl.fm/audio/41284/may-4-tarrytown-ny-tarrytown-music-hall,18:00(pw)
   * boston wilbur 7pm,40:00
+  * nyc  may 13 gramercy 7pm,31:00
 * gershwin, my baby
   * 400, multiple
   * 400, ~28:30
