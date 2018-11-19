@@ -1,131 +1,70 @@
-Green Bay, WI
-site of: Colin Templeton during his stint quarterbacking the Green Bay Packers
+Sandusky, OH
+home of : Pat and Scat Hamptoncrat
+
 ,{
-    "episode": 573,
+    "episode": 574,
     "show": "cbb",
-    "tstart": "37:00",
-    "tend": "37:55",
-    "instance":"He's a QB1.",
+    "tstart": "41:35",
+    "tend": "42:03",
+    "instance":"Wait, they named the city after him?!",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Diane Templeton,Colin Templeton",
+    "tags": "Patman Hamptoncrat,Scatricia Hamptoncrat,Jerry Sandusky",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2018-11-13T09:37:04Z",
+    "updated_at": "2018-11-19T09:37:04Z",
     "url_soundcloud": null,
-    "created_at": "2018-11-13T09:37:04Z",
+    "created_at": "2018-11-19T09:37:04Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "alfred-molina-flair",
-    "episode_title": "Alfred Molina Flair",
-    "episode_guests": "Adam Cayton-Holland,Alana Johnston,Ben Rodgers",
+    "slug_earwolf": "conan-never-goes-outside",
+    "episode_title": "Conan Never Goes Outside",
+    "episode_guests": "Conan O’Brien,Paul F. Tompkins,Lauren Lapkus,Mary Holland",
     "id_wikia": null,
     "holding": "false"
 }
 
-Crime Alley - Los Angeles
-home of: Terry the Smoke Bomb Guy;site of: Jack Furz setting up a shot
+
+The Simpson-Flint House Bed and Breakfast @ 234 E Washington St, Sandusky, OH 44870-2611
+proxy for: Trantomania, home of Pat and Scat Hamptoncrat
 ,{
-    "episode": 573,
+    "episode": 574,
     "show": "cbb",
-    "tstart": "1:24:20",
-    "tend": "1:24:44",
-    "instance":"He's right off of Crime Alley.",
+    "tstart": "48:20",
+    "tend": "55:16",
+    "instance":"We're opening up our house for services.",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Diane Templeton,Jack Furz",
+    "tags": "Patman Hamptoncrat,Scatricia Hamptoncrat",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2018-11-13T09:37:04Z",
+    "updated_at": "2018-11-19T09:37:04Z",
     "url_soundcloud": null,
-    "created_at": "2018-11-13T09:37:04Z",
+    "created_at": "2018-11-19T09:37:04Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "alfred-molina-flair",
-    "episode_title": "Alfred Molina Flair",
-    "episode_guests": "Adam Cayton-Holland,Alana Johnston,Ben Rodgers",
-    "id_wikia": null,
-    "holding": "false"
-}
-,{
-    "episode": 573,
-    "show": "cbb",
-    "tstart": "1:30:22",
-    "tend": "1:30:46",
-    "instance":"It just makes me think of, like, looking down on Crime Alley.",
-    "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Jack Furz",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2018-11-13T09:37:04Z",
-    "url_soundcloud": null,
-    "created_at": "2018-11-13T09:37:04Z",
-    "slug_soundcloud": null,
-    "slug_earwolf": "alfred-molina-flair",
-    "episode_title": "Alfred Molina Flair",
-    "episode_guests": "Adam Cayton-Holland,Alana Johnston,Ben Rodgers",
+    "slug_earwolf": "conan-never-goes-outside",
+    "episode_title": "Conan Never Goes Outside",
+    "episode_guests": "Conan O’Brien,Paul F. Tompkins,Lauren Lapkus,Mary Holland",
     "id_wikia": null,
     "holding": "false"
 }
 
-ABC Los Angeles affiliate
-workplace of: Jack Furz, Jake Jergoff
+Costco - Los Feliz @ 2901 Los Feliz Blvd, Los Angeles, CA 90039
+former location of: Prudence Fart's ancient sod house
 ,{
-    "episode": 573,
+    "episode": 574,
     "show": "cbb",
-    "tstart": "1:35:44",
-    "tend": "1:36:07",
-    "instance":"I guess you could catch a couple of my local stories.",
+    "tstart": "1:09:18",
+    "tend": "1:09:37",
+    "instance":"But here's my thing - the area that my sod house used to be, now it's a Costco.",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Jack Furz",
+    "tags": "Patman Hamptoncrat,Scatricia Hamptoncrat,Prudence Fart",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2018-11-13T09:37:04Z",
+    "updated_at": "2018-11-19T09:37:04Z",
     "url_soundcloud": null,
-    "created_at": "2018-11-13T09:37:04Z",
+    "created_at": "2018-11-19T09:37:04Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "alfred-molina-flair",
-    "episode_title": "Alfred Molina Flair",
-    "episode_guests": "Adam Cayton-Holland,Alana Johnston,Ben Rodgers",
-    "id_wikia": null,
-    "holding": "false"
-}
-,{
-    "episode": 573,
-    "show": "cbb",
-    "tstart": "47:00",
-    "tend": "47:22",
-    "instance":"It's a lady feeding ducks.",
-    "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Jack Furz",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2018-11-13T09:37:04Z",
-    "url_soundcloud": null,
-    "created_at": "2018-11-13T09:37:04Z",
-    "slug_soundcloud": null,
-    "slug_earwolf": "alfred-molina-flair",
-    "episode_title": "Alfred Molina Flair",
-    "episode_guests": "Adam Cayton-Holland,Alana Johnston,Ben Rodgers",
-    "id_wikia": null,
-    "holding": "false"
-}
-
-Griffith Park
-childhood home of: Jack Furz
-,{
-    "episode": 573,
-    "show": "cbb",
-    "tstart": "1:36:50",
-    "tend": "1:37:15",
-    "instance":"Kinda Griffith Park - I was raised by wolves in there.",
-    "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Jack Furz",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2018-11-13T09:37:04Z",
-    "url_soundcloud": null,
-    "created_at": "2018-11-13T09:37:04Z",
-    "slug_soundcloud": null,
-    "slug_earwolf": "alfred-molina-flair",
-    "episode_title": "Alfred Molina Flair",
-    "episode_guests": "Adam Cayton-Holland,Alana Johnston,Ben Rodgers",
+    "slug_earwolf": "conan-never-goes-outside",
+    "episode_title": "Conan Never Goes Outside",
+    "episode_guests": "Conan O’Brien,Paul F. Tompkins,Lauren Lapkus,Mary Holland",
     "id_wikia": null,
     "holding": "false"
 }
