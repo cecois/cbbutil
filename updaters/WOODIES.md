@@ -522,3 +522,5 @@
 * 26 (eggnogs),05:00,he's twelve!
 * 26 (eggnogs),07:45,a poxy on all your houses
 * 26 (eggnogs),18:15,shut up bitch!
+* 26 (eggnogs),46:00,it’s Xmas find out
+* 26 (eggnogs),46:30,xfowg theme song slow
