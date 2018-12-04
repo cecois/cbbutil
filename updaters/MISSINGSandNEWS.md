@@ -578,6 +578,7 @@
   * 2016.losangeles,1:00:40
 * character bonanzas
   * 300,bill carter+
+  * 85,4:00+(neill campbell)
   * 345,all explosiones
   * 335,wiseman|marshal|thicke
   * 500,1:25:45

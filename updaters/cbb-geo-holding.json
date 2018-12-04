@@ -1,92 +1,137 @@
-Disneyland San Diego
-site of: John Lennon, once
-,{
-    "episode": 575,
+Battle of the Bands (combat) - parking lot next to the ocean experience aquarium near dana point
+site of: a Rosebush Red gig
+{
+    "episode": 576,
     "show": "cbb",
-    "tstart": "7:02",
+    "tstart": "1:07:08",
+    "tend": "1:07:35",
+    "instance":"That's when the bands really fuckin' settle who's best.",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": "Joe Bongo,Jimmy Bongos,Rosebush Red (musical combination)",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2018-12-03T09:37:04Z",
+    "url_soundcloud": null,
+    "created_at": "2018-12-03T09:37:04Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "what-the-sound-made",
+    "episode_title": "What the Sound Made",
+    "episode_guests": "Andy Daly,Tim Baltz",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+Battle of the Bands (music) - barge off Dana Point
+site of: a Rosebush Red gig
+{
+    "episode": 576,
+    "show": "cbb",
+    "tstart": "1:07:00",
+    "tend": "1:07:10",
+    "instance":"We're gonna be out on a barge.",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": "Joe Bongo,Jimmy Bongos,Rosebush Red (musical combination)",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2018-12-03T09:37:04Z",
+    "url_soundcloud": null,
+    "created_at": "2018-12-03T09:37:04Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "what-the-sound-made",
+    "episode_title": "What the Sound Made",
+    "episode_guests": "Andy Daly,Tim Baltz",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+Alhambra, CA
+home of: Randy Snutz and Carissa
+{
+    "episode": 576,
+    "show": "cbb",
+    "tstart": "35:20",
+    "tend": "35:40",
+    "instance":"East side or die, dude.",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": "Joe Bongo,Jimmy Bongos,Randy Snutz",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2018-12-03T09:37:04Z",
+    "url_soundcloud": null,
+    "created_at": "2018-12-03T09:37:04Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "what-the-sound-made",
+    "episode_title": "What the Sound Made",
+    "episode_guests": "Andy Daly,Tim Baltz",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+dog run at chase-burton park
+site of: one leg of the most expensive car accident in marina del rey history
+{
+    "episode": 576,
+    "show": "cbb",
+    "tstart": "7:50",
+    "tend": "8:16",
+    "instance":"Apparently I did $18M worth of damage to the dog run...",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": "Joe Bongo,Jimmy Bongos",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2018-12-03T09:37:04Z",
+    "url_soundcloud": null,
+    "created_at": "2018-12-03T09:37:04Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "what-the-sound-made",
+    "episode_title": "What the Sound Made",
+    "episode_guests": "Andy Daly,Tim Baltz",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+marina del rey lighthouse
+site of: one leg of the most expensive car accident in the history of marian del rey, ca
+{
+    "episode": 576,
+    "show": "cbb",
+    "tstart": "6:30",
+    "tend": "7:05",
+    "instance":"I was involved in the most expensive car accident in the history of Marina del Rey.",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": "Joe Bongo,Jimmy Bongos",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2018-12-03T09:37:04Z",
+    "url_soundcloud": null,
+    "created_at": "2018-12-03T09:37:04Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "what-the-sound-made",
+    "episode_title": "What the Sound Made",
+    "episode_guests": "Andy Daly,Tim Baltz",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+marina del rey town council
+site of: joe bongo, a lot
+{
+    "episode": 576,
+    "show": "cbb",
+    "tstart": "7:25",
     "tend": "7:40",
-    "instance":"LEGOs were invented back then?",
+    "instance":"I'll pitch it at the next town council meeting.",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "John Lennon",
+    "tags": "Joe Bongo,Jimmy Bongos",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2018-11-26T09:37:04Z",
+    "updated_at": "2018-12-03T09:37:04Z",
     "url_soundcloud": null,
-    "created_at": "2018-11-26T09:37:04Z",
+    "created_at": "2018-12-03T09:37:04Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "that-dazzles-me-already",
-    "episode_title": "Don’t Stop Or We'll Die (musical combination),Mike Hanford,Zac Oyama",
-    "episode_guests": "",
-    "id_wikia": null,
-    "holding": "false"
-}
-
-Greece
-site of: John Lennon visiting the Mamma Mia!  set
-,{
-    "episode": 575,
-    "show": "cbb",
-    "tstart": "27:58",
-    "tend": "28:13",
-    "instance":"We live across the mountain from, um - do you know Cher?",
-    "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "John Lennon,Cher,Mamma Mia! (film)",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2018-11-26T09:37:04Z",
-    "url_soundcloud": null,
-    "created_at": "2018-11-26T09:37:04Z",
-    "slug_soundcloud": null,
-    "slug_earwolf": "that-dazzles-me-already",
-    "episode_title": "Don’t Stop Or We'll Die (musical combination),Mike Hanford,Zac Oyama",
-    "episode_guests": "",
-    "id_wikia": null,
-    "holding": "false"
-}
-
-
-Griffith Park Pony Ride - 4400 Crystal Springs Dr., Los Angeles, CA 90027
-site of: John Lennon visiting the Mamma Mia!  set
-,{
-    "episode": 575,
-    "show": "cbb",
-    "tstart": "1:03:45",
-    "tend": "1:04:03",
-    "instance":"I heard about him - but he couldn't get a full horse?",
-    "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "John Lennon,Keantwo Reeves,Christopher Reeve",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2018-11-26T09:37:04Z",
-    "url_soundcloud": null,
-    "created_at": "2018-11-26T09:37:04Z",
-    "slug_soundcloud": null,
-    "slug_earwolf": "that-dazzles-me-already",
-    "episode_title": "Don’t Stop Or We'll Die (musical combination),Mike Hanford,Zac Oyama",
-    "episode_guests": "",
-    "id_wikia": null,
-    "holding": "false"
-}
-
-London, England
-site of: John Lennon & Austin Powers taking a joint crumpet-making class
-,{
-    "episode": 575,
-    "show": "cbb",
-    "tstart": "1:18:48",
-    "tend": "1:19:15",
-    "instance":"And he never got horny the entire time?",
-    "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "John Lennon,Austin Powers",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2018-11-26T09:37:04Z",
-    "url_soundcloud": null,
-    "created_at": "2018-11-26T09:37:04Z",
-    "slug_soundcloud": null,
-    "slug_earwolf": "that-dazzles-me-already",
-    "episode_title": "Don’t Stop Or We'll Die (musical combination),Mike Hanford,Zac Oyama",
-    "episode_guests": "",
+    "slug_earwolf": "what-the-sound-made",
+    "episode_title": "What the Sound Made",
+    "episode_guests": "Andy Daly,Tim Baltz",
     "id_wikia": null,
     "holding": "false"
 }
