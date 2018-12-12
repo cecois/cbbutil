@@ -25,7 +25,7 @@
 * 103,1:32:20,yeah scott u idiot
 * 103,1:37:20,i’m inside this fella (huell f. tompkins)
 * 116,58:00,like cock sucking lips?
-* 119,53:30,well i got my hands on an ape
+* 119,52:30,well i got my hands on an ape
 * 122,55:30,like a classroom guinea pig who's lived too long
 * 123,51:30,you also rhymed 'math' with 'mathscience'
 * 126,59:45,true? no. false? yes.
@@ -308,6 +308,7 @@
 * http://howl.fm/audio/26163/live-from-vancouver-2013,29:40,why must we be charged?
 * http://howl.fm/audio/26164/live-from-san-francisco-2013,23:20,unmistakable sound of the breaking of a human toe
 * sydney2016,1:10:25,did a doctor just wander onto the stage?
+* 577,58:00,the way you've described Cart
 * who said it shamon
 * who’s the most fuckable huxtable? ++++
 
