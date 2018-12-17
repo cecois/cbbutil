@@ -262,6 +262,7 @@
 * 514,1:13:15,try a different strategy idiot
 * 514,21:20,don't get us started on that cracker
 * 521,43:45,he's always trying to teach me this
+* 578,47:00,is that where you got that ginus?
 * 524,15:45,bon appetite!
 * 524,1:00,they know (BCB)
 * 524,1:03:00,patty luphone
