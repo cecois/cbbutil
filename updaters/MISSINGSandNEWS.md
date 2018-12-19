@@ -18,7 +18,7 @@
 7. subepisodes
 
 * have you ever? (rapper's delight)
-	* a million - extant but needs catchup
+  * a million - extant but needs catchup
 * little boy/big boy
   * 561,17:00
 * point flathand fist
@@ -280,6 +280,8 @@
   * 131,17:00(pw)
 * gino's commuter train map
   * 571,27:45(pw)
+  * 579,56:40(pw)
+  * 579,6:00(pw)
   * 463,2:07:20(pw)
   * 521,12:00
   * 475,17:20(howl)
@@ -965,6 +967,9 @@
   * 338,1:23:10(pw)
 * you say baby too
   * 521,1:02:00
+  * 579,41:30(pw)
+  * 579,2:02:05(pw)
+  * 579,48:00(pw)
   * 571,48:20(pw)
   * 565,1:08:20(pw)
   * 508,45:12(pw)
