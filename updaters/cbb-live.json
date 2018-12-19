@@ -456,4 +456,63 @@
         "id_wikia": null,
         "holding": "false"
     }
+    ,{
+    "episode": 578,
+    "show": "cbb",
+    "tstart": "32:30",
+    "tend": "33:25",
+    "instance":"The fucking New York Times - that fake news.",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": "Cal Solomon,Batthew (Badminton) Mann",
+    "location_type": "point",
+    "location_id": "195",
+    "updated_at": "2018-12-13T09:37:04Z",
+    "url_soundcloud": null,
+    "created_at": "2018-12-13T09:37:04Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "right-off-the-batman",
+    "episode_title": "Right Off the Batman",
+    "episode_guests": "Paul F. Tompkins,Bobby Moynihan",
+    "id_wikia": null,
+    "holding": "false"
+}
+,{
+    "episode": 578,
+    "show": "cbb",
+    "tstart": "15:00",
+    "tend": "15:20",
+    "instance":"She's out furniture-shopping, I think.",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": "Cal Solomon,Batthew (Badminton) Mann,Nancy O'Dell",
+    "location_type": "point",
+    "location_id": "195",
+    "updated_at": "2018-12-13T09:37:04Z",
+    "url_soundcloud": null,
+    "created_at": "2018-12-13T09:37:04Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "right-off-the-batman",
+    "episode_title": "Right Off the Batman",
+    "episode_guests": "Paul F. Tompkins,Bobby Moynihan",
+    "id_wikia": null,
+    "holding": "false"
+}
+,{
+    "episode": 578,
+    "show": "cbb",
+    "tstart": "28:11",
+    "tend": "28:40",
+    "instance":"Why don't you like 'buns'?",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": "Cal Solomon,Batthew (Badminton) Mann",
+"location_type": "point","location_id": "967",
+    "updated_at": "2018-12-13T09:37:04Z",
+    "url_soundcloud": null,
+    "created_at": "2018-12-13T09:37:04Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "right-off-the-batman",
+    "episode_title": "Right Off the Batman",
+    "episode_guests": "Paul F. Tompkins,Bobby Moynihan",
+    "id_wikia": null,
+    "holding": "false"
+}
 ]
