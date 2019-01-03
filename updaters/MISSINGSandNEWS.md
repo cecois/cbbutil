@@ -66,6 +66,9 @@
   * 475 early
   * 476,40:30(pw)
   * 482,1:03:45(pw)
+* bajillian call sheet
+    * bo2018.*
+    * bo2018.3,1:58:00(pw)
 * Bone Queef
   * 430,***
   * 447,8:00(pw)
