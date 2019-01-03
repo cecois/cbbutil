@@ -19,6 +19,10 @@
 
 * have you ever? (rapper's delight)
   * a million - extant but needs catchup
+* notorious powerbottom ebenezer scrooge
+    * bo2018.*
+    * bo2018.4,15:40(pw)
+    * bo2018.4,1:34:45(pw)
 * little boy/big boy
   * 561,17:00
 * point flathand fist
@@ -66,9 +70,10 @@
   * 475 early
   * 476,40:30(pw)
   * 482,1:03:45(pw)
-* bajillian call sheet
+* bajillion (or any) call sheet
     * bo2018.*
     * bo2018.3,1:58:00(pw)
+    * bo2018.4,55:30(pw)
 * Bone Queef
   * 430,***
   * 447,8:00(pw)
