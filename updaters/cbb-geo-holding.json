@@ -1,11 +1,118 @@
-Rearden should be Reardon
+Havana, Cuba
+home of: Johnny Salese
 
-london bridge replica in arizona
-site of: Dalton Wilcox murdering a Mr. Hyde (and, ergo, a Dr. Jekyll)
-cbb300
-"location_type": "point","location_id": "968",
+{
+    "episode": 580,
+    "show": "cbb",
+    "tstart": "24:15",
+    "tend": "24:40",
+    "instance":"Where are you from, Johnny - you sound great.",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": "Johnny Salese",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-01-07T09:37:04Z",
+    "url_soundcloud": null,
+    "created_at": "2019-01-07T09:37:04Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "legend-of-mr-met",
+    "episode_title": "Legend of Mr. Met",
+    "episode_guests": "Ben Schwartz,Horatio Sanz",
+    "id_wikia": null,
+    "holding": "false"
+}
+,{
+    "episode": 580,
+    "show": "cbb",
+    "tstart": "33:47",
+    "tend": "34:29",
+    "instance":"Have you ever heard of Havana?",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": "Johnny Salese",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-01-07T09:37:04Z",
+    "url_soundcloud": null,
+    "created_at": "2019-01-07T09:37:04Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "legend-of-mr-met",
+    "episode_title": "Legend of Mr. Met",
+    "episode_guests": "Ben Schwartz,Horatio Sanz",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+Gangland Improv - 56th & Broadrey, southern L.A.
+site of: Chris Grezlik's one-man show
+,{
+    "episode": 580,
+    "show": "cbb",
+    "tstart": "42:15",
+    "tend": "43:30",
+    "instance":"Why would that lady in the diner be mistaken about you wearing a headdress?",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": "Chris Grezlik",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-01-07T09:37:04Z",
+    "url_soundcloud": null,
+    "created_at": "2019-01-07T09:37:04Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "legend-of-mr-met",
+    "episode_title": "Legend of Mr. Met",
+    "episode_guests": "Ben Schwartz,Horatio Sanz",
+    "id_wikia": null,
+    "holding": "false"
+}
+
+foothills of the rockies (along i-80)
+site of: Chris Grezlik, hallucinating
+,{
+    "episode": 580,
+    "show": "cbb",
+    "tstart": "44:00",
+    "tend": "44:35",
+    "instance":"When I got to the foothills of the Rockies, I was so tired that I thought a man standing was an old miner and when I got closer it was a cat.",
+    "bit" : "Pimpings","elucidation" : "superclass of all otherwise non-specific pimps",
+    "tags": "Chris Grezlik",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-01-07T09:37:04Z",
+    "url_soundcloud": null,
+    "created_at": "2019-01-07T09:37:04Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "legend-of-mr-met",
+    "episode_title": "Legend of Mr. Met",
+    "episode_guests": "Ben Schwartz,Horatio Sanz",
+    "id_wikia": null,
+    "holding": "false"
+}
 
 
 
+Directions to Gangland Improv from Midtown
+lincoln tunnel
+i-95 through chicago
+i-80 to rocky mountains
 
 
+,{
+    "episode": 580,
+    "show": "cbb",
+    "tstart": "43:13",
+    "tend": "43:35",
+    "instance":"There's one road that takes you about two hours south.",
+    "bit" : "Pimpings","elucidation" : "superclass of all otherwise non-specific pimps",
+    "tags": "Chris Grezlik",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-01-07T09:37:04Z",
+    "url_soundcloud": null,
+    "created_at": "2019-01-07T09:37:04Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "legend-of-mr-met",
+    "episode_title": "Legend of Mr. Met",
+    "episode_guests": "Ben Schwartz,Horatio Sanz",
+    "id_wikia": null,
+    "holding": "false"
+}
