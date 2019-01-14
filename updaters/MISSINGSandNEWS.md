@@ -53,6 +53,7 @@
   * 429,1:17:30(pw)
   * 443,13:30(pw)
   * 443,27:00(pw)
+  * 365,1:00:00(pw)
 * pft does star wars talk
   * all bo2017.*
   * bo2017.3,30:25
@@ -286,6 +287,7 @@
   * 565,24:20,it's like adobe
   * 572,32:35(pw)
   * 131,17:00(pw)
+  * 518,37:15(pw)
 * gino's commuter train map
   * 571,27:45(pw)
   * 579,56:40(pw)
@@ -439,6 +441,7 @@
 * icona pop
   * all 2016.tour stops
   * 2016.seattle,1:23:25
+  * 581,53:43
 * suck my clit (pam frm big bear catchphrase)
   * see [cbb-smc.json](/Users/ccmiller/Desktop/cbb/updaters/cbb-smc.json)
 * Indiana Jones/Raiders
@@ -1422,7 +1425,8 @@
   * 509,1:01:40(commercialed)
   * 508,1:11:20(commercialed)
   * 490,1:55(paywall)
-  * 518,1:50
+  * 518,1:10(pw)
+  * 518,32:30(pw)
   * 518,47:55
   * 518,53:00
   * 518,42:12
