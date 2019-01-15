@@ -21,3 +21,15 @@ home of: Doreen Blachly, 17 cats
   "id_wikia": null,
   "holding": "false"
 }
+
+????
+proxy for: Laramie Feed and Western Supply; site of: the murder of a Frankenstein; site of: the deflowering of Sally Jespa
+{
+  "uid": "_:laramiefeedandwesternsupply",
+  "name": "Laramie Feed and Western Supply",
+  "article": "LFWS is a supplier of western gear and other supplies to cowboys.",
+  "geo_key": {
+    "type": "point",
+    "id": null
+  }
+},
