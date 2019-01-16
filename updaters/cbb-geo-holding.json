@@ -33,3 +33,24 @@ proxy for: Laramie Feed and Western Supply; site of: the murder of a Frankenstei
     "id": null
   }
 },
+
+Dresden
+{
+  "_key": "_:dresdende",
+  "name": "Dresden, Germany",
+  "article": "Dresden is a significant site in World War II.",
+  "geo_key": {
+    "type": "point",
+    "id": null
+  }
+},
+
+{
+  "_key": "_:newmexico",
+  "name": "New Mexico, USA",
+  "article": "The __th state in the Union.",
+  "geo_key": {
+    "type": "poly",
+    "id": null
+  }
+},
