@@ -21,6 +21,25 @@
         "holding": "false"
     }
     ,{
+  "episode": 581,
+  "show": "cbb",
+  "tstart": "43:22",
+  "tend": "43:51",
+  "instance":"I love behind the first Sphynx.",
+  "bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+  "tags": "Doreen Blachly",
+"location_type": "point","location_id": "978",
+  "updated_at": "2019-01-14T09:37:04Z",
+  "url_soundcloud": null,
+  "created_at": "2019-01-14T09:37:04Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "thickest-oompa-loompa",
+  "episode_title": "Thicketst Oompa Loompa",
+  "episode_guests": "Matt Ingebretson,Jake Weisman,Ego Nwodim,Mary Scheer",
+  "id_wikia": null,
+  "holding": "false"
+}
+    ,{
         "episode": 581,
         "show": "cbb",
         "tstart": "7:22",
