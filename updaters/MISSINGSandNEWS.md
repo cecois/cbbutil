@@ -92,6 +92,9 @@
   * 419,40:38(pw)
   * may-20-chicago-athenaeum-theatre-7-pm,1:09:00(pw)
   * melbourne2016,35:30
+* dr. demento/weirdo al
+    * 582,7:00(pw)
+    * several prior
 * classic jarles
     * ~~342,12:50~~
       * ~~344,30:20(pw)~~
@@ -1391,6 +1394,7 @@
   * 434,9:30(pw)[]()
 * interesting people
   * several of the 480+ eps
+  * 582,0:45(pw)
   * 568,0:45(pw)
   * 553,1:45
   * 546,23:45(pw)
