@@ -400,6 +400,7 @@
   * 537,00:35
 * german craigslist
   * 59,42:25 (pw)
+  * 583,1:25:30(pw)
   * 429,1:06:45(pw)
   * 540,1:20:40(pw)
   * bo2010,46:50
@@ -1474,4 +1475,4 @@
   * 536,1:45
   * 536,24:45
 * theatre tunnels
-  * http://howl.fm/audio/46644/live-from-vulture-fest-2017,21:30(stitcher)
+  * http://howl.fm/audio/46644/live-from-vulture-fest-2017,21:30(stitcher)g

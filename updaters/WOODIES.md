@@ -27,6 +27,8 @@
 
 ### instances
 * 035,35:00,the ibrain
+* 583,59:40,we're working with you - but it is work
+* 583,1:00:25,we sensitive predators are the true invisible predators
 * 579,1:33:50,so no one is 'dennis' anymore?
 * 579,1:40:00,you're why james adomian doesn't come on the show
 * 579,1:30:00,monster fuck
