@@ -238,4 +238,60 @@
     "id_wikia": null,
     "holding": "false"
 }
+,{
+  "episode": 583,
+  "show": "cbb",
+  "tstart": "1:16:31",
+  "tend": "1:16:55",
+  "instance":"What is a blooding ceremony?",
+  "bit":"Location","elucidation":"identifiable earth location",
+  "tags": "Martin Sheffield Lickly,Chitter Chitter Cluck Click",
+"location_type": "poly","location_id": "563",
+  "updated_at": "2019-01-21T09:37:04Z",
+  "url_soundcloud": null,
+  "created_at": "2019-01-21T09:37:04Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "batman-nine-nine",
+  "episode_title": "Batman Nine-Nine",
+  "episode_guests": "Chelsea Peretti,Drew Tarver,John Gemberling",
+  "id_wikia": null,
+  "holding": "false"
+}
+,{
+  "episode": 583,
+  "show": "cbb",
+  "tstart": "1:19:20",
+  "tend": "1:19:55",
+  "instance":"They filmed some of Star Wars there.",
+  "bit":"Location","elucidation":"identifiable earth location",
+  "tags": "Martin Sheffield Lickly,Chitter Chitter Cluck Click",
+"location_type": "poly","location_id": "563",
+  "updated_at": "2019-01-21T09:37:04Z",
+  "url_soundcloud": null,
+  "created_at": "2019-01-21T09:37:04Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "batman-nine-nine",
+  "episode_title": "Batman Nine-Nine",
+  "episode_guests": "Chelsea Peretti,Drew Tarver,John Gemberling",
+  "id_wikia": null,
+  "holding": "false"
+},{
+  "episode": 583,
+  "show": "cbb",
+  "tstart": "1:35:02",
+  "tend": "1:35:22",
+  "instance":"Good luck embarking on this...it sounds like a one-city tour?",
+  "bit":"Location","elucidation":"identifiable earth location",
+  "tags": "Martin Sheffield Lickly,Chitter Chitter Cluck Click",
+"location_type": "poly","location_id": "564",
+  "updated_at": "2019-01-21T09:37:04Z",
+  "url_soundcloud": null,
+  "created_at": "2019-01-21T09:37:04Z",
+  "slug_soundcloud": null,
+  "slug_earwolf": "batman-nine-nine",
+  "episode_title": "Batman Nine-Nine",
+  "episode_guests": "Chelsea Peretti,Drew Tarver,John Gemberling",
+  "id_wikia": null,
+  "holding": "false"
+}
 ]
