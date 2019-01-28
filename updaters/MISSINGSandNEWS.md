@@ -4,18 +4,19 @@
 1. fix "Regina Krimp" vs. "Crimp"
 2. you say baby too
 3. fix doobie brothers tag
-1. ~~jarles~~
-4. ~~clumsy portmanteau~~
-5. ~~lapkus can't make it through a song~~
-2. gino's commuter map
-2. len wiseman
-3. retiring a train
-3. URLs
-3. literally nowhere else
-4. germany cannibalism
-5. icona pop
-6. s my c
-7. subepisodes
+4. mr. microphone
+5. ~~jarles~~
+6. ~~clumsy portmanteau~~
+7. ~~lapkus can't make it through a song~~
+8. gino's commuter map
+9. len wiseman
+10. retiring a train
+11. URLs
+12. literally nowhere else
+13. germany cannibalism
+14. icona pop
+15. s my c
+16. subepisodes
 
 * have you ever? (rapper's delight)
   * a million - extant but needs catchup
@@ -188,6 +189,8 @@
   * bo2014.3,1:22:00(pw)
   * 337,1:32:45(pw)
   * 338,1:15:14(pw)
+* the end (coco marx' joke stinger)
+    * 584,1:07:25(pw)
 * runoff/run-off p (all howl stamps)
   * 228,11:45
   * 228,15:45
@@ -477,6 +480,7 @@
   * 540,25:20(pw)
   * 508,1:24:10(commercialed)
   * 382,40:00(pw)
+  * 584,27:45(pw)
   * 386,40:50(pw)
   * 262,9:30
   * 289,9:50(howl)
@@ -877,6 +881,8 @@
   * 513,32:45
   * bo2017.4,14:30
   * bo2016.4,2:19:25
+  * 584,3:10(pw)
+  * 584,6:20(pw)
 * starting too low
   * 2016.manchester,1:38:00
   * bo2015.2,1:12:03(pw) - inaugural

@@ -323,6 +323,7 @@
 * http://howl.fm/audio/26164/live-from-san-francisco-2013,23:20,unmistakable sound of the breaking of a human toe
 * sydney2016,1:10:25,did a doctor just wander onto the stage?
 * 577,58:00,the way you've described Cart
+* 584,14:00,that's the detail you don't know?!
 * who said it shamon
 * who’s the most fuckable huxtable? ++++
 
