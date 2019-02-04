@@ -19,16 +19,21 @@
 16. subepisodes
 
 * have you ever? (rapper's delight)
+
   * a million - extant but needs catchup
 * notorious powerbottom ebenezer scrooge
     * bo2018.*
     * bo2018.4,15:40(pw)
     * bo2018.4,1:34:45(pw)
 * little boy/big boy
+
   * 561,17:00
 * point flathand fist
+
   * 555,34:15(pw)
+  * bo2017.4,7:00(pw)
 * video on demand
+
   * 530,22:30
 * closing sentiment-off
   * ??
@@ -110,6 +115,7 @@
       * ~~522,9:00~~
       * ~~bo2017.1,1:00:45~~
 * batman the ride
+
   * 522,3:50
 * we're really gonna probe his psyche (in-depth - wtf - actors pain)
   * 162,33:45
@@ -172,8 +178,10 @@
   * 362,6:15(pw)
   * 366,23:00(pw)
 * colin show
+
   * missing one from #483
 * sequel numbering
+
   * 477,15:30
 * the size of screens these days
   * 330,10:25(pw)
@@ -190,6 +198,7 @@
   * 337,1:32:45(pw)
   * 338,1:15:14(pw)
 * the end (coco marx' joke stinger)
+
     * 584,1:07:25(pw)
 * runoff/run-off p (all howl stamps)
   * 228,11:45
@@ -211,6 +220,7 @@
   * 539,13:20(pw)
   * 307,45:25(pw)
 * hot shit/cold diahrrea
+
   * 479,42:45(howl - w/ ads)
 * mike the janitor's mantra
   * 218,24:20(howl)
@@ -270,6 +280,7 @@
   * bo2016.1,1:22:50(pw)
   * bo2016.2,0:45
 * The Bible
+
   * 521,17:25
 * did __ just walk in here?
   * 199,multiple
@@ -311,6 +322,7 @@
   * 185,1:00:40
   * 237,45:50(pw)
 * begs the question
+
   * 463,14:30
 * year in advance
   * 172,1:02:30
@@ -350,6 +362,7 @@
   * 383,55:10(pw)
   * 383,56:10(pw)
 * woody allen's turning point
+
   * 457,29:00
 * book fade-outs
   * 2016.leeds,1:39:20
@@ -359,6 +372,7 @@
   * 2016.shepherds,1:21:00
   * 2016.shepherds,1:46:45
 * literally nowhere else to go
+
   * see [cbb-literally.json](cbb-literally.json)
 * fu, howl subscribers
   * 2016.losangeles,52:45
@@ -383,10 +397,13 @@
   * 554,11:00(pw)
   * 338,81:55(pw)
 * circus in town
+
   * 115,42:50
 * deep cut
+
   * 2016.perth,56:09
 * unwanted heimlich maneuvers
+
   * http://howl.fm/audio/42018/may-21-detroit-royal-oak-music-theatre,37:30
 * thanks, reggie
   * almost every ep at least thru 84
@@ -450,6 +467,7 @@
   * 2016.seattle,1:23:25
   * 581,53:43
 * suck my clit (pam frm big bear catchphrase)
+
   * see [cbb-smc.json](/Users/ccmiller/Desktop/cbb/updaters/cbb-smc.json)
 * Indiana Jones/Raiders
   * 2016.toronto,1:02:00
@@ -1007,6 +1025,11 @@
   * http://howl.fm/audio/41284/may-4-tarrytown-ny-tarrytown-music-hall,18:00(pw)
   * boston wilbur 7pm,40:00
   * nyc  may 13 gramercy 7pm,31:00
+  * May 7 - Boston, Wilbur Theatre (7 PM),40:00
+
+  then kill these:
+  5733d45b40c6154ffb2697d2
+  572d2767431ee61b9fc07cea
 * gershwin, my baby
   * 400, multiple
   * 400, ~28:30
@@ -1047,6 +1070,7 @@
   * 326,54:00(paywall)
   * 326,2:10:13(paywall)
 * German craigslist
+
   * 401,50:45
 * just a cardboard cutout inaugural
 * dick francis
@@ -1063,6 +1087,7 @@
   * 274,4:20
   * 456,17:20(pw)
 * constantly high-fiving
+
   * 384,25:00
 * men of a certain age
   * 2016.dallas,11:00
@@ -1118,6 +1143,7 @@
   * 419,1:34:50(*2)(pw)
   * 419,1:23:00(pw)
 * E.T.A.D.
+
   * 2016.nyc930,1:03:30
 * dads and grads
   * 427,1:00(pw)
@@ -1197,6 +1223,7 @@
   * 438,26:45(pw)
   * sydney2016,58:00
 * stoppin up the jams
+
   * 441,lotsa (inaugural)
 * biodigital jazz
   * several prior to 101
@@ -1384,6 +1411,7 @@
   * 183,37:50,sillyguyz.com
   * 46,45:00(rough estim - pw),ice_t.blogspot.com
 * we'll pay for it (if you wanna go on another date)
+
     * 567,14:00
 * shallatoo (maxwell keeper's new catchphrase)
   * 483,several
@@ -1393,11 +1421,13 @@
   * 483,35:40
   * 483,52:52
 * strains credulity
+
   * 262,??
 * the story of sting
   * bo2017.2,1:53:00
   * other Best-Ofs[]()
 * moveon.org
+
   * 434,9:30(pw)[]()
 * interesting people
   * several of the 480+ eps
@@ -1481,4 +1511,5 @@
   * 536,1:45
   * 536,24:45
 * theatre tunnels
+
   * http://howl.fm/audio/46644/live-from-vulture-fest-2017,21:30(stitcher)g
