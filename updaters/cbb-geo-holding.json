@@ -1,46 +1,45 @@
-Eastie
-home of: astronauts
+building off of San Vicente blvd
+site of: Abrams Talent and in the back closet of same, MoviePass HQ
 ,{
-    "episode": 586,
+    "episode": 587,
     "show": "cbb",
-    "tstart": "30:55",
-    "tend": "31:10",
-    "instance":"These are easy, easy questions.",
+    "tstart": "49:40",
+    "tend": "50:00",
+    "instance":"Well we are in the back closet of that building.",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Devon Westinghouse",
-    "location_type": "poly",
+    "tags": "Seth Berkowitz",
+    "location_type": "",
     "location_id": "",
-    "updated_at": "2019-02-11T09:37:04Z",
+    "updated_at": "2019-02-19T09:37:04Z",
     "url_soundcloud": null,
-    "created_at": "2019-02-11T09:37:04Z",
+    "created_at": "2019-02-19T09:37:04Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "butt-first",
-    "episode_title": "Butt First",
-    "episode_guests": "Rhea Butcher,Ryan Gaul,Colton Dunn",
+    "slug_earwolf": "no-relation",
+    "episode_title": "No Relation",
+    "episode_guests": "Maya Erskine,Anna Konkle,Dan Lippert,Ronnie Adrian",
     "id_wikia": null,
     "holding": "false"
 }
 
+Skinflint, MI
+site of: Perry Gordon's childhood orphanage
 ,{
-    "episode": 586,
+    "episode": 587,
     "show": "cbb",
-    "tstart": "33:15",
-    "tend": "33:29",
-    "instance":"Great side over there - you got great pizza.",
+    "tstart": "1:14:45",
+    "tend": "1:15:20",
+    "instance":"There's a lot of misers in Skinflint.",
     "bit":"Location","elucidation":"identifiable earth location",
-    "tags": "Devon Westinghouse,James P. Garity",
-    "location_type": "poly",
+    "tags": "Seth Berkowitz,Perry Gordon",
+    "location_type": "",
     "location_id": "",
-    "updated_at": "2019-02-11T09:37:04Z",
+    "updated_at": "2019-02-19T09:37:04Z",
     "url_soundcloud": null,
-    "created_at": "2019-02-11T09:37:04Z",
+    "created_at": "2019-02-19T09:37:04Z",
     "slug_soundcloud": null,
-    "slug_earwolf": "butt-first",
-    "episode_title": "Butt First",
-    "episode_guests": "Rhea Butcher,Ryan Gaul,Colton Dunn",
+    "slug_earwolf": "no-relation",
+    "episode_title": "No Relation",
+    "episode_guests": "Maya Erskine,Anna Konkle,Dan Lippert,Ronnie Adrian",
     "id_wikia": null,
     "holding": "false"
 }
-
-Cyprus High School
-site of: a future cold case
