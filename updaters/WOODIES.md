@@ -22,6 +22,8 @@
 
 ### instances
 * 035,35:00,the ibrain
+* 578,49:20,a lot of your holes are exposed
+* 262,69:50,your voice is very moist
 * 103,1:32:20,yeah scott u idiot
 * 103,1:37:20,i’m inside this fella (huell f. tompkins)
 * 116,58:00,like cock sucking lips?
@@ -134,7 +136,7 @@
 * 272,1:24:59,technicality no down boo over
 * 272,1:26:23,like ten?
 * 272,33:20(howl),some love outta frank sinatra - no dice
-* 274,1:09:33,yeah i guess so
+* 274,1:01:33(pw),yeah i guess so
 * 274,6:10(howl),your farts smell bro?
 * 276,18:05,hooch the mooch doesn't joke about politics
 * 280,1:00:05,how do u make a whore moan?
@@ -261,6 +263,7 @@
 * 514,1:13:15,try a different strategy idiot
 * 514,21:20,don't get us started on that cracker
 * 521,43:45,he's always trying to teach me this
+* 578,47:00,is that where you got that ginus?
 * 524,15:45,bon appetite!
 * 524,1:00,they know (BCB)
 * 524,1:03:00,patty luphone
@@ -282,6 +285,7 @@
 * 76.1,35:45,the bally jungles of africa
 * 76.2,39:30,turned into a red foxx party album
 * 85,58:00,i have been told i'm a bit of a drooler
+* 338,14:00,what a strange waste of hope
 * 94,25:16,i used to operate a b&b
 * 94,37:09,now if that doesn’t go so good
 * 94,47:20,i hope that's not true because then i'd have to crazy

@@ -17,6 +17,8 @@
 6. s my c
 7. subepisodes
 
+* have you ever? (rapper's delight)
+	* a million - extant but needs catchup
 * little boy/big boy
   * 561,17:00
 * point flathand fist
@@ -361,6 +363,7 @@
   * 445,22:00(pw)
   * 445,56:45(pw)
   * 554,11:00(pw)
+  * 338,81:55(pw)
 * circus in town
   * 115,42:50
 * deep cut
