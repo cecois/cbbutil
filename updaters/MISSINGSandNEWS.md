@@ -4,26 +4,36 @@
 1. fix "Regina Krimp" vs. "Crimp"
 2. you say baby too
 3. fix doobie brothers tag
-1. ~~jarles~~
-4. ~~clumsy portmanteau~~
-5. ~~lapkus can't make it through a song~~
-2. gino's commuter map
-2. len wiseman
-3. retiring a train
-3. URLs
-3. literally nowhere else
-4. germany cannibalism
-5. icona pop
-6. s my c
-7. subepisodes
+4. mr. microphone
+5. ~~jarles~~
+6. ~~clumsy portmanteau~~
+7. ~~lapkus can't make it through a song~~
+8. gino's commuter map
+9. len wiseman
+10. retiring a train
+11. URLs
+12. literally nowhere else
+13. germany cannibalism
+14. icona pop
+15. s my c
+16. subepisodes
 
 * have you ever? (rapper's delight)
-	* a million - extant but needs catchup
+
+  * a million - extant but needs catchup
+* notorious powerbottom ebenezer scrooge
+    * bo2018.*
+    * bo2018.4,15:40(pw)
+    * bo2018.4,1:34:45(pw)
 * little boy/big boy
+
   * 561,17:00
 * point flathand fist
+
   * 555,34:15(pw)
+  * bo2017.4,7:00(pw)
 * video on demand
+
   * 530,22:30
 * closing sentiment-off
   * ??
@@ -33,6 +43,7 @@
   * other previous
 * drippin milk/talkin tang (any subepisode)
   * 429,17:00(pw)
+  * 588,7:45(pw)
   * 42*?,??:??
   * 429,21:00(pw)
   * 429,23:30(pw)
@@ -49,6 +60,7 @@
   * 429,1:17:30(pw)
   * 443,13:30(pw)
   * 443,27:00(pw)
+  * 365,1:00:00(pw)
 * pft does star wars talk
   * all bo2017.*
   * bo2017.3,30:25
@@ -66,6 +78,11 @@
   * 475 early
   * 476,40:30(pw)
   * 482,1:03:45(pw)
+* bajillion (or any) call sheet
+    * bo2018.*
+    * bo2018.3,1:58:00(pw)
+    * bo2018.4,55:30(pw)
+    * 587,1:19:30(pw)
 * Bone Queef
   * 430,***
   * 447,8:00(pw)
@@ -83,6 +100,9 @@
   * 419,40:38(pw)
   * may-20-chicago-athenaeum-theatre-7-pm,1:09:00(pw)
   * melbourne2016,35:30
+* dr. demento/weirdo al
+    * 582,7:00(pw)
+    * several prior
 * classic jarles
     * ~~342,12:50~~
       * ~~344,30:20(pw)~~
@@ -97,6 +117,7 @@
       * ~~522,9:00~~
       * ~~bo2017.1,1:00:45~~
 * batman the ride
+
   * 522,3:50
 * we're really gonna probe his psyche (in-depth - wtf - actors pain)
   * 162,33:45
@@ -159,8 +180,10 @@
   * 362,6:15(pw)
   * 366,23:00(pw)
 * colin show
+
   * missing one from #483
 * sequel numbering
+
   * 477,15:30
 * the size of screens these days
   * 330,10:25(pw)
@@ -176,6 +199,9 @@
   * bo2014.3,1:22:00(pw)
   * 337,1:32:45(pw)
   * 338,1:15:14(pw)
+* the end (coco marx' joke stinger)
+
+    * 584,1:07:25(pw)
 * runoff/run-off p (all howl stamps)
   * 228,11:45
   * 228,15:45
@@ -196,6 +222,7 @@
   * 539,13:20(pw)
   * 307,45:25(pw)
 * hot shit/cold diahrrea
+
   * 479,42:45(howl - w/ ads)
 * mike the janitor's mantra
   * 218,24:20(howl)
@@ -255,6 +282,7 @@
   * bo2016.1,1:22:50(pw)
   * bo2016.2,0:45
 * The Bible
+
   * 521,17:25
 * did __ just walk in here?
   * 199,multiple
@@ -278,8 +306,11 @@
   * 565,24:20,it's like adobe
   * 572,32:35(pw)
   * 131,17:00(pw)
+  * 518,37:15(pw)
 * gino's commuter train map
   * 571,27:45(pw)
+  * 579,56:40(pw)
+  * 579,6:00(pw)
   * 463,2:07:20(pw)
   * 521,12:00
   * 475,17:20(howl)
@@ -293,6 +324,7 @@
   * 185,1:00:40
   * 237,45:50(pw)
 * begs the question
+
   * 463,14:30
 * year in advance
   * 172,1:02:30
@@ -332,6 +364,7 @@
   * 383,55:10(pw)
   * 383,56:10(pw)
 * woody allen's turning point
+
   * 457,29:00
 * book fade-outs
   * 2016.leeds,1:39:20
@@ -341,6 +374,7 @@
   * 2016.shepherds,1:21:00
   * 2016.shepherds,1:46:45
 * literally nowhere else to go
+
   * see [cbb-literally.json](cbb-literally.json)
 * fu, howl subscribers
   * 2016.losangeles,52:45
@@ -365,10 +399,13 @@
   * 554,11:00(pw)
   * 338,81:55(pw)
 * circus in town
+
   * 115,42:50
 * deep cut
+
   * 2016.perth,56:09
 * unwanted heimlich maneuvers
+
   * http://howl.fm/audio/42018/may-21-detroit-royal-oak-music-theatre,37:30
 * thanks, reggie
   * almost every ep at least thru 84
@@ -385,6 +422,7 @@
   * 537,00:35
 * german craigslist
   * 59,42:25 (pw)
+  * 583,1:25:30(pw)
   * 429,1:06:45(pw)
   * 540,1:20:40(pw)
   * bo2010,46:50
@@ -429,7 +467,9 @@
 * icona pop
   * all 2016.tour stops
   * 2016.seattle,1:23:25
+  * 581,53:43
 * suck my clit (pam frm big bear catchphrase)
+
   * see [cbb-smc.json](/Users/ccmiller/Desktop/cbb/updaters/cbb-smc.json)
 * Indiana Jones/Raiders
   * 2016.toronto,1:02:00
@@ -456,10 +496,12 @@
   * 2016.sydney,1:04:30
 * \#1 with a bullet
   * 2016.denver,10:00
+  * 588,30:12(pw)
   * 2016.toronto,41:00
   * 540,25:20(pw)
   * 508,1:24:10(commercialed)
   * 382,40:00(pw)
+  * 584,27:45(pw)
   * 386,40:50(pw)
   * 262,9:30
   * 289,9:50(howl)
@@ -757,6 +799,7 @@
   * bo2016.2,2:09:45(pw)
   * bo2016.3,6:30(pw)
   * bo2015.4,8:00(pw)
+  * bo2018.2,1:17:00(pw)
   * 433,12:50(pw)
   * 435,42:20(pw)
   * 407,45:50(pw)
@@ -859,6 +902,8 @@
   * 513,32:45
   * bo2017.4,14:30
   * bo2016.4,2:19:25
+  * 584,3:10(pw)
+  * 584,6:20(pw)
 * starting too low
   * 2016.manchester,1:38:00
   * bo2015.2,1:12:03(pw) - inaugural
@@ -871,6 +916,7 @@
   * 133,41:50
   * 133,55:59
   * 133,59:30
+  * 580,16:45
   * 354,34:00(pw)
   * 393,7:00(pw)
   * 500,1:08:30
@@ -896,6 +942,7 @@
   * http://howl.fm/audio/26163/live-from-vancouver-2013,51:50
   * 198,53:00
   * 562,1:13:30(pw)
+  * 586,1:02:10(pw)
   * 558,57:30(pw)
   * 363,1:06:20(pw)
   * 325,1:27:55(paywall)
@@ -965,6 +1012,9 @@
   * 338,1:23:10(pw)
 * you say baby too
   * 521,1:02:00
+  * 579,41:30(pw)
+  * 579,2:02:05(pw)
+  * 579,48:00(pw)
   * 571,48:20(pw)
   * 565,1:08:20(pw)
   * 508,45:12(pw)
@@ -979,6 +1029,11 @@
   * http://howl.fm/audio/41284/may-4-tarrytown-ny-tarrytown-music-hall,18:00(pw)
   * boston wilbur 7pm,40:00
   * nyc  may 13 gramercy 7pm,31:00
+  * May 7 - Boston, Wilbur Theatre (7 PM),40:00
+
+  then kill these:
+  5733d45b40c6154ffb2697d2
+  572d2767431ee61b9fc07cea
 * gershwin, my baby
   * 400, multiple
   * 400, ~28:30
@@ -1019,6 +1074,7 @@
   * 326,54:00(paywall)
   * 326,2:10:13(paywall)
 * German craigslist
+
   * 401,50:45
 * just a cardboard cutout inaugural
 * dick francis
@@ -1035,6 +1091,7 @@
   * 274,4:20
   * 456,17:20(pw)
 * constantly high-fiving
+
   * 384,25:00
 * men of a certain age
   * 2016.dallas,11:00
@@ -1090,6 +1147,7 @@
   * 419,1:34:50(*2)(pw)
   * 419,1:23:00(pw)
 * E.T.A.D.
+
   * 2016.nyc930,1:03:30
 * dads and grads
   * 427,1:00(pw)
@@ -1169,6 +1227,7 @@
   * 438,26:45(pw)
   * sydney2016,58:00
 * stoppin up the jams
+
   * 441,lotsa (inaugural)
 * biodigital jazz
   * several prior to 101
@@ -1213,6 +1272,7 @@
 * of note/in his own right
   * 292,2:24
   * 575,37:00
+  * 586,1:22(pw)
   * 544,11:20(pw)
   * 444,1:15:40(pw)
   * 445,03:00(pw)
@@ -1264,6 +1324,8 @@
   * bo2017.2,2:19:45
 * urls
   * 295,153,27:50
+  * 588,28:45(pw)
+  * 588,1:13:00(pw)
   * 568,10:00(pw)
   * 554,57:50(pw)
   * 558,1:04:20(pw)
@@ -1356,6 +1418,7 @@
   * 183,37:50,sillyguyz.com
   * 46,45:00(rough estim - pw),ice_t.blogspot.com
 * we'll pay for it (if you wanna go on another date)
+
     * 567,14:00
 * shallatoo (maxwell keeper's new catchphrase)
   * 483,several
@@ -1365,14 +1428,18 @@
   * 483,35:40
   * 483,52:52
 * strains credulity
+
   * 262,??
 * the story of sting
   * bo2017.2,1:53:00
   * other Best-Ofs[]()
 * moveon.org
+
   * 434,9:30(pw)[]()
 * interesting people
   * several of the 480+ eps
+  * 588,1:00:00(pw)
+  * 582,0:45(pw)
   * 568,0:45(pw)
   * 553,1:45
   * 546,23:45(pw)
@@ -1407,7 +1474,8 @@
   * 509,1:01:40(commercialed)
   * 508,1:11:20(commercialed)
   * 490,1:55(paywall)
-  * 518,1:50
+  * 518,1:10(pw)
+  * 518,32:30(pw)
   * 518,47:55
   * 518,53:00
   * 518,42:12
@@ -1451,4 +1519,5 @@
   * 536,1:45
   * 536,24:45
 * theatre tunnels
-  * http://howl.fm/audio/46644/live-from-vulture-fest-2017,21:30(stitcher)
+
+  * http://howl.fm/audio/46644/live-from-vulture-fest-2017,21:30(stitcher)g

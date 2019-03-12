@@ -1,5 +1,10 @@
 ### episodes
 15
+
+578
+
+579
+
 23
 24
 28
@@ -22,6 +27,11 @@
 
 ### instances
 * 035,35:00,the ibrain
+* 583,59:40,we're working with you - but it is work
+* 583,1:00:25,we sensitive predators are the true invisible predators
+* 579,1:33:50,so no one is 'dennis' anymore?
+* 579,1:40:00,you're why james adomian doesn't come on the show
+* 579,1:30:00,monster fuck
 * 578,49:20,a lot of your holes are exposed
 * 262,69:50,your voice is very moist
 * 103,1:32:20,yeah scott u idiot
@@ -313,6 +323,7 @@
 * http://howl.fm/audio/26164/live-from-san-francisco-2013,23:20,unmistakable sound of the breaking of a human toe
 * sydney2016,1:10:25,did a doctor just wander onto the stage?
 * 577,58:00,the way you've described Cart
+* 584,14:00,that's the detail you don't know?!
 * who said it shamon
 * who’s the most fuckable huxtable? ++++
 
