@@ -1,5 +1,5 @@
 [{
-        "episode": 589
+        "episode": 591
         , "show": "cbb"
         , "tstart": "7:22"
         , "tend": "7:50"
@@ -20,7 +20,7 @@
         , "holding": "false"
     }
     , {
-        "episode": 589
+        "episode": 591
         , "show": "cbb"
         , "tstart": "25:06"
         , "tend": "25:40"
@@ -40,7 +40,7 @@
         , "id_wikia": null
         , "holding": "false"
     }, {
-        "episode": 589
+        "episode": 591
         , "show": "cbb"
         , "tstart": "27:35"
         , "tend": "27:52"
@@ -60,7 +60,7 @@
         , "id_wikia": null
         , "holding": "false"
     }, {
-        "episode": 589
+        "episode": 591
         , "show": "cbb"
         , "tstart": "29:06"
         , "tend": "29:27"
@@ -81,7 +81,7 @@
         , "holding": "false"
     }
     , {
-        "episode": 589
+        "episode": 591
         , "show": "cbb"
         , "tstart": "29:30"
         , "tend": "30:00"
@@ -102,7 +102,7 @@
         , "holding": "false"
     }
     , {
-        "episode": 589
+        "episode": 591
         , "show": "cbb"
         , "tstart": "29:30"
         , "tend": "30:37"
@@ -123,7 +123,7 @@
         , "holding": "false"
     }
     , {
-        "episode": 589
+        "episode": 591
         , "show": "cbb"
         , "tstart": "35:50"
         , "tend": "36:18"
@@ -144,7 +144,7 @@
         , "holding": "false"
     }
     , {
-        "episode": 589
+        "episode": 591
         , "show": "cbb"
         , "tstart": "52:00"
         , "tend": "52:28"
@@ -165,7 +165,7 @@
         , "holding": "false"
     }
     , {
-        "episode": 589
+        "episode": 591
         , "show": "cbb"
         , "tstart": "56:00"
         , "tend": "56:30"
@@ -186,7 +186,7 @@
         , "holding": "false"
     }
     , {
-        "episode": 589
+        "episode": 591
         , "show": "cbb"
         , "tstart": "56:00"
         , "tend": "56:30"
@@ -207,14 +207,14 @@
         , "holding": "false"
     }
     , {
-        "episode": 589
+        "episode": 591
         , "show": "cbb"
         , "tstart": "56:35"
         , "tend": "56:52"
         , "instance": "Cart stepped up? He was working at the bakery!"
         , "elucidation": "any song reference"
         , "bit": "The Paul Hardcastle of Suicides"
-        , "tags": "Kayla Dickie,Jud Wiebe,Cart,Sprage the Whisperer"
+        , "tags": "Kayla Dickie,Jud Wiebe,Cart,Sprague the Whisperer"
         , "location_type": "point"
         , "location_id": "966"
         , "updated_at": "2019-03-15T09:37:04Z"
