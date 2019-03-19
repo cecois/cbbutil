@@ -1,229 +1,405 @@
 [{
-        "episode": 591
+        "episode": 592
         , "show": "cbb"
-        , "tstart": "7:22"
-        , "tend": "7:50"
-        , "instance": "Chicken and dumplings - go grab those at your Cracker Barrel."
-        , "bit": "Smash Cut"
-        , "elucidation": "scott directs someone's story"
-        , "tags": ""
+        , "tstart": "11:58"
+        , "tend": "12:10"
+        , "instance": "So two times you've been able to wear this."
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "The Fugees (musical combination),Killing Me Softly with His Song (song)"
         , "location_type": ""
         , "location_id": ""
-        , "updated_at": "2019-03-15T09:37:04Z"
+        , "updated_at": "2019-03-18T09:37:04Z"
         , "url_soundcloud": null
-        , "created_at": "2019-03-15T09:37:04Z"
+        , "created_at": "2019-03-18T09:37:04Z"
         , "slug_soundcloud": null
-        , "slug_earwolf": "unbewiebeble-kayla-dickie-returns"
-        , "episode_title": "UnbeWiebeble: Kayla Dickie Returns"
-        , "episode_guests": "Flula Borg,Shaun Diston,Lily Sullivan,Tim Baltz"
+        , "slug_earwolf": "the-peee-neurs"
+        , "episode_title": "The PeeE Neurs"
+        , "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart"
         , "id_wikia": null
         , "holding": "false"
     }
     , {
-        "episode": 591
+        "episode": 592
         , "show": "cbb"
-        , "tstart": "25:06"
-        , "tend": "25:40"
-        , "instance": "I'm just merely running down your facts as I recall them."
-        , "elucidation": "identifiable earth location"
-        , "bit": "Location"
-        , "tags": "Kayla Dickie"
-        , "location_type": "point"
-        , "location_id": "965"
-        , "updated_at": "2019-03-15T09:37:04Z"
+        , "tstart": "1:04:05"
+        , "tend": "1:04:50"
+        , "instance": "I was the fourth lead guitarist."
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Entrée PeeE Neur,Appetizer PeeE Neur,The Eagles (musical combination),Life in the Fast Lane (song)"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-03-18T09:37:04Z"
         , "url_soundcloud": null
-        , "created_at": "2019-03-15T09:37:04Z"
+        , "created_at": "2019-03-18T09:37:04Z"
         , "slug_soundcloud": null
-        , "slug_earwolf": "unbewiebeble-kayla-dickie-returns"
-        , "episode_title": "UnbeWiebeble: Kayla Dickie Returns"
-        , "episode_guests": "Flula Borg,Shaun Diston,Lily Sullivan,Tim Baltz"
+        , "slug_earwolf": "the-peee-neurs"
+        , "episode_title": "The PeeE Neurs"
+        , "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart"
         , "id_wikia": null
         , "holding": "false"
     }, {
-        "episode": 591
+        "episode": 592
         , "show": "cbb"
-        , "tstart": "27:35"
-        , "tend": "27:52"
-        , "instance": "But that's when we found Jud."
-        , "elucidation": "identifiable earth location"
-        , "bit": "Location"
-        , "tags": "Kayla Dickie,Jud Wiebe,Sprague the Whisperer"
-        , "location_type": "line"
-        , "location_id": "131"
-        , "updated_at": "2019-03-15T09:37:04Z"
+        , "tstart": "1:04:05"
+        , "tend": "1:04:50"
+        , "instance": "I was the fourth lead guitarist."
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Entrée PeeE Neur,Appetizer PeeE Neur,The Eagles (musical combination),Hotel California (song)"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-03-18T09:37:04Z"
         , "url_soundcloud": null
-        , "created_at": "2019-03-15T09:37:04Z"
+        , "created_at": "2019-03-18T09:37:04Z"
         , "slug_soundcloud": null
-        , "slug_earwolf": "unbewiebeble-kayla-dickie-returns"
-        , "episode_title": "UnbeWiebeble: Kayla Dickie Returns"
-        , "episode_guests": "Flula Borg,Shaun Diston,Lily Sullivan,Tim Baltz"
+        , "slug_earwolf": "the-peee-neurs"
+        , "episode_title": "The PeeE Neurs"
+        , "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart"
         , "id_wikia": null
         , "holding": "false"
     }, {
-        "episode": 591
+        "episode": 592
         , "show": "cbb"
-        , "tstart": "29:06"
-        , "tend": "29:27"
-        , "instance": "And that's part of my canon, but Scott - I am on the edge of my seat right now."
-        , "elucidation": "various, even vague interminglings of character canon"
-        , "bit": "We Knew a Poet Once"
-        , "tags": "Sprague the Whisperer"
-        , "location_type": ""
-        , "location_id": ""
-        , "updated_at": "2019-03-15T09:37:04Z"
-        , "url_soundcloud": null
-        , "created_at": "2019-03-15T09:37:04Z"
-        , "slug_soundcloud": null
-        , "slug_earwolf": "unbewiebeble-kayla-dickie-returns"
-        , "episode_title": "UnbeWiebeble: Kayla Dickie Returns"
-        , "episode_guests": "Flula Borg,Shaun Diston,Lily Sullivan,Tim Baltz"
-        , "id_wikia": null
-        , "holding": "false"
-    }
-    , {
-        "episode": 591
-        , "show": "cbb"
-        , "tstart": "29:30"
-        , "tend": "30:00"
-        , "instance": "He started a fire because he left some curling irons on."
-        , "elucidation": "identifiable earth location"
-        , "bit": "Location"
-        , "tags": "Sprague the Whisperer,Kayla Dickie,Jud Wiebe"
-        , "location_type": "poly"
-        , "location_id": "552"
-        , "updated_at": "2019-03-15T09:37:04Z"
-        , "url_soundcloud": null
-        , "created_at": "2019-03-15T09:37:04Z"
-        , "slug_soundcloud": null
-        , "slug_earwolf": "unbewiebeble-kayla-dickie-returns"
-        , "episode_title": "UnbeWiebeble: Kayla Dickie Returns"
-        , "episode_guests": "Flula Borg,Shaun Diston,Lily Sullivan,Tim Baltz"
-        , "id_wikia": null
-        , "holding": "false"
-    }
-    , {
-        "episode": 591
-        , "show": "cbb"
-        , "tstart": "29:30"
-        , "tend": "30:37"
-        , "instance": "And we had not seen or heard from him in 7.5 years."
-        , "elucidation": "identifiable earth location"
-        , "bit": "Location"
-        , "tags": "Sprague the Whisperer,Kayla Dickie,Jud Wiebe"
-        , "location_type": "line"
-        , "location_id": "131"
-        , "updated_at": "2019-03-15T09:37:04Z"
-        , "url_soundcloud": null
-        , "created_at": "2019-03-15T09:37:04Z"
-        , "slug_soundcloud": null
-        , "slug_earwolf": "unbewiebeble-kayla-dickie-returns"
-        , "episode_title": "UnbeWiebeble: Kayla Dickie Returns"
-        , "episode_guests": "Flula Borg,Shaun Diston,Lily Sullivan,Tim Baltz"
-        , "id_wikia": null
-        , "holding": "false"
-    }
-    , {
-        "episode": 591
-        , "show": "cbb"
-        , "tstart": "35:50"
-        , "tend": "36:18"
-        , "instance": "What do you want to know? I started a big fire and then I disappeared on a trail in the mountains and I stayed there."
-        , "elucidation": "identifiable earth location"
-        , "bit": "Location"
-        , "tags": "Sprague the Whisperer,Jud Wiebe"
-        , "location_type": "line"
-        , "location_id": "131"
-        , "updated_at": "2019-03-15T09:37:04Z"
-        , "url_soundcloud": null
-        , "created_at": "2019-03-15T09:37:04Z"
-        , "slug_soundcloud": null
-        , "slug_earwolf": "unbewiebeble-kayla-dickie-returns"
-        , "episode_title": "UnbeWiebeble: Kayla Dickie Returns"
-        , "episode_guests": "Flula Borg,Shaun Diston,Lily Sullivan,Tim Baltz"
-        , "id_wikia": null
-        , "holding": "false"
-    }
-    , {
-        "episode": 591
-        , "show": "cbb"
-        , "tstart": "52:00"
-        , "tend": "52:28"
-        , "instance": "The point is I did the right thing - I went to Merg's house."
-        , "elucidation": "somebody doesn't know who or what something famous is"
-        , "bit": "Who?"
-        , "tags": "Merg Wiebe,Merv Griffin,Jud Wiebe"
-        , "location_type": ""
-        , "location_id": ""
-        , "updated_at": "2019-03-15T09:37:04Z"
-        , "url_soundcloud": null
-        , "created_at": "2019-03-15T09:37:04Z"
-        , "slug_soundcloud": null
-        , "slug_earwolf": "unbewiebeble-kayla-dickie-returns"
-        , "episode_title": "UnbeWiebeble: Kayla Dickie Returns"
-        , "episode_guests": "Flula Borg,Shaun Diston,Lily Sullivan,Tim Baltz"
-        , "id_wikia": null
-        , "holding": "false"
-    }
-    , {
-        "episode": 591
-        , "show": "cbb"
-        , "tstart": "56:00"
-        , "tend": "56:30"
-        , "instance": "Where all the broken glass is?"
-        , "elucidation": "somebody doesn't know who or what something famous is"
-        , "bit": "Who?"
-        , "tags": "Kayla Dickie,Jud Wiebe,Annie Lennox"
-        , "location_type": ""
-        , "location_id": ""
-        , "updated_at": "2019-03-15T09:37:04Z"
-        , "url_soundcloud": null
-        , "created_at": "2019-03-15T09:37:04Z"
-        , "slug_soundcloud": null
-        , "slug_earwolf": "unbewiebeble-kayla-dickie-returns"
-        , "episode_title": "UnbeWiebeble: Kayla Dickie Returns"
-        , "episode_guests": "Flula Borg,Shaun Diston,Lily Sullivan,Tim Baltz"
-        , "id_wikia": null
-        , "holding": "false"
-    }
-    , {
-        "episode": 591
-        , "show": "cbb"
-        , "tstart": "56:00"
-        , "tend": "56:30"
-        , "instance": "Where all the broken glass is?"
+        , "tstart": "1:04:05"
+        , "tend": "1:04:50"
+        , "instance": "I was the fourth lead guitarist."
         , "elucidation": "any song reference"
         , "bit": "The Paul Hardcastle of Suicides"
-        , "tags": "Kayla Dickie,Jud Wiebe,Annie Lennox"
+        , "tags": "Entrée PeeE Neur,Appetizer PeeE Neur,The Eagles (musical combination),One of These Nights (song)"
         , "location_type": ""
         , "location_id": ""
-        , "updated_at": "2019-03-15T09:37:04Z"
+        , "updated_at": "2019-03-18T09:37:04Z"
         , "url_soundcloud": null
-        , "created_at": "2019-03-15T09:37:04Z"
+        , "created_at": "2019-03-18T09:37:04Z"
         , "slug_soundcloud": null
-        , "slug_earwolf": "unbewiebeble-kayla-dickie-returns"
-        , "episode_title": "UnbeWiebeble: Kayla Dickie Returns"
-        , "episode_guests": "Flula Borg,Shaun Diston,Lily Sullivan,Tim Baltz"
+        , "slug_earwolf": "the-peee-neurs"
+        , "episode_title": "The PeeE Neurs"
+        , "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 592
+        , "show": "cbb"
+        , "tstart": "1:01:25"
+        , "tend": "1:02:23"
+        , "instance": "I lifted up my pastor's robe and revealed my Old Navy low-rise boot-cut jeans."
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Entrée PeeE Neur,Appetizer PeeE Neur,The Fugees (musical combination),Killing Me Softly with His Song (song)"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-03-18T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-03-18T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "the-peee-neurs"
+        , "episode_title": "The PeeE Neurs"
+        , "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 592
+        , "show": "cbb"
+        , "tstart": "27:00"
+        , "tend": "27:15"
+        , "instance": "A 'cube' meaning...equal on all sides?"
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Entrée PeeE Neur,The Fugees (musical combination),Killing Me Softly with His Song (song)"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-03-18T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-03-18T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "the-peee-neurs"
+        , "episode_title": "The PeeE Neurs"
+        , "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 592
+        , "show": "cbb"
+        , "tstart": "49:30"
+        , "tend": "49:49"
+        , "instance": "Ring-a-ding ding, ring-a-ding ding."
+        , "elucidation": "the charlie daniels devil/georgia scenario is referenced or debated"
+        , "bit": "The Devil Went Down to Georgia"
+        , "tags": "Entrée PeeE Neur,Charlie Daniels Band,Appetizer PeeE Neur"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-03-18T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-03-18T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "the-peee-neurs"
+        , "episode_title": "The PeeE Neurs"
+        , "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 592
+        , "show": "cbb"
+        , "tstart": "40:12"
+        , "tend": "40:52"
+        , "instance": "People been making movies since the '90s."
+        , "elucidation": "among scott's favorite films is evidently \"l'arrivé d'un train en gare de la ciotat\""
+        , "bit": "The Train Effect"
+        , "tags": "Entrée PeeE Neur"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-03-18T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-03-18T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "the-peee-neurs"
+        , "episode_title": "The PeeE Neurs"
+        , "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart"
         , "id_wikia": null
         , "holding": "false"
     }
     , {
-        "episode": 591
+        "episode": 592
         , "show": "cbb"
-        , "tstart": "56:35"
-        , "tend": "56:52"
-        , "instance": "Cart stepped up? He was working at the bakery!"
+        , "tstart": "45:30"
+        , "tend": "45:50"
+        , "instance": "That was like \"yes, and - here's what you are.\""
+        , "elucidation": "the rule of 'yes, and' is invoked or abused"
+        , "bit": "Yes, And..."
+        , "tags": "Entrée PeeE Neur"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-03-18T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-03-18T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "the-peee-neurs"
+        , "episode_title": "The PeeE Neurs"
+        , "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 592
+        , "show": "cbb"
+        , "tstart": "49:49"
+        , "tend": "50:08"
+        , "instance": "Ma Neur is not doing well."
+        , "elucidation": "a character trait or detail is challenged or prompted"
+        , "bit": "Where Are You From?"
+        , "tags": "Entrée PeeE Neur,Appetizer PeeE Neur,Ma Neur"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-03-18T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-03-18T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "the-peee-neurs"
+        , "episode_title": "The PeeE Neurs"
+        , "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 592
+        , "show": "cbb"
+        , "tstart": "1:06:30"
+        , "tend": "1:07:06"
+        , "instance": "How did I get money at that time?"
+        , "elucidation": "a character trait or detail is challenged or prompted"
+        , "bit": "Where Are You From?"
+        , "tags": "Entrée PeeE Neur,Appetizer PeeE Neur"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-03-18T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-03-18T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "the-peee-neurs"
+        , "episode_title": "The PeeE Neurs"
+        , "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart"
+        , "id_wikia": null
+        , "holding": "false"
+    }
+    , {
+        "episode": 592
+        , "show": "cbb"
+        , "tstart": "52:30"
+        , "tend": "52:48"
+        , "instance": "I like big bottomas - I cannot lie to you, Scott."
         , "elucidation": "any song reference"
         , "bit": "The Paul Hardcastle of Suicides"
-        , "tags": "Kayla Dickie,Jud Wiebe,Cart,Sprague the Whisperer"
-        , "location_type": "point"
-        , "location_id": "966"
-        , "updated_at": "2019-03-15T09:37:04Z"
+        , "tags": "Sir Mix-a-Lot,Baby Got Back (song),Entrée PeeE Neur,Appetizer PeeE Neur"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-03-18T09:37:04Z"
         , "url_soundcloud": null
-        , "created_at": "2019-03-15T09:37:04Z"
+        , "created_at": "2019-03-18T09:37:04Z"
         , "slug_soundcloud": null
-        , "slug_earwolf": "unbewiebeble-kayla-dickie-returns"
-        , "episode_title": "UnbeWiebeble: Kayla Dickie Returns"
-        , "episode_guests": "Flula Borg,Shaun Diston,Lily Sullivan,Tim Baltz"
+        , "slug_earwolf": "the-peee-neurs"
+        , "episode_title": "The PeeE Neurs"
+        , "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 592
+        , "show": "cbb"
+        , "tstart": "1:00:00"
+        , "tend": "1:00:27"
+        , "instance": "Oh, you know - it soothes the savage breast."
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Who Shot Ya? (song),The Notorious B.I.G.,Entrée PeeE Neur,Appetizer PeeE Neur"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-03-18T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-03-18T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "the-peee-neurs"
+        , "episode_title": "The PeeE Neurs"
+        , "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart"
+        , "id_wikia": null
+        , "holding": "false"
+    }
+    , {
+        "episode": 592
+        , "show": "cbb"
+        , "tstart": "49:52"
+        , "tend": "50:27"
+        , "instance": "I cooked for her one time I gave here the -itis."
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "The Fugees (musical combination),Killing Me Softly with His Song (song),Entrée PeeE Neur,Appetizer PeeE Neur,Ma Neur"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-03-18T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-03-18T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "the-peee-neurs"
+        , "episode_title": "The PeeE Neurs"
+        , "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 592
+        , "show": "cbb"
+        , "tstart": "1:07:47"
+        , "tend": "1:09:24"
+        , "instance": "Couldn't fit it - must aquit it."
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "O.J. Simpson,MC Hammer,Pumps and a Bump (song),Entrée PeeE Neur,Appetizer PeeE Neur"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-03-18T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-03-18T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "the-peee-neurs"
+        , "episode_title": "The PeeE Neurs"
+        , "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 592
+        , "show": "cbb"
+        , "tstart": "1:07:47"
+        , "tend": "1:08:31"
+        , "instance": "Couldn't fit it - must aquit it."
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "MC Hammer,Addams Groove (song),Entrée PeeE Neur,Appetizer PeeE Neur"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-03-18T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-03-18T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "the-peee-neurs"
+        , "episode_title": "The PeeE Neurs"
+        , "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 592
+        , "show": "cbb"
+        , "tstart": "1:21:45"
+        , "tend": "1:21:18"
+        , "instance": "She's leakin' - she's soaking wet."
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Salt Shaker (song),The Ying Yang Twins (musical combination),Lil Jon,The East Side Boyz (musical combination),Entrée PeeE Neur,Appetizer PeeE Neur,Jarles"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-03-18T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-03-18T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "the-peee-neurs"
+        , "episode_title": "The PeeE Neurs"
+        , "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 592
+        , "show": "cbb"
+        , "tstart": "1:27:15"
+        , "tend": "1:27:38"
+        , "instance": "Several different tunes in one."
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "SICKO MODE (song),Travis Scott,Drake,Entrée PeeE Neur,Appetizer PeeE Neur,Jarles"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-03-18T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-03-18T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "the-peee-neurs"
+        , "episode_title": "The PeeE Neurs"
+        , "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 592
+        , "show": "cbb"
+        , "tstart": "1:17:20"
+        , "tend": "1:17:45"
+        , "instance": "You said 'shit' once and then you got very offended when I said spit."
+        , "elucidation": "scott seems jealous or just commendatory"
+        , "bit": "That is the Dream"
+        , "tags": "Entrée PeeE Neur,Appetizer PeeE Neur"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-03-18T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-03-18T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "the-peee-neurs"
+        , "episode_title": "The PeeE Neurs"
+        , "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 592
+        , "show": "cbb"
+        , "tstart": "1:18:15"
+        , "tend": "1:19:10"
+        , "instance": "Low-rise *and* boot-cut?"
+        , "elucidation": "jarles bein jarles"
+        , "bit": "Classic Jarles"
+        , "tags": "Entrée PeeE Neur,Appetizer PeeE Neur,Jarles,Ma Neur"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-03-18T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-03-18T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "the-peee-neurs"
+        , "episode_title": "The PeeE Neurs"
+        , "episode_guests": "Langston Kerman,Ego Nwodim,Carl Tart"
         , "id_wikia": null
         , "holding": "false"
     }
