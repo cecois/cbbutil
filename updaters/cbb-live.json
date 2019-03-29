@@ -1,124 +1,221 @@
 [{
-        "episode": 593
-        , "show": "cbb"
-        , "tstart": "0:23"
-        , "tend": "0:36"
-        , "instance": "I'm a lurker \\ I'm a twerker \\ I'm a midnight jerker"
-        , "elucidation": "any song reference"
-        , "bit": "The Paul Hardcastle of Suicides"
-        , "tags": "The Joker (song),Steve Miller Band (musical combination)"
-        , "location_type": ""
-        , "location_id": ""
-        , "updated_at": "2019-03-25T09:37:04Z"
-        , "url_soundcloud": null
-        , "created_at": "2019-03-25T09:37:04Z"
-        , "slug_soundcloud": null
-        , "slug_earwolf": "get-in-the-way-gremlin"
-        , "episode_title": "Get In The Way Gremlin"
-        , "episode_guests": "Natalie Morales,Jessica McKenna,Zeke Nicholson"
-        , "id_wikia": null
-        , "holding": "false"
-    }
-    , {
-        "episode": 593
-        , "show": "cbb"
-        , "tstart": "5:00"
-        , "tend": "5:10"
-        , "instance": "So it's uptown."
-        , "elucidation": "somebody willfully blows the pronunciation of downton abbey"
-        , "bit": "Downtown Abbey"
-        , "tags": ""
-        , "location_type": ""
-        , "location_id": ""
-        , "updated_at": "2019-03-25T09:37:04Z"
-        , "url_soundcloud": null
-        , "created_at": "2019-03-25T09:37:04Z"
-        , "slug_soundcloud": null
-        , "slug_earwolf": "get-in-the-way-gremlin"
-        , "episode_title": "Get In The Way Gremlin"
-        , "episode_guests": "Natalie Morales,Jessica McKenna,Zeke Nicholson"
-        , "id_wikia": null
-        , "holding": "false"
-    }, {
-        "episode": 593
-        , "show": "cbb"
-        , "tstart": "6:00"
-        , "tend": "6:17"
-        , "instance": "You have a look on your face that is saying \"I have no idea and yet I'm reaching for the mic.\""
-        , "elucidation": "scott yells at the staff"
-        , "bit": "Donk"
-        , "tags": ""
-        , "location_type": ""
-        , "location_id": ""
-        , "updated_at": "2019-03-25T09:37:04Z"
-        , "url_soundcloud": null
-        , "created_at": "2019-03-25T09:37:04Z"
-        , "slug_soundcloud": null
-        , "slug_earwolf": "get-in-the-way-gremlin"
-        , "episode_title": "Get In The Way Gremlin"
-        , "episode_guests": "Natalie Morales,Jessica McKenna,Zeke Nicholson"
-        , "id_wikia": null
-        , "holding": "false"
-    }, {
-        "episode": 593
-        , "show": "cbb"
-        , "tstart": "35:20"
-        , "tend": "35:42"
-        , "instance": "It also sounds like this girl that I know."
-        , "elucidation": "various, even vague interminglings of character canon"
-        , "bit": "We Knew a Poet Once"
-        , "tags": "Beth,Greta Gerwig (the Get-in-the-Way Gremlin)"
-        , "location_type": ""
-        , "location_id": ""
-        , "updated_at": "2019-03-25T09:37:04Z"
-        , "url_soundcloud": null
-        , "created_at": "2019-03-25T09:37:04Z"
-        , "slug_soundcloud": null
-        , "slug_earwolf": "get-in-the-way-gremlin"
-        , "episode_title": "Get In The Way Gremlin"
-        , "episode_guests": "Natalie Morales,Jessica McKenna,Zeke Nicholson"
-        , "id_wikia": null
-        , "holding": "false"
-    }, {
-        "episode": 593
-        , "show": "cbb"
-        , "tstart": "42:15"
-        , "tend": "42:30"
-        , "instance": "Don't let his personal thing get in the way..."
-        , "elucidation": "somebody doesn't know who or what something famous is"
-        , "bit": "Who?"
-        , "tags": "Peter Griffin,Kevin Spacey"
-        , "location_type": ""
-        , "location_id": ""
-        , "updated_at": "2019-03-25T09:37:04Z"
-        , "url_soundcloud": null
-        , "created_at": "2019-03-25T09:37:04Z"
-        , "slug_soundcloud": null
-        , "slug_earwolf": "get-in-the-way-gremlin"
-        , "episode_title": "Get In The Way Gremlin"
-        , "episode_guests": "Natalie Morales,Jessica McKenna,Zeke Nicholson"
-        , "id_wikia": null
-        , "holding": "false"
-    }
-    , {
-        "episode": 593
-        , "show": "cbb"
-        , "tstart": "46:20"
-        , "tend": "46:35"
-        , "instance": "Or is it a \"byopic,\" as Matt Besser would say?"
-        , "elucidation": "scott articulates obvious data (acronyms, abbreviations, etc.)"
-        , "bit": "Group Coupon"
-        , "tags": "Peter Griffin,Matt Besser"
-        , "location_type": ""
-        , "location_id": ""
-        , "updated_at": "2019-03-25T09:37:04Z"
-        , "url_soundcloud": null
-        , "created_at": "2019-03-25T09:37:04Z"
-        , "slug_soundcloud": null
-        , "slug_earwolf": "get-in-the-way-gremlin"
-        , "episode_title": "Get In The Way Gremlin"
-        , "episode_guests": "Natalie Morales,Jessica McKenna,Zeke Nicholson"
-        , "id_wikia": null
-        , "holding": "false"
-    }
-]
+    "episode": 594
+    , "show": "cbb"
+    , "tstart": "4:55"
+    , "tend": "5:05"
+    , "instance": "Cuz no one else guessed."
+    , "elucidation": "without going over"
+    , "bit": "Price is Right Rules"
+    , "tags": ""
+    , "location_type": ""
+    , "location_id": ""
+    , "updated_at": "2019-03-29T09:37:04Z"
+    , "url_soundcloud": null
+    , "created_at": "2019-03-29T09:37:04Z"
+    , "slug_soundcloud": null
+    , "slug_earwolf": "now-its-time-for-a-breakdown"
+    , "episode_title": "Now it's Time for a Breakdown"
+    , "episode_guests": "Dan Mangan,Will Hines,Jon Mackey"
+    , "id_wikia": null
+    , "holding": "false"
+}, {
+    "episode": 594
+    , "show": "cbb"
+    , "tstart": "8:00"
+    , "tend": "8:20"
+    , "instance": "...he never mentioned Jesus but he's, like, number one of the people who have died."
+    , "elucidation": "any song reference"
+    , "bit": "The Paul Hardcastle of Suicides"
+    , "tags": "Jim Carroll Band (musical combination),People Who Died (song)"
+    , "location_type": ""
+    , "location_id": ""
+    , "updated_at": "2019-03-29T09:37:04Z"
+    , "url_soundcloud": null
+    , "created_at": "2019-03-29T09:37:04Z"
+    , "slug_soundcloud": null
+    , "slug_earwolf": "now-its-time-for-a-breakdown"
+    , "episode_title": "Now it's Time for a Breakdown"
+    , "episode_guests": "Dan Mangan,Will Hines,Jon Mackey"
+    , "id_wikia": null
+    , "holding": "false"
+}, {
+    "episode": 594
+    , "show": "cbb"
+    , "tstart": "13:20"
+    , "tend": "14:00"
+    , "instance": "I think one time I borrowed your snare drum."
+    , "elucidation": "any song reference"
+    , "bit": "The Paul Hardcastle of Suicides"
+    , "tags": "Randy Useless,Red Hot Chili Peppers (musical combination),Give It Away (song)"
+    , "location_type": ""
+    , "location_id": ""
+    , "updated_at": "2019-03-29T09:37:04Z"
+    , "url_soundcloud": null
+    , "created_at": "2019-03-29T09:37:04Z"
+    , "slug_soundcloud": null
+    , "slug_earwolf": "now-its-time-for-a-breakdown"
+    , "episode_title": "Now it's Time for a Breakdown"
+    , "episode_guests": "Dan Mangan,Will Hines,Jon Mackey"
+    , "id_wikia": null
+    , "holding": "false"
+}, {
+    "episode": 594
+    , "show": "cbb"
+    , "tstart": "15:30"
+    , "tend": "18:05"
+    , "instance": "At the 2/3 mark...I come in and say \"now it's time for a breakdown.\""
+    , "elucidation": "any song reference"
+    , "bit": "The Paul Hardcastle of Suicides"
+    , "tags": "Randy Useless,My Lovin (song),En Vogue (musical combination)"
+    , "location_type": ""
+    , "location_id": ""
+    , "updated_at": "2019-03-29T09:37:04Z"
+    , "url_soundcloud": null
+    , "created_at": "2019-03-29T09:37:04Z"
+    , "slug_soundcloud": null
+    , "slug_earwolf": "now-its-time-for-a-breakdown"
+    , "episode_title": "Now it's Time for a Breakdown"
+    , "episode_guests": "Dan Mangan,Will Hines,Jon Mackey"
+    , "id_wikia": null
+    , "holding": "false"
+}, {
+    "episode": 594
+    , "show": "cbb"
+    , "tstart": "17:50"
+    , "tend": "18:35"
+    , "instance": "I was so excited that I immediately ran out of the studio and never went back."
+    , "elucidation": "any song reference"
+    , "bit": "The Paul Hardcastle of Suicides"
+    , "tags": "Randy Useless,Hello (song),Lionel Richie"
+    , "location_type": ""
+    , "location_id": ""
+    , "updated_at": "2019-03-29T09:37:04Z"
+    , "url_soundcloud": null
+    , "created_at": "2019-03-29T09:37:04Z"
+    , "slug_soundcloud": null
+    , "slug_earwolf": "now-its-time-for-a-breakdown"
+    , "episode_title": "Now it's Time for a Breakdown"
+    , "episode_guests": "Dan Mangan,Will Hines,Jon Mackey"
+    , "id_wikia": null
+    , "holding": "false"
+}, {
+    "episode": 594
+    , "show": "cbb"
+    , "tstart": "20:15"
+    , "tend": "20:40"
+    , "instance": "...who exclusively sang deep intellectual theories of physics, which nobody was expecting."
+    , "elucidation": "any song reference"
+    , "bit": "The Paul Hardcastle of Suicides"
+    , "tags": "Randy Useless,Oh! Susanna (song),Stephen Foster,The Four Dimwits (musical combination)"
+    , "location_type": ""
+    , "location_id": ""
+    , "updated_at": "2019-03-29T09:37:04Z"
+    , "url_soundcloud": null
+    , "created_at": "2019-03-29T09:37:04Z"
+    , "slug_soundcloud": null
+    , "slug_earwolf": "now-its-time-for-a-breakdown"
+    , "episode_title": "Now it's Time for a Breakdown"
+    , "episode_guests": "Dan Mangan,Will Hines,Jon Mackey"
+    , "id_wikia": null
+    , "holding": "false"
+}, {
+    "episode": 594
+    , "show": "cbb"
+    , "tstart": "18:20"
+    , "tend": "18:40"
+    , "instance": "Whatever happens, happens."
+    , "elucidation": "somebody doesn't know who or what something famous is"
+    , "bit": "Who?"
+    , "tags": "Randy Useless,Lionel Richie"
+    , "location_type": ""
+    , "location_id": ""
+    , "updated_at": "2019-03-29T09:37:04Z"
+    , "url_soundcloud": null
+    , "created_at": "2019-03-29T09:37:04Z"
+    , "slug_soundcloud": null
+    , "slug_earwolf": "now-its-time-for-a-breakdown"
+    , "episode_title": "Now it's Time for a Breakdown"
+    , "episode_guests": "Dan Mangan,Will Hines,Jon Mackey"
+    , "id_wikia": null
+    , "holding": "false"
+}, {
+    "episode": 594
+    , "show": "cbb"
+    , "tstart": "22:00"
+    , "tend": "22:30"
+    , "instance": "What happened to a riverboat or where a girl is, currently."
+    , "elucidation": "any song reference"
+    , "bit": "The Paul Hardcastle of Suicides"
+    , "tags": "Randy Useless,Lida Rose (song),Meredith Willson"
+    , "location_type": ""
+    , "location_id": ""
+    , "updated_at": "2019-03-29T09:37:04Z"
+    , "url_soundcloud": null
+    , "created_at": "2019-03-29T09:37:04Z"
+    , "slug_soundcloud": null
+    , "slug_earwolf": "now-its-time-for-a-breakdown"
+    , "episode_title": "Now it's Time for a Breakdown"
+    , "episode_guests": "Dan Mangan,Will Hines,Jon Mackey"
+    , "id_wikia": null
+    , "holding": "false"
+}, {
+    "episode": 594
+    , "show": "cbb"
+    , "tstart": "22:00"
+    , "tend": "23:00"
+    , "instance": "They always tell you how many seats are on a bicycle."
+    , "elucidation": "any song reference"
+    , "bit": "The Paul Hardcastle of Suicides"
+    , "tags": "Randy Useless,Daisy Bell (Bicycle Built for Two) (song),Harry Dacre"
+    , "location_type": ""
+    , "location_id": ""
+    , "updated_at": "2019-03-29T09:37:04Z"
+    , "url_soundcloud": null
+    , "created_at": "2019-03-29T09:37:04Z"
+    , "slug_soundcloud": null
+    , "slug_earwolf": "now-its-time-for-a-breakdown"
+    , "episode_title": "Now it's Time for a Breakdown"
+    , "episode_guests": "Dan Mangan,Will Hines,Jon Mackey"
+    , "id_wikia": null
+    , "holding": "false"
+}, {
+    "episode": 594
+    , "show": "cbb"
+    , "tstart": "33:45"
+    , "tend": "34:13"
+    , "instance": "I'm feeling older and kinda better but also worse."
+    , "elucidation": "any song reference"
+    , "bit": "The Paul Hardcastle of Suicides"
+    , "tags": "Confusion (song),New Order (musical combination)"
+    , "location_type": ""
+    , "location_id": ""
+    , "updated_at": "2019-03-29T09:37:04Z"
+    , "url_soundcloud": null
+    , "created_at": "2019-03-29T09:37:04Z"
+    , "slug_soundcloud": null
+    , "slug_earwolf": "now-its-time-for-a-breakdown"
+    , "episode_title": "Now it's Time for a Breakdown"
+    , "episode_guests": "Dan Mangan,Will Hines,Jon Mackey"
+    , "id_wikia": null
+    , "holding": "false"
+}, {
+    "episode": 594
+    , "show": "cbb"
+    , "tstart": "33:45"
+    , "tend": "34:13"
+    , "instance": "I'm feeling older and kinda better but also worse."
+    , "elucidation": "any song reference"
+    , "bit": "The Paul Hardcastle of Suicides"
+    , "tags": "You Only Tell Me You Love Me When You're Drunk (song),Pet Shop Boys (musical combination)"
+    , "location_type": ""
+    , "location_id": ""
+    , "updated_at": "2019-03-29T09:37:04Z"
+    , "url_soundcloud": null
+    , "created_at": "2019-03-29T09:37:04Z"
+    , "slug_soundcloud": null
+    , "slug_earwolf": "now-its-time-for-a-breakdown"
+    , "episode_title": "Now it's Time for a Breakdown"
+    , "episode_guests": "Dan Mangan,Will Hines,Jon Mackey"
+    , "id_wikia": null
+    , "holding": "false"
+}]
