@@ -1,359 +1,524 @@
 [{
-    "episode": 594
-    , "show": "cbb"
-    , "tstart": "4:55"
-    , "tend": "5:05"
-    , "instance": "Cuz no one else guessed."
-    , "elucidation": "without going over"
-    , "bit": "Price is Right Rules"
-    , "tags": ""
-    , "location_type": ""
-    , "location_id": ""
-    , "updated_at": "2019-03-29T09:37:04Z"
-    , "url_soundcloud": null
-    , "created_at": "2019-03-29T09:37:04Z"
-    , "slug_soundcloud": null
-    , "slug_earwolf": "now-its-time-for-a-breakdown"
-    , "episode_title": "Now it's Time for a Breakdown"
-    , "episode_guests": "Dan Mangan,Will Hines,Jon Mackey"
-    , "id_wikia": null
-    , "holding": "false"
-}, {
-    "episode": 594
-    , "show": "cbb"
-    , "tstart": "8:00"
-    , "tend": "8:20"
-    , "instance": "...he never mentioned Jesus but he's, like, number one of the people who have died."
-    , "elucidation": "any song reference"
-    , "bit": "The Paul Hardcastle of Suicides"
-    , "tags": "Jim Carroll Band (musical combination),People Who Died (song)"
-    , "location_type": ""
-    , "location_id": ""
-    , "updated_at": "2019-03-29T09:37:04Z"
-    , "url_soundcloud": null
-    , "created_at": "2019-03-29T09:37:04Z"
-    , "slug_soundcloud": null
-    , "slug_earwolf": "now-its-time-for-a-breakdown"
-    , "episode_title": "Now it's Time for a Breakdown"
-    , "episode_guests": "Dan Mangan,Will Hines,Jon Mackey"
-    , "id_wikia": null
-    , "holding": "false"
-}, {
-    "episode": 594
-    , "show": "cbb"
-    , "tstart": "13:20"
-    , "tend": "14:00"
-    , "instance": "I think one time I borrowed your snare drum."
-    , "elucidation": "any song reference"
-    , "bit": "The Paul Hardcastle of Suicides"
-    , "tags": "Randy Useless,Red Hot Chili Peppers (musical combination),Give It Away (song)"
-    , "location_type": ""
-    , "location_id": ""
-    , "updated_at": "2019-03-29T09:37:04Z"
-    , "url_soundcloud": null
-    , "created_at": "2019-03-29T09:37:04Z"
-    , "slug_soundcloud": null
-    , "slug_earwolf": "now-its-time-for-a-breakdown"
-    , "episode_title": "Now it's Time for a Breakdown"
-    , "episode_guests": "Dan Mangan,Will Hines,Jon Mackey"
-    , "id_wikia": null
-    , "holding": "false"
-}, {
-    "episode": 594
-    , "show": "cbb"
-    , "tstart": "15:30"
-    , "tend": "18:05"
-    , "instance": "At the 2/3 mark...I come in and say \"now it's time for a breakdown.\""
-    , "elucidation": "any song reference"
-    , "bit": "The Paul Hardcastle of Suicides"
-    , "tags": "Randy Useless,My Lovin (song),En Vogue (musical combination)"
-    , "location_type": ""
-    , "location_id": ""
-    , "updated_at": "2019-03-29T09:37:04Z"
-    , "url_soundcloud": null
-    , "created_at": "2019-03-29T09:37:04Z"
-    , "slug_soundcloud": null
-    , "slug_earwolf": "now-its-time-for-a-breakdown"
-    , "episode_title": "Now it's Time for a Breakdown"
-    , "episode_guests": "Dan Mangan,Will Hines,Jon Mackey"
-    , "id_wikia": null
-    , "holding": "false"
-}, {
-    "episode": 594
-    , "show": "cbb"
-    , "tstart": "17:50"
-    , "tend": "18:35"
-    , "instance": "I was so excited that I immediately ran out of the studio and never went back."
-    , "elucidation": "any song reference"
-    , "bit": "The Paul Hardcastle of Suicides"
-    , "tags": "Randy Useless,Hello (song),Lionel Richie"
-    , "location_type": ""
-    , "location_id": ""
-    , "updated_at": "2019-03-29T09:37:04Z"
-    , "url_soundcloud": null
-    , "created_at": "2019-03-29T09:37:04Z"
-    , "slug_soundcloud": null
-    , "slug_earwolf": "now-its-time-for-a-breakdown"
-    , "episode_title": "Now it's Time for a Breakdown"
-    , "episode_guests": "Dan Mangan,Will Hines,Jon Mackey"
-    , "id_wikia": null
-    , "holding": "false"
-}, {
-    "episode": 594
-    , "show": "cbb"
-    , "tstart": "20:15"
-    , "tend": "20:40"
-    , "instance": "...who exclusively sang deep intellectual theories of physics, which nobody was expecting."
-    , "elucidation": "any song reference"
-    , "bit": "The Paul Hardcastle of Suicides"
-    , "tags": "Randy Useless,Oh! Susanna (song),Stephen Foster,The Four Dimwits (musical combination)"
-    , "location_type": ""
-    , "location_id": ""
-    , "updated_at": "2019-03-29T09:37:04Z"
-    , "url_soundcloud": null
-    , "created_at": "2019-03-29T09:37:04Z"
-    , "slug_soundcloud": null
-    , "slug_earwolf": "now-its-time-for-a-breakdown"
-    , "episode_title": "Now it's Time for a Breakdown"
-    , "episode_guests": "Dan Mangan,Will Hines,Jon Mackey"
-    , "id_wikia": null
-    , "holding": "false"
-}, {
-    "episode": 594
-    , "show": "cbb"
-    , "tstart": "18:20"
-    , "tend": "18:40"
-    , "instance": "Whatever happens, happens."
-    , "elucidation": "somebody doesn't know who or what something famous is"
-    , "bit": "Who?"
-    , "tags": "Randy Useless,Lionel Richie"
-    , "location_type": ""
-    , "location_id": ""
-    , "updated_at": "2019-03-29T09:37:04Z"
-    , "url_soundcloud": null
-    , "created_at": "2019-03-29T09:37:04Z"
-    , "slug_soundcloud": null
-    , "slug_earwolf": "now-its-time-for-a-breakdown"
-    , "episode_title": "Now it's Time for a Breakdown"
-    , "episode_guests": "Dan Mangan,Will Hines,Jon Mackey"
-    , "id_wikia": null
-    , "holding": "false"
-}, {
-    "episode": 594
-    , "show": "cbb"
-    , "tstart": "22:00"
-    , "tend": "22:30"
-    , "instance": "What happened to a riverboat or where a girl is, currently."
-    , "elucidation": "any song reference"
-    , "bit": "The Paul Hardcastle of Suicides"
-    , "tags": "Randy Useless,Lida Rose (song),Meredith Willson"
-    , "location_type": ""
-    , "location_id": ""
-    , "updated_at": "2019-03-29T09:37:04Z"
-    , "url_soundcloud": null
-    , "created_at": "2019-03-29T09:37:04Z"
-    , "slug_soundcloud": null
-    , "slug_earwolf": "now-its-time-for-a-breakdown"
-    , "episode_title": "Now it's Time for a Breakdown"
-    , "episode_guests": "Dan Mangan,Will Hines,Jon Mackey"
-    , "id_wikia": null
-    , "holding": "false"
-}, {
-    "episode": 594
-    , "show": "cbb"
-    , "tstart": "22:00"
-    , "tend": "23:00"
-    , "instance": "They always tell you how many seats are on a bicycle."
-    , "elucidation": "any song reference"
-    , "bit": "The Paul Hardcastle of Suicides"
-    , "tags": "Randy Useless,Daisy Bell (Bicycle Built for Two) (song),Harry Dacre"
-    , "location_type": ""
-    , "location_id": ""
-    , "updated_at": "2019-03-29T09:37:04Z"
-    , "url_soundcloud": null
-    , "created_at": "2019-03-29T09:37:04Z"
-    , "slug_soundcloud": null
-    , "slug_earwolf": "now-its-time-for-a-breakdown"
-    , "episode_title": "Now it's Time for a Breakdown"
-    , "episode_guests": "Dan Mangan,Will Hines,Jon Mackey"
-    , "id_wikia": null
-    , "holding": "false"
-}, {
-    "episode": 594
-    , "show": "cbb"
-    , "tstart": "33:45"
-    , "tend": "34:13"
-    , "instance": "I'm feeling older and kinda better but also worse."
-    , "elucidation": "any song reference"
-    , "bit": "The Paul Hardcastle of Suicides"
-    , "tags": "Confusion (song),New Order (musical combination)"
-    , "location_type": ""
-    , "location_id": ""
-    , "updated_at": "2019-03-29T09:37:04Z"
-    , "url_soundcloud": null
-    , "created_at": "2019-03-29T09:37:04Z"
-    , "slug_soundcloud": null
-    , "slug_earwolf": "now-its-time-for-a-breakdown"
-    , "episode_title": "Now it's Time for a Breakdown"
-    , "episode_guests": "Dan Mangan,Will Hines,Jon Mackey"
-    , "id_wikia": null
-    , "holding": "false"
-}, {
-    "episode": 594
-    , "show": "cbb"
-    , "tstart": "33:45"
-    , "tend": "34:13"
-    , "instance": "I'm feeling older and kinda better but also worse."
-    , "elucidation": "any song reference"
-    , "bit": "The Paul Hardcastle of Suicides"
-    , "tags": "You Only Tell Me You Love Me When You're Drunk (song),Pet Shop Boys (musical combination)"
-    , "location_type": ""
-    , "location_id": ""
-    , "updated_at": "2019-03-29T09:37:04Z"
-    , "url_soundcloud": null
-    , "created_at": "2019-03-29T09:37:04Z"
-    , "slug_soundcloud": null
-    , "slug_earwolf": "now-its-time-for-a-breakdown"
-    , "episode_title": "Now it's Time for a Breakdown"
-    , "episode_guests": "Dan Mangan,Will Hines,Jon Mackey"
-    , "id_wikia": null
-    , "holding": "false"
-}, {
-    "episode": 594
-    , "show": "cbb"
-    , "tstart": "53:50"
-    , "tend": "54:05"
-    , "instance": "I thought you were gonna be, like, \"sweat, sweat, sweat, sweat, sweat!\""
-    , "elucidation": "any song reference"
-    , "bit": "The Paul Hardcastle of Suicides"
-    , "tags": "Dancing with Myself (song),Billy Idol,Tony James"
-    , "location_type": ""
-    , "location_id": ""
-    , "updated_at": "2019-03-29T09:37:04Z"
-    , "url_soundcloud": null
-    , "created_at": "2019-03-29T09:37:04Z"
-    , "slug_soundcloud": null
-    , "slug_earwolf": "now-its-time-for-a-breakdown"
-    , "episode_title": "Now it's Time for a Breakdown"
-    , "episode_guests": "Dan Mangan,Will Hines,Jon Mackey"
-    , "id_wikia": null
-    , "holding": "false"
-}, {
-    "episode": 594
-    , "show": "cbb"
-    , "tstart": "1:15:30"
-    , "tend": "1:15:45"
-    , "instance": "Dan, as a musician?"
-    , "elucidation": "any song reference"
-    , "bit": "The Paul Hardcastle of Suicides"
-    , "tags": "Nothing Compares to You (song),Sinead O'Connor,Prince"
-    , "location_type": ""
-    , "location_id": ""
-    , "updated_at": "2019-03-29T09:37:04Z"
-    , "url_soundcloud": null
-    , "created_at": "2019-03-29T09:37:04Z"
-    , "slug_soundcloud": null
-    , "slug_earwolf": "now-its-time-for-a-breakdown"
-    , "episode_title": "Now it's Time for a Breakdown"
-    , "episode_guests": "Dan Mangan,Will Hines,Jon Mackey"
-    , "id_wikia": null
-    , "holding": "false"
-}, {
-    "episode": 594
-    , "show": "cbb"
-    , "tstart": "1:12:00"
-    , "tend": "1:12:30"
-    , "instance": "What we need is two middle-aged white brothers talking about comics from the 60s."
- ,"bit":"Who's Paul?","elucidation":"a character is referred to by the name/pronoun of their player"
-    , "tags": "Randy Useless"
-    , "location_type": ""
-    , "location_id": ""
-    , "updated_at": "2019-03-29T09:37:04Z"
-    , "url_soundcloud": null
-    , "created_at": "2019-03-29T09:37:04Z"
-    , "slug_soundcloud": null
-    , "slug_earwolf": "now-its-time-for-a-breakdown"
-    , "episode_title": "Now it's Time for a Breakdown"
-    , "episode_guests": "Dan Mangan,Will Hines,Jon Mackey"
-    , "id_wikia": null
-    , "holding": "false"
-}, {
-        "episode": 594
+        "episode": 595
         , "show": "cbb"
-        , "tstart": "19:00"
-        , "tend": "19:30"
-        , "instance": "Is San Jose \"The Bay Area\"?"
-        , "elucidation": "identifiable earth location"
-        , "bit": "Location"
-        , "tags": "Randy Useless"
-,"location_type": "poly","location_id": "573"
-        , "updated_at": "2019-03-29T09:37:04Z"
+        , "tstart": "0:25"
+        , "tend": "0:45"
+        , "instance": "Ah, thank you, Dr. Seussicide."
+        , "elucidation": "m*a*s*h (tv or film) is referenced"
+        , "bit": "M*A*S*H"
+        , "tags": ""
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-01T09:37:04Z"
         , "url_soundcloud": null
-        , "created_at": "2019-03-29T09:37:04Z"
+        , "created_at": "2019-04-01T09:37:04Z"
         , "slug_soundcloud": null
-        , "slug_earwolf": "now-its-time-for-a-breakdown"
-        , "episode_title": "Now it's Time for a Breakdown"
-        , "episode_guests": "Dan Mangan,Will Hines,Jon Mackey"
-        , "id_wikia": null
-        , "holding": "false"
-    }
-, {
-        "episode": 594
-        , "show": "cbb"
-        , "tstart": "38:30"
-        , "tend": "39:15"
-        , "instance": "One of these says \"Starbucks Pike Place Original Location\" and the other says \"#1 Aunt.\""
-        , "elucidation": "identifiable earth location"
-        , "bit": "Location"
-        , "tags": "Randy Useless,Jimmy-Bug Brickhouse"
-,"location_type": "poly","location_id": "304",
-     "updated_at": "2019-03-29T09:37:04Z"
-        , "url_soundcloud": null
-        , "created_at": "2019-03-29T09:37:04Z"
-        , "slug_soundcloud": null
-        , "slug_earwolf": "now-its-time-for-a-breakdown"
-        , "episode_title": "Now it's Time for a Breakdown"
-        , "episode_guests": "Dan Mangan,Will Hines,Jon Mackey"
+        , "slug_earwolf": "mothers-olive-oil"
+        , "episode_title": "Mother's Olive Oil"
+        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
         , "id_wikia": null
         , "holding": "false"
     }
     , {
-        "episode": 594
+        "episode": 595
         , "show": "cbb"
-        , "tstart": "1:04:40"
-        , "tend": "1:05:15"
-        , "instance": "A hair-metal band threw [guitar picks] and you caught seven?"
-        , "elucidation": "identifiable earth location"
-        , "bit": "Location"
-        , "tags": "Jimmy-Bug Brickhouse"
-,"location_type": "point","location_id": "1008",
- "updated_at": "2019-03-29T09:37:04Z"
+        , "tstart": "0:25"
+        , "tend": "0:45"
+        , "instance": "Ah, thank you, Dr. Seussicide."
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Johnny Mandel,Suicide is Painless (song)"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-01T09:37:04Z"
         , "url_soundcloud": null
-        , "created_at": "2019-03-29T09:37:04Z"
+        , "created_at": "2019-04-01T09:37:04Z"
         , "slug_soundcloud": null
-        , "slug_earwolf": "now-its-time-for-a-breakdown"
-        , "episode_title": "Now it's Time for a Breakdown"
-        , "episode_guests": "Dan Mangan,Will Hines,Jon Mackey"
+        , "slug_earwolf": "mothers-olive-oil"
+        , "episode_title": "Mother's Olive Oil"
+        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 595
+        , "show": "cbb"
+        , "tstart": "3:12"
+        , "tend": "3:33"
+        , "instance": "When you said \"a mother\" I thought you were talking about me."
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Isaac Hayes,Theme From Shaft (song)"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-01T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-01T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mothers-olive-oil"
+        , "episode_title": "Mother's Olive Oil"
+        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 595
+        , "show": "cbb"
+        , "tstart": "5:00"
+        , "tend": "5:15"
+        , "instance": "What about, uh, \"Let's Dance\"?"
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "David Bowie,Let's Dance (song)"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-01T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-01T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mothers-olive-oil"
+        , "episode_title": "Mother's Olive Oil"
+        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 595
+        , "show": "cbb"
+        , "tstart": "5:00"
+        , "tend": "5:20"
+        , "instance": "Let's list these singles that you know."
+        , "elucidation": "the titular 'titular'"
+        , "bit": "Titular"
+        , "tags": ""
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-01T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-01T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mothers-olive-oil"
+        , "episode_title": "Mother's Olive Oil"
+        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 595
+        , "show": "cbb"
+        , "tstart": "5:00"
+        , "tend": "5:30"
+        , "instance": "Let's list these singles that you know."
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "David Bowie,Space Oddity (song)"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-01T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-01T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mothers-olive-oil"
+        , "episode_title": "Mother's Olive Oil"
+        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 595
+        , "show": "cbb"
+        , "tstart": "7:30"
+        , "tend": "8:00"
+        , "instance": "How many instruments do you play?"
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "David Bowie,Space Oddity (song)"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-01T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-01T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mothers-olive-oil"
+        , "episode_title": "Mother's Olive Oil"
+        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 595
+        , "show": "cbb"
+        , "tstart": "7:30"
+        , "tend": "7:45"
+        , "instance": "How many instruments do you play?"
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "David Bowie,Let's Dance (song)"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-01T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-01T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mothers-olive-oil"
+        , "episode_title": "Mother's Olive Oil"
+        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 595
+        , "show": "cbb"
+        , "tstart": "9:45"
+        , "tend": "10:40"
+        , "instance": "On the 21st day of September..."
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Earth Wind and Fire (musical combination),September (song)"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-01T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-01T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mothers-olive-oil"
+        , "episode_title": "Mother's Olive Oil"
+        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 595
+        , "show": "cbb"
+        , "tstart": "10:45"
+        , "tend": "11:00"
+        , "instance": "One year later."
+        , "elucidation": "scott directs someone's story"
+        , "bit": "Smash Cut"
+        , "tags": ""
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-01T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-01T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mothers-olive-oil"
+        , "episode_title": "Mother's Olive Oil"
+        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 595
+        , "show": "cbb"
+        , "tstart": "13:15"
+        , "tend": "13:45"
+        , "instance": "This was approximately August 2nd or so?"
+        , "elucidation": "scott does math"
+        , "bit": "Sounds Like Four"
+        , "tags": ""
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-01T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-01T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mothers-olive-oil"
+        , "episode_title": "Mother's Olive Oil"
+        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 595
+        , "show": "cbb"
+        , "tstart": "14:15"
+        , "tend": "14:45"
+        , "instance": "A gentleman by the name of \"Billy Flinn.\""
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Chicago (musical),Chicago (musical combination),25 or 6 to 4 (song)"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-01T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-01T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mothers-olive-oil"
+        , "episode_title": "Mother's Olive Oil"
+        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 595
+        , "show": "cbb"
+        , "tstart": "20:30"
+        , "tend": "21:00"
+        , "instance": "Very popular hit - I believe it's been on the charts for, what, 400 years now?"
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "The Star-Spangled Banner (song),Francis Scott Key,John Stafford Smith"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-01T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-01T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mothers-olive-oil"
+        , "episode_title": "Mother's Olive Oil"
+        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 595
+        , "show": "cbb"
+        , "tstart": "25:30"
+        , "tend": "25:50"
+        , "instance": "That was 'Botany 500.'"
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Cleveland Columbus,Patti LaBelle,Sharon Robinson,Jon Gilutin,Bunny Hull"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-01T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-01T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mothers-olive-oil"
+        , "episode_title": "Mother's Olive Oil"
+        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 595
+        , "show": "cbb"
+        , "tstart": "25:45"
+        , "tend": "26:00"
+        , "instance": "You're a fascinating person."
+        , "elucidation": "cbb's open door policy is cited or blamed"
+        , "bit": "Open Door Policy"
+        , "tags": "Cleveland Columbus"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-01T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-01T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mothers-olive-oil"
+        , "episode_title": "Mother's Olive Oil"
+        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 595
+        , "show": "cbb"
+        , "tstart": "28:30"
+        , "tend": "28:45"
+        , "instance": "What is the song where he does wake up?"
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "A Nightmare on My Street (song),DJ Jazzy Jeff & The Fresh Prince (musical combination)"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-01T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-01T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mothers-olive-oil"
+        , "episode_title": "Mother's Olive Oil"
+        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
         , "id_wikia": null
         , "holding": "false"
     }
-, {
-        "episode": 594
+    , {
+        "episode": 595
         , "show": "cbb"
-        , "tstart": "1:16:00"
-        , "tend": "1:16:30"
-        , "instance": "Wait - just past the bathroom?"
-        , "elucidation": "identifiable earth location"
-        , "bit": "Location"
-        , "tags": "Randy Useless"
-,"location_type": "point","location_id": "1009",
- "updated_at": "2019-03-29T09:37:04Z"
+        , "tstart": "32:30"
+        , "tend": "33:05"
+        , "instance": "Ask me if I have something that I'd like to give away and I'll tell you."
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "The Chief,Californication (song),Red Hot Chili Peppers (musical combination)"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-01T09:37:04Z"
         , "url_soundcloud": null
-        , "created_at": "2019-03-29T09:37:04Z"
+        , "created_at": "2019-04-01T09:37:04Z"
         , "slug_soundcloud": null
-        , "slug_earwolf": "now-its-time-for-a-breakdown"
-        , "episode_title": "Now it's Time for a Breakdown"
-        , "episode_guests": "Dan Mangan,Will Hines,Jon Mackey"
+        , "slug_earwolf": "mothers-olive-oil"
+        , "episode_title": "Mother's Olive Oil"
+        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
         , "id_wikia": null
         , "holding": "false"
-    }]
+    }, {
+        "episode": 595
+        , "show": "cbb"
+        , "tstart": "32:30"
+        , "tend": "33:05"
+        , "instance": "Ask me if I have something that I'd like to give away and I'll tell you."
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "The Chief,Give it Away (song),Red Hot Chili Peppers (musical combination)"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-01T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-01T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mothers-olive-oil"
+        , "episode_title": "Mother's Olive Oil"
+        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 595
+        , "show": "cbb"
+        , "tstart": "1:02:45"
+        , "tend": "1:03:15"
+        , "instance": "I feel like you don't get credit for that one."
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "The Chief,Give it Away (song),Red Hot Chili Peppers (musical combination)"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-01T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-01T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mothers-olive-oil"
+        , "episode_title": "Mother's Olive Oil"
+        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 595
+        , "show": "cbb"
+        , "tstart": "1:02:45"
+        , "tend": "1:03:15"
+        , "instance": "I feel like you don't get credit for that one."
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "The Chief,Can't Fight the Moonlight (song),Diane Warren,LeAnn Rimes"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-01T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-01T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mothers-olive-oil"
+        , "episode_title": "Mother's Olive Oil"
+        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 595
+        , "show": "cbb"
+        , "tstart": "59:15"
+        , "tend": "59:45"
+        , "instance": "Do you have enough olive oil, do you think, for such a long visit?"
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "The Chief,Mother from the East Coast,Smuggler's Blues (song),Glenn Frey,Jack Tempchin"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-01T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-01T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mothers-olive-oil"
+        , "episode_title": "Mother's Olive Oil"
+        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 595
+        , "show": "cbb"
+        , "tstart": "1:00:30"
+        , "tend": "1:01:30"
+        , "instance": "I would think you're persona non grata at the airlines now."
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Smokey and The Bandit (film),The Chief,Mother from the East Coast,East Bound And Down (song),Jerry R. Hubbard,Dick Feller"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-01T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-01T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mothers-olive-oil"
+        , "episode_title": "Mother's Olive Oil"
+        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 595
+        , "show": "cbb"
+        , "tstart": "1:05:15"
+        , "tend": "1:06:00"
+        , "instance": "Tie her up to my circular machine of torture."
+        , "elucidation": "various, even vague interminglings of character canon"
+        , "bit": "We Knew a Poet Once"
+        , "tags": "Cameo (musical combination),The Chief,Mother from the East Coast"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-01T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-01T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mothers-olive-oil"
+        , "episode_title": "Mother's Olive Oil"
+        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 595
+        , "show": "cbb"
+        , "tstart": "1:06:45"
+        , "tend": "1:07:00"
+        , "instance": "Carmen San Diego is a super sleuth - no, that's me."
+        , "elucidation": "a player breaks"
+        , "bit": "Who's This Guy?"
+        , "tags": "Carmen San Diego,The Chief,Mother from the East Coast"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-01T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-01T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mothers-olive-oil"
+        , "episode_title": "Mother's Olive Oil"
+        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 595
+        , "show": "cbb"
+        , "tstart": "1:07:15"
+        , "tend": "1:07:30"
+        , "instance": "Chief over here is ill - he's laid up on the Island of Los Feliz."
+        , "elucidation": "a character is referred to by the name/pronoun of their player"
+        , "bit": "Who's Paul?"
+        , "tags": "Carmen San Diego,The Chief,Mother from the East Coast"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-01T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-01T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mothers-olive-oil"
+        , "episode_title": "Mother's Olive Oil"
+        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 595
+        , "show": "cbb"
+        , "tstart": "1:07:45"
+        , "tend": "1:08:00"
+        , "instance": "Don't say \"my office\" as if you're trying to buy time."
+        , "elucidation": "a character trait or detail is challenged or prompted"
+        , "bit": "Where Are You From?"
+        , "tags": "The Chief,Mother from the East Coast"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-01T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-01T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mothers-olive-oil"
+        , "episode_title": "Mother's Olive Oil"
+        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
+        , "id_wikia": null
+        , "holding": "false"
+    }
+]
