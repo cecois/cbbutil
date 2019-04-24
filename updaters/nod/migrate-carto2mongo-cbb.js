@@ -130,26 +130,38 @@ var send = async (cartos) =>{
 
 
 		// const url = 'mongodb://localhost:27017/cbb';
-		const url = "mongodb://app:7GT8Cdl*fq4Z@cl00-shard-00-00-uacod.mongodb.net:27017,cl00-shard-00-01-uacod.mongodb.net:27017,cl00-shard-00-02-uacod.mongodb.net:27017/cbb?ssl=true&replicaSet=CL00-shard-0&authSource=admin";
+		// const url = "mongodb://app:7GT8Cdl*fq4Z@cl00-shard-00-00-uacod.mongodb.net:27017,cl00-shard-00-01-uacod.mongodb.net:27017,cl00-shard-00-02-uacod.mongodb.net:27017/cbb?ssl=true&replicaSet=CL00-shard-0&authSource=admin";
+        // uri = "mongodb://cecois:r0mjwrD61vaRhWKn@cbbcluster0-wdqp7.gcp.mongodb.net/cbb?retryWrites=true";
+        const uri = "mongodb://cecois:r0mjwrD61vaRhWKn@cbbcluster0-shard-00-00-wdqp7.gcp.mongodb.net:27017,cbbcluster0-shard-00-01-wdqp7.gcp.mongodb.net:27017,cbbcluster0-shard-00-02-wdqp7.gcp.mongodb.net:27017/test?ssl=true&replicaSet=cbbcluster0-shard-0&authSource=admin&retryWrites=true";
+
 
 		var IA = []
 
-		__.each(cartos,(c)=>{
-			// console.log(c)
-			IA.push(c)})
+// 		__.each(cartos,(c)=>{
+// 			IA.push(c)
+// });
+
+// JSON.stringify(cartos);
+            MONGO.connect(uri, function(err, client) {
+            if(err)console.log(err);reject(err);
+  const collection = client.db("cbb").collection("geo");
+     collection.insertMany(cartos).then((r)=>{
+             // db.close();
+  client.close();
+             resolve({msg:r});
+         });
+});
 
 
-		// console.log(IA);process.exit();
 
-		MONGO.connect(url,(err, db)=>{
-			if(err) resolve(err);
-			var col = db.collection('geo');
-			col.insertMany(IA).then((r)=>{
-				db.close();
-				resolve({msg:r});
-			});
+		// MONGO.connect(uri,(err, db)=>{
+		// 	if(err) console.log(err);reject(err);
+		// 	var col = db.collection('geo');
+		// 	col.insertMany(IA).then((r)=>{
+		// 		db.close();
+		// 		resolve({msg:r});
+		// 	});});
 
-		});
 
 
 	});
@@ -176,10 +188,11 @@ var main = async () =>{
 		// })
 
 // curl "https://pugo.cartodb.com/api/v1/sql?q=select%20cartodb_id,name,confidence,anno,created_at,scnotes,updated_at,ST_AsGeoJSON(the_geom)%20as%20the_geom%20from%20cbb_poly%20ORDER%20BY%20cartodb_id%20desc%20LIMIT%201;" -o ~/Downloads/cbb-poly-curl-sql.json;
-		var incapoly = await incoming_curl_poly();
-		console.log(incapoly.msg)
-		var sent = await send(incapoly.payload)
-		console.log(sent.msg)
+		// var incapoly = await incoming_curl_poly();
+        const manpoly = await FS.readFileSync('/Users/ccmiller/git/napi-fix/carto/geom/cbb_line/cbb-poly-carto-export-shp.geojson');
+		// console.log(JSON.parse(manpoly))
+		const sent = await send(JSON.parse(manpoly).features)
+		console.log(sent)
 
 
 } catch(error) {
