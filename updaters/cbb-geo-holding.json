@@ -1,6 +1,4 @@
-Los Angeles, CA
-home of: radio caller Cleveland Columbus
-    , {
+[{
         "episode": 595
         , "show": "cbb"
         , "tstart": "25:10"
@@ -9,6 +7,9 @@ home of: radio caller Cleveland Columbus
         , "elucidation": "identifiable earth location"
         , "bit": "Location"
         , "tags": "Cleveland Columbus"
+        , "nb": ["Los Angeles, CA"
+            , "home of: radio caller Cleveland Columbus"
+        ]
         , "location_type": ""
         , "location_id": ""
         , "updated_at": "2019-04-01T09:37:04Z"
@@ -21,8 +22,6 @@ home of: radio caller Cleveland Columbus
         , "id_wikia": null
         , "holding": "false"
     }
-Island of La Croix ?
-    site of : The Chief, drinking sparkling water, during the release of 'Citizen Kane'
     , {
         "episode": 595
         , "show": "cbb"
@@ -32,6 +31,9 @@ Island of La Croix ?
         , "elucidation": "identifiable earth location"
         , "bit": "Location"
         , "tags": "The Chief,William Randolph Hearst,Citizen Kane (film)"
+        , "nb": ["Island of La Croix ?"
+            , "site of : The Chief, drinking sparkling water, during the release of 'Citizen Kane'"
+        ]
         , "location_type": ""
         , "location_id": ""
         , "updated_at": "2019-04-01T09:37:04Z"
@@ -44,8 +46,6 @@ Island of La Croix ?
         , "id_wikia": null
         , "holding": "false"
     }
-an air b & b in los felize
-site of: The Chief, just chillin '
     , {
         "episode": 595
         , "show": "cbb"
@@ -55,6 +55,9 @@ site of: The Chief, just chillin '
         , "elucidation": "identifiable earth location"
         , "bit": "Location"
         , "tags": "The Chief"
+        , "nb": ["an air b & b in los felize"
+            , "site of: The Chief, just chillin"
+        ]
         , "location_type": ""
         , "location_id": ""
         , "updated_at": "2019-04-01T09:37:04Z"
@@ -76,6 +79,9 @@ site of: The Chief, just chillin '
         , "elucidation": "identifiable earth location"
         , "bit": "Location"
         , "tags": "The Chief"
+        , "nb": ["an air b & b in los felize"
+            , "site of: The Chief, just chillin"
+        ]
         , "location_type": ""
         , "location_id": ""
         , "updated_at": "2019-04-01T09:37:04Z"
@@ -97,6 +103,9 @@ site of: The Chief, just chillin '
         , "elucidation": "identifiable earth location"
         , "bit": "Location"
         , "tags": "The Chief,Mother from the East Coast"
+        , "nb": ["an air b & b in los felize"
+            , "site of: The Chief, just chillin"
+        ]
         , "location_type": ""
         , "location_id": ""
         , "updated_at": "2019-04-01T09:37:04Z"
@@ -109,8 +118,6 @@ site of: The Chief, just chillin '
         , "id_wikia": null
         , "holding": "false"
     }
-santa monica municipal airport
-site of: The Chief, dragging Carmen San Diego down the runway
     , {
         "episode": 595
         , "show": "cbb"
@@ -120,6 +127,9 @@ site of: The Chief, dragging Carmen San Diego down the runway
         , "elucidation": "identifiable earth location"
         , "bit": "Location"
         , "tags": "The Chief"
+        , "nb": ["santa monica municipal airport"
+            , "site of: The Chief, dragging Carmen San Diego down the runway"
+        ]
         , "location_type": ""
         , "location_id": ""
         , "updated_at": "2019-04-01T09:37:04Z"
@@ -140,6 +150,9 @@ site of: The Chief, dragging Carmen San Diego down the runway
         , "elucidation": "identifiable earth location"
         , "bit": "Location"
         , "tags": "The Chief,Mother from the East Coast"
+        , "nb": ["santa monica municipal airport"
+            , "site of: The Chief, dragging Carmen San Diego down the runway"
+        ]
         , "location_type": ""
         , "location_id": ""
         , "updated_at": "2019-04-01T09:37:04Z"
@@ -152,8 +165,6 @@ site of: The Chief, dragging Carmen San Diego down the runway
         , "id_wikia": null
         , "holding": "false"
     }
-a st.louis mcdonalds
-site of: a set of golden arches stolen by carmen san diego
     , {
         "episode": 595
         , "show": "cbb"
@@ -163,6 +174,9 @@ site of: a set of golden arches stolen by carmen san diego
         , "elucidation": "identifiable earth location"
         , "bit": "Location"
         , "tags": "The Chief,Carmen San Diego"
+        , "nb": ["a st.louis mcdonalds"
+            , "site of: a set of golden arches stolen by carmen san diego"
+        ]
         , "location_type": ""
         , "location_id": ""
         , "updated_at": "2019-04-01T09:37:04Z"
@@ -175,8 +189,6 @@ site of: a set of golden arches stolen by carmen san diego
         , "id_wikia": null
         , "holding": "false"
     }
-rhode island
-home state of: a mother
     , {
         "episode": 595
         , "show": "cbb"
@@ -186,6 +198,9 @@ home state of: a mother
         , "elucidation": "identifiable earth location"
         , "bit": "Location"
         , "tags": "The Chief,Carmen San Diego"
+        , "nb": ["rhode island"
+            , "home state of: a mother"
+        ]
         , "location_type": ""
         , "location_id": ""
         , "updated_at": "2019-04-01T09:37:04Z"
@@ -198,8 +213,6 @@ home state of: a mother
         , "id_wikia": null
         , "holding": "false"
     }
-santa monica airport down palms blvd to a car wash
-route of: The Chief, washing his prop plane
     , {
         "episode": 595
         , "show": "cbb"
@@ -209,6 +222,9 @@ route of: The Chief, washing his prop plane
         , "elucidation": "identifiable earth location"
         , "bit": "Location"
         , "tags": "The Chief,Mother from the East Coast"
+        , "nb": ["santa monica airport down palms blvd to a car wash"
+            , "route of: The Chief, washing his prop plane"
+        ]
         , "location_type": ""
         , "location_id": ""
         , "updated_at": "2019-04-01T09:37:04Z"
@@ -221,8 +237,6 @@ route of: The Chief, washing his prop plane
         , "id_wikia": null
         , "holding": "false"
     }
-providence, ri
-site of: The Chief once, eating three White Castle burgers
     , {
         "episode": 595
         , "show": "cbb"
@@ -232,6 +246,9 @@ site of: The Chief once, eating three White Castle burgers
         , "elucidation": "identifiable earth location"
         , "bit": "Location"
         , "tags": "The Chief,Mother from the East Coast"
+        , "nb": ["providence, ri"
+            , "site of: The Chief once, eating three White Castle burgers"
+        ]
         , "location_type": ""
         , "location_id": ""
         , "updated_at": "2019-04-01T09:37:04Z"
@@ -244,8 +261,6 @@ site of: The Chief once, eating three White Castle burgers
         , "id_wikia": null
         , "holding": "false"
     }
-heart of scranton, mo
-site of: The Chief 's office
     , {
         "episode": 595
         , "show": "cbb"
@@ -255,6 +270,9 @@ site of: The Chief 's office
         , "elucidation": "identifiable earth location"
         , "bit": "Location"
         , "tags": "The Chief,Mother from the East Coast"
+        , "nb": ["heart of scranton, mo"
+            , "site of: The Chief 's office"
+        ]
         , "location_type": ""
         , "location_id": ""
         , "updated_at": "2019-04-01T09:37:04Z"
@@ -267,8 +285,6 @@ site of: The Chief 's office
         , "id_wikia": null
         , "holding": "false"
     }
-jay 's bar in los feliz
-site of: The Chief, reason unknown
     , {
         "episode": 595
         , "show": "cbb"
@@ -278,6 +294,9 @@ site of: The Chief, reason unknown
         , "elucidation": "identifiable earth location"
         , "bit": "Location"
         , "tags": "The Chief"
+        , "nb": ["jay 's bar in los feliz"
+            , "site of: The Chief, reason unknown"
+        ]
         , "location_type": ""
         , "location_id": ""
         , "updated_at": "2019-04-01T09:37:04Z"
@@ -290,3 +309,396 @@ site of: The Chief, reason unknown
         , "id_wikia": null
         , "holding": "false"
     }
+    , {
+        "episode": 596
+        , "show": "cbb"
+        , "tstart": "24:30"
+        , "tend": "26:05"
+        , "instance": "You have some sort of butler's pantry, or...?"
+        , "elucidation": "identifiable earth location"
+        , "bit": "Location"
+        , "tags": "Mr. Met"
+        , "nb": ["back of mets stadium"
+            , "home of: Mr.Met;site of: Mr.Met's vaulted 1x1' closet"
+        ]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-08T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-08T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mr-met-legitimate-witch"
+        , "episode_title": "Mr. Met and the Legitimate Witch"
+        , "episode_guests": "Paul F. Tompkins,Griffin Newman,Alison Rich"
+        , "id_wikia": null
+        , "holding": "false"
+    }
+    , {
+        "episode": 597
+        , "show": "cbb"
+        , "tstart": "36:15"
+        , "tend": "37:15"
+        , "instance": "Sometimes a human will get caught under a house."
+        , "elucidation": "identifiable earth location"
+        , "bit": "Location"
+        , "tags": "Denny Simpson"
+        , "nb": ["1079, 458(lat, lng)(alabama)"
+            , "site of: Denny Simpson 's murder house in the woods"
+        ]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-16T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-16T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "simpson-and-smith-selling-stories"
+        , "episode_title": "Simpson and Smith: Selling Stories"
+        , "episode_guests": "Baron Vaughn,Zac Oyama,Ify Nwadiwe"
+        , "id_wikia": null
+        , "holding": "false"
+    }
+    , {
+        "episode": 597
+        , "show": "cbb"
+        , "tstart": "44:15"
+        , "tend": "45:15"
+        , "instance": "How about if I told you that I had a Ford Model T that was once owned by Frederick Douglass?"
+        , "elucidation": "identifiable earth location"
+        , "bit": "Location"
+        , "tags": "Frederick Douglass,Gregory Smith"
+        , "nb": ["baltimore, md"
+            , "site of: Gregory Smith 's purchase of an historic Model T"
+        ]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-16T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-16T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "simpson-and-smith-selling-stories"
+        , "episode_title": "Simpson and Smith: Selling Stories"
+        , "episode_guests": "Baron Vaughn,Zac Oyama,Ify Nwadiwe"
+        , "id_wikia": null
+        , "holding": "false"
+    }
+    , {
+        "episode": 597
+        , "show": "cbb"
+        , "tstart": "48:20"
+        , "tend": "49:45"
+        , "instance": "You had Frederick Douglass' Model T - that's huge!"
+        , "elucidation": "identifiable earth location"
+        , "bit": "Location"
+        , "tags": "Frederick Douglass,Gregory Smith"
+        , "nb": ["a house on alameda blvd, compton"
+            , "site of: Gregory Smith 's old house"
+        ]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-16T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-16T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "simpson-and-smith-selling-stories"
+        , "episode_title": "Simpson and Smith: Selling Stories"
+        , "episode_guests": "Baron Vaughn,Zac Oyama,Ify Nwadiwe"
+        , "id_wikia": null
+        , "holding": "false"
+    }
+    , {
+        "episode": 597
+        , "show": "cbb"
+        , "tstart": "51:00"
+        , "tend": "51:45"
+        , "instance": "So you got $5000 for your house."
+        , "elucidation": "identifiable earth location"
+        , "bit": "Location"
+        , "tags": "Gregory Smith"
+        , "nb": ["compton to miami"
+            , "route of: Gregory Smith in a $5000 car"
+        ]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-16T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-16T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "simpson-and-smith-selling-stories"
+        , "episode_title": "Simpson and Smith: Selling Stories"
+        , "episode_guests": "Baron Vaughn,Zac Oyama,Ify Nwadiwe"
+        , "id_wikia": null
+        , "holding": "false"
+    }
+    , {
+        "episode": 597
+        , "show": "cbb"
+        , "tstart": "51:45"
+        , "tend": "52:45"
+        , "instance": "[Ace Ventura] came after me for a little while."
+        , "elucidation": "identifiable earth location"
+        , "bit": "Location"
+        , "tags": "Ace Ventura,Denny Simpson"
+        , "nb": ["guano, africa"
+            , "site of: Ace Ventura trailing Denny Simpson"
+        ]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-16T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-16T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "simpson-and-smith-selling-stories"
+        , "episode_title": "Simpson and Smith: Selling Stories"
+        , "episode_guests": "Baron Vaughn,Zac Oyama,Ify Nwadiwe"
+        , "id_wikia": null
+        , "holding": "false"
+    }
+    , {
+        "episode": 597
+        , "show": "cbb"
+        , "tstart": "57:15"
+        , "tend": "58:00"
+        , "instance": "A bird playing basketball?"
+        , "elucidation": "identifiable earth location"
+        , "bit": "Location"
+        , "tags": "Gregory Smith,Larry Bird"
+        , "nb": ["unnamed bean factoryin boston"
+            , "-71.041482, 42.350386"
+            , "parking place of: Gregory Smith"
+        ]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-16T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-16T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "simpson-and-smith-selling-stories"
+        , "episode_title": "Simpson and Smith: Selling Stories"
+        , "episode_guests": "Baron Vaughn,Zac Oyama,Ify Nwadiwe"
+        , "id_wikia": null
+        , "holding": "false"
+    }
+    , {
+        "episode": 597
+        , "show": "cbb"
+        , "tstart": "57:15"
+        , "tend": "58:00"
+        , "instance": "A bird playing basketball?"
+        , "elucidation": "identifiable earth location"
+        , "bit": "Location"
+        , "tags": "Gregory Smith,Larry Bird"
+        , "nb": ["miami to -71.041482, 42.350386(bean factory)"
+            , "route of: Gregory Smith, looking for stories"
+        ]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-16T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-16T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "simpson-and-smith-selling-stories"
+        , "episode_title": "Simpson and Smith: Selling Stories"
+        , "episode_guests": "Baron Vaughn,Zac Oyama,Ify Nwadiwe"
+        , "id_wikia": null
+        , "holding": "false"
+    }
+    , {
+        "episode": 598
+        , "show": "cbb"
+        , "tstart": "49:00"
+        , "tend": "49:30"
+        , "instance": "He had, like, a drumstick...in his weiner zipper."
+        , "elucidation": "identifiable earth location"
+        , "bit": "Location"
+        , "tags": "Nikki Sixx,Nikki Seven"
+        , "nb": ["Whiskey a go - go"
+            , "site of: the earliest days of Motley Crue"
+        ]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-22T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-22T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "secret-shopping-with-motley-crue"
+        , "episode_title": "Secret Shopping with Mötley Crüe"
+        , "episode_guests": "Tim Robinson,Ryan Rosenberg,Natalie Palamides,Courtney Pauroso"
+        , "id_wikia": null
+        , "holding": "false"
+    }
+    , {
+        "episode": 598
+        , "show": "cbb"
+        , "tstart": "53:50"
+        , "tend": "54:35"
+        , "instance": "I have to be home by, honestly, 4 - otherwise the knee kinda shatters."
+        , "elucidation": "identifiable earth location"
+        , "bit": "Location"
+        , "tags": ""
+        , "nb": ["Calabasas, CA"
+            , "home of: Tim Robinson and his shattered knees"
+        ]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-22T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-22T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "secret-shopping-with-motley-crue"
+        , "episode_title": "Secret Shopping with Mötley Crüe"
+        , "episode_guests": "Tim Robinson,Ryan Rosenberg,Natalie Palamides,Courtney Pauroso"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 598
+        , "show": "cbb"
+        , "tstart": "1:20:35"
+        , "tend": "1:20:55"
+        , "instance": "Great scissors there from what I've heard."
+        , "elucidation": "identifiable earth location"
+        , "bit": "Location"
+        , "tags": ""
+        , "nb": ["Joeannes Fabrics"
+            , "source of: great scissors"
+        ]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-22T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-22T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "secret-shopping-with-motley-crue"
+        , "episode_title": "Secret Shopping with Mötley Crüe"
+        , "episode_guests": "Tim Robinson,Ryan Rosenberg,Natalie Palamides,Courtney Pauroso"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 528
+        , "show": "cbb"
+        , "tstart": "38:15"
+        , "tend": "14:25"
+        , "instance": "I would come out and I would have the tassles on."
+        , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Josh Fox"
+        , "nb": ["Cherry Bomb Burlesque", "possible burlesque of: Josh Fox", "-81.370076,28.541059"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2018-01-23T12:51:03Z"
+        , "url_soundcloud": null
+        , "created_at": "2018-01-23T12:51:03Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "this-is-the-story-of-my-life"
+        , "episode_title": "This is the Story of My Life"
+        , "episode_guests": "Natasha Leggero,Riki Lindhome,Zeke Nicholson,Drew Tarver"
+        , "id_wikia": null
+        , "holding": "false"
+    }
+    , {
+        "episode": 529
+        , "show": "cbb"
+        , "tstart": "34:30"
+        , "tend": "34:50"
+        , "instance": "It's a long story...I had to hook up a different passport...but I'm home and it's good to be here."
+        , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Dalton Wilcox"
+        , "nb": ["Amsterdam", "site of: Dalton Wilcox escaping Scotland"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2018-01-29T12:51:03Z"
+        , "url_soundcloud": null
+        , "created_at": "2018-01-29T12:51:03Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "am-i-the-what"
+        , "episode_title": "Am I the What?"
+        , "episode_guests": "Patton Oswalt,Andy Daly,Mary Sohn"
+        , "id_wikia": null
+        , "holding": "false"
+    }
+    , {
+        "episode": 444
+        , "show": "cbb"
+        , "tstart": "37:20"
+        , "tend": "37:45"
+        , "instance": "I run an etiquette studio."
+        , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Adavid Collette"
+        , "nb": ["Beverly Hills, CA"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2018-01-30T10:39:18Z"
+        , "url_soundcloud": null
+        , "created_at": "2018-01-30T10:39:18Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mind-your-please-and-questions"
+        , "episode_title": "Mind Your Please and Questions"
+        , "episode_guests": "Tig Notaro,Mike Hanford,Drew Tarver"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 540
+        , "show": "cbb"
+        , "tstart": "28:00"
+        , "tend": "28:30"
+        , "instance": "Is she also a wanted criminal?"
+        , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Al A. Peterson,Traci Rearden"
+        , "nb": ["Claire's boutique", "workplace of: Traci Reardon"]
+        , "location_type": "point"
+        , "location_id": ""
+        , "updated_at": "2019-04-27T15:04:46Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-27T15:04:46Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "low-five"
+        , "episode_title": "Low Five"
+        , "episode_guests": "Jon Hamm,Paul F. Tompkins,Jessica McKenna,Zach Reino"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 540
+        , "show": "cbb"
+        , "tstart": "28:00"
+        , "tend": "28:30"
+        , "instance": "Who's 'Robbins'? 'Baskin,' I know."
+        , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Al A. Peterson,Traci Rearden"
+        , "nb": ["Baskin-Robins", "workplace of: Traci Reardon"]
+        , "location_type": "point"
+        , "location_id": ""
+        , "updated_at": "2019-04-27T15:04:46Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-27T15:04:46Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "low-five"
+        , "episode_title": "Low Five"
+        , "episode_guests": "Jon Hamm,Paul F. Tompkins,Jessica McKenna,Zach Reino"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 541
+        , "show": "cbb"
+        , "tstart": "53:40"
+        , "tend": "54:30"
+        , "instance": "At the end we say thanks for coming and if anyone's interested I'm hosting a wild swingers parties after this."
+        , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Slippy Daniels,Jack Pot"
+        , "nb": ["coney island wooden roller coaster/studio apt", "site of: Slippy Daniels' studio apartment; site of: Slippy Daniels' post-orgy orgies"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2018-04-17T08:10:43Z"
+        , "url_soundcloud": null
+        , "created_at": "2018-04-17T08:10:43Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "is-that-a-joke"
+        , "episode_title": "Is That a Joke?"
+        , "episode_guests": "Thomas Middleditch,Ben Schwartz"
+        , "id_wikia": null
+        , "holding": "false"
+    }
+]
