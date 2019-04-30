@@ -890,5 +890,173 @@
         , "episode_guests": "Kristian Bruun,John Gemberling,Gil Ozeri,Zeke Nicholson"
         , "id_wikia": null
         , "holding": "false"
+    }, {
+        "episode": 564
+        , "show": "cbb"
+        , "tstart": "19:30"
+        , "tend": "20:00"
+        , "instance": "I write a letter a day to the daily mail."
+        , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Byron Denniston"
+        , "nb": ["coffee shop near (the kensington end of) hyde park", "site of: Byron Denniston, corresponding"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-30T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-30T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "svelte-scale"
+        , "episode_title": "Svelte Scale"
+        , "episode_guests": "Zach Galifianakis,Andy Daly,Nicole Parker"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 564
+        , "show": "cbb"
+        , "tstart": "19:30"
+        , "tend": "20:00"
+        , "instance": "I write a letter a day to the daily mail."
+        , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Byron Denniston"
+        , "nb": ["post office near (the kensington end of) hyde park", "site of: Byron Denniston, mailing"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-30T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-30T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "svelte-scale"
+        , "episode_title": "Svelte Scale"
+        , "episode_guests": "Zach Galifianakis,Andy Daly,Nicole Parker"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 565
+        , "show": "cbb"
+        , "tstart": "21:00"
+        , "tend": "22:00"
+        , "instance": "Great British Baking Show!"
+        , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Eugenia WOBBLES"
+        , "nb": ["a cottage in England", "home of: Eugenia WOBBLES"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-30T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-30T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "cmon-bake-bake"
+        , "episode_title": "C'mon Bake Bake"
+        , "episode_guests": "Jason Mantzoukas,Mary Holland,D'Arcy Carden"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 565
+        , "show": "cbb"
+        , "tstart": "23:45"
+        , "tend": "24:15"
+        , "instance": "I know someone who makes Cob houses."
+        , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Eugenia WOBBLES"
+        , "nb": ["Brighton, UK", "home of: an unidentified Cob house maker"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-30T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-30T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "cmon-bake-bake"
+        , "episode_title": "C'mon Bake Bake"
+        , "episode_guests": "Jason Mantzoukas,Mary Holland,D'Arcy Carden"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 565
+        , "show": "cbb"
+        , "tstart": "52:30"
+        , "tend": "53:00"
+        , "instance": "Don't you just feel like you're 16 still, though?"
+        , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Eugenia WOBBLES,Augustina (Auggie) Auggerman"
+        , "nb": ["Hwy 101 bt Disneyland and some place residential near anaheim", "route of: Scott and Auggie cruising the 101"]
+        , "location_type": "line"
+        , "location_id": ""
+        , "updated_at": "2019-04-30T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-30T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "cmon-bake-bake"
+        , "episode_title": "C'mon Bake Bake"
+        , "episode_guests": "Jason Mantzoukas,Mary Holland,D'Arcy Carden"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 565
+        , "show": "cbb"
+        , "tstart": "1:07:18"
+        , "tend": "1:07:51"
+        , "instance": "I don't wanna slut-shame her but what a slut!"
+        , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Hot Dog,Augustina (Auggie) Auggerman,Jamei Leighton"
+        , "nb": ["Anaheim, CA", "home town of: Auggie Auggerman"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2018-09-17T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2018-09-17T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "cmon-bake-bake"
+        , "episode_title": "C'mon Bake Bake"
+        , "episode_guests": "Jason Mantzoukas,Mary Holland,D'Arcy Carden"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 566
+        , "show": "cbb"
+        , "tstart": "25:40"
+        , "tend": "26:30"
+        , "instance": "If chartering a 40' fishing boat, heading down to the Caribbean, piratin island-to-island, stormin' luxury lot-yacht-lot-yachts...then lock me up."
+        , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "The Calvins Twins,The Calvins Brothers,Bever Hopox,Chico Hands,Bisby St. Hancock"
+        , "nb": ["Caribbean Sea", "site of: horse fight promoters, piratin'; nothing else"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-30T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-30T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "the-calvins-triplets"
+        , "episode_title": "The Calvins Triplets"
+        , "episode_guests": "Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 566
+        , "show": "cbb"
+        , "tstart": "29:45"
+        , "tend": "34:30"
+        , "instance": "One night I was out sleep-fishing."
+        , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "The Calvins Twins,The Calvins Brothers,Bever Hopox,Chico Hands,Bisby St. Hancock"
+        , "nb": ["location near shore of a caribbean island", "site of: Chico Hands, sleep-fighting a shark"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-30T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-30T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "the-calvins-triplets"
+        , "episode_title": "The Calvins Triplets"
+        , "episode_guests": "Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
     }
 ]

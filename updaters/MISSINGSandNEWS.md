@@ -1301,6 +1301,7 @@
 
     * 567,14:00
     * 561,44:45(pw)
+    * 567,14:00(pw)
     
 * shallatoo (maxwell keeper's new catchphrase)
   * 483,several
