@@ -83,6 +83,10 @@
     * bo2018.3,1:58:00(pw)
     * bo2018.4,55:30(pw)
     * 587,1:19:30(pw)
+    * 596,9:00(pw)
+    * 596,14:30(pw)
+    * 596,54:45(pw)
+    * 596,1:07:20(pw)
 * Bone Queef
   * 430,***
   * 447,8:00(pw)
@@ -409,6 +413,7 @@
   * http://howl.fm/audio/42018/may-21-detroit-royal-oak-music-theatre,37:30
 * thanks, reggie
   * almost every ep at least thru 84
+  * 537,0:50
   * 572,0:10(pw)
   * 545,1:15(pw)
   * 84,2:30
@@ -420,11 +425,13 @@
   * 323,1:20(paywall)
   * 353,3:45(pw)
   * 537,00:35
+  * bo2010,46:30(pw)
 * german craigslist
   * 59,42:25 (pw)
   * 583,1:25:30(pw)
   * 429,1:06:45(pw)
   * 540,1:20:40(pw)
+  * 540,33:00(pw)
   * bo2010,46:50
   * 137,3:30
   * 138,21:34
@@ -494,40 +501,6 @@
   * 2016.oakland,11:42
   * 2016.oakland,54:33
   * 2016.sydney,1:04:30
-* \#1 with a bullet
-  * 2016.denver,10:00
-  * 588,30:12(pw)
-  * 2016.toronto,41:00
-  * 540,25:20(pw)
-  * 508,1:24:10(commercialed)
-  * 382,40:00(pw)
-  * 584,27:45(pw)
-  * 386,40:50(pw)
-  * 262,9:30
-  * 289,9:50(howl)
-  * 289,46:00(howl)
-  * 469,2:15
-  * 2016.dallas,33:40
-  * 441,11:20(pw)
-  * 2016.denver,10:00
-  * 2016.toronto,41:00
-  * 289,10:15
-  * 2016.dallas,33:40
-  * 444,1:16:37
-  * 174,11:00
-  * bo.2016.1,50:40
-  * 423,??:??
-  * bo2016.3,57:30
-  * 323,1:03:17(paywall)
-  * 324,6:00(paywall)
-  * 384,23:50(pw)
-  * bo2014.3,1:41:23(paywall)
-  * bo2014_4,8:55(PW)
-  * 413,1:03:30(pw)
-  * 444,1:08:30(pw)
-  * 457,21:10(pw)
-  * 457,33:50(pw)
-  * 457,38:45(pw)
 * lapkus can't make it through a song
   * ~~2016.tarrytown,5:00~~
   * ~~2016.tarrytown,4:46~~
@@ -1323,111 +1296,7 @@
   * bo2016.3,47:35(pw)
   * bo2016.3,1:13:25(pw)
   * bo2017.2,2:19:45
-* urls
-  * 295,??
-  * 594,36:50(pw)
-  * 594,55:00(pw)
-  * 594,56:20(pw)
-  * 594,58:45(pw)
-  * 594,1:00:00(pw)
-  * 594,1:02:30(pw)
-  * 594,1:08:15(pw)
-  * 594,1:13:00(pw)
-  * 594,1:13:25(pw)
-  * 153,27:50
-  * 588,28:45(pw)
-  * 588,1:13:00(pw)
-  * 568,10:00(pw)
-  * 554,57:50(pw)
-  * 558,1:04:20(pw)
-  * 542,1:28:00
-  * 473,1:20:45(pw)
-  * 449,45:30(pw)
-  * 449,1:10:45(pw)
-  * 529,1:03:00
-  * 437,39:30(pw)
-  * 433,1:00:30(pw)
-  * 417,8:45(pw)
-  * 417,13:40(pw)
-  * 413,0:30(pw)
-  * 412,1:23:30(pw)
-  * 524,33:48
-  * 517,58:45
-  * 382,43:30(pw)
-  * 513,59:30
-  * 368,49:00(pw)
-  * 366,1:16:30(pw)
-  * 352,25:00(pw)
-  * 352,1:15:00(pw)
-  * 502,28:30
-  * 321,2:14(paywall)
-  * 481,49:00(pw)
-  * 487,36:00
-  * 1:27:25
-  * 288,27:15
-  * 294,42:50(paywall)
-  * 294,1:27:00(paywall)
-  * 288,44:00(paywall)
-  * 484,43:50(pw)
-  * 284,25:30(howl)
-  * 270,8:55(howl)
-  * 270,44:25(howl)
-  * 258,4:30(howl)
-  * 259,44:10(stitcher)
-  * 259,60:30(stitcher)
-  * 259,1:30:30(stitcher)
-  * 256,1:14:00(howl)
-  * 256,22:10(howl)
-  * 254,52:30(howl)
-  * 254,57:00(pw)
-  * 250,1:20:40(howl)
-  * 473,18:00(howl)
-  * 473,1:27:50(howl)
-  * 246,50:40(howl)
-  * 244,26:15(howl)
-  * 243,18:50(howl)
-  * 243,31:00(howl)
-  * 243,31:25(howl)
-  * 243,34:00(howl)
-  * 246,50:40(howl)
-  * 469,20:50
-  * 226,35:45(howl)
-  * 226,44:20(howl)
-  * 226,1:14:45(howl)
-  * 232,34:30(howl)
-  * 207,35:50
-  * 191,1:12:00
-  * 200,29:30
-  * 161,??:??
-  * 200,21:00
-  * 200,27:30(pw),assistedfalls.com
-  * 231,1:03:40
-  * 165,1:50
-  * 165,12:40
-  * 165,40:45
-  * 165,51:30
-  * http://howl.fm/audio/26157/live-from-philadelphia-2013,49:35,fuglyducklings.biz
-  * http://howl.fm/audio/26157/live-from-philadelphia-2013,49:35,barelylegalcollegeprep.org
-  * http://howl.fm/audio/26157/live-from-philadelphia-2013,58:15,emptydouchebags.org
-  * http://howl.fm/audio/26157/live-from-philadelphia-2013,58:50,halfaleafclover.us
-  * http://howl.fm/audio/26157/live-from-philadelphia-2013,59:20,casanovagirdles.com
-  * http://howl.fm/audio/26157/live-from-philadelphia-2013,1:00:35,illegalpussy.com
-  * http://howl.fm/audio/26142/live-from-chicago-2014,44:30,fastpussy.net
-  * http://howl.fm/audio/26142/live-from-chicago-2014,46:30,junglecondoms.com
-  * http://howl.fm/audio/26142/live-from-chicago-2014,51:49,badbitchbailbonds.com
-  * http://howl.fm/audio/26142/live-from-chicago-2014,54:10,naughtynotary.net
-  * http://howl.fm/audio/26142/live-from-chicago-2014,1:14:15,wrongpussy.pr
-  * 412,1:32:00,john316.cnn.god
-  * 412,1:32:00,john316.kittenparty
-  * 178,4:30,wompitup.com/wompupthejamz
-  * 178,16:45,movingon.org
-  * 178,46:20,movingon.org
-  * 178,46:20,movingon.net
-  * 178,1:13:20,moveon.tv
-  * 183,6:00,www.spookyguyz.com
-  * 183,1:12:20,spookyguyz.com
-  * 183,37:50,sillyguyz.com
-  * 46,45:00(rough estim - pw),ice_t.blogspot.com
+
 * we'll pay for it (if you wanna go on another date)
 
     * 567,14:00
@@ -1449,6 +1318,7 @@
   * 434,9:30(pw)[]()
 * interesting people
   * several of the 480+ eps
+  * 596,19:00(pw)
   * 588,1:00:00(pw)
   * 582,0:45(pw)
   * 568,0:45(pw)

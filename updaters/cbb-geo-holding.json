@@ -1,343 +1,958 @@
-Los Angeles, CA
-home of: radio caller Cleveland Columbus
-    , {
-        "episode": 595
-        , "show": "cbb"
-        , "tstart": "25:10"
-        , "tend": "25:30"
-        , "instance": "We used to make clothes for game shows back in the 70s."
-        , "elucidation": "identifiable earth location"
-        , "bit": "Location"
-        , "tags": "Cleveland Columbus"
-        , "location_type": ""
-        , "location_id": ""
-        , "updated_at": "2019-04-01T09:37:04Z"
-        , "url_soundcloud": null
-        , "created_at": "2019-04-01T09:37:04Z"
-        , "slug_soundcloud": null
-        , "slug_earwolf": "mothers-olive-oil"
-        , "episode_title": "Mother's Olive Oil"
-        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
-        , "id_wikia": null
-        , "holding": "false"
+[
+    {
+        "episode": 595,
+        "show": "cbb",
+        "tstart": "25:10",
+        "tend": "25:30",
+        "instance": "We used to make clothes for game shows back in the 70s.",
+        "elucidation": "identifiable earth location",
+        "bit": "Location",
+        "tags": "Cleveland Columbus",
+        "nb": ["Los Angeles, CA", "home of: radio caller Cleveland Columbus"],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-04-01T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2019-04-01T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "mothers-olive-oil",
+        "episode_title": "Mother's Olive Oil",
+        "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 595,
+        "show": "cbb",
+        "tstart": "38:00",
+        "tend": "38:35",
+        "instance": "So you're part of the Hearst empire?",
+        "elucidation": "identifiable earth location",
+        "bit": "Location",
+        "tags": "The Chief,William Randolph Hearst,Citizen Kane (film)",
+        "nb": [
+            "Island of La Croix ?",
+            "site of : The Chief, drinking sparkling water, during the release of 'Citizen Kane'"
+        ],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-04-01T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2019-04-01T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "mothers-olive-oil",
+        "episode_title": "Mother's Olive Oil",
+        "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 595,
+        "show": "cbb",
+        "tstart": "40:00",
+        "tend": "40:30",
+        "instance": "Are you still going to go on the hunt?",
+        "elucidation": "identifiable earth location",
+        "bit": "Location",
+        "tags": "The Chief",
+        "nb": [
+            "an air b & b in los felize",
+            "site of: The Chief, just chillin"
+        ],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-04-01T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2019-04-01T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "mothers-olive-oil",
+        "episode_title": "Mother's Olive Oil",
+        "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 595,
+        "show": "cbb",
+        "tstart": "41:30",
+        "tend": "41:40",
+        "instance": "So you have tendinitis, you have to put your feet up.",
+        "elucidation": "identifiable earth location",
+        "bit": "Location",
+        "tags": "The Chief",
+        "nb": [
+            "an air b & b in los felize",
+            "site of: The Chief, just chillin"
+        ],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-04-01T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2019-04-01T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "mothers-olive-oil",
+        "episode_title": "Mother's Olive Oil",
+        "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 595,
+        "show": "cbb",
+        "tstart": "54:15",
+        "tend": "54:45",
+        "instance": "He puts the lotion on the hands.",
+        "elucidation": "identifiable earth location",
+        "bit": "Location",
+        "tags": "The Chief,Mother from the East Coast",
+        "nb": [
+            "an air b & b in los felize",
+            "site of: The Chief, just chillin"
+        ],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-04-01T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2019-04-01T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "mothers-olive-oil",
+        "episode_title": "Mother's Olive Oil",
+        "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 595,
+        "show": "cbb",
+        "tstart": "41:30",
+        "tend": "42:30",
+        "instance": "I'll grab her up; tie a rope around her waist; tie the other end to my private propeller plane.",
+        "elucidation": "identifiable earth location",
+        "bit": "Location",
+        "tags": "The Chief",
+        "nb": [
+            "santa monica municipal airport",
+            "site of: The Chief, dragging Carmen San Diego down the runway"
+        ],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-04-01T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2019-04-01T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "mothers-olive-oil",
+        "episode_title": "Mother's Olive Oil",
+        "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 595,
+        "show": "cbb",
+        "tstart": "54:45",
+        "tend": "55:15",
+        "instance": "I take it down the street to wash it.",
+        "elucidation": "identifiable earth location",
+        "bit": "Location",
+        "tags": "The Chief,Mother from the East Coast",
+        "nb": [
+            "santa monica municipal airport",
+            "site of: The Chief, dragging Carmen San Diego down the runway"
+        ],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-04-01T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2019-04-01T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "mothers-olive-oil",
+        "episode_title": "Mother's Olive Oil",
+        "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 595,
+        "show": "cbb",
+        "tstart": "48:00",
+        "tend": "48:45",
+        "instance": "She took the M right out of the city of St. Louis just as the Rams left to come back to Los Angeles.",
+        "elucidation": "identifiable earth location",
+        "bit": "Location",
+        "tags": "The Chief,Carmen San Diego",
+        "nb": [
+            "a st.louis mcdonalds",
+            "site of: a set of golden arches stolen by carmen san diego"
+        ],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-04-01T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2019-04-01T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "mothers-olive-oil",
+        "episode_title": "Mother's Olive Oil",
+        "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 595,
+        "show": "cbb",
+        "tstart": "50:45",
+        "tend": "51:15",
+        "instance": "Whose mother are you?",
+        "elucidation": "identifiable earth location",
+        "bit": "Location",
+        "tags": "The Chief,Carmen San Diego",
+        "nb": ["rhode island", "home state of: a mother"],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-04-01T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2019-04-01T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "mothers-olive-oil",
+        "episode_title": "Mother's Olive Oil",
+        "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 595,
+        "show": "cbb",
+        "tstart": "54:45",
+        "tend": "55:15",
+        "instance": "I take it down the street to wash it.",
+        "elucidation": "identifiable earth location",
+        "bit": "Location",
+        "tags": "The Chief,Mother from the East Coast",
+        "nb": [
+            "santa monica airport down palms blvd to a car wash",
+            "route of: The Chief, washing his prop plane"
+        ],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-04-01T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2019-04-01T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "mothers-olive-oil",
+        "episode_title": "Mother's Olive Oil",
+        "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 595,
+        "show": "cbb",
+        "tstart": "55:00",
+        "tend": "55:30",
+        "instance": "Me? I've been to the Island of Rhode.",
+        "elucidation": "identifiable earth location",
+        "bit": "Location",
+        "tags": "The Chief,Mother from the East Coast",
+        "nb": [
+            "providence, ri",
+            "site of: The Chief once, eating three White Castle burgers"
+        ],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-04-01T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2019-04-01T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "mothers-olive-oil",
+        "episode_title": "Mother's Olive Oil",
+        "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 595,
+        "show": "cbb",
+        "tstart": "1:07:30",
+        "tend": "1:08:15",
+        "instance": "My office? I'm not at liberty to say.",
+        "elucidation": "identifiable earth location",
+        "bit": "Location",
+        "tags": "The Chief,Mother from the East Coast",
+        "nb": ["heart of scranton, mo", "site of: The Chief 's office"],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-04-01T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2019-04-01T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "mothers-olive-oil",
+        "episode_title": "Mother's Olive Oil",
+        "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 595,
+        "show": "cbb",
+        "tstart": "1:12:30",
+        "tend": "1:13:45",
+        "instance": "I have no time to bounce the baseball.",
+        "elucidation": "identifiable earth location",
+        "bit": "Location",
+        "tags": "The Chief",
+        "nb": ["jay 's bar in los feliz", "site of: The Chief, reason unknown"],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-04-01T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2019-04-01T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "mothers-olive-oil",
+        "episode_title": "Mother's Olive Oil",
+        "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 435,
+        "show": "cbb",
+        "tstart": "1:07:45",
+        "tend": "1:08:30",
+        "instance": "I got out of a 45-minute thing where I had fallen in love and solved a problem.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "tags": "Fugitive Matt Knight",
+        "nb": [
+            "The Beatles LOVE",
+            "3400 S Las Vegas Blvd, Las Vegas, NV 89109",
+            "-115.174713,36.120452"
+        ],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-04-15T15:17:56Z",
+        "url_soundcloud": null,
+        "created_at": "2019-04-15T15:17:56Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "jim-gaffigan-says-no",
+        "episode_title": "Jim Gaffigan Says No",
+        "episode_guests": "Jim Gaffigan,Eugene Cordero,Will Hines",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 435,
+        "show": "cbb",
+        "tstart": "1:10:20",
+        "tend": "1:10:33",
+        "instance": "I'm on the lam right now in four countries.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "tags": "Fugitive Matt Knight",
+        "nb": ["USA", "country that: prohibits entry to Fugitive Matt Knight"],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2018-01-16T15:17:56Z",
+        "url_soundcloud": null,
+        "created_at": "2018-01-16T15:17:56Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "jim-gaffigan-says-no",
+        "episode_title": "Jim Gaffigan Says No",
+        "episode_guests": "Jim Gaffigan,Eugene Cordero,Will Hines",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 596,
+        "show": "cbb",
+        "tstart": "24:30",
+        "tend": "26:05",
+        "instance": "You have some sort of butler's pantry, or...?",
+        "elucidation": "identifiable earth location",
+        "bit": "Location",
+        "tags": "Mr. Met",
+        "nb": [
+            "back of mets stadium",
+            "home of: Mr.Met;site of: Mr.Met's vaulted 1x1' closet"
+        ],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-04-08T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2019-04-08T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "mr-met-legitimate-witch",
+        "episode_title": "Mr. Met and the Legitimate Witch",
+        "episode_guests": "Paul F. Tompkins,Griffin Newman,Alison Rich",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 597,
+        "show": "cbb",
+        "tstart": "36:15",
+        "tend": "37:15",
+        "instance": "Sometimes a human will get caught under a house.",
+        "elucidation": "identifiable earth location",
+        "bit": "Location",
+        "tags": "Denny Simpson",
+        "nb": [
+            "1079, 458(lat, lng)(alabama)",
+            "site of: Denny Simpson 's murder house in the woods"
+        ],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-04-16T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2019-04-16T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "simpson-and-smith-selling-stories",
+        "episode_title": "Simpson and Smith: Selling Stories",
+        "episode_guests": "Baron Vaughn,Zac Oyama,Ify Nwadiwe",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 597,
+        "show": "cbb",
+        "tstart": "44:15",
+        "tend": "45:15",
+        "instance": "How about if I told you that I had a Ford Model T that was once owned by Frederick Douglass?",
+        "elucidation": "identifiable earth location",
+        "bit": "Location",
+        "tags": "Frederick Douglass,Gregory Smith",
+        "nb": [
+            "baltimore, md",
+            "site of: Gregory Smith 's purchase of an historic Model T"
+        ],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-04-16T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2019-04-16T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "simpson-and-smith-selling-stories",
+        "episode_title": "Simpson and Smith: Selling Stories",
+        "episode_guests": "Baron Vaughn,Zac Oyama,Ify Nwadiwe",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 597,
+        "show": "cbb",
+        "tstart": "48:20",
+        "tend": "49:45",
+        "instance": "You had Frederick Douglass' Model T - that's huge!",
+        "elucidation": "identifiable earth location",
+        "bit": "Location",
+        "tags": "Frederick Douglass,Gregory Smith",
+        "nb": [
+            "a house on alameda blvd, compton",
+            "site of: Gregory Smith 's old house"
+        ],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-04-16T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2019-04-16T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "simpson-and-smith-selling-stories",
+        "episode_title": "Simpson and Smith: Selling Stories",
+        "episode_guests": "Baron Vaughn,Zac Oyama,Ify Nwadiwe",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 597,
+        "show": "cbb",
+        "tstart": "51:00",
+        "tend": "51:45",
+        "instance": "So you got $5000 for your house.",
+        "elucidation": "identifiable earth location",
+        "bit": "Location",
+        "tags": "Gregory Smith",
+        "nb": ["compton to miami", "route of: Gregory Smith in a $5000 car"],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-04-16T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2019-04-16T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "simpson-and-smith-selling-stories",
+        "episode_title": "Simpson and Smith: Selling Stories",
+        "episode_guests": "Baron Vaughn,Zac Oyama,Ify Nwadiwe",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 597,
+        "show": "cbb",
+        "tstart": "51:45",
+        "tend": "52:45",
+        "instance": "[Ace Ventura] came after me for a little while.",
+        "elucidation": "identifiable earth location",
+        "bit": "Location",
+        "tags": "Ace Ventura,Denny Simpson",
+        "nb": ["guano, africa", "site of: Ace Ventura trailing Denny Simpson"],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-04-16T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2019-04-16T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "simpson-and-smith-selling-stories",
+        "episode_title": "Simpson and Smith: Selling Stories",
+        "episode_guests": "Baron Vaughn,Zac Oyama,Ify Nwadiwe",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 597,
+        "show": "cbb",
+        "tstart": "57:15",
+        "tend": "58:00",
+        "instance": "A bird playing basketball?",
+        "elucidation": "identifiable earth location",
+        "bit": "Location",
+        "tags": "Gregory Smith,Larry Bird",
+        "nb": [
+            "unnamed bean factoryin boston",
+            "-71.041482, 42.350386",
+            "parking place of: Gregory Smith"
+        ],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-04-16T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2019-04-16T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "simpson-and-smith-selling-stories",
+        "episode_title": "Simpson and Smith: Selling Stories",
+        "episode_guests": "Baron Vaughn,Zac Oyama,Ify Nwadiwe",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 597,
+        "show": "cbb",
+        "tstart": "57:15",
+        "tend": "58:00",
+        "instance": "A bird playing basketball?",
+        "elucidation": "identifiable earth location",
+        "bit": "Location",
+        "tags": "Gregory Smith,Larry Bird",
+        "nb": [
+            "miami to -71.041482, 42.350386(bean factory)",
+            "route of: Gregory Smith, looking for stories"
+        ],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-04-16T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2019-04-16T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "simpson-and-smith-selling-stories",
+        "episode_title": "Simpson and Smith: Selling Stories",
+        "episode_guests": "Baron Vaughn,Zac Oyama,Ify Nwadiwe",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 598,
+        "show": "cbb",
+        "tstart": "49:00",
+        "tend": "49:30",
+        "instance": "He had, like, a drumstick...in his weiner zipper.",
+        "elucidation": "identifiable earth location",
+        "bit": "Location",
+        "tags": "Nikki Sixx,Nikki Seven",
+        "nb": [
+            "Whiskey a go - go",
+            "site of: the earliest days of Motley Crue"
+        ],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-04-22T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2019-04-22T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "secret-shopping-with-motley-crue",
+        "episode_title": "Secret Shopping with Mötley Crüe",
+        "episode_guests": "Tim Robinson,Ryan Rosenberg,Natalie Palamides,Courtney Pauroso",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 598,
+        "show": "cbb",
+        "tstart": "53:50",
+        "tend": "54:35",
+        "instance": "I have to be home by, honestly, 4 - otherwise the knee kinda shatters.",
+        "elucidation": "identifiable earth location",
+        "bit": "Location",
+        "tags": "",
+        "nb": [
+            "Calabasas, CA",
+            "home of: Tim Robinson and his shattered knees"
+        ],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-04-22T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2019-04-22T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "secret-shopping-with-motley-crue",
+        "episode_title": "Secret Shopping with Mötley Crüe",
+        "episode_guests": "Tim Robinson,Ryan Rosenberg,Natalie Palamides,Courtney Pauroso",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 598,
+        "show": "cbb",
+        "tstart": "1:20:35",
+        "tend": "1:20:55",
+        "instance": "Great scissors there from what I've heard.",
+        "elucidation": "identifiable earth location",
+        "bit": "Location",
+        "tags": "",
+        "nb": ["Joeannes Fabrics", "source of: great scissors"],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-04-22T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2019-04-22T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "secret-shopping-with-motley-crue",
+        "episode_title": "Secret Shopping with Mötley Crüe",
+        "episode_guests": "Tim Robinson,Ryan Rosenberg,Natalie Palamides,Courtney Pauroso",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 528,
+        "show": "cbb",
+        "tstart": "38:15",
+        "tend": "14:25",
+        "instance": "I would come out and I would have the tassles on.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "tags": "Josh Fox",
+        "nb": [
+            "Cherry Bomb Burlesque",
+            "possible burlesque of: Josh Fox",
+            "-81.370076,28.541059"
+        ],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2018-01-23T12:51:03Z",
+        "url_soundcloud": null,
+        "created_at": "2018-01-23T12:51:03Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "this-is-the-story-of-my-life",
+        "episode_title": "This is the Story of My Life",
+        "episode_guests": "Natasha Leggero,Riki Lindhome,Zeke Nicholson,Drew Tarver",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 529,
+        "show": "cbb",
+        "tstart": "34:30",
+        "tend": "34:50",
+        "instance": "It's a long story...I had to hook up a different passport...but I'm home and it's good to be here.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "tags": "Dalton Wilcox",
+        "nb": ["Amsterdam", "site of: Dalton Wilcox escaping Scotland"],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2018-01-29T12:51:03Z",
+        "url_soundcloud": null,
+        "created_at": "2018-01-29T12:51:03Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "am-i-the-what",
+        "episode_title": "Am I the What?",
+        "episode_guests": "Patton Oswalt,Andy Daly,Mary Sohn",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 444,
+        "show": "cbb",
+        "tstart": "37:20",
+        "tend": "37:45",
+        "instance": "I run an etiquette studio.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "tags": "Adavid Collette",
+        "nb": ["Beverly Hills, CA"],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2018-01-30T10:39:18Z",
+        "url_soundcloud": null,
+        "created_at": "2018-01-30T10:39:18Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "mind-your-please-and-questions",
+        "episode_title": "Mind Your Please and Questions",
+        "episode_guests": "Tig Notaro,Mike Hanford,Drew Tarver",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 540,
+        "show": "cbb",
+        "tstart": "28:00",
+        "tend": "28:30",
+        "instance": "Is she also a wanted criminal?",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "tags": "Al A. Peterson,Traci Rearden",
+        "nb": ["Claire's boutique", "workplace of: Traci Reardon"],
+        "location_type": "point",
+        "location_id": "",
+        "updated_at": "2019-04-27T15:04:46Z",
+        "url_soundcloud": null,
+        "created_at": "2019-04-27T15:04:46Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "low-five",
+        "episode_title": "Low Five",
+        "episode_guests": "Jon Hamm,Paul F. Tompkins,Jessica McKenna,Zach Reino",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 540,
+        "show": "cbb",
+        "tstart": "28:00",
+        "tend": "28:30",
+        "instance": "Who's 'Robbins'? 'Baskin,' I know.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "tags": "Al A. Peterson,Traci Rearden",
+        "nb": ["Baskin-Robins", "workplace of: Traci Reardon"],
+        "location_type": "point",
+        "location_id": "",
+        "updated_at": "2019-04-27T15:04:46Z",
+        "url_soundcloud": null,
+        "created_at": "2019-04-27T15:04:46Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "low-five",
+        "episode_title": "Low Five",
+        "episode_guests": "Jon Hamm,Paul F. Tompkins,Jessica McKenna,Zach Reino",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 541,
+        "show": "cbb",
+        "tstart": "53:40",
+        "tend": "54:30",
+        "instance": "At the end we say thanks for coming and if anyone's interested I'm hosting a wild swingers parties after this.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "tags": "Slippy Daniels,Jack Pot",
+        "nb": [
+            "coney island wooden roller coaster/studio apt",
+            "site of: Slippy Daniels' studio apartment; site of: Slippy Daniels' post-orgy orgies"
+        ],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2018-04-17T08:10:43Z",
+        "url_soundcloud": null,
+        "created_at": "2018-04-17T08:10:43Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "is-that-a-joke",
+        "episode_title": "Is That a Joke?",
+        "episode_guests": "Thomas Middleditch,Ben Schwartz",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 547,
+        "show": "cbb",
+        "tstart": "49:15",
+        "tend": "49:45",
+        "instance": "Hey - would it kill you to put some fun urinal cakes in here?",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "tags": "Clovis Mandrake",
+        "nb": [
+            "The Dancing Manatee, Coral Gables, FL",
+            "site of: fun urinal cakes"
+        ],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-04-25T08:38:28Z",
+        "url_soundcloud": null,
+        "created_at": "2019-04-25T08:38:28Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "johnny-pacquiao",
+        "episode_title": "Johnny Pacquiao",
+        "episode_guests": "John Mulaney,Seth Morris,Betsy Sodaro",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 547,
+        "show": "cbb",
+        "tstart": "1:07:45",
+        "tend": "1:08:15",
+        "instance": "Oh, you know - I've tried to start actually solving murders.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "tags": "Mrs. Potts",
+        "nb": [
+            "-68.89448,44.15425",
+            "proxy for: Murder She Wrote's Cabot Cove; site of: Mrs. Potts actually solving murders"
+        ],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-04-25T08:38:28Z",
+        "url_soundcloud": null,
+        "created_at": "2019-04-25T08:38:28Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "johnny-pacquiao",
+        "episode_title": "Johnny Pacquiao",
+        "episode_guests": "John Mulaney,Seth Morris,Betsy Sodaro",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 548,
+        "show": "cbb",
+        "tstart": "49:22",
+        "tend": "50:09",
+        "instance": "I jumped over the premiere of 'Back to the Future'!",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "tags": "Huey Lewis,Huey Lewis & The News (musical combination),Lavinia Skyleton Marsh Caruthers,Shevel Knievel,Back to the Future (film)",
+        "nb": [
+            "Cinerama Dome, Los Angeles",
+            "site of: the Back to the Future premiere in 1985; site of: Shevel Knievel jumping over same"
+        ],
+        "location_type": "poly",
+        "location_id": "",
+        "updated_at": "2018-05-29T08:38:28Z",
+        "url_soundcloud": null,
+        "created_at": "2018-05-29T08:38:28Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "know-what-im-saying",
+        "episode_title": "Know What I'm Saying?",
+        "episode_guests": "Gillian Jacobs,Paul F. Tompkins,Lamar Woods,Tawny Newsome",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 554,
+        "show": "cbb",
+        "tstart": "20:00",
+        "tend": "20:30",
+        "instance": "He's probably choking kids out in some other town.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "tags": "Lyle Cummings,Peppers McGilly",
+        "nb": [
+            "120 E Jackson St, Dublin, GA 31021",
+            "Aces Lounge",
+            "proxy for: Burnham's in Macon; site of: Peppers McGilly fielding questions about Lyle Cummings"
+        ],
+        "location_type": "point",
+        "location_id": "",
+        "updated_at": "2018-07-09T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2018-07-09T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "educainment-squad",
+        "episode_title": "Educainment Squad",
+        "episode_guests": "Horatio Sanz,Thomas Middleditch",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 554,
+        "show": "cbb",
+        "tstart": "31:00",
+        "tend": "31:20",
+        "instance": "If you're not makin' it in Macon, it, then you're not in Macon. It.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "tags": "Lyle Cummings,Peppers McGilly",
+        "nb": ["Macon, GA", "hometown of: Lyle Cummings"],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2018-07-09T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2018-07-09T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "educainment-squad",
+        "episode_title": "Educainment Squad",
+        "episode_guests": "Horatio Sanz,Thomas Middleditch",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 554,
+        "show": "cbb",
+        "tstart": "32:45",
+        "tend": "33:00",
+        "instance": "Sherbet salesman extrordinaire.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "tags": "Lyle Cummings,Peppers McGilly",
+        "nb": ["Macon, GA", "hometown of: Peppers McGilly"],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2018-07-09T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2018-07-09T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "educainment-squad",
+        "episode_title": "Educainment Squad",
+        "episode_guests": "Horatio Sanz,Thomas Middleditch",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 554,
+        "show": "cbb",
+        "tstart": "33:30",
+        "tend": "34:30",
+        "instance": "So you're doin' students 360.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "tags": "Lyle Cummings,Peppers McGilly",
+        "nb": ["Macon County, GA", "home county of: Peppers McGilly"],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2018-07-09T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2018-07-09T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "educainment-squad",
+        "episode_title": "Educainment Squad",
+        "episode_guests": "Horatio Sanz,Thomas Middleditch",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 554,
+        "show": "cbb",
+        "tstart": "1:03:05",
+        "tend": "1:03:34",
+        "instance": "I think she was about seconds away from puttin' her phone up to her big ol' pussy.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "tags": "Lyle Cummings,Peppers McGilly,Big One",
+        "nb": ["Macon County, GA", "home county of: Peppers McGilly"],
+        "location_type": "poly",
+        "location_id": "524",
+        "updated_at": "2018-07-09T09:37:04Z",
+        "url_soundcloud": null,
+        "created_at": "2018-07-09T09:37:04Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "educainment-squad",
+        "episode_title": "Educainment Squad",
+        "episode_guests": "Horatio Sanz,Thomas Middleditch",
+        "id_wikia": null,
+        "holding": "false"
     }
-Island of La Croix ?
-    site of : The Chief, drinking sparkling water, during the release of 'Citizen Kane'
-    , {
-        "episode": 595
-        , "show": "cbb"
-        , "tstart": "38:00"
-        , "tend": "38:35"
-        , "instance": "So you're part of the Hearst empire?"
-        , "elucidation": "identifiable earth location"
-        , "bit": "Location"
-        , "tags": "The Chief,William Randolph Hearst,Citizen Kane (film)"
-        , "location_type": ""
-        , "location_id": ""
-        , "updated_at": "2019-04-01T09:37:04Z"
-        , "url_soundcloud": null
-        , "created_at": "2019-04-01T09:37:04Z"
-        , "slug_soundcloud": null
-        , "slug_earwolf": "mothers-olive-oil"
-        , "episode_title": "Mother's Olive Oil"
-        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
-        , "id_wikia": null
-        , "holding": "false"
-    }
-an air b & b in los felize
-site of: The Chief, just chillin '
-    , {
-        "episode": 595
-        , "show": "cbb"
-        , "tstart": "40:00"
-        , "tend": "40:30"
-        , "instance": "Are you still going to go on the hunt?"
-        , "elucidation": "identifiable earth location"
-        , "bit": "Location"
-        , "tags": "The Chief"
-        , "location_type": ""
-        , "location_id": ""
-        , "updated_at": "2019-04-01T09:37:04Z"
-        , "url_soundcloud": null
-        , "created_at": "2019-04-01T09:37:04Z"
-        , "slug_soundcloud": null
-        , "slug_earwolf": "mothers-olive-oil"
-        , "episode_title": "Mother's Olive Oil"
-        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
-        , "id_wikia": null
-        , "holding": "false"
-    }
-    , {
-        "episode": 595
-        , "show": "cbb"
-        , "tstart": "41:30"
-        , "tend": "41:40"
-        , "instance": "So you have tendinitis, you have to put your feet up."
-        , "elucidation": "identifiable earth location"
-        , "bit": "Location"
-        , "tags": "The Chief"
-        , "location_type": ""
-        , "location_id": ""
-        , "updated_at": "2019-04-01T09:37:04Z"
-        , "url_soundcloud": null
-        , "created_at": "2019-04-01T09:37:04Z"
-        , "slug_soundcloud": null
-        , "slug_earwolf": "mothers-olive-oil"
-        , "episode_title": "Mother's Olive Oil"
-        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
-        , "id_wikia": null
-        , "holding": "false"
-    }
-    , {
-        "episode": 595
-        , "show": "cbb"
-        , "tstart": "54:15"
-        , "tend": "54:45"
-        , "instance": "He puts the lotion on the hands."
-        , "elucidation": "identifiable earth location"
-        , "bit": "Location"
-        , "tags": "The Chief,Mother from the East Coast"
-        , "location_type": ""
-        , "location_id": ""
-        , "updated_at": "2019-04-01T09:37:04Z"
-        , "url_soundcloud": null
-        , "created_at": "2019-04-01T09:37:04Z"
-        , "slug_soundcloud": null
-        , "slug_earwolf": "mothers-olive-oil"
-        , "episode_title": "Mother's Olive Oil"
-        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
-        , "id_wikia": null
-        , "holding": "false"
-    }
-santa monica municipal airport
-site of: The Chief, dragging Carmen San Diego down the runway
-    , {
-        "episode": 595
-        , "show": "cbb"
-        , "tstart": "41:30"
-        , "tend": "42:30"
-        , "instance": "I'll grab her up; tie a rope around her waist; tie the other end to my private propeller plane."
-        , "elucidation": "identifiable earth location"
-        , "bit": "Location"
-        , "tags": "The Chief"
-        , "location_type": ""
-        , "location_id": ""
-        , "updated_at": "2019-04-01T09:37:04Z"
-        , "url_soundcloud": null
-        , "created_at": "2019-04-01T09:37:04Z"
-        , "slug_soundcloud": null
-        , "slug_earwolf": "mothers-olive-oil"
-        , "episode_title": "Mother's Olive Oil"
-        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
-        , "id_wikia": null
-        , "holding": "false"
-    }, {
-        "episode": 595
-        , "show": "cbb"
-        , "tstart": "54:45"
-        , "tend": "55:15"
-        , "instance": "I take it down the street to wash it."
-        , "elucidation": "identifiable earth location"
-        , "bit": "Location"
-        , "tags": "The Chief,Mother from the East Coast"
-        , "location_type": ""
-        , "location_id": ""
-        , "updated_at": "2019-04-01T09:37:04Z"
-        , "url_soundcloud": null
-        , "created_at": "2019-04-01T09:37:04Z"
-        , "slug_soundcloud": null
-        , "slug_earwolf": "mothers-olive-oil"
-        , "episode_title": "Mother's Olive Oil"
-        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
-        , "id_wikia": null
-        , "holding": "false"
-    }
-a st.louis mcdonalds
-site of: a set of golden arches stolen by carmen san diego
-    , {
-        "episode": 595
-        , "show": "cbb"
-        , "tstart": "48:00"
-        , "tend": "48:45"
-        , "instance": "She took the M right out of the city of St. Louis just as the Rams left to come back to Los Angeles."
-        , "elucidation": "identifiable earth location"
-        , "bit": "Location"
-        , "tags": "The Chief,Carmen San Diego"
-        , "location_type": ""
-        , "location_id": ""
-        , "updated_at": "2019-04-01T09:37:04Z"
-        , "url_soundcloud": null
-        , "created_at": "2019-04-01T09:37:04Z"
-        , "slug_soundcloud": null
-        , "slug_earwolf": "mothers-olive-oil"
-        , "episode_title": "Mother's Olive Oil"
-        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
-        , "id_wikia": null
-        , "holding": "false"
-    }
-rhode island
-home state of: a mother
-    , {
-        "episode": 595
-        , "show": "cbb"
-        , "tstart": "50:45"
-        , "tend": "51:15"
-        , "instance": "Whose mother are you?"
-        , "elucidation": "identifiable earth location"
-        , "bit": "Location"
-        , "tags": "The Chief,Carmen San Diego"
-        , "location_type": ""
-        , "location_id": ""
-        , "updated_at": "2019-04-01T09:37:04Z"
-        , "url_soundcloud": null
-        , "created_at": "2019-04-01T09:37:04Z"
-        , "slug_soundcloud": null
-        , "slug_earwolf": "mothers-olive-oil"
-        , "episode_title": "Mother's Olive Oil"
-        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
-        , "id_wikia": null
-        , "holding": "false"
-    }
-santa monica airport down palms blvd to a car wash
-route of: The Chief, washing his prop plane
-    , {
-        "episode": 595
-        , "show": "cbb"
-        , "tstart": "54:45"
-        , "tend": "55:15"
-        , "instance": "I take it down the street to wash it."
-        , "elucidation": "identifiable earth location"
-        , "bit": "Location"
-        , "tags": "The Chief,Mother from the East Coast"
-        , "location_type": ""
-        , "location_id": ""
-        , "updated_at": "2019-04-01T09:37:04Z"
-        , "url_soundcloud": null
-        , "created_at": "2019-04-01T09:37:04Z"
-        , "slug_soundcloud": null
-        , "slug_earwolf": "mothers-olive-oil"
-        , "episode_title": "Mother's Olive Oil"
-        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
-        , "id_wikia": null
-        , "holding": "false"
-    }
-providence, ri
-site of: The Chief once, eating three White Castle burgers
-    , {
-        "episode": 595
-        , "show": "cbb"
-        , "tstart": "55:00"
-        , "tend": "55:30"
-        , "instance": "Me? I've been to the Island of Rhode."
-        , "elucidation": "identifiable earth location"
-        , "bit": "Location"
-        , "tags": "The Chief,Mother from the East Coast"
-        , "location_type": ""
-        , "location_id": ""
-        , "updated_at": "2019-04-01T09:37:04Z"
-        , "url_soundcloud": null
-        , "created_at": "2019-04-01T09:37:04Z"
-        , "slug_soundcloud": null
-        , "slug_earwolf": "mothers-olive-oil"
-        , "episode_title": "Mother's Olive Oil"
-        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
-        , "id_wikia": null
-        , "holding": "false"
-    }
-heart of scranton, mo
-site of: The Chief 's office
-    , {
-        "episode": 595
-        , "show": "cbb"
-        , "tstart": "1:07:30"
-        , "tend": "1:08:15"
-        , "instance": "My office? I'm not at liberty to say."
-        , "elucidation": "identifiable earth location"
-        , "bit": "Location"
-        , "tags": "The Chief,Mother from the East Coast"
-        , "location_type": ""
-        , "location_id": ""
-        , "updated_at": "2019-04-01T09:37:04Z"
-        , "url_soundcloud": null
-        , "created_at": "2019-04-01T09:37:04Z"
-        , "slug_soundcloud": null
-        , "slug_earwolf": "mothers-olive-oil"
-        , "episode_title": "Mother's Olive Oil"
-        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
-        , "id_wikia": null
-        , "holding": "false"
-    }
-jay 's bar in los feliz
-site of: The Chief, reason unknown
-    , {
-        "episode": 595
-        , "show": "cbb"
-        , "tstart": "1:12:30"
-        , "tend": "1:13:45"
-        , "instance": "I have no time to bounce the baseball."
-        , "elucidation": "identifiable earth location"
-        , "bit": "Location"
-        , "tags": "The Chief"
-        , "location_type": ""
-        , "location_id": ""
-        , "updated_at": "2019-04-01T09:37:04Z"
-        , "url_soundcloud": null
-        , "created_at": "2019-04-01T09:37:04Z"
-        , "slug_soundcloud": null
-        , "slug_earwolf": "mothers-olive-oil"
-        , "episode_title": "Mother's Olive Oil"
-        , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
-        , "id_wikia": null
-        , "holding": "false"
-    }
-
-
-    The Beatles LOVE
-3400 S Las Vegas Blvd, Las Vegas, NV 89109
-36.120452, -115.174713
-{
-    "episode": 435,
-    "show": "cbb",
-    "tstart": "1:07:45",
-    "tend": "1:08:30",
-    "instance": "I got out of a 45-minute thing where I had fallen in love and solved a problem.",
-    "bit": "Location",
-    "elucidation": "identifiable earth location",
-    "tags": "Fugitive Matt Knight",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2019-04-15T15:17:56Z",
-    "url_soundcloud": null,
-    "created_at": "2019-04-15T15:17:56Z",
-    "slug_soundcloud": null,
-    "slug_earwolf": "jim-gaffigan-says-no",
-    "episode_title": "Jim Gaffigan Says No",
-    "episode_guests": "Jim Gaffigan,Eugene Cordero,Will Hines",
-    "id_wikia": null,
-    "holding": "false"
-}
-
-
-USA
-country that: prohibits entry to Fugitive Matt Knight
-{
-     "episode": 435,
-    "show": "cbb",
-    "tstart": "1:10:20",
-    "tend": "1:10:33",
-    "instance": "I'm on the lam right now in four countries.",
-    "bit": "Location",
-    "elucidation": "identifiable earth location",
-    "tags": "Fugitive Matt Knight",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2018-01-16T15:17:56Z",
-    "url_soundcloud": null,
-    "created_at": "2018-01-16T15:17:56Z",
-    "slug_soundcloud": null,
-    "slug_earwolf": "jim-gaffigan-says-no",
-    "episode_title": "Jim Gaffigan Says No",
-    "episode_guests": "Jim Gaffigan,Eugene Cordero,Will Hines",
-    "id_wikia": null,
-    "holding": "false"
-}
+]

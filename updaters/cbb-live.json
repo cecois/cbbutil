@@ -520,5 +520,609 @@
         , "episode_guests": "Demi Adejuyigbe, Carl Tart, Alyssa Limperis"
         , "id_wikia": null
         , "holding": "false"
+    }, {
+        "episode": 596
+        , "show": "cbb"
+        , "tstart": "4:00"
+        , "tend": "4:15"
+        , "instance": "I hate when those objects lie to me."
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "When Doves Cry (song),Prince"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-08T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-08T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mr-met-legitimate-witch"
+        , "episode_title": "Mr. Met and the Legitimate Witch"
+        , "episode_guests": "Paul F. Tompkins,Griffin Newman,Alison Rich"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 596
+        , "show": "cbb"
+        , "tstart": "10:50"
+        , "tend": "11:15"
+        , "instance": "Once again - the season that premiered over a year ago."
+        , "elucidation": "scott directs someone's story"
+        , "bit": "Smash Cut"
+        , "tags": ""
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-08T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-08T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mr-met-legitimate-witch"
+        , "episode_title": "Mr. Met and the Legitimate Witch"
+        , "episode_guests": "Paul F. Tompkins,Griffin Newman,Alison Rich"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 596
+        , "show": "cbb"
+        , "tstart": "13:25"
+        , "tend": "13:40"
+        , "instance": "There was a man named Richard Pryor in that film."
+        , "elucidation": "the titular 'titular'"
+        , "bit": "Titular"
+        , "tags": "Richard Pryor,The Whiz (film)"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-08T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-08T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mr-met-legitimate-witch"
+        , "episode_title": "Mr. Met and the Legitimate Witch"
+        , "episode_guests": "Paul F. Tompkins,Griffin Newman,Alison Rich"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 596
+        , "show": "cbb"
+        , "tstart": "21:00"
+        , "tend": "22:00"
+        , "instance": "He is a round-headed mascot of a Major League Baseball franchise."
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Mr. Met,Take Me Out to the Ball Game (song),Jack Norworth,Albert Von Tilzer"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-08T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-08T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mr-met-legitimate-witch"
+        , "episode_title": "Mr. Met and the Legitimate Witch"
+        , "episode_guests": "Paul F. Tompkins,Griffin Newman,Alison Rich"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 596
+        , "show": "cbb"
+        , "tstart": "35:50"
+        , "tend": "36:15"
+        , "instance": "I smell a lot of things!"
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Mr. Met,Take Me Out to the Ball Game (song),Jack Norworth,Albert Von Tilzer"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-08T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-08T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mr-met-legitimate-witch"
+        , "episode_title": "Mr. Met and the Legitimate Witch"
+        , "episode_guests": "Paul F. Tompkins,Griffin Newman,Alison Rich"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 596
+        , "show": "cbb"
+        , "tstart": "21:00"
+        , "tend": "22:00"
+        , "instance": "Mr. Metropolitan"
+        , "elucidation": "scott articulates obvious data (acronyms, abbreviations, etc.)"
+        , "bit": "Group Coupon"
+        , "tags": "Mr. Met"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-08T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-08T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mr-met-legitimate-witch"
+        , "episode_title": "Mr. Met and the Legitimate Witch"
+        , "episode_guests": "Paul F. Tompkins,Griffin Newman,Alison Rich"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 596
+        , "show": "cbb"
+        , "tstart": "25:20"
+        , "tend": "25:45"
+        , "instance": "You don't know sports, you don't know math - what do you know?"
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Mr. Met,Goody Two Shoes (song),Adam Ant"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-08T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-08T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mr-met-legitimate-witch"
+        , "episode_title": "Mr. Met and the Legitimate Witch"
+        , "episode_guests": "Paul F. Tompkins,Griffin Newman,Alison Rich"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 596
+        , "show": "cbb"
+        , "tstart": "34:30"
+        , "tend": "34:55"
+        , "instance": "This is your natural speaking voice."
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Mr. Met,When Doves Cry (song),Prince"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-08T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-08T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mr-met-legitimate-witch"
+        , "episode_title": "Mr. Met and the Legitimate Witch"
+        , "episode_guests": "Paul F. Tompkins,Griffin Newman,Alison Rich"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 596
+        , "show": "cbb"
+        , "tstart": "51:30"
+        , "tend": "52:15"
+        , "instance": "You should see the Witch Olympics."
+        , "elucidation": "scott does math"
+        , "bit": "Sounds Like Four"
+        , "tags": "Mr. Met,Mathilda Primble"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-08T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-08T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mr-met-legitimate-witch"
+        , "episode_title": "Mr. Met and the Legitimate Witch"
+        , "episode_guests": "Paul F. Tompkins,Griffin Newman,Alison Rich"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 596
+        , "show": "cbb"
+        , "tstart": "56:45"
+        , "tend": "57:00"
+        , "instance": "So you're not the Lady GaGa special...?"
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Mr. Met,Mathilda Primble,Lady Gaga,Jeppe Laursen,Born This Way (song)"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-08T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-08T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mr-met-legitimate-witch"
+        , "episode_title": "Mr. Met and the Legitimate Witch"
+        , "episode_guests": "Paul F. Tompkins,Griffin Newman,Alison Rich"
+        , "id_wikia": null
+        , "holding": "false"
+    }
+    , {
+        "episode": 596
+        , "show": "cbb"
+        , "tstart": "1:08:15"
+        , "tend": "1:08:40"
+        , "instance": "Some would say that's a good thing."
+        , "elucidation": "scott articulates obvious data (acronyms, abbreviations, etc.)"
+        , "bit": "Group Coupon"
+        , "tags": "Mr. Met,Mathilda Primble"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-08T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-08T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mr-met-legitimate-witch"
+        , "episode_title": "Mr. Met and the Legitimate Witch"
+        , "episode_guests": "Paul F. Tompkins,Griffin Newman,Alison Rich"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 596
+        , "show": "cbb"
+        , "tstart": "1:21:30"
+        , "tend": "1:22:15"
+        , "instance": "It's been around for a hundred years or so?"
+        , "elucidation": "not it's been"
+        , "bit": "It's Been a While"
+        , "tags": "Mr. Met"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-08T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-08T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "mr-met-legitimate-witch"
+        , "episode_title": "Mr. Met and the Legitimate Witch"
+        , "episode_guests": "Paul F. Tompkins,Griffin Newman,Alison Rich"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 597
+        , "show": "cbb"
+        , "tstart": "56:10"
+        , "tend": "56:45"
+        , "instance": "You gave [Pitbull] stock tips?"
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Gregory Smith,Pitbull,Give Me Everything (song)"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-16T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-16T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "simpson-and-smith-selling-stories"
+        , "episode_title": "Simpson and Smith: Selling Stories"
+        , "episode_guests": "Baron Vaughn,Zac Oyama,Ify Nwadiwe"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 597
+        , "show": "cbb"
+        , "tstart": "56:45"
+        , "tend": "57:00"
+        , "instance": "Not a lot of people take my advice."
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Gregory Smith,Hey Ya! (song),Outkast (musical combination)"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-16T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-16T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "simpson-and-smith-selling-stories"
+        , "episode_title": "Simpson and Smith: Selling Stories"
+        , "episode_guests": "Baron Vaughn,Zac Oyama,Ify Nwadiwe"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 597
+        , "show": "cbb"
+        , "tstart": "58:30"
+        , "tend": "59:00"
+        , "instance": "I'm talking about a 1999 Mercedes Benz C-class."
+        , "elucidation": "someone nails their guess"
+        , "bit": "Got it in One"
+        , "tags": "Gregory Smith,Larry Bird"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-16T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-16T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "simpson-and-smith-selling-stories"
+        , "episode_title": "Simpson and Smith: Selling Stories"
+        , "episode_guests": "Baron Vaughn,Zac Oyama,Ify Nwadiwe"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 597
+        , "show": "cbb"
+        , "tstart": "1:15:20"
+        , "tend": "1:15:55"
+        , "instance": "I won't tell you *how* much time - because there is some time."
+        , "elucidation": "the wyr floor closes abruptly"
+        , "bit": "The Floor Closes"
+        , "tags": "Denny Simpson"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-16T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-16T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "simpson-and-smith-selling-stories"
+        , "episode_title": "Simpson and Smith: Selling Stories"
+        , "episode_guests": "Baron Vaughn,Zac Oyama,Ify Nwadiwe"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 598
+        , "show": "cbb"
+        , "tstart": "13:15"
+        , "tend": "13:30"
+        , "instance": "Why don't you just do 40 episodes a year of that?"
+        , "elucidation": "scott and pft seem preoccupied with eccentric millionaires"
+        , "bit": "Eccentric Millionaires"
+        , "tags": ""
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-22T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-22T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "secret-shopping-with-motley-crue"
+        , "episode_title": "Secret Shopping with Mötley Crüe"
+        , "episode_guests": "Tim Robinson,Ryan Rosenberg,Natalie Palamides,Courtney Pauroso"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 598
+        , "show": "cbb"
+        , "tstart": "14:00"
+        , "tend": "14:30"
+        , "instance": "I don't know if he retired to be with his baby."
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Michigan J. Frog,Hello! Ma Baby (song),Howard and Emerson"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-22T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-22T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "secret-shopping-with-motley-crue"
+        , "episode_title": "Secret Shopping with Mötley Crüe"
+        , "episode_guests": "Tim Robinson,Ryan Rosenberg,Natalie Palamides,Courtney Pauroso"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 598
+        , "show": "cbb"
+        , "tstart": "44:30"
+        , "tend": "44:45"
+        , "instance": "But sometimes accidents are the greatest things that can ever happen."
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Elvis Costello,Accidents Will Happen (song)"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-22T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-22T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "secret-shopping-with-motley-crue"
+        , "episode_title": "Secret Shopping with Mötley Crüe"
+        , "episode_guests": "Tim Robinson,Ryan Rosenberg,Natalie Palamides,Courtney Pauroso"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 598
+        , "show": "cbb"
+        , "tstart": "55:25"
+        , "tend": "57:00"
+        , "instance": "Hey Scott - how about you shut the fuck up?"
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Take Me Home Country Roads (song),Bill Danoff,Taffy Nivert,John Denver,Nikki Sixx,Nikki Seven"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-22T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-22T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "secret-shopping-with-motley-crue"
+        , "episode_title": "Secret Shopping with Mötley Crüe"
+        , "episode_guests": "Tim Robinson,Ryan Rosenberg,Natalie Palamides,Courtney Pauroso"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 598
+        , "show": "cbb"
+        , "tstart": "1:00:55"
+        , "tend": "1:02:00"
+        , "instance": "Really shaky on those chord changes."
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Nikki Sixx,Nikki Seven,Shallow (song),Lady Ga Ga,Andrew Wyatt,Anthony Rossomando,Bradley Cooper,Mark Ronson"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-22T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-22T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "secret-shopping-with-motley-crue"
+        , "episode_title": "Secret Shopping with Mötley Crüe"
+        , "episode_guests": "Tim Robinson,Ryan Rosenberg,Natalie Palamides,Courtney Pauroso"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 598
+        , "show": "cbb"
+        , "tstart": "1:02:00"
+        , "tend": "1:02:30"
+        , "instance": "You're swaying like a willow tree out there on the windiest day of the year."
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Michael Jackson,Smooth Criminal (song)"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-22T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-22T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "secret-shopping-with-motley-crue"
+        , "episode_title": "Secret Shopping with Mötley Crüe"
+        , "episode_guests": "Tim Robinson,Ryan Rosenberg,Natalie Palamides,Courtney Pauroso"
+        , "id_wikia": null
+        , "holding": "false"
+    }
+    , {
+        "episode": 598
+        , "show": "cbb"
+        , "tstart": "40:15"
+        , "tend": "40:35"
+        , "instance": "That's not how the show works - people just come in."
+        , "elucidation": "cbb's open door policy is cited or blamed"
+        , "bit": "Open Door Policy"
+        , "tags": "The Super Secret Shopper"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-22T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-22T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "secret-shopping-with-motley-crue"
+        , "episode_title": "Secret Shopping with Mötley Crüe"
+        , "episode_guests": "Tim Robinson,Ryan Rosenberg,Natalie Palamides,Courtney Pauroso"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 598
+        , "show": "cbb"
+        , "tstart": "56:50"
+        , "tend": "57:15"
+        , "instance": "Hey, Secret Shopper, why don't you tell the listeners what's happening righ now."
+        , "elucidation": "a character is referred to by the name/pronoun of their player"
+        , "bit": "Who's Paul?"
+        , "tags": "The Super Secret Shopper,Nikki Sixx"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-22T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-22T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "secret-shopping-with-motley-crue"
+        , "episode_title": "Secret Shopping with Mötley Crüe"
+        , "episode_guests": "Tim Robinson,Ryan Rosenberg,Natalie Palamides,Courtney Pauroso"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 598
+        , "show": "cbb"
+        , "tstart": "59:00"
+        , "tend": "59:30"
+        , "instance": "Okay, so now we're not original?"
+        , "elucidation": "despite everybody's best efforts, a private conversation is overheard"
+        , "bit": "Every Word You Are Saying"
+        , "tags": "Nikki Sixx,Nikki Seven"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-22T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-22T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "secret-shopping-with-motley-crue"
+        , "episode_title": "Secret Shopping with Mötley Crüe"
+        , "episode_guests": "Tim Robinson,Ryan Rosenberg,Natalie Palamides,Courtney Pauroso"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 598
+        , "show": "cbb"
+        , "tstart": "1:10:20"
+        , "tend": "1:11:00"
+        , "instance": "I would do the animal thing."
+        , "elucidation": "one of several potential wyr blunders"
+        , "bit": "Classic WYR Blunder: Voting Early"
+        , "tags": "Nikki Sixx,Nikki Seven"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-22T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-22T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "secret-shopping-with-motley-crue"
+        , "episode_title": "Secret Shopping with Mötley Crüe"
+        , "episode_guests": "Tim Robinson,Ryan Rosenberg,Natalie Palamides,Courtney Pauroso"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 598
+        , "show": "cbb"
+        , "tstart": "1:11:00"
+        , "tend": "1:13:00"
+        , "instance": "Hey, you don't have to take the hit for this one, man."
+        , "elucidation": "one of several potential wyr blunders"
+        , "bit": "Classic WYR Blunder: The Floor is Closed"
+        , "tags": "Nikki Sixx,Nikki Seven"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-22T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-22T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "secret-shopping-with-motley-crue"
+        , "episode_title": "Secret Shopping with Mötley Crüe"
+        , "episode_guests": "Tim Robinson,Ryan Rosenberg,Natalie Palamides,Courtney Pauroso"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 598
+        , "show": "cbb"
+        , "tstart": "1:13:30"
+        , "tend": "1:14:15"
+        , "instance": "That was punk as hell."
+        , "elucidation": "one of several potential wyr blunders"
+        , "bit": "Classic WYR Blunder: The Floor is Closed"
+        , "tags": "Nikki Sixx,Nikki Seven"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-04-22T09:37:04Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-04-22T09:37:04Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "secret-shopping-with-motley-crue"
+        , "episode_title": "Secret Shopping with Mötley Crüe"
+        , "episode_guests": "Tim Robinson,Ryan Rosenberg,Natalie Palamides,Courtney Pauroso"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 533
+        , "show": "cbb"
+        , "tstart": "28:42"
+        , "tend": "29:30"
+        , "instance": "If I see some five year old girl walking like she's got debt..."
+        , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Debbie Creepy"
+        , "nb": ["DMV (city?)", "site of: Debbie Creepy actively depressing young girls"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2018-02-26T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2018-02-26T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "is-that-chocolate-or-what"
+        , "episode_title": "Is That Chocolate, Or What?"
+        , "episode_guests": "Weird Al Yankovic,Mary Holland,Mano Agapion"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 533
+        , "show": "cbb"
+        , "tstart": "46:45"
+        , "tend": "47:30"
+        , "instance": "Ok so this is not actual animal fur."
+        , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Debbie Creepy,Jergen Tavikya"
+        , "nb": ["closed-down fao schwartx", "source of: Jergen Tavikya's body hair"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2018-02-26T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2018-02-26T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "is-that-chocolate-or-what"
+        , "episode_title": "Is That Chocolate, Or What?"
+        , "episode_guests": "Weird Al Yankovic,Mary Holland,Mano Agapion"
+        , "id_wikia": null
+        , "holding": "false"
     }
 ]
