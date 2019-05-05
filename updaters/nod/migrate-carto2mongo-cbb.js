@@ -54,7 +54,7 @@ var incoming_curl_line = async () =>{
 	return new Promise(function(resolve, reject) {
 		var r = {}
 
-		var ln = '/Users/ccmiller/Downloads/cbb-line-curl-sql.json'
+		var ln = '/Users/ccmiller/Downloads/cbb-point-curl-sql.json'
 
 		FS.readFile(ln,async (e,d)=>{
 			if(e){console.log("readfile err");
