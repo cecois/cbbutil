@@ -50,14 +50,11 @@ var incoming = async (ln) =>{
 	});
 }
 
-var incoming_curl_poly = async () =>{
+var incoming_curl_line = async () =>{
 	return new Promise(function(resolve, reject) {
 		var r = {}
 
-// e.g. from ...
-// curl "https://pugo.cartodb.com/api/v1/sql?q=select%20cartodb_id,name,confidence,anno,created_at,scnotes,updated_at,ST_AsGeoJSON(the_geom)%20as%20the_geom%20from%20cbb_poly%20ORDER%20BY%20cartodb_id%20desc%20LIMIT%201;" -o ~/Downloads/cbb-poly-curl-sql.json;
-
-		var ln = '/Users/ccmiller/Downloads/cbb-poly-curl-sql.json'
+		var ln = '/Users/ccmiller/Downloads/cbb-line-curl-sql.json'
 
 		FS.readFile(ln,async (e,d)=>{
 			if(e){console.log("readfile err");
@@ -77,25 +74,11 @@ var incoming_curl_poly = async () =>{
 			}
 			var fea = __.map(DJ.rows,(h)=>{
 				
-				//     {
-    //   "type": "Feature",
-    //   "geometry": {
-    //     "type": "Point",
-    //     "coordinates": [
-    //       -119.043217,
-    //       34.161676
-    //     ]
-    //   },
-    //   "properties": {
-    //     "name": "California State University Channel Islands",
-    //     "anno": "home of: metriculating Chili Pepps",
-    //     "confidence": "high",
-    //     "cartodb_id": 295,
-    //     "created_at": "2015-04-03T10:51:29Z",
-    //     "updated_at": "2015-04-03T10:52:05Z",
-    //     "scnotes": null
-    //   }
-    // }
+// console.log("h.name:::",h.name);
+// console.log("h.the_geom:::",h.the_geom);
+// console.log("h.name:::",(typeof h.name));
+// console.log("h.the_geom:::",(typeof JSON.parse(h.the_geom)));
+
     var g = {
     	"type":"Feature",
     	"geometry": JSON.parse(h.the_geom),
@@ -123,6 +106,80 @@ var incoming_curl_poly = async () =>{
 		})//readfile
 
 	});
+}
+var incoming_curl_poly = async () =>{
+    return new Promise(function(resolve, reject) {
+        var r = {}
+
+// e.g. from ...
+// curl "https://pugo.cartodb.com/api/v1/sql?q=select%20cartodb_id,name,confidence,anno,created_at,scnotes,updated_at,ST_AsGeoJSON(the_geom)%20as%20the_geom%20from%20cbb_poly%20ORDER%20BY%20cartodb_id%20desc%20LIMIT%201;" -o ~/Downloads/cbb-poly-curl-sql.json;
+
+        var ln = '/Users/ccmiller/Downloads/cbb-poly-curl-sql.json'
+
+        FS.readFile(ln,async (e,d)=>{
+            if(e){console.log("readfile err");
+            r.flag='stop'
+            r.msg='read of json failed'
+            reject(e)
+        }
+        else
+        {
+            var DJ = JSON.parse(d)
+
+            var msg = "incoming rows length:"+DJ.rows.length
+
+            var asgj = {
+                "type": "FeatureCollection",
+                "features": []
+            }
+            var fea = __.map(DJ.rows,(h)=>{
+                
+                //     {
+    //   "type": "Feature",
+    //   "geometry": {
+    //     "type": "Point",
+    //     "coordinates": [
+    //       -119.043217,
+    //       34.161676
+    //     ]
+    //   },
+    //   "properties": {
+    //     "name": "California State University Channel Islands",
+    //     "anno": "home of: metriculating Chili Pepps",
+    //     "confidence": "high",
+    //     "cartodb_id": 295,
+    //     "created_at": "2015-04-03T10:51:29Z",
+    //     "updated_at": "2015-04-03T10:52:05Z",
+    //     "scnotes": null
+    //   }
+    // }
+    var g = {
+        "type":"Feature",
+        "geometry": h.the_geom,
+        properties: {
+            "name": h.name,
+            "anno": h.anno,
+            "confidence": h.confidence,
+            "cartodb_id": h.cartodb_id,
+            "created_at": h.created_at,
+            "updated_at": h.updated_at,
+            "scnotes": h.scnotes
+        }
+                }; //g
+
+                return g
+            })
+            msg+="...after map, fea.length"+fea.length
+            asgj.features=fea;
+            r.flag=null
+            r.msg = msg
+            r.payload = asgj.features
+            resolve(r)
+        }
+
+        })//readfile
+
+    });
 }
 
 var send = async (cartos) =>{
@@ -189,9 +246,10 @@ var main = async () =>{
 
 // curl "https://pugo.cartodb.com/api/v1/sql?q=select%20cartodb_id,name,confidence,anno,created_at,scnotes,updated_at,ST_AsGeoJSON(the_geom)%20as%20the_geom%20from%20cbb_poly%20ORDER%20BY%20cartodb_id%20desc%20LIMIT%201;" -o ~/Downloads/cbb-poly-curl-sql.json;
 		// var incapoly = await incoming_curl_poly();
-        const manpoly = await FS.readFileSync('/Users/ccmiller/git/napi-fix/carto/geom/cbb_line/cbb-poly-carto-export-shp.geojson');
-		// console.log(JSON.parse(manpoly))
-		const sent = await send(JSON.parse(manpoly).features)
+        var incaline = await incoming_curl_line();
+        // const manpoly = await FS.readFileSync('/Users/ccmiller/git/napi-fix/carto/geom/cbb_line/cbb-poly-carto-export-shp.geojson');
+		// console.log(incaline.payload)
+		const sent = await send(incaline.payload)
 		console.log(sent)
 
 

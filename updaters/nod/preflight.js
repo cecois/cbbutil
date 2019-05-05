@@ -458,7 +458,7 @@ var main = async () =>{
 			throw("typo prolly");
 			process.exit();
 		} else {
-
+console.log("WANNA BACK UP DEM GEOMS, CHUMP? ./Users/ccmiller/Documents/cbb-bu-geoms.sh ")
 /* -----------------------------------------------
 // read in incoming bits from $ln file
 // msg notes length, payload is actual bits

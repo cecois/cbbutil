@@ -1,0 +1,84 @@
+-   1(mistake),1:40,Under Pressure - Queen
+-   1(mistake),11:15,Under Pressure - Queen
+-   1(mistake),18:50,Vertigo - U2
+-   1(mistake),19:40,We're Off to See the Wizard - Wizard of Oz sndtrk
+-   1(mistake),21:00,Under Pressure - Queen
+-   1(mistake),31:30,Put em on the glass - sir mix-a-lot
+-   1(mistake),34:00,Jack and Diane - John Mellencamp
+-   1(mistake),58:40,Jack and Diane - John Mellencamp
+-   1(mistake),58:40,Jack and Diane - John Mellencamp
+-   1(mistake),1:00:20,Jitterbug - Wham
+-   1(mistake),1:02:00,Jack and Diane - John Mellencamp
+-   1(mistake),23:00,December, 1963 (Oh, What a Night) - The Four Seasons
+-   2(chalktalk),35:30,Oom pa pa - Oliver sndtrk
+-   2(chalktalk),36:30,in the air tonight - phil collins
+-   2(chalktalk),36:50,stay awake - mary poppins sndtrk
+-   2(chalktalk),37:30,i love l.a. - randy newman
+-   2(chalktalk),41:30,saturday in the park - chicago
+-   3(Bauer),7:00,you make me feel so young - ~sinatra
+-   3(Bauer),9:15,some like it hot - the power station
+-   3(Bauer),11:45,jitterbug - wham
+-   3(Bauer),14:00,everybody hurts - rem
+-   3(Bauer),22:00,help me - Joni Mitchell
+-   3(Bauer),22:15,Kokomo - beach boys
+-   3(Bauer),22:20,take a break - Hamilton
+-   3(Bauer),22:20,taking it to the streets - Chicago?
+-   3(Bauer),22:30,kit kat jingle
+-   3(Bauer),56:15,I wish - skeelo
+-   4(slouchy),0:15,entourage theme song
+-   4(slouchy),12:00,under pressure - queen
+-   4(slouchy),13:00,yamo be there - Michael McDonald
+-   4(slouchy),20:40,officer krupke - west side story
+-   4(slouchy),22:20,i'm gonna wash that man - south pacific
+-   4(slouchy),29:30,heard it through the grapevine - marvin gaye
+-   4(slouchy),37:30,little lies - fleetwood mac
+-   4(slouchy),47:00,getting to know you - julie andrews
+-   4(slouchy),53:30,another one bites the dust - queen
+-   5(eyedol),9:00,if i could turn back time - cher
+-   5(eyedol),9:00,do you believe - cher
+-   5(eyedol),12:30,achey breaky heart - b.r. cyrus
+-   5(eyedol),19:30,welcome back - john sebastian
+-   5(eyedol),19:30,And I Am Telling You I'm Not Going - dreamgirls
+-   5(eyedol),25:30,if i could turn back time - cher
+
+-   16(baby),2:00,people are strange - doors
+-   16(baby),29:30,rock me amadeus - falco
+-   16(baby),31:00,heartlight - neil diamond
+-   16(baby),40:00,willie and the hand jive - johnny otis
+-   16(baby),51:20,rock me amadeus - falco
+-   16(baby),53:00,pieces of me - ashley simpson
+-   16(baby),53:00,me so horny - 2livecrew
+-   16(baby),54:00,boom there she was - scriti politi
+-   16(baby),55:00,girl talk - tony bennett
+-   16(baby),55:45,rock me amadeus - falco
+-   16(baby),55:55,the stroke - billy squire
+-   16(baby),57:00,town called malice - the jam
+
+-   6(dilly),3:45,the fabric of our lives - aaron neville vers.
+-   6(dilly),15:30,lavendar's blue (dilly dilly) - trad.
+-   6(dilly),17:50,come on be my baby tonight - real world david
+-   6(dilly),21:30,welcome back - john sebastian
+-   6(dilly),24:50,tell it to my heart - taylor dayne
+-   6(dilly),29:15,Under Pressure - Queen
+-   6(dilly),31:00,sixteen going on seventeen - sound of music
+-   6(dilly),32:00,kyle quit the band - tenacious d
+-   6(dilly),45:45,can't stop the feeling - (timberlake?)
+-   6(dilly),45:45,under pressure - queen
+-   6(dilly),51:00,waltz in a - snl band
+-   7(plural),1:45,it's been awhile - staind
+-   7(plural),1:45,that would be enough - hamilton
+-   7(plural),5:25,that would be enough - hamilton
+-   7(plural),12:45,All My Rowdy Friends Are Coming Over Tonight - hank williams jr.
+-   7(plural),17:00,Last Christmas - Wham!
+-   7(plural),23:00,Lady Marmalade (orig)
+-   7(plural),23:00,Lady Marmalade (remake)
+-   7(plural),33:45,voulez-vous - Abba
+-   7(plural),25:00,springsteen - Eric church
+-   7(plural),26:00,take me to church - Hozier
+-   7(plural),30:00,didn't have to - Brad Paisley
+-   7(plural),32:00,murdered in the city - Avetts
+-   7(plural),35:00,welcome back - Sebastian
+-   7(plural),35:00,something w \_\_\_ back lyrics - Chicago?
+-   7(plural),37:30,shutters on the beach - ??
+-   7(plural),38:30,zombie - cranberries
+-   8(out),2:15,girls on film - duran duran
