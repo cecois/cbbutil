@@ -70,9 +70,9 @@
 -   7(plural),5:25,that would be enough - hamilton
 -   7(plural),12:45,All My Rowdy Friends Are Coming Over Tonight - hank williams jr.
 -   7(plural),17:00,Last Christmas - Wham!
+-   7(plural),33:45,voulez-vous - Abba
 -   7(plural),23:00,Lady Marmalade (orig)
 -   7(plural),23:00,Lady Marmalade (remake)
--   7(plural),33:45,voulez-vous - Abba
 -   7(plural),25:00,springsteen - Eric church
 -   7(plural),26:00,take me to church - Hozier
 -   7(plural),30:00,didn't have to - Brad Paisley
@@ -82,3 +82,124 @@
 -   7(plural),37:30,shutters on the beach - ??
 -   7(plural),38:30,zombie - cranberries
 -   8(out),2:15,girls on film - duran duran
+-   8(out),9:00,good times closing theme - ??
+-   8(out),9:00,in the ghetto - elvis
+-   8(out),20:30,the things we do for love - 10cc
+-   8(out),23:00,kyle quit the band - tenacious d
+-   8(out),29:00,good times theme song
+-   8(out),29:30,gonna make you sweat - c+c music factory
+-   8(out),29:45,freedom! - george michael
+-   8(out),30:00,philadelphia freedom - elton john
+-   8(out),34:00,get off - prince
+-   8(out),34:00,love sign - prince
+-   8(out),34:30,what's going on - marvin gaye
+-   8(out),36:30,40 - U2
+-   8(out),37:00,go down moses - trad.
+-   8(out),37:00,old man river - showboat
+-   8(out),40:00,bullet the blue sky - u2
+-   8(out),42:00,both sides now - joni mitchell
+-   8(out),43:45,mirror in the bathroom - the beat
+-   9(christmas),0:15,push it - salt+Pepa
+-   9(christmas),3:15,hitops - hitops sndtk
+-   9(christmas),7:45,baby got back - sir mix
+-   9(christmas),32:30,shaft - isaac hayes
+-   9(christmas),42:00,9 to 5 - dolly
+-   9(christmas),47:00,your time is gonna come - zeppelin
+-   9(christmas),54:00,wasn't me - shaggy
+-   10(toothless),1:00,thong song - sisqo
+-   10(toothless),21:00,blind - train (?)
+-   10(toothless),21300jack & dian - mellencamp
+-   10(toothless),21300jack & dian - mellencamp
+-   10(toothless),28:30,one more night - phil collins
+-   10(toothless),38:30,i want a new drug - huey l & tn
+-   10(toothless),49:30,end of the road - b2men
+-   10(toothless),50:45,hey jealousy - gin blossoms
+-   11(google),0:30,losing my religion - rem
+-   11(google),1:00,jack & diane - mellencamp
+-   11(google),17:00,tom's diner - suzanne vega
+-   11(google),19:45,Eight Is Enough - Lee Holdridge
+-   11(google),20:00,just the two of us - bill whithers
+-   11(google),26:45:The Ballad of Gilligan's Isle - Sherwood Schwartz and George Wyle
+-   11(google),38:00,ghostbusters - ray parker
+-   11(google),43:15,dirty work - steely dan
+-   11(google),43:15,reelin in the years - steely dan
+-   11(google),43:15,peg - steely dan
+-   11(google),43:15,hey nineteen - steely dan
+-   11(google),43:15,barrytown - steely dan
+-   11(google),51:45,come together - beatles
+-   11(google),51:45,hey jude - beatles
+-   11(google),51:45,And I Am Telling You I'm Not Going - dreamgirls
+-   11(google),51:45,tom's diner - suzanne vega
+-   11(google),51:45,flintstones theme song
+-   11(google),51:45,little red corvette - prince &thr
+-   11(google),51:45,i will always love you - dolly
+-   11(google),51:45,i wish - stevie wonder
+-   11(google),51:45,let's go crazy - prince &thr
+-   11(google),51:45,five years - bowie
+-   11(google),51:45,i don't wanna wait - paula cole
+-   11(google),51:45,jack & diane - mellencamp
+-   11(google),51:45,you'll be back - hamilton
+-   11(google),51:45,i love it - icona pop
+-   11(google),51:45,levon - elton john
+-   11(google),1:02:00,i'm still standing - elton john
+-   11(google),1:02:00,america the beautiful
+-   12(phoneboof),0:20,blind - train (?)
+-   12(phoneboof),2:30,jack & dian - mellencamp
+-   12(phoneboof),4:00,longest time - billy joel
+-   12(phoneboof),4:00,suddenly - billy ocean
+-   12(phoneboof),4:00,suddenly i see - kt tunstall
+-   12(phoneboof),4:00,get down tonight - kc & the sunshine band
+-   12(phoneboof),9:00,longest time - billy joel
+-   12(phoneboof),21:00,addams family theme song
+-   12(phoneboof),25:00,sixteen going on seventeen - sound of music
+-   12(phoneboof),25:00,summer of 69 - bryan adams
+-   12(phoneboof),26:15,welcome back - john sebastian
+-   12(phoneboof),26:15,fat albert theme song - Ricky Sheldon
+-   12(phoneboof),26:15,white shadow theme song - (mike post?)
+-   12(phoneboof),26:15,national anthem - f.s. key
+-   12(phoneboof),26:15,wonder woman theme song
+-   12(phoneboof),31:30,Under Pressure - Queen
+-   12(phoneboof),32:30,just the two of us - bill whithers
+-   12(phoneboof),36:00,le freak - chic
+-   12(phoneboof),36:00,insane in the brain - cypress hill
+-   12(phoneboof),44:30,stars are blind - paris hilton
+-   12(phoneboof),54:00,it takes two - rob base
+-   12(phoneboof),58:45,crosseyed and painless - talking heads
+-   12(phoneboof),58:45,i like it like that - pete rodriguez
+-   13(brocus),1:30,nobody speak - run the jewels
+-   13(brocus),19:45,sussudio
+-   13(brocus),34:00,Jack and Diane
+-   13(brocus),51:00,new drug
+-   13(brocus),51:00,Ghostbusters
+-   13(brocus),51:00,all night long
+-   13(brocus),52:30,wanna be starting something
+-   13(brocus),53:00,downeaster Alexa
+-   13(brocus),53:00,uncle.cracker song?
+-   13(brocus),55:30,oh tanenbaum
+-   13(brocus),56:00,Pacman fever
+-   13(brocus),56:00,curly shuffle
+-   13(brocus),57:00,kit kat bar jingle
+-   13(brocus),57:00,keys on van neyes
+-   13(brocus),57:00,menards jingle
+-   13(brocus),57:00,call for action green 175312
+-   13(brocus),57:00,go see cal jingle
+-   13(brocus),57:00,fabric of our lives
+-   13(brocus),57:00,every kiss begins with kaye
+-   13(brocus),57:00,18882300-empire
+-   13(brocus),57:00,i feel like chicken tonight
+-   13(brocus),57:00,i'm lovin it
+-   13(brocus),57:00,if you've got a passion for fashion and you've got a craving for savings
+-   13(brocus),57:00,folgers jingle
+-   13(brocus),57:00,wayfair jingle
+-   13(brocus),1:00:45,meet me in the middle
+-   13(brocus),1:05:30,what about us - pink
+-   13(brocus),1:05:30,pink - janelle monae
+-   13(brocus),1:05:30,pink - aerosmith
+-   13(brocus),1:05:30,jack and diane - mellencamp
+-   14(bat),5:15,night time is the right time - nappy brown
+-   14(bat),6:30,like a rock - bob seger
+-   14(bat),16:30,hang me out to dry - cold war kids
+-   14(bat),19:00,your body is a wonderland - john mayer
+-   14(bat),38:30,this is halloween - nightmare sndtrk
+-   14(bat),45:45,i don't care - icona pop
+-   14(bat),46:30,chili's baby back ribs jingle
