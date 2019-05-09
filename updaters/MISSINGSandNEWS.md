@@ -19,6 +19,10 @@
 16. subepisodes
 
 * have you ever? (rapper's delight)
+* haven't seen a movie in N years
+	* hot dog #599,19:30
+	* traci reardon a lot
+	* al a pterson maybe?
 
   * a million - extant but needs catchup
 * notorious powerbottom ebenezer scrooge
@@ -300,6 +304,7 @@
   * 197,35:50
 * zouks wants clarification (what do you mean?)
   * 463,2:09:50(pw)
+  * 599,8:30
   * 471,1:10:40(howl)
   * 525,9:40
   * 525,30:25
@@ -313,6 +318,7 @@
   * 518,37:15(pw)
 * gino's commuter train map
   * 571,27:45(pw)
+  * 599,2:31:00
   * 579,56:40(pw)
   * 579,6:00(pw)
   * 463,2:07:20(pw)
@@ -396,6 +402,7 @@
   * 447,50:45(pw)
 * no rule against dogs playing (football|basketball)
   * 2016.shepherds,42:45
+  * 599,1:18:45
   * late 400s episode
   * 438,28:40(pw)
   * 445,22:00(pw)
@@ -597,6 +604,7 @@
   * 2016.losangeles,1:00:40
 * character bonanzas
   * 300,bill carter+
+  * 599,~3+ (first segment)
   * 85,4:00+(neill campbell)
   * 345,all explosiones
   * 335,wiseman|marshal|thicke
@@ -1321,6 +1329,8 @@
   * 434,9:30(pw)[]()
 * interesting people
   * several of the 480+ eps
+  * 599,3:00
+  * 599,12:00
   * 596,19:00(pw)
   * 588,1:00:00(pw)
   * 582,0:45(pw)

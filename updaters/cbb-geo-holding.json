@@ -3401,7 +3401,7 @@ DEDUP THIS FIRST
         "created_at": "2018-05-29T08:38:28Z",
         "slug_soundcloud": null,
         "slug_earwolf": "know-what-im-saying",
-        "episode_title": "Know What I\u2019m Saying?",
+        "episode_title": "Know What I'm Saying?",
         "episode_guests": "Gillian Jacobs,Paul F. Tompkins,Lamar Woods,Tawny Newsome",
         "id_wikia": null,
         "holding": "false"
@@ -3624,9 +3624,129 @@ DEDUP THIS FIRST
         "created_at": "2018-05-29T08:38:28Z",
         "slug_soundcloud": null,
         "slug_earwolf": "know-what-im-saying",
-        "episode_title": "Know What I\u2019m Saying?",
+        "episode_title": "Know What I'm Saying?",
         "episode_guests": "Gillian Jacobs,Paul F. Tompkins,Lamar Woods,Tawny Newsome",
         "id_wikia": null,
         "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "54:00"
+        , "tend": "54:30"
+        , "instance": "I went to Woodstock '99."
+        ,"elucidation":"identifiable earth location","bit":"Location"
+        , "tags": "Dalton Wilcox"
+        ,"nb":["site of: Woodstock '99;site of: Dalton Wilcox at same"]
+        , "location_type": "point"
+        , "location_id": "103"
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "1:38:15"
+        , "tend": "1:38:45"
+        , "instance": "In my late middle age I secret a hormone that attracts feral dogs, so there's been a problem there."
+        ,"elucidation":"identifiable earth location","bit":"Location"
+        , "tags": "Bob Ducca"
+        ,"nb":["Spearmint Rhino out by Citadel Outlets, L.A.","-118.236506,34.026359","centroid of: Great Peril - Bob Ducca's Neighborhood"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "1:38:55"
+        , "tend": "1:39:30"
+        , "instance": "I friend of mine is starting a program like [Bird Scooters] but it's for coffee-can stilts."
+        ,"elucidation":"identifiable earth location","bit":"Location"
+        , "tags": "Bob Ducca,Odell Cigarette"
+        ,"nb":["two buses and then a walk to Earwolf"]
+        , "location_type": "line"
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "2:17:10"
+        , "tend": "2:17:45"
+        , "instance": "I can't wait 'til I'm 10 - it'll be so fucking lit."
+        ,"elucidation":"identifiable earth location","bit":"Location"
+        , "tags": "Power Wheels Beth"
+        ,"nb":["upstairs at Earwolf","workplace of: Power Wheels Beth's mom"]
+        , "location_type": "point"
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "2:30:00"
+        , "tend": "2:30:30"
+        , "instance": "The Intern Gino Signal, is that what you mean?"
+        ,"elucidation":"identifiable earth location","bit":"Location"
+        , "tags": "Gino Lambardo"
+        ,"nb":["nassau cc","NOTE: geom is prolly in atlas by now"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "2:31:30"
+        , "tend": "2:32:00"
+        , "instance": "They banned Xenadrine a few years ago but I have, like, a pallet of it from my buddy who works at GNC."
+        ,"elucidation":"identifiable earth location","bit":"Location"
+        , "tags": "Gino Lambardo,Tall Ronny"
+        ,"nb":["GNC in Roosevelt Field Mall","workplace of: Tall Ronny","source of: Gino Lambardo's backstock of Xenadrine"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
     }
 ]
