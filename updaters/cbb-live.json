@@ -2079,5 +2079,466 @@
         , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
         , "id_wikia": null
         , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "2:40:00"
+        , "tend": "2:41:00"
+        , "instance": "I have, like, a tin foil Jiffy-Pop thing on my head underneath the Rasta hat."
+                ,"elucidation":"gino explains his behavior via some physical trauma","bit":"Bottom of a Deep Pool"
+        , "tags": "Gino Lambardo"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-06T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-06T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "2:43:45"
+        , "tend": "2:44:10"
+        , "instance": "Is he still mad about losing 'Jeopardy!'?"
+                , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Gino Lambardo,I Lost on Jeopardy (song),Weird Al Yankovic,Cheers (TV)"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-06T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-06T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "2:51:00"
+        , "tend": "2:51:15"
+        , "instance": "Why would he have heard of it if you thought of it?"
+                ,"elucidation":"a character is referred to by the name/pronoun of their player","bit":"Who's Paul?"
+        , "tags": "Bone Queef John St. Gynecologist,Entrée PeeE Neur"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-06T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-06T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "2:55:20"
+        , "tend": "2:55:45"
+        , "instance": "Now you you callin' Butter Man?"
+                        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Bone Queef John St. Gynecologist,Entrée PeeE Neur,Salt-N-Pepa (musical combination),Whatta Man (song),MC Sugar Butt"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-06T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-06T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "3:03:30"
+        , "tend": "3:04:15"
+        , "instance": "I voted \\ for Mondale \\ and then I got on the Monorail"
+                , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Bone Queef John St. Gynecologist,Entrée PeeE Neur,MC Sugar Butt,Walter Mondale"
+        ,"nb":["Epcot"]
+        , "location_type": "poly"
+        , "location_id": "143"
+        , "updated_at": "2019-05-06T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-06T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "3:05:10"
+        , "tend": "3:05:30"
+        , "instance": "Does it calculate things and does it read 1s and 0s and interpolate them as to being images?"
+                        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Bone Queef John St. Gynecologist,Entrée PeeE Neur,MC Sugar Butt,Bobby 'Boris' Pickett,Monster Mash (song)"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-06T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-06T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "3:11:02"
+        , "tend": "3:11:45"
+        , "instance": "Sitting on that hill was one of Carmen Sandiego's many minions."
+                       , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Bone Queef John St. Gynecologist,Entrée PeeE Neur,The Chief"
+        ,"nb":["Mt. Rushmore"]
+        , "location_type": "point"
+        , "location_id": "565"
+        , "updated_at": "2019-05-06T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-06T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "3:15:05"
+        , "tend": "3:15:25"
+        , "instance": "You forgot where you are from immediately."
+                       , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Bone Queef John St. Gynecologist,Entrée PeeE Neur,The Chief,Kiwi Kris"
+        ,"nb":["New Zealand"]
+        , "location_type": "poly"
+        , "location_id": "440"
+        , "updated_at": "2019-05-06T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-06T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "3:17:45"
+        , "tend": "3:18:00"
+        , "instance": "Love you long time."
+                , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Doreen Blachly,The Fugees (musical combination),Killing Me Softly with His Song (song),Prince Chinedu"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-06T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-06T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "3:20:00"
+        , "tend": "3:20:25"
+        , "instance": "I've been very, very depressed - you haven't reached out to me one time."
+                , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Doreen Blachly,The Fugees (musical combination),Killing Me Softly with His Song (song),Prince Chinedu"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-06T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-06T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "3:34:30"
+        , "tend": "3:35:15"
+        , "instance": "I'm gonna pass on that offer to look at your genitals."
+                       , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Little Gary"
+        ,"nb":["Juarez"]
+        , "location_type": "poly"
+        , "location_id": "339"
+        , "updated_at": "2019-05-06T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-06T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "3:35:35"
+        , "tend": "3:35:55"
+        , "instance": "Are you talking about pussy right now?"
+                       ,"elucidation":"cbb gets a little blue","bit":"Not That Kind of a Show"
+        , "tags": "Little Gary"
+        ,"nb":[""]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-06T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-06T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "3:41:40"
+        , "tend": "3:48:00"
+        , "instance": "I feel like Tom Sawyer at my own funeral but I would love to hear what you were going to sing about me."
+                , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Björk,Candle in the Wind (song),Elton John"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-06T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-06T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "3:47:05"
+        , "tend": "3:47:45"
+        , "instance": "Every guest has see you do it."
+                , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Björk,Oh So Quiet (song)"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-06T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-06T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "3:53:45"
+        , "tend": "3:53:30"
+        , "instance": "You're certainly welcome to rest your feet a little bit."
+                , "elucidation": "cbb's open door policy is cited or blamed"
+        , "bit": "Open Door Policy"
+        , "tags": "Chip Garvey"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-06T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-06T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "3:53:45"
+        , "tend": "3:54:20"
+        , "instance": "Podcast is sort of an iPod broadcast."
+                ,"elucidation":"scott articulates obvious data (acronyms, abbreviations, etc.)","bit":"Group Coupon"
+        , "tags": "Chip Garvey"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-06T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-06T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "4:04:20"
+        , "tend": "4:05:05"
+        , "instance": "Wash, fold, and say yes...and."
+                ,"elucidation":"the rule of 'yes, and' is invoked or abused","bit":"Yes, And..."
+        , "tags": "Chip Garvey"
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-06T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-06T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "4:16:00"
+        , "tend": "4:17:05"
+        , "instance": "Let's run down your former businesses."
+        ,"elucidation":"identifiable earth location","bit":"Location"
+        , "tags": "Gary Urbansky"
+        ,"nb":["urbansky wig and weave"]
+        , "location_type": "point"
+        , "location_id": "731"
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "4:23:45"
+        , "tend": "4:24:15"
+        , "instance": "I love creeps."
+        , "elucidation": "any song reference"
+        , "bit": "The Paul Hardcastle of Suicides"
+        , "tags": "Creep (song),Creep (Radiohead song),Creep (STP song),Charles Manson,TLC (musical combination),Stone Temple Pilots (musical combination),Radiohead (musical combination)"
+        ,"nb":[]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "4:27:00"
+        , "tend": "4:27:45"
+        , "instance": "Since I've been a ghost I've had time to enjoy a lot of cultural events."
+        ,"elucidation":"identifiable earth location","bit":"Location"
+        , "tags": "Charles Manson"
+        ,"nb":["pantages"]
+        , "location_type": "point"
+        , "location_id": "96"
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "4:32:50"
+        , "tend": "4:33:45"
+        , "instance": "Bisby, he had a doctors appointment upstairs."
+        ,"elucidation":"identifiable earth location","bit":"Location"
+        , "tags": "The Calvins Twins,The Calvins Brothers,Bever Hopox,Chico Hands,Bisby St. Hancock"
+        ,"nb":[]
+        , "location_type": "point"
+        , "location_id": "137"
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "4:34:15"
+        , "tend": "4:34:45"
+        , "instance": "Each morning we wake up and give each other buckets to relieve ourselves."
+        ,"elucidation":"identifiable earth location","bit":"Location"
+        , "tags": "The Calvins Twins,The Calvins Brothers,Bever Hopox,Chico Hands,Bisby St. Hancock"
+        ,"nb":["floriday horse fighting Hopox location - SEE FIXR content"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "4:50:45"
+        , "tend": "4:51:12"
+        , "instance": "What would a man with no memory be doing?"
+        ,"elucidation":"identifiable earth location","bit":"Location"
+        , "tags": "The Calvins Twins,The Calvins Brothers,Bever Hopox,Chico Hands,Bisby St. Hancock,Gisby St. Hancock"
+        ,"nb":["ripleys museum"]
+        , "location_type": "point"
+        , "location_id": "913"
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
     }
 ]

@@ -544,3 +544,6 @@
 -   26 (eggnogs),18:15,shut up bitch!
 -   26 (eggnogs),46:00,it’s Xmas find out
 -   26 (eggnogs),46:30,xfowg theme song slow
+-   31 (frnk),5:00,zat yr jacket
+-   31 (frnk),17:30,this guy wz put in jail
+-   31 (frnk),57:15,zat yr jacket

@@ -3656,7 +3656,7 @@ DEDUP THIS FIRST
         , "instance": "In my late middle age I secret a hormone that attracts feral dogs, so there's been a problem there."
         ,"elucidation":"identifiable earth location","bit":"Location"
         , "tags": "Bob Ducca"
-        ,"nb":["Spearmint Rhino out by Citadel Outlets, L.A.","-118.236506,34.026359","centroid of: Great Peril - Bob Ducca's Neighborhood"]
+        ,"nb":["Spearmint Rhino out by Citadel Outlets, L.A. - POSSIBLY POINT:825","-118.236506,34.026359","centroid of: Great Peril - Bob Ducca's Neighborhood"]
         , "location_type": ""
         , "location_id": ""
         , "updated_at": "2019-05-08T11:24:09Z"
@@ -3737,6 +3737,286 @@ DEDUP THIS FIRST
         ,"elucidation":"identifiable earth location","bit":"Location"
         , "tags": "Gino Lambardo,Tall Ronny"
         ,"nb":["GNC in Roosevelt Field Mall","workplace of: Tall Ronny","source of: Gino Lambardo's backstock of Xenadrine"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "2:58:45"
+        , "tend": "2:59:00"
+        , "instance": "Please don't shoot us just becomes she mentioned 'titties.'"
+        ,"elucidation":"identifiable earth location","bit":"Location"
+        , "tags": "Bone Queef John St. Gynecologist,Entrée PeeE Neur,MC Sugar Butt"
+        ,"nb":["NYC"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "3:15:45"
+        , "tend": "3:16:25"
+        , "instance": "Where you stayin' while you in town? Where you stayin' while you in town? Where you stayin' while you in town?"
+        ,"elucidation":"identifiable earth location","bit":"Location"
+        , "tags": "Entrée PeeE Neur,Kiwi Kris"
+        ,"nb":["any hostel in hollywood where kiwi might stay"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "3:18:00"
+        , "tend": "3:18:45"
+        , "instance": "Are the words 'Burger King' anywhere near?"
+        ,"elucidation":"identifiable earth location","bit":"Location"
+        , "tags": "Prince Chinedu"
+        ,"nb":["Burger King-looking bldg (orange and white and red maybe) in Mumbai (or just mumbai)"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "3:19:00"
+        , "tend": "3:19:30"
+        , "instance": "And what do you think a 'meat train' is?"
+        ,"elucidation":"identifiable earth location","bit":"Location"
+        , "tags": "Prince Chinedu,The Chief"
+        ,"nb":["Eastern Europe","site of: The Chief riding a meat train"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "3:31:00"
+        , "tend": "3:31:40"
+        , "instance": "But you came in on a gold hovercraft."
+        ,"elucidation":"identifiable earth location","bit":"Location"
+        , "tags": ""
+        ,"nb":["Jim Falk Hovercraft of Beverly Hills","some (falk?) dealership on Wilshire","source of: Thomas Lennon's hovercraft"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "3:35:45"
+        , "tend": "3:36:30"
+        , "instance": "The whole time he had an arrow in his back."
+        ,"elucidation":"identifiable earth location","bit":"Location"
+        , "tags": "Little Gary"
+        ,"nb":["a Pep Boys location"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "3:54:50"
+        , "tend": "3:55:15"
+        , "instance": "We'll suss it out in the mix."
+        ,"elucidation":"identifiable earth location","bit":"Location"
+        , "tags": "Chip Garvey"
+        ,"nb":["a house in Cleveland, OH","site of: Buzzard publication headquarters"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "4:02:30"
+        , "tend": "4:03:00"
+        , "instance": "He is keeping organic."
+        ,"elucidation":"identifiable earth location","bit":"Location"
+        , "tags": "Chip Garvey,Jeff Bezos"
+        ,"nb":["a house in Cleveland, OH","site of: Buzzard publication headquarters"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "4:04:00"
+        , "tend": "4:04:30"
+        , "instance": "I did a piece on this guy who only used Cap'n Crunch for his art."
+        ,"elucidation":"identifiable earth location","bit":"Location"
+        , "tags": "Chip Garvey"
+        ,"nb":["some Subway restaurant","site of: an outsider art gallery"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "4:13:45"
+        , "tend": "4:14:30"
+        , "instance": "Now I am back on a conditional visa."
+        ,"elucidation":"identifiable earth location","bit":"Location"
+        , "tags": "Gary Urbansky"
+        ,"nb":["Chicago, IL","home to: Gary Urbansky"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "4:17:15"
+        , "tend": "4:17:45"
+        , "instance": "I just wanted more of those blue cans, you know?"
+        ,"elucidation":"identifiable earth location","bit":"Location"
+        , "tags": "Gary Urbansky"
+        ,"nb":["Chicago, IL","home to: Gary Urbansky"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "4:16:00"
+        , "tend": "4:17:05"
+        , "instance": "Let's run down your former businesses."
+        ,"elucidation":"identifiable earth location","bit":"Location"
+        , "tags": "Gary Urbansky"
+        ,"nb":["kimono store in chicago (see earliest urbansky episodes(s)"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "4:16:00"
+        , "tend": "4:17:05"
+        , "instance": "Let's run down your former businesses."
+        ,"elucidation":"identifiable earth location","bit":"Location"
+        , "tags": "Gary Urbansky"
+        ,"nb":["napa winery - see fixr content for id"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-1"
+        , "episode_title": "10th Anniversary Part 1"
+        , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "4:19:30"
+        , "tend": "4:20:00"
+        , "instance": "You do look ghost as shit right now, if I can say so."
+        ,"elucidation":"identifiable earth location","bit":"Location"
+        , "tags": "Gary Urbansky,Charles Manson"
+        ,"nb":["somewhere on 63rd st, chcicago","home of: Ghostoevsky"]
         , "location_type": ""
         , "location_id": ""
         , "updated_at": "2019-05-08T11:24:09Z"
