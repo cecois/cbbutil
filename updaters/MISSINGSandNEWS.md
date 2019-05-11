@@ -72,6 +72,7 @@
   * (lotsa new no-nos)
   * 406,22:45(pw)
   * 406,35:15(pw)
+  * 599,6:57:45
 * standing up shaking your fist/risen
   * 373,multiple
   * 372?
@@ -618,6 +619,7 @@
 * character bonanzas
   * 300,bill carter+
   * 599,~3+ (first segment)
+  * 599,7:00:00+ (moynihan)
   * 85,4:00+(neill campbell)
   * 345,all explosiones
   * 335,wiseman|marshal|thicke
