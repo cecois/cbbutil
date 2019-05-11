@@ -62,20 +62,22 @@
 
 =- 16(baby),54:00,boom there she was - scriti politi
 
--   16(baby),55:00,girl talk - tony bennett
--   16(baby),55:45,rock me amadeus - falco
--   16(baby),55:55,the stroke - billy squire
--   16(baby),57:00,town called malice - the jam
--   6(dilly),3:45,the fabric of our lives - aaron neville vers.
--   6(dilly),15:30,lavendar's blue (dilly dilly) - trad.
--   6(dilly),17:50,come on be my baby tonight - real world david
--   6(dilly),21:30,welcome back - john sebastian
--   6(dilly),24:50,tell it to my heart - taylor dayne
--   6(dilly),29:15,Under Pressure - Queen
--   6(dilly),31:00,sixteen going on seventeen - sound of music
--   6(dilly),32:00,kyle quit the band - tenacious d
--   6(dilly),45:45,can't stop the feeling - (timberlake?)
--   6(dilly),45:45,under pressure - queen
+=- 16(baby),55:00,girl talk - tony bennett
+=- 16(baby),55:45,rock me amadeus - falco
+=- 16(baby),55:55,the stroke - billy squire
+=- 16(baby),57:00,town called malice - the jam
+=- 6(dilly),3:45,the fabric of our lives - aaron neville vers.
+=- 6(dilly),15:30,lavendar's blue (dilly dilly) - trad.
+
+=- 6(dilly),17:50,come on be my baby tonight - real world david
+=- 6(dilly),21:30,welcome back - john sebastian
+=- 6(dilly),24:50,tell it to my heart - taylor dayne
+=- 6(dilly),29:15,Under Pressure - Queen
+=- 6(dilly),31:00,sixteen going on seventeen - sound of music
+=- 6(dilly),32:00,kyle quit the band - tenacious d
+=- 6(dilly),45:45,can't stop the feeling - (timberlake?)
+=- 6(dilly),45:45,under pressure - queen
+
 -   6(dilly),51:00,waltz in a - snl band
 -   7(plural),1:45,it's been awhile - staind
 -   7(plural),1:45,that would be enough - hamilton
