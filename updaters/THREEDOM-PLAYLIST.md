@@ -12,45 +12,56 @@
 =- 1(mistake),1:02:00,Jack and Diane - John Mellencamp
 =- 1(mistake),23:00,December, 1963 (Oh, What a Night) - The Four Seasons
 
--   2(chalktalk),35:30,Oom pa pa - Oliver sndtrk
--   2(chalktalk),36:30,in the air tonight - phil collins
--   2(chalktalk),36:50,stay awake - mary poppins sndtrk
--   2(chalktalk),37:30,i love l.a. - randy newman
--   2(chalktalk),41:30,saturday in the park - chicago
--   3(Bauer),7:00,you make me feel so young - ~sinatra
--   3(Bauer),9:15,some like it hot - the power station
--   3(Bauer),11:45,jitterbug - wham
--   3(Bauer),14:00,everybody hurts - rem
--   3(Bauer),22:00,help me - Joni Mitchell
--   3(Bauer),22:15,Kokomo - beach boys
--   3(Bauer),22:20,take a break - Hamilton
--   3(Bauer),22:20,taking it to the streets - Chicago?
--   3(Bauer),22:30,kit kat jingle
--   3(Bauer),56:15,I wish - skeelo
--   4(slouchy),0:15,entourage theme song
--   4(slouchy),12:00,under pressure - queen
--   4(slouchy),13:00,yamo be there - Michael McDonald
--   4(slouchy),20:40,officer krupke - west side story
--   4(slouchy),22:20,i'm gonna wash that man - south pacific
--   4(slouchy),29:30,heard it through the grapevine - marvin gaye
--   4(slouchy),37:30,little lies - fleetwood mac
--   4(slouchy),47:00,getting to know you - julie andrews
--   4(slouchy),53:30,another one bites the dust - queen
--   5(eyedol),9:00,if i could turn back time - cher
--   5(eyedol),9:00,do you believe - cher
--   5(eyedol),12:30,achey breaky heart - b.r. cyrus
--   5(eyedol),19:30,welcome back - john sebastian
--   5(eyedol),19:30,And I Am Telling You I'm Not Going - dreamgirls
--   5(eyedol),25:30,if i could turn back time - cher
--   16(baby),0:15,madness - muse
--   16(baby),2:00,people are strange - doors
--   16(baby),29:30,rock me amadeus - falco
--   16(baby),31:00,heartlight - neil diamond
--   16(baby),40:00,willie and the hand jive - johnny otis
--   16(baby),51:20,rock me amadeus - falco
--   16(baby),53:00,pieces of me - ashley simpson
--   16(baby),53:00,me so horny - 2livecrew
--   16(baby),54:00,boom there she was - scriti politi
+=- 2(chalktalk),35:30,Oom pa pa - Oliver sndtrk
+=- 2(chalktalk),36:30,in the air tonight - phil collins
+=- 2(chalktalk),36:50,stay awake - mary poppins sndtrk
+=- 2(chalktalk),37:30,i love l.a. - randy newman
+=- 2(chalktalk),41:30,saturday in the park - chicago
+=- 3(Bauer),7:00,you make me feel so young - ~sinatra
+=- 3(Bauer),9:15,some like it hot - the power station
+==- 3(Bauer),11:45,jitterbug - wham
+=- 3(Bauer),14:00,everybody hurts - rem
+=- 3(Bauer),22:00,help me - Joni Mitchell
+=- 3(Bauer),22:15,Kokomo - beach boys
+=- 3(Bauer),22:20,take a break - Hamilton
+=- 3(Bauer),22:20,taking it to the streets - Chicago?
+
+=- 3(Bauer),22:30,kit kat jingle
+=- 3(Bauer),56:15,I wish - skeelo
+=- 4(slouchy),0:15,entourage theme song
+=- 4(slouchy),12:00,under pressure - queen
+
+=- 4(slouchy),13:00,yamo be there - Michael McDonald/James Ingram
+=- 4(slouchy),20:40,officer krupke - west side story
+=- 4(slouchy),22:20,i'm gonna wash that man - south pacific
+=- 4(slouchy),29:30,heard it through the grapevine - marvin gaye
+=- 4(slouchy),37:30,little lies - fleetwood mac
+=- 4(slouchy),47:00,getting to know you - julie andrews
+
+=- 4(slouchy),53:30,another one bites the dust - queen
+
+=- 5(eyedol),9:00,if i could turn back time - cher
+=- 5(eyedol),9:00,do you believe - cher
+=- 5(eyedol),12:30,achey breaky heart - b.r. cyrus
+
+=- 5(eyedol),19:30,welcome back - john sebastian
+
+=- 5(eyedol),19:30,And I Am Telling You I'm Not Going - dreamgirls
+=- 5(eyedol),25:30,if i could turn back time - cher
+=- 16(baby),0:15,madness - muse
+=- 16(baby),2:00,people are strange - doors
+=- 16(baby),29:30,rock me amadeus - falco
+
+=- 16(baby),31:00,heartlight - neil diamond
+
+=- 16(baby),40:00,willie and the hand jive - johnny otis
+=- 16(baby),51:20,rock me amadeus - falco
+=- 16(baby),53:00,pieces of me - ashley simpson
+
+=- 16(baby),53:00,me so horny - 2livecrew
+
+=- 16(baby),54:00,boom there she was - scriti politi
+
 -   16(baby),55:00,girl talk - tony bennett
 -   16(baby),55:45,rock me amadeus - falco
 -   16(baby),55:55,the stroke - billy squire
