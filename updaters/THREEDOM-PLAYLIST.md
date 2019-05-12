@@ -78,20 +78,24 @@
 =- 6(dilly),45:45,can't stop the feeling - (timberlake?)
 =- 6(dilly),45:45,under pressure - queen
 
--   6(dilly),51:00,waltz in a - snl band
--   7(plural),1:45,it's been awhile - staind
--   7(plural),1:45,that would be enough - hamilton
--   7(plural),5:25,that would be enough - hamilton
--   7(plural),12:45,All My Rowdy Friends Are Coming Over Tonight - hank williams jr.
--   7(plural),17:00,Last Christmas - Wham!
--   7(plural),33:45,voulez-vous - Abba
--   7(plural),23:00,Lady Marmalade (orig)
--   7(plural),23:00,Lady Marmalade (remake)
--   7(plural),25:00,springsteen - Eric church
--   7(plural),26:00,take me to church - Hozier
--   7(plural),30:00,didn't have to - Brad Paisley
--   7(plural),32:00,murdered in the city - Avetts
--   7(plural),35:00,welcome back - Sebastian
+=- 6(dilly),51:00,waltz in a - snl band
+
+=- 7(plural),1:45,it's been awhile - staind
+=- 7(plural),1:45,that would be enough - hamilton
+=- 7(plural),5:25,that would be enough - hamilton
+=- 7(plural),12:45,All My Rowdy Friends Are Coming Over Tonight - hank williams jr.
+
+=- 7(plural),17:00,Last Christmas - Wham!
+=- 7(plural),33:45,voulez-vous - Abba
+=- 7(plural),23:00,Lady Marmalade (orig)
+=- 7(plural),23:00,Lady Marmalade (remake)
+=- 7(plural),25:00,springsteen - Eric church
+=- 7(plural),26:00,take me to church - Hozier
+=- 7(plural),30:00,didn't have to - Brad Paisley
+
+=- 7(plural),32:00,murdered in the city - Avetts
+=- 7(plural),35:00,welcome back - Sebastian
+
 -   7(plural),35:00,something w \_\_\_ back lyrics - Chicago?
 -   7(plural),37:30,shutters on the beach - ??
 -   7(plural),38:30,zombie - cranberries

@@ -4028,6 +4028,7 @@ DEDUP THIS FIRST
         , "episode_guests": "Jason Mantzoukas,Andy Daly,Paul F. Tompkins,Seth Morris,Jon Hamm,Lauren Lapkus,Jessica McKenna,Zach Reino,Jon Gabrus,Ego Nwodim,Zeke Nicholson,Carl Tart,Rob Huebel,Thomas Lennon,Matt Besser,Paul Scheer,Tawny Newsome,Madeline Walter,Taran Killam,Paul Brittain,Ryan Gaul"
         , "id_wikia": null
         , "holding": "false"
+<<<<<<< HEAD
     },
     {
         "episode": 599,
@@ -4092,6 +4093,347 @@ DEDUP THIS FIRST
         "slug_earwolf": "10th-anniversary-part-2",
         "episode_title": "10th Anniversary Part 2",
         "episode_guests": "",
+        "id_wikia": null,
+        "holding": "false"
+=======
+    },{
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "5:43:45"
+        , "tend": "5:44:30"
+        , "instance": "Is the statute of liminations over about the Crystal Meth?"
+        , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Fabrice Fabrice,Patrice Patrice"
+        ,"nb":["Corpus Christi, TX","home of: Fabrice Fabrice' family"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-06T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-06T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-2"
+        , "episode_title": "10th Anniversary Part 2"
+        , "episode_guests": "Thomas Middleditch,Adam Scott,Chelsea Peretti,Nick Kroll,Drew Tarver,Weird Al Yankovic,Paul Rust,Neil Campbell,Bobby Moynihan,Mary Holland,Horatio Sanz,Ben Schwartz,Jon Daly,Shaun Diston,Mike Hanford,Will Hines,Brendon Small,Jessica St. Clair,Lennon Parham,James Adomian"
+        , "id_wikia": null
+        , "holding": "false"
+    },{
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "6:12:15"
+        , "tend": "6:12:45"
+        , "instance": "I would say it's a old-rug-in-the-back-of-a-UPS-store head."
+        , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Martin Sheffield Lickly"
+        ,"nb":["UPS store somewhere"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-06T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-06T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-2"
+        , "episode_title": "10th Anniversary Part 2"
+        , "episode_guests": "Thomas Middleditch,Adam Scott,Chelsea Peretti,Nick Kroll,Drew Tarver,Weird Al Yankovic,Paul Rust,Neil Campbell,Bobby Moynihan,Mary Holland,Horatio Sanz,Ben Schwartz,Jon Daly,Shaun Diston,Mike Hanford,Will Hines,Brendon Small,Jessica St. Clair,Lennon Parham,James Adomian"
+        , "id_wikia": null
+        , "holding": "false"
+    },{
+        "episode": 599
+        , "show": "cbb"
+        , "tstart": "6:29:00"
+        , "tend": "6:29:30"
+        , "instance": "I usually perform to my own reflection...in a puddle."
+        , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Martin Sheffield Lickly"
+        ,"nb":["rite aid somewhere"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-06T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-06T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-2"
+        , "episode_title": "10th Anniversary Part 2"
+        , "episode_guests": "Thomas Middleditch,Adam Scott,Chelsea Peretti,Nick Kroll,Drew Tarver,Weird Al Yankovic,Paul Rust,Neil Campbell,Bobby Moynihan,Mary Holland,Horatio Sanz,Ben Schwartz,Jon Daly,Shaun Diston,Mike Hanford,Will Hines,Brendon Small,Jessica St. Clair,Lennon Parham,James Adomian"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+             , "tstart": "7:47:10"
+        , "tend": "7:48:45"
+        , "instance": "So you invested all of your money in this BlastAway energy drink."
+        , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Eugenia WOBBLES"
+        ,"nb":["deza, iran i guess?","site of: too many pyramids"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-2"
+        , "episode_title": "10th Anniversary Part 2"
+        , "episode_guests": "Thomas Middleditch,Adam Scott,Chelsea Peretti,Nick Kroll,Drew Tarver,Weird Al Yankovic,Paul Rust,Neil Campbell,Bobby Moynihan,Mary Holland,Horatio Sanz,Ben Schwartz,Jon Daly,Shaun Diston,Mike Hanford,Will Hines,Brendon Small,Jessica St. Clair,Lennon Parham,James Adomian"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+             , "tstart": "7:51:00"
+        , "tend": "7:51:30"
+        , "instance": "The minute you said 'John Hancock.'"
+        , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Eugenia WOBBLES"
+        ,"nb":["Cincinatti, OH","hometown of: Eugenia WOBBLES"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-2"
+        , "episode_title": "10th Anniversary Part 2"
+        , "episode_guests": "Thomas Middleditch,Adam Scott,Chelsea Peretti,Nick Kroll,Drew Tarver,Weird Al Yankovic,Paul Rust,Neil Campbell,Bobby Moynihan,Mary Holland,Horatio Sanz,Ben Schwartz,Jon Daly,Shaun Diston,Mike Hanford,Will Hines,Brendon Small,Jessica St. Clair,Lennon Parham,James Adomian"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+             , "tstart": "8:06:30"
+        , "tend": "8:07:00"
+        , "instance": "You were in The Beatles..."
+        , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Mall McCartney"
+        ,"nb":["Ross Park Mall in Pittsburgh","one of: Mall McCartney's favorite malls"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-2"
+        , "episode_title": "10th Anniversary Part 2"
+        , "episode_guests": "Thomas Middleditch,Adam Scott,Chelsea Peretti,Nick Kroll,Drew Tarver,Weird Al Yankovic,Paul Rust,Neil Campbell,Bobby Moynihan,Mary Holland,Horatio Sanz,Ben Schwartz,Jon Daly,Shaun Diston,Mike Hanford,Will Hines,Brendon Small,Jessica St. Clair,Lennon Parham,James Adomian"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+             , "tstart": "8:06:30"
+        , "tend": "8:07:15"
+        , "instance": "They can just take dumps right there in the middle of the store and people have to laugh."
+        , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Mall McCartney"
+        ,"nb":["Glendale Galleria","one of: Mall McCartney's favorite malls; site of: a really great Scientology kiosk"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-2"
+        , "episode_title": "10th Anniversary Part 2"
+        , "episode_guests": "Thomas Middleditch,Adam Scott,Chelsea Peretti,Nick Kroll,Drew Tarver,Weird Al Yankovic,Paul Rust,Neil Campbell,Bobby Moynihan,Mary Holland,Horatio Sanz,Ben Schwartz,Jon Daly,Shaun Diston,Mike Hanford,Will Hines,Brendon Small,Jessica St. Clair,Lennon Parham,James Adomian"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+             , "tstart": "8:08:30"
+        , "tend": "8:09:10"
+        , "instance": "Well that's just a hop, skip, and a jump, isn't it?"
+        , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Mall McCartney"
+        ,"nb":["Americana on brand in glendale","home to: Mall McCartney"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-2"
+        , "episode_title": "10th Anniversary Part 2"
+        , "episode_guests": "Thomas Middleditch,Adam Scott,Chelsea Peretti,Nick Kroll,Drew Tarver,Weird Al Yankovic,Paul Rust,Neil Campbell,Bobby Moynihan,Mary Holland,Horatio Sanz,Ben Schwartz,Jon Daly,Shaun Diston,Mike Hanford,Will Hines,Brendon Small,Jessica St. Clair,Lennon Parham,James Adomian"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+             , "tstart": "8:11:30"
+        , "tend": "8:"
+        , "instance": "When we went to visit the Maharishi...I didn't even hang out."
+        , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Mall McCartney,The Beatles (musical combination)"
+        ,"nb":["mall near Beatles Ashram in Rishikesh","proxy for: The Harishi Mall","site of: Mall McCartney back in the day"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-2"
+        , "episode_title": "10th Anniversary Part 2"
+        , "episode_guests": "Thomas Middleditch,Adam Scott,Chelsea Peretti,Nick Kroll,Drew Tarver,Weird Al Yankovic,Paul Rust,Neil Campbell,Bobby Moynihan,Mary Holland,Horatio Sanz,Ben Schwartz,Jon Daly,Shaun Diston,Mike Hanford,Will Hines,Brendon Small,Jessica St. Clair,Lennon Parham,James Adomian"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+             , "tstart": "8:14:45"
+        , "tend": "8:15:10"
+        , "instance": "They have a great Scientology kiosk there."
+        , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Mall McCartney"
+        ,"nb":["Glendale Galleria","one of: Mall McCartney's favorite malls; site of: a really great Scientology kiosk"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-2"
+        , "episode_title": "10th Anniversary Part 2"
+        , "episode_guests": "Thomas Middleditch,Adam Scott,Chelsea Peretti,Nick Kroll,Drew Tarver,Weird Al Yankovic,Paul Rust,Neil Campbell,Bobby Moynihan,Mary Holland,Horatio Sanz,Ben Schwartz,Jon Daly,Shaun Diston,Mike Hanford,Will Hines,Brendon Small,Jessica St. Clair,Lennon Parham,James Adomian"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+             , "tstart": "8:27:50"
+        , "tend": "8:28:30"
+        , "instance": "On Halloween they have a God Heaven party."
+        , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Rudi North"
+        ,"nb":["Ace Hotel","site of: cool God Heaven Hell parties"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-2"
+        , "episode_title": "10th Anniversary Part 2"
+        , "episode_guests": "Thomas Middleditch,Adam Scott,Chelsea Peretti,Nick Kroll,Drew Tarver,Weird Al Yankovic,Paul Rust,Neil Campbell,Bobby Moynihan,Mary Holland,Horatio Sanz,Ben Schwartz,Jon Daly,Shaun Diston,Mike Hanford,Will Hines,Brendon Small,Jessica St. Clair,Lennon Parham,James Adomian"
+        , "id_wikia": null
+        , "holding": "false"
+    }, {
+        "episode": 599
+        , "show": "cbb"
+             , "tstart": "8:33:45"
+        , "tend": "8:34:20"
+        , "instance": "Scott, the discovery I made in that tomb in ancient Egypt was a bunch of PopTarts, Scott."
+        , "bit": "Location"
+        , "elucidation": "identifiable earth location"
+        , "tags": "Rudi North"
+        ,"nb":["ancient egyptian tomb","site of: a Rudi North discovery"]
+        , "location_type": ""
+        , "location_id": ""
+        , "updated_at": "2019-05-08T11:24:09Z"
+        , "url_soundcloud": null
+        , "created_at": "2019-05-08T11:24:09Z"
+        , "slug_soundcloud": null
+        , "slug_earwolf": "10th-anniversary-part-2"
+        , "episode_title": "10th Anniversary Part 2"
+        , "episode_guests": "Thomas Middleditch,Adam Scott,Chelsea Peretti,Nick Kroll,Drew Tarver,Weird Al Yankovic,Paul Rust,Neil Campbell,Bobby Moynihan,Mary Holland,Horatio Sanz,Ben Schwartz,Jon Daly,Shaun Diston,Mike Hanford,Will Hines,Brendon Small,Jessica St. Clair,Lennon Parham,James Adomian"
+        , "id_wikia": null
+        , "holding": "false"
+    },
+    {
+        "episode": 599,
+        "show": "cbb",
+        "tstart": "8:46:00",
+        "tend": "8:48:45",
+        "instance": "You know, Danny Boyle had his nose broken; Regis Philbin snapped the Golden Boy in half.",
+        "elucidation": "identifiable earth location",
+        "bit": "Location",
+        "tags": "John Lennon,Slumdog Millionaire (film),Regis Philbin",
+        "nb": ["Sunset Tower Hotel","site of: John Lennon meeting Regis Philbin at the 2009 Vanity Fair Oscar Party"],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-05-08T11:24:09Z",
+        "url_soundcloud": null,
+        "created_at": "2019-05-08T11:24:09Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "10th-anniversary-part-2",
+        "episode_title": "10th Anniversary Part 2",
+        "episode_guests": "Thomas Middleditch,Adam Scott,Chelsea Peretti,Nick Kroll,Drew Tarver,Weird Al Yankovic,Paul Rust,Neil Campbell,Bobby Moynihan,Mary Holland,Horatio Sanz,Ben Schwartz,Jon Daly,Shaun Diston,Mike Hanford,Will Hines,Brendon Small,Jessica St. Clair,Lennon Parham,James Adomian",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 599,
+        "show": "cbb",
+        "tstart": "8:53:15",
+        "tend": "8:53:45",
+        "instance": "I'm a Yankees fan, through-and-through.",
+        "elucidation": "identifiable earth location",
+        "bit": "Location",
+        "tags": "John Lennon",
+        "nb": ["First Data Field in Port St. Lucie, Florida","site of: John Lennon in Spring Training w/ the New York Mets"],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-05-08T11:24:09Z",
+        "url_soundcloud": null,
+        "created_at": "2019-05-08T11:24:09Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "10th-anniversary-part-2",
+        "episode_title": "10th Anniversary Part 2",
+        "episode_guests": "Thomas Middleditch,Adam Scott,Chelsea Peretti,Nick Kroll,Drew Tarver,Weird Al Yankovic,Paul Rust,Neil Campbell,Bobby Moynihan,Mary Holland,Horatio Sanz,Ben Schwartz,Jon Daly,Shaun Diston,Mike Hanford,Will Hines,Brendon Small,Jessica St. Clair,Lennon Parham,James Adomian",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 599,
+        "show": "cbb",
+        "tstart": "9:03:15",
+        "tend": "9:03:45",
+        "instance": "You have a great memory for detail - I wouldn't have brought that part of it up.",
+        "elucidation": "identifiable earth location",
+        "bit": "Location",
+        "tags": "Randy Useless,En Vougue (musical combination)",
+        "nb": ["Oakland, CA","site of: Randy Useless, fleeing."],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-05-08T11:24:09Z",
+        "url_soundcloud": null,
+        "created_at": "2019-05-08T11:24:09Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "10th-anniversary-part-2",
+        "episode_title": "10th Anniversary Part 2",
+        "episode_guests": "Thomas Middleditch,Adam Scott,Chelsea Peretti,Nick Kroll,Drew Tarver,Weird Al Yankovic,Paul Rust,Neil Campbell,Bobby Moynihan,Mary Holland,Horatio Sanz,Ben Schwartz,Jon Daly,Shaun Diston,Mike Hanford,Will Hines,Brendon Small,Jessica St. Clair,Lennon Parham,James Adomian",
+        "id_wikia": null,
+        "holding": "false"
+    },
+    {
+        "episode": 599,
+        "show": "cbb",
+        "tstart": "9:07:40",
+        "tend": "9:08:45",
+        "instance": "I was cleaning some fixtures.",
+        "elucidation": "identifiable earth location",
+        "bit": "Location",
+        "tags": "Randy Useless,Eminem",
+        "nb": ["music studio in Detroit","proxy for: Electric Soup Studios;site of: Randy Useless meeting Eminem"],
+        "location_type": "",
+        "location_id": "",
+        "updated_at": "2019-05-08T11:24:09Z",
+        "url_soundcloud": null,
+        "created_at": "2019-05-08T11:24:09Z",
+        "slug_soundcloud": null,
+        "slug_earwolf": "10th-anniversary-part-2",
+        "episode_title": "10th Anniversary Part 2",
+        "episode_guests": "Thomas Middleditch,Adam Scott,Chelsea Peretti,Nick Kroll,Drew Tarver,Weird Al Yankovic,Paul Rust,Neil Campbell,Bobby Moynihan,Mary Holland,Horatio Sanz,Ben Schwartz,Jon Daly,Shaun Diston,Mike Hanford,Will Hines,Brendon Small,Jessica St. Clair,Lennon Parham,James Adomian",
         "id_wikia": null,
         "holding": "false"
     }
