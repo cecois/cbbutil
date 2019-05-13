@@ -96,54 +96,65 @@
 =- 7(plural),32:00,murdered in the city - Avetts
 =- 7(plural),35:00,welcome back - Sebastian
 
--   7(plural),35:00,something w \_\_\_ back lyrics - Chicago?
--   7(plural),37:30,shutters on the beach - ??
--   7(plural),38:30,zombie - cranberries
--   8(out),2:15,girls on film - duran duran
--   8(out),9:00,good times closing theme - ??
--   8(out),9:00,in the ghetto - elvis
--   8(out),20:30,the things we do for love - 10cc
--   8(out),23:00,kyle quit the band - tenacious d
--   8(out),29:00,good times theme song
--   8(out),29:30,gonna make you sweat - c+c music factory
--   8(out),29:45,freedom! - george michael
--   8(out),30:00,philadelphia freedom - elton john
--   8(out),34:00,get off - prince
--   8(out),34:00,love sign - prince
--   8(out),34:30,what's going on - marvin gaye
--   8(out),36:30,40 - U2
--   8(out),37:00,go down moses - trad.
--   8(out),37:00,old man river - showboat
--   8(out),40:00,bullet the blue sky - u2
--   8(out),42:00,both sides now - joni mitchell
--   8(out),43:45,mirror in the bathroom - the beat
--   9(christmas),0:15,push it - salt+Pepa
--   9(christmas),3:15,hitops - hitops sndtk
--   9(christmas),7:45,baby got back - sir mix
--   9(christmas),32:30,shaft - isaac hayes
--   9(christmas),42:00,9 to 5 - dolly
--   9(christmas),47:00,your time is gonna come - zeppelin
--   9(christmas),54:00,wasn't me - shaggy
--   10(toothless),1:00,thong song - sisqo
--   10(toothless),21:00,blind - train (?)
--   10(toothless),21300jack & dian - mellencamp
--   10(toothless),21300jack & dian - mellencamp
--   10(toothless),28:30,one more night - phil collins
--   10(toothless),38:30,i want a new drug - huey l & tn
--   10(toothless),49:30,end of the road - b2men
--   10(toothless),50:45,hey jealousy - gin blossoms
--   11(google),0:30,losing my religion - rem
--   11(google),1:00,jack & diane - mellencamp
--   11(google),17:00,tom's diner - suzanne vega
--   11(google),19:45,Eight Is Enough - Lee Holdridge
--   11(google),20:00,just the two of us - bill whithers
--   11(google),26:45:The Ballad of Gilligan's Isle - Sherwood Schwartz and George Wyle
--   11(google),38:00,ghostbusters - ray parker
--   11(google),43:15,dirty work - steely dan
--   11(google),43:15,reelin in the years - steely dan
--   11(google),43:15,peg - steely dan
--   11(google),43:15,hey nineteen - steely dan
--   11(google),43:15,barrytown - steely dan
+=- 7(plural),35:00,take you back - frank stallone
+
+=- 7(plural),38:30,zombie - cranberries
+
+=- 8(out),2:15,girls on film - duran duran
+=- 8(out),9:00,good times closing theme - ??
+=- 8(out),9:00,in the ghetto - elvis
+=- 8(out),20:30,the things we do for love - 10cc
+=- 8(out),23:00,kyle quit the band - tenacious d
+=- 8(out),29:00,good times theme song
+=- 8(out),29:30,gonna make you sweat - c+c music factory
+=- 8(out),29:45,freedom! - george michael
+=- 8(out),30:00,philadelphia freedom - elton john
+=- 8(out),34:00,get off - prince
+=- 8(out),34:00,love sign - prince
+
+=- 8(out),34:30,what's going on - marvin gaye
+=- 8(out),36:30,40 - U2
+=- 8(out),37:00,go down moses - trad.
+=- 8(out),37:00,old man river - showboat
+=- 8(out),40:00,bullet the blue sky - u2
+=- 8(out),42:00,both sides now - joni mitchell
+=- 8(out),43:45,mirror in the bathroom - the beat
+=- 9(christmas),0:15,push it - salt+Pepa
+=- 9(christmas),3:15,hitops - hitops sndtk
+=- 9(christmas),7:45,baby got back - sir mix
+=- 9(christmas),32:30,shaft - isaac hayes
+
+=- 9(christmas),42:00,9 to 5 - dolly
+=- 9(christmas),47:00,your time is gonna come - zeppelin
+=- 9(christmas),54:00,wasn't me - shaggy
+
+=- 10(toothless),1:00,thong song - sisqo
+
+?- 10(toothless),21:00,blind - train (?)
+?- 10(toothless),21300jack & dian - mellencamp
+?- 10(toothless),21300jack & dian - mellencamp
+=- 10(toothless),28:30,one more night - phil collins
+=- 10(toothless),38:30,i want a new drug - huey l & tn
+=- 10(toothless),49:30,end of the road - b2men
+=- 10(toothless),50:45,hey jealousy - gin blossoms
+=- 11(google),0:30,losing my religion - rem
+=- 11(google),1:00,jack & diane - mellencamp
+
+=- 11(google),17:00,tom's diner - suzanne vega
+
+=- 11(google),19:45,Eight Is Enough - Lee Holdridge
+=- 11(google),20:00,just the two of us - bill whithers
+
+=- 11(google),26:45:The Ballad of Gilligan's Isle - Sherwood Schwartz and George Wyle
+
+=- 11(google),38:00,ghostbusters - ray parker
+
+=- 11(google),43:15,dirty work - steely dan
+=- 11(google),43:15,reelin in the years - steely dan
+=- 11(google),43:15,peg - steely dan
+=- 11(google),43:15,hey nineteen - steely dan
+=- 11(google),43:15,barrytown - steely dan
+
 -   11(google),51:45,come together - beatles
 -   11(google),51:45,hey jude - beatles
 -   11(google),51:45,And I Am Telling You I'm Not Going - dreamgirls
