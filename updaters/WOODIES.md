@@ -329,6 +329,7 @@
 -   584,14:00,that's the detail you don't know?!
 -   who said it shamon
 -   who’s the most fuckable huxtable? ++++
+- 	600,1:10:00,fuck em with the eyes first
 
 # THREEDOM
 

@@ -72,6 +72,7 @@
   - 599,6:57:45
 * standing up shaking your fist/risen
   - 373,multiple
+  - 600,42:45
   - 372?
   - 374,13:50(pw)
   - 376,1:04:45(pw)
