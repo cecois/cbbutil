@@ -155,30 +155,35 @@
 =- 11(google),43:15,hey nineteen - steely dan
 =- 11(google),43:15,barrytown - steely dan
 
--   11(google),51:45,come together - beatles
--   11(google),51:45,hey jude - beatles
--   11(google),51:45,And I Am Telling You I'm Not Going - dreamgirls
--   11(google),51:45,tom's diner - suzanne vega
--   11(google),51:45,flintstones theme song
--   11(google),51:45,little red corvette - prince &thr
--   11(google),51:45,i will always love you - dolly
--   11(google),51:45,i wish - stevie wonder
--   11(google),51:45,let's go crazy - prince &thr
--   11(google),51:45,five years - bowie
--   11(google),51:45,i don't wanna wait - paula cole
--   11(google),51:45,jack & diane - mellencamp
--   11(google),51:45,you'll be back - hamilton
--   11(google),51:45,i love it - icona pop
--   11(google),51:45,levon - elton john
--   11(google),1:02:00,i'm still standing - elton john
--   11(google),1:02:00,america the beautiful
--   12(phoneboof),0:20,blind - train (?)
--   12(phoneboof),2:30,jack & dian - mellencamp
--   12(phoneboof),4:00,longest time - billy joel
--   12(phoneboof),4:00,suddenly - billy ocean
--   12(phoneboof),4:00,suddenly i see - kt tunstall
--   12(phoneboof),4:00,get down tonight - kc & the sunshine band
--   12(phoneboof),9:00,longest time - billy joel
+=- 11(google),51:45,come together - beatles
+=- 11(google),51:45,hey jude - beatles
+=- 11(google),51:45,And I Am Telling You I'm Not Going - dreamgirls
+=- 11(google),51:45,tom's diner - suzanne vega
+=- 11(google),51:45,flintstones theme song
+
+=- 11(google),51:45,little red corvette - prince &thr
+=- 11(google),51:45,i will always love you - dolly
+=- 11(google),51:45,i wish - stevie wonder
+=- 11(google),51:45,let's go crazy - prince &thr
+=- 11(google),51:45,five years - bowie
+=- 11(google),51:45,i don't wanna wait - paula cole
+=- 11(google),51:45,jack & diane - mellencamp
+=- 11(google),51:45,you'll be back - hamilton
+
+=- 11(google),51:45,i love it - icona pop
+=- 11(google),51:45,levon - elton john
+=- 11(google),1:02:00,i'm still standing - elton john
+=- 11(google),1:02:00,america the beautiful
+=- 12(phoneboof),0:20,blind - train (?)
+=- 12(phoneboof),2:30,jack & dian - mellencamp
+
+=- 12(phoneboof),4:00,longest time - billy joel
+=- 12(phoneboof),4:00,suddenly - billy ocean
+=- 12(phoneboof),4:00,suddenly i see - kt tunstall
+=- 12(phoneboof),4:00,get down tonight - kc & the sunshine band
+
+=- 12(phoneboof),9:00,longest time - billy joel
+
 -   12(phoneboof),21:00,addams family theme song
 -   12(phoneboof),25:00,sixteen going on seventeen - sound of music
 -   12(phoneboof),25:00,summer of 69 - bryan adams
