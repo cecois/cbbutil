@@ -11,3 +11,5 @@ updaters/nod/package-lock.json
 updaters/nod/interm
 site/dist
 site/v2/node_modules
+site/v3/node_modules
+site/v3/src/Config.json
