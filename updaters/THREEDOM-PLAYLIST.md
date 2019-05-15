@@ -19,7 +19,7 @@
 =- 2(chalktalk),41:30,saturday in the park - chicago
 =- 3(Bauer),7:00,you make me feel so young - ~sinatra
 =- 3(Bauer),9:15,some like it hot - the power station
-=- 3(Bauer),11:45,jitterbug - wham
+==- 3(Bauer),11:45,jitterbug - wham
 =- 3(Bauer),14:00,everybody hurts - rem
 =- 3(Bauer),22:00,help me - Joni Mitchell
 =- 3(Bauer),22:15,Kokomo - beach boys
