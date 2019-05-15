@@ -1,29 +1,40 @@
 
 
 
-$lgod-primary: rgba(44, 55, 44, 1);
-$lgod-secondary: rgba(122, 55, 22, .5);
+$cbb-primary: rgba(144, 155, 44, 1);
+$cbb-secondary: rgba(122, 55, 22, .5);
+
+::selection {
+  background: $cbb-secondary; /* WebKit/Blink Browsers */
+  color:white;
+}
+::-moz-selection {
+  background: $cbb-secondary; /* Gecko Browsers */
+  color:white;
+}
 
 a{color:inherit;}
 .header-button{
-  color:$lgod-secondary;
-&.active{color:$lgod-primary;}
+  color:$cbb-secondary;
+&.active{color:$cbb-primary;}
 }
 
-#inputSearch {
+#zCBB-inputSearch {
   #inputContainer {
     width: 100%;
     font-weight: 800;
     color: red;
   }
 }
-
-#lgod2-level-nav-out {
-  background-color: $lgod-primary;
+.zCBB-pane{
+  height:100%;
+}
+#zCBB-level-nav-out {
+  background-color: $cbb-primary;
 }
 
-#lgod2-level-nav-out {
-  background-color: $lgod-secondary;
+#zCBB-level-nav-out {
+  background-color: $cbb-secondary;
 }
 
 // a {
@@ -41,11 +52,12 @@ nav {
   bottom: 0;
   width: 100%;
   font-size: .5em;
+  font-weight:800;
 }
 
 .columns {
   z-index: 2;
-  background-color: #455567;
+  background-color: $cbb-primary;
 }
 
 .is-loading {
