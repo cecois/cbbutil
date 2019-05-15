@@ -38,7 +38,7 @@
   <!-- Left side -->
   <div class="level-left">
     <div class="level-item">
-      <p v-for="pane in page.panes" class="subtitle is-5" v-on:click="(actives.pane=pane.slug)">
+      <p v-for="pane in page.panes" class="subtitle is-5 vCBB-nav-item" v-bind:class="[actives.pane==pane.slug ? 'is-active' : '']" v-on:click="(actives.pane=pane.slug)">
         {{pane.label}}
       </p>
     </div>
@@ -57,20 +57,62 @@
 
     <div class="zCBB-pane columns" v-if="actives.pane=='default'">
       <div class="column">
-        default pane
+        <p>default pane c1</p>
+<p>        default pane c1</p>
+<p>        default pane c1</p>
+<p>        default pane c1</p>
+<p>        default pane c1</p>
+<p>        default pane c1</p>
+<p>        default pane c1</p>
+<p>        default pane c1</p>
+<p>        default pane c1</p>
+<p>        default pane c1</p>
+<p>        default pane c1</p>
+<p>        default pane c1</p>
+<p>        default pane c1</p>
+<p>        default pane c1</p>
+<p>        default pane c1</p>
+<p>        default pane c1</p>
+<p>        default pane c1</p>
+<p>        default pane c1</p>
+<p>        default pane c1</p>
+      </div><div class="column">
+        default pane c2
       </div>
     </div>
 
     <div class="zCBB-pane columns" v-if="actives.pane=='mi2'">
       <div class="column">
-        mi2
+        mi2 c1
+      </div><div class="column">
+        <p>mi2 c2</p>
+<p>        mi2 c2</p>
+<p>        mi2 c2</p>
+<p>        mi2 c2</p>
+<p>        mi2 c2</p>
+<p>        mi2 c2</p>
+<p>        mi2 c2</p>
+<p>        mi2 c2</p>
+<p>        mi2 c2</p>
+<p>        mi2 c2</p>
+<p>        mi2 c2</p>
+<p>        mi2 c2</p>
+<p>        mi2 c2</p>
+<p>        mi2 c2</p>
+<p>        mi2 c2</p>
+<p>        mi2 c2</p>
+<p>        mi2 c2</p>
+<p>        mi2 c2</p>
+<p>        mi2 c2</p>
+<p>        mi2 c2</p>
+<p>        mi2 c2</p>
       </div>
     </div>
     
     <footer class="footer">
       <div class="level">
         <div v-for="msg in console.msgs" class="level-item has-text-left">
-          {{msg}}
+          msg:{{msg}}
         </div>
       </div>
     </footer NB="/.footer">
@@ -118,8 +160,8 @@ let uri = (this.actives.basemap) ? this.actives.basemap.uri : this.$_.findWhere(
         title: "CBB.BITMAP.v3: <something goes here>",
         splayed: false,
         panes: [{
-          label:'mi  asfd li 1',slug: 'default'
-        }, { label:'mi  asfd li 2',slug: 'mi2' }, ]
+          label:'la1',slug: 'default'
+        }, { label:'la2',slug: 'mi2' }, ]
       },
       project: { loading: false, shorthand: "CbBBtMp" },
       CONFIG: null,
@@ -130,7 +172,7 @@ let uri = (this.actives.basemap) ? this.actives.basemap.uri : this.$_.findWhere(
       basemaps: [
         { "name": "hi im name", "handle": "hiiname", "uri": "https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png", default: true }
       ],
-      actives: { basemap: null,pane:null }
+      actives: { basemap: null,pane:'default' }
     };
   },
   methods: {
