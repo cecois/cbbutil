@@ -1,11 +1,11 @@
 import Vue from "vue";
 import Router from "vue-router";
-import LGOD from "@/components/LGOD";
+import CBB from "@/components/CBB";
 Vue.use(Router);
 export default new Router({
 	routes: [{
 		path: "/"
-		, name: "LGOD"
-		, component: LGOD
+		, name: "CBB"
+		, component: CBB
 	}]
 });
