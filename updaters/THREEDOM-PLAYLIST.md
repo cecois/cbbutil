@@ -184,11 +184,13 @@
 
 =- 12(phoneboof),9:00,longest time - billy joel
 
--   12(phoneboof),21:00,addams family theme song
--   12(phoneboof),25:00,sixteen going on seventeen - sound of music
--   12(phoneboof),25:00,summer of 69 - bryan adams
--   12(phoneboof),26:15,welcome back - john sebastian
--   12(phoneboof),26:15,fat albert theme song - Ricky Sheldon
+=- 12(phoneboof),21:00,addams family theme song
+=- 12(phoneboof),25:00,sixteen going on seventeen - sound of music
+=- 12(phoneboof),25:00,summer of 69 - bryan adams
+
+=- 12(phoneboof),26:15,welcome back - john sebastian
+=- 12(phoneboof),26:15,fat albert theme song - Ricky Sheldon
+
 -   12(phoneboof),26:15,white shadow theme song - (mike post?)
 -   12(phoneboof),26:15,national anthem - f.s. key
 -   12(phoneboof),26:15,wonder woman theme song
