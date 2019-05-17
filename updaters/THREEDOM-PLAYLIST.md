@@ -19,7 +19,7 @@
 =- 2(chalktalk),41:30,saturday in the park - chicago
 =- 3(Bauer),7:00,you make me feel so young - ~sinatra
 =- 3(Bauer),9:15,some like it hot - the power station
-==- 3(Bauer),11:45,jitterbug - wham
+=- 3(Bauer),11:45,jitterbug - wham
 =- 3(Bauer),14:00,everybody hurts - rem
 =- 3(Bauer),22:00,help me - Joni Mitchell
 =- 3(Bauer),22:15,Kokomo - beach boys
@@ -184,37 +184,40 @@
 
 =- 12(phoneboof),9:00,longest time - billy joel
 
--   12(phoneboof),21:00,addams family theme song
--   12(phoneboof),25:00,sixteen going on seventeen - sound of music
--   12(phoneboof),25:00,summer of 69 - bryan adams
--   12(phoneboof),26:15,welcome back - john sebastian
--   12(phoneboof),26:15,fat albert theme song - Ricky Sheldon
--   12(phoneboof),26:15,white shadow theme song - (mike post?)
--   12(phoneboof),26:15,national anthem - f.s. key
--   12(phoneboof),26:15,wonder woman theme song
--   12(phoneboof),31:30,Under Pressure - Queen
--   12(phoneboof),32:30,just the two of us - bill whithers
--   12(phoneboof),36:00,le freak - chic
--   12(phoneboof),36:00,insane in the brain - cypress hill
--   12(phoneboof),44:30,stars are blind - paris hilton
--   12(phoneboof),54:00,it takes two - rob base
--   12(phoneboof),58:45,crosseyed and painless - talking heads
--   12(phoneboof),58:45,i like it like that - pete rodriguez
--   13(brocus),1:30,nobody speak - run the jewels
--   13(brocus),19:45,sussudio
--   13(brocus),34:00,Jack and Diane
--   13(brocus),51:00,new drug
--   13(brocus),51:00,Ghostbusters
--   13(brocus),51:00,all night long
--   13(brocus),52:30,wanna be starting something
--   13(brocus),53:00,downeaster Alexa
--   13(brocus),53:00,uncle.cracker song?
--   13(brocus),55:30,oh tanenbaum
--   13(brocus),56:00,Pacman fever
--   13(brocus),56:00,curly shuffle
--   13(brocus),57:00,kit kat bar jingle
--   13(brocus),57:00,keys on van neyes
--   13(brocus),57:00,menards jingle
+=- 12(phoneboof),21:00,addams family theme song
+=- 12(phoneboof),25:00,sixteen going on seventeen - sound of music
+=- 12(phoneboof),25:00,summer of 69 - bryan adams
+
+=- 12(phoneboof),26:15,welcome back - john sebastian
+=- 12(phoneboof),26:15,fat albert theme song - Ricky Sheldon
+
+=- 12(phoneboof),26:15,white shadow theme song - (mike post?)
+=- 12(phoneboof),26:15,national anthem - f.s. key
+=- 12(phoneboof),26:15,wonder woman theme song
+=- 12(phoneboof),31:30,Under Pressure - Queen
+=- 12(phoneboof),32:30,just the two of us - bill whithers
+=- 12(phoneboof),36:00,le freak - chic
+=- 12(phoneboof),36:00,insane in the brain - cypress hill
+=- 12(phoneboof),44:30,stars are blind - paris hilton
+=- 12(phoneboof),54:00,it takes two - rob base
+=- 12(phoneboof),58:45,crosseyed and painless - talking heads
+=- 12(phoneboof),58:45,i like it like that - pete rodriguez
+=- 13(brocus),1:30,nobody speak - run the jewels
+=- 13(brocus),19:45,sussudio
+=- 13(brocus),34:00,Jack and Diane
+=- 13(brocus),51:00,new drug
+=- 13(brocus),51:00,Ghostbusters
+=- 13(brocus),51:00,all night long
+=- 13(brocus),52:30,wanna be starting something
+=- 13(brocus),53:00,downeaster Alexa
+=- 13(brocus),53:00,uncle.cracker song?
+=- 13(brocus),55:30,oh tanenbaum
+=- 13(brocus),56:00,Pacman fever
+=- 13(brocus),56:00,curly shuffle
+=- 13(brocus),57:00,kit kat bar jingle
+=- 13(brocus),57:00,keys on van neyes
+=- 13(brocus),57:00,menards jingle
+
 -   13(brocus),57:00,call for action green 175312
 -   13(brocus),57:00,go see cal jingle
 -   13(brocus),57:00,fabric of our lives
