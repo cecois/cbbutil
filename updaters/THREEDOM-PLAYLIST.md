@@ -503,3 +503,13 @@
 -   31(frank),42:30,mama told me not to come
 -   31(frank),42:30,relax
 -   31(frank),50:00,are you having any fun - fain
+-   32(gyms),2:00,new rules - dua
+-   32(gyms),14:15,killing me softly - fugees
+-   32(gyms),20:00,let it be - beatles
+-   32(gyms),20:30,let it be - beatles
+-   32(gyms),39:00,more more more - andrea true connection
+-   32(gyms),42:00,finally - cece peniston
+-   32(gyms),51:00,kyle quit the band - td
+-   32(gyms),1:01:00,me so horny - 2livecrew
+-   32(gyms),1:03:00,new rules - dua
+-   32(gyms),1:04:00,dick in a box - sandberg

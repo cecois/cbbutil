@@ -5,6 +5,7 @@ import App from "./App";
 import router from "./router";
 import underscore from "vue-underscore";
 import vueHeadful from 'vue-headful';
+
 Vue.component('vue-headful', vueHeadful)
 Vue.use(underscore);
 Vue.config.productionTip = false;
