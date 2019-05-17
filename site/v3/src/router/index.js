@@ -4,7 +4,7 @@ import CBB from "@/components/CBB";
 Vue.use(Router);
 export default new Router({
 	routes: [{
-		path: "/"
+		path: "/:pane?/:query?/:basemap?/:update?"
 		, name: "CBB"
 		, component: CBB
 	}]

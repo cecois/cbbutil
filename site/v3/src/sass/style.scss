@@ -3,6 +3,7 @@
 
 $cbb-primary: rgba(144, 155, 44, 1);
 $cbb-secondary: rgba(122, 55, 22, .5);
+$cbb-a: purple;
 
 ::selection {
   background: $cbb-secondary; /* WebKit/Blink Browsers */
@@ -19,18 +20,36 @@ a{color:inherit;}
 &.active{color:$cbb-primary;}
 }
 
-#zCBB-inputSearch {
-  #inputContainer {
+#zCBB-throb-container{
+  height:10vh;
+  background-color:rgba($cbb-primary,.8);
+}
+
+#zCBB-inputContainer {
+
+  #zCBB-inputSearch {
     width: 100%;
-    font-weight: 800;
-    color: red;
+    input{
+        font-family:'OpenSans-ExtraBold';
+        // height:1.8em;
+        // margin-top:3%;
+  font-weight:900;
+      text-transform: lowercase;
+      // padding:0;
+    }
   }
 }
 .zCBB-pane{
   height:100%;
   overflow-y:scroll;
 }
-.vCBB-nav-item{font-variant:small-caps; color:purple;&.is-active{color:white;font-weight:800;}}
+.zCBB-nav-item{
+&:hover {
+  cursor:pointer;
+  color:darken($cbb-a,20%);
+}
+
+  font-variant:small-caps; color:$cbb-a;&.is-active{color:white;font-weight:800;}}
 #zCBB-level-nav-out {
   background-color: $cbb-primary;
 }
@@ -39,9 +58,30 @@ a{color:inherit;}
   background-color: $cbb-secondary;
 }
 
-// a {
-//   color: black;
-// }
+.bit-instance{
+    font-weight:600;
+  }
+  
+.bit-data{
+    span{
+      cursor:default;
+    }
+    }
+    // padding-left:5%;
+    // font-size:.7em;
+    .bit-data-meta{
+  }
+
+  .bit-data-meta{
+  padding-left:10%;
+}
+
+.cbb-bit-meta-bt{
+      &.is-visiblizing{
+            transform: rotate(45deg);
+          }
+    }
+
 
 nav {
   z-index: 1;
@@ -85,5 +125,12 @@ nav {
   to {
     -webkit-transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: 'OpenSans-ExtraBold';
+  font-style: normal;
+  font-weight: 400;
+  src: local('OpenSans-ExtraBold'), local('OpenSans-ExtraBold'), url('assets/fonts/OpenSans-ExtraBold.ttf') format('truetype');
 }
 
