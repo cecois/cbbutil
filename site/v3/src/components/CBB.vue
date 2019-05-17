@@ -249,6 +249,33 @@ export default {
     };
   },
   methods: {
+    TEST: function() {
+
+      let Q = { "size": 10000, "query": { "query_string": { "default_operator": "AND", "query": "(episode:594) AND holding:false" } }, "aggregations": { "all_bits": { "global": {}, "aggregations": { "tags": { "filter": { "query_string": { "default_operator": "AND", "query": "(episode:594) AND holding:false" } }, "aggregations": { "filtered_tags": { "terms": { "size": 10000, "field": "tags.comma_del" } } } }, "bits": { "filter": { "query_string": { "default_operator": "AND", "query": "(episode:594) AND holding:false" } }, "aggregations": { "filtered_bits": { "terms": { "size": 10000, "field": "bit.keyword" } } } }, "episodes": { "filter": { "query_string": { "default_operator": "AND", "query": "(episode:594) AND holding:false" } }, "aggregations": { "filtered_episodes": { "terms": { "size": 10000, "field": "episode.keyword" } } } } } } } }
+
+      this.project.loading = true
+      axios
+        .get(this.CONFIG.prod.elastic_bits, Q)
+        .then(response => {
+          console.info(
+            process.env.VERBOSITY === "DEBUG" ? "getting bits w/ axios POST..." : null
+          );
+
+          this.project.loading = false
+
+          console.log(response)
+
+        }) //axios.then
+        .catch(e => {
+          this.project.loading = false
+          this.console.msgs.push({ m: e, c: "error" })
+          console.error(e);
+        }); //axios.catch
+
+
+      // } //else.this.query
+
+    },
     getBits: function() {
       console.log("querying...")
 
