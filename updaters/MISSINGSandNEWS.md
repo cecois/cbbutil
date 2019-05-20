@@ -72,6 +72,7 @@
   - 599,6:57:45
 * standing up shaking your fist/risen
   - 373,multiple
+  - 602,37:45
   - 600,42:45
   - 372?
   - 374,13:50(pw)
@@ -1983,6 +1984,7 @@
   - 567,14:00
   - 561,44:45(pw)
   - 567,14:00(pw)
+  - 602,1:11:45
 
 - shallatoo (maxwell keeper's new catchphrase)
   - 483,several
