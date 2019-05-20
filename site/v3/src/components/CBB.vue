@@ -101,12 +101,9 @@
     </div NB="/#zCBB-throb-container">
     <div class="zCBB-pane columns" v-if="actives.pane=='default'">
       <div class="column">
-        <p>default pane c1</p>
+        <p>hero pull quote</p>
       </div>
-      <div class="column">
-        default pane c2
-      </div>
-    </div>
+    </div NB="/default/home">
     <div class="zCBB-pane columns" v-if="actives.pane=='huh'">
       <div class="column">
         huh c1
@@ -147,12 +144,26 @@
       </div>
     </div NB="/browse">
     <div class="zCBB-pane columns" v-if="actives.pane=='updates'">
-      <div class="column">
-        updates c1
-      </div>
-      <div class="column">
-        <p>updates c2</p>
-      </div>
+      <div v-for="update in updates" class="column has-text-centered">
+        <div class="tile notification has-text-centered">
+          <div class="columns" style="padding-left:10%;padding-right:10%;">
+            <div class="column is-12">
+              <h5 class="is-size-5 has-text-weight-bold">{{update.date}}</h5>
+              <div class="column has-text-weight-light">{{update.episodes}}</div>
+              <div v-for="repo in update.report">
+                <div class="column has-text-weight-light"><a :href="repo.ep_url">{{repo.slug}}</a></div>
+                <img :src="repo.image" />
+                <ul>
+                  <li v-for="sum in repo.bits_sum">
+                    {{sum.bit}} ({{sum.count}})
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div NB="/.columns">
+        </div NB="/.tile">
+        <div class="column is-1"></div>
+      </div NB="/.column w tiles">
     </div NB="/updates">
     <div class="zCBB-pane columns" v-if="actives.pane=='help'">
       <div class="column">
@@ -174,6 +185,7 @@
 
 <script>
 import CONFIG from '../Config.json'
+import updates from '../assets/updates.json'
 import { AtomSpinner } from 'epic-spinners'
 
 export default {
@@ -195,8 +207,13 @@ export default {
     this.actives = {
       pane: (this.$route.params.pane) ? this.$route.params.pane : 'default',
       basemap: (this.$route.params.basemap) ? this.$route.params.basemap : null,
-      update: (this.$route.params.update) ? this.$route.params.update : null
+      updatekey: (this.$route.params.update) ? this.$route.params.update : null
     }
+    this.updates = (this.actives.updatekey) ? null : __.last(__.sortBy(__.map(updates, (u) => {
+      let uo = u;
+      uo.sorter = new Date(u.date)
+      return uo
+    }), 'sorter').reverse(), 3);
     this.bootstrap()
     var mess = "CBB-GUI";
     if (!this.MAP) {
@@ -215,8 +232,7 @@ export default {
   mounted: function() {
     this.console.msgs.push({ m: "mounted", c: "" });
     this.getBits()
-
-    // var baseLayer = new L.TileLayer( // "https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png" // ); // map.addLayer(new L.TileLayer("https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png" // ));
+      // var baseLayer = new L.TileLayer( // "https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png" // ); // map.addLayer(new L.TileLayer("https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png" // ));
     let uri = (this.actives.basemap) ? this.actives.basemap.uri : this.$_.findWhere(this.basemaps, { default: true }).uri
     if (this.CONFIG.mode == 'T') { uri = 'http://localhost:8000/tile-T.png' }
     this.MAP.addLayer(new L.TileLayer(uri))
@@ -226,6 +242,7 @@ export default {
   },
   data() {
     return {
+      updates: null,
       query: null,
       bits: [],
       page: {
@@ -245,7 +262,7 @@ export default {
       basemaps: [
         { "name": "hi im name", "handle": "hiiname", "uri": "https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png", default: true }
       ],
-      actives: { basemap: null, pane: 'default', update: null }
+      actives: { basemap: null, pane: 'default', updatekey: null }
     };
   },
   methods: {
@@ -274,6 +291,15 @@ export default {
 
 
       // } //else.this.query
+
+    },
+    getUpdates: function() {
+
+      let u = (this.updatekey) ? this.updatekey : '';
+      console.log("updatekey:", this.updatekey);
+      let qs = (this.CONFIG.mode == '33') ? this.CONFIG.prod.atlas_updates + u : this.CONFIG.dev.atlas_updates;
+
+
 
     },
     getBits: function() {
@@ -336,9 +362,30 @@ export default {
       document.body.appendChild(j2)
 
       //HERE GOES HOME HERO PULL - FIRST DB BIT W/ HERO:TRUE
+    },
+    setRoute: function() {
 
+        // /:pane?/:query?/:basemap?/:update?
+        this.$router.push({
+          params: {
+            pane: this.actives.pane,
+            query: this.query,
+            basemap: this.actives.basemap,
+            updatekey: this.actives.updatekey
+          }
+        }); //rejplace
+      } //setRoute
+  } //methods
+  ,
+  watch: {
+    // 'active': { handler: function (vnew) { this.setActive(vnew) } } //active // ,
+    "actives": {
+      handler: function(vnew, vold) {
+
+        this.setRoute();
+      }
     }
-  }
+  } //watch
 };
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
