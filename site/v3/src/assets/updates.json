@@ -1,33 +1,13 @@
 [{
   "date": "2019.Apr.14",
-  "query": "(fake)",
-  "episodes": "fake",
-  "report": [
+  "query": "(episode:222 OR episode:444 OR episode:666)",
+  "episodes_summary": "222,444,666",
+  "reports": [
     {
-      "episode": "594",
+      "episode": "222",
       "image": "http://localhost:8000/fake-update-img.jpg",
       "slug": "now-its-time-for-a-breakdown",
       "ep_url": "http://www.earwolf.com/episode/now-its-time-for-a-breakdown",
-      "raw_bits": [
-        "Price is Right Rules",
-        "The Paul Hardcastle of Suicides",
-        "The Paul Hardcastle of Suicides",
-        "The Paul Hardcastle of Suicides",
-        "The Paul Hardcastle of Suicides",
-        "The Paul Hardcastle of Suicides",
-        "Who?",
-        "The Paul Hardcastle of Suicides",
-        "The Paul Hardcastle of Suicides",
-        "The Paul Hardcastle of Suicides",
-        "The Paul Hardcastle of Suicides",
-        "The Paul Hardcastle of Suicides",
-        "The Paul Hardcastle of Suicides",
-        "Who's Paul?",
-        "Location",
-        "Location",
-        "Location",
-        "Location"
-      ],
       "bits_sum": [
         {
           "bit": "Price is Right Rules",
@@ -50,38 +30,64 @@
           "count": 4
         }
       ]
+    },{
+      "episode": "444",
+      "image": "http://localhost:8000/fake-update-img.jpg",
+      "slug": "some-other-444",
+      "ep_url": "http://www.earwolf.com/episode/some-other-444",
+      "bits_sum": [
+        {
+          "bit": "Ice T Causes Crib Death",
+          "count": 1
+        },
+        {
+          "bit": "The Paul Hardcastle of Suicides",
+          "count": 11
+        },
+        {
+          "bit": "Who?",
+          "count": 1
+        },
+        {
+          "bit": "Who's Paul?",
+          "count": 1
+        },
+        {
+          "bit": "Location",
+          "count": 4
+        }
+      ]
+    },{
+      "episode": "666",
+      "image": "http://localhost:8000/fake-update-img.jpg",
+      "slug": "some-other-666",
+      "ep_url": "http://www.earwolf.com/episode/some-other-666",
+      "bits_sum": [
+        {
+          "bit": "You Say Baby Too!",
+          "count": 1
+        },
+        {
+          "bit": "Topping Hat",
+          "count": 1
+        },
+        {
+          "bit": "How Many?",
+          "count": 1
+        }
+      ]
     }
   ]
 },{
   "date": "2019.May.10",
   "query": "(episode:10)",
-  "episodes": "10",
-  "report": [
+  "episodes_summary": "10",
+  "reports": [
     {
       "episode": "10",
       "image": "http://localhost:8000/fake-update-img.jpg",
-      "slug": "now-its-time-for-a-breakdown",
-      "ep_url": "http://www.earwolf.com/episode/now-its-time-for-a-breakdown",
-      "raw_bits": [
-        "Price is Right Rules",
-        "The Paul Hardcastle of Suicides",
-        "The Paul Hardcastle of Suicides",
-        "The Paul Hardcastle of Suicides",
-        "The Paul Hardcastle of Suicides",
-        "The Paul Hardcastle of Suicides",
-        "Who?",
-        "The Paul Hardcastle of Suicides",
-        "The Paul Hardcastle of Suicides",
-        "The Paul Hardcastle of Suicides",
-        "The Paul Hardcastle of Suicides",
-        "The Paul Hardcastle of Suicides",
-        "The Paul Hardcastle of Suicides",
-        "Who's Paul?",
-        "Location",
-        "Location",
-        "Location",
-        "Location"
-      ],
+      "slug": "genial-cats-10",
+      "ep_url": "http://www.earwolf.com/episode/genial-cats-10",
       "bits_sum": [
         {
           "bit": "Price is Right Rules",
@@ -108,34 +114,14 @@
   ]
 },{
   "date": "2018.Aug.20",
-  "query": "(episode:101)",
-  "episodes": "101",
-  "report": [
+  "query": "(episode:101 OR episode:202)",
+  "episodes_summary": "101,202",
+  "reports": [
     {
       "episode": "101",
       "image": "http://localhost:8000/fake-update-img.jpg",
-      "slug": "now-its-time-for-a-breakdown",
-      "ep_url": "http://www.earwolf.com/episode/now-its-time-for-a-breakdown",
-      "raw_bits": [
-        "Price is Right Rules",
-        "The Paul Hardcastle of Suicides",
-        "The Paul Hardcastle of Suicides",
-        "The Paul Hardcastle of Suicides",
-        "The Paul Hardcastle of Suicides",
-        "The Paul Hardcastle of Suicides",
-        "Who?",
-        "The Paul Hardcastle of Suicides",
-        "The Paul Hardcastle of Suicides",
-        "The Paul Hardcastle of Suicides",
-        "The Paul Hardcastle of Suicides",
-        "The Paul Hardcastle of Suicides",
-        "The Paul Hardcastle of Suicides",
-        "Who's Paul?",
-        "Location",
-        "Location",
-        "Location",
-        "Location"
-      ],
+      "slug": "i-wanna-talk-to-the-fellas-for-a-minute",
+      "ep_url": "http://www.earwolf.com/episode/i-wanna-talk-to-the-fellas-for-a-minute",
       "bits_sum": [
         {
           "bit": "Price is Right Rules",

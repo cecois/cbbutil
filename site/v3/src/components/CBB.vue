@@ -21,7 +21,12 @@
             </a>
           </p>
           <p class="control">
-            <a class="button is-info">
+            <a @click="this.query=null" class="button" style="width:22px;border-left:none;">
+              <i class="fa fa-x is-size-7"></i>
+            </a>
+          </p>
+          <p class="control">
+            <a @click="getBits" class="button is-info">
               <i class="fa fa-search"></i>
             </a>
           </p>
@@ -71,7 +76,7 @@
       <div class="app-title column is-one-quarter"><span style="text-align:right;">{{page.title}}</span></div>
     </div NB="/#header ">
     <!-- </section> -->
-    <div class="columns">
+    <div class="columns" id="zCBB-app-nav">
       <div class="column"><i class="fas fa-plus-square"></i>
       </div>
       <div class="column">
@@ -82,8 +87,8 @@
               <!-- Left side -->
               <div class="level-left">
                 <div class="level-item">
-                  <p v-for="pane in page.panes" class="subtitle is-5 zCBB-nav-item" v-bind:class="[actives.pane==pane.slug ? 'is-active' : '']" @click="(actives.pane=pane.slug)">
-                    {{pane.label}} <span v-if="bits.length>0 && pane.slug=='search'" class="has-badge-rounded" :data-badge="bits.length"></span>
+                  <p v-for="pane in page.panes" class="subtitle is-5 zCBB-nav-item" v-bind:class="[actives.pane==pane.slug ? 'is-active' : '']" @click="consolelog(pane.slug);actives.pane=pane.slug">
+                    {{pane.label}}<span v-if="bits.length>0 && pane.slug=='search'" class="has-badge-rounded" :data-badge="bits.length"></span>
                   </p>
                 </div>
               </div NB="/.level-left">
@@ -101,21 +106,57 @@
     </div NB="/#zCBB-throb-container">
     <div class="zCBB-pane columns" v-if="actives.pane=='default'">
       <div class="column">
-        <p>hero pull quote</p>
+        <p>{{this.hero}}</p>
       </div>
     </div NB="/default/home">
     <div class="zCBB-pane columns" v-if="actives.pane=='huh'">
-      <div class="column">
-        huh c1
-      </div>
-      <div class="column">
-        <p>huh c2</p>
-      </div>
+
+      <div class="column is-one-fifth"></div>
+      <div class="column is-one-fifth">
+  <h1 class="title">What's this, now?!
+  <span class="bang-inline" style="">
+<span class="icom-bang" style=""></span>
+  </span>
+  </h1>
+    <p style="">Come on, guys -- it's a searchable index of all the recurring bits from the <em><a href="http://www.earwolf.com/show/comedy-bang-bang/">Comedy Bang! Bang!</a></em> podcast.
+    </p>
+</div NB="/.column">
+
+      
+  <div class="column is-one-fifth">
+
+  <h1 class="title" style="text-align:center;">
+    <span class="bang-inline" style="">
+  <span class="icom-bang" style=""></span>
+    </span>
+  Why?
+  </h1>
+  <p>Because <em><a href="http://www.earwolf.com/show/comedy-bang-bang/">CBB</a></em> is the best thing ever recorded. Or maybe the best thing to ever even happen at all.</p>
+
+</div NB="/.column">
+
+<div class="column is-one-fifth">
+<h1 class="title" style="text-align:center;">Official thing?
+  <span class="bang-inline" style="">
+  <span class="icom-bang" style=""></span>
+  </span>
+</h1>
+<p style="text-align:center;">Isn't, nope. Fansite.</p>
+</div NB="/.column">
+
+
+      
     </div NB="/huh">
     <div class="zCBB-pane columns" v-if="actives.pane=='search'">
       <div class="column">
-        facets
-      </div>
+        facets:
+
+<div v-for="(facet, key) in this.facets.all_bits" class="tile">
+  <h5 v-if="key=='doc_count'" class="is-size-7">{{facet}}</h5>
+  <h5 v-if="key!=='doc_count'" class="is-size-5">{{key}}</h5>
+</div NB="/.tile">
+
+      </div NB="/.column (facets container)">
       <div class="column is-three-quarters">
         <ul>
           <li v-for="bit in bits">
@@ -149,13 +190,13 @@
           <div class="columns" style="padding-left:10%;padding-right:10%;">
             <div class="column is-12">
               <h5 class="is-size-5 has-text-weight-bold">{{update.date}}</h5>
-              <div class="column has-text-weight-light">{{update.episodes}}</div>
-              <div v-for="repo in update.report">
-                <div class="column has-text-weight-light"><a :href="repo.ep_url">{{repo.slug}}</a></div>
-                <img :src="repo.image" />
+              <div class="column has-text-weight-light is-size-7">{{update.episodes_summary}}</div>
+              <div v-for="report in update.reports" class="has-text-centered">
+                <img :src="report.image" />
+                <div class="column has-text-weight-light is-size-7"><a :href="report.ep_url">{{report.slug}}</a> ({{report.episode}})</div>
                 <ul>
-                  <li v-for="sum in repo.bits_sum">
-                    {{sum.bit}} ({{sum.count}})
+                  <li v-for="bit in report.bits_sum" class="is-size-6">
+                    <span @click="triggerQuery(report.episode,bit.bit)" class="cbb-trigger has-badge-rounded" :data-badge="bit.count">{{bit.bit}}</span>
                   </li>
                 </ul>
               </div>
@@ -166,12 +207,84 @@
       </div NB="/.column w tiles">
     </div NB="/updates">
     <div class="zCBB-pane columns" v-if="actives.pane=='help'">
-      <div class="column">
-        help c1
+      
+<h2 class="title is-2">Help</h2>
+<div>
+  You need help? With this dumb, free thing?! Fine, here:
+</div>
+
+<div style="padding-top:5%;" class="tile content is-ancestor is-size-7">
+  <div class="tile is-vertical is-8">
+    <div class="tile">
+      <div class="tile is-parent is-vertical">
+        <article class="tile is-child box">
+          <h4 class="title is-4">Timestamps: <img class="" src="https://a-v2.sndcdn.com/assets/images/header/cloud@2x-e5fba46.png" style=""/> <small>v.</small> <img class="" src="http://v.fastcdn.co/t/fbd61fb6/9f77a6cf/1506364214-1020996-166x62-HOWLLogoHorizontalTeal.png" style=""/></h4>
+          <p>Each record has <strong>tstart</strong> and <strong>tend</strong> timestamps - ostensibly these frame the specific instance within the episode. However, when CBB audio files were moved behind the Howl paywall, it rendered many of the timestamps incorrect - as paywalled episodes pass the edit points where commercials used to be, they're offset by however long the excised commercials were.</p><p>Timestamps can still be used to get close to the instance when listening, but they are no longer accurate enough to be used for, say, supercutting or something.</p>
+        </article>
+
+      </div NB="/.tile.is-parent">
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <h4 class="title is-4">The Map <i class="fa fa-map-o"></i></h4>
+          <p>There's a Leaflet instance under here that will display the geometries associated with any bits of type="location." Look for the <i class="fa fa-map-marker"></i> and click it to zoom the map to that location. More on that under "Locations."</p>
+          <p>But a note or two about how to use said map: in an effort to reduce clutter, there are no map controls as you might find in other web maps. A zoom bar, +/-, maybe a panning control, too. None of that here - just grab the map to move it and trackpad|scroll to zoom in and out. Optionally you can shift-click+hold-drag-release in order to "select" an area of the map to which you'll immediately pan/scroll.</p>
+        </article>
+      </div NB="/.tile.is-parent">
+    </div NB="/.tile">
+    <div class="tile is-parent">
+      <article class="tile is-child box">
+        <h4 class="title is-4">Searching <i class="fa fa-search"></i></h4>
+        <p>Basically you can just type into the box like a monkey might do it - "huell" or "fourvel" and so forth. Strictly speaking you never even have to press the search button - <a href="https://www.elastic.co/products/elasticsearch">ElasticSearch</a> is fast enough to update pretty much with every character typed.</p>
+        <p>But also know that whatever you type into the box gets POSTed as-is, and since Search hits against an <a href="https://www.elastic.co/products/elasticsearch">ElasticSearch</a> (v5.6) index, (as with most search engines) there is <a href="https://www.elastic.co/guide/en/elasticsearch/reference/5.6/query-dsl-query-string-query.html">some pretty advanced stuff</a> you can do if you like. To wit:</p>
+      </article>
+    </div NB="/.tile.is-parent">
+  </div NB="/.tile">
+  <!-- ******************************************** -->
+  <div class="tile is-parent">
+    <article class="">
+      <h5 style="" class="title is-5 is-paddingless"><strong>Fields:</strong></h5>
+      <dl class="content">
+        <dt>find a specific bit using its full or partial value:</dt>
+        <dd><a href="#" class="cbb-trigger" data-target="bit:location" data-type="">bit:location</a> or <a href="#" class="cbb-trigger" data-target="bit:topping" data-type="">bit:topping</a> <code>// for DSALW's Queen's english ("topping hat")</code></dd>
+
+        <dt>find bits by date (added/updated):</dt>
+        <dd><a href="#" class="cbb-trigger" data-target="updated_at:[2017-01-01T00:00:00Z TO 2017-01-31T23:59:59Z]" data-type="">updated_at:[2017-01-01T00:00:00Z TO 2017-01-31T23:59:59Z]</a></dd>
+        <dd><small>Hint: updated_at is typically the same as created_at except when a record has been...updated. The implication is that you'll probably always want to use updated_at for any kind of date query.</small></dd>
+      </dl>
+
+    </article>
+
+
+    <!-- ******************************************** -->
+
+    <article class="">
+      <h5 style="" class="title is-5 is-paddingless"><strong>Boolean stuff:</strong></h5>
+      <div class="content">
+        <dl>
+          <dt>combine terms with either word or character operators:</dt>
+          <dd><a href="#" class="cbb-trigger" data-type="" data-target="bit:location +dimello">bit:location +dimello</a></dd>
+          <dd><a href="#" class="cbb-trigger" data-type="" data-target="mexico -adomian">mexico -adomian</a></dd>
+          <dd><a href="#" class="cbb-trigger" data-type="" data-target='collins -bit:"Phil Collins"'>collins -bit:"Phil Collins"</a><code>//Phil Collins references beyond his Live Aid Concorde stunt</code></dd>
+          <dd><a href="#" class="cbb-trigger" data-type="" data-target="where AND from AND dabney">where AND from AND dabney</a></dd>
+          <dd><a href="#" class="cbb-trigger" data-type="" data-target="(wipe AND out) NOT hardcastle">(wipe AND out) NOT hardcastle</a></dd>
+          <dd><small>Hint: otherwise-unqualified terms typed into the box are ANDed together by default.</small></dd>
+        </dl>
       </div>
-      <div class="column">
-        <p>help c2</p>
-      </div>
+    </article>
+
+  </div>
+</div NB="/.tile.is-parent">
+<div class="tile is-parent">
+  <article class="tile is-child box">
+
+   <h4 class="title is-4">Locations <i class="fa fa-map-marker"></i></h4>
+   <p>One of the bits is special (and in fact the original impetus of this entire effort). For <a href='#' class='cbb-trigger' data-type='bit' data-target='Location'>bits="Location"</a> the results will appear in the picklist (indicated by a map pin icon) <em>and</em> on the map under what you're reading now (hidden behind the main content area by default).</p><p>The ctrl key will toggle the map's visibility (as will the <i class="fa fa-map-o"></i> button); the <i style="" class="fa fa-map-marker"></i> in the search results will zoom to that instance's referenced location. <a href="#" class='cbb-trigger' data-type="" data-target='bit:Location +tags:"huell howser"'>Huell Howser</a>, <a href="#" class='cbb-trigger' data-type="" data-target='bit:Location +tags:"gino lambardo"'>Gino Lambardo</a>, <a href="#" class='cbb-trigger' data-type="" data-target='bit:Location +tags:"merrill shindler"'>Merrill Shindler</a>, and <a href="#" class='cbb-trigger' data-type="" data-target='bit:Location +tags:"shelly driftwood"'>Shelly Driftwood</a> are all good for at least a few.</p>
+
+   <p>Another thing to note about locations is that unless there's a clamor for it we do NOT spatially-index the geometries for retrieval. So while of course you can query for <em>bits</em> that reference locations (and those referenced geometries will appear on the map with minimal interaction), we're not bothering to offer the ability to, say, zoom/pan the map and query for locations <em>in that area</em>. Like, who cares?</p><p>If somebody really wants that (or the tangential ability to query for bits that reference, say, the Boston area or Marina del Rey, maybe <a class="twitter-share-button" href="https://twitter.com/share" data-size="large" data-text="custom share text" data-url="https://dev.twitter.com/web/tweet-button" data-hashtags="comedybangbang,zapstraighttoit" data-via="twitterdev"><i class="fa fa-twitter"></i> say something</a>. But really if you're <em>that interested</em> you could just query for everything (<a href="#" class="cbb-trigger" data-type="" data-target="bit:location">"bit:Location"</a>) and zoom to the spot about which you're curious.</p>
+
+ </article>
+</div NB="/.tile.is-parent">
+
     </div NB="/help">
     <footer class="footer">
       <div class="level">
@@ -193,13 +306,6 @@ export default {
     AtomSpinner
   },
   name: "CBB-GUI",
-  methods: {
-
-    SS: function() {
-
-    }
-
-  },
   created: function() {
     this.CONFIG = CONFIG
     this.project.loading = true
@@ -232,19 +338,21 @@ export default {
   mounted: function() {
     this.console.msgs.push({ m: "mounted", c: "" });
     this.getBits()
+    this.getFacets()
+    
       // var baseLayer = new L.TileLayer( // "https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png" // ); // map.addLayer(new L.TileLayer("https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png" // ));
     let uri = (this.actives.basemap) ? this.actives.basemap.uri : this.$_.findWhere(this.basemaps, { default: true }).uri
     if (this.CONFIG.mode == 'T') { uri = 'http://localhost:8000/tile-T.png' }
     this.MAP.addLayer(new L.TileLayer(uri))
 
-    this.project.loading = false
-
   },
   data() {
     return {
+      hero: null,
       updates: null,
       query: null,
       bits: [],
+      facets: [],
       page: {
         title: "CBB.BITMAP.v3: <something goes here>",
         splayed: false,
@@ -266,6 +374,13 @@ export default {
     };
   },
   methods: {
+    triggerQuery: function (ep,bt) {
+this.query='(episode:'+ep+' AND bit:"'+bt+'")'
+this.getBits()
+    },
+    consolelog: function (cl) {
+console.log(cl)
+    },
     TEST: function() {
 
       let Q = { "size": 10000, "query": { "query_string": { "default_operator": "AND", "query": "(episode:594) AND holding:false" } }, "aggregations": { "all_bits": { "global": {}, "aggregations": { "tags": { "filter": { "query_string": { "default_operator": "AND", "query": "(episode:594) AND holding:false" } }, "aggregations": { "filtered_tags": { "terms": { "size": 10000, "field": "tags.comma_del" } } } }, "bits": { "filter": { "query_string": { "default_operator": "AND", "query": "(episode:594) AND holding:false" } }, "aggregations": { "filtered_bits": { "terms": { "size": 10000, "field": "bit.keyword" } } } }, "episodes": { "filter": { "query_string": { "default_operator": "AND", "query": "(episode:594) AND holding:false" } }, "aggregations": { "filtered_episodes": { "terms": { "size": 10000, "field": "episode.keyword" } } } } } } } }
@@ -302,16 +417,47 @@ export default {
 
 
     },
-    getBits: function() {
+    getHero: function() {
+
+let QS = null;
+
+      QS = (this.CONFIG.mode == '33') ? this.CONFIG.prod.elastic_bits + '["updated_at":"2019-01-01" TO "updated_at":"2019-05-05"]' : this.CONFIG.dev.elastic_bits;
+
+      
+      QS = (this.CONFIG.mode == '33') ? this.CONFIG.prod.elastic_bits + this.query : this.CONFIG.dev.elastic_bits;
+      axios
+        .get(QS)
+        .then(response => {
+          this.project.loading = false
+console.log("hits:",response.data.hits.hits)
+          this.hero = this.$_.first(response.data.hits.hits)
+
+        }) //axios.then
+        .catch(e => {
+          this.project.loading = false
+          this.console.msgs.push({ m: e, c: "error" })
+          console.error(e);
+        }); //axios.catch
+
+
+
+    },getBits: function() {
       console.log("querying...")
 
-      // if (!this.query) { this.console.msgs.push({ m: "no query string supplied", c: "warning" }) } else {
+let QS = null;
 
-      this.console.msgs.push({ m: "querying for " + this.query + "... ...", c: "" })
+      if (!this.query || this.query=='') { 
+        // query is empty - we'll send out for just a sampling
+      this.console.msgs.push({ m: "querying for default... ...", c: "" })
+
+      QS = (this.CONFIG.mode == '33') ? this.CONFIG.prod.elastic_bits + '["updated_at":"2019-01-01" TO "updated_at":"2019-05-05"]' : this.CONFIG.dev.elastic_bits;
+      } else {
+
+      this.console.msgs.push({ m: "querying for " + this.query, c: "" })
       this.project.loading = true
-      let qs = (this.CONFIG.mode == '33') ? this.CONFIG.prod.elastic_bits + this.query : this.CONFIG.dev.elastic_bits;
+      QS = (this.CONFIG.mode == '33') ? this.CONFIG.prod.elastic_bits + this.query : this.CONFIG.dev.elastic_bits;
       axios
-        .get(qs)
+        .get(QS)
         .then(response => {
           console.info(
             process.env.VERBOSITY === "DEBUG" ? "getting bits w/ axios response..." : null
@@ -333,11 +479,35 @@ export default {
         }); //axios.catch
 
 
-      // } //else.this.query
+      } //else.this.query
+
+    },getFacets: function() {
+
+
+      this.console.msgs.push({ m: "facetizing " + this.query, c: "" })
+      this.project.loading = true
+      let QS = (this.CONFIG.mode == '33') ? this.CONFIG.prod.elastic_facets + this.query : this.CONFIG.dev.elastic_facets;
+      axios
+        .get(QS)
+        .then(response => {
+          console.info(
+            process.env.VERBOSITY === "DEBUG" ? "getting facets w/ axios response..." : null
+          );
+
+          this.project.loading = false
+
+          this.facets = response.data.aggregations
+
+        }) //axios.then
+        .catch(e => {
+          this.project.loading = false
+          this.console.msgs.push({ m: e, c: "error" })
+          console.error(e);
+        }); //axios.catch
 
     },
     wipeConsole: function() {
-      console.log("wip9ing concolse...")
+      // console.log("wip9ing concolse...")
       this.console.msgs = [];
     },
     bootstrap: function() {
@@ -369,7 +539,7 @@ export default {
         this.$router.push({
           params: {
             pane: this.actives.pane,
-            query: this.query,
+            query: (this.query!=='')?this.query:'*',
             basemap: this.actives.basemap,
             updatekey: this.actives.updatekey
           }
@@ -380,8 +550,12 @@ export default {
   watch: {
     // 'active': { handler: function (vnew) { this.setActive(vnew) } } //active // ,
     "actives": {
+      deep:true,
       handler: function(vnew, vold) {
-
+        this.setRoute();
+      }
+    },"query": {
+      handler: function(vnew, vold) {
         this.setRoute();
       }
     }
