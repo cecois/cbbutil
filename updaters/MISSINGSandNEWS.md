@@ -112,7 +112,7 @@
   - 447,36:38(pw)
   - 447,48:15(pw)
   - 447,1:06:35(pw)
-  - live-from-vulture-fest-2017,1:20:00
+  - live-from-vulture-fest-2017,1:00:00
 * whistling pete
   - 372,44:00(pw)
   - 372,1:03:00(pw)
@@ -1144,7 +1144,7 @@
 	  - bo2017.4,3:03:00
 	  - boston wilbur 7pm,40:00
 	  - http://howl.fm/audio/41284/may-4-tarrytown-ny-tarrytown-music-hall,18:00(pw)
-  - http://howl.fm/audio/46644/live-from-vulture-fest-2017,39:29(pw)
+	  - http://howl.fm/audio/46644/live-from-vulture-fest-2017,39:29(pw)
   - nyc may 13 gramercy 7pm,31:00
  - 521,1:02:00
 
