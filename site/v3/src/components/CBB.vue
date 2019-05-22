@@ -30,7 +30,7 @@
               <i class="fa fa-random"></i>
             </a>
           </p>
-        </div>
+        </div NB="">
         <!-- <div class="field has-addons has-addons-centered">
           <div class="control">
             <input style="" v-model="query" class="input is-large is-size-5 has-text-centered is-expanded" size="50%" type="text" :placeholder="(project.loading)?'loading...':'e.g. `(huell AND crowbot)` or just `heynong`'" />
@@ -126,10 +126,8 @@
                 <span class='tooltip is-tooltip-left' :data-tooltip="bit._source.elucidation"><a href="#" class="">{{bit._source.bit}}</a></span> | <a class="tooltip is-tooltip-right " href="#">{{bit._source.episode_string}}</a> ~{{bit._source.tstart}} | <span @click="bit._is_meta_visible=!bit._is_meta_visible" class="cbb-bit-meta-bt icon" v-bind:class="bit._is_meta_visible?'is-visiblizing':''"><i class="fa fa-caret-right is-size-7"></i></span>
                 <div style="" class='' v-bind:class="bit._is_meta_visible?'':'is-invisible'">
                   ( added: {{bit._source.created}} [updated {{bit._source.updated}}] | tagged: {{bit._source.tags}} | elucidation: {{bit._source.elucidation}})
-                </div>
-                <!-- /.bit-data-meta -->
-              </div>
-              <!-- /.bit-data -->
+                </div NB="/.bit-data-meta">
+              </div NB="/.bit-data">
             </div>
           </li>
         </ul>
@@ -207,7 +205,7 @@ export default {
     this.actives = {
       pane: (this.$route.params.pane) ? this.$route.params.pane : 'default',
       basemap: (this.$route.params.basemap) ? this.$route.params.basemap : null,
-      updatekey: (this.$route.params.update) ? this.$route.params.update : null
+      updatekey: (this.$route.params.updatekey) ? this.$route.params.updatekey : null
     }
     this.updates = (this.actives.updatekey) ? null : __.last(__.sortBy(__.map(updates, (u) => {
       let uo = u;
@@ -233,7 +231,7 @@ export default {
     this.console.msgs.push({ m: "mounted", c: "" });
     this.getBits()
       // var baseLayer = new L.TileLayer( // "https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png" // ); // map.addLayer(new L.TileLayer("https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png" // ));
-    let uri = (this.actives.basemap) ? this.actives.basemap.uri : this.$_.findWhere(this.basemaps, { default: true }).uri
+    let uri = (this.actives.basemap) ? this.actives.basemap.uri : this.$_.findWhere(this.basemaps, { handle: 'default' }).uri
     if (this.CONFIG.mode == 'T') { uri = 'http://localhost:8000/tile-T.png' }
     this.MAP.addLayer(new L.TileLayer(uri))
 
@@ -260,7 +258,7 @@ export default {
       incoming: null,
       MAP: null,
       basemaps: [
-        { "name": "hi im name", "handle": "hiiname", "uri": "https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png", default: true }
+        { "name": "hi im name", "handle": "default", "uri": "https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png" }
       ],
       actives: { basemap: null, pane: 'default', updatekey: null }
     };

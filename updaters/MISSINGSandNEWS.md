@@ -11,7 +11,7 @@
 1. gino's commuter map
 1. len wiseman
 1. retiring a train
-1. URLs
+1. URLs (see DOMAINS.md)
 1. literally nowhere else
 1. germany cannibalism
 1. icona pop
@@ -431,7 +431,7 @@
   - 463,2:09:50(pw)
   - 599,8:30
   - 471,1:10:40(howl)
-  - 525,9:40
+  - 525,9:00
   - 525,30:25
   - 456,1:07(pw)
   - 456,5:00(pw)
@@ -1125,29 +1125,28 @@
   - 338,1:23:10(pw)
 - you say baby too
 
-  - 521,1:02:00
-  - 599,5:02:15(tortellini)
-  - 599,5:08:45(tortellini)
-  - 599,5:13:00(tortellini)
-  - 599,5:18:00(tortellini)
-  - 579,41:30(pw)
-  - 579,2:02:05(pw)
-  - 579,48:00(pw)
-  - 571,48:20(pw)
-  - 565,1:08:20(pw)
-  - 508,45:12(pw)
-  - 515,12:30
-  - 521,1:02:00
-  - 525,5:00
-  - 525,33:00
-  - bo2017.4,3:03:00
-  - 536,16:00
-  - 536,19:50
+	  - 508,45:12(pw)
+	  - 515,12:30
+	  - 521,1:02:00
+	  - 525,33:00
+	  - 525,5:00
+	  - 536,16:00
+	  - 536,19:50
+	  - 565,1:08:20(pw)
+	  - 571,48:20(pw)
+	  - 579,2:02:05(pw)
+	  - 579,41:30(pw)
+	  - 579,48:00(pw)
+	  - 599,5:02:15(tortellini)
+	  - 599,5:08:45(tortellini)
+	  - 599,5:13:00(tortellini)
+	  - 599,5:18:00(tortellini)
+	  - bo2017.4,3:03:00
+	  - boston wilbur 7pm,40:00
+	  - http://howl.fm/audio/41284/may-4-tarrytown-ny-tarrytown-music-hall,18:00(pw)
   - http://howl.fm/audio/46644/live-from-vulture-fest-2017,39:29(pw)
-  - http://howl.fm/audio/41284/may-4-tarrytown-ny-tarrytown-music-hall,18:00(pw)
-  - boston wilbur 7pm,40:00
   - nyc may 13 gramercy 7pm,31:00
-  - # May 7 - Boston, Wilbur Theatre (7 PM),40:00
+ - 521,1:02:00
 
   * see [cbb-smc.json](/Users/ccmiller/Desktop/cbb/updaters/cbb-smc.json)
 
@@ -1549,6 +1548,7 @@
   - 507,35:00
   - 513,32:45
   - bo2017.4,14:30
+  - bo2017.4,30:00
   - bo2016.4,2:19:25
   - 584,3:10(pw)
   - 584,6:20(pw)
@@ -1985,6 +1985,7 @@
   - 561,44:45(pw)
   - 567,14:00(pw)
   - 602,1:11:45
+  - 555,1:06:00
 
 - shallatoo (maxwell keeper's new catchphrase)
   - 483,several
