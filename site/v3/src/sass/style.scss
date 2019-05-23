@@ -14,6 +14,15 @@ $cbb-a: purple;
   color:white;
 }
 
+// .column{
+//   border: 2px solid rgba(11, 0, 11, 0.2);
+// }
+
+.columns {
+  z-index: 2;
+  // border: 2px solid rgba(22, 5, 55, 0.2);
+}
+
 a{color:inherit;}
 .header-button{
   color:$cbb-secondary;
@@ -71,6 +80,18 @@ a{color:inherit;}
   background-color: $cbb-primary;
 }
 
+
+
+.zCBB-bit-data{padding:1% 0 0 0;}
+.zCBB-bit-data-meta{
+  padding:0 0 0 0; &.column{padding:0;
+  }
+}
+
+.zCBB-tag.tag{font-size:.6em;font-weight:600;cursor:pointer;background-color:$cbb-secondary;
+  &:hover{color:white;background-color:lighten($cbb-secondary,22%);}
+}
+
 .bit-instance{
     font-weight:600;
   }
@@ -110,10 +131,6 @@ nav {
   width: 100%;
   font-size: .5em;
   font-weight:800;
-}
-
-.columns {
-  z-index: 2;
 }
 
 .is-loading {

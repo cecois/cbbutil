@@ -346,71 +346,78 @@
     "episode_guests": "",
     "id_wikia": null,
     "holding": "false"
-  },{
-     "episode": "bo2017.4",
+  },
+  {
+    "episode": "bo2017.4",
     "show": "cbb",
     "tstart": "2:51:45",
     "tend": "2:52:00",
     "instance": "I don't care how fucked-up the schedule gets - make them all go to the next studio.",
-       "bit": "You Say 'Baby' Too?",
+    "bit": "You Say 'Baby' Too?",
     "elucidation": "somebody says baby also",
     "tags": "",
     "location_type": "",
     "location_id": "",
     "updated_at": "2019-05-21T08:44:33Z",
     "url_soundcloud": null,
-    "created_at": "2019-05-21T08:44:33Z","slug_soundcloud": null,
+    "created_at": "2019-05-21T08:44:33Z",
+    "slug_soundcloud": null,
     "slug_earwolf": "best-of-2017-pt-4",
     "episode_title": "Best of 2017 Pt. 4",
     "episode_guests": "Paul F. Tompkins",
     "id_wikia": null,
     "holding": "false"
-},{
-   "episode": "http://howl.fm/audio/41288/may-7-boston-wilbur-theatre-7-pm",
+  },
+  {
+    "episode": "http://howl.fm/audio/41288/may-7-boston-wilbur-theatre-7-pm",
     "show": "cbb",
     "tstart": "40:00",
     "tend": "40:30",
     "instance": "I'm all legs.",
-     "bit": "You Say 'Baby' Too?",
+    "bit": "You Say 'Baby' Too?",
     "elucidation": "somebody says baby also",
     "tags": "Alan Thicke,Frank Dorito",
     "location_type": "",
     "location_id": "",
-"updated_at": "2019-05-21T08:44:33Z",
+    "updated_at": "2019-05-21T08:44:33Z",
     "url_soundcloud": null,
-    "created_at": "2019-05-21T08:44:33Z","slug_soundcloud": null,
+    "created_at": "2019-05-21T08:44:33Z",
+    "slug_soundcloud": null,
     "slug_earwolf": "",
     "episode_title": "May 7 - Boston, Wilbur Theatre (7 PM)",
     "episode_guests": "Lauren Lapkus,Paul F. Tompkins",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": "http://howl.fm/audio/41284/may-4-tarrytown-ny-tarrytown-music-hall",
     "show": "cbb",
     "tstart": "17:50",
     "tend": "18:30",
     "instance": "That's what you yell when you slap me.",
-     "bit": "You Say 'Baby' Too?",
+    "bit": "You Say 'Baby' Too?",
     "elucidation": "somebody says baby also",
     "tags": "Regina Krimp",
     "location_type": "",
     "location_id": "",
     "updated_at": "2019-05-21T08:44:33Z",
     "url_soundcloud": null,
-    "created_at": "2019-05-21T08:44:33Z","slug_soundcloud": null, "slug_earwolf": "",
+    "created_at": "2019-05-21T08:44:33Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "",
     "episode_title": "MAY 4 - TARRYTOWN NY, TARRYTOWN MUSIC HALL",
     "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Brian Stack",
     "id_wikia": null,
     "holding": "false"
-},
-{
+  },
+  {
     "episode": "http://howl.fm/audio/46644/live-from-vulture-fest-2017",
     "show": "cbb",
     "tstart": "7:45",
     "tend": "8:00",
     "instance": "There are 502.",
     "elucidation": "without going over",
-          "bit": "Price is Right Rules",
+    "bit": "Price is Right Rules",
     "tags": "Smooth Criminal Al A. Peterson",
     "location_type": "",
     "location_id": "",
@@ -423,15 +430,15 @@
     "episode_guests": "Paul F. Tompkins,Lauren Lapkus,Lennon Parham,Jessica St. Clair,Anthony Atamanuik,John Gemberling,Ryan Gaul,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
-},
-{
+  },
+  {
     "episode": "http://howl.fm/audio/46644/live-from-vulture-fest-2017",
     "show": "cbb",
     "tstart": "25:30",
     "tend": "26:00",
     "instance": "The poet of the road.",
     "elucidation": "somebody doesn't know who or what something famous is",
-          "bit": "Who?",
+    "bit": "Who?",
     "tags": "Smooth Criminal Al A. Peterson",
     "location_type": "",
     "location_id": "",
@@ -444,15 +451,15 @@
     "episode_guests": "Paul F. Tompkins,Lauren Lapkus,Lennon Parham,Jessica St. Clair,Anthony Atamanuik,John Gemberling,Ryan Gaul,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
-},
-{
+  },
+  {
     "episode": "http://howl.fm/audio/46644/live-from-vulture-fest-2017",
     "show": "cbb",
     "tstart": "25:30",
     "tend": "26:15",
     "instance": "The poet of the road.",
     "elucidation": "any song reference",
-          "bit": "The Paul Hardcastle of Suicides",
+    "bit": "The Paul Hardcastle of Suicides",
     "tags": "Smooth Criminal Al A. Peterson,King of the Road (song),Roger Miller",
     "location_type": "",
     "location_id": "",
@@ -465,15 +472,18 @@
     "episode_guests": "Paul F. Tompkins,Lauren Lapkus,Lennon Parham,Jessica St. Clair,Anthony Atamanuik,John Gemberling,Ryan Gaul,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
-},
-{
+  },
+  {
     "episode": "http://howl.fm/audio/46644/live-from-vulture-fest-2017",
     "show": "cbb",
     "tstart": "30:30",
     "tend": "31:00",
     "instance": "It's gone under, Scott.",
-    "elucidation":"identifiable earth location","bit":"Location",
-    "nb":["carpets and rugs down there"],
+    "elucidation": "identifiable earth location",
+    "bit": "Location",
+    "nb": [
+      "carpets and rugs down there"
+    ],
     "tags": "Smooth Criminal Al A. Peterson,Big Sue",
     "location_type": "point",
     "location_id": "482",
@@ -486,15 +496,15 @@
     "episode_guests": "Paul F. Tompkins,Lauren Lapkus,Lennon Parham,Jessica St. Clair,Anthony Atamanuik,John Gemberling,Ryan Gaul,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
-},
-{
+  },
+  {
     "episode": "http://howl.fm/audio/46644/live-from-vulture-fest-2017",
     "show": "cbb",
     "tstart": "31:30",
     "tend": "32:00",
     "instance": "Now I sell magic carpets.",
     "elucidation": "any song reference",
-          "bit": "The Paul Hardcastle of Suicides",
+    "bit": "The Paul Hardcastle of Suicides",
     "tags": "Smooth Criminal Al A. Peterson,Big Sue,One Jump Ahead (song),Alan Menken,Tim Rice,Justin Hoffman,Aladdin (film)",
     "location_type": "",
     "location_id": "",
@@ -507,8 +517,8 @@
     "episode_guests": "Paul F. Tompkins,Lauren Lapkus,Lennon Parham,Jessica St. Clair,Anthony Atamanuik,John Gemberling,Ryan Gaul,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
-},
-{
+  },
+  {
     "episode": "http://howl.fm/audio/46644/live-from-vulture-fest-2017",
     "show": "cbb",
     "tstart": "39:20",
@@ -528,15 +538,15 @@
     "episode_guests": "Paul F. Tompkins,Lauren Lapkus,Lennon Parham,Jessica St. Clair,Anthony Atamanuik,John Gemberling,Ryan Gaul,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
-},
-{
+  },
+  {
     "episode": "http://howl.fm/audio/46644/live-from-vulture-fest-2017",
     "show": "cbb",
     "tstart": "41:00",
     "tend": "41:30",
     "instance": "It's a magic rag.",
     "elucidation": "any song reference",
-          "bit": "The Paul Hardcastle of Suicides",
+    "bit": "The Paul Hardcastle of Suicides",
     "tags": "Smooth Criminal Al A. Peterson,Big Sue,Magic Man (song),Heart (musical combination)",
     "location_type": "",
     "location_id": "",
@@ -549,15 +559,15 @@
     "episode_guests": "Paul F. Tompkins,Lauren Lapkus,Lennon Parham,Jessica St. Clair,Anthony Atamanuik,John Gemberling,Ryan Gaul,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
-},
-{
+  },
+  {
     "episode": "http://howl.fm/audio/46644/live-from-vulture-fest-2017",
     "show": "cbb",
     "tstart": "44:00",
     "tend": "44:30",
     "instance": "Big Sue and \\ The Bert",
     "elucidation": "any song reference",
-          "bit": "The Paul Hardcastle of Suicides",
+    "bit": "The Paul Hardcastle of Suicides",
     "tags": "Smooth Criminal Al A. Peterson,Big Sue,Beauty and the Beast (song),Howard Ashman,Alan Menken",
     "location_type": "",
     "location_id": "",
@@ -570,15 +580,15 @@
     "episode_guests": "Paul F. Tompkins,Lauren Lapkus,Lennon Parham,Jessica St. Clair,Anthony Atamanuik,John Gemberling,Ryan Gaul,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
-},
-{
+  },
+  {
     "episode": "http://howl.fm/audio/46644/live-from-vulture-fest-2017",
     "show": "cbb",
     "tstart": "44:30",
     "tend": "45:45",
     "instance": "And right now I'd like to add in just a little bit of sausage.",
     "elucidation": "a lapkus character describes food (or causes the description of food)",
-"bit": "A Round Pie.",
+    "bit": "A Round Pie.",
     "tags": "Smooth Criminal Al A. Peterson,Big Sue",
     "location_type": "",
     "location_id": "",
@@ -591,15 +601,15 @@
     "episode_guests": "Paul F. Tompkins,Lauren Lapkus,Lennon Parham,Jessica St. Clair,Anthony Atamanuik,John Gemberling,Ryan Gaul,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
-},
-{
+  },
+  {
     "episode": "http://howl.fm/audio/46644/live-from-vulture-fest-2017",
     "show": "cbb",
     "tstart": "49:00",
     "tend": "49:30",
     "instance": "Were you a Solid Gold backup singer in the 70s?",
     "elucidation": "any song reference",
-          "bit": "The Paul Hardcastle of Suicides",
+    "bit": "The Paul Hardcastle of Suicides",
     "tags": "Charlotte Listler,Marissa Wompler,You Don't Know Me (song),Michael McDonald",
     "location_type": "",
     "location_id": "",
@@ -612,15 +622,15 @@
     "episode_guests": "Paul F. Tompkins,Lauren Lapkus,Lennon Parham,Jessica St. Clair,Anthony Atamanuik,John Gemberling,Ryan Gaul,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
-},
-{
+  },
+  {
     "episode": "http://howl.fm/audio/46644/live-from-vulture-fest-2017",
     "show": "cbb",
     "tstart": "49:00",
     "tend": "49:45",
     "instance": "Michael McDonald's voice was actually yours?!",
     "elucidation": "any song reference",
-          "bit": "The Paul Hardcastle of Suicides",
+    "bit": "The Paul Hardcastle of Suicides",
     "tags": "Charlotte Listler,Marissa Wompler,Pieces of Me (song),Ashlee Simpson",
     "location_type": "",
     "location_id": "",
@@ -633,15 +643,15 @@
     "episode_guests": "Paul F. Tompkins,Lauren Lapkus,Lennon Parham,Jessica St. Clair,Anthony Atamanuik,John Gemberling,Ryan Gaul,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
-},
-{
+  },
+  {
     "episode": "http://howl.fm/audio/46644/live-from-vulture-fest-2017",
     "show": "cbb",
     "tstart": "51:45",
     "tend": "52:30",
     "instance": "I'm sorry - this happened every 90 minutes?",
     "elucidation": "a kind of teleportation",
-"bit": "B.A. Baracus",
+    "bit": "B.A. Baracus",
     "tags": "Charlotte Listler,Marissa Wompler",
     "location_type": "",
     "location_id": "",
@@ -654,16 +664,19 @@
     "episode_guests": "Paul F. Tompkins,Lauren Lapkus,Lennon Parham,Jessica St. Clair,Anthony Atamanuik,John Gemberling,Ryan Gaul,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
-},
-{
+  },
+  {
     "episode": "http://howl.fm/audio/46644/live-from-vulture-fest-2017",
     "show": "cbb",
     "tstart": "1:01:45",
     "tend": "1:02:30",
     "instance": "'Dashiki Fever' was also one of the 70s songs you sang backup on, correct?",
-    "elucidation":"identifiable earth location","bit":"Location",
+    "elucidation": "identifiable earth location",
+    "bit": "Location",
     "tags": "Charlotte Listler,Marissa Wompler",
-    "nb":["patagonia"],
+    "nb": [
+      "patagonia"
+    ],
     "location_type": "poly",
     "location_id": "438",
     "updated_at": "2019-05-20T14:15:25Z",
@@ -675,17 +688,17 @@
     "episode_guests": "Paul F. Tompkins,Lauren Lapkus,Lennon Parham,Jessica St. Clair,Anthony Atamanuik,John Gemberling,Ryan Gaul,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
-},
-{
+  },
+  {
     "episode": "http://howl.fm/audio/46644/live-from-vulture-fest-2017",
     "show": "cbb",
     "tstart": "1:01:45",
     "tend": "1:02:30",
     "instance": "'Dashiki Fever' was also one of the 70s songs you sang backup on, correct?",
- "elucidation": "a pimping subclass: somebody is asked to recite or sing a poem or song",
-"bit": "I'd Love to Hear It",
+    "elucidation": "a pimping subclass: somebody is asked to recite or sing a poem or song",
+    "bit": "I'd Love to Hear It",
     "tags": "Charlotte Listler,Marissa Wompler",
-    "nb":[],
+    "nb": [],
     "location_type": "",
     "location_id": "",
     "updated_at": "2019-05-20T14:15:25Z",
@@ -697,17 +710,17 @@
     "episode_guests": "Paul F. Tompkins,Lauren Lapkus,Lennon Parham,Jessica St. Clair,Anthony Atamanuik,John Gemberling,Ryan Gaul,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
-},
-{
+  },
+  {
     "episode": "http://howl.fm/audio/46644/live-from-vulture-fest-2017",
     "show": "cbb",
     "tstart": "1:03:15",
     "tend": "1:03:45",
     "instance": "Sing it, Scott.",
-"elucidation": "any song reference",
-          "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "bit": "The Paul Hardcastle of Suicides",
     "tags": "Charlotte Listler,Marissa Wompler,Smooth Criminal Al A. Peterson,Erykah Badu,Next Lifetime (song)",
-    "nb":[],
+    "nb": [],
     "location_type": "",
     "location_id": "",
     "updated_at": "2019-05-20T14:15:25Z",
@@ -719,17 +732,17 @@
     "episode_guests": "Paul F. Tompkins,Lauren Lapkus,Lennon Parham,Jessica St. Clair,Anthony Atamanuik,John Gemberling,Ryan Gaul,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
-},
-{
+  },
+  {
     "episode": "http://howl.fm/audio/46644/live-from-vulture-fest-2017",
     "show": "cbb",
     "tstart": "1:03:15",
     "tend": "1:03:45",
     "instance": "Sing it, Scott.",
- "elucidation": "a pimping subclass: somebody is asked to recite or sing a poem or song",
-"bit": "I'd Love to Hear It",
+    "elucidation": "a pimping subclass: somebody is asked to recite or sing a poem or song",
+    "bit": "I'd Love to Hear It",
     "tags": "Charlotte Listler,Marissa Wompler,Smooth Criminal Al A. Peterson",
-    "nb":[],
+    "nb": [],
     "location_type": "",
     "location_id": "",
     "updated_at": "2019-05-20T14:15:25Z",
@@ -741,17 +754,17 @@
     "episode_guests": "Paul F. Tompkins,Lauren Lapkus,Lennon Parham,Jessica St. Clair,Anthony Atamanuik,John Gemberling,Ryan Gaul,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
-},
-{
+  },
+  {
     "episode": "http://howl.fm/audio/46644/live-from-vulture-fest-2017",
     "show": "cbb",
     "tstart": "1:03:15",
     "tend": "1:03:45",
     "instance": "Sing it, Scott.",
- "elucidation": "the rule of 'yes, and' is invoked or abused",
-"bit": "Yes, And...",
+    "elucidation": "the rule of 'yes, and' is invoked or abused",
+    "bit": "Yes, And...",
     "tags": "Charlotte Listler,Marissa Wompler,Smooth Criminal Al A. Peterson,Erykah Badu",
-    "nb":[],
+    "nb": [],
     "location_type": "",
     "location_id": "",
     "updated_at": "2019-05-20T14:15:25Z",
@@ -763,16 +776,20 @@
     "episode_guests": "Paul F. Tompkins,Lauren Lapkus,Lennon Parham,Jessica St. Clair,Anthony Atamanuik,John Gemberling,Ryan Gaul,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
-},
-{
+  },
+  {
     "episode": "http://howl.fm/audio/46644/live-from-vulture-fest-2017",
     "show": "cbb",
     "tstart": "1:09:45",
     "tend": "1:10:30",
     "instance": "And I'm Gracie Allen because, of course, because I am a half-fish, half-woman from the grey seas of the Atlantic Ocean.",
-    "elucidation":"identifiable earth location","bit":"Location",
+    "elucidation": "identifiable earth location",
+    "bit": "Location",
     "tags": "George Burns,Gracie Allen",
-    "nb":["mariana trench","home of: Gracie Allen"],
+    "nb": [
+      "mariana trench",
+      "home of: Gracie Allen"
+    ],
     "location_type": "point",
     "location_id": "921",
     "updated_at": "2019-05-20T14:15:25Z",
@@ -784,17 +801,17 @@
     "episode_guests": "Paul F. Tompkins,Lauren Lapkus,Lennon Parham,Jessica St. Clair,Anthony Atamanuik,John Gemberling,Ryan Gaul,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
-},
-{
+  },
+  {
     "episode": "http://howl.fm/audio/46644/live-from-vulture-fest-2017",
     "show": "cbb",
     "tstart": "1:11:30",
     "tend": "1:11:55",
     "instance": "What, do I got a fish dick hangin' out?",
     "elucidation": "a character is referred to by the name/pronoun of their player",
-"bit": "Who's Paul?",
+    "bit": "Who's Paul?",
     "tags": "George Burns,Gracie Allen",
-    "nb":[],
+    "nb": [],
     "location_type": "",
     "location_id": "",
     "updated_at": "2019-05-20T14:15:25Z",
@@ -806,17 +823,17 @@
     "episode_guests": "Paul F. Tompkins,Lauren Lapkus,Lennon Parham,Jessica St. Clair,Anthony Atamanuik,John Gemberling,Ryan Gaul,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
-},
-{
+  },
+  {
     "episode": "http://howl.fm/audio/46644/live-from-vulture-fest-2017",
     "show": "cbb",
     "tstart": "1:13:45",
     "tend": "1:14:30",
     "instance": "Which is hard in the ocean cuz there's so much shellfish around.",
     "elucidation": "something is disgusting in some way",
-"bit": "Oh Boy",
+    "bit": "Oh Boy",
     "tags": "George Burns,Gracie Allen",
-    "nb":[],
+    "nb": [],
     "location_type": "",
     "location_id": "",
     "updated_at": "2019-05-20T14:15:25Z",
@@ -828,5 +845,27 @@
     "episode_guests": "Paul F. Tompkins,Lauren Lapkus,Lennon Parham,Jessica St. Clair,Anthony Atamanuik,John Gemberling,Ryan Gaul,Drew Tarver",
     "id_wikia": null,
     "holding": "false"
-}
+  },
+  {
+    "episode": "http://howl.fm/audio/46644/live-from-vulture-fest-2017",
+    "show": "cbb",
+    "tstart": "1:26:45",
+    "tend": "1:29:00",
+    "instance": "How about a roll call?",
+    "bit": "How Many?",
+    "elucidation": "a pimping subclass: somebody asks for a list of things",
+    "tags": "George Burns,Gracie Allen,Smooth Criminal Al A. Peterson",
+    "nb": [],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-05-20T14:15:25Z",
+    "url_soundcloud": null,
+    "created_at": "2019-05-20T14:15:25Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "live-from-vulture-fest-2017",
+    "episode_title": "Live from Vulture Fest 2017",
+    "episode_guests": "Paul F. Tompkins,Lauren Lapkus,Lennon Parham,Jessica St. Clair,Anthony Atamanuik,John Gemberling,Ryan Gaul,Drew Tarver",
+    "id_wikia": null,
+    "holding": "false"
+  }
 ]

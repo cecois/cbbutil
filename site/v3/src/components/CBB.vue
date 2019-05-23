@@ -163,17 +163,33 @@
           <li v-for="bit in bits" class="box has-text-left">
             <i v-if="bit._source.bit=='Location'" style="font-size:1.1em;" class="fa fa-map-marker" />
             <span class="bit-instance">{{bit._source.instance}}</span>
-            <div class="columns">
-              <div style="" class='column bit-data'>
-                <span class='tooltip is-tooltip-left' :data-tooltip="bit._source.elucidation"><a href="#" class="">{{bit._source.bit}}</a></span> | <a class="tooltip is-tooltip-right " href="#">{{bit._source.episode_string}}</a> ~{{bit._source.tstart}} | <span @click="bit._is_meta_visible=!bit._is_meta_visible" class="cbb-bit-meta-bt icon" v-bind:class="bit._is_meta_visible?'is-visiblizing':''"><i class="fa fa-caret-right is-size-7"></i></span>
-                <div style="" class="is-size-7 bit-data-meta">
-                  ( <span v-if="bit._source.created_at">added: {{bit._source.created_at}}</span> <span v-if="bit._source.updated_at">(updated {{bit._source.updated_at}})</span> | elucidation: {{bit._source.elucidation}})
-                </div NB="/.bit-data-meta">
-                <div style="" class="is-size-7 bit-data-meta-minutiae">
-                  <span class="tag" v-for="tag in bit._source.tags"> {{tag}}</span>
-                </div NB="/.bit-data-meta-minutiae">
-              </div NB="/.bit-data">
-            </div>
+            
+            <div class="columns zCBB-bit-data">
+              <div class="column is-1"></div>
+              <div style="" class='column zCBB-bit-data'>
+                <span class='tooltip is-tooltip-left' :data-tooltip="bit._source.elucidation"><a href="#" class="">{{bit._source.bit}}</a></span>
+
+                <span class="has-text-grey-light">[{{bit._source.elucidation}}]</span>
+              </div NB="/.column .zCBB-bit-data">
+            </div NB="columns">
+                <!-- <a class="tooltip is-tooltip-right " href="#">{{bit._source.episode_string}}</a> -->
+                <!-- <div style="" class="is-size-7 bit-data-meta"> -->
+
+                  <!-- <span v-if="bit._source.created_at">added: {{$MOMENT(bit._source.created_at).format('YYYY.MMM.Mo')}}</span> <span v-if="bit._source.updated_at">(updated {{$MOMENT(bit._source.updated_at).format('YYYY.MMM.Mo')}})</span> -->
+                <!-- </div NB="/.bit-data-meta"> -->
+            <div class="columns zCBB-bit-data-meta">
+                
+              <div class="column is-1"></div>
+              
+<div style="" class="column is-size-7 is-paddingless">
+  <span class="is-size-7 has-text-grey-lighter">~{{bit._source.tstart}}</span> 
+                  <span class="is-size-7 has-text-grey-lighter" v-if="bit._source.created_at">added: {{$MOMENT(bit._source.created_at).format('YYYY.MMM.Mo')}}</span> <span class="is-size-7 has-text-grey-lighter" v-if="bit._source.updated_at">(updated {{$MOMENT(bit._source.updated_at).format('YYYY.MMM.Mo')}})</span>
+</div NB="/.column">
+
+<div v-bind:class="1>=0?'is-white':'is-light'" @click="triggerSingleFieldQuery('tag',tag)" class="zCBB-tag tag" v-for="tag in (bit._source.tags.split(','))"> {{tag}}</div NB="tags">
+            
+            </div NB="/.columns  .zCBB-bit-data-meta">
+
           </li>
         </ul>
       </div>
@@ -198,7 +214,7 @@
                 <div class="column has-text-weight-light is-size-7"><a :href="report.ep_url">{{report.slug}}</a> ({{report.episode}})</div>
                 <ul>
                   <li v-for="bit in report.bits_sum" class="is-size-6">
-                    <span @click="triggerQuery(report.episode,bit.bit)" class="cbb-trigger has-badge-rounded" :data-badge="bit.count">{{bit.bit}}</span>
+                    <span @click="triggerUpdateQuery(report.episode,bit.bit)" class="cbb-trigger has-badge-rounded" :data-badge="bit.count">{{bit.bit}}</span>
                   </li>
                 </ul>
               </div>
@@ -379,8 +395,12 @@ export default {
     };
   },
   methods: {
-    triggerQuery: function (ep,bt) {
+    triggerUpdateQuery: function (ep,bt) {
 this.query='(episode:'+ep+' AND bit:"'+bt+'")'
+this.getBits()
+    },
+    triggerSingleFieldQuery: function (f,v) {
+this.query=f+':"'+v+'"'
 this.getBits()
     },
     consolelog: function (cl) {
@@ -555,6 +575,7 @@ let QS = null;
           }
         }); //rejplace
       } //setRoute
+      
   } //methods
   ,
   watch: {
@@ -566,6 +587,9 @@ let QS = null;
       }
     },"query": {
       handler: function(vnew, vold) {
+        let s = 'tag:"bob ducca"'.toLowerCase()
+        console.log('s:',s)
+        console.log(indexOf(s))
         this.setRoute();
       }
     }

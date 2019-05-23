@@ -113,6 +113,7 @@
   - 447,48:15(pw)
   - 447,1:06:35(pw)
   - live-from-vulture-fest-2017,1:00:00
+  - live-from-vulture-fest-2017,1:30:45
 * whistling pete
   - 372,44:00(pw)
   - 372,1:03:00(pw)
@@ -2002,7 +2003,7 @@
   - bo2017.2,1:53:00
   - other Best-Ofs[]()
 - moveon.org
-
+	- live-from-vulture-fest-2017,1:35:00
   - 434,9:30(pw)[]()
 
 - interesting people
