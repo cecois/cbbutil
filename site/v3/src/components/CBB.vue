@@ -160,7 +160,7 @@
       </div NB="/.column (facets container)">
       <div class="column is-three-quarters">
         <ul>
-          <li v-for="bit in bits" class="box has-text-left">
+          <li v-if="bits.length>1" v-for="bit in bits" class="box has-text-left">
             <i v-if="bit._source.bit=='Location'" style="font-size:1.1em;" class="fa fa-map-marker" />
             <span class="bit-instance">{{bit._source.instance}}</span>
             
@@ -186,10 +186,13 @@
                   <span class="is-size-7 has-text-grey-lighter" v-if="bit._source.created_at">added: {{$MOMENT(bit._source.created_at).format('YYYY.MMM.Mo')}}</span> <span class="is-size-7 has-text-grey-lighter" v-if="bit._source.updated_at">(updated {{$MOMENT(bit._source.updated_at).format('YYYY.MMM.Mo')}})</span>
 </div NB="/.column">
 
-<div v-bind:class="1>=0?'is-white':'is-light'" @click="triggerSingleFieldQuery('tag',tag)" class="zCBB-tag tag" v-for="tag in (bit._source.tags.split(','))"> {{tag}}</div NB="tags">
+<div v-if="bit._source.tags" v-bind:class="[(query && encodeURI(query.toLowerCase()).indexOf('tag%3A%22'+tag+'%22'.toLowerCase())>=0)?'is-info':'is-dark']" @click="triggerSingleFieldQuery('tag',tag)" class="zCBB-tag tag" v-for="tag in (bit._source.tags.split(','))">{{tag}}</div NB="tags">
             
             </div NB="/.columns  .zCBB-bit-data-meta">
 
+          </li>
+          <li v-else>
+            big bit: {{bit._source.instance}}
           </li>
         </ul>
       </div>
