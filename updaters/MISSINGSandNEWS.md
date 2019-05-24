@@ -83,6 +83,7 @@
   - 475 early
   - 476,40:30(pw)
   - 482,1:03:45(pw)
+  - 451,40:00
 * bajillion (or any) call sheet
   - bo2018.\*
   - bo2018.3,1:58:00(pw)
@@ -1851,6 +1852,11 @@
   - 303,1:25:30
   - 349,22:50(pw)
   - 349,30:00(pw)
+- bro's weed strains
+	- 439,34:00(maybe earlier)
+- walking down the street
+	- a billion eps
+	- 439,4:00
 - clumsy portmanteau
   - ~~438,30:50(pw)~~
   - ~~463,15:50(pw)~~
@@ -1864,16 +1870,14 @@
 - off the rails/retiring a train
   - 2016.sydney,37:30
   - 438,36:00(pw)
-  - 439,40:10
-  - 439,40:10
   - 440,1:09:00(pw)
-  - 440,1:16:00
+  - **440,1:16:00**
   - 441,4:45(pw)
   - 451,2:00(pw)
   - 451,42:15(pw)
-  - 471,19:30(pw)
-  - 486,21:50(ads)
-  - 500,3:00
+  - **471,19:30(pw)**
+  - **486,21:50(ads)**
+  - **500,3:00**
 - out of the park (fair ball / foul ball )
   - tig+alynne episode
   - 482,25:35(howl)

@@ -95,6 +95,7 @@ live-from-vulture-fest-2017
 -   2016.seattle,50:45,i think they famously had wood in jesus' time
 -   2016.shepherds,1:38:30,more like home reminded you of it
 -   2016.sydney,1:33:12,tom petty was in line to see richard petty
+-   2016.sydney,1:11:00,did a doctor just wander onto the stage?
 -   2016.toronto0505,34:00,please welcome ms. crimp (nope)
 -   2016.toronto0506,1:22:00,canada day
 -   2016.toronto0506,22:15,you wanna pretend to be someone that i have a gay crush on?
