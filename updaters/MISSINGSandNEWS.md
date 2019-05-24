@@ -2,7 +2,7 @@
 
 0. clean up nephew todd tag, "tiny reviews music" eluc
 1. fix "Regina Krimp" vs. "Crimp"
-1. you say baby too
+1. ~~you say baby too~~
 1. fix doobie brothers tag
 2. fix gramercy may 13 ep title times (9:30 v 7)
 1. mr. microphone
@@ -1861,18 +1861,18 @@
   - missed at least one b/t 301 and 346
   - 346,2:50(pw)
 - off the rails/retiring a train
+  - 2016.sydney,37:30
+  - 438,36:00(pw)
+  - 439,40:10
   - 439,40:10
   - 440,1:09:00(pw)
-  - 441,4:45(pw)
-  - 439,40:10
   - 440,1:16:00
-  - 2016.sydney,37:30
+  - 441,4:45(pw)
   - 451,2:00(pw)
   - 451,42:15(pw)
   - 471,19:30(pw)
   - 486,21:50(ads)
   - 500,3:00
-  - 438,36:00(pw)
 - out of the park (fair ball / foul ball )
   - tig+alynne episode
   - 482,25:35(howl)
