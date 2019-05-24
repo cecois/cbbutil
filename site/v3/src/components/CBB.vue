@@ -88,7 +88,7 @@
               <!-- Left side -->
               <div class="level-left">
                 <div class="level-item">
-                  <p v-for="pane in page.panes" class="subtitle is-5 zCBB-nav-item" v-bind:class="[actives.pane==pane.slug ? 'is-active' : '']" @click="consolelog(pane.slug);actives.pane=pane.slug">
+                  <p v-for="pane in page.panes" class="subtitle is-5 zCBB-nav-item has-text-weight-light" v-bind:class="[actives.pane==pane.slug ? 'is-active has-text-weight-bold' : '']" @click="consolelog(pane.slug);actives.pane=pane.slug">
                     {{pane.label}}<span v-if="bits.length>0 && pane.slug=='search'" class="has-badge-rounded" :data-badge="bits.length"></span>
                   </p>
                 </div>
@@ -191,9 +191,8 @@
 
   <!-- Right side -->
   <div class="level-right">
-    <p class="level-item">
-      <span class="is-size-5 has-text-grey-lighter">~{{bit._source.tstart}}</span> 
-                                <span style="margin-left:1em;" class="is-size-7 has-text-grey-lighter" v-if="bit._source.created_at">added: {{$MOMENT(bit._source.created_at).format('YYYY.MMM.Mo')}}</span> <span class="is-size-7 has-text-grey-lighter" v-if="bit._source.updated_at"> | updated {{$MOMENT(bit._source.updated_at).format('YYYY.MMM.Mo')}}</span>
+    <p class="level-item"> 
+                                <span style="margin-left:1em;" class="is-size-7 has-text-grey-lighter" v-if="bit._source.created_at">~{{bit._source.tstart}}&nbsp;|&nbsp;added: {{$MOMENT(bit._source.created_at).format('YYYY.MMM.Mo')}}</span> <span class="is-size-7 has-text-grey-lighter" v-if="bit._source.updated_at">&nbsp;|&nbsp;updated {{$MOMENT(bit._source.updated_at).format('YYYY.MMM.Mo')}}</span>
     </p NB="/.level-item">
   </div NB="/.level-right">
 </div>
@@ -215,7 +214,7 @@
                 <!-- </div NB="/.bit-data-meta"> -->
             <div class="columns zCBB-bit-data-meta">
                 
-              <div class="column is-2"></div>
+              <div class="column is-1"></div>
               
 <!-- <div style="" class="column is-size-7 is-paddingless">
   <span class="is-size-7 has-text-grey-lighter">~{{bit._source.tstart}}</span> 
