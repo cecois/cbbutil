@@ -1,5 +1,6 @@
 <template>
   <div class="">
+    <div id="map" style="width: 100%;height: 100%;position: fixed;top: 0;right: 0;bottom: 0;left: 0;"></div>
     <vue-headful :title="page.title" description="fxsxxxrrrre" />
     <!-- <section class="section"> -->
     <div id="zCBB-header" class="columns">
@@ -17,12 +18,12 @@
           </p>
           <p class="control">
             <a class="button" style="width:46px;border-left:none;">
-              <atom-spinner style="" v-if="(project.loading==true)" :animation-duration="1000" :size="20" :color="'#000'"></atom-spinner>
+              <atom-spinner style="" v-if="project.loading==true" :animation-duration="1000" :size="20" :color="'#000'"></atom-spinner>
             </a>
           </p>
           <p class="control">
-            <a @click="this.query=null" class="button" style="width:22px;border-left:none;">
-              <i class="fa fa-x is-size-7"></i>
+            <a @click="query=null" class="button has-text-light" style="width:22px;border-left:none;">
+              <i class="fa fa-circle is-size-7"></i>
             </a>
           </p>
           <p class="control">
@@ -87,7 +88,7 @@
               <!-- Left side -->
               <div class="level-left">
                 <div class="level-item">
-                  <p v-for="pane in page.panes" class="subtitle is-5 zCBB-nav-item" v-bind:class="[actives.pane==pane.slug ? 'is-active' : '']" @click="consolelog(pane.slug);actives.pane=pane.slug">
+                  <p v-for="pane in page.panes" class="subtitle is-5 zCBB-nav-item has-text-weight-light" v-bind:class="[actives.pane==pane.slug ? 'is-active has-text-weight-bold' : '']" @click="consolelog(pane.slug);actives.pane=pane.slug">
                     {{pane.label}}<span v-if="bits.length>0 && pane.slug=='search'" class="has-badge-rounded" :data-badge="bits.length"></span>
                   </p>
                 </div>
@@ -159,17 +160,74 @@
       </div NB="/.column (facets container)">
       <div class="column is-three-quarters">
         <ul>
-          <li v-for="bit in bits">
-            <i v-if="bit._source.bit=='Location'" style="font-size:1.3em;" class="fa fa-map-marker" />
+          <li v-if="bits.length>1" v-for="bit in bits" class="box has-text-left">
+            <i v-if="bit._source.bit=='Location'" style="font-size:1.1em;" class="fa fa-map-marker" />
             <span class="bit-instance">{{bit._source.instance}}</span>
-            <div class="columns">
-              <div style="" class='column bit-data'>
-                <span class='tooltip is-tooltip-left' :data-tooltip="bit._source.elucidation"><a href="#" class="">{{bit._source.bit}}</a></span> | <a class="tooltip is-tooltip-right " href="#">{{bit._source.episode_string}}</a> ~{{bit._source.tstart}} | <span @click="bit._is_meta_visible=!bit._is_meta_visible" class="cbb-bit-meta-bt icon" v-bind:class="bit._is_meta_visible?'is-visiblizing':''"><i class="fa fa-caret-right is-size-7"></i></span>
-                <div style="" class='' v-bind:class="bit._is_meta_visible?'':'is-invisible'">
-                  ( added: {{bit._source.created}} [updated {{bit._source.updated}}] | tagged: {{bit._source.tags}} | elucidation: {{bit._source.elucidation}})
-                </div NB="/.bit-data-meta">
-              </div NB="/.bit-data">
-            </div>
+            
+            <div class="columns zCBB-bit-data">
+              <div class="column is-1"></div>
+     
+<!-- Main container -->
+<div class="level">
+  <!-- Left side -->
+  <div class="level-left">
+    <div class="level-item">
+      <p class="subtitle is-5">
+      
+<div style="" class='zCBB-bit-data'>
+                                              <span class='tooltip is-tooltip-left' :data-tooltip="bit._source.elucidation"><a href="#" class="">{{bit._source.bit}}</a></span>
+                              
+                                              <span class="has-text-grey-light">({{bit._source.elucidation}})</span>
+                                            </div NB="/..zCBB-bit-data">
+
+      </p>
+    </div NB="/.level-item">
+    <div class="level-item">
+      <div class="field has-addons">
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Right side -->
+  <div class="level-right">
+    <p class="level-item"> 
+                                <span style="margin-left:1em;" class="is-size-7 has-text-grey-lighter" v-if="bit._source.created_at">~{{bit._source.tstart}}&nbsp;|&nbsp;added: {{$MOMENT(bit._source.created_at).format('YYYY.MMM.Mo')}}</span> <span class="is-size-7 has-text-grey-lighter" v-if="bit._source.updated_at">&nbsp;|&nbsp;updated {{$MOMENT(bit._source.updated_at).format('YYYY.MMM.Mo')}}</span>
+    </p NB="/.level-item">
+  </div NB="/.level-right">
+</div>
+
+<!--               <div class="level">
+                <div class="level-left"></div>
+              
+<div class="level-right">                            <div style="" class="level-item is-size-7 is-paddingless">
+                
+              </div NB="/.level-item"></div>
+            </div NB="/.level"> -->
+
+
+            </div NB="columns">
+                <!-- <a class="tooltip is-tooltip-right " href="#">{{bit._source.episode_string}}</a> -->
+                <!-- <div style="" class="is-size-7 bit-data-meta"> -->
+
+                  <!-- <span v-if="bit._source.created_at">added: {{$MOMENT(bit._source.created_at).format('YYYY.MMM.Mo')}}</span> <span v-if="bit._source.updated_at">(updated {{$MOMENT(bit._source.updated_at).format('YYYY.MMM.Mo')}})</span> -->
+                <!-- </div NB="/.bit-data-meta"> -->
+            <div class="columns zCBB-bit-data-meta">
+                
+              <div class="column is-1"></div>
+              
+<!-- <div style="" class="column is-size-7 is-paddingless">
+  <span class="is-size-7 has-text-grey-lighter">~{{bit._source.tstart}}</span> 
+                  <span class="is-size-7 has-text-grey-lighter" v-if="bit._source.created_at">added: {{$MOMENT(bit._source.created_at).format('YYYY.MMM.Mo')}}</span> <span class="is-size-7 has-text-grey-lighter" v-if="bit._source.updated_at">(updated {{$MOMENT(bit._source.updated_at).format('YYYY.MMM.Mo')}})</span>
+</div NB="/.column"> -->
+
+<div v-if="bit._source.tags" v-bind:class="[(query && encodeURI(query.toLowerCase()).indexOf('tag%3A%22'+tag+'%22'.toLowerCase())>=0)?'is-info':'is-dark']" @click="triggerSingleFieldQuery('tag',tag)" class="zCBB-tag tag" v-for="tag in (bit._source.tags.split(','))">{{tag}}</div NB="tags">
+            
+            </div NB="/.columns  .zCBB-bit-data-meta">
+
+          </li>
+          <li v-else>
+            big bit: {{bit._source.instance}}
           </li>
         </ul>
       </div>
@@ -194,7 +252,7 @@
                 <div class="column has-text-weight-light is-size-7"><a :href="report.ep_url">{{report.slug}}</a> ({{report.episode}})</div>
                 <ul>
                   <li v-for="bit in report.bits_sum" class="is-size-6">
-                    <span @click="triggerQuery(report.episode,bit.bit)" class="cbb-trigger has-badge-rounded" :data-badge="bit.count">{{bit.bit}}</span>
+                    <span @click="triggerUpdateQuery(report.episode,bit.bit)" class="cbb-trigger has-badge-rounded" :data-badge="bit.count">{{bit.bit}}</span>
                   </li>
                 </ul>
               </div>
@@ -306,7 +364,8 @@ export default {
   name: "CBB-GUI",
   created: function() {
     this.CONFIG = CONFIG
-    this.project.loading = true
+    // this.bootstrap()
+    // this.project.loading = true
     this.query = (this.$route.params.query) ? this.$route.params.query : null
     this.actives = {
       pane: (this.$route.params.pane) ? this.$route.params.pane : 'default',
@@ -318,16 +377,9 @@ export default {
       uo.sorter = new Date(u.date)
       return uo
     }), 'sorter').reverse(), 3);
-    this.bootstrap()
+    
     var mess = "CBB-GUI";
-    if (!this.MAP) {
-      this.MAP = new L.Map("map", {
-        zoomControl: false,
-        center: [51.505, -0.09],
-        attributionControl: false,
-        zoom: 2
-      });
-    }
+    
     this.msg = mess.toUpperCase();
     setInterval(() => {
       this.wipeConsole()
@@ -338,7 +390,16 @@ export default {
     this.getBits()
     this.getFacets()
     
-      // var baseLayer = new L.TileLayer( // "https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png" // ); // map.addLayer(new L.TileLayer("https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png" // ));
+      
+      if (!this.MAP) {
+      this.MAP = new L.Map("map", {
+        zoomControl: false,
+        center: [51.505, -0.09],
+        attributionControl: false,
+        zoom: 2
+      });
+    }
+
     let uri = (this.actives.basemap) ? this.actives.basemap.uri : this.$_.findWhere(this.basemaps, { handle: 'default' }).uri
     if (this.CONFIG.mode == 'T') { uri = 'http://localhost:8000/tile-T.png' }
     this.MAP.addLayer(new L.TileLayer(uri))
@@ -372,8 +433,12 @@ export default {
     };
   },
   methods: {
-    triggerQuery: function (ep,bt) {
+    triggerUpdateQuery: function (ep,bt) {
 this.query='(episode:'+ep+' AND bit:"'+bt+'")'
+this.getBits()
+    },
+    triggerSingleFieldQuery: function (f,v) {
+this.query=f+':"'+v+'"'
 this.getBits()
     },
     consolelog: function (cl) {
@@ -427,7 +492,7 @@ let QS = null;
         .get(QS)
         .then(response => {
           this.project.loading = false
-console.log("hits:",response.data.hits.hits)
+// console.log("hits:",response.data.hits.hits)
           this.hero = this.$_.first(response.data.hits.hits)
 
         }) //axios.then
@@ -440,7 +505,8 @@ console.log("hits:",response.data.hits.hits)
 
 
     },getBits: function() {
-      console.log("querying...")
+      
+      this.project.loading=true;
 
 let QS = null;
 
@@ -449,11 +515,15 @@ let QS = null;
       this.console.msgs.push({ m: "querying for default... ...", c: "" })
 
       QS = (this.CONFIG.mode == '33') ? this.CONFIG.prod.elastic_bits + '["updated_at":"2019-01-01" TO "updated_at":"2019-05-05"]' : this.CONFIG.dev.elastic_bits;
+      console.log("QS:",QS)
       } else {
 
       this.console.msgs.push({ m: "querying for " + this.query, c: "" })
       this.project.loading = true
       QS = (this.CONFIG.mode == '33') ? this.CONFIG.prod.elastic_bits + this.query : this.CONFIG.dev.elastic_bits;
+      } //else.this.query
+
+      // console.log("QS:",QS)
       axios
         .get(QS)
         .then(response => {
@@ -461,23 +531,23 @@ let QS = null;
             process.env.VERBOSITY === "DEBUG" ? "getting bits w/ axios response..." : null
           );
 
-          this.project.loading = false
+          
+          // console.log("RESP:",response)
 
-          this.bits = this.$_.map(response.data.hits.hits, (h) => {
-            let hi = h;
-            hi._is_meta_visible = false;
-            return hi;
-          })
+          this.bits = response.data.hits.hits
 
         }) //axios.then
         .catch(e => {
-          this.project.loading = false
+        
           this.console.msgs.push({ m: e, c: "error" })
           console.error(e);
-        }); //axios.catch
+        }) //axios.catch
+        .finally(()=>{
+          this.project.loading = false
+        })
 
 
-      } //else.this.query
+      
 
     },getFacets: function() {
 
@@ -510,24 +580,24 @@ let QS = null;
     },
     bootstrap: function() {
       console.log('bootstrapping in mode: ' + this.CONFIG.mode)
-      let s0 = (this.CONFIG.mode == 'T') ? 'http://localhost:8000/axios.min.js' : 'https://AXIOS.js'
-      let j0 = document.createElement('script');
-      j0.src = s0;
-      j0.async = false;
-      j0.type = 'text/javascript';
-      document.body.appendChild(j0)
-      let s1 = (this.CONFIG.mode == 'T') ? 'http://localhost:8000/leaflet.js' : 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js'
-      let j1 = document.createElement('script');
-      j1.src = s1;
-      j1.async = false;
-      j1.type = 'text/javascript';
-      document.body.appendChild(j1)
-      let s2 = (this.CONFIG.mode == 'T') ? 'http://localhost:8000/all.js' : 'https://use.fontawesome.com/releases/v5.0.4/js/all.js'
-      let j2 = document.createElement('script');
-      j2.src = s2;
-      j2.async = false;
-      j2.type = 'text/javascript';
-      document.body.appendChild(j2)
+      // let s0 = (this.CONFIG.mode == 'T') ? 'http://localhost:8000/axios.min.js' : 'https://AXIOS.js'
+      // let j0 = document.createElement('script');
+      // j0.src = s0;
+      // j0.async = false;
+      // j0.type = 'text/javascript';
+      // document.body.appendChild(j0)
+      // let s1 = (this.CONFIG.mode == 'T') ? 'http://localhost:8000/leaflet.js' : 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js'
+      // let j1 = document.createElement('script');
+      // j1.src = s1;
+      // j1.async = false;
+      // j1.type = 'text/javascript';
+      // document.body.appendChild(j1)
+      // let s2 = (this.CONFIG.mode == 'T') ? 'http://localhost:8000/all.js' : 'https://use.fontawesome.com/releases/v5.0.4/js/all.js'
+      // let j2 = document.createElement('script');
+      // j2.src = s2;
+      // j2.async = false;
+      // j2.type = 'text/javascript';
+      // document.body.appendChild(j2)
 
       //HERE GOES HOME HERO PULL - FIRST DB BIT W/ HERO:TRUE
     },
@@ -543,6 +613,7 @@ let QS = null;
           }
         }); //rejplace
       } //setRoute
+      
   } //methods
   ,
   watch: {
@@ -554,6 +625,9 @@ let QS = null;
       }
     },"query": {
       handler: function(vnew, vold) {
+        let s = 'tag:"bob ducca"'.toLowerCase()
+        console.log('s:',s)
+        console.log(indexOf(s))
         this.setRoute();
       }
     }

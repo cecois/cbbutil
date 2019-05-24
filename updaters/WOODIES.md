@@ -25,6 +25,7 @@
 76.1
 76.2
 78
+live-from-vulture-fest-2017
 
 ### instances
 
