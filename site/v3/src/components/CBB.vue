@@ -22,8 +22,8 @@
             </a>
           </p>
           <p class="control">
-            <a @click="query=null" class="button" style="width:22px;border-left:none;">
-              <i class="fa fa-square is-size-7"></i>
+            <a @click="query=null" class="button has-text-light" style="width:22px;border-left:none;">
+              <i class="fa fa-circle is-size-7"></i>
             </a>
           </p>
           <p class="control">
@@ -166,11 +166,47 @@
             
             <div class="columns zCBB-bit-data">
               <div class="column is-1"></div>
-              <div style="" class='column zCBB-bit-data'>
-                <span class='tooltip is-tooltip-left' :data-tooltip="bit._source.elucidation"><a href="#" class="">{{bit._source.bit}}</a></span>
+     
+<!-- Main container -->
+<div class="level">
+  <!-- Left side -->
+  <div class="level-left">
+    <div class="level-item">
+      <p class="subtitle is-5">
+      
+<div style="" class='zCBB-bit-data'>
+                                              <span class='tooltip is-tooltip-left' :data-tooltip="bit._source.elucidation"><a href="#" class="">{{bit._source.bit}}</a></span>
+                              
+                                              <span class="has-text-grey-light">({{bit._source.elucidation}})</span>
+                                            </div NB="/..zCBB-bit-data">
 
-                <span class="has-text-grey-light">[{{bit._source.elucidation}}]</span>
-              </div NB="/.column .zCBB-bit-data">
+      </p>
+    </div NB="/.level-item">
+    <div class="level-item">
+      <div class="field has-addons">
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Right side -->
+  <div class="level-right">
+    <p class="level-item">
+      <span class="is-size-5 has-text-grey-lighter">~{{bit._source.tstart}}</span> 
+                                <span style="margin-left:1em;" class="is-size-7 has-text-grey-lighter" v-if="bit._source.created_at">added: {{$MOMENT(bit._source.created_at).format('YYYY.MMM.Mo')}}</span> <span class="is-size-7 has-text-grey-lighter" v-if="bit._source.updated_at"> | updated {{$MOMENT(bit._source.updated_at).format('YYYY.MMM.Mo')}}</span>
+    </p NB="/.level-item">
+  </div NB="/.level-right">
+</div>
+
+<!--               <div class="level">
+                <div class="level-left"></div>
+              
+<div class="level-right">                            <div style="" class="level-item is-size-7 is-paddingless">
+                
+              </div NB="/.level-item"></div>
+            </div NB="/.level"> -->
+
+
             </div NB="columns">
                 <!-- <a class="tooltip is-tooltip-right " href="#">{{bit._source.episode_string}}</a> -->
                 <!-- <div style="" class="is-size-7 bit-data-meta"> -->
@@ -179,12 +215,12 @@
                 <!-- </div NB="/.bit-data-meta"> -->
             <div class="columns zCBB-bit-data-meta">
                 
-              <div class="column is-1"></div>
+              <div class="column is-2"></div>
               
-<div style="" class="column is-size-7 is-paddingless">
+<!-- <div style="" class="column is-size-7 is-paddingless">
   <span class="is-size-7 has-text-grey-lighter">~{{bit._source.tstart}}</span> 
                   <span class="is-size-7 has-text-grey-lighter" v-if="bit._source.created_at">added: {{$MOMENT(bit._source.created_at).format('YYYY.MMM.Mo')}}</span> <span class="is-size-7 has-text-grey-lighter" v-if="bit._source.updated_at">(updated {{$MOMENT(bit._source.updated_at).format('YYYY.MMM.Mo')}})</span>
-</div NB="/.column">
+</div NB="/.column"> -->
 
 <div v-if="bit._source.tags" v-bind:class="[(query && encodeURI(query.toLowerCase()).indexOf('tag%3A%22'+tag+'%22'.toLowerCase())>=0)?'is-info':'is-dark']" @click="triggerSingleFieldQuery('tag',tag)" class="zCBB-tag tag" v-for="tag in (bit._source.tags.split(','))">{{tag}}</div NB="tags">
             
