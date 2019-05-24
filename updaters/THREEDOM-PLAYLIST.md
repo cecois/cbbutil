@@ -515,3 +515,19 @@
 -   32(gyms),1:01:00,me so horny - 2livecrew
 -   32(gyms),1:03:00,new rules - dua
 -   32(gyms),1:04:00,dick in a box - sandberg
+-   33(1+1),1:30,gilligan's island theme
+-   33(1+1),3:00,stay i missed you - lisa loeb
+-   33(1+1),7:00,new rules (kids bop v) - dua
+-   33(1+1),10:30,new rules (kids bop v) - dua
+-   33(1+1),13:00,new rules (kids bop v) - dua
+-   33(1+1),14:50,don't turn around the kommissar - ronnie jones
+-   33(1+1),18:30,new rules (kids bop v) - dua
+-   33(1+1),30:00,new years day - u2
+-   33(1+1),30:15,life in the fast lane - eagles
+-   33(1+1),30:30,back in the 90s - grouplove
+-   33(1+1),31:30,new rules (kids bop v) - dua
+-   33(1+1),32:50,life in the fast lane - eagles
+-   33(1+1),33:15,praise you - fatboy slim
+-   33(1+1),39:30,don't you worry bout a thing - stevie wonder
+-   33(1+1),44:15,the boy is mine - monica & brandi
+-   33(1+1),44:15,the girl is mine - micheal jackson

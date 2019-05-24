@@ -4,6 +4,7 @@
 1. fix "Regina Krimp" vs. "Crimp"
 1. you say baby too
 1. fix doobie brothers tag
+2. fix gramercy may 13 ep title times (9:30 v 7)
 1. mr. microphone
 1. ~~jarles~~
 1. ~~clumsy portmanteau~~
@@ -447,7 +448,7 @@
   - 579,56:40(pw)
   - 579,6:00(pw)
   - 463,2:07:20(pw)
-  - 521,12:00
+  - 521,11:30
   - 475,17:20(howl)
   - 485,5:45(ads)
   - 305,37:30
@@ -1145,8 +1146,7 @@
 	  - boston wilbur 7pm,40:00
 	  - http://howl.fm/audio/41284/may-4-tarrytown-ny-tarrytown-music-hall,18:00(pw)
 	  - http://howl.fm/audio/46644/live-from-vulture-fest-2017,39:29(pw)
-  - nyc may 13 gramercy 7pm,31:00
- - 521,1:02:00
+	  - nyc may 13 gramercy 7pm,31:00
 
   * see [cbb-smc.json](/Users/ccmiller/Desktop/cbb/updaters/cbb-smc.json)
 
