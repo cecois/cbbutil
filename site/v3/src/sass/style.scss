@@ -6,6 +6,9 @@ $cbb-primary: rgba(144, 155, 44, 1);
 $cbb-secondary: rgba(122, 55, 22, .5);
 $cbb-a: purple;
 
+$zCBB-header-height:5vh;
+$zCBB-app-nav-height:10vh;
+
 ::selection {
   background: $cbb-secondary; /* WebKit/Blink Browsers */
   color:white;
@@ -22,6 +25,9 @@ $cbb-a: purple;
 .columns {
   z-index: 2;
   // border: 2px solid rgba(22, 5, 55, 0.2);
+.zCBB-hero-column{
+
+   }
 }
 
 a{color:inherit;}
@@ -30,18 +36,21 @@ a{color:inherit;}
 &.active{color:$cbb-baseline;}
 }
 
-.cbb-trigger{cursor:pointer;&:hover{color:lighten($cbb-a,22%);}}
+.zCBB-trigger{color:$cbb-a;cursor:pointer;&:hover{color:darken($cbb-a,22%);}}
 
 #zCBB-header{
   background-color:$cbb-baseline;
+  min-height:$zCBB-header-height;
 }
 #zCBB-app-nav{
   background-color:$cbb-baseline;
+  min-height:$zCBB-app-nav-height;
 }
-#zCBB-throb-container{
-  height:10vh;
-  background-color:$cbb-baseline;
-}
+// #zCBB-throb-container{
+//   height:10vh;
+//   background-color:$cbb-baseline;
+// }
+
 
 #zCBB-inputContainer {
 
@@ -58,12 +67,17 @@ a{color:inherit;}
   }
 }
 .zCBB-pane{
-  height:100%;
+  
+  min-height: calc(100vh - #{$zCBB-header-height});
+  padding-top:5em;
   background-color:$cbb-baseline;
   overflow-y:scroll;
   img {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
+}
+.zCBB-facet{
+  padding-left:2em;
 }
 }
 .zCBB-nav-item{
