@@ -19,7 +19,7 @@
             </a>
           </p>
           <p class="control">
-            <input style="" v-model="query" class="input has-text-centered is-expanded" size="50%" type="text" :placeholder="(project.loading)?'loading...':'e.g. `(huell AND crowbot)` or just `heynong`'" />
+            <input style="" v-model="query.string" class="input has-text-centered is-expanded" size="50%" type="text" :placeholder="(project.loading)?'loading...':'e.g. `(huell AND crowbot)` or just `heynong`'" />
           </p>
           
           
@@ -101,14 +101,14 @@
       <div class="column"><i class="fas fas fa-minus-square"></i></div>
     </div NB="/.columns">
 
-    <div class="zCBB-pane columns" v-if="actives.pane=='default'">
+    <div :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='default'">
       <div v-if="hero" class="column zCBB-hero-column">
         <p class="is-size-2 has-text-weight-bold has-text-right" style="padding-right:3em;">{{hero._source.instance}}</p>
         <p class="is-size-5 has-text-weight-light has-text-right" style="padding-right:5em;">-- {{hero._source.hero.attrib}}</p>
         <p class="is-size-7 has-text-weight-light has-text-right" style="padding-right:5em;"><span @click="setQueryFire(hero._source,['bit','episode'])" class="zCBB-trigger">{{hero._source.bit}}</span> (ep.{{hero._source.episode.split('/')[hero._source.episode.split('/').length-1]}})</p>
       </div>
     </div NB="/default/home">
-    <div class="zCBB-pane columns" v-if="actives.pane=='huh'">
+    <div :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='huh'">
 
       <div class="column is-one-fifth"></div>
       <div class="column is-one-fifth">
@@ -146,14 +146,17 @@
 
       
     </div NB="/huh">
-    <div style="padding-top:2em;" class="zCBB-pane columns" v-if="actives.pane=='search'">
+    <div style="padding-top:2em;" :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='search'">
       
-      <div class="zCBB-facet column has-text-left has-text-weight-light is-size-7">
+      <div v-if="!page.splayed" class="zCBB-facet column has-text-left has-text-weight-light is-size-7">
 
 <div v-if="key == 'bits'" v-for="(facet, key) in this.facets">
   <h5 :class="['is-size-5','has-text-weight-bold']">{{key}}</h5>
   <ul>
-    <li v-for="bucket in facet.filtered_bits.buckets"><span class="zCBB-trigger">{{bucket.key}}</span> ({{bucket.doc_count}})</li>
+    <li v-for="bucket in facet.filtered_bits.buckets">
+      <!-- <span :class="uContains(query.facets.bits,bucket.key)?'zCBB-trigger':''">{{bucket.key}}</span> -->
+      <span @click="query.facets.bits.push(bucket.key)" :class="$_.contains(query.facets.bits,bucket.key)?'zCBB-trigger':''">{{bucket.key}}</span>
+       ({{bucket.doc_count}}) <sup v-if="$_.contains(query.facets.bits,bucket.key)"><i class="fa fa-ban zCBB-trigger-facet-remove"></i></sup></li>
   </ul>
 </div NB="/.facet in facets">
 
@@ -174,7 +177,8 @@
 <div v-if="key == 'episodes'" v-for="(facet, key) in this.facets">
   <h5 :class="['is-size-5','has-text-weight-bold']">{{key}}</h5>
   <ul>
-    <li @click="query=query+' AND '+bucket.key" v-for="bucket in facet.filtered_episodes.buckets"><span class="zCBB-trigger">{{bucket.key.split('/')[bucket.key.split('/').length-1]}}</span> ({{bucket.doc_count}})</li>
+    <!-- <li @click="query=query+' AND '+bucket.key" v-for="bucket in facet.filtered_episodes.buckets"><span class="zCBB-trigger">{{bucket.key.split('/')[bucket.key.split('/').length-1]}}</span> ({{bucket.doc_count}})</li> -->
+    <li @click="query.facets.push(bucket.key)" v-for="bucket in facet.filtered_episodes.buckets"><span class="zCBB-trigger">{{bucket.key.split('/')[bucket.key.split('/').length-1]}}</span> ({{bucket.doc_count}})</li>
   </ul>
 </div NB="/.facet in facets">
 
@@ -186,7 +190,7 @@
             <span class="bit-instance">{{bit._source.instance}}</span>
             
             <div class="columns zCBB-bit-data">
-              <div class="column is-1"></div>
+              <div v-if="!page.splayed" class="column is-1"></div>
      
 <!-- Main container -->
 <div class="level">
@@ -196,9 +200,9 @@
       <p class="subtitle is-5">
       
 <div style="" class='zCBB-bit-data'>
-                                              <span class='tooltip is-tooltip-left' :data-tooltip="bit._source.elucidation">bit: <a href="#" class="">{{bit._source.bit}}</a></span>
+                                              <span class='tooltip is-tooltip-left' :data-tooltip="bit._source.elucidation"><span v-if="!page.splayed">bit: </span><a href="#" class="">{{bit._source.bit}}</a></span>
                               
-                                              <span class="has-text-grey-light">({{bit._source.elucidation}})</span>
+                                              <span v-if="!page.splayed" class="has-text-grey-light">({{bit._source.elucidation}})</span>
                                             </div NB="/..zCBB-bit-data">
 
       </p>
@@ -233,7 +237,7 @@
 
                   <!-- <span v-if="bit._source.created_at">added: {{$MOMENT(bit._source.created_at).format('YYYY.MMM.Mo')}}</span> <span v-if="bit._source.updated_at">(updated {{$MOMENT(bit._source.updated_at).format('YYYY.MMM.Mo')}})</span> -->
                 <!-- </div NB="/.bit-data-meta"> -->
-            <div class="columns zCBB-bit-data-meta">
+            <div v-if="!page.splayed" class="columns zCBB-bit-data-meta">
                 
               <div class="column is-1"></div>
               
@@ -244,7 +248,7 @@
 
 <div class="column is-7"><span style="margin-left:1em;" class="is-size-7 has-text-grey-lighter">ep.{{bit._source.episode.split('/')[bit._source.episode.split('/').length-1]}}</span><span class="is-size-7 has-text-grey-lighter" v-if="bit._source.created_at">&nbsp;|&nbsp;~{{bit._source.tstart}}&nbsp;|&nbsp;added: {{$MOMENT(bit._source.created_at).format('YYYY.MMM.Mo')}}</span><span class="is-size-7 has-text-grey-lighter" v-if="bit._source.updated_at">&nbsp;|&nbsp;updated {{$MOMENT(bit._source.updated_at).format('YYYY.MMM.Mo')}}</span></div NB="/.column">
 
-<div class="column"><div v-if="bit._source.tags" style="margin-left:1px;" v-bind:class="['zCBB-tag','tag',(query && encodeURI(query.toLowerCase()).indexOf('tag%3A%22'+tag+'%22'.toLowerCase())>=0)?'is-info':'is-dark']" @click="triggerSingleFieldQuery('tag',tag)" v-for="tag in (bit._source.tags.split(','))">{{tag}}</div NB="tags"></div NB="/.column">
+<div class="column"><div v-if="bit._source.tags" style="margin-left:1px;" v-bind:class="['zCBB-tag','tag',(query.string && encodeURI(query.string.toLowerCase()).indexOf('tag%3A%22'+tag+'%22'.toLowerCase())>=0)?'is-info':'is-dark']" @click="triggerSingleFieldQuery('tag',tag)" v-for="tag in (bit._source.tags.split(','))">{{tag}}</div NB="tags"></div NB="/.column">
             
             </div NB="/.columns  .zCBB-bit-data-meta">
 
@@ -255,7 +259,7 @@
         </ul>
       </div>
     </div NB="/search">
-    <div class="zCBB-pane columns" v-if="actives.pane=='browse'">
+    <div :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='browse'">
       <div class="column">
         browse c1
       </div>
@@ -263,7 +267,7 @@
         <p>browse c2</p>
       </div>
     </div NB="/browse">
-    <div class="zCBB-pane columns" v-if="actives.pane=='updates'">
+    <div :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='updates'">
       <div v-for="update in updates" class="column has-text-centered">
         <div class="tile notification has-text-centered">
           <div class="columns" style="padding-left:10%;padding-right:10%;">
@@ -297,7 +301,7 @@
       <div class="tile is-parent is-vertical">
         <article class="tile is-child box">
           <h4 class="title is-4">Timestamps: <img class="" src="https://a-v2.sndcdn.com/assets/images/header/cloud@2x-e5fba46.png" style=""/> <small>v.</small> <img class="" src="http://v.fastcdn.co/t/fbd61fb6/9f77a6cf/1506364214-1020996-166x62-HOWLLogoHorizontalTeal.png" style=""/></h4>
-          <p>Each record has <strong>tstart</strong> and <strong>tend</strong> timestamps - ostensibly these frame the specific instance within the episode. However, when CBB audio files were moved behind the Howl paywall, it rendered many of the timestamps incorrect - as paywalled episodes pass the edit points where commercials used to be, they're offset by however long the excised commercials were.</p><p>Timestamps can still be used to get close to the instance when listening, but they are no longer accurate enough to be used for, say, supercutting or something.</p>
+          <p>Each record has <strong>tstart</strong> and <strong>tend</strong> timestamps - ostensibly these frame the specific instance within the episode. However, when CBB audio files were moved behind the Howl paywall (and then to Stitcher), it rendered many of the timestamps incorrect - as paywalled episodes pass the edit points where commercials used to be, they're offset by however long the excised commercials were.</p><p>Timestamps can still be used to get close to the instance when listening, but they are no longer accurate enough to be used for, say, supercutting or something.</p>
         </article>
 
       </div NB="/.tile.is-parent">
@@ -305,14 +309,14 @@
         <article class="tile is-child box">
           <h4 class="title is-4">The Map <i class="fa fa-map-o"></i></h4>
           <p>There's a Leaflet instance under here that will display the geometries associated with any bits of type="location." Look for the <i class="fa fa-map-marker"></i> and click it to zoom the map to that location. More on that under "Locations."</p>
-          <p>But a note or two about how to use said map: in an effort to reduce clutter, there are no map controls as you might find in other web maps. A zoom bar, +/-, maybe a panning control, too. None of that here - just grab the map to move it and trackpad|scroll to zoom in and out. Optionally you can shift-click+hold-drag-release in order to "select" an area of the map to which you'll immediately pan/scroll.</p>
+          <p>But a note or two about how to use said map: in an effort to reduce clutter, there are no map controls as you might find in other web maps (zoom bar, +/-, maybe a panning control, too). None of that here - just grab the map to move it and trackpad|scroll to zoom in and out. Optionally you can shift-click+hold-drag-release in order to "select" an area of the map to which you'll immediately zoom.</p>
         </article>
       </div NB="/.tile.is-parent">
     </div NB="/.tile">
     <div class="tile is-parent">
       <article class="tile is-child box">
         <h4 class="title is-4">Searching <i class="fa fa-search"></i></h4>
-        <p>Basically you can just type into the box like a monkey might do it - "huell" or "fourvel" and so forth. Strictly speaking you never even have to press the search button - <a href="https://www.elastic.co/products/elasticsearch">ElasticSearch</a> is fast enough to update pretty much with every character typed.</p>
+        <p>Basically you can just type into the box like a monkey might do it - "huell" or "fourvel" and so forth.</p>
         <p>But also know that whatever you type into the box gets POSTed as-is, and since Search hits against an <a href="https://www.elastic.co/products/elasticsearch">ElasticSearch</a> (v5.6) index, (as with most search engines) there is <a href="https://www.elastic.co/guide/en/elasticsearch/reference/5.6/query-dsl-query-string-query.html">some pretty advanced stuff</a> you can do if you like. To wit:</p>
       </article>
     </div NB="/.tile.is-parent">
@@ -388,7 +392,8 @@ export default {
     this.CONFIG = CONFIG
     // this.bootstrap()
     // this.project.loading = true
-    this.query = (this.$route.params.query) ? this.$route.params.query : null
+    this.query.string = (this.$route.params.query && this.$route.params.query!=='*') ? this.$route.params.query : null
+    // this.query.facets = (this.$route.params.facets) ? decodeURI(this.$route.params.facets.split(",")) : []
     this.actives = {
       pane: (this.$route.params.pane) ? this.$route.params.pane : 'default',
       basemap: (this.$route.params.basemap) ? this.$route.params.basemap : null,
@@ -400,14 +405,20 @@ export default {
       return uo
     }), 'sorter').reverse(), 3);
     
-    var mess = "CBB-GUI";
+    var mess = "CBB-guI";
     
     this.msg = mess.toUpperCase();
     setInterval(() => {
       this.wipeConsole()
     }, 30000)
+
+  },
+  beforeDestroy: function () {
+    window.removeEventListener('keydown', this.keyMonitor)
   },
   mounted: function() {
+    this.CONFIG = CONFIG
+    window.addEventListener('keydown', this.keyMonitor)
     this.console.msgs.push({ m: "mounted", c: "" });
     // this.getBits()
     // this.getFacets()
@@ -431,9 +442,10 @@ export default {
   },
   data() {
     return {
+      CONFIG: null,
       hero: null,
       updates: null,
-      query: null,
+      query: {string:null,facets:{bits:[],episodes:[],guests:[],tags:[]}},
       bits: [],
       facets: [],
       page: {
@@ -445,7 +457,6 @@ export default {
         }, { label: 'Huh?', slug: 'huh' }, { label: 'Search', slug: 'search' }, { label: 'Browse', slug: 'browse' }, { label: 'Updates', slug: 'updates' }, { label: 'Help', slug: 'help' }]
       },
       project: { loading: false, shorthand: "CbBBtMp" },
-      CONFIG: null,
       console: { msgs: [] },
       modalClass: false,
       incoming: null,
@@ -502,6 +513,11 @@ console.log(cl)
       let qs = (this.CONFIG.mode == '33') ? this.CONFIG.prod.atlas_updates + u : this.CONFIG.dev.atlas_updates;
 
 
+
+    },
+    keyMonitor: function(e){
+
+if(e.ctrlKey){this.page.splayed=!this.page.splayed}
 
     },
     setQueryFire: function(B,wa) {
@@ -567,7 +583,7 @@ if(this.CONFIG.mode=='33'){
   "query": {
     "query_string": {
       "default_operator": "AND",
-      "query": this.query
+      "query": this.query.string +(this.query.facets.guests.length>0)?' AND ('+__.uniq(this.query.facets.guests).join(' AND ')+')':''+(this.query.facets.tags.length>0)?' AND ('+__.uniq(this.query.facets.tags).join(' AND ')+')':''+(this.query.facets.bits.length>0)?' AND ('+__.uniq(this.query.facets.bits).join(' AND ')+')':''+(this.query.facets.episodes.length>0)?' AND ('+__.uniq(this.query.facets.episodes).join(' AND ')+')':''
     }
   },
   "aggregations": {
@@ -578,7 +594,7 @@ if(this.CONFIG.mode=='33'){
           "filter": {
             "query_string": {
               "default_operator": "AND",
-              "query": this.query
+              "query": this.query.string + (this.query.facets.guests.length>0)?' AND ('+__.uniq(this.query.facets.guests).join(' AND ')+')':''
             }
           },
           "aggregations": {
@@ -594,7 +610,7 @@ if(this.CONFIG.mode=='33'){
           "filter": {
             "query_string": {
               "default_operator": "AND",
-              "query": this.query
+              "query": this.query.string + (this.query.facets.tags.length>0)?' AND ('+__.uniq(this.query.facets.tags).join(' AND ')+')':''
             }
           },
           "aggregations": {
@@ -610,7 +626,7 @@ if(this.CONFIG.mode=='33'){
           "filter": {
             "query_string": {
               "default_operator": "AND",
-              "query": this.query
+              "query": this.query.string + (this.query.facets.bits.length>0)?' AND ('+__.uniq(this.query.facets.bits).join(' AND ')+')':''
             }
           },
           "aggregations": {
@@ -626,7 +642,7 @@ if(this.CONFIG.mode=='33'){
           "filter": {
             "query_string": {
               "default_operator": "AND",
-              "query": this.query
+              "query": this.query.string + (this.query.facets.episodes.length>0)?' AND ('+__.uniq(this.query.facets.episodes).join(' AND ')+')':''
             }
           },
           "aggregations": {
@@ -654,7 +670,6 @@ axios.post(this.CONFIG.prod.elastic_bits,QS)
           
           this.bits = response.data.hits.hits
           this.facets = response.data.aggregations.all_bits
-          // console.log("Bs:",response.data.aggregations.all_bits.bits.filtered_bits.buckets.key|doc_count)
 
         }) //axios.then
         .catch(e => {
@@ -672,14 +687,9 @@ QS=this.CONFIG.dev.elastic_bits;
 // console.log('QS for axios.get:',QS)
 axios.get(QS)
         .then(response => {
-          console.info(
-            process.env.VERBOSITY === "DEBUG" ? "getting bits w/ axios response..." : null
-          );
-
-          
-          // console.log("RESP:",response)
 
           this.bits = response.data.hits.hits
+          this.facets = response.data.aggregations.all_bits
 
         }) //axios.then
         .catch(e => {
@@ -691,20 +701,6 @@ axios.get(QS)
           this.project.loading = false
         })
 } //if.else.mode
-
-      // QS = (this.CONFIG.mode == '33') ? this.CONFIG.prod.elastic_bits + '["updated_at":"2019-01-01" TO "updated_at":"2019-05-05"]' : 
-      // console.log("QS:",QS)
-      // } else {
-
-      // this.console.msgs.push({ m: "querying for " + this.query, c: "" })
-      // QS = (this.CONFIG.mode == '33') ? this.CONFIG.prod.elastic_bits + this.query : this.CONFIG.dev.elastic_bits;
-
-
-      // console.log("QS:",QS)
-      
-
-
-      
 
     },getFacets: function() {
 
@@ -732,60 +728,38 @@ axios.get(QS)
 
     },
     wipeConsole: function() {
-      // console.log("wip9ing concolse...")
       this.console.msgs = [];
-    },
-    bootstrap: function() {
-      // console.log('bootstrapping in mode: ' + this.CONFIG.mode)
-      // let s0 = (this.CONFIG.mode == 'T') ? 'http://localhost:8000/axios.min.js' : 'https://AXIOS.js'
-      // let j0 = document.createElement('script');
-      // j0.src = s0;
-      // j0.async = false;
-      // j0.type = 'text/javascript';
-      // document.body.appendChild(j0)
-      // let s1 = (this.CONFIG.mode == 'T') ? 'http://localhost:8000/leaflet.js' : 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js'
-      // let j1 = document.createElement('script');
-      // j1.src = s1;
-      // j1.async = false;
-      // j1.type = 'text/javascript';
-      // document.body.appendChild(j1)
-      // let s2 = (this.CONFIG.mode == 'T') ? 'http://localhost:8000/all.js' : 'https://use.fontawesome.com/releases/v5.0.4/js/all.js'
-      // let j2 = document.createElement('script');
-      // j2.src = s2;
-      // j2.async = false;
-      // j2.type = 'text/javascript';
-      // document.body.appendChild(j2)
-
-      //HERE GOES HOME HERO PULL - FIRST DB BIT W/ HERO:TRUE
     },
     setRoute: function() {
 
-        // /:pane?/:query?/:basemap?/:update?
-        this.$router.push({
-          params: {
+let P = {
             pane: this.actives.pane,
-            query: (this.query!=='')?this.query:'*',
-            basemap: this.actives.basemap,
+            query: (this.query.string)?this.query.string:'*',
+            // facets: (this.query.facets.length>0)?this.query.facets.join(','):('*'),
+            basemap: (this.actives.basemap)?this.actives.basemap:'default',
             updatekey: this.actives.updatekey
           }
+        this.$router.push({
+          params: P
         }); //rejplace
       } //setRoute
       
   } //methods
   ,
   watch: {
-    // 'active': { handler: function (vnew) { this.setActive(vnew) } } //active // ,
     "actives": {
       deep:true,
       handler: function(vnew, vold) {
         this.setRoute();
       }
-    },"query": {
+    },"query.string": {
       handler: function(vnew, vold) {
-        // let s = 'tag:"bob ducca"'.toLowerCase()
-        // console.log('s:',s)
-        // console.log(indexOf(s))
         this.setRoute();
+      }
+    },"query.facets": {
+      deep:true,
+      handler: function(vnew, vold) {
+        this.getBits();
       }
     }
   } //watch

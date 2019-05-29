@@ -24,6 +24,7 @@ $zCBB-app-nav-height:10vh;
 
 .columns {
   z-index: 2;
+  margin-bottom:0;
   // border: 2px solid rgba(22, 5, 55, 0.2);
 .zCBB-hero-column{
 
@@ -67,7 +68,7 @@ a{color:inherit;}
   }
 }
 .zCBB-pane{
-  
+  &.splayed{position:relative;left:90%;}
   min-height: calc(100vh - #{$zCBB-header-height});
   padding-top:5em;
   background-color:$cbb-baseline;
@@ -78,6 +79,11 @@ a{color:inherit;}
 }
 .zCBB-facet{
   padding-left:2em;
+}
+.zCBB-trigger-facet-remove{
+  color: #71edf8;
+  &:hover{color:black;cursor:pointer;}
+  &:active{color:white;}
 }
 }
 .zCBB-nav-item{
