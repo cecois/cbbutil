@@ -221,6 +221,95 @@ var incoming = async (ln) =>{
 	});
 }
 
+var imagify = async (U)=>{
+
+
+	return new Promise((resolve,reject)=>{
+
+		var imdgz = [];
+		__.each(U.report,async (r,i,l)=>{
+
+			var o =r;
+			o.image=await figure_figure(r)
+			if(typeof o.image!=='undefined'){imdgz.push(o)}
+
+				console.log("currently at "+(i+1)+" of "+l.length)
+
+			if(imdgz.length == l.length){
+				console.log(imdgz.length+" equals "+l.length+" so we resolve")
+				resolve(imdgz)
+			}
+		})
+
+})//promise
+
+}//imagify
+
+var summarize = async (bits) =>{
+
+	return new Promise((resolve, reject)=>{
+
+		var episodes_updated = __.uniq(__.map(bits,(E)=>{var o = E.episode+":::"+E.slug_earwolf;return o; }));
+
+		var reports = () => __.map(episodes_updated,(e,i,l)=>{
+			var epno = e.split(":::")[0]
+			var epslug = e.split(":::")[1]
+
+			console.log("reporting on ",epno)
+			
+			
+			var O = {episode:epno,image:'null',slug:epslug,ep_url:"http://www.earwolf.com/episode/"+epslug}
+			// var eps_bits = __.pluck(__.filter(bits,{episode:epno}),'bit');
+			var eps_bits = __.pluck(__.filter(bits,(b)=>{return b.episode==epno}),'bit');
+
+			O.raw_bits = eps_bits;
+			var beets = __.map(__.uniq(eps_bits),(m)=>{
+				var o = {
+					bit:m
+					,count:__.filter(eps_bits,(li)=>{return li==m;}).length
+				}; //o
+				return o;
+			});//map.beets
+			O.bits_sum=beets;
+			return O;
+		})//map
+
+		var R = {
+			date:MOMENT().format('YYYY.MMM.DD')
+			,query:"("+__.map(episodes_updated,(e)=>{return "episode:"+e.split(":::")[0]}).join(" OR ")+")"
+			,episodes:bits.length+" bits from "+episodes_updated.length+" episodes (eps "+__.map(episodes_updated,(E)=>{return E.split(":::")[0]}).join(", ")+")",
+			report:reports()
+		}
+
+		resolve(R);
+
+	});//Promise
+}//summarize
+
+var write = async(UP)=>{
+
+	return new Promise((resolve,reject)=>{
+
+		var npath = "./bu/updates-"+MOMENT().format('YYYY.MMM.DD_HH_mm_ss')+".json"
+
+		FS.writeFile(npath,JSON.stringify(UP),(err,suc)=>{
+
+			if(err){reject(err);} else {
+
+				FS.writeFile('../../site/v2/src/offline/update.json',JSON.stringify(UP),(err,suc)=>{
+
+					if(err){reject(err);} else
+					{				resolve(npath)}
+				})
+
+			}
+
+		})//fs.write
+
+})//promise
+
+}
+
 var most_recent = async () =>{
 
 	return new Promise((resolve,reject)=>{
@@ -454,11 +543,11 @@ var main = async () =>{
 	try {
 		var ln = process.argv[2]
 
-		if(__.contains(['news','live','fake','fantastic','adds','reset'],ln)!==true){
+		if(__.contains(['news','live','fake','fantastic','adds','reset','test'],ln)!==true){
 			throw("typo prolly");
 			process.exit();
 		} else {
-console.log("WANNA BACK UP DEM GEOMS, CHUMP? ./Users/ccmiller/Documents/cbb-bu-geoms.sh ")
+
 /* -----------------------------------------------
 // read in incoming bits from $ln file
 // msg notes length, payload is actual bits
@@ -508,37 +597,43 @@ console.log("audit.flag:",R.audit.flag)
 
 /* -----------------------------------------------
 // audit wz clean so we're sending
-*/
 console.log("--------------------> sending "+inca.length+" documents to MLAB...");
 sent = await send(inca);
-
-/* -----------------------------------------------
-*/
-
 console.log("SENT",sent)
-
 if(sent.documents.n !== inca.length){
 	console.log("ERROR: mismatching in sent ("+sent.documents.n+') and incoming raw ('+inca.length+'),  exiting...');
 	process.exit();
 }
+*/
+
+/* -----------------------------------------------
+*/
+
+
 
 /* -----------------------------------------------
 // Now we repeat bu and most_recent cuzzits gonna have sent.documents.length more
-*/
 var bu2 = await extant();
 console.log("getting most recent bu again (should be newer than before");
 var ext_source2 = await most_recent();
 console.log("it's:",ext_source2);
 console.log("ELASTIFYING!");
 var E = await elastify(ext_source2);
+*/
 
-console.log("let's end this :-?")
+console.log("let's summarize the new stuff...")
+
+var summary = await summarize(inca);
+
+        imagify(summary)
+        write(summary);
 
 }
 
 } catch(error) {
 	console.error(error);
 }
-}
+console.log("WANNA BACK UP DEM GEOMS, CHUMP? ./Users/ccmiller/Documents/cbb-bu-geoms.sh ")
+} //main
 
 main();

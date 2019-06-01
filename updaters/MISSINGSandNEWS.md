@@ -74,6 +74,7 @@
 * standing up shaking your fist/risen
   - 373,multiple
   - 602,37:45
+  - 603,48:30
   - 600,42:45
   - 372?
   - 374,13:50(pw)
@@ -1008,6 +1009,7 @@
   - 246,31:40(howl)
 - mr. microphone
   - 2016.nyc930,32:45
+  - live-from-anaheim-now-hear-this,1:04:50
   - 349,38:25(pw)
   - 349,40:30(pw)
   - 507,12:40
@@ -1884,6 +1886,7 @@
   - 438,12:50(pw)
   - 438,26:45(pw)
   - sydney2016,58:00
+  - live-from-anaheim-now-hear-this-2016,1:10:00
 - stoppin up the jams
 
   - 441,lotsa (inaugural)
@@ -1990,6 +1993,7 @@
   - 561,44:45(pw)
   - 567,14:00(pw)
   - 602,1:11:45
+  - 603,1:16:00
   - 555,1:06:00
 
 - shallatoo (maxwell keeper's new catchphrase)

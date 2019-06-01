@@ -21,8 +21,6 @@
           <p class="control">
             <input style="" v-model="query.string" class="input has-text-centered is-expanded" size="50%" type="text" :placeholder="(project.loading)?'loading...':'e.g. `(huell AND crowbot)` or just `heynong`'" />
           </p>
-          
-          
           <p class="control">
             <a @click="getBits();actives.pane='search';" class="button is-info">
               <i class="fa fa-search"></i>
@@ -32,7 +30,8 @@
             <a class="button is-info">
               <i class="fa fa-random"></i>
             </a>
-          </p><p class="control">
+          </p>
+          <p class="control">
             <a @click="query=null" class="button has-text-light" style="width:22px;border-left:none;">
               <i class="fa fa-ban is-size-7"></i>
             </a>
@@ -100,7 +99,6 @@
       </div NB="/.columns">
       <div class="column"><i class="fas fas fa-minus-square"></i></div>
     </div NB="/.columns">
-
     <div :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='default'">
       <div v-if="hero" class="column zCBB-hero-column">
         <p class="is-size-2 has-text-weight-bold has-text-right" style="padding-right:3em;">{{hero._source.instance}}</p>
@@ -109,149 +107,124 @@
       </div>
     </div NB="/default/home">
     <div :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='huh'">
-
       <div class="column is-one-fifth"></div>
       <div class="column is-one-fifth">
-  <h1 class="title">What's this, now?!
+        <h1 class="title">What's this, now?!
   <span class="bang-inline" style="">
 <span class="icom-bang" style=""></span>
   </span>
   </h1>
-    <p style="">Come on, guys -- it's a searchable index of all the recurring bits from the <em><a href="http://www.earwolf.com/show/comedy-bang-bang/">Comedy Bang! Bang!</a></em> podcast.
-    </p>
-</div NB="/.column">
-
-      
-  <div class="column is-one-fifth">
-
-  <h1 class="title" style="text-align:center;">
+        <p style="">Come on, guys -- it's a searchable index of all the recurring bits from the <em><a href="http://www.earwolf.com/show/comedy-bang-bang/">Comedy Bang! Bang!</a></em> podcast.
+        </p>
+      </div NB="/.column">
+      <div class="column is-one-fifth">
+        <h1 class="title" style="text-align:center;">
     <span class="bang-inline" style="">
   <span class="icom-bang" style=""></span>
     </span>
   Why?
   </h1>
-  <p>Because <em><a href="http://www.earwolf.com/show/comedy-bang-bang/">CBB</a></em> is the best thing ever recorded. Or maybe the best thing to ever even happen at all.</p>
-
-</div NB="/.column">
-
-<div class="column is-one-fifth">
-<h1 class="title" style="text-align:center;">Official thing?
+        <p>Because <em><a href="http://www.earwolf.com/show/comedy-bang-bang/">CBB</a></em> is the best thing ever recorded. Or maybe the best thing to ever even happen at all.</p>
+      </div NB="/.column">
+      <div class="column is-one-fifth">
+        <h1 class="title" style="text-align:center;">Official thing?
   <span class="bang-inline" style="">
   <span class="icom-bang" style=""></span>
   </span>
 </h1>
-<p style="text-align:center;">Isn't, nope. Fansite.</p>
-</div NB="/.column">
-
-
-      
+        <p style="text-align:center;">Isn't, nope. Fansite.</p>
+      </div NB="/.column">
     </div NB="/huh">
     <div style="padding-top:2em;" :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='search'">
-      
       <div v-if="!page.splayed" class="zCBB-facet column has-text-left has-text-weight-light is-size-7">
-
-<div v-if="key == 'bits'" v-for="(facet, key) in this.facets">
-  <h5 :class="['is-size-5','has-text-weight-bold']">{{key}}</h5>
-  <ul>
-    <li v-for="bucket in facet.filtered_bits.buckets">
-      <!-- <span :class="uContains(query.facets.bits,bucket.key)?'zCBB-trigger':''">{{bucket.key}}</span> -->
-      <span @click="query.facets.bits.push(bucket.key)" :class="$_.contains(query.facets.bits,bucket.key)?'zCBB-trigger':''">{{bucket.key}}</span>
-       ({{bucket.doc_count}}) <sup v-if="$_.contains(query.facets.bits,bucket.key)"><i class="fa fa-ban zCBB-trigger-facet-remove"></i></sup></li>
-  </ul>
-</div NB="/.facet in facets">
-
-<div v-if="key == 'tags'" v-for="(facet, key) in this.facets">
-  <h5 :class="['is-size-5','has-text-weight-bold']">{{key}}</h5>
-  <ul>
-    <li v-for="bucket in facet.filtered_tags.buckets"><span class="zCBB-trigger">{{bucket.key}}</span> ({{bucket.doc_count}})</li>
-  </ul>
-</div NB="/.facet in facets">
-
-<div v-if="key == 'guests'" v-for="(facet, key) in this.facets">
-  <h5 :class="['is-size-5','has-text-weight-bold']">{{key}}</h5>
-  <ul>
-    <li v-for="bucket in facet.filtered_guests.buckets"><span class="zCBB-trigger">{{bucket.key}}</span> ({{bucket.doc_count}})</li>
-  </ul>
-</div NB="/.facet in facets">
-
-<div v-if="key == 'episodes'" v-for="(facet, key) in this.facets">
-  <h5 :class="['is-size-5','has-text-weight-bold']">{{key}}</h5>
-  <ul>
-    <!-- <li @click="query=query+' AND '+bucket.key" v-for="bucket in facet.filtered_episodes.buckets"><span class="zCBB-trigger">{{bucket.key.split('/')[bucket.key.split('/').length-1]}}</span> ({{bucket.doc_count}})</li> -->
-    <li @click="query.facets.push(bucket.key)" v-for="bucket in facet.filtered_episodes.buckets"><span class="zCBB-trigger">{{bucket.key.split('/')[bucket.key.split('/').length-1]}}</span> ({{bucket.doc_count}})</li>
-  </ul>
-</div NB="/.facet in facets">
-
+        <div v-if="key == 'bits'" v-for="(facet, key) in this.facets">
+          <h5 :class="['is-size-5','has-text-weight-bold']">{{key}}</h5>
+          <ul>
+            <li v-for="bucket in facet.filtered_bits.buckets">
+              <!-- <span :class="uContains(query.facets.bits,bucket.key)?'zCBB-trigger':''">{{bucket.key}}</span> -->
+              <span @click="query.facets.bits.push(bucket.key)" :class="$_.contains(query.facets.bits,bucket.key)?'zCBB-trigger':''">{{bucket.key}}</span> ({{bucket.doc_count}}) <sup @click="query.facets.bits=$_.reject(query.facets.bits,(b)=>{return b==bucket.key})" v-if="$_.contains(query.facets.bits,bucket.key)"><i class="fa fa-ban zCBB-trigger-facet-remove"></i></sup></li>
+          </ul>
+        </div NB="/.facet in facets">
+        <div v-if="key == 'tags'" v-for="(facet, key) in this.facets">
+          <h5 :class="['is-size-5','has-text-weight-bold']">{{key}}</h5>
+          <ul>
+            <li v-for="bucket in facet.filtered_tags.buckets">
+              <!-- <span :class="uContains(query.facets.bits,bucket.key)?'zCBB-trigger':''">{{bucket.key}}</span> -->
+              <span @click="query.facets.tags.push(bucket.key)" :class="$_.contains(query.facets.tags,bucket.key)?'zCBB-trigger':''">{{bucket.key}}</span> ({{bucket.doc_count}}) <sup @click="query.facets.tags=$_.reject(query.facets.tags,(b)=>{return b==bucket.key})" v-if="$_.contains(query.facets.tags,bucket.key)"><i class="fa fa-ban zCBB-trigger-facet-remove"></i></sup></li>
+          </ul>
+        </div NB="/.facet in facets">
+        <div v-if="key == 'guests'" v-for="(facet, key) in this.facets">
+          <h5 :class="['is-size-5','has-text-weight-bold']">{{key}}</h5>
+          <ul>
+            <li v-for="bucket in facet.filtered_guests.buckets">
+              <!-- <span :class="uContains(query.facets.bits,bucket.key)?'zCBB-trigger':''">{{bucket.key}}</span> -->
+              <span @click="query.facets.guests.push(bucket.key)" :class="$_.contains(query.facets.guests,bucket.key)?'zCBB-trigger':''">{{bucket.key}}</span> ({{bucket.doc_count}}) <sup @click="query.facets.guests=$_.reject(query.facets.guests,(b)=>{return b==bucket.key})" v-if="$_.contains(query.facets.guests,bucket.key)"><i class="fa fa-ban zCBB-trigger-facet-remove"></i></sup></li>
+          </ul>
+        </div NB="/.facet in facets">
+        <div v-if="key == 'episodes'" v-for="(facet, key) in this.facets">
+          <h5 :class="['is-size-5','has-text-weight-bold']">{{key}}</h5>
+          <ul>
+            <li v-for="bucket in facet.filtered_episodes.buckets">
+              <!-- <span :class="uContains(query.facets.bits,bucket.key)?'zCBB-trigger':''">{{bucket.key}}</span> -->
+              <span @click="query.facets.episodes.push(bucket.key)" :class="$_.contains(query.facets.episodes,bucket.key)?'zCBB-trigger':''">{{bucket.key.split('/')[bucket.key.split('/').length-1]}}</span> ({{bucket.doc_count}}) <sup @click="query.facets.episodes=$_.reject(query.facets.episodes,(b)=>{return b==bucket.key})" v-if="$_.contains(query.facets.episodes,bucket.key)"><i class="fa fa-ban zCBB-trigger-facet-remove"></i></sup></li>
+            <!-- <li v-for="bucket in facet.filtered_episodes.buckets">
+              <span @click="query.facets.episodes.push(bucket.key)" :class="$_.contains(query.facets.episodes,bucket.key)?'zCBB-trigger':''">{{bucket.key.split('/')[bucket.key.split('/').length-1]}}</span> ({{bucket.doc_count}})</li> -->
+          </ul>
+        </div NB="/.facet in facets">
       </div NB="/.column (facets container)">
       <div class="column is-three-quarters">
         <ul>
           <li v-if="bits.length>1" v-for="bit in bits" class="box has-text-left">
             <i v-if="bit._source.bit=='Location'" style="font-size:1.1em;" class="fa fa-map-marker" />
             <span class="bit-instance">{{bit._source.instance}}</span>
-            
             <div class="columns zCBB-bit-data">
               <div v-if="!page.splayed" class="column is-1"></div>
-     
-<!-- Main container -->
-<div class="level">
-  <!-- Left side -->
-  <div class="level-left">
-    <div class="level-item">
-      <p class="subtitle is-5">
-      
-<div style="" class='zCBB-bit-data'>
-                                              <span class='tooltip is-tooltip-left' :data-tooltip="bit._source.elucidation"><span v-if="!page.splayed">bit: </span><a href="#" class="">{{bit._source.bit}}</a></span>
-                              
-                                              <span v-if="!page.splayed" class="has-text-grey-light">({{bit._source.elucidation}})</span>
-                                            </div NB="/..zCBB-bit-data">
-
-      </p>
-    </div NB="/.level-item">
-    <div class="level-item">
-      <div class="field has-addons">
-        
-      </div>
-    </div>
-  </div>
-
-  <!-- Right side -->
-  <div class="level-right">
-    <p class="level-item"> 
-                                
-    </p NB="/.level-item">
-  </div NB="/.level-right">
-</div>
-
-<!--               <div class="level">
+              <!-- Main container -->
+              <div class="level">
+                <!-- Left side -->
+                <div class="level-left">
+                  <div class="level-item">
+                    <p class="subtitle is-5">
+                      <div style="" class='zCBB-bit-data'>
+                        <span class='tooltip is-tooltip-left' :data-tooltip="bit._source.elucidation"><span v-if="!page.splayed">bit: </span><span @click="setQueryFire(bit._source,['bit'])" class="zCBB-trigger">{{bit._source.bit}}</span></span>
+                        <span v-if="!page.splayed" class="has-text-grey-light">({{bit._source.elucidation}})</span>
+                      </div NB="/..zCBB-bit-data">
+                    </p>
+                  </div NB="/.level-item">
+                  <div class="level-item">
+                    <div class="field has-addons">
+                    </div>
+                  </div>
+                </div>
+                <!-- Right side -->
+                <div class="level-right">
+                  <p class="level-item">
+                  </p NB="/.level-item">
+                </div NB="/.level-right">
+              </div>
+              <!--               <div class="level">
                 <div class="level-left"></div>
               
 <div class="level-right">                            <div style="" class="level-item is-size-7 is-paddingless">
                 
               </div NB="/.level-item"></div>
             </div NB="/.level"> -->
-
-
             </div NB="columns">
-                <!-- <a class="tooltip is-tooltip-right " href="#">{{bit._source.episode_string}}</a> -->
-                <!-- <div style="" class="is-size-7 bit-data-meta"> -->
-
-                  <!-- <span v-if="bit._source.created_at">added: {{$MOMENT(bit._source.created_at).format('YYYY.MMM.Mo')}}</span> <span v-if="bit._source.updated_at">(updated {{$MOMENT(bit._source.updated_at).format('YYYY.MMM.Mo')}})</span> -->
-                <!-- </div NB="/.bit-data-meta"> -->
+            <!-- <a class="tooltip is-tooltip-right " href="#">{{bit._source.episode_string}}</a> -->
+            <!-- <div style="" class="is-size-7 bit-data-meta"> -->
+            <!-- <span v-if="bit._source.created_at">added: {{$MOMENT(bit._source.created_at).format('YYYY.MMM.Mo')}}</span> <span v-if="bit._source.updated_at">(updated {{$MOMENT(bit._source.updated_at).format('YYYY.MMM.Mo')}})</span> -->
+            <!-- </div NB="/.bit-data-meta"> -->
             <div v-if="!page.splayed" class="columns zCBB-bit-data-meta">
-                
               <div class="column is-1"></div>
-              
-<!-- <div style="" class="column is-size-7 is-paddingless">
+              <!-- <div style="" class="column is-size-7 is-paddingless">
   <span class="is-size-7 has-text-grey-lighter">~{{bit._source.tstart}}</span> 
                   <span class="is-size-7 has-text-grey-lighter" v-if="bit._source.created_at">added: {{$MOMENT(bit._source.created_at).format('YYYY.MMM.Mo')}}</span> <span class="is-size-7 has-text-grey-lighter" v-if="bit._source.updated_at">(updated {{$MOMENT(bit._source.updated_at).format('YYYY.MMM.Mo')}})</span>
 </div NB="/.column"> -->
-
-<div class="column is-7"><span style="margin-left:1em;" class="is-size-7 has-text-grey-lighter">ep.{{bit._source.episode.split('/')[bit._source.episode.split('/').length-1]}}</span><span class="is-size-7 has-text-grey-lighter" v-if="bit._source.created_at">&nbsp;|&nbsp;~{{bit._source.tstart}}&nbsp;|&nbsp;added: {{$MOMENT(bit._source.created_at).format('YYYY.MMM.Mo')}}</span><span class="is-size-7 has-text-grey-lighter" v-if="bit._source.updated_at">&nbsp;|&nbsp;updated {{$MOMENT(bit._source.updated_at).format('YYYY.MMM.Mo')}}</span></div NB="/.column">
-
-<div class="column"><div v-if="bit._source.tags" style="margin-left:1px;" v-bind:class="['zCBB-tag','tag',(query.string && encodeURI(query.string.toLowerCase()).indexOf('tag%3A%22'+tag+'%22'.toLowerCase())>=0)?'is-info':'is-dark']" @click="triggerSingleFieldQuery('tag',tag)" v-for="tag in (bit._source.tags.split(','))">{{tag}}</div NB="tags"></div NB="/.column">
-            
+              <div class="column is-7"><span style="margin-left:1em;" class="is-size-7 has-text-grey-lighter">ep.{{bit._source.episode.split('/')[bit._source.episode.split('/').length-1]}}</span><span class="is-size-7 has-text-grey-lighter" v-if="bit._source.created_at">&nbsp;|&nbsp;~{{bit._source.tstart}}&nbsp;|&nbsp;added: {{$MOMENT(bit._source.created_at).format('YYYY.MMM.Mo')}}</span><span class="is-size-7 has-text-grey-lighter" v-if="bit._source.updated_at">&nbsp;|&nbsp;updated {{$MOMENT(bit._source.updated_at).format('YYYY.MMM.Mo')}}</span></div NB="/.column">
+              <div class="column">
+                <div v-if="bit._source.tags" style="margin-left:1px;" v-bind:class="['zCBB-tag','tag',(query.string && encodeURI(query.string.toLowerCase()).indexOf('tag%3A%22'+tag+'%22'.toLowerCase())>=0)?'is-info':'is-dark']" @click="triggerSingleFieldQuery('tag',tag)" v-for="tag in (bit._source.tags.split(','))">{{tag}}</div NB="tags">
+              </div NB="/.column">
             </div NB="/.columns  .zCBB-bit-data-meta">
-
           </li>
           <li v-else>
             big bit: {{bit._source.instance}}
@@ -261,10 +234,10 @@
     </div NB="/search">
     <div :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='browse'">
       <div class="column">
-        browse c1
+        {{browse.bits}}
       </div>
       <div class="column">
-        <p>browse c2</p>
+        <p>{{browse.tags}}</p>
       </div>
     </div NB="/browse">
     <div :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='updates'">
@@ -289,84 +262,70 @@
         <div class="column is-1"></div>
       </div NB="/.column w tiles">
     </div NB="/updates">
-    <div class="zCBB-pane" v-if="actives.pane=='help'">
-    
-<section class="">
-  You need help? With this dumb, free thing?! Fine:
-</section>
-<div class="">
-<div style="" class="tile content is-ancestor is-size-7">
-  <div class="tile is-vertical is-8">
-    <div class="tile">
-      <div class="tile is-parent is-vertical">
-        <article class="tile is-child box">
-          <h4 class="title is-4">Timestamps: <img class="" src="https://a-v2.sndcdn.com/assets/images/header/cloud@2x-e5fba46.png" style=""/> <small>v.</small> <img class="" src="http://v.fastcdn.co/t/fbd61fb6/9f77a6cf/1506364214-1020996-166x62-HOWLLogoHorizontalTeal.png" style=""/></h4>
-          <p>Each record has <strong>tstart</strong> and <strong>tend</strong> timestamps - ostensibly these frame the specific instance within the episode. However, when CBB audio files were moved behind the Howl paywall (and then to Stitcher), it rendered many of the timestamps incorrect - as paywalled episodes pass the edit points where commercials used to be, they're offset by however long the excised commercials were.</p><p>Timestamps can still be used to get close to the instance when listening, but they are no longer accurate enough to be used for, say, supercutting or something.</p>
-        </article>
-
-      </div NB="/.tile.is-parent">
-      <div class="tile is-parent">
-        <article class="tile is-child box">
-          <h4 class="title is-4">The Map <i class="fa fa-map-o"></i></h4>
-          <p>There's a Leaflet instance under here that will display the geometries associated with any bits of type="location." Look for the <i class="fa fa-map-marker"></i> and click it to zoom the map to that location. More on that under "Locations."</p>
-          <p>But a note or two about how to use said map: in an effort to reduce clutter, there are no map controls as you might find in other web maps (zoom bar, +/-, maybe a panning control, too). None of that here - just grab the map to move it and trackpad|scroll to zoom in and out. Optionally you can shift-click+hold-drag-release in order to "select" an area of the map to which you'll immediately zoom.</p>
-        </article>
-      </div NB="/.tile.is-parent">
-    </div NB="/.tile">
-    <div class="tile is-parent">
-      <article class="tile is-child box">
-        <h4 class="title is-4">Searching <i class="fa fa-search"></i></h4>
-        <p>Basically you can just type into the box like a monkey might do it - "huell" or "fourvel" and so forth.</p>
-        <p>But also know that whatever you type into the box gets POSTed as-is, and since Search hits against an <a href="https://www.elastic.co/products/elasticsearch">ElasticSearch</a> (v5.6) index, (as with most search engines) there is <a href="https://www.elastic.co/guide/en/elasticsearch/reference/5.6/query-dsl-query-string-query.html">some pretty advanced stuff</a> you can do if you like. To wit:</p>
-      </article>
-    </div NB="/.tile.is-parent">
-  </div NB="/.tile">
-  <!-- ******************************************** -->
-  <div class="tile is-parent">
-    <article class="">
-      <h5 style="" class="title is-5 is-paddingless"><strong>Fields:</strong></h5>
-      <dl class="content">
-        <dt>find a specific bit using its full or partial value:</dt>
-        <dd><a href="#" class="zCBB-trigger" data-target="bit:location" data-type="">bit:location</a> or <a href="#" class="zCBB-trigger" data-target="bit:topping" data-type="">bit:topping</a> <code>// for DSALW's Queen's english ("topping hat")</code></dd>
-
-        <dt>find bits by date (added/updated):</dt>
-        <dd><a href="#" class="zCBB-trigger" data-target="updated_at:[2017-01-01T00:00:00Z TO 2017-01-31T23:59:59Z]" data-type="">updated_at:[2017-01-01T00:00:00Z TO 2017-01-31T23:59:59Z]</a></dd>
-        <dd><small>Hint: updated_at is typically the same as created_at except when a record has been...updated. The implication is that you'll probably always want to use updated_at for any kind of date query.</small></dd>
-      </dl>
-
-    </article>
-
-
-    <!-- ******************************************** -->
-
-    <article class="">
-      <h5 style="" class="title is-5 is-paddingless"><strong>Boolean stuff:</strong></h5>
-      <div class="content">
-        <dl>
-          <dt>combine terms with either word or character operators:</dt>
-          <dd><a href="#" class="zCBB-trigger" data-type="" data-target="bit:location +dimello">bit:location +dimello</a></dd>
-          <dd><a href="#" class="zCBB-trigger" data-type="" data-target="mexico -adomian">mexico -adomian</a></dd>
-          <dd><a href="#" class="zCBB-trigger" data-type="" data-target='collins -bit:"Phil Collins"'>collins -bit:"Phil Collins"</a><code>//Phil Collins references beyond his Live Aid Concorde stunt</code></dd>
-          <dd><a href="#" class="zCBB-trigger" data-type="" data-target="where AND from AND dabney">where AND from AND dabney</a></dd>
-          <dd><a href="#" class="zCBB-trigger" data-type="" data-target="(wipe AND out) NOT hardcastle">(wipe AND out) NOT hardcastle</a></dd>
-          <dd><small>Hint: otherwise-unqualified terms typed into the box are ANDed together by default.</small></dd>
-        </dl>
+    <div :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='help'">
+      <div class="">
+        <div style="" class="tile content is-ancestor is-size-7">
+          <div class="tile is-vertical is-8">
+            <div class="tile">
+              <div class="tile is-parent is-vertical">
+                <article class="tile is-child box">
+                  <h4 class="title is-4">Timestamps: <img class="" src="https://a-v2.sndcdn.com/assets/images/header/cloud@2x-e5fba46.png" style=""/> <small>v.</small> <img class="" src="http://v.fastcdn.co/t/fbd61fb6/9f77a6cf/1506364214-1020996-166x62-HOWLLogoHorizontalTeal.png" style=""/></h4>
+                  <p>Each record has <strong>tstart</strong> and <strong>tend</strong> timestamps - ostensibly these frame the specific instance within the episode. However, when CBB audio files were moved behind the Howl paywall (and then to Stitcher), it rendered many of the timestamps incorrect - as paywalled episodes pass the edit points where commercials used to be, they're offset by however long the excised commercials were.</p>
+                  <p>Timestamps can still be used to get close to the instance when listening, but they are no longer accurate enough to be used for, say, supercutting or something.</p>
+                </article>
+              </div NB="/.tile.is-parent">
+              <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <h4 class="title is-4">The Map <i class="fa fa-map-o"></i></h4>
+                  <p>There's a Leaflet instance under here that will display the geometries associated with any bits of type="location." Look for the <i class="fa fa-map-marker"></i> and click it to zoom the map to that location. More on that under "Locations."</p>
+                  <p>But a note or two about how to use said map: in an effort to reduce clutter, there are no map controls as you might find in other web maps (zoom bar, +/-, maybe a panning control, too). None of that here - just grab the map to move it and trackpad|scroll to zoom in and out. Optionally you can shift-click+hold-drag-release in order to "select" an area of the map to which you'll immediately zoom.</p>
+                </article>
+              </div NB="/.tile.is-parent">
+            </div NB="/.tile">
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <h4 class="title is-4">Searching <i class="fa fa-search"></i></h4>
+                <p>Basically you can just type into the box like a monkey might do it - "huell" or "fourvel" and so forth.</p>
+                <p>But also know that whatever you type into the box gets POSTed as-is, and since Search hits against an <a href="https://www.elastic.co/products/elasticsearch">ElasticSearch</a> (v5.6) index, (as with most search engines) there is <a href="https://www.elastic.co/guide/en/elasticsearch/reference/5.6/query-dsl-query-string-query.html">some pretty advanced stuff</a> you can do if you like. To wit:</p>
+                <p>
+                  <h5 style="" class="title is-5 is-paddingless"><strong>Fields:</strong></h5>
+                  <dl class="content">
+                    <dt>find a specific bit using its full or partial value:</dt>
+                    <dd><a href="#" class="zCBB-trigger" data-target="bit:location" data-type="">bit:location</a> or <a href="#" class="zCBB-trigger" data-target="bit:topping" data-type="">bit:topping</a> <code>// for DSALW's Queen's english ("topping hat")</code></dd>
+                    <dt>find bits by date (added/updated):</dt>
+                    <dd><a href="#" class="zCBB-trigger" data-target="updated_at:[2017-01-01T00:00:00Z TO 2017-01-31T23:59:59Z]" data-type="">updated_at:[2017-01-01T00:00:00Z TO 2017-01-31T23:59:59Z]</a></dd>
+                    <dd><small>Hint: updated_at is typically the same as created_at except when a record has been...updated. The implication is that you'll probably always want to use updated_at for any kind of date query.</small></dd>
+                  </dl>
+                </p>
+                <p>
+                  <h5 style="" class="title is-5 is-paddingless"><strong>Boolean stuff:</strong></h5>
+                  <div class="content">
+                    <dl>
+                      <dt>combine terms with either word or character operators:</dt>
+                      <dd><a href="#" class="zCBB-trigger" data-type="" data-target="bit:location +dimello">bit:location +dimello</a></dd>
+                      <dd><a href="#" class="zCBB-trigger" data-type="" data-target="mexico -adomian">mexico -adomian</a></dd>
+                      <dd><a href="#" class="zCBB-trigger" data-type="" data-target='collins -bit:"Phil Collins"'>collins -bit:"Phil Collins"</a><code>//Phil Collins references beyond his Live Aid Concorde stunt</code></dd>
+                      <dd><a href="#" class="zCBB-trigger" data-type="" data-target="where AND from AND dabney">where AND from AND dabney</a></dd>
+                      <dd><a href="#" class="zCBB-trigger" data-type="" data-target="(wipe AND out) NOT hardcastle">(wipe AND out) NOT hardcastle</a></dd>
+                      <dd><small>Hint: otherwise-unqualified terms typed into the box are ANDed together by default.</small></dd>
+                    </dl>
+                  </div>
+                </p>
+              </article>
+            </div NB="/.tile.is-parent">
+          </div NB="/.tile">
+          <!-- ******************************************** -->
+        </div NB="/.tile.is-parent">
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <h4 class="title is-4">Locations <i class="fa fa-map-marker"></i></h4>
+            <p>One of the bits is special (and in fact the original impetus of this entire effort). For <a href='#' class='zCBB-trigger' data-type='bit' data-target='Location'>bits="Location"</a> the results will appear in the picklist (indicated by a map pin icon) <em>and</em> on the map under what you're reading now (hidden behind the main content area by default).</p>
+            <p>The ctrl key will toggle the map's visibility (as will the <i class="fa fa-map-o"></i> button); the <i style="" class="fa fa-map-marker"></i> in the search results will zoom to that instance's referenced location. <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"huell howser"'>Huell Howser</a>, <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"gino lambardo"'>Gino Lambardo</a>, <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"merrill shindler"'>Merrill Shindler</a>, and <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"shelly driftwood"'>Shelly Driftwood</a> are all good for at least a few.</p>
+            <p>Another thing to note about locations is that unless there's a clamor for it we do NOT spatially-index the geometries for retrieval. So while of course you can query for <em>bits</em> that reference locations (and those referenced geometries will appear on the map with minimal interaction), we're not bothering to offer the ability to, say, zoom/pan the map and query for locations <em>in that area</em>. Like, who cares?</p>
+            <p>If somebody really wants that (or the tangential ability to query for bits that reference, say, the Boston area or Marina del Rey, maybe <a class="twitter-share-button" href="https://twitter.com/share" data-size="large" data-text="custom share text" data-url="https://dev.twitter.com/web/tweet-button" data-hashtags="comedybangbang,zapstraighttoit" data-via="twitterdev"><i class="fa fa-twitter"></i> say something</a>. But really if you're <em>that interested</em> you could just query for everything (<a href="#" class="zCBB-trigger" data-type="" data-target="bit:location">"bit:Location"</a>) and zoom to the spot about which you're curious.</p>
+          </article>
+        </div NB="/.tile.is-parent">
       </div>
-    </article>
-
-  </div>
-</div NB="/.tile.is-parent">
-<div class="tile is-parent">
-  <article class="tile is-child box">
-
-   <h4 class="title is-4">Locations <i class="fa fa-map-marker"></i></h4>
-   <p>One of the bits is special (and in fact the original impetus of this entire effort). For <a href='#' class='zCBB-trigger' data-type='bit' data-target='Location'>bits="Location"</a> the results will appear in the picklist (indicated by a map pin icon) <em>and</em> on the map under what you're reading now (hidden behind the main content area by default).</p><p>The ctrl key will toggle the map's visibility (as will the <i class="fa fa-map-o"></i> button); the <i style="" class="fa fa-map-marker"></i> in the search results will zoom to that instance's referenced location. <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"huell howser"'>Huell Howser</a>, <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"gino lambardo"'>Gino Lambardo</a>, <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"merrill shindler"'>Merrill Shindler</a>, and <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"shelly driftwood"'>Shelly Driftwood</a> are all good for at least a few.</p>
-
-   <p>Another thing to note about locations is that unless there's a clamor for it we do NOT spatially-index the geometries for retrieval. So while of course you can query for <em>bits</em> that reference locations (and those referenced geometries will appear on the map with minimal interaction), we're not bothering to offer the ability to, say, zoom/pan the map and query for locations <em>in that area</em>. Like, who cares?</p><p>If somebody really wants that (or the tangential ability to query for bits that reference, say, the Boston area or Marina del Rey, maybe <a class="twitter-share-button" href="https://twitter.com/share" data-size="large" data-text="custom share text" data-url="https://dev.twitter.com/web/tweet-button" data-hashtags="comedybangbang,zapstraighttoit" data-via="twitterdev"><i class="fa fa-twitter"></i> say something</a>. But really if you're <em>that interested</em> you could just query for everything (<a href="#" class="zCBB-trigger" data-type="" data-target="bit:location">"bit:Location"</a>) and zoom to the spot about which you're curious.</p>
-
- </article>
-</div NB="/.tile.is-parent"></div>
-
     </div NB="/help">
     <footer class="footer">
       <div class="level">
@@ -390,10 +349,9 @@ export default {
   name: "CBB-GUI",
   created: function() {
     this.CONFIG = CONFIG
-    // this.bootstrap()
-    // this.project.loading = true
-    this.query.string = (this.$route.params.query && this.$route.params.query!=='*') ? this.$route.params.query : null
-    // this.query.facets = (this.$route.params.facets) ? decodeURI(this.$route.params.facets.split(",")) : []
+      // this.bootstrap()
+      // this.project.loading = true
+    this.query.string = (this.$route.params.query && this.$route.params.query !== '*') ? this.$route.params.query : null
     this.actives = {
       pane: (this.$route.params.pane) ? this.$route.params.pane : 'default',
       basemap: (this.$route.params.basemap) ? this.$route.params.basemap : null,
@@ -404,16 +362,41 @@ export default {
       uo.sorter = new Date(u.date)
       return uo
     }), 'sorter').reverse(), 3);
-    
+    console.log('this.$route.params.facets', this.$route.params.facets);
+    this.query.facets = (this.$route.params.facets !== '*') ? {
+      bits: this.$_.map(this.$_.filter(this.$route.params.facets.split(','), (f) => {
+        return (decodeURI(f).indexOf('bit:') >= 0);
+      }), (m) => {
+        return m.split(':')[1].replace(/\"/g, '')
+      }),
+      tags: this.$_.map(this.$_.filter(this.$route.params.facets.split(','), (f) => {
+        return (decodeURI(f).indexOf('tags:') >= 0);
+      }), (m) => {
+        return m.split(':')[1].replace(/\"/g, '')
+      }),
+      episodes: this.$_.map(this.$_.filter(this.$route.params.facets.split(','), (f) => {
+        return (decodeURI(f).indexOf('episode:') >= 0);
+      }), (m) => {
+        return m.split(':')[1].replace(/\"/g, '')
+      }),
+      guests: this.$_.map(this.$_.filter(this.$route.params.facets.split(','), (f) => {
+        return (decodeURI(f).indexOf('guests:') >= 0);
+      }), (m) => {
+        return m.split(':')[1].replace(/\"/g, '')
+      })
+    } : []
+
+    console.log(this.query.facets.bits);
+
     var mess = "CBB-guI";
-    
+
     this.msg = mess.toUpperCase();
     setInterval(() => {
       this.wipeConsole()
     }, 30000)
 
   },
-  beforeDestroy: function () {
+  beforeDestroy: function() {
     window.removeEventListener('keydown', this.keyMonitor)
   },
   mounted: function() {
@@ -422,9 +405,9 @@ export default {
     this.console.msgs.push({ m: "mounted", c: "" });
     // this.getBits()
     // this.getFacets()
-    
-      
-      if (!this.MAP) {
+
+
+    if (!this.MAP) {
       this.MAP = new L.Map("map", {
         zoomControl: false,
         center: [51.505, -0.09],
@@ -437,7 +420,7 @@ export default {
     if (this.CONFIG.mode == 'T') { uri = 'http://localhost:8000/tile-T.png' }
     this.MAP.addLayer(new L.TileLayer(uri))
 
-  this.getHero()
+    this.getHero()
 
   },
   data() {
@@ -445,7 +428,7 @@ export default {
       CONFIG: null,
       hero: null,
       updates: null,
-      query: {string:null,facets:{bits:[],episodes:[],guests:[],tags:[]}},
+      query: { string: null, facets: { bits: [], episodes: [], guests: [], tags: [] } },
       bits: [],
       facets: [],
       page: {
@@ -458,6 +441,7 @@ export default {
       },
       project: { loading: false, shorthand: "CbBBtMp" },
       console: { msgs: [] },
+      browse: [],
       modalClass: false,
       incoming: null,
       MAP: null,
@@ -468,16 +452,16 @@ export default {
     };
   },
   methods: {
-    triggerUpdateQuery: function (ep,bt) {
-this.query='(episode:'+ep+' AND bit:"'+bt+'")'
-this.getBits()
+    triggerUpdateQuery: function(ep, bt) {
+      this.query = '(episode:' + ep + ' AND bit:"' + bt + '")'
+      this.getBits()
     },
-    triggerSingleFieldQuery: function (f,v) {
-this.query=f+':"'+v+'"'
-this.getBits()
+    triggerSingleFieldQuery: function(f, v) {
+      this.query = f + ':"' + v + '"'
+      this.getBits()
     },
-    consolelog: function (cl) {
-console.log(cl)
+    consolelog: function(cl) {
+      console.log(cl)
     },
     TEST: function() {
 
@@ -510,35 +494,34 @@ console.log(cl)
 
       let u = (this.updatekey) ? this.updatekey : '';
       // console.log("updatekey:", this.updatekey);
-      let qs = (this.CONFIG.mode == '33') ? this.CONFIG.prod.atlas_updates + u : this.CONFIG.dev.atlas_updates;
+      let qs = (this.CONFIG.mode == '33') ? this.CONFIG.prod.mongo_updates + u : this.CONFIG.dev.mongo_updates;
 
 
 
     },
-    keyMonitor: function(e){
+    keyMonitor: function(e) {
 
-if(e.ctrlKey){this.page.splayed=!this.page.splayed}
+      if (e.ctrlKey) { this.page.splayed = !this.page.splayed }
 
     },
-    setQueryFire: function(B,wa) {
+    setQueryFire: function(B, wa) {
 
-console.log("B:",B)
-console.log("wa:",wa)
-// setQueryFire(hero._source,['bit','episode']
-let clauses = []
+      // console.log("setqueryfire:") // console.log("B:", B) // console.log("wa:", wa)
 
-__.each(wa,(w)=>{
-  clauses.push(w+':"'+B[w]+'"')
-})
+      let clauses = []
 
-this.query='('+clauses.join(" AND ")+')'
+      __.each(wa, (w) => {
+        clauses.push(w + ':"' + B[w] + '"')
+      })
 
-this.getBits();
+      this.query = { string: '(' + clauses.join(" AND ") + ')', facets: { bits: [], episodes: [], guests: [], tags: [] } }
+
+      this.getBits();
 
     },
     getHero: function() {
 
-let QS = null;
+      let QS = null;
 
       QS = (this.CONFIG.mode == '33') ? this.CONFIG.prod.elastic_bits + '&q=instance:"Low-rise%20*and*%20boot-cut?"&size=1' : this.CONFIG.dev.elastic_bits;
 
@@ -546,14 +529,14 @@ let QS = null;
         .get(QS)
         .then(response => {
           this.project.loading = false
-// console.log("hits:",response.data.hits.hits)
-          // this.hero = __.first(response.data.hits.hits)
+            // console.log("hits:",response.data.hits.hits)
+            // this.hero = __.first(response.data.hits.hits)
 
-          this.hero = __.first(__.map(response.data.hits.hits,(b)=>{
-                      let o = b
-                      o._source.hero={on:true,attrib:"Scott Aukerman"}
-                      return o;
-                    }))
+          this.hero = __.first(__.map(response.data.hits.hits, (b) => {
+            let o = b
+            o._source.hero = { on: true, attrib: "Scott Aukerman" }
+            return o;
+          }))
 
         }) //axios.then
         .catch(e => {
@@ -564,11 +547,12 @@ let QS = null;
 
 
 
-    },getBits: function() {
-      
-      this.project.loading=true;
+    },
+    getBits: function() {
 
-let QS = null;
+      this.project.loading = true;
+
+      let QS = null;
 
       // if (!this.query || this.query=='') { 
       //   // query is empty - we'll send out for just a sampling
@@ -576,133 +560,134 @@ let QS = null;
 
       // } //else.this.query
 
-if(this.CONFIG.mode=='33'){
+      if (this.CONFIG.mode == '33') {
 
- QS={
-  "size": 10000,
-  "query": {
-    "query_string": {
-      "default_operator": "AND",
-      "query": this.query.string +(this.query.facets.guests.length>0)?' AND ('+__.uniq(this.query.facets.guests).join(' AND ')+')':''+(this.query.facets.tags.length>0)?' AND ('+__.uniq(this.query.facets.tags).join(' AND ')+')':''+(this.query.facets.bits.length>0)?' AND ('+__.uniq(this.query.facets.bits).join(' AND ')+')':''+(this.query.facets.episodes.length>0)?' AND ('+__.uniq(this.query.facets.episodes).join(' AND ')+')':''
-    }
-  },
-  "aggregations": {
-    "all_bits": {
-      "global": {},
-      "aggregations": {
-        "guests": {
-          "filter": {
-            "query_string": {
-              "default_operator": "AND",
-              "query": this.query.string + (this.query.facets.guests.length>0)?' AND ('+__.uniq(this.query.facets.guests).join(' AND ')+')':''
-            }
-          },
-          "aggregations": {
-            "filtered_guests": {
-              "terms": {
-                "size": 10000,
-                "field": "episode_guests.comma_del"
+        QS = {
+            "size": 10000,
+            "query": {
+              "query_string": {
+                "default_operator": "AND",
+                "query": this.query.string + (this.query.facets.guests.length > 0) ? ' AND (' + __.uniq(this.query.facets.guests).join(' AND ') + ')' : '' + (this.query.facets.tags.length > 0) ? ' AND (' + __.uniq(this.query.facets.tags).join(' AND ') + ')' : '' + (this.query.facets.bits.length > 0) ? ' AND (' + __.uniq(this.query.facets.bits).join(' AND ') + ')' : '' + (this.query.facets.episodes.length > 0) ? ' AND (' + __.uniq(this.query.facets.episodes).join(' AND ') + ')' : ''
+              }
+            },
+            "aggregations": {
+              "all_bits": {
+                "global": {},
+                "aggregations": {
+                  "guests": {
+                    "filter": {
+                      "query_string": {
+                        "default_operator": "AND",
+                        "query": this.query.string + (this.query.facets.guests.length > 0) ? ' AND (' + __.uniq(this.query.facets.guests).join(' AND ') + ')' : ''
+                      }
+                    },
+                    "aggregations": {
+                      "filtered_guests": {
+                        "terms": {
+                          "size": 10000,
+                          "field": "episode_guests.comma_del"
+                        }
+                      }
+                    }
+                  },
+                  "tags": {
+                    "filter": {
+                      "query_string": {
+                        "default_operator": "AND",
+                        "query": this.query.string + (this.query.facets.tags.length > 0) ? ' AND (' + __.uniq(this.query.facets.tags).join(' AND ') + ')' : ''
+                      }
+                    },
+                    "aggregations": {
+                      "filtered_tags": {
+                        "terms": {
+                          "size": 10000,
+                          "field": "tags.comma_del"
+                        }
+                      }
+                    }
+                  },
+                  "bits": {
+                    "filter": {
+                      "query_string": {
+                        "default_operator": "AND",
+                        "query": this.query.string + (this.query.facets.bits.length > 0) ? ' AND (' + __.uniq(this.query.facets.bits).join(' AND ') + ')' : ''
+                      }
+                    },
+                    "aggregations": {
+                      "filtered_bits": {
+                        "terms": {
+                          "size": 10000,
+                          "field": "bit.keyword"
+                        }
+                      }
+                    }
+                  },
+                  "episodes": {
+                    "filter": {
+                      "query_string": {
+                        "default_operator": "AND",
+                        "query": this.query.string + (this.query.facets.episodes.length > 0) ? ' AND (' + __.uniq(this.query.facets.episodes).join(' AND ') + ')' : ''
+                      }
+                    },
+                    "aggregations": {
+                      "filtered_episodes": {
+                        "terms": {
+                          "size": 10000,
+                          "field": "episode.keyword"
+                        }
+                      }
+                    }
+                  }
+                }
               }
             }
-          }
-        },
-        "tags": {
-          "filter": {
-            "query_string": {
-              "default_operator": "AND",
-              "query": this.query.string + (this.query.facets.tags.length>0)?' AND ('+__.uniq(this.query.facets.tags).join(' AND ')+')':''
-            }
-          },
-          "aggregations": {
-            "filtered_tags": {
-              "terms": {
-                "size": 10000,
-                "field": "tags.comma_del"
-              }
-            }
-          }
-        },
-        "bits": {
-          "filter": {
-            "query_string": {
-              "default_operator": "AND",
-              "query": this.query.string + (this.query.facets.bits.length>0)?' AND ('+__.uniq(this.query.facets.bits).join(' AND ')+')':''
-            }
-          },
-          "aggregations": {
-            "filtered_bits": {
-              "terms": {
-                "size": 10000,
-                "field": "bit.keyword"
-              }
-            }
-          }
-        },
-        "episodes": {
-          "filter": {
-            "query_string": {
-              "default_operator": "AND",
-              "query": this.query.string + (this.query.facets.episodes.length>0)?' AND ('+__.uniq(this.query.facets.episodes).join(' AND ')+')':''
-            }
-          },
-          "aggregations": {
-            "filtered_episodes": {
-              "terms": {
-                "size": 10000,
-                "field": "episode.keyword"
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-} //qs
+          } //qs
 
 
-// fetch(this.CONFIG.prod.bits, {"body":QS,"method":"POST"})
-axios.post(this.CONFIG.prod.elastic_bits,QS)
-        .then(response => {
-          console.info(
-            process.env.VERBOSITY === "DEBUG" ? "getting bits w/ axios response..." : null
-          );
+        // fetch(this.CONFIG.prod.bits, {"body":QS,"method":"POST"})
+        axios.post(this.CONFIG.prod.elastic_bits, QS)
+          .then(response => {
+            console.info(
+              process.env.VERBOSITY === "DEBUG" ? "getting bits w/ axios response..." : null
+            );
 
-          
-          this.bits = response.data.hits.hits
-          this.facets = response.data.aggregations.all_bits
 
-        }) //axios.then
-        .catch(e => {
-        
-          this.console.msgs.push({ m: e, c: "error" })
-          console.error(e);
-        }) //axios.catch
-        .finally(()=>{
-          this.project.loading = false
-        })
+            this.bits = response.data.hits.hits
+            this.facets = response.data.aggregations.all_bits
 
-} else {
+          }) //axios.then
+          .catch(e => {
 
-QS=this.CONFIG.dev.elastic_bits;
-// console.log('QS for axios.get:',QS)
-axios.get(QS)
-        .then(response => {
+            this.console.msgs.push({ m: e, c: "error" })
+            console.error(e);
+          }) //axios.catch
+          .finally(() => {
+            this.project.loading = false
+          })
 
-          this.bits = response.data.hits.hits
-          this.facets = response.data.aggregations.all_bits
+      } else {
 
-        }) //axios.then
-        .catch(e => {
-        
-          this.console.msgs.push({ m: e, c: "error" })
-          console.error(e);
-        }) //axios.catch
-        .finally(()=>{
-          this.project.loading = false
-        })
-} //if.else.mode
+        QS = this.CONFIG.dev.elastic_bits;
+        // console.log('QS for axios.get:',QS)
+        axios.get(QS)
+          .then(response => {
 
-    },getFacets: function() {
+            this.bits = response.data.hits.hits
+            this.facets = response.data.aggregations.all_bits
+
+          }) //axios.then
+          .catch(e => {
+
+            this.console.msgs.push({ m: e, c: "error" })
+            console.error(e);
+          }) //axios.catch
+          .finally(() => {
+            this.project.loading = false
+          })
+      } //if.else.mode
+
+    },
+    getFacets: function() {
 
 
       this.console.msgs.push({ m: "facetizing " + this.query, c: "" })
@@ -730,34 +715,74 @@ axios.get(QS)
     wipeConsole: function() {
       this.console.msgs = [];
     },
+    getBrowse: function() {
+      this.project.loading = true;
+      console.log("getting browsers...");
+      this.browse.push({ bits: ['fakebit1'], tags: ['faketag1'], episodes: ['fakeepisode1'], guests: ['fakeguest1'] })
+      this.project.loading = false;
+    },
     setRoute: function() {
 
-let P = {
-            pane: this.actives.pane,
-            query: (this.query.string)?this.query.string:'*',
-            // facets: (this.query.facets.length>0)?this.query.facets.join(','):('*'),
-            basemap: (this.actives.basemap)?this.actives.basemap:'default',
-            updatekey: this.actives.updatekey
-          }
+        // facets are more complex
+
+        // (this.query.facets.guests.length > 0) ? ' AND (' + __.uniq(this.query.facets.guests).join(' AND ') + ')' : '' + (this.query.facets.tags.length > 0) ? ' AND (' + __.uniq(this.query.facets.tags).join(' AND ') + ')' : '' + (this.query.facets.bits.length > 0) ? ' AND (' + __.uniq(this.query.facets.bits).join(' AND ') + ')' : '' + (this.query.facets.episodes.length > 0) ? ' AND (' + __.uniq(this.query.facets.episodes).join(' AND ') + ')' : ''
+        let F = [];
+        if (this.query.facets.bits.length > 0) {
+          F.push(this.$_.map(this.query.facets.bits, (b) => {
+            return 'bit:"' + b + '"';
+          }))
+        }
+        if (this.query.facets.tags.length > 0) {
+          F.push(this.$_.map(this.query.facets.tags, (b) => {
+            return 'tags:"' + b + '"';
+          }))
+        }
+        if (this.query.facets.episodes.length > 0) {
+          F.push(this.$_.map(this.query.facets.episodes, (b) => {
+            return 'episode:"' + b + '"';
+          }))
+        }
+        if (this.query.facets.guests.length > 0) {
+          F.push(this.$_.map(this.query.facets.guests, (b) => {
+            return 'guests:"' + b + '"';
+          }))
+        }
+
+
+
+        let P = {
+          pane: this.actives.pane,
+          query: (this.query.string) ? this.query.string : '*',
+          facets: F.length < 1 ? '*' : this.$_.flatten(F).join(','),
+          basemap: (this.actives.basemap) ? this.actives.basemap : 'default',
+          updatekey: this.actives.updatekey
+        }
         this.$router.push({
           params: P
         }); //rejplace
       } //setRoute
-      
+
   } //methods
   ,
   watch: {
     "actives": {
-      deep:true,
+      deep: true,
+      handler: function(vnew, vold) {
+        this.setRoute();
+        if (vnew.pane == 'browse' && this.browse.length < 1) {
+          console.log("must get browse->");
+          this.getBrowse()
+        }
+      }
+    },
+    "query": {
+      deep: true,
       handler: function(vnew, vold) {
         this.setRoute();
       }
-    },"query.string": {
-      handler: function(vnew, vold) {
-        this.setRoute();
-      }
-    },"query.facets": {
-      deep:true,
+    },
+    "query.facets": {
+      deep: true,
       handler: function(vnew, vold) {
         this.getBits();
       }
