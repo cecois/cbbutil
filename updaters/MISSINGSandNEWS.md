@@ -43,26 +43,6 @@
 * content deleters
   - 530,22:45
   - other previous
-* drippin milk/talkin tang (any subepisode)
-  - 429,17:00(pw)
-  - 588,7:45(pw)
-  - 42\*?,??:??
-  - 429,21:00(pw)
-  - 429,23:30(pw)
-  - 429,29:20(pw)
-  - 429,1:17:30(pw)
-  - 443,13:30(pw)
-  - 443,27:00(pw)
-  - 565,8:00(pw)
-  - 429,17:00(pw)
-  - 42\*?,??:??
-  - 429,21:00(pw)
-  - 429,23:30(pw)
-  - 429,29:20(pw)
-  - 429,1:17:30(pw)
-  - 443,13:30(pw)
-  - 443,27:00(pw)
-  - 365,1:00:00(pw)
 * pft does star wars talk
   - all bo2017.\*
   - bo2017.3,30:25
@@ -328,10 +308,10 @@
   - ???,"and you're gil"
 - more celebrities should email each other
   - this is bit:"congratulatory text"
-  - 335,1:38:30(pw)
-  - bo2014.3,1:37:10(paywall)
-  - bo2014.3,1:22:00(pw)
-  - 337,1:32:45(pw)
+  - ~~335,1:38:30(pw)~~
+  - ~~bo2014.3,1:37:10(paywall)~~
+  - ~~bo2014.3,1:22:00(pw)~~
+  - ~~337,1:32:45(pw)~~
   - 338,1:15:14(pw)
 - the end (coco marx' joke stinger)
 
@@ -541,6 +521,7 @@
   - 445,56:45(pw)
   - 554,11:00(pw)
   - 338,81:55(pw)
+  - 335,52:45(pw
 - circus in town
 
   - 115,42:50
@@ -1809,6 +1790,7 @@
 - dads and grads
   - 427,1:00(pw)
   - 562,1:13:25(pw)
+  - 604,1:15
   - 549,0:30(pw)
   - 509,1:00(commercialed)
   - 358,0:50(pw)
