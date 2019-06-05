@@ -51,7 +51,12 @@ a{color:inherit;}
 //   height:10vh;
 //   background-color:$cbb-baseline;
 // }
-
+#zCBB-pane-toggler{
+  cursor:pointer;
+  color:$cbb-a;
+  &.splayed{color:#f50064;}
+  &:hover{color:black;}
+}
 
 #zCBB-inputContainer {
 

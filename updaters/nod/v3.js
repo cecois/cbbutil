@@ -509,18 +509,20 @@ console.log("audit.flag:",R.audit.flag)
 /* -----------------------------------------------
 // audit wz clean so we're sending
 */
-console.log("--------------------> sending "+inca.length+" documents to MLAB...");
-sent = await send(inca);
+console.log("--------------------> NORMLY WE SEND "+inca.length+" DOCUMENTS TO MLAB...");
+// console.log("--------------------> sending "+inca.length+" documents to MLAB...");
+// sent = await send(inca);
+
+
+// console.log("SENT",sent)
+
+// if(sent.documents.n !== inca.length){
+// 	console.log("ERROR: mismatching in sent ("+sent.documents.n+') and incoming raw ('+inca.length+'),  exiting...');
+// 	process.exit();
+// }
 
 /* -----------------------------------------------
 */
-
-console.log("SENT",sent)
-
-if(sent.documents.n !== inca.length){
-	console.log("ERROR: mismatching in sent ("+sent.documents.n+') and incoming raw ('+inca.length+'),  exiting...');
-	process.exit();
-}
 
 /* -----------------------------------------------
 // Now we repeat bu and most_recent cuzzits gonna have sent.documents.length more

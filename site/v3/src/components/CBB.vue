@@ -5,13 +5,14 @@
     <!-- <section class="section"> -->
     <div id="zCBB-header" class="columns">
       <div class="column is-one-quarter">
-        <div class="header-buttons columns">
+        <span class="has-text-centered" style="padding-top:1em;">{{page.title}}</span>
+        <!-- <div class="header-buttons columns">
           <div v-for="litem in page.linkItems" class="column">
             <div class="header-button tooltip is-tooltip-right" :data-tooltip="litem.slug"><a :class="{ active: litem.active }" :href=" litem.uri"><i :class="litem.ico"></i></a></div>
           </div NB="/column.header-button">
-        </div NB="/.header-buttons">
+        </div NB="/.header-buttons"> -->
       </div NB="/.column">
-      <div id="zCBB-inputContainer" class="column">
+      <div id="zCBB-inputContainer" class="column" style="padding-top:2em;">
         <div id="zCBB-inputSearch" class="field has-addons">
           <p class="control">
             <a class="button" style="width:46px;">
@@ -24,12 +25,13 @@
           
           
           <p class="control">
-            <a @click="getBits();actives.pane='search';" class="button is-info">
+            <!-- click on search switches pane and clears facets (ie new query - watcher on facets does the getbits part) -->
+            <a @click="clearFacets();actives.pane='search';" class="button is-info">
               <i class="fa fa-search"></i>
             </a>
           </p>
           <p class="control">
-            <a class="button is-info">
+            <a @click="setRandomQuery" class="button is-info">
               <i class="fa fa-random"></i>
             </a>
           </p><p class="control">
@@ -38,48 +40,16 @@
             </a>
           </p>
         </div NB="">
-        <!-- <div class="field has-addons has-addons-centered">
-          <div class="control">
-            <input style="" v-model="query" class="input is-large is-size-5 has-text-centered is-expanded" size="50%" type="text" :placeholder="(project.loading)?'loading...':'e.g. `(huell AND crowbot)` or just `heynong`'" />
-          </div>
-          <div id="inputContainer" class="control">
-            <a id="cbb-bt-search" class="button is-info is-large">
-              <i class="fa fa-search"></i>
-            </a>
-          </div NB="./#inputContainer">
-          <div class="control">
-            <a id="cbb-bt-random" class="button is-large">
-              <span class="icon is-small">
-        <i class="fa fa-random"></i>
-      </span>
-            </a>
-          </div NB="/.control">
-        </div NB="./field"> -->
-        <!-- <div class="field has-addons" style=""> -->
-        <!-- <div class="field has-addons level">
-          <div class="control level-item">
-            <input style="" v-model="query" class="input is-large is-size-5 has-text-centered is-expanded" size="50%" type="text" :placeholder="(project.loading)?'loading...':'e.g. `(huell AND crowbot)` or just `heynong`'" />
-          </div>
-          <div id="inputContainer" class="control">
-            <a id="cbb-bt-search" class="button is-info is-large">
-              <i class="fa fa-search"></i>
-            </a>
-          </div NB="./#inputContainer">
-          <div class="control">
-            <a id="cbb-bt-random" class="button is-large">
-              <span class="icon is-small">
-        <i class="fa fa-random"></i>
-      </span>
-            </a>
-          </div NB="/.control">
-        </div NB="/.field.has-addons.level"> -->
-        <!-- </div NB="./field"> -->
+        
       </div NB="/#inputsearch.column">
-      <div class="app-title column is-one-quarter"><span style="text-align:right;">{{page.title}}</span></div>
+      <div style="padding:1em 1em 0 0;" class="app-title column is-one-quarter has-text-right">
+        <span><i class="fas fa-settings"></i></span><span id="zCBB-pane-toggler" :class="page.splayed?'splayed':''" style="margin-left:1em;"><i class="fas fa-eye-slash"></i></span>
+      </div>
     </div NB="/#header ">
     <!-- </section> -->
     <div class="columns" id="zCBB-app-nav">
-      <div class="column"><i class="fas fa-plus-square"></i>
+      <div class="column">
+        <!-- <i class="fas fa-plus-square"></i> -->
       </div>
       <div class="column">
         <div class="columns">
@@ -98,7 +68,7 @@
           </div>
         </div NB="/#inputsearch">
       </div NB="/.columns">
-      <div class="column"><i class="fas fas fa-minus-square"></i></div>
+      <div class="column has-text-right"></div>
     </div NB="/.columns">
 
     <div :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='default'">
@@ -154,7 +124,6 @@
   <h5 :class="['is-size-5','has-text-weight-bold']">{{key}}</h5>
   <ul>
     <li v-for="bucket in facet.filtered_bits.buckets">
-      <!-- <span :class="uContains(query.facets.bits,bucket.key)?'zCBB-trigger':''">{{bucket.key}}</span> -->
       <span @click="query.facets.bits.push(bucket.key)" :class="$_.contains(query.facets.bits,bucket.key)?'zCBB-trigger':''">{{bucket.key}}</span>
        ({{bucket.doc_count}}) <sup v-if="$_.contains(query.facets.bits,bucket.key)"><i class="fa fa-ban zCBB-trigger-facet-remove"></i></sup></li>
   </ul>
@@ -177,7 +146,6 @@
 <div v-if="key == 'episodes'" v-for="(facet, key) in this.facets">
   <h5 :class="['is-size-5','has-text-weight-bold']">{{key}}</h5>
   <ul>
-    <!-- <li @click="query=query+' AND '+bucket.key" v-for="bucket in facet.filtered_episodes.buckets"><span class="zCBB-trigger">{{bucket.key.split('/')[bucket.key.split('/').length-1]}}</span> ({{bucket.doc_count}})</li> -->
     <li @click="query.facets.push(bucket.key)" v-for="bucket in facet.filtered_episodes.buckets"><span class="zCBB-trigger">{{bucket.key.split('/')[bucket.key.split('/').length-1]}}</span> ({{bucket.doc_count}})</li>
   </ul>
 </div NB="/.facet in facets">
@@ -222,30 +190,12 @@
   </div NB="/.level-right">
 </div>
 
-<!--               <div class="level">
-                <div class="level-left"></div>
-              
-<div class="level-right">                            <div style="" class="level-item is-size-7 is-paddingless">
-                
-              </div NB="/.level-item"></div>
-            </div NB="/.level"> -->
-
-
             </div NB="columns">
-                <!-- <a class="tooltip is-tooltip-right " href="#">{{bit._source.episode_string}}</a> -->
-                <!-- <div style="" class="is-size-7 bit-data-meta"> -->
 
-                  <!-- <span v-if="bit._source.created_at">added: {{$MOMENT(bit._source.created_at).format('YYYY.MMM.Mo')}}</span> <span v-if="bit._source.updated_at">(updated {{$MOMENT(bit._source.updated_at).format('YYYY.MMM.Mo')}})</span> -->
-                <!-- </div NB="/.bit-data-meta"> -->
             <div v-if="!page.splayed" class="columns zCBB-bit-data-meta">
                 
               <div class="column is-1"></div>
               
-<!-- <div style="" class="column is-size-7 is-paddingless">
-  <span class="is-size-7 has-text-grey-lighter">~{{bit._source.tstart}}</span> 
-                  <span class="is-size-7 has-text-grey-lighter" v-if="bit._source.created_at">added: {{$MOMENT(bit._source.created_at).format('YYYY.MMM.Mo')}}</span> <span class="is-size-7 has-text-grey-lighter" v-if="bit._source.updated_at">(updated {{$MOMENT(bit._source.updated_at).format('YYYY.MMM.Mo')}})</span>
-</div NB="/.column"> -->
-
 <div class="column is-7"><span style="margin-left:1em;" class="is-size-7 has-text-grey-lighter">ep.{{bit._source.episode.split('/')[bit._source.episode.split('/').length-1]}}</span><span class="is-size-7 has-text-grey-lighter" v-if="bit._source.created_at">&nbsp;|&nbsp;~{{bit._source.tstart}}&nbsp;|&nbsp;added: {{$MOMENT(bit._source.created_at).format('YYYY.MMM.Mo')}}</span><span class="is-size-7 has-text-grey-lighter" v-if="bit._source.updated_at">&nbsp;|&nbsp;updated {{$MOMENT(bit._source.updated_at).format('YYYY.MMM.Mo')}}</span></div NB="/.column">
 
 <div class="column"><div v-if="bit._source.tags" style="margin-left:1px;" v-bind:class="['zCBB-tag','tag',(query.string && encodeURI(query.string.toLowerCase()).indexOf('tag%3A%22'+tag+'%22'.toLowerCase())>=0)?'is-info':'is-dark']" @click="triggerSingleFieldQuery('tag',tag)" v-for="tag in (bit._source.tags.split(','))">{{tag}}</div NB="tags"></div NB="/.column">
@@ -291,9 +241,9 @@
     </div NB="/updates">
     <div class="zCBB-pane" v-if="actives.pane=='help'">
     
-<section class="">
+<div class="">
   You need help? With this dumb, free thing?! Fine:
-</section>
+</div>
 <div class="">
 <div style="" class="tile content is-ancestor is-size-7">
   <div class="tile is-vertical is-8">
@@ -449,7 +399,7 @@ export default {
       bits: [],
       facets: [],
       page: {
-        title: "CBB.BITMAP.v3: <something goes here>",
+        title: "cb!b!.bitmap.v3",
         splayed: false,
         panes: [{
           label: 'Home',
@@ -564,26 +514,55 @@ let QS = null;
 
 
 
-    },getBits: function() {
+    },
+    getGeomIDs: function (){
+
+return this.$_.map(this.$_.filter(this.bits,(b)=>{return b._source.bit=='Location'}),(m)=>{
+  return m._source.location_type.toLowerCase()+':'+m._source.location_id
+})
+
+    },
+    getGeoms: function() {
+
+this.project.loading=true
+let u = this.CONFIG.atlas_geoms+this.getGeomIDs().join(',')
+
+axios.get(u)
+        .then(response => {
+
+          
+
+        }) //axios.then
+        .catch(e => {
+        
+          this.console.msgs.push({ m: e, c: "error" })
+          console.error(e);
+        }) //axios.catch
+        .finally(()=>{
+          this.project.loading = false
+        })
+
+    },
+    getBits: function() {
       
       this.project.loading=true;
 
 let QS = null;
 
-      // if (!this.query || this.query=='') { 
-      //   // query is empty - we'll send out for just a sampling
-      // this.console.msgs.push({ m: "querying for default... ...", c: "" })
-
-      // } //else.this.query
-
 if(this.CONFIG.mode=='33'){
 
+  let qso = this.query.string?this.query.string:'*'
+  let qfg = (this.query.facets.guests.length>0)?' AND ('+__.uniq(this.query.facets.guests).join(' AND ')+')':''
+  let qft = (this.query.facets.tags.length>0)?' AND ('+__.uniq(this.query.facets.tags).join(' AND ')+')':''
+  let qfb = (this.query.facets.bits.length>0)?' AND ('+__.uniq(this.query.facets.bits).join(' AND ')+')':''
+  let qfe = (this.query.facets.episodes.length>0)?' AND ('+__.uniq(this.query.facets.episodes).join(' AND ')+')':''
+
  QS={
-  "size": 10000,
+  "size": 20,
   "query": {
     "query_string": {
       "default_operator": "AND",
-      "query": this.query.string +(this.query.facets.guests.length>0)?' AND ('+__.uniq(this.query.facets.guests).join(' AND ')+')':''+(this.query.facets.tags.length>0)?' AND ('+__.uniq(this.query.facets.tags).join(' AND ')+')':''+(this.query.facets.bits.length>0)?' AND ('+__.uniq(this.query.facets.bits).join(' AND ')+')':''+(this.query.facets.episodes.length>0)?' AND ('+__.uniq(this.query.facets.episodes).join(' AND ')+')':''
+      "query": qso+qfg+qft+qfb+qfe
     }
   },
   "aggregations": {
@@ -594,7 +573,7 @@ if(this.CONFIG.mode=='33'){
           "filter": {
             "query_string": {
               "default_operator": "AND",
-              "query": this.query.string + (this.query.facets.guests.length>0)?' AND ('+__.uniq(this.query.facets.guests).join(' AND ')+')':''
+              "query": qso+qfg+qft+qfb+qfe
             }
           },
           "aggregations": {
@@ -610,7 +589,7 @@ if(this.CONFIG.mode=='33'){
           "filter": {
             "query_string": {
               "default_operator": "AND",
-              "query": this.query.string + (this.query.facets.tags.length>0)?' AND ('+__.uniq(this.query.facets.tags).join(' AND ')+')':''
+              "query": qso+qfg+qft+qfb+qfe
             }
           },
           "aggregations": {
@@ -626,7 +605,7 @@ if(this.CONFIG.mode=='33'){
           "filter": {
             "query_string": {
               "default_operator": "AND",
-              "query": this.query.string + (this.query.facets.bits.length>0)?' AND ('+__.uniq(this.query.facets.bits).join(' AND ')+')':''
+              "query": qso+qfg+qft+qfb+qfe
             }
           },
           "aggregations": {
@@ -642,7 +621,7 @@ if(this.CONFIG.mode=='33'){
           "filter": {
             "query_string": {
               "default_operator": "AND",
-              "query": this.query.string + (this.query.facets.episodes.length>0)?' AND ('+__.uniq(this.query.facets.episodes).join(' AND ')+')':''
+              "query": qso+qfg+qft+qfb+qfe
             }
           },
           "aggregations": {
@@ -702,7 +681,19 @@ axios.get(QS)
         })
 } //if.else.mode
 
-    },getFacets: function() {
+    },
+    setRandomQuery: function () {
+
+this.actives.pane='search'
+this.query.string='random string gen'
+this.clearFacets()
+
+    },clearFacets: function () {
+
+this.query.facets = {bits:[],episodes:[],guests:[],tags:[]}
+
+    },
+    getFacets: function() {
 
 
       this.console.msgs.push({ m: "facetizing " + this.query, c: "" })
@@ -747,7 +738,11 @@ let P = {
   } //methods
   ,
   watch: {
-    "actives": {
+    bits: {
+      handler: function(vnew, vold) {
+        this.getGeomIDs();
+      }
+    },"actives": {
       deep:true,
       handler: function(vnew, vold) {
         this.setRoute();
