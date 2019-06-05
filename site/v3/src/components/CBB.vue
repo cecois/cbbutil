@@ -5,7 +5,7 @@
     <!-- <section class="section"> -->
     <div id="zCBB-header" class="columns">
       <div class="column is-one-quarter">
-        <span class="has-text-centered" style="padding-top:1em;">{{page.title}}</span>
+        <span class="has-text-left" style="padding-top:1em;">{{page.title}}</span>
         <!-- <div class="header-buttons columns">
           <div v-for="litem in page.linkItems" class="column">
             <div class="header-button tooltip is-tooltip-right" :data-tooltip="litem.slug"><a :class="{ active: litem.active }" :href=" litem.uri"><i :class="litem.ico"></i></a></div>
@@ -36,14 +36,14 @@
             </a>
           </p><p class="control">
             <a @click="query=null" class="button has-text-light" style="width:22px;border-left:none;">
-              <i class="fa fa-ban is-size-7"></i>
+              <i class="fa fa-slash is-size-7"></i>
             </a>
           </p>
         </div NB="">
         
       </div NB="/#inputsearch.column">
       <div style="padding:1em 1em 0 0;" class="app-title column is-one-quarter has-text-right">
-        <span><i class="fas fa-settings"></i></span><span id="zCBB-pane-toggler" :class="page.splayed?'splayed':''" style="margin-left:1em;"><i class="fas fa-eye-slash"></i></span>
+        <span :class="['zCBB-trigger-modal',modals.settings?'is-active':'']" @click="modals.settings=true"><i class="fas fa-sliders-h"></i></span><span @click="page.splayed=!page.splayed" id="zCBB-pane-toggler" :class="page.splayed?'splayed':''" style="margin-left:1em;"><i class="fas fa-eye-slash"></i></span>
       </div>
     </div NB="/#header ">
     <!-- </section> -->
@@ -119,34 +119,34 @@
     <div style="padding-top:2em;" :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='search'">
       
       <div v-if="!page.splayed" class="zCBB-facet column has-text-left has-text-weight-light is-size-7">
-
+<!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••• FACET ••••••••••••••• -->
 <div v-if="key == 'bits'" v-for="(facet, key) in this.facets">
   <h5 :class="['is-size-5','has-text-weight-bold']">{{key}}</h5>
   <ul>
     <li v-for="bucket in facet.filtered_bits.buckets">
-      <span @click="query.facets.bits.push(bucket.key)" :class="$_.contains(query.facets.bits,bucket.key)?'zCBB-trigger':''">{{bucket.key}}</span>
-       ({{bucket.doc_count}}) <sup v-if="$_.contains(query.facets.bits,bucket.key)"><i class="fa fa-ban zCBB-trigger-facet-remove"></i></sup></li>
+      <span @click="query.facets.bits.push(bucket.key)" :class="$_.contains(query.facets.bits,bucket.key)?'':'zCBB-trigger'">{{bucket.key}}</span>
+       ({{bucket.doc_count}}) <sup @click="query.facets.bits=$_.reject(query.facets.bits,(b)=>{return b==bucket.key})" v-if="$_.contains(query.facets.bits,bucket.key)"><i class="fa fa-ban zCBB-trigger-facet-remove"></i></sup></li>
   </ul>
 </div NB="/.facet in facets">
-
+<!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••• FACET ••••••••••••••• -->
 <div v-if="key == 'tags'" v-for="(facet, key) in this.facets">
   <h5 :class="['is-size-5','has-text-weight-bold']">{{key}}</h5>
   <ul>
-    <li v-for="bucket in facet.filtered_tags.buckets"><span class="zCBB-trigger">{{bucket.key}}</span> ({{bucket.doc_count}})</li>
+    <li v-for="bucket in facet.filtered_tags.buckets"><span @click="query.facets.tags.push(bucket.key)" :class="$_.contains(query.facets.tags,bucket.key)?'':'zCBB-trigger'">{{bucket.key}}</span> ({{bucket.doc_count}}) <sup @click="query.facets.tags=$_.reject(query.facets.tags,(b)=>{return b==bucket.key})" v-if="$_.contains(query.facets.tags,bucket.key)"><i class="fa fa-ban zCBB-trigger-facet-remove"></i></sup></li>
   </ul>
 </div NB="/.facet in facets">
-
+<!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••• FACET ••••••••••••••• -->
 <div v-if="key == 'guests'" v-for="(facet, key) in this.facets">
   <h5 :class="['is-size-5','has-text-weight-bold']">{{key}}</h5>
   <ul>
-    <li v-for="bucket in facet.filtered_guests.buckets"><span class="zCBB-trigger">{{bucket.key}}</span> ({{bucket.doc_count}})</li>
+    <li v-for="bucket in facet.filtered_guests.buckets"><span @click="query.facets.guests.push(bucket.key)" :class="$_.contains(query.facets.guests,bucket.key)?'':'zCBB-trigger'">{{bucket.key}}</span> ({{bucket.doc_count}}) <sup @click="query.facets.guests=$_.reject(query.facets.guests,(b)=>{return b==bucket.key})" v-if="$_.contains(query.facets.guests,bucket.key)"><i class="fa fa-ban zCBB-trigger-facet-remove"></i></sup></li>
   </ul>
 </div NB="/.facet in facets">
-
+<!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••• FACET ••••••••••••••• -->
 <div v-if="key == 'episodes'" v-for="(facet, key) in this.facets">
   <h5 :class="['is-size-5','has-text-weight-bold']">{{key}}</h5>
   <ul>
-    <li @click="query.facets.push(bucket.key)" v-for="bucket in facet.filtered_episodes.buckets"><span class="zCBB-trigger">{{bucket.key.split('/')[bucket.key.split('/').length-1]}}</span> ({{bucket.doc_count}})</li>
+    <li v-for="bucket in facet.filtered_episodes.buckets"><span @click="query.facets.episodes.push(bucket.key)" :class="$_.contains(query.facets.episodes,bucket.key)?'':'zCBB-trigger'">{{bucket.key.split('/')[bucket.key.split('/').length-1]}}</span> ({{bucket.doc_count}}) <sup @click="query.facets.episodes=$_.reject(query.facets.episodes,(b)=>{return b==bucket.key})" v-if="$_.contains(query.facets.episodes,bucket.key)"><i class="fa fa-ban zCBB-trigger-facet-remove"></i></sup></li>
   </ul>
 </div NB="/.facet in facets">
 
@@ -239,83 +239,64 @@
         <div class="column is-1"></div>
       </div NB="/.column w tiles">
     </div NB="/updates">
-    <div class="zCBB-pane" v-if="actives.pane=='help'">
+    <div :class="['zCBB-pane','columns','is-multiline',this.page.splayed?'splayed':'']" v-if="actives.pane=='help'">
     
-<div class="">
-  You need help? With this dumb, free thing?! Fine:
-</div>
-<div class="">
-<div style="" class="tile content is-ancestor is-size-7">
-  <div class="tile is-vertical is-8">
-    <div class="tile">
-      <div class="tile is-parent is-vertical">
-        <article class="tile is-child box">
-          <h4 class="title is-4">Timestamps: <img class="" src="https://a-v2.sndcdn.com/assets/images/header/cloud@2x-e5fba46.png" style=""/> <small>v.</small> <img class="" src="http://v.fastcdn.co/t/fbd61fb6/9f77a6cf/1506364214-1020996-166x62-HOWLLogoHorizontalTeal.png" style=""/></h4>
-          <p>Each record has <strong>tstart</strong> and <strong>tend</strong> timestamps - ostensibly these frame the specific instance within the episode. However, when CBB audio files were moved behind the Howl paywall (and then to Stitcher), it rendered many of the timestamps incorrect - as paywalled episodes pass the edit points where commercials used to be, they're offset by however long the excised commercials were.</p><p>Timestamps can still be used to get close to the instance when listening, but they are no longer accurate enough to be used for, say, supercutting or something.</p>
-        </article>
+  <div class="column is-1"></div>
+  <div class="column is-10">
+    <div class="card large"><div class="card-content">
+                            <div class="content">
+                              <h2 class="is-size-3"><i class="fas fa-search-location"></i>&nbsp;Searching</h2>
+                                <p>Basically you can just type into the box like a monkey might do it - "huell" or "fourvel" and so forth.</p>
+        <p>But also know that whatever you type into the box gets POSTed as-is, and since Search hits against an <a href="https://www.elastic.co/products/elasticsearch">ElasticSearch</a> (v5.6) index, (as with most search engines) there is <a href="https://www.elastic.co/guide/en/elasticsearch/reference/5.6/query-dsl-query-string-query.html">some pretty advanced stuff</a> you can do if you like. To wit:</p>
 
-      </div NB="/.tile.is-parent">
-      <div class="tile is-parent">
-        <article class="tile is-child box">
-          <h4 class="title is-4">The Map <i class="fa fa-map-o"></i></h4>
+<p>
+  <ul>
+    <li>to find all the Phil Collins references that *aren't* about his Live Aid Concorde stunt: </li>
+    <li>to find all the times a Lapkus character is referenced when she's not even there:</li>
+  </ul>
+</p>
+
+                            </div>
+                        </div NB="/.card-content">
+                      </div NB="/.card-large">
+    <div class="columns is-mobile">
+      <div class="column">
+        <div class="card large"><div class="card-content"><div class="content">
+          <h2 class="is-size-3"><i class="fas fa-clock"></i>&nbsp;Timestamps</h2>
+          <p>
+            
+            <img class="" src="https://a-v2.sndcdn.com/assets/images/header/cloud@2x-e5fba46.png" style=""/> <small>v.</small> <img class="" src="http://v.fastcdn.co/t/fbd61fb6/9f77a6cf/1506364214-1020996-166x62-HOWLLogoHorizontalTeal.png" style=""/> <small>v.</small> stitcher img</p>
+          <p>Each record has <strong>tstart</strong> and <strong>tend</strong> timestamps - ostensibly these frame the specific instance within the episode. However, when CBB audio files were moved behind the Howl paywall (and then to Stitcher), it rendered many of the timestamps incorrect - as paywalled episodes pass the edit points where commercials used to be, they're offset by however long the excised commercials were.</p><p>Timestamps can still be used to get close to the instance when listening, but they are no longer accurate enough to be used for, say, supercutting or something.
+
+          </p>
+        </div></div></div>
+      </div>
+      <div class="column">
+        <div class="card large"><div class="card-content"><div class="content">
+          <h2 class="is-size-3"><i class="fas fa-map"></i>&nbsp;The Map</h2>
           <p>There's a Leaflet instance under here that will display the geometries associated with any bits of type="location." Look for the <i class="fa fa-map-marker"></i> and click it to zoom the map to that location. More on that under "Locations."</p>
           <p>But a note or two about how to use said map: in an effort to reduce clutter, there are no map controls as you might find in other web maps (zoom bar, +/-, maybe a panning control, too). None of that here - just grab the map to move it and trackpad|scroll to zoom in and out. Optionally you can shift-click+hold-drag-release in order to "select" an area of the map to which you'll immediately zoom.</p>
-        </article>
-      </div NB="/.tile.is-parent">
-    </div NB="/.tile">
-    <div class="tile is-parent">
-      <article class="tile is-child box">
-        <h4 class="title is-4">Searching <i class="fa fa-search"></i></h4>
-        <p>Basically you can just type into the box like a monkey might do it - "huell" or "fourvel" and so forth.</p>
-        <p>But also know that whatever you type into the box gets POSTed as-is, and since Search hits against an <a href="https://www.elastic.co/products/elasticsearch">ElasticSearch</a> (v5.6) index, (as with most search engines) there is <a href="https://www.elastic.co/guide/en/elasticsearch/reference/5.6/query-dsl-query-string-query.html">some pretty advanced stuff</a> you can do if you like. To wit:</p>
-      </article>
-    </div NB="/.tile.is-parent">
-  </div NB="/.tile">
-  <!-- ******************************************** -->
-  <div class="tile is-parent">
-    <article class="">
-      <h5 style="" class="title is-5 is-paddingless"><strong>Fields:</strong></h5>
-      <dl class="content">
-        <dt>find a specific bit using its full or partial value:</dt>
-        <dd><a href="#" class="zCBB-trigger" data-target="bit:location" data-type="">bit:location</a> or <a href="#" class="zCBB-trigger" data-target="bit:topping" data-type="">bit:topping</a> <code>// for DSALW's Queen's english ("topping hat")</code></dd>
-
-        <dt>find bits by date (added/updated):</dt>
-        <dd><a href="#" class="zCBB-trigger" data-target="updated_at:[2017-01-01T00:00:00Z TO 2017-01-31T23:59:59Z]" data-type="">updated_at:[2017-01-01T00:00:00Z TO 2017-01-31T23:59:59Z]</a></dd>
-        <dd><small>Hint: updated_at is typically the same as created_at except when a record has been...updated. The implication is that you'll probably always want to use updated_at for any kind of date query.</small></dd>
-      </dl>
-
-    </article>
-
-
-    <!-- ******************************************** -->
-
-    <article class="">
-      <h5 style="" class="title is-5 is-paddingless"><strong>Boolean stuff:</strong></h5>
-      <div class="content">
-        <dl>
-          <dt>combine terms with either word or character operators:</dt>
-          <dd><a href="#" class="zCBB-trigger" data-type="" data-target="bit:location +dimello">bit:location +dimello</a></dd>
-          <dd><a href="#" class="zCBB-trigger" data-type="" data-target="mexico -adomian">mexico -adomian</a></dd>
-          <dd><a href="#" class="zCBB-trigger" data-type="" data-target='collins -bit:"Phil Collins"'>collins -bit:"Phil Collins"</a><code>//Phil Collins references beyond his Live Aid Concorde stunt</code></dd>
-          <dd><a href="#" class="zCBB-trigger" data-type="" data-target="where AND from AND dabney">where AND from AND dabney</a></dd>
-          <dd><a href="#" class="zCBB-trigger" data-type="" data-target="(wipe AND out) NOT hardcastle">(wipe AND out) NOT hardcastle</a></dd>
-          <dd><small>Hint: otherwise-unqualified terms typed into the box are ANDed together by default.</small></dd>
-        </dl>
+        </div></div></div>
       </div>
-    </article>
+    </div NB="/.columns">
+    
+    <div class="column is-12">
 
-  </div>
-</div NB="/.tile.is-parent">
-<div class="tile is-parent">
-  <article class="tile is-child box">
-
-   <h4 class="title is-4">Locations <i class="fa fa-map-marker"></i></h4>
-   <p>One of the bits is special (and in fact the original impetus of this entire effort). For <a href='#' class='zCBB-trigger' data-type='bit' data-target='Location'>bits="Location"</a> the results will appear in the picklist (indicated by a map pin icon) <em>and</em> on the map under what you're reading now (hidden behind the main content area by default).</p><p>The ctrl key will toggle the map's visibility (as will the <i class="fa fa-map-o"></i> button); the <i style="" class="fa fa-map-marker"></i> in the search results will zoom to that instance's referenced location. <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"huell howser"'>Huell Howser</a>, <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"gino lambardo"'>Gino Lambardo</a>, <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"merrill shindler"'>Merrill Shindler</a>, and <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"shelly driftwood"'>Shelly Driftwood</a> are all good for at least a few.</p>
+    <div class="card large"><div class="card-content">
+                            <div class="content">
+                              <h2 class="is-size-3"><i class="fas fa-map-marker"></i>&nbsp;Locations</h2>
+                                
+                                <p>One of the bits is special (and in fact the original impetus of this entire effort). For <a href='#' class='zCBB-trigger' data-type='bit' data-target='Location'>bits="Location"</a> the results will appear in the picklist (indicated by a map pin icon) <em>and</em> on the map under what you're reading now (hidden behind the main content area by default).</p><p>The ctrl key will toggle the map's visibility (as will the <i class="fa fa-map-o"></i> button); the <i style="" class="fa fa-map-marker"></i> in the search results will zoom to that instance's referenced location. <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"huell howser"'>Huell Howser</a>, <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"gino lambardo"'>Gino Lambardo</a>, <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"merrill shindler"'>Merrill Shindler</a>, and <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"shelly driftwood"'>Shelly Driftwood</a> are all good for at least a few.</p>
 
    <p>Another thing to note about locations is that unless there's a clamor for it we do NOT spatially-index the geometries for retrieval. So while of course you can query for <em>bits</em> that reference locations (and those referenced geometries will appear on the map with minimal interaction), we're not bothering to offer the ability to, say, zoom/pan the map and query for locations <em>in that area</em>. Like, who cares?</p><p>If somebody really wants that (or the tangential ability to query for bits that reference, say, the Boston area or Marina del Rey, maybe <a class="twitter-share-button" href="https://twitter.com/share" data-size="large" data-text="custom share text" data-url="https://dev.twitter.com/web/tweet-button" data-hashtags="comedybangbang,zapstraighttoit" data-via="twitterdev"><i class="fa fa-twitter"></i> say something</a>. But really if you're <em>that interested</em> you could just query for everything (<a href="#" class="zCBB-trigger" data-type="" data-target="bit:location">"bit:Location"</a>) and zoom to the spot about which you're curious.</p>
 
- </article>
-</div NB="/.tile.is-parent"></div>
+                            </div NB="/.content">
+                        </div NB="/.card-content">
+                      </div NB="/.card-large">
+
+    </div NB="/.column.is-10">
+  </div NB="/.column">
+  
 
     </div NB="/help">
     <footer class="footer">
@@ -408,7 +389,7 @@ export default {
       },
       project: { loading: false, shorthand: "CbBBtMp" },
       console: { msgs: [] },
-      modalClass: false,
+      modals: {settings:false},
       incoming: null,
       MAP: null,
       basemaps: [
@@ -548,6 +529,12 @@ axios.get(u)
       this.project.loading=true;
 
 let QS = null;
+
+      // if (!this.query || this.query=='') { 
+      //   // query is empty - we'll send out for just a sampling
+      // this.console.msgs.push({ m: "querying for default... ...", c: "" })
+
+      // } //else.this.query
 
 if(this.CONFIG.mode=='33'){
 

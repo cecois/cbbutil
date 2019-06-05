@@ -20,7 +20,7 @@
   "devDependencies": {
     "autoprefixer-stylus": "^0.4.0",
     "browser-sync": "^1.9.0",
-    "fstream": "^1.0.11",
+    "fstream": "^1.0.12",
     "gulp": "github:gulpjs/gulp#4.0",
     "gulp-concat": "^2.6.1",
     "gulp-declare": "^0.3.0",
@@ -32,14 +32,14 @@
     "gulp-wrap": "^0.13.0",
     "handlebars": "^4.0.0",
     "json2csv": "^3.7.3",
-    "moment": "^2.18.1",
-    "mongodb": "^2.2.25",
-    "tar": "^2.2.1",
-    "tar-fs": "^1.15.3",
-    "underscore": "^1.8.3",
-    "zlib": "^1.0.5",
+    "moment": "^2.24.0",
+    "mongodb": "^2.2.36",
     "node-nominatim2": "^0.1.0",
-    "prompt": "^1.0.0"
+    "prompt": "^1.0.0",
+    "tar": "^2.2.1",
+    "tar-fs": "^1.16.3",
+    "underscore": "^1.9.1",
+    "zlib": "^1.0.5"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",

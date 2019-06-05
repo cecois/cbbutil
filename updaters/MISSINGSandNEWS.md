@@ -43,26 +43,6 @@
 * content deleters
   - 530,22:45
   - other previous
-* drippin milk/talkin tang (any subepisode)
-  - 429,17:00(pw)
-  - 588,7:45(pw)
-  - 42\*?,??:??
-  - 429,21:00(pw)
-  - 429,23:30(pw)
-  - 429,29:20(pw)
-  - 429,1:17:30(pw)
-  - 443,13:30(pw)
-  - 443,27:00(pw)
-  - 565,8:00(pw)
-  - 429,17:00(pw)
-  - 42\*?,??:??
-  - 429,21:00(pw)
-  - 429,23:30(pw)
-  - 429,29:20(pw)
-  - 429,1:17:30(pw)
-  - 443,13:30(pw)
-  - 443,27:00(pw)
-  - 365,1:00:00(pw)
 * pft does star wars talk
   - all bo2017.\*
   - bo2017.3,30:25
@@ -74,6 +54,7 @@
 * standing up shaking your fist/risen
   - 373,multiple
   - 602,37:45
+  - 603,48:30
   - 600,42:45
   - 372?
   - 374,13:50(pw)
@@ -327,11 +308,11 @@
   - ???,"and you're gil"
 - more celebrities should email each other
   - this is bit:"congratulatory text"
-  - 335,1:38:30(pw)
-  - bo2014.3,1:37:10(paywall)
-  - bo2014.3,1:22:00(pw)
-  - 337,1:32:45(pw)
-  - 338,1:15:14(pw)
+  - ~~335,1:38:30(pw)~~
+  - ~~bo2014.3,1:37:10(paywall)~~
+  - ~~bo2014.3,1:22:00(pw)~~
+  - ~~337,1:32:45(pw)~~
+  - ~~338,1:15:14(pw)~~
 - the end (coco marx' joke stinger)
 
   - 584,1:07:25(pw)
@@ -540,6 +521,7 @@
   - 445,56:45(pw)
   - 554,11:00(pw)
   - 338,81:55(pw)
+  - 335,52:45(pw
 - circus in town
 
   - 115,42:50
@@ -1008,6 +990,7 @@
   - 246,31:40(howl)
 - mr. microphone
   - 2016.nyc930,32:45
+  - live-from-anaheim-now-hear-this,1:04:50
   - 349,38:25(pw)
   - 349,40:30(pw)
   - 507,12:40
@@ -1807,6 +1790,7 @@
 - dads and grads
   - 427,1:00(pw)
   - 562,1:13:25(pw)
+  - 604,1:15
   - 549,0:30(pw)
   - 509,1:00(commercialed)
   - 358,0:50(pw)
@@ -1884,6 +1868,7 @@
   - 438,12:50(pw)
   - 438,26:45(pw)
   - sydney2016,58:00
+  - live-from-anaheim-now-hear-this-2016,1:10:00
 - stoppin up the jams
 
   - 441,lotsa (inaugural)
@@ -1990,6 +1975,7 @@
   - 561,44:45(pw)
   - 567,14:00(pw)
   - 602,1:11:45
+  - 603,1:16:00
   - 555,1:06:00
 
 - shallatoo (maxwell keeper's new catchphrase)

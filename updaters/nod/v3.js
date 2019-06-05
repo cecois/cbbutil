@@ -1,13 +1,11 @@
 var __ = require('underscore')
 ,FS = require('fs')
-,HANDLEBARS = require('handlebars')
 ,CONFIG = require("./Config.json")
 ,FSTREAM = require("fstream")
 ,TAR = require("tar-fs")
 ,PATH = require('path')
 ,ZLIB = require('zlib')
 ,DB = require('mongodb').Db
-,RP = require('request-promise')
 ,MLAB = require('mongolab-data-api')(CONFIG.mongokey)
 ,ELASTIC = require('elasticsearch')
 ,MOMENT = require('moment')
@@ -219,6 +217,94 @@ var incoming = async (ln) =>{
 		})//readfile
 
 	});
+}
+
+var imagify = async (U)=>{
+
+
+	return new Promise((resolve,reject)=>{
+
+		var imdgz = [];
+		__.each(U.report,async (r,i,l)=>{
+
+			var o =r;
+			o.image=await figure_figure(r)
+			if(typeof o.image!=='undefined'){imdgz.push(o)}
+
+				console.log("currently at "+(i+1)+" of "+l.length)
+
+			if(imdgz.length == l.length){
+				console.log(imdgz.length+" equals "+l.length+" so we resolve")
+				resolve(imdgz)
+			}
+		})
+
+})//promise
+
+}//imagify
+
+var summarize = async (bits) =>{
+
+	return new Promise((resolve, reject)=>{
+
+		var episodes_updated = __.uniq(__.map(bits,(E)=>{var o = E.episode+":::"+E.slug_earwolf;return o; }));
+
+		var reports = () => __.map(episodes_updated,(e,i,l)=>{
+			var epno = e.split(":::")[0]
+			var epslug = e.split(":::")[1]
+
+			var O = {episode:epno,image:'null',slug:epslug,ep_url:"http://www.earwolf.com/episode/"+epslug}
+			// var eps_bits = __.pluck(__.filter(bits,{episode:epno}),'bit');
+			var eps_bits = __.pluck(__.filter(bits,(b)=>{return b.episode==epno}),'bit');
+
+			// O.raw_bits = eps_bits;
+			var beets = __.map(__.uniq(eps_bits),(m)=>{
+				var o = {
+					bit:m
+					,count:__.filter(eps_bits,(li)=>{return li==m;}).length
+				}; //o
+				return o;
+			});//map.beets
+			O.bits_sum=beets;
+			return O;
+		})//map
+
+		let plur = episodes_updated.length>1?'s':''
+
+		var R = {
+			date:MOMENT().format('YYYY.MMM.DD')
+			,query:"("+__.map(episodes_updated,(e)=>{return "episode:"+e.split(":::")[0]}).join(" OR ")+")"
+			,episodes:bits.length+" bits from "+episodes_updated.length+" episode"+plur+" (ep"+plur+" "+__.map(episodes_updated,(E)=>{return E.split(":::")[0]}).join(", ")+")",
+			report:reports()
+		}
+
+		resolve(R);
+
+	});//Promise
+}//summarize
+
+var write = async(UP)=>{
+
+	return new Promise((resolve,reject)=>{
+
+		var npath = "./bu/updates-"+MOMENT().format('YYYY.MMM.DD_HH_mm_ss')+".json"
+
+		FS.writeFile(npath,JSON.stringify(UP),(err,suc)=>{
+
+			if(err){reject(err);} else {
+
+				// FS.writeFile('../../site/v2/src/offline/update.json',JSON.stringify(UP),(err,suc)=>{
+
+				// 	if(err){reject(err);} else
+				// 	{				resolve(npath)}
+				// })
+
+			}
+
+		})//fs.write
+
+})//promise
+
 }
 
 var most_recent = async () =>{
@@ -454,11 +540,11 @@ var main = async () =>{
 	try {
 		var ln = process.argv[2]
 
-		if(__.contains(['news','live','fake','fantastic','adds','reset'],ln)!==true){
+		if(__.contains(['news','live','fake','fantastic','adds','reset','test'],ln)!==true){
 			throw("typo prolly");
 			process.exit();
 		} else {
-console.log("WANNA BACK UP DEM GEOMS, CHUMP? ./Users/ccmiller/Documents/cbb-bu-geoms.sh ")
+
 /* -----------------------------------------------
 // read in incoming bits from $ln file
 // msg notes length, payload is actual bits
@@ -470,31 +556,30 @@ console.log("inca.length",inca.length)
 
 /* -----------------------------------------------
 // pull everything out of MLAB into a local file in budir - e.g. bu.2017_November_Sunday_02_06_35.json
-*/
 console.log("awaiting extant...")
 			var bu = await extant();
+*/
 
 /* -----------------------------------------------
 // check budir for the MOST RECENT *.json bu
 // this allows us to pull/not pull a backup every time
-*/
 console.log("awaiting most recent...")
 var ext_source = await most_recent();
 console.log("found to be:",ext_source)
+*/
 
 /* -----------------------------------------------
 // parse that file
-*/
 var extant_parsed = await extant_parse(ext_source);
 R.extant=extant_parsed.msg
 var exta = extant_parsed.payload
 console.log("exta.length",exta.length)
 			// exta is now our live copy of everything that's come before
+*/
 
 /* -----------------------------------------------
 // we send the fresh stuff and the archive for audit
 // audit maps inca and exta into comparable arrays (concatenating several presumably distinct fields [episode+bit+instance+tags] into one nonsensical but probably-unique string) - N.B. this is not foolproof
-*/
 console.log("awaiting audit...")
 			var audited = await audit(inca,exta);
 			R.audit = audited
@@ -505,6 +590,7 @@ console.log("audit.flag:",R.audit.flag)
 	throw Error ('audit.flag wz stop due to ',R.audit.msg);
 	process.exit()
 }
+*/
 
 /* -----------------------------------------------
 // audit wz clean so we're sending
@@ -522,25 +608,44 @@ console.log("--------------------> NORMLY WE SEND "+inca.length+" DOCUMENTS TO M
 // }
 
 /* -----------------------------------------------
+console.log("--------------------> sending "+inca.length+" documents to MLAB...");
+sent = await send(inca);
+console.log("SENT",sent)
+if(sent.documents.n !== inca.length){
+	console.log("ERROR: mismatching in sent ("+sent.documents.n+') and incoming raw ('+inca.length+'),  exiting...');
+	process.exit();
+}
 */
 
 /* -----------------------------------------------
-// Now we repeat bu and most_recent cuzzits gonna have sent.documents.length more
 */
+
+
+
+/* -----------------------------------------------
+// Now we repeat bu and most_recent cuzzits gonna have sent.documents.length more
 var bu2 = await extant();
 console.log("getting most recent bu again (should be newer than before");
 var ext_source2 = await most_recent();
 console.log("it's:",ext_source2);
 console.log("ELASTIFYING!");
 var E = await elastify(ext_source2);
+*/
 
-console.log("let's end this :-?")
+console.log("let's summarize the new stuff...")
+
+var summary = await summarize(inca);
+
+        imagify(summary)
+        console.log(summary)
+        // write(summary);
 
 }
 
 } catch(error) {
 	console.error(error);
 }
-}
+console.log("WANNA BACK UP DEM GEOMS, CHUMP? ./Users/ccmiller/Documents/cbb-bu-geoms.sh ")
+} //main
 
 main();

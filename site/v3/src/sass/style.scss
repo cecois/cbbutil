@@ -51,6 +51,11 @@ a{color:inherit;}
 //   height:10vh;
 //   background-color:$cbb-baseline;
 // }
+.zCBB-trigger-modal{
+  color:red;
+  cursor:pointer;
+  &.is-active{color:pink;}
+}
 #zCBB-pane-toggler{
   cursor:pointer;
   color:$cbb-a;

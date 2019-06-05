@@ -237,4 +237,24 @@
     "episode_guests": "John Mulaney,Lauren Lapkus,Nick Kroll,Paul F. Tompkins",
     "id_wikia": null,
     "holding": "false"
+},{
+    "episode": "https://comedybangbang.fandom.com/wiki/Live_from_Now_Hear_This_Festival_2016",
+    "show": "cbb",
+    "tstart": "1:05:30",
+    "tend": "1:06:00",
+    "instance": "I forgot about your catchphrase.",
+    "bit":"Suck My Clit",
+    "elucidation":"Pamela's cathphrase",
+    "tags": "Pamela from Big Bear",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-05-25T10:09:16Z",
+    "url_soundcloud": null,
+    "created_at": "2019-05-25T10:09:16Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": null,
+    "episode_title": "Live from Anaheim Ca - Now Hear This Festival 2016",
+    "episode_guests": "Jason Mantzoukas,Jon Gabrus,Paul F. Tompkins,Lauren Lapkus,Andy Daly",
+    "id_wikia": null,
+    "holding": "false"
 }
