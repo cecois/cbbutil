@@ -4,6 +4,7 @@
 1. fix "Regina Krimp" vs. "Crimp"
 1. ~~you say baby too~~
 1. fix doobie brothers tag
+2. change tag Beth to Power Wheels Beth
 2. fix gramercy may 13 ep title times (9:30 v 7)
 1. mr. microphone
 1. ~~jarles~~
@@ -428,6 +429,7 @@
   - 518,37:15(pw)
 - gino's commuter train map
   - 571,27:45(pw)
+  - now hear this 2017 nyc,14:30
   - 599,2:31:00
   - 579,56:40(pw)
   - 579,6:00(pw)
@@ -1517,13 +1519,12 @@
   - 513,32:45
   - 584,3:10(pw)
   - 584,6:20(pw)
-  - bo.2016.1,49:50(pw)
-  - bo.2016.3,6:35(pw)
+  - ~~bo.2016.1,49:50(pw)~~
+  - ~~bo.2016.3,6:35(pw)~~
   - ~~BO2015.4,10:55~~
-  - bo2016.4,2:19:25
-  - bo2017.4,14:30
+  - ~~bo2016.4,2:19:25~~
+  - ~~bo2017.4,14:30~~
   - live-from-anaheim-now-hear-this,1:04:50
-  - check the 2014 best-ofs
 - starting too low
   - 2016.manchester,1:38:00
   - bo2015.2,1:12:03(pw) - inaugural
@@ -1964,6 +1965,7 @@
   - 602,1:11:45
   - 603,1:16:00
   - 555,1:06:00
+  - now hear this 2017 nyc,1:45
 
 - shallatoo (maxwell keeper's new catchphrase)
   - 483,several
@@ -1985,6 +1987,9 @@
 
 - interesting people
   - several of the 480+ eps
+  - now hear this 2017 nyc,24:30
+  - now hear this 2017 nyc,3:15
+  - now hear this 2017 nyc,11:45
   - 599,3:00
   - 599,12:00
   - 596,19:00(pw)
