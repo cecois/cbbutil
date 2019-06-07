@@ -39,6 +39,7 @@
 
 * closing sentiment-off
   - ??
+  - riot fest live show w/ stillwater+reardon
   - 543,17:00
 * content deleters
   - 530,22:45

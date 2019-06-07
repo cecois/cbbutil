@@ -1,6 +1,4 @@
 
-
-
 $cbb-baseline: rgba(255, 255, 255, 1);
 $cbb-primary: rgba(144, 155, 44, 1);
 $cbb-secondary: rgba(122, 55, 22, .5);
@@ -23,7 +21,7 @@ $zCBB-app-nav-height:10vh;
 // }
 
 .columns {
-  z-index: 2;
+  z-index:2;
   margin-bottom:0;
   // border: 2px solid rgba(22, 5, 55, 0.2);
 .zCBB-hero-column{
@@ -42,6 +40,7 @@ a{color:inherit;}
 #zCBB-header{
   background-color:$cbb-baseline;
   min-height:$zCBB-header-height;
+
 }
 #zCBB-app-nav{
   background-color:$cbb-baseline;
@@ -78,6 +77,7 @@ a{color:inherit;}
   }
 }
 .zCBB-pane{
+  
   &.splayed{position:relative;left:90%;}
   min-height: calc(100vh - #{$zCBB-header-height});
   padding-top:5em;
@@ -149,7 +149,7 @@ a{color:inherit;}
 
 
 nav {
-  z-index: 1;
+  z-index:1;
 }
 
 .footer {

@@ -1,7 +1,16 @@
 <template>
-  <div class="">
-    <div id="map" style="width: 100%;height: 100%;position: fixed;top: 0;right: 0;bottom: 0;left: 0;"></div>
+  <div>
     <vue-headful :title="page.title" description="fxsxxxrrrre" />
+
+    <div id="zCBB-modal-settings" :class="['modal',modals.settings?'is-active':'']">
+  <div class="modal-background"></div>
+  <div class="modal-content">
+    <!-- Any other Bulma elements you want -->
+    modals-settings
+  </div>
+  <button @click="modals.settings=false" class="modal-close is-large" aria-label="close"></button>
+</div>
+
     <!-- <section class="section"> -->
     <div id="zCBB-header" class="columns">
       <div class="column is-one-quarter">
@@ -59,7 +68,7 @@
               <!-- Left side -->
               <div class="level-left">
                 <div class="level-item">
-                  <p v-for="pane in page.panes" class="subtitle is-5 zCBB-nav-item has-text-weight-light" v-bind:class="[actives.pane==pane.slug ? 'is-active has-text-weight-bold' : '']" @click="consolelog(pane.slug);actives.pane=pane.slug">
+                  <p v-for="pane in page.panes" class="subtitle is-5 zCBB-nav-item has-text-weight-light" v-bind:class="[actives.pane==pane.slug ? 'is-active has-text-weight-bold' : '']" @click="actives.pane=pane.slug">
                     {{pane.label}}<span v-if="bits.length>0 && pane.slug=='search'" class="has-badge-rounded" :data-badge="bits.length"></span>
                   </p>
                 </div>
@@ -209,13 +218,22 @@
         </ul>
       </div>
     </div NB="/search">
-    <div :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='browse'">
+    <div :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='browse' && browses.doc_count>0">
       <div class="column">
-        browse c1
-      </div>
+        <ul>
+        <li v-for="bucket in browses.bits.filtered_bits.buckets"><span @click="setQueryFire({bit:bucket.key},['bit'])" class="zCBB-trigger has-badge-rounded" :data-badge="bucket.doc_count">{{bucket.key}}</span> ({{bucket.elucidation.hits.hits[0]._source.elucidation}})</li>
+      </ul>
+      </div NB="./column browse bucket">
       <div class="column">
-        <p>browse c2</p>
-      </div>
+        <ul>
+           <li v-for="bucket in browses.tags.filtered_tags.buckets"><span @click="setQueryFire({tags:bucket.key},['bit'])" class="zCBB-trigger has-badge-rounded" :data-badge="bucket.doc_count">{{bucket.key}}</span></li>
+        </ul>
+      </div NB="./column browse bucket">
+      <div class="column">
+        <ul>
+           <li v-for="bucket in browses.guests.filtered_guests.buckets"><span @click="setQueryFire({guests:bucket.key},['bit'])" class="zCBB-trigger has-badge-rounded" :data-badge="bucket.doc_count">{{bucket.key}}</span></li>
+        </ul>
+      </div NB="./column browse bucket">
     </div NB="/browse">
     <div :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='updates'">
       <div v-for="update in updates" class="column has-text-centered">
@@ -306,6 +324,7 @@
         </div>
       </div>
     </footer NB="/.footer">
+<div id="map"></div>
   </div>
 </template>
 
@@ -368,6 +387,8 @@ export default {
     if (this.CONFIG.mode == 'T') { uri = 'http://localhost:8000/tile-T.png' }
     this.MAP.addLayer(new L.TileLayer(uri))
 
+  this.GEOMS = new L.featureGroup().addTo(this.MAP);
+
   this.getHero()
 
   },
@@ -376,7 +397,9 @@ export default {
       CONFIG: null,
       hero: null,
       updates: null,
+      locations:null,
       query: {string:null,facets:{bits:[],episodes:[],guests:[],tags:[]}},
+      browses:{doc_count:0},
       bits: [],
       facets: [],
       page: {
@@ -449,12 +472,13 @@ console.log(cl)
     keyMonitor: function(e){
 
 if(e.ctrlKey){this.page.splayed=!this.page.splayed}
+if(e.key.toLowerCase()=='escape'){this.modals={settings:false}}
 
     },
     setQueryFire: function(B,wa) {
 
-console.log("B:",B)
-console.log("wa:",wa)
+// console.log("B:",B)
+// console.log("wa:",wa)
 // setQueryFire(hero._source,['bit','episode']
 let clauses = []
 
@@ -462,9 +486,10 @@ __.each(wa,(w)=>{
   clauses.push(w+':"'+B[w]+'"')
 })
 
-this.query='('+clauses.join(" AND ")+')'
+this.query.string='('+clauses.join(" AND ")+')'
 
-this.getBits();
+// this.getBits();
+this.clearFacets();
 
     },
     getHero: function() {
@@ -477,8 +502,6 @@ let QS = null;
         .get(QS)
         .then(response => {
           this.project.loading = false
-// console.log("hits:",response.data.hits.hits)
-          // this.hero = __.first(response.data.hits.hits)
 
           this.hero = __.first(__.map(response.data.hits.hits,(b)=>{
                       let o = b
@@ -503,15 +526,33 @@ return this.$_.map(this.$_.filter(this.bits,(b)=>{return b._source.bit=='Locatio
 })
 
     },
+    mapGeoms: function() {
+
+this.GEOMS.clearLayers();
+let stile = {fillColor:'red',fillOpacity:.9,color:'pink'}
+L.geoJson(this.locations, {
+            seen: false,
+            pointToLayer: function(feature, latlng) {
+              return L.circleMarker(latlng, stile);
+            }
+          }).addTo(this.GEOMS)
+
+    },
     getGeoms: function() {
 
 this.project.loading=true
-let u = this.CONFIG.atlas_geoms+this.getGeomIDs().join(',')
-
+let u = null;
+if(this.CONFIG.mode!=='T'){
+u = this.CONFIG.atlas_geoms+this.getGeomIDs().join(',')
+} else {
+  u="http://localhost:8000/cbb_fake-geoms.json"
+}
 axios.get(u)
         .then(response => {
 
-          
+console.log("geoms.response:",response.data);
+
+         this.locations = response.data
 
         }) //axios.then
         .catch(e => {
@@ -650,7 +691,7 @@ axios.post(this.CONFIG.prod.elastic_bits,QS)
 } else {
 
 QS=this.CONFIG.dev.elastic_bits;
-// console.log('QS for axios.get:',QS)
+
 axios.get(QS)
         .then(response => {
 
@@ -708,6 +749,48 @@ this.query.facets = {bits:[],episodes:[],guests:[],tags:[]}
     wipeConsole: function() {
       this.console.msgs = [];
     },
+    bootstrapBrowse: function() {
+
+let qo = {"size":0,"query":{"query_string":{"default_operator":"AND","query":"*:*"}},"aggregations":{"all_bits":{"global":{},"aggregations":{"guests":{"filter":{"query_string":{"default_operator":"AND","query":"*:*"}},"aggregations":{"filtered_guests":{"terms":{"size":1000000,"field":"episode_guests.comma_del"}}}},"tags":{"filter":{"query_string":{"default_operator":"AND","query":"*:*"}},"aggregations":{"filtered_tags":{"terms":{"size":1000000,"field":"tags.comma_del"}}}},"bits":{"filter":{"query_string":{"default_operator":"AND","query":"*:*"}},"aggregations":{"filtered_bits":{"terms":{"size":1000000,"field":"bit.keyword"},"aggs":{"elucidation":{"top_hits":{"size":1,"_source":{"include":"elucidation"}}}}}}}}}}}
+
+this.project.loading=true;
+
+if(this.CONFIG.mode=='33'){
+axios.post(this.CONFIG.prod.elastic_bits,qo)
+        .then(response => {
+          console.info(
+            process.env.VERBOSITY === "DEBUG" ? "getting all keys w/ axios response..." : null
+          );
+          
+          this.browses = response.data.aggregations.all_bits
+
+        }) //axios.then
+        .catch(e => {
+        
+          this.console.msgs.push({ m: e, c: "error" })
+          console.error(e);
+        }) //axios.catch
+        .finally(()=>{
+          this.project.loading = false
+        })
+      } else {
+        axios.get(this.CONFIG.dev.browse)
+        .then(response => {
+
+          this.browses = response.data.aggregations.all_bits
+
+        }) //axios.then
+        .catch(e => {
+        
+          this.console.msgs.push({ m: e, c: "error" })
+          console.error(e);
+        }) //axios.catch
+        .finally(()=>{
+          this.project.loading = false
+        })
+      }
+
+    },
     setRoute: function() {
 
 let P = {
@@ -727,12 +810,20 @@ let P = {
   watch: {
     bits: {
       handler: function(vnew, vold) {
-        this.getGeomIDs();
+        this.getGeoms()
       }
-    },"actives": {
+    },actives: {
       deep:true,
       handler: function(vnew, vold) {
         this.setRoute();
+        if(vnew.pane=='browse' && this.browses.doc_count<1){
+          this.bootstrapBrowse();
+        }
+      }
+    },locations: {
+      deep:true,
+      handler: function(vnew, vold) {
+        this.mapGeoms();
       }
     },"query.string": {
       handler: function(vnew, vold) {

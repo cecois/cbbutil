@@ -636,7 +636,7 @@ console.log("let's summarize the new stuff...")
 
 var summary = await summarize(inca);
 
-        imagify(summary)
+        // imagify(summary)
         console.log(summary)
         // write(summary);
 
