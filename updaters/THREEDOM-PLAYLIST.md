@@ -130,9 +130,9 @@
 
 =- 10(toothless),1:00,thong song - sisqo
 
-?- 10(toothless),21:00,blind - train (?)
-?- 10(toothless),21300jack & dian - mellencamp
-?- 10(toothless),21300jack & dian - mellencamp
+=- 10(toothless),21:00,blind - train (?)
+=- 10(toothless),21300jack & dian - mellencamp
+=- 10(toothless),21300jack & dian - mellencamp
 =- 10(toothless),28:30,one more night - phil collins
 =- 10(toothless),38:30,i want a new drug - huey l & tn
 =- 10(toothless),49:30,end of the road - b2men
@@ -218,21 +218,21 @@
 =- 13(brocus),57:00,keys on van neyes
 =- 13(brocus),57:00,menards jingle
 
--   13(brocus),57:00,call for action green 175312
--   13(brocus),57:00,go see cal jingle
--   13(brocus),57:00,fabric of our lives
--   13(brocus),57:00,every kiss begins with kaye
--   13(brocus),57:00,18882300-empire
--   13(brocus),57:00,i feel like chicken tonight
--   13(brocus),57:00,i'm lovin it
--   13(brocus),57:00,if you've got a passion for fashion and you've got a craving for savings
--   13(brocus),57:00,folgers jingle
--   13(brocus),57:00,wayfair jingle
--   13(brocus),1:00:45,meet me in the middle
--   13(brocus),1:05:30,what about us - pink
--   13(brocus),1:05:30,pink - janelle monae
--   13(brocus),1:05:30,pink - aerosmith
--   13(brocus),1:05:30,jack and diane - mellencamp
+=-   13(brocus),57:00,call for action green 175312
+=-   13(brocus),57:00,go see cal jingle
+=-   13(brocus),57:00,fabric of our lives
+=-   13(brocus),57:00,every kiss begins with kaye
+=-   13(brocus),57:00,18882300-empire
+=-   13(brocus),57:00,i feel like chicken tonight
+=-   13(brocus),57:00,i'm lovin it
+=-   13(brocus),57:00,if you've got a passion for fashion and you've got a craving for savings
+=-   13(brocus),57:00,folgers jingle
+=-   13(brocus),57:00,wayfair jingle
+=-   13(brocus),1:00:45,meet me in the middle
+=-   13(brocus),1:05:30,what about us - pink
+=-   13(brocus),1:05:30,pink - janelle monae
+=-   13(brocus),1:05:30,pink - aerosmith
+=-   13(brocus),1:05:30,jack and diane - mellencamp
 -   14(bat),5:15,night time is the right time - nappy brown
 -   14(bat),6:30,like a rock - bob seger
 -   14(bat),16:30,hang me out to dry - cold war kids
@@ -531,3 +531,30 @@
 -   33(1+1),39:30,don't you worry bout a thing - stevie wonder
 -   33(1+1),44:15,the boy is mine - monica & brandi
 -   33(1+1),44:15,the girl is mine - micheal jackson
+-   34,0:30,new rules
+-   34,6:00,do you believe - Cher
+-   34,6:00,do you believe - Adam Lambert
+-   34,11:00,take a cgabce|voulez-vous|name of the game|winner takes it all|dancing Queen/gimme gimme/sos/Waterloo/Mama Mia/Chiquituta/Fernando/winner takes it all/one of us/name of the game
+-   34,12:00,somebody to Love - queen by George Michael
+-   34,12:55,faith - George Michael
+-   34,13:30,somebody to love - queen
+-   34,13:30,under pressure - Davide Bowie w Annie Lennox
+-   34,17:40,Stan - Eminem
+-   34,18:15,jitterbug - wham!
+-   34,28:15,parents just don't understand
+-   34,30:15,older - they might be Giants
+-   34,31:30,bossnof me - might be Giants
+-   34,35:45,under pressure
+-   34,41:30,life is a highway - Cochrane
+-   34,1:04:15,na na na goodbye - ?
+-   35(rude),8:00,killing softly - fugees
+-   35,13:15,Monday Monday - Mama's papas
+-   35,19:45,rumors - Timex social club
+-   35,46:45,in dreams - orb
+-   35,48:45, if I were a Carpenter 1 Tim Hardin
+-   35,50:45,wasn't me - shaggy
+-   35,51:30,Kathy's clown - every brothers
+-   35,52:30, rules - Kidz
+-   35,56:15,jump for yr love
+-   35,56:15,rules - Kidz
+-   35,1:02:15,knocking on heavens door - dyl

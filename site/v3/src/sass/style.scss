@@ -78,7 +78,7 @@ a{color:inherit;}
 }
 .zCBB-pane{
   
-  &.splayed{position:relative;left:90%;}
+  &.splayed{position:absolute;left:90%;}
   min-height: calc(100vh - #{$zCBB-header-height});
   padding-top:5em;
   background-color:$cbb-baseline;

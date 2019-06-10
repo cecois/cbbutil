@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div id="map"></div>
     <vue-headful :title="page.title" description="fxsxxxrrrre" />
 
     <div id="zCBB-modal-settings" :class="['modal',modals.settings?'is-active':'']">
@@ -52,7 +53,8 @@
         
       </div NB="/#inputsearch.column">
       <div style="padding:1em 1em 0 0;" class="app-title column is-one-quarter has-text-right">
-        <span :class="['zCBB-trigger-modal',modals.settings?'is-active':'']" @click="modals.settings=true"><i class="fas fa-sliders-h"></i></span><span @click="page.splayed=!page.splayed" id="zCBB-pane-toggler" :class="page.splayed?'splayed':''" style="margin-left:1em;"><i class="fas fa-eye-slash"></i></span>
+        <!-- <span :class="['zCBB-trigger-modal',modals.settings?'is-active':'']" @click="modals.settings=true"><i class="fas fa-sliders-h"></i></span> -->
+        <span @click="page.splayed=!page.splayed" id="zCBB-pane-toggler" :class="page.splayed?'splayed':''" style="margin-left:1em;"><i class="fas fa-eye-slash"></i></span>
       </div>
     </div NB="/#header ">
     <!-- </section> -->
@@ -324,7 +326,6 @@
         </div>
       </div>
     </footer NB="/.footer">
-<div id="map"></div>
   </div>
 </template>
 
@@ -398,13 +399,14 @@ export default {
       hero: null,
       updates: null,
       locations:null,
+      seens:[],
       query: {string:null,facets:{bits:[],episodes:[],guests:[],tags:[]}},
       browses:{doc_count:0},
       bits: [],
       facets: [],
       page: {
         title: "cb!b!.bitmap.v3",
-        splayed: false,
+        splayed: true,
         panes: [{
           label: 'Home',
           slug: 'default'
@@ -519,6 +521,24 @@ let QS = null;
 
 
     },
+    genGeomID: function(caller,e){
+      console.log("caller in gengeom:",caller);
+      console.log("e in gengeom:",e);
+
+switch(caller) {
+  case 'style':
+    return e.geometry.type.toLowerCase()+':'+e.properties.cartodb_id
+    break;
+  case 'click':
+    return e.layer.toGeoJSON().geometry.type.toLowerCase()+':'+e.layer.toGeoJSON().properties.cartodb_id
+    break;
+  default:
+    // code block
+}
+
+// return e.target.geometry.type.toLowerCase()+':'+e.target.properties.cartodb_id
+
+    },
     getGeomIDs: function (){
 
 return this.$_.map(this.$_.filter(this.bits,(b)=>{return b._source.bit=='Location'}),(m)=>{
@@ -529,13 +549,19 @@ return this.$_.map(this.$_.filter(this.bits,(b)=>{return b._source.bit=='Locatio
     mapGeoms: function() {
 
 this.GEOMS.clearLayers();
-let stile = {fillColor:'red',fillOpacity:.9,color:'pink'}
+// let stile = this.$_.contains(this.seens,feature.geometry.type.toLowerCase()+':'+feature.properties.cartodb_id)?{fillColor:'red',fillOpacity:.9,color:'pink'}:{fillColor:'white',fillOpacity:.7,color:'black'}
+// let stile = {fillColor:'red',fillOpacity:.9,color:'pink'}
 L.geoJson(this.locations, {
-            seen: false,
+            style: (feature)=>{return __.contains(this.seens,this.genGeomID('style',feature))?{fillColor:'white',fillOpacity:.7,color:'black'}:{fillColor:'red',fillOpacity:.9,color:'pink'}},
             pointToLayer: function(feature, latlng) {
-              return L.circleMarker(latlng, stile);
+              return L.circleMarker(latlng, (feature)=>{return __.contains(this.genGeomID('ptl',feature))?{fillColor:'white',fillOpacity:.7,color:'black'}:{fillColor:'red',fillOpacity:.9,color:'pink'}});
             }
-          }).addTo(this.GEOMS)
+          }).on("click",(f)=>{
+  this.seens.push(this.genGeomID('click',f).replace('multi','').replace('gon',''))
+  console.log('f in click:',f)
+  
+}).addTo(this.GEOMS)
+
 
     },
     getGeoms: function() {

@@ -139,6 +139,7 @@ live-from-vulture-fest-2017
 -   257,34:00,is this a ghost burger?
 -   257,43:55,wait - what? u can use a regular ladder?
 -   260,1:03:36,victor gives it one more shot
+-   now hear this nyc 2017,33:45,be anymore in a wheelchair?
 -   260,1:11:55,am i going out of my mind - was there a 5?
 -   260,45:29,this is the guy you're supposed to understand
 -   260,49:30,that's a problem that i have
@@ -551,4 +552,31 @@ live-from-vulture-fest-2017
 -   31 (frnk),17:30,this guy wz put in jail
 -   31 (frnk),57:15,zat yr jacket
 -   31 (frnk),13:30,how wz the script?
--   now hear this nyc 2017,33:45,be anymore in a wheelchair?
+-   27,11:45,survey
+-   27,16:15,baby Cajun
+-   27,40:00, impediment
+-   27,59:30,crackers
+-   27,60:00,but you're annoying
+-   28,6:00,real person
+-   28,7:45,69ed
+-   28,16:45,go home
+-   28,26:30,real housewife
+-   28,38:00,Orbison died
+-   28,42:30,eat this
+-   28,53:30,if I die
+-   29,3:30,this?
+-   29,50:30,get out
+-   29,1:00:30,garbage of ppl
+-   30,2:30,solid puh
+-   30,6:30,clue character
+-   30,7:30,Louise ck
+-   30,27:30, finish
+-   31,7:15,finish
+-   31,7:45,fuck this (long)
+-   31,11:45,9/11
+-   31,23:30,fucking
+-   31,35:00,vulnerable
+-   31(1+1?),22:30,who gives a shit?
+-   32(old vegas),1:30,Joanie loves Chachi
+-   32,17:30,look that up on my own time i guess?
+-   33,50:45,gotta get along
