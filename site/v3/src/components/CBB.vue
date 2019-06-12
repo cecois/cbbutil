@@ -26,11 +26,11 @@
         <div id="zCBB-inputSearch" class="field has-addons">
           <p class="control">
             <a class="button" style="width:46px;">
-              <atom-spinner style="" v-if="project.loading==true" :animation-duration="1000" :size="20" :color="'#000'"></atom-spinner>
+              <atom-spinner  v-if="loadings.app" :animation-duration="1000" :size="20" :color="'#000'"></atom-spinner>
             </a>
           </p>
           <p class="control">
-            <input style="" v-model="query.string" class="input has-text-centered is-expanded" size="50%" type="text" :placeholder="(project.loading)?'loading...':'e.g. `(huell AND crowbot)` or just `heynong`'" />
+            <input  v-model="query.string" class="input has-text-centered is-expanded" size="50%" type="text" :placeholder="(loadings.app)?'loading...':'e.g. `(huell AND crowbot)` or just `heynong`'" />
           </p>
           
           
@@ -45,7 +45,7 @@
               <i class="fa fa-random"></i>
             </a>
           </p><p class="control">
-            <a @click="query=null" class="button has-text-light" style="width:22px;border-left:none;">
+            <a @click="query.string=null" class="button has-text-light" style="width:22px;border-left:none;">
               <i class="fa fa-slash is-size-7"></i>
             </a>
           </p>
@@ -73,6 +73,9 @@
                   <p v-for="pane in page.panes" class="subtitle is-5 zCBB-nav-item has-text-weight-light" v-bind:class="[actives.pane==pane.slug ? 'is-active has-text-weight-bold' : '']" @click="actives.pane=pane.slug">
                     {{pane.label}}<span v-if="bits.length>0 && pane.slug=='search'" class="has-badge-rounded" :data-badge="bits.length"></span>
                   </p>
+                  <p v-if="loadings.maplayer">loading geometries...</p>
+                  <p v-if="loadings.app">boostrapping...</p>
+                  <p v-if="loadings.popup">collecting details...</p>
                 </div>
               </div NB="/.level-left">
             </nav>
@@ -94,11 +97,11 @@
       <div class="column is-one-fifth"></div>
       <div class="column is-one-fifth">
   <h1 class="title">What's this, now?!
-  <span class="bang-inline" style="">
-<span class="icom-bang" style=""></span>
+  <span class="bang-inline" >
+<span class="icom-bang" ></span>
   </span>
   </h1>
-    <p style="">Come on, guys -- it's a searchable index of all the recurring bits from the <em><a href="http://www.earwolf.com/show/comedy-bang-bang/">Comedy Bang! Bang!</a></em> podcast.
+    <p >Come on, guys -- it's a searchable index of all the recurring bits from the <em><a href="http://www.earwolf.com/show/comedy-bang-bang/">Comedy Bang! Bang!</a></em> podcast.
     </p>
 </div NB="/.column">
 
@@ -106,8 +109,8 @@
   <div class="column is-one-fifth">
 
   <h1 class="title" style="text-align:center;">
-    <span class="bang-inline" style="">
-  <span class="icom-bang" style=""></span>
+    <span class="bang-inline" >
+  <span class="icom-bang" ></span>
     </span>
   Why?
   </h1>
@@ -117,8 +120,8 @@
 
 <div class="column is-one-fifth">
 <h1 class="title" style="text-align:center;">Official thing?
-  <span class="bang-inline" style="">
-  <span class="icom-bang" style=""></span>
+  <span class="bang-inline" >
+  <span class="icom-bang" ></span>
   </span>
 </h1>
 <p style="text-align:center;">Isn't, nope. Fansite.</p>
@@ -164,10 +167,10 @@
       </div NB="/.column (facets container)">
       <div class="column is-three-quarters">
         <ul>
-          <li v-if="bits.length>1" v-for="bit in bits" class="box has-text-left">
-            <i v-if="bit._source.bit=='Location'" style="font-size:1.1em;" class="fa fa-map-marker" />
+          <li @mouseleave="actives.geom=null" @mouseenter="actives.geom=actives.geom!==genGeomID('bit',bit)?genGeomID('bit',bit):null" v-if="bits.length>1" v-for="bit in bits" class="box has-text-left">
+            <i v-if="actives.geom==genGeomID('bit',bit)" style="font-size:1.1em;" class="fa fa-arrow-right" />
+            <i @click="GEOMS.eachLayer((l)=>{l.eachLayer((la)=>{consolelog('featureparent:',genGeomID('featureParent',la));consolelog('bit:',genGeomID('bit',bit));if(genGeomID('featureParent',la)==genGeomID('bit',bit)){MAP.panInside(la.getLatLng());}})})" v-if="bit._source.bit=='Location'" style="font-size:1.1em;" class="fa fa-map-marker" />
             <span class="bit-instance">{{bit._source.instance}}</span>
-            
             <div class="columns zCBB-bit-data">
               <div v-if="!page.splayed" class="column is-1"></div>
      
@@ -178,7 +181,7 @@
     <div class="level-item">
       <p class="subtitle is-5">
       
-<div style="" class='zCBB-bit-data'>
+<div  class='zCBB-bit-data'>
                                               <span class='tooltip is-tooltip-left' :data-tooltip="bit._source.elucidation"><span v-if="!page.splayed">bit: </span><a href="#" class="">{{bit._source.bit}}</a></span>
                               
                                               <span v-if="!page.splayed" class="has-text-grey-light">({{bit._source.elucidation}})</span>
@@ -285,7 +288,7 @@
           <h2 class="is-size-3"><i class="fas fa-clock"></i>&nbsp;Timestamps</h2>
           <p>
             
-            <img class="" src="https://a-v2.sndcdn.com/assets/images/header/cloud@2x-e5fba46.png" style=""/> <small>v.</small> <img class="" src="http://v.fastcdn.co/t/fbd61fb6/9f77a6cf/1506364214-1020996-166x62-HOWLLogoHorizontalTeal.png" style=""/> <small>v.</small> stitcher img</p>
+            <img class="" src="https://a-v2.sndcdn.com/assets/images/header/cloud@2x-e5fba46.png" /> <small>v.</small> <img class="" src="http://v.fastcdn.co/t/fbd61fb6/9f77a6cf/1506364214-1020996-166x62-HOWLLogoHorizontalTeal.png" /> <small>v.</small> stitcher img</p>
           <p>Each record has <strong>tstart</strong> and <strong>tend</strong> timestamps - ostensibly these frame the specific instance within the episode. However, when CBB audio files were moved behind the Howl paywall (and then to Stitcher), it rendered many of the timestamps incorrect - as paywalled episodes pass the edit points where commercials used to be, they're offset by however long the excised commercials were.</p><p>Timestamps can still be used to get close to the instance when listening, but they are no longer accurate enough to be used for, say, supercutting or something.
 
           </p>
@@ -306,7 +309,7 @@
                             <div class="content">
                               <h2 class="is-size-3"><i class="fas fa-map-marker"></i>&nbsp;Locations</h2>
                                 
-                                <p>One of the bits is special (and in fact the original impetus of this entire effort). For <a href='#' class='zCBB-trigger' data-type='bit' data-target='Location'>bits="Location"</a> the results will appear in the picklist (indicated by a map pin icon) <em>and</em> on the map under what you're reading now (hidden behind the main content area by default).</p><p>The ctrl key will toggle the map's visibility (as will the <i class="fa fa-map-o"></i> button); the <i style="" class="fa fa-map-marker"></i> in the search results will zoom to that instance's referenced location. <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"huell howser"'>Huell Howser</a>, <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"gino lambardo"'>Gino Lambardo</a>, <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"merrill shindler"'>Merrill Shindler</a>, and <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"shelly driftwood"'>Shelly Driftwood</a> are all good for at least a few.</p>
+                                <p>One of the bits is special (and in fact the original impetus of this entire effort). For <a href='#' class='zCBB-trigger' data-type='bit' data-target='Location'>bits="Location"</a> the results will appear in the picklist (indicated by a map pin icon) <em>and</em> on the map under what you're reading now (hidden behind the main content area by default).</p><p>The ctrl key will toggle the map's visibility (as will the <i class="fa fa-map-o"></i> button); the <i  class="fa fa-map-marker"></i> in the search results will zoom to that instance's referenced location. <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"huell howser"'>Huell Howser</a>, <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"gino lambardo"'>Gino Lambardo</a>, <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"merrill shindler"'>Merrill Shindler</a>, and <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"shelly driftwood"'>Shelly Driftwood</a> are all good for at least a few.</p>
 
    <p>Another thing to note about locations is that unless there's a clamor for it we do NOT spatially-index the geometries for retrieval. So while of course you can query for <em>bits</em> that reference locations (and those referenced geometries will appear on the map with minimal interaction), we're not bothering to offer the ability to, say, zoom/pan the map and query for locations <em>in that area</em>. Like, who cares?</p><p>If somebody really wants that (or the tangential ability to query for bits that reference, say, the Boston area or Marina del Rey, maybe <a class="twitter-share-button" href="https://twitter.com/share" data-size="large" data-text="custom share text" data-url="https://dev.twitter.com/web/tweet-button" data-hashtags="comedybangbang,zapstraighttoit" data-via="twitterdev"><i class="fa fa-twitter"></i> say something</a>. But really if you're <em>that interested</em> you could just query for everything (<a href="#" class="zCBB-trigger" data-type="" data-target="bit:location">"bit:Location"</a>) and zoom to the spot about which you're curious.</p>
 
@@ -342,13 +345,14 @@ export default {
   created: function() {
     this.CONFIG = CONFIG
     // this.bootstrap()
-    // this.project.loading = true
+    // this.loadings.app = true
     this.query.string = (this.$route.params.query && this.$route.params.query!=='*') ? this.$route.params.query : null
     // this.query.facets = (this.$route.params.facets) ? decodeURI(this.$route.params.facets.split(",")) : []
     this.actives = {
       pane: (this.$route.params.pane) ? this.$route.params.pane : 'default',
       basemap: (this.$route.params.basemap) ? this.$route.params.basemap : null,
-      updatekey: (this.$route.params.updatekey) ? this.$route.params.updatekey : null
+      updatekey: (this.$route.params.updatekey) ? this.$route.params.updatekey : null,
+      geom:null
     }
     this.updates = (this.actives.updatekey) ? null : __.last(__.sortBy(__.map(updates, (u) => {
       let uo = u;
@@ -396,6 +400,7 @@ export default {
   data() {
     return {
       CONFIG: null,
+      loadings:{maplayer:false,app:false,popupopen:false},
       hero: null,
       updates: null,
       locations:null,
@@ -412,7 +417,7 @@ export default {
           slug: 'default'
         }, { label: 'Huh?', slug: 'huh' }, { label: 'Search', slug: 'search' }, { label: 'Browse', slug: 'browse' }, { label: 'Updates', slug: 'updates' }, { label: 'Help', slug: 'help' }]
       },
-      project: { loading: false, shorthand: "CbBBtMp" },
+      project: { shorthand: "CbBBtMp" },
       console: { msgs: [] },
       modals: {settings:false},
       incoming: null,
@@ -420,7 +425,7 @@ export default {
       basemaps: [
         { "name": "hi im name", "handle": "default", "uri": "https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png" }
       ],
-      actives: { basemap: null, pane: 'default', updatekey: null }
+      actives: { basemap: null, pane: 'default', updatekey: null, geom:"000" }
     };
   },
   methods: {
@@ -432,14 +437,14 @@ this.getBits()
 this.query=f+':"'+v+'"'
 this.getBits()
     },
-    consolelog: function (cl) {
-console.log(cl)
+    consolelog: function (c1,c2) {
+console.log(c1,c2)
     },
     TEST: function() {
 
       let Q = { "size": 10000, "query": { "query_string": { "default_operator": "AND", "query": "(episode:594) AND holding:false" } }, "aggregations": { "all_bits": { "global": {}, "aggregations": { "tags": { "filter": { "query_string": { "default_operator": "AND", "query": "(episode:594) AND holding:false" } }, "aggregations": { "filtered_tags": { "terms": { "size": 10000, "field": "tags.comma_del" } } } }, "bits": { "filter": { "query_string": { "default_operator": "AND", "query": "(episode:594) AND holding:false" } }, "aggregations": { "filtered_bits": { "terms": { "size": 10000, "field": "bit.keyword" } } } }, "episodes": { "filter": { "query_string": { "default_operator": "AND", "query": "(episode:594) AND holding:false" } }, "aggregations": { "filtered_episodes": { "terms": { "size": 10000, "field": "episode.keyword" } } } } } } } }
 
-      this.project.loading = true
+      this.loadings.app = true
       axios
         .get(this.CONFIG.prod.elastic_bits, Q)
         .then(response => {
@@ -447,13 +452,13 @@ console.log(cl)
             process.env.VERBOSITY === "DEBUG" ? "getting bits w/ axios POST..." : null
           );
 
-          this.project.loading = false
+          this.loadings.app = false
 
           // console.log(response)
 
         }) //axios.then
         .catch(e => {
-          this.project.loading = false
+          this.loadings.app = false
           this.console.msgs.push({ m: e, c: "error" })
           console.error(e);
         }); //axios.catch
@@ -503,7 +508,7 @@ let QS = null;
       axios
         .get(QS)
         .then(response => {
-          this.project.loading = false
+          this.loadings.app = false
 
           this.hero = __.first(__.map(response.data.hits.hits,(b)=>{
                       let o = b
@@ -513,7 +518,7 @@ let QS = null;
 
         }) //axios.then
         .catch(e => {
-          this.project.loading = false
+          this.loadings.app = false
           this.console.msgs.push({ m: e, c: "error" })
           console.error(e);
         }); //axios.catch
@@ -522,21 +527,27 @@ let QS = null;
 
     },
     genGeomID: function(caller,e){
-      console.log("caller in gengeom:",caller);
-      console.log("e in gengeom:",e);
+
+let g = null;
 
 switch(caller) {
-  case 'style':
-    return e.geometry.type.toLowerCase()+':'+e.properties.cartodb_id
+  case 'featureParent':
+    g= e.feature.geometry.type+':'+e.feature.properties.cartodb_id
     break;
-  case 'click':
-    return e.layer.toGeoJSON().geometry.type.toLowerCase()+':'+e.layer.toGeoJSON().properties.cartodb_id
+  case 'feature':
+    g= e.geometry.type+':'+e.properties.cartodb_id
+    break;
+  case 'layer':
+    g= e.layer.toGeoJSON().geometry.type+':'+e.layer.toGeoJSON().properties.cartodb_id
+    break;
+  case 'bit':
+    g= e._source.location_type+':'+e._source.location_id
     break;
   default:
     // code block
 }
 
-// return e.target.geometry.type.toLowerCase()+':'+e.target.properties.cartodb_id
+return g.toLowerCase().replace('multi','').replace('gon','').replace('string','')
 
     },
     getGeomIDs: function (){
@@ -546,27 +557,66 @@ return this.$_.map(this.$_.filter(this.bits,(b)=>{return b._source.bit=='Locatio
 })
 
     },
+    restyleGeoms: function () {
+
+this.GEOMS.eachLayer((l)=>{
+
+l.eachLayer((f)=>{
+  // let s = __.contains(this.seens,this.genGeomID('style',f.feature))?{fillColor:'white',fillOpacity:.7,color:'black'}:{fillColor:'red',fillOpacity:.9,color:'pink'}
+let s = null;
+
+switch(true){
+  case this.actives.geom==this.genGeomID('feature',f.feature):
+  s={fillColor:'gray',fillOpacity:.7,color:'white'}
+  break;
+  case __.contains(this.seens,this.genGeomID('feature',f.feature)):
+  s={fillColor:'white',fillOpacity:.7,color:'black'}
+  break;
+  default:
+  s={fillColor:'green',fillOpacity:.9,color:'yellow'}
+}
+
+f.setStyle(s)
+
+})//eachlayer
+
+})
+
+    },
     mapGeoms: function() {
 
 this.GEOMS.clearLayers();
-// let stile = this.$_.contains(this.seens,feature.geometry.type.toLowerCase()+':'+feature.properties.cartodb_id)?{fillColor:'red',fillOpacity:.9,color:'pink'}:{fillColor:'white',fillOpacity:.7,color:'black'}
-// let stile = {fillColor:'red',fillOpacity:.9,color:'pink'}
-L.geoJson(this.locations, {
-            style: (feature)=>{return __.contains(this.seens,this.genGeomID('style',feature))?{fillColor:'white',fillOpacity:.7,color:'black'}:{fillColor:'red',fillOpacity:.9,color:'pink'}},
-            pointToLayer: function(feature, latlng) {
-              return L.circleMarker(latlng, (feature)=>{return __.contains(this.genGeomID('ptl',feature))?{fillColor:'white',fillOpacity:.7,color:'black'}:{fillColor:'red',fillOpacity:.9,color:'pink'}});
-            }
-          }).on("click",(f)=>{
-  this.seens.push(this.genGeomID('click',f).replace('multi','').replace('gon',''))
-  console.log('f in click:',f)
-  
-}).addTo(this.GEOMS)
 
+L.geoJson(this.locations, {
+            pointToLayer: function(feature, latlng) {
+              return L.circleMarker(latlng, (feature)=>{return __.contains(this.genGeomID('feature',feature))?{fillColor:'white',fillOpacity:.7,color:'black'}:{fillColor:'red',fillOpacity:.9,color:'pink'}});
+            }
+          })
+.bindPopup(
+  (l)=>{return l.feature.properties.name}
+  )
+.addTo(this.GEOMS)
+.on("click",(f)=>{
+  this.loadings.popupopen=true;
+  this.seens.push(this.genGeomID('layer',f))
+})
+.on("popupopen", ()=>{
+  this.loadings.popupopen=false
+})
+.on("mouseover", (f)=>{
+  this.actives.geom=this.genGeomID('layer',f);
+})
+.on("mouseout", ()=>{
+  this.actives.geom=null;
+})
+
+this.restyleGeoms();
+this.MAP.fitBounds(this.GEOMS.getBounds())
 
     },
     getGeoms: function() {
 
-this.project.loading=true
+this.loadings.maplayer=true
 let u = null;
 if(this.CONFIG.mode!=='T'){
 u = this.CONFIG.atlas_geoms+this.getGeomIDs().join(',')
@@ -575,8 +625,6 @@ u = this.CONFIG.atlas_geoms+this.getGeomIDs().join(',')
 }
 axios.get(u)
         .then(response => {
-
-console.log("geoms.response:",response.data);
 
          this.locations = response.data
 
@@ -587,13 +635,13 @@ console.log("geoms.response:",response.data);
           console.error(e);
         }) //axios.catch
         .finally(()=>{
-          this.project.loading = false
+          this.loadings.maplayer = false
         })
 
     },
     getBits: function() {
       
-      this.project.loading=true;
+      this.loadings.app=true;
 
 let QS = null;
 
@@ -711,7 +759,7 @@ axios.post(this.CONFIG.prod.elastic_bits,QS)
           console.error(e);
         }) //axios.catch
         .finally(()=>{
-          this.project.loading = false
+          this.loadings.app = false
         })
 
 } else {
@@ -731,7 +779,7 @@ axios.get(QS)
           console.error(e);
         }) //axios.catch
         .finally(()=>{
-          this.project.loading = false
+          this.loadings.app = false
         })
 } //if.else.mode
 
@@ -751,7 +799,7 @@ this.query.facets = {bits:[],episodes:[],guests:[],tags:[]}
 
 
       this.console.msgs.push({ m: "facetizing " + this.query, c: "" })
-      this.project.loading = true
+      this.loadings.app = true
       let QS = (this.CONFIG.mode == '33') ? this.CONFIG.prod.elastic_facets + this.query : this.CONFIG.dev.elastic_facets;
       axios
         .get(QS)
@@ -760,13 +808,13 @@ this.query.facets = {bits:[],episodes:[],guests:[],tags:[]}
             process.env.VERBOSITY === "DEBUG" ? "getting facets w/ axios response..." : null
           );
 
-          this.project.loading = false
+          this.loadings.app = false
 
           this.facets = response.data.aggregations
 
         }) //axios.then
         .catch(e => {
-          this.project.loading = false
+          this.loadings.app = false
           this.console.msgs.push({ m: e, c: "error" })
           console.error(e);
         }); //axios.catch
@@ -779,7 +827,7 @@ this.query.facets = {bits:[],episodes:[],guests:[],tags:[]}
 
 let qo = {"size":0,"query":{"query_string":{"default_operator":"AND","query":"*:*"}},"aggregations":{"all_bits":{"global":{},"aggregations":{"guests":{"filter":{"query_string":{"default_operator":"AND","query":"*:*"}},"aggregations":{"filtered_guests":{"terms":{"size":1000000,"field":"episode_guests.comma_del"}}}},"tags":{"filter":{"query_string":{"default_operator":"AND","query":"*:*"}},"aggregations":{"filtered_tags":{"terms":{"size":1000000,"field":"tags.comma_del"}}}},"bits":{"filter":{"query_string":{"default_operator":"AND","query":"*:*"}},"aggregations":{"filtered_bits":{"terms":{"size":1000000,"field":"bit.keyword"},"aggs":{"elucidation":{"top_hits":{"size":1,"_source":{"include":"elucidation"}}}}}}}}}}}
 
-this.project.loading=true;
+this.loadings.app=true;
 
 if(this.CONFIG.mode=='33'){
 axios.post(this.CONFIG.prod.elastic_bits,qo)
@@ -797,7 +845,7 @@ axios.post(this.CONFIG.prod.elastic_bits,qo)
           console.error(e);
         }) //axios.catch
         .finally(()=>{
-          this.project.loading = false
+          this.loadings.app = false
         })
       } else {
         axios.get(this.CONFIG.dev.browse)
@@ -812,7 +860,7 @@ axios.post(this.CONFIG.prod.elastic_bits,qo)
           console.error(e);
         }) //axios.catch
         .finally(()=>{
-          this.project.loading = false
+          this.loadings.app = false
         })
       }
 
@@ -842,6 +890,7 @@ let P = {
       deep:true,
       handler: function(vnew, vold) {
         this.setRoute();
+        this.restyleGeoms();
         if(vnew.pane=='browse' && this.browses.doc_count<1){
           this.bootstrapBrowse();
         }
@@ -850,6 +899,11 @@ let P = {
       deep:true,
       handler: function(vnew, vold) {
         this.mapGeoms();
+      }
+    },seens: {
+      deep:true,
+      handler: function(vnew, vold) {
+        this.restyleGeoms();
       }
     },"query.string": {
       handler: function(vnew, vold) {

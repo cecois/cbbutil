@@ -233,12 +233,12 @@
 =-   13(brocus),1:05:30,pink - janelle monae
 =-   13(brocus),1:05:30,pink - aerosmith
 =-   13(brocus),1:05:30,jack and diane - mellencamp
--   14(bat),5:15,night time is the right time - nappy brown
--   14(bat),6:30,like a rock - bob seger
--   14(bat),16:30,hang me out to dry - cold war kids
--   14(bat),19:00,your body is a wonderland - john mayer
--   14(bat),38:30,this is halloween - nightmare sndtrk
--   14(bat),45:45,i don't care - icona pop
+=-   14(bat),5:15,night time is the right time - nappy brown
+=-   14(bat),6:30,like a rock - bob seger
+=-   14(bat),16:30,hang me out to dry - cold war kids
+=-   14(bat),19:00,your body is a wonderland - john mayer
+=-   14(bat),38:30,this is halloween - nightmare sndtrk
+=-   14(bat),45:45,i don't care - icona pop
 -   14(bat),46:30,chili's baby back ribs jingle
 -   14(bat)48:15,I like life - scrooge
 -   14(bat)48:30,I c9uld have danced all night
@@ -550,6 +550,7 @@
 -   35(rude),8:00,killing softly - fugees
 -   35,13:15,Monday Monday - Mama's papas
 -   35,19:45,rumors - Timex social club
+-   35,26:30,another brick in the wall
 -   35,46:45,in dreams - orb
 -   35,48:45, if I were a Carpenter 1 Tim Hardin
 -   35,50:45,wasn't me - shaggy
