@@ -114,7 +114,7 @@
     </span>
   Why?
   </h1>
-  <p>Because <em><a href="http://www.earwolf.com/show/comedy-bang-bang/">CBB</a></em> is the best thing ever recorded. Or maybe the best thing to ever even happen at all.</p>
+  <p>Because <em><a href="http://www.earwolf.com/show/comedy-bang-bang/">CBB</a></em> is the best thing ever recorded. Or maybe the best thing to ever even happen at all.</p><p>But also because the very good <a href="https://comedybangbang.fandom.com/wiki/Main_Page">CB!B! Wikia instance</a> isn't quite obsessive – and certainly not mappy – enough.</p>
 
 </div NB="/.column">
 
@@ -167,9 +167,9 @@
       </div NB="/.column (facets container)">
       <div class="column is-three-quarters">
         <ul>
-          <li @mouseleave="actives.geom=null" @mouseenter="actives.geom=actives.geom!==genGeomID('bit',bit)?genGeomID('bit',bit):null" v-if="bits.length>1" v-for="bit in bits" class="box has-text-left">
+          <li @mouseleave="actives.geom=null" @mouseenter="actives.geom=(bit._source.bit=='Location' && actives.geom!==genGeomID('bit',bit))?genGeomID('bit',bit):null" v-if="bits.length>1" v-for="bit in bits" class="box has-text-left">
             <i v-if="actives.geom==genGeomID('bit',bit)" style="font-size:1.1em;" class="fa fa-arrow-right" />
-            <i @click="GEOMS.eachLayer((l)=>{l.eachLayer((la)=>{consolelog('featureparent:',genGeomID('featureParent',la));consolelog('bit:',genGeomID('bit',bit));if(genGeomID('featureParent',la)==genGeomID('bit',bit)){MAP.panInside(la.getLatLng());}})})" v-if="bit._source.bit=='Location'" style="font-size:1.1em;" class="fa fa-map-marker" />
+            <i @click="GEOMS.eachLayer((l)=>{l.eachLayer((la)=>{if(genGeomID('featureParent',la)==genGeomID('bit',bit)){if(la.getLatLng){MAP.panInside(la.getLatLng())}else{MAP.fitBounds(la.getBounds())}}})})" v-if="bit._source.bit=='Location'" style="font-size:1.1em;" class="fa fa-map-marker" />
             <span class="bit-instance">{{bit._source.instance}}</span>
             <div class="columns zCBB-bit-data">
               <div v-if="!page.splayed" class="column is-1"></div>
@@ -210,7 +210,7 @@
                 
               <div class="column is-1"></div>
               
-<div class="column is-7"><span style="margin-left:1em;" class="is-size-7 has-text-grey-lighter">ep.{{bit._source.episode.split('/')[bit._source.episode.split('/').length-1]}}</span><span class="is-size-7 has-text-grey-lighter" v-if="bit._source.created_at">&nbsp;|&nbsp;~{{bit._source.tstart}}&nbsp;|&nbsp;added: {{$MOMENT(bit._source.created_at).format('YYYY.MMM.Mo')}}</span><span class="is-size-7 has-text-grey-lighter" v-if="bit._source.updated_at">&nbsp;|&nbsp;updated {{$MOMENT(bit._source.updated_at).format('YYYY.MMM.Mo')}}</span></div NB="/.column">
+<div class="column is-7"><span style="margin-left:1em;" class="is-size-7 has-text-grey-light">ep.{{bit._source.episode.split('/')[bit._source.episode.split('/').length-1]}}</span><span class="is-size-7 has-text-grey-light" v-if="bit._source.created_at">&nbsp;|&nbsp;~{{bit._source.tstart}}&nbsp;|&nbsp;added: {{$MOMENT(bit._source.created_at).format('YYYY.MMM.Mo')}}</span><span class="is-size-7 has-text-grey-light" v-if="bit._source.updated_at">&nbsp;|&nbsp;updated {{$MOMENT(bit._source.updated_at).format('YYYY.MMM.Mo')}}</span></div NB="/.column">
 
 <div class="column"><div v-if="bit._source.tags" style="margin-left:1px;" v-bind:class="['zCBB-tag','tag',(query.string && encodeURI(query.string.toLowerCase()).indexOf('tag%3A%22'+tag+'%22'.toLowerCase())>=0)?'is-info':'is-dark']" @click="triggerSingleFieldQuery('tag',tag)" v-for="tag in (bit._source.tags.split(','))">{{tag}}</div NB="tags"></div NB="/.column">
             
@@ -440,33 +440,6 @@ this.getBits()
     consolelog: function (c1,c2) {
 console.log(c1,c2)
     },
-    TEST: function() {
-
-      let Q = { "size": 10000, "query": { "query_string": { "default_operator": "AND", "query": "(episode:594) AND holding:false" } }, "aggregations": { "all_bits": { "global": {}, "aggregations": { "tags": { "filter": { "query_string": { "default_operator": "AND", "query": "(episode:594) AND holding:false" } }, "aggregations": { "filtered_tags": { "terms": { "size": 10000, "field": "tags.comma_del" } } } }, "bits": { "filter": { "query_string": { "default_operator": "AND", "query": "(episode:594) AND holding:false" } }, "aggregations": { "filtered_bits": { "terms": { "size": 10000, "field": "bit.keyword" } } } }, "episodes": { "filter": { "query_string": { "default_operator": "AND", "query": "(episode:594) AND holding:false" } }, "aggregations": { "filtered_episodes": { "terms": { "size": 10000, "field": "episode.keyword" } } } } } } } }
-
-      this.loadings.app = true
-      axios
-        .get(this.CONFIG.prod.elastic_bits, Q)
-        .then(response => {
-          console.info(
-            process.env.VERBOSITY === "DEBUG" ? "getting bits w/ axios POST..." : null
-          );
-
-          this.loadings.app = false
-
-          // console.log(response)
-
-        }) //axios.then
-        .catch(e => {
-          this.loadings.app = false
-          this.console.msgs.push({ m: e, c: "error" })
-          console.error(e);
-        }); //axios.catch
-
-
-      // } //else.this.query
-
-    },
     getUpdates: function() {
 
       let u = (this.updatekey) ? this.updatekey : '';
@@ -484,9 +457,6 @@ if(e.key.toLowerCase()=='escape'){this.modals={settings:false}}
     },
     setQueryFire: function(B,wa) {
 
-// console.log("B:",B)
-// console.log("wa:",wa)
-// setQueryFire(hero._source,['bit','episode']
 let clauses = []
 
 __.each(wa,(w)=>{
@@ -495,7 +465,6 @@ __.each(wa,(w)=>{
 
 this.query.string='('+clauses.join(" AND ")+')'
 
-// this.getBits();
 this.clearFacets();
 
     },
@@ -616,14 +585,16 @@ this.MAP.fitBounds(this.GEOMS.getBounds())
     },
     getGeoms: function() {
 
-this.loadings.maplayer=true
 let u = null;
 if(this.CONFIG.mode!=='T'){
-u = this.CONFIG.atlas_geoms+this.getGeomIDs().join(',')
+u = this.CONFIG.prod.atlas_geoms+this.getGeomIDs().join(',')
 } else {
   u="http://localhost:8000/cbb_fake-geoms.json"
 }
-axios.get(u)
+if(this.getGeomIDs().length>0)
+{
+this.loadings.maplayer=true
+  axios.get(u)
         .then(response => {
 
          this.locations = response.data
@@ -636,7 +607,9 @@ axios.get(u)
         }) //axios.catch
         .finally(()=>{
           this.loadings.maplayer = false
-        })
+        })} else {
+          console.log("no associated geometries") 
+        }
 
     },
     getBits: function() {
@@ -740,7 +713,6 @@ if(this.CONFIG.mode=='33'){
   }
 } //qs
 
-
 // fetch(this.CONFIG.prod.bits, {"body":QS,"method":"POST"})
 axios.post(this.CONFIG.prod.elastic_bits,QS)
         .then(response => {
@@ -748,7 +720,6 @@ axios.post(this.CONFIG.prod.elastic_bits,QS)
             process.env.VERBOSITY === "DEBUG" ? "getting bits w/ axios response..." : null
           );
 
-          
           this.bits = response.data.hits.hits
           this.facets = response.data.aggregations.all_bits
 
@@ -765,7 +736,6 @@ axios.post(this.CONFIG.prod.elastic_bits,QS)
 } else {
 
 QS=this.CONFIG.dev.elastic_bits;
-
 axios.get(QS)
         .then(response => {
 

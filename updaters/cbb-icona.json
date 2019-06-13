@@ -1,103 +1,309 @@
-{"episode":"2016.atl",
-	"tstart":"21:20",
-"bit":"I Don't Care"}
-{"episode":"2016.nyc0514930pm",
-	"tstart":"18:00",
-"bit":"I Don't Care"}
-{"episode":"2016.nyc0514930pm",
-	"tstart":"27:50",
-"bit":"I Don't Care"}
-{"episode":"2016.minneapolis",
-	"tstart":"10:00",
-"bit":"I Don't Care"}
-{"episode":"2016.chicago730",
-	"tstart":"55:45",
-"bit":"I Don't Care"}
-{"episode":"2016.denver",
-	"tstart":"22:30",
-"bit":"I Don't Care"}
-{"episode":"2016.denver",
-	"tstart":"1:33:00",
-"bit":"I Don't Care"}
-{"episode":"2016.oakland",
-	"tstart":"42:00",
-"bit":"I Don't Care"}
-{"episode":"2016.portland7",
-	"tstart":"59:00",
-"bit":"I Don't Care"}
-{"episode":"2016.portland10",
-	"tstart":"39:30",
-"bit":"I Don't Care"}
-{"episode":"2016.seattle",
-	"tstart":"1:23:25",
-"bit":"I Don't Care"}
-{"episode":"2016.vancouver",
-	"tstart":"16:30",
-"bit":"I Don't Care"}
-{"episode":"2016.vancouver",
-	"tstart":"1:15:00",
-"bit":"I Don't Care"}
-{"episode":"2016.vancouver",
-	"tstart":"1:24:59",
-"bit":"I Don't Care"}
-{"episode":"2016.vancouver",
-	"tstart":"1:52:20",
-"bit":"I Don't Care"}
-{"episode":"2016.vancouver",
-	"tstart":"1:52:40",
-"bit":"I Don't Care"}
-{"episode":"2016.dc",
-	"tstart":"50:45",
-	"tags":"inaugural",
-"bit":"I Don't Care"}
-{"episode":"2016.atl",
-	"tstart":"21:15",
-"bit":"I Don't Care"}
-{"episode":"2016.nyc05137pm",
-	"tstart":"24:20",
-"bit":"I Don't Care"}
-{"episode":"2016.nyc0514930pm",
-	"tstart":"17:52",
-"bit":"I Don't Care"}
-{"episode":"2016.nyc0514930pm",
-	"tstart":"27:47",
-"bit":"I Don't Care"}
-{"episode":"2016.minneapolis",
-	"tstart":"10:00",
-"bit":"I Don't Care"}
-{"episode":"2016.chicago7pm",
-	"tstart":"55:50",
-"bit":"I Don't Care"}
-{"episode":"2016.portland7",
-	"tstart":"58:50",
-"bit":"I Don't Care"}
-{"episode":429,
-	"tstart":"41:10",
-"bit":"I Don't Care"}
-{"episode":432,
-	"tstart":"1:09:16",
-"bit":"I Don't Care"}
-{"episode":432,
-	"tstart":"1:16:20",
-"bit":"I Don't Care"}
-{"episode":"http://howl.fm/audio/42885/cbb-2016-tour-best-of-pt-3",
-	"tstart":"1:01:10",
-"bit":"I Don't Care"}
-{"episode":438,
-	"tstart":"49:14",
-"bit":"I Don't Care"}
-{"episode":"http://howl.fm/audio/43254/august-25-brisbane-city-hall-qld",
-	"tstart":"13:34",
-"bit":"I Don't Care"}
-{"episode":"http://howl.fm/audio/43254/august-25-brisbane-city-hall-qld",
-	"tstart":"27:26",
-"bit":"I Don't Care"}
-{"episode":"http://howl.fm/audio/43254/august-25-brisbane-city-hall-qld",
-	"tstart":"34:48",
-"bit":"I Don't Care"}
-{"episode":"http://howl.fm/audio/43551/september-26-glee-club-nottingham",
-	"tstart":"1:14:20",
-"bit":"I Don't Care"}
-{"episode":463,
-	"tstart":"1:04:45",
-"bit":"I Don't Care"}
+[
+  {
+    "episode": "http://howl.fm/audio/41301/may-9-washington-dc-the-lincoln-theatre",
+    "show": "cbb",
+    "tstart": "50:45",
+    "tend": "51:15",
+    "instance": "I almost hate to introduce a fifth.",
+    "bit": "I Don't Care",
+    "elucidation":"somebody receives or administers an Icona Popping",
+    "tags": "Chazmin Clangman,Sunny Clangman,inaugural",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-06-12T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-06-12T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 9 - Washington DC, The Lincoln Theatre",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Neil Campbell",
+    "id_wikia": null,
+    "holding": "false"
+},{
+    "episode": "http://howl.fm/audio/41307/may-11-atlanta-the-tabernacle-atlanta",
+    "show": "cbb",
+    "tstart": "21:10",
+    "tend": "21:30",
+    "instance": "I'll send her your warm regards.",
+    "bit": "I Don't Care",
+    "elucidation":"somebody receives or administers an Icona Popping",
+    "tags": "Ho Ho",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-06-12T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-06-12T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 11 - Atlanta, The Tabernacle Atlanta",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Drew Tarver",
+    "id_wikia": null,
+    "holding": "false"
+},
+  {
+     "episode": "http://howl.fm/audio/42016/may-20-chicago-athenaeum-theatre-7-pm",
+    "show": "cbb",
+    "tstart": "55:25",
+    "tend": "56:00",
+    "instance": "And nowhere where somebody has recently passed.",
+    "bit": "I Don't Care",
+    "elucidation":"somebody receives or administers an Icona Popping",
+    "tags": "Werner Herzog,Big Sue",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-06-12T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-06-12T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 20 - Chicago, Athenaeum Theatre (7 pm)",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
+    "id_wikia": null,
+    "holding": "false"
+},
+  {
+    "episode": "http://howl.fm/audio/42026/may-22-denver-co-paramount-theatre",
+    "show": "cbb",
+    "tstart": "22:30",
+    "tend": "23:00",
+    "instance": "I do have a lot of money but it's not fun for me.",
+"bit": "I Don't Care",
+    "elucidation":"somebody receives or administers an Icona Popping",
+    "tags": "Charles Dumpster",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-06-12T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-06-12T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 22 - Denver CO, Paramount Theatre",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
+    "id_wikia": null,
+    "holding": "false"
+},
+  {
+    "episode": "http://howl.fm/audio/42026/may-22-denver-co-paramount-theatre",
+    "show": "cbb",
+    "tstart": "1:32:45",
+    "tend": "1:33:00",
+    "instance": "That's actually true.",
+"elucidation": "any song reference",
+"bit": "The Paul Hardcastle of Suicides",
+    "tags": "Charles Dumpster,Eye of the Tiger (song),Survivor (musical combination)",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-06-12T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-06-12T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 22 - Denver CO, Paramount Theatre",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
+    "id_wikia": null,
+    "holding": "false"
+},
+  {
+    "episode": "http://howl.fm/audio/42026/may-22-denver-co-paramount-theatre",
+    "show": "cbb",
+    "tstart": "1:33:00",
+    "tend": "1:33:35",
+    "instance": "We don't even know that one together.",
+"elucidation": "any song reference",
+"bit": "The Paul Hardcastle of Suicides",
+    "tags": "Frank Dorito,John Lennon,Charles Dumpster,We Dem Boyz (song),Wiz Khalifa",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-06-12T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-06-12T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 22 - Denver CO, Paramount Theatre",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
+    "id_wikia": null,
+    "holding": "false"
+},
+  {
+    "episode": "http://howl.fm/audio/42026/may-22-denver-co-paramount-theatre",
+    "show": "cbb",
+    "tstart": "1:33:30",
+    "tend": "1:34:00",
+    "instance": "If you wanna start us Icona off...",
+"bit": "I Don't Care",
+    "elucidation":"somebody receives or administers an Icona Popping",
+    "tags": "Frank Dorito,Charles Dumpster",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-06-12T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-06-12T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 22 - Denver CO, Paramount Theatre",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
+    "id_wikia": null,
+    "holding": "false"
+},{
+    "episode": "http://howl.fm/audio/42015/may-19-minneapolis-mn-pantages-theatre",
+    "show": "cbb",
+    "tstart": "10:00",
+    "tend": "10:30",
+    "instance": "Being a Christian is 'the best'?",
+    "bit": "I Don't Care",
+    "elucidation":"somebody receives or administers an Icona Popping",
+    "tags": "JW Stillwater",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-06-13T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-06-13T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 19 - Minneapolis Mn, Pantages Theatre",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
+    "id_wikia": null,
+    "holding": "false"
+},
+  {
+    "episode": "http://howl.fm/audio/41308/may-13-nyc-gramercy-theatre-7-pm",
+    "show": "cbb",
+    "tstart": "24:00",
+    "tend": "24:30",
+    "instance": "We're gonna have to sign you up for your Equity Card if you take one more step onto the stage.",
+    "bit": "I Don't Care",
+    "elucidation":"somebody receives or administers an Icona Popping",
+    "tags": "Reverend Robert Parsimony",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-06-13T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-06-13T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 13 - NYC, Gramercy Theatre (9:30 PM)",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Rogue Wave",
+    "id_wikia": null,
+    "holding": "false"
+},
+  {
+    "episode": "2016.nyc0514930pm",
+    "tstart": "17:52",
+    "bit": "I Don't Care"
+  },
+  {
+    "episode": "2016.nyc0514930pm",
+    "tstart": "18:00",
+    "bit": "I Don't Care"
+  },
+  {
+    "episode": "2016.nyc0514930pm",
+    "tstart": "27:47",
+    "bit": "I Don't Care"
+  },
+  {
+    "episode": "2016.nyc0514930pm",
+    "tstart": "27:50",
+    "bit": "I Don't Care"
+  },
+  {
+    "episode": "2016.oakland",
+    "tstart": "42:00",
+    "bit": "I Don't Care"
+  },
+  {
+    "episode": "2016.portland10",
+    "tstart": "39:30",
+    "bit": "I Don't Care"
+  },
+  {
+    "episode": "2016.portland7",
+    "tstart": "58:50",
+    "bit": "I Don't Care"
+  },
+  {
+    "episode": "2016.portland7",
+    "tstart": "59:00",
+    "bit": "I Don't Care"
+  },
+  {
+    "episode": "2016.seattle",
+    "tstart": "1:23:25",
+    "bit": "I Don't Care"
+  },
+  {
+    "episode": "2016.vancouver",
+    "tstart": "16:30",
+    "bit": "I Don't Care"
+  },
+  {
+    "episode": "2016.vancouver",
+    "tstart": "1:15:00",
+    "bit": "I Don't Care"
+  },
+  {
+    "episode": "2016.vancouver",
+    "tstart": "1:24:59",
+    "bit": "I Don't Care"
+  },
+  {
+    "episode": "2016.vancouver",
+    "tstart": "1:52:20",
+    "bit": "I Don't Care"
+  },
+  {
+    "episode": "2016.vancouver",
+    "tstart": "1:52:40",
+    "bit": "I Don't Care"
+  },
+  {
+    "episode": "http://howl.fm/audio/42885/cbb-2016-tour-best-of-pt-3",
+    "tstart": "1:01:10",
+    "bit": "I Don't Care"
+  },
+  {
+    "episode": "http://howl.fm/audio/43254/august-25-brisbane-city-hall-qld",
+    "tstart": "13:34",
+    "bit": "I Don't Care"
+  },
+  {
+    "episode": "http://howl.fm/audio/43254/august-25-brisbane-city-hall-qld",
+    "tstart": "27:26",
+    "bit": "I Don't Care"
+  },
+  {
+    "episode": "http://howl.fm/audio/43254/august-25-brisbane-city-hall-qld",
+    "tstart": "34:48",
+    "bit": "I Don't Care"
+  },
+  {
+    "episode": "http://howl.fm/audio/43551/september-26-glee-club-nottingham",
+    "tstart": "1:14:20",
+    "bit": "I Don't Care"
+  },
+  {
+    "episode": 429,
+    "tstart": "41:10",
+    "bit": "I Don't Care"
+  },
+  {
+    "episode": 432,
+    "tstart": "1:09:16",
+    "bit": "I Don't Care"
+  },
+  {
+    "episode": 432,
+    "tstart": "1:16:20",
+    "bit": "I Don't Care"
+  },
+  {
+    "episode": 438,
+    "tstart": "49:14",
+    "bit": "I Don't Care"
+  },
+  {
+    "episode": 463,
+    "tstart": "1:04:45",
+    "bit": "I Don't Care"
+  }
+]

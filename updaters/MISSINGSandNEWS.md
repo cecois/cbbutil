@@ -6,18 +6,19 @@
 1. fix doobie brothers tag
 2. change tag Beth to Power Wheels Beth
 2. fix gramercy may 13 ep title times (9:30 v 7)
-1. mr. microphone
+1. ~~mr. microphone~~
 1. ~~jarles~~
 1. ~~clumsy portmanteau~~
 1. ~~lapkus can't make it through a song~~
 1. gino's commuter map
 1. len wiseman
-1. retiring a train
+1. ~~retiring a train~~
 1. URLs (see DOMAINS.md)
 1. literally nowhere else
 1. germany cannibalism
 1. icona pop
 1. s my c
+2. face/off
 1. subepisodes
 
 - have you ever? (rapper's delight)
@@ -79,6 +80,7 @@
 * Bone Queef
   - 430,\*\*\*
   - 599,2:50:15
+  - 605,1:04:10
   - 599,2:50:30
   - 599,2:50:45
   - 599,2:56:45
@@ -339,8 +341,7 @@
   - 539,13:20(pw)
   - 307,45:25(pw)
 - hot shit/cold diahrrea
-
-  - 479,42:45(howl - w/ ads)
+	- 479,42:45(howl - w/ ads)
 
 - mike the janitor's mantra
   - 218,24:20(howl)
@@ -349,7 +350,7 @@
   - 218,1:14:00(howl)
   - 283,1:00:13(howl)
   - bo2014.2,1:39:54
-  - 507,17:00
+  - 507,16:30
   - 356,56:00(pw)
   - 384,42:50(pw)
   - 2016.dallas,37:40
@@ -1240,6 +1241,7 @@
   - 2016.losangeles,42:30
   - 2016.losangeles,1:01:00
   - 2016.losangeles,1:00:40
+  - chicago-may-20-7pm,1:01:30
 * character bonanzas
   - 300,bill carter+
   - 599,~3+ (first segment)
@@ -1514,17 +1516,17 @@
   - ~~2016.nyc930,32:45~~
   - ~~349,38:25(pw)~~
   - ~~349,40:30(pw)~~
-  - 507,12:40
-  - 507,35:00
-  - 513,32:45
-  - 584,3:10(pw)
-  - 584,6:20(pw)
+  - ~~507,12:40~~
+  - ~~507,35:00~~
+  - ~~513,32:45~~
+  - ~~584,3:10~~
+  - ~~584,6:20~~
   - ~~bo.2016.1,49:50(pw)~~
   - ~~bo.2016.3,6:35(pw)~~
   - ~~BO2015.4,10:55~~
   - ~~bo2016.4,2:19:25~~
   - ~~bo2017.4,14:30~~
-  - live-from-anaheim-now-hear-this,1:04:50
+  - ~~live-from-anaheim-now-hear-this,1:04:50~~
 - starting too low
   - 2016.manchester,1:38:00
   - bo2015.2,1:12:03(pw) - inaugural
@@ -1779,6 +1781,7 @@
   - 427,1:00(pw)
   - 562,1:13:25(pw)
   - 604,1:15
+  - 605,0:50
   - 549,0:30(pw)
   - 509,1:00(commercialed)
   - 358,0:50(pw)
@@ -1843,13 +1846,13 @@
   - 2016.sydney,37:30
   - 438,36:00(pw)
   - 440,1:09:00(pw)
-  - **440,1:16:00**
   - 441,4:45(pw)
   - 451,2:00(pw)
   - 451,42:15(pw)
   - 471,19:30(pw)
-  - **486,21:50(ads)**
-  - **500,3:00**
+  - 486,21:50
+  - 500,3:00
+  - anaheim-now-hear-this-2016,1:07:30
 - out of the park (fair ball / foul ball )
   - tig+alynne episode
   - 482,25:35(howl)
@@ -1966,6 +1969,7 @@
   - 603,1:16:00
   - 555,1:06:00
   - now hear this 2017 nyc,1:45
+  - may-20-chicago-7pm,52:15
 
 - shallatoo (maxwell keeper's new catchphrase)
   - 483,several
