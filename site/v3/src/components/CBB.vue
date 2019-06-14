@@ -1,7 +1,7 @@
 <template>
   <div>
     <div id="map"></div>
-    <vue-headful :title="page.title" description="fxsxxxrrrre" />
+    <vue-headful :title="getPageTitle()" description="fxsxxxrrrre" />
 
     <div id="zCBB-modal-settings" :class="['modal',modals.settings?'is-active':'']">
   <div class="modal-background"></div>
@@ -14,8 +14,8 @@
 
     <!-- <section class="section"> -->
     <div id="zCBB-header" class="columns">
-      <div class="column is-one-quarter">
-        <span class="has-text-left" style="padding-top:1em;">{{page.title}}</span>
+      <div class="column is-one-quarter has-text-left zCBB-primary has-text-weight-bold">
+        <i class="fas fa-exclamation" style="font-size:5.5em;left:-12px;top:-4px;position:relative;"></i><i class="fas fa-exclamation" style="font-size:5.5em;left:-12px;top:-4px;position:relative;"></i>
         <!-- <div class="header-buttons columns">
           <div v-for="litem in page.linkItems" class="column">
             <div class="header-button tooltip is-tooltip-right" :data-tooltip="litem.slug"><a :class="{ active: litem.active }" :href=" litem.uri"><i :class="litem.ico"></i></a></div>
@@ -36,16 +36,16 @@
           
           <p class="control">
             <!-- click on search switches pane and clears facets (ie new query - watcher on facets does the getbits part) -->
-            <a @click="clearFacets();actives.pane='search';" class="button is-info">
+            <a @click="clearFacets();actives.pane='search';" class="button is-cbb">
               <i class="fa fa-search"></i>
             </a>
           </p>
           <p class="control">
-            <a @click="setRandomQuery" class="button is-info">
+            <a @click="setRandomQuery" class="button is-cbb">
               <i class="fa fa-random"></i>
             </a>
           </p><p class="control">
-            <a @click="query.string=null" class="button has-text-light" style="width:22px;border-left:none;">
+            <a @click="query.string=null" class="button has-text-grey-light" style="width:22px;border-left:none;">
               <i class="fa fa-slash is-size-7"></i>
             </a>
           </p>
@@ -54,21 +54,19 @@
       </div NB="/#inputsearch.column">
       <div style="padding:1em 1em 0 0;" class="app-title column is-one-quarter has-text-right">
         <!-- <span :class="['zCBB-trigger-modal',modals.settings?'is-active':'']" @click="modals.settings=true"><i class="fas fa-sliders-h"></i></span> -->
-        <span @click="page.splayed=!page.splayed" id="zCBB-pane-toggler" :class="page.splayed?'splayed':''" style="margin-left:1em;"><i class="fas fa-eye-slash"></i></span>
+        <span class="has-text-left zCBB-primary" style="padding-top:1em;font-size:2em;">{{page.title}}</span>
       </div>
     </div NB="/#header ">
     <!-- </section> -->
     <div class="columns" id="zCBB-app-nav">
+      <div class="column is-2"></div>
       <div class="column">
-        <!-- <i class="fas fa-plus-square"></i> -->
-      </div>
-      <div class="column">
-        <div class="columns">
+        <!-- <div class="columns"> -->
           <div class="column">
             <!-- Main container -->
             <nav class="level">
               <!-- Left side -->
-              <div class="level-left">
+              <!-- <div class="level"> -->
                 <div class="level-item">
                   <p v-for="pane in page.panes" class="subtitle is-5 zCBB-nav-item has-text-weight-light" v-bind:class="[actives.pane==pane.slug ? 'is-active has-text-weight-bold' : '']" @click="actives.pane=pane.slug">
                     {{pane.label}}<span v-if="bits.length>0 && pane.slug=='search'" class="has-badge-rounded" :data-badge="bits.length"></span>
@@ -77,19 +75,21 @@
                   <p v-if="loadings.app">boostrapping...</p>
                   <p v-if="loadings.popup">collecting details...</p>
                 </div>
-              </div NB="/.level-left">
-            </nav>
+              <!-- </div NB="/.level-left"> -->
+            </nav NB="/.level">
           </div>
-        </div NB="/#inputsearch">
-      </div NB="/.columns">
-      <div class="column has-text-right"></div>
+        <!-- </div NB="/#inputsearch"> -->
+      </div NB="/.column">
+      <div class="column has-text-right is-2">
+        <span @click="page.splayed=!page.splayed" id="zCBB-pane-toggler" :class="page.splayed?'splayed':''" style="padding-right:2em;"><i :class="['fas','fa-map',page.splayed?'has-text-grey':'']"></i></span>
+      </div>
     </div NB="/.columns">
 
     <div :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='default'">
       <div v-if="hero" class="column zCBB-hero-column">
-        <p class="is-size-2 has-text-weight-bold has-text-right" style="padding-right:3em;">{{hero._source.instance}}</p>
-        <p class="is-size-5 has-text-weight-light has-text-right" style="padding-right:5em;">-- {{hero._source.hero.attrib}}</p>
-        <p class="is-size-7 has-text-weight-light has-text-right" style="padding-right:5em;"><span @click="setQueryFire(hero._source,['bit','episode'])" class="zCBB-trigger">{{hero._source.bit}}</span> (ep.{{hero._source.episode.split('/')[hero._source.episode.split('/').length-1]}})</p>
+        <p class="is-size-2 has-text-weight-bold has-text-right zCBB-primary" style="padding-right:3em;">{{hero._source.instance}}</p>
+        <p class="is-size-5 has-text-weight-light has-text-right zCBB-primary-2" style="padding-right:5em;">-- {{hero._source.hero.attrib}}  (ep.{{hero._source.episode.split('/')[hero._source.episode.split('/').length-1]}})</p>
+        <p class="is-size-7 has-text-weight-light has-text-right zCBB-primary-3" style="padding-right:5em;"><span style="padding-right:2em;" @click="setQueryFire(hero._source,['bit','episode'])" class="zCBB-trigger">{{hero._source.bit}}</span></p>
       </div>
     </div NB="/default/home">
     <div :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='huh'">
@@ -225,18 +225,21 @@
     </div NB="/search">
     <div :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='browse' && browses.doc_count>0">
       <div class="column">
+        <h4 class="is-size-4">Bits</h4>
         <ul>
         <li v-for="bucket in browses.bits.filtered_bits.buckets"><span @click="setQueryFire({bit:bucket.key},['bit'])" class="zCBB-trigger has-badge-rounded" :data-badge="bucket.doc_count">{{bucket.key}}</span> ({{bucket.elucidation.hits.hits[0]._source.elucidation}})</li>
       </ul>
       </div NB="./column browse bucket">
       <div class="column">
+        <h4 class="is-size-4">Tags</h4>
         <ul>
-           <li v-for="bucket in browses.tags.filtered_tags.buckets"><span @click="setQueryFire({tags:bucket.key},['bit'])" class="zCBB-trigger has-badge-rounded" :data-badge="bucket.doc_count">{{bucket.key}}</span></li>
+           <li v-for="bucket in browses.tags.filtered_tags.buckets"><span @click="setQueryFire({tags:bucket.key},['tags'])" class="zCBB-trigger has-badge-rounded" :data-badge="bucket.doc_count">{{bucket.key}}</span></li>
         </ul>
       </div NB="./column browse bucket">
       <div class="column">
+        <h4 class="is-size-4">Guests</h4>
         <ul>
-           <li v-for="bucket in browses.guests.filtered_guests.buckets"><span @click="setQueryFire({guests:bucket.key},['bit'])" class="zCBB-trigger has-badge-rounded" :data-badge="bucket.doc_count">{{bucket.key}}</span></li>
+           <li v-for="bucket in browses.guests.filtered_guests.buckets"><span @click="setQueryFire({guests:bucket.key},['guests'])" class="zCBB-trigger has-badge-rounded" :data-badge="bucket.doc_count">{{bucket.key}}</span></li>
         </ul>
       </div NB="./column browse bucket">
     </div NB="/browse">
@@ -410,7 +413,7 @@ export default {
       bits: [],
       facets: [],
       page: {
-        title: "cb!b!.bitmap.v3",
+        title: "cbbBMv3",
         splayed: true,
         panes: [{
           label: 'Home',
@@ -455,6 +458,11 @@ if(e.ctrlKey){this.page.splayed=!this.page.splayed}
 if(e.key.toLowerCase()=='escape'){this.modals={settings:false}}
 
     },
+  getPageTitle: function(){
+
+return (this.query.string && this.query.string!=='null')?this.page.title+': '+this.query.string:this.page.title
+
+  },
     setQueryFire: function(B,wa) {
 
 let clauses = []
@@ -466,6 +474,7 @@ __.each(wa,(w)=>{
 this.query.string='('+clauses.join(" AND ")+')'
 
 this.clearFacets();
+this.actives.pane='search';
 
     },
     getHero: function() {

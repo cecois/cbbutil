@@ -1,24 +1,42 @@
+$cbb-blue: #00A1E2;
+$cbb-yelo: #FDB812;
+$cbb-redd: #CA0204;
+
+.zCBB-primary{color:$cbb-blue;}
+.zCBB-primary-2{color:rgba($cbb-blue,.8);a{color:$cbb-blue;}}
+.zCBB-primary-3{color:rgba($cbb-blue,.5);a{color:rgba($cbb-blue,.8);}}
+.zCBB-secondary{color:$cbb-yelo;}
+.zCBB-secondary-2{color:rgba($cbb-yelo,.8);a{color:$cbb-yelo;}}
+.zCBB-secondary-3{color:rgba($cbb-yelo,.5);a{color:rgba($cbb-yelo,.8);}}
+.zCBB-tertiary{color:$cbb-redd;}
 
 $cbb-baseline: rgba(255, 255, 255, 1);
 $cbb-primary: rgba(144, 155, 44, 1);
-$cbb-secondary: rgba(122, 55, 22, .5);
-$cbb-a: purple;
+$cbb-secondary: rgba(122, 55, 22, 1);
+$cbb-a: $cbb-yelo;
 
 $zCBB-header-height:5vh;
 $zCBB-app-nav-height:10vh;
 
 ::selection {
-  background: $cbb-secondary; /* WebKit/Blink Browsers */
-  color:white;
+  background: $cbb-blue; /* WebKit/Blink Browsers */
+  color:$cbb-yelo;
 }
 ::-moz-selection {
-  background: $cbb-secondary; /* Gecko Browsers */
-  color:white;
+  background: $cbb-blue; /* Gecko Browsers */
+  color:$cbb-yelo;
 }
 
-// .column{
-//   border: 2px solid rgba(11, 0, 11, 0.2);
-// }
+#app {
+  // height: 20%;
+  top: 0;
+  // font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: 'K2D', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  height: 90%;
+}
 
 .columns {
   z-index:2;
@@ -64,15 +82,19 @@ a{color:inherit;}
 
 #zCBB-inputContainer {
 
+
   #zCBB-inputSearch {
+  p.control{.button.is-cbb{
+    &:hover{background-color:lighten($cbb-blue,22%);}
+    background-color:$cbb-blue;border-color:$cbb-blue;color:white;}}
     width: 100%;
     input{
-        font-family:'OpenSans-ExtraBold';
-        // height:1.8em;
-        // margin-top:3%;
+      &:active{border-color:$cbb-blue;box-shadow: 0 0 0 .125em rgba($cbb-blue, .2)}
+    font-family: 'Heebo', sans-serif;
+    color:$cbb-redd;
   font-weight:900;
       text-transform: lowercase;
-      // padding:0;
+
     }
   }
 }
@@ -97,12 +119,15 @@ a{color:inherit;}
 }
 }
 .zCBB-nav-item{
+  margin:0 .5em;
+  color:$cbb-blue;
 &:hover {
   cursor:pointer;
-  color:darken($cbb-a,20%);
+  color:lighten($cbb-blue,20%);
 }
 
-  font-variant:small-caps; color:$cbb-a;&.is-active{font-weight:900;}}
+  font-variant:small-caps;
+  &.is-active{font-weight:900;}}
 #zCBB-level-nav-out {
   background-color: $cbb-baseline;
 }

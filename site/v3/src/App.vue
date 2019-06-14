@@ -32,17 +32,6 @@ export default {
   z-index:-1;
 }
 
-#app {
-  height: 20%;
-  top: 0;
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: orange;
-  height: 90%;
-}
-
 @import "@/sass/style.scss";
 // ---------------------------- BADGE, BULMA -------
 @-webkit-keyframes spinAround {
