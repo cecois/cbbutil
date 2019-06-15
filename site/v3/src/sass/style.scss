@@ -18,6 +18,10 @@ $cbb-a: $cbb-yelo;
 $zCBB-header-height:5vh;
 $zCBB-app-nav-height:10vh;
 
+$zCBB-font-body:'K2D', sans-serif;;
+$zCBB-font-accent:'Heebo', sans-serif;
+$zCBB-opacity-main:.8;
+
 ::selection {
   background: $cbb-blue; /* WebKit/Blink Browsers */
   color:$cbb-yelo;
@@ -31,11 +35,17 @@ $zCBB-app-nav-height:10vh;
   // height: 20%;
   top: 0;
   // font-family: "Avenir", Helvetica, Arial, sans-serif;
-  font-family: 'K2D', sans-serif;
+  font-family: $zCBB-font-body;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   height: 90%;
+}
+
+#zCBB-app-title{
+font-family:$zCBB-font-accent;
+position:relative;
+top:-2em;
 }
 
 .columns {
@@ -63,6 +73,7 @@ a{color:inherit;}
 #zCBB-app-nav{
   background-color:$cbb-baseline;
   min-height:$zCBB-app-nav-height;
+  opacity:.8;
 }
 // #zCBB-throb-container{
 //   height:10vh;
@@ -75,9 +86,14 @@ a{color:inherit;}
 }
 #zCBB-pane-toggler{
   cursor:pointer;
-  color:$cbb-a;
-  &.splayed{color:#f50064;}
-  &:hover{color:black;}
+  color:$cbb-yelo;
+  &:hover{
+    // color:darken($cbb-yelo,12%);
+    text-shadow: 0px 0px 1px rgba($cbb-blue,.8);
+  }
+  &.splayed{color:rgba($cbb-blue,.8);
+    &:hover{color:$cbb-blue;}
+    }//splayed
 }
 
 #zCBB-inputContainer {
@@ -90,7 +106,7 @@ a{color:inherit;}
     width: 100%;
     input{
       &:active{border-color:$cbb-blue;box-shadow: 0 0 0 .125em rgba($cbb-blue, .2)}
-    font-family: 'Heebo', sans-serif;
+    font-family: $zCBB-font-accent;
     color:$cbb-redd;
   font-weight:900;
       text-transform: lowercase;
@@ -99,7 +115,8 @@ a{color:inherit;}
   }
 }
 .zCBB-pane{
-  
+  margin-bottom:0;
+  opacity:.8;
   &.splayed{position:absolute;left:90%;}
   min-height: calc(100vh - #{$zCBB-header-height});
   padding-top:5em;

@@ -15,7 +15,7 @@
     <!-- <section class="section"> -->
     <div id="zCBB-header" class="columns">
       <div class="column is-one-quarter has-text-left zCBB-primary has-text-weight-bold">
-        <i class="fas fa-exclamation" style="font-size:5.5em;left:-12px;top:-4px;position:relative;"></i><i class="fas fa-exclamation" style="font-size:5.5em;left:-12px;top:-4px;position:relative;"></i>
+        
         <!-- <div class="header-buttons columns">
           <div v-for="litem in page.linkItems" class="column">
             <div class="header-button tooltip is-tooltip-right" :data-tooltip="litem.slug"><a :class="{ active: litem.active }" :href=" litem.uri"><i :class="litem.ico"></i></a></div>
@@ -52,9 +52,12 @@
         </div NB="">
         
       </div NB="/#inputsearch.column">
-      <div style="padding:1em 1em 0 0;" class="app-title column is-one-quarter has-text-right">
+      <div id="zCBB-app-title" style="padding:1em 1em 0 0;" class="is-hidden-touch app-title column is-one-quarter has-text-right">
         <!-- <span :class="['zCBB-trigger-modal',modals.settings?'is-active':'']" @click="modals.settings=true"><i class="fas fa-sliders-h"></i></span> -->
-        <span class="has-text-left zCBB-primary" style="padding-top:1em;font-size:2em;">{{page.title}}</span>
+        <!-- <span class="has-text-left zCBB-primary" style="padding-top:1em;font-size:2em;">{{page.title}}</span> -->
+        <span class="has-text-left zCBB-primary" style="padding-top:1em;font-size:1.5em;">
+cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relative;"></i>b<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relative;"></i>BMv3
+        </span>
       </div>
     </div NB="/#header ">
     <!-- </section> -->
@@ -81,7 +84,7 @@
         <!-- </div NB="/#inputsearch"> -->
       </div NB="/.column">
       <div class="column has-text-right is-2">
-        <span @click="page.splayed=!page.splayed" id="zCBB-pane-toggler" :class="page.splayed?'splayed':''" style="padding-right:2em;"><i :class="['fas','fa-map',page.splayed?'has-text-grey':'']"></i></span>
+        <span @click="page.splayed=!page.splayed" id="zCBB-pane-toggler" :class="page.splayed?'splayed':''" style="padding-right:2em;"><i :class="['fas','fa-map']"></i></span>
       </div>
     </div NB="/.columns">
 
@@ -96,9 +99,10 @@
 
       <div class="column is-one-fifth"></div>
       <div class="column is-one-fifth">
-  <h1 class="title">What's this, now?!
-  <span class="bang-inline" >
-<span class="icom-bang" ></span>
+
+  <h1 class="title has-text-grey-light">What's this, now?
+  <span class="bang-inline" ><span class="has-text-grey-lighter"><i class="fa fa-exclamation"></i></span>
+<span class="has-text-grey-lighter"><i class="fa fa-exclamation"></i></span>
   </span>
   </h1>
     <p >Come on, guys -- it's a searchable index of all the recurring bits from the <em><a href="http://www.earwolf.com/show/comedy-bang-bang/">Comedy Bang! Bang!</a></em> podcast.
@@ -108,9 +112,10 @@
       
   <div class="column is-one-fifth">
 
-  <h1 class="title" style="text-align:center;">
-    <span class="bang-inline" >
-  <span class="icom-bang" ></span>
+
+  <h1 class="title has-text-grey-light" style="text-align:center;">
+    <span class="bang-inline" ><span class="has-text-grey-lighter"><i class="fa fa-exclamation"></i></span>
+  <span class="has-text-grey-lighter"><i class="fa fa-exclamation"></i></span>
     </span>
   Why?
   </h1>
@@ -119,9 +124,10 @@
 </div NB="/.column">
 
 <div class="column is-one-fifth">
-<h1 class="title" style="text-align:center;">Official thing?
-  <span class="bang-inline" >
-  <span class="icom-bang" ></span>
+
+<h1 class="title has-text-grey-light" style="text-align:center;">Official thing?
+  <span class="bang-inline" ><span class="has-text-grey-lighter"><i class="fa fa-exclamation"></i></span>
+  <span class="has-text-grey-lighter"><i class="fa fa-exclamation"></i></span>
   </span>
 </h1>
 <p style="text-align:center;">Isn't, nope. Fansite.</p>
@@ -426,7 +432,7 @@ export default {
       incoming: null,
       MAP: null,
       basemaps: [
-        { "name": "hi im name", "handle": "default", "uri": "https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png" }
+        { "name": "AJ Ashton's Pencil", "handle": "default", "uri": "https://b.tiles.mapbox.com/v4/aj.03e9e12d/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiYWoiLCJhIjoiY2lrZW1pczJzMDA1d3VybTJha216azVtdSJ9.vJBkGAq6CvN9vt0IwakQ-A" }
       ],
       actives: { basemap: null, pane: 'default', updatekey: null, geom:"000" }
     };
