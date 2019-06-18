@@ -16,7 +16,7 @@
 1. URLs (see DOMAINS.md)
 1. literally nowhere else
 1. germany cannibalism
-1. icona pop
+1. ~~icona pop~~
 1. s my c
 2. face/off
 1. subepisodes
@@ -38,6 +38,9 @@
 
 - point flathand fist
   - 530,22:30
+
+- germany cannibalism
+	- 429,1:07:00
 
 * closing sentiment-off
   - ??
@@ -143,6 +146,7 @@
   - 429,17:00(pw)
   - 588,7:45(pw)
   - 42\*?,??:??
+  - 429,17:00
   - 429,21:00(pw)
   - 429,23:30(pw)
   - 429,29:20(pw)
@@ -1856,6 +1860,7 @@
 - out of the park (fair ball / foul ball )
   - tig+alynne episode
   - 482,25:35(howl)
+  - 463,57:50
   - 438,12:50(pw)
   - 438,26:45(pw)
   - sydney2016,58:00
