@@ -174,8 +174,8 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
       <div class="column is-three-quarters">
         <ul>
           <li @mouseleave="actives.geom=null" @mouseenter="actives.geom=(bit._source.bit=='Location' && actives.geom!==genGeomID('bit',bit))?genGeomID('bit',bit):null" v-if="bits.length>1" v-for="bit in bits" class="box has-text-left">
-            <i v-if="actives.geom==genGeomID('bit',bit)" style="font-size:1.1em;" class="fa fa-arrow-right" />
-            <i @click="GEOMS.eachLayer((l)=>{l.eachLayer((la)=>{if(genGeomID('featureParent',la)==genGeomID('bit',bit)){if(la.getLatLng){MAP.panInside(la.getLatLng())}else{MAP.fitBounds(la.getBounds())}}})})" v-if="bit._source.bit=='Location'" style="font-size:1.1em;" class="fa fa-map-marker" />
+            <!-- <i v-if="" style="font-size:1.1em;" class="fa fa-arrow-right" /> -->
+            <i @click="GEOMS.eachLayer((l)=>{l.eachLayer((la)=>{if(genGeomID('featureParent',la)==genGeomID('bit',bit)){if(la.getLatLng){MAP.panInside(la.getLatLng())}else{MAP.fitBounds(la.getBounds())}}})})" v-if="bit._source.bit=='Location'" style="font-size:1.1em;" :class="['fa','fa-map-marker',actives.geom==genGeomID('bit',bit)?'zCBB-marker-hi':'']" />
             <span class="bit-instance">{{bit._source.instance}}</span>
             <div class="columns zCBB-bit-data">
               <div v-if="!page.splayed" class="column is-1"></div>

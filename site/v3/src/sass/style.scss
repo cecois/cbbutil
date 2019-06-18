@@ -42,6 +42,13 @@ $zCBB-opacity-main:.8;
   height: 90%;
 }
 
+.zCBB-marker-hi{
+  color: $cbb-yelo;
+  -webkit-text-fill-color: $cbb-yelo; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: $cbb-blue;
+}
+
 #zCBB-app-title{
 font-family:$zCBB-font-accent;
 position:relative;
