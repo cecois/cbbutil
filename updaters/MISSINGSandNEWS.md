@@ -130,6 +130,7 @@
     - ~~bo2017.1,1:00:45~~
 * batman the ride
   - 555,34:15(pw)
+  - 606,9:15
   - bo2017.4,7:00(pw)
 
 - video on demand
@@ -696,24 +697,24 @@
   - that time he wz in the met life blimp
   - 51,24:00
 - len wiseman's self description (good looking guy etc.)
+  - 2016.oakland,35:28
+  - 2016.oakland,36:50
   - 2016.tarrytown,20:00(pw)
   - 2016.tarrytown,33:40(pw)
   - 2016.tarrytown,40:00(pw)
   - 2016.tarrytown,43:50(pw)
-  - bo2015.1,1:55:45(pw)
-  - 408,28:45(pw)
-  - 411,29:00(pw)
-  - 335,3:00(pw)
-  - 335,1:00:40(pw)
-  - 384,49:45(pw)
-  - 401,1:20:30(pw)
-  - every other wiseman appearance \*10
-  - 2016.oakland,35:28
-  - 2016.oakland,36:50
   - 2016.tour.bo.1,41:13
   - 326,4:05(paywall)
   - 326,4:38(paywall)
   - 326,5:45(paywall)
+  - 335,1:00:40(pw)
+  - 335,3:00(pw)
+  - 384,49:45(pw)
+  - 401,1:20:30(pw)
+  - 408,28:45(pw)
+  - 411,29:00(pw)
+  - bo2015.1,1:55:45(pw)
+  - every other wiseman appearance \*10
 - serial podcast
   - 417,16:00
   - 427,54:30
@@ -1783,6 +1784,7 @@
 
 - dads and grads
   - 427,1:00(pw)
+  - 606,0:45
   - 562,1:13:25(pw)
   - 604,1:15
   - 605,0:50
@@ -1912,6 +1914,7 @@
   - (previous herzog appear)
 - of note/in his own right
   - 292,2:24
+  - 335,2:45
   - 575,37:00
   - 586,1:22(pw)
   - 544,11:20(pw)
@@ -1968,6 +1971,7 @@
 - we'll pay for it (if you wanna go on another date)
 
   - 567,14:00
+  - 606,40:45
   - 561,44:45(pw)
   - 567,14:00(pw)
   - 602,1:11:45
@@ -2000,6 +2004,7 @@
   - now hear this 2017 nyc,3:15
   - now hear this 2017 nyc,11:45
   - 599,3:00
+  - 606,2:00
   - 599,12:00
   - 596,19:00(pw)
   - 588,1:00:00(pw)

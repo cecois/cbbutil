@@ -15,7 +15,7 @@
     <!-- <section class="section"> -->
     <div id="zCBB-header" class="columns">
       <div class="column is-one-quarter has-text-left zCBB-primary has-text-weight-bold">
-        <i class="fas fa-exclamation" style="font-size:5.5em;left:-12px;top:-4px;position:relative;"></i><i class="fas fa-exclamation" style="font-size:5.5em;left:-12px;top:-4px;position:relative;"></i>
+        
         <!-- <div class="header-buttons columns">
           <div v-for="litem in page.linkItems" class="column">
             <div class="header-button tooltip is-tooltip-right" :data-tooltip="litem.slug"><a :class="{ active: litem.active }" :href=" litem.uri"><i :class="litem.ico"></i></a></div>
@@ -26,7 +26,7 @@
         <div id="zCBB-inputSearch" class="field has-addons">
           <p class="control">
             <a class="button" style="width:46px;">
-              <atom-spinner  v-if="loadings.app" :animation-duration="1000" :size="20" :color="'#000'"></atom-spinner>
+              <atom-spinner  v-if="loadings.app || loadings.geometries || loadings.details || loadings.maplayer" :animation-duration="1000" :size="20" :color="'#000'"></atom-spinner>
             </a>
           </p>
           <p class="control">
@@ -52,9 +52,12 @@
         </div NB="">
         
       </div NB="/#inputsearch.column">
-      <div style="padding:1em 1em 0 0;" class="app-title column is-one-quarter has-text-right">
+      <div id="zCBB-app-title" style="padding:1em 1em 0 0;" class="is-hidden-touch app-title column is-one-quarter has-text-right">
         <!-- <span :class="['zCBB-trigger-modal',modals.settings?'is-active':'']" @click="modals.settings=true"><i class="fas fa-sliders-h"></i></span> -->
-        <span class="has-text-left zCBB-primary" style="padding-top:1em;font-size:2em;">{{page.title}}</span>
+        <!-- <span class="has-text-left zCBB-primary" style="padding-top:1em;font-size:2em;">{{page.title}}</span> -->
+        <span class="has-text-left zCBB-primary" style="padding-top:1em;font-size:1.5em;">
+cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relative;"></i>b<i class="fas fa-exclamation has-text-grey-lighter" style="font-size:3.5em;top:-4px;position:relative;"></i>BMv3
+        </span>
       </div>
     </div NB="/#header ">
     <!-- </section> -->
@@ -69,11 +72,11 @@
               <!-- <div class="level"> -->
                 <div class="level-item">
                   <p v-for="pane in page.panes" class="subtitle is-5 zCBB-nav-item has-text-weight-light" v-bind:class="[actives.pane==pane.slug ? 'is-active has-text-weight-bold' : '']" @click="actives.pane=pane.slug">
-                    {{pane.label}}<span v-if="bits.length>0 && pane.slug=='search'" class="has-badge-rounded" :data-badge="bits.length"></span>
+                    {{pane.label}}<span v-if="bits.length>0 && pane.slug=='search'" class="has-badge-rounded has-badge-secondary" :data-badge="bits.length"></span>
                   </p>
-                  <p v-if="loadings.maplayer">loading geometries...</p>
-                  <p v-if="loadings.app">boostrapping...</p>
-                  <p v-if="loadings.popup">collecting details...</p>
+                  <!-- <p v-if="loadings.maplayer">loading geometries...</p> -->
+                  <!-- <p v-if="loadings.app">boostrapping...</p> -->
+                  <!-- <p v-if="loadings.popup">collecting details...</p> -->
                 </div>
               <!-- </div NB="/.level-left"> -->
             </nav NB="/.level">
@@ -81,7 +84,7 @@
         <!-- </div NB="/#inputsearch"> -->
       </div NB="/.column">
       <div class="column has-text-right is-2">
-        <span @click="page.splayed=!page.splayed" id="zCBB-pane-toggler" :class="page.splayed?'splayed':''" style="padding-right:2em;"><i :class="['fas','fa-map',page.splayed?'has-text-grey':'']"></i></span>
+        <span @click="page.splayed=!page.splayed" id="zCBB-pane-toggler" :class="page.splayed?'splayed':''" style="padding-right:2em;"><i :class="['fas','fa-map']"></i></span>
       </div>
     </div NB="/.columns">
 
@@ -95,10 +98,11 @@
     <div :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='huh'">
 
       <div class="column is-one-fifth"></div>
-      <div class="column is-one-fifth">
-  <h1 class="title">What's this, now?!
-  <span class="bang-inline" >
-<span class="icom-bang" ></span>
+      <div class="column is-one-fifth has-text-grey">
+
+  <h1 class="title zCBB-primary">What's this, now?
+  <span class="bang-inline" ><span class="has-text-grey-lighter"><i class="fa fa-exclamation"></i></span>
+<span class="zCBB-"><i class="fa fa-exclamation"></i></span>
   </span>
   </h1>
     <p >Come on, guys -- it's a searchable index of all the recurring bits from the <em><a href="http://www.earwolf.com/show/comedy-bang-bang/">Comedy Bang! Bang!</a></em> podcast.
@@ -106,11 +110,12 @@
 </div NB="/.column">
 
       
-  <div class="column is-one-fifth">
+  <div class="column is-one-fifth has-text-grey">
 
-  <h1 class="title" style="text-align:center;">
-    <span class="bang-inline" >
-  <span class="icom-bang" ></span>
+
+  <h1 class="title zCBB-primary" style="text-align:center;">
+    <span class="bang-inline" ><span class="zCBB-"><i class="fa fa-exclamation"></i></span>
+  <span class="zCBB-"><i class="fa fa-exclamation has-text-grey-lighter"></i></span>
     </span>
   Why?
   </h1>
@@ -118,10 +123,11 @@
 
 </div NB="/.column">
 
-<div class="column is-one-fifth">
-<h1 class="title" style="text-align:center;">Official thing?
-  <span class="bang-inline" >
-  <span class="icom-bang" ></span>
+<div class="column is-one-fifth has-text-grey">
+
+<h1 class="title zCBB-primary" style="text-align:center;">Official thing?
+  <span class="bang-inline" ><span class="zCBB-"><i class="fa fa-exclamation has-text-grey-lighter"></i></span>
+  <span class="zCBB-"><i class="fa fa-exclamation"></i></span>
   </span>
 </h1>
 <p style="text-align:center;">Isn't, nope. Fansite.</p>
@@ -135,32 +141,32 @@
       <div v-if="!page.splayed" class="zCBB-facet column has-text-left has-text-weight-light is-size-7">
 <!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••• FACET ••••••••••••••• -->
 <div v-if="key == 'bits'" v-for="(facet, key) in this.facets">
-  <h5 :class="['is-size-5','has-text-weight-bold']">{{key}}</h5>
+  <h5 :class="['has-text-grey','is-size-5','has-text-weight-bold']">{{key}}</h5>
   <ul>
     <li v-for="bucket in facet.filtered_bits.buckets">
       <span @click="query.facets.bits.push(bucket.key)" :class="$_.contains(query.facets.bits,bucket.key)?'':'zCBB-trigger'">{{bucket.key}}</span>
-       ({{bucket.doc_count}}) <sup @click="query.facets.bits=$_.reject(query.facets.bits,(b)=>{return b==bucket.key})" v-if="$_.contains(query.facets.bits,bucket.key)"><i class="fa fa-ban zCBB-trigger-facet-remove"></i></sup></li>
+       <span class="has-text-grey-lighter">({{bucket.doc_count}})</span> <sup @click="query.facets.bits=$_.reject(query.facets.bits,(b)=>{return b==bucket.key})" v-if="$_.contains(query.facets.bits,bucket.key)"><i class="fa fa-ban zCBB-trigger-facet-remove"></i></sup></li>
   </ul>
 </div NB="/.facet in facets">
 <!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••• FACET ••••••••••••••• -->
 <div v-if="key == 'tags'" v-for="(facet, key) in this.facets">
-  <h5 :class="['is-size-5','has-text-weight-bold']">{{key}}</h5>
+  <h5 :class="['has-text-grey','is-size-5','has-text-weight-bold']">{{key}}</h5>
   <ul>
-    <li v-for="bucket in facet.filtered_tags.buckets"><span @click="query.facets.tags.push(bucket.key)" :class="$_.contains(query.facets.tags,bucket.key)?'':'zCBB-trigger'">{{bucket.key}}</span> ({{bucket.doc_count}}) <sup @click="query.facets.tags=$_.reject(query.facets.tags,(b)=>{return b==bucket.key})" v-if="$_.contains(query.facets.tags,bucket.key)"><i class="fa fa-ban zCBB-trigger-facet-remove"></i></sup></li>
+    <li v-for="bucket in facet.filtered_tags.buckets"><span @click="query.facets.tags.push(bucket.key)" :class="$_.contains(query.facets.tags,bucket.key)?'':'zCBB-trigger'">{{bucket.key}}</span> <span class="has-text-grey-lighter">({{bucket.doc_count}})</span> <sup @click="query.facets.tags=$_.reject(query.facets.tags,(b)=>{return b==bucket.key})" v-if="$_.contains(query.facets.tags,bucket.key)"><i class="fa fa-ban zCBB-trigger-facet-remove"></i></sup></li>
   </ul>
 </div NB="/.facet in facets">
 <!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••• FACET ••••••••••••••• -->
 <div v-if="key == 'guests'" v-for="(facet, key) in this.facets">
-  <h5 :class="['is-size-5','has-text-weight-bold']">{{key}}</h5>
+  <h5 :class="['has-text-grey','is-size-5','has-text-weight-bold']">{{key}}</h5>
   <ul>
-    <li v-for="bucket in facet.filtered_guests.buckets"><span @click="query.facets.guests.push(bucket.key)" :class="$_.contains(query.facets.guests,bucket.key)?'':'zCBB-trigger'">{{bucket.key}}</span> ({{bucket.doc_count}}) <sup @click="query.facets.guests=$_.reject(query.facets.guests,(b)=>{return b==bucket.key})" v-if="$_.contains(query.facets.guests,bucket.key)"><i class="fa fa-ban zCBB-trigger-facet-remove"></i></sup></li>
+    <li v-for="bucket in facet.filtered_guests.buckets"><span @click="query.facets.guests.push(bucket.key)" :class="$_.contains(query.facets.guests,bucket.key)?'':'zCBB-trigger'">{{bucket.key}}</span> <span class="has-text-grey-lighter">({{bucket.doc_count}})</span> <sup @click="query.facets.guests=$_.reject(query.facets.guests,(b)=>{return b==bucket.key})" v-if="$_.contains(query.facets.guests,bucket.key)"><i class="fa fa-ban zCBB-trigger-facet-remove"></i></sup></li>
   </ul>
 </div NB="/.facet in facets">
 <!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••• FACET ••••••••••••••• -->
 <div v-if="key == 'episodes'" v-for="(facet, key) in this.facets">
-  <h5 :class="['is-size-5','has-text-weight-bold']">{{key}}</h5>
+  <h5 :class="['has-text-grey','is-size-5','has-text-weight-bold']">{{key}}</h5>
   <ul>
-    <li v-for="bucket in facet.filtered_episodes.buckets"><span @click="query.facets.episodes.push(bucket.key)" :class="$_.contains(query.facets.episodes,bucket.key)?'':'zCBB-trigger'">{{bucket.key.split('/')[bucket.key.split('/').length-1]}}</span> ({{bucket.doc_count}}) <sup @click="query.facets.episodes=$_.reject(query.facets.episodes,(b)=>{return b==bucket.key})" v-if="$_.contains(query.facets.episodes,bucket.key)"><i class="fa fa-ban zCBB-trigger-facet-remove"></i></sup></li>
+    <li v-for="bucket in facet.filtered_episodes.buckets"><span @click="query.facets.episodes.push(bucket.key)" :class="$_.contains(query.facets.episodes,bucket.key)?'':'zCBB-trigger'">{{bucket.key.split('/')[bucket.key.split('/').length-1]}}</span> <span class="has-text-grey-lighter">({{bucket.doc_count}})</span> <sup @click="query.facets.episodes=$_.reject(query.facets.episodes,(b)=>{return b==bucket.key})" v-if="$_.contains(query.facets.episodes,bucket.key)"><i class="fa fa-ban zCBB-trigger-facet-remove"></i></sup></li>
   </ul>
 </div NB="/.facet in facets">
 
@@ -168,8 +174,8 @@
       <div class="column is-three-quarters">
         <ul>
           <li @mouseleave="actives.geom=null" @mouseenter="actives.geom=(bit._source.bit=='Location' && actives.geom!==genGeomID('bit',bit))?genGeomID('bit',bit):null" v-if="bits.length>1" v-for="bit in bits" class="box has-text-left">
-            <i v-if="actives.geom==genGeomID('bit',bit)" style="font-size:1.1em;" class="fa fa-arrow-right" />
-            <i @click="GEOMS.eachLayer((l)=>{l.eachLayer((la)=>{if(genGeomID('featureParent',la)==genGeomID('bit',bit)){if(la.getLatLng){MAP.panInside(la.getLatLng())}else{MAP.fitBounds(la.getBounds())}}})})" v-if="bit._source.bit=='Location'" style="font-size:1.1em;" class="fa fa-map-marker" />
+            <!-- <i v-if="" style="font-size:1.1em;" class="fa fa-arrow-right" /> -->
+            <i @click="GEOMS.eachLayer((l)=>{l.eachLayer((la)=>{if(genGeomID('featureParent',la)==genGeomID('bit',bit)){if(la.getLatLng){MAP.panInside(la.getLatLng())}else{MAP.fitBounds(la.getBounds())}}})})" v-if="bit._source.bit=='Location'" style="font-size:1.1em;" :class="['fa','fa-map-marker',actives.geom==genGeomID('bit',bit)?'zCBB-marker-hi':'']" />
             <span class="bit-instance">{{bit._source.instance}}</span>
             <div class="columns zCBB-bit-data">
               <div v-if="!page.splayed" class="column is-1"></div>
@@ -182,10 +188,10 @@
       <p class="subtitle is-5">
       
 <div  class='zCBB-bit-data'>
-                                              <span class='tooltip is-tooltip-left' :data-tooltip="bit._source.elucidation"><span v-if="!page.splayed">bit: </span><a href="#" class="">{{bit._source.bit}}</a></span>
-                              
-                                              <span v-if="!page.splayed" class="has-text-grey-light">({{bit._source.elucidation}})</span>
-                                            </div NB="/..zCBB-bit-data">
+<span class='tooltip is-tooltip-left' :data-tooltip="bit._source.elucidation">
+<span class="has-text-grey-lighter" v-if="!page.splayed">bit: </span><a href="#" class="">{{bit._source.bit}}</a></span>
+<span v-if="!page.splayed" class="has-text-grey-lighter">({{bit._source.elucidation}})</span>
+</div NB="/..zCBB-bit-data">
 
       </p>
     </div NB="/.level-item">
@@ -223,23 +229,23 @@
         </ul>
       </div>
     </div NB="/search">
-    <div :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='browse' && browses.doc_count>0">
+    <div :class="['zCBB-pane','zCBB-browses','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='browse' && browses.doc_count>0">
       <div class="column">
         <h4 class="is-size-4">Bits</h4>
         <ul>
-        <li v-for="bucket in browses.bits.filtered_bits.buckets"><span @click="setQueryFire({bit:bucket.key},['bit'])" class="zCBB-trigger has-badge-rounded" :data-badge="bucket.doc_count">{{bucket.key}}</span> ({{bucket.elucidation.hits.hits[0]._source.elucidation}})</li>
+        <li style="line-height:.8;margin-bottom:1.1em;" v-for="bucket in browses.bits.filtered_bits.buckets"><span @click="setQueryFire({bit:bucket.key},['bit'])" class="zCBB-trigger has-badge-rounded has-badge-primary" :data-badge="bucket.doc_count">{{bucket.key}}</span> <p class="has-text-grey-lighter">({{bucket.elucidation.hits.hits[0]._source.elucidation}})</p></li>
       </ul>
       </div NB="./column browse bucket">
       <div class="column">
         <h4 class="is-size-4">Tags</h4>
         <ul>
-           <li v-for="bucket in browses.tags.filtered_tags.buckets"><span @click="setQueryFire({tags:bucket.key},['tags'])" class="zCBB-trigger has-badge-rounded" :data-badge="bucket.doc_count">{{bucket.key}}</span></li>
+           <li v-for="bucket in browses.tags.filtered_tags.buckets"><span @click="setQueryFire({tags:bucket.key},['tags'])" class="zCBB-trigger has-badge-rounded has-badge-primary" :data-badge="bucket.doc_count">{{bucket.key}}</span></li>
         </ul>
       </div NB="./column browse bucket">
       <div class="column">
         <h4 class="is-size-4">Guests</h4>
         <ul>
-           <li v-for="bucket in browses.guests.filtered_guests.buckets"><span @click="setQueryFire({guests:bucket.key},['guests'])" class="zCBB-trigger has-badge-rounded" :data-badge="bucket.doc_count">{{bucket.key}}</span></li>
+           <li v-for="bucket in browses.guests.filtered_guests.buckets"><span @click="setQueryFire({guests:bucket.key},['guests'])" class="zCBB-trigger has-badge-rounded has-badge-primary" :data-badge="bucket.doc_count">{{bucket.key}}</span></li>
         </ul>
       </div NB="./column browse bucket">
     </div NB="/browse">
@@ -255,7 +261,7 @@
                 <div class="column has-text-weight-light is-size-7"><a :href="report.ep_url">{{report.slug}}</a> ({{report.episode}})</div>
                 <ul>
                   <li v-for="bit in report.bits_sum" class="is-size-6">
-                    <span @click="triggerUpdateQuery(report.episode,bit.bit)" class="zCBB-trigger has-badge-rounded" :data-badge="bit.count">{{bit.bit}}</span>
+                    <span @click="triggerUpdateQuery(report.episode,bit.bit)" class="zCBB-trigger has-badge-rounded has-badge-primary" :data-badge="bit.count">{{bit.bit}}</span>
                   </li>
                 </ul>
               </div>
@@ -272,13 +278,15 @@
     <div class="card large"><div class="card-content">
                             <div class="content">
                               <h2 class="is-size-3"><i class="fas fa-search-location"></i>&nbsp;Searching</h2>
-                                <p>Basically you can just type into the box like a monkey might do it - "huell" or "fourvel" and so forth.</p>
-        <p>But also know that whatever you type into the box gets POSTed as-is, and since Search hits against an <a href="https://www.elastic.co/products/elasticsearch">ElasticSearch</a> (v5.6) index, (as with most search engines) there is <a href="https://www.elastic.co/guide/en/elasticsearch/reference/5.6/query-dsl-query-string-query.html">some pretty advanced stuff</a> you can do if you like. To wit:</p>
-
+                                <p>Basically you can just type into the box like a monkey might do it - "huell" or "fourvel" and so forth. Case is irrelevant.</p>
+        <p>But also know that whatever you type into the box gets pretty much POSTed as-is to an <a href="https://www.elastic.co/products/elasticsearch">ElasticSearch</a> (v5.6) index. As with most search engines, there is <a href="https://www.elastic.co/guide/en/elasticsearch/reference/5.6/query-dsl-query-string-query.html">some pretty advanced stuff</a> you can do if you like. To wit:</p>
 <p>
-  <ul>
-    <li>to find all the Phil Collins references that *aren't* about his Live Aid Concorde stunt: </li>
-    <li>to find all the times a Lapkus character is referenced when she's not even there:</li>
+  <ul style="list-style: none;">
+    <li style="margin-bottom:2em;">to find all the Phil Collins references that *aren't* about his Live Aid Concorde stunt: <p><code>"phil collins" -concorde</code></p></li>
+    <li style="margin-bottom:2em;">...or those that specifically are: <p><code>"phil collins" +concorde</code></p></li>
+    <li style="margin-bottom:2em;">it's also fun to, say, find all the times a Lapkus character is referenced when she's not even there: <p><code>
+      -Lapkus and ((Traci and Reard*n) OR "Nephew Todd" OR "Regina Crimp" OR "Mizz Chips" OR "Liz Mathers" OR "Marla Charles" OR "Frank Dorito" OR "Ho Ho" OR "Benjamin Susix" OR "Hortense Harpie" OR "Murphy O'Malaman" OR "Juniper Flagen" OR "Sunny" OR "Scarsdale" OR "Salantame" OR "Big Sue" OR "Dimples" OR "Mrs. Blarrr" OR "Frank Dorito" OR "Amanda Calzone" OR "Natalie Scoppapoppalee" OR "Whitney Peeps" OR "Lisa Porsche" OR "Harmony Moongloss" OR "Craigory James" OR "Pamela from Big Bear" OR "Dinky Liddle" OR "Carmela Pointe" OR "Wendy Quote The Worm Endquote Widelman" OR "The Dell Guy" OR "Ross Gellar" OR "P'Nut" OR "Bunty Pickles" OR "Vernessa Lykes" OR "Dump Dump" OR "Waldo" OR "Dirk Thirsty" OR "Scat Hamptoncrat")
+    </code></p></li>
   </ul>
 </p>
 
@@ -292,7 +300,7 @@
           <p>
             
             <img class="" src="https://a-v2.sndcdn.com/assets/images/header/cloud@2x-e5fba46.png" /> <small>v.</small> <img class="" src="http://v.fastcdn.co/t/fbd61fb6/9f77a6cf/1506364214-1020996-166x62-HOWLLogoHorizontalTeal.png" /> <small>v.</small> stitcher img</p>
-          <p>Each record has <strong>tstart</strong> and <strong>tend</strong> timestamps - ostensibly these frame the specific instance within the episode. However, when CBB audio files were moved behind the Howl paywall (and then to Stitcher), it rendered many of the timestamps incorrect - as paywalled episodes pass the edit points where commercials used to be, they're offset by however long the excised commercials were.</p><p>Timestamps can still be used to get close to the instance when listening, but they are no longer accurate enough to be used for, say, supercutting or something.
+          <p>Each record has <strong>tstart</strong> and <strong>tend</strong> timestamps - ostensibly these frame the specific instance within the episode. However, when CBB audio files were moved behind the Howl paywall (and then to Stitcher), it rendered many of them incorrect – as paywalled episodes pass the edit points where commercials used to be, they're offset by however long the excised commercials were.</p><p>Timestamps can still be used to get close to the instance when listening, but they are no longer accurate enough to be used for, say, supercutting or something.
 
           </p>
         </div></div></div>
@@ -377,7 +385,7 @@ export default {
   mounted: function() {
     this.CONFIG = CONFIG
     window.addEventListener('keydown', this.keyMonitor)
-    this.console.msgs.push({ m: "mounted", c: "" });
+    // this.console.msgs.push({ m: "mounted", c: "" });
     // this.getBits()
     // this.getFacets()
     
@@ -426,7 +434,7 @@ export default {
       incoming: null,
       MAP: null,
       basemaps: [
-        { "name": "hi im name", "handle": "default", "uri": "https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png" }
+        { "name": "AJ Ashton's Pencil", "handle": "default", "uri": "https://b.tiles.mapbox.com/v4/aj.03e9e12d/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiYWoiLCJhIjoiY2lrZW1pczJzMDA1d3VybTJha216azVtdSJ9.vJBkGAq6CvN9vt0IwakQ-A" }
       ],
       actives: { basemap: null, pane: 'default', updatekey: null, geom:"000" }
     };
@@ -545,13 +553,13 @@ let s = null;
 
 switch(true){
   case this.actives.geom==this.genGeomID('feature',f.feature):
-  s={fillColor:'gray',fillOpacity:.7,color:'white'}
+  s={fillColor:'#dDa812',fillOpacity:.7,color:'#00A1c2'}
   break;
   case __.contains(this.seens,this.genGeomID('feature',f.feature)):
   s={fillColor:'white',fillOpacity:.7,color:'black'}
   break;
   default:
-  s={fillColor:'green',fillOpacity:.9,color:'yellow'}
+  s={fillColor:'#FDB812',fillOpacity:.9,color:'#00A1E2'}
 }
 
 f.setStyle(s)
@@ -642,10 +650,11 @@ if(this.CONFIG.mode=='33'){
   let qfe = (this.query.facets.episodes.length>0)?' AND ('+__.uniq(this.query.facets.episodes).join(' AND ')+')':''
 
  QS={
-  "size": 20,
+  "size": 10000,
   "query": {
     "query_string": {
       "default_operator": "AND",
+      "analyzer": "simple",
       "query": qso+qfg+qft+qfb+qfe
     }
   },
@@ -657,6 +666,7 @@ if(this.CONFIG.mode=='33'){
           "filter": {
             "query_string": {
               "default_operator": "AND",
+              "analyzer": "simple",
               "query": qso+qfg+qft+qfb+qfe
             }
           },
@@ -673,6 +683,7 @@ if(this.CONFIG.mode=='33'){
           "filter": {
             "query_string": {
               "default_operator": "AND",
+              "analyzer": "simple",
               "query": qso+qfg+qft+qfb+qfe
             }
           },
@@ -689,6 +700,7 @@ if(this.CONFIG.mode=='33'){
           "filter": {
             "query_string": {
               "default_operator": "AND",
+              "analyzer": "simple",
               "query": qso+qfg+qft+qfb+qfe
             }
           },
@@ -705,6 +717,7 @@ if(this.CONFIG.mode=='33'){
           "filter": {
             "query_string": {
               "default_operator": "AND",
+              "analyzer": "simple",
               "query": qso+qfg+qft+qfb+qfe
             }
           },
