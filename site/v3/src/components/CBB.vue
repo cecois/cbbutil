@@ -1,4 +1,4 @@
-<template>
+f<template>
   <div>
     <div id="map"></div>
     <vue-headful :title="getPageTitle()" description="fxsxxxrrrre" />
@@ -74,6 +74,10 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
                   <p v-for="pane in page.panes" class="subtitle is-5 zCBB-nav-item has-text-weight-light" v-bind:class="[actives.pane==pane.slug ? 'is-active has-text-weight-bold' : '']" @click="actives.pane=pane.slug">
                     {{pane.label}}<span v-if="bits.length>0 && pane.slug=='search'" class="has-badge-rounded has-badge-secondary" :data-badge="bits.length"></span>
                   </p>
+
+                  <p class="zCBB-nav-item">
+                    <span @click="page.splayed=!page.splayed" id="zCBB-pane-toggler" :class="page.splayed?'splayed':''" style="padding-right:2em;"><i :class="['fas','fa-map']"></i></span>
+                  </p>
                   <!-- <p v-if="loadings.maplayer">loading geometries...</p> -->
                   <!-- <p v-if="loadings.app">boostrapping...</p> -->
                   <!-- <p v-if="loadings.popup">collecting details...</p> -->
@@ -84,7 +88,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
         <!-- </div NB="/#inputsearch"> -->
       </div NB="/.column">
       <div class="column has-text-right is-2">
-        <span @click="page.splayed=!page.splayed" id="zCBB-pane-toggler" :class="page.splayed?'splayed':''" style="padding-right:2em;"><i :class="['fas','fa-map']"></i></span>
+        <!-- <span @click="page.splayed=!page.splayed" id="zCBB-pane-toggler" :class="page.splayed?'splayed':''" style="padding-right:2em;"><i :class="['fas','fa-map']"></i></span> -->
       </div>
     </div NB="/.columns">
 
@@ -218,7 +222,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
               
 <div class="column is-7"><span style="margin-left:1em;" class="is-size-7 has-text-grey-light">ep.{{bit._source.episode.split('/')[bit._source.episode.split('/').length-1]}}</span><span class="is-size-7 has-text-grey-light" v-if="bit._source.created_at">&nbsp;|&nbsp;~{{bit._source.tstart}}&nbsp;|&nbsp;added: {{$MOMENT(bit._source.created_at).format('YYYY.MMM.Mo')}}</span><span class="is-size-7 has-text-grey-light" v-if="bit._source.updated_at">&nbsp;|&nbsp;updated {{$MOMENT(bit._source.updated_at).format('YYYY.MMM.Mo')}}</span></div NB="/.column">
 
-<div class="column"><div v-if="bit._source.tags" style="margin-left:1px;" v-bind:class="['zCBB-tag','tag',(query.string && encodeURI(query.string.toLowerCase()).indexOf('tag%3A%22'+tag+'%22'.toLowerCase())>=0)?'is-info':'is-dark']" @click="triggerSingleFieldQuery('tag',tag)" v-for="tag in (bit._source.tags.split(','))">{{tag}}</div NB="tags"></div NB="/.column">
+<div class="column"><div v-if="bit._source.tags" style="margin-left:1px;" v-bind:class="['zCBB-tag','tag',(query.string && encodeURI(query.string.toLowerCase()).indexOf(encodeURI(tag.toLowerCase()))>=0)?'is-hot':'']" @click="triggerSingleFieldQuery('tag',tag)" v-for="tag in (bit._source.tags.split(','))">{{tag}}</div NB="tags"></div NB="/.column">
             
             </div NB="/.columns  .zCBB-bit-data-meta">
 
@@ -279,14 +283,18 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
                             <div class="content">
                               <h2 class="is-size-3"><i class="fas fa-search-location"></i>&nbsp;Searching</h2>
                                 <p>Basically you can just type into the box like a monkey might do it - "huell" or "fourvel" and so forth. Case is irrelevant.</p>
+                                <p>Any query that results in even one Location will subquery that location and it will appear on the map, below (ctrl key or the map icon, above, will toggle a better display).</p>
         <p>But also know that whatever you type into the box gets pretty much POSTed as-is to an <a href="https://www.elastic.co/products/elasticsearch">ElasticSearch</a> (v5.6) index. As with most search engines, there is <a href="https://www.elastic.co/guide/en/elasticsearch/reference/5.6/query-dsl-query-string-query.html">some pretty advanced stuff</a> you can do if you like. To wit:</p>
 <p>
   <ul style="list-style: none;">
     <li style="margin-bottom:2em;">to find all the Phil Collins references that *aren't* about his Live Aid Concorde stunt: <p><code>"phil collins" -concorde</code></p></li>
     <li style="margin-bottom:2em;">...or those that specifically are: <p><code>"phil collins" +concorde</code></p></li>
     <li style="margin-bottom:2em;">it's also fun to, say, find all the times a Lapkus character is referenced when she's not even there: <p><code>
-      -Lapkus and ((Traci and Reard*n) OR "Nephew Todd" OR "Regina Crimp" OR "Mizz Chips" OR "Liz Mathers" OR "Marla Charles" OR "Frank Dorito" OR "Ho Ho" OR "Benjamin Susix" OR "Hortense Harpie" OR "Murphy O'Malaman" OR "Juniper Flagen" OR "Sunny" OR "Scarsdale" OR "Salantame" OR "Big Sue" OR "Dimples" OR "Mrs. Blarrr" OR "Frank Dorito" OR "Amanda Calzone" OR "Natalie Scoppapoppalee" OR "Whitney Peeps" OR "Lisa Porsche" OR "Harmony Moongloss" OR "Craigory James" OR "Pamela from Big Bear" OR "Dinky Liddle" OR "Carmela Pointe" OR "Wendy Quote The Worm Endquote Widelman" OR "The Dell Guy" OR "Ross Gellar" OR "P'Nut" OR "Bunty Pickles" OR "Vernessa Lykes" OR "Dump Dump" OR "Waldo" OR "Dirk Thirsty" OR "Scat Hamptoncrat")
-    </code></p></li>
+      -lapkus +((traci +reard*n) || "nephew todd" || "regina crimp" || "mizz chips" || "liz mathers" || "marla charles" || "frank dorito" || "ho ho" || "benjamin susix" || "hortense harpie" || "murphy o'malaman" || "juniper flagen" || "sunny" || "scarsdale" || "salantame" || "big sue" || "dimples" || "mrs. blarrr" || "frank dorito" || "amanda calzone" || "natalie scoppapoppalee" || "whitney peeps" || "lisa porsche" || "harmony moongloss" || "craigory james" || "pamela from big bear" || "dinky liddle" || "carmela pointe" || "wendy quote the worm endquote widelman" || "the dell guy" || "ross gellar" || "p'nut" || "bunty pickles" || "vernessa lykes" || "dump dump" || "waldo" || "dirk thirsty" || "scat hamptoncrat")
+    </code>
+  </p>
+    <p class="hast-text-italic">(...where the + is a boolean AND and the || is boolean OR)</p>
+</li>
   </ul>
 </p>
 
@@ -297,9 +305,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
       <div class="column">
         <div class="card large"><div class="card-content"><div class="content">
           <h2 class="is-size-3"><i class="fas fa-clock"></i>&nbsp;Timestamps</h2>
-          <p>
-            
-            <img class="" src="https://a-v2.sndcdn.com/assets/images/header/cloud@2x-e5fba46.png" /> <small>v.</small> <img class="" src="http://v.fastcdn.co/t/fbd61fb6/9f77a6cf/1506364214-1020996-166x62-HOWLLogoHorizontalTeal.png" /> <small>v.</small> stitcher img</p>
+
           <p>Each record has <strong>tstart</strong> and <strong>tend</strong> timestamps - ostensibly these frame the specific instance within the episode. However, when CBB audio files were moved behind the Howl paywall (and then to Stitcher), it rendered many of them incorrect – as paywalled episodes pass the edit points where commercials used to be, they're offset by however long the excised commercials were.</p><p>Timestamps can still be used to get close to the instance when listening, but they are no longer accurate enough to be used for, say, supercutting or something.
 
           </p>
@@ -320,10 +326,10 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
                             <div class="content">
                               <h2 class="is-size-3"><i class="fas fa-map-marker"></i>&nbsp;Locations</h2>
                                 
-                                <p>One of the bits is special (and in fact the original impetus of this entire effort). For <a href='#' class='zCBB-trigger' data-type='bit' data-target='Location'>bits="Location"</a> the results will appear in the picklist (indicated by a map pin icon) <em>and</em> on the map under what you're reading now (hidden behind the main content area by default).</p><p>The ctrl key will toggle the map's visibility (as will the <i class="fa fa-map-o"></i> button); the <i  class="fa fa-map-marker"></i> in the search results will zoom to that instance's referenced location. <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"huell howser"'>Huell Howser</a>, <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"gino lambardo"'>Gino Lambardo</a>, <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"merrill shindler"'>Merrill Shindler</a>, and <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"shelly driftwood"'>Shelly Driftwood</a> are all good for at least a few.</p>
+                                <p>One of the bits is special (and in fact the original impetus of this entire effort). For <a href='#' class='zCBB-trigger' data-type='bit' data-target='Location'>bits="Location"</a> the results will appear in the picklist (indicated by a map pin icon) <em>and</em> on the map under what you're reading now (hidden behind the main content area by default).</p><p>The ctrl key will toggle the map's visibility (as will the <i class="fas fa-map"></i> button); the <i  class="fa fa-map-marker"></i> in the search results will zoom to that instance's referenced location (the map otherwise defaults to the full spatial extent of *all* the location bits). <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"huell howser"'>Huell Howser</a>, <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"gino lambardo"'>Gino Lambardo</a>, <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"merrill shindler"'>Merrill Shindler</a>, and <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"shelly driftwood"'>Shelly Driftwood</a> are all good for at least a few.</p>
 
-   <p>Another thing to note about locations is that unless there's a clamor for it we do NOT spatially-index the geometries for retrieval. So while of course you can query for <em>bits</em> that reference locations (and those referenced geometries will appear on the map with minimal interaction), we're not bothering to offer the ability to, say, zoom/pan the map and query for locations <em>in that area</em>. Like, who cares?</p><p>If somebody really wants that (or the tangential ability to query for bits that reference, say, the Boston area or Marina del Rey, maybe <a class="twitter-share-button" href="https://twitter.com/share" data-size="large" data-text="custom share text" data-url="https://dev.twitter.com/web/tweet-button" data-hashtags="comedybangbang,zapstraighttoit" data-via="twitterdev"><i class="fa fa-twitter"></i> say something</a>. But really if you're <em>that interested</em> you could just query for everything (<a href="#" class="zCBB-trigger" data-type="" data-target="bit:location">"bit:Location"</a>) and zoom to the spot about which you're curious.</p>
-
+   <p>Another thing to note about locations is that unless there's a clamor for it we do NOT spatially-index the geometries for retrieval. So while of course you can query for <em>bits</em> that reference locations (and those referenced geometries will appear on the map with minimal interaction), we're not bothering to offer the ability to, say, zoom/pan the map and query for locations <em>in that area</em>. Like, who cares?</p><p>If you're <em>that interested</em> you could just query for everything (<a href="#" class="zCBB-trigger" data-type="" data-target="bit:location">"bit:Location"</a>) and zoom to the spot about which you're curious.</p>
+<p>Bet you're not, though!</p>
                             </div NB="/.content">
                         </div NB="/.card-content">
                       </div NB="/.card-large">
@@ -422,7 +428,7 @@ export default {
       facets: [],
       page: {
         title: "cbbBMv3",
-        splayed: true,
+        splayed: false,
         panes: [{
           label: 'Home',
           slug: 'default'
@@ -633,12 +639,11 @@ this.loadings.maplayer=true
       
       this.loadings.app=true;
 
-let QS = null;
+let QO = null;
 
       // if (!this.query || this.query=='') { 
       //   // query is empty - we'll send out for just a sampling
       // this.console.msgs.push({ m: "querying for default... ...", c: "" })
-
       // } //else.this.query
 
 if(this.CONFIG.mode=='33'){
@@ -649,13 +654,23 @@ if(this.CONFIG.mode=='33'){
   let qfb = (this.query.facets.bits.length>0)?' AND ('+__.uniq(this.query.facets.bits).join(' AND ')+')':''
   let qfe = (this.query.facets.episodes.length>0)?' AND ('+__.uniq(this.query.facets.episodes).join(' AND ')+')':''
 
- QS={
+// console.log("RAW QUERY:",this.query.string)
+// console.log("PREPD QUERY:",qso+qfg+qft+qfb+qfe)
+  // let QU = {"wildcard":{"tags.comma_del":"cake boss"}}
+
+ QO={
   "size": 10000,
   "query": {
-    "query_string": {
-      "default_operator": "AND",
-      "analyzer": "simple",
-      "query": qso+qfg+qft+qfb+qfe
+    "multi_match": {
+      "query": qso+qfg+qft+qfb+qfe,
+      "fields": [
+        "bit",
+        "instance",
+        "elucidation",
+        "episode_title",
+        "tags.comma_del",
+        "episode_guests.comma_del"
+      ]
     }
   },
   "aggregations": {
@@ -735,8 +750,32 @@ if(this.CONFIG.mode=='33'){
   }
 } //qs
 
-// fetch(this.CONFIG.prod.bits, {"body":QS,"method":"POST"})
-axios.post(this.CONFIG.prod.elastic_bits,QS)
+// let QT1={
+//   "query": {
+//     "bool": {
+//       "should": [
+//         {
+//           "match": {
+//             "tags.comma_del": "cake boss"
+//           }
+//         }
+//       ],
+//       "minimum_should_match": 1,
+//       "must": [
+//         {
+//           "match": {
+//             "bit": "Marone!"
+//           }
+//         }
+//       ]
+//     }
+//   }
+// }
+
+// let QT={"query":{"multi_match":{"query":this.query.string,"fields":["bit","instance","tags.comma_del","episode_guests"]}}}
+
+// fetch(this.CONFIG.prod.bits,
+axios.post(this.CONFIG.prod.elastic_bits,QO)
         .then(response => {
           console.info(
             process.env.VERBOSITY === "DEBUG" ? "getting bits w/ axios response..." : null

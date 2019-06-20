@@ -239,7 +239,7 @@
 =-   14(bat),19:00,your body is a wonderland - john mayer
 =-   14(bat),38:30,this is halloween - nightmare sndtrk
 =-   14(bat),45:45,i don't care - icona pop
--   14(bat),46:30,chili's baby back ribs jingle
+--   14(bat),46:30,chili's baby back ribs jingle
 -   14(bat)48:15,I like life - scrooge
 -   14(bat)48:30,I c9uld have danced all night
 -   14(bat)50:45,hey Jude
