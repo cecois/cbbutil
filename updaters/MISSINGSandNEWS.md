@@ -1,7 +1,7 @@
 # possible new bits:
 
 0. clean up nephew todd tag, "tiny reviews music" eluc
-1. fix "Regina Krimp" vs. "Crimp"
+1. ~~fix "Regina Krimp" vs. "Crimp"~~
 1. ~~you say baby too~~
 1. fix doobie brothers tag
 2. change tag Beth to Power Wheels Beth
