@@ -172,9 +172,14 @@ a{color:inherit;}
   }
 }
 
-.zCBB-tag.tag{font-size:.6em;font-weight:600;cursor:pointer;background-color:$cbb-secondary;
-  &:hover{color:white;background-color:lighten($cbb-secondary,22%);}
-}
+.zCBB-tag.tag{
+  &:hover{background-color:grayscale($cbb-yelo);}
+  font-size:.6em;font-weight:600;cursor:pointer;
+&.is-hot{
+  background-color:$cbb-blue;
+  &:hover{background-color:darken($cbb-blue,12%);}
+}//hot
+}//tag
 
 .bit-instance{
     font-weight:600;

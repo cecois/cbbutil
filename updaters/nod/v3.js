@@ -6,7 +6,7 @@ var __ = require('underscore')
 ,PATH = require('path')
 ,ZLIB = require('zlib')
 ,DB = require('mongodb').Db
-,MLAB = require('mongolab-data-api')(CONFIG.mongokey)
+// ,MLAB = require('mongolab-data-api')(CONFIG.mongokey)
 ,ELASTIC = require('elasticsearch')
 ,MOMENT = require('moment')
 ;
@@ -243,42 +243,86 @@ var imagify = async (U)=>{
 
 }//imagify
 
-var summarize = async (bits) =>{
+const _reports = async (epadhocids,inca) => {
+return new Promise((resolve,reject)=>{
 
-	return new Promise((resolve, reject)=>{
-
-		var episodes_updated = __.uniq(__.map(bits,(E)=>{var o = E.episode+":::"+E.slug_earwolf;return o; }));
-
-		var reports = () => __.map(episodes_updated,(e,i,l)=>{
+resolve(__.map(epadhocids,async (e,i,l)=>{
 			var epno = e.split(":::")[0]
 			var epslug = e.split(":::")[1]
 
 			var O = {episode:epno,image:'null',slug:epslug,ep_url:"http://www.earwolf.com/episode/"+epslug}
-			// var eps_bits = __.pluck(__.filter(bits,{episode:epno}),'bit');
-			var eps_bits = __.pluck(__.filter(bits,(b)=>{return b.episode==epno}),'bit');
 
-			// O.raw_bits = eps_bits;
+			var eps_bits = __.pluck(__.filter(inca,(b)=>{
+				return b.episode==epno}),'bit');
+			
 			var beets = __.map(__.uniq(eps_bits),(m)=>{
 				var o = {
 					bit:m
 					,count:__.filter(eps_bits,(li)=>{return li==m;}).length
 				}; //o
+				console.log("o:",o);
 				return o;
 			});//map.beets
 			O.bits_sum=beets;
+			console.log('returning O:',O)
 			return O;
 		})//map
+)//resolve
+})//promise
+}//_reports
 
+var _summarize_bits = async (summ,bits) =>{
+
+	return new Promise(async(resolve, reject)=>{
+
+resolve(
+__.map(summ.episodes_summary,async (e,i,l)=>{
+				var epno = e.split(":::")[0]
+				var epslug = e.split(":::")[1]
+
+			var O = {episode:e.episode,image:'null',slug:e.slug,ep_url:"http://www.earwolf.com/episode/"+e.slug}
+
+			var eps_bits = __.pluck(__.filter(bits,(b)=>{
+				return b.episode==epno}),'bit');
+			
+			var beets = __.map(__.uniq(eps_bits),(m)=>{
+				var o = {
+					bit:m
+					,count:__.filter(eps_bits,(li)=>{return li==m;}).length
+				}; //o
+				// console.log("o:",o);
+				return o;
+			});//map.beets
+			console.log('returning sum_beets:',beets)
+			O.bits_sum=beets;
+			console.log('returning O:',O)
+			return O;
+		})//map
+	)
+
+})//promise
+}//summarize_bits
+var summarize_incoming = async (bits) =>{
+
+	return new Promise(async(resolve, reject)=>{
+
+		let episodes_updated = __.uniq(__.map(bits,(E)=>{var o = E.episode+":::"+E.slug_earwolf;return o; }));
 		let plur = episodes_updated.length>1?'s':''
 
-		var R = {
-			date:MOMENT().format('YYYY.MMM.DD')
-			,query:"("+__.map(episodes_updated,(e)=>{return "episode:"+e.split(":::")[0]}).join(" OR ")+")"
-			,episodes:bits.length+" bits from "+episodes_updated.length+" episode"+plur+" (ep"+plur+" "+__.map(episodes_updated,(E)=>{return E.split(":::")[0]}).join(", ")+")",
-			report:reports()
-		}
 
-		resolve(R);
+resolve({
+			date:MOMENT().format('YYYY.MMM.DD')
+			,episodes_summary:bits.length+" bits from "+episodes_updated.length+" episode"+plur+" (ep"+plur+" "+__.map(episodes_updated,(E)=>{return E.split(":::")[0]}).join(", ")+")"
+			,query:"("+__.map(episodes_updated,(e)=>{return "episode:"+e.split(":::")[0]}).join(" OR ")+")"
+			,eps:episodes_updated
+			,reports:await _summarize_bits(episodes_updated,bits)
+			// await _reports(episodes_updated,bits)
+			// ,episodes:bits.length+" bits from "+episodes_updated.length+" episode"+plur+" (ep"+plur+" "+__.map(episodes_updated,(E)=>{return E.split(":::")[0]}).join(", ")+")",
+			// report:reports()
+		})
+
+
+		// resolve(R);
 
 	});//Promise
 }//summarize
@@ -540,11 +584,12 @@ var main = async () =>{
 	try {
 		var ln = process.argv[2]
 
-		if(__.contains(['news','live','fake','fantastic','adds','reset','test'],ln)!==true){
+		if(!__.contains(['news','live','fake','fantastic','adds','reset','test'],ln)){
 			throw("typo prolly");
 			process.exit();
 		} else {
 
+console.log("processing bits from "+ln+"...")
 /* -----------------------------------------------
 // read in incoming bits from $ln file
 // msg notes length, payload is actual bits
@@ -634,10 +679,12 @@ var E = await elastify(ext_source2);
 
 console.log("let's summarize the new stuff...")
 
-var summary = await summarize(inca);
+var summary = await summarize_incoming(inca);
+// summary.reports = await summarize_bits(summary,inca)
 
         // imagify(summary)
-        console.log(summary)
+
+        console.log(JSON.stringify(summary))
         // write(summary);
 
 }
@@ -645,7 +692,7 @@ var summary = await summarize(inca);
 } catch(error) {
 	console.error(error);
 }
-console.log("WANNA BACK UP DEM GEOMS, CHUMP? ./Users/ccmiller/Documents/cbb-bu-geoms.sh ")
+// console.log("WANNA BACK UP DEM GEOMS, CHUMP? ./Users/ccmiller/Documents/cbb-bu-geoms.sh ")
 } //main
 
 main();
