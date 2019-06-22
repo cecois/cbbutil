@@ -1,4 +1,4 @@
-f<template>
+<template>
   <div>
     <div id="map"></div>
     <vue-headful :title="getPageTitle()" description="fxsxxxrrrre" />
@@ -76,7 +76,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
                   </p>
 
                   <p class="zCBB-nav-item">
-                    <span @click="page.splayed=!page.splayed" id="zCBB-pane-toggler" :class="page.splayed?'splayed':''" style="padding-right:2em;"><i :class="['fas','fa-map']"></i></span>
+                    <span @click="page.splayed=!page.splayed" id="zCBB-pane-toggler" :class="['tooltip','is-tooltip-right',page.splayed?'splayed':'']" style="padding-right:2em;"><i :class="['fas','fa-map','tooltip']" data-tooltip="toggle main area for more/less map"></i></span>
                   </p>
                   <!-- <p v-if="loadings.maplayer">loading geometries...</p> -->
                   <!-- <p v-if="loadings.app">boostrapping...</p> -->
@@ -177,7 +177,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
       </div NB="/.column (facets container)">
       <div class="column is-three-quarters">
         <ul>
-          <li @mouseleave="actives.geom=null" @mouseenter="actives.geom=(bit._source.bit=='Location' && actives.geom!==genGeomID('bit',bit))?genGeomID('bit',bit):null" v-if="bits.length>1" v-for="bit in bits" class="box has-text-left">
+          <li @mouseleave="actives.geom=null" @mouseenter="actives.geom=(bit._source.bit=='Location' && actives.geom!==genGeomID('bit',bit))?genGeomID('bit',bit):null" v-if="bits.length>1" v-for="bit in bits" :class="['has-text-left',!page.splayed?'box':'is-size-7 ellipsized']">
             <!-- <i v-if="" style="font-size:1.1em;" class="fa fa-arrow-right" /> -->
             <i @click="GEOMS.eachLayer((l)=>{l.eachLayer((la)=>{if(genGeomID('featureParent',la)==genGeomID('bit',bit)){if(la.getLatLng){MAP.panInside(la.getLatLng())}else{MAP.fitBounds(la.getBounds())}}})})" v-if="bit._source.bit=='Location'" style="font-size:1.1em;" :class="['fa','fa-map-marker',actives.geom==genGeomID('bit',bit)?'zCBB-marker-hi':'']" />
             <span class="bit-instance">{{bit._source.instance}}</span>
@@ -321,20 +321,28 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
     </div NB="/.columns">
     
     <div class="column is-12">
-
     <div class="card large"><div class="card-content">
                             <div class="content">
                               <h2 class="is-size-3"><i class="fas fa-map-marker"></i>&nbsp;Locations</h2>
-                                
                                 <p>One of the bits is special (and in fact the original impetus of this entire effort). For <a href='#' class='zCBB-trigger' data-type='bit' data-target='Location'>bits="Location"</a> the results will appear in the picklist (indicated by a map pin icon) <em>and</em> on the map under what you're reading now (hidden behind the main content area by default).</p><p>The ctrl key will toggle the map's visibility (as will the <i class="fas fa-map"></i> button); the <i  class="fa fa-map-marker"></i> in the search results will zoom to that instance's referenced location (the map otherwise defaults to the full spatial extent of *all* the location bits). <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"huell howser"'>Huell Howser</a>, <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"gino lambardo"'>Gino Lambardo</a>, <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"merrill shindler"'>Merrill Shindler</a>, and <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"shelly driftwood"'>Shelly Driftwood</a> are all good for at least a few.</p>
-
    <p>Another thing to note about locations is that unless there's a clamor for it we do NOT spatially-index the geometries for retrieval. So while of course you can query for <em>bits</em> that reference locations (and those referenced geometries will appear on the map with minimal interaction), we're not bothering to offer the ability to, say, zoom/pan the map and query for locations <em>in that area</em>. Like, who cares?</p><p>If you're <em>that interested</em> you could just query for everything (<a href="#" class="zCBB-trigger" data-type="" data-target="bit:location">"bit:Location"</a>) and zoom to the spot about which you're curious.</p>
 <p>Bet you're not, though!</p>
                             </div NB="/.content">
                         </div NB="/.card-content">
                       </div NB="/.card-large">
+    </div NB="/.column.is-12">
 
-    </div NB="/.column.is-10">
+    <div class="column is-12">
+    <div class="card large"><div class="card-content">
+                            <div class="content">
+                              <h2 class="is-size-3"><i class="fas fa-hashtag"></i>&nbsp;Contact</h2>
+                                <p>
+                                  Seems unlikely you would need to contact the one aging white dude who built and maintains this, but technically nothing can stop you: <a href="https://twitter.com/zapstraighttoit">@ZapStraightToIt</a>
+                                </p>
+                            </div NB="/.content">
+                        </div NB="/.card-content">
+                      </div NB="/.card-large">
+    </div NB="/.column.is-12">
   </div NB="/.column">
   
 
@@ -427,8 +435,8 @@ export default {
       bits: [],
       facets: [],
       page: {
-        title: "cbbBMv3",
-        splayed: false,
+        title: "BitMap",
+        splayed: true,
         panes: [{
           label: 'Home',
           slug: 'default'
@@ -495,6 +503,10 @@ this.actives.pane='search';
 
 let QS = null;
 
+/*
+THE NEW HERO METHOD WILL BE TO QUERY ELASTIC FOR THE MOST RECENT WHERE hero:true  - currently no docs feature this attribute
+*/
+
       QS = (this.CONFIG.mode == '33') ? this.CONFIG.prod.elastic_bits + '&q=instance:"Low-rise%20*and*%20boot-cut?"&size=1' : this.CONFIG.dev.elastic_bits;
 
       axios
@@ -502,11 +514,11 @@ let QS = null;
         .then(response => {
           this.loadings.app = false
 
-          this.hero = __.first(__.map(response.data.hits.hits,(b)=>{
+          this.hero = __.map(response.data.hits.hits,(b)=>{
                       let o = b
                       o._source.hero={on:true,attrib:"Scott Aukerman"}
                       return o;
-                    }))
+                    })[8]
 
         }) //axios.then
         .catch(e => {
@@ -639,6 +651,8 @@ this.loadings.maplayer=true
       
       this.loadings.app=true;
 
+      this.setRoute();
+
 let QO = null;
 
       // if (!this.query || this.query=='') { 
@@ -654,25 +668,27 @@ if(this.CONFIG.mode=='33'){
   let qfb = (this.query.facets.bits.length>0)?' AND ('+__.uniq(this.query.facets.bits).join(' AND ')+')':''
   let qfe = (this.query.facets.episodes.length>0)?' AND ('+__.uniq(this.query.facets.episodes).join(' AND ')+')':''
 
-// console.log("RAW QUERY:",this.query.string)
+console.log("RAW QUERY:",this.query.string)
 // console.log("PREPD QUERY:",qso+qfg+qft+qfb+qfe)
-  // let QU = {"wildcard":{"tags.comma_del":"cake boss"}}
+  let Q = {"wildcard":{"tags.comma_del":"cake boss"}}
+
+// let Q = {
+//     "multi_match": {
+//       "query": qso+qfg+qft+qfb+qfe,
+//       "fields": [
+//         "bit",
+//         "instance",
+//         "elucidation",
+//         "episode_title",
+//         "tags.comma_del",
+//         "episode_guests.comma_del"
+//       ]
+//     }
+//   }
 
  QO={
   "size": 10000,
-  "query": {
-    "multi_match": {
-      "query": qso+qfg+qft+qfb+qfe,
-      "fields": [
-        "bit",
-        "instance",
-        "elucidation",
-        "episode_title",
-        "tags.comma_del",
-        "episode_guests.comma_del"
-      ]
-    }
-  },
+  "query": Q,
   "aggregations": {
     "all_bits": {
       "global": {},
@@ -777,9 +793,6 @@ if(this.CONFIG.mode=='33'){
 // fetch(this.CONFIG.prod.bits,
 axios.post(this.CONFIG.prod.elastic_bits,QO)
         .then(response => {
-          console.info(
-            process.env.VERBOSITY === "DEBUG" ? "getting bits w/ axios response..." : null
-          );
 
           this.bits = response.data.hits.hits
           this.facets = response.data.aggregations.all_bits
@@ -796,8 +809,8 @@ axios.post(this.CONFIG.prod.elastic_bits,QO)
 
 } else {
 
-QS=this.CONFIG.dev.elastic_bits;
-axios.get(QS)
+QO=this.CONFIG.dev.elastic_bits;
+axios.get(QO)
         .then(response => {
 
           this.bits = response.data.hits.hits
@@ -936,9 +949,10 @@ let P = {
       handler: function(vnew, vold) {
         this.restyleGeoms();
       }
-    },"query.string": {
+    }
+    ,"query.string": {
       handler: function(vnew, vold) {
-        this.setRoute();
+        // this.setRoute();
       }
     },"query.facets": {
       deep:true,

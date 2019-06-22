@@ -239,120 +239,120 @@
 =-   14(bat),19:00,your body is a wonderland - john mayer
 =-   14(bat),38:30,this is halloween - nightmare sndtrk
 =-   14(bat),45:45,i don't care - icona pop
---   14(bat),46:30,chili's baby back ribs jingle
--   14(bat)48:15,I like life - scrooge
--   14(bat)48:30,I c9uld have danced all night
--   14(bat)50:45,hey Jude
--   14(bat)56:45,consider urself
--   14(bat)57:45,Jack and Diane
--   15(church),0:20,this is how we do it
--   15(church),0:45,Kung Fu fighting
--   15(church),1:15,what's going on? - Linda Perry
--   15(church),2:30,Orinoco flow - enya
--   15(church),2:30,return to innocence
--   15(church),2:30,end of innocence - Don Henley
--   15(church),3:30,cross-eyed and painless
--   15(church),3:30,sadeness - enigma
--   15(church),5:30,keep on grooving - soul2soul
--   15(church),5:30,Tom's diner - Vega
--   15(church),5:30,how soon is now - Smiths
--   15(church),5:30,hippie chick
--   15(church),6:30,shut up and drive - Rihanna
--   15(church),6:30,blue Monday
--   15(church),9:00,Spiderman theme
--   15(church),9:30,Mickey - basil
--   15(church),9:30,Star spangled banner
--   15(church),10:00,stars on 45 theme
--   15(church),10:30,sugar sugar - archies
--   15(church),11:30,no reply - Beatles
--   15(church),13:00,25 6 to 4, Chicago
--   15(church),14:00,Orinoco flow - enya
--   15(church),19:00,killing me softly - figures vers
--   15(church),20:00,Layla - Derek et Al
--   15(church),20:00,rambling man
--   15(church),20:00,love train - ojays
--   15(church),20:30,black and white - 3 dog night
--   15(church),21:00,polkas on 45 - weird Al
--   15(church),22:15,I'm loving it - McDonald's
--   15(church),27:00,want a new drug - Huey
--   15(church),27:00,cross-eyed and painless
--   15(church),30:50,la Bamba
--   15(church),49:00,don't take itnpersonal - Monica
--   15(church),15:20,kit Kat jingle
--   15(church),50:30,I love la
--   15(church),50:30,Max Madsen Mitsubishi jingle
--   15(church),1:02:00,wrap it up - Thunderbirds
--   15(church),1:02:00,star spangled banner
--   17(ch'd),4:30,swing low sweet chariot
--   17(ch'd),9:45,unbelievable- emf
--   17(ch'd),21:15,consider yourself - Oliver
--   17(ch'd),21:15,food glorious food - Oliver
--   17(ch'd),21:30,wundebar - sound of music
--   17(ch'd),22:00,keys on van nuys
--   17(ch'd),23:45,never gonna give you up - astley
--   17(ch'd),35:30,my Cherie amor - Stevie w
--   17(ch'd),50:00,go down Moses
--   17(ch'd),55:15,California love - Tupac
--   17(ch'd),58:30,this land is your land - Guthrie
--   17(ch'd),59:30,19 - hardcastle
--   17(ch'd),1:06:00,19 - hardcastle
--   18(amigo),6:30,can’t touch this - hammer
--   18(amigo),11:00,don’t you want me - human league
--   18(amigo),14:50,tell me something good - Chaka
--   18(amigo),15:00,California love - Tupac
--   18(amigo),16:00,I don’t care - icona
--   18(amigo),24:00,California love - Tupac
--   18(amigo),27:30,toms diner - Vega
--   18(amigo),33:00,California love - Tupac
--   18(amigo),34:00,new drug - Huey
--   18(amigo),38:30,oh yeah - yello
--   18(amigo),39:00,what’ll I do - Irving Berlin
--   18(amigo),43:50,killing softly - figures vers
--   18(amigo),47:00,camptown races
--   18(amigo),48:00,California love - Tupac
--   18(amigo),52:30,in the navy - village ppl
--   18(amigo),1:06:15,wayfair ad
--   19(visitors),14:00, simply irresistible - Palmer
--   19(visitors),19:30:00,camptown races
--   19(visitors),21:00,love shack - 52s
--   19(visitors),22:00,time keeps on slipping - s Miller b
--   19(visitors),22:30,real time w mahr theme
--   19(visitors),26:00,ooh la la - faces
--   20(3d),0:30,Johnny angel
--   20(3d),1:00,your time is gonna come - zep
--   20(3d),1:00,9 to 5 - dolly
--   20(3d),12:30,yesterday - Beatles
--   20(3d),16:00,golden girls theme song
--   20(3d),16:00,Gilmore girls theme - Carol king
--   20(3d),17:30,all star - smash
--   20(3d),19:00,never gonna give - Ashley
--   20(3d),20:00,why is everybody always picking on me
--   20(3d),20:00,picking on me - bloodhound gang
--   20(3d),20:00,new drug - Huey
--   20(3d),20:00,pretty fly - offspring
--   20(3d),22:30,never gonna - Astley
--   20(3d),24:00,camptown races
--   20(3d),24:00,girls on film
--   20(3d),24:00,Saturday in the park
--   20(3d),37:00,new drug Huey
--   20(3d),40:30,new drug Huey
--   20(3d),57:00,cursive prayer - mason Jennings
--   20(3d),57:30,get outta my dreams - ocean
--   21(vampire),0:05,that’s the way - kc sunshine
--   21(vampire),21:00,night shift - seger
--   21(vampire),36:11,when I was seventeen
--   21(vampire),36:11,ice ice baby
--   21(vampire),41:30,going amback to Cali - cool j
--   21(vampire),46:30,girls on film
--   21(vampire),46:30,get ready - 2 unlimited
--   21(vampire),53:00,keys on van nuys
+=-   14(bat),46:30,chili's baby back ribs jingle
+=-   14(bat)48:15,I like life - scrooge sndtrk
+=-   14(bat)48:30,I c9uld have danced all night
+=-   14(bat)50:45,hey Jude
+=-   14(bat)56:45,consider urself
+=-   14(bat)57:45,Jack and Diane
+=-   15(church),0:20,this is how we do it
+=-   15(church),0:45,Kung Fu fighting
+=-   15(church),1:15,what's going on? - Linda Perry
+=-   15(church),2:30,return to innocence
+=-   15(church),2:30,Orinoco flow - enya
+=-   15(church),2:30,end of innocence - Don Henley
+=-   15(church),3:30,cross-eyed and painless
+=-   15(church),3:30,sadeness - enigma
+=-   15(church),5:30,keep on grooving - soul2soul
+=-   15(church),5:30,Tom's diner - Vega
+=-   15(church),5:30,how soon is now - Smiths
+=-   15(church),5:30,hippie chick
+=-   15(church),6:30,shut up and drive - Rihanna
+=-   15(church),6:30,blue Monday
+=-   15(church),9:00,Spiderman theme
+=-   15(church),9:30,Mickey - basil
+=-   15(church),9:30,Star spangled banner
+=-   15(church),10:00,stars on 45 theme
+=-   15(church),13:00,25 6 to 4, Chicago
+=-   15(church),14:00,Orinoco flow - enya
+=-   15(church),19:00,killing me softly - figures vers
+=-   15(church),20:00,Layla - Derek et Al
+=-   15(church),20:00,rambling man
+=-   15(church),20:00,love train - ojays
+=-   15(church),20:30,black and white - 3 dog night
+=-   15(church),21:00,polkas on 45 - weird Al
+=-   15(church),22:15,I'm loving it - McDonald's
+=-   15(church),27:00,want a new drug - Huey
+=-   15(church),27:00,cross-eyed and painless
+=-   15(church),30:50,la Bamba
+=-   15(church),49:00,don't take itnpersonal - Monica
+=-   15(church),15:20,kit Kat jingle
+=-   15(church),50:30,I love la
+=-   15(church),50:30,Max Madsen Mitsubishi jingle
+=-   15(church),1:02:00,wrap it up - Thunderbirds
+=-   15(church),1:02:00,star spangled banner
+=-   17(ch'd),4:30,swing low sweet chariot
+=-   17(ch'd),9:45,unbelievable- emf
+=-   17(ch'd),21:15,consider yourself - Oliver
+=-   17(ch'd),21:15,food glorious food - Oliver
+=-   17(ch'd),21:30,wundebar - sound of music
+=-   17(ch'd),22:00,keys on van nuys
+=-   17(ch'd),23:45,never gonna give you up - astley
+=-   17(ch'd),35:30,my Cherie amor - Stevie w
+=-   17(ch'd),50:00,go down Moses
+=-   17(ch'd),55:15,California love - Tupac
+=-   17(ch'd),58:30,this land is your land - Guthrie
+=-   17(ch'd),59:30,19 - hardcastle
+=-   17(ch'd),1:06:00,19 - hardcastle
+=-   18(amigo),6:30,can’t touch this - hammer
+=-   18(amigo),11:00,don’t you want me - human league
+=-   18(amigo),14:50,tell me something good - Chaka
+=-   18(amigo),15:00,California love - Tupac
+=-   18(amigo),16:00,I don’t care - icona
+=-   18(amigo),24:00,California love - Tupac
+=-   18(amigo),27:30,toms diner - Vega
+=-   18(amigo),33:00,California love - Tupac
+=-   18(amigo),34:00,new drug - Huey
+=-   18(amigo),38:30,oh yeah - yello
+=-   18(amigo),39:00,what’ll I do - Irving Berlin
+=-   18(amigo),43:50,killing softly - figures vers
+=-   18(amigo),47:00,camptown races
+=-   18(amigo),48:00,California love - Tupac
+=-   18(amigo),52:30,in the navy - village ppl
+=-   18(amigo),1:06:15,wayfair ad
+=-   19(visitors),14:00, simply irresistible - Palmer
+=-   19(visitors),19:30:00,camptown races
+=-   19(visitors),21:00,love shack - 52s
+=-   19(visitors),22:00,time keeps on slipping - s Miller b
+=-   19(visitors),22:30,real time w mahr theme
+=-   19(visitors),26:00,ooh la la - faces
+=-   20(3d),0:30,Johnny angel
+=-   20(3d),1:00,your time is gonna come - zep
+=-   20(3d),1:00,9 to 5 - dolly
+=-   20(3d),12:30,yesterday - Beatles
+=-   20(3d),16:00,golden girls theme song
+=-   20(3d),16:00,Gilmore girls theme - Carol king
+=-   20(3d),17:30,all star - smash
+=-   20(3d),19:00,never gonna give - Ashley
+=-   20(3d),20:00,why is everybody always picking on me
+=-   20(3d),20:00,picking on me - bloodhound gang
+=-   20(3d),20:00,new drug - Huey
+=-   20(3d),20:00,pretty fly - offspring
+=-   20(3d),22:30,never gonna - Astley
+=-   20(3d),24:00,camptown races
+=-   20(3d),24:00,girls on film
+=-   20(3d),24:00,Saturday in the park
+=-   20(3d),37:00,new drug Huey
+=-   20(3d),40:30,new drug Huey
+=-   20(3d),57:00,cursive prayer - mason Jennings
+=-   20(3d),57:30,get outta my dreams - ocean
+=-   21(vampire),0:05,that’s the way - kc sunshine
+=-   21(vampire),21:00,night shift - seger
+=-   21(vampire),36:11,when I was seventeen
+=-   21(vampire),36:11,ice ice baby
+=-   21(vampire),41:30,going amback to Cali - cool j
+=-   21(vampire),46:30,girls on film
+=-   21(vampire),46:30,get ready - 2 unlimited
+=-   21(vampire),53:00,keys on van nuys
+=-   21(vampire),54:45,i want candy - bow wow
+=-   21(vampire),54:45,candy man - sammy davis
 -   (Forgotten monster mash)
--   22(chinatown),2:30,whip it - devo
--   22(chinatown),6:30,monster mash
--   22(chinatown),7:00,heaven knows I’m miserable - smiths
--   22(chinatown),11:45,under pressure - queen
--   22(chinatown),15:45,in the mood - glen miller
--   22(chinatown),19:00,say my name - destinys
+=-   22(chinatown),2:30,whip it - devo
+=-   22(chinatown),6:30,monster mash
+=-   22(chinatown),7:00,heaven knows I’m miserable - smiths
+=-   22(chinatown),11:45,under pressure - queen
+=-   22(chinatown),15:45,in the mood - glen miller
+=-   22(chinatown),19:00,say my name - destinys
 -   22(chinatown),22:00,judge Judy theme song
 -   22(chinatown),22:00,new drug
 -   22(chinatown),26:00,whip it - devo
