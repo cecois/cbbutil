@@ -42,6 +42,11 @@ $zCBB-opacity-main:.8;
   height: 90%;
 }
 
+.ellipsized{
+  text-overflow:ellipsis;
+
+}
+
 .zCBB-marker-hi{
   color: $cbb-yelo;
   -webkit-text-fill-color: $cbb-yelo; /* Will override color (regardless of order) */
@@ -64,7 +69,7 @@ top:-2em;
    }
 }
 
-a{color:inherit;}
+a{color:$cbb-a;}
 .header-button{
   color:$cbb-secondary;
 &.active{color:$cbb-baseline;}
@@ -128,7 +133,7 @@ a{color:inherit;}
   margin-bottom:0;
   &.columns{margin-bottom:0;}
   opacity:.9;
-  &.splayed{position:absolute;left:90%;}
+  &.splayed{position:absolute;left:85%;}
   min-height: calc(100vh - #{$zCBB-header-height});
   padding-top:5em;
   background-color:$cbb-baseline;

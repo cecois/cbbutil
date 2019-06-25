@@ -273,23 +273,29 @@ resolve(__.map(epadhocids,async (e,i,l)=>{
 
 var _summarize_bits = async (summ,bits) =>{
 
-	return new Promise(async(resolve, reject)=>{
+console.log('..._SUMMARIZE_BITS...')
 
-resolve(
-__.map(summ.episodes_summary,async (e,i,l)=>{
+let R=await __.map(summ.episodes_summary,async (e,i,l)=>{
 				var epno = e.split(":::")[0]
 				var epslug = e.split(":::")[1]
 
+				console.log("epno:",epno)
+				console.log("epslug:",epslug)
+
 			var O = {episode:e.episode,image:'null',slug:e.slug,ep_url:"http://www.earwolf.com/episode/"+e.slug}
+				console.log("O:",O)
 
 			var eps_bits = __.pluck(__.filter(bits,(b)=>{
+				console.log("b in pluck.filter:",b)
 				return b.episode==epno}),'bit');
 			
 			var beets = __.map(__.uniq(eps_bits),(m)=>{
+				console.log("m in map.uniq:",m)
 				var o = {
 					bit:m
 					,count:__.filter(eps_bits,(li)=>{return li==m;}).length
 				}; //o
+				console.log("o in map.uniq:",o)
 				// console.log("o:",o);
 				return o;
 			});//map.beets
@@ -298,7 +304,8 @@ __.map(summ.episodes_summary,async (e,i,l)=>{
 			console.log('returning O:',O)
 			return O;
 		})//map
-	)
+	return new Promise(async(resolve, reject)=>{
+resolve(R)
 
 })//promise
 }//summarize_bits
@@ -315,7 +322,35 @@ resolve({
 			,episodes_summary:bits.length+" bits from "+episodes_updated.length+" episode"+plur+" (ep"+plur+" "+__.map(episodes_updated,(E)=>{return E.split(":::")[0]}).join(", ")+")"
 			,query:"("+__.map(episodes_updated,(e)=>{return "episode:"+e.split(":::")[0]}).join(" OR ")+")"
 			,eps:episodes_updated
-			,reports:await _summarize_bits(episodes_updated,bits)
+			,reports:__.map(episodes_updated,(e,i,l)=>{
+				var epno = e.split(":::")[0]
+				var epslug = e.split(":::")[1]
+
+				console.log("epno:",epno)
+				console.log("epslug:",epslug)
+
+			var O = {episode:epno,image:'null',slug:epslug,ep_url:"http://www.earwolf.com/episode/"+epslug}
+				console.log("O:",O)
+
+			var eps_bits = __.pluck(__.filter(bits,(b)=>{
+				console.log("b in pluck.filter:",b)
+				return b.episode==epno}),'bit');
+			
+			var beets = __.map(__.uniq(eps_bits),(m)=>{
+				console.log("m in map.uniq:",m)
+				var o = {
+					bit:m
+					,count:__.filter(eps_bits,(li)=>{return li==m;}).length
+				}; //o
+				console.log("o in map.uniq:",o)
+				// console.log("o:",o);
+				return o;
+			});//map.beets
+			console.log('returning sum_beets:',beets)
+			O.bits_sum=beets;
+			console.log('returning O:',O)
+			return O;
+		})//map
 			// await _reports(episodes_updated,bits)
 			// ,episodes:bits.length+" bits from "+episodes_updated.length+" episode"+plur+" (ep"+plur+" "+__.map(episodes_updated,(E)=>{return E.split(":::")[0]}).join(", ")+")",
 			// report:reports()

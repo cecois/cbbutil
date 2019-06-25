@@ -1,24 +1,55 @@
 [{
-  "date": "2019.Apr.14",
-  "query": "(episode:222 OR episode:444 OR episode:666)",
-  "episodes_summary": "222,444,666",
+  "date": "2019.Jun.20",
+  "episodes_summary": "158 bits from 9 episodes (eps 595, 596, 597, 598, 533, 599, 599, 605, 606)",
+  "query": "(episode:595 OR episode:596 OR episode:597 OR episode:598 OR episode:533 OR episode:599 OR episode:599 OR episode:605 OR episode:606)",
+  "eps": [
+    "595:::mothers-olive-oil",
+    "596:::mr-met-legitimate-witch",
+    "597:::simpson-and-smith-selling-stories",
+    "598:::secret-shopping-with-motley-crue",
+    "533:::is-that-chocolate-or-what",
+    "599:::10th-anniversary-part-1",
+    "599:::10th-anniversary-part-2",
+    "605:::full-ninja-rights",
+    "606:::treasure-hunting-with-silversun-pickups"
+  ],
   "reports": [
     {
-      "episode": "222",
+      "episode": "595",
       "image": "http://localhost:8000/fake-update-img.jpg",
-      "slug": "now-its-time-for-a-breakdown",
-      "ep_url": "http://www.earwolf.com/episode/now-its-time-for-a-breakdown",
+      "slug": "mothers-olive-oil",
+      "ep_url": "http://www.earwolf.com/episode/mothers-olive-oil",
       "bits_sum": [
         {
-          "bit": "Price is Right Rules",
+          "bit": "M*A*S*H",
           "count": 1
         },
         {
           "bit": "The Paul Hardcastle of Suicides",
-          "count": 11
+          "count": 17
         },
         {
-          "bit": "Who?",
+          "bit": "Titular",
+          "count": 1
+        },
+        {
+          "bit": "Smash Cut",
+          "count": 1
+        },
+        {
+          "bit": "Sounds Like Four",
+          "count": 1
+        },
+        {
+          "bit": "Open Door Policy",
+          "count": 1
+        },
+        {
+          "bit": "We Knew a Poet Once",
+          "count": 1
+        },
+        {
+          "bit": "Who's This Guy?",
           "count": 1
         },
         {
@@ -26,26 +57,79 @@
           "count": 1
         },
         {
-          "bit": "Location",
-          "count": 4
+          "bit": "Where Are You From?",
+          "count": 1
         }
       ]
-    },{
-      "episode": "444",
+    },
+    {
+      "episode": "596",
       "image": "http://localhost:8000/fake-update-img.jpg",
-      "slug": "some-other-444",
-      "ep_url": "http://www.earwolf.com/episode/some-other-444",
+      "slug": "mr-met-legitimate-witch",
+      "ep_url": "http://www.earwolf.com/episode/mr-met-legitimate-witch",
       "bits_sum": [
         {
-          "bit": "Ice T Causes Crib Death",
+          "bit": "The Paul Hardcastle of Suicides",
+          "count": 6
+        },
+        {
+          "bit": "Smash Cut",
+          "count": 1
+        },
+        {
+          "bit": "Titular",
+          "count": 1
+        },
+        {
+          "bit": "Group Coupon",
+          "count": 2
+        },
+        {
+          "bit": "Sounds Like Four",
+          "count": 1
+        },
+        {
+          "bit": "It's Been a While",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "episode": "597",
+      "image": "http://localhost:8000/fake-update-img.jpg",
+      "slug": "simpson-and-smith-selling-stories",
+      "ep_url": "http://www.earwolf.com/episode/simpson-and-smith-selling-stories",
+      "bits_sum": [
+        {
+          "bit": "The Paul Hardcastle of Suicides",
+          "count": 2
+        },
+        {
+          "bit": "Got it in One",
+          "count": 1
+        },
+        {
+          "bit": "The Floor Closes",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "episode": "598",
+      "image": "http://localhost:8000/fake-update-img.jpg",
+      "slug": "secret-shopping-with-motley-crue",
+      "ep_url": "http://www.earwolf.com/episode/secret-shopping-with-motley-crue",
+      "bits_sum": [
+        {
+          "bit": "Eccentric Millionaires",
           "count": 1
         },
         {
           "bit": "The Paul Hardcastle of Suicides",
-          "count": 11
+          "count": 5
         },
         {
-          "bit": "Who?",
+          "bit": "Open Door Policy",
           "count": 1
         },
         {
@@ -53,52 +137,99 @@
           "count": 1
         },
         {
-          "bit": "Location",
-          "count": 4
+          "bit": "Every Word You Are Saying",
+          "count": 1
+        },
+        {
+          "bit": "Classic WYR Blunder: Voting Early",
+          "count": 1
+        },
+        {
+          "bit": "Classic WYR Blunder: The Floor is Closed",
+          "count": 2
         }
       ]
-    },{
-      "episode": "666",
+    },
+    {
+      "episode": "533",
       "image": "http://localhost:8000/fake-update-img.jpg",
-      "slug": "some-other-666",
-      "ep_url": "http://www.earwolf.com/episode/some-other-666",
+      "slug": "is-that-chocolate-or-what",
+      "ep_url": "http://www.earwolf.com/episode/is-that-chocolate-or-what",
       "bits_sum": [
         {
-          "bit": "You Say Baby Too!",
+          "bit": "Location",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "episode": "599",
+      "image": "http://localhost:8000/fake-update-img.jpg",
+      "slug": "10th-anniversary-part-1",
+      "ep_url": "http://www.earwolf.com/episode/10th-anniversary-part-1",
+      "bits_sum": [
+        {
+          "bit": "The Doctor is a Woman",
           "count": 1
+        },
+        {
+          "bit": "Open Door Policy",
+          "count": 4
+        },
+        {
+          "bit": "Big Ups",
+          "count": 1
+        },
+        {
+          "bit": "Heynong Man",
+          "count": 2
+        },
+        {
+          "bit": "Not That Kind of a Show",
+          "count": 2
+        },
+        {
+          "bit": "It's Been a While",
+          "count": 3
+        },
+        {
+          "bit": "It's Been",
+          "count": 1
+        },
+        {
+          "bit": "The Paul Hardcastle of Suicides",
+          "count": 27
+        },
+        {
+          "bit": "We Knew a Poet Once",
+          "count": 2
+        },
+        {
+          "bit": "Location",
+          "count": 16
+        },
+        {
+          "bit": "Every Word You Are Saying",
+          "count": 1
+        },
+        {
+          "bit": "Scottrick",
+          "count": 9
         },
         {
           "bit": "Topping Hat",
           "count": 1
         },
         {
-          "bit": "How Many?",
-          "count": 1
-        }
-      ]
-    }
-  ]
-},{
-  "date": "2019.May.10",
-  "query": "(episode:10)",
-  "episodes_summary": "10",
-  "reports": [
-    {
-      "episode": "10",
-      "image": "http://localhost:8000/fake-update-img.jpg",
-      "slug": "genial-cats-10",
-      "ep_url": "http://www.earwolf.com/episode/genial-cats-10",
-      "bits_sum": [
-        {
-          "bit": "Price is Right Rules",
+          "bit": "Ducca List",
           "count": 1
         },
         {
-          "bit": "The Paul Hardcastle of Suicides",
-          "count": 11
+          "bit": "Verisimilitude",
+          "count": 1
         },
         {
-          "bit": "Who?",
+          "bit": "Bottom of a Deep Pool",
           "count": 1
         },
         {
@@ -106,33 +237,95 @@
           "count": 1
         },
         {
-          "bit": "Location",
-          "count": 4
+          "bit": "Group Coupon",
+          "count": 1
+        },
+        {
+          "bit": "Yes, And...",
+          "count": 1
+        },
+        {
+          "bit": "Who am I?",
+          "count": 1
+        },
+        {
+          "bit": "Sounds Like Four",
+          "count": 1
+        },
+        {
+          "bit": "Ringling Bros.",
+          "count": 1
         }
       ]
-    }
-  ]
-},{
-  "date": "2018.Aug.20",
-  "query": "(episode:101 OR episode:202)",
-  "episodes_summary": "101,202",
-  "reports": [
+    },
     {
-      "episode": "101",
+      "episode": "599",
       "image": "http://localhost:8000/fake-update-img.jpg",
-      "slug": "i-wanna-talk-to-the-fellas-for-a-minute",
-      "ep_url": "http://www.earwolf.com/episode/i-wanna-talk-to-the-fellas-for-a-minute",
+      "slug": "10th-anniversary-part-2",
+      "ep_url": "http://www.earwolf.com/episode/10th-anniversary-part-2",
       "bits_sum": [
         {
-          "bit": "Price is Right Rules",
+          "bit": "The Doctor is a Woman",
+          "count": 1
+        },
+        {
+          "bit": "Open Door Policy",
+          "count": 4
+        },
+        {
+          "bit": "Big Ups",
+          "count": 1
+        },
+        {
+          "bit": "Heynong Man",
+          "count": 2
+        },
+        {
+          "bit": "Not That Kind of a Show",
+          "count": 2
+        },
+        {
+          "bit": "It's Been a While",
+          "count": 3
+        },
+        {
+          "bit": "It's Been",
           "count": 1
         },
         {
           "bit": "The Paul Hardcastle of Suicides",
-          "count": 11
+          "count": 27
         },
         {
-          "bit": "Who?",
+          "bit": "We Knew a Poet Once",
+          "count": 2
+        },
+        {
+          "bit": "Location",
+          "count": 16
+        },
+        {
+          "bit": "Every Word You Are Saying",
+          "count": 1
+        },
+        {
+          "bit": "Scottrick",
+          "count": 9
+        },
+        {
+          "bit": "Topping Hat",
+          "count": 1
+        },
+        {
+          "bit": "Ducca List",
+          "count": 1
+        },
+        {
+          "bit": "Verisimilitude",
+          "count": 1
+        },
+        {
+          "bit": "Bottom of a Deep Pool",
           "count": 1
         },
         {
@@ -140,8 +333,80 @@
           "count": 1
         },
         {
-          "bit": "Location",
+          "bit": "Group Coupon",
+          "count": 1
+        },
+        {
+          "bit": "Yes, And...",
+          "count": 1
+        },
+        {
+          "bit": "Who am I?",
+          "count": 1
+        },
+        {
+          "bit": "Sounds Like Four",
+          "count": 1
+        },
+        {
+          "bit": "Ringling Bros.",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "episode": "605",
+      "image": "http://localhost:8000/fake-update-img.jpg",
+      "slug": "full-ninja-rights",
+      "ep_url": "http://www.earwolf.com/episode/full-ninja-rights",
+      "bits_sum": [
+        {
+          "bit": "The Paul Hardcastle of Suicides",
           "count": 4
+        },
+        {
+          "bit": "Location",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "episode": "606",
+      "image": "http://localhost:8000/fake-update-img.jpg",
+      "slug": "treasure-hunting-with-silversun-pickups",
+      "ep_url": "http://www.earwolf.com/episode/treasure-hunting-with-silversun-pickups",
+      "bits_sum": [
+        {
+          "bit": "The Paul Hardcastle of Suicides",
+          "count": 4
+        },
+        {
+          "bit": "Scott's Questions",
+          "count": 2
+        },
+        {
+          "bit": "You're Terrible at This",
+          "count": 2
+        },
+        {
+          "bit": "Shirley",
+          "count": 1
+        },
+        {
+          "bit": "Location",
+          "count": 6
+        },
+        {
+          "bit": "That is the Dream",
+          "count": 1
+        },
+        {
+          "bit": "We Knew a Poet Once",
+          "count": 1
+        },
+        {
+          "bit": "What's Your Address?",
+          "count": 1
         }
       ]
     }
