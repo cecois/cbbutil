@@ -670,7 +670,8 @@ if(this.CONFIG.mode=='33'){
 
 console.log("RAW QUERY:",this.query.string)
 // console.log("PREPD QUERY:",qso+qfg+qft+qfb+qfe)
-  let Q = {"wildcard":{"tags.comma_del":"cake boss"}}
+  // let Q = {"wildcard":{"tags.comma_del":"cake boss"}}
+  let Q = {"query_string":{"fields":["bit","instance","elucidation","tags.comma_del","episode_guests.comma_del"],"query":this.query.string}}
 
 // let Q = {
 //     "multi_match": {
