@@ -10,6 +10,8 @@
 1. ~~jarles~~
 1. ~~clumsy portmanteau~~
 1. ~~lapkus can't make it through a song~~
+2. dads and grads
+2. mike the janitor's mantra
 1. gino's commuter map
 1. ~~len wiseman~~
 1. ~~retiring a train~~
@@ -242,6 +244,7 @@
 
 - we're really gonna probe his psyche (in-depth - wtf - actors pain)
   - 162,33:45
+  - 358,2:00(pw)
   - 510,8:45(commercialed)
   - 357,7:00(pw)
   - 331,25:35(pw)
@@ -1783,26 +1786,26 @@
   - 2016.nyc930,1:03:30
 
 - dads and grads
-  - 427,1:00(pw)
-  - 606,0:45
-  - 562,1:13:25(pw)
-  - 604,1:15
-  - 605,0:50
-  - 549,0:30(pw)
-  - 509,1:00(commercialed)
-  - 358,0:50(pw)
+  - ~~296,0:45(paywall)~~
+  - ~~296,45:10(paywall)~~
+  - ~~297,00:57(paywall)~~
+  - ~~297,24:50(paywall)~~
+  - ~~351,1:20(pw)~~
+  - ~~355,1:00(pw)~~
+  - ~~358,0:50(pw)~~
   - 359,0:50(pw)
+  - 427,1:00(pw)
   - 430,0:50(pw)
-  - 355,1:00(pw)
-  - 351,1:20(pw)
-  - 296,13:30(paywall)
-  - 296,(early show)(paywall)
-  - 296,45:10(paywall)
-  - 297,00:57(paywall)
-  - 297,24:50(paywall)
   - 490,1:30(paywall)
   - 491,1:57
   - 493,2:05
+  - 509,1:00(commercialed)
+  - 549,0:30(pw)
+  - 562,1:13:25(pw)
+  - 604,1:15
+  - 605,0:50
+  - 606,0:45
+  - 607,0:50
 - classic joke structure
   - 2016.austin,18:10
   - 168,1:01:20
@@ -1968,8 +1971,11 @@
   - bo2016.3,1:13:25(pw)
   - bo2017.2,2:19:45
 
+- ...living (qualification on a compliment)
+	- 607,05:00
+	- lotsa
+	- 
 - we'll pay for it (if you wanna go on another date)
-
   - 567,14:00
   - 606,40:45
   - 561,44:45(pw)
