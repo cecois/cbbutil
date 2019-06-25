@@ -217,7 +217,6 @@
 =- 13(brocus),57:00,kit kat bar jingle
 =- 13(brocus),57:00,keys on van neyes
 =- 13(brocus),57:00,menards jingle
-
 =-   13(brocus),57:00,call for action green 175312
 =-   13(brocus),57:00,go see cal jingle
 =-   13(brocus),57:00,fabric of our lives
@@ -353,62 +352,63 @@
 =-   22(chinatown),11:45,under pressure - queen
 =-   22(chinatown),15:45,in the mood - glen miller
 =-   22(chinatown),19:00,say my name - destinys
--   22(chinatown),22:00,judge Judy theme song
--   22(chinatown),22:00,new drug
--   22(chinatown),26:00,whip it - devo
--   22(chinatown),32:00,jack and Diane
--   22(chinatown),39:30,another one bites the dust
--   22(chinatown),40:30,hey Jude
--   22(chinatown),41:30,I want candy
--   22(chinatown),49:00,sound of da police - krs one
--   23(hamilton),0:30,doin it - cool j
--   23(hamilton),1:00,Kyle quit the band
--   23(hamilton),2:00,rockin robin
--   23(hamilton),2:30,sunll come up tomorrow
--   23(hamilton),2:30,wheels on the bus go round
--   23(hamilton),2:30,truckin - dead
--   23(hamilton),2:30,Diane - guster
--   23(hamilton),14:00,say my name - dest ch
--   23(hamilton),15:30,wasn’t me - shaggy
--   23(hamilton),16:30,new rules - dua
--   23(hamilton),16:30,nasty girl - vanity six
--   23(hamilton),20:15,simply irresistible
--   23(hamilton),23:30,river of dreams - billy Joel
--   23(hamilton),29:00,special things - tenacious
--   23(hamilton),29:30,hard to say I’m sorry - Chicago
--   23(hamilton),29:30,I’m sorry - Alvin+chipmunks
--   23(hamilton),29:30,give u up - astley
--   23(hamilton),30:30,new rules - dua
--   23(hamilton),40:00,my prerogative
--   23(hamilton),40:00,welcome back - Sebastian
--   23(hamilton),49:30,Pick a little talk a little
--   23(hamilton),53:45,rules - dua
--   24(look),6:00,rules - dua
--   24(look),10:00,freaky - antwoord
--   24(look),18:00,rules - dua
--   24(look),28:00,everybody hurts
--   24(look),30:30,glycerine - bush
--   24(look),35:30,new rules theme - mahr
--   24(look),36:30,rules - dua
--   24(look),37:00,teen spirit - Nirvana
--   24(look),41:00,sun always shines - a-ha
--   24(look),46:30,stairway - zep
--   24(look),55:00,rules - dua
--   25(cactus),4:30,what what in the butt - Samwell
--   25(cactus),6:30,movie shorty
--   25(cactus),8:00,GOF
--   25(cactus),15:00,new rules
--   25(cactus),18:00,GOF
--   25(cactus),30:00,papa can you hear me? - yentl
--   25(cactus),21:00,some walk by night - jarreau
--   25(cactus),22:00,Bruce Willis Seagrams
--   25(cactus),26:00,dreams car - ocean
--   25(cactus),39:00,in the air tonight
--   25(cactus),46:00,slim shady (my name is)
--   25(cactus),50:30,popcorn
--   25(cactus),50:30,lakeshore drive - ??
--   25(cactus),51:00,cursive prayer - mason Jennings
--   26(eggnogs),2:00,jack and Diane
+=-   22(chinatown),22:00,judge Judy theme song
+=-   22(chinatown),22:00,new drug
+=-   22(chinatown),26:00,whip it - devo
+=-   22(chinatown),32:00,jack and Diane
+=-   22(chinatown),39:30,another one bites the dust
+=-   22(chinatown),40:30,hey Jude
+=-   22(chinatown),41:30,I want candy
+=-   22(chinatown),49:00,sound of da police - krs one
+=-   23(hamilton),0:30,doin it - cool j
+=-   23(hamilton),1:00,Kyle quit the band
+=-   23(hamilton),2:00,rockin robin
+=-   23(hamilton),2:30,sunll come up tomorrow
+=-   23(hamilton),2:30,wheels on the bus go round
+=-   23(hamilton),2:30,truckin - dead
+=-   23(hamilton),2:30,Diane - guster
+=-   23(hamilton),14:00,say my name - dest ch
+=-   23(hamilton),15:30,wasn’t me - shaggy
+=-   23(hamilton),16:30,new rules - dua kids
+=-   23(hamilton),16:30,nasty girl - vanity six
+=-   23(hamilton),18:00,super bowl shuffle - da bears
+=-   23(hamilton),20:15,simply irresistible
+=-   23(hamilton),23:30,river of dreams - billy Joel
+=-   23(hamilton),29:00,special things - tenacious
+=-   23(hamilton),29:30,hard to say I’m sorry - Chicago
+=-   23(hamilton),29:30,I’m sorry - Alvin+chipmunks
+=-   23(hamilton),29:30,give u up - astley
+=-   23(hamilton),30:30,new rules - kidz bop lipa
+=-   23(hamilton),40:00,my prerogative
+=-   23(hamilton),40:00,welcome back - Sebastian
+=-   23(hamilton),49:30,Pick a little talk a little
+=-   23(hamilton),53:45,rules - dua
+=-   24(look),6:00,rules - kidz bop lipa
+=-   24(look),10:00,freaky - antwoord
+=-   24(look),18:00,rules - kidz bop lipa
+=-   24(look),28:00,everybody hurts
+=-   24(look),30:30,glycerine - bush
+=-   24(look),35:30,new rules theme - mahr
+=-   24(look),36:30,rules - dua
+=-   24(look),37:00,teen spirit - Nirvana
+=-   24(look),41:00,sun always shines - a-ha
+=-   24(look),46:30,stairway - zep
+=-   24(look),55:00,rules - dua
+=-   25(cactus),4:30,what what in the butt - Samwell
+=-   25(cactus),6:30,movie shorty
+=-   25(cactus),8:00,GOF
+=-   25(cactus),15:00,new rules
+=-   25(cactus),18:00,GOF
+=-   25(cactus),30:00,papa can you hear me? - yentl
+=-   25(cactus),21:00,some walk by night - jarreau
+=-   25(cactus),22:00,Bruce Willis Seagrams
+=-   25(cactus),26:00,dreams car - ocean
+=-   25(cactus),39:00,in the air tonight
+=-   25(cactus),46:00,real slim shady (my name is)
+=-   25(cactus),50:30,popcorn
+=-   25(cactus),50:30,lakeshore drive - aliotta haynes
+=-   25(cactus),51:00,cursive prayer - mason Jennings
+=-   26(eggnogs),2:00,jack and Diane
 -   26(eggnogs),39:30,something to be proud of - adding machine
 -   26(eggnogs),43:30,jingle bells
 -   26(eggnogs),43:30,jingle bell rock

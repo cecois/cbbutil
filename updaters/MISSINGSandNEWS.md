@@ -11,13 +11,13 @@
 1. ~~clumsy portmanteau~~
 1. ~~lapkus can't make it through a song~~
 1. gino's commuter map
-1. len wiseman
+1. ~~len wiseman~~
 1. ~~retiring a train~~
 1. URLs (see DOMAINS.md)
 1. literally nowhere else
 1. germany cannibalism
 1. ~~icona pop~~
-1. s my c
+1. ~~s my c~~
 2. face/off
 1. subepisodes
 
