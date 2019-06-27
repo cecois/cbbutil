@@ -9,18 +9,47 @@ var __ = require('underscore')
 // ,MLAB = require('mongolab-data-api')(CONFIG.mongokey)
 ,ELASTIC = require('elasticsearch')
 ,MOMENT = require('moment')
+,CLOUDINARY = require('cloudinary').v2
 ;
 
-var prep_update = async (bits) =>{
+const do_image = async (earurl) =>{
 
-	return new Promise((resolve, reject)=>{
+return new Promise((resolve,reject)=>{
 
-		var episodes_updated = __.uniq(__.pluck(bits,'episode'));
+let ear_img_url=null
+// first check earwolf for the image
+// if none resolve empty
+// if img send it to cloud
+CLOUDINARY.uploader.upload(ear_img_url, (error, result) { 
+	if(error){reject(error)}
+		resolve(result.url)
+});
+// result of earwolf-image-cloudify workflow
 
-		var reports = () => __.map(episodes_updated,(e,i,l)=>{
-			var O = {episode:e}
-			var eps_bits = __.pluck(__.filter(bits,{episode:e}),'bit');
-			O.raw_bits = eps_bits;
+// resolve('http://path/to/'+earurl.split("episode")[1]+'.jpg')
+
+})//promise
+}
+
+const reports_test = async (rarr,bits) =>{
+
+return new Promise((resolve,reject)=>{
+let R=[];
+
+	__.each(rarr,async (e,i,l)=>{
+
+				var epno = e.split(":::")[0]
+				var epslug = e.split(":::")[1]
+				var img = await do_image("http://www.earwolf.com/episode/"+epslug);
+
+			var O = {
+				episode:epno,
+				image:img,
+				slug:epslug,ep_url:"http://www.earwolf.com/episode/"+epslug}
+
+			var eps_bits = __.pluck(__.filter(bits,(b)=>{
+				return b.episode==epno}),'bit');
+			
 			var beets = __.map(__.uniq(eps_bits),(m)=>{
 				var o = {
 					bit:m
@@ -29,33 +58,16 @@ var prep_update = async (bits) =>{
 				return o;
 			});//map.beets
 			O.bits_sum=beets;
-			return O;
+			R.push(O)
+			if(i==l.length-1){resolve(R)}
 		})//map
-		var R = {
-			date:MOMENT().format('YYYY.MMM.DD'),
-			episodes:bits.length+" bits from "+episodes_updated.length+" episodes (eps "+episodes_updated.join(", ")+")",
-			report:reports()
-		}
 
 
-		// resolve();
-		var npath = "./bu/updates-"+MOMENT().format('YYYY.MMM.DD_HH_mm_ss')+".json"
-		FS.writeFile(npath,JSON.stringify(R),(err,suc)=>{
 
-			if(err){reject(err);} else {
 
-				FS.writeFile('../../site/v2/src/offline/update.json',JSON.stringify(R),(err,suc)=>{
+})//promise
+}
 
-					if(err){reject(err);} else
-					{				resolve(suc)}
-				})
-
-			}
-
-		})
-
-	});//Promise
-}//prep_update
 
 var audit = async (inc,ext) =>{
 	return new Promise(function(resolve, reject) {
@@ -271,44 +283,6 @@ resolve(__.map(epadhocids,async (e,i,l)=>{
 })//promise
 }//_reports
 
-var _summarize_bits = async (summ,bits) =>{
-
-console.log('..._SUMMARIZE_BITS...')
-
-let R=await __.map(summ.episodes_summary,async (e,i,l)=>{
-				var epno = e.split(":::")[0]
-				var epslug = e.split(":::")[1]
-
-				console.log("epno:",epno)
-				console.log("epslug:",epslug)
-
-			var O = {episode:e.episode,image:'null',slug:e.slug,ep_url:"http://www.earwolf.com/episode/"+e.slug}
-				console.log("O:",O)
-
-			var eps_bits = __.pluck(__.filter(bits,(b)=>{
-				console.log("b in pluck.filter:",b)
-				return b.episode==epno}),'bit');
-			
-			var beets = __.map(__.uniq(eps_bits),(m)=>{
-				console.log("m in map.uniq:",m)
-				var o = {
-					bit:m
-					,count:__.filter(eps_bits,(li)=>{return li==m;}).length
-				}; //o
-				console.log("o in map.uniq:",o)
-				// console.log("o:",o);
-				return o;
-			});//map.beets
-			console.log('returning sum_beets:',beets)
-			O.bits_sum=beets;
-			console.log('returning O:',O)
-			return O;
-		})//map
-	return new Promise(async(resolve, reject)=>{
-resolve(R)
-
-})//promise
-}//summarize_bits
 var summarize_incoming = async (bits) =>{
 
 	return new Promise(async(resolve, reject)=>{
@@ -316,45 +290,40 @@ var summarize_incoming = async (bits) =>{
 		let episodes_updated = __.uniq(__.map(bits,(E)=>{var o = E.episode+":::"+E.slug_earwolf;return o; }));
 		let plur = episodes_updated.length>1?'s':''
 
-
-resolve({
+let R = {
 			date:MOMENT().format('YYYY.MMM.DD')
 			,episodes_summary:bits.length+" bits from "+episodes_updated.length+" episode"+plur+" (ep"+plur+" "+__.map(episodes_updated,(E)=>{return E.split(":::")[0]}).join(", ")+")"
 			,query:"("+__.map(episodes_updated,(e)=>{return "episode:"+e.split(":::")[0]}).join(" OR ")+")"
 			,eps:episodes_updated
-			,reports:__.map(episodes_updated,(e,i,l)=>{
-				var epno = e.split(":::")[0]
-				var epslug = e.split(":::")[1]
+			,reports:await reports_test(episodes_updated,bits)
+		// 	__.map(episodes_updated,async (e,i,l)=>{
 
-				console.log("epno:",epno)
-				console.log("epslug:",epslug)
+		// 		var epno = e.split(":::")[0]
+		// 		var epslug = e.split(":::")[1]
+		// 		var img = await do_image("http://www.earwolf.com/episode/"+epslug);
 
-			var O = {episode:epno,image:'null',slug:epslug,ep_url:"http://www.earwolf.com/episode/"+epslug}
-				console.log("O:",O)
+		// 	var O = {
+		// 		episode:epno,
+		// 		image:img,
+		// 		slug:epslug,ep_url:"http://www.earwolf.com/episode/"+epslug}
 
-			var eps_bits = __.pluck(__.filter(bits,(b)=>{
-				console.log("b in pluck.filter:",b)
-				return b.episode==epno}),'bit');
+		// 	var eps_bits = __.pluck(__.filter(bits,(b)=>{
+		// 		return b.episode==epno}),'bit');
 			
-			var beets = __.map(__.uniq(eps_bits),(m)=>{
-				console.log("m in map.uniq:",m)
-				var o = {
-					bit:m
-					,count:__.filter(eps_bits,(li)=>{return li==m;}).length
-				}; //o
-				console.log("o in map.uniq:",o)
-				// console.log("o:",o);
-				return o;
-			});//map.beets
-			console.log('returning sum_beets:',beets)
-			O.bits_sum=beets;
-			console.log('returning O:',O)
-			return O;
-		})//map
-			// await _reports(episodes_updated,bits)
-			// ,episodes:bits.length+" bits from "+episodes_updated.length+" episode"+plur+" (ep"+plur+" "+__.map(episodes_updated,(E)=>{return E.split(":::")[0]}).join(", ")+")",
-			// report:reports()
-		})
+		// 	var beets = __.map(__.uniq(eps_bits),(m)=>{
+		// 		var o = {
+		// 			bit:m
+		// 			,count:__.filter(eps_bits,(li)=>{return li==m;}).length
+		// 		}; //o
+		// 		return o;
+		// 	});//map.beets
+		// 	O.bits_sum=beets;
+		// 	return O;
+		// })//map
+
+		}
+
+resolve(R)
 
 
 		// resolve(R);
@@ -715,9 +684,6 @@ var E = await elastify(ext_source2);
 console.log("let's summarize the new stuff...")
 
 var summary = await summarize_incoming(inca);
-// summary.reports = await summarize_bits(summary,inca)
-
-        // imagify(summary)
 
         console.log(JSON.stringify(summary))
         // write(summary);

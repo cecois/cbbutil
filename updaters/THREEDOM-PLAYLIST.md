@@ -409,14 +409,14 @@
 =-   25(cactus),50:30,lakeshore drive - aliotta haynes
 =-   25(cactus),51:00,cursive prayer - mason Jennings
 =-   26(eggnogs),2:00,jack and Diane
--   26(eggnogs),39:30,something to be proud of - adding machine
--   26(eggnogs),43:30,jingle bells
--   26(eggnogs),43:30,jingle bell rock
--   26(eggnogs),49:00,ding dong the bells
--   26(eggnogs),52:15,party like its 1999
--   26(eggnogs),53:00,Christmas song (chestnuts)
--   26(eggnogs),53:00,love boat theme song
--   26(eggnogs),53:00,odd couple theme song
+=-   26(eggnogs),39:30,something to be proud of - adding machine
+=-   26(eggnogs),43:30,jingle bells
+=-   26(eggnogs),43:30,jingle bell rock
+=-   26(eggnogs),49:00,ding dong the bells
+=-   26(eggnogs),52:15,party like its 1999
+=-   26(eggnogs),53:00,Christmas song (chestnuts)
+=-   26(eggnogs),53:00,love boat theme song
+=-   26(eggnogs),53:00,odd couple theme song
 -   26(eggnogs),53:00,staying alive
 -   26(eggnogs),54:00,how do I live without you
 -   26(eggnogs),54:00,happy days theme song

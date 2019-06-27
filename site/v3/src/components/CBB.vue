@@ -1,7 +1,7 @@
 <template>
   <div>
     <div id="map"></div>
-    <vue-headful :title="getPageTitle()" description="fxsxxxrrrre" />
+    <vue-headful :title="page.pagetitle" description="fxsxxxrrrre" />
 
     <div id="zCBB-modal-settings" :class="['modal',modals.settings?'is-active':'']">
   <div class="modal-background"></div>
@@ -94,9 +94,33 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
 
     <div :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='default'">
       <div v-if="hero" class="column zCBB-hero-column">
-        <p class="is-size-2 has-text-weight-bold has-text-right zCBB-primary" style="padding-right:3em;">{{hero._source.instance}}</p>
-        <p class="is-size-5 has-text-weight-light has-text-right zCBB-primary-2" style="padding-right:5em;">-- {{hero._source.hero.attrib}}  (ep.{{hero._source.episode.split('/')[hero._source.episode.split('/').length-1]}})</p>
-        <p class="is-size-7 has-text-weight-light has-text-right zCBB-primary-3" style="padding-right:5em;"><span style="padding-right:2em;" @click="setQueryFire(hero._source,['bit','episode'])" class="zCBB-trigger">{{hero._source.bit}}</span></p>
+
+<p class="is-size-2 has-text-weight-bold has-text-right zCBB-primary" style="padding-right:3em;">Special Update!</p>
+        <p class="is-size-5 has-text-weight-light has-text-right zCBB-primary-3" style="padding-right:5em;">
+          Some knob deleted a buncha data a while back, so this site has been a little stagnant through Spring 2019 while we recreated. We also took the opportunity to rewrite the thing in <a href="https://vuejs.org">Vue</a>. We also scraped out roughly 40 bits we had missed. We also kept up on the new shows to the tune of ~175 incoming. We also took the opportunity to reach back into the Stitcher vaults and yank out some deserving bits that didn't present in the early years. These include:
+            
+<dl class="">
+<dt @click="setQueryFire({bit:'You Say \'Baby\' Too?'},['bit'])" class="zCBB-trigger is-size-5">You Say 'Baby' Too?</dt>
+<dd class="is-size-6 has-text-grey">somebody says baby also</dd>
+<dt @click="setQueryFire({bit:'Thank You for Your Service, Train'},['bit'])" class="zCBB-trigger is-size-5">Thank You for Your Service, Train</dt>
+ <dd class="is-size-6 has-text-grey">the glorious retirement of a locomotive</dd>
+<dt @click="setQueryFire({bit:'Hey Good Lookin'},['bit'])" class="zCBB-trigger is-size-5">Hey Good Lookin</dt>
+<dd class="is-size-6 has-text-grey">mr. microphone commercial lore</dd>
+<dt @click="setQueryFire({bit:'Im a Good-Looking Guy'},['bit'])" class="zCBB-trigger is-size-5">I'm a Good-Looking Guy</dt>
+<dd class="is-size-6 has-text-grey">canonical description of len wiseman</dd>
+<dt @click="setQueryFire({bit:'Dads and Grads'},['bit'])" class="zCBB-trigger is-size-5">Dads and Grads</dt>
+<dd class="is-size-6 has-text-grey">scott's take on june</dd>
+<dt @click="setQueryFire({bit:'Suck My Clit'},['bit'])" class="zCBB-trigger is-size-5">Suck My Clit</dt>
+<dd class="is-size-6 has-text-grey">pamela's catchphrase</dd>
+<dt @click="setQueryFire({bit:'I Dont Care'},['bit'])" class="zCBB-trigger is-size-5">I Don't Care</dt>
+<dd class="is-size-6 has-text-grey">somebody receives or administers an Icona Popping</dd>
+</dl>
+        
+        </p>
+
+        <!-- <p class="is-size-2 has-text-weight-bold has-text-right zCBB-primary" style="padding-right:3em;">{{hero._source.instance}}</p>
+        <p class="is-size-5 has-text-weight-light has-text-right zCBB-primary-2" style="padding-right:5em;">{{hero._source.hero.attrib}}  (ep.{{hero._source.episode.split('/')[hero._source.episode.split('/').length-1]}})</p>
+        <p class="is-size-7 has-text-weight-light has-text-right zCBB-primary-3" style="padding-right:5em;"><span style="padding-right:2em;" @click="setQueryFire(hero._source,['bit','episode'])" class="zCBB-trigger">{{hero._source.bit}}</span></p> -->
       </div>
     </div NB="/default/home">
     <div :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='huh'">
@@ -426,7 +450,7 @@ export default {
     return {
       CONFIG: null,
       loadings:{maplayer:false,app:false,popupopen:false},
-      hero: null,
+      hero: "dummytrigger",
       updates: null,
       locations:null,
       seens:[],
@@ -436,6 +460,7 @@ export default {
       facets: [],
       page: {
         title: "BitMap",
+        pagetitle: "BitMap",
         splayed: true,
         panes: [{
           label: 'Home',
@@ -480,9 +505,9 @@ if(e.ctrlKey){this.page.splayed=!this.page.splayed}
 if(e.key.toLowerCase()=='escape'){this.modals={settings:false}}
 
     },
-  getPageTitle: function(){
+  setPageTitle: function(){
 
-return (this.query.string && this.query.string!=='null')?this.page.title+': '+this.query.string:this.page.title
+this.page.pagetitle=(this.query.string && this.query.string!=='null')?this.page.title+': '+this.query.string:this.page.title
 
   },
     setQueryFire: function(B,wa) {
@@ -652,13 +677,9 @@ this.loadings.maplayer=true
       this.loadings.app=true;
 
       this.setRoute();
+      this.setPageTitle();
 
 let QO = null;
-
-      // if (!this.query || this.query=='') { 
-      //   // query is empty - we'll send out for just a sampling
-      // this.console.msgs.push({ m: "querying for default... ...", c: "" })
-      // } //else.this.query
 
 if(this.CONFIG.mode=='33'){
 
@@ -668,10 +689,19 @@ if(this.CONFIG.mode=='33'){
   let qfb = (this.query.facets.bits.length>0)?' AND ('+__.uniq(this.query.facets.bits).join(' AND ')+')':''
   let qfe = (this.query.facets.episodes.length>0)?' AND ('+__.uniq(this.query.facets.episodes).join(' AND ')+')':''
 
-console.log("RAW QUERY:",this.query.string)
-// console.log("PREPD QUERY:",qso+qfg+qft+qfb+qfe)
   // let Q = {"wildcard":{"tags.comma_del":"cake boss"}}
-  let Q = {"query_string":{"fields":["bit","instance","elucidation","tags.comma_del","episode_guests.comma_del"],"query":this.query.string}}
+  let Q = {
+  "query_string": {
+    "fields": [
+      "bit",
+      "instance",
+      "elucidation",
+      "tags.comma_del",
+      "episode_guests.comma_del"
+    ],
+    "query": this.query.string
+  }
+}
 
 // let Q = {
 //     "multi_match": {
@@ -695,13 +725,7 @@ console.log("RAW QUERY:",this.query.string)
       "global": {},
       "aggregations": {
         "guests": {
-          "filter": {
-            "query_string": {
-              "default_operator": "AND",
-              "analyzer": "simple",
-              "query": qso+qfg+qft+qfb+qfe
-            }
-          },
+          "filter": Q,
           "aggregations": {
             "filtered_guests": {
               "terms": {
@@ -712,13 +736,7 @@ console.log("RAW QUERY:",this.query.string)
           }
         },
         "tags": {
-          "filter": {
-            "query_string": {
-              "default_operator": "AND",
-              "analyzer": "simple",
-              "query": qso+qfg+qft+qfb+qfe
-            }
-          },
+          "filter": Q,
           "aggregations": {
             "filtered_tags": {
               "terms": {
@@ -729,13 +747,7 @@ console.log("RAW QUERY:",this.query.string)
           }
         },
         "bits": {
-          "filter": {
-            "query_string": {
-              "default_operator": "AND",
-              "analyzer": "simple",
-              "query": qso+qfg+qft+qfb+qfe
-            }
-          },
+          "filter": Q,
           "aggregations": {
             "filtered_bits": {
               "terms": {
@@ -746,13 +758,7 @@ console.log("RAW QUERY:",this.query.string)
           }
         },
         "episodes": {
-          "filter": {
-            "query_string": {
-              "default_operator": "AND",
-              "analyzer": "simple",
-              "query": qso+qfg+qft+qfb+qfe
-            }
-          },
+          "filter": Q,
           "aggregations": {
             "filtered_episodes": {
               "terms": {
@@ -767,29 +773,85 @@ console.log("RAW QUERY:",this.query.string)
   }
 } //qs
 
-// let QT1={
-//   "query": {
-//     "bool": {
-//       "should": [
-//         {
-//           "match": {
-//             "tags.comma_del": "cake boss"
-//           }
-//         }
-//       ],
-//       "minimum_should_match": 1,
-//       "must": [
-//         {
-//           "match": {
-//             "bit": "Marone!"
-//           }
-//         }
-//       ]
-//     }
-//   }
-// }
-
-// let QT={"query":{"multi_match":{"query":this.query.string,"fields":["bit","instance","tags.comma_del","episode_guests"]}}}
+// QO={
+ //  "size": 10000,
+ //  "query": Q,
+ //  "aggregations": {
+ //    "all_bits": {
+ //      "global": {},
+ //      "aggregations": {
+ //        "guests": {
+ //          "filter": {
+ //            "query_string": {
+ //              "default_operator": "AND",
+ //              "analyzer": "simple",
+ //              "query": qso+qfg+qft+qfb+qfe
+ //            }
+ //          },
+ //          "aggregations": {
+ //            "filtered_guests": {
+ //              "terms": {
+ //                "size": 10000,
+ //                "field": "episode_guests.comma_del"
+ //              }
+ //            }
+ //          }
+ //        },
+ //        "tags": {
+ //          "filter": {
+ //            "query_string": {
+ //              "default_operator": "AND",
+ //              "analyzer": "simple",
+ //              "query": qso+qfg+qft+qfb+qfe
+ //            }
+ //          },
+ //          "aggregations": {
+ //            "filtered_tags": {
+ //              "terms": {
+ //                "size": 10000,
+ //                "field": "tags.comma_del"
+ //              }
+ //            }
+ //          }
+ //        },
+ //        "bits": {
+ //          "filter": {
+ //            "query_string": {
+ //              "default_operator": "AND",
+ //              "analyzer": "simple",
+ //              "query": qso+qfg+qft+qfb+qfe
+ //            }
+ //          },
+ //          "aggregations": {
+ //            "filtered_bits": {
+ //              "terms": {
+ //                "size": 10000,
+ //                "field": "bit.keyword"
+ //              }
+ //            }
+ //          }
+ //        },
+ //        "episodes": {
+ //          "filter": {
+ //            "query_string": {
+ //              "default_operator": "AND",
+ //              "analyzer": "simple",
+ //              "query": qso+qfg+qft+qfb+qfe
+ //            }
+ //          },
+ //          "aggregations": {
+ //            "filtered_episodes": {
+ //              "terms": {
+ //                "size": 10000,
+ //                "field": "episode.keyword"
+ //              }
+ //            }
+ //          }
+ //        }
+ //      }
+ //    }
+ //  }
+//} //qs
 
 // fetch(this.CONFIG.prod.bits,
 axios.post(this.CONFIG.prod.elastic_bits,QO)
