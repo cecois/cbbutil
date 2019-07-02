@@ -96,24 +96,24 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
       <div v-if="hero" class="column zCBB-hero-column">
 
 <p class="is-size-2 has-text-weight-bold has-text-right zCBB-primary" style="padding-right:3em;">Special Update!</p>
-        <p class="is-size-5 has-text-weight-light has-text-right zCBB-primary-3" style="padding-right:5em;">
+        <p class="is-size-5 has-text-weight-light has-text-right zCBB-primary-3" style="padding-left:5em;padding-right:5em;">
           Some knob deleted a buncha data a while back, so this site has been a little stagnant through Spring 2019 while we recreated. We also took the opportunity to rewrite the thing in <a href="https://vuejs.org">Vue</a>. We also scraped out roughly 40 bits we had missed. We also kept up on the new shows to the tune of ~175 incoming. We also took the opportunity to reach back into the Stitcher vaults and yank out some deserving bits that didn't present in the early years. These include:
             
-<dl class="">
+<dl style="padding-top:3em;" class="">
 <dt @click="setQueryFire({bit:'You Say \'Baby\' Too?'},['bit'])" class="zCBB-trigger is-size-5">You Say 'Baby' Too?</dt>
-<dd class="is-size-6 has-text-grey">somebody says baby also</dd>
+<dd style="margin-bottom:1em;" class="is-size-6 has-text-grey">somebody says baby also</dd>
 <dt @click="setQueryFire({bit:'Thank You for Your Service, Train'},['bit'])" class="zCBB-trigger is-size-5">Thank You for Your Service, Train</dt>
- <dd class="is-size-6 has-text-grey">the glorious retirement of a locomotive</dd>
+ <dd style="margin-bottom:1em;" class="is-size-6 has-text-grey">the glorious retirement of a locomotive</dd>
 <dt @click="setQueryFire({bit:'Hey Good Lookin'},['bit'])" class="zCBB-trigger is-size-5">Hey Good Lookin</dt>
-<dd class="is-size-6 has-text-grey">mr. microphone commercial lore</dd>
+<dd style="margin-bottom:1em;" class="is-size-6 has-text-grey">mr. microphone commercial lore</dd>
 <dt @click="setQueryFire({bit:'Im a Good-Looking Guy'},['bit'])" class="zCBB-trigger is-size-5">I'm a Good-Looking Guy</dt>
-<dd class="is-size-6 has-text-grey">canonical description of len wiseman</dd>
+<dd style="margin-bottom:1em;" class="is-size-6 has-text-grey">canonical description of len wiseman</dd>
 <dt @click="setQueryFire({bit:'Dads and Grads'},['bit'])" class="zCBB-trigger is-size-5">Dads and Grads</dt>
-<dd class="is-size-6 has-text-grey">scott's take on june</dd>
+<dd style="margin-bottom:1em;" class="is-size-6 has-text-grey">scott's take on june</dd>
 <dt @click="setQueryFire({bit:'Suck My Clit'},['bit'])" class="zCBB-trigger is-size-5">Suck My Clit</dt>
-<dd class="is-size-6 has-text-grey">pamela's catchphrase</dd>
+<dd style="margin-bottom:1em;" class="is-size-6 has-text-grey">pamela's catchphrase</dd>
 <dt @click="setQueryFire({bit:'I Dont Care'},['bit'])" class="zCBB-trigger is-size-5">I Don't Care</dt>
-<dd class="is-size-6 has-text-grey">somebody receives or administers an Icona Popping</dd>
+<dd style="margin-bottom:1em;" class="is-size-6 has-text-grey">somebody receives or administers an Icona Popping</dd>
 </dl>
         
         </p>
@@ -284,7 +284,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
             <div class="column is-12">
               <h5 class="is-size-5 has-text-weight-bold">{{update.date}}</h5>
               <div class="column has-text-weight-light is-size-7">{{update.episodes_summary}}</div>
-              <div v-for="report in update.reports" class="has-text-centered">
+              <div style="margin-bottom:3em;" v-for="report in update.reports" class="has-text-centered">
                 <img :src="report.image" />
                 <div class="column has-text-weight-light is-size-7"><a :href="report.ep_url">{{report.slug}}</a> ({{report.episode}})</div>
                 <ul>
@@ -314,7 +314,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
     <li style="margin-bottom:2em;">to find all the Phil Collins references that *aren't* about his Live Aid Concorde stunt: <p><code>"phil collins" -concorde</code></p></li>
     <li style="margin-bottom:2em;">...or those that specifically are: <p><code>"phil collins" +concorde</code></p></li>
     <li style="margin-bottom:2em;">it's also fun to, say, find all the times a Lapkus character is referenced when she's not even there: <p><code>
-      -lapkus +((traci +reard*n) || "nephew todd" || "regina crimp" || "mizz chips" || "liz mathers" || "marla charles" || "frank dorito" || "ho ho" || "benjamin susix" || "hortense harpie" || "murphy o'malaman" || "juniper flagen" || "sunny" || "scarsdale" || "salantame" || "big sue" || "dimples" || "mrs. blarrr" || "frank dorito" || "amanda calzone" || "natalie scoppapoppalee" || "whitney peeps" || "lisa porsche" || "harmony moongloss" || "craigory james" || "pamela from big bear" || "dinky liddle" || "carmela pointe" || "wendy quote the worm endquote widelman" || "the dell guy" || "ross gellar" || "p'nut" || "bunty pickles" || "vernessa lykes" || "dump dump" || "waldo" || "dirk thirsty" || "scat hamptoncrat")
+      -episode_guests:*lapkus +(reard*n || "nephew todd" || "regina crimp" || "mizz chips" || "liz mathers" || "marla charles" || "frank dorito" || "ho ho" || "benjamin susix" || "hortense harpie" || "murphy o'malaman" || "juniper flagen" || "sunny" || "scarsdale" || "salantame" || "big sue" || "dimples" || "mrs. blarrr" || "frank dorito" || "amanda calzone" || "natalie scoppapoppalee" || "whitney peeps" || "lisa porsche" || "harmony moongloss" || "craigory james" || "pamela from big bear" || "dinky liddle" || "carmela pointe" || "wendy quote the worm endquote widelman" || "the dell guy" || "ross gellar" || "p'nut" || "bunty pickles" || "vernessa lykes" || "dump dump" || "waldo" || "dirk thirsty" || "scat hamptoncrat")
     </code>
   </p>
     <p class="hast-text-italic">(...where the + is a boolean AND and the || is boolean OR)</p>
@@ -461,7 +461,7 @@ export default {
       page: {
         title: "BitMap",
         pagetitle: "BitMap",
-        splayed: true,
+        splayed: false,
         panes: [{
           label: 'Home',
           slug: 'default'
@@ -532,7 +532,7 @@ let QS = null;
 THE NEW HERO METHOD WILL BE TO QUERY ELASTIC FOR THE MOST RECENT WHERE hero:true  - currently no docs feature this attribute
 */
 
-      QS = (this.CONFIG.mode == '33') ? this.CONFIG.prod.elastic_bits + '&q=instance:"Low-rise%20*and*%20boot-cut?"&size=1' : this.CONFIG.dev.elastic_bits;
+      QS = (this.CONFIG.mode == '33') ? this.CONFIG.prod.elastic_bits + '&q=instance:"Low-rise%20*and*%20boot-cut?"&size=1' : this.CONFIG.dev.elastic_bits+ '&q=instance:"Low-rise%20*and*%20boot-cut?"&size=1';
 
       axios
         .get(QS)
@@ -692,14 +692,14 @@ if(this.CONFIG.mode=='33'){
   // let Q = {"wildcard":{"tags.comma_del":"cake boss"}}
   let Q = {
   "query_string": {
-    "fields": [
-      "bit",
-      "instance",
-      "elucidation",
-      "tags.comma_del",
-      "episode_guests.comma_del"
-    ],
-    "query": this.query.string
+    // "fields": [
+    //   "bit",
+    //   "instance",
+    //   "elucidation",
+    //   "tags.comma_del",
+    //   "episode_guests.comma_del"
+    // ],
+    "query": this.query.string.replace("tags:","tags.comma_del").replace('episode_guests:',"episode_guests.comma_del")
   }
 }
 
