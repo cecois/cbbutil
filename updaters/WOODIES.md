@@ -581,3 +581,6 @@ live-from-vulture-fest-2017
 -   32(old vegas),1:30,Joanie loves Chachi
 -   32,17:30,look that up on my own time i guess?
 -   33,50:45,gotta get along
+-   3domchallenge,6:30(?),E.T. phone yr lawyer
+-   3domchallenge,9:00,dude - fuk dat
+-   3domchallenge,9:00,can i finish

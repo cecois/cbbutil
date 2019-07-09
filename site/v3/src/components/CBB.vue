@@ -96,23 +96,23 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
       <div v-if="hero" class="column zCBB-hero-column">
 
 <p class="is-size-2 has-text-weight-bold has-text-right zCBB-primary" style="padding-right:3em;">Special Update!</p>
-        <p class="is-size-5 has-text-weight-light has-text-right zCBB-primary-3" style="padding-right:5em;">
+        <p class="is-size-5 has-text-weight-light has-text-right zCBB-primary-3" style="padding-right:3em;padding-left:3em;">
           Some knob deleted a buncha data a while back, so this site has been a little stagnant through Spring 2019 while we recreated. We also took the opportunity to rewrite the thing in <a href="https://vuejs.org">Vue</a>. We also scraped out roughly 40 bits we had missed. We also kept up on the new shows to the tune of ~175 incoming. We also took the opportunity to reach back into the Stitcher vaults and yank out some deserving bits that didn't present in the early years. These include:
             
-<dl class="">
-<dt @click="setQueryFire({bit:'You Say \'Baby\' Too?'},['bit'])" class="zCBB-trigger is-size-5">You Say 'Baby' Too?</dt>
+<dl style="padding-top:2em;" class="">
+<dt style="margin-top:1em;" @click="setQueryFire({bit:'You Say \'Baby\' Too?'},['bit'])" class="zCBB-trigger is-size-5">You Say 'Baby' Too?</dt>
 <dd class="is-size-6 has-text-grey">somebody says baby also</dd>
-<dt @click="setQueryFire({bit:'Thank You for Your Service, Train'},['bit'])" class="zCBB-trigger is-size-5">Thank You for Your Service, Train</dt>
+<dt style="margin-top:1em;" @click="setQueryFire({bit:'Thank You for Your Service, Train'},['bit'])" class="zCBB-trigger is-size-5">Thank You for Your Service, Train</dt>
  <dd class="is-size-6 has-text-grey">the glorious retirement of a locomotive</dd>
-<dt @click="setQueryFire({bit:'Hey Good Lookin'},['bit'])" class="zCBB-trigger is-size-5">Hey Good Lookin</dt>
+<dt style="margin-top:1em;" @click="setQueryFire({bit:'Hey Good Lookin'},['bit'])" class="zCBB-trigger is-size-5">Hey Good Lookin</dt>
 <dd class="is-size-6 has-text-grey">mr. microphone commercial lore</dd>
-<dt @click="setQueryFire({bit:'Im a Good-Looking Guy'},['bit'])" class="zCBB-trigger is-size-5">I'm a Good-Looking Guy</dt>
+<dt style="margin-top:1em;" @click="setQueryFire({bit:'Im a Good-Looking Guy'},['bit'])" class="zCBB-trigger is-size-5">I'm a Good-Looking Guy</dt>
 <dd class="is-size-6 has-text-grey">canonical description of len wiseman</dd>
-<dt @click="setQueryFire({bit:'Dads and Grads'},['bit'])" class="zCBB-trigger is-size-5">Dads and Grads</dt>
+<dt style="margin-top:1em;" @click="setQueryFire({bit:'Dads and Grads'},['bit'])" class="zCBB-trigger is-size-5">Dads and Grads</dt>
 <dd class="is-size-6 has-text-grey">scott's take on june</dd>
-<dt @click="setQueryFire({bit:'Suck My Clit'},['bit'])" class="zCBB-trigger is-size-5">Suck My Clit</dt>
+<dt style="margin-top:1em;" @click="setQueryFire({bit:'Suck My Clit'},['bit'])" class="zCBB-trigger is-size-5">Suck My Clit</dt>
 <dd class="is-size-6 has-text-grey">pamela's catchphrase</dd>
-<dt @click="setQueryFire({bit:'I Dont Care'},['bit'])" class="zCBB-trigger is-size-5">I Don't Care</dt>
+<dt style="margin-top:1em;" @click="setQueryFire({bit:'I Dont Care'},['bit'])" class="zCBB-trigger is-size-5">I Don't Care</dt>
 <dd class="is-size-6 has-text-grey">somebody receives or administers an Icona Popping</dd>
 </dl>
         
