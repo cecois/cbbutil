@@ -100,6 +100,8 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
           Some knob deleted a buncha data a while back, so this site has been a little stagnant through Spring 2019 while we recreated. We also took the opportunity to rewrite the thing in <a href="https://vuejs.org">Vue</a>. We also scraped out roughly 40 bits we had missed. We also kept up on the new shows to the tune of ~175 incoming. We also took the opportunity to reach back into the Stitcher vaults and yank out some deserving bits that didn't present in the early years. These include:
             
 <dl style="padding-top:2em;" class="">
+<dt style="margin-top:1em;" @click="setQueryFire({bit:'Sounds Like Four'},['bit'])" class="zCBB-trigger is-size-5">DUMMY: Sounds Like Four</dt>
+<dd class="is-size-6 has-text-grey">somebody says baby also</dd>
 <dt style="margin-top:1em;" @click="setQueryFire({bit:'You Say \'Baby\' Too?'},['bit'])" class="zCBB-trigger is-size-5">You Say 'Baby' Too?</dt>
 <dd class="is-size-6 has-text-grey">somebody says baby also</dd>
 <dt style="margin-top:1em;" @click="setQueryFire({bit:'Thank You for Your Service, Train'},['bit'])" class="zCBB-trigger is-size-5">Thank You for Your Service, Train</dt>
@@ -311,7 +313,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
         <p>But also know that whatever you type into the box gets pretty much POSTed as-is to an <a href="https://www.elastic.co/products/elasticsearch">ElasticSearch</a> (v5.6) index. As with most search engines, there is <a href="https://www.elastic.co/guide/en/elasticsearch/reference/5.6/query-dsl-query-string-query.html">some pretty advanced stuff</a> you can do if you like. To wit:</p>
 <p>
   <ul style="list-style: none;">
-    <li style="margin-bottom:2em;">to find all the Phil Collins references that *aren't* about his Live Aid Concorde stunt: <p><code>"phil collins" -concorde</code></p></li>
+    <li style="margin-bottom:2em;">to find all the Phil Collins references that *aren't* about his Live Aid Concorde stunt: <p><code @click="setQueryFire({string:'%22phil collins%22 -concorde'})">"phil collins" -concorde</code></p></li>
     <li style="margin-bottom:2em;">...or those that specifically are: <p><code>"phil collins" +concorde</code></p></li>
     <li style="margin-bottom:2em;">it's also fun to, say, find all the times a Lapkus character is referenced when she's not even there: <p><code>
       -lapkus +((traci +reard*n) || "nephew todd" || "regina crimp" || "mizz chips" || "liz mathers" || "marla charles" || "frank dorito" || "ho ho" || "benjamin susix" || "hortense harpie" || "murphy o'malaman" || "juniper flagen" || "sunny" || "scarsdale" || "salantame" || "big sue" || "dimples" || "mrs. blarrr" || "frank dorito" || "amanda calzone" || "natalie scoppapoppalee" || "whitney peeps" || "lisa porsche" || "harmony moongloss" || "craigory james" || "pamela from big bear" || "dinky liddle" || "carmela pointe" || "wendy quote the worm endquote widelman" || "the dell guy" || "ross gellar" || "p'nut" || "bunty pickles" || "vernessa lykes" || "dump dump" || "waldo" || "dirk thirsty" || "scat hamptoncrat")
@@ -461,7 +463,7 @@ export default {
       page: {
         title: "BitMap",
         pagetitle: "BitMap",
-        splayed: true,
+        splayed: false,
         panes: [{
           label: 'Home',
           slug: 'default'
@@ -512,13 +514,17 @@ this.page.pagetitle=(this.query.string && this.query.string!=='null')?this.page.
   },
     setQueryFire: function(B,wa) {
 
+if(wa){
 let clauses = []
-
 __.each(wa,(w)=>{
   clauses.push(w+':"'+B[w]+'"')
 })
 
 this.query.string='('+clauses.join(" AND ")+')'
+} else {
+  // no specific fielding sent
+  this.query.string=decodeURI(B.string)
+}
 
 this.clearFacets();
 this.actives.pane='search';
@@ -539,11 +545,13 @@ THE NEW HERO METHOD WILL BE TO QUERY ELASTIC FOR THE MOST RECENT WHERE hero:true
         .then(response => {
           this.loadings.app = false
 
-          this.hero = __.map(response.data.hits.hits,(b)=>{
-                      let o = b
-                      o._source.hero={on:true,attrib:"Scott Aukerman"}
-                      return o;
-                    })[8]
+// this is hero stuff we add back in when we wanna dynamically feature a quote
+          // this.hero = __.map(response.data.hits.hits,(b)=>{
+          //             let o = b
+          //             o._source.hero={on:true,attrib:"Scott Aukerman"}
+          //             return o;
+          //           })[8]
+          this.hero=true
 
         }) //axios.then
         .catch(e => {
@@ -717,6 +725,15 @@ if(this.CONFIG.mode=='33'){
 //     }
 //   }
 
+let QFB = {
+    "multi_match": {
+      "query": qfb,
+      "fields": [
+        "bit"
+      ]
+    }
+  }
+
  QO={
   "size": 10000,
   "query": Q,
@@ -746,6 +763,23 @@ if(this.CONFIG.mode=='33'){
             }
           }
         },
+        //         "bits": {
+        //   "filter": {
+        //     "query_string": {
+        //       "default_operator": "AND",
+        //       "analyzer": "simple",
+        //       "query": qso+qfg+qft+qfb+qfe
+        //     }
+        //   },
+        //   "aggregations": {
+        //     "filtered_bits": {
+        //       "terms": {
+        //         "size": 10000,
+        //         "field": "bit.keyword"
+        //       }
+        //     }
+        //   }
+        // },
         "bits": {
           "filter": Q,
           "aggregations": {

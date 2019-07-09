@@ -1,6 +1,12 @@
-$cbb-blue: #00A1E2;
-$cbb-yelo: #FDB812;
-$cbb-redd: #CA0204;
+// ACTUAL
+// $cbb-blue: #00A1E2;
+// $cbb-yelo: #FDB812;
+// $cbb-redd: #CA0204;
+
+// FOR FUN
+$cbb-blue: #000000;
+$cbb-yelo: #98fff0;
+$cbb-redd: #cb71b5;
 
 .zCBB-primary{color:$cbb-blue;}
 .zCBB-primary-2{color:rgba($cbb-blue,.8);a{color:$cbb-blue;}}

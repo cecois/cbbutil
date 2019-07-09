@@ -156,8 +156,7 @@
       "heinz pickle assembly line"
     ],
     "tags": "Louis Green",
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1054",
     "updated_at": "2019-05-20T11:24:09Z",
     "url_soundcloud": null,
     "created_at": "2019-05-20T11:24:09Z",
@@ -182,8 +181,7 @@
       "near a target and a guitar center",
       "site of: List in the 70s; site of: a DSW in the basement"
     ],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1055",
     "updated_at": "2019-05-20T14:15:25Z",
     "url_soundcloud": null,
     "created_at": "2019-05-20T14:15:25Z",
@@ -207,8 +205,8 @@
       "mdr high",
       "site of: Marissa Wompler for a while"
     ],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point",
+    "location_id": "210",
     "updated_at": "2019-05-20T14:15:25Z",
     "url_soundcloud": null,
     "created_at": "2019-05-20T14:15:25Z",
