@@ -10,7 +10,7 @@
 1. ~~jarles~~
 1. ~~clumsy portmanteau~~
 1. ~~lapkus can't make it through a song~~
-2. dads and grads
+2. ~~dads and grads~~
 2. mike the janitor's mantra
 1. gino's commuter map
 1. ~~len wiseman~~
@@ -1729,7 +1729,7 @@
 
   - 384,25:00
 
-- men of a certain age
+- men of a certain age (get in the wayback machine, mr. peabody)
   - 2016.dallas,11:00
   - 384,47:30
   - 218,23:30(howl),inaugural
