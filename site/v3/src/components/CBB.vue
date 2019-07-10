@@ -692,8 +692,8 @@ let QO = null;
 if(this.CONFIG.mode=='33'){
 
   let qso = this.query.string?this.query.string:'*'
-  let qfg = (this.query.facets.guests.length>0)?' AND ('+__.uniq(this.query.facets.guests).join(' AND ')+')':''
-  let qft = (this.query.facets.tags.length>0)?' AND ('+__.uniq(this.query.facets.tags).join(' AND ')+')':''
+  let qfg = (this.query.facets.guests.length>0)?' AND (epsode_guests.comma_del:'+__.uniq(this.query.facets.guests).join(' AND epsode_guests.comma_del:')+')':''
+  let qft = (this.query.facets.tags.length>0)?' AND (tags.comma_del:'+__.uniq(this.query.facets.tags).join(' AND tags.comma_del:')+')':''
   let qfb = (this.query.facets.bits.length>0)?' AND ('+__.uniq(this.query.facets.bits).join(' AND ')+')':''
   let qfe = (this.query.facets.episodes.length>0)?' AND ('+__.uniq(this.query.facets.episodes).join(' AND ')+')':''
 
