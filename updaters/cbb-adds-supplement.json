@@ -346,5 +346,25 @@
     "episode_guests": "David Wain,Lauren Lapkus,Jessica St. Clair,Paul F. Tompkins,Jason Mantzoukas,Paul Rust,Neil Campbell",
     "id_wikia": 3325,
     "holding": "false"
+},{
+    "episode": 218,
+    "show": "cbb",
+    "tstart": "1:13:45",
+    "tend": "1:14:30",
+    "instance": "Can I explain something to you fellas? Here's what I do: I clean up other people's filth",
+    "bit": "That's because we signed the hottest act in town.",
+    "elucidation": "mike the janitor's self-description",
+    "location_type": "",
+    "location_id": "",
+    "tags": "Mike the Janitor,The Bachelor Brothers",
+    "updated_at": "2019-07-10T15:51:29Z",
+    "created_at": "2019-07-10T15:51:29Z",
+    "url_soundcloud": null,
+    "slug_soundcloud": null,
+    "slug_earwolf": "the-4th-anniversary-extravaganza",
+    "episode_title": "The 4th Anniversary Extravaganza!",
+    "episode_guests": "David Wain,Lauren Lapkus,Jessica St. Clair,Paul F. Tompkins,Jason Mantzoukas,Paul Rust,Neil Campbell",
+    "id_wikia": 3325,
+    "holding": "false"
 }
 ]

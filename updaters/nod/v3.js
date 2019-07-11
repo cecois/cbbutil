@@ -9,6 +9,8 @@ var __ = require('underscore')
 // ,MLAB = require('mongolab-data-api')(CONFIG.mongokey)
 ,ELASTIC = require('elasticsearch')
 ,MOMENT = require('moment')
+,CHEERIO = require('cheerio')
+,AXIOS = require('axios')
 ,CLOUDINARY = require('cloudinary').v2
 ;
 
@@ -16,14 +18,34 @@ const do_image = async (earurl) =>{
 
 return new Promise((resolve,reject)=>{
 
-let ear_img_url=null
+AXIOS.get(earurl)
+  .then(function (response) {
+    
+		console.log("interping response...")
+			$ = CHEERIO.load(response.data)
+			let firstimgbxmigurl = $(".epimgbox").first().find("a > img").attr('src')
+			console.log(firstimgbxmigurl)
+
+let ear_img_url=firstimgbxmigurl
 // first check earwolf for the image
 // if none resolve empty
-// if img send it to cloud
-CLOUDINARY.uploader.upload(ear_img_url, (error, result) { 
+// if img send it to clou
+CLOUDINARY.uploader.upload(ear_img_url, (error, result)=>{ 
 	if(error){reject(error)}
-		resolve(result.url)
 });
+
+  })
+  .catch(function (error) {
+    // handle error
+    console.log(error);
+  })
+  .finally(function () {
+    // always executed
+    console.log('wegood?')
+		resolve()
+  });
+
+
 // result of earwolf-image-cloudify workflow
 
 // resolve('http://path/to/'+earurl.split("episode")[1]+'.jpg')
@@ -40,7 +62,8 @@ let R=[];
 
 				var epno = e.split(":::")[0]
 				var epslug = e.split(":::")[1]
-				var img = await do_image("http://www.earwolf.com/episode/"+epslug);
+				// var img = await do_image("http://www.earwolf.com/episode/"+epslug);
+				var img = await do_image("http://localhost:8000");
 
 			var O = {
 				episode:epno,

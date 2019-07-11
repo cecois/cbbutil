@@ -558,9 +558,7 @@ THE NEW HERO METHOD WILL BE TO QUERY ELASTIC FOR THE MOST RECENT WHERE hero:true
           this.loadings.app = false
           this.console.msgs.push({ m: e, c: "error" })
           console.error(e);
-        }); //axios.catch
-
-
+        }) //axios.catch
 
     },
     genGeomID: function(caller,e){
@@ -691,12 +689,20 @@ let QO = null;
 
 if(this.CONFIG.mode=='33'){
 
-  let qso = this.query.string?this.query.string:'*'
-  let qfg = (this.query.facets.guests.length>0)?' AND (epsode_guests.comma_del:'+__.uniq(this.query.facets.guests).join(' AND epsode_guests.comma_del:')+')':''
+  // let qso = this.query.string?this.query.string:'*'
+  
+  // let qfg = (this.query.facets.guests.length>0)?' AND (epsode_guests.comma_del:'+__.uniq(this.query.facets.guests).join(' AND epsode_guests.comma_del:')+')':''
+  let qfg = (this.query.facets.guests.length>0)?
+__.map(__.uniq(this.query.facets.guests),(g)=>{return ' +episode_guests.comma_del:"'+g+'"'}).join("")
+  :''
   let qft = (this.query.facets.tags.length>0)?' AND (tags.comma_del:'+__.uniq(this.query.facets.tags).join(' AND tags.comma_del:')+')':''
   let qfb = (this.query.facets.bits.length>0)?' AND ('+__.uniq(this.query.facets.bits).join(' AND ')+')':''
   let qfe = (this.query.facets.episodes.length>0)?' AND ('+__.uniq(this.query.facets.episodes).join(' AND ')+')':''
 
+
+// "phil collins" -concorde +(tags.comma_del:"sussudio (song)")
+let qso = '+'+this.query.string.replace("tags:","tags.comma_del").replace('episode_guests:',"episode_guests.comma_del")+qfg+qft+qfb+qfe
+console.log(qso);
   // let Q = {"wildcard":{"tags.comma_del":"cake boss"}}
   let Q = {
   "query_string": {
@@ -707,7 +713,7 @@ if(this.CONFIG.mode=='33'){
     //   "tags.comma_del",
     //   "episode_guests.comma_del"
     // ],
-    "query": this.query.string.replace("tags:","tags.comma_del").replace('episode_guests:',"episode_guests.comma_del")
+    "query": qso
   }
 }
 
