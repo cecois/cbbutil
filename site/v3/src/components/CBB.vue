@@ -99,9 +99,10 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
         <p class="is-size-5 has-text-weight-light has-text-right zCBB-primary-3" style="padding-right:3em;padding-left:3em;">
           Some knob deleted a buncha data a while back, so this site has been a little stagnant through Spring 2019 while we recreated. We also took the opportunity to rewrite the thing in <a href="https://vuejs.org">Vue</a>. We also scraped out roughly 40 bits we had missed. We also kept up on the new shows to the tune of ~175 incoming. We also took the opportunity to reach back into the Stitcher vaults and yank out some deserving bits that didn't present in the early years. These include:
             
+
 <dl style="padding-top:2em;" class="">
-<dt style="margin-top:1em;" @click="setQueryFire({bit:'Sounds Like Four'},['bit'])" class="zCBB-trigger is-size-5">DUMMY: Sounds Like Four</dt>
-<dd class="is-size-6 has-text-grey">somebody says baby also</dd>
+<dt style="margin-top:1em;" @click="setQueryFire({bit:'I Expect Nothing in Return Except Payment'},['bit'])" class="zCBB-trigger is-size-5">I Expect Nothing in Return Except Payment</dt>
+<dd class="is-size-6 has-text-grey">mike the janitor's self-description</dd>
 <dt style="margin-top:1em;" @click="setQueryFire({bit:'You Say \'Baby\' Too?'},['bit'])" class="zCBB-trigger is-size-5">You Say 'Baby' Too?</dt>
 <dd class="is-size-6 has-text-grey">somebody says baby also</dd>
 <dt style="margin-top:1em;" @click="setQueryFire({bit:'Thank You for Your Service, Train'},['bit'])" class="zCBB-trigger is-size-5">Thank You for Your Service, Train</dt>
@@ -314,7 +315,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
 <p>
   <ul style="list-style: none;">
     <li style="margin-bottom:2em;">to find all the Phil Collins references that *aren't* about his Live Aid Concorde stunt: <p><code @click="setQueryFire({string:'%22phil collins%22 -concorde'})">"phil collins" -concorde</code></p></li>
-    <li style="margin-bottom:2em;">...or those that specifically are: <p><code>"phil collins" +concorde</code></p></li>
+    <li style="margin-bottom:2em;">...or those that specifically are: <p><code @click="setQueryFire({string:'%22phil collins%22 +concorde'})">"phil collins" +concorde</code></p></li>
     <li style="margin-bottom:2em;">it's also fun to, say, find all the times a Lapkus character is referenced when she's not even there: <p><code>
       -episode_guests:*lapkus +(reard*n || "nephew todd" || "regina crimp" || "mizz chips" || "liz mathers" || "marla charles" || "frank dorito" || "ho ho" || "benjamin susix" || "hortense harpie" || "murphy o'malaman" || "juniper flagen" || "sunny" || "scarsdale" || "salantame" || "big sue" || "dimples" || "mrs. blarrr" || "frank dorito" || "amanda calzone" || "natalie scoppapoppalee" || "whitney peeps" || "lisa porsche" || "harmony moongloss" || "craigory james" || "pamela from big bear" || "dinky liddle" || "carmela pointe" || "wendy quote the worm endquote widelman" || "the dell guy" || "ross gellar" || "p'nut" || "bunty pickles" || "vernessa lykes" || "dump dump" || "waldo" || "dirk thirsty" || "scat hamptoncrat")
     </code>
@@ -332,7 +333,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
         <div class="card large"><div class="card-content"><div class="content">
           <h2 class="is-size-3"><i class="fas fa-clock"></i>&nbsp;Timestamps</h2>
 
-          <p>Each record has <strong>tstart</strong> and <strong>tend</strong> timestamps - ostensibly these frame the specific instance within the episode. However, when CBB audio files were moved behind the Howl paywall (and then to Stitcher), it rendered many of them incorrect – as paywalled episodes pass the edit points where commercials used to be, they're offset by however long the excised commercials were.</p><p>Timestamps can still be used to get close to the instance when listening, but they are no longer accurate enough to be used for, say, supercutting or something.
+          <p>Each record has <strong>tstart</strong> and <strong>tend</strong> timestamps - ostensibly these frame the specific instance within the episode. However, when CBB audio files were moved behind the Howl paywall (and then to Stitcher), it rendered many of them incorrect – as paywalled episodes pass the edit points where commercials used to be, they're offset by however long the excised commercials were.</p><p>Timestamps can still be used to get close to the instance when listening, but they are no longer accurate enough to be used for, say, supercutting or something. When they're wrong they're late - scrub backwards if you don't hear the thing within, say, 15s.
 
           </p>
         </div></div></div>
@@ -340,7 +341,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
       <div class="column">
         <div class="card large"><div class="card-content"><div class="content">
           <h2 class="is-size-3"><i class="fas fa-map"></i>&nbsp;The Map</h2>
-          <p>There's a Leaflet instance under here that will display the geometries associated with any bits of type="location." Look for the <i class="fa fa-map-marker"></i> and click it to zoom the map to that location. More on that under "Locations."</p>
+          <p>There's a <a href="http://leafletjs.com">Leaflet</a> instance under here that will display the geometries associated with any bits of type="location." Look for the <i class="fa fa-map-marker"></i> and click it to zoom the map to that location. More on that under "Locations."</p>
           <p>But a note or two about how to use said map: in an effort to reduce clutter, there are no map controls as you might find in other web maps (zoom bar, +/-, maybe a panning control, too). None of that here - just grab the map to move it and trackpad|scroll to zoom in and out. Optionally you can shift-click+hold-drag-release in order to "select" an area of the map to which you'll immediately zoom.</p>
         </div></div></div>
       </div>

@@ -417,8 +417,8 @@
 =-   26(eggnogs),53:00,Christmas song (chestnuts)
 =-   26(eggnogs),53:00,love boat theme song
 =-   26(eggnogs),53:00,odd couple theme song
--   26(eggnogs),53:00,staying alive
--   26(eggnogs),54:00,how do I live without you
+=-   26(eggnogs),53:00,staying alive
+=-   26(eggnogs),54:00,how do I live without you
 -   26(eggnogs),54:00,happy days theme song
 -   26(eggnogs),54:00,no diggidy
 -   26(eggnogs),54:30,star spangled banner

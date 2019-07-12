@@ -21,7 +21,6 @@ return new Promise((resolve,reject)=>{
 AXIOS.get(earurl)
   .then(function (response) {
     
-		console.log("interping response...")
 			$ = CHEERIO.load(response.data)
 			let firstimgbxmigurl = $(".epimgbox").first().find("a > img").attr('src')
 			console.log(firstimgbxmigurl)
@@ -30,19 +29,15 @@ let ear_img_url=firstimgbxmigurl
 // first check earwolf for the image
 // if none resolve empty
 // if img send it to clou
-CLOUDINARY.uploader.upload(ear_img_url, (error, result)=>{ 
-	if(error){reject(error)}
-});
-
+// CLOUDINARY.uploader.upload(ear_img_url, (error, result)=>{ 
+// 	if(error){reject(error)}
+// });
+resolve(ear_img_url);
   })
   .catch(function (error) {
     // handle error
     console.log(error);
-  })
-  .finally(function () {
-    // always executed
-    console.log('wegood?')
-		resolve()
+    reject(error);
   });
 
 
@@ -53,7 +48,7 @@ CLOUDINARY.uploader.upload(ear_img_url, (error, result)=>{
 })//promise
 }
 
-const reports_test = async (rarr,bits) =>{
+const reports = async (rarr,bits) =>{
 
 return new Promise((resolve,reject)=>{
 let R=[];
@@ -62,8 +57,8 @@ let R=[];
 
 				var epno = e.split(":::")[0]
 				var epslug = e.split(":::")[1]
-				// var img = await do_image("http://www.earwolf.com/episode/"+epslug);
-				var img = await do_image("http://localhost:8000");
+				var img = await do_image("http://www.earwolf.com/episode/"+epslug);
+				// var img = await do_image("http://localhost:8000");
 
 			var O = {
 				episode:epno,
@@ -318,7 +313,7 @@ let R = {
 			,episodes_summary:bits.length+" bits from "+episodes_updated.length+" episode"+plur+" (ep"+plur+" "+__.map(episodes_updated,(E)=>{return E.split(":::")[0]}).join(", ")+")"
 			,query:"("+__.map(episodes_updated,(e)=>{return "episode:"+e.split(":::")[0]}).join(" OR ")+")"
 			,eps:episodes_updated
-			,reports:await reports_test(episodes_updated,bits)
+			,reports:await reports(episodes_updated,bits)
 		// 	__.map(episodes_updated,async (e,i,l)=>{
 
 		// 		var epno = e.split(":::")[0]
