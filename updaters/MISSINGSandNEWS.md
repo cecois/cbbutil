@@ -147,6 +147,8 @@
   - 530,22:45
   - other previous
 - drippin milk/talkin tang (any subepisode)
+  - 356,14:00,inaugural
+  - 356,44:30
   - 429,17:00(pw)
   - 588,7:45(pw)
   - 42\*?,??:??
@@ -167,6 +169,7 @@
   - 443,13:30(pw)
   - 443,27:00(pw)
   - 365,1:00:00(pw)
+  - 365,25:30
 - pft does star wars talk
   - all bo2017.\*
   - bo2017.3,30:25
@@ -1731,6 +1734,7 @@
 
 - men of a certain age (get in the wayback machine, mr. peabody)
   - 2016.dallas,11:00
+  - 356,37:00
   - 384,47:30
   - 218,23:30(howl),inaugural
   - 218,27:20(howl)
