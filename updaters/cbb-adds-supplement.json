@@ -11,13 +11,14 @@
     "location_id": "",
     "url_soundcloud": null,
     "tags": "",
+    "hero":{"on":true,"attrib":"Scott Aukerman"},
     "created_at": "2019-06-25T10:51:29Z",
     "updated_at": "2019-06-25T10:51:29Z",
     "slug_soundcloud": null,
     "slug_earwolf": "tofupeople",
     "episode_title": "TofuPeople",
     "episode_guests": "Kumail Nanjiani,Jonah Ray,Horatio Sanz,Erin Whitehead",
-    "id_wikia": 5554,
+    "id_wikia": 5554
     }
     ,{
      "episode": 427,
@@ -98,26 +99,6 @@
     "slug_earwolf": "goo-it",
     "episode_title": "Goo It",
     "episode_guests": "Rory Scovel,Mike Hanford,D'Arcy Carden",
-    "id_wikia": null,
-    "holding": "false"
-},{
-    "episode": 493,
-    "show": "cbb",
-    "tstart": "3:53",
-    "tend": "4:04",
-    "instance": "",
-    "bit": "Dads and Grads",
-    "elucidation": "scott's take on june",
-    "tags": "",
-    "location_type": "",
-    "location_id": "",
-    "url_soundcloud": null,
-    "created_at": "2019-06-26T09:45:45Z",
-    "updated_at": "2019-06-26T09:45:45Z",
-    "slug_soundcloud": null,
-    "slug_earwolf": "king-garbage-dick",
-    "episode_title": "King Garbage Dick",
-    "episode_guests": "Nick Kroll,Seth Morris,Anthony King",
     "id_wikia": null,
     "holding": "false"
 },{
