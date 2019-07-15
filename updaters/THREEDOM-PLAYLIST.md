@@ -419,143 +419,143 @@
 =-   26(eggnogs),53:00,odd couple theme song
 =-   26(eggnogs),53:00,staying alive
 =-   26(eggnogs),54:00,how do I live without you
--   26(eggnogs),54:00,happy days theme song
--   26(eggnogs),54:00,no diggidy
--   26(eggnogs),54:30,star spangled banner
--   26(eggnogs),55:45,drops of Jupiter - train
--   26(eggnogs),55:45,fly like an eagle
--   26(eggnogs),55:45,I believe I can fly - r kelly
--   26(eggnogs),55:45,do u believe. Cher
--   26(eggnogs),55:45,strong enough to be my man?
--   26(eggnogs),55:45,stronger than yesterday
--   26(eggnogs),55:45,yesterday - beatles
--   26(eggnogs),55:45,tomorrow - Annie
--   26(eggnogs),55:45,I love you always forever - Donna Lewis
--   26(eggnogs),57:30,lean on me
--   26(eggnogs),1:02:00,karma chameleon
--   26(eggnogs),1:02:00,call me by name (only One)
--   26(eggnogs),1:15:00,it had to be you
--   26(eggnogs),1:20:30,JAD
--   26(eggnogs),1:20:30,wayfair
--   27(misappearing),7:00,just a girl who can’t say no
--   27(misappearing),7:00,i kissed a girl (which?)
--   27(misappearing),7:00,just a girl in the world (no doubt?)
--   27(misappearing),7:00,I enjoy being a girl
--   27(misappearing),11:00,pie Jesus - Sarah brightmon
--   27(misappearing),13:00,take me to church
--   27(misappearing),15:00,Rita meter maid Beatles
--   27(misappearing),15:00,rainbow connection
--   27(misappearing),17:30,turn turn turn (60s)
--   27(misappearing),18:45,baby come back?
--   27(misappearing),19:00,swiffer commercial /\ same
--   27(misappearing),20:30,killing me softly - fugees vers
--   27(misappearing),22:00,imagine - Lennon
--   27(misappearing),23:30, science! (Dolby?)
--   27(misappearing),23:30,monster mash
--   27(misappearing),24:39,this is it (McDonald? Doobies?)
--   27(misappearing),28:30,GOF
--   27(misappearing),29:30,Christmas song
--   27(misappearing),35:30,don't know much - Sam Cooke
--   27(misappearing),44:00,go ask Alice - Jefferson
--   27(misappearing),53:00,believe fly - rkelly
--   27(misappearing),53:30,I love la
--   27(misappearing),56:30,say a little prayer (wwrwike?)
--   27(misappearing),56:30,once in a lifetime
--   27(misappearing),59:00,people are people - depeche
--   27(misappearing),0:45,turning Japanese
--   27(misappearing),3:30,catch a falling star
--   28(sucks),11:15,started on the bottom - drake
--   28(sucks),12:00,baby got back
--   28(sucks),33:00,da dip - freak nasty
--   28(sucks),37:15,NGGUU - astley
--   28(sucks),38:00,pretty woman
--   28(sucks),43:00,oobie doobie - Orbison
--   28(sucks),48:30,NGGUU
--   28(sucks),52:30,we like to party - six flags theme
--   28(sucks),1:04:00,sweet Caroline
--   29(phony),4:00,playing you off - Hollywood studios orchestra
--   29(phony),7:30,December 1963 - valli
--   29(phony),9:00,hey ladies
--   29(phony),14:00,jump around - house of pain
--   29(phony),14:30,devil went down
--   29(phony),17:00,devil went down
--   29(phony),23:30,seventeen going on - sounda music
--   29(phony),25:09,WB - Sebastian
--   29(phony),37:00,pop - NSYNC
--   29(phony),47:00,parents understand
--   29(phony),51:30,tell me something good - Chaka
--   30(it),1:00,SSB
--   30(it),13:00,cool world theme song - Bowie
--   30(it),18:00,straight on - heart
--   30(it),24:00,this is it - logging
--   30(it),26:30,longest time
--   30(it),27:30,zombie
--   30(it),31:00,lost in the supermarket - clash
--   30(it),31:00, friends theme - Rembrandt
--   30(it),34:00,turn back time
--   30(it),55:00,sound of the police - krs
--   31(frank),2:30,new rules - dua
--   31(frank),15:15,new drug
--   31(frank),32:30,September - Earth wind fire
--   31(frank),38:30,whole new world - Aladdin
--   31(frank),39:00,rules
--   31(frank),42:30,mama knock out - LL
--   31(frank),42:30,mama said days like this
--   31(frank),42:30,mama told me not to come
--   31(frank),42:30,relax
--   31(frank),50:00,are you having any fun - fain
--   32(gyms),2:00,new rules - dua
--   32(gyms),14:15,killing me softly - fugees
--   32(gyms),20:00,let it be - beatles
--   32(gyms),20:30,let it be - beatles
--   32(gyms),39:00,more more more - andrea true connection
--   32(gyms),41:20,are you jimmy ray - jimmy ray
--   32(gyms),42:00,finally - cece peniston
--   32(gyms),51:00,kyle quit the band - td
--   32(gyms),1:01:00,me so horny - 2livecrew
--   32(gyms),1:03:00,new rules - dua
--   32(gyms),1:04:00,dick in a box - sandberg
--   33(1+1),1:30,gilligan's island theme
--   33(1+1),3:00,stay i missed you - lisa loeb
--   33(1+1),7:00,new rules (kids bop v) - dua
--   33(1+1),10:30,new rules (kids bop v) - dua
--   33(1+1),13:00,new rules (kids bop v) - dua
--   33(1+1),14:50,don't turn around the kommissar - ronnie jones
--   33(1+1),18:30,new rules (kids bop v) - dua
--   33(1+1),30:00,new years day - u2
--   33(1+1),30:15,life in the fast lane - eagles
--   33(1+1),30:30,back in the 90s - grouplove
--   33(1+1),31:30,new rules (kids bop v) - dua
--   33(1+1),32:50,life in the fast lane - eagles
--   33(1+1),33:15,praise you - fatboy slim
--   33(1+1),39:30,don't you worry bout a thing - stevie wonder
--   33(1+1),44:15,the boy is mine - monica & brandi
--   33(1+1),44:15,the girl is mine - micheal jackson
--   34,0:30,new rules
--   34,6:00,do you believe - Cher
+=-   26(eggnogs),54:00,happy days theme song
+=-   26(eggnogs),54:00,no diggidy
+=-   26(eggnogs),54:30,star spangled banner
+=-   26(eggnogs),55:45,drops of Jupiter - train
+=-   26(eggnogs),55:45,fly like an eagle
+=-   26(eggnogs),55:45,I believe I can fly - r kelly
+=-   26(eggnogs),55:45,do u believe. Cher
+=-   26(eggnogs),55:45,strong enough to be my man?
+=-   26(eggnogs),55:45,stronger than yesterday
+=-   26(eggnogs),55:45,yesterday - beatles
+=-   26(eggnogs),55:45,tomorrow - Annie
+=-   26(eggnogs),55:45,I love you always forever - Donna Lewis
+=-   26(eggnogs),57:30,lean on me
+=-   26(eggnogs),1:02:00,karma chameleon
+=-   26(eggnogs),1:02:00,call me by name (only One)
+=-   26(eggnogs),1:15:00,it had to be you
+=-   26(eggnogs),1:20:30,JAD
+=-   26(eggnogs),1:20:30,wayfair
+=-   27(misappearing),7:00,just a girl who can’t say no
+=-   27(misappearing),7:00,i kissed a girl (which?)
+=-   27(misappearing),7:00,just a girl in the world (no doubt?)
+=-   27(misappearing),7:00,I enjoy being a girl
+=-   27(misappearing),11:00,pie Jesus - Sarah brightmon
+=-   27(misappearing),13:00,take me to church
+=-   27(misappearing),15:00,Rita meter maid Beatles
+=-   27(misappearing),15:00,rainbow connection
+=-   27(misappearing),17:30,turn turn turn (60s)
+=-   27(misappearing),18:45,baby come back?
+=-   27(misappearing),19:00,swiffer commercial /\ same
+=-   27(misappearing),20:30,killing me softly - fugees vers
+=-   27(misappearing),22:00,imagine - Lennon
+=-   27(misappearing),23:30, science! (Dolby?)
+=-   27(misappearing),23:30,monster mash
+=-   27(misappearing),24:39,this is it - loggins
+=-   27(misappearing),28:30,GOF
+=-   27(misappearing),29:30,Christmas song
+=-   27(misappearing),35:30,don't know much - Sam Cooke
+=-   27(misappearing),44:00,go ask Alice - Jefferson
+=-   27(misappearing),53:00,believe fly - rkelly
+=-   27(misappearing),53:30,I love la
+=-   27(misappearing),56:30,say a little prayer (wwrwike?)
+=-   27(misappearing),56:30,once in a lifetime
+=-   27(misappearing),59:00,people are people - depeche
+=-   27(misappearing),0:45,turning Japanese
+=-   27(misappearing),3:30,catch a falling star
+=-   28(sucks),11:15,started on the bottom - drake
+=-   28(sucks),12:00,baby got back
+=-   28(sucks),33:00,da dip - freak nasty
+=-   28(sucks),37:15,NGGUU - astley
+=-   28(sucks),38:00,pretty woman
+=-   28(sucks),43:00,oobie doobie - Orbison
+=-   28(sucks),48:30,NGGUU
+=-   28(sucks),52:30,we like to party - six flags theme
+=-   28(sucks),1:04:00,sweet Caroline
+=-   29(phony),4:00,playing you off - Hollywood studios orchestra
+=-   29(phony),7:30,December 1963 - valli
+=-   29(phony),9:00,hey ladies
+=-   29(phony),14:00,jump around - house of pain
+=-   29(phony),14:30,devil went down
+=-   29(phony),17:00,devil went down
+=-   29(phony),23:30,seventeen going on - sounda music
+=-   29(phony),25:09,WB - Sebastian
+=-   29(phony),37:00,pop - NSYNC
+=-   29(phony),47:00,parents understand
+=-   29(phony),51:30,tell me something good - Chaka
+=-   30(it),1:00,SSB
+=-   30(it),13:00,cool world theme song - Bowie
+=-   30(it),18:00,straight on - heart
+=-   30(it),24:00,this is it - logging
+=-   30(it),26:30,longest time
+=-   30(it),27:30,zombie
+=-   30(it),31:00,lost in the supermarket - clash
+=-   30(it),31:00, friends theme - Rembrandt
+=-   30(it),34:00,turn back time
+=-   30(it),55:00,sound of the police - krs
+=-   31(frank),2:30,new rules - dua
+=-   31(frank),15:15,new drug
+=-   31(frank),32:30,September - Earth wind fire
+=-   31(frank),38:30,whole new world - Aladdin
+=-   31(frank),39:00,rules
+=-   31(frank),42:30,mama knock out - LL
+=-   31(frank),42:30,mama said days like this
+=-   31(frank),42:30,mama told me not to come
+=-   31(frank),42:30,relax
+=-   31(frank),50:00,are you having any fun - fain
+=-   32(gyms),2:00,new rules - dua
+=-   32(gyms),14:15,killing me softly - fugees
+=-   32(gyms),20:00,let it be - beatles
+=-   32(gyms),20:30,let it be - beatles
+=-   32(gyms),39:00,more more more - andrea true connection
+=-   32(gyms),41:20,are you jimmy ray - jimmy ray
+=-   32(gyms),42:00,finally - cece peniston
+=-   32(gyms),51:00,kyle quit the band - td
+=-   32(gyms),1:01:00,me so horny - 2livecrew
+=-   32(gyms),1:03:00,new rules - dua
+=-   32(gyms),1:04:00,dick in a box - sandberg
+=-   33(1+1),1:30,gilligan's island theme
+=-   33(1+1),3:00,stay i missed you - lisa loeb
+=-   33(1+1),7:00,new rules (kids bop v) - dua
+=-   33(1+1),10:30,new rules (kids bop v) - dua
+=-   33(1+1),13:00,new rules (kids bop v) - dua
+=-   33(1+1),14:50,don't turn around the kommissar - ronnie jones
+=-   33(1+1),18:30,new rules (kids bop v) - dua
+=-   33(1+1),30:00,new years day - u2
+=-   33(1+1),30:15,life in the fast lane - eagles
+=-   33(1+1),30:30,back in the 90s - grouplove
+=-   33(1+1),31:30,new rules (kids bop v) - dua
+=-   33(1+1),32:50,life in the fast lane - eagles
+=-   33(1+1),33:15,praise you - fatboy slim
+=-   33(1+1),39:30,don't you worry bout a thing - stevie wonder
+=-   33(1+1),44:15,the boy is mine - monica & brandi
+=-   33(1+1),44:15,the girl is mine - micheal jackson
+=-   34,0:30,new rules
+=-   34,6:00,do you believe - Cher
 -   34,6:00,do you believe - Adam Lambert
--   34,11:00,take a cgabce|voulez-vous|name of the game|winner takes it all|dancing Queen/gimme gimme/sos/Waterloo/Mama Mia/Chiquituta/Fernando/winner takes it all/one of us/name of the game
--   34,12:00,somebody to Love - queen by George Michael
--   34,12:55,faith - George Michael
--   34,13:30,somebody to love - queen
--   34,13:30,under pressure - Davide Bowie w Annie Lennox
--   34,17:40,Stan - Eminem
--   34,18:15,jitterbug - wham!
--   34,28:15,parents just don't understand
--   34,30:15,older - they might be Giants
--   34,31:30,bossnof me - might be Giants
--   34,35:45,under pressure
--   34,41:30,life is a highway - Cochrane
--   34,1:04:15,na na na goodbye - ?
--   35(rude),8:00,killing softly - fugees
--   35,13:15,Monday Monday - Mama's papas
--   35,19:45,rumors - Timex social club
--   35,26:30,another brick in the wall
--   35,46:45,in dreams - orb
--   35,48:45, if I were a Carpenter 1 Tim Hardin
--   35,50:45,wasn't me - shaggy
--   35,51:30,Kathy's clown - every brothers
--   35,52:30, rules - Kidz
--   35,56:15,jump for yr love
--   35,56:15,rules - Kidz
--   35,1:02:15,knocking on heavens door - dyl
+=-   34,11:00,take a cgabce|voulez-vous|name of the game|winner takes it all|dancing Queen/gimme gimme/sos/Waterloo/Mama Mia/Chiquituta/Fernando/winner takes it all/one of us/name of the game
+=-   34,12:00,somebody to Love - queen by George Michael
+=-   34,12:55,faith - George Michael
+=-   34,13:30,somebody to love - queen
+=-   34,13:30,under pressure - Davide Bowie w Annie Lennox
+=-   34,17:40,Stan - Eminem
+=-   34,18:15,jitterbug - wham!
+=-   34,28:15,parents just don't understand
+=-   34,30:15,older - they might be Giants
+=-   34,31:30,bossnof me - might be Giants
+=-   34,35:45,under pressure
+=-   34,41:30,life is a highway - Cochrane
+=-   34,1:04:15,na na na goodbye - ?
+=-   35(rude),8:00,killing softly - fugees
+=-   35,13:15,Monday Monday - Mama's papas
+=-   35,19:45,rumors - Timex social club
+=-   35,26:30,another brick in the wall
+=-   35,46:45,in dreams - orb
+=-   35,48:45, if I were a Carpenter 1 Tim Hardin
+=-   35,50:45,wasn't me - shaggy
+=-   35,51:30,Kathy's clown - every brothers
+=-   35,52:30, rules - Kidz
+=-   35,56:15,jump for yr love
+=-   35,56:15,rules - Kidz
+=-   35,1:02:15,knocking on heavens door - dylΩ
