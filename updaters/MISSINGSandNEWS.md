@@ -356,16 +356,16 @@
 	- 479,42:45(howl - w/ ads)
 
 - mike the janitor's mantra
-  - 218,24:20(howl)
-  - 218,24:50(howl)
-  - 218,30:33(howl)
-  - 218,1:14:00(howl)
-  - 283,1:00:13(howl)
+  - =218,24:20(howl)
+  - =218,24:50(howl)
+  - =218,30:33(howl)
+  - =218,1:14:00(howl)
+  - =283,1:00:13(howl)
   - bo2014.2,1:39:54
-  - 507,16:30
-  - 356,56:00(pw)
+  - =507,16:30
+  - =356,56:00(pw)
   - 384,42:50(pw)
-  - 2016.dallas,37:40
+  - =2016.dallas,37:40
 - auggiedoggie
   - tons
   - 515,1:00
@@ -442,6 +442,8 @@
   - 518,37:15(pw)
 - gino's commuter train map
   - 571,27:45(pw)
+  - peecast2018,14:20
+  - peecast2018,53:30
   - now hear this 2017 nyc,14:30
   - 599,2:31:00
   - 579,56:40(pw)
@@ -1735,7 +1737,7 @@
 - men of a certain age (get in the wayback machine, mr. peabody)
   - 2016.dallas,11:00
   - 356,37:00
-  - 384,47:30
+  - 384,37:40
   - 218,23:30(howl),inaugural
   - 218,27:20(howl)
   - 218,28:20(howl)
@@ -2005,6 +2007,10 @@
 
   - 262,??
 
+- i was walking down the street
+	- billions
+	- peecast2018,27:00
+	- peecast2018,28:15
 - the story of sting
   - bo2017.2,1:53:00
   - other Best-Ofs[]()
@@ -2014,6 +2020,8 @@
 
 - interesting people
   - several of the 480+ eps
+  - peecast2018,2:50
+  - peecast2018,24:00
   - now hear this 2017 nyc,24:30
   - now hear this 2017 nyc,3:15
   - now hear this 2017 nyc,11:45
