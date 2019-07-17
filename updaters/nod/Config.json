@@ -6,5 +6,6 @@
   "mongohost": "ds033599.mongolab.com",
   "mongouser": "cecmcgee",
   "mongopsswd": "5NWpI1",
-  "budir": "./bu"
+  "budir": "./bu",
+  "cloudinary":{"cloud_name":"cecois","api_key":"499116563672841","api_secret":"UynamGFEOZJa1welVSCd01uhwMM"}
 }

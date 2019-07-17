@@ -14,6 +14,13 @@ var __ = require('underscore')
 ,CLOUDINARY = require('cloudinary').v2
 ;
 
+CLOUDINARY.config({ 
+  cloud_name:CONFIG.cloudinary.cloud_name
+  ,api_key:CONFIG.cloudinary.api_key
+  ,api_secret:CONFIG.cloudinary.api_secret
+});
+
+
 const do_image = async (earurl) =>{
 
 return new Promise((resolve,reject)=>{
@@ -23,16 +30,23 @@ AXIOS.get(earurl)
     
 			$ = CHEERIO.load(response.data)
 			let firstimgbxmigurl = $(".epimgbox").first().find("a > img").attr('src')
-			console.log(firstimgbxmigurl)
+			// console.log(firstimgbxmigurl)
 
-let ear_img_url=firstimgbxmigurl
+if(firstimgbxmigurl)?{
+	let ear_img_url=firstimgbxmigurl
+	CLOUDINARY.uploader.unsigned_upload(ear_img_url,'brqz4ggs', null, (e,d)=>{
+resolve(d.url);
+});
+}else{
+	resolve('https://www.earwolf.com/wp-content/uploads/2013/11/105.jpg')
+}
 // first check earwolf for the image
 // if none resolve empty
 // if img send it to clou
-// CLOUDINARY.uploader.upload(ear_img_url, (error, result)=>{ 
-// 	if(error){reject(error)}
-// });
-resolve(ear_img_url);
+
+
+
+
   })
   .catch(function (error) {
     // handle error
