@@ -531,7 +531,7 @@
 =-   33(1+1),39:30,don't you worry bout a thing - stevie wonder
 =-   33(1+1),44:15,the boy is mine - monica & brandi
 =-   33(1+1),44:15,the girl is mine - micheal jackson
-=-   34,0:30,new rules
+=-   34(vegas),0:30,new rules
 =-   34,6:00,do you believe - Cher
 -   34,6:00,do you believe - Adam Lambert
 =-   34,11:00,take a cgabce|voulez-vous|name of the game|winner takes it all|dancing Queen/gimme gimme/sos/Waterloo/Mama Mia/Chiquituta/Fernando/winner takes it all/one of us/name of the game

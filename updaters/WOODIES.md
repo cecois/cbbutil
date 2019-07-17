@@ -225,16 +225,15 @@ live-from-vulture-fest-2017
 -   365,??:??,i'm not an android and i'm tired of the question
 -   366,1:03:13,wet beans or dry beans?
 -   366,57:07,for a person it's terrifyingly fast
--   366,57:15,35 mph is terrifyingly fast for a kid
 -   370,1:07:30,shot off a balcony
 -   375,24:27,How the fuck are you gonna get a motorcycle all the way to Europe, man?
 -   378,8:40,i waste so much of my day looking at zeros
 -   384,10:28,well i just asked a question but ok
 -   384,27:50,forget it i don't care
+-   384,35:00,now do you see why i laughed at what he said?
 -   384,47:20,do you not have hemmheroids?!
 -   384,57:50(pw),why would i be wearing two crowns on the top of my head hey-o
 -   384,59:00,may i ask where you ejaculate?
--   384,59:06,may i ask where you ejaculate?
 -   384,59:30,i think the second thing was probably doggie style
 -   386,49:50,make sure you interrupt my answer
 -   390,1:14:57,maybe you can suck a fuck

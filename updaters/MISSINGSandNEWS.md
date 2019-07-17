@@ -11,7 +11,7 @@
 1. ~~clumsy portmanteau~~
 1. ~~lapkus can't make it through a song~~
 2. ~~dads and grads~~
-2. mike the janitor's mantra
+2. ~~mike the janitor's mantra~~
 1. gino's commuter map
 1. ~~len wiseman~~
 1. ~~retiring a train~~
@@ -361,10 +361,10 @@
   - =218,30:33(howl)
   - =218,1:14:00(howl)
   - =283,1:00:13(howl)
-  - bo2014.2,1:39:54
+  - =bo2014.2,1:39:54
   - =507,16:30
   - =356,56:00(pw)
-  - 384,42:50(pw)
+  - =384,42:50(pw)
   - =2016.dallas,37:40
 - auggiedoggie
   - tons
@@ -1902,6 +1902,7 @@
   - 445,18:10(pw)
   - 525,2:03:00
   - bo2017.4,4:00
+  - bo2014.2,1:13:00
   - 463,2:29:20(pw)
   - bo2016.2,2:11:50(pw)
   - 572,1:15:33(pw)
