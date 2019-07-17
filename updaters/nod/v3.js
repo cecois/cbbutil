@@ -28,24 +28,20 @@ return new Promise((resolve,reject)=>{
 AXIOS.get(earurl)
   .then(function (response) {
     
+// first check earwolf for the image
 			$ = CHEERIO.load(response.data)
 			let firstimgbxmigurl = $(".epimgbox").first().find("a > img").attr('src')
-			// console.log(firstimgbxmigurl)
 
-if(firstimgbxmigurl)?{
+if(firstimgbxmigurl){
 	let ear_img_url=firstimgbxmigurl
+// if img send it to clou
 	CLOUDINARY.uploader.unsigned_upload(ear_img_url,'brqz4ggs', null, (e,d)=>{
 resolve(d.url);
 });
 }else{
+// if none resolve w/ aukerman's hs
 	resolve('https://www.earwolf.com/wp-content/uploads/2013/11/105.jpg')
 }
-// first check earwolf for the image
-// if none resolve empty
-// if img send it to clou
-
-
-
 
   })
   .catch(function (error) {
@@ -54,10 +50,6 @@ resolve(d.url);
     reject(error);
   });
 
-
-// result of earwolf-image-cloudify workflow
-
-// resolve('http://path/to/'+earurl.split("episode")[1]+'.jpg')
 
 })//promise
 }
@@ -72,7 +64,6 @@ let R=[];
 				var epno = e.split(":::")[0]
 				var epslug = e.split(":::")[1]
 				var img = await do_image("http://www.earwolf.com/episode/"+epslug);
-				// var img = await do_image("http://localhost:8000");
 
 			var O = {
 				episode:epno,
@@ -101,7 +92,7 @@ let R=[];
 }
 
 
-var audit = async (inc,ext) =>{
+var _AUDIT = async (inc,ext) =>{
 	return new Promise(function(resolve, reject) {
 
 console.log("audit flag null to start")
@@ -127,95 +118,8 @@ resolve(r)
 });//Promise
 }//audit
 
-var clean = async () =>{
-	return new Promise(function(resolve, reject) {
-		var r = []
-		var jsons = ["mongo.bu1.json","mongo.bu2.json"]
-		// tarball each
-		r.push("tarballed/removed "+jsons.length)
-		resolve(r)
-	});
-}
 
-
-var prepapp = async (inc) =>{
-	return new Promise(function(resolve, reject) {
-		var r = []
-		// set default query for "episode:44 OR episode:45" etc
-		var eps = __.uniq(__.pluck(inc,'episode'))
-		var q = eps.join(" OR ")
-		r.push("query set to "+q)
-		resolve(r)
-	});
-}
-
-var report = async (inc) =>{
-	return new Promise(function(resolve, reject) {
-		// var tpl = 'foo'
-		FS.readFile('Update.hbs',(err, template)=>{
-			if (!err) {
-
-				var groupd = __.groupBy(inc,'bit');
-
-// console.log(groupd);
-
-var sum = __.map(groupd,(G,i,L)=>{
-
-	var len = G.length
-	,bit = i
-	,instances = __.pluck(G,'instance')
-	;
-
-// console.log("bit",bit);
-var o = {bit:bit,count:len,instances:instances}
-// console.log(o);
-return o
-}) //map
-
-var sumo = {bits:sum,length:sum.length}
-
-		    // make the buffer into a string
-		    // var source = data.toString();
-		    // call the render function
-		    // renderToString(source, fooJson);
-		    var tpl = HANDLEBARS.compile(template.toString());
-		    var result = tpl(sumo);
-		    FS.writeFile('/tmp/cbb-update.html',result,(err,suc)=>{
-		    	if(!err){
-		    		var r={flag:null,rendering:"report generated using Update.hbs, written to /tmp/cbb-update.html"}
-		    		resolve(r)
-		    	} else {
-		    		var r={flag:'stop',rendering:"report gen failed, check /tmp/cbb-update.html"}
-		    		reject()
-		    	}
-		    })
-
-		  } else {
-		    // handle file read error
-		    reject(err)
-		  }
-		});
-
-	});
-}
-
-var esify = async () =>{
-	return new Promise(function(resolve, reject) {
-		var r = []
-		r.push("result of bulk ES")
-		resolve(r)
-	});
-}
-
-var sendNON= async (bits) =>{
-	return new Promise(function(resolve, reject) {
-		var r = []
-		r.push("result of mongo send should be "+bits.length+" additional documents")
-		resolve(r)
-	});
-}
-
-var send = async (bits) =>{
+const _SEND = async (bits) =>{
 	return new Promise(function(resolve, reject) {
 
 		var options = {
@@ -234,8 +138,27 @@ var send = async (bits) =>{
 	});//Promise
 }
 
+const _SENDSUMMARY = async (update) =>{
+	return new Promise(function(resolve, reject) {
 
-var incoming = async (ln) =>{
+		var options = {
+			database: CONFIG.mongodb,
+			collectionName: 'updates',
+			documents:update
+		};
+		MLAB.insertDocuments(options, function (err, d) {
+			if(err){reject(err)}else {
+
+				resolve({update_response:d});
+}//err.else
+		});//MONGO.connecdt
+
+
+	});//Promise
+}
+
+
+var _INCOMING = async (ln) =>{
 	return new Promise(function(resolve, reject) {
 		var r = {}
 
@@ -263,29 +186,6 @@ var incoming = async (ln) =>{
 	});
 }
 
-var imagify = async (U)=>{
-
-
-	return new Promise((resolve,reject)=>{
-
-		var imdgz = [];
-		__.each(U.report,async (r,i,l)=>{
-
-			var o =r;
-			o.image=await figure_figure(r)
-			if(typeof o.image!=='undefined'){imdgz.push(o)}
-
-				console.log("currently at "+(i+1)+" of "+l.length)
-
-			if(imdgz.length == l.length){
-				console.log(imdgz.length+" equals "+l.length+" so we resolve")
-				resolve(imdgz)
-			}
-		})
-
-})//promise
-
-}//imagify
 
 const _reports = async (epadhocids,inca) => {
 return new Promise((resolve,reject)=>{
@@ -315,9 +215,9 @@ resolve(__.map(epadhocids,async (e,i,l)=>{
 })//promise
 }//_reports
 
-var summarize_incoming = async (bits) =>{
+var _SUMMARIZE = async (bits) =>{
 
-	return new Promise(async(resolve, reject)=>{
+// return new Promise(async(resolve, reject)=>{
 
 		let episodes_updated = __.uniq(__.map(bits,(E)=>{var o = E.episode+":::"+E.slug_earwolf;return o; }));
 		let plur = episodes_updated.length>1?'s':''
@@ -409,7 +309,7 @@ var most_recent = async () =>{
 	})//promise
 }
 
-var extant_parse = async (F) =>{
+const extant_parse = async (F) =>{
 
 	return new Promise((resolve,reject)=>{
 
@@ -437,7 +337,7 @@ var extant_parse = async (F) =>{
 	})//promise
 }
 
-var extant = async () =>{
+const _EXTANT = async () =>{
 
 	return new Promise((resolve,reject)=>{
 
@@ -471,7 +371,7 @@ var extant = async () =>{
 })//promise
 }//extant
 
-var bu = async () =>{
+const bu = async () =>{
 
 	return new Promise((resolve, reject)=>{
 
@@ -532,7 +432,7 @@ var bu = async () =>{
 
 }
 
-var elastify = async (J)=>{
+const elastify = async (J)=>{
 
 	return new Promise((resolve,reject)=>{
 
@@ -630,7 +530,7 @@ console.log("processing bits from "+ln+"...")
 // read in incoming bits from $ln file
 // msg notes length, payload is actual bits
 */
-var inc = await incoming(ln);
+var inc = await _INCOMING(ln);
 R.incoming=inc.msg
 var inca = inc.payload
 console.log("inca.length",inca.length)
@@ -638,7 +538,7 @@ console.log("inca.length",inca.length)
 /* -----------------------------------------------
 // pull everything out of MLAB into a local file in budir - e.g. bu.2017_November_Sunday_02_06_35.json
 console.log("awaiting extant...")
-			var bu = await extant();
+			var bu = await _EXTANT();
 */
 
 /* -----------------------------------------------
@@ -662,7 +562,7 @@ console.log("exta.length",exta.length)
 // we send the fresh stuff and the archive for audit
 // audit maps inca and exta into comparable arrays (concatenating several presumably distinct fields [episode+bit+instance+tags] into one nonsensical but probably-unique string) - N.B. this is not foolproof
 console.log("awaiting audit...")
-			var audited = await audit(inca,exta);
+			var audited = await _AUDIT(inca,exta);
 			R.audit = audited
 
 console.log("audit.flag:",R.audit.flag)
@@ -678,7 +578,7 @@ console.log("audit.flag:",R.audit.flag)
 */
 console.log("--------------------> NORMLY WE SEND "+inca.length+" DOCUMENTS TO MLAB...");
 // console.log("--------------------> sending "+inca.length+" documents to MLAB...");
-// sent = await send(inca);
+// sent = await _SEND(inca);
 
 
 // console.log("SENT",sent)
@@ -715,9 +615,9 @@ var E = await elastify(ext_source2);
 
 console.log("let's summarize the new stuff...")
 
-var summary = await summarize_incoming(inca);
+var summary = await _SUMMARIZE(inca);
 
-        console.log(JSON.stringify(summary))
+// console.log(JSON.stringify(summary))
         // write(summary);
 
 }

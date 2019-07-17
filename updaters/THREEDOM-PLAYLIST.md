@@ -558,4 +558,66 @@
 =-   35,52:30, rules - Kidz
 =-   35,56:15,jump for yr love
 =-   35,56:15,rules - Kidz
-=-   35,1:02:15,knocking on heavens door - dylΩ
+=-   35,1:02:15,knocking on heavens door - dyl
+-	36(zizag),2:45,laffy Taffy
+-	36(zizag),2::45, bread and butter - newbeats
+-	36(zizag),13:00,simply irresistible - palmer
+-	36(zizag),18:00,centerfi eld - fogerty
+-	36(zizag),25:00,Janie gun - Aerosmith
+-	36(zizag),29:00, you make feel might real (upbeat version) - Sylvester
+-	36(zizag),30:00,national anthem (not del Rey)
+-	36(zizag),48:15,Ed Hardy - Mann?
+-	36(zizag),48:15, get down tonight - KC sunshine
+-	36(zizag),48:45, funniest home videos theme song
+-	36(zizag),54:45,body wonderland
+-	37(boys),7:00,Max Madsen jingle
+-	37(boys),11:45,hat on - Joe cocker
+-	37(boys),19:30,took the words - meatloaf
+-	37(boys),19:30, paradise - meatloaf
+-	37(boys),20:20,boys are back in town - ?
+-	37(boys),30:45,don't turn around - ace/base
+-	37(boys),34:30,I will survive - Gaynor
+-	37(boys),35:50, "
+-	37(boys),42:15,show you the world? - Aladdin 
+-	37(boys),50:15, simply irresistible - Robert Palmer
+-	
+-	38(grits),10:00,next episode (Snoop Dre)
+-	38(grits),16:00,turnaround Bright eyes
+-	38(grits),18:00,oh what a night
+-	38(grits),26:30,b-i-n-g-o
+-	38(grits),35:00,Francis and the lights song from always be my maybe
+-	38(grits),53:00,nanana hey hey goodbye
+-	38(grits),54:15,Ashley simp + boyftiend
+-	38(grits),54:15,fugees killing
+-	38(grits),1:01:00,wrap it up
+-	38(grits),1:01:00,me so horny
+-	
+-	39(challenge),6:30, this is my confession - afghan wigs
+-	39(challenge),17:30,deeeeez nuuuuts - Dr dre
+-	39(challenge),21:30,monster mash - Boris
+-	39(challenge),26:15,killing softly - fugues
+-	39(challenge),31:15,out of space - the prodigy
+-	39(challenge),32:00,out of space - the prodigy
+-	39(challenge),36:50,hello dolly
+-	39(challenge),38:30,jingle bells
+-	39(challenge),43:45,special thing - tenacious d
+-	39(challenge),45:50,??? (you’re a thirst trap [big girl?]) - chicago?
+-	39(challenge),46:45,i’m on a boat - lonely island
+-	39(challenge),46:50,hickory wind - gram parsons
+-	39(challenge),52:45,time of the season - zombies
+-	39(challenge),1:15:45, fly me to the Moon - Sinatra
+-	
+-	40(dog),0:24, psychopathic music ???
+-	40(dog),1:00, take me to church - Hozier
+-	40(dog),2:09, Dont stop till you get enough - MJ
+-	40(dog),2:30,I believe I can fly - r Kelly
+-	40(dog),6:00,click song - Kanye
+-	40(dog),15:45,pop music (talk about) - ??
+-	40(dog),42:20,when you're a jet
+-	40(dog),47:10, pop music
+-	40(dog),48:00, "
+-	40(dog),48:30, "
+-	40(dog),50:00,kyle quit the band
+-	40(dog),51:30,pop music
+-	40(dog),54:00,we found love-Rihanna's
+-	40(dog),56:00, every morning-sugar Ray
