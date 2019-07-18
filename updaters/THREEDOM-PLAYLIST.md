@@ -559,7 +559,7 @@
 =-   35,56:15,jump for yr love
 =-   35,56:15,rules - Kidz
 =-   35,1:02:15,knocking on heavens door - dyl
--	36(zizag),2:45,laffy Taffy
+=-	36(zizag),2:45,laffy Taffy
 -	36(zizag),2::45, bread and butter - newbeats
 -	36(zizag),13:00,simply irresistible - palmer
 -	36(zizag),18:00,centerfi eld - fogerty
