@@ -560,16 +560,16 @@
 =-   35,56:15,rules - Kidz
 =-   35,1:02:15,knocking on heavens door - dyl
 =-	36(zizag),2:45,laffy Taffy
--	36(zizag),2::45, bread and butter - newbeats
--	36(zizag),13:00,simply irresistible - palmer
--	36(zizag),18:00,centerfi eld - fogerty
--	36(zizag),25:00,Janie gun - Aerosmith
--	36(zizag),29:00, you make feel might real (upbeat version) - Sylvester
--	36(zizag),30:00,national anthem (not del Rey)
+=-	36(zizag),2::45, bread and butter - newbeats
+=-	36(zizag),13:00,simply irresistible - palmer
+=-	36(zizag),18:00,centerfi eld - fogerty
+=-	36(zizag),25:00,Janie gun - Aerosmith
+=-	36(zizag),29:00, you make feel might real (upbeat version) - Sylvester
+=-	36(zizag),30:00,national anthem (not del Rey)
 -	36(zizag),48:15,Ed Hardy - Mann?
--	36(zizag),48:15, get down tonight - KC sunshine
--	36(zizag),48:45, funniest home videos theme song
--	36(zizag),54:45,body wonderland
+=-	36(zizag),48:15, get down tonight - KC sunshine
+=-	36(zizag),48:45, funniest home videos theme song
+=-	36(zizag),54:45,body wonderland
 -	37(boys),7:00,Max Madsen jingle
 -	37(boys),11:45,hat on - Joe cocker
 -	37(boys),19:30,took the words - meatloaf
