@@ -61,6 +61,7 @@
   - 599,6:57:45
 * standing up shaking your fist/risen
   - 373,multiple
+  - 611,1:22:00
   - 602,37:45
   - 603,48:30
   - 600,42:45
@@ -2021,6 +2022,8 @@
 
 - interesting people
   - several of the 480+ eps
+  - 611,36:15
+  - 611,45:00
   - peecast2018,2:50
   - peecast2018,24:00
   - now hear this 2017 nyc,24:30

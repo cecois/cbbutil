@@ -93,7 +93,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
     </div NB="/.columns">
 
     <div :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='default'">
-      <div v-if="hero" class="column zCBB-hero-column">
+      <div v-if="hero" style="padding-bottom:3em;" class="column zCBB-hero-column">
 
 <p class="is-size-2 has-text-weight-bold has-text-right zCBB-primary" style="padding-right:3em;">Special Update!</p>
         <p class="is-size-5 has-text-weight-light has-text-right zCBB-primary-3" style="padding-right:3em;padding-left:3em;">
@@ -249,7 +249,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
               
 <div class="column is-7"><span style="margin-left:1em;" class="is-size-7 has-text-grey-light">ep.{{bit._source.episode.split('/')[bit._source.episode.split('/').length-1]}}</span><span class="is-size-7 has-text-grey-light" v-if="bit._source.created_at">&nbsp;|&nbsp;~{{bit._source.tstart}}&nbsp;|&nbsp;added: {{$MOMENT(bit._source.created_at).format('YYYY.MMM.Mo')}}</span><span class="is-size-7 has-text-grey-light" v-if="bit._source.updated_at">&nbsp;|&nbsp;updated {{$MOMENT(bit._source.updated_at).format('YYYY.MMM.Mo')}}</span></div NB="/.column">
 
-<div class="column"><div v-if="bit._source.tags" style="margin-left:1px;" v-bind:class="['zCBB-tag','tag',(query.string && encodeURI(query.string.toLowerCase()).indexOf(encodeURI(tag.toLowerCase()))>=0)?'is-hot':'']" @click="triggerSingleFieldQuery('tag',tag)" v-for="tag in (bit._source.tags.split(','))">{{tag}}</div NB="tags"></div NB="/.column">
+<div class="column"><div v-if="bit._source.tags" style="margin-left:1px;" v-bind:class="['zCBB-tag','tag',(query.string && encodeURI(query.string.toLowerCase()).indexOf(encodeURI(tag.toLowerCase()))>=0)?'is-hot':'']" @click="triggerSingleFieldQuery('tags',tag)" v-for="tag in (bit._source.tags.split(','))">{{tag}}</div NB="tags"></div NB="/.column">
             
             </div NB="/.columns  .zCBB-bit-data-meta">
 
@@ -311,16 +311,21 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
                               <h2 class="is-size-3"><i class="fas fa-search-location"></i>&nbsp;Searching</h2>
                                 <p>Basically you can just type into the box like a monkey might do it - "huell" or "fourvel" and so forth. Case is irrelevant.</p>
                                 <p>Any query that results in even one Location will subquery that location and it will appear on the map, below (ctrl key or the map icon, above, will toggle a better display).</p>
-        <p>But also know that whatever you type into the box gets pretty much POSTed as-is to an <a href="https://www.elastic.co/products/elasticsearch">ElasticSearch</a> (v5.6) index. As with most search engines, there is <a href="https://www.elastic.co/guide/en/elasticsearch/reference/5.6/query-dsl-query-string-query.html">some pretty advanced stuff</a> you can do if you like. To wit:</p>
+        <p>But also know that whatever you type into the box gets pretty much POSTed as-is to an <a href="https://www.elastic.co/products/elasticsearch">ElasticSearch</a> index. As with most search engines, there is <a href="https://www.elastic.co/guide/en/elasticsearch/reference/5.6/query-dsl-query-string-query.html">some pretty advanced stuff</a> you can do if you like. To wit:</p>
 <p>
   <ul style="list-style: none;">
-    <li style="margin-bottom:2em;">to find all the Phil Collins references that *aren't* about his Live Aid Concorde stunt: <p><code @click="setQueryFire({string:'%22phil collins%22 -concorde'})">"phil collins" -concorde</code></p></li>
-    <li style="margin-bottom:2em;">...or those that specifically are: <p><code @click="setQueryFire({string:'%22phil collins%22 +concorde'})">"phil collins" +concorde</code></p></li>
-    <li style="margin-bottom:2em;">it's also fun to, say, find all the times a Lapkus character is referenced when she's not even there: <p><code>
-      -episode_guests:*lapkus +(reard*n || "nephew todd" || "regina crimp" || "mizz chips" || "liz mathers" || "marla charles" || "frank dorito" || "ho ho" || "benjamin susix" || "hortense harpie" || "murphy o'malaman" || "juniper flagen" || "sunny" || "scarsdale" || "salantame" || "big sue" || "dimples" || "mrs. blarrr" || "frank dorito" || "amanda calzone" || "natalie scoppapoppalee" || "whitney peeps" || "lisa porsche" || "harmony moongloss" || "craigory james" || "pamela from big bear" || "dinky liddle" || "carmela pointe" || "wendy quote the worm endquote widelman" || "the dell guy" || "ross gellar" || "p'nut" || "bunty pickles" || "vernessa lykes" || "dump dump" || "waldo" || "dirk thirsty" || "scat hamptoncrat")
-    </code>
+    <li style="margin-bottom:2em;">to find all the Phil Collins references that *aren't* about his Live Aid Concorde stunt: <p @click="setQueryFire({string:'%22phil collins%22 -concorde'})" class="zCBB-trigger">"phil collins" -concorde</p></li>
+    <li style="margin-bottom:2em;">...or those that specifically are: <p @click="setQueryFire({string:'%22phil collins%22 +concorde'})" class="zCBB-trigger">"phil collins" +concorde</p></li>
+    <li style="margin-bottom:2em;">it's also fun to, say, find all the times a Lapkus character is referenced when she's not even there: <p class="zCBB-trigger" @click="setQueryFire({string:'-episode_guests:*lapk*s +(reard*n || %22nephew todd%22 || %22regina crimp%22 || %22mizz chips%22 || %22liz mathers%22 || %22marla charles%22 || %22frank dorito%22 || %22ho ho%22 || %22benjamin susix%22 || %22hortense harpie%22 || %22murphy o%27malaman%22 || %22juniper flagen%22 || %22sunny%22 || %22scarsdale%22 || %22salantame%22 || %22big sue%22 || %22dimples%22 || %22mrs. blarrr%22 || %22frank dorito%22 || %22amanda calzone%22 || %22natalie scoppapoppalee%22 || %22whitney peeps%22 || %22lisa porsche%22 || %22harmony moongloss%22 || %22craigory james%22 || %22pamela from big bear%22 || %22dinky liddle%22 || %22carmela pointe%22 || %22wendy quote the worm endquote widelman%22 || %22the dell guy%22 || %22ross gellar%22 || %22p%27nut%22 || %22bunty pickles%22 || %22vernessa lykes%22 || %22dump dump%22 || %22waldo%22 || %22dirk thirsty%22 || %22scat hamptoncrat%22)'})">
+      -episode_guests:*lapk*s +(reard*n || "nephew todd" || "regina crimp" || "mizz chips" || "liz mathers" || "marla charles" || "frank dorito" || "ho ho" || "benjamin susix" || "hortense harpie" || "murphy o'malaman" || "juniper flagen" || "sunny" || "scarsdale" || "salantame" || "big sue" || "dimples" || "mrs. blarrr" || "frank dorito" || "amanda calzone" || "natalie scoppapoppalee" || "whitney peeps" || "lisa porsche" || "harmony moongloss" || "craigory james" || "pamela from big bear" || "dinky liddle" || "carmela pointe" || "wendy quote the worm endquote widelman" || "the dell guy" || "ross gellar" || "p'nut" || "bunty pickles" || "vernessa lykes" || "dump dump" || "waldo" || "dirk thirsty" || "scat hamptoncrat")
   </p>
-    <p class="hast-text-italic">(...where the + is a boolean AND and the || is boolean OR)</p>
+    <p class="hast-text-italic">...where the ask goes like:</p>
+    <p> 
+      <ul style="" class="">
+<div><code>-episode_guests:*lapk*s</code>:&nbsp;<span class="is-size-6 has-text-grey">NOT where field episode_guests contains either Lapkus or Lapkis (or any other flavor w/ a character between k and s - bion there are some records in here with her name still misspelled.</span></div>
+<div><code>+(reard*n || "nephew todd"...</code>:&nbsp;<span class="is-size-6 has-text-grey">where somewhere in the record appears any (|| == boolean OR) of the phrases that follow (including those, like Traci Reardon's last name, that have some characters wildcarded)</span></div>
+</ul>
+    </p>
 </li>
   </ul>
 </p>
@@ -333,8 +338,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
         <div class="card large"><div class="card-content"><div class="content">
           <h2 class="is-size-3"><i class="fas fa-clock"></i>&nbsp;Timestamps</h2>
 
-          <p>Each record has <strong>tstart</strong> and <strong>tend</strong> timestamps - ostensibly these frame the specific instance within the episode. However, when CBB audio files were moved behind the Howl paywall (and then to Stitcher), it rendered many of them incorrect – as paywalled episodes pass the edit points where commercials used to be, they're offset by however long the excised commercials were.</p><p>Timestamps can still be used to get close to the instance when listening, but they are no longer accurate enough to be used for, say, supercutting or something. When they're wrong they're late - scrub backwards if you don't hear the thing within, say, 15s.
-
+          <p>Each record has <strong>tstart</strong> and <strong>tend</strong> timestamps - ostensibly these frame the specific instance within the episode. However, when CBB audio files were moved behind the Howl paywall (and then to Stitcher), it rendered many of them incorrect – as paywalled episodes pass the edit points where commercials used to be, they're offset by however long the excised commercials were.</p><p>Timestamps can still be used to get close to the instance when listening, but they are no longer accurate enough to be used for, say, supercutting or something. When they're wrong they're late (as late as however <i>N</i>-many minutes-full of ads there might have been) - scrub backwards X-much, depending on whatever third of the show you're in.
           </p>
         </div></div></div>
       </div>
@@ -487,7 +491,7 @@ this.query='(episode:'+ep+' AND bit:"'+bt+'")'
 this.getBits()
     },
     triggerSingleFieldQuery: function (f,v) {
-this.query=f+':"'+v+'"'
+this.query.string=f+':"'+v+'"'
 this.getBits()
     },
     consolelog: function (c1,c2) {
@@ -702,7 +706,7 @@ __.map(__.uniq(this.query.facets.guests),(g)=>{return ' +episode_guests.comma_de
 
 
 // "phil collins" -concorde +(tags.comma_del:"sussudio (song)")
-let qso = '+'+this.query.string.replace("tags:","tags.comma_del").replace('episode_guests:',"episode_guests.comma_del")+qfg+qft+qfb+qfe
+let qso = this.query.string.replace("tags:","tags.comma_del:").replace('episode_guests:',"episode_guests.comma_del:")+qfg+qft+qfb+qfe
 console.log(qso);
   // let Q = {"wildcard":{"tags.comma_del":"cake boss"}}
   let Q = {

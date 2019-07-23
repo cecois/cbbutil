@@ -41,26 +41,28 @@
     "id_wikia": null,
     "holding": "false"
   },
-    {
-        "episode": 601,
-        "show": "cbb",
-        "tstart": "34:45",
-        "tend": "35:15",
-        "instance": "Anyone ever mistake you for a dead body that they need to get rid of somehow?",
-"elucidation":"scott's...questions","bit":"Scott's Questions"
-        ,"tags": "Becky",
-        "hero":{"on":true,"attrib":"Scott Aukerman"},
-        "nb": [],
-        "location_type": "",
-        "location_id": "",
-        "updated_at": "2019-05-13T11:24:09Z",
-        "url_soundcloud": null,
-        "created_at": "2019-05-13T11:24:09Z",
-        "slug_soundcloud": null,
-        "slug_earwolf": "20th-anniversary-special",
-        "episode_title": "20th Anniversary Special",
-        "episode_guests": "Kulap Vilaysack,Lily Sullivan,Ryan Gaul",
-        "id_wikia": null,
-        "holding": "false"
-    }
+  {
+    "episode": "http://howl.fm/audio/46644/live-from-vulture-fest-2017",
+    "show": "cbb",
+    "tstart": "1:01:45",
+    "tend": "1:02:30",
+    "instance": "'Dashiki Fever' was also one of the 70s songs you sang backup on, correct?",
+    "elucidation": "identifiable earth location",
+    "bit": "Location",
+    "tags": "Charlotte Listler,Marissa Wompler",
+    "nb": [
+      "patagonia"
+    ],
+    "location_type": "poly",
+    "location_id": "438",
+    "updated_at": "2019-05-20T14:15:25Z",
+    "url_soundcloud": null,
+    "created_at": "2019-05-20T14:15:25Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "live-from-vulture-fest-2017",
+    "episode_title": "Live from Vulture Fest 2017",
+    "episode_guests": "Paul F. Tompkins,Lauren Lapkus,Lennon Parham,Jessica St. Clair,Anthony Atamanuik,John Gemberling,Ryan Gaul,Drew Tarver",
+    "id_wikia": null,
+    "holding": "false"
+  }
 ]

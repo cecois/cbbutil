@@ -180,16 +180,11 @@ console.log('bits.length:',bits.length);
 console.log('locs.length:',locs.length);
 return new Promise((resolve,reject)=>{
 
-
 let bmap = __.map(locs,(l)=>{
 return l.geometry.type.toLowerCase().replace('multi','').replace('gon','').replace('string','')+':'+l.properties.cartodb_id
 })
 
-// console.log("first n bit:",__.first(bits,5))
-// console.log("first n loc:",__.first(bmap,5))
 console.log(__.difference(bits,bmap).length+" mismatches, resolving...")
-	// console.log(__.difference(bits,__.map(locs,(l)=>{return l.location_type+':'+l.location_id})))
-	// console.log('test results go here')
 	resolve(__.difference(bits,bmap))
 
 })//promise
@@ -198,14 +193,11 @@ console.log(__.difference(bits,bmap).length+" mismatches, resolving...")
 const _AUDIT = async () =>{
 	
 const gbits = await _INCOMING_GEOM_BITS();
-// const tests = await _TEST_BITS(gbits);
 console.log(gbits.length+" incoming location bits")
 let mbits = __.map(gbits,(b)=>{return b.location_type+':'+b.location_id});
-// console.log(mbits.length+" incoming mapped bits (should be same)")
 let ubits = __.uniq(mbits);
 console.log(ubits.length+" *uniq* incoming mapped bits (likely less)")
 let locs = await _INCOMING_GEOMS(ubits)
-// console.log(" locs:",locs)
 const tests = await _TEST_BITS(ubits,locs);
 console.log(tests)
 }

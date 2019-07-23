@@ -6,7 +6,7 @@ var __ = require('underscore')
 ,PATH = require('path')
 ,ZLIB = require('zlib')
 ,DB = require('mongodb').Db
-// ,MLAB = require('mongolab-data-api')(CONFIG.mongokey)
+,MLAB = require('mongolab-data-api')(CONFIG.mongokey)
 ,ELASTIC = require('elasticsearch')
 ,MOMENT = require('moment')
 ,CHEERIO = require('cheerio')
@@ -21,12 +21,12 @@ CLOUDINARY.config({
 });
 
 
-const do_image = async (earurl) =>{
+const _DO_IMAGE = async (earurl) =>{
 
 return new Promise((resolve,reject)=>{
 
 AXIOS.get(earurl)
-  .then(function (response) {
+  .then(function (response) { 
     
 // first check earwolf for the image
 			$ = CHEERIO.load(response.data)
@@ -44,17 +44,37 @@ resolve(d.url);
 }
 
   })
-  .catch(function (error) {
-    // handle error
-    console.log(error);
-    reject(error);
-  });
+  .catch((error) => {
+        // Error 😨
+        if (error.response) {
+            /*
+             * The request was made and the server responded with a
+             * status code that falls out of the range of 2xx
+             */
+            console.log(error.response.data);
+            console.log(error.response.status);
+            console.log(error.response.headers);
+            resolve('https://www.earwolf.com/wp-content/uploads/2013/11/105.jpg')
+        } else if (error.request) {
+            /*
+             * The request was made but no response was received, `error.request`
+             * is an instance of XMLHttpRequest in the browser and an instance
+             * of http.ClientRequest in Node.js
+             */
+            console.log(error.request);
+            resolve('https://www.earwolf.com/wp-content/uploads/2013/11/105.jpg')
+        } else {
+            // Something happened in setting up the request and triggered an Error
+            console.log('Error', error.message);
+            resolve('https://www.earwolf.com/wp-content/uploads/2013/11/105.jpg')
+        }
+    });
 
 
 })//promise
 }
 
-const reports = async (rarr,bits) =>{
+const _REPORTS = async (rarr,bits) =>{
 
 return new Promise((resolve,reject)=>{
 let R=[];
@@ -63,7 +83,13 @@ let R=[];
 
 				var epno = e.split(":::")[0]
 				var epslug = e.split(":::")[1]
-				var img = await do_image("http://www.earwolf.com/episode/"+epslug);
+
+				let img = 'https://www.earwolf.com/wp-content/uploads/2013/11/105.jpg'
+				if(epslug.indexOf('http')>=0){
+					img='https://www.earwolf.com/wp-content/uploads/2013/11/105.jpg'
+				} else {
+					img = await _DO_IMAGE("http://www.earwolf.com/episode/"+epslug);
+				}
 
 			var O = {
 				episode:epno,
@@ -139,6 +165,7 @@ const _SEND = async (bits) =>{
 }
 
 const _SENDSUMMARY = async (update) =>{
+	console.log("   in sendsummary...")
 	return new Promise(function(resolve, reject) {
 
 		var options = {
@@ -146,13 +173,13 @@ const _SENDSUMMARY = async (update) =>{
 			collectionName: 'updates',
 			documents:update
 		};
+	console.log("   ...options:",options)
 		MLAB.insertDocuments(options, function (err, d) {
-			if(err){reject(err)}else {
+			if(err){console.log(err);reject(err)}else {
 
 				resolve({update_response:d});
 }//err.else
 		});//MONGO.connecdt
-
 
 	});//Promise
 }
@@ -187,72 +214,49 @@ var _INCOMING = async (ln) =>{
 }
 
 
-const _reports = async (epadhocids,inca) => {
-return new Promise((resolve,reject)=>{
+// const _reports = async (epadhocids,inca) => {
+// return new Promise((resolve,reject)=>{
 
-resolve(__.map(epadhocids,async (e,i,l)=>{
-			var epno = e.split(":::")[0]
-			var epslug = e.split(":::")[1]
+// resolve(__.map(epadhocids,async (e,i,l)=>{
+// 			var epno = e.split(":::")[0]
+// 			var epslug = e.split(":::")[1]
 
-			var O = {episode:epno,image:'null',slug:epslug,ep_url:"http://www.earwolf.com/episode/"+epslug}
+// 			var O = {episode:epno,image:'null',slug:epslug,ep_url:"http://www.earwolf.com/episode/"+epslug}
 
-			var eps_bits = __.pluck(__.filter(inca,(b)=>{
-				return b.episode==epno}),'bit');
+// 			var eps_bits = __.pluck(__.filter(inca,(b)=>{
+// 				return b.episode==epno}),'bit');
 			
-			var beets = __.map(__.uniq(eps_bits),(m)=>{
-				var o = {
-					bit:m
-					,count:__.filter(eps_bits,(li)=>{return li==m;}).length
-				}; //o
-				console.log("o:",o);
-				return o;
-			});//map.beets
-			O.bits_sum=beets;
-			console.log('returning O:',O)
-			return O;
-		})//map
-)//resolve
-})//promise
-}//_reports
+// 			var beets = __.map(__.uniq(eps_bits),(m)=>{
+// 				var o = {
+// 					bit:m
+// 					,count:__.filter(eps_bits,(li)=>{return li==m;}).length
+// 				}; //o
+// 				console.log("o:",o);
+// 				return o;
+// 			});//map.beets
+// 			O.bits_sum=beets;
+// 			console.log('returning O:',O)
+// 			return O;
+// 		})//map
+// )//resolve
+// })//promise
+// }//_reports
 
-var _SUMMARIZE = async (bits) =>{
+const _SUMMARIZE = async (bits) =>{
 
-// return new Promise(async(resolve, reject)=>{
+return new Promise(async(resolve, reject)=>{
 
 		let episodes_updated = __.uniq(__.map(bits,(E)=>{var o = E.episode+":::"+E.slug_earwolf;return o; }));
 		let plur = episodes_updated.length>1?'s':''
 
+// "2019-04-01T09:37:04Z"
+// MOMENT().format('YYYY-MM-DDTHH:hh:mm:ssZ');
 let R = {
-			date:MOMENT().format('YYYY.MMM.DD')
+			date:MOMENT().format('YYYY-MM-DDTHH:hh:mm:ss\Z')
 			,episodes_summary:bits.length+" bits from "+episodes_updated.length+" episode"+plur+" (ep"+plur+" "+__.map(episodes_updated,(E)=>{return E.split(":::")[0]}).join(", ")+")"
 			,query:"("+__.map(episodes_updated,(e)=>{return "episode:"+e.split(":::")[0]}).join(" OR ")+")"
 			,eps:episodes_updated
-			,reports:await reports(episodes_updated,bits)
-		// 	__.map(episodes_updated,async (e,i,l)=>{
-
-		// 		var epno = e.split(":::")[0]
-		// 		var epslug = e.split(":::")[1]
-		// 		var img = await do_image("http://www.earwolf.com/episode/"+epslug);
-
-		// 	var O = {
-		// 		episode:epno,
-		// 		image:img,
-		// 		slug:epslug,ep_url:"http://www.earwolf.com/episode/"+epslug}
-
-		// 	var eps_bits = __.pluck(__.filter(bits,(b)=>{
-		// 		return b.episode==epno}),'bit');
-			
-		// 	var beets = __.map(__.uniq(eps_bits),(m)=>{
-		// 		var o = {
-		// 			bit:m
-		// 			,count:__.filter(eps_bits,(li)=>{return li==m;}).length
-		// 		}; //o
-		// 		return o;
-		// 	});//map.beets
-		// 	O.bits_sum=beets;
-		// 	return O;
-		// })//map
-
+			,reports:await _REPORTS(episodes_updated,bits)
 		}
 
 resolve(R)
@@ -613,11 +617,11 @@ console.log("ELASTIFYING!");
 var E = await elastify(ext_source2);
 */
 
-console.log("let's summarize the new stuff...")
-
-var summary = await _SUMMARIZE(inca);
-
-// console.log(JSON.stringify(summary))
+console.log("summarize new from "+ln+"...")
+let summary = await _SUMMARIZE(inca);
+console.log("sending update...")
+let update = await _SENDSUMMARY(summary);
+console.log(JSON.stringify(update))
         // write(summary);
 
 }
@@ -625,7 +629,7 @@ var summary = await _SUMMARIZE(inca);
 } catch(error) {
 	console.error(error);
 }
-// console.log("WANNA BACK UP DEM GEOMS, CHUMP? ./Users/ccmiller/Documents/cbb-bu-geoms.sh ")
+console.log("WANNA BACK UP DEM GEOMS, CHUMP? ./Users/ccmiller/Documents/cbb-bu-geoms.sh ")
 } //main
 
 main();
