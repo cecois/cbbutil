@@ -1962,5 +1962,53 @@
     "episode_guests": "Jon Gabrus,Bryan Safi,Zac Oyama,Edgar Momplaisir",
     "id_wikia": null,
     "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=45817184",
+    "show": "cbb",
+    "tstart": "4:20",
+    "tend": "5:00",
+    "instance": "I spent all of Saturday in one of the outhouses.",
+    "bit": "Location",
+        "elucidation": "identifiable earth location",
+         "nb": [
+            "an outhouse at outside lands fest (golden gate park)","site of: Gino Lambardo trapped in a mobile bathroom"
+        ],
+"tags": "Gino Lambardo",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-07-22T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-07-22T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "Live at Outside Lands (2015.Aug.09)",
+    "episode_guests": "Jon Gabrus,Rory Scovel,Matt Besser,James Adomian",
+    "id_wikia": null,
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=45817184",
+    "show": "cbb",
+    "tstart": "21:20",
+    "tend": "21:45",
+    "instance": "You know Gino over here fell in an outhouse yesterday.",
+    "bit": "Location",
+        "elucidation": "identifiable earth location",
+         "nb": [
+            "an outhouse at outside lands fest (golden gate park)","site of: Gino Lambardo trapped in a mobile bathroom"
+        ],
+"tags": "Gino Lambardo,Ranger Steve",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-07-22T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-07-22T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "Live at Outside Lands (2015.Aug.09)",
+    "episode_guests": "Jon Gabrus,Rory Scovel,Matt Besser,James Adomian",
+    "id_wikia": null,
+    "holding": "false"
   }
 ]

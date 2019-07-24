@@ -771,3 +771,26 @@
 	"id_wikia": null,
 	"holding": "false"
 }
+
+,
+  {
+    "episode": "https://www.stitcher.com/s?eid=45817184",
+    "show": "cbb",
+    "tstart": "23:30",
+    "tend": "23:50",
+    "instance": "Hey I got nowhere to be for prolly a whole two to three years.",
+    "bit" : "I Literally Have Nowhere Else to Be",
+	"elucidation" : "a guest defaults to sticking around for the rest of the show",
+    "tags": "",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-07-22T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-07-22T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "Live at Outside Lands (2015.Aug.09)",
+    "episode_guests": "Jon Gabrus,Rory Scovel,Matt Besser,James Adomian",
+    "id_wikia": null,
+    "holding": "false"
+  }
