@@ -252,7 +252,7 @@ return new Promise(async(resolve, reject)=>{
 // "2019-04-01T09:37:04Z"
 // MOMENT().format('YYYY-MM-DDTHH:hh:mm:ssZ');
 let R = {
-			date:MOMENT().format('YYYY-MM-DDTHH:hh:mm:ss\Z')
+			date:MOMENT().format('YYYY-MM-DDTHH:hh:mm:ss\\Z')
 			,episodes_summary:bits.length+" bits from "+episodes_updated.length+" episode"+plur+" (ep"+plur+" "+__.map(episodes_updated,(E)=>{return E.split(":::")[0]}).join(", ")+")"
 			,query:"("+__.map(episodes_updated,(e)=>{return "episode:"+e.split(":::")[0]}).join(" OR ")+")"
 			,eps:episodes_updated
@@ -291,7 +291,7 @@ var write = async(UP)=>{
 
 }
 
-var most_recent = async () =>{
+var _MOST_RECENT = async () =>{
 
 	return new Promise((resolve,reject)=>{
 
@@ -313,7 +313,7 @@ var most_recent = async () =>{
 	})//promise
 }
 
-const extant_parse = async (F) =>{
+const _EXTANT_PARSE = async (F) =>{
 
 	return new Promise((resolve,reject)=>{
 
@@ -373,6 +373,11 @@ const _EXTANT = async () =>{
 		});
 
 })//promise
+}//extant
+
+const _CLEAN = async (buj) =>{
+
+	console.log("here soon we will tar and remove "+buj)
 }//extant
 
 const bu = async () =>{
@@ -517,7 +522,7 @@ FS.readFile(CONFIG.budir+"/"+J,(err,dat)=>{
 
 }
 
-var main = async () =>{
+const main = async () =>{
 	var R = {}
 	R.audit = {flag:null}
 
@@ -530,39 +535,41 @@ var main = async () =>{
 		} else {
 
 console.log("processing bits from "+ln+"...")
-/* -----------------------------------------------
+/* ----------------------------------------------- parse incoming file
 // read in incoming bits from $ln file
 // msg notes length, payload is actual bits
 */
-var inc = await _INCOMING(ln);
+const inc = await _INCOMING(ln);
 R.incoming=inc.msg
-var inca = inc.payload
+const inca = inc.payload
 console.log("inca.length",inca.length)
 
-/* -----------------------------------------------
-// pull everything out of MLAB into a local file in budir - e.g. bu.2017_November_Sunday_02_06_35.json
-console.log("awaiting extant...")
-			var bu = await _EXTANT();
+/* ----------------------------------------------- dump current
 */
 
-/* -----------------------------------------------
+// pull everything out of MLAB into a local file in budir - e.g. bu.2017_November_Sunday_02_06_35.json
+console.log("awaiting extant...")
+			const bu = await _EXTANT();
+
+/* ----------------------------------------------- determine most recent dump
+*/
 // check budir for the MOST RECENT *.json bu
 // this allows us to pull/not pull a backup every time
 console.log("awaiting most recent...")
-var ext_source = await most_recent();
+const ext_source = await _MOST_RECENT();
 console.log("found to be:",ext_source)
-*/
 
-/* -----------------------------------------------
+/* ----------------------------------------------- parse most recent dump
+*/
 // parse that file
-var extant_parsed = await extant_parse(ext_source);
+const extant_parsed = await _EXTANT_PARSE(ext_source);
 R.extant=extant_parsed.msg
 var exta = extant_parsed.payload
 console.log("exta.length",exta.length)
 			// exta is now our live copy of everything that's come before
-*/
 
-/* -----------------------------------------------
+/* ----------------------------------------------- audit
+*/
 // we send the fresh stuff and the archive for audit
 // audit maps inca and exta into comparable arrays (concatenating several presumably distinct fields [episode+bit+instance+tags] into one nonsensical but probably-unique string) - N.B. this is not foolproof
 console.log("awaiting audit...")
@@ -575,54 +582,39 @@ console.log("audit.flag:",R.audit.flag)
 	throw Error ('audit.flag wz stop due to ',R.audit.msg);
 	process.exit()
 }
-*/
 
-/* -----------------------------------------------
+/* ----------------------------------------------- send to mlab
 // audit wz clean so we're sending
 */
-console.log("--------------------> NORMLY WE SEND "+inca.length+" DOCUMENTS TO MLAB...");
-// console.log("--------------------> sending "+inca.length+" documents to MLAB...");
-// sent = await _SEND(inca);
-
-
-// console.log("SENT",sent)
-
-// if(sent.documents.n !== inca.length){
-// 	console.log("ERROR: mismatching in sent ("+sent.documents.n+') and incoming raw ('+inca.length+'),  exiting...');
-// 	process.exit();
-// }
-
-/* -----------------------------------------------
+// console.log("--------------------> NORMLY WE SEND "+inca.length+" DOCUMENTS TO MLAB...");
 console.log("--------------------> sending "+inca.length+" documents to MLAB...");
-sent = await send(inca);
-console.log("SENT",sent)
+sent = await _SEND(inca);
+
 if(sent.documents.n !== inca.length){
 	console.log("ERROR: mismatching in sent ("+sent.documents.n+') and incoming raw ('+inca.length+'),  exiting...');
 	process.exit();
 }
-*/
 
 /* -----------------------------------------------
 */
-
-
-
-/* -----------------------------------------------
 // Now we repeat bu and most_recent cuzzits gonna have sent.documents.length more
-var bu2 = await extant();
+const bu2 = await _EXTANT();
 console.log("getting most recent bu again (should be newer than before");
-var ext_source2 = await most_recent();
+const ext_source2 = await _MOST_RECENT();
 console.log("it's:",ext_source2);
+
+// console.log("NORMLY ELASTIFY HERE!");
 console.log("ELASTIFYING!");
-var E = await elastify(ext_source2);
-*/
+const E = await elastify(ext_source2);
 
 console.log("summarize new from "+ln+"...")
 let summary = await _SUMMARIZE(inca);
-console.log("sending update...")
+_CLEAN(ext_source2);
+// console.log(JSON.stringify(summary))
+// console.log("sending update...")
 let update = await _SENDSUMMARY(summary);
-console.log(JSON.stringify(update))
-        // write(summary);
+// console.log(JSON.stringify(update))
+//         write(summary);
 
 }
 

@@ -97,7 +97,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
 
 <p class="is-size-2 has-text-weight-bold has-text-right zCBB-primary" style="padding-right:3em;">Special Update!</p>
         <p class="is-size-5 has-text-weight-light has-text-right zCBB-primary-3" style="padding-right:3em;padding-left:3em;">
-          Some knob deleted a buncha data a while back, so this site has been a little stagnant through Spring 2019 while we recreated. We also took the opportunity to rewrite the thing in <a href="https://vuejs.org">Vue</a>. We also scraped out roughly 40 bits we had missed. We also kept up on the new shows to the tune of ~175 incoming. We also took the opportunity to reach back into the Stitcher vaults and yank out some deserving bits that didn't present in the early years. These include:
+          Some reckless knob deleted a buncha data a while back, so this site has been a little stagnant through Spring and Summer 2019 while we recreated. We also took the opportunity to rewrite the thing in <a href="https://vuejs.org">VueJS</a>. We also scraped out roughly 50 bits we had missed. We also kept up on the new shows to the tune of 200+ incoming. We also took the opportunity to reach back into the Stitcher vaults and yank out some deserving bits that didn't present in the early years. These include:
             
 
 <dl style="padding-top:2em;" class="">
@@ -281,11 +281,11 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
       </div NB="./column browse bucket">
     </div NB="/browse">
     <div :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='updates'">
-      <div v-for="update in updates" class="column has-text-centered">
+      <div v-for="update in updates" class="column has-text-centered is-one-third">
         <div class="tile notification has-text-centered">
           <div class="columns" style="padding-left:10%;padding-right:10%;">
             <div class="column is-12">
-              <h5 class="is-size-5 has-text-weight-bold">{{update.date}}</h5>
+              <h5 class="is-size-5 has-text-weight-bold">{{$MOMENT(update.date,'YYYY-MM-DDTHH:hh:mm:ss\\Z').format('YYYY.MMM.Mo')}}</h5>
               <div class="column has-text-weight-light is-size-7">{{update.episodes_summary}}</div>
               <div style="margin-bottom:3em;" v-for="report in update.reports" class="has-text-centered">
                 <img :src="report.image" />
@@ -345,7 +345,8 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
       <div class="column">
         <div class="card large"><div class="card-content"><div class="content">
           <h2 class="is-size-3"><i class="fas fa-map"></i>&nbsp;The Map</h2>
-          <p>There's a <a href="http://leafletjs.com">Leaflet</a> instance under here that will display the geometries associated with any bits of type="location." Look for the <i class="fa fa-map-marker"></i> and click it to zoom the map to that location. More on that under "Locations."</p>
+          <!-- <dt style="margin-top:1em;" @click="setQueryFire({bit:'I Expect Nothing in Return Except Payment'},['bit'])" class="zCBB-trigger is-size-5">I Expect Nothing in Return Except Payment</dt> -->
+          <p>There's a <a href="http://leafletjs.com">Leaflet</a> instance under here that will display the geometries associated with any <span @click="setQueryFire({bit:'Location'},['bit'])" class="zCBB-trigger">bit:"location."</span> Look for the <i class="fa fa-map-marker"></i> and click it to zoom the map to that location. More on that under "Locations."</p>
           <p>But a note or two about how to use said map: in an effort to reduce clutter, there are no map controls as you might find in other web maps (zoom bar, +/-, maybe a panning control, too). None of that here - just grab the map to move it and trackpad|scroll to zoom in and out. Optionally you can shift-click+hold-drag-release in order to "select" an area of the map to which you'll immediately zoom.</p>
         </div></div></div>
       </div>
@@ -355,8 +356,8 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
     <div class="card large"><div class="card-content">
                             <div class="content">
                               <h2 class="is-size-3"><i class="fas fa-map-marker"></i>&nbsp;Locations</h2>
-                                <p>One of the bits is special (and in fact the original impetus of this entire effort). For <a href='#' class='zCBB-trigger' data-type='bit' data-target='Location'>bits="Location"</a> the results will appear in the picklist (indicated by a map pin icon) <em>and</em> on the map under what you're reading now (hidden behind the main content area by default).</p><p>The ctrl key will toggle the map's visibility (as will the <i class="fas fa-map"></i> button); the <i  class="fa fa-map-marker"></i> in the search results will zoom to that instance's referenced location (the map otherwise defaults to the full spatial extent of *all* the location bits). <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"huell howser"'>Huell Howser</a>, <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"gino lambardo"'>Gino Lambardo</a>, <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"merrill shindler"'>Merrill Shindler</a>, and <a href="#" class='zCBB-trigger' data-type="" data-target='bit:Location +tags:"shelly driftwood"'>Shelly Driftwood</a> are all good for at least a few.</p>
-   <p>Another thing to note about locations is that unless there's a clamor for it we do NOT spatially-index the geometries for retrieval. So while of course you can query for <em>bits</em> that reference locations (and those referenced geometries will appear on the map with minimal interaction), we're not bothering to offer the ability to, say, zoom/pan the map and query for locations <em>in that area</em>. Like, who cares?</p><p>If you're <em>that interested</em> you could just query for everything (<a href="#" class="zCBB-trigger" data-type="" data-target="bit:location">"bit:Location"</a>) and zoom to the spot about which you're curious.</p>
+                                <p>One of the bits is special (and in fact the original impetus of this entire effort). For <span @click="setQueryFire({bit:'Location'},['bit'])" class="zCBB-trigger">bit:"location"</span> the results will appear in the picklist (indicated by a map pin icon) <em>and</em> on the map under what you're reading now (hidden behind the main content area by default).</p><p>The ctrl key will toggle the map's visibility (as will the <i class="fas fa-map"></i> button); the <i  class="fa fa-map-marker"></i> in the search results will zoom to that instance's referenced location (the map otherwise defaults to the full spatial extent of *all* found location bits). <span @click="setQueryFire({string:'%22huell howser%22 +bit:Location'})" class="zCBB-trigger">Huell Howser</span>, <span @click="setQueryFire({string:'%22gino lambardo%22 +bit:Location'})" class="zCBB-trigger">Gino Lambardo</span>, <span @click="setQueryFire({string:'%22merrill shindler%22 +bit:Location'})" class="zCBB-trigger">Merrill Shindler</span>, and <span @click="setQueryFire({string:'%22shelly driftwood%22 +bit:Location'})" class="zCBB-trigger">Shelly Driftwood</span> are all good for at least a few.</p>
+   <p>Another thing to note about locations is that unless there's a clamor for it we do NOT spatially-index the geometries for retrieval. So while of course you can query for <em>bits</em> that reference locations (and those referenced geometries will appear on the map), we're not bothering to offer the ability to, say, zoom/pan the map and query for locations <em>in that area</em>. Like, who cares?</p><p>If you're <em>that interested</em> you could just query for everything (<span @click="setQueryFire({bit:'Location'},['bit'])" class="zCBB-trigger">bit:"location"</span> - but be warned there are a ton) and zoom to the spot about which you're curious.</p>
 <p>Bet you're not, though!</p>
                             </div NB="/.content">
                         </div NB="/.card-content">
@@ -366,7 +367,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
     <div class="column is-12">
     <div class="card large"><div class="card-content">
                             <div class="content">
-                              <h2 class="is-size-3"><i class="fas fa-hashtag"></i>&nbsp;Contact</h2>
+                              <h2 class="is-size-3"><i class="fas fa-phone"></i>&nbsp;Contact</h2>
                                 <p>
                                   Seems unlikely you would need to contact the one aging white dude who built and maintains this, but technically nothing can stop you: <a href="https://twitter.com/zapstraighttoit">@ZapStraightToIt</a>
                                 </p>
@@ -499,9 +500,29 @@ console.log(c1,c2)
     },
     getUpdates: function() {
 
-      let u = (this.updatekey) ? this.updatekey : '';
+      let u = (this.updatekey) ? '&q={date:'+this.updatekey+'}' : '';
       // console.log("updatekey:", this.updatekey);
       let qs = (this.CONFIG.mode == '33') ? this.CONFIG.prod.atlas_updates + u : this.CONFIG.dev.atlas_updates;
+
+      axios
+        .get(qs)
+        .then(response => {
+          // this.loadings.app = false
+
+// this is hero stuff we add back in when we wanna dynamically feature a quote
+          // this.hero = __.map(response.data.hits.hits,(b)=>{
+          //             let o = b
+          //             o._source.hero={on:true,attrib:"Scott Aukerman"}
+          //             return o;
+          //           })[8]
+          // this.hero=true
+this.updates=response.data;
+        }) //axios.then
+        .catch(e => {
+          // this.loadings.app = false
+          this.console.msgs.push({ m: e, c: "error" })
+          console.error(e);
+        }) //axios.catch
 
 
 
