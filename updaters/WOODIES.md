@@ -583,3 +583,8 @@ live-from-vulture-fest-2017
 -   3domchallenge,6:30(?),E.T. phone yr lawyer
 -   3domchallenge,9:00,dude - fuk dat
 -   3domchallenge,9:00,can i finish
+-   lookatmysnaps,0:00,new theme song
+-   lookatmysnaps,3:30,zat yr jacket
+-   lookatmysnaps,9:15,did you get fatter?
+-   lookatmysnaps,30:45,can i finish?
+-   lookatmysnaps,46:45,dja hear the story about a finger?

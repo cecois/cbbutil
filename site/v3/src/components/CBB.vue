@@ -97,7 +97,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
 
 <p class="is-size-2 has-text-weight-bold has-text-right zCBB-primary" style="padding-right:3em;">Special Update!</p>
         <p class="is-size-5 has-text-weight-light has-text-right zCBB-primary-3" style="padding-right:3em;padding-left:3em;">
-          Some reckless knob deleted a buncha data a while back, so this site has been a little stagnant through Spring and Summer 2019 while we recreated. We also took the opportunity to rewrite the thing in <a href="https://vuejs.org">VueJS</a>. We also scraped out roughly 50 bits we had missed. We also kept up on the new shows to the tune of 200+ incoming. We also took the opportunity to reach back into the Stitcher vaults and yank out some deserving bits that didn't present in the early years. These include:
+          Some reckless knob deleted a buncha data a while back, so this site has been a little stagnant through Spring and Summer 2019 while we recreated. We also took the opportunity to rewrite the thing in <a href="https://vuejs.org">VueJS</a>. We also scraped out roughly 50 bits we had missed. We also kept up on the new shows to the tune of 200+ incoming. This all somehow worked out to 790 new records. We also took the opportunity to reach back into the Stitcher vaults and yank out some deserving bits that didn't present in the early years. These include:
             
 
 <dl style="padding-top:2em;" class="">
@@ -109,14 +109,16 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
  <dd class="is-size-6 has-text-grey">the glorious retirement of a locomotive</dd>
 <dt style="margin-top:1em;" @click="setQueryFire({bit:'Hey Good Lookin'},['bit'])" class="zCBB-trigger is-size-5">Hey Good Lookin</dt>
 <dd class="is-size-6 has-text-grey">mr. microphone commercial lore</dd>
-<dt style="margin-top:1em;" @click="setQueryFire({bit:'Im a Good-Looking Guy'},['bit'])" class="zCBB-trigger is-size-5">I'm a Good-Looking Guy</dt>
+<dt style="margin-top:1em;" @click="setQueryFire({bit:'*Good-Looking Guy'},['bit'])" class="zCBB-trigger is-size-5">I'm a Good-Looking Guy</dt>
 <dd class="is-size-6 has-text-grey">canonical description of len wiseman</dd>
 <dt style="margin-top:1em;" @click="setQueryFire({bit:'Dads and Grads'},['bit'])" class="zCBB-trigger is-size-5">Dads and Grads</dt>
 <dd class="is-size-6 has-text-grey">scott's take on june</dd>
 <dt style="margin-top:1em;" @click="setQueryFire({bit:'Suck My Clit'},['bit'])" class="zCBB-trigger is-size-5">Suck My Clit</dt>
 <dd class="is-size-6 has-text-grey">pamela's catchphrase</dd>
-<dt style="margin-top:1em;" @click="setQueryFire({bit:'I Dont Care'},['bit'])" class="zCBB-trigger is-size-5">I Don't Care</dt>
+<dt style="margin-top:1em;" @click="setQueryFire({bit:'I Don\'t Care'},['bit'])" class="zCBB-trigger is-size-5">I Don't Care</dt>
 <dd class="is-size-6 has-text-grey">somebody receives or administers an Icona Popping</dd>
+<dt style="margin-top:1em;" @click="setQueryFire({bit:'I Literally Have Nowhere Else to Be'},['bit'])" class="zCBB-trigger is-size-5">I Literally Have Nowhere Else to Be</dt>
+<dd class="is-size-6 has-text-grey">a guest defaults to sticking around for the rest of the show</dd>
 </dl>
         
         </p>
@@ -204,9 +206,9 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
       </div NB="/.column (facets container)">
       <div class="column is-three-quarters">
         <ul>
-          <li @mouseleave="actives.geom=null" @mouseenter="actives.geom=(bit._source.bit=='Location' && actives.geom!==genGeomID('bit',bit))?genGeomID('bit',bit):null" v-if="bits.length>1" v-for="bit in bits" :class="['has-text-left',!page.splayed?'box':'is-size-7 ellipsized']">
+          <li v-if="bits.length>1" v-for="bit in bits" :class="['has-text-left',!page.splayed?'box':'is-size-7 ellipsized']">
             <!-- <i v-if="" style="font-size:1.1em;" class="fa fa-arrow-right" /> -->
-            <i @click="GEOMS.eachLayer((l)=>{l.eachLayer((la)=>{if(genGeomID('featureParent',la)==genGeomID('bit',bit)){if(la.getLatLng){MAP.panInside(la.getLatLng())}else{MAP.fitBounds(la.getBounds())}}})})" v-if="bit._source.bit=='Location'" style="font-size:1.1em;" :class="['fa','fa-map-marker',actives.geom==genGeomID('bit',bit)?'zCBB-marker-hi':'']" />
+            <i @mouseleave="actives.geom=null" @mouseenter="actives.geom=(bit._source.bit=='Location' && actives.geom!==genGeomID('bit',bit))?genGeomID('bit',bit):null" @click="GEOMS.eachLayer((l)=>{l.eachLayer((la)=>{if(genGeomID('featureParent',la)==genGeomID('bit',bit)){if(la.getLatLng){MAP.panInside(la.getLatLng())}else{MAP.fitBounds(la.getBounds())}}})})" v-if="bit._source.bit=='Location'" style="font-size:1.1em;" :class="['fa','fa-map-marker',actives.geom==genGeomID('bit',bit)?'zCBB-marker-hi':'']" />
             <span class="bit-instance">{{bit._source.instance}}</span>
             <div class="columns zCBB-bit-data">
               <div v-if="!page.splayed" class="column is-1"></div>
@@ -255,7 +257,19 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
 
           </li>
           <li v-else>
-            big bit: {{bit._source.instance}}
+
+
+            <div  class='zCBB-bit-data'>
+
+  <div class="is-size-3">{{bit._source.instance}}</div>
+<div class="has-text-right" style="padding-right:5em;"><a href="#" class="">{{bit._source.bit}}</a>
+<span v-if="!page.splayed" class="has-text-grey-lighter">({{bit._source.elucidation}})</span></div>
+</div NB="/..zCBB-bit-data">
+            
+<div class="column has-text-right"><span style="margin-left:1em;" class="is-size-7 has-text-grey-light">ep.{{bit._source.episode.split('/')[bit._source.episode.split('/').length-1]}}</span><span class="is-size-7 has-text-grey-light" v-if="bit._source.created_at">&nbsp;|&nbsp;~{{bit._source.tstart}}&nbsp;|&nbsp;added: {{$MOMENT(bit._source.created_at).format('YYYY.MMM.Mo')}}</span><span class="is-size-7 has-text-grey-light" v-if="bit._source.updated_at">&nbsp;|&nbsp;updated {{$MOMENT(bit._source.updated_at).format('YYYY.MMM.Mo')}}</span></div NB="/.column">
+
+<div class="column"><div v-if="bit._source.tags" style="margin-left:1px;" v-bind:class="['zCBB-tag','tag',(query.string && encodeURI(query.string.toLowerCase()).indexOf(encodeURI(tag.toLowerCase()))>=0)?'is-hot':'']" @click="triggerSingleFieldQuery('tags',tag)" v-for="tag in (bit._source.tags.split(','))">{{tag}}</div NB="tags"></div NB="/.column">
+
           </li>
         </ul>
       </div>
@@ -310,7 +324,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
                             <div class="content">
                               <h2 class="is-size-3"><i class="fas fa-search-location"></i>&nbsp;Searching</h2>
                                 <p>Basically you can just type into the box like a monkey might do it - "huell" or "fourvel" and so forth. Case is irrelevant.</p>
-                                <p>Any query that results in even one Location will subquery that location and it will appear on the map, below (ctrl key or the map icon, above, will toggle a better display).</p>
+                                <p>Any query that results in even one Location will subquery that location and it will appear on the map hidden underneath what you're reading now (ctrl key or the map icon, above, will toggle a better display).</p>
         <p>But also know that whatever you type into the box gets pretty much POSTed as-is to an <a href="https://www.elastic.co/products/elasticsearch">ElasticSearch</a> index. As with most search engines, there is <a href="https://www.elastic.co/guide/en/elasticsearch/reference/5.6/query-dsl-query-string-query.html">some pretty advanced stuff</a> you can do if you like. To wit:</p>
 <p>
   <ul style="list-style: none;">
@@ -322,7 +336,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
     <p class="hast-text-italic">...where the ask goes like:</p>
     <p> 
       <ul style="" class="">
-<div><code>-episode_guests:*lapk*s</code>:&nbsp;<span class="is-size-6 has-text-grey">NOT where field episode_guests contains either Lapkus or Lapkis (or any other flavor w/ a character between k and s - bion there are some records in here with her name still misspelled.</span></div>
+<div><code>-episode_guests:*lapk*s</code>:&nbsp;<span class="is-size-6 has-text-grey">NOT where Lapkus is a guest, so NOT where field episode_guests contains either Lapkus or Lapkis (or any other flavor w/ a character between k and s - bion there are some records in here with her name still misspelled.</span></div>
 <div><code>+(reard*n || "nephew todd"...</code>:&nbsp;<span class="is-size-6 has-text-grey">where somewhere in the record appears any (|| == boolean OR) of the phrases that follow (including those, like Traci Reardon's last name, that have some characters wildcarded)</span></div>
 </ul>
     </p>
@@ -346,7 +360,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
         <div class="card large"><div class="card-content"><div class="content">
           <h2 class="is-size-3"><i class="fas fa-map"></i>&nbsp;The Map</h2>
           <!-- <dt style="margin-top:1em;" @click="setQueryFire({bit:'I Expect Nothing in Return Except Payment'},['bit'])" class="zCBB-trigger is-size-5">I Expect Nothing in Return Except Payment</dt> -->
-          <p>There's a <a href="http://leafletjs.com">Leaflet</a> instance under here that will display the geometries associated with any <span @click="setQueryFire({bit:'Location'},['bit'])" class="zCBB-trigger">bit:"location."</span> Look for the <i class="fa fa-map-marker"></i> and click it to zoom the map to that location. More on that under "Locations."</p>
+          <p>There's a <a href="http://leafletjs.com">Leaflet</a> instance under here that will display the geometries associated with any bit:"location." Look for the <i class="fa fa-map-marker"></i> and click it to zoom the map to that location. More on that under "Locations."</p>
           <p>But a note or two about how to use said map: in an effort to reduce clutter, there are no map controls as you might find in other web maps (zoom bar, +/-, maybe a panning control, too). None of that here - just grab the map to move it and trackpad|scroll to zoom in and out. Optionally you can shift-click+hold-drag-release in order to "select" an area of the map to which you'll immediately zoom.</p>
         </div></div></div>
       </div>
@@ -356,8 +370,8 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
     <div class="card large"><div class="card-content">
                             <div class="content">
                               <h2 class="is-size-3"><i class="fas fa-map-marker"></i>&nbsp;Locations</h2>
-                                <p>One of the bits is special (and in fact the original impetus of this entire effort). For <span @click="setQueryFire({bit:'Location'},['bit'])" class="zCBB-trigger">bit:"location"</span> the results will appear in the picklist (indicated by a map pin icon) <em>and</em> on the map under what you're reading now (hidden behind the main content area by default).</p><p>The ctrl key will toggle the map's visibility (as will the <i class="fas fa-map"></i> button); the <i  class="fa fa-map-marker"></i> in the search results will zoom to that instance's referenced location (the map otherwise defaults to the full spatial extent of *all* found location bits). <span @click="setQueryFire({string:'%22huell howser%22 +bit:Location'})" class="zCBB-trigger">Huell Howser</span>, <span @click="setQueryFire({string:'%22gino lambardo%22 +bit:Location'})" class="zCBB-trigger">Gino Lambardo</span>, <span @click="setQueryFire({string:'%22merrill shindler%22 +bit:Location'})" class="zCBB-trigger">Merrill Shindler</span>, and <span @click="setQueryFire({string:'%22shelly driftwood%22 +bit:Location'})" class="zCBB-trigger">Shelly Driftwood</span> are all good for at least a few.</p>
-   <p>Another thing to note about locations is that unless there's a clamor for it we do NOT spatially-index the geometries for retrieval. So while of course you can query for <em>bits</em> that reference locations (and those referenced geometries will appear on the map), we're not bothering to offer the ability to, say, zoom/pan the map and query for locations <em>in that area</em>. Like, who cares?</p><p>If you're <em>that interested</em> you could just query for everything (<span @click="setQueryFire({bit:'Location'},['bit'])" class="zCBB-trigger">bit:"location"</span> - but be warned there are a ton) and zoom to the spot about which you're curious.</p>
+                                <p>One of the bits is special. For bit:"location" the results will appear in the picklist (indicated by a map pin icon) <em>and</em> on the map under what you're reading now (hidden behind the main content area by default).</p><p>The ctrl key will toggle the map's visibility (as will the <i class="fas fa-map"></i> button); the <i  class="fa fa-map-marker"></i> in the search results will zoom to that instance's referenced location (the map otherwise defaults to the full spatial extent of *all* found location bits). <span @click="setQueryFire({string:'%22huell howser%22 +bit:Location'})" class="zCBB-trigger">Huell Howser</span>, <span @click="setQueryFire({string:'%22gino lambardo%22 +bit:Location'})" class="zCBB-trigger">Gino Lambardo</span>, <span @click="setQueryFire({string:'%22merrill shindler%22 +bit:Location'})" class="zCBB-trigger">Merrill Shindler</span>, and <span @click="setQueryFire({string:'%22shelly driftwood%22 +bit:Location'})" class="zCBB-trigger">Shelly Driftwood</span> are all good for tons (probably too many to load at once). Better to check <span @click="setQueryFire({string:'+%22big sue%22 +bit:Location'})" class="zCBB-trigger">Big Sue</span> or <span @click="setQueryFire({string:'+%22don dimello%22 +bit:Location'})" class="zCBB-trigger">Don DiMello</span>, maybe.</p>
+   <p>Another thing to note about locations is that unless there's a clamor for it we do NOT spatially-index the geometries for retrieval. So while of course you can query for <em>bits</em> that reference locations (and those referenced geometries will appear on the map), we're not bothering to offer the ability to, say, zoom/pan the map and query for locations <em>in that area</em>. Like, who cares?</p><p>If you're <em>that interested</em> you could just query for everything (bit:"location" - but be warned there are a ton) and zoom to the spot about which you're curious.</p>
 <p>Bet you're not, though!</p>
                             </div NB="/.content">
                         </div NB="/.card-content">
@@ -391,7 +405,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
 
 <script>
 import CONFIG from '../Config.json'
-import updates from '../assets/updates.json'
+// import updates from '../assets/updates.json'
 import { AtomSpinner } from 'epic-spinners'
 
 export default {
@@ -403,7 +417,7 @@ export default {
     this.CONFIG = CONFIG
     // this.bootstrap()
     // this.loadings.app = true
-    this.query.string = (this.$route.params.query && this.$route.params.query!=='*') ? this.$route.params.query : null
+    
     // this.query.facets = (this.$route.params.facets) ? decodeURI(this.$route.params.facets.split(",")) : []
     this.actives = {
       pane: (this.$route.params.pane) ? this.$route.params.pane : 'default',
@@ -411,11 +425,11 @@ export default {
       updatekey: (this.$route.params.updatekey) ? this.$route.params.updatekey : null,
       geom:null
     }
-    this.updates = (this.actives.updatekey) ? null : __.last(__.sortBy(__.map(updates, (u) => {
-      let uo = u;
-      uo.sorter = new Date(u.date)
-      return uo
-    }), 'sorter').reverse(), 3);
+    // this.updates = (this.actives.updatekey) ? null : __.last(__.sortBy(__.map(updates, (u) => {
+    //   let uo = u;
+    //   uo.sorter = new Date(u.date)
+    //   return uo
+    // }), 'sorter').reverse(), 3);
     
     var mess = "CBB-guI";
     
@@ -445,13 +459,18 @@ export default {
       });
     }
 
-    let uri = (this.actives.basemap) ? this.actives.basemap.uri : this.$_.findWhere(this.basemaps, { handle: 'default' }).uri
-    if (this.CONFIG.mode == 'T') { uri = 'http://localhost:8000/tile-T.png' }
-    this.MAP.addLayer(new L.TileLayer(uri))
+    let uri = this.$_.findWhere(this.basemaps, { handle: 'default' }).uri
+
+    let ntl = new L.TileLayer(uri)
+    this.MAP.addLayer(ntl)
 
   this.GEOMS = new L.featureGroup().addTo(this.MAP);
 
+this.getUpdates()
   this.getHero()
+
+  this.query.string = (this.$route.params.query && this.$route.params.query!=='*') ? this.$route.params.query : null
+  if(this.query.string){this.getBits()}
 
   },
   data() {
@@ -483,7 +502,7 @@ export default {
       basemaps: [
         { "name": "AJ Ashton's Pencil", "handle": "default", "uri": "https://b.tiles.mapbox.com/v4/aj.03e9e12d/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiYWoiLCJhIjoiY2lrZW1pczJzMDA1d3VybTJha216azVtdSJ9.vJBkGAq6CvN9vt0IwakQ-A" }
       ],
-      actives: { basemap: null, pane: 'default', updatekey: null, geom:"000" }
+      actives: { basemap: 'default', pane: 'default', updatekey: null, geom:"000" }
     };
   },
   methods: {
@@ -620,6 +639,7 @@ return this.$_.map(this.$_.filter(this.bits,(b)=>{return b._source.bit=='Locatio
     },
     restyleGeoms: function () {
 
+if(this.GEOMS){
 this.GEOMS.eachLayer((l)=>{
 
 l.eachLayer((f)=>{
@@ -641,7 +661,7 @@ f.setStyle(s)
 
 })//eachlayer
 
-})
+})}
 
     },
     mapGeoms: function() {
@@ -676,7 +696,6 @@ this.MAP.fitBounds(this.GEOMS.getBounds())
 
     },
     getGeoms: function() {
-
 let u = null;
 if(this.CONFIG.mode!=='T'){
 u = this.CONFIG.prod.atlas_geoms+this.getGeomIDs().join(',')
@@ -721,41 +740,20 @@ if(this.CONFIG.mode=='33'){
   let qfg = (this.query.facets.guests.length>0)?
 __.map(__.uniq(this.query.facets.guests),(g)=>{return ' +episode_guests.comma_del:"'+g+'"'}).join("")
   :''
-  let qft = (this.query.facets.tags.length>0)?' AND (tags.comma_del:'+__.uniq(this.query.facets.tags).join(' AND tags.comma_del:')+')':''
-  let qfb = (this.query.facets.bits.length>0)?' AND ('+__.uniq(this.query.facets.bits).join(' AND ')+')':''
-  let qfe = (this.query.facets.episodes.length>0)?' AND ('+__.uniq(this.query.facets.episodes).join(' AND ')+')':''
+  let qft = (this.query.facets.tags.length>0)?' +tags.comma_del:"'+__.uniq(this.query.facets.tags).join('" +tags.comma_del:"')+'"':''
+  let qfb = (this.query.facets.bits.length>0)?' +bit:"'+__.uniq(this.query.facets.bits).join('" +bit:"')+'"':''
+  let qfe = (this.query.facets.episodes.length>0)?' +episode:"'+__.uniq(this.query.facets.episodes).join('" +episode:"')+'"':''
 
 
 // "phil collins" -concorde +(tags.comma_del:"sussudio (song)")
 let qso = this.query.string.replace("tags:","tags.comma_del:").replace('episode_guests:',"episode_guests.comma_del:")+qfg+qft+qfb+qfe
-console.log(qso);
-  // let Q = {"wildcard":{"tags.comma_del":"cake boss"}}
+let qsof = (this.query.facets.bits.length>0 ||this.query.facets.episodes.length>0 ||this.query.facets.guests.length>0 ||this.query.facets.tags.length>0)?'+'+qso:qso
+console.log(qsof);
   let Q = {
   "query_string": {
-    // "fields": [
-    //   "bit",
-    //   "instance",
-    //   "elucidation",
-    //   "tags.comma_del",
-    //   "episode_guests.comma_del"
-    // ],
-    "query": qso
+    "query": qsof
   }
 }
-
-// let Q = {
-//     "multi_match": {
-//       "query": qso+qfg+qft+qfb+qfe,
-//       "fields": [
-//         "bit",
-//         "instance",
-//         "elucidation",
-//         "episode_title",
-//         "tags.comma_del",
-//         "episode_guests.comma_del"
-//       ]
-//     }
-//   }
 
 let QFB = {
     "multi_match": {
@@ -795,23 +793,6 @@ let QFB = {
             }
           }
         },
-        //         "bits": {
-        //   "filter": {
-        //     "query_string": {
-        //       "default_operator": "AND",
-        //       "analyzer": "simple",
-        //       "query": qso+qfg+qft+qfb+qfe
-        //     }
-        //   },
-        //   "aggregations": {
-        //     "filtered_bits": {
-        //       "terms": {
-        //         "size": 10000,
-        //         "field": "bit.keyword"
-        //       }
-        //     }
-        //   }
-        // },
         "bits": {
           "filter": Q,
           "aggregations": {
@@ -839,87 +820,6 @@ let QFB = {
   }
 } //qs
 
-// QO={
- //  "size": 10000,
- //  "query": Q,
- //  "aggregations": {
- //    "all_bits": {
- //      "global": {},
- //      "aggregations": {
- //        "guests": {
- //          "filter": {
- //            "query_string": {
- //              "default_operator": "AND",
- //              "analyzer": "simple",
- //              "query": qso+qfg+qft+qfb+qfe
- //            }
- //          },
- //          "aggregations": {
- //            "filtered_guests": {
- //              "terms": {
- //                "size": 10000,
- //                "field": "episode_guests.comma_del"
- //              }
- //            }
- //          }
- //        },
- //        "tags": {
- //          "filter": {
- //            "query_string": {
- //              "default_operator": "AND",
- //              "analyzer": "simple",
- //              "query": qso+qfg+qft+qfb+qfe
- //            }
- //          },
- //          "aggregations": {
- //            "filtered_tags": {
- //              "terms": {
- //                "size": 10000,
- //                "field": "tags.comma_del"
- //              }
- //            }
- //          }
- //        },
- //        "bits": {
- //          "filter": {
- //            "query_string": {
- //              "default_operator": "AND",
- //              "analyzer": "simple",
- //              "query": qso+qfg+qft+qfb+qfe
- //            }
- //          },
- //          "aggregations": {
- //            "filtered_bits": {
- //              "terms": {
- //                "size": 10000,
- //                "field": "bit.keyword"
- //              }
- //            }
- //          }
- //        },
- //        "episodes": {
- //          "filter": {
- //            "query_string": {
- //              "default_operator": "AND",
- //              "analyzer": "simple",
- //              "query": qso+qfg+qft+qfb+qfe
- //            }
- //          },
- //          "aggregations": {
- //            "filtered_episodes": {
- //              "terms": {
- //                "size": 10000,
- //                "field": "episode.keyword"
- //              }
- //            }
- //          }
- //        }
- //      }
- //    }
- //  }
-//} //qs
-
-// fetch(this.CONFIG.prod.bits,
 axios.post(this.CONFIG.prod.elastic_bits,QO)
         .then(response => {
 
@@ -960,7 +860,11 @@ axios.get(QO)
     setRandomQuery: function () {
 
 this.actives.pane='search'
-this.query.string='random string gen'
+
+var letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+    this.query.string = letters[Math.floor(Math.random() * letters.length)]+'*'+letters[Math.floor(Math.random() * letters.length)];
+
+// this.query.string='random string gen'
 this.clearFacets()
 
     },clearFacets: function () {
@@ -1063,7 +967,7 @@ let P = {
       deep:true,
       handler: function(vnew, vold) {
         this.setRoute();
-        this.restyleGeoms();
+        if(this.GEOMS){this.restyleGeoms();}
         if(vnew.pane=='browse' && this.browses.doc_count<1){
           this.bootstrapBrowse();
         }
@@ -1071,12 +975,13 @@ let P = {
     },locations: {
       deep:true,
       handler: function(vnew, vold) {
-        this.mapGeoms();
+        if(this.GEOMS){
+                this.mapGeoms();}
       }
     },seens: {
       deep:true,
       handler: function(vnew, vold) {
-        this.restyleGeoms();
+        if(this.GEOMS){this.restyleGeoms();}
       }
     }
     ,"query.string": {

@@ -529,7 +529,7 @@ const main = async () =>{
 	try {
 		var ln = process.argv[2]
 
-		if(!__.contains(['news','live','fake','fantastic','adds','reset','test'],ln)){
+		if(!__.contains(['geo-holding','news','live','live-supplement','fake','fantastic','adds','adds-supplement','reset','test','icona','literally','smc'],ln)){
 			throw("typo prolly");
 			process.exit();
 		} else {

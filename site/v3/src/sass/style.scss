@@ -1,12 +1,12 @@
 // ACTUAL
-// $cbb-blue: #00A1E2;
-// $cbb-yelo: #FDB812;
-// $cbb-redd: #CA0204;
+$cbb-blue: #00A1E2;
+$cbb-yelo: #FDB812;
+$cbb-redd: #CA0204;
 
 // FOR FUN
-$cbb-blue: #6d6a25;
-$cbb-yelo: #1d6e66;
-$cbb-redd: #472c23;
+// $cbb-blue: #6d6a25;
+// $cbb-yelo: #1d6e66;
+// $cbb-redd: #472c23;
 
 .zCBB-primary{color:$cbb-blue;}
 .zCBB-primary-2{color:rgba($cbb-blue,.8);a{color:$cbb-blue;}}
@@ -50,11 +50,14 @@ $zCBB-opacity-main:.8;
 
 .ellipsized{
   text-overflow:ellipsis;
-
+white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .zCBB-marker-hi{
   color: $cbb-yelo;
+  &:hover{cursor:pointer;}
   -webkit-text-fill-color: $cbb-yelo; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: $cbb-blue;
