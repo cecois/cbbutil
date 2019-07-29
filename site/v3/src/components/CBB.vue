@@ -163,7 +163,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
   <span class="zCBB-"><i class="fa fa-exclamation"></i></span>
   </span>
 </h1>
-<p style="text-align:center;">Isn't, nope. Fansite.</p>
+<p style="text-align:center;">Isn't, nope. Fansite. You didn't notice how we filched the color scheme but nowhere, sitewide, do you see the teeth?</p>
 </div NB="/.column">
 
 
@@ -748,7 +748,7 @@ __.map(__.uniq(this.query.facets.guests),(g)=>{return ' +episode_guests.comma_de
 // "phil collins" -concorde +(tags.comma_del:"sussudio (song)")
 let qso = this.query.string.replace("tags:","tags.comma_del:").replace('episode_guests:',"episode_guests.comma_del:")+qfg+qft+qfb+qfe
 let qsof = (this.query.facets.bits.length>0 ||this.query.facets.episodes.length>0 ||this.query.facets.guests.length>0 ||this.query.facets.tags.length>0)?'+'+qso:qso
-console.log(qsof);
+
   let Q = {
   "query_string": {
     "query": qsof
