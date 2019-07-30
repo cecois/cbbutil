@@ -3,6 +3,7 @@
 0. clean up nephew todd tag, "tiny reviews music" eluc
 1. ~~fix "Regina Krimp" vs. "Crimp"~~
 1. ~~you say baby too~~
+2. hollywood facts
 1. fix doobie brothers tag
 2. change tag Beth to Power Wheels Beth
 2. fix gramercy may 13 ep title times (9:30 v 7)
@@ -84,6 +85,8 @@
   - 596,14:30(pw)
   - 596,54:45(pw)
   - 596,1:07:20(pw)
+  - 379,11:20
+  - 379,1:10:45
   - 493,7:00
 * Bone Queef
   - 430,\*\*\*
