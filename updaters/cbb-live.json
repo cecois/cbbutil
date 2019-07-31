@@ -1,12 +1,12 @@
 [
-    {
+  {
     "episode": 612,
     "show": "cbb",
     "tstart": "1:30",
     "tend": "2:05",
     "instance": "Do we agree I've got nice pipes?",
     "elucidation": "any song reference",
-"bit": "The Paul Hardcastle of Suicides",
+    "bit": "The Paul Hardcastle of Suicides",
     "tags": "Private Eyes (song),Hall & Oates (musical combination)",
     "location_type": "",
     "location_id": "",
@@ -19,15 +19,15 @@
     "episode_guests": "Jimmy Pardo,Carl Tart,Lauren Ashley Smith",
     "id_wikia": null,
     "holding": "false"
-}
-,{
+  },
+  {
     "episode": 612,
     "show": "cbb",
     "tstart": "3:00",
     "tend": "3:15",
     "instance": "That is the Jimmy Pardo promise.",
     "elucidation": "any song reference",
-"bit": "The Paul Hardcastle of Suicides",
+    "bit": "The Paul Hardcastle of Suicides",
     "tags": "The Fugees (musical combination),Killing Me Softly with His Song (song)",
     "location_type": "",
     "location_id": "",
@@ -40,14 +40,15 @@
     "episode_guests": "Jimmy Pardo,Carl Tart,Lauren Ashley Smith",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 612,
     "show": "cbb",
     "tstart": "16:15",
     "tend": "16:35",
     "instance": "The third song always expressed my feelings a little more intimately.",
     "elucidation": "any song reference",
-"bit": "The Paul Hardcastle of Suicides",
+    "bit": "The Paul Hardcastle of Suicides",
     "tags": "We Don't Have to Take Our Clothes Off (song),Jermaine Stewart,Narada Michael Walden,Preston Glass",
     "location_type": "",
     "location_id": "",
@@ -60,14 +61,15 @@
     "episode_guests": "Jimmy Pardo,Carl Tart,Lauren Ashley Smith",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 612,
     "show": "cbb",
     "tstart": "23:00",
     "tend": "23:30",
     "instance": "Shooter! Abort!",
     "elucidation": "any song reference",
-"bit": "The Paul Hardcastle of Suicides",
+    "bit": "The Paul Hardcastle of Suicides",
     "tags": "Forrest Gump (film),Tommy Tutone (musical combination),867-5309/Jenny (song)",
     "location_type": "",
     "location_id": "",
@@ -80,14 +82,15 @@
     "episode_guests": "Jimmy Pardo,Carl Tart,Lauren Ashley Smith",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 612,
     "show": "cbb",
     "tstart": "27:35",
     "tend": "28:30",
     "instance": "He's the kind of rapper who rhymes 'boat' with 'boat.'",
- "elucidation": "various, even vague interminglings of character canon",
-"bit": "We Knew a Poet Once",
+    "elucidation": "various, even vague interminglings of character canon",
+    "bit": "We Knew a Poet Once",
     "tags": "O.J. Simpson,MC Sugar Butt",
     "location_type": "",
     "location_id": "",
@@ -100,14 +103,15 @@
     "episode_guests": "Jimmy Pardo,Carl Tart,Lauren Ashley Smith",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 612,
     "show": "cbb",
     "tstart": "30:40",
     "tend": "30:55",
     "instance": "I got to play for my home team.",
- "elucidation": "scott seems jealous or just commendatory",
-"bit": "That is the Dream",
+    "elucidation": "scott seems jealous or just commendatory",
+    "bit": "That is the Dream",
     "tags": "O.J. Simpson",
     "location_type": "",
     "location_id": "",
@@ -120,16 +124,19 @@
     "episode_guests": "Jimmy Pardo,Carl Tart,Lauren Ashley Smith",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 612,
     "show": "cbb",
     "tstart": "26:30",
     "tend": "27:50",
     "instance": "I'm not currently married, Scott.",
-"elucidation": "identifiable earth location",
-"bit": "Location",
-"nb":[
-"san francisco, ca","hometown to: Orenthal James Simpson"],
+    "elucidation": "identifiable earth location",
+    "bit": "Location",
+    "nb": [
+      "san francisco, ca",
+      "hometown to: Orenthal James Simpson"
+    ],
     "tags": "O.J. Simpson",
     "location_type": "poly",
     "location_id": "1026",
@@ -142,14 +149,15 @@
     "episode_guests": "Jimmy Pardo,Carl Tart,Lauren Ashley Smith",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 612,
     "show": "cbb",
     "tstart": "32:00",
     "tend": "32:30",
     "instance": "You filmed that close to home?",
-"elucidation": "identifiable earth location",
-"bit": "Location",
+    "elucidation": "identifiable earth location",
+    "bit": "Location",
     "tags": "O.J. Simpson",
     "location_type": "poly",
     "location_id": "1004",
@@ -162,14 +170,15 @@
     "episode_guests": "Jimmy Pardo,Carl Tart,Lauren Ashley Smith",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 612,
     "show": "cbb",
     "tstart": "32:00",
     "tend": "32:30",
     "instance": "I no longer have that house.",
-"elucidation": "identifiable earth location",
-"bit": "Location",
+    "elucidation": "identifiable earth location",
+    "bit": "Location",
     "tags": "O.J. Simpson",
     "location_type": "point",
     "location_id": "322",
@@ -182,14 +191,15 @@
     "episode_guests": "Jimmy Pardo,Carl Tart,Lauren Ashley Smith",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 612,
     "show": "cbb",
     "tstart": "35:30",
     "tend": "35:50",
     "instance": "They sent me up the river for trying to take back my own things.",
-"elucidation": "identifiable earth location",
-"bit": "Location",
+    "elucidation": "identifiable earth location",
+    "bit": "Location",
     "tags": "O.J. Simpson",
     "location_type": "point",
     "location_id": "322",
@@ -202,14 +212,15 @@
     "episode_guests": "Jimmy Pardo,Carl Tart,Lauren Ashley Smith",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 612,
     "show": "cbb",
     "tstart": "35:30",
     "tend": "35:50",
     "instance": "I got a new condo.",
-"elucidation": "identifiable earth location",
-"bit": "Location",
+    "elucidation": "identifiable earth location",
+    "bit": "Location",
     "tags": "O.J. Simpson,I Want a New Drug (song),Huey Lewis and the News (musical combination)",
     "location_type": "",
     "location_id": "",
@@ -222,14 +233,15 @@
     "episode_guests": "Jimmy Pardo,Carl Tart,Lauren Ashley Smith",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 612,
     "show": "cbb",
     "tstart": "42:30",
     "tend": "42:55",
     "instance": "You only like bands that are your own name?",
-"elucidation": "identifiable earth location",
-"bit": "Location",
+    "elucidation": "identifiable earth location",
+    "bit": "Location",
     "tags": "O.J. Simpson,Oran (Juice) Jones,Vincent Bell,The Rain (song)",
     "location_type": "",
     "location_id": "",
@@ -242,14 +254,15 @@
     "episode_guests": "Jimmy Pardo,Carl Tart,Lauren Ashley Smith",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 612,
     "show": "cbb",
     "tstart": "44:20",
     "tend": "44:40",
     "instance": "You learned about my yards - I averaged 11,000 yards.",
-"elucidation": "identifiable earth location",
-"bit": "Location",
+    "elucidation": "identifiable earth location",
+    "bit": "Location",
     "tags": "O.J. Simpson",
     "location_type": "point",
     "location_id": "322",
@@ -262,14 +275,15 @@
     "episode_guests": "Jimmy Pardo,Carl Tart,Lauren Ashley Smith",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 612,
     "show": "cbb",
     "tstart": "52:30",
     "tend": "53:00",
     "instance": "So do you have to, sort of, renounce your god?",
-"elucidation": "any song reference",
-"bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "bit": "The Paul Hardcastle of Suicides",
     "tags": "O.J. Simpson,Liza Harrington,Snoop Dogg,Lil Jon,Ice Cube,C. Love,J. Phillips",
     "location_type": "",
     "location_id": "",
@@ -282,14 +296,15 @@
     "episode_guests": "Jimmy Pardo,Carl Tart,Lauren Ashley Smith",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 612,
     "show": "cbb",
     "tstart": "57:50",
     "tend": "58:15",
     "instance": "You think he's gonna go left and then he shoots right.",
-"elucidation": "any song reference",
-"bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "bit": "The Paul Hardcastle of Suicides",
     "tags": "O.J. Simpson,Liza Harrington,Got Money (song),Lil Wayne,Dwayne Carter,Jermaine Preyan,Faheem Najm,Oscar Salinas,Juan Salinas",
     "location_type": "",
     "location_id": "",
@@ -302,14 +317,15 @@
     "episode_guests": "Jimmy Pardo,Carl Tart,Lauren Ashley Smith",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 612,
     "show": "cbb",
     "tstart": "1:09:40",
     "tend": "1:10:00",
     "instance": "Am I watching 'Veronica Mars?'",
-"elucidation": "any song reference",
-"bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "bit": "The Paul Hardcastle of Suicides",
     "tags": "O.J. Simpson,We Used to Be Friends (song),The Dandy Warhols (musical combination),Veronica Mars (TV)",
     "location_type": "",
     "location_id": "",
@@ -322,5 +338,83 @@
     "episode_guests": "Jimmy Pardo,Carl Tart,Lauren Ashley Smith",
     "id_wikia": null,
     "holding": "false"
-}
+  },
+  {
+    "episode": 612,
+    "show": "cbb",
+    "tstart": "46:40",
+    "tend": "48:00",
+    "instance": "I hope to get a door. And then from there I'll get some microphones.",
+    "elucidation": "identifiable earth location",
+    "bit": "Location",
+    "nb": [
+      "proxy for: Liza Farrington's curcular apt. complex;site of: Liza Farrington's future home studio",
+      "Villa Careena Apartments",
+      "-118.384220,34.091977"
+    ],
+    "tags": "O.J. Simpson,Liza Farrington",
+    "location_type": "point",
+    "location_id": "1089",
+    "created_at": "2019-07-29T10:51:29Z",
+    "updated_at": "2019-07-29T10:51:29Z",
+    "url_soundcloud": null,
+    "slug_soundcloud": null,
+    "slug_earwolf": "the-juice-is-loose",
+    "episode_title": "The Juice is Loose",
+    "episode_guests": "Jimmy Pardo,Carl Tart,Lauren Ashley Smith",
+    "id_wikia": null,
+    "holding": "false"
+  },
+  {
+    "episode": 612,
+    "show": "cbb",
+    "tstart": "1:07:00",
+    "tend": "1:07:25",
+    "instance": "I saw him on TV once - I turned it off before the end.",
+    "elucidation": "identifiable earth location",
+    "bit": "Location",
+    "nb": [
+      "site of: Scott Aukerman watching tv one day in the 90s",
+      "Olive Garden - Carson",
+      "-118.263749,33.845163"
+    ],
+    "tags": "O.J. Simpson,Liza Farrington,A.C. Cowlings",
+    "location_type": "point",
+    "location_id": "1090",
+    "created_at": "2019-07-29T10:51:29Z",
+    "updated_at": "2019-07-29T10:51:29Z",
+    "url_soundcloud": null,
+    "slug_soundcloud": null,
+    "slug_earwolf": "the-juice-is-loose",
+    "episode_title": "The Juice is Loose",
+    "episode_guests": "Jimmy Pardo,Carl Tart,Lauren Ashley Smith",
+    "id_wikia": null,
+    "holding": "false"
+  },
+  {
+    "episode": 612,
+    "show": "cbb",
+    "tstart": "1:10:00",
+    "tend": "1:10:30",
+    "instance": "I currently live...in a comedy condo.",
+    "elucidation": "identifiable earth location",
+    "bit": "Location",
+    "nb": [
+      "site of: O.J. Simpson's comedy condo",
+      "OJ's Las Vegas home",
+      "-115.347414,36.151976"
+    ],
+    "tags": "O.J. Simpson",
+    "location_type": "point",
+    "location_id": "1091",
+    "created_at": "2019-07-29T10:51:29Z",
+    "updated_at": "2019-07-29T10:51:29Z",
+    "url_soundcloud": null,
+    "slug_soundcloud": null,
+    "slug_earwolf": "the-juice-is-loose",
+    "episode_title": "The Juice is Loose",
+    "episode_guests": "Jimmy Pardo,Carl Tart,Lauren Ashley Smith",
+    "id_wikia": null,
+    "holding": "false"
+  }
 ]
