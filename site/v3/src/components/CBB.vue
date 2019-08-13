@@ -700,7 +700,7 @@ let u = null;
 if(this.CONFIG.mode!=='T'){
 u = this.CONFIG.prod.atlas_geoms+this.getGeomIDs().join(',')
 } else {
-  u="http://localhost:8000/cbb_fake-geoms.json"
+  u=this.CONFIG.dev.atlas_geoms+this.getGeomIDs().join(',')
 }
 if(this.getGeomIDs().length>0)
 {
