@@ -1,3 +1,4 @@
+some geoms missing
 [
   {
     "episode": 612,
@@ -969,13 +970,120 @@
 },{
     "episode": 614,
     "show": "cbb",
-    "tstart": "",
-    "tend": "",
-    "instance": ""
-    
-
-    ,"tags": "",
+    "tstart": "24:00",
+    "tend": "24:45",
+    "instance": "I need those lights dim."
+    ,"elucidation": "identifiable earth location",
+    "bit": "Location",
+    "nb": [
+      "w hotel - hollywood",
+      ,"owned by: Bean Dip"
+    ]
+    ,"tags": "Bean Dip",
+    "location_type": "point","location_id": "664",
+    "updated_at": "2019-08-11T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-08-11T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "bean-dip-randy-snutz-return-thats-what-i-said",
+    "episode_title": "Bean Dip & Randy Snutz Return: That’s What I Said",
+    "episode_guests": "Adam DeVine,Tim Baltz,Edi Patterson",
+    "id_wikia": null,
+    "holding": "false"
+},{
+    "episode": 614,
+    "show": "cbb",
+    "tstart": "27:00",
+    "tend": "27:30",
+    "instance": "You're ordering microphones from us?"
+    ,"elucidation": "identifiable earth location",
+    "bit": "Location",
+    "nb": [
+      "w hotel - hollywood",
+      ,"owned by: Bean Dip"
+    ]
+    ,"tags": "Bean Dip",
+    "location_type": "point","location_id": "664",
+    "updated_at": "2019-08-11T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-08-11T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "bean-dip-randy-snutz-return-thats-what-i-said",
+    "episode_title": "Bean Dip & Randy Snutz Return: That’s What I Said",
+    "episode_guests": "Adam DeVine,Tim Baltz,Edi Patterson",
+    "id_wikia": null,
+    "holding": "false"
+},{
+    "episode": 614,
+    "show": "cbb",
+    "tstart": "27:30",
+    "tend": "28:00",
+    "instance": "Alexa?"
+    ,"elucidation": "any song reference",
+    "bit": "The Paul Hardcastle of Suicides",
+    "tags": "Bean Dip,Francis Scott Key,john Stafford Smith,The Star-spangled Banner (song)",
     "location_type": "","location_id": "",
+    "updated_at": "2019-08-11T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-08-11T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "bean-dip-randy-snutz-return-thats-what-i-said",
+    "episode_title": "Bean Dip & Randy Snutz Return: That’s What I Said",
+    "episode_guests": "Adam DeVine,Tim Baltz,Edi Patterson",
+    "id_wikia": null,
+    "holding": "false"
+},{
+    "episode": 614,
+    "show": "cbb",
+    "tstart": "33:20",
+    "tend": "33:45",
+    "instance": "The concept is: Jeremy is having a hard time."
+    ,"elucidation": "any song reference",
+    "bit": "The Paul Hardcastle of Suicides",
+    "tags": "Bean Dip,Jeremy (song),Pearl Jam (musical combination)",
+    "location_type": "","location_id": "",
+    "updated_at": "2019-08-11T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-08-11T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "bean-dip-randy-snutz-return-thats-what-i-said",
+    "episode_title": "Bean Dip & Randy Snutz Return: That’s What I Said",
+    "episode_guests": "Adam DeVine,Tim Baltz,Edi Patterson",
+    "id_wikia": null,
+    "holding": "false"
+},{
+    "episode": 614,
+    "show": "cbb",
+    "tstart": "33:30",
+    "tend": "34:15",
+    "instance": "He wants to get that peanut butter on every corner."
+    ,"elucidation": "any song reference",
+    "bit": "The Paul Hardcastle of Suicides",
+    "tags": "Bean Dip,Evenflow (song),Pearl Jam (musical combination)",
+    "location_type": "","location_id": "",
+    "updated_at": "2019-08-11T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-08-11T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "bean-dip-randy-snutz-return-thats-what-i-said",
+    "episode_title": "Bean Dip & Randy Snutz Return: That’s What I Said",
+    "episode_guests": "Adam DeVine,Tim Baltz,Edi Patterson",
+    "id_wikia": null,
+    "holding": "false"
+},{
+    "episode": 614,
+    "show": "cbb",
+    "tstart": "34:40",
+    "tend": "35:15",
+    "instance": "I have to be at the desk to answer every microphone call that will come in."
+    ,"elucidation": "identifiable earth location",
+    "bit": "Location",
+    "nb": [
+      "w hotel - hollywood",
+      ,"owned by: Bean Dip"
+    ]
+    ,"tags": "Bean Dip",
+    "location_type": "point","location_id": "664",
     "updated_at": "2019-08-11T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-11T11:51:29Z",
