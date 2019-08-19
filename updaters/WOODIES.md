@@ -586,5 +586,19 @@ live-from-vulture-fest-2017
 -   lookatmysnaps,0:00,new theme song
 -   lookatmysnaps,3:30,zat yr jacket
 -   lookatmysnaps,9:15,did you get fatter?
+-   lookatmysnaps,24:00,this is different
+-   lookatmysnaps,28:30,meanwhile...
 -   lookatmysnaps,30:45,can i finish?
 -   lookatmysnaps,46:45,dja hear the story about a finger?
+-   chicken,12:00,inaugural brushy one string meme
+-   chicken,44:45,let us do it robert
+-   chicken,45:00,pop muzik
+-   chicken,50:00,my low point was when tim roth he's back
+-   mommyqueen,8:00,it is a comedy?
+-   mommyqueen,16:00,bo derek lineup
+-   mommyqueen,28:30,something i experienced as a child
+-   week,17:30,business is good47
+-   week,24:15,in fact I'm smart
+-   week,30:00,acdc guy
+-   week,42:45,lord vader's birthday
+-   week,51:45,what do tits look like?
