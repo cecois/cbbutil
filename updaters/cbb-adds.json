@@ -340,5 +340,25 @@
     "episode_guests": "Jason Mantzoukas,Jon Gabrus,Lauren Lapkus,Thomas Middleditch",
     "id_wikia": null,
     "holding": "false"
+},{
+    "episode": 463,
+    "show": "cbb",
+    "tstart": "2:06:45",
+    "tend": "2:07:45",
+    "instance": "Rockville Center; Baldwin; Freeport; Bellmore; Merrick; Wantagh; Seaford; Massapequa; Massapequa Park; Amityville; Lindbergh; and Babylon.",
+    "elucidation": "the lirr by gino",
+"bit": "Babylon, Baby",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-08-17T08:16:50Z",
+    "url_soundcloud": "https://soundcloud.com/comedybangbang/463-2016-holiday-spectacular/#t=1:39:22",
+    "tags": "Ming,Keith Jones,Smooth Criminal Al A. Peterson,John Lennon,Gino Lambardo",
+    "created_at": "2019-08-17T08:16:50Z",
+    "slug_soundcloud": "463-2016-holiday-spectacular",
+    "slug_earwolf": "2016-holiday-spectacular",
+    "episode_title": "2016 Holiday Spectacular",
+    "episode_guests": "Jason Mantzoukas,Jon Gabrus,Mike Hanford,Paul F. Tompkins,Tawny Newsome,Tim Baltz,Neil Campbell,Rhea Butcher,Will Hines,Ryan Gaul,Jeremy Rowley,Drew Tarver,James Adomian,Zeke Nicholson,Brendon Small",
+    "id_wikia": null,
+    "holding": "false"
 }
 ]

@@ -1,4 +1,3 @@
-some geoms missing
 [
   {
     "episode": 613,
@@ -6,8 +5,9 @@ some geoms missing
     "tstart": "8:20",
     "tend": "8:30",
     "instance": "One time I was invited to a party.",
-       "elucidation":"any song reference","bit":"The Paul Hardcastle of Suicides","tags":"The Fugees (musical combination),Killing Me Softly with His Song (song)"
-    ,"tags": "",
+    "elucidation": "any song reference",
+    "bit": "The Paul Hardcastle of Suicides",
+    "tags": "",
     "location_type": "",
     "location_id": "",
     "updated_at": "2019-08-02T11:51:29Z",
@@ -19,14 +19,17 @@ some geoms missing
     "episode_guests": "Moshe Kasher,Natasha Leggero,Drew Tarver,Ele Woods",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 613,
     "show": "cbb",
     "tstart": "9:30",
     "tend": "9:55",
     "instance": "Isn't it a Christmas party?",
-       "elucidation":"any song reference","bit":"The Paul Hardcastle of Suicides","tags":"It's the Most Wonderful Time of the Year (song),Edward Pola,George Wyle,Andy Williams"
-    ,"location_type": "",
+    "elucidation": "any song reference",
+    "bit": "The Paul Hardcastle of Suicides",
+    "tags": "It's the Most Wonderful Time of the Year (song),Edward Pola,George Wyle,Andy Williams",
+    "location_type": "",
     "location_id": "",
     "updated_at": "2019-08-02T11:51:29Z",
     "url_soundcloud": "",
@@ -37,7 +40,8 @@ some geoms missing
     "episode_guests": "Moshe Kasher,Natasha Leggero,Drew Tarver,Ele Woods",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 613,
     "show": "cbb",
     "tstart": "32:15",
@@ -47,11 +51,12 @@ some geoms missing
     "bit": "Location",
     "nb": [
       "daisy, ga",
-      ,"proxy for: Gooseneck, GA"
+      "proxy for: Gooseneck, GA",
       "home to: Fred Head"
     ],
     "tags": "Fred Head",
-    "location_type": "poly","location_id": "1027",
+    "location_type": "poly",
+    "location_id": "1027",
     "updated_at": "2019-08-02T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-02T11:51:29Z",
@@ -61,14 +66,16 @@ some geoms missing
     "episode_guests": "Moshe Kasher,Natasha Leggero,Drew Tarver,Ele Woods",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 613,
     "show": "cbb",
     "tstart": "32:15",
     "tend": "32:45",
     "instance": "The place he mentioned - you're from right outside of there.",
-       "elucidation":"someone nails their guess","bit":"Got it in One"
-    ,"tags": "Fred Head",
+    "elucidation": "someone nails their guess",
+    "bit": "Got it in One",
+    "tags": "Fred Head",
     "location_type": "",
     "location_id": "",
     "updated_at": "2019-08-02T11:51:29Z",
@@ -80,7 +87,8 @@ some geoms missing
     "episode_guests": "Moshe Kasher,Natasha Leggero,Drew Tarver,Ele Woods",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 613,
     "show": "cbb",
     "tstart": "34:15",
@@ -90,11 +98,12 @@ some geoms missing
     "bit": "Location",
     "nb": [
       "daisy, ga",
-      ,"proxy for: Gooseneck, GA"
+      "proxy for: Gooseneck, GA",
       "home to: Fred Head"
     ],
     "tags": "Fred Head",
-    "location_type": "poly","location_id": "1027",
+    "location_type": "poly",
+    "location_id": "1027",
     "updated_at": "2019-08-02T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-02T11:51:29Z",
@@ -104,21 +113,23 @@ some geoms missing
     "episode_guests": "Moshe Kasher,Natasha Leggero,Drew Tarver,Ele Woods",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 613,
     "show": "cbb",
     "tstart": "36:45",
     "tend": "37:15",
     "instance": "Sweet Pea Jubilee/Miss Chicken Taquito",
-       "elucidation": "identifiable earth location",
+    "elucidation": "identifiable earth location",
     "bit": "Location",
     "nb": [
       "daisy, ga",
-      ,"proxy for: Gooseneck, GA"
+      "proxy for: Gooseneck, GA",
       "home to: Fred Head"
     ],
     "tags": "Fred Head",
-    "location_type": "poly","location_id": "1027",
+    "location_type": "poly",
+    "location_id": "1027",
     "updated_at": "2019-08-02T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-02T11:51:29Z",
@@ -128,21 +139,23 @@ some geoms missing
     "episode_guests": "Moshe Kasher,Natasha Leggero,Drew Tarver,Ele Woods",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 613,
     "show": "cbb",
     "tstart": "37:10",
     "tend": "37:30",
     "instance": "Collard Green Scream/Miss Duvet Cover",
-       "elucidation": "identifiable earth location",
+    "elucidation": "identifiable earth location",
     "bit": "Location",
     "nb": [
       "daisy, ga",
-      ,"proxy for: Gooseneck, GA"
+      "proxy for: Gooseneck, GA",
       "home to: Fred Head"
     ],
     "tags": "Fred Head",
-    "location_type": "poly","location_id": "1027",
+    "location_type": "poly",
+    "location_id": "1027",
     "updated_at": "2019-08-02T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-02T11:51:29Z",
@@ -152,20 +165,22 @@ some geoms missing
     "episode_guests": "Moshe Kasher,Natasha Leggero,Drew Tarver,Ele Woods",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 613,
     "show": "cbb",
     "tstart": "37:50",
     "tend": "38:15",
     "instance": "Was he an old dad?",
-      "elucidation": "identifiable earth location",
+    "elucidation": "identifiable earth location",
     "bit": "Location",
     "nb": [
       "us capitol",
-      ,"site of: Fred Head's father driving"
+      "site of: Fred Head's father driving"
     ],
     "tags": "Fred Head,Dwight Eisenhower",
-    "location_type": "poly","location_id": "1028",
+    "location_type": "poly",
+    "location_id": "1028",
     "updated_at": "2019-08-02T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-02T11:51:29Z",
@@ -175,7 +190,8 @@ some geoms missing
     "episode_guests": "Moshe Kasher,Natasha Leggero,Drew Tarver,Ele Woods",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 613,
     "show": "cbb",
     "tstart": "38:15",
@@ -185,11 +201,9 @@ some geoms missing
     "bit": "Location",
     "nb": [
       "daisy, ga",
-      ,"proxy for: Gooseneck, GA"
+      "proxy for: Gooseneck, GA",
       "home to: Fred Head"
     ],
-    "tags": "Fred Head",
-    "location_type": "poly","location_id": "1027",
     "tags": "Fred Head",
     "location_type": "",
     "location_id": "",
@@ -202,18 +216,20 @@ some geoms missing
     "episode_guests": "Moshe Kasher,Natasha Leggero,Drew Tarver,Ele Woods",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 613,
     "show": "cbb",
     "tstart": "43:00",
     "tend": "44:00",
     "instance": "I'm still a big deal.",
-       "nb": [
+    "nb": [
       "red lobster near daisy, ga",
-      ,"site of: Fred Head with a complimentary chocolate lava cake"
+      "site of: Fred Head with a complimentary chocolate lava cake"
     ],
     "tags": "Fred Head",
-    "location_type": "point","location_id": "1092",
+    "location_type": "point",
+    "location_id": "1092",
     "updated_at": "2019-08-02T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-02T11:51:29Z",
@@ -223,21 +239,20 @@ some geoms missing
     "episode_guests": "Moshe Kasher,Natasha Leggero,Drew Tarver,Ele Woods",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 613,
     "show": "cbb",
     "tstart": "44:25",
     "tend": "45:25",
     "instance": "Kentucky For-Profit Prison Parade/Miss Everything Bagel",
-       "elucidation": "identifiable earth location",
+    "elucidation": "identifiable earth location",
     "bit": "Location",
     "nb": [
       "daisy, ga",
-      ,"proxy for: Gooseneck, GA"
+      "proxy for: Gooseneck, GA",
       "home to: Fred Head"
     ],
-    "tags": "Fred Head",
-    "location_type": "poly","location_id": "1027",
     "tags": "Fred Head",
     "location_type": "",
     "location_id": "",
@@ -250,12 +265,15 @@ some geoms missing
     "episode_guests": "Moshe Kasher,Natasha Leggero,Drew Tarver,Ele Woods",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 613,
     "show": "cbb",
     "tstart": "45:15",
     "tend": "45:45",
-    "instance": "Wow - you have been a part of so many hilarious-sounding festivals.","elucidation":"some conceit of the show is abused, broken, or exposed","bit":"Verisimilitude",
+    "instance": "Wow - you have been a part of so many hilarious-sounding festivals.",
+    "elucidation": "some conceit of the show is abused, broken, or exposed",
+    "bit": "Verisimilitude",
     "tags": "Fred Head",
     "location_type": "",
     "location_id": "",
@@ -268,21 +286,20 @@ some geoms missing
     "episode_guests": "Moshe Kasher,Natasha Leggero,Drew Tarver,Ele Woods",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 613,
     "show": "cbb",
     "tstart": "45:15",
     "tend": "45:55",
     "instance": "What an interesting town to have so many parades but only three businesses.",
-       "elucidation": "identifiable earth location",
+    "elucidation": "identifiable earth location",
     "bit": "Location",
     "nb": [
       "daisy, ga",
-      ,"proxy for: Gooseneck, GA"
+      "proxy for: Gooseneck, GA",
       "home to: Fred Head"
     ],
-    "tags": "Fred Head",
-    "location_type": "poly","location_id": "1027",
     "tags": "Fred Head",
     "location_type": "",
     "location_id": "",
@@ -295,7 +312,8 @@ some geoms missing
     "episode_guests": "Moshe Kasher,Natasha Leggero,Drew Tarver,Ele Woods",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 613,
     "show": "cbb",
     "tstart": "51:40",
@@ -303,12 +321,13 @@ some geoms missing
     "instance": "I got little whisps and strays but I better hold on to em - this thing isn't over.",
     "elucidation": "identifiable earth location",
     "bit": "Location",
-       "nb": [
+    "nb": [
       "red lobster near daisy, ga",
-      ,"site of: Fred Head with a complimentary chocolate lava cake"
+      "site of: Fred Head with a complimentary chocolate lava cake"
     ],
     "tags": "Fred Head",
-    "location_type": "point","location_id": "1092",
+    "location_type": "point",
+    "location_id": "1092",
     "updated_at": "2019-08-02T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-02T11:51:29Z",
@@ -318,7 +337,8 @@ some geoms missing
     "episode_guests": "Moshe Kasher,Natasha Leggero,Drew Tarver,Ele Woods",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 613,
     "show": "cbb",
     "tstart": "53:40",
@@ -326,12 +346,13 @@ some geoms missing
     "instance": "No, I am *in* entertainment.",
     "elucidation": "identifiable earth location",
     "bit": "Location",
-       "nb": [
+    "nb": [
       "howl at the moon - citiwalk",
-      ,"site of: Scott's meetcute with Sophie Purell"
+      "site of: Scott's meetcute with Sophie Purell"
     ],
     "tags": "Fred Head,Sophie Purell",
-    "location_type": "point","location_id": "1093",
+    "location_type": "point",
+    "location_id": "1093",
     "updated_at": "2019-08-02T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-02T11:51:29Z",
@@ -341,7 +362,8 @@ some geoms missing
     "episode_guests": "Moshe Kasher,Natasha Leggero,Drew Tarver,Ele Woods",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 613,
     "show": "cbb",
     "tstart": "54:10",
@@ -349,12 +371,13 @@ some geoms missing
     "instance": "And then you walk right over and you can get salt water taffy.",
     "elucidation": "identifiable earth location",
     "bit": "Location",
-       "nb": [
+    "nb": [
       "Leeds",
-      ,"hometown of: Sophie Purell"
+      "hometown of: Sophie Purell"
     ],
     "tags": "Sophie Purell",
-    "location_type": "","location_id": "",
+    "location_type": "poly",
+    "location_id": "1028",
     "updated_at": "2019-08-02T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-02T11:51:29Z",
@@ -364,7 +387,8 @@ some geoms missing
     "episode_guests": "Moshe Kasher,Natasha Leggero,Drew Tarver,Ele Woods",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 613,
     "show": "cbb",
     "tstart": "55:30",
@@ -372,13 +396,14 @@ some geoms missing
     "instance": "I was once waiting in line for brunch and I met someone waiting in line for an iPhone.",
     "elucidation": "identifiable earth location",
     "bit": "Location",
-       "nb": [
+    "nb": [
       "site of: Manuel's Body Shop & Collision; proxy for: apple store - daisy, ga",
-      ,"site of: Fred Head in line for brunch"
-      ,"529 Main St, Claxton, GA 30417; -81.830370,32.151747"
+      "site of: Fred Head in line for brunch",
+      "529 Main St, Claxton, GA 30417; -81.830370,32.151747"
     ],
     "tags": "Fred Head",
-    "location_type": "","location_id": "",
+    "location_type": "point",
+    "location_id": "1094",
     "updated_at": "2019-08-02T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-02T11:51:29Z",
@@ -388,7 +413,8 @@ some geoms missing
     "episode_guests": "Moshe Kasher,Natasha Leggero,Drew Tarver,Ele Woods",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 613,
     "show": "cbb",
     "tstart": "1:03:15",
@@ -396,13 +422,14 @@ some geoms missing
     "instance": "Yeah, Citiwalk is pretty snooty.",
     "elucidation": "identifiable earth location",
     "bit": "Location",
-       "nb": [
+    "nb": [
       "site of: Sophie Purell",
-      ,"Apple Store - Grove"
-      ,"-118.357817,34.072239"
+      "Apple Store - Grove",
+      "-118.357817,34.072239"
     ],
     "tags": "Fred Head",
-    "location_type": "","location_id": "",
+    "location_type": "point",
+    "location_id": "1095",
     "updated_at": "2019-08-02T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-02T11:51:29Z",
@@ -412,14 +439,18 @@ some geoms missing
     "episode_guests": "Moshe Kasher,Natasha Leggero,Drew Tarver,Ele Woods",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 613,
     "show": "cbb",
     "tstart": "1:00:00",
     "tend": "1:00:30",
-    "instance": "How many times will you go up on one night?","elucidation":"a pimping subclass: somebody is asked to recite or sing a poem or song","bit":"I'd Love to Hear It",
+    "instance": "How many times will you go up on one night?",
+    "elucidation": "a pimping subclass: somebody is asked to recite or sing a poem or song",
+    "bit": "I'd Love to Hear It",
     "tags": "Fred Head,Sophie Purell,Mariah Carey",
-    "location_type": "","location_id": "",
+    "location_type": "",
+    "location_id": "",
     "updated_at": "2019-08-02T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-02T11:51:29Z",
@@ -429,16 +460,18 @@ some geoms missing
     "episode_guests": "Moshe Kasher,Natasha Leggero,Drew Tarver,Ele Woods",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 613,
     "show": "cbb",
     "tstart": "1:00:00",
     "tend": "1:00:30",
-    "instance": "How many times will you go up on one night?"
-    ,"elucidation": "any song reference",
+    "instance": "How many times will you go up on one night?",
+    "elucidation": "any song reference",
     "bit": "The Paul Hardcastle of Suicides",
     "tags": "Fred Head,Sophie Purell,The Greatest Love of All (song),Michael Masser,Linda Creed,Whitney Houston",
-    "location_type": "","location_id": "",
+    "location_type": "",
+    "location_id": "",
     "updated_at": "2019-08-02T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-02T11:51:29Z",
@@ -448,16 +481,18 @@ some geoms missing
     "episode_guests": "Moshe Kasher,Natasha Leggero,Drew Tarver,Ele Woods",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 613,
     "show": "cbb",
     "tstart": "1:00:00",
     "tend": "1:00:30",
-    "instance": "How many times will you go up on one night?"
-    ,"elucidation": "any song reference",
+    "instance": "How many times will you go up on one night?",
+    "elucidation": "any song reference",
     "bit": "The Paul Hardcastle of Suicides",
     "tags": "Fred Head,Sophie Purell,I Will Always Love You (song),Dolly Parton,Whitney Houston",
-    "location_type": "","location_id": "",
+    "location_type": "",
+    "location_id": "",
     "updated_at": "2019-08-02T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-02T11:51:29Z",
@@ -467,21 +502,20 @@ some geoms missing
     "episode_guests": "Moshe Kasher,Natasha Leggero,Drew Tarver,Ele Woods",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 613,
     "show": "cbb",
     "tstart": "46:30",
     "tend": "47:00",
     "instance": "Chances are - one of them is probably gay.",
-       "elucidation": "identifiable earth location",
+    "elucidation": "identifiable earth location",
     "bit": "Location",
     "nb": [
       "daisy, ga",
-      ,"proxy for: Gooseneck, GA"
+      "proxy for: Gooseneck, GA",
       "home to: Fred Head"
     ],
-    "tags": "Fred Head",
-    "location_type": "poly","location_id": "1027",
     "tags": "Fred Head",
     "location_type": "",
     "location_id": "",
@@ -494,12 +528,15 @@ some geoms missing
     "episode_guests": "Moshe Kasher,Natasha Leggero,Drew Tarver,Ele Woods",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 613,
     "show": "cbb",
     "tstart": "48:00",
     "tend": "48:30",
-    "instance": "These are getting less fun.","elucidation":"some conceit of the show is abused, broken, or exposed","bit":"Verisimilitude",
+    "instance": "These are getting less fun.",
+    "elucidation": "some conceit of the show is abused, broken, or exposed",
+    "bit": "Verisimilitude",
     "tags": "Fred Head",
     "location_type": "",
     "location_id": "",
@@ -512,16 +549,18 @@ some geoms missing
     "episode_guests": "Moshe Kasher,Natasha Leggero,Drew Tarver,Ele Woods",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 613,
     "show": "cbb",
     "tstart": "1:14:30",
     "tend": "1:15:00",
-    "instance": "Lotta duets in the Whitney Houston catalog?"
-    ,"elucidation": "any song reference",
+    "instance": "Lotta duets in the Whitney Houston catalog?",
+    "elucidation": "any song reference",
     "bit": "The Paul Hardcastle of Suicides",
     "tags": "Sophie Purell,Something in Common (song),Teddy Riley,Whitney Houston,Bobby Brown,Bernard Belle,Mark Middleton,Alfred Rosemond",
-    "location_type": "","location_id": "",
+    "location_type": "",
+    "location_id": "",
     "updated_at": "2019-08-02T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-02T11:51:29Z",
@@ -531,16 +570,18 @@ some geoms missing
     "episode_guests": "Moshe Kasher,Natasha Leggero,Drew Tarver,Ele Woods",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 613,
     "show": "cbb",
     "tstart": "1:17:45",
     "tend": "1:18:00",
-    "instance": "I get so excited when I'm positive - my brain goes blank."
-    ,"elucidation": "any song reference",
+    "instance": "I get so excited when I'm positive - my brain goes blank.",
+    "elucidation": "any song reference",
     "bit": "The Paul Hardcastle of Suicides",
     "tags": "Sophie Purell,Fred Head,Billy Joel,We Didn't Start the Fire (song)",
-    "location_type": "","location_id": "",
+    "location_type": "",
+    "location_id": "",
     "updated_at": "2019-08-02T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-02T11:51:29Z",
@@ -550,17 +591,19 @@ some geoms missing
     "episode_guests": "Moshe Kasher,Natasha Leggero,Drew Tarver,Ele Woods",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 614,
     "show": "cbb",
     "tstart": "4:55",
-    "tend": "5:30"
-    ,"instance": "Shaggy, singing \"It Wasn't Me,\" at gunpoint?",
-"elucidation": "any song reference",
-    "bit": "The Paul Hardcastle of Suicides"
-    ,"tags": "It Wasn't Me (song),Shaggy",
-    "location_type": "","location_id": ""
-    ,"updated_at": "2019-08-11T11:51:29Z",
+    "tend": "5:30",
+    "instance": "Shaggy, singing \"It Wasn't Me,\" at gunpoint?",
+    "elucidation": "any song reference",
+    "bit": "The Paul Hardcastle of Suicides",
+    "tags": "It Wasn't Me (song),Shaggy",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-08-11T11:51:29Z",
     "url_soundcloud": null,
     "created_at": "2019-08-11T11:51:29Z",
     "slug_soundcloud": null,
@@ -569,16 +612,18 @@ some geoms missing
     "episode_guests": "Adam DeVine,Tim Baltz,Edi Patterson",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 614,
     "show": "cbb",
     "tstart": "7:00",
-    "tend": "7:20"
-    ,"instance": "Where did you stash your sides?",
-"elucidation": "impromptu reviews of scott's hosting",
-"bit": "You're Terrible at This"
-    ,"tags": "",
-    "location_type": "","location_id": "",
+    "tend": "7:20",
+    "instance": "Where did you stash your sides?",
+    "elucidation": "impromptu reviews of scott's hosting",
+    "bit": "You're Terrible at This",
+    "tags": "",
+    "location_type": "",
+    "location_id": "",
     "updated_at": "2019-08-11T11:51:29Z",
     "url_soundcloud": null,
     "created_at": "2019-08-11T11:51:29Z",
@@ -588,17 +633,18 @@ some geoms missing
     "episode_guests": "Adam DeVine,Tim Baltz,Edi Patterson",
     "id_wikia": null,
     "holding": "false"
-}
-,{
+  },
+  {
     "episode": 614,
     "show": "cbb",
     "tstart": "14:50",
-    "tend": "15:15"
-    ,"instance": "What the fuck just came out of your mouth?",
-"elucidation": "any song reference",
-    "bit": "The Paul Hardcastle of Suicides"
-    ,"tags": "Led Zeppelin (musical combination),Stairway to Heaven (song)",
-    "location_type": "","location_id": "",
+    "tend": "15:15",
+    "instance": "What the fuck just came out of your mouth?",
+    "elucidation": "any song reference",
+    "bit": "The Paul Hardcastle of Suicides",
+    "tags": "Led Zeppelin (musical combination),Stairway to Heaven (song)",
+    "location_type": "",
+    "location_id": "",
     "updated_at": "2019-08-11T11:51:29Z",
     "url_soundcloud": null,
     "created_at": "2019-08-11T11:51:29Z",
@@ -608,16 +654,18 @@ some geoms missing
     "episode_guests": "Adam DeVine,Tim Baltz,Edi Patterson",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 614,
     "show": "cbb",
     "tstart": "15:10",
-    "tend": "15:30"
-    ,"instance": "Leedz a Pilin'",
-"elucidation": "any song reference",
-    "bit": "The Paul Hardcastle of Suicides"
-    ,"tags": "Led Zeppelin (musical combination),Over the Hills and Far Away (song)",
-    "location_type": "","location_id": "",
+    "tend": "15:30",
+    "instance": "Leedz a Pilin'",
+    "elucidation": "any song reference",
+    "bit": "The Paul Hardcastle of Suicides",
+    "tags": "Led Zeppelin (musical combination),Over the Hills and Far Away (song)",
+    "location_type": "",
+    "location_id": "",
     "updated_at": "2019-08-11T11:51:29Z",
     "url_soundcloud": null,
     "created_at": "2019-08-11T11:51:29Z",
@@ -627,16 +675,18 @@ some geoms missing
     "episode_guests": "Adam DeVine,Tim Baltz,Edi Patterson",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 614,
     "show": "cbb",
     "tstart": "15:50",
-    "tend": "16:15"
-    ,"instance": "Mostly in little chunks.",
-"elucidation": "impromptu reviews of scott's hosting",
-"bit": "You're Terrible at This",
+    "tend": "16:15",
+    "instance": "Mostly in little chunks.",
+    "elucidation": "impromptu reviews of scott's hosting",
+    "bit": "You're Terrible at This",
     "tags": "Goonies (film)",
-    "location_type": "","location_id": "",
+    "location_type": "",
+    "location_id": "",
     "updated_at": "2019-08-11T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-11T11:51:29Z",
@@ -646,16 +696,17 @@ some geoms missing
     "episode_guests": "Adam DeVine,Tim Baltz,Edi Patterson",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 614,
     "show": "cbb",
     "tstart": "21:00",
-    "tend": "21:30"
-    ,"instance": "I don't quite know how to describe him.",
-"elucidation": "identifiable earth location",
-"bit": "Location",
-"location_type": "point",
-"location_id": "583",
+    "tend": "21:30",
+    "instance": "I don't quite know how to describe him.",
+    "elucidation": "identifiable earth location",
+    "bit": "Location",
+    "location_type": "point",
+    "location_id": "583",
     "tags": "Randy Snutz",
     "updated_at": "2019-08-11T11:51:29Z",
     "url_soundcloud": "",
@@ -666,20 +717,21 @@ some geoms missing
     "episode_guests": "Adam DeVine,Tim Baltz,Edi Patterson",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 614,
     "show": "cbb",
     "tstart": "23:30",
-    "tend": "24:00"
-    ,"instance": "You can call me 'Bean Dip' or 'Bean.'",
-"elucidation": "identifiable earth location",
+    "tend": "24:00",
+    "instance": "You can call me 'Bean Dip' or 'Bean.'",
+    "elucidation": "identifiable earth location",
     "bit": "Location",
     "nb": [
       "w hotel - hollywood",
-      ,"owned by: Bean Dip"
+      "owned by: Bean Dip"
     ],
-"location_type": "point",
-"location_id": "926",
+    "location_type": "point",
+    "location_id": "926",
     "tags": "Bean Dip",
     "updated_at": "2019-08-11T11:51:29Z",
     "url_soundcloud": null,
@@ -690,20 +742,22 @@ some geoms missing
     "episode_guests": "Adam DeVine,Tim Baltz,Edi Patterson",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 614,
     "show": "cbb",
     "tstart": "24:00",
     "tend": "24:45",
-    "instance": "I need those lights dim."
-    ,"elucidation": "identifiable earth location",
+    "instance": "I need those lights dim.",
+    "elucidation": "identifiable earth location",
     "bit": "Location",
     "nb": [
       "w hotel - hollywood",
-      ,"owned by: Bean Dip"
-    ]
-    ,"tags": "Bean Dip",
-    "location_type": "point","location_id": "664",
+      "owned by: Bean Dip"
+    ],
+    "tags": "Bean Dip",
+    "location_type": "point",
+    "location_id": "664",
     "updated_at": "2019-08-11T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-11T11:51:29Z",
@@ -713,20 +767,22 @@ some geoms missing
     "episode_guests": "Adam DeVine,Tim Baltz,Edi Patterson",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 614,
     "show": "cbb",
     "tstart": "27:00",
     "tend": "27:30",
-    "instance": "You're ordering microphones from us?"
-    ,"elucidation": "identifiable earth location",
+    "instance": "You're ordering microphones from us?",
+    "elucidation": "identifiable earth location",
     "bit": "Location",
     "nb": [
       "w hotel - hollywood",
-      ,"owned by: Bean Dip"
-    ]
-    ,"tags": "Bean Dip",
-    "location_type": "point","location_id": "664",
+      "owned by: Bean Dip"
+    ],
+    "tags": "Bean Dip",
+    "location_type": "point",
+    "location_id": "664",
     "updated_at": "2019-08-11T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-11T11:51:29Z",
@@ -736,16 +792,18 @@ some geoms missing
     "episode_guests": "Adam DeVine,Tim Baltz,Edi Patterson",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 614,
     "show": "cbb",
     "tstart": "27:30",
     "tend": "28:00",
-    "instance": "Alexa?"
-    ,"elucidation": "any song reference",
+    "instance": "Alexa?",
+    "elucidation": "any song reference",
     "bit": "The Paul Hardcastle of Suicides",
     "tags": "Bean Dip,Francis Scott Key,john Stafford Smith,The Star-spangled Banner (song)",
-    "location_type": "","location_id": "",
+    "location_type": "",
+    "location_id": "",
     "updated_at": "2019-08-11T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-11T11:51:29Z",
@@ -755,16 +813,18 @@ some geoms missing
     "episode_guests": "Adam DeVine,Tim Baltz,Edi Patterson",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 614,
     "show": "cbb",
     "tstart": "33:20",
     "tend": "33:45",
-    "instance": "The concept is: Jeremy is having a hard time."
-    ,"elucidation": "any song reference",
+    "instance": "The concept is: Jeremy is having a hard time.",
+    "elucidation": "any song reference",
     "bit": "The Paul Hardcastle of Suicides",
     "tags": "Bean Dip,Jeremy (song),Pearl Jam (musical combination)",
-    "location_type": "","location_id": "",
+    "location_type": "",
+    "location_id": "",
     "updated_at": "2019-08-11T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-11T11:51:29Z",
@@ -774,16 +834,18 @@ some geoms missing
     "episode_guests": "Adam DeVine,Tim Baltz,Edi Patterson",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 614,
     "show": "cbb",
     "tstart": "33:30",
     "tend": "34:15",
-    "instance": "He wants to get that peanut butter on every corner."
-    ,"elucidation": "any song reference",
+    "instance": "He wants to get that peanut butter on every corner.",
+    "elucidation": "any song reference",
     "bit": "The Paul Hardcastle of Suicides",
     "tags": "Bean Dip,Evenflow (song),Pearl Jam (musical combination)",
-    "location_type": "","location_id": "",
+    "location_type": "",
+    "location_id": "",
     "updated_at": "2019-08-11T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-11T11:51:29Z",
@@ -793,20 +855,22 @@ some geoms missing
     "episode_guests": "Adam DeVine,Tim Baltz,Edi Patterson",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 614,
     "show": "cbb",
     "tstart": "34:40",
     "tend": "35:15",
-    "instance": "I have to be at the desk to answer every microphone call that will come in."
-    ,"elucidation": "identifiable earth location",
+    "instance": "I have to be at the desk to answer every microphone call that will come in.",
+    "elucidation": "identifiable earth location",
     "bit": "Location",
     "nb": [
       "w hotel - hollywood",
-      ,"owned by: Bean Dip"
-    ]
-    ,"tags": "Bean Dip",
-    "location_type": "point","location_id": "664",
+      "owned by: Bean Dip"
+    ],
+    "tags": "Bean Dip",
+    "location_type": "point",
+    "location_id": "664",
     "updated_at": "2019-08-11T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-11T11:51:29Z",
@@ -816,21 +880,24 @@ some geoms missing
     "episode_guests": "Adam DeVine,Tim Baltz,Edi Patterson",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 614,
     "show": "cbb",
     "tstart": "45:30",
     "tend": "46:30",
-    "instance": "We bonded over how long our receipt was."
-    ,"elucidation": "identifiable earth location",
+    "instance": "We bonded over how long our receipt was.",
+    "elucidation": "identifiable earth location",
     "bit": "Location",
     "nb": [
-      "CVS ##9767",
-      ,"site of: Bean Dip & Randy Snutz' meetcute"
-      ,"9045 Wilshire, Beverly Hills, CA"
-    ]
-    ,"tags": "Bean Dip,Randy Snutz",
-    "location_type": "","location_id": "",
+      "CVS ##WaterWorks Park.389522,34.067216",
+      "-122.368226,40.612248",
+      "site of: possible Bean Dip & Randy Snutz' meetcute",
+      "9045 Wilshire, Beverly Hills, CA"
+    ],
+    "tags": "Bean Dip,Randy Snutz",
+    "location_type": "point",
+    "location_id": "1096",
     "updated_at": "2019-08-11T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-11T11:51:29Z",
@@ -840,15 +907,18 @@ some geoms missing
     "episode_guests": "Adam DeVine,Tim Baltz,Edi Patterson",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 614,
     "show": "cbb",
     "tstart": "46:45",
     "tend": "47:00",
-    "instance": "And then Tiffany covered it - took all the glory."
-    ,"elucidation":"any song reference","bit":"The Paul Hardcastle of Suicides"
-    ,"tags": "Bean Dip,Randy Snutz,Manic Monday (song),Prince,Tiffany,The Bangles (musical combination)",
-    "location_type": "","location_id": "",
+    "instance": "And then Tiffany covered it - took all the glory.",
+    "elucidation": "any song reference",
+    "bit": "The Paul Hardcastle of Suicides",
+    "tags": "Bean Dip,Randy Snutz,Manic Monday (song),Prince,Tiffany,The Bangles (musical combination)",
+    "location_type": "",
+    "location_id": "",
     "updated_at": "2019-08-11T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-11T11:51:29Z",
@@ -858,20 +928,23 @@ some geoms missing
     "episode_guests": "Adam DeVine,Tim Baltz,Edi Patterson",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 614,
     "show": "cbb",
     "tstart": "49:10",
     "tend": "50:00",
-    "instance": "I said it too loud once."
-    ,"elucidation": "identifiable earth location",
+    "instance": "I said it too loud once.",
+    "elucidation": "identifiable earth location",
     "bit": "Location",
     "nb": [
-      "ampm Santa Monica Blvd",
-      ,"snutz' am/pm chevron"
-    ]
-    ,"tags": "Randy Snutz",
-    "location_type": "point","location_id": "816",
+      "WaterWorks Park Blvd",
+      "-122.368226,40.612248",
+      "possible snutz' am/pm chevron"
+    ],
+    "tags": "Randy Snutz",
+    "location_type": "point",
+    "location_id": "816",
     "updated_at": "2019-08-11T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-11T11:51:29Z",
@@ -881,15 +954,18 @@ some geoms missing
     "episode_guests": "Adam DeVine,Tim Baltz,Edi Patterson",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 614,
     "show": "cbb",
     "tstart": "55:45",
     "tend": "56:15",
-    "instance": "It seems like the first half of your lyrics are always consistently Kenny Rogers and then the second half is a parody that seems to be related to drugs."
-    ,"elucidation":"any song reference","bit":"The Paul Hardcastle of Suicides"
-    ,"tags": "Randy Snutz,The Gambler (song),Kenny Rogers,Don Schlitz",
-    "location_type": "","location_id": "",
+    "instance": "It seems like the first half of your lyrics are always consistently Kenny Rogers and then the second half is a parody that seems to be related to drugs.",
+    "elucidation": "any song reference",
+    "bit": "The Paul Hardcastle of Suicides",
+    "tags": "Randy Snutz,The Gambler (song),Kenny Rogers,Don Schlitz",
+    "location_type": "",
+    "location_id": "",
     "updated_at": "2019-08-11T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-11T11:51:29Z",
@@ -899,20 +975,23 @@ some geoms missing
     "episode_guests": "Adam DeVine,Tim Baltz,Edi Patterson",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 614,
     "show": "cbb",
     "tstart": "58:15",
     "tend": "59:30",
-    "instance": "Take me there or don't take me nowhere."
-    ,"elucidation": "identifiable earth location",
+    "instance": "Take me there or don't take me nowhere.",
+    "elucidation": "identifiable earth location",
     "bit": "Location",
     "nb": [
-      "water park in norcal",
-      ,"site of: Randy Snutz and Bean Deap on a date"
-    ]
-    ,"tags": "Randy Snutz",
-    "location_type": "","location_id": "",
+      "WaterWorks Park",
+      "-122.368226,40.612248",
+      "possible site of: Randy Snutz and Bean Deap on a date"
+    ],
+    "tags": "Randy Snutz",
+    "location_type": "point",
+    "location_id": "1097",
     "updated_at": "2019-08-11T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-11T11:51:29Z",
@@ -922,43 +1001,22 @@ some geoms missing
     "episode_guests": "Adam DeVine,Tim Baltz,Edi Patterson",
     "id_wikia": null,
     "holding": "false"
-},{
-    "episode": 614,
-    "show": "cbb",
-    "tstart": "58:15",
-    "tend": "58:45",
-    "instance": "We took the scenic I-5 route."
-    ,"elucidation": "identifiable earth location",
-    "bit": "Location",
-    "nb": [
-      "i-5 to a water park in norcal",
-      ,"route of: Randy Snutz on a scenic drive"
-    ]
-    ,"tags": "Randy Snutz",
-    "location_type": "line","location_id": "",
-    "updated_at": "2019-08-11T11:51:29Z",
-    "url_soundcloud": "",
-    "created_at": "2019-08-11T11:51:29Z",
-    "slug_soundcloud": "",
-    "slug_earwolf": "bean-dip-randy-snutz-return-thats-what-i-said",
-    "episode_title": "Bean Dip & Randy Snutz Return: That’s What I Said",
-    "episode_guests": "Adam DeVine,Tim Baltz,Edi Patterson",
-    "id_wikia": null,
-    "holding": "false"
-},{
+  },
+  {
     "episode": 614,
     "show": "cbb",
     "tstart": "1:00:30",
     "tend": "1:00:45",
-    "instance": "Carissa went so nuts on him that he moved to Ohio."
-    ,"elucidation": "identifiable earth location",
+    "instance": "Carissa went so nuts on him that he moved to Ohio.",
+    "elucidation": "identifiable earth location",
     "bit": "Location",
     "nb": [
       "Ohio",
-      ,"home to: Randy Snutz' former friend Travis"
-    ]
-    ,"tags": "Randy Snutz",
-    "location_type": "line","location_id": "",
+      "home to: Randy Snutz' former friend Travis"
+    ],
+    "tags": "Randy Snutz",
+    "location_type": "line",
+    "location_id": "298",
     "updated_at": "2019-08-11T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-11T11:51:29Z",
@@ -968,15 +1026,18 @@ some geoms missing
     "episode_guests": "Adam DeVine,Tim Baltz,Edi Patterson",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": 614,
     "show": "cbb",
     "tstart": "1:02:30",
     "tend": "1:02:55",
-    "instance": "Flame is feeting."
-    ,"elucidation":"any song reference","bit":"The Paul Hardcastle of Suicides"
-    ,"tags": "Eternal Flame (song),The Bangles (musical combination),Billy Steinberg,Tom Kelly",
-    "location_type": "","location_id": "",
+    "instance": "Flame is feeting.",
+    "elucidation": "any song reference",
+    "bit": "The Paul Hardcastle of Suicides",
+    "tags": "Eternal Flame (song),The Bangles (musical combination),Billy Steinberg,Tom Kelly",
+    "location_type": "",
+    "location_id": "",
     "updated_at": "2019-08-11T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-08-11T11:51:29Z",
@@ -986,5 +1047,303 @@ some geoms missing
     "episode_guests": "Adam DeVine,Tim Baltz,Edi Patterson",
     "id_wikia": null,
     "holding": "false"
-}
+  },
+  {
+    "episode": 615,
+    "show": "cbb",
+    "tstart": "14:50",
+    "tend": "15:30",
+    "instance": "Ok, Buster Keaton.",
+    "elucidation": "scott's measurement of film length",
+    "bit": "How Many Reels?",
+    "tags": "Buster Keaton",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-08-19T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-08-19T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "the-chastman-family",
+    "episode_title": "The Chastman Family",
+    "episode_guests": "Tatiana Maslany,Kristian Bruun,Paul F. Tompkins,Kirby Howell-Baptiste",
+    "id_wikia": null,
+    "holding": "false"
+  },
+  {
+    "episode": 615,
+    "show": "cbb",
+    "tstart": "18:10",
+    "tend": "18:35",
+    "instance": "Sounds groundbreaking!",
+    "elucidation": "any song reference",
+    "bit": "The Paul Hardcastle of Suicides",
+    "tags": "Queen (musical combination),Bohemian Rhapsody (song)",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-08-19T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-08-19T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "the-chastman-family",
+    "episode_title": "The Chastman Family",
+    "episode_guests": "Tatiana Maslany,Kristian Bruun,Paul F. Tompkins,Kirby Howell-Baptiste",
+    "id_wikia": null,
+    "holding": "false"
+  },
+  {
+    "episode": 615,
+    "show": "cbb",
+    "tstart": "23:45",
+    "tend": "23:55",
+    "instance": "The tiger is also a cat.",
+    "elucidation": "that old riddle",
+    "bit": "The Doctor is a Woman",
+    "tags": "",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-08-19T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-08-19T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "the-chastman-family",
+    "episode_title": "The Chastman Family",
+    "episode_guests": "Tatiana Maslany,Kristian Bruun,Paul F. Tompkins,Kirby Howell-Baptiste",
+    "id_wikia": null,
+    "holding": "false"
+  },
+  {
+    "episode": 615,
+    "show": "cbb",
+    "tstart": "24:45",
+    "tend": "24:55",
+    "instance": "What's the oldest thing you think you've seen?",
+    "elucidation": "scott's...questions",
+    "bit": "Scott's Questions",
+    "tags": "",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-08-19T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-08-19T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "the-chastman-family",
+    "episode_title": "The Chastman Family",
+    "episode_guests": "Tatiana Maslany,Kristian Bruun,Paul F. Tompkins,Kirby Howell-Baptiste",
+    "id_wikia": null,
+    "holding": "false"
+  },
+  {
+    "episode": 615,
+    "show": "cbb",
+    "tstart": "45:45",
+    "tend": "46:01",
+    "instance": "See? That's how *they* do it.",
+    "elucidation": "a pimping subclass: somebody is asked to recite or sing a poem or song",
+    "bit": "I'd Love to Hear It",
+    "tags": "Robert Chastman,Chastity Aspen,Brensten Chastman,Cicilia Chastaman",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-08-19T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-08-19T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "the-chastman-family",
+    "episode_title": "The Chastman Family",
+    "episode_guests": "Tatiana Maslany,Kristian Bruun,Paul F. Tompkins,Kirby Howell-Baptiste",
+    "id_wikia": null,
+    "holding": "false"
+  },
+  {
+    "episode": 615,
+    "show": "cbb",
+    "tstart": "45:45",
+    "tend": "46:15",
+    "instance": "See? That's how *they* do it.",
+    "elucidation": "a pimping subclass: somebody is asked to recite or sing a poem or song",
+    "bit": "I'd Love to Hear It",
+    "tags": "Robert Chastman,Chastity Aspen,Brensten Chastman,Cicilia Chastaman",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-08-19T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-08-19T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "the-chastman-family",
+    "episode_title": "The Chastman Family",
+    "episode_guests": "Tatiana Maslany,Kristian Bruun,Paul F. Tompkins,Kirby Howell-Baptiste",
+    "id_wikia": null,
+    "holding": "false"
+  },
+  {
+    "episode": 615,
+    "show": "cbb",
+    "tstart": "45:45",
+    "tend": "46:15",
+    "instance": "It's good to start low cuz it goes high.",
+    "elucidation": "any song reference",
+    "bit": "The Paul Hardcastle of Suicides",
+    "tags": "Robert Chastman,Chastity Aspen,Brensten Chastman,Cicilia Chastaman,The Star-Spangled Banner (song),Francis Scott Key,John Stafford Smith",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-08-19T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-08-19T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "the-chastman-family",
+    "episode_title": "The Chastman Family",
+    "episode_guests": "Tatiana Maslany,Kristian Bruun,Paul F. Tompkins,Kirby Howell-Baptiste",
+    "id_wikia": null,
+    "holding": "false"
+  },
+  {
+    "episode": 615,
+    "show": "cbb",
+    "tstart": "50:20",
+    "tend": "50:35",
+    "instance": "We have a band.",
+    "elucidation": "a pimping subclass: somebody is asked to recite or sing a poem or song",
+    "bit": "I'd Love to Hear It",
+    "tags": "Robert Chastman,Chastity Aspen,Brensten Chastman,Cicilia Chastaman",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-08-19T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-08-19T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "the-chastman-family",
+    "episode_title": "The Chastman Family",
+    "episode_guests": "Tatiana Maslany,Kristian Bruun,Paul F. Tompkins,Kirby Howell-Baptiste",
+    "id_wikia": null,
+    "holding": "false"
+  },
+  {
+    "episode": 615,
+    "show": "cbb",
+    "tstart": "50:45",
+    "tend": "51:00",
+    "instance": "Every song begins with 'hello.'",
+    "elucidation": "any song reference",
+    "bit": "The Paul Hardcastle of Suicides",
+    "tags": "Robert Chastman,Chastity Aspen,Brensten Chastman,Cicilia Chastaman,O Canada (song),Calixa Lavallée,Sir Adolphe-Basile Routhier",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-08-19T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-08-19T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "the-chastman-family",
+    "episode_title": "The Chastman Family",
+    "episode_guests": "Tatiana Maslany,Kristian Bruun,Paul F. Tompkins,Kirby Howell-Baptiste",
+    "id_wikia": null,
+    "holding": "false"
+  },
+  {
+    "episode": 615,
+    "show": "cbb",
+    "tstart": "1:01:15",
+    "tend": "1:01:45",
+    "instance": "After 40 you turn inside out - that's why women become invisible.",
+    "elucidation": "borat",
+    "bit": "My Wife!",
+    "tags": "Robert Chastman,Chastity Aspen,Brensten Chastman,Cicilia Chastaman",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-08-19T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-08-19T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "the-chastman-family",
+    "episode_title": "The Chastman Family",
+    "episode_guests": "Tatiana Maslany,Kristian Bruun,Paul F. Tompkins,Kirby Howell-Baptiste",
+    "id_wikia": null,
+    "holding": "false"
+  },
+  {
+    "episode": 615,
+    "show": "cbb",
+    "tstart": "1:02:00",
+    "tend": "1:02:30",
+    "instance": "Stop turning inside out - put those nostrils back in.",
+    "elucidation": "any song reference",
+    "bit": "The Paul Hardcastle of Suicides",
+    "tags": "Robert Chastman,Chastity Aspen,Brensten Chastman,Cicilia Chastaman,As I was Going to St. Ives (song)",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-08-19T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-08-19T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "the-chastman-family",
+    "episode_title": "The Chastman Family",
+    "episode_guests": "Tatiana Maslany,Kristian Bruun,Paul F. Tompkins,Kirby Howell-Baptiste",
+    "id_wikia": null,
+    "holding": "false"
+  },
+  {
+    "episode": 615,
+    "show": "cbb",
+    "tstart": "1:03:15",
+    "tend": "1:03:30",
+    "instance": "No, I need one more wife.",
+    "elucidation": "any song reference",
+    "bit": "The Paul Hardcastle of Suicides",
+    "tags": "Robert Chastman,Chastity Aspen,Brensten Chastman,Cicilia Chastaman,As I was Going to St. Ives (song)",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-08-19T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-08-19T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "the-chastman-family",
+    "episode_title": "The Chastman Family",
+    "episode_guests": "Tatiana Maslany,Kristian Bruun,Paul F. Tompkins,Kirby Howell-Baptiste",
+    "id_wikia": null,
+    "holding": "false"
+  },
+  {
+    "episode": 615,
+    "show": "cbb",
+    "tstart": "1:12:00",
+    "tend": "1:12:30",
+    "instance": "Well, uh, we'll be going to St. Ives.",
+    "elucidation": "any song reference",
+    "bit": "The Paul Hardcastle of Suicides",
+    "tags": "Robert Chastman,Chastity Aspen,Brensten Chastman,Cicilia Chastaman,As I was Going to St. Ives (song)",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-08-19T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-08-19T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "the-chastman-family",
+    "episode_title": "The Chastman Family",
+    "episode_guests": "Tatiana Maslany,Kristian Bruun,Paul F. Tompkins,Kirby Howell-Baptiste",
+    "id_wikia": null,
+    "holding": "false"
+  },
+  {
+    "episode": 614,
+    "show": "cbb",
+    "tstart": "58:15",
+    "tend": "58:45",
+    "instance": "We took the scenic I-5 route.",
+    "elucidation": "identifiable earth location",
+    "bit": "Location",
+    "nb": [
+      "i-5 to a water park in norcal",
+      "route of: Randy Snutz on a scenic drive"
+    ],
+    "tags": "Randy Snutz",
+    "location_type": "line",
+    "location_id": "298",
+    "updated_at": "2019-08-11T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-08-11T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "bean-dip-randy-snutz-return-thats-what-i-said",
+    "episode_title": "Bean Dip & Randy Snutz Return: That’s What I Said",
+    "episode_guests": "Adam DeVine,Tim Baltz,Edi Patterson",
+    "id_wikia": null,
+    "holding": "false"
+  }
 ]
