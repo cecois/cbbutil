@@ -39,8 +39,8 @@ if(firstimgbxmigurl){
 resolve(d.url);
 });
 }else{
-// if none resolve w/ aukerman's hs
-	resolve('https://www.earwolf.com/wp-content/uploads/2013/11/105.jpg')
+// if none resolve w/ generic
+	resolve('https://res.cloudinary.com/cecois/image/upload/v1566654886/EAR_COVER_ComedyBangBang_2018Refresh_3000x3000_Final-300x300.jpg')
 }
 
   })
