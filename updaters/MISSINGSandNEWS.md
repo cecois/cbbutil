@@ -1,6 +1,7 @@
 # possible new bits:
 
 0. clean up nephew todd tag, "tiny reviews music" eluc
+1. dick francis
 1. ~~fix "Regina Krimp" vs. "Crimp"~~
 1. ~~you say baby too~~
 2. hollywood facts
@@ -119,8 +120,10 @@
   - 388,27:30(pw)
   - 411,4:00(pw)
   - 419,40:38(pw)
+  - manchester,58:00
   - may-20-chicago-athenaeum-theatre-7-pm,1:09:00(pw)
   - melbourne2016,35:30
+  - london,1:40:00
 * dr. demento/weirdo al
   - 582,7:00(pw)
   - several prior
@@ -176,6 +179,7 @@
   - 443,27:00(pw)
   - 365,1:00:00(pw)
   - 365,25:30
+  - 484,9:30
 - pft does star wars talk
   - all bo2017.\*
   - bo2017.3,30:25
@@ -1718,7 +1722,9 @@
   - 320,1:15:35(paywall)
   - 326,54:00(paywall)
   - 326,2:10:13(paywall)
+  - leeds,10:30
   - 615,1:20:20
+  
 - German craigslist
 
   - 401,50:45
@@ -2028,6 +2034,7 @@
 
 - interesting people
   - several of the 480+ eps
+  - 475,1:30
   - 611,36:15
   - 611,45:00
   - peecast2018,2:50
@@ -2123,6 +2130,7 @@
   - 532,1:40
   - 536,1:45
   - 536,24:45
+  - 485,4:30
   - https://www.stitcher.com/s?eid=52628985,1:00
 - theatre tunnels
 
