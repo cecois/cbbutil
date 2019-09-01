@@ -140,7 +140,7 @@ live-from-vulture-fest-2017
 -   257,34:00,is this a ghost burger?
 -   257,43:55,wait - what? u can use a regular ladder?
 -   260,1:03:36,victor gives it one more shot
--   now hear this nyc 2017,33:45,be anymore in a wheelchair?
+-   now hear this nyc 2017,33:45,could i be anymore in a wheelchair?
 -   260,1:11:55,am i going out of my mind - was there a 5?
 -   260,45:29,this is the guy you're supposed to understand
 -   260,49:30,that's a problem that i have
@@ -241,6 +241,7 @@ live-from-vulture-fest-2017
 -   394,53:03,im a sugar daddy
 -   394,57:00,don't try to show off for your podcast friends
 -   412,49:00,you remind me of a little mynabird
+-   500,1:18:00,and...gil faizon
 -   419,41:03,i'm john lennon, how do you do? \\ i just bought a brand new tennis shoe
 -   419,41:30,rap is foreign to me
 -   419,46:00,what is going on? (bethesda fountain)
@@ -282,7 +283,7 @@ live-from-vulture-fest-2017
 -   578,47:00,is that where you got that ginus?
 -   524,15:45,bon appetite!
 -   524,1:00,they know (BCB)
--   524,1:03:00,patty luphone
+-   524,1:03:00,patty lupone
 -   524,1:15:30,wasn't judy dench in the big chill?
 -   524,1:49:00,yeah i don't like you and you don't like me?
 -   524,26:00,ultimate feedback

@@ -136,5 +136,49 @@
     "episode_guests": "YACHT (musical combination),Shaun Diston,Drew Tarver,Carl Tart",
     "id_wikia": null,
     "holding": "false"
+},{
+    "episode": 616,
+    "show": "cbb",
+    "tstart": "42:15",
+    "tend": "43:00",
+    "instance": "You say that like it's the first time you're learning this.","bit":"Location","elucidation":"identifiable earth location",
+    "tags": "Little Tony Diamonds,Memphis Kansas Breeze (musical combination),Brantley Aldean,Harland Haywood",
+    "nb":[
+        "Georgia",
+        "home to: Brantley Aldean or Harland Haywood"
+    ],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-08-26T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-08-26T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "memphis-kansas-breeze-with-yacht",
+    "episode_title": "Memphis Kansas Breeze with YACHT",
+    "episode_guests": "YACHT (musical combination),Shaun Diston,Drew Tarver,Carl Tart",
+    "id_wikia": null,
+    "holding": "false"
+},{
+    "episode": 616,
+    "show": "cbb",
+    "tstart": "42:15",
+    "tend": "43:00",
+    "instance": "You say that like it's the first time you're learning this.","bit":"Location","elucidation":"identifiable earth location",
+    "tags": "Little Tony Diamonds,Memphis Kansas Breeze (musical combination),Brantley Aldean,Harland Haywood",
+    "nb":[
+        "Alabama",
+        "home to: Brantley Aldean or Harland Haywood"
+    ],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-08-26T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-08-26T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "memphis-kansas-breeze-with-yacht",
+    "episode_title": "Memphis Kansas Breeze with YACHT",
+    "episode_guests": "YACHT (musical combination),Shaun Diston,Drew Tarver,Carl Tart",
+    "id_wikia": null,
+    "holding": "false"
 }
 ]
