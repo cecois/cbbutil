@@ -603,3 +603,4 @@ live-from-vulture-fest-2017
 -   week,30:00,acdc guy
 -   week,42:45,lord vader's birthday
 -   week,51:45,what do tits look like?
+-   incel,45:00,i'm an adult
