@@ -2035,6 +2035,9 @@
 - interesting people
   - several of the 480+ eps
   - 475,1:30
+  - https://www.stitcher.com/s?eid=63646845 (medford),4:10
+  - https://www.stitcher.com/s?eid=63647071 (providence),3:00
+  - https://www.stitcher.com/s?eid=63647071 (providence),42:30
   - 611,36:15
   - 611,45:00
   - peecast2018,2:50

@@ -2,65 +2,81 @@ var __ = require('underscore')
 ,FS = require('fs')
 ,CONFIG = require("./Config.json")
 ,FSTREAM = require("fstream")
-,TAR = require("tar-fs")
+,ZLIB = require('zlib')
 ,PATH = require('path')
 ,ZLIB = require('zlib')
 ,MONGO = require('mongodb').MongoClient
 ,MOMENT = require('moment')
 ;
 
-// var geobud = async () =>{
+const _WRITEGEOMS = async(G)=>{
 
-// 	return new Promise((resolve, reject)=>{
+		let runid = MOMENT().format('YYYY_MMMM_DD_dddd_hh_mm_ss');
+		let bujson = "bu-geo."+runid+".json";
 
-		var runid = MOMENT().format('YYYY_MMMM_DD_dddd_hh_mm_ss');
-		var bud = CONFIG.budir+"/"+runid;
-		var buf = "bu-geo."+runid+".json";
-		var but = bud+".tar";
-		
-// Use connect method to connect to the Server
-	const uri = "mongodb://cecois:r0mjwrD61vaRhWKn@cbbcluster0-shard-00-00-wdqp7.gcp.mongodb.net:27017,cbbcluster0-shard-00-01-wdqp7.gcp.mongodb.net:27017,cbbcluster0-shard-00-02-wdqp7.gcp.mongodb.net:27017/test?ssl=true&replicaSet=cbbcluster0-shard-0&authSource=admin&retryWrites=true";
-	const client = new MONGO(uri, {
-		useNewUrlParser: true
-	});
-	client.connect(err => {
-		if (err) console.log(err);
-		const col = client.db("cbb").collection("missings");
-		// perform actions on the collection object
-		col.find().limit(999999).toArray((err, docs) => {
-			// if (err) {
-				
-				client.close();
-				FS.writeFile(buf,JSON.stringify(docs),(err,res)=>{
+let FI = CONFIG.budir+'/'+bujson
+let FIG = CONFIG.budir+'/'+bujson+'.gz'
 
-					if(err){console.log(err)}
+	return new Promise((resolve, reject)=>{
+
+		FS.writeFile(FI, JSON.stringify(G), 'utf8', (err)=>{
+    if (err) {
+        reject(err)
+    }
+
+const fileContents = FS.createReadStream(FI);
+    const writeStream = FS.createWriteStream(FIG);
+    const zip = ZLIB.createGzip();
+    fileContents.pipe(zip).pipe(writeStream).on('finish', (err) => {
+      if (err) {reject(err)} else {
+
+FS.unlink(FI, (err)=>{
+if(err)reject(err)
+	resolve()
+})//unlink
+
+      }//finish.err.else
+      // resolve();
+    })
 
 })//writefile
-// 			} else {
-// 				client.close();
-// 				reject();
-// 				// res.jsonp(docs);
-// 				// db.close();
-// 			}
-		}); //.find.toarray
-	});
+    
+})//promise
+
+}//writegeoms
+
+const _GETGEOMS = async () =>{
+
+	return new Promise((resolve, reject)=>{
 		
+	const uri = "mongodb://cecois:r0mjwrD61vaRhWKn@cbbcluster0-shard-00-00-wdqp7.gcp.mongodb.net:27017,cbbcluster0-shard-00-01-wdqp7.gcp.mongodb.net:27017,cbbcluster0-shard-00-02-wdqp7.gcp.mongodb.net:27017/test?ssl=true&replicaSet=cbbcluster0-shard-0&authSource=admin&retryWrites=true";
 
-		// resolve()
-	// });
+			MONGO.connect(uri, (err, client) => {
+				const db = client.db('cbb');
+				var col = db.collection('geo');
+				col.find().toArray((e, r) => {
+					if(e){reject(e)}
+					resolve(r)
+				});
+			});
+	});//promise
 
-// }
+}//GETGEOMS
 
 
-// var main = async () =>{
-// 	try {
+const _MAIN = async () =>{
 
-// 		let geobu = geobud();
-// 		console.log(geobu);
+console.log("awaiting GETGEOMS...")
+		const geoms = await _GETGEOMS();
 
-// } catch(error) {
-// 	console.error(error);
-// }
-// }
+console.log("...got "+geoms.length+"...");
+console.log("writing out...")
 
-// main();
+const tarball = await _WRITEGEOMS(geoms);
+
+process.exit()
+
+
+}//main
+
+_MAIN();
