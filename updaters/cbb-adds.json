@@ -1326,5 +1326,26 @@
     "episode_guests": "Jon Gabrus,Jefferson Dutton,Mike Hanford,Shaun Diston,Tim Kalpakis",
     "id_wikia": null,
     "holding": "false"
+},
+{
+    "episode": 571,
+    "show": "cbb",
+    "tstart": "27:30",
+    "tend": "28:00",
+    "instance": "There's not a lot of people that do the M to A to V to E.",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": "Gino Lambardo,Queen Cleopatra",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-09-09T09:37:04Z",
+    "url_soundcloud": null,
+    "created_at": "2019-09-09T09:37:04Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "rope-beats-rock",
+    "episode_title": "Rope Beats Rock",
+    "episode_guests": "Jon Gabrus,Betsy Sodaro,Will Hines",
+    "id_wikia": null,
+    "holding": "false"
 }
 ]
