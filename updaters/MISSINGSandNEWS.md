@@ -2044,6 +2044,7 @@
   - https://www.stitcher.com/s?eid=63647071 (providence),42:30
   - 611,36:15
   - 611,45:00
+  - 619,1:10:45
   - peecast2018,2:50
   - peecast2018,24:00
   - now hear this 2017 nyc,24:30
