@@ -36,8 +36,7 @@
     "mongodb": "^2.2.36",
     "node-nominatim2": "^0.1.0",
     "prompt": "^1.0.0",
-    "tar": "^2.2.1",
-    "tar-fs": "^1.16.3",
+    "tar": "^2.2.2",
     "underscore": "^1.9.1",
     "zlib": "^1.0.5"
   },
@@ -70,6 +69,7 @@
     "request-promise": "^4.2.1",
     "rupture": "^0.6.1",
     "sanitize-html": "^1.16.3",
-    "solr-client": "^0.7.0"
+    "solr-client": "^0.7.0",
+    "tar-fs": "^2.0.0"
   }
 }

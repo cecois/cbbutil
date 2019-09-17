@@ -621,7 +621,7 @@ let update = await _SENDSUMMARY(summary);
 } catch(error) {
 	console.error(error);
 }
-console.log("WANNA BACK UP DEM GEOMS, CHUMP? ./Users/ccmiller/Documents/cbb-bu-geoms.sh ")
+console.log("WANNA BACK UP DEM GEOMS, CHUMP? ./geobu.js ")
 } //main
 
 main();
