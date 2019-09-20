@@ -513,7 +513,7 @@ loadings: { maplayer: false, app: false, popupopen: false },
         .get(qs)
         .then(response => {
 
-          this.hero=response.data[0].reports[0].hero;
+          this.hero=response.data[0].hero;
 this.updates=response.data;
 
         }) //axios.then
