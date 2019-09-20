@@ -1196,5 +1196,49 @@ geoms
     "episode_guests": "Lauren Lapkus,Ego Nwodim,Paul F. Tompkins",
     "id_wikia": null,
     "holding": "false"
-  }
+  },
+  {
+"episode": 220,
+    "show": "cbb",
+    "tstart": "31:00",
+    "tend": "31:30",
+    "instance": "Every one's the same age once you're covered in mud.",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "location_type": "point","location_id": "1105",
+    "nb":[
+        "coachella"],
+    "tags": "Marissa Wompler,Miss Listler",
+    "updated_at": "2019-09-17T10:51:29Z",
+    "created_at": "2019-09-17T10:51:29Z",
+    "url_soundcloud": null,
+    "slug_soundcloud": null,
+    "slug_earwolf": "4-paydays-a-baby",
+    "episode_title": "4 PayDays & A Baby",
+    "episode_guests": "Lennon Parham,Jessica St. Clair",
+    "id_wikia": 2267,
+    "holding": "false"
+},
+  {
+"episode": 220,
+    "show": "cbb",
+    "tstart": "34:20",
+    "tend": "34:45",
+    "instance": "You better hope that that voice comes down.",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "nb":[
+        "minnesota","childhood home state of: Charlotte Listler"],
+    "location_type": "","location_id": "",
+    "tags": "Marissa Wompler,Miss Listler",
+    "updated_at": "2019-09-17T10:51:29Z",
+    "created_at": "2019-09-17T10:51:29Z",
+    "url_soundcloud": null,
+    "slug_soundcloud": null,
+    "slug_earwolf": "4-paydays-a-baby",
+    "episode_title": "4 PayDays & A Baby",
+    "episode_guests": "Lennon Parham,Jessica St. Clair",
+    "id_wikia": 2267,
+    "holding": "false"
+}
 ]

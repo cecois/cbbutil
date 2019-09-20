@@ -95,7 +95,13 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
     <div :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='default'">
       <div v-if="hero" style="padding-bottom:3em;" class="column zCBB-hero-column">
 
-<p class="is-size-2 has-text-weight-bold has-text-right zCBB-primary" style="padding-right:3em;">Special Update!</p>
+<p class="is-size-2 has-text-weight-bold has-text-right zCBB-primary" style="padding-right:3em;">
+  {{hero.logline}}
+</p>
+        <p class="is-size-5 has-text-weight-light has-text-right zCBB-primary-3" style="padding-right:3em;padding-left:3em;">
+        -- {{hero.attribution}} (instance of bit: <span @click="setQueryFire({bit:hero.bit},['bit'])" class="zCBB-trigger">{{hero.bit}}</span>)</p>
+
+<!-- <p class="is-size-2 has-text-weight-bold has-text-right zCBB-primary" style="padding-right:3em;">Special Update!</p>
         <p class="is-size-5 has-text-weight-light has-text-right zCBB-primary-3" style="padding-right:3em;padding-left:3em;">
           Some reckless knob deleted a buncha data a while back, so this site has been a little stagnant through Spring and Summer 2019 while we recreated. We also took the opportunity to rewrite the thing in <a href="https://vuejs.org">VueJS</a>. We also scraped out roughly 50 bits we had missed. We also kept up on the new shows to the tune of 200+ incoming. This all somehow worked out to 790 new records. We also took the opportunity to reach back into the Stitcher vaults and yank out some deserving bits that didn't present in the early years. These include:
             
@@ -121,11 +127,9 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
 <dd class="is-size-6 has-text-grey">a guest defaults to sticking around for the rest of the show</dd>
 </dl>
         
-        </p>
+        </p> -->
 
-        <!-- <p class="is-size-2 has-text-weight-bold has-text-right zCBB-primary" style="padding-right:3em;">{{hero._source.instance}}</p>
-        <p class="is-size-5 has-text-weight-light has-text-right zCBB-primary-2" style="padding-right:5em;">{{hero._source.hero.attrib}}  (ep.{{hero._source.episode.split('/')[hero._source.episode.split('/').length-1]}})</p>
-        <p class="is-size-7 has-text-weight-light has-text-right zCBB-primary-3" style="padding-right:5em;"><span style="padding-right:2em;" @click="setQueryFire(hero._source,['bit','episode'])" class="zCBB-trigger">{{hero._source.bit}}</span></p> -->
+         
       </div>
     </div NB="/default/home">
     <div :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='huh'">
@@ -467,7 +471,7 @@ export default {
   this.GEOMS = new L.featureGroup().addTo(this.MAP);
 
 this.getUpdates()
-  this.getHero()
+  // this.getHero()
 
   this.query.string = (this.$route.params.query && this.$route.params.query!=='*') ? this.$route.params.query : null
   if(this.query.string){this.getBits()}
@@ -477,7 +481,7 @@ this.getUpdates()
     return {
       CONFIG: null,
       loadings:{maplayer:false,app:false,popupopen:false},
-      hero: "dummytrigger",
+      hero: null,
       updates: null,
       locations:null,
       seens:[],
@@ -534,7 +538,8 @@ console.log(c1,c2)
           //             o._source.hero={on:true,attrib:"Scott Aukerman"}
           //             return o;
           //           })[8]
-          // this.hero=true
+          // console.log("RD:",this.$_.first(response.data))
+          this.hero=response.data[0].reports[0].hero;
 this.updates=response.data;
         }) //axios.then
         .catch(e => {
