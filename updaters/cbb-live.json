@@ -516,5 +516,101 @@ geoms
     "episode_guests": "D'Arcy Carden,John Gemberling,Anthony King",
     "id_wikia": null,
     "holding": "false"
+  },{
+    "episode": 620,
+    "show": "cbb",
+    "tstart": "42:30",
+    "tend": "43:30",
+    "instance": "I think Burbank's a good place.",
+    "elucidation": "identifiable earth location",
+"bit": "Location",
+    "tags": "Phil Wiggins",
+    "nb":[
+        "circuit city burbank - current site of walmart","site of: one of many things going down in Burbank"
+    ],
+"tags": "Phil Wiggins",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-09-23T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-09-23T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "burbank-is-the-good-place",
+    "episode_title": "Burbank is The Good Place",
+    "episode_guests": "D'Arcy Carden,John Gemberling,Anthony King",
+    "id_wikia": null,
+    "holding": "false"
+  },{
+    "episode": 620,
+    "show": "cbb",
+    "tstart": "42:30",
+    "tend": "43:30",
+    "instance": "I think Burbank's a good place.",
+    "elucidation": "identifiable earth location",
+"bit": "Location",
+    "tags": "Phil Wiggins",
+    "nb":[
+        "walmart burbank - former site of circuit city","site of: one of many things going down in Burbank"
+    ],
+"tags": "Phil Wiggins",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-09-23T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-09-23T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "burbank-is-the-good-place",
+    "episode_title": "Burbank is The Good Place",
+    "episode_guests": "D'Arcy Carden,John Gemberling,Anthony King",
+    "id_wikia": null,
+    "holding": "false"
+  },{
+    "episode": 620,
+    "show": "cbb",
+    "tstart": "45:00",
+    "tend": "45:45",
+    "instance": "Right beside The Smokehouse",
+    "elucidation": "identifiable earth location",
+"bit": "Location",
+    "tags": "Phil Wiggins",
+    "nb":[
+        "site of: NBC's Superstore set","near smokehouse burbank","Universal City, CA","near pass st/av/blv"
+    ],
+"tags": "Phil Wiggins",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-09-23T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-09-23T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "burbank-is-the-good-place",
+    "episode_title": "Burbank is The Good Place",
+    "episode_guests": "D'Arcy Carden,John Gemberling,Anthony King",
+    "id_wikia": null,
+    "holding": "false"
+  },{
+    "episode": 620,
+    "show": "cbb",
+    "tstart": "48:00",
+    "tend": "48:30",
+    "instance": "People don't have hobbies anymore, I've noticed.",
+    "elucidation": "identifiable earth location",
+"bit": "Location",
+    "tags": "Phil Wiggins",
+    "nb":[
+        "burbank hot yoga shop","site of: one of many things going down in Burbank"
+    ],
+"tags": "Phil Wiggins,Robert Whistler",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-09-23T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-09-23T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "burbank-is-the-good-place",
+    "episode_title": "Burbank is The Good Place",
+    "episode_guests": "D'Arcy Carden,John Gemberling,Anthony King",
+    "id_wikia": null,
+    "holding": "false"
   }
 ]
