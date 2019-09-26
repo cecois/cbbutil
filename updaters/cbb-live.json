@@ -1,4 +1,3 @@
-geoms
 [
 {
     "episode": 620,
@@ -93,8 +92,7 @@ geoms
     "nb":[
         "Burbank, CA","home to: Mayor Phil Wiggins"
     ],
-    "location_type": "",
-    "location_id": "",
+"location_type": "poly","location_id": "1040",
     "updated_at": "2019-09-23T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-09-23T11:51:29Z",
@@ -116,8 +114,7 @@ geoms
     "nb":[
         "media center 6, Burbank, CA","site of: one of many things going down in Burbank"
     ],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1107",
     "updated_at": "2019-09-23T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-09-23T11:51:29Z",
@@ -139,8 +136,7 @@ geoms
     "nb":[
         "amc 16, Burbank, CA","site of: one of many things going down in Burbank"
     ],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1108",
     "updated_at": "2019-09-23T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-09-23T11:51:29Z",
@@ -162,8 +158,7 @@ geoms
     "nb":[
         "a large car park in burbank","site of: Jay Leno's cars"
     ],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1109",
     "updated_at": "2019-09-23T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-09-23T11:51:29Z",
@@ -209,8 +204,7 @@ geoms
         "toluca lake mayor's house","site of: a b&e and espionage"
     ],
     "hero":true,
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1110",
     "updated_at": "2019-09-23T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-09-23T11:51:29Z",
@@ -232,8 +226,7 @@ geoms
     "nb":[
         "burbank chuck e cheese","site of: one of many things going down in Burbank"
     ],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1111",
     "updated_at": "2019-09-23T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-09-23T11:51:29Z",
@@ -255,8 +248,7 @@ geoms
     "nb":[
         "burbank indoor karting","site of: one of many things going down in Burbank"
     ],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1112",
     "updated_at": "2019-09-23T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-09-23T11:51:29Z",
@@ -278,8 +270,7 @@ geoms
     "nb":[
         "burbank batting cage connected to a pizza place - baseball pizza (champs?)","site of: one of many things going down in Burbank"
     ],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1113",
     "updated_at": "2019-09-23T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-09-23T11:51:29Z",
@@ -301,8 +292,7 @@ geoms
     "nb":[
         "the ramp restaurant (burbank)","site of: one of many things going down in Burbank"
     ],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1114",
     "updated_at": "2019-09-23T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-09-23T11:51:29Z",
@@ -324,8 +314,7 @@ geoms
     "nb":[
         "Burbank power station","site of: Burbank's own power station"
     ],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1115",
     "updated_at": "2019-09-23T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-09-23T11:51:29Z",
@@ -347,8 +336,7 @@ geoms
     "nb":[
         "martino's bakery","site of: great tea cakes for 50 years"
     ],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1116",
     "updated_at": "2019-09-23T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-09-23T11:51:29Z",
@@ -370,8 +358,7 @@ geoms
     "nb":[
         "olive garden - burbank empire center","site of: one of many things going down in Burbank"
     ],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1117",
     "updated_at": "2019-09-23T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-09-23T11:51:29Z",
@@ -393,8 +380,7 @@ geoms
     "nb":[
         "Arby's in burbank","site of: one of many things going down in Burbank"
     ],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1118",
     "updated_at": "2019-09-23T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-09-23T11:51:29Z",
@@ -416,8 +402,7 @@ geoms
     "nb":[
         "smoke house in burbank","site of: one of many things going down in Burbank"
     ],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1119",
     "updated_at": "2019-09-23T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-09-23T11:51:29Z",
@@ -439,8 +424,7 @@ geoms
     "nb":[
         "chili john's in burbank","site of: one of many things going down in Burbank"
     ],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1120",
     "updated_at": "2019-09-23T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-09-23T11:51:29Z",
@@ -462,8 +446,7 @@ geoms
     "nb":[
         "tallyrand in burbank","site of: one of many things going down in Burbank"
     ],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1121",
     "updated_at": "2019-09-23T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-09-23T11:51:29Z",
@@ -485,8 +468,7 @@ geoms
     "nb":[
         "patty's (paddy's) in toluca lake","site of: one of many things going down in Burbank"
     ],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1122",
     "updated_at": "2019-09-23T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-09-23T11:51:29Z",
@@ -529,8 +511,7 @@ geoms
         "circuit city burbank - current site of walmart","site of: one of many things going down in Burbank"
     ],
 "tags": "Phil Wiggins",
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1123",
     "updated_at": "2019-09-23T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-09-23T11:51:29Z",
@@ -553,8 +534,7 @@ geoms
         "walmart burbank - former site of circuit city","site of: one of many things going down in Burbank"
     ],
 "tags": "Phil Wiggins",
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1123",
     "updated_at": "2019-09-23T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-09-23T11:51:29Z",
@@ -577,8 +557,8 @@ geoms
         "site of: NBC's Superstore set","near smokehouse burbank","Universal City, CA","near pass st/av/blv"
     ],
 "tags": "Phil Wiggins",
-    "location_type": "",
-    "location_id": "",
+    "location_type": "poly",
+    "location_id": "362",
     "updated_at": "2019-09-23T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-09-23T11:51:29Z",
@@ -601,8 +581,7 @@ geoms
         "burbank hot yoga shop on magnolia blvd","site of: one of many things going down in Burbank"
     ],
 "tags": "Phil Wiggins,Robert Whistler",
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1124",
     "updated_at": "2019-09-23T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-09-23T11:51:29Z",
