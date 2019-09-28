@@ -2,30 +2,6 @@
 {
     "episode": 620,
     "show": "cbb",
-    "tstart": "1:10:50",
-    "tend": "1:11:35",
-    "instance": "Who's to say that it's not just a very long, thin, erect penis?",
-    "elucidation": "identifiable earth location",
-"bit": "Location",
-    "tags": "Phil Wiggins",
-    "nb":[
-        "Burbank music center","site of: stolen woodwinds"
-    ],
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2019-09-23T11:51:29Z",
-    "url_soundcloud": "",
-    "created_at": "2019-09-23T11:51:29Z",
-    "slug_soundcloud": "",
-    "slug_earwolf": "burbank-is-the-good-place",
-    "episode_title": "Burbank is The Good Place",
-    "episode_guests": "D'Arcy Carden,John Gemberling,Anthony King",
-    "id_wikia": null,
-    "holding": "false"
-  }
-  ,{
-    "episode": 620,
-    "show": "cbb",
     "tstart": "1:12:45",
     "tend": "1:13:45",
     "instance": "How did you figure out who was flushing the wipes?",
@@ -35,8 +11,8 @@
     "nb":[
         "a Burbank school","site of: flushed wipes, hidden cameras"
     ],
-    "location_type": "",
-    "location_id": "",
+"tags": "Phil Wiggins",
+    "location_type": "point","location_id": "1125",
     "updated_at": "2019-09-23T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-09-23T11:51:29Z",
@@ -58,8 +34,7 @@
     "nb":[
         "Talaria Burbank","site of: the thing that everybody in Burbank is most excited about"
     ],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1126",
     "updated_at": "2019-09-23T11:51:29Z",
     "url_soundcloud": "",
     "created_at": "2019-09-23T11:51:29Z",
