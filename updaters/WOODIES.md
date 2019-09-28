@@ -30,6 +30,7 @@ live-from-vulture-fest-2017
 ### instances
 
 -   035,35:00,the ibrain
+-   kansas city 2019,40:30
 -   minneapolis-pantages-2016,59:50,feelings -earbuds
 -   583,59:40,we're working with you - but it is work
 -   431,1:00:00,that's the timeslot you want
