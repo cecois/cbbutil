@@ -36,12 +36,15 @@
   - bo2018.\*
   - bo2018.4,15:40(pw)
   - bo2018.4,1:34:45(pw)
-- little boy/big boy
+  - st paul 2019 ii,1:02:00
 
+- little boy/big boy
   - 561,17:00
 
 - point flathand fist
   - 530,22:30
+
+- figured it out is from pajama game - see st. paul 2019 pt. 2 for tags
 
 - germany cannibalism
 	- 429,1:07:00
@@ -2044,6 +2047,8 @@
   - several of the 480+ eps
   - new haven 2019,5:00
   - new haven 2019,38:00
+  - st. paul I,3:30
+  - st. paul II,3:50
   - kansas city 2019,4:30
   - 475,1:30
   - https://www.stitcher.com/s?eid=63646845 (medford),4:10
