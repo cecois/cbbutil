@@ -548,6 +548,7 @@
   - 447,50:45(pw)
 - no rule against dogs playing (football|basketball)
   - 2016.shepherds,42:45
+  - 621,44:30
   - 599,1:18:45
   - late 400s episode
   - 438,28:40(pw)
