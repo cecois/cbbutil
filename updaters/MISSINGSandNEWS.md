@@ -2046,6 +2046,8 @@
 
 - interesting people
   - several of the 480+ eps
+  - chicago 2019,3:30
+  - chicago 2019,18:20
   - new haven 2019,5:00
   - new haven 2019,38:00
   - st. paul I,3:30
