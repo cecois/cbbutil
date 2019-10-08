@@ -36,12 +36,15 @@
   - bo2018.\*
   - bo2018.4,15:40(pw)
   - bo2018.4,1:34:45(pw)
-- little boy/big boy
+  - st paul 2019 ii,1:02:00
 
+- little boy/big boy
   - 561,17:00
 
 - point flathand fist
   - 530,22:30
+
+- figured it out is from pajama game - see st. paul 2019 pt. 2 for tags
 
 - germany cannibalism
 	- 429,1:07:00
@@ -547,6 +550,7 @@
 - no rule against dogs playing (football|basketball)
   - 2016.shepherds,42:45
   - 622,38:30
+  - 621,44:30
   - 599,1:18:45
   - late 400s episode
   - 438,28:40(pw)
@@ -931,6 +935,7 @@
   - bo2016.3,6:30(pw)
   - bo2015.4,8:00(pw)
   - bo2018.2,1:17:00(pw)
+  - kansas city 2019,1:00
   - 433,12:50(pw)
   - 435,42:20(pw)
   - 407,45:50(pw)
@@ -1857,6 +1862,7 @@
   - 2016.detroit,18:10
   - 2016.detroit,22:28
   - 2016.detroit,38:20
+  - bumbershoot 2011,20:45
   - 67,20:00
   - 169,24:00
   - 208,33:10
@@ -2007,6 +2013,7 @@
 	- 
 - we'll pay for it (if you wanna go on another date)
   - 567,14:00
+  - kansas city 2019,1:17:00
   - 619,1:02:00
   - 606,40:45
   - 561,44:45(pw)
@@ -2041,8 +2048,13 @@
 
 - interesting people
   - several of the 480+ eps
+  - chicago 2019,3:30
+  - chicago 2019,18:20
   - new haven 2019,5:00
   - new haven 2019,38:00
+  - st. paul I,3:30
+  - st. paul II,3:50
+  - kansas city 2019,4:30
   - 475,1:30
   - https://www.stitcher.com/s?eid=63646845 (medford),4:10
   - https://www.stitcher.com/s?eid=63647071 (providence),3:00

@@ -30,6 +30,9 @@ live-from-vulture-fest-2017
 ### instances
 
 -   035,35:00,the ibrain
+-   kansas city 2019,40:30
+-   st. paul 2019 i,44:30
+-   chicago 2019,54:30
 -   minneapolis-pantages-2016,59:50,feelings -earbuds
 -   583,59:40,we're working with you - but it is work
 -   431,1:00:00,that's the timeslot you want
@@ -37,6 +40,7 @@ live-from-vulture-fest-2017
 -   579,1:33:50,so no one is 'dennis' anymore?
 -   579,1:40:00,you're why james adomian doesn't come on the show
 -   579,1:30:00,monster fuck
+-   579,9:00,gino's pink sock
 -   578,49:20,a lot of your holes are exposed
 -   262,69:50,your voice is very moist
 -   103,1:32:20,yeah scott u idiot

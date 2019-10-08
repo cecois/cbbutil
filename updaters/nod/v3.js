@@ -54,7 +54,7 @@ resolve(d.url);
             console.log(error.response.data);
             console.log(error.response.status);
             console.log(error.response.headers);
-            resolve('https://www.earwolf.com/wp-content/uploads/2013/11/105.jpg')
+            resolve('https://res.cloudinary.com/cecois/image/upload/v1566654886/EAR_COVER_ComedyBangBang_2018Refresh_3000x3000_Final-300x300.jpg')
         } else if (error.request) {
             /*
              * The request was made but no response was received, `error.request`
@@ -62,11 +62,11 @@ resolve(d.url);
              * of http.ClientRequest in Node.js
              */
             console.log(error.request);
-            resolve('https://www.earwolf.com/wp-content/uploads/2013/11/105.jpg')
+            resolve('https://res.cloudinary.com/cecois/image/upload/v1566654886/EAR_COVER_ComedyBangBang_2018Refresh_3000x3000_Final-300x300.jpg')
         } else {
             // Something happened in setting up the request and triggered an Error
             console.log('Error', error.message);
-            resolve('https://www.earwolf.com/wp-content/uploads/2013/11/105.jpg')
+            resolve('https://res.cloudinary.com/cecois/image/upload/v1566654886/EAR_COVER_ComedyBangBang_2018Refresh_3000x3000_Final-300x300.jpg')
         }
     });
 
@@ -84,9 +84,9 @@ let R=[];
 				var epno = e.split(":::")[0]
 				var epslug = e.split(":::")[1]
 
-				let img = 'https://www.earwolf.com/wp-content/uploads/2013/11/105.jpg'
+				let img = 'https://res.cloudinary.com/cecois/image/upload/v1566654886/EAR_COVER_ComedyBangBang_2018Refresh_3000x3000_Final-300x300.jpg'
 				if(epslug.indexOf('http')>=0){
-					img='https://www.earwolf.com/wp-content/uploads/2013/11/105.jpg'
+					img='https://res.cloudinary.com/cecois/image/upload/v1566654886/EAR_COVER_ComedyBangBang_2018Refresh_3000x3000_Final-300x300.jpg'
 				} else {
 					img = await _DO_IMAGE("http://www.earwolf.com/episode/"+epslug);
 				}

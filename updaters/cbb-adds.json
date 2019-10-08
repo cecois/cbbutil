@@ -1333,8 +1333,8 @@
     "tstart": "27:30",
     "tend": "28:00",
     "instance": "There's not a lot of people that do the M to A to V to E.",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
+    "elucidation": "the lirr by gino",
+    "bit": "Babylon, Baby",
     "tags": "Gino Lambardo,Queen Cleopatra",
     "location_type": "",
     "location_id": "",
@@ -1387,5 +1387,25 @@
     "episode_guests": "Lauren Lapkus,Ego Nwodim,Paul F. Tompkins",
     "id_wikia": null,
     "holding": "false"
-  }
+  },{
+    "episode": 579,
+    "show": "cbb",
+    "tstart": "6:00",
+    "tend": "6:30",
+    "instance": "Penn Station; Jamaica; Rockville Center; Baldwin; Freeport; Merrick; Bellmore; Wantah; Seafor; Massapequa; Massapequa Park; Amityville; Copiague; Lindenhurst; and Babylon, baby.",
+    "elucidation": "the lirr by gino",
+    "bit": "Babylon, Baby",
+    "tags": "Gino Lambardo",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-10-04T09:37:04Z",
+    "url_soundcloud": null,
+    "created_at": "2019-10-04T09:37:04Z",
+    "slug_soundcloud": null,
+    "slug_earwolf": "2018-holiday-spectacular",
+    "episode_title": "2018 Holiday Spectacular",
+    "episode_guests": "Jason Mantzoukas,Jessica McKenna,Jon Gabrus,Lauren Lapkus,Mike Hanford,Nick Wiger,Paul F. Tompkins,Ryan Gaul,Shaun Diston,Thomas Middleditch,Tim Baltz,Will Hines,Zeke Nicholson",
+    "id_wikia": null,
+    "holding": "false"
+}
 ]
