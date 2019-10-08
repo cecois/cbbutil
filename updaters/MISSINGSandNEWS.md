@@ -441,6 +441,7 @@
   - 197,35:50
 - zouks wants clarification (what do you mean?)
   - 463,2:09:50(pw)
+  - 622,9:30
   - 599,8:30
   - 471,1:10:40(howl)
   - 525,9:00
@@ -545,6 +546,7 @@
   - 447,50:45(pw)
 - no rule against dogs playing (football|basketball)
   - 2016.shepherds,42:45
+  - 622,38:30
   - 599,1:18:45
   - late 400s episode
   - 438,28:40(pw)
