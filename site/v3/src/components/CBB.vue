@@ -275,7 +275,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
           <div class="columns" style="padding-left:10%;padding-right:10%;">
             <div class="column is-12">
               <h5 class="is-size-5 has-text-weight-bold">{{$MOMENT(update.date,'YYYY-MM-DDTHH:hh:mm:ss\\Z').format('YYYY.MMM.Do')}}</h5>
-              <div class="column has-text-weight-light is-size-7">{{update.episodes_summary}}</div>
+              <div @click="setQueryFire({string:update.query})" class="column has-text-weight-light is-size-7 zCBB-trigger">{{update.episodes_summary}}</div>
               <div style="margin-bottom:3em;" v-for="report in update.reports" class="has-text-centered">
                 <img :src="report.image" />
                 <div class="column has-text-weight-light is-size-7"><a :href="report.ep_url">{{report.slug}}</a> ({{report.episode}})</div>

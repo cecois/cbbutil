@@ -604,6 +604,7 @@
   - 2016.chicago7,39:20
 - asked and answered
   - 97,50:30
+  - jfl tornto 2019,44:00
   - 548,51:00
   - 529,22:00
   - 309,45:50(paywall)
@@ -1931,6 +1932,7 @@
   - 463,2:29:20(pw)
   - bo2016.2,2:11:50(pw)
   - 572,1:15:33(pw)
+  - jfl toronto 2019,15:20
 - saturday (day) night live
   - lots
   - 363,8:30(pw)
@@ -2048,6 +2050,7 @@
 
 - interesting people
   - several of the 480+ eps
+  - jfl toronto 2019,4:30
   - chicago 2019,3:30
   - chicago 2019,18:20
   - new haven 2019,5:00

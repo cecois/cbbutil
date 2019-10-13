@@ -94,7 +94,9 @@ let R=[];
 			var O = {
 				episode:epno,
 				image:img,
-				slug:epslug,ep_url:"http://www.earwolf.com/episode/"+epslug}
+				slug:epslug,
+				ep_url:epno.indexOf('http')>=0?epno:"http://www.earwolf.com/episode/"+epslug
+			}
 
 			var eps_bits = __.pluck(__.filter(bits,(b)=>{
 				return b.episode==epno}),'bit');
@@ -254,7 +256,7 @@ return new Promise(async(resolve, reject)=>{
 let R = {
 			date:MOMENT().format('YYYY-MM-DDTHH:hh:mm:ss\\Z')
 			,episodes_summary:bits.length+" bits from "+episodes_updated.length+" episode"+plur+" (ep"+plur+" "+__.map(episodes_updated,(E)=>{return E.split(":::")[0]}).join(", ")+")"
-			,query:"("+__.map(episodes_updated,(e)=>{return "episode:"+e.split(":::")[0]}).join(" OR ")+")"
+			,query:"("+__.map(episodes_updated,(e)=>{return "episode:\""+e.split(":::")[0]+'"'}).join(" OR ")+")"
 			,eps:episodes_updated
 			,reports:await _REPORTS(episodes_updated,bits)
 		}
@@ -447,8 +449,9 @@ const elastify = async (J)=>{
 
 
 		var client = new ELASTIC.Client({
-			host: 'milleria.org:9200',
-			log: 'trace'
+			host: 'milleria.org:9200'
+			,requestTimeout: Infinity
+			// ,log: 'trace'
 		});
 
 var elastic_array =[];
@@ -586,7 +589,6 @@ console.log("audit.flag:",R.audit.flag)
 /* ----------------------------------------------- send to mlab
 // audit wz clean so we're sending
 */
-// console.log("--------------------> NORMLY WE SEND "+inca.length+" DOCUMENTS TO MLAB...");
 console.log("--------------------> sending "+inca.length+" documents to MLAB...");
 sent = await _SEND(inca);
 
