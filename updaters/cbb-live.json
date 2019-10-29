@@ -244,5 +244,25 @@
     "episode_guests": "Jon Gabrus,Claudia O’Doherty,Will Hines,Ben Rodgers",
     "id_wikia": null,
     "holding": "false"
+  },{
+    "episode": 625,
+    "show": "cbb",
+    "tstart": "24:30",
+    "tend": "25:00",
+    "instance": "I dropped a fuckin' quarter into a Venus Fly Trap and I went to grab it and it bit down on my arm.",
+"elucidation": "gino explains his behavior via some physical trauma",
+"bit": "Bottom of a Deep Pool",
+    "tags": "Gino Lambardo",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-10-28T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-10-28T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "petite-modeling",
+    "episode_title": "Petite Modeling",
+    "episode_guests": "Jon Gabrus,Claudia O’Doherty,Will Hines,Ben Rodgers",
+    "id_wikia": null,
+    "holding": "false"
   }
 ]
