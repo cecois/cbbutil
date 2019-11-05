@@ -1180,8 +1180,8 @@
     "episode_guests": "Jason Mantzoukas,Jon Gabrus,Mike Hanford,Paul F. Tompkins,Tawny Newsome,Tim Baltz,Neil Campbell,Rhea Butcher,Will Hines,Ryan Gaul,Jeremy Rowley,Drew Tarver,James Adomian,Zeke Nicholson,Brendon Small",
     "id_wikia": null,
     "holding": "false"
-  }
-  ,{
+  },
+  {
     "episode": 485,
     "show": "cbb",
     "tstart": "5:00",
@@ -1201,8 +1201,9 @@
     "episode_guests": "Jon Gabrus,Paul F. Tompkins,Lauren Lapkus,Zeke Nicholson,Carl Tart,Mary Holland,Mike Hanford,Jessica McKenna,Tawny Newsome,Tim Baltz,Ryan Gaul,Drew Tarver,Jeremy Rowley,Nick Kroll",
     "id_wikia": null,
     "holding": "false"
-},{
-     "episode": "https://www.stitcher.com/podcast/earwolf-premium/comedy-bang-bang-special-edition/e/51594207",
+  },
+  {
+    "episode": "https://www.stitcher.com/podcast/earwolf-premium/comedy-bang-bang-special-edition/e/51594207",
     "show": "cbb",
     "tstart": "14:15",
     "tend": "15:45",
@@ -1221,8 +1222,8 @@
     "episode_guests": "Jon Gabrus,Jason Mantzoukas,Paul F. Tompkins,Jessica McKenna,Anthony Atamanuik,Mary Holland,Ryan Gaul",
     "id_wikia": null,
     "holding": "false"
-},
-{
+  },
+  {
     "episode": 521,
     "show": "cbb",
     "tstart": "10:40",
@@ -1242,8 +1243,8 @@
     "episode_guests": "John Hodgman,Jon Gabrus,Lauren Lapkus,D'Arcy Carden",
     "id_wikia": null,
     "holding": "false"
-},
-{
+  },
+  {
     "episode": 521,
     "show": "cbb",
     "tstart": "16:00",
@@ -1263,8 +1264,8 @@
     "episode_guests": "John Hodgman,Jon Gabrus,Lauren Lapkus,D'Arcy Carden",
     "id_wikia": null,
     "holding": "false"
-},
-{
+  },
+  {
     "episode": 536,
     "show": "cbb",
     "tstart": "11:45",
@@ -1284,8 +1285,8 @@
     "episode_guests": "Tatiana Maslany,Jon Gabrus,Lauren Lapkus,Paul Scheer,James Adomian",
     "id_wikia": null,
     "holding": "false"
-},
-{
+  },
+  {
     "episode": 551,
     "show": "cbb",
     "tstart": "11:00",
@@ -1305,8 +1306,8 @@
     "episode_guests": "Jon Gabrus,Jefferson Dutton,Mike Hanford,Shaun Diston,Tim Kalpakis",
     "id_wikia": null,
     "holding": "false"
-},
-{
+  },
+  {
     "episode": 551,
     "show": "cbb",
     "tstart": "15:00",
@@ -1326,8 +1327,8 @@
     "episode_guests": "Jon Gabrus,Jefferson Dutton,Mike Hanford,Shaun Diston,Tim Kalpakis",
     "id_wikia": null,
     "holding": "false"
-},
-{
+  },
+  {
     "episode": 571,
     "show": "cbb",
     "tstart": "27:30",
@@ -1347,7 +1348,8 @@
     "episode_guests": "Jon Gabrus,Betsy Sodaro,Will Hines",
     "id_wikia": null,
     "holding": "false"
-},{
+  },
+  {
     "episode": "https://www.stitcher.com/s?eid=63647098",
     "show": "cbb",
     "tstart": "9:35",
@@ -1367,7 +1369,8 @@
     "episode_guests": "Lauren Lapkus,Ego Nwodim,Paul F. Tompkins",
     "id_wikia": null,
     "holding": "false"
-  },{
+  },
+  {
     "episode": "https://www.stitcher.com/s?eid=63647098",
     "show": "cbb",
     "tstart": "9:35",
@@ -1387,7 +1390,8 @@
     "episode_guests": "Lauren Lapkus,Ego Nwodim,Paul F. Tompkins",
     "id_wikia": null,
     "holding": "false"
-  },{
+  },
+  {
     "episode": 579,
     "show": "cbb",
     "tstart": "6:00",
@@ -1407,35 +1411,36 @@
     "episode_guests": "Jason Mantzoukas,Jessica McKenna,Jon Gabrus,Lauren Lapkus,Mike Hanford,Nick Wiger,Paul F. Tompkins,Ryan Gaul,Shaun Diston,Thomas Middleditch,Tim Baltz,Will Hines,Zeke Nicholson",
     "id_wikia": null,
     "holding": "false"
-},{
-  "episode": "http://howl.fm/audio/42017/may-20-chicago-athenaeum-theatre-10-pm",
-  "show": "cbb",
-  "tstart": "27:30",
-  "tend": "29:00",
-  "instance": "Also: horse dick.",
-  "bit": "Is Dick Francis a Horse?",
-  "elucidation": "inconclusive",
-  "tags": "Chesley Burnett Sullenberger,Dick Francis",
-  "location_type": "",
-  "location_id": "",
-  "updated_at": "2019-11-01T11:51:29Z",
-  "url_soundcloud": "",
-  "created_at": "2019-11-01T11:51:29Z",
-  "slug_soundcloud": "",
-  "slug_earwolf": "",
-  "episode_title": "May 20 - Chicago, Athenaeum Theatre (10 pm)",
-  "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
-  "id_wikia": null,
-  "holding": "false"
-},
-{
+  },
+  {
+    "episode": "http://howl.fm/audio/42017/may-20-chicago-athenaeum-theatre-10-pm",
+    "show": "cbb",
+    "tstart": "27:30",
+    "tend": "29:00",
+    "instance": "Also: horse dick.",
+    "bit": "Is Dick Francis a Horse?",
+    "elucidation": "inconclusive",
+    "tags": "Chesley Burnett Sullenberger,Dick Francis",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-01T11:51:29Z",
+    "url_soundcloud": "",
+    "created_at": "2019-11-01T11:51:29Z",
+    "slug_soundcloud": "",
+    "slug_earwolf": "",
+    "episode_title": "May 20 - Chicago, Athenaeum Theatre (10 pm)",
+    "episode_guests": "Lauren Lapkus,Paul F. Tompkins,Mike Hanford",
+    "id_wikia": null,
+    "holding": "false"
+  },
+  {
     "episode": "http://howl.fm/audio/43572/september-27-hyde-park-picture-house-leeds",
     "show": "cbb",
     "tstart": "25:30",
     "tend": "26:00",
     "instance": "Is that more on the guy or more on the horse?",
     "bit": "Is Dick Francis a Horse?",
-  "elucidation": "inconclusive",
+    "elucidation": "inconclusive",
     "tags": "Chesley Burnett Sullenberger",
     "location_type": "",
     "location_id": "",
@@ -1448,15 +1453,15 @@
     "episode_guests": "Jon Gabrus, Mike Handford, Paul F. Tompkins",
     "id_wikia": null,
     "holding": "false"
-},
-{
+  },
+  {
     "episode": 428,
     "show": "cbb",
     "tstart": "13:50",
     "tend": "14:10",
     "instance": "What has he written?",
     "bit": "Is Dick Francis a Horse?",
-  "elucidation": "inconclusive",
+    "elucidation": "inconclusive",
     "tags": "",
     "location_type": "",
     "location_id": "",
@@ -1469,5 +1474,5 @@
     "episode_guests": "Rhys Darby,Mary Holland,Londale Theus Jr.",
     "id_wikia": null,
     "holding": "false"
-}
+  }
 ]
