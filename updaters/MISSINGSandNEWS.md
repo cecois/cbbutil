@@ -3,6 +3,7 @@
 0. clean up nephew todd tag, "tiny reviews music" eluc
 1. complete dick francis
 2. marshal v marshall
+3. fix hey nineteen tags (hardcastle v. steely)
 1. ~~fix "Regina Krimp" vs. "Crimp"~~
 1. ~~you say baby too~~
 2. hollywood facts
