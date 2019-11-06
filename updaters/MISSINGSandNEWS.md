@@ -3,6 +3,9 @@
 0. clean up nephew todd tag, "tiny reviews music" eluc
 1. dick francis
 2. fix elucid for pyramid stuff
+1. complete dick francis
+2. marshal v marshall
+3. fix hey nineteen tags (hardcastle v. steely)
 1. ~~fix "Regina Krimp" vs. "Crimp"~~
 1. ~~you say baby too~~
 2. hollywood facts
@@ -1082,19 +1085,19 @@
   - 224,58:15(howl)
   - 377,1:19:30(pw)
 - is dick francis a horse?
-  - bo2015.4,8:00
-  - bo2015.4,1:17:00
-  - 514,1:36:00
-  - 398,1:08:00
+    - 398,1:08:00
+    - bo2015.4,1:17:00
+    - bo2015.4,8:00
+  - [180?],54:20
+	  - 2016.chicago10,27:30(pw)
+	  - 2016.leeds,25:32
   - 399,1:07:50
-  - 2016.chicago10,27:30(pw)
-  - 428,14:00(pw)
-  - 2016.leeds,25:32
-  - 179,54:20
+	  - 428,14:00(pw)
+    - 479,29:00(pw)
   - 484,1:07:45(pw)
-  - 507,39:00
   - 507,1:04:50
-  - 479,29:00(pw)
+    - 507,39:00
+  - 514,1:36:00
 - don't joke about irobot
   - bo2015.1,8:20(pw)
   - bo2015.2,11:40(pw)
@@ -1732,6 +1735,7 @@
   - 2016.minneapolis,58:55
   - 434,1:18:00
   - 2016.brisbane,1:35:00
+  - 2016.leeds,10:30
   - 301,1:10:00(paywall)
   - 320,1:15:35(paywall)
   - 326,54:00(paywall)
