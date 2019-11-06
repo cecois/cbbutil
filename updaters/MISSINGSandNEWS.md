@@ -2,6 +2,7 @@
 
 0. clean up nephew todd tag, "tiny reviews music" eluc
 1. dick francis
+2. fix elucid for pyramid stuff
 1. ~~fix "Regina Krimp" vs. "Crimp"~~
 1. ~~you say baby too~~
 2. hollywood facts
@@ -37,6 +38,7 @@
   - bo2018.4,15:40(pw)
   - bo2018.4,1:34:45(pw)
   - st paul 2019 ii,1:02:00
+  - 599,7:31:00 (batman+fourvel)
 
 - little boy/big boy
   - 561,17:00
