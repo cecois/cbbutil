@@ -1,14 +1,15 @@
 # possible new bits:
 
-0. clean up nephew todd tag, "tiny reviews music" eluc
+0. ~~clean up nephew todd tag~~
+0. ~~"tiny reviews music" eluc~~
 1. complete dick francis
-2. marshal v marshall
-3. fix hey nineteen tags (hardcastle v. steely)
+2. ~~marshal v marshall~~
+3. ~~fix hey nineteen tags (hardcastle v. steely)~~
 1. ~~fix "Regina Krimp" vs. "Crimp"~~
 1. ~~you say baby too~~
 2. hollywood facts
-1. fix doobie brothers tag
-2. change tag Beth to Power Wheels Beth
+1. ~~fix doobie brothers tag~~
+2. ~~change tag Beth to Power Wheels Beth~~
 2. fix gramercy may 13 ep title times (9:30 v 7)
 1. ~~mr. microphone~~
 1. ~~jarles~~
@@ -2055,6 +2056,7 @@
 
 - interesting people
   - several of the 480+ eps
+  - portland 2019 early show,3:45
   - jfl toronto 2019,4:30
   - chicago 2019,3:30
   - chicago 2019,18:20
