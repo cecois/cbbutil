@@ -3,6 +3,7 @@
 0. ~~clean up nephew todd tag~~
 0. ~~"tiny reviews music" eluc~~
 1. complete dick francis
+2. Wilcox fulltext poems
 2. ~~marshal v marshall~~
 3. ~~fix hey nineteen tags (hardcastle v. steely)~~
 1. ~~fix "Regina Krimp" vs. "Crimp"~~
@@ -2020,6 +2021,9 @@
 	- 
 - we'll pay for it (if you wanna go on another date)
   - 567,14:00
+  - 547,1:09:15
+  - 627,29:50
+  - 627,1:01:00
   - kansas city 2019,1:17:00
   - 619,1:02:00
   - 606,40:45
