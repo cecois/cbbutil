@@ -74,6 +74,9 @@ geoms[{
 "bit": "The Paul Hardcastle of Suicides",
 "elucidation": "any song reference",
 "tags": ["Scott's Nephew Todd","Smooth Criminal Al A. Peterson","Smooth Criminal (song)","Michael Jackson"],
+"hero": {
+        "attribution": "Scott's Nephew Todd"
+    },
     "location_type": "",
     "location_id": "",
     "updated_at": "2019-11-09T09:37:04Z",
@@ -725,6 +728,415 @@ geoms[{
     "episode_title": "How Bout That?",
     "episode_guests": ["Allen Strickland Williams","Holly Prazoff","Jiavani Linayao"],
     "holding": "false"
-},
+}
+,{
+    "episode": "https://www.stitcher.com/s?eid=65070828",
+    "tstart": "19:30",
+    "tend": "20:25",
+    "instance": "That was like a snippet from the Funkytown Town Council.",
+"bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+"tags": ["JW Stillwater","Lipps Inc. (musical combination)","Funkytown (song)"],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-13T09:37:04Z",
+    "created_at": "2019-11-13T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Portland, OR 2019 Late Show",
+    "episode_guests": ["Lauren Lapkus","Paul F. Tompkins","Andy Daly","Shaun Diston"],
+    "holding": "false"
+},{
+    "episode": "https://www.stitcher.com/s?eid=65070828",
+    "tstart": "19:30",
+    "tend": "20:25",
+    "instance": "That was like a snippet from the Funkytown Town Council.",
+"bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+"tags": ["JW Stillwater","M (musical combination)","Pop Muzik (song)"],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-13T09:37:04Z",
+    "created_at": "2019-11-13T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Portland, OR 2019 Late Show",
+    "episode_guests": ["Lauren Lapkus","Paul F. Tompkins","Andy Daly","Shaun Diston"],
+    "holding": "false"
+},{
+    "episode": "https://www.stitcher.com/s?eid=65070828",
+    "tstart": "19:30",
+    "tend": "20:30",
+    "instance": "That was like a snippet from the Funkytown Town Council.",
+"bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+"tags": ["JW Stillwater","Midnight Star (musical combination)","Freak-a-Zoid (song)"],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-13T09:37:04Z",
+    "created_at": "2019-11-13T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Portland, OR 2019 Late Show",
+    "episode_guests": ["Lauren Lapkus","Paul F. Tompkins","Andy Daly","Shaun Diston"],
+    "holding": "false"
+},{
+    "episode": "https://www.stitcher.com/s?eid=65070828",
+    "tstart": "21:20",
+    "tend": "21:45",
+    "instance": "Who do you love - have we ever talked about this?",
+"bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":[
+    "cumberbatch county"
+],
+"tags": ["JW Stillwater"],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-13T09:37:04Z",
+    "created_at": "2019-11-13T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Portland, OR 2019 Late Show",
+    "episode_guests": ["Lauren Lapkus","Paul F. Tompkins","Andy Daly","Shaun Diston"],
+    "holding": "false"
+}
+,{
+    "episode": "https://www.stitcher.com/s?eid=65070828",
+    "tstart": "21:40",
+    "tend": "22:30",
+    "instance": "It seems that no matter where I go no one is from Cumberbatch County, Florida!",
+"bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":[
+    "cumberbatch county over alaska to portland"
+    ,"route of: JW Stillwater on his way to Portland"
+],
+"tags": ["JW Stillwater"],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-13T09:37:04Z",
+    "created_at": "2019-11-13T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Portland, OR 2019 Late Show",
+    "episode_guests": ["Lauren Lapkus","Paul F. Tompkins","Andy Daly","Shaun Diston"],
+    "holding": "false"
+},{
+    "episode": "https://www.stitcher.com/s?eid=65070828",
+    "tstart": "1:37:00",
+    "tend": "1:37:30",
+    "instance": "My job is - I am a salt inspector.",
+"bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":[
+    "schmeiderberg factory"
+],
+"tags": ["August Lindt"],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-13T09:37:04Z",
+    "created_at": "2019-11-13T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Portland, OR 2019 Late Show",
+    "episode_guests": ["Lauren Lapkus","Paul F. Tompkins","Andy Daly","Shaun Diston"],
+    "holding": "false"
+},{
+    "episode": "https://www.stitcher.com/s?eid=65070828",
+    "tstart": "28:25",
+    "tend": "28:45",
+    "instance": "They don't accept my vigilantism.",
+"bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+"tags": ["JW Stillwater","Judas Priest (musical combination)","Breaking the Law (song)"],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-13T09:37:04Z",
+    "created_at": "2019-11-13T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Portland, OR 2019 Late Show",
+    "episode_guests": ["Lauren Lapkus","Paul F. Tompkins","Andy Daly","Shaun Diston"],
+    "holding": "false"
+},{
+    "episode": "https://www.stitcher.com/s?eid=65070828",
+    "tstart": "38:20",
+    "tend": "38:45",
+    "instance": "No fan boat mechanic wants to hear that sound - much less a fan boat owner!",
+"bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+"tags": ["JW Stillwater","Christmas is Coming (song)"],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-13T09:37:04Z",
+    "created_at": "2019-11-13T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Portland, OR 2019 Late Show",
+    "episode_guests": ["Lauren Lapkus","Paul F. Tompkins","Andy Daly","Shaun Diston"],
+    "holding": "false"
+},{
+    "episode": "https://www.stitcher.com/s?eid=65070828",
+    "tstart": "1:11:45",
+    "tend": "1:12:20",
+    "instance": "I'm a coward; I don't fuck good; I gotta go to work.",
+"bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+"tags": ["JW Stillwater","Bunty Pickles","Work (song)","Rihanna","Drake"
+,"Jahron Brathwaite"
+,"Matthew Samuels"
+,"Allen Ritter"
+,"Rupert Thomas Jr."
+,"Monte Moir"
+],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-13T09:37:04Z",
+    "created_at": "2019-11-13T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Portland, OR 2019 Late Show",
+    "episode_guests": ["Lauren Lapkus","Paul F. Tompkins","Andy Daly","Shaun Diston"],
+    "holding": "false"
+},{
+    "episode": "https://www.stitcher.com/s?eid=65070828",
+    "tstart": "1:25:15",
+    "tend": "1:23:00",
+    "instance": "You went inside the closet \\ you got grabbed in the closet",
+"bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+"tags": ["JW Stillwater","Bunty Pickles","Ghost Hunter Brady","Trapped in the Closet (opera)","R. Kelly"
+],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-13T09:37:04Z",
+    "created_at": "2019-11-13T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Portland, OR 2019 Late Show",
+    "episode_guests": ["Lauren Lapkus","Paul F. Tompkins","Andy Daly","Shaun Diston"],
+    "holding": "false"
+},{
+    "episode": "https://www.stitcher.com/s?eid=65070828",
+    "tstart": "1:03:15",
+    "tend": "1:03:30",
+    "instance": "I fight crime but I'm not allowed to do it.",
+"bit": "Texter",
+"elucidation": "dexter when he texts",
+"tags": ["JW Stillwater","Bunty Pickles"],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-13T09:37:04Z",
+    "created_at": "2019-11-13T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Portland, OR 2019 Late Show",
+    "episode_guests": ["Lauren Lapkus","Paul F. Tompkins","Andy Daly","Shaun Diston"],
+    "holding": "false"
+},{
+    "episode": "https://www.stitcher.com/s?eid=65070828",
+    "tstart": "1:18:10",
+    "tend": "1:18:30",
+    "instance": "If it's been a while - ten minutes.",
+"bit": "It's Been a While",
+"elucidation": "not it's been",
+"tags": ["JW Stillwater","Bunty Pickles","Ghost Hunter Brady"],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-13T09:37:04Z",
+    "created_at": "2019-11-13T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Portland, OR 2019 Late Show",
+    "episode_guests": ["Lauren Lapkus","Paul F. Tompkins","Andy Daly","Shaun Diston"],
+    "holding": "false"
+},{
+    "episode": "https://www.stitcher.com/s?eid=65070828",
+    "tstart": "1:22:10",
+    "tend": "1:22:30",
+    "instance": "Almost where?",
+"bit": "Shut the Fuck Up!",
+"elucidation": "someone simply wants everyone else specifically to shut the fuck up",
+"tags": ["JW Stillwater","Bunty Pickles","Ghost Hunter Brady"],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-13T09:37:04Z",
+    "created_at": "2019-11-13T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Portland, OR 2019 Late Show",
+    "episode_guests": ["Lauren Lapkus","Paul F. Tompkins","Andy Daly","Shaun Diston"],
+    "holding": "false"
+},{
+    "episode": "https://www.stitcher.com/s?eid=65070828",
+    "tstart": "1:27:40",
+    "tend": "1:28:00",
+    "instance": "You didn't even ask me about Pimp Slimer!",
+"bit": "Slimer",
+"elucidation": "from ghostbusters",
+"tags": ["Ghost Hunter Brady"],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-13T09:37:04Z",
+    "created_at": "2019-11-13T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Portland, OR 2019 Late Show",
+    "episode_guests": ["Lauren Lapkus","Paul F. Tompkins","Andy Daly","Shaun Diston"],
+    "holding": "false"
+},{
+    "episode": "https://www.stitcher.com/s?eid=65070828",
+    "tstart": "1:30:50",
+    "tend": "1:31:10",
+    "instance": "We might need to hear JW Stillwater's intro a few more times.",
+"bit": "Smash Cut",
+"elucidation": "scott directs someone's story",
+"tags": ["Ghost Hunter Brady"],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-13T09:37:04Z",
+    "created_at": "2019-11-13T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Portland, OR 2019 Late Show",
+    "episode_guests": ["Lauren Lapkus","Paul F. Tompkins","Andy Daly","Shaun Diston"],
+    "holding": "false"
+},{
+    "episode": "https://www.stitcher.com/s?eid=65070828",
+    "tstart": "1:44:30",
+    "tend": "1:45:00",
+    "instance": "It didn't chart in Germany.",
+"bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+"tags": ["August Lindt","Whatta Man (song)","Salt-N-Pepa (musical combination)"
+    "Dave Crawford","Hurby (Luv Bug) Azor"
+],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-13T09:37:04Z",
+    "created_at": "2019-11-13T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Portland, OR 2019 Late Show",
+    "episode_guests": ["Lauren Lapkus","Paul F. Tompkins","Andy Daly","Shaun Diston"],
+    "holding": "false"
+},{
+    "episode": "https://www.stitcher.com/s?eid=65070828",
+    "tstart": "1:54:30",
+    "tend": "1:54:55",
+    "instance": "If you eat the soil your whole torso becomes numb.",
+"bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":[
+    "portland harbor","site of: pollution","site of: August Lindt on vacation"
+],
+"tags": ["August Lindt"],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-13T09:37:04Z",
+    "created_at": "2019-11-13T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Portland, OR 2019 Late Show",
+    "episode_guests": ["Lauren Lapkus","Paul F. Tompkins","Andy Daly","Shaun Diston"],
+    "holding": "false"
+},{
+    "episode": "https://www.stitcher.com/s?eid=65070828",
+    "tstart": "1:54:50",
+    "tend": "1:55:15",
+    "instance": "It's great - there's so much uranium there.",
+"bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":[
+    "uranium mine up by medford, or","site of: August Lindt on vacation"
+],
+"tags": ["August Lindt"],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-13T09:37:04Z",
+    "created_at": "2019-11-13T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Portland, OR 2019 Late Show",
+    "episode_guests": ["Lauren Lapkus","Paul F. Tompkins","Andy Daly","Shaun Diston"],
+    "holding": "false"
+},{
+    "episode": "https://www.stitcher.com/s?eid=65070828",
+    "tstart": "1:55:00",
+    "tend": "1:55:15",
+    "instance": "Yeah but they didn't line the lagoons so it just seeps in to the soil - oops!",
+"bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":[
+    "army depot lagoons","site of: August Lindt on vacation"
+],
+"tags": ["August Lindt"],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-13T09:37:04Z",
+    "created_at": "2019-11-13T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Portland, OR 2019 Late Show",
+    "episode_guests": ["Lauren Lapkus","Paul F. Tompkins","Andy Daly","Shaun Diston"],
+    "holding": "false"
+},{
+    "episode": "https://www.stitcher.com/s?eid=65070828",
+    "tstart": "1:55:15",
+    "tend": "1:56:00",
+    "instance": "It used to be bathrooms.",
+"bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":[
+    "witch's castle, portland","site of: August Lindt on vacation"
+],
+"tags": ["August Lindt"],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-13T09:37:04Z",
+    "created_at": "2019-11-13T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Portland, OR 2019 Late Show",
+    "episode_guests": ["Lauren Lapkus","Paul F. Tompkins","Andy Daly","Shaun Diston"],
+    "holding": "false"
+},{
+    "episode": "https://www.stitcher.com/s?eid=65070828",
+    "tstart": "2:02:40",
+    "tend": "2:03:15",
+    "instance": "One time I was vacationing in a biodome and the crops failed and I killed everyone for food.",
+"bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":[
+    "Mauna Loa","possible site of: the Mars simulator biodome in which August Lindt perpetrated a mass murder"
+],
+"tags": ["August Lindt"],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-13T09:37:04Z",
+    "created_at": "2019-11-13T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Portland, OR 2019 Late Show",
+    "episode_guests": ["Lauren Lapkus","Paul F. Tompkins","Andy Daly","Shaun Diston"],
+    "holding": "false"
+},{
+    "episode": "https://www.stitcher.com/s?eid=65070828",
+    "tstart": "1:57:00",
+    "tend": "1:57:30",
+    "instance": "",
+"bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+"tags": ["August Lindt",
+    "Isaac Hayes","Theme From Shaft (song)"
+],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-13T09:37:04Z",
+    "created_at": "2019-11-13T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Portland, OR 2019 Late Show",
+    "episode_guests": ["Lauren Lapkus","Paul F. Tompkins","Andy Daly","Shaun Diston"],
+    "holding": "false"
+},{
+    "episode": 628,
+    "tstart": "2:30",
+    "tend": "2:45",
+    "instance": "",
 
+"tags": [],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-18T09:37:04Z",
+    "created_at": "2019-11-18T09:37:04Z",
+    "slug_earwolf": "floating-bus-reform",
+    "episode_title": "Floating Bus Reform",
+    "episode_guests": [
+"Joel Kim Booster"
+,"Mitra Jouhari"
+,"Dan Lippert"
+,"Zac Oyama"
+    ],
+    "holding": "false"
+}
 ]

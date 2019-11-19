@@ -1924,6 +1924,7 @@
   - mike the janitor/bachelor bros ep
 - ha'penny
   - 623,1:03:45
+  - portland late show 2019,38:30
   - 2016.sydney,1:21:30
   - 591,21:00(pw)
   - 412,10:28(pw)
@@ -2061,6 +2062,7 @@
 - interesting people
   - several of the 480+ eps
   - portland 2019 early show,3:45
+  - portland 2019 late show,5:30
   - jfl toronto 2019,4:30
   - chicago 2019,3:30
   - chicago 2019,18:20
