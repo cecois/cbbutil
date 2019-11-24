@@ -1120,11 +1120,105 @@ geoms[{
     "holding": "false"
 },{
     "episode": 628,
-    "tstart": "2:30",
-    "tend": "2:45",
-    "instance": "",
-
-"tags": [],
+    "tstart": "34:30",
+    "tend": "35:00",
+    "instance": "And I saved a lot of the kids after the crash.",
+"bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":[
+    "hudson river miracle lat/lng but shoreside","site of: Burgey Sullenberger endangering (and saving) several children"
+],
+"tags": ["Burgey Sullenberger"],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-18T09:37:04Z",
+    "created_at": "2019-11-18T09:37:04Z",
+    "slug_earwolf": "floating-bus-reform",
+    "episode_title": "Floating Bus Reform",
+    "episode_guests": [
+"Joel Kim Booster"
+,"Mitra Jouhari"
+,"Dan Lippert"
+,"Zac Oyama"
+    ],
+    "holding": "false"
+},{
+    "episode": 628,
+    "tstart": "35:45",
+    "tend": "36:15",
+    "instance": "Anybody can crash into the Hudson.",
+"bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":[
+    "hudson river miracle lat/lng but shoreside","site of: Burgey Sullenberger endangering (and saving) several children"
+],
+"tags": ["Burgey Sullenberger"],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-18T09:37:04Z",
+    "created_at": "2019-11-18T09:37:04Z",
+    "slug_earwolf": "floating-bus-reform",
+    "episode_title": "Floating Bus Reform",
+    "episode_guests": [
+"Joel Kim Booster"
+,"Mitra Jouhari"
+,"Dan Lippert"
+,"Zac Oyama"
+    ],
+    "holding": "false"
+},{
+    "episode": 628,
+    "tstart": "1:17:30",
+    "tend": "1:17:45",
+    "instance": "I would boogie board all the damn day.",
+"bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":[
+    "myrtle beach, sc","site of: Topher Schmidty, boogie boarding"
+],
+"tags": ["Topher Schmidty"],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-18T09:37:04Z",
+    "created_at": "2019-11-18T09:37:04Z",
+    "slug_earwolf": "floating-bus-reform",
+    "episode_title": "Floating Bus Reform",
+    "episode_guests": [
+"Joel Kim Booster"
+,"Mitra Jouhari"
+,"Dan Lippert"
+,"Zac Oyama"
+    ],
+    "holding": "false"
+},{
+    "episode": 628,
+    "tstart": "35:00",
+    "tend": "35:20",
+    "instance": "Ninety-two fleshbags.",
+"bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+"tags": ["Burgey Sullenberger","Bodies (song)","Drowning Pool (musical combination)"],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-18T09:37:04Z",
+    "created_at": "2019-11-18T09:37:04Z",
+    "slug_earwolf": "floating-bus-reform",
+    "episode_title": "Floating Bus Reform",
+    "episode_guests": [
+"Joel Kim Booster"
+,"Mitra Jouhari"
+,"Dan Lippert"
+,"Zac Oyama"
+    ],
+    "holding": "false"
+},{
+    "episode": 628,
+    "tstart": "47:45",
+    "tend": "48:00",
+    "instance": "One bowl \\ per week",
+"elucidation": "not it's been a while",
+"bit": "It's Been",
+"tags": ["Burgey Sullenberger"],
     "location_type": "",
     "location_id": "",
     "updated_at": "2019-11-18T09:37:04Z",
