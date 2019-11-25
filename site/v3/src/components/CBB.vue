@@ -90,10 +90,10 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
 
 
 <p class="is-size-2 has-text-weight-bold has-text-right zCBB-primary" style="padding-right:3em;">
-  {{hero.logline}}
+  {{hero._source.instance}}
 </p>
         <p class="is-size-5 has-text-weight-light has-text-right zCBB-primary-3" style="padding-right:3em;padding-left:3em;">
-        -- {{hero.attribution}} (instance of bit: <span @click="setQueryFire({bit:hero.bit},['bit'])" class="zCBB-trigger">{{hero.bit}}</span>)</p>
+        -- {{hero._source.hero.attrib}} (instance of bit: <span @click="setQueryFire({bit:hero.bit},['bit'])" class="zCBB-trigger">{{hero._source.bit}}</span>)</p>
 
 <!-- <p class="is-size-2 has-text-weight-bold has-text-right zCBB-primary" style="padding-right:3em;">Special Update!</p>
 =======
@@ -156,7 +156,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
   <span class="zCBB-"><i class="fa fa-exclamation"></i></span>
   </span>
 </h1>
-        <p style="text-align:center;">Isn't, nope. Fansite. You didn't notice how we filched the color scheme but nowhere, sitewide, do you see the teeth?</p>
+        <p style="text-align:center;">Isn't, nope. Fansite.</p>
       </div NB="/.column">
     </div NB="/huh">
     <div style="padding-top:2em;" :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='search'">
@@ -258,21 +258,21 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
       <div class="column">
         <h4 class="is-size-4">Bits</h4>
         <ul>
-          <li style="line-height:.8;margin-bottom:1.1em;" v-for="bucket in browses.bits.filtered_bits.buckets"><span @click="setQueryFire({bit:bucket.key},['bit'])" class="zCBB-trigger has-badge-rounded has-badge-primary" :data-badge="bucket.doc_count">{{bucket.key}}</span>
-            <p class="has-text-grey-lighter">({{bucket.elucidation.hits.hits[0]._source.elucidation}})</p>
+          <li class="zCBB-browseli" style="line-height:.8;margin-bottom:1.1em;" v-for="bucket in browses.bits.filtered_bits.buckets"><span @click="setQueryFire({bit:bucket.key},['bit'])" class="zCBB-trigger has-badge-rounded has-badge-primary" :data-badge="bucket.doc_count">{{bucket.key}}</span>
+            <p class="has-text-grey-lighter">({{bucket.elucidations.hits.hits[0]._source.elucidation}})</p>
           </li>
         </ul>
       </div NB="./column browse bucket">
       <div class="column">
         <h4 class="is-size-4">Tags</h4>
         <ul>
-          <li v-for="bucket in browses.tags.filtered_tags.buckets"><span @click="setQueryFire({tags:bucket.key},['tags'])" class="zCBB-trigger has-badge-rounded has-badge-primary" :data-badge="bucket.doc_count">{{bucket.key}}</span></li>
+          <li class="zCBB-browseli" v-for="bucket in browses.tags.filtered_tags.buckets"><span @click="setQueryFire({tags:bucket.key},['tags'])" class="zCBB-trigger has-badge-rounded has-badge-primary" :data-badge="bucket.doc_count">{{bucket.key}}</span></li>
         </ul>
       </div NB="./column browse bucket">
       <div class="column">
         <h4 class="is-size-4">Guests</h4>
         <ul>
-          <li v-for="bucket in browses.guests.filtered_guests.buckets"><span @click="setQueryFire({guests:bucket.key},['guests'])" class="zCBB-trigger has-badge-rounded has-badge-primary" :data-badge="bucket.doc_count">{{bucket.key}}</span></li>
+          <li class="zCBB-browseli" v-for="bucket in browses.guests.filtered_guests.buckets"><span @click="setQueryFire({guests:bucket.key},['guests'])" class="zCBB-trigger has-badge-rounded has-badge-primary" :data-badge="bucket.doc_count">{{bucket.key}}</span></li>
         </ul>
       </div NB="./column browse bucket">
     </div NB="/browse">
@@ -466,6 +466,7 @@ export default {
     this.GEOMS = new L.featureGroup().addTo(this.MAP);
 
 this.getUpdates()
+this.getHero()
 
     this.query.string = (this.$route.params.query && this.$route.params.query !== '*') ? this.$route.params.query : null
     if (this.query.string) { this.getBits() }
@@ -525,7 +526,7 @@ loadings: { maplayer: false, app: false, popupopen: false },
         .get(qs)
         .then(response => {
 
-          this.hero=response.data[0].hero;
+          // this.hero=response.data[0].hero;
 this.updates=response.data;
 
         }) //axios.then
@@ -571,31 +572,40 @@ this.updates=response.data;
 
       let QS = null;
 
-      /*
-      THE NEW HERO METHOD WILL BE TO QUERY ELASTIC FOR THE MOST RECENT WHERE hero:true  - currently no docs feature this attribute
-      */
 
-      QS = this.CONFIG.elastic_bits + '&q=instance:"Low-rise%20*and*%20boot-cut?"&size=1'
+      let QO = {
+          "size":1,
+    "query": {
+        "function_score": {
+            "query": { "query_string":{"query":"hero.on:true"} },
+            "boost": "5",
+            "random_score": {}, 
+            "boost_mode":"multiply"
+        }
+    }
+}
 
-      axios
-        .get(QS)
-        .then(response => {
-          this.loadings.app = false
 
-          // this is hero stuff we add back in when we wanna dynamically feature a quote
-          // this.hero = __.map(response.data.hits.hits,(b)=>{
-          //             let o = b
-          //             o._source.hero={on:true,attrib:"Scott Aukerman"}
-          //             return o;
-          //           })[8]
-          this.hero = true
+        this.$ES.search({
+    index: 'cbb',
+    type: '_doc',
+    body: QO
+}).then(response => {
+            this.hero = response.hits.hits.length>0?response.hits.hits[0]:{_source:{
+                "instance": "Is that more on the guy or more on the horse?",
+                "bit": "Is Dick Francis a Horse?",
+                "elucidation": "inconclusive",
+                "hero":{"on":true,"attrib":"Chesley Burnett Sullenberger"}}
+}
+          }) //.then
+          .catch(e => {
 
-        }) //axios.then
-        .catch(e => {
-          this.loadings.app = false
-          this.console.msgs.push({ m: e, c: "error" })
-          console.error(e);
-        }) //axios.catch
+            this.console.msgs.push({ m: e, c: "error" })
+            console.error(e);
+          }) //.catch
+          .finally(() => {
+            this.loadings.app = false
+          })
 
     },
     genGeomID: function(caller, e) {
@@ -851,7 +861,7 @@ this.updates=response.data;
 
       var Q = {
           "query_string": {
-            "query": '+'+qsof
+            "query": qsof
           }
         }
 
@@ -934,17 +944,53 @@ QO = {"size":10000,"query":Q,"aggregations":{"all_bits":{"global":{},"aggregatio
 
 // let QO = {"size":0,"query":Q,"aggregations":{"all_bits":{"global":{},"aggregations":{"guests":{"filter":Q,"aggregations":{"filtered_guests":{"terms":{"size":1000000,"field":"episode_guests.keyword"}}}},"tags":{"filter":Q,"aggregations":{"filtered_tags":{"terms":{"size":1000000,"field":"tags.keyword"}}}},"bits":{"filter":Q,"aggregations":{"filtered_bits":{"terms":{"size":1000000,"field":"bit.keyword"},"aggs":{"elucidation":{"top_hits":{"size":1,"_source":{"include":"elucidation"}}}}}}},"episodes":{"filter":Q,"aggregations":{"filtered_episodes":{"terms":{"size":1000000,"field":"episode.keyword"}}}}}}}}
 
-let QO = {
-    "aggs" : {
-        "my_bits": {
-            "composite" : {
-                "sources" : [
-                    { "bit": { "terms" : { "field": "elucidation.keyword" } } }
-                ]
-            }
-        }
-     }
-}
+// let QOx = {
+//     "aggs" : {
+//         "bits_filter" : {
+//             "filter" : { "term": { "bit": "Donk" } },
+//             "aggs" : {
+//                 "associated_elucidation" : { "filter" : { "term": { "bit": "Donk" } },"field" : "elucidation.keyword"  }
+//             }
+//         }
+//     }
+// }
+
+// let QO={"size":0,
+//   "aggs": {
+//     "bits_filter": {
+//       "filter": { "term": { "bit": "Donk" } },
+//       "aggs": {
+//         "associated_elucidation": {
+//            "terms": { "field": "elucidation.keyword" }
+//         }
+//       }
+//     }
+//   }
+// }
+
+
+// let QO = { "size": 0, "query": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "all_bits": { "global": {}, "aggregations": { "guests": { "filter": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "filtered_guests": { "terms": { "size": 1000000, "field": "episode_guests.keyword" } } } }, "tags": { "filter": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "filtered_tags": { "terms": { "size": 1000000, "field": "tags.keyword" } } } }, "bits": { "filter": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "filtered_bits": { "terms": { "size": 1000000, "field": "bit.keyword" }, "aggs": { "elucidations": { "top_hits": { "size": 1, "_source": { "include": "elucidation" } } } } } } } } } } }
+
+let QO = {"size":0,"query":{"query_string":{"default_operator":"AND","query":"*:*"}},"aggs":{"all_bits":{"global":{},"aggs":{"guests":{"filter":{"query_string":{"default_operator":"AND","query":"*:*"}},"aggs":{"filtered_guests":{"terms":{"size":1000000,"field":"episode_guests.keyword"}}}},"tags":{"filter":{"query_string":{"default_operator":"AND","query":"*:*"}},"aggs":{"filtered_tags":{"terms":{"size":1000000,"field":"tags.keyword"}}}},"bits":{"filter":{"query_string":{"default_operator":"AND","query":"*:*"}},"aggs":{"filtered_bits":{"terms":{"size":1000000,"field":"bit.keyword"},"aggs":{"elucidations":{"top_hits":{"_source":["elucidation"],"size":1}}}}}}}}}}
+
+// let QO = {"aggs":{"bucketsBits":{"composite":{"sources":[{"bits":{"terms":{"field":"bit.keyword"}}},{"elucidations":{"terms":{"field":"elucidation.keyword"}}}]}}}}
+
+// let QO = {"size":0,"aggs":{"data":{"composite":{"size":100,"sources":[{"bit":{"terms":{"field":"bit.keyword"}}},{"elucidation":{"terms":{"field":"elucidation.keyword"}}}]},"aggs":{"test":{"filters":{"filters":{"query":{"query_string":{"query":"all"}}}}}}}}}
+
+// let QO = {"size":0,"aggs":{"bits":{"composite":{"size":15,"sources":[{"bit":{"terms":{"field":"bit.keyword"}}},{"elucidation":{"terms":{"field":"elucidation.keyword"}}}]}}}}
+
+// let QO = {
+//     "aggs": {
+//   "platforms": {
+//     "terms": {"field": "bit.keyword"},
+//     "aggs": {
+//       "name": {"terms": {"field": "elucidation.keyword"}},
+//       "url": {"terms": {"field": "elucidation.keyword"}}
+//     }
+//   }
+// }//aggs
+// }//QO
+
 
       this.loadings.app = true;
 

@@ -1,4 +1,4 @@
-geoms[{
+[{
     "episode": "https://www.stitcher.com/s?eid=65070470",
     "tstart": "9:15",
     "tend": "10:00",
@@ -9,8 +9,7 @@ geoms[{
     "some house in the hwood hills","home to: Scott Aukerman, The Widow Howl.app, and Todd"
 ],
 "tags": ["Scott's Nephew Todd"],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1165",
     "updated_at": "2019-11-09T09:37:04Z",
     "created_at": "2019-11-09T09:37:04Z",
     "slug_earwolf": null,
@@ -75,6 +74,7 @@ geoms[{
 "elucidation": "any song reference",
 "tags": ["Scott's Nephew Todd","Smooth Criminal Al A. Peterson","Smooth Criminal (song)","Michael Jackson"],
 "hero": {
+    "on":true,
         "attribution": "Scott's Nephew Todd"
     },
     "location_type": "",
@@ -270,8 +270,8 @@ geoms[{
 "elucidation": "identifiable earth location",
 "tags": ["Scott's Nephew Todd","Smooth Criminal Al A. Peterson","Rudi North"],
 "nb":["christmas tree farm of rudi north"],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point",
+    "location_id": "971",
     "updated_at": "2019-11-09T09:37:04Z",
     "created_at": "2019-11-09T09:37:04Z",
     "slug_earwolf": null,
@@ -287,8 +287,8 @@ geoms[{
 "elucidation": "identifiable earth location",
 "tags": ["Scott's Nephew Todd","Smooth Criminal Al A. Peterson","Rudi North"],
 "nb":["doughnut shop of rudi north"],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point",
+    "location_id": "946",
     "updated_at": "2019-11-09T09:37:04Z",
     "created_at": "2019-11-09T09:37:04Z",
     "slug_earwolf": null,
@@ -304,8 +304,7 @@ geoms[{
 "elucidation": "identifiable earth location",
 "tags": ["Scott's Nephew Todd","Smooth Criminal Al A. Peterson","Rudi North"],
 "nb":["universal lot tour - bruce exhibit","site of: Rudimentary North getting a new job"],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1166",
     "updated_at": "2019-11-09T09:37:04Z",
     "created_at": "2019-11-09T09:37:04Z",
     "slug_earwolf": null,
@@ -402,8 +401,8 @@ geoms[{
 "elucidation": "identifiable earth location",
 "tags": ["Scott's Nephew Todd","Smooth Criminal Al A. Peterson","Rudi North","Dalton Wilcox"],
 "nb":["Loch Ness","site of: Dalton Wilcox, slaughtering regional monster - the Loch Ness Monster"],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "poly",
+    "location_id": "250",
     "updated_at": "2019-11-09T09:37:04Z",
     "created_at": "2019-11-09T09:37:04Z",
     "slug_earwolf": null,
@@ -420,8 +419,7 @@ geoms[{
 "elucidation": "identifiable earth location",
 "tags": ["Scott's Nephew Todd","Smooth Criminal Al A. Peterson","Rudi North","Dalton Wilcox"],
 "nb":["https://www.openstreetmap.org/#map=12/33.91433/-80.18897","site of: Dalton Wilcox, slaughtering regional monster - the Lizard Man of Scape Ore Swamp"],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1167",
     "updated_at": "2019-11-09T09:37:04Z",
     "created_at": "2019-11-09T09:37:04Z",
     "slug_earwolf": null,
@@ -437,8 +435,7 @@ geoms[{
 "elucidation": "identifiable earth location",
 "tags": ["Scott's Nephew Todd","Smooth Criminal Al A. Peterson","Rudi North","Dalton Wilcox"],
 "nb":["https://www.openstreetmap.org/relation/1210730","site of: Dalton Wilcox, slaughtering multiple regional monsters - the Skunk Ape"],
-    "location_type": "",
-    "location_id": "",
+"location_type": "poly","location_id": "1066",
     "updated_at": "2019-11-09T09:37:04Z",
     "created_at": "2019-11-09T09:37:04Z",
     "slug_earwolf": null,
@@ -454,8 +451,7 @@ geoms[{
 "elucidation": "identifiable earth location",
 "tags": ["Scott's Nephew Todd","Smooth Criminal Al A. Peterson","Rudi North","Dalton Wilcox"],
 "nb":["https://maps.google.com/maps?ll=38.191953,-85.4879&q=38.191953,-85.4879&hl=en&t=m&z=11","site of: Dalton Wilcox, slaughtering a regional monster - the Pope Lick Monster of Louisville"],
-    "location_type": "",
-    "location_id": "",
+"location_type": "point","location_id": "1168",
     "updated_at": "2019-11-09T09:37:04Z",
     "created_at": "2019-11-09T09:37:04Z",
     "slug_earwolf": null,
@@ -471,8 +467,7 @@ geoms[{
 "elucidation": "identifiable earth location",
 "tags": ["Scott's Nephew Todd","Smooth Criminal Al A. Peterson","Rudi North","Dalton Wilcox"],
 "nb":["https://www.openstreetmap.org/node/154140223","site of: Dalton Wilcox, slaughtering a regional monster - the Loveland Frog Man"],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1169",
     "updated_at": "2019-11-09T09:37:04Z",
     "created_at": "2019-11-09T09:37:04Z",
     "slug_earwolf": null,
@@ -488,8 +483,7 @@ geoms[{
 "elucidation": "identifiable earth location",
 "tags": ["Scott's Nephew Todd","Smooth Criminal Al A. Peterson","Rudi North","Dalton Wilcox"],
 "nb":["https://tools.wmflabs.org/geohack/geohack.php?pagename=Honey_Island_Swamp&params=30_13_02_N_89_38_59_W_","site of: Dalton Wilcox, slaughtering a regional monster - the Honey Island Swamp Monster"],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1170",
     "updated_at": "2019-11-09T09:37:04Z",
     "created_at": "2019-11-09T09:37:04Z",
     "slug_earwolf": null,
@@ -505,8 +499,7 @@ geoms[{
 "elucidation": "identifiable earth location",
 "tags": ["Scott's Nephew Todd","Smooth Criminal Al A. Peterson","Rudi North","Dalton Wilcox"],
 "nb":["-98,26 (canal near el caribe circl in harlingen, tx","site of: Dalton Wilcox, slaughtering a regional monster - Big Bird of the Rio Grande Valley"],
-    "location_type": "",
-    "location_id": "",
+"location_type": "point","location_id": "1171",
     "updated_at": "2019-11-09T09:37:04Z",
     "created_at": "2019-11-09T09:37:04Z",
     "slug_earwolf": null,
@@ -522,8 +515,7 @@ geoms[{
 "elucidation": "identifiable earth location",
 "tags": ["Scott's Nephew Todd","Smooth Criminal Al A. Peterson","Rudi North","Dalton Wilcox"],
 "nb":["freetown fall river, ma","site of: Dalton Wilcox, slaughtering a regional monster - Puckwudgie"],
-    "location_type": "",
-    "location_id": "",
+"location_type": "poly","location_id": "1067",
     "updated_at": "2019-11-09T09:37:04Z",
     "created_at": "2019-11-09T09:37:04Z",
     "slug_earwolf": null,
@@ -571,8 +563,7 @@ geoms[{
 "elucidation": "identifiable earth location",
 "tags": ["Scott's Nephew Todd","Smooth Criminal Al A. Peterson","Rudi North","Dalton Wilcox"],
 "nb":["Pittock Mansion","site of: a Dalton Wilcox slaying"],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "poly","location_id": "1068",
     "updated_at": "2019-11-09T09:37:04Z",
     "created_at": "2019-11-09T09:37:04Z",
     "slug_earwolf": null,
@@ -652,6 +643,10 @@ geoms[{
 "bit": "The Paul Hardcastle of Suicides",
 "elucidation": "any song reference",
 "tags": ["Let's Dance (song)","David Bowie","Carter Meza"],
+"hero": {
+    "on":true,
+        "attribution": "Carter Meza"
+    },
     "location_type": "",
     "location_id": "",
     "updated_at": "2019-11-12T09:37:04Z",
@@ -703,8 +698,7 @@ geoms[{
 "elucidation": "identifiable earth location",
 "tags": ["Mary Lisa"],
 "nb":["Eagle Rock Target (in eagle rock plaza)","main hangout of: Mary Lisa"],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1172",
     "updated_at": "2019-11-12T09:37:04Z",
     "created_at": "2019-11-12T09:37:04Z",
     "slug_earwolf": "how-bout-that",
@@ -720,8 +714,7 @@ geoms[{
 "elucidation": "identifiable earth location",
 "tags": ["Mary Lisa","Carter Meza","John Cena"],
 "nb":["school formerly named: Martin Luther King Jr. Middle School","proxy for: Paul Walker Memorial Middle School","high school of: Carter Meza and his jv basketball team, musical productions full of John Cenas"],
-    "location_type": "",
-    "location_id": "",
+ "location_type": "point","location_id": "1173",
     "updated_at": "2019-11-12T09:37:04Z",
     "created_at": "2019-11-12T09:37:04Z",
     "slug_earwolf": "how-bout-that",
@@ -737,6 +730,10 @@ geoms[{
 "bit": "The Paul Hardcastle of Suicides",
 "elucidation": "any song reference",
 "tags": ["JW Stillwater","Lipps Inc. (musical combination)","Funkytown (song)"],
+"hero": {
+    "on":true,
+        "attribution": "JW Stillwater"
+    },
     "location_type": "",
     "location_id": "",
     "updated_at": "2019-11-13T09:37:04Z",
@@ -788,8 +785,8 @@ geoms[{
     "cumberbatch county"
 ],
 "tags": ["JW Stillwater"],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "poly",
+    "location_id": "169",
     "updated_at": "2019-11-13T09:37:04Z",
     "created_at": "2019-11-13T09:37:04Z",
     "slug_earwolf": null,
@@ -809,8 +806,7 @@ geoms[{
     ,"route of: JW Stillwater on his way to Portland"
 ],
 "tags": ["JW Stillwater"],
-    "location_type": "",
-    "location_id": "",
+  "location_type": "line","location_id": "300",
     "updated_at": "2019-11-13T09:37:04Z",
     "created_at": "2019-11-13T09:37:04Z",
     "slug_earwolf": null,
@@ -828,8 +824,8 @@ geoms[{
     "schmeiderberg factory"
 ],
 "tags": ["August Lindt"],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point",
+    "location_id": "129",
     "updated_at": "2019-11-13T09:37:04Z",
     "created_at": "2019-11-13T09:37:04Z",
     "slug_earwolf": null,
@@ -994,8 +990,7 @@ geoms[{
     "instance": "It didn't chart in Germany.",
 "bit": "The Paul Hardcastle of Suicides",
 "elucidation": "any song reference",
-"tags": ["August Lindt","Whatta Man (song)","Salt-N-Pepa (musical combination)"
-    "Dave Crawford","Hurby (Luv Bug) Azor"
+"tags": ["August Lindt","Whatta Man (song)","Salt-N-Pepa (musical combination)","Dave Crawford","Hurby (Luv Bug) Azor"
 ],
     "location_type": "",
     "location_id": "",
@@ -1016,8 +1011,7 @@ geoms[{
     "portland harbor","site of: pollution","site of: August Lindt on vacation"
 ],
 "tags": ["August Lindt"],
-    "location_type": "",
-    "location_id": "",
+  "location_type": "point","location_id": "1174",
     "updated_at": "2019-11-13T09:37:04Z",
     "created_at": "2019-11-13T09:37:04Z",
     "slug_earwolf": null,
@@ -1035,8 +1029,7 @@ geoms[{
     "uranium mine up by medford, or","site of: August Lindt on vacation"
 ],
 "tags": ["August Lindt"],
-    "location_type": "",
-    "location_id": "",
+  "location_type": "point","location_id": "1175",
     "updated_at": "2019-11-13T09:37:04Z",
     "created_at": "2019-11-13T09:37:04Z",
     "slug_earwolf": null,
@@ -1054,8 +1047,7 @@ geoms[{
     "army depot lagoons","site of: August Lindt on vacation"
 ],
 "tags": ["August Lindt"],
-    "location_type": "",
-    "location_id": "",
+  "location_type": "point","location_id": "1176",
     "updated_at": "2019-11-13T09:37:04Z",
     "created_at": "2019-11-13T09:37:04Z",
     "slug_earwolf": null,
@@ -1073,8 +1065,7 @@ geoms[{
     "witch's castle, portland","site of: August Lindt on vacation"
 ],
 "tags": ["August Lindt"],
-    "location_type": "",
-    "location_id": "",
+  "location_type": "point","location_id": "1177",
     "updated_at": "2019-11-13T09:37:04Z",
     "created_at": "2019-11-13T09:37:04Z",
     "slug_earwolf": null,
@@ -1092,8 +1083,8 @@ geoms[{
     "Mauna Loa","possible site of: the Mars simulator biodome in which August Lindt perpetrated a mass murder"
 ],
 "tags": ["August Lindt"],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point",
+    "location_id": "769",
     "updated_at": "2019-11-13T09:37:04Z",
     "created_at": "2019-11-13T09:37:04Z",
     "slug_earwolf": null,
@@ -1120,11 +1111,105 @@ geoms[{
     "holding": "false"
 },{
     "episode": 628,
-    "tstart": "2:30",
-    "tend": "2:45",
-    "instance": "",
-
-"tags": [],
+    "tstart": "34:30",
+    "tend": "35:00",
+    "instance": "And I saved a lot of the kids after the crash.",
+"bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":[
+    "hudson river miracle lat/lng but shoreside","site of: Burgey Sullenberger endangering (and saving) several children"
+],
+"tags": ["Burgey Sullenberger"],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-18T09:37:04Z",
+    "created_at": "2019-11-18T09:37:04Z",
+    "slug_earwolf": "floating-bus-reform",
+    "episode_title": "Floating Bus Reform",
+    "episode_guests": [
+"Joel Kim Booster"
+,"Mitra Jouhari"
+,"Dan Lippert"
+,"Zac Oyama"
+    ],
+    "holding": "false"
+},{
+    "episode": 628,
+    "tstart": "35:45",
+    "tend": "36:15",
+    "instance": "Anybody can crash into the Hudson.",
+"bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":[
+    "hudson river miracle lat/lng but shoreside","site of: Burgey Sullenberger endangering (and saving) several children"
+],
+"tags": ["Burgey Sullenberger"],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-18T09:37:04Z",
+    "created_at": "2019-11-18T09:37:04Z",
+    "slug_earwolf": "floating-bus-reform",
+    "episode_title": "Floating Bus Reform",
+    "episode_guests": [
+"Joel Kim Booster"
+,"Mitra Jouhari"
+,"Dan Lippert"
+,"Zac Oyama"
+    ],
+    "holding": "false"
+},{
+    "episode": 628,
+    "tstart": "1:17:30",
+    "tend": "1:17:45",
+    "instance": "I would boogie board all the damn day.",
+"bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":[
+    "myrtle beach, sc","site of: Topher Schmidty, boogie boarding"
+],
+"tags": ["Topher Schmidty"],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-18T09:37:04Z",
+    "created_at": "2019-11-18T09:37:04Z",
+    "slug_earwolf": "floating-bus-reform",
+    "episode_title": "Floating Bus Reform",
+    "episode_guests": [
+"Joel Kim Booster"
+,"Mitra Jouhari"
+,"Dan Lippert"
+,"Zac Oyama"
+    ],
+    "holding": "false"
+},{
+    "episode": 628,
+    "tstart": "35:00",
+    "tend": "35:20",
+    "instance": "Ninety-two fleshbags.",
+"bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+"tags": ["Burgey Sullenberger","Bodies (song)","Drowning Pool (musical combination)"],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-11-18T09:37:04Z",
+    "created_at": "2019-11-18T09:37:04Z",
+    "slug_earwolf": "floating-bus-reform",
+    "episode_title": "Floating Bus Reform",
+    "episode_guests": [
+"Joel Kim Booster"
+,"Mitra Jouhari"
+,"Dan Lippert"
+,"Zac Oyama"
+    ],
+    "holding": "false"
+},{
+    "episode": 628,
+    "tstart": "47:45",
+    "tend": "48:00",
+    "instance": "One bowl \\ per week",
+"elucidation": "not it's been a while",
+"bit": "It's Been",
+"tags": ["Burgey Sullenberger"],
     "location_type": "",
     "location_id": "",
     "updated_at": "2019-11-18T09:37:04Z",
