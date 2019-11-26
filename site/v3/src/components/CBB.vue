@@ -93,7 +93,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
   {{hero._source.instance}}
 </p>
         <p class="is-size-5 has-text-weight-light has-text-right zCBB-primary-3" style="padding-right:3em;padding-left:3em;">
-        -- {{hero._source.hero.attrib}} (instance of bit: <span @click="setQueryFire({bit:hero.bit},['bit'])" class="zCBB-trigger">{{hero._source.bit}}</span>)</p>
+        -- {{hero._source.hero.attrib}} (instance of bit: <span @click="setQueryFire({bit:hero._source.bit},['bit'])" class="zCBB-trigger">{{hero._source.bit}}</span>)</p>
 
 <!-- <p class="is-size-2 has-text-weight-bold has-text-right zCBB-primary" style="padding-right:3em;">Special Update!</p>
 =======
