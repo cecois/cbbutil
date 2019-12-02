@@ -658,8 +658,8 @@ console.log("audit.flag:",R.audit.flag)
 */
 console.log("--------------------> sending "+inca.length+" documents to MLAB...");
 
-// sent = await _SEND(inca);
-let sent={documents:{n:inca.length}}
+sent = await _SEND(inca);
+// let sent={documents:{n:inca.length}}
 
 if(sent.documents.n !== inca.length){
 	console.log("ERROR: mismatching in sent ("+sent.documents.n+') and incoming raw ('+inca.length+'),  exiting...');
@@ -679,12 +679,12 @@ console.log("ELASTIFYING!");
 const E = await _ELASTIFY(ext_source2);
 
 console.log("summarize new from "+ln+"...")
-// let summary = await _SUMMARIZE(inca);
-// _CLEAN(ext_source2);
+let summary = await _SUMMARIZE(inca);
+_CLEAN(ext_source2);
 // console.log(JSON.stringify(summary))
 
 // console.log("sending update...")
-// let update = await _SENDSUMMARY(summary);
+let update = await _SENDSUMMARY(summary);
 
 // console.log(JSON.stringify(update))
 //         write(summary);
@@ -694,7 +694,7 @@ console.log("summarize new from "+ln+"...")
 } catch(error) {
 	console.error(error);
 }
-console.log("WANNA BACK UP DEM GEOMS, CHUMP? ./geobu.js ")
+console.log("WANNA BACK UP DEM GEOMS, CHAMP? ./geobu.js ")
 } //main
 
 main();
