@@ -23,19 +23,22 @@ import vueHeadful from 'vue-headful';
 
 let CONFIG=CONFIGD.mode=='prod'?CONFIGD.prod:CONFIGD.dev
 
-const AWS = require('aws-sdk')
-const awsHttpClient = require('http-aws-es')
+// const AWS = require('aws-sdk')
+// const awsHttpClient = require('http-aws-es')
 
 
 let es = require('elasticsearch').Client({
-  hosts: [ CONFIG.awsServiceHost ],
-  connectionClass: require('http-aws-es')
+  host: CONFIG.elastic_bits
+  ,log: 'trace',
+  apiVersion: '7.4'
+  // ,connectionClass: require('http-aws-es')
 });
 
-AWS.config.update({
-  credentials: new AWS.Credentials(CONFIG.awsAccessKeyId, CONFIG.awsSecretAccessKey),
-  region: 'us-east-1'
-});
+	console.log("es", es);
+// AWS.config.update({
+//   credentials: new AWS.Credentials(CONFIG.awsAccessKeyId, CONFIG.awsSecretAccessKey),
+//   region: 'us-east-1'
+// });
 
 // es.search({
 //     index: 'cbb',

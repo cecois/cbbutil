@@ -586,12 +586,15 @@ this.updates=response.data;
 }
 
 
-        this.$ES.search({
-    index: 'cbb',
-    type: '_doc',
-    body: QO
-}).then(response => {
-            this.hero = response.hits.hits.length>0?response.hits.hits[0]:{_source:{
+//         this.$ES.search({
+//     index: 'cbb',
+//     type: '_doc',
+//     body: QO
+// })
+axios.post(this.CONFIG.elastic_bits, QO)
+        .then(response => {
+          console.log("response", response);
+            this.hero = response.data.hits.hits.length>0?response.data.hits.hits[0]:{_source:{
                 "instance": "Is that more on the guy or more on the horse?",
                 "bit": "Is Dick Francis a Horse?",
                 "elucidation": "inconclusive",
@@ -828,14 +831,15 @@ this.updates=response.data;
 
           QO = {"size":10000,"query":{"query_string":{"query":Q}},"aggregations":{"all_bits":{"global":{},"aggregations":{"guests":{"filter":{"query_string":{"query":Q}},"aggregations":{"filtered_guests":{"terms":{"size":10000,"field":"episode_guests.keyword"}}}},"tags":{"filter":{"query_string":{"query":Q}},"aggregations":{"filtered_tags":{"terms":{"size":10000,"field":"tags.keyword"}}}},"bits":{"filter":{"query_string":{"query":Q}},"aggregations":{"filtered_bits":{"terms":{"size":10000,"field":"bit.keyword"}}}},"episodes":{"filter":{"query_string":{"query":Q}},"aggregations":{"filtered_episodes":{"terms":{"size":10000,"field":"episode.keyword"}}}}}}}}
 
-        // axios.post(this.CONFIG.prod.elastic_bits, QO)
-        this.$ES.search({
-    index: 'cbb',
-    type: '_doc',
-    body: QO
-}).then(response => {
-            this.bits = response.hits.hits
-            this.facets = response.aggregations.all_bits
+//         this.$ES.search({
+//     index: 'cbb',
+//     type: '_doc',
+//     body: QO
+// })
+        axios.post(this.CONFIG.elastic_bits, QO)
+        .then(response => {
+            this.bits = response.data.hits.hits
+            this.facets = response.data.aggregations.all_bits
           }) //axios.then
           .catch(e => {
 
@@ -866,15 +870,17 @@ this.updates=response.data;
         }
 
 QO = {"size":10000,"query":Q,"aggregations":{"all_bits":{"global":{},"aggregations":{"guests":{"filter":Q,"aggregations":{"filtered_guests":{"terms":{"size":10000,"field":"episode_guests.keyword"}}}},"tags":{"filter":Q,"aggregations":{"filtered_tags":{"terms":{"size":10000,"field":"tags.keyword"}}}},"bits":{"filter":Q,"aggregations":{"filtered_bits":{"terms":{"size":10000,"field":"bit.keyword"}}}},"episodes":{"filter":Q,"aggregations":{"filtered_episodes":{"terms":{"size":10000,"field":"episode.keyword"}}}}}}}}
+console.log("QO", QO);
 
-        // axios.post(this.CONFIG.prod.elastic_bits, QO)
-        this.$ES.search({
-    index: 'cbb',
-    type: '_doc',
-    body: QO
-}).then(response => {
-            this.bits = response.hits.hits
-            this.facets = response.aggregations.all_bits
+//         this.$ES.search({
+//     index: 'cbb',
+//     type: '_doc',
+//     body: QO
+// })
+        axios.post(this.CONFIG.elastic_bits, QO)
+        .then(response => {
+            this.bits = response.data.hits.hits
+            this.facets = response.data.aggregations.all_bits
           }) //axios.then
           .catch(e => {
             this.console.msgs.push({ m: e, c: "error" })
@@ -996,14 +1002,16 @@ let QO = {"size":0,"query":{"query_string":{"default_operator":"AND","query":"*:
 
       
 
-        this.$ES.search({
-    index: 'cbb',
-    type: '_doc',
-    body: QO
-}).then(response => {
+//         this.$ES.search({
+//     index: 'cbb',
+//     type: '_doc',
+//     body: QO
+// })
+axios.post(this.CONFIG.elastic_bits, QO)
+        .then(response => {
             // this.bits = response.hits.hits
             // this.facets = response.aggregations.all_bits
-            this.browses = response.aggregations.all_bits
+            this.browses = response.data.aggregations.all_bits
           }) //axios.then
           .catch(e => {
 
