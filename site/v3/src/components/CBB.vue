@@ -506,7 +506,7 @@ loadings: { maplayer: false, app: false, popupopen: false },
   },
   methods: {
     triggerUpdateQuery: function(ep, bt) {
-      this.query = '(episode:' + ep + ' AND bit:"' + bt + '")'
+      this.query.string = '(episode:' + ep + ' AND bit:"' + bt + '")'
       this.getBits()
     },
     triggerSingleFieldQuery: function(f, v) {
@@ -593,7 +593,6 @@ this.updates=response.data;
 // })
 axios.post(this.CONFIG.elastic_bits, QO)
         .then(response => {
-          console.log("response", response);
             this.hero = response.data.hits.hits.length>0?response.data.hits.hits[0]:{_source:{
                 "instance": "Is that more on the guy or more on the horse?",
                 "bit": "Is Dick Francis a Horse?",

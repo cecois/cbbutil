@@ -34,7 +34,6 @@ let es = require('elasticsearch').Client({
   // ,connectionClass: require('http-aws-es')
 });
 
-	console.log("es", es);
 // AWS.config.update({
 //   credentials: new AWS.Credentials(CONFIG.awsAccessKeyId, CONFIG.awsSecretAccessKey),
 //   region: 'us-east-1'
