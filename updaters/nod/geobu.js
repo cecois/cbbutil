@@ -55,7 +55,8 @@ const _GETGEOMS = async () =>{
 				const db = client.db('cbb');
 				var col = db.collection('geo');
 				col.find().toArray((e, r) => {
-					if(e){reject(e)}
+					if(e){client.close();reject(e)}
+					client.close();
 					resolve(r)
 				});
 			});

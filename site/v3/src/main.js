@@ -27,12 +27,12 @@ let CONFIG=CONFIGD.mode=='prod'?CONFIGD.prod:CONFIGD.dev
 // const awsHttpClient = require('http-aws-es')
 
 
-let es = require('elasticsearch').Client({
-  host: CONFIG.elastic_bits
-  ,log: 'trace',
-  apiVersion: '7.4'
-  // ,connectionClass: require('http-aws-es')
-});
+// let es = require('elasticsearch').Client({
+//   host: CONFIG.elastic_bits
+//   ,log: 'trace',
+//   apiVersion: '7.4'
+//   // ,connectionClass: require('http-aws-es')
+// });
 
 // AWS.config.update({
 //   credentials: new AWS.Credentials(CONFIG.awsAccessKeyId, CONFIG.awsSecretAccessKey),
@@ -57,7 +57,7 @@ Vue.use(underscore);
 
 Vue.config.productionTip = false;
 Object.defineProperty(Vue.prototype, '$MOMENT', { value: moment })
-Object.defineProperty(Vue.prototype, '$ES', { value: es })
+// Object.defineProperty(Vue.prototype, '$ES', { value: es })
 /* eslint-disable no-new */
 new Vue({
 	el: "#app"

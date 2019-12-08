@@ -443,6 +443,82 @@ const bu = async () =>{
 
 }
 
+const _MAPBITS = (bits) =>{
+
+  // return new Promise((resolve,reject)=>{
+
+    
+      let mapd = __.map(bits,(b)=>{
+
+switch (true) {
+        case !b.hasOwnProperty("episode"):
+          console.log("MISSING FIELD: EPISODE ••••>",b);process.exit();
+          break;
+        case !b.hasOwnProperty("tstart"): 
+          console.log("MISSING FIELD: TSTART ••••>",b);process.exit();
+          break;
+        case !b.hasOwnProperty("tend"): 
+          console.log("MISSING FIELD: TEND ••••>",b);process.exit();
+          break;
+        case !b.hasOwnProperty("instance"): 
+          console.log("MISSING FIELD: INSTANCE ••••>",b);process.exit();
+          break;
+        case !b.hasOwnProperty("bit"): 
+          console.log("MISSING FIELD: BIT ••••>",b);process.exit();
+          break;
+        case !b.hasOwnProperty("elucidation"): 
+          console.log("MISSING FIELD: ELUCIDATION ••••>",b);process.exit();
+          break;
+        case !b.hasOwnProperty("location_type"): 
+          console.log("MISSING FIELD: LOCATION_TYPE ••••>",b);process.exit();
+          break;
+        case !b.hasOwnProperty("location_id"): 
+          console.log("MISSING FIELD: LOCATION_ID ••••>",b);process.exit();
+          break;
+        // case !b.hasOwnProperty("updated_at"): 
+        //   console.log("MISSING FIELD: UPDATED_AT ••••>",b);process.exit();
+        //   break;
+        // case !b.hasOwnProperty("created_at"): 
+        //   console.log("MISSING FIELD: CREATED_AT ••••>",b);process.exit();
+        //   break;
+        case !b.hasOwnProperty("slug_earwolf"): 
+          console.log("MISSING FIELD: SLUG_EARWOLF ••••>",b);process.exit();
+          break;
+        case !b.hasOwnProperty("episode_title"): 
+          console.log("MISSING FIELD: EPISODE_TITLE ••••>",b);process.exit();
+          break;
+        case !b.hasOwnProperty("episode_guests"): 
+          console.log("MISSING FIELD: EPISODE_GUESTS ••••>",b);process.exit();
+          break;
+        case !b.hasOwnProperty("tags"):
+          console.log("MISSING FIELD: TAGS ••••>",b);process.exit();
+          break;
+}//switch
+
+  let no = [{ "index":{} },{
+      episode: b.episode.toString(),
+    tstart: b.tstart,
+    tend: b.tend,
+    instance: b.instance,
+    bit: b.bit,
+    elucidation: _LAUNDERELUCIDATION(b.elucidation),
+    location_type:b.location_type,
+    location_id:parseInt(b.location_id),
+    hero:b.hero?b.hero:null,
+    updated_at:!b.hasOwnProperty("updated_at")?b.created_at:b.updated_at,
+    created_at:!b.hasOwnProperty("created_at")?b.updated_at:b.created_at,
+    slug_earwolf:b.slug_earwolf,
+    episode_title:b.episode_title,
+    episode_guests: __.isArray(b.episode_guests)?b.episode_guests:b.episode_guests.split(","),
+    tags: __.isArray(b.tags)?__.compact(_LAUNDERTAGS(b.tags)):__.compact(_LAUNDERTAGS(b.tags.split(",")))
+    }]
+
+  return no;
+
+})//map
+  return mapd;
+}//mapbits
+
 const elastify = async (J)=>{
 
 	return new Promise((resolve,reject)=>{
@@ -454,7 +530,7 @@ const elastify = async (J)=>{
 			// ,log: 'trace'
 		});
 
-var elastic_array =[];
+// var elastic_array =[];
 
 
 
@@ -462,45 +538,42 @@ FS.readFile(CONFIG.budir+"/"+J,(err,dat)=>{
 	if(err){console.log(err);process.exit();}
 
 
-	var datm = __.map(JSON.parse(dat),(D)=>{
+let mapd = _MAPBITS(dat);
+let prefixes = [];
 
+for (var i = mapd.length - 1; i >= 0; i--) {
+  prefixes.push({ "index":{} })
+}
 
-		var ob = {
-			_id:D._id.$oid
-			// ,body:{
-				,episode:D.episode.toString()
-				,tstart:D.tstart
-				,tend:D.tend
-				,instance:D.instance
-				,bit:D.bit
-				,elucidation:D.elucidation
-				,tags:D.tags
-				,location_type:D.location_type
-				,location_id:D.location_id
-				,updated_at:D.updated_at
-				,created_at:D.created_at
-				,slug_earwolf:D.slug_earwolf
-				,episode_title:D.episode_title
-				,episode_guests:D.episode_guests
-				,holding:D.holding
-			// }
-		}
+let mapz = __.zip(__.map(prefixes,(p)=>{return p[0]}),mapd)
 
-		return ob
+	FSND.writeFileSync('/tmp/cbb.fndjson',__.compact(__.flatten(mapz)));
 
-	})
+client.bulk({
+    index: 'cbb',
+    type: '_doc',
+    body: __.compact(__.flatten(mapz))
+}, {
+  ignore: [404],
+  maxRetries: 3
+}, (err, result) => {
+  if (err) console.log(err)
+})
+.then(res => console.log(res));
 
-	__.each(datm,(D)=>{
-		elastic_array.push({
-			index: {
-				_index: 'cbb',
-				_type: 'bit',
-				_id: D._id
-			}
-		});
-		delete D._id
-		elastic_array.push(D);
-	})
+}//fs.readfile
+
+	// __.each(datm,(D)=>{
+	// 	elastic_array.push({
+	// 		index: {
+	// 			_index: 'cbb',
+	// 			_type: 'bit',
+	// 			_id: D._id
+	// 		}
+	// 	});
+	// 	delete D._id
+	// 	elastic_array.push(D);
+	// })
 
 // console.log(JSON.stringify(elastic_array));
 // 	console.log("expect:",elastic_array.length)
@@ -510,22 +583,22 @@ FS.readFile(CONFIG.budir+"/"+J,(err,dat)=>{
 
 // __.each(CHD,(C)=>{
 
-	console.log('SENDING:::',__.first(elastic_array,2))
+	// console.log('SENDING:::',__.first(elastic_array,2))
 
-	client.bulk({
-		timeout: '5m',
-		body: __.first(elastic_array,2)
-	}).then(function (success) {
-		// console.log(JSON.stringify(success));
-		resolve(success);
-	}, function (err) {
-		console.log(JSON.stringify(err));
-		reject(err);
-	});
+	// client.bulk({
+	// 	timeout: '5m',
+	// 	body: __.first(elastic_array,2)
+	// }).then(function (success) {
+	// 	// console.log(JSON.stringify(success));
+	// 	resolve(success);
+	// }, function (err) {
+	// 	console.log(JSON.stringify(err));
+	// 	reject(err);
+	// });
 
 // })//each.chd
 
-})//fs.readfile
+// })//fs.readfile
 
 
 })//promise
@@ -595,6 +668,7 @@ console.log("audit.flag:",R.audit.flag)
 
 /* ----------------------------------------------- send to mlab
 // audit wz clean so we're sending
+*/
 console.log("--------------------> sending "+inca.length+" documents to MLAB...");
 sent = await _SEND(inca);
 
@@ -602,7 +676,6 @@ if(sent.documents.n !== inca.length){
 	console.log("ERROR: mismatching in sent ("+sent.documents.n+') and incoming raw ('+inca.length+'),  exiting...');
 	process.exit();
 }
-*/
 
 /* -----------------------------------------------
 */
@@ -617,9 +690,9 @@ console.log("ELASTIFYING!");
 const E = await elastify(ext_source2);
 
 // console.log("summarize new from "+ln+"...")
-// let summary = await _SUMMARIZE(inca);
-// _CLEAN(ext_source2);
-// let update = await _SENDSUMMARY(summary);
+let summary = await _SUMMARIZE(inca);
+_CLEAN(ext_source2);
+let update = await _SENDSUMMARY(summary);
 
 }
 
