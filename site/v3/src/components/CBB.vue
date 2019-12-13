@@ -306,7 +306,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
             <div class="content">
               <h2 class="is-size-3"><i class="fas fa-search-location"></i>&nbsp;Searching</h2>
               <p>Basically you can just type into the box like a monkey might do it - "huell" or "fourvel" and so forth. Case is irrelevant.</p>
-              <p>Any query that results in even one Location will subquery that location and it will appear on the map hidden underneath what you're reading now (ctrl key or the map icon, above, will toggle a better display).</p>
+              <p>Any query that results in even one Location will subquery that location and it will appear on the map hidden underneath what you're reading now (opt key or the map icon, above, will toggle a better display).</p>
               <p>But also know that whatever you type into the box gets pretty much POSTed as-is to an <a href="https://www.elastic.co/products/elasticsearch">ElasticSearch</a> index. As with most search engines, there is <a href="https://www.elastic.co/guide/en/elasticsearch/reference/5.6/query-dsl-query-string-query.html">some pretty advanced stuff</a> you can do if you like. To wit:</p>
               <p>
                 <ul style="list-style: none;">
@@ -365,7 +365,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
               <div class="content">
                 <h2 class="is-size-3"><i class="fas fa-map-marker"></i>&nbsp;Locations</h2>
                 <p>One of the bits is special. For bit:"location" the results will appear in the picklist (indicated by a map pin icon) <em>and</em> on the map under what you're reading now (hidden behind the main content area by default).</p>
-                <p>The ctrl key will toggle the map's visibility (as will the <i class="fas fa-map"></i> button); the <i class="fa fa-map-marker"></i> in the search results will zoom to that instance's referenced location (the map otherwise defaults to the full spatial extent of *all* found location bits). <span @click="setQueryFire({string:'%22huell howser%22 +bit:Location'})" class="zCBB-trigger">Huell Howser</span>, <span @click="setQueryFire({string:'%22gino lambardo%22 +bit:Location'})" class="zCBB-trigger">Gino Lambardo</span>, <span @click="setQueryFire({string:'%22merrill shindler%22 +bit:Location'})" class="zCBB-trigger">Merrill Shindler</span>, and <span @click="setQueryFire({string:'%22shelly driftwood%22 +bit:Location'})" class="zCBB-trigger">Shelly Driftwood</span> are all good for tons (probably too many to load at once). Better to check <span @click="setQueryFire({string:'+%22big sue%22 +bit:Location'})" class="zCBB-trigger">Big Sue</span> or <span @click="setQueryFire({string:'+%22don dimello%22 +bit:Location'})" class="zCBB-trigger">Don DiMello</span>, maybe.</p>
+                <p>The opt key will toggle the map's visibility (as will the <i class="fas fa-map"></i> button); the <i class="fa fa-map-marker"></i> in the search results will zoom to that instance's referenced location (the map otherwise defaults to the full spatial extent of *all* found location bits). <span @click="setQueryFire({string:'%22huell howser%22 +bit:Location'})" class="zCBB-trigger">Huell Howser</span>, <span @click="setQueryFire({string:'%22gino lambardo%22 +bit:Location'})" class="zCBB-trigger">Gino Lambardo</span>, <span @click="setQueryFire({string:'%22merrill shindler%22 +bit:Location'})" class="zCBB-trigger">Merrill Shindler</span>, and <span @click="setQueryFire({string:'%22shelly driftwood%22 +bit:Location'})" class="zCBB-trigger">Shelly Driftwood</span> are all good for tons (probably too many to load at once). Better to check <span @click="setQueryFire({string:'+%22big sue%22 +bit:Location'})" class="zCBB-trigger">Big Sue</span> or <span @click="setQueryFire({string:'+%22don dimello%22 +bit:Location'})" class="zCBB-trigger">Don DiMello</span>, maybe.</p>
                 <p>Another thing to note about locations is that unless there's a clamor for it we do NOT spatially-index the geometries for retrieval. So while of course you can query for <em>bits</em> that reference locations (and those referenced geometries will appear on the map), we're not bothering to offer the ability to, say, zoom/pan the map and query for locations <em>in that area</em>. Like, who cares?</p>
                 <p>If you're <em>that interested</em> you could just query for everything (bit:"location" - but be warned there are a ton) and zoom to the spot about which you're curious.</p>
                 <p>Bet you're not, though!</p>
@@ -506,7 +506,7 @@ loadings: { maplayer: false, app: false, popupopen: false },
   },
   methods: {
     triggerUpdateQuery: function(ep, bt) {
-      this.query = '(episode:' + ep + ' AND bit:"' + bt + '")'
+      this.query.string = '(episode:' + ep + ' AND bit:"' + bt + '")'
       this.getBits()
     },
     triggerSingleFieldQuery: function(f, v) {
@@ -541,7 +541,7 @@ this.updates=response.data;
     },
     keyMonitor: function(e) {
 
-      if (e.ctrlKey) { this.page.splayed = !this.page.splayed }
+      if (e.altKey) { this.page.splayed = !this.page.splayed }
       if (e.key.toLowerCase() == 'escape') { this.modals = { settings: false } }
 
     },
@@ -586,12 +586,14 @@ this.updates=response.data;
 }
 
 
-        this.$ES.search({
-    index: 'cbb',
-    type: '_doc',
-    body: QO
-}).then(response => {
-            this.hero = response.hits.hits.length>0?response.hits.hits[0]:{_source:{
+//         this.$ES.search({
+//     index: 'cbb',
+//     type: '_doc',
+//     body: QO
+// })
+axios.post(this.CONFIG.elastic_bits, QO)
+        .then(response => {
+            this.hero = response.data.hits.hits.length>0?response.data.hits.hits[0]:{_source:{
                 "instance": "Is that more on the guy or more on the horse?",
                 "bit": "Is Dick Francis a Horse?",
                 "elucidation": "inconclusive",
@@ -828,14 +830,15 @@ this.updates=response.data;
 
           QO = {"size":10000,"query":{"query_string":{"query":Q}},"aggregations":{"all_bits":{"global":{},"aggregations":{"guests":{"filter":{"query_string":{"query":Q}},"aggregations":{"filtered_guests":{"terms":{"size":10000,"field":"episode_guests.keyword"}}}},"tags":{"filter":{"query_string":{"query":Q}},"aggregations":{"filtered_tags":{"terms":{"size":10000,"field":"tags.keyword"}}}},"bits":{"filter":{"query_string":{"query":Q}},"aggregations":{"filtered_bits":{"terms":{"size":10000,"field":"bit.keyword"}}}},"episodes":{"filter":{"query_string":{"query":Q}},"aggregations":{"filtered_episodes":{"terms":{"size":10000,"field":"episode.keyword"}}}}}}}}
 
-        // axios.post(this.CONFIG.prod.elastic_bits, QO)
-        this.$ES.search({
-    index: 'cbb',
-    type: '_doc',
-    body: QO
-}).then(response => {
-            this.bits = response.hits.hits
-            this.facets = response.aggregations.all_bits
+//         this.$ES.search({
+//     index: 'cbb',
+//     type: '_doc',
+//     body: QO
+// })
+        axios.post(this.CONFIG.elastic_bits, QO)
+        .then(response => {
+            this.bits = response.data.hits.hits
+            this.facets = response.data.aggregations.all_bits
           }) //axios.then
           .catch(e => {
 
@@ -866,15 +869,17 @@ this.updates=response.data;
         }
 
 QO = {"size":10000,"query":Q,"aggregations":{"all_bits":{"global":{},"aggregations":{"guests":{"filter":Q,"aggregations":{"filtered_guests":{"terms":{"size":10000,"field":"episode_guests.keyword"}}}},"tags":{"filter":Q,"aggregations":{"filtered_tags":{"terms":{"size":10000,"field":"tags.keyword"}}}},"bits":{"filter":Q,"aggregations":{"filtered_bits":{"terms":{"size":10000,"field":"bit.keyword"}}}},"episodes":{"filter":Q,"aggregations":{"filtered_episodes":{"terms":{"size":10000,"field":"episode.keyword"}}}}}}}}
+console.log("QO", QO);
 
-        // axios.post(this.CONFIG.prod.elastic_bits, QO)
-        this.$ES.search({
-    index: 'cbb',
-    type: '_doc',
-    body: QO
-}).then(response => {
-            this.bits = response.hits.hits
-            this.facets = response.aggregations.all_bits
+//         this.$ES.search({
+//     index: 'cbb',
+//     type: '_doc',
+//     body: QO
+// })
+        axios.post(this.CONFIG.elastic_bits, QO)
+        .then(response => {
+            this.bits = response.data.hits.hits
+            this.facets = response.data.aggregations.all_bits
           }) //axios.then
           .catch(e => {
             this.console.msgs.push({ m: e, c: "error" })
@@ -996,14 +1001,16 @@ let QO = {"size":0,"query":{"query_string":{"default_operator":"AND","query":"*:
 
       
 
-        this.$ES.search({
-    index: 'cbb',
-    type: '_doc',
-    body: QO
-}).then(response => {
+//         this.$ES.search({
+//     index: 'cbb',
+//     type: '_doc',
+//     body: QO
+// })
+axios.post(this.CONFIG.elastic_bits, QO)
+        .then(response => {
             // this.bits = response.hits.hits
             // this.facets = response.aggregations.all_bits
-            this.browses = response.aggregations.all_bits
+            this.browses = response.data.aggregations.all_bits
           }) //axios.then
           .catch(e => {
 
