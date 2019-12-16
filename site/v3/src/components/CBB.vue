@@ -90,10 +90,10 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
 
 
 <p class="is-size-2 has-text-weight-bold has-text-right zCBB-primary" style="padding-right:3em;">
-  {{hero.logline}}
+  {{hero._source.instance}}
 </p>
         <p class="is-size-5 has-text-weight-light has-text-right zCBB-primary-3" style="padding-right:3em;padding-left:3em;">
-        -- {{hero.attribution}} (instance of bit: <span @click="setQueryFire({bit:hero.bit},['bit'])" class="zCBB-trigger">{{hero.bit}}</span>)</p>
+        -- {{hero._source.hero.attrib}} (instance of bit: <span @click="setQueryFire({bit:hero._source.bit},['bit'])" class="zCBB-trigger">{{hero._source.bit}}</span>)</p>
 
 <!-- <p class="is-size-2 has-text-weight-bold has-text-right zCBB-primary" style="padding-right:3em;">Special Update!</p>
 =======
@@ -156,7 +156,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
   <span class="zCBB-"><i class="fa fa-exclamation"></i></span>
   </span>
 </h1>
-        <p style="text-align:center;">Isn't, nope. Fansite. You didn't notice how we filched the color scheme but nowhere, sitewide, do you see the teeth?</p>
+        <p style="text-align:center;">Isn't, nope. Fansite.</p>
       </div NB="/.column">
     </div NB="/huh">
     <div style="padding-top:2em;" :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='search'">
@@ -227,9 +227,13 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
             </div NB="columns">
             <div v-if="!page.splayed" class="columns zCBB-bit-data-meta">
               <div class="column is-1"></div>
-              <div class="column is-7"><span style="margin-left:1em;" class="is-size-7 has-text-grey-light">ep.{{bit._source.episode.split('/')[bit._source.episode.split('/').length-1]}}</span><span class="is-size-7 has-text-grey-light" v-if="bit._source.created_at">&nbsp;|&nbsp;~{{bit._source.tstart}}&nbsp;|&nbsp;added: {{$MOMENT(bit._source.created_at).format('YYYY.MMM.Mo')}}</span><span class="is-size-7 has-text-grey-light" v-if="bit._source.updated_at">&nbsp;|&nbsp;updated {{$MOMENT(bit._source.updated_at).format('YYYY.MMM.Mo')}}</span></div NB="/.column">
+              <div class="column is-7">
+                <span style="margin-left:1em;" class="is-size-7 has-text-grey-light">
+                  <!-- ep.{{bit._source.episode.split('/')[bit._source.episode.split('/').length-1]}} -->
+                  {{bit._source.episode}}
+              </span><span class="is-size-7 has-text-grey-light" v-if="bit._source.created_at">&nbsp;|&nbsp;~{{bit._source.tstart}}&nbsp;|&nbsp;added: {{$MOMENT(bit._source.created_at).format('YYYY.MMM.Mo')}}</span><span class="is-size-7 has-text-grey-light" v-if="bit._source.updated_at">&nbsp;|&nbsp;updated {{$MOMENT(bit._source.updated_at).format('YYYY.MMM.Mo')}}</span></div NB="/.column">
               <div class="column">
-                <div v-if="bit._source.tags" style="margin-left:1px;" v-bind:class="['zCBB-tag','tag',(query.string && encodeURI(query.string.toLowerCase()).indexOf(encodeURI(tag.toLowerCase()))>=0)?'is-hot':'']" @click="triggerSingleFieldQuery('tags',tag)" v-for="tag in (bit._source.tags.split(','))">{{tag}}</div NB="tags">
+                <div v-if="bit._source.tags" style="margin-left:1px;" v-bind:class="['zCBB-tag','tag',(query.string && encodeURI(query.string.toLowerCase()).indexOf(encodeURI(tag.toLowerCase()))>=0)?'is-hot':'']" @click="triggerSingleFieldQuery('tags',tag)" v-for="tag in (bit._source.tags)">{{tag}}</div NB="tags">
               </div NB="/.column">
             </div NB="/.columns  .zCBB-bit-data-meta">
           </li>
@@ -239,9 +243,12 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
               <div class="has-text-right" style="padding-right:5em;"><a href="#" class="">{{bit._source.bit}}</a>
                 <span v-if="!page.splayed" class="has-text-grey-lighter">({{bit._source.elucidation}})</span></div>
             </div NB="/..zCBB-bit-data">
-            <div class="column has-text-right"><span style="margin-left:1em;" class="is-size-7 has-text-grey-light">ep.{{bit._source.episode.split('/')[bit._source.episode.split('/').length-1]}}</span><span class="is-size-7 has-text-grey-light" v-if="bit._source.created_at">&nbsp;|&nbsp;~{{bit._source.tstart}}&nbsp;|&nbsp;added: {{$MOMENT(bit._source.created_at).format('YYYY.MMM.Mo')}}</span><span class="is-size-7 has-text-grey-light" v-if="bit._source.updated_at">&nbsp;|&nbsp;updated {{$MOMENT(bit._source.updated_at).format('YYYY.MMM.Mo')}}</span></div NB="/.column">
+            <div class="column has-text-right"><span style="margin-left:1em;" class="is-size-7 has-text-grey-light">
+              <!-- ep.{{bit._source.episode.split('/')[bit._source.episode.split('/').length-1]}} -->
+              {{bit._source.episode}}
+            </span><span class="is-size-7 has-text-grey-light" v-if="bit._source.created_at">&nbsp;|&nbsp;~{{bit._source.tstart}}&nbsp;|&nbsp;added: {{$MOMENT(bit._source.created_at).format('YYYY.MMM.Mo')}}</span><span class="is-size-7 has-text-grey-light" v-if="bit._source.updated_at">&nbsp;|&nbsp;updated {{$MOMENT(bit._source.updated_at).format('YYYY.MMM.Mo')}}</span></div NB="/.column">
             <div class="column">
-              <div v-if="bit._source.tags" style="margin-left:1px;" v-bind:class="['zCBB-tag','tag',(query.string && encodeURI(query.string.toLowerCase()).indexOf(encodeURI(tag.toLowerCase()))>=0)?'is-hot':'']" @click="triggerSingleFieldQuery('tags',tag)" v-for="tag in (bit._source.tags.split(','))">{{tag}}</div NB="tags">
+              <div v-if="bit._source.tags" style="margin-left:1px;" v-bind:class="['zCBB-tag','tag',(query.string && encodeURI(query.string.toLowerCase()).indexOf(encodeURI(tag.toLowerCase()))>=0)?'is-hot':'']" @click="triggerSingleFieldQuery('tags',tag)" v-for="tag in (bit._source.tags)">{{tag}}</div NB="tags">
             </div NB="/.column">
           </li>
         </ul>
@@ -251,21 +258,21 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
       <div class="column">
         <h4 class="is-size-4">Bits</h4>
         <ul>
-          <li style="line-height:.8;margin-bottom:1.1em;" v-for="bucket in browses.bits.filtered_bits.buckets"><span @click="setQueryFire({bit:bucket.key},['bit'])" class="zCBB-trigger has-badge-rounded has-badge-primary" :data-badge="bucket.doc_count">{{bucket.key}}</span>
-            <p class="has-text-grey-lighter">({{bucket.elucidation.hits.hits[0]._source.elucidation}})</p>
+          <li class="zCBB-browseli" style="line-height:.8;margin-bottom:1.1em;" v-for="bucket in browses.bits.filtered_bits.buckets"><span @click="setQueryFire({bit:bucket.key},['bit'])" class="zCBB-trigger has-badge-rounded has-badge-primary" :data-badge="bucket.doc_count">{{bucket.key}}</span>
+            <p class="has-text-grey-lighter">({{bucket.elucidations.hits.hits[0]._source.elucidation}})</p>
           </li>
         </ul>
       </div NB="./column browse bucket">
       <div class="column">
         <h4 class="is-size-4">Tags</h4>
         <ul>
-          <li v-for="bucket in browses.tags.filtered_tags.buckets"><span @click="setQueryFire({tags:bucket.key},['tags'])" class="zCBB-trigger has-badge-rounded has-badge-primary" :data-badge="bucket.doc_count">{{bucket.key}}</span></li>
+          <li class="zCBB-browseli" v-for="bucket in browses.tags.filtered_tags.buckets"><span @click="setQueryFire({tags:bucket.key},['tags'])" class="zCBB-trigger has-badge-rounded has-badge-primary" :data-badge="bucket.doc_count">{{bucket.key}}</span></li>
         </ul>
       </div NB="./column browse bucket">
       <div class="column">
         <h4 class="is-size-4">Guests</h4>
         <ul>
-          <li v-for="bucket in browses.guests.filtered_guests.buckets"><span @click="setQueryFire({guests:bucket.key},['guests'])" class="zCBB-trigger has-badge-rounded has-badge-primary" :data-badge="bucket.doc_count">{{bucket.key}}</span></li>
+          <li class="zCBB-browseli" v-for="bucket in browses.guests.filtered_guests.buckets"><span @click="setQueryFire({guests:bucket.key},['guests'])" class="zCBB-trigger has-badge-rounded has-badge-primary" :data-badge="bucket.doc_count">{{bucket.key}}</span></li>
         </ul>
       </div NB="./column browse bucket">
     </div NB="/browse">
@@ -299,7 +306,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
             <div class="content">
               <h2 class="is-size-3"><i class="fas fa-search-location"></i>&nbsp;Searching</h2>
               <p>Basically you can just type into the box like a monkey might do it - "huell" or "fourvel" and so forth. Case is irrelevant.</p>
-              <p>Any query that results in even one Location will subquery that location and it will appear on the map hidden underneath what you're reading now (ctrl key or the map icon, above, will toggle a better display).</p>
+              <p>Any query that results in even one Location will subquery that location and it will appear on the map hidden underneath what you're reading now (opt key or the map icon, above, will toggle a better display).</p>
               <p>But also know that whatever you type into the box gets pretty much POSTed as-is to an <a href="https://www.elastic.co/products/elasticsearch">ElasticSearch</a> index. As with most search engines, there is <a href="https://www.elastic.co/guide/en/elasticsearch/reference/5.6/query-dsl-query-string-query.html">some pretty advanced stuff</a> you can do if you like. To wit:</p>
               <p>
                 <ul style="list-style: none;">
@@ -358,7 +365,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
               <div class="content">
                 <h2 class="is-size-3"><i class="fas fa-map-marker"></i>&nbsp;Locations</h2>
                 <p>One of the bits is special. For bit:"location" the results will appear in the picklist (indicated by a map pin icon) <em>and</em> on the map under what you're reading now (hidden behind the main content area by default).</p>
-                <p>The ctrl key will toggle the map's visibility (as will the <i class="fas fa-map"></i> button); the <i class="fa fa-map-marker"></i> in the search results will zoom to that instance's referenced location (the map otherwise defaults to the full spatial extent of *all* found location bits). <span @click="setQueryFire({string:'%22huell howser%22 +bit:Location'})" class="zCBB-trigger">Huell Howser</span>, <span @click="setQueryFire({string:'%22gino lambardo%22 +bit:Location'})" class="zCBB-trigger">Gino Lambardo</span>, <span @click="setQueryFire({string:'%22merrill shindler%22 +bit:Location'})" class="zCBB-trigger">Merrill Shindler</span>, and <span @click="setQueryFire({string:'%22shelly driftwood%22 +bit:Location'})" class="zCBB-trigger">Shelly Driftwood</span> are all good for tons (probably too many to load at once). Better to check <span @click="setQueryFire({string:'+%22big sue%22 +bit:Location'})" class="zCBB-trigger">Big Sue</span> or <span @click="setQueryFire({string:'+%22don dimello%22 +bit:Location'})" class="zCBB-trigger">Don DiMello</span>, maybe.</p>
+                <p>The opt key will toggle the map's visibility (as will the <i class="fas fa-map"></i> button); the <i class="fa fa-map-marker"></i> in the search results will zoom to that instance's referenced location (the map otherwise defaults to the full spatial extent of *all* found location bits). <span @click="setQueryFire({string:'%22huell howser%22 +bit:Location'})" class="zCBB-trigger">Huell Howser</span>, <span @click="setQueryFire({string:'%22gino lambardo%22 +bit:Location'})" class="zCBB-trigger">Gino Lambardo</span>, <span @click="setQueryFire({string:'%22merrill shindler%22 +bit:Location'})" class="zCBB-trigger">Merrill Shindler</span>, and <span @click="setQueryFire({string:'%22shelly driftwood%22 +bit:Location'})" class="zCBB-trigger">Shelly Driftwood</span> are all good for tons (probably too many to load at once). Better to check <span @click="setQueryFire({string:'+%22big sue%22 +bit:Location'})" class="zCBB-trigger">Big Sue</span> or <span @click="setQueryFire({string:'+%22don dimello%22 +bit:Location'})" class="zCBB-trigger">Don DiMello</span>, maybe.</p>
                 <p>Another thing to note about locations is that unless there's a clamor for it we do NOT spatially-index the geometries for retrieval. So while of course you can query for <em>bits</em> that reference locations (and those referenced geometries will appear on the map), we're not bothering to offer the ability to, say, zoom/pan the map and query for locations <em>in that area</em>. Like, who cares?</p>
                 <p>If you're <em>that interested</em> you could just query for everything (bit:"location" - but be warned there are a ton) and zoom to the spot about which you're curious.</p>
                 <p>Bet you're not, though!</p>
@@ -391,8 +398,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
 </template>
 
 <script>
-import CONFIG from '../Config.json'
-// import updates from '../assets/updates.json'
+import CONFIGG from '../Config.json'
 import { AtomSpinner } from 'epic-spinners'
 
 export default {
@@ -401,9 +407,19 @@ export default {
   },
   name: "CBB-GUI",
   created: function() {
-    this.CONFIG = CONFIG
+    this.CONFIG = CONFIGG.mode=="prod"?CONFIGG.prod:CONFIGG.dev
       // this.bootstrap()
       // this.loadings.app = true
+//     this.elasticSearchClient = new es.Client({
+//     host: 'https://search-cbb-wxjx2uda6c4c7uhvc7c7eocdwu.us-east-1.es.amazonaws.com',
+//     connectionClass: awsHttpClient,
+//     amazonES: {
+//         region: this.CONFIG.awsServiceRegion,
+//         accessKey: this.CONFIG.awsAccessKeyId,
+//         secretKey: this.CONFIG.awsSecretAccessKeyId
+//     }
+//     ,awsConfig: new AWS.Config({region: CONFIG.awsServiceRegion})
+// });
 
     // this.query.facets = (this.$route.params.facets) ? decodeURI(this.$route.params.facets.split(",")) : []
     this.actives = {
@@ -430,13 +446,9 @@ export default {
     window.removeEventListener('keydown', this.keyMonitor)
   },
   mounted: function() {
-    this.CONFIG = CONFIG
+    // this.CONFIG = CONFIG
     window.addEventListener('keydown', this.keyMonitor)
-      // this.console.msgs.push({ m: "mounted", c: "" });
-      // this.getBits()
-      // this.getFacets()
-
-
+      
     if (!this.MAP) {
       this.MAP = new L.Map("map", {
         zoomControl: false,
@@ -454,6 +466,7 @@ export default {
     this.GEOMS = new L.featureGroup().addTo(this.MAP);
 
 this.getUpdates()
+this.getHero()
 
     this.query.string = (this.$route.params.query && this.$route.params.query !== '*') ? this.$route.params.query : null
     if (this.query.string) { this.getBits() }
@@ -493,7 +506,7 @@ loadings: { maplayer: false, app: false, popupopen: false },
   },
   methods: {
     triggerUpdateQuery: function(ep, bt) {
-      this.query = '(episode:' + ep + ' AND bit:"' + bt + '")'
+      this.query.string = '(episode:' + ep + ' AND bit:"' + bt + '")'
       this.getBits()
     },
     triggerSingleFieldQuery: function(f, v) {
@@ -507,13 +520,13 @@ loadings: { maplayer: false, app: false, popupopen: false },
 
       let u = (this.updatekey) ? '&q={date:' + this.updatekey + '}' : '';
       // console.log("updatekey:", this.updatekey);
-      let qs = (this.CONFIG.mode == '33') ? this.CONFIG.prod.atlas_updates + u : this.CONFIG.dev.atlas_updates;
+      let qs = this.CONFIG.atlas_updates + u
 
       axios
         .get(qs)
         .then(response => {
 
-          this.hero=response.data[0].hero;
+          // this.hero=response.data[0].hero;
 this.updates=response.data;
 
         }) //axios.then
@@ -528,7 +541,7 @@ this.updates=response.data;
     },
     keyMonitor: function(e) {
 
-      if (e.ctrlKey) { this.page.splayed = !this.page.splayed }
+      if (e.altKey) { this.page.splayed = !this.page.splayed }
       if (e.key.toLowerCase() == 'escape') { this.modals = { settings: false } }
 
     },
@@ -559,31 +572,42 @@ this.updates=response.data;
 
       let QS = null;
 
-      /*
-      THE NEW HERO METHOD WILL BE TO QUERY ELASTIC FOR THE MOST RECENT WHERE hero:true  - currently no docs feature this attribute
-      */
 
-      QS = (this.CONFIG.mode == '33') ? this.CONFIG.prod.elastic_bits + '&q=instance:"Low-rise%20*and*%20boot-cut?"&size=1' : this.CONFIG.dev.elastic_bits + '&q=instance:"Low-rise%20*and*%20boot-cut?"&size=1';
+      let QO = {
+          "size":1,
+    "query": {
+        "function_score": {
+            "query": { "query_string":{"query":"hero.on:true"} },
+            "boost": "5",
+            "random_score": {}, 
+            "boost_mode":"multiply"
+        }
+    }
+}
 
-      axios
-        .get(QS)
+
+//         this.$ES.search({
+//     index: 'cbb',
+//     type: '_doc',
+//     body: QO
+// })
+axios.post(this.CONFIG.elastic_bits, QO)
         .then(response => {
-          this.loadings.app = false
+            this.hero = response.data.hits.hits.length>0?response.data.hits.hits[0]:{_source:{
+                "instance": "Is that more on the guy or more on the horse?",
+                "bit": "Is Dick Francis a Horse?",
+                "elucidation": "inconclusive",
+                "hero":{"on":true,"attrib":"Chesley Burnett Sullenberger"}}
+}
+          }) //.then
+          .catch(e => {
 
-          // this is hero stuff we add back in when we wanna dynamically feature a quote
-          // this.hero = __.map(response.data.hits.hits,(b)=>{
-          //             let o = b
-          //             o._source.hero={on:true,attrib:"Scott Aukerman"}
-          //             return o;
-          //           })[8]
-          this.hero = true
-
-        }) //axios.then
-        .catch(e => {
-          this.loadings.app = false
-          this.console.msgs.push({ m: e, c: "error" })
-          console.error(e);
-        }) //axios.catch
+            this.console.msgs.push({ m: e, c: "error" })
+            console.error(e);
+          }) //.catch
+          .finally(() => {
+            this.loadings.app = false
+          })
 
     },
     genGeomID: function(caller, e) {
@@ -681,11 +705,11 @@ this.updates=response.data;
     },
     getGeoms: function() {
       let u = null;
-      if (this.CONFIG.mode !== 'T') {
-        u = this.CONFIG.prod.atlas_geoms + this.getGeomIDs().join(',')
-      } else {
-        u = this.CONFIG.dev.atlas_geoms + this.getGeomIDs().join(',')
-      }
+      // if (this.CONFIG.mode !== 'T') {
+        u = this.CONFIG.atlas_geoms + this.getGeomIDs().join(',')
+      // } else {
+      //   u = this.CONFIG.dev.atlas_geoms + this.getGeomIDs().join(',')
+      // }
       if (this.getGeomIDs().length > 0) {
         this.loadings.maplayer = true
         axios.get(u)
@@ -716,24 +740,24 @@ this.updates=response.data;
 
       let QO = null;
 
-      if (this.CONFIG.mode == '33') {
+      if (this.CONFIG.mode == 'prod') {
 
         // let qso = this.query.string?this.query.string:'*'
 
         // let qfg = (this.query.facets.guests.length>0)?' AND (epsode_guests.comma_del:'+__.uniq(this.query.facets.guests).join(' AND epsode_guests.comma_del:')+')':''
         let qfg = (this.query.facets.guests.length > 0) ?
           __.map(__.uniq(this.query.facets.guests), (g) => {
-            return ' +episode_guests.comma_del:"' + g + '"' }).join("") : ''
-        let qft = (this.query.facets.tags.length > 0) ? ' +tags.comma_del:"' + __.uniq(this.query.facets.tags).join('" +tags.comma_del:"') + '"' : ''
+            return ' +episode_guests:"' + g + '"' }).join("") : ''
+        let qft = (this.query.facets.tags.length > 0) ? ' +tags:"' + __.uniq(this.query.facets.tags).join('" +tags:"') + '"' : ''
         let qfb = (this.query.facets.bits.length > 0) ? ' +bit:"' + __.uniq(this.query.facets.bits).join('" +bit:"') + '"' : ''
         let qfe = (this.query.facets.episodes.length > 0) ? ' +episode:"' + __.uniq(this.query.facets.episodes).join('" +episode:"') + '"' : ''
 
 
-        // "phil collins" -concorde +(tags.comma_del:"sussudio (song)")
-        let qso = this.query.string.replace("tags:", "tags.comma_del:").replace('episode_guests:', "episode_guests.comma_del:") + qfg + qft + qfb + qfe
+        // "phil collins" -concorde +(tags:"sussudio (song)")
+        let qso = this.query.string + qfg + qft + qfb + qfe
         let qsof = (this.query.facets.bits.length > 0 || this.query.facets.episodes.length > 0 || this.query.facets.guests.length > 0 || this.query.facets.tags.length > 0) ? '+' + qso : qso
 
-        let Q = {
+      var Q = {
           "query_string": {
             "query": qsof
           }
@@ -748,7 +772,7 @@ this.updates=response.data;
           }
         }
 
-        QO = {
+        QO_OG = {
             "size": 10000,
             "query": Q,
             "aggregations": {
@@ -804,12 +828,17 @@ this.updates=response.data;
             }
           } //qs
 
-        axios.post(this.CONFIG.prod.elastic_bits, QO)
-          .then(response => {
+          QO = {"size":10000,"query":{"query_string":{"query":Q}},"aggregations":{"all_bits":{"global":{},"aggregations":{"guests":{"filter":{"query_string":{"query":Q}},"aggregations":{"filtered_guests":{"terms":{"size":10000,"field":"episode_guests.keyword"}}}},"tags":{"filter":{"query_string":{"query":Q}},"aggregations":{"filtered_tags":{"terms":{"size":10000,"field":"tags.keyword"}}}},"bits":{"filter":{"query_string":{"query":Q}},"aggregations":{"filtered_bits":{"terms":{"size":10000,"field":"bit.keyword"}}}},"episodes":{"filter":{"query_string":{"query":Q}},"aggregations":{"filtered_episodes":{"terms":{"size":10000,"field":"episode.keyword"}}}}}}}}
 
+//         this.$ES.search({
+//     index: 'cbb',
+//     type: '_doc',
+//     body: QO
+// })
+        axios.post(this.CONFIG.elastic_bits, QO)
+        .then(response => {
             this.bits = response.data.hits.hits
             this.facets = response.data.aggregations.all_bits
-
           }) //axios.then
           .catch(e => {
 
@@ -822,22 +851,44 @@ this.updates=response.data;
 
       } else {
 
-        QO = this.CONFIG.dev.elastic_bits;
-        axios.get(QO)
-          .then(response => {
+       let qfg = (this.query.facets.guests.length > 0) ?
+          __.map(__.uniq(this.query.facets.guests), (g) => {
+            return ' +episode_guests:"' + g + '"' }).join("") : ''
+        let qft = (this.query.facets.tags.length > 0) ? ' +tags:"' + __.uniq(this.query.facets.tags).join('" +tags:"') + '"' : ''
+        let qfb = (this.query.facets.bits.length > 0) ? ' +bit:"' + __.uniq(this.query.facets.bits).join('" +bit:"') + '"' : ''
+        let qfe = (this.query.facets.episodes.length > 0) ? ' +episode:"' + __.uniq(this.query.facets.episodes).join('" +episode:"') + '"' : ''
 
+
+        let qso = this.query.string.replace("tags:", "tags:").replace('episode_guests:', "episode_guests:") + qfg + qft + qfb + qfe
+        let qsof = (this.query.facets.bits.length > 0 || this.query.facets.episodes.length > 0 || this.query.facets.guests.length > 0 || this.query.facets.tags.length > 0) ? '+' + qso : qso
+
+      var Q = {
+          "query_string": {
+            "query": qsof
+          }
+        }
+
+QO = {"size":10000,"query":Q,"aggregations":{"all_bits":{"global":{},"aggregations":{"guests":{"filter":Q,"aggregations":{"filtered_guests":{"terms":{"size":10000,"field":"episode_guests.keyword"}}}},"tags":{"filter":Q,"aggregations":{"filtered_tags":{"terms":{"size":10000,"field":"tags.keyword"}}}},"bits":{"filter":Q,"aggregations":{"filtered_bits":{"terms":{"size":10000,"field":"bit.keyword"}}}},"episodes":{"filter":Q,"aggregations":{"filtered_episodes":{"terms":{"size":10000,"field":"episode.keyword"}}}}}}}}
+console.log("QO", QO);
+
+//         this.$ES.search({
+//     index: 'cbb',
+//     type: '_doc',
+//     body: QO
+// })
+        axios.post(this.CONFIG.elastic_bits, QO)
+        .then(response => {
             this.bits = response.data.hits.hits
             this.facets = response.data.aggregations.all_bits
-
           }) //axios.then
           .catch(e => {
-
             this.console.msgs.push({ m: e, c: "error" })
             console.error(e);
           }) //axios.catch
           .finally(() => {
             this.loadings.app = false
           })
+
       } //if.else.mode
 
     },
@@ -862,7 +913,7 @@ this.updates=response.data;
 
       this.console.msgs.push({ m: "facetizing " + this.query, c: "" })
       this.loadings.app = true
-      let QS = (this.CONFIG.mode == '33') ? this.CONFIG.prod.elastic_facets + this.query : this.CONFIG.dev.elastic_facets;
+      let QS = this.CONFIG.elastic_facets + this.query;
       axios
         .get(QS)
         .then(response => {
@@ -887,19 +938,79 @@ this.updates=response.data;
     },
     bootstrapBrowse: function() {
 
-      let qo = { "size": 0, "query": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "all_bits": { "global": {}, "aggregations": { "guests": { "filter": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "filtered_guests": { "terms": { "size": 1000000, "field": "episode_guests.comma_del" } } } }, "tags": { "filter": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "filtered_tags": { "terms": { "size": 1000000, "field": "tags.comma_del" } } } }, "bits": { "filter": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "filtered_bits": { "terms": { "size": 1000000, "field": "bit.keyword" }, "aggs": { "elucidation": { "top_hits": { "size": 1, "_source": { "include": "elucidation" } } } } } } } } } } }
+      // let qo = { "size": 0, "query": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "all_bits": { "global": {}, "aggregations": { "guests": { "filter": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "filtered_guests": { "terms": { "size": 1000000, "field": "episode_guests.comma_del" } } } }, "tags": { "filter": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "filtered_tags": { "terms": { "size": 1000000, "field": "tags.comma_del" } } } }, "bits": { "filter": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "filtered_bits": { "terms": { "size": 1000000, "field": "bit.keyword" }, "aggs": { "elucidation": { "top_hits": { "size": 1, "_source": { "include": "elucidation" } } } } } } } } } } }
+      // let qo = { "size": 0, "query": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "all_bits": { "global": {}, "aggregations": { "guests": { "filter": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "filtered_guests": { "terms": { "size": 1000000, "field": "episode_guests" } } } }, "tags": { "filter": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "filtered_tags": { "terms": { "size": 1000000, "field": "tags" } } } }, "bits": { "filter": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "filtered_bits": { "terms": { "size": 1000000, "field": "bit.keyword" }, "aggs": { "elucidation": { "top_hits": { "size": 1, "_source": { "include": "elucidation" } } } } } } } } } } }
+
+      var Q = {
+          "query_string": {
+            "query": '*:*'
+          }
+        }
+
+// let QO = {"size":0,"query":Q,"aggregations":{"all_bits":{"global":{},"aggregations":{"guests":{"filter":Q,"aggregations":{"filtered_guests":{"terms":{"size":1000000,"field":"episode_guests.keyword"}}}},"tags":{"filter":Q,"aggregations":{"filtered_tags":{"terms":{"size":1000000,"field":"tags.keyword"}}}},"bits":{"filter":Q,"aggregations":{"filtered_bits":{"terms":{"size":1000000,"field":"bit.keyword"},"aggs":{"elucidation":{"top_hits":{"size":1,"_source":{"include":"elucidation"}}}}}}},"episodes":{"filter":Q,"aggregations":{"filtered_episodes":{"terms":{"size":1000000,"field":"episode.keyword"}}}}}}}}
+
+// let QOx = {
+//     "aggs" : {
+//         "bits_filter" : {
+//             "filter" : { "term": { "bit": "Donk" } },
+//             "aggs" : {
+//                 "associated_elucidation" : { "filter" : { "term": { "bit": "Donk" } },"field" : "elucidation.keyword"  }
+//             }
+//         }
+//     }
+// }
+
+// let QO={"size":0,
+//   "aggs": {
+//     "bits_filter": {
+//       "filter": { "term": { "bit": "Donk" } },
+//       "aggs": {
+//         "associated_elucidation": {
+//            "terms": { "field": "elucidation.keyword" }
+//         }
+//       }
+//     }
+//   }
+// }
+
+
+// let QO = { "size": 0, "query": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "all_bits": { "global": {}, "aggregations": { "guests": { "filter": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "filtered_guests": { "terms": { "size": 1000000, "field": "episode_guests.keyword" } } } }, "tags": { "filter": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "filtered_tags": { "terms": { "size": 1000000, "field": "tags.keyword" } } } }, "bits": { "filter": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "filtered_bits": { "terms": { "size": 1000000, "field": "bit.keyword" }, "aggs": { "elucidations": { "top_hits": { "size": 1, "_source": { "include": "elucidation" } } } } } } } } } } }
+
+let QO = {"size":0,"query":{"query_string":{"default_operator":"AND","query":"*:*"}},"aggs":{"all_bits":{"global":{},"aggs":{"guests":{"filter":{"query_string":{"default_operator":"AND","query":"*:*"}},"aggs":{"filtered_guests":{"terms":{"size":1000000,"field":"episode_guests.keyword"}}}},"tags":{"filter":{"query_string":{"default_operator":"AND","query":"*:*"}},"aggs":{"filtered_tags":{"terms":{"size":1000000,"field":"tags.keyword"}}}},"bits":{"filter":{"query_string":{"default_operator":"AND","query":"*:*"}},"aggs":{"filtered_bits":{"terms":{"size":1000000,"field":"bit.keyword"},"aggs":{"elucidations":{"top_hits":{"_source":["elucidation"],"size":1}}}}}}}}}}
+
+// let QO = {"aggs":{"bucketsBits":{"composite":{"sources":[{"bits":{"terms":{"field":"bit.keyword"}}},{"elucidations":{"terms":{"field":"elucidation.keyword"}}}]}}}}
+
+// let QO = {"size":0,"aggs":{"data":{"composite":{"size":100,"sources":[{"bit":{"terms":{"field":"bit.keyword"}}},{"elucidation":{"terms":{"field":"elucidation.keyword"}}}]},"aggs":{"test":{"filters":{"filters":{"query":{"query_string":{"query":"all"}}}}}}}}}
+
+// let QO = {"size":0,"aggs":{"bits":{"composite":{"size":15,"sources":[{"bit":{"terms":{"field":"bit.keyword"}}},{"elucidation":{"terms":{"field":"elucidation.keyword"}}}]}}}}
+
+// let QO = {
+//     "aggs": {
+//   "platforms": {
+//     "terms": {"field": "bit.keyword"},
+//     "aggs": {
+//       "name": {"terms": {"field": "elucidation.keyword"}},
+//       "url": {"terms": {"field": "elucidation.keyword"}}
+//     }
+//   }
+// }//aggs
+// }//QO
+
 
       this.loadings.app = true;
 
-      if (this.CONFIG.mode == '33') {
-        axios.post(this.CONFIG.prod.elastic_bits, qo)
-          .then(response => {
-            console.info(
-              process.env.VERBOSITY === "DEBUG" ? "getting all keys w/ axios response..." : null
-            );
+      
 
+//         this.$ES.search({
+//     index: 'cbb',
+//     type: '_doc',
+//     body: QO
+// })
+axios.post(this.CONFIG.elastic_bits, QO)
+        .then(response => {
+            // this.bits = response.hits.hits
+            // this.facets = response.aggregations.all_bits
             this.browses = response.data.aggregations.all_bits
-
           }) //axios.then
           .catch(e => {
 
@@ -909,24 +1020,9 @@ this.updates=response.data;
           .finally(() => {
             this.loadings.app = false
           })
-      } else {
-        axios.get(this.CONFIG.dev.browse)
-          .then(response => {
-
-            this.browses = response.data.aggregations.all_bits
-
-          }) //axios.then
-          .catch(e => {
-
-            this.console.msgs.push({ m: e, c: "error" })
-            console.error(e);
-          }) //axios.catch
-          .finally(() => {
-            this.loadings.app = false
-          })
-      }
-
-    },
+        
+ 
+    }, //bootstrapBrowse
     setRoute: function() {
 
         let P = {
@@ -942,8 +1038,7 @@ this.updates=response.data;
       } //setRoute
 
   } //methods
-  ,
-  watch: {
+  ,watch: {
     bits: {
       handler: function(vnew, vold) {
         this.getGeoms()

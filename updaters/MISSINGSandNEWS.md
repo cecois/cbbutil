@@ -3,14 +3,18 @@
 0. clean up nephew todd tag, "tiny reviews music" eluc
 1. dick francis
 2. fix elucid for pyramid stuff
+0. ~~clean up nephew todd tag~~
+0. ~~"tiny reviews music" eluc~~
 1. complete dick francis
-2. marshal v marshall
-3. fix hey nineteen tags (hardcastle v. steely)
+2. missing rudi north christmas tree farm loc?
+2. Wilcox fulltext poems
+2. ~~marshal v marshall~~
+3. ~~fix hey nineteen tags (hardcastle v. steely)~~
 1. ~~fix "Regina Krimp" vs. "Crimp"~~
 1. ~~you say baby too~~
 2. hollywood facts
-1. fix doobie brothers tag
-2. change tag Beth to Power Wheels Beth
+1. ~~fix doobie brothers tag~~
+2. ~~change tag Beth to Power Wheels Beth~~
 2. fix gramercy may 13 ep title times (9:30 v 7)
 1. ~~mr. microphone~~
 1. ~~jarles~~
@@ -90,6 +94,7 @@
   - bo2018.\*
   - bo2018.3,1:58:00(pw)
   - bo2018.4,55:30(pw)
+  - 631,13:50
   - 619,2:20
   - 620,6:30
   - 587,1:19:30(pw)
@@ -1925,6 +1930,7 @@
   - mike the janitor/bachelor bros ep
 - ha'penny
   - 623,1:03:45
+  - portland late show 2019,38:30
   - 2016.sydney,1:21:30
   - 591,21:00(pw)
   - 412,10:28(pw)
@@ -2022,6 +2028,11 @@
 	- 
 - we'll pay for it (if you wanna go on another date)
   - 567,14:00
+  - 547,1:09:15
+  - 631,1:25:00
+  - 627,29:50
+  - 627,1:01:00
+  - 628,49:45
   - kansas city 2019,1:17:00
   - 619,1:02:00
   - 606,40:45
@@ -2032,6 +2043,7 @@
   - 555,1:06:00
   - now hear this 2017 nyc,1:45
   - may-20-chicago-7pm,52:15
+  - 626,1:05:00
 
 - shallatoo (maxwell keeper's new catchphrase)
   - 483,several
@@ -2057,6 +2069,8 @@
 
 - interesting people
   - several of the 480+ eps
+  - portland 2019 early show,3:45
+  - portland 2019 late show,5:30
   - jfl toronto 2019,4:30
   - chicago 2019,3:30
   - chicago 2019,18:20

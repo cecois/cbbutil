@@ -41,6 +41,7 @@
     "zlib": "^1.0.5"
   },
   "dependencies": {
+    "aws-sdk": "^2.578.0",
     "axios": "^0.19.0",
     "axios-concurrency": "^1.0.1",
     "cheerio": "^1.0.0-rc.3",
@@ -49,6 +50,7 @@
     "del": "^3.0.0",
     "delay": "^2.0.0",
     "elasticsearch": "^13.3.1",
+    "fs-ndjson": "^1.1.0",
     "gulp-clean-css": "^3.4.2",
     "gulp-cssmin": "^0.2.0",
     "gulp-debug": "^3.1.0",
@@ -58,6 +60,7 @@
     "gulp-less": "^3.3.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
+    "http-aws-es": "^6.0.0",
     "jeet": "^6.1.4",
     "jimp": "^0.2.28",
     "kouto-swiss": "^0.11.14",
