@@ -628,4 +628,40 @@ geoms[
       "Zeke Nicholson"
     ],
     "holding": "false"
-  }]
+  }
+,
+  {
+    "episode": 632,
+    "show": "cbb",
+    "tstart": "37:35",
+    "tend": "38:00",
+    "instance": "I've only had a Schristmas.",
+    "bit": "Oh Boy",
+"elucidation": "something is disgusting in some way",
+    "tags": [
+      "Scott's Nephew Todd"
+    ],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2019-12-16T09:37:04Z",
+    "created_at": "2019-12-16T09:37:04Z",
+    "slug_earwolf": "2019-holiday-spectacular",
+    "episode_title": "2019 Holiday Spectacular",
+    "episode_guests": [
+      "Carl Tart",
+      "Drew Tarver",
+      "Electric Guest",
+      "Jason Mantzoukas",
+      "Jon Gabrus",
+      "Lauren Lapkus",
+      "Lily Sullivan",
+      "Paul F. Tompkins",
+      "Shaun Diston",
+      "Tim Baltz",
+      "Will Hines",
+      "Zach Reino",
+      "Zeke Nicholson"
+    ],
+    "holding": "false"
+  }
+  ]
