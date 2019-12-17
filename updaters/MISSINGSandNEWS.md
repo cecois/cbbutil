@@ -1,5 +1,8 @@
 # possible new bits:
 
+0. clean up nephew todd tag, "tiny reviews music" eluc
+1. dick francis
+2. fix elucid for pyramid stuff
 0. ~~clean up nephew todd tag~~
 0. ~~"tiny reviews music" eluc~~
 1. complete dick francis
@@ -46,6 +49,7 @@
   - bo2018.4,15:40(pw)
   - bo2018.4,1:34:45(pw)
   - st paul 2019 ii,1:02:00
+  - 599,7:31:00 (batman+fourvel)
 
 - little boy/big boy
   - 561,17:00
