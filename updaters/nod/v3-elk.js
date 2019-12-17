@@ -1,5 +1,6 @@
-var __ = require('underscore')
+const __ = require('underscore')
 ,FS = require('fs')
+,FSND = require('fs-ndjson')
 ,CONFIG = require("./Config.json")
 ,FSTREAM = require("fstream")
 ,TAR = require("tar-fs")
@@ -19,6 +20,48 @@ CLOUDINARY.config({
   ,api_key:CONFIG.cloudinary.api_key
   ,api_secret:CONFIG.cloudinary.api_secret
 });
+
+const _LAUNDERTAGS = (T) => {
+ let maptags = __.map(T,(t)=>{
+switch (t) {
+case "Scott's Nephew Todd":
+return t;
+break;
+case "Scott's nephew Todd":
+return "Scott's Nephew Todd";
+break;
+case "Todd's Nephew Todd":
+return "Scott's Nephew Todd";
+break;
+case "Beth":
+return "Power Wheels Beth";
+break;
+default:
+return t
+}//switch
+})//map
+
+if(
+  __.contains(maptags,"Hey Nineteen (song)")
+  ){
+    maptags.push("Steely Dan (musical combination)")
+}
+
+return __.uniq(maptags);
+}//laundertags
+
+const _LAUNDERELUCIDATION = (E) => {
+switch (E) {
+case "somebody (tiny, often) reviews music":
+return "somebody reviews music";
+break;
+case "(in progress) - scott's questions":
+return "scott's questions";
+break;
+default:
+return E
+}//switch
+}//_LAUNDERELUCIDATION
 
 
 const _DO_IMAGE = async (earurl) =>{
@@ -519,13 +562,13 @@ switch (true) {
   return mapd;
 }//mapbits
 
-const elastify = async (J)=>{
+const _ELASTIFY = async (J)=>{
 
 	return new Promise((resolve,reject)=>{
 
 
 		var client = new ELASTIC.Client({
-			host: '134.209.213.83:9200'
+			host: 'milleria.org:9200'
 			,requestTimeout: Infinity
 			// ,log: 'trace'
 		});
@@ -534,9 +577,10 @@ const elastify = async (J)=>{
 
 
 
-FS.readFile(CONFIG.budir+"/"+J,(err,dat)=>{
-	if(err){console.log(err);process.exit();}
-
+// letFS.readFile(CONFIG.budir+"/"+J,(err,dat)=>{
+	// if(err){console.log(err);process.exit();}
+let dat = JSON.parse(FS.readFileSync(CONFIG.budir+"/"+J))
+	if(!dat){console.log(err);process.exit();}
 
 let mapd = _MAPBITS(dat);
 let prefixes = [];
@@ -559,9 +603,9 @@ client.bulk({
 }, (err, result) => {
   if (err) console.log(err)
 })
-.then(res => console.log(res));
+.then(res => resolve(res));
 
-}//fs.readfile
+// }//fs.readfile
 
 	// __.each(datm,(D)=>{
 	// 	elastic_array.push({
@@ -603,7 +647,7 @@ client.bulk({
 
 })//promise
 
-}
+}//_elastify
 
 const main = async () =>{
 	var R = {}
@@ -652,7 +696,6 @@ console.log("exta.length",exta.length)
 			// exta is now our live copy of everything that's come before
 
 /* ----------------------------------------------- audit
-*/
 // we send the fresh stuff and the archive for audit
 // audit maps inca and exta into comparable arrays (concatenating several presumably distinct fields [episode+bit+instance+tags] into one nonsensical but probably-unique string) - N.B. this is not foolproof
 console.log("awaiting audit...")
@@ -665,10 +708,10 @@ console.log("audit.flag:",R.audit.flag)
 	throw Error ('audit.flag wz stop due to ',R.audit.msg);
 	process.exit()
 }
+*/
 
 /* ----------------------------------------------- send to mlab
 // audit wz clean so we're sending
-*/
 console.log("--------------------> sending "+inca.length+" documents to MLAB...");
 sent = await _SEND(inca);
 
@@ -676,6 +719,7 @@ if(sent.documents.n !== inca.length){
 	console.log("ERROR: mismatching in sent ("+sent.documents.n+') and incoming raw ('+inca.length+'),  exiting...');
 	process.exit();
 }
+*/
 
 /* -----------------------------------------------
 */
@@ -687,7 +731,7 @@ console.log("it's:",ext_source2);
 
 // console.log("NORMLY ELASTIFY HERE!");
 console.log("ELASTIFYING!");
-const E = await elastify(ext_source2);
+const E = await _ELASTIFY(ext_source2);
 
 // console.log("summarize new from "+ln+"...")
 let summary = await _SUMMARIZE(inca);
@@ -699,7 +743,7 @@ let update = await _SENDSUMMARY(summary);
 } catch(error) {
 	console.error(error);
 }
-console.log("WANNA BACK UP DEM GEOMS, CHUMP? ./geobu.js ")
+console.log("WANNA BACK UP DEM GEOMS, CHUMP? USED TO BE ./geobu.js BUT NOW U USIN FILZ")
 } //main
 
 main();
