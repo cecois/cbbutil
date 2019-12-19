@@ -696,6 +696,7 @@ console.log("exta.length",exta.length)
 			// exta is now our live copy of everything that's come before
 
 /* ----------------------------------------------- audit
+*/
 // we send the fresh stuff and the archive for audit
 // audit maps inca and exta into comparable arrays (concatenating several presumably distinct fields [episode+bit+instance+tags] into one nonsensical but probably-unique string) - N.B. this is not foolproof
 console.log("awaiting audit...")
@@ -708,9 +709,9 @@ console.log("audit.flag:",R.audit.flag)
 	throw Error ('audit.flag wz stop due to ',R.audit.msg);
 	process.exit()
 }
-*/
 
 /* ----------------------------------------------- send to mlab
+*/
 // audit wz clean so we're sending
 console.log("--------------------> sending "+inca.length+" documents to MLAB...");
 sent = await _SEND(inca);
@@ -719,7 +720,6 @@ if(sent.documents.n !== inca.length){
 	console.log("ERROR: mismatching in sent ("+sent.documents.n+') and incoming raw ('+inca.length+'),  exiting...');
 	process.exit();
 }
-*/
 
 /* -----------------------------------------------
 */
