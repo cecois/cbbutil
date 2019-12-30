@@ -1,6 +1,7 @@
 # possible new bits:
 
 0. clean up nephew todd tag, "tiny reviews music" eluc
+1. wilcox poems fulltext
 1. dick francis
 2. fix elucid for pyramid stuff
 0. ~~clean up nephew todd tag~~
