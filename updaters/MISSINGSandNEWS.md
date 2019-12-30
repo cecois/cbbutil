@@ -34,6 +34,15 @@
 2. face/off
 1. subepisodes
 
+- ooh-la-la sex
+	* bo2019.2,5:50
+	* bo2019.2,19:00
+	* bo2019.1,????
+	* bo2019.2,1:42:45
+
+- gino's search terms
+  * 632,33:30
+  
 - have you ever? (rapper's delight)
 - haven't seen a movie in N years
   _ hot dog #599,19:30
@@ -53,6 +62,8 @@
 
 - point flathand fist
   - 530,22:30
+  - bo2019.2,38:30
+  - countless best-ofs
 
 - figured it out is from pajama game - see st. paul 2019 pt. 2 for tags
 
@@ -93,6 +104,7 @@
   - 451,40:00
 * bajillion (or any) call sheet
   - bo2018.\*
+  - bo2019.1,1:17:00
   - bo2018.3,1:58:00(pw)
   - bo2018.4,55:30(pw)
   - 631,13:50
@@ -941,6 +953,7 @@
   - 424,1:20:35(pw)
   - 2016.shepherds,15:00
 - look it up, (scotty|pauly) -
+  - bo2019.1,14:00
   - bo2016.2,1:47:30(pw)
   - bo2016.2,1:48:30(pw)
   - bo2016.2,2:09:45(pw)
