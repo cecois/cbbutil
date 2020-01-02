@@ -40,6 +40,7 @@
 	* bo2019.1,????
 	* bo2019.2,1:42:45
 	* bo2019.3,1:58:50
+	* bo2019.4,1:19:30
 
 - gino's search terms
   * 632,33:30
@@ -57,6 +58,7 @@
   - bo2018.4,1:34:45(pw)
   - st paul 2019 ii,1:02:00
   - 599,7:31:00 (batman+fourvel)
+  - bo2019.4,2:21:50
 
 - little boy/big boy
   - 561,17:00
@@ -2196,6 +2198,8 @@
   - 536,24:45
   - 485,4:30
   - https://www.stitcher.com/s?eid=52628985,1:00
+  - https://www.stitcher.com/s?eid=65070829 (seattle 2019),4:30
+
 - theatre tunnels
 
   - http://howl.fm/audio/46644/live-from-vulture-fest-2017,21:30(stitcher)g

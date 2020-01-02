@@ -1,357 +1,1134 @@
+geoms
 [
   {
-    "episode": "BO2019.3",
+    "episode": "BO2019.4",
     "show": "cbb",
-    "tstart": "0:25",
-    "tend": "0:50",
-    "instance": "Thank you to the Jake Boss.",
-    "bit": "Cake Boss!",
-    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
-    "tags": [],
+    "tstart": "1:30",
+    "tend": "2:00",
+    "instance": "May I venture?",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+      "The Grateful Dead (musical combination)",
+      "Truckin (song)"
+    ],
     "location_type": "",
     "location_id": "",
-    "updated_at": "2019-12-30T09:37:04Z",
-    "created_at": "2019-12-30T09:37:04Z",
-    "slug_earwolf": "best-of-2019-pt-3",
-    "episode_title": "Best of 2019 Pt.3 ",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": "best-of-2019-pt-4",
+    "episode_title": "Best of 2019 Pt.4 ",
     "episode_guests": [
-        "Nick Ciarelli","Brad Evans",
       "Paul F. Tompkins"
     ],
     "holding": "false"
   },
   {
-    "episode": "BO2019.3",
+    "episode": "BO2019.4",
     "show": "cbb",
-    "tstart": "0:55",
-    "tend": "1:15",
-    "instance": "This is not Jake this is Jake's boss.",
-    "bit": "The Doctor is a Woman",
-    "elucidation": "that old riddle",
+    "tstart": "1:30",
+    "tend": "2:15",
+    "instance": "May I venture?",
+    "bit": "Jeremy, Jeremy, Jeremy",
+    "elucidation": "jeremy piven is referenced, often sung (happens a lot)",
     "tags": [],
     "location_type": "",
     "location_id": "",
-    "updated_at": "2019-12-30T09:37:04Z",
-    "created_at": "2019-12-30T09:37:04Z",
-    "slug_earwolf": "best-of-2019-pt-3",
-    "episode_title": "Best of 2019 Pt.3 ",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": "best-of-2019-pt-4",
+    "episode_title": "Best of 2019 Pt.4 ",
     "episode_guests": [
-        "Nick Ciarelli","Brad Evans",
       "Paul F. Tompkins"
     ],
     "holding": "false"
   },
   {
-    "episode": "BO2019.3",
+    "episode": "BO2019.4",
     "show": "cbb",
-    "tstart": "2:00",
-    "tend": "2:25",
-    "instance": "Hey Fatman, we have to get out of this cave.",
+    "tstart": "1:45",
+    "tend": "2:35",
+    "instance": "Jeremy Piven to you.",
+    "bit": "Figrin D'an and the Modal Nodes",
+    "elucidation": "scott and pft (or a pft character) bust out the star wars cantina band song",
+    "tags": [],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": "best-of-2019-pt-4",
+    "episode_title": "Best of 2019 Pt.4 ",
+    "episode_guests": [
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "BO2019.4",
+    "show": "cbb",
+    "tstart": "2:30",
+    "tend": "2:45",
+    "instance": "Been a long time since we've done that one.",
+    "bit": "Figrin D'an and the Modal Nodes",
+    "elucidation": "scott and pft (or a pft character) bust out the star wars cantina band song",
+    "tags": [],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": "best-of-2019-pt-4",
+    "episode_title": "Best of 2019 Pt.4 ",
+    "episode_guests": [
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "BO2019.4",
+    "show": "cbb",
+    "tstart": "1:15",
+    "tend": "2:45",
+    "instance": "Been a long time since we've done that one.",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+      "Rock and Roll (song)",
+      "Led Zeppelin (musical combination)"
+    ],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": "best-of-2019-pt-4",
+    "episode_title": "Best of 2019 Pt.4 ",
+    "episode_guests": [
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "BO2019.4",
+    "show": "cbb",
+    "tstart": "3:15",
+    "tend": "3:35",
+    "instance": "I don't wanna leave any evidence.",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+      "I Don't Want to Wait (song)",
+      "Paula Cole"
+    ],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": "best-of-2019-pt-4",
+    "episode_title": "Best of 2019 Pt.4 ",
+    "episode_guests": [
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "BO2019.4",
+    "show": "cbb",
+    "tstart": "10:30",
+    "tend": "10:45",
+    "instance": "Not everyone can boast such an achievement.",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+      "I Don't Want to Wait (song)",
+      "Paula Cole"
+    ],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": "best-of-2019-pt-4",
+    "episode_title": "Best of 2019 Pt.4 ",
+    "episode_guests": [
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "BO2019.4",
+    "show": "cbb",
+    "tstart": "57:40",
+    "tend": "57:50",
+    "instance": "You don't wanna wait \\ to release the Batman episode",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+      "I Don't Want to Wait (song)",
+      "Paula Cole"
+    ],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": "best-of-2019-pt-4",
+    "episode_title": "Best of 2019 Pt.4 ",
+    "episode_guests": [
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "BO2019.4",
+    "show": "cbb",
+    "tstart": "3:45",
+    "tend": "4:05",
+    "instance": "Yippie-yo \\ yippie-yea.",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+      "Where Have All the Cowboys Gone? (song)",
+      "Paula Cole"
+    ],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": "best-of-2019-pt-4",
+    "episode_title": "Best of 2019 Pt.4 ",
+    "episode_guests": [
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "BO2019.4",
+    "show": "cbb",
+    "tstart": "1:15:55",
+    "tend": "1:16:45",
+    "instance": "Chow-chow-chow-chow-chow.",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+      "Calendar Girl (song)",
+      "Neil Sedaka",
+      "Howard Greenfield"
+    ],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": "best-of-2019-pt-4",
+    "episode_title": "Best of 2019 Pt.4 ",
+    "episode_guests": [
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "BO2019.4",
+    "show": "cbb",
+    "tstart": "18:45",
+    "tend": "19:10",
+    "instance": "Once the two women are gone all of the men really come into their own as screamers.",
     "hero": {
       "on": true,
       "attrib": "Paul F. Tompkins"
     },
-    "bit": "Get Outta My Dreams",
-    "elucidation": "a billy ocean joint and/or billy ocean himself",
+    "bit": "That's Also True",
+    "elucidation": "catchy thing from the first tenacious d album",
     "tags": [],
     "location_type": "",
     "location_id": "",
-    "updated_at": "2019-12-30T09:37:04Z",
-    "created_at": "2019-12-30T09:37:04Z",
-    "slug_earwolf": "best-of-2019-pt-3",
-    "episode_title": "Best of 2019 Pt.3 ",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": "best-of-2019-pt-4",
+    "episode_title": "Best of 2019 Pt.4 ",
     "episode_guests": [
-        "Nick Ciarelli","Brad Evans",
       "Paul F. Tompkins"
     ],
     "holding": "false"
   },
   {
-    "episode": "BO2019.3",
+    "episode": "BO2019.4",
     "show": "cbb",
-    "tstart": "5:45",
-    "tend": "6:05",
-    "instance": "You'd get to where the radio station was and then they'd make you wait for a long time.",
+    "tstart": "52:30",
+    "tend": "52:48",
+    "instance": "It's one before?",
+    "bit": "Bbbbonusss",
+    "elucidation": "extra content",
+    "tags": [],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": "best-of-2019-pt-4",
+    "episode_title": "Best of 2019 Pt.4 ",
+    "episode_guests": [
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "BO2019.4",
+    "show": "cbb",
+    "tstart": "1:16:50",
+    "tend": "1:17:05",
+    "instance": "You look at them like you look at a human and you say \"oh, that's for me.\"",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+      "Flash (song)",
+      "Queen (musical combination)"
+    ],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": "best-of-2019-pt-4",
+    "episode_title": "Best of 2019 Pt.4 ",
+    "episode_guests": [
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "BO2019.4",
+    "show": "cbb",
+    "tstart": "1:18:15",
+    "tend": "1:18:55",
+    "instance": "We are almost at the end of this - does that excite you, Paul?",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+      "The Pointer Sisters (musical combination)",
+      "I'm So Excited (song)"
+    ],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": "best-of-2019-pt-4",
+    "episode_title": "Best of 2019 Pt.4 ",
+    "episode_guests": [
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "BO2019.4",
+    "show": "cbb",
+    "tstart": "1:55:00",
+    "tend": "1:55:20",
+    "instance": "Which one of them was a bitch?",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+      "99 Problems (song)",
+      "Jay-Z"
+    ],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": "best-of-2019-pt-4",
+    "episode_title": "Best of 2019 Pt.4 ",
+    "episode_guests": [
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "BO2019.4",
+    "show": "cbb",
+    "tstart": "1:17:45",
+    "tend": "1:18:05",
+    "instance": "But I *love* love you.",
+    "bit": "What's Going on With The Murphy Group?",
+    "elucidation": "somebody does a woody allen",
+    "tags": [],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": "best-of-2019-pt-4",
+    "episode_title": "Best of 2019 Pt.4 ",
+    "episode_guests": [
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "8:50",
+    "tend": "9:10",
+    "instance": "Put your ass to sleep territory?",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+      "It Was a Good Day (song)",
+      "Ice Cube",
+      "Cal Solomon"
+    ],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
+    "episode_guests": [
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "12:00",
+    "tend": "12:30",
+    "instance": "You can't choose your family, folks.",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+      "Brady Bunch Theme Song (song)",
+      "Scherwood Schwartz",
+      "Frank De Vol",
+      "The Peppermint Trolley Company (musical combination)"
+    ],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
+    "episode_guests": [
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "10:10",
+    "tend": "10:30",
+    "instance": "But I have said it to a mirror one time.",
     "bit": "The Paul Hardcastle of Suicides",
     "elucidation": "any song reference",
     "tags": [
       "The Fugees (musical combination)",
-      "Killing Me Softly with His Song (song)"
+      "Killing Me Softly with His Song (song)",
+      "Cal Solomon"
     ],
     "location_type": "",
     "location_id": "",
-    "updated_at": "2019-12-30T09:37:04Z",
-    "created_at": "2019-12-30T09:37:04Z",
-    "slug_earwolf": "best-of-2019-pt-3",
-    "episode_title": "Best of 2019 Pt.3 ",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
     "episode_guests": [
-        "Nick Ciarelli","Brad Evans",
-      "Paul F. Tompkins"
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
     ],
     "holding": "false"
   },
   {
-    "episode": "BO2019.3",
-    "show": "cbb",
-    "tstart": "6:30",
-    "tend": "6:45",
-    "instance": "The diseased oak.",
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "1:09:35",
+    "tend": "1:09:55",
+    "instance": "I got goat bones?",
     "bit": "The Paul Hardcastle of Suicides",
     "elucidation": "any song reference",
     "tags": [
-      "More More More (song)",
-      "Andrea True Connection"
+      "The Fugees (musical combination)",
+      "Killing Me Softly with His Song (song)",
+      "Cal Solomon","Shelton Bung"
     ],
     "location_type": "",
     "location_id": "",
-    "updated_at": "2019-12-30T09:37:04Z",
-    "created_at": "2019-12-30T09:37:04Z",
-    "slug_earwolf": "best-of-2019-pt-3",
-    "episode_title": "Best of 2019 Pt.3 ",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
     "episode_guests": [
-        "Nick Ciarelli","Brad Evans",
-      "Paul F. Tompkins"
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
     ],
     "holding": "false"
   },
   {
-    "episode": "BO2019.3",
-    "show": "cbb",
-    "tstart": "8:15",
-    "tend": "8:30",
-    "instance": "I didn't want none.",
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "36:05",
+    "tend": "36:25",
+    "instance": "So it started as a normal rampage?",
     "bit": "The Paul Hardcastle of Suicides",
     "elucidation": "any song reference",
     "tags": [
-      "Sir Mix-a-Lot",
-      "Baby Got Back (song)"
+      "Cal Solomon","Drake",
+"Started from the Bottom (song)"
     ],
     "location_type": "",
     "location_id": "",
-    "updated_at": "2019-12-30T09:37:04Z",
-    "created_at": "2019-12-30T09:37:04Z",
-    "slug_earwolf": "best-of-2019-pt-3",
-    "episode_title": "Best of 2019 Pt.3 ",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
     "episode_guests": [
-        "Nick Ciarelli","Brad Evans",
-      "Paul F. Tompkins"
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
     ],
     "holding": "false"
   },
   {
-    "episode": "BO2019.3",
-    "show": "cbb",
-    "tstart": "8:15",
-    "tend": "8:45",
-    "instance": "There were so many buns in that movie.",
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "38:34",
+    "tend": "38:50",
+    "instance": "Did the pens die with them?",
     "bit": "The Paul Hardcastle of Suicides",
     "elucidation": "any song reference",
     "tags": [
-      "Face Down Ass Up (song)",
-      "2 Live Crew (musical combination)"
+      "Jet Song (song)","Leonard Bernstein","Stephen Sondheim"
     ],
     "location_type": "",
     "location_id": "",
-    "updated_at": "2019-12-30T09:37:04Z",
-    "created_at": "2019-12-30T09:37:04Z",
-    "slug_earwolf": "best-of-2019-pt-3",
-    "episode_title": "Best of 2019 Pt.3 ",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
     "episode_guests": [
-        "Nick Ciarelli","Brad Evans",
-      "Paul F. Tompkins"
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
     ],
     "holding": "false"
   },
   {
-    "episode": "BO2019.3",
-    "show": "cbb",
-    "tstart": "14:50",
-    "tend": "15:05",
-    "instance": "Still right over Paul's shoulder.",
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "40:30",
+    "tend": "41:10",
+    "instance": "But I don't think she's implying that she's the mother to everyone listening to the song.",
     "bit": "The Paul Hardcastle of Suicides",
     "elucidation": "any song reference",
     "tags": [
-      "The Next Episode (song)",
-      "Snoop Dogg",
-      "Nate Dogg",
-      "Kurupt",
-      "Dr. Dre"
+      "Man! I Feel Like a Woman! (song)","Shania Twain","Mutt Lange"
     ],
     "location_type": "",
     "location_id": "",
-    "updated_at": "2019-12-30T09:37:04Z",
-    "created_at": "2019-12-30T09:37:04Z",
-    "slug_earwolf": "best-of-2019-pt-3",
-    "episode_title": "Best of 2019 Pt.3 ",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
     "episode_guests": [
-        "Nick Ciarelli","Brad Evans",
-      "Paul F. Tompkins"
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
     ],
     "holding": "false"
   },
   {
-    "episode": "BO2019.3",
-    "show": "cbb",
-    "tstart": "27:55",
-    "tend": "28:20",
-    "instance": "Was everything else the bad news?",
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "41:10",
+    "tend": "41:30",
+    "instance": "I talk to Andrew Lloyd Webber sometimes.",
     "bit": "The Paul Hardcastle of Suicides",
     "elucidation": "any song reference",
     "tags": [
-      "Seasons of Love (song)",
-      "Rent (musical)"
+      "Beautiful Ghosts (song)","Taylor Swift","Andrew Lloyd Webber"
     ],
     "location_type": "",
     "location_id": "",
-    "updated_at": "2019-12-30T09:37:04Z",
-    "created_at": "2019-12-30T09:37:04Z",
-    "slug_earwolf": "best-of-2019-pt-3",
-    "episode_title": "Best of 2019 Pt.3 ",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
     "episode_guests": [
-        "Nick Ciarelli","Brad Evans",
-      "Paul F. Tompkins"
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
     ],
     "holding": "false"
   },
   {
-    "episode": "BO2019.3",
-    "show": "cbb",
-    "tstart": "1:00:30",
-    "tend": "1:00:50",
-    "instance": "You'll hear all of the wheels turning in Paul's brain.",
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "52:20",
+    "tend": "52:50",
+    "instance": "It's a raw potato.",
     "bit": "The Paul Hardcastle of Suicides",
     "elucidation": "any song reference",
     "tags": [
-      "Wheel in the Sky (song)",
-      "Journey (musical combination)"
+      "Your Body is a Wonderland (song)",
+"John Mayer","Cal Solomon","Shelton Bung"
     ],
     "location_type": "",
     "location_id": "",
-    "updated_at": "2019-12-30T09:37:04Z",
-    "created_at": "2019-12-30T09:37:04Z",
-    "slug_earwolf": "best-of-2019-pt-3",
-    "episode_title": "Best of 2019 Pt.3 ",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
     "episode_guests": [
-        "Nick Ciarelli","Brad Evans",
-      "Paul F. Tompkins"
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
     ],
     "holding": "false"
   },
   {
-    "episode": "BO2019.3",
-    "show": "cbb",
-    "tstart": "1:20:00",
-    "tend": "1:20:15",
-    "instance": "Janie's got a \\ family in town.",
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "1:16:30",
+    "tend": "1:17:00",
+    "instance": "We're going off the dome and you're going from the tank.",
     "bit": "The Paul Hardcastle of Suicides",
     "elucidation": "any song reference",
     "tags": [
-      "Janie's Got a Gun (song)",
-      "Aerosmith (musical combination)"
+      "Bring the Noise (song)",
+"Public Enemy (musical combination)","Cal Solomon","Shelton Bung"
     ],
     "location_type": "",
     "location_id": "",
-    "updated_at": "2019-12-30T09:37:04Z",
-    "created_at": "2019-12-30T09:37:04Z",
-    "slug_earwolf": "best-of-2019-pt-3",
-    "episode_title": "Best of 2019 Pt.3 ",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
     "episode_guests": [
-        "Nick Ciarelli","Brad Evans",
-      "Paul F. Tompkins"
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
     ],
     "holding": "false"
   },
   {
-    "episode": "BO2019.3",
-    "show": "cbb",
-    "tstart": "1:20:15",
-    "tend": "1:20:30",
-    "instance": "Today's December 30th, obviously.",
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "1:35:50",
+    "instance": "Tossed salad \\ and murder",
     "bit": "The Paul Hardcastle of Suicides",
     "elucidation": "any song reference",
     "tags": [
-      "What Are You Doing New Year's Eve? (song)",
-"Frank Loesser"
+      "Tossed Salad and Scrambled Eggs (song)","Kelsey Grammer","Bruce Miller","Cal Solomon","Shelton Bung","The Chief"
     ],
+    "tend": "1:36:10",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2019-12-30T09:37:04Z",
-    "created_at": "2019-12-30T09:37:04Z",
-    "slug_earwolf": "best-of-2019-pt-3",
-    "episode_title": "Best of 2019 Pt.3 ",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
     "episode_guests": [
-        "Nick Ciarelli","Brad Evans",
-      "Paul F. Tompkins"
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
     ],
     "holding": "false"
   },
   {
-    "episode": "BO2019.3",
-    "show": "cbb",
-    "tstart": "1:22:20",
-    "tend": "1:22:35",
-    "instance": "If I were a ghost...",
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "11:05",
+    "tend": "11:30",
+    "instance": "I went from one apartment to a new apartment.",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "nb": [
+      "solomon's old place in brooklyn (or queens)"
+    ],
+    "tags": [
+      "Cal Solomon"
+    ],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
+    "episode_guests": [
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "43:30",
+    "tend": "44:00",
+    "instance": "They couldn't just float through?",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "nb": [
+      "sugar hill gang bbq across the street from solomon's old place in brooklyn (or queens)?"
+    ],
+    "tags": [
+      "Cal Solomon"
+    ],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
+    "episode_guests": [
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "21:12",
+    "tend": "21:45",
+    "instance": "Do you have any recurring scary dreams that happen to you?",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "nb": [
+      "solomon's old place in brooklyn (or queens)"
+    ],
+    "tags": [
+      "Cal Solomon"
+    ],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
+    "episode_guests": [
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "53:00",
+    "tend": "54:00",
+    "instance": "Do the beat.",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "nb": [
+      "Long Beach Airport (Ronald Reagan)"
+      ,"workplace of: Shelton Bung"
+    ],
+    "tags": [
+      "Cal Solomon","Shelton Bung"
+    ],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
+    "episode_guests": [
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "1:12:20",
+    "tend": "1:12:45",
+    "instance": "Ever been in a toilet?",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "nb": [
+      "Long Beach Airport (Ronald Reagan)"
+      ,"workplace of: Shelton Bung"
+    ],
+    "tags": [
+      "Cal Solomon","Shelton Bung"
+    ],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
+    "episode_guests": [
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "1:13:55",
+    "tend": "1:14:15",
+    "instance": "I'm hooked - I've gotta have him out here to talk about this.",
+    "bit": "Who's Paul?",
+"elucidation": "a character is referred to by the name/pronoun of their player",
+    "tags": [
+      "Shelton Bung"
+    ],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
+    "episode_guests": [
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "1:15:25",
+    "tend": "1:15:45",
+    "instance": "I'm gonna pick up on your aiport theme and keep on going.",
+    "bit": "Rudimentary Drum Solos",
+"elucidation": "scott performs a drum solo",
+    "tags": [
+      "Shelton Bung","Cal Solomon"
+    ],
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
+    "episode_guests": [
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "1:26:10",
+    "instance": "Pull out those titties.",
+    "bit": "Not That Kind of a Show",
+"elucidation": "cbb gets a little blue",
+    "tags": [
+      "Shelton Bung","The Chief"
+    ],
+    "tend": "1:26:45",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
+    "episode_guests": [
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "1:36:50",
+    "instance": "It seems like you should be chasing Carmen San Diego.",
+    "bit": "I Literally Have Nowhere Else to Be",
+    "elucidation": "a guest defaults to sticking around for the rest of the show",
+    "tags": [
+      "The Chief"
+    ],
+    "tend": "1:37:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
+    "episode_guests": [
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "1:43:00",
+    "instance": "I killed a Frankenstein just today, as a matter of fact.",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "nb": [
+      "blank space coffee shop, seattle, wa"
+      ,"site of: a dead Frankenstein"
+    ],
+    "tags": [
+      "Cal Solomon","Dalton Wilcox"
+    ],
+    "tend": "1:43:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
+    "episode_guests": [
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "1:44:55",
+    "instance": "I got a new project.",
     "bit": "The Paul Hardcastle of Suicides",
     "elucidation": "any song reference",
     "tags": [
-      "If I Were a Boy (song)",
-"Beyoncé","BC Jean","Toby Gad"
+      "Huey Lewis & The News",
+"I Want a New Drug (song)","Dalton Wilcox"
     ],
+    "tend": "1:45:05",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2019-12-30T09:37:04Z",
-    "created_at": "2019-12-30T09:37:04Z",
-    "slug_earwolf": "best-of-2019-pt-3",
-    "episode_title": "Best of 2019 Pt.3 ",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
     "episode_guests": [
-        "Nick Ciarelli","Brad Evans",
-      "Paul F. Tompkins"
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
     ],
     "holding": "false"
   },
   {
-    "episode": "BO2019.3",
-    "show": "cbb",
-    "tstart": "2:04:00",
-    "tend": "2:04:20",
-    "instance": "The title song of 'Electric Dreams.'",
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "1:49:12",
+    "instance": "I brought a brand new poem.",
     "bit": "The Paul Hardcastle of Suicides",
     "elucidation": "any song reference",
     "tags": [
-      "Together in Electric Dreams (song)"
-,"Philip Oakey"
-,"Giorgio Moroder"
+      "Huey Lewis & The News",
+"I Want a New Drug (song)","Dalton Wilcox","Cal Solomon"
     ],
+    "tend": "1:49:30",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2019-12-30T09:37:04Z",
-    "created_at": "2019-12-30T09:37:04Z",
-    "slug_earwolf": "best-of-2019-pt-3",
-    "episode_title": "Best of 2019 Pt.3 ",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
     "episode_guests": [
-        "Nick Ciarelli","Brad Evans",
-      "Paul F. Tompkins"
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
     ],
     "holding": "false"
   },
   {
-    "episode": "BO2019.3",
-    "show": "cbb",
-    "tstart": "1:17:15",
-    "tend": "1:17:30",
-    "instance": "Jake Boss.",
-    "bit": "Cake Boss!",
-    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
-    "tags": [],
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "1:45:10",
+    "instance": "You'd be surprised how many monsters there are all around the country.",
+        "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "nb": [
+      "skunk apes - florida"
+    ],
+    "tags": [
+      ,"Dalton Wilcox"
+    ],
+    "tend": "1:46:50",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2019-12-30T09:37:04Z",
-    "created_at": "2019-12-30T09:37:04Z",
-    "slug_earwolf": "best-of-2019-pt-3",
-    "episode_title": "Best of 2019 Pt.3 ",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
     "episode_guests": [
-        "Nick Ciarelli","Brad Evans",
-      "Paul F. Tompkins"
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "1:45:10",
+    "instance": "You'd be surprised how many monsters there are all around the country.",
+        "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "nb": [
+      "pope lick monster - louisville"
+    ],
+    "tags": [
+      ,"Dalton Wilcox"
+    ],
+    "tend": "1:46:50",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
+    "episode_guests": [
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "1:45:10",
+    "instance": "You'd be surprised how many monsters there are all around the country.",
+        "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "nb": [
+      "loveland frogman ohio"
+    ],
+    "tags": [
+      ,"Dalton Wilcox"
+    ],
+    "tend": "1:46:50",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
+    "episode_guests": [
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "1:45:10",
+    "instance": "You'd be surprised how many monsters there are all around the country.",
+        "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "nb": [
+      "honey island swamp - LA"
+    ],
+    "tags": [
+      ,"Dalton Wilcox"
+    ],
+    "tend": "1:46:50",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
+    "episode_guests": [
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "1:45:10",
+    "instance": "You'd be surprised how many monsters there are all around the country.",
+        "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "nb": [
+      "big bird rio grande"
+    ],
+    "tags": [
+      ,"Dalton Wilcox"
+    ],
+    "tend": "1:46:50",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
+    "episode_guests": [
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "1:45:10",
+    "instance": "You'd be surprised how many monsters there are all around the country.",
+        "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "nb": [
+      "lizardman scape ore"
+    ],
+    "tags": [
+      ,"Dalton Wilcox"
+    ],
+    "tend": "1:47:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
+    "episode_guests": [
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65070829",
+    "tstart": "1:48:30",
+    "instance": "Tonight the map is a little bit different than it was last night.",
+        "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "nb": [
+      "site of: caddy the sea monster insulting Dalton Wilcox",
+"https://en.wikipedia.org/wiki/Rainier_Tower"
+    ],
+    "tags": [
+      ,"Dalton Wilcox"
+    ],
+    "tend": "1:55:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-02T09:37:04Z",
+    "created_at": "2020-01-02T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Seattle 2019",
+    "episode_guests": [
+      "Lauren Lapkus",
+      "Paul F. Tompkins",
+      "Andy Daly",
+      "Carl Tart"
     ],
     "holding": "false"
   }
