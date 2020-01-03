@@ -644,8 +644,8 @@ geoms
     "tags": [
       "Cal Solomon"
     ],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point",
+    "location_id": "811",
     "updated_at": "2020-01-02T09:37:04Z",
     "created_at": "2020-01-02T09:37:04Z",
     "slug_earwolf": null,
@@ -671,8 +671,8 @@ geoms
     "tags": [
       "Cal Solomon"
     ],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point",
+    "location_id": "811",
     "updated_at": "2020-01-02T09:37:04Z",
     "created_at": "2020-01-02T09:37:04Z",
     "slug_earwolf": null,
@@ -698,8 +698,8 @@ geoms
     "tags": [
       "Cal Solomon"
     ],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point",
+    "location_id": "811",
     "updated_at": "2020-01-02T09:37:04Z",
     "created_at": "2020-01-02T09:37:04Z",
     "slug_earwolf": null,
@@ -726,8 +726,7 @@ geoms
     "tags": [
       "Cal Solomon","Shelton Bung"
     ],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "poly","location_id": "1080",
     "updated_at": "2020-01-02T09:37:04Z",
     "created_at": "2020-01-02T09:37:04Z",
     "slug_earwolf": null,
@@ -754,8 +753,7 @@ geoms
     "tags": [
       "Cal Solomon","Shelton Bung"
     ],
-    "location_type": "",
-    "location_id": "",
+    "location_type": "poly","location_id": "1080",
     "updated_at": "2020-01-02T09:37:04Z",
     "created_at": "2020-01-02T09:37:04Z",
     "slug_earwolf": null,
@@ -878,8 +876,7 @@ geoms
       "Cal Solomon","Dalton Wilcox"
     ],
     "tend": "1:43:30",
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1215",
     "updated_at": "2020-01-02T09:37:04Z",
     "created_at": "2020-01-02T09:37:04Z",
     "slug_earwolf": null,
@@ -955,8 +952,8 @@ geoms
       ,"Dalton Wilcox"
     ],
     "tend": "1:46:50",
-    "location_type": "",
-    "location_id": "",
+    "location_type": "poly",
+    "location_id": "1066",
     "updated_at": "2020-01-02T09:37:04Z",
     "created_at": "2020-01-02T09:37:04Z",
     "slug_earwolf": null,
@@ -982,8 +979,8 @@ geoms
       ,"Dalton Wilcox"
     ],
     "tend": "1:46:50",
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point",
+    "location_id": "1168",
     "updated_at": "2020-01-02T09:37:04Z",
     "created_at": "2020-01-02T09:37:04Z",
     "slug_earwolf": null,
@@ -1009,8 +1006,8 @@ geoms
       ,"Dalton Wilcox"
     ],
     "tend": "1:46:50",
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point",
+    "location_id": "1169",
     "updated_at": "2020-01-02T09:37:04Z",
     "created_at": "2020-01-02T09:37:04Z",
     "slug_earwolf": null,
@@ -1036,8 +1033,8 @@ geoms
       ,"Dalton Wilcox"
     ],
     "tend": "1:46:50",
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point",
+    "location_id": "1170",
     "updated_at": "2020-01-02T09:37:04Z",
     "created_at": "2020-01-02T09:37:04Z",
     "slug_earwolf": null,
@@ -1063,8 +1060,8 @@ geoms
       ,"Dalton Wilcox"
     ],
     "tend": "1:46:50",
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point",
+    "location_id": "1171",
     "updated_at": "2020-01-02T09:37:04Z",
     "created_at": "2020-01-02T09:37:04Z",
     "slug_earwolf": null,
@@ -1090,8 +1087,8 @@ geoms
       ,"Dalton Wilcox"
     ],
     "tend": "1:47:00",
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point",
+    "location_id": "1167",
     "updated_at": "2020-01-02T09:37:04Z",
     "created_at": "2020-01-02T09:37:04Z",
     "slug_earwolf": null,
@@ -1111,15 +1108,13 @@ geoms
         "bit": "Location",
     "elucidation": "identifiable earth location",
     "nb": [
-      "site of: caddy the sea monster insulting Dalton Wilcox",
-"https://en.wikipedia.org/wiki/Rainier_Tower"
+      "site of: caddy the sea monster insulting Dalton Wilcox"
     ],
     "tags": [
       ,"Dalton Wilcox"
     ],
     "tend": "1:55:30",
-    "location_type": "",
-    "location_id": "",
+    "location_type": "poly","location_id": "1081",
     "updated_at": "2020-01-02T09:37:04Z",
     "created_at": "2020-01-02T09:37:04Z",
     "slug_earwolf": null,
