@@ -1,6 +1,5 @@
 geoms
-[
-  {
+[{
     "episode": "BO2019.4",
     "show": "cbb",
     "tstart": "1:30",
@@ -1124,6 +1123,466 @@ geoms
       "Paul F. Tompkins",
       "Andy Daly",
       "Carl Tart"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65070836",
+    "show": "cbb",
+    "tstart": "2:30",
+    "instance": "Long-time fans of this show know that this is the city where I broke up with my girlfriend.",
+"bit": "Former Girlfriend",
+"elucidation": "scott gained one ex-girlfriend when he married kulap",
+    "tags": [
+    ],
+    "tend": "2:50",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Vancouver 2019",
+    "episode_guests": [
+      "Dan Mangan",
+      "Lauren Lapkus",
+      "Carl Tart",
+      "Andy Daly",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  }
+  ,{
+    "episode": "https://www.stitcher.com/s?eid=65070836",
+    "show": "cbb",
+    "tstart": "8:15",
+    "instance": "What do you think of those A#s?",
+"bit": "Scott's Questions",
+"elucidation": "scott's...questions",
+    "tags": [
+    ],
+    "tend": "8:35",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Vancouver 2019",
+    "episode_guests": [
+      "Dan Mangan",
+      "Lauren Lapkus",
+      "Carl Tart",
+      "Andy Daly",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },{
+    "episode": "https://www.stitcher.com/s?eid=65070836",
+    "show": "cbb",
+    "tstart": "13:00",
+    "instance": "Tons of new songs, actually.",
+"bit": "Group Coupon",
+"elucidation": "scott articulates obvious data (acronyms, abbreviations, etc.)",
+    "tags": [
+    ],
+    "tend": "13:15",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Vancouver 2019",
+    "episode_guests": [
+      "Dan Mangan",
+      "Lauren Lapkus",
+      "Carl Tart",
+      "Andy Daly",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },{
+    "episode": "https://www.stitcher.com/s?eid=65070836",
+    "show": "cbb",
+    "tstart": "14:35",
+    "instance": "But how many bands play the Queen Elizabeth Theatre?",
+"bit":"The Doctor is a Woman","elucidation":"that old riddle",
+    "tags": [
+    ],
+    "tend": "15:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Vancouver 2019",
+    "episode_guests": [
+      "Dan Mangan",
+      "Lauren Lapkus",
+      "Carl Tart",
+      "Andy Daly",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },{
+    "episode": "https://www.stitcher.com/s?eid=65070836",
+    "show": "cbb",
+    "tstart": "23:45",
+    "instance": "You know we're not a couple.",
+"bit":"Phil Collins","elucidation":"phil collins is referenced (typically vis-a-vis the concorde)",
+    "tags": [
+      "Chazmin Clangman",
+"Sunny Clangman"
+    ],
+    "tend": "24:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Vancouver 2019",
+    "episode_guests": [
+      "Dan Mangan",
+      "Lauren Lapkus",
+      "Carl Tart",
+      "Andy Daly",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },{
+    "episode": "https://www.stitcher.com/s?eid=65070836",
+    "show": "cbb",
+    "tstart": "24:15",
+    "instance": "Yes. They're sisters.",
+"bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "tags": [
+      "Chazmin Clangman",
+"Sunny Clangman",
+"My Sharona (song)","The Knack (musical combination)"
+    ],
+    "tend": "25:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Vancouver 2019",
+    "episode_guests": [
+      "Dan Mangan",
+      "Lauren Lapkus",
+      "Carl Tart",
+      "Andy Daly",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  }
+  ,{
+    "episode": "https://www.stitcher.com/s?eid=65070836",
+    "show": "cbb",
+    "tstart": "33:30",
+    "instance": "So he made the radio go somewhere else.",
+"bit":"Location","elucidation":"identifiable earth location",
+    "tags": [
+      "Chazmin Clangman",
+"Sunny Clangman"
+    ],
+    "nb":["vancouver, ca","site of: many cranes doubling as FM broadcast repeaters"],
+    "tend": "34:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Vancouver 2019",
+    "episode_guests": [
+      "Dan Mangan",
+      "Lauren Lapkus",
+      "Carl Tart",
+      "Andy Daly",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },{
+    "episode": "https://www.stitcher.com/s?eid=65070836",
+    "show": "cbb",
+    "tstart": "56:30",
+    "instance": "We got Purple Hearts.",
+"bit":"Location","elucidation":"identifiable earth location",
+    "tags": [
+      "Chazmin Clangman",
+"Sunny Clangman"
+    ],
+    "nb":["grenada","site of: the Clangmans, running around like children"],
+    "tend": "57:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Vancouver 2019",
+    "episode_guests": [
+      "Dan Mangan",
+      "Lauren Lapkus",
+      "Carl Tart",
+      "Andy Daly",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },{
+    "episode": "https://www.stitcher.com/s?eid=65070836",
+    "show": "cbb",
+    "tstart": "1:17:45",
+    "instance": "Somebody told me that I needed to buy a personal computer.",
+"bit":"Location","elucidation":"identifiable earth location",
+    "tags": [
+      "O.J. Simpson"
+    ],
+    "nb":["CompUSA in las vegas","site of: an OJ Simpson retail transaction"],
+    "tend": "1:19:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Vancouver 2019",
+    "episode_guests": [
+      "Dan Mangan",
+      "Lauren Lapkus",
+      "Carl Tart",
+      "Andy Daly",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },{
+    "episode": "https://www.stitcher.com/s?eid=65070836",
+    "show": "cbb",
+    "tstart": "1:30:15",
+    "instance": "I was so nervous that it would be cold in Buffalo, so I had to buy a jacket.",
+"bit":"Location","elucidation":"identifiable earth location",
+    "tags": [
+      "O.J. Simpson"
+    ],
+    "nb":["haight/asbury, san francisco","site of: OJ Simpson, jacket shopping"],
+    "tend": "1:31:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Vancouver 2019",
+    "episode_guests": [
+      "Dan Mangan",
+      "Lauren Lapkus",
+      "Carl Tart",
+      "Andy Daly",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },{
+    "episode": "https://www.stitcher.com/s?eid=65070836",
+    "show": "cbb",
+    "tstart": "1:37:50",
+    "instance": "One of the guys takes my cleats and they're my lucky cleats that I love to practice in.",
+"bit":"Location","elucidation":"identifiable earth location",
+    "tags": [
+      "O.J. Simpson"
+    ],
+    "nb":["49ers locker room in 1979","site of: a prank on OJ"],
+    "tend": "1:38:45",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Vancouver 2019",
+    "episode_guests": [
+      "Dan Mangan",
+      "Lauren Lapkus",
+      "Carl Tart",
+      "Andy Daly",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },{
+    "episode": "https://www.stitcher.com/s?eid=65070836",
+    "show": "cbb",
+    "tstart": "1:45:20",
+    "instance": "I also have some prostitutes out on a boat.",
+"bit":"Location","elucidation":"identifiable earth location",
+    "tags": [
+      "Dalton Wilcox","Cactus Tony"
+    ],
+    "nb":["int'l waters"],
+    "tend": "1:46:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Vancouver 2019",
+    "episode_guests": [
+      "Dan Mangan",
+      "Lauren Lapkus",
+      "Carl Tart",
+      "Andy Daly",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },{
+    "episode": "https://www.stitcher.com/s?eid=65070836",
+    "show": "cbb",
+    "tstart": "1:45:40",
+    "instance": "Do they have any kind of a wrangler?",
+"bit":"We Knew a Poet Once","elucidation":"various, even vague interminglings of character canon",
+    "tags": [
+      "Dalton Wilcox","Cactus Tony"
+    ],
+    "tend": "1:46:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Vancouver 2019",
+    "episode_guests": [
+      "Dan Mangan",
+      "Lauren Lapkus",
+      "Carl Tart",
+      "Andy Daly",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  }
+  ,{
+    "episode": "https://www.stitcher.com/s?eid=65070836",
+    "show": "cbb",
+    "tstart": "1:47:40",
+    "instance": "This tour has been a very busy monster-killing time for me.",
+    "bit":"Location","elucidation":"identifiable earth location",
+"nb": [
+      "site of: caddy the sea monster insulting Dalton Wilcox"
+    ],
+    "tags": [
+      ,"Dalton Wilcox"
+    ],
+    "tend": "1:48:15",
+    "location_type": "poly","location_id": "1081",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Vancouver 2019",
+    "episode_guests": [
+      "Dan Mangan",
+      "Lauren Lapkus",
+      "Carl Tart",
+      "Andy Daly",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },{
+    "episode": "https://www.stitcher.com/s?eid=65070836",
+    "show": "cbb",
+    "tstart": "1:47:40",
+    "instance": "This tour has been a very busy monster-killing time for me.",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "nb": [
+      "blank space coffee shop, seattle, wa"
+      ,"site of: a dead Frankenstein"
+    ],
+    "tags": [
+      "Dalton Wilcox"
+    ],
+    "tend": "1:48:30",
+    "location_type": "point","location_id": "1215",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Vancouver 2019",
+    "episode_guests": [
+      "Dan Mangan",
+      "Lauren Lapkus",
+      "Carl Tart",
+      "Andy Daly",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },{
+    "episode": "https://www.stitcher.com/s?eid=65070836",
+    "show": "cbb",
+    "tstart": "1:47:40",
+    "instance": "This tour has been a very busy monster-killing time for me.",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "nb": [
+      "hotel near the queen elizabeth theatre"
+      ,"site of: dalton wilcox, killing 10-12 vampires"
+    ],
+    "tags": [
+      "Dalton Wilcox"
+    ],
+    "tend": "1:48:45",
+    "location_type": "","location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Vancouver 2019",
+    "episode_guests": [
+      "Dan Mangan",
+      "Lauren Lapkus",
+      "Carl Tart",
+      "Andy Daly",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },{
+    "episode": "https://www.stitcher.com/s?eid=65070836",
+    "show": "cbb",
+    "tstart": "1:57:30",
+    "instance": "You're welcome, Vancouver, B.C.",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "nb": [
+      "best western on granville"
+      ,"https://www.google.com/maps/place/Best+Western+Plus+Chateau+Granville+Hotel+%26+Suites+%26+Conference+Ctr./@49.2778577,-123.1254404,17.36z/data=!4m11!1m2!2m1!1sbest+western+hotel+in+vancouver,+bc!3m7!1s0x548673d44bd90c4b:0x11dfa2224e794375!5m2!4m1!1i2!8m2!3d49.277823!4d-123.12463"
+      ,"site of: dalton wilcox, one night in 2019"
+    ],
+    "tags": [
+      "Dalton Wilcox"
+    ],
+    "tend": "1:58:00",
+    "location_type": "","location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Vancouver 2019",
+    "episode_guests": [
+      "Dan Mangan",
+      "Lauren Lapkus",
+      "Carl Tart",
+      "Andy Daly",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },{
+    "episode": "https://www.stitcher.com/s?eid=65070836",
+    "show": "cbb",
+    "tstart": "2:01:45",
+    "instance": "There a lot of children live in your neighborhood?",
+"bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "tags": [
+      "Chazmin Clangman",
+"Dalton Wilcox",
+"Howlin' at the Moon (song)","Hank Williams"
+    ],
+    "tend": "2:02:05",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Vancouver 2019",
+    "episode_guests": [
+      "Dan Mangan",
+      "Lauren Lapkus",
+      "Carl Tart",
+      "Andy Daly",
+      "Paul F. Tompkins"
     ],
     "holding": "false"
   }

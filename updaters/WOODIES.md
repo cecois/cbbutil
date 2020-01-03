@@ -30,6 +30,7 @@ live-from-vulture-fest-2017
 ### instances
 
 -   035,35:00,the ibrain
+-   seattle2019,1:24:15,chief's prison rules
 -   kansas city 2019,40:30
 -   623,1:09:45,carnal asada
 -   st. paul 2019 i,44:30

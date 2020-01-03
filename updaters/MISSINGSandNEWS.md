@@ -70,6 +70,23 @@
 
 - figured it out is from pajama game - see st. paul 2019 pt. 2 for tags
 
+- you take care
+	- see oj appearances by carl tart
+	- vancouver2019,1:06:00
+	- ",1:07:00
+	- ",1:08:00
+	- ",1:09:00
+	- ",1:09:40
+	- ",1:11:00
+	- ",1:14:30
+	- ",1:19:00
+	- ",1:21:30
+	- ",1:22:30
+	- ",1:23:40
+	- ",1:28:15
+	- ",1:50:14
+	- ",2:04:30
+
 - germany cannibalism
 	- 429,1:07:00
 
@@ -1985,6 +2002,7 @@
   - (previous herzog appear)
 - of note/in his own right
   - 292,2:24
+  - vancouver2019,8:10
   - 335,2:45
   - 575,37:00
   - 586,1:22(pw)
@@ -2088,6 +2106,7 @@
   - several of the 480+ eps
   - portland 2019 early show,3:45
   - portland 2019 late show,5:30
+  - vancouver 2019,4:50
   - jfl toronto 2019,4:30
   - chicago 2019,3:30
   - chicago 2019,18:20
