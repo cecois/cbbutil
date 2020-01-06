@@ -2107,6 +2107,7 @@
   - portland 2019 early show,3:45
   - portland 2019 late show,5:30
   - vancouver 2019,4:50
+  - new york 2019,3:30
   - jfl toronto 2019,4:30
   - chicago 2019,3:30
   - chicago 2019,18:20

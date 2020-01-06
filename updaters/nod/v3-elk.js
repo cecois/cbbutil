@@ -729,6 +729,18 @@ console.log("getting most recent bu again (should be newer than before");
 const ext_source2 = await _MOST_RECENT();
 console.log("it's:",ext_source2);
 
+var clientTemp = new ELASTIC.Client({
+			host: 'milleria.org:9200'
+			,requestTimeout: Infinity
+			// ,log: 'trace'
+		});
+
+await clientTemp.deleteByQuery({
+  index: 'cbb',
+  q: '*:*'
+});
+
+
 // console.log("NORMLY ELASTIFY HERE!");
 console.log("ELASTIFYING!");
 const E = await _ELASTIFY(ext_source2);
