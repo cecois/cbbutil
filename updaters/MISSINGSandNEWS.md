@@ -86,6 +86,14 @@
 	- ",1:28:15
 	- ",1:50:14
 	- ",2:04:30
+	- philadelpha 2019,1:35:30
+	- ",1:36:45
+	- ",1:41:00
+	- ",1:41:45
+	- ",1:49:45
+	- ",2:02:30
+	- ",2:03:30
+	- ",2:05:30
 
 - germany cannibalism
 	- 429,1:07:00
@@ -923,6 +931,7 @@
 - fictional people - dead but reasonable
   - 289,21:45(howl)
   - san francisco 2012,23:00+
+  - philadelphia 2019,21:50
   - seattle 2013,55:45
   - lotsa cakeboss/pft eps
   - 2016.nyc05147pm,59:30,church lady
@@ -2108,6 +2117,7 @@
   - portland 2019 late show,5:30
   - vancouver 2019,4:50
   - new york 2019,3:30
+  - philadelphia 2019,4:20
   - jfl toronto 2019,4:30
   - chicago 2019,3:30
   - chicago 2019,18:20

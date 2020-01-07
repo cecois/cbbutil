@@ -4,8 +4,11 @@
     "show": "cbb",
     "tstart": "11:00",
     "instance": "And you made me show him my thing.",
-"bit":"Location","elucidation":"identifiable earth location",
-"nb":["todds zoltar machine"],
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "nb": [
+      "todds zoltar machine"
+    ],
     "tags": [
       "Scott's Nephew Todd"
     ],
@@ -23,17 +26,18 @@
       "Paul F. Tompkins"
     ],
     "holding": "false"
-  }
-  ,{
+  },
+  {
     "episode": "https://www.stitcher.com/s?eid=65561414",
     "show": "cbb",
     "tstart": "16:45",
     "instance": "Juicy Nibbler",
-"bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
     "tags": [
-      "Scott's Nephew Todd","Trapped in the Closet (song)",
-"R. Kelly"
+      "Scott's Nephew Todd",
+      "Trapped in the Closet (song)",
+      "R. Kelly"
     ],
     "tend": "17:05",
     "location_type": "",
@@ -49,15 +53,45 @@
       "Paul F. Tompkins"
     ],
     "holding": "false"
-  },{
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561414",
+    "show": "cbb",
+    "tstart": "1:30:58",
+    "instance": "Juicy Nibbler",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+      "Scott's Nephew Todd",
+      "Trapped in the Closet (song)",
+      "R. Kelly"
+    ],
+    "tend": "17:05",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from New York 2019",
+    "episode_guests": [
+      "Heidi Gardner",
+      "Lauren Lapkus",
+      "Ryan Gaul",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
     "episode": "https://www.stitcher.com/s?eid=65561414",
     "show": "cbb",
     "tstart": "23:00",
     "instance": "The human body is what?",
-"bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
     "tags": [
-      "Scott's Nephew Todd","Your Body is a Wonderland (song)","John Mayer"
+      "Scott's Nephew Todd",
+      "Your Body is a Wonderland (song)",
+      "John Mayer"
     ],
     "tend": "23:20",
     "location_type": "",
@@ -73,16 +107,18 @@
       "Paul F. Tompkins"
     ],
     "holding": "false"
-  },{
+  },
+  {
     "episode": "https://www.stitcher.com/s?eid=65561414",
     "show": "cbb",
     "tstart": "26:00",
     "instance": "I can't bear the thought of you getting away and running out into the street.",
-"bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
     "tags": [
-      "Scott's Nephew Todd","The Fugees (musical combination)",
-"Killing Me Softly with His Song (song)"
+      "Scott's Nephew Todd",
+      "The Fugees (musical combination)",
+      "Killing Me Softly with His Song (song)"
     ],
     "tend": "26:17",
     "location_type": "",
@@ -98,15 +134,19 @@
       "Paul F. Tompkins"
     ],
     "holding": "false"
-  },{
+  },
+  {
     "episode": "https://www.stitcher.com/s?eid=65561414",
     "show": "cbb",
     "tstart": "27:00",
     "instance": "And now we do TikTok.",
-"bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
     "tags": [
-      "Scott's Nephew Todd","Bed Intruder Song (song)","The Gregory Brothers (musical combination)","Antoine Dodson"
+      "Scott's Nephew Todd",
+      "Bed Intruder Song (song)",
+      "The Gregory Brothers (musical combination)",
+      "Antoine Dodson"
     ],
     "tend": "27:30",
     "location_type": "",
@@ -122,15 +162,18 @@
       "Paul F. Tompkins"
     ],
     "holding": "false"
-  },{
+  },
+  {
     "episode": "https://www.stitcher.com/s?eid=65561414",
     "show": "cbb",
     "tstart": "31:10",
     "instance": "Did you get the baldcap?",
-"bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
     "tags": [
-      "Scott's Nephew Todd","We Like to Party! (The Vengabus) (song)","Vengaboys (musical combination)"
+      "Scott's Nephew Todd",
+      "We Like to Party! (The Vengabus) (song)",
+      "Vengaboys (musical combination)"
     ],
     "tend": "31:30",
     "location_type": "",
@@ -146,13 +189,14 @@
       "Paul F. Tompkins"
     ],
     "holding": "false"
-  },{
+  },
+  {
     "episode": "https://www.stitcher.com/s?eid=65561414",
     "show": "cbb",
     "tstart": "56:00",
     "instance": "My tits got really small when I got small.",
-"bit": "The Doctor is a Woman",
-     "elucidation": "that old riddle",
+    "bit": "The Doctor is a Woman",
+    "elucidation": "that old riddle",
     "tags": [
       "Scott's Nephew Todd"
     ],
@@ -170,14 +214,17 @@
       "Paul F. Tompkins"
     ],
     "holding": "false"
-  },{
+  },
+  {
     "episode": "https://www.stitcher.com/s?eid=65561414",
     "show": "cbb",
     "tstart": "1:10:15",
     "instance": "Have you ever seen a horse?",
-"bit":"Scott's Questions","elucidation":"scott's...questions",
+    "bit": "Scott's Questions",
+    "elucidation": "scott's...questions",
     "tags": [
-      "Scott's Nephew Todd","Mayor Junius Bobbledoonary"
+      "Scott's Nephew Todd",
+      "Mayor Junius Bobbledoonary"
     ],
     "tend": "1:10:30",
     "location_type": "",
@@ -193,14 +240,17 @@
       "Paul F. Tompkins"
     ],
     "holding": "false"
-  },{
+  },
+  {
     "episode": "https://www.stitcher.com/s?eid=65561414",
     "show": "cbb",
     "tstart": "1:16:30",
     "instance": "They prefer it - they know they're a loser and they prefer it.",
-"bit":"Who's Paul?","elucidation":"a character is referred to by the name/pronoun of their player",
+    "bit": "Who's Paul?",
+    "elucidation": "a character is referred to by the name/pronoun of their player",
     "tags": [
-      "Scott's Nephew Todd","Hellen Klinch"
+      "Scott's Nephew Todd",
+      "Hellen Klinch"
     ],
     "tend": "1:17:00",
     "location_type": "",
@@ -216,15 +266,17 @@
       "Paul F. Tompkins"
     ],
     "holding": "false"
-  },{
+  },
+  {
     "episode": "https://www.stitcher.com/s?eid=65561414",
     "show": "cbb",
     "tstart": "1:17:10",
     "instance": "I had a career in surgery.",
-"bit": "The Doctor is a Woman",
-     "elucidation": "that old riddle",
+    "bit": "The Doctor is a Woman",
+    "elucidation": "that old riddle",
     "tags": [
-      "Scott's Nephew Todd","Hellen Klinch"
+      "Scott's Nephew Todd",
+      "Hellen Klinch"
     ],
     "tend": "1:17:30",
     "location_type": "",
@@ -240,15 +292,21 @@
       "Paul F. Tompkins"
     ],
     "holding": "false"
-  },{
+  },
+  {
     "episode": "https://www.stitcher.com/s?eid=65561414",
     "show": "cbb",
     "tstart": "1:19:10",
     "instance": "You saw Gutter?",
-"bit":"Location","elucidation":"identifiable earth location",
-"nb":["little south carolina, SC","site of: Hellen Klinch seeing her horse, Gutter, for the first time"],
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "nb": [
+      "little south carolina, SC",
+      "site of: Hellen Klinch seeing her horse, Gutter, for the first time"
+    ],
     "tags": [
-      "Scott's Nephew Todd","Hell Klinch"
+      "Scott's Nephew Todd",
+      "Hell Klinch"
     ],
     "tend": "1:19:45",
     "location_type": "",
@@ -261,6 +319,1136 @@
       "Heidi Gardner",
       "Lauren Lapkus",
       "Ryan Gaul",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "1:08",
+    "instance": "My neck, my back \\ I'm glad the McRib is back",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+      "Khia",
+      "My Neck My Back (song)"
+    ],
+    "tend": "1:20",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "1:30:55",
+    "instance": "I did not have sexual relations with that woman.",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+      "Michael Jackson",
+      "Bad (song)","Harmony Moongloss"
+    ],
+    "tend": "1:31:15",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "9:15",
+    "instance": "I feel like the next time you see me you're going to call me 'Valastarfighter.'",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+      "The Ting Tings (musical combination)",
+      "That's Not My Name (song)"
+    ],
+    "tend": "9:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "17:50",
+    "instance": "Carlo made cakes \\ mama sang tenor",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+      "Carl Perkins",
+      "Daddy Sang Bass (song)",
+      "Cake Boss"
+    ],
+    "tend": "18:10",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "34:55",
+    "instance": "I was a baker \\ a taker \\ a midnight caker",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+      "Carlo",
+      "The Joker (song)",
+      "Steve Miller Band (musical combination)"
+    ],
+    "tend": "35:10",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "56:15",
+    "instance": "Did he talk about how I said \"hey look at me I'm drinking your blood\" and then I made a yum-yum gesture?",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+      "Carlo",
+      "It Wasn't Me (song)",
+      "Shaggy"
+    ],
+    "tend": "56:45",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "1:39:30",
+    "instance": "What's the opposite of a refund?",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+      "Cake Boss",
+      "Baby Come Back (song)",
+"Player (musical combination)","O.J. Simpson"
+    ],
+    "tend": "1:39:55",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "3:28",
+    "instance": "I know you cannot hear the difference, but to me that's pretty amazing.",
+    "bit": "Fantastic.",
+    "elucidation": "one of scott's 25 words",
+    "tags": [],
+    "tend": "3:40",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "8:00",
+    "instance": "Cake Boss is here.",
+    "bit": "Cake Boss!",
+    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+    "tags": [
+      "Cake Boss"
+    ],
+    "tend": "8:15",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "1:31:30",
+    "instance": "I'm stuck inside this horse - whaddya wear?",
+    "bit": "Cake Boss!",
+    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+    "tags": [
+      "Cake Boss","Harmony Moongloss"
+    ],
+    "tend": "1:31:45",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "56:50",
+    "instance": "I mean you're not even the Cake Boss, really.",
+    "bit": "Cake Boss!",
+    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+    "tags": [
+      "Cake Boss"
+    ],
+    "tend": "57:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "57:00",
+    "instance": "Everybody know The Cake Boss works at Carlo's Bakery.",
+    "bit": "Cake Boss!",
+    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+    "tags": [
+      "Cake Boss"
+    ],
+    "tend": "57:10",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "57:10",
+    "instance": "So you just thought that you would take over Carlo's Bakery; take over his title; take over his life; take over his seat on The Cake Counsil and everything would just be fine?!",
+    "bit": "Cake Boss!",
+    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+    "tags": [
+      "Cake Boss"
+    ],
+    "tend": "57:25",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "58:45",
+    "instance": "Cake Fraud - that's what you are.",
+    "bit": "Cake Boss!",
+    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+    "tags": [
+      "Cake Boss"
+    ],
+    "tend": "59:02",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "1:00:00",
+    "instance": "It's a cake deal.",
+    "bit": "Cake Boss!",
+    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+    "tags": [
+      "Cake Boss"
+    ],
+    "tend": "1:00:10",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "1:00:10",
+    "instance": "Alright, Cake Boss, everyone.",
+    "bit": "Cake Boss!",
+    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+    "tags": [
+      "Cake Boss"
+    ],
+    "tend": "1:00:15",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "1:00:14",
+    "instance": "Can you stick around, Cake Boss?",
+    "bit": "Cake Boss!",
+    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+    "tags": [
+      "Cake Boss"
+    ],
+    "tend": "1:00:25",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "1:12:40",
+    "instance": "I'm very fearful, Ms. Moongloss.",
+    "bit": "Cake Boss!",
+    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+    "tags": [
+      "Cake Boss","Harmony Moongloss"
+    ],
+    "tend": "1:12:50",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "1:18:16",
+    "instance": "He doesn't get it.",
+    "bit": "Cake Boss!",
+    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+    "tags": [
+      "Cake Boss","Harmony Moongloss"
+    ],
+    "tend": "1:18:27",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "1:21:25",
+    "instance": "Eyes closed.",
+    "bit": "Cake Boss!",
+    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+    "tags": [
+      "Cake Boss","Harmony Moongloss"
+    ],
+    "tend": "1:21:42",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "1:25:30",
+    "instance": "That was entrapment.",
+    "bit": "Cake Boss!",
+    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+    "tags": [
+      "Cake Boss","Harmony Moongloss"
+    ],
+    "tend": "1:25:45",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "1:25:45",
+    "instance": "How old are my kids...I miss them.",
+    "bit": "Cake Boss!",
+    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+    "tags": [
+      "Cake Boss","Harmony Moongloss"
+    ],
+    "tend": "1:25:52",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "1:25:47",
+    "instance": "Cake Boss? I swear to god.",
+    "bit": "Cake Boss!",
+    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+    "tags": [
+      "Cake Boss","Harmony Moongloss"
+    ],
+    "tend": "1:25:57",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "1:25:50",
+    "instance": "I'm not saying anything!",
+    "bit": "Cake Boss!",
+    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+    "tags": [
+      "Cake Boss","Harmony Moongloss"
+    ],
+    "tend": "1:26:05",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "1:27:50",
+    "instance": "I let that one slide.",
+    "bit": "Cake Boss!",
+    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+    "tags": [
+      "Cake Boss","Harmony Moongloss"
+    ],
+    "tend": "1:27:55",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "16:30",
+    "instance": "I'm assuming they're still following me around.",
+    "bit": "Cake Boss!",
+    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+    "tags": [
+      "Cake Boss"
+    ],
+    "tend": "16:45",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "18:50",
+    "instance": "I gotta give you that one, Scott Aukerman.",
+    "bit": "Cake Boss!",
+    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+    "tags": [
+      "Cake Boss"
+    ],
+    "tend": "19:05",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "20:50",
+    "instance": "Buddy was bitten by...a cake bug.",
+    "bit": "Cake Boss!",
+    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+    "tags": [
+      "Cake Boss"
+    ],
+    "tend": "21:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "21:20",
+    "instance": "Those are cute...normally.",
+    "bit": "Cake Boss!",
+    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+    "tags": [
+      "Cake Boss"
+    ],
+    "tend": "21:45",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "32:55",
+    "instance": "He didn't change the name even though he calls himself The Cake Boss.",
+    "bit": "Cake Boss!",
+    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+    "tags": [
+      "Cake Boss",
+      "Carlo"
+    ],
+    "tend": "33:15",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "52:15",
+    "instance": "Were you the original Cake Boss?",
+    "bit": "Cake Boss!",
+    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+    "tags": [
+      "Cake Boss"
+    ],
+    "tend": "52:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "41:35",
+    "instance": "Carlo, you have to tell me - what was this cake monster?",
+    "bit": "Cake Boss!",
+    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+    "tags": [
+      "Cake Boss",
+      "Carlo"
+    ],
+    "tend": "41:45 ",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "15:35",
+    "instance": "Buddy, what brings you here?",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "tags": [
+      "Cake Boss"
+    ],
+    "nb": [
+      "carlo's bakery - cake boss' bakery"
+    ],
+    "tend": "16:10",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "21:00",
+    "instance": "He came to life, beeping and booping, and I had to eat him to death.",
+    "bit": "Too Much for the Cake Itself to Bear",
+    "elucidation": "cinnamon animates the inanimate",
+    "tags": [
+      "Cake Boss"
+    ],
+    "hero": {
+      "on": true,
+      "attrib": "Cake Boss"
+    },
+    "tend": "21:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "40:10",
+    "instance": "I began to make cakes too sugary.",
+    "bit": "Too Much for the Cake Itself to Bear",
+    "elucidation": "cinnamon animates the inanimate",
+    "tags": [
+      "Carlo"
+    ],
+    "tend": "40:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "26:30",
+    "instance": "Who's this genial man?",
+    "bit": "Please Call Me \"Garry\"",
+    "elucidation": "the compact of please call me",
+    "tags": [
+      "Cake Boss",
+      "Garry Marshall"
+    ],
+    "tend": "27:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "38:58",
+    "instance": "The tippy-top? Where they put the bride and groom?",
+    "bit": "...but watch yourself, councilor.",
+    "elucidation": "law & order (via john mulaney) is quoted",
+    "tags": [
+      "Carlo"
+    ],
+    "tend": "39:25",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "47:40",
+    "instance": "I believe it's been named.",
+    "bit": "It's Been",
+"elucidation": "not it's been a while",
+    "tags": [
+      "Carlo"
+    ],
+    "tend": "47:55",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  }
+  ,
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "1:35:00",
+    "instance": "I love the show - I watch it all the time in my free time.",
+    "bit": "Cake Boss!",
+    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+    "tags": [
+      "Cake Boss","O.J. Simpson"
+    ],
+    "tend": "1:35:10",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "1:37:20",
+    "instance": "I started to cry thinking about how short the lifespan is for football players.",
+    "bit": "Cake Boss!",
+    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+    "tags": [
+      "Cake Boss","O.J. Simpson"
+    ],
+    "tend": "1:37:35",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "1:52:45",
+    "instance": "The horse that my children became when Cake Boss found them in a guided meditation.",
+    "bit": "Cake Boss!",
+    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+    "tags": [
+      "Cake Boss","Harmony Moongloss"
+    ],
+        "hero": {
+      "on": true,
+      "attrib": "Harmony Moongloss"
+    },
+    "tend": "1:53:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "2:00:10",
+    "instance": "I'm having a memory.",
+    "bit": "Cake Boss!",
+    "elucidation": "cake boss repeats 'cake boss'...cake boss.",
+    "tags": [
+      "Cake Boss","Harmony Moongloss","O.J. Simpson"
+    ],
+    "tend": "2:00:25",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "1:41:20",
+    "instance": "I did a little stint there on some promotional tours for Isotoner gloves.",
+        "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "tags": [
+      "Harmony Moongloss","O.J. Simpson"
+    ],
+    "nb":["chippequa (california?)","home of: Harmony Moongloss"],
+    "tend": "1:41:45",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "1:44:34",
+    "instance": "I had just rushed for 213 yards.",
+        "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "tags": [
+      "Harmony Moongloss","O.J. Simpson","Cake Boss"
+    ],
+    "nb":["just outside of wherever the buffalo bills played in 1974","site of: a failed carjacking"],
+    "tend": "1:45:45",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "1:55:10",
+    "instance": "That news program was *Entertainment Tonight* and that was John Tesh.",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+      "Angel of the Morning (song)","Chip Taylor","O.J. Simpson"
+    ],
+    "tend": "1:55:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },
+  {
+    "episode": "https://www.stitcher.com/s?eid=65561957",
+    "show": "cbb",
+    "tstart": "2:00:20",
+    "instance": "It's 1994.",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+      "December, 1963 (Oh, What a Night) (song)","Cake Boss","The Four Seasons (musical combination)","Bob Gaudio","Judy Parker"
+    ],
+    "tend": "2:00:45",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from Philadelphia 2019",
+    "episode_guests": [
+      "Carl Tart",
+      "Lauren Lapkus",
       "Paul F. Tompkins"
     ],
     "holding": "false"
