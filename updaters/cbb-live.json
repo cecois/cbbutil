@@ -2,13 +2,255 @@
   {
     "episode": "https://www.stitcher.com/s?eid=65561414",
     "show": "cbb",
-    "tstart": "",
-    "instance": "",
-
+    "tstart": "11:00",
+    "instance": "And you made me show him my thing.",
+"bit":"Location","elucidation":"identifiable earth location",
+"nb":["todds zoltar machine"],
     "tags": [
-      
+      "Scott's Nephew Todd"
     ],
-    "tend": "",
+    "tend": "11:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from New York 2019",
+    "episode_guests": [
+      "Heidi Gardner",
+      "Lauren Lapkus",
+      "Ryan Gaul",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  }
+  ,{
+    "episode": "https://www.stitcher.com/s?eid=65561414",
+    "show": "cbb",
+    "tstart": "16:45",
+    "instance": "Juicy Nibbler",
+"bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": [
+      "Scott's Nephew Todd","Trapped in the Closet (song)",
+"R. Kelly"
+    ],
+    "tend": "17:05",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from New York 2019",
+    "episode_guests": [
+      "Heidi Gardner",
+      "Lauren Lapkus",
+      "Ryan Gaul",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },{
+    "episode": "https://www.stitcher.com/s?eid=65561414",
+    "show": "cbb",
+    "tstart": "23:00",
+    "instance": "The human body is what?",
+"bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": [
+      "Scott's Nephew Todd","Your Body is a Wonderland (song)","John Mayer"
+    ],
+    "tend": "23:20",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from New York 2019",
+    "episode_guests": [
+      "Heidi Gardner",
+      "Lauren Lapkus",
+      "Ryan Gaul",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },{
+    "episode": "https://www.stitcher.com/s?eid=65561414",
+    "show": "cbb",
+    "tstart": "26:00",
+    "instance": "I can't bear the thought of you getting away and running out into the street.",
+"bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": [
+      "Scott's Nephew Todd","The Fugees (musical combination)",
+"Killing Me Softly with His Song (song)"
+    ],
+    "tend": "26:17",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from New York 2019",
+    "episode_guests": [
+      "Heidi Gardner",
+      "Lauren Lapkus",
+      "Ryan Gaul",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },{
+    "episode": "https://www.stitcher.com/s?eid=65561414",
+    "show": "cbb",
+    "tstart": "27:00",
+    "instance": "And now we do TikTok.",
+"bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": [
+      "Scott's Nephew Todd","Bed Intruder Song (song)","The Gregory Brothers (musical combination)","Antoine Dodson"
+    ],
+    "tend": "27:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from New York 2019",
+    "episode_guests": [
+      "Heidi Gardner",
+      "Lauren Lapkus",
+      "Ryan Gaul",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },{
+    "episode": "https://www.stitcher.com/s?eid=65561414",
+    "show": "cbb",
+    "tstart": "31:10",
+    "instance": "Did you get the baldcap?",
+"bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": [
+      "Scott's Nephew Todd","We Like to Party! (The Vengabus) (song)","Vengaboys (musical combination)"
+    ],
+    "tend": "31:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from New York 2019",
+    "episode_guests": [
+      "Heidi Gardner",
+      "Lauren Lapkus",
+      "Ryan Gaul",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },{
+    "episode": "https://www.stitcher.com/s?eid=65561414",
+    "show": "cbb",
+    "tstart": "56:00",
+    "instance": "My tits got really small when I got small.",
+"bit": "The Doctor is a Woman",
+     "elucidation": "that old riddle",
+    "tags": [
+      "Scott's Nephew Todd"
+    ],
+    "tend": "56:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from New York 2019",
+    "episode_guests": [
+      "Heidi Gardner",
+      "Lauren Lapkus",
+      "Ryan Gaul",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },{
+    "episode": "https://www.stitcher.com/s?eid=65561414",
+    "show": "cbb",
+    "tstart": "1:10:15",
+    "instance": "Have you ever seen a horse?",
+"bit":"Scott's Questions","elucidation":"scott's...questions",
+    "tags": [
+      "Scott's Nephew Todd","Mayor Junius Bobbledoonary"
+    ],
+    "tend": "1:10:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from New York 2019",
+    "episode_guests": [
+      "Heidi Gardner",
+      "Lauren Lapkus",
+      "Ryan Gaul",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },{
+    "episode": "https://www.stitcher.com/s?eid=65561414",
+    "show": "cbb",
+    "tstart": "1:16:30",
+    "instance": "They prefer it - they know they're a loser and they prefer it.",
+"bit":"Who's Paul?","elucidation":"a character is referred to by the name/pronoun of their player",
+    "tags": [
+      "Scott's Nephew Todd","Hellen Klinch"
+    ],
+    "tend": "1:17:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from New York 2019",
+    "episode_guests": [
+      "Heidi Gardner",
+      "Lauren Lapkus",
+      "Ryan Gaul",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },{
+    "episode": "https://www.stitcher.com/s?eid=65561414",
+    "show": "cbb",
+    "tstart": "1:17:10",
+    "instance": "I had a career in surgery.",
+"bit": "The Doctor is a Woman",
+     "elucidation": "that old riddle",
+    "tags": [
+      "Scott's Nephew Todd","Hellen Klinch"
+    ],
+    "tend": "1:17:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-03T09:37:04Z",
+    "created_at": "2020-01-03T09:37:04Z",
+    "slug_earwolf": null,
+    "episode_title": "Live from New York 2019",
+    "episode_guests": [
+      "Heidi Gardner",
+      "Lauren Lapkus",
+      "Ryan Gaul",
+      "Paul F. Tompkins"
+    ],
+    "holding": "false"
+  },{
+    "episode": "https://www.stitcher.com/s?eid=65561414",
+    "show": "cbb",
+    "tstart": "1:19:10",
+    "instance": "You saw Gutter?",
+"bit":"Location","elucidation":"identifiable earth location",
+"nb":["little south carolina, SC","site of: Hellen Klinch seeing her horse, Gutter, for the first time"],
+    "tags": [
+      "Scott's Nephew Todd","Hell Klinch"
+    ],
+    "tend": "1:19:45",
     "location_type": "",
     "location_id": "",
     "updated_at": "2020-01-03T09:37:04Z",
