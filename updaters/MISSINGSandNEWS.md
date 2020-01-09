@@ -2113,6 +2113,7 @@
 
 - interesting people
   - several of the 480+ eps
+  - washington d.c. 2019,5:45
   - portland 2019 early show,3:45
   - portland 2019 late show,5:30
   - vancouver 2019,4:50
