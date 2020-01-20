@@ -696,9 +696,9 @@ console.log("exta.length",exta.length)
 			// exta is now our live copy of everything that's come before
 
 /* ----------------------------------------------- audit
-*/
 // we send the fresh stuff and the archive for audit
 // audit maps inca and exta into comparable arrays (concatenating several presumably distinct fields [episode+bit+instance+tags] into one nonsensical but probably-unique string) - N.B. this is not foolproof
+*/
 console.log("awaiting audit...")
 			var audited = await _AUDIT(inca,exta);
 			R.audit = audited
@@ -711,8 +711,8 @@ console.log("audit.flag:",R.audit.flag)
 }
 
 /* ----------------------------------------------- send to mlab
-*/
 // audit wz clean so we're sending
+*/
 console.log("--------------------> sending "+inca.length+" documents to MLAB...");
 sent = await _SEND(inca);
 
@@ -722,8 +722,8 @@ if(sent.documents.n !== inca.length){
 }
 
 /* -----------------------------------------------
-*/
 // Now we repeat bu and most_recent cuzzits gonna have sent.documents.length more
+*/
 const bu2 = await _EXTANT();
 console.log("getting most recent bu again (should be newer than before");
 const ext_source2 = await _MOST_RECENT();

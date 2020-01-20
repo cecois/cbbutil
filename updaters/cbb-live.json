@@ -1,4 +1,3 @@
-geoms
 [
   {
     "episode": "633",
@@ -196,9 +195,27 @@ geoms
     "bit":"Location","elucidation":"identifiable earth location",
     "tags": ["Piggy Sorebacks","Sonny"
     ],
+    "nb":["OJ vegas crime location"],
     "tend": "34:15",
-    "location_type": "",
-    "location_id": "",
+    "location_type": "poly",
+    "location_id": "572",
+    "updated_at": "2020-01-10T10:51:29Z",
+    "created_at": "2020-01-10T10:51:29Z",
+    "slug_earwolf": "forky-on-top-porky-on-the-bottom",
+    "episode_title": "Forky on Top, Porky on the Bottom",
+    "episode_guests": ["Ben Schwartz","Horatio Sanz"],
+    "holding": "false"
+},{
+    "episode": "633",
+    "tstart": "54:15",
+    "instance": "I'm seein two of yas.",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": ["Coco Marx"
+    ],
+    "nb":["branson, mo"],
+    "tend": "55:15",
+    "location_type": "poly",
+    "location_id": "233",
     "updated_at": "2020-01-10T10:51:29Z",
     "created_at": "2020-01-10T10:51:29Z",
     "slug_earwolf": "forky-on-top-porky-on-the-bottom",
@@ -212,10 +229,9 @@ geoms
     "bit":"Location","elucidation":"identifiable earth location",
     "tags": ["Piggy Sorebacks"
     ],
-    "nb":["Lies, Montana","hometown of: Piggy Sorebacks"],
-    "tend": "39:35",
-    "location_type": "",
-    "location_id": "",
+    "nb":["Valier, MT","proxy for: Lies, Montana","hometown of: Piggy Sorebacks"],
+    "tend": "39:45",
+"location_type": "poly","location_id": "1088",
     "updated_at": "2020-01-10T10:51:29Z",
     "created_at": "2020-01-10T10:51:29Z",
     "slug_earwolf": "forky-on-top-porky-on-the-bottom",
@@ -324,8 +340,7 @@ geoms
     "tags": ["Entree Pee Neur","Italiano Jones"],
     "nb": ["Tuscany, Italy"],
     "tend": "39:30",
-    "location_type": "",
-    "location_id": "",
+    "location_type": "poly","location_id": "1088",
     "updated_at": "2020-01-10T10:51:29Z",
     "created_at": "2020-01-10T10:51:29Z",
     "slug_earwolf": "wainscotting-entree-p-neur-italiano-jones",
@@ -355,8 +370,7 @@ geoms
     "tags": ["Entree Pee Neur","Italiano Jones","Dispatcher Sharon"],
     "nb": ["5959 Emergency Lane, Los Angeles, CA 91169","workplace of: Dispatcher Sharon"],
     "tend": "52:45",
-    "location_type": "",
-    "location_id": "",
+    "location_type": "point","location_id": "1225",
     "updated_at": "2020-01-10T10:51:29Z",
     "created_at": "2020-01-10T10:51:29Z",
     "slug_earwolf": "wainscotting-entree-p-neur-italiano-jones",
