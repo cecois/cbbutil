@@ -1,258 +1,114 @@
-[
+geoms[
   {
-    "episode": "635",
-    "tstart": "8:05",
-    "instance": "Cumming is the coughing of the pussy.",
-    "bit": "Not That Kind of a Show",
-    "elucidation": "cbb gets a little blue",
+    "episode": "636",
+    "tstart": "4:10",
+    "instance": "It's not 'Carter the Unstoppable Sex Machine.'",
+    "bit":"Titular","elucidation":"the titular 'titular'",
     "tags": [],
-    "tend": "8:45",
+    "tend": "4:20",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-01-16T10:51:29Z",
-    "created_at": "2020-01-16T10:51:29Z",
-    "slug_earwolf": "peanut-time-machine",
-    "episode_title": "Peanut Time Machine",
+    "updated_at": "2020-01-21T10:51:29Z",
+    "created_at": "2020-01-21T10:51:29Z",
+    "slug_earwolf": "hamburger-spider",
+    "episode_title": "Hamburger Spider",
     "episode_guests": [
-      "Erinn Hayes",
-      "James III",
-      "Jerah Milligan",
-      "Jonathan Braylock",
-      "Rob Huebel"
-    ],
-    "holding": "false"
-  },
-  {
-    "episode": "635",
-    "tstart": "20:00",
-    "instance": "This is not gonna be worth it.",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-      "Edge of Seventeen (song)",
-      "Stevie Nicks"
-    ],
-    "tend": "20:15",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-01-16T10:51:29Z",
-    "created_at": "2020-01-16T10:51:29Z",
-    "slug_earwolf": "peanut-time-machine",
-    "episode_title": "Peanut Time Machine",
-    "episode_guests": [
-      "Erinn Hayes",
-      "James III",
-      "Jerah Milligan",
-      "Jonathan Braylock",
-      "Rob Huebel"
-    ],
-    "holding": "false"
-  },
-  {
-    "episode": "635",
-    "tstart": "20:15",
-    "instance": "This is not gonna be worth it.",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-      "(She's) Sexy + 17 (song)",
-      "Stray Cats (musical combination)"
-    ],
-    "tend": "20:30",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-01-16T10:51:29Z",
-    "created_at": "2020-01-16T10:51:29Z",
-    "slug_earwolf": "peanut-time-machine",
-    "episode_title": "Peanut Time Machine",
-    "episode_guests": [
-      "Erinn Hayes",
-      "James III",
-      "Jerah Milligan",
-      "Jonathan Braylock",
-      "Rob Huebel"
-    ],
-    "holding": "false"
-  },
-  {
-    "episode": "635",
-    "tstart": "20:15",
-    "instance": "I can beat that.",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-      "Christine Sixteen (song)",
-      "KISS (musical combination)"
-    ],
-    "tend": "20:35",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-01-16T10:51:29Z",
-    "created_at": "2020-01-16T10:51:29Z",
-    "slug_earwolf": "peanut-time-machine",
-    "episode_title": "Peanut Time Machine",
-    "episode_guests": [
-      "Erinn Hayes",
-      "James III",
-      "Jerah Milligan",
-      "Jonathan Braylock",
-      "Rob Huebel"
-    ],
-    "holding": "false"
-  },
-  {
-    "episode": "635",
-    "tstart": "20:40",
-    "instance": "Every fuckin' skeevy rock star on the planet...",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-      "I Saw Her Standing There (song)",
-      "The Beatles (musical combination)"
-    ],
-    "tend": "21:15",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-01-16T10:51:29Z",
-    "created_at": "2020-01-16T10:51:29Z",
-    "slug_earwolf": "peanut-time-machine",
-    "episode_title": "Peanut Time Machine",
-    "episode_guests": [
-      "Erinn Hayes",
-      "James III",
-      "Jerah Milligan",
-      "Jonathan Braylock",
-      "Rob Huebel"
-    ],
-    "holding": "false"
-  },
-  {
-    "episode": "635",
-    "tstart": "22:55",
-    "instance": "Would you take your child to a doctor named 'Pederman'?",
-    "bit": "Scott's Questions",
-    "elucidation": "scott's...questions",
+      "Kristian Bruun",
+      "Ben Rodgers",
+      "Lisa Gilroy"
+    ]
+  },{
+    "episode": "636",
+    "tstart": "10:25",
+    "instance": "So what are some of your funny improvs you do this season?",
+    "bit":"Scott's Questions","elucidation":"scott's questions",
     "tags": [],
-    "tend": "23:15",
+    "tend": "10:42",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-01-16T10:51:29Z",
-    "created_at": "2020-01-16T10:51:29Z",
-    "slug_earwolf": "peanut-time-machine",
-    "episode_title": "Peanut Time Machine",
+    "updated_at": "2020-01-21T10:51:29Z",
+    "created_at": "2020-01-21T10:51:29Z",
+    "slug_earwolf": "hamburger-spider",
+    "episode_title": "Hamburger Spider",
     "episode_guests": [
-      "Erinn Hayes",
-      "James III",
-      "Jerah Milligan",
-      "Jonathan Braylock",
-      "Rob Huebel"
-    ],
-    "holding": "false"
-  },
-  {
-    "episode": "635",
-    "tstart": "53:00",
-    "instance": "What do you think about Bill Cosby, George Washington Carver?",
-    "bit": "Scott's Questions",
-    "elucidation": "scott's...questions",
-    "tags": [
-      "George Washington Carver"
-    ],
-    "tend": "53:25",
+      "Kristian Bruun",
+      "Ben Rodgers",
+      "Lisa Gilroy"
+    ]
+  },{
+    "episode": "636",
+    "tstart": "17:05",
+    "instance": "How much were you paid per-episode on that?",
+    "bit":"Scott's Questions","elucidation":"scott's questions",
+    "tags": [],
+    "tend": "17:20",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-01-16T10:51:29Z",
-    "created_at": "2020-01-16T10:51:29Z",
-    "slug_earwolf": "peanut-time-machine",
-    "episode_title": "Peanut Time Machine",
+    "updated_at": "2020-01-21T10:51:29Z",
+    "created_at": "2020-01-21T10:51:29Z",
+    "slug_earwolf": "hamburger-spider",
+    "episode_title": "Hamburger Spider",
     "episode_guests": [
-      "Erinn Hayes",
-      "James III",
-      "Jerah Milligan",
-      "Jonathan Braylock",
-      "Rob Huebel"
-    ],
-    "holding": "false"
-  },
-  {
-    "episode": "635",
-    "tstart": "30:00",
-    "instance": "It's not false, because I definitely made the peanut great.",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-      "Proud to be Black (song)",
-      "Run DMC (musical combination)",
-      "George Washington Carver"
-    ],
-    "tend": "30:30",
+      "Kristian Bruun",
+      "Ben Rodgers",
+      "Lisa Gilroy"
+    ]
+  },{
+    "episode": "636",
+    "tstart": "20:15",
+    "instance": "'Spider' you don't necessarily see in the titles of restaurants.",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": ["Russell Karate"],
+    "nb": ["gary mills, ca (just outside of l.a.","site of: failed restaurant Hamburger Spider"],
+    "tend": "23:30",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-01-16T10:51:29Z",
-    "created_at": "2020-01-16T10:51:29Z",
-    "slug_earwolf": "peanut-time-machine",
-    "episode_title": "Peanut Time Machine",
+    "updated_at": "2020-01-21T10:51:29Z",
+    "created_at": "2020-01-21T10:51:29Z",
+    "slug_earwolf": "hamburger-spider",
+    "episode_title": "Hamburger Spider",
     "episode_guests": [
-      "Erinn Hayes",
-      "James III",
-      "Jerah Milligan",
-      "Jonathan Braylock",
-      "Rob Huebel"
-    ],
-    "holding": "false"
-  },
-  {
-    "episode": "635",
-    "tstart": "1:05:45",
-    "instance": "A peanut farmer never tells.",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-      "Santa Baby (song)",
-      "George Washington Carver",
-      "Marcus Tanner",
-      "Joan Javits",
-      "Philip Springer"
-    ],
-    "tend": "1:06:15",
+      "Kristian Bruun",
+      "Ben Rodgers",
+      "Lisa Gilroy"
+    ]
+  },{
+    "episode": "636",
+    "tstart": "46:10",
+    "instance": "Maybe I can franchise Hamburger Spider.",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": ["Nan Auckerman"],
+    "nb": ["Colorado","former mayorship of: Nan Auckerman"],
+    "tend": "46:35",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-01-16T10:51:29Z",
-    "created_at": "2020-01-16T10:51:29Z",
-    "slug_earwolf": "peanut-time-machine",
-    "episode_title": "Peanut Time Machine",
+    "updated_at": "2020-01-21T10:51:29Z",
+    "created_at": "2020-01-21T10:51:29Z",
+    "slug_earwolf": "hamburger-spider",
+    "episode_title": "Hamburger Spider",
     "episode_guests": [
-      "Erinn Hayes",
-      "James III",
-      "Jerah Milligan",
-      "Jonathan Braylock",
-      "Rob Huebel"
-    ],
-    "holding": "false"
-  },
-  {
-    "episode": "635",
-    "tstart": "43:25",
-    "instance": "I could be paid for shitting!",
-    "bit": "That is the Dream",
-    "elucidation": "scott seems jealous or just commendatory",
-    "tags": [
-      "Lusciously"
-    ],
-    "tend": "45:45",
+      "Kristian Bruun",
+      "Ben Rodgers",
+      "Lisa Gilroy"
+    ]
+  },{
+    "episode": "636",
+    "tstart": "54:45",
+    "instance": "It takes me three hours to get to Gary Mills.",
+    "bit":"Location","elucidation":"identifiable earth location",
+    "tags": ["Russell Karate"],
+    "nb": ["Central Coast, CA","home to: Russell Karate"],
+    "tend": "55:15",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-01-16T10:51:29Z",
-    "created_at": "2020-01-16T10:51:29Z",
-    "slug_earwolf": "peanut-time-machine",
-    "episode_title": "Peanut Time Machine",
+    "updated_at": "2020-01-21T10:51:29Z",
+    "created_at": "2020-01-21T10:51:29Z",
+    "slug_earwolf": "hamburger-spider",
+    "episode_title": "Hamburger Spider",
     "episode_guests": [
-      "Erinn Hayes",
-      "James III",
-      "Jerah Milligan",
-      "Jonathan Braylock",
-      "Rob Huebel"
-    ],
-    "holding": "false"
+      "Kristian Bruun",
+      "Ben Rodgers",
+      "Lisa Gilroy"
+    ]
   }
 ]
