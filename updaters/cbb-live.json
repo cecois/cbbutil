@@ -110,5 +110,492 @@ geoms[
       "Ben Rodgers",
       "Lisa Gilroy"
     ]
+  },{
+    "episode": "637",
+    "tstart": "2:55",
+    "instance": "Do you think 'Crowdsurfing...'",
+"bit":"Introduction in a Second","elucidation":"scott delays a guest's introduction",
+    "tags": [],
+    "tend": "3:10",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-29T10:51:29Z",
+    "created_at": "2020-01-29T10:51:29Z",
+    "slug_earwolf": "moshe-rock-lord-andrew-lloyd-webber-jim-the-shim",
+    "episode_title": "Moshe Rock, Lord Andrew Lloyd Webber & Jim the Shim",
+    "episode_guests": [
+      "Moshe Kasher",
+      "Paul F. Tompkins",
+      "Tawny Newsome"
+    ]
+  },{
+    "episode": "637",
+    "tstart": "6:20",
+    "instance": "What's the opposite of a berry - a rock.",
+"bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "tags": ["Alimony Tony Giachieroni","Holly Rock (song)","Sheila E.","Prince"],
+    "tend": "6:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-29T10:51:29Z",
+    "created_at": "2020-01-29T10:51:29Z",
+    "slug_earwolf": "moshe-rock-lord-andrew-lloyd-webber-jim-the-shim",
+    "episode_title": "Moshe Rock, Lord Andrew Lloyd Webber & Jim the Shim",
+    "episode_guests": [
+      "Moshe Kasher",
+      "Paul F. Tompkins",
+      "Tawny Newsome"
+    ]
+  },{
+    "episode": "637",
+    "tstart": "18:00",
+    "instance": "Someone gave me the aux.",
+"bit": "Scottrick",
+"elucidation": "akin to \"topping hat\" -- a dsalwism",
+    "tags": ["Andrew Lloyd Webber"],
+    "tend": "18:10",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-29T10:51:29Z",
+    "created_at": "2020-01-29T10:51:29Z",
+    "slug_earwolf": "moshe-rock-lord-andrew-lloyd-webber-jim-the-shim",
+    "episode_title": "Moshe Rock, Lord Andrew Lloyd Webber & Jim the Shim",
+    "episode_guests": [
+      "Moshe Kasher",
+      "Paul F. Tompkins",
+      "Tawny Newsome"
+    ]
+  },{
+    "episode": "637",
+    "tstart": "19:55",
+    "instance": "Enough Bible stuff - I don't wanna be pigeonholed.",
+"bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "tags": ["Don't Cry for Me Argentina (song)",
+"Andrew Lloyd Webber",
+"Tim Rice"],
+    "tend": "20:15",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-29T10:51:29Z",
+    "created_at": "2020-01-29T10:51:29Z",
+    "slug_earwolf": "moshe-rock-lord-andrew-lloyd-webber-jim-the-shim",
+    "episode_title": "Moshe Rock, Lord Andrew Lloyd Webber & Jim the Shim",
+    "episode_guests": [
+      "Moshe Kasher",
+      "Paul F. Tompkins",
+      "Tawny Newsome"
+    ]
+  },{
+    "episode": "637",
+    "tstart": "21:15",
+    "instance": "What is this, 'Chariots of Fire'?",
+"bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "tags": ["Chariots of Fire (song)","Vangelis",
+"Andrew Lloyd Webber"],
+    "tend": "21:45",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-29T10:51:29Z",
+    "created_at": "2020-01-29T10:51:29Z",
+    "slug_earwolf": "moshe-rock-lord-andrew-lloyd-webber-jim-the-shim",
+    "episode_title": "Moshe Rock, Lord Andrew Lloyd Webber & Jim the Shim",
+    "episode_guests": [
+      "Moshe Kasher",
+      "Paul F. Tompkins",
+      "Tawny Newsome"
+    ]
+  },{
+    "episode": "637",
+    "tstart": "21:15",
+    "instance": "I want to pave my ears with cement.",
+"bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "tags": ["Hill Street Blues (song)","Mike Post",
+"Andrew Lloyd Webber"],
+    "tend": "21:45",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-29T10:51:29Z",
+    "created_at": "2020-01-29T10:51:29Z",
+    "slug_earwolf": "moshe-rock-lord-andrew-lloyd-webber-jim-the-shim",
+    "episode_title": "Moshe Rock, Lord Andrew Lloyd Webber & Jim the Shim",
+    "episode_guests": [
+      "Moshe Kasher",
+      "Paul F. Tompkins",
+      "Tawny Newsome"
+    ]
+  },{
+    "episode": "637",
+    "tstart": "21:15",
+    "instance": "I want to pave my ears with cement.",
+"bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "tags": ["White Shadow Theme Song (song)","Mike Post","Pete Carpenter",
+"Andrew Lloyd Webber"],
+    "tend": "22:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-29T10:51:29Z",
+    "created_at": "2020-01-29T10:51:29Z",
+    "slug_earwolf": "moshe-rock-lord-andrew-lloyd-webber-jim-the-shim",
+    "episode_title": "Moshe Rock, Lord Andrew Lloyd Webber & Jim the Shim",
+    "episode_guests": [
+      "Moshe Kasher",
+      "Paul F. Tompkins",
+      "Tawny Newsome"
+    ]
+  },{
+    "episode": "637",
+    "tstart": "24:20",
+    "instance": "Did you want to interview anyone else about their childhood experience of seeing the musical that I wrote or should I leave?",
+"bit": "Scottrick",
+"elucidation": "akin to \"topping hat\" -- a dsalwism",
+    "tags": ["Andrew Lloyd Webber"],
+    "tend": "24:45",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-29T10:51:29Z",
+    "created_at": "2020-01-29T10:51:29Z",
+    "slug_earwolf": "moshe-rock-lord-andrew-lloyd-webber-jim-the-shim",
+    "episode_title": "Moshe Rock, Lord Andrew Lloyd Webber & Jim the Shim",
+    "episode_guests": [
+      "Moshe Kasher",
+      "Paul F. Tompkins",
+      "Tawny Newsome"
+    ]
+  },{
+    "episode": "637",
+    "tstart": "24:55",
+    "instance": "But you did not see the movie - I did not see the movie.",
+"bit": "Scottrick",
+"elucidation": "akin to \"topping hat\" -- a dsalwism",
+    "tags": ["Andrew Lloyd Webber"],
+    "tend": "25:10",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-29T10:51:29Z",
+    "created_at": "2020-01-29T10:51:29Z",
+    "slug_earwolf": "moshe-rock-lord-andrew-lloyd-webber-jim-the-shim",
+    "episode_title": "Moshe Rock, Lord Andrew Lloyd Webber & Jim the Shim",
+    "episode_guests": [
+      "Moshe Kasher",
+      "Paul F. Tompkins",
+      "Tawny Newsome"
+    ]
+  },{
+    "episode": "637",
+    "tstart": "30:04",
+    "instance": "Your name sounds like a bunch of made-up nonsense - how do I remember your name?",
+"bit": "Scottrick",
+"elucidation": "akin to \"topping hat\" -- a dsalwism",
+    "tags": ["Andrew Lloyd Webber"],
+    "tend": "30:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-29T10:51:29Z",
+    "created_at": "2020-01-29T10:51:29Z",
+    "slug_earwolf": "moshe-rock-lord-andrew-lloyd-webber-jim-the-shim",
+    "episode_title": "Moshe Rock, Lord Andrew Lloyd Webber & Jim the Shim",
+    "episode_guests": [
+      "Moshe Kasher",
+      "Paul F. Tompkins",
+      "Tawny Newsome"
+    ]
+  },{
+    "episode": "637",
+    "tstart": "37:50",
+    "instance": "Did you hold such a contest?",
+"bit": "Scottrick",
+"elucidation": "akin to \"topping hat\" -- a dsalwism",
+    "tags": ["Andrew Lloyd Webber","Jim the Shim"],
+    "tend": "38:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-29T10:51:29Z",
+    "created_at": "2020-01-29T10:51:29Z",
+    "slug_earwolf": "moshe-rock-lord-andrew-lloyd-webber-jim-the-shim",
+    "episode_title": "Moshe Rock, Lord Andrew Lloyd Webber & Jim the Shim",
+    "episode_guests": [
+      "Moshe Kasher",
+      "Paul F. Tompkins",
+      "Tawny Newsome"
+    ]
+  },{
+    "episode": "637",
+    "tstart": "38:00",
+    "instance": "Did you put any advertisements in the newspaper?",
+"bit": "Scottrick",
+"elucidation": "akin to \"topping hat\" -- a dsalwism",
+    "tags": ["Andrew Lloyd Webber","Jim the Shim"],
+    "tend": "38:10",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-29T10:51:29Z",
+    "created_at": "2020-01-29T10:51:29Z",
+    "slug_earwolf": "moshe-rock-lord-andrew-lloyd-webber-jim-the-shim",
+    "episode_title": "Moshe Rock, Lord Andrew Lloyd Webber & Jim the Shim",
+    "episode_guests": [
+      "Moshe Kasher",
+      "Paul F. Tompkins",
+      "Tawny Newsome"
+    ]
+  },{
+    "episode": "637",
+    "tstart": "47:00",
+    "instance": "I admire your ferocious defense of me and my work.",
+"bit": "Scottrick",
+"elucidation": "akin to \"topping hat\" -- a dsalwism",
+    "tags": ["Andrew Lloyd Webber","Jim the Shim"],
+    "tend": "47:20",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-29T10:51:29Z",
+    "created_at": "2020-01-29T10:51:29Z",
+    "slug_earwolf": "moshe-rock-lord-andrew-lloyd-webber-jim-the-shim",
+    "episode_title": "Moshe Rock, Lord Andrew Lloyd Webber & Jim the Shim",
+    "episode_guests": [
+      "Moshe Kasher",
+      "Paul F. Tompkins",
+      "Tawny Newsome"
+    ]
+  },{
+    "episode": "637",
+    "tstart": "1:04:50",
+    "instance": "Jim's got an answer for everything.",
+"bit": "Scottrick",
+"elucidation": "akin to \"topping hat\" -- a dsalwism",
+    "tags": ["Andrew Lloyd Webber","Jim the Shim"],
+    "tend": "1:05:08",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-29T10:51:29Z",
+    "created_at": "2020-01-29T10:51:29Z",
+    "slug_earwolf": "moshe-rock-lord-andrew-lloyd-webber-jim-the-shim",
+    "episode_title": "Moshe Rock, Lord Andrew Lloyd Webber & Jim the Shim",
+    "episode_guests": [
+      "Moshe Kasher",
+      "Paul F. Tompkins",
+      "Tawny Newsome"
+    ]
+  },{
+    "episode": "637",
+    "tstart": "27:30",
+    "instance": "It blinded her \\ with Megxit",
+"bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "tags": ["Andrew Lloyd Webber","She Blinded Me with Science (song)",
+"Thomas Dolby"],
+    "tend": "27:50",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-29T10:51:29Z",
+    "created_at": "2020-01-29T10:51:29Z",
+    "slug_earwolf": "moshe-rock-lord-andrew-lloyd-webber-jim-the-shim",
+    "episode_title": "Moshe Rock, Lord Andrew Lloyd Webber & Jim the Shim",
+    "episode_guests": [
+      "Moshe Kasher",
+      "Paul F. Tompkins",
+      "Tawny Newsome"
+    ]
+  },{
+    "episode": "637",
+    "tstart": "30:45",
+    "instance": "Some people were saying it was the only film flop of 2019.",
+"bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "tags": ["Andrew Lloyd Webber","The Joker (song)",
+"Steve Miller Band (musical combination)"],
+    "tend": "31:03",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-29T10:51:29Z",
+    "created_at": "2020-01-29T10:51:29Z",
+    "slug_earwolf": "moshe-rock-lord-andrew-lloyd-webber-jim-the-shim",
+    "episode_title": "Moshe Rock, Lord Andrew Lloyd Webber & Jim the Shim",
+    "episode_guests": [
+      "Moshe Kasher",
+      "Paul F. Tompkins",
+      "Tawny Newsome"
+    ]
+  },{
+    "episode": "637",
+    "tstart": "42:00",
+    "instance": "I put tap shoes on my hands and played the piano with them.",
+"bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "tags": ["Andrew Lloyd Webber","Hooray for Hollywood (song)",
+"Richard A. Whiting","Jim the Shim"],
+    "tend": "42:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-29T10:51:29Z",
+    "created_at": "2020-01-29T10:51:29Z",
+    "slug_earwolf": "moshe-rock-lord-andrew-lloyd-webber-jim-the-shim",
+    "episode_title": "Moshe Rock, Lord Andrew Lloyd Webber & Jim the Shim",
+    "episode_guests": [
+      "Moshe Kasher",
+      "Paul F. Tompkins",
+      "Tawny Newsome"
+    ]
+  },{
+    "episode": "637",
+    "tstart": "42:10",
+    "instance": "It's got a little bit of a Christmas vibe, too.",
+"bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "tags": ["Andrew Lloyd Webber","Skimbleshanks: The Railway Cat (song)","Jim the Shim"],
+    "tend": "42:45",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-29T10:51:29Z",
+    "created_at": "2020-01-29T10:51:29Z",
+    "slug_earwolf": "moshe-rock-lord-andrew-lloyd-webber-jim-the-shim",
+    "episode_title": "Moshe Rock, Lord Andrew Lloyd Webber & Jim the Shim",
+    "episode_guests": [
+      "Moshe Kasher",
+      "Paul F. Tompkins",
+      "Tawny Newsome"
+    ]
+  },{
+    "episode": "637",
+    "tstart": "43:30",
+    "instance": "And yet you challenge me before you're even given an appointment.",
+"bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "tags": ["Andrew Lloyd Webber","Mungojerrie and Rumpelteazer (song)","Jim the Shim"],
+    "tend": "44:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-29T10:51:29Z",
+    "created_at": "2020-01-29T10:51:29Z",
+    "slug_earwolf": "moshe-rock-lord-andrew-lloyd-webber-jim-the-shim",
+    "episode_title": "Moshe Rock, Lord Andrew Lloyd Webber & Jim the Shim",
+    "episode_guests": [
+      "Moshe Kasher",
+      "Paul F. Tompkins",
+      "Tawny Newsome"
+    ]
+  },{
+    "episode": "637",
+    "tstart": "1:05:30",
+    "instance": "How you doin', Chewbacca?",
+"bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "tags": ["Andrew Lloyd Webber","On This Night Of a Thousand Stars (song)","Jim the Shim","Tim Rice"],
+    "hero":{"on":true,"attrib":"Andrew Lloyd Web"},
+    "tend": "1:06:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-29T10:51:29Z",
+    "created_at": "2020-01-29T10:51:29Z",
+    "slug_earwolf": "moshe-rock-lord-andrew-lloyd-webber-jim-the-shim",
+    "episode_title": "Moshe Rock, Lord Andrew Lloyd Webber & Jim the Shim",
+    "episode_guests": [
+      "Moshe Kasher",
+      "Paul F. Tompkins",
+      "Tawny Newsome"
+    ]
+  },{
+    "episode": "637",
+    "tstart": "1:05:45",
+    "instance": "How you doin', Chewbacca?",
+"bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "tags": ["Andrew Lloyd Webber","Memory (song)","Jim the Shim","Trevor Nunn"],
+    "tend": "1:06:10",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-29T10:51:29Z",
+    "created_at": "2020-01-29T10:51:29Z",
+    "slug_earwolf": "moshe-rock-lord-andrew-lloyd-webber-jim-the-shim",
+    "episode_title": "Moshe Rock, Lord Andrew Lloyd Webber & Jim the Shim",
+    "episode_guests": [
+      "Moshe Kasher",
+      "Paul F. Tompkins",
+      "Tawny Newsome"
+    ]
+  },{
+    "episode": "637",
+    "tstart": "39:50",
+    "instance": "They actually have way better self-governing tactics than most humans or animals.",
+"bit":"Location","elucidation":"identifiable earth location",
+    "tags": ["Jim the Shim"],
+    "nb": ["proxy for: leery, ohio","home to: Jim the Shim's sentient tap shoes"],
+    "tend": "40:15",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-29T10:51:29Z",
+    "created_at": "2020-01-29T10:51:29Z",
+    "slug_earwolf": "moshe-rock-lord-andrew-lloyd-webber-jim-the-shim",
+    "episode_title": "Moshe Rock, Lord Andrew Lloyd Webber & Jim the Shim",
+    "episode_guests": [
+      "Moshe Kasher",
+      "Paul F. Tompkins",
+      "Tawny Newsome"
+    ]
+  },{
+    "episode": "637",
+    "tstart": "47:25",
+    "instance": "Oh, I'm allergic to cats - I can't see this film.",
+"bit": "The Train Effect",
+"elucidation": "among scott's favorite films is evidently \"l'arrivé d'un train en gare de la ciotat\"",
+    "tags": ["Jim the Shim","Andrew Lloyd Webber"],
+    "tend": "47:45",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-29T10:51:29Z",
+    "created_at": "2020-01-29T10:51:29Z",
+    "slug_earwolf": "moshe-rock-lord-andrew-lloyd-webber-jim-the-shim",
+    "episode_title": "Moshe Rock, Lord Andrew Lloyd Webber & Jim the Shim",
+    "episode_guests": [
+      "Moshe Kasher",
+      "Paul F. Tompkins",
+      "Tawny Newsome"
+    ]
+  },{
+    "episode": "637",
+    "tstart": "57:30",
+    "instance": "What do you consider your definitive role?",
+"bit":"Oh Boy","elucidation":"something is disgusting in some way",
+    "tags": ["Jim the Shim","Andrew Lloyd Webber"],
+    "tend": "57:50",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-29T10:51:29Z",
+    "created_at": "2020-01-29T10:51:29Z",
+    "slug_earwolf": "moshe-rock-lord-andrew-lloyd-webber-jim-the-shim",
+    "episode_title": "Moshe Rock, Lord Andrew Lloyd Webber & Jim the Shim",
+    "episode_guests": [
+      "Moshe Kasher",
+      "Paul F. Tompkins",
+      "Tawny Newsome"
+    ]
+  },{
+    "episode": "637",
+    "tstart": "57:45",
+    "instance": "This is the problem - Jim is bored of his own stories.",
+"bit":"Who's Paul?","elucidation":"a character is referred to by the name/pronoun of their player",
+    "tags": ["Jim the Shim","Andrew Lloyd Webber"],
+    "tend": "58:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-29T10:51:29Z",
+    "created_at": "2020-01-29T10:51:29Z",
+    "slug_earwolf": "moshe-rock-lord-andrew-lloyd-webber-jim-the-shim",
+    "episode_title": "Moshe Rock, Lord Andrew Lloyd Webber & Jim the Shim",
+    "episode_guests": [
+      "Moshe Kasher",
+      "Paul F. Tompkins",
+      "Tawny Newsome"
+    ]
+  },{
+    "episode": "637",
+    "tstart": "1:11:35",
+    "instance": "I don't like podcasts, though.",
+"bit":"Group Coupon","elucidation":"scott articulates obvious data (acronyms, abbreviations, etc.)",
+    "tags": ["Alimony Tony Giachieroni"],
+    "tend": "1:11:55",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-01-29T10:51:29Z",
+    "created_at": "2020-01-29T10:51:29Z",
+    "slug_earwolf": "moshe-rock-lord-andrew-lloyd-webber-jim-the-shim",
+    "episode_title": "Moshe Rock, Lord Andrew Lloyd Webber & Jim the Shim",
+    "episode_guests": [
+      "Moshe Kasher",
+      "Paul F. Tompkins",
+      "Tawny Newsome"
+    ]
   }
 ]
