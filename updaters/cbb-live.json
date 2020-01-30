@@ -1,4 +1,4 @@
-geoms[
+[
   {
     "episode": "636",
     "tstart": "4:10",
@@ -61,8 +61,7 @@ geoms[
     "tags": ["Russell Karate"],
     "nb": ["gary mills, ca (just outside of l.a.","site of: failed restaurant Hamburger Spider"],
     "tend": "23:30",
-    "location_type": "",
-    "location_id": "",
+    "location_type": "poly","location_id": "1089",
     "updated_at": "2020-01-21T10:51:29Z",
     "created_at": "2020-01-21T10:51:29Z",
     "slug_earwolf": "hamburger-spider",
@@ -80,8 +79,8 @@ geoms[
     "tags": ["Nan Auckerman"],
     "nb": ["Colorado","former mayorship of: Nan Auckerman"],
     "tend": "46:35",
-    "location_type": "",
-    "location_id": "",
+    "location_type": "poly",
+    "location_id": "425",
     "updated_at": "2020-01-21T10:51:29Z",
     "created_at": "2020-01-21T10:51:29Z",
     "slug_earwolf": "hamburger-spider",
@@ -99,8 +98,7 @@ geoms[
     "tags": ["Russell Karate"],
     "nb": ["Central Coast, CA","home to: Russell Karate"],
     "tend": "55:15",
-    "location_type": "",
-    "location_id": "",
+    "location_type": "poly","location_id": "1090",
     "updated_at": "2020-01-21T10:51:29Z",
     "created_at": "2020-01-21T10:51:29Z",
     "slug_earwolf": "hamburger-spider",
