@@ -557,6 +557,7 @@ live-from-vulture-fest-2017
 -   26 (eggnogs),46:30,xfowg theme song slow
 -   31 (frnk),5:00,zat yr jacket
 -   31 (frnk),17:30,this guy wz put in jail
+-   31 (frnk),30:30,the glengarry leads
 -   31 (frnk),57:15,zat yr jacket
 -   31 (frnk),13:30,how wz the script?
 -   27,11:45,survey
@@ -578,6 +579,7 @@ live-from-vulture-fest-2017
 -   30,6:30,clue character
 -   30,7:30,Louise ck
 -   30,27:30, finish
+-   30,54:00,i'm back in
 -   31,7:15,finish
 -   31,7:45,fuck this (long)
 -   31,11:45,9/11
