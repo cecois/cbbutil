@@ -1,349 +1,243 @@
 [
   {
-    "episode": "638",
-    "tstart": "10:00",
-    "instance": "I have an update - they don't.",
-"bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "episode": "639",
+    "tstart": "27:05",
+    "instance": "Do you ever envy that time when you can just not be a part of it?",
+"bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
     "tags": [
-"45 RPM (song)","The Alarm (musical combination)","Poppy Fields (musical combination)"
+"Let it Go (song)",
+"Kristen Anderson-Lopez",
+"Robert Lopez"
     ],
-    "tend": "10:40",
+    "tend": "27:30",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-02-02T10:51:29Z",
-    "created_at": "2020-02-02T10:51:29Z",
-    "slug_earwolf": "one-last-heist",
-    "episode_title": "One Last Heist",
+    "updated_at": "2020-02-10T10:51:29Z",
+    "created_at": "2020-02-10T10:51:29Z",
+    "slug_earwolf": "the-becky-button",
+    "episode_title": "The Becky Button",
     "episode_guests": [
-      "Jason Mantzoukas",
-      "Shaun Diston",
-      "Tim Baltz"
+      "Andy Samberg","Nick Kroll","Lily Sullivan"
+    ]
+  },{
+    "episode": "639",
+    "tstart": "1:01:35",
+    "instance": "I don't wanna get made fun of.",
+"bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": [
+"Becky",
+"Red Hot Chili Peppers (musical combination)",
+"Give It Away (song)"
+    ],
+    "tend": "1:01:45",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-02-10T10:51:29Z",
+    "created_at": "2020-02-10T10:51:29Z",
+    "slug_earwolf": "the-becky-button",
+    "episode_title": "The Becky Button",
+    "episode_guests": [
+      "Andy Samberg","Nick Kroll","Lily Sullivan"
+    ]
+  },{
+    "episode": "639",
+    "tstart": "58:15",
+    "instance": "That's what I know for sure.",
+"bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": [
+"Friday (song)",
+"Rebecca Black",
+"Clarence Jey","Patrice Wilson"
+    ],
+    "tend": "58:45",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-02-10T10:51:29Z",
+    "created_at": "2020-02-10T10:51:29Z",
+    "slug_earwolf": "the-becky-button",
+    "episode_title": "The Becky Button",
+    "episode_guests": [
+      "Andy Samberg","Nick Kroll","Lily Sullivan"
     ]
   }
   ,{
-    "episode": "638",
-    "tstart": "4:40",
-    "instance": "Burn me up, Buttercup, baby \\ just to burn me down",
-"bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "episode": "639",
+    "tstart": "33:30",
+    "instance": "To be clear - you don't work the entire 24 hours?",
+"bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":["bekcy's 24-hour fitness","extant"],
     "tags": [
-"Build Me Up Buttercup (song)","Mike d'Abo","Tony Macaulay","The Foundations (musical combination)"
+"Becky"
     ],
-    "tend": "4:55",
+    "tend": "34:00",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-02-02T10:51:29Z",
-    "created_at": "2020-02-02T10:51:29Z",
-    "slug_earwolf": "one-last-heist",
-    "episode_title": "One Last Heist",
+    "updated_at": "2020-02-10T10:51:29Z",
+    "created_at": "2020-02-10T10:51:29Z",
+    "slug_earwolf": "the-becky-button",
+    "episode_title": "The Becky Button",
     "episode_guests": [
-      "Jason Mantzoukas",
-      "Shaun Diston",
-      "Tim Baltz"
+      "Andy Samberg","Nick Kroll","Lily Sullivan"
     ]
   },{
-    "episode": "638",
-    "tstart": "1:13:55",
-    "instance": "Kill Renner; fuck potato; marry Alan Alda.",
-"bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "episode": "639",
+    "tstart": "51:45",
+    "instance": "I like to leave my mark.",
+"bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":["bekcy's 24-hour fitness","extant"],
     "tags": [
-"7½ Cents (song)","Richard Adler","Jerry Ross","Bullets Jackson"
+"Becky"
     ],
-    "tend": "1:14:15",
+    "tend": "52:15",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-02-02T10:51:29Z",
-    "created_at": "2020-02-02T10:51:29Z",
-    "slug_earwolf": "one-last-heist",
-    "episode_title": "One Last Heist",
+    "updated_at": "2020-02-10T10:51:29Z",
+    "created_at": "2020-02-10T10:51:29Z",
+    "slug_earwolf": "the-becky-button",
+    "episode_title": "The Becky Button",
     "episode_guests": [
-      "Jason Mantzoukas",
-      "Shaun Diston",
-      "Tim Baltz"
+      "Andy Samberg","Nick Kroll","Lily Sullivan"
     ]
   },{
-    "episode": "638",
-    "tstart": "1:12:35",
-    "instance": "Alda's in the mix?!",
-"bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "episode": "639",
+    "tstart": "33:45",
+    "instance": "You've worked up quite an appetite.",
+"bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":["ed debevic's next to becky's 24-hour fitness","extant"],
     "tags": [
-"Alan Alda","Freddie's Dead (song)","Curtis Mayfield"
+"Becky"
     ],
-    "tend": "1:12:55",
+    "tend": "34:30",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-02-02T10:51:29Z",
-    "created_at": "2020-02-02T10:51:29Z",
-    "slug_earwolf": "one-last-heist",
-    "episode_title": "One Last Heist",
+    "updated_at": "2020-02-10T10:51:29Z",
+    "created_at": "2020-02-10T10:51:29Z",
+    "slug_earwolf": "the-becky-button",
+    "episode_title": "The Becky Button",
     "episode_guests": [
-      "Jason Mantzoukas",
-      "Shaun Diston",
-      "Tim Baltz"
+      "Andy Samberg","Nick Kroll","Lily Sullivan"
     ]
   },{
-    "episode": "638",
-    "tstart": "35:10",
-    "instance": "I don't like to get people in HR trouble.",
-"bit":"The Paul Hardcastle of Suicides","elucidation":"any song reference",
+    "episode": "639",
+    "tstart": "37:00",
+    "instance": "I'm too nice.",
+"bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":["ed debevic's next to becky's 24-hour fitness","extant"],
     "tags": [
-"Best of Both Worlds (song)","Van Halen (musical combination)"
+"Becky"
     ],
-    "tend": "35:55",
+    "tend": "37:30",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-02-02T10:51:29Z",
-    "created_at": "2020-02-02T10:51:29Z",
-    "slug_earwolf": "one-last-heist",
-    "episode_title": "One Last Heist",
+    "updated_at": "2020-02-10T10:51:29Z",
+    "created_at": "2020-02-10T10:51:29Z",
+    "slug_earwolf": "the-becky-button",
+    "episode_title": "The Becky Button",
     "episode_guests": [
-      "Jason Mantzoukas",
-      "Shaun Diston",
-      "Tim Baltz"
-    ]
-  }
-  ,{
-    "episode": "638",
-    "tstart": "7:35",
-    "instance": "I'm not gonna fall into your trap.",
-"bit":"Wipe Out","elucidation":"scott solos the melody from wipe out or scott expresses his anger at the wipe out snark",
-    "tags": [],
-    "tend": "8:15",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-02-02T10:51:29Z",
-    "created_at": "2020-02-02T10:51:29Z",
-    "slug_earwolf": "one-last-heist",
-    "episode_title": "One Last Heist",
-    "episode_guests": [
-      "Jason Mantzoukas",
-      "Shaun Diston",
-      "Tim Baltz"
+      "Andy Samberg","Nick Kroll","Lily Sullivan"
     ]
   },{
-    "episode": "638",
-    "tstart": "8:14",
-    "instance": "Do you ever wanna be in the Rock & Roll Hall of Fame?",
-"bit":"Scott's Questions","elucidation":"scott's...questions",
-    "tags": [],
-    "tend": "8:33",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-02-02T10:51:29Z",
-    "created_at": "2020-02-02T10:51:29Z",
-    "slug_earwolf": "one-last-heist",
-    "episode_title": "One Last Heist",
-    "episode_guests": [
-      "Jason Mantzoukas",
-      "Shaun Diston",
-      "Tim Baltz"
-    ]
-  },{
-    "episode": "638",
-    "tstart": "24:20",
-    "instance": "Do a podcast per week.",
-"bit": "Former Girlfriend",
-"elucidation": "scott gained one ex-girlfriend when he married kulap",
-    "tags": [],
-    "tend": "24:40",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-02-02T10:51:29Z",
-    "created_at": "2020-02-02T10:51:29Z",
-    "slug_earwolf": "one-last-heist",
-    "episode_title": "One Last Heist",
-    "episode_guests": [
-      "Jason Mantzoukas",
-      "Shaun Diston",
-      "Tim Baltz"
-    ]
-  },{
-    "episode": "638",
-    "tstart": "28:05",
-    "instance": "Are there anyone who is 2 of 67?",
-"bit": "Twins!",
-"elucidation": "someone does that coors commercial",
-    "tags": ["Bullets Jackson"],
-    "tend": "28:30",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-02-02T10:51:29Z",
-    "created_at": "2020-02-02T10:51:29Z",
-    "slug_earwolf": "one-last-heist",
-    "episode_title": "One Last Heist",
-    "episode_guests": [
-      "Jason Mantzoukas",
-      "Shaun Diston",
-      "Tim Baltz"
-    ]
-  },{
-    "episode": "638",
-    "tstart": "30:50",
-    "instance": "Merry Christmas, you old building & loan.",
-"bit": "Dismissive Jimmy Stewart",
-"elucidation": "someone (scott, usually) does a jimmy stewart",
-    "tags": ["Bullets Jackson"],
-    "tend": "31:15",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-02-02T10:51:29Z",
-    "created_at": "2020-02-02T10:51:29Z",
-    "slug_earwolf": "one-last-heist",
-    "episode_title": "One Last Heist",
-    "episode_guests": [
-      "Jason Mantzoukas",
-      "Shaun Diston",
-      "Tim Baltz"
-    ]
-  },{
-    "episode": "638",
-    "tstart": "40:00",
-    "instance": "Something people still scream at me whenever they see me.",
-"bit": "Heynong Man",
-"elucidation": "the cbb sorbet",
-    "tags": [],
-    "tend": "40:19",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-02-02T10:51:29Z",
-    "created_at": "2020-02-02T10:51:29Z",
-    "slug_earwolf": "one-last-heist",
-    "episode_title": "One Last Heist",
-    "episode_guests": [
-      "Jason Mantzoukas",
-      "Shaun Diston",
-      "Tim Baltz"
-    ]
-  },{
-    "episode": "638",
-    "tstart": "20:50",
-    "instance": "We're stealing Blue Boy.",
+    "episode": "639",
+    "tstart": "34:30",
+    "instance": "I don't wanna point this out but I notice an accent.",
 "bit": "Location",
 "elucidation": "identifiable earth location",
-"nb":[
-  "Huntington Library - Blue Boy exhibit"
-  ,"https://en.wikipedia.org/wiki/Huntington_Library"
-  ,"-118.11,34.127222"
-],
-    "tags": ["Bullets Jackson"],
-    "tend": "21:15",
-    "location_type": "poly","location_id": "1092",
-    "updated_at": "2020-02-02T10:51:29Z",
-    "created_at": "2020-02-02T10:51:29Z",
-    "slug_earwolf": "one-last-heist",
-    "episode_title": "One Last Heist",
-    "episode_guests": [
-      "Jason Mantzoukas",
-      "Shaun Diston",
-      "Tim Baltz"
-    ]
-  },{
-    "episode": "638",
-    "tstart": "27:15",
-    "instance": "They got coffee; they got bananas.",
-"bit": "Location",
-"elucidation": "identifiable earth location",
-"nb":[
-  "Huntington Library - food court"
-  ,"https://en.wikipedia.org/wiki/Huntington_Library"
-  ,"-118.11,34.127222"
-],
-    "tags": ["Bullets Jackson"],
-    "tend": "28:00",
-    "location_type": "point","location_id": "1226",
-    "updated_at": "2020-02-02T10:51:29Z",
-    "created_at": "2020-02-02T10:51:29Z",
-    "slug_earwolf": "one-last-heist",
-    "episode_title": "One Last Heist",
-    "episode_guests": [
-      "Jason Mantzoukas",
-      "Shaun Diston",
-      "Tim Baltz"
-    ]
-  },{
-    "episode": "638",
-    "tstart": "43:00",
-    "instance": "As soon as the sun goes down it gets filthy outside.",
-"bit": "Location",
-"elucidation": "identifiable earth location",
-"nb":[
-  "Cincinatti","home of: Antonio Lambrinidis"
-],
-"hero":{"on":true,"attrib":"Antonio Lambrinidis"},
-    "tags": ["Antonio Lambrinidis"],
-    "tend": "43:30",
-    "location_type": "poly",
-    "location_id": "993",
-    "updated_at": "2020-02-02T10:51:29Z",
-    "created_at": "2020-02-02T10:51:29Z",
-    "slug_earwolf": "one-last-heist",
-    "episode_title": "One Last Heist",
-    "episode_guests": [
-      "Jason Mantzoukas",
-      "Shaun Diston",
-      "Tim Baltz"
-    ]
-  },{
-    "episode": "638",
-    "tstart": "43:50",
-    "instance": "Max naughty 'natti - nasty stuff happening on the filthy streets of the 'natti.",
-"bit": "Location",
-"elucidation": "identifiable earth location",
-"nb":[
-  "Jefferson Avenue, Cincinatti","site of: nasty stuff happening"
-],
-"hero":{"on":true,"attrib":"Antonio Lambrinidis"},
-    "tags": ["Antonio Lambrinidis"],
-    "tend": "44:30",
-  "location_type": "point","location_id": "1227",
-    "updated_at": "2020-02-02T10:51:29Z",
-    "created_at": "2020-02-02T10:51:29Z",
-    "slug_earwolf": "one-last-heist",
-    "episode_title": "One Last Heist",
-    "episode_guests": [
-      "Jason Mantzoukas",
-      "Shaun Diston",
-      "Tim Baltz"
-    ]
-  },{
-    "episode": "638",
-    "tstart": "52:45",
-    "instance": "\"Let's get wet\"; 'make it wet'; or 'I am here to be wet.'",
-"bit": "Location",
-"elucidation": "identifiable earth location",
-"nb":[
-  "Skyline Chili - 8550 Orion Pl, Columbus, OH 43240","possible site of: PCP for sale"
-],
-"hero":{"on":true,"attrib":"Antonio Lambrinidis"},
-    "tags": ["Antonio Lambrinidis"],
-    "tend": "53:30",
-    "location_type": "point","location_id": "1228",
-    "updated_at": "2020-02-02T10:51:29Z",
-    "created_at": "2020-02-02T10:51:29Z",
-    "slug_earwolf": "one-last-heist",
-    "episode_title": "One Last Heist",
-    "episode_guests": [
-      "Jason Mantzoukas",
-      "Shaun Diston",
-      "Tim Baltz"
-    ]
-  },{
-    "episode": "638",
-    "tstart": "1:03:30",
-    "instance": "Let me take a stab at de-escalating this.",
-"bit": "Shut the Fuck Up!",
-"elucidation": "someone simply wants everyone else specifically to shut the fuck up",
-    "tags": ["Antonio Lambrinidis","Bullets Jackson"],
-    "tend": "1:04:00",
+"nb":["ohio - beckys home state"],
+    "tags": [
+"Becky"
+    ],
+    "tend": "35:00",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-02-02T10:51:29Z",
-    "created_at": "2020-02-02T10:51:29Z",
-    "slug_earwolf": "one-last-heist",
-    "episode_title": "One Last Heist",
+    "updated_at": "2020-02-10T10:51:29Z",
+    "created_at": "2020-02-10T10:51:29Z",
+    "slug_earwolf": "the-becky-button",
+    "episode_title": "The Becky Button",
     "episode_guests": [
-      "Jason Mantzoukas",
-      "Shaun Diston",
-      "Tim Baltz"
+      "Andy Samberg","Nick Kroll","Lily Sullivan"
+    ]
+  },{
+    "episode": "639",
+    "tstart": "34:30",
+    "instance": "I don't wanna point this out but I notice an accent.",
+"bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":["becky's location in australia"],
+    "tags": [
+"Becky"
+    ],
+    "tend": "35:15",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-02-10T10:51:29Z",
+    "created_at": "2020-02-10T10:51:29Z",
+    "slug_earwolf": "the-becky-button",
+    "episode_title": "The Becky Button",
+    "episode_guests": [
+      "Andy Samberg","Nick Kroll","Lily Sullivan"
+    ]
+  },{
+    "episode": "639",
+    "tstart": "51:00",
+    "instance": "I forgot you know Gus.",
+"bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":["telluride, co","site of: Becky, for a while"],
+    "tags": [
+"Becky"
+    ],
+    "tend": "51:40",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-02-10T10:51:29Z",
+    "created_at": "2020-02-10T10:51:29Z",
+    "slug_earwolf": "the-becky-button",
+    "episode_title": "The Becky Button",
+    "episode_guests": [
+      "Andy Samberg","Nick Kroll","Lily Sullivan"
+    ]
+  },{
+    "episode": "639",
+    "tstart": "1:01:00",
+    "instance": "Did you get to try out one of those silver medals?",
+"bit": "You're Terrible at This",
+"elucidation": "impromptu reviews of scott's hosting",
+    "tags": [
+    ],
+    "tend": "1:01:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-02-10T10:51:29Z",
+    "created_at": "2020-02-10T10:51:29Z",
+    "slug_earwolf": "the-becky-button",
+    "episode_title": "The Becky Button",
+    "episode_guests": [
+      "Andy Samberg","Nick Kroll","Lily Sullivan"
+    ]
+  },{
+    "episode": "639",
+    "tstart": "1:02:10",
+    "instance": "What are your favorite palindromes?",
+"bit": "Scott's Questions",
+"elucidation": "scott's...questions",
+    "tags": [
+    ],
+    "tend": "1:02:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-02-10T10:51:29Z",
+    "created_at": "2020-02-10T10:51:29Z",
+    "slug_earwolf": "the-becky-button",
+    "episode_title": "The Becky Button",
+    "episode_guests": [
+      "Andy Samberg","Nick Kroll","Lily Sullivan"
     ]
   }
 ]
