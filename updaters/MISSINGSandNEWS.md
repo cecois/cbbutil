@@ -605,6 +605,8 @@
   - 447,50:45(pw)
 - no rule against dogs playing (football|basketball)
   - 2016.shepherds,42:45
+  - 641,56:30
+  - 641,1:09:00
   - 622,38:30
   - 621,44:30
   - 599,1:18:45
@@ -2119,6 +2121,7 @@
 
 - interesting people
   - several of the 480+ eps
+  - 641,1:55
   - washington d.c. 2019,5:45
   - portland 2019 early show,3:45
   - portland 2019 late show,5:30
