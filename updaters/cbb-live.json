@@ -1,19 +1,559 @@
 [
   {
-    "episode": "",
-    "tstart": "0:15",
-    "instance": "",
-    
-    "tags": [],
-    "tend": "0:45",
+    "episode": "642",
+    "tstart": "3:30",
+    "instance": "I was tired of him runnin' his mouth about it.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Jet Song (song)",
+"Leonard Bernstein",
+"Stephen Sondheim"],
+    "tend": "3:45",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-02-18T10:51:29Z",
-    "created_at": "2020-02-18T10:51:29Z",
-    "slug_earwolf": "solo-bolo-sonicolo",
-    "episode_title": "Solo Bolo Sonicolo",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
     "episode_guests": [
-      
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  }
+  ,{
+    "episode": "642",
+    "tstart": "37:45",
+    "instance": "Where's the beef?",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Who Let the Dogs Out (song)",
+"Baja Men (musical combination)"],
+    "tend": "38:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  }
+  ,{
+    "episode": "642",
+    "tstart": "10:00",
+    "instance": "They were called 'old timey radio shows.'",
+    "bit": "Group Coupon",
+"elucidation": "scott articulates obvious data (acronyms, abbreviations, etc.)",
+    "tags": [],
+    "tend": "10:15",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  },{
+    "episode": "642",
+    "tstart": "14:30",
+    "instance": "I think she was very charming and wonderful.",
+    "bit": "Fantastic.",
+"elucidation": "one of scott's 25 words",
+    "tags": [],
+    "tend": "14:45",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  },{
+    "episode": "642",
+    "tstart": "20:45",
+    "instance": "I'm coming back around to where I can listen to it again.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Stayin' Alive (song)","Bee Gees (musical combination)"],
+    "tend": "21:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  },{
+    "episode": "642",
+    "tstart": "20:50",
+    "instance": "Overplayed - but I still enjoy hearing it.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Chicago (musical combination)",
+"25 or 6 to 4 (song)"],
+    "tend": "21:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  },{
+    "episode": "642",
+    "tstart": "20:50",
+    "instance": "Late 80s.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Bee Gees (musical combination)",
+"You Win Again (song)"],
+    "tend": "21:10",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  },{
+    "episode": "642",
+    "tstart": "20:50",
+    "instance": "Late 80s.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Bee Gees (musical combination)",
+"This is Where I Came In (song)"],
+    "tend": "21:20",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  },{
+    "episode": "642",
+    "tstart": "34:50",
+    "instance": "Three part question.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["The Fugees (musical combination)",
+"Killing Me Softly with His Song (song)","Crystal Del Rey Jenner"],
+    "tend": "35;10",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  },{
+    "episode": "642",
+    "tstart": "33:00",
+    "instance": "Isn't it weird that the bedroom is the room that you probably spend the most time in in your house but you don't remember it?",
+"bit": "Scott's Questions",
+"elucidation": "scott's...questions",
+    "tags": [],
+    "tend": "33:15",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  },{
+    "episode": "642",
+    "tstart": "35:00",
+    "instance": "She's real big, she's all bones, she's beautiful - I love her.",
+"bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":["natural history field museum chicago"],
+    "tags": ["Crystal Del Rey Jenner"],
+    "tend": "37:00",
+    "location_type": "poly","location_id": "1094",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  },{
+    "episode": "642",
+    "tstart": "35:30",
+    "instance": "Two days in Chicago.",
+"bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":["portillo's"],
+    "tags": ["Crystal Del Rey Jenner"],
+    "tend": "35:45",
+    "location_type": "point","location_id": "1233",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  },{
+    "episode": "642",
+    "tstart": "36:30",
+    "instance": "You go straight to the museum or do people get a little time off?",
+"bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":["ohare to field museum by bus"],
+    "tags": ["Crystal Del Rey Jenner"],
+    "tend": "37:00",
+    "location_type": "line","location_id": "301",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  },{
+    "episode": "642",
+    "tstart": "47:50",
+    "instance": "I'm not quite sure how you got booked on this program.",
+"bit": "Open Door Policy",
+"elucidation": "cbb's open door policy is cited or blamed",
+    "tags": ["Crystal Del Rey Jenner"],
+    "tend": "48:15",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  },{
+    "episode": "642",
+    "tstart": "50:45",
+    "instance": "Home of The Carpenters, that's right.",
+"bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":["grocery store on firestone blvd in downey, ca","proxy for: Kissy's Grocery"],
+    "tags": ["Albert Roe"],
+    "tend": "51:45",
+    "location_type": "point","location_id": "1234",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  },{
+    "episode": "642",
+    "tstart": "1:08:15",
+    "instance": "You're not kissing the customers, are you?",
+"bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":["grocery store on firestone blvd in downey, ca","proxy for: Kissy's Grocery"],
+    "tags": ["Albert Roe"],
+    "tend": "1:08:45",
+    "location_type": "point","location_id": "1234",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  },{
+    "episode": "642",
+    "tstart": "55:00",
+    "instance": "I'm also kissing all these little apples.",
+"bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":["grocery store in downey, ca","proxy for: Kissy's Local Grocery Store"],
+    "tags": ["Albert Roe"],
+    "tend": "55:45",
+    "location_type": "point","location_id": "1234",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  },{
+    "episode": "642",
+    "tstart": "52:50",
+    "instance": "They're coming for my neck.",
+"bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":["whole foods in hollywood"],
+    "tags": ["Albert Roe","Crystal Del Rey Jenner"],
+    "tend": "53:10",
+    "location_type": "point","location_id": "1235",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  },{
+    "episode": "642",
+    "tstart": "44:45",
+    "instance": "I think I had a little bit of a meltdown in Chicago.",
+"bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":["a hotel in Chicago"],
+    "tags": ["Crystal Del Rey Jenner"],
+    "tend": "45:30",
+    "location_type": "point","location_id": "1236",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  },{
+    "episode": "642",
+    "tstart": "51:00",
+    "instance": "But the groceries stores, ok?",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Albert Roe","The Carpenters (musical combination)","We've Only Just Begun (song)","Roger Nichols","Paul Williams"],
+    "tend": "51:45",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  },{
+    "episode": "642",
+    "tstart": "51:00",
+    "instance": "Superstar apartments?",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Albert Roe","The Carpenters (musical combination)","Superstar (song)","Bonnie Bramlett","Leon Russell"],
+    "tend": "51:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  },{
+    "episode": "642",
+    "tstart": "54:00",
+    "instance": "Who are you talking to?",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Albert Roe","Nuthin' but a 'G' Thang (song)",
+"Dr. Dre"],
+    "tend": "54:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  },{
+    "episode": "642",
+    "tstart": "54:00",
+    "instance": "America's getting coarser.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Albert Roe","I Want to Hold Your Hand (song)",
+"The Beatles (musical combination)"],
+    "tend": "54:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  },{
+    "episode": "642",
+    "tstart": "54:00",
+    "instance": "America's getting coarser.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Albert Roe","Closer (song)",
+"Nine Inch Nails (musical combination)"],
+    "tend": "54:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  },{
+    "episode": "642",
+    "tstart": "49:00",
+    "instance": "After 97 you're done.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["99 Bottles of Beer (song)"],
+    "tend": "50:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  },{
+    "episode": "642",
+    "tstart": "49:00",
+    "instance": "After 97 you're done.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Albert Roe","The Wheels on the Bus (song)","Verna Hills"],
+    "tend": "50:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  },{
+    "episode": "642",
+    "tstart": "57:30",
+    "instance": "Non-stop. Right to his face.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Albert Roe","The Wheels on the Bus (song)","Verna Hills"],
+    "tend": "57:45",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  },{
+    "episode": "642",
+    "tstart": "1:07:35",
+    "instance": "I had ten children in one calendar year.",
+    "bit": "Twins!",
+"elucidation": "someone does that coors commercial",
+    "tags": ["Albert Roe"],
+    "tend": "1:07:55",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  },{
+    "episode": "642",
+    "tstart": "1:13:15",
+    "instance": "We don't do any of the classic store songs you would hear.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Albert Roe","More than Words (song)","Extreme (musical combination)"],
+    "tend": "1:13:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  },{
+    "episode": "642",
+    "tstart": "1:15:45",
+    "instance": "I only listen to sighted people.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Gangsta's Paradise (song)","Coolio","Larry Sanders","Doug Rasheed","Stevie Wonder"],
+    "tend": "1:16:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  },{
+    "episode": "642",
+    "tstart": "1:15:45",
+    "instance": "I only listen to sighted people.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Amish Paradise (song)","Weird Al Yankovic"],
+    "tend": "1:16:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+    ]
+  },{
+    "episode": "642",
+    "tstart": "1:15:45",
+    "instance": "I only listen to sighted people.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Pastime Paradise (song)","Stevie Wonder"],
+    "tend": "1:16:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-02-25T10:51:29Z",
+    "created_at": "2020-02-25T10:51:29Z",
+    "slug_earwolf": "chicago-chaperone",
+    "episode_title": "Chicago Chaperone",
+    "episode_guests": [
+      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
     ]
   }
 ]
