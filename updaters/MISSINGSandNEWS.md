@@ -41,6 +41,7 @@
 	* bo2019.2,1:42:45
 	* bo2019.3,1:58:50
 	* bo2019.4,1:19:30
+  * 643,30:24
 
 - gino's search terms
   * 632,33:30
@@ -2124,6 +2125,7 @@
 
 - interesting people
   - several of the 480+ eps
+  - 643,0:50
   - 641,1:55
   - washington d.c. 2019,5:45
   - portland 2019 early show,3:45

@@ -1,559 +1,495 @@
-[
+geoms[
   {
-    "episode": "642",
-    "tstart": "3:30",
-    "instance": "I was tired of him runnin' his mouth about it.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Jet Song (song)",
-"Leonard Bernstein",
-"Stephen Sondheim"],
-    "tend": "3:45",
+    "episode": "643",
+    "tstart": "2:12",
+    "instance": "What is your Christian name, again?",
+    "bit": "Tick Tock",
+"elucidation": "the timekeeper's catchphrase",
+    "tags": ["Maxwell Keeper"],
+    "tend": "2:45",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
+    "updated_at": "2020-03-02T10:51:29Z",
+    "created_at": "2020-03-02T10:51:29Z",
+    "slug_earwolf": "the-order-of-the-keepers",
+    "episode_title": "The Order of the Keepers",
     "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
-    ]
-  }
-  ,{
-    "episode": "642",
-    "tstart": "37:45",
-    "instance": "Where's the beef?",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Who Let the Dogs Out (song)",
-"Baja Men (musical combination)"],
-    "tend": "38:00",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
-    "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
-    ]
-  }
-  ,{
-    "episode": "642",
-    "tstart": "10:00",
-    "instance": "They were called 'old timey radio shows.'",
-    "bit": "Group Coupon",
-"elucidation": "scott articulates obvious data (acronyms, abbreviations, etc.)",
-    "tags": [],
-    "tend": "10:15",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
-    "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+      "Paul F. Tompkins","Neil Campbell"
     ]
   },{
-    "episode": "642",
-    "tstart": "14:30",
-    "instance": "I think she was very charming and wonderful.",
-    "bit": "Fantastic.",
-"elucidation": "one of scott's 25 words",
-    "tags": [],
-    "tend": "14:45",
+    "episode": "643",
+    "tstart": "58:15",
+    "instance": "How would you like a clock face?",
+    "bit": "Tick Tock",
+"elucidation": "the timekeeper's catchphrase",
+    "tags": ["Maxwell Keeper","JW Stillwater"],
+    "tend": "58:35",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
+    "updated_at": "2020-03-02T10:51:29Z",
+    "created_at": "2020-03-02T10:51:29Z",
+    "slug_earwolf": "the-order-of-the-keepers",
+    "episode_title": "The Order of the Keepers",
     "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+      "Paul F. Tompkins","Neil Campbell"
     ]
   },{
-    "episode": "642",
-    "tstart": "20:45",
-    "instance": "I'm coming back around to where I can listen to it again.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Stayin' Alive (song)","Bee Gees (musical combination)"],
-    "tend": "21:00",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
-    "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
-    ]
-  },{
-    "episode": "642",
-    "tstart": "20:50",
-    "instance": "Overplayed - but I still enjoy hearing it.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Chicago (musical combination)",
-"25 or 6 to 4 (song)"],
-    "tend": "21:00",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
-    "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
-    ]
-  },{
-    "episode": "642",
-    "tstart": "20:50",
-    "instance": "Late 80s.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Bee Gees (musical combination)",
-"You Win Again (song)"],
-    "tend": "21:10",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
-    "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
-    ]
-  },{
-    "episode": "642",
-    "tstart": "20:50",
-    "instance": "Late 80s.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Bee Gees (musical combination)",
-"This is Where I Came In (song)"],
-    "tend": "21:20",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
-    "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
-    ]
-  },{
-    "episode": "642",
-    "tstart": "34:50",
-    "instance": "Three part question.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["The Fugees (musical combination)",
-"Killing Me Softly with His Song (song)","Crystal Del Rey Jenner"],
-    "tend": "35;10",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
-    "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
-    ]
-  },{
-    "episode": "642",
-    "tstart": "33:00",
-    "instance": "Isn't it weird that the bedroom is the room that you probably spend the most time in in your house but you don't remember it?",
-"bit": "Scott's Questions",
-"elucidation": "scott's...questions",
-    "tags": [],
-    "tend": "33:15",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
-    "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
-    ]
-  },{
-    "episode": "642",
-    "tstart": "35:00",
-    "instance": "She's real big, she's all bones, she's beautiful - I love her.",
-"bit": "Location",
+    "episode": "643",
+    "tstart": "2:45",
+    "instance": "Hip Heap Hip Hooray - and that's just a Florida saying.",
+    "bit": "Location",
 "elucidation": "identifiable earth location",
-"nb":["natural history field museum chicago"],
-    "tags": ["Crystal Del Rey Jenner"],
-    "tend": "37:00",
-    "location_type": "poly","location_id": "1094",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
-    "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
-    ]
-  },{
-    "episode": "642",
-    "tstart": "35:30",
-    "instance": "Two days in Chicago.",
-"bit": "Location",
-"elucidation": "identifiable earth location",
-"nb":["portillo's"],
-    "tags": ["Crystal Del Rey Jenner"],
-    "tend": "35:45",
-    "location_type": "point","location_id": "1233",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
-    "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
-    ]
-  },{
-    "episode": "642",
-    "tstart": "36:30",
-    "instance": "You go straight to the museum or do people get a little time off?",
-"bit": "Location",
-"elucidation": "identifiable earth location",
-"nb":["ohare to field museum by bus"],
-    "tags": ["Crystal Del Rey Jenner"],
-    "tend": "37:00",
-    "location_type": "line","location_id": "301",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
-    "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
-    ]
-  },{
-    "episode": "642",
-    "tstart": "47:50",
-    "instance": "I'm not quite sure how you got booked on this program.",
-"bit": "Open Door Policy",
-"elucidation": "cbb's open door policy is cited or blamed",
-    "tags": ["Crystal Del Rey Jenner"],
-    "tend": "48:15",
+"nb":["tallahasee fl"],
+    "tags": ["Maxwell Keeper"],
+    "tend": "3:00",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
+    "updated_at": "2020-03-02T10:51:29Z",
+    "created_at": "2020-03-02T10:51:29Z",
+    "slug_earwolf": "the-order-of-the-keepers",
+    "episode_title": "The Order of the Keepers",
     "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+      "Paul F. Tompkins","Neil Campbell"
     ]
   },{
-    "episode": "642",
-    "tstart": "50:45",
-    "instance": "Home of The Carpenters, that's right.",
-"bit": "Location",
+    "episode": "643",
+    "tstart": "4:45",
+    "instance": "That's two more than I thought would let you in.",
+    "bit": "It's Not a Tumor",
+"elucidation": "scott's schwarzenegger thing",
+    "tags": ["Maxwell Keeper"],
+    "tend": "5:05",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-02T10:51:29Z",
+    "created_at": "2020-03-02T10:51:29Z",
+    "slug_earwolf": "the-order-of-the-keepers",
+    "episode_title": "The Order of the Keepers",
+    "episode_guests": [
+      "Paul F. Tompkins","Neil Campbell"
+    ]
+  },{
+    "episode": "643",
+    "tstart": "5:05",
+    "instance": "I love and celebrate time. That's all.",
+    "bit": "Location",
 "elucidation": "identifiable earth location",
-"nb":["grocery store on firestone blvd in downey, ca","proxy for: Kissy's Grocery"],
-    "tags": ["Albert Roe"],
-    "tend": "51:45",
-    "location_type": "point","location_id": "1234",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
+"nb":["longo watch repair"],
+    "tags": ["Maxwell Keeper","Desmond Longo"],
+    "tend": "6:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-02T10:51:29Z",
+    "created_at": "2020-03-02T10:51:29Z",
+    "slug_earwolf": "the-order-of-the-keepers",
+    "episode_title": "The Order of the Keepers",
     "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+      "Paul F. Tompkins","Neil Campbell"
     ]
   },{
-    "episode": "642",
-    "tstart": "1:08:15",
-    "instance": "You're not kissing the customers, are you?",
-"bit": "Location",
+    "episode": "643",
+    "tstart": "8:00",
+    "instance": "I'm working for a special interest group.",
+    "bit": "Location",
 "elucidation": "identifiable earth location",
-"nb":["grocery store on firestone blvd in downey, ca","proxy for: Kissy's Grocery"],
-    "tags": ["Albert Roe"],
-    "tend": "1:08:45",
-    "location_type": "point","location_id": "1234",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
+"nb":["special interest group on K Street, D.C.","new workplace of: Maxwell Keeper"],
+    "tags": ["Maxwell Keeper"],
+    "tend": "8:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-02T10:51:29Z",
+    "created_at": "2020-03-02T10:51:29Z",
+    "slug_earwolf": "the-order-of-the-keepers",
+    "episode_title": "The Order of the Keepers",
     "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+      "Paul F. Tompkins","Neil Campbell"
     ]
   },{
-    "episode": "642",
-    "tstart": "55:00",
-    "instance": "I'm also kissing all these little apples.",
-"bit": "Location",
+    "episode": "643",
+    "tstart": "51:15",
+    "instance": "That's where you been - on K Street?",
+    "bit": "Location",
 "elucidation": "identifiable earth location",
-"nb":["grocery store in downey, ca","proxy for: Kissy's Local Grocery Store"],
-    "tags": ["Albert Roe"],
-    "tend": "55:45",
-    "location_type": "point","location_id": "1234",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
-    "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
-    ]
-  },{
-    "episode": "642",
-    "tstart": "52:50",
-    "instance": "They're coming for my neck.",
-"bit": "Location",
-"elucidation": "identifiable earth location",
-"nb":["whole foods in hollywood"],
-    "tags": ["Albert Roe","Crystal Del Rey Jenner"],
-    "tend": "53:10",
-    "location_type": "point","location_id": "1235",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
-    "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
-    ]
-  },{
-    "episode": "642",
-    "tstart": "44:45",
-    "instance": "I think I had a little bit of a meltdown in Chicago.",
-"bit": "Location",
-"elucidation": "identifiable earth location",
-"nb":["a hotel in Chicago"],
-    "tags": ["Crystal Del Rey Jenner"],
-    "tend": "45:30",
-    "location_type": "point","location_id": "1236",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
-    "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
-    ]
-  },{
-    "episode": "642",
-    "tstart": "51:00",
-    "instance": "But the groceries stores, ok?",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Albert Roe","The Carpenters (musical combination)","We've Only Just Begun (song)","Roger Nichols","Paul Williams"],
+"nb":["special interest group on K Street, D.C.","new workplace of: Maxwell Keeper"],
+    "tags": ["Maxwell Keeper","JW Stillwater"],
     "tend": "51:45",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
+    "updated_at": "2020-03-02T10:51:29Z",
+    "created_at": "2020-03-02T10:51:29Z",
+    "slug_earwolf": "the-order-of-the-keepers",
+    "episode_title": "The Order of the Keepers",
     "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+      "Paul F. Tompkins","Neil Campbell"
     ]
   },{
-    "episode": "642",
-    "tstart": "51:00",
-    "instance": "Superstar apartments?",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Albert Roe","The Carpenters (musical combination)","Superstar (song)","Bonnie Bramlett","Leon Russell"],
-    "tend": "51:30",
+    "episode": "643",
+    "tstart": "6:45",
+    "instance": "Back to back, yeah.",
+    "bit": "Jeremy, Jeremy, Jeremy",
+"elucidation": "jeremy piven is referenced, often sung (happens a lot)",
+    "tags": ["Maxwell Keeper"],
+    "tend": "7:10",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
+    "updated_at": "2020-03-02T10:51:29Z",
+    "created_at": "2020-03-02T10:51:29Z",
+    "slug_earwolf": "the-order-of-the-keepers",
+    "episode_title": "The Order of the Keepers",
     "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+      "Paul F. Tompkins","Neil Campbell"
     ]
   },{
-    "episode": "642",
-    "tstart": "54:00",
-    "instance": "Who are you talking to?",
+    "episode": "643",
+    "tstart": "8:30",
+    "instance": "I haven't listened to ne'ery a tune of theirs.",
     "bit": "The Paul Hardcastle of Suicides",
 "elucidation": "any song reference",
-    "tags": ["Albert Roe","Nuthin' but a 'G' Thang (song)",
-"Dr. Dre"],
+    "tags": ["Maxwell Keeper","The Things We Do for Love (song)","10cc (musical combination)"],
+    "tend": "8:50",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-02T10:51:29Z",
+    "created_at": "2020-03-02T10:51:29Z",
+    "slug_earwolf": "the-order-of-the-keepers",
+    "episode_title": "The Order of the Keepers",
+    "episode_guests": [
+      "Paul F. Tompkins","Neil Campbell"
+    ]
+  },{
+    "episode": "643",
+    "tstart": "51:40",
+    "instance": "Isn't the alphabet the opposite of time?",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+"hero":{"on":true,"attrib":"JW Stillwater"},
+    "tags": ["Maxwell Keeper","Charles Fox",
+"Norman Gimbel",
+"Happy Days (song)","JW Stillwater"],
+    "tend": "52:15",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-02T10:51:29Z",
+    "created_at": "2020-03-02T10:51:29Z",
+    "slug_earwolf": "the-order-of-the-keepers",
+    "episode_title": "The Order of the Keepers",
+    "episode_guests": [
+      "Paul F. Tompkins","Neil Campbell"
+    ]
+  },{
+    "episode": "643",
+    "tstart": "12:25",
+    "instance": "'Justin Bieber, go meet with Dan and Shay.'",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Maxwell Keeper","10,000 Hours (song)","Dan + Shay (musical combination)","Justin Bieber","Jessie Jo Dillon","Jason Boyd","Jordan Reynolds"],
+    "tend": "12:45",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-02T10:51:29Z",
+    "created_at": "2020-03-02T10:51:29Z",
+    "slug_earwolf": "the-order-of-the-keepers",
+    "episode_title": "The Order of the Keepers",
+    "episode_guests": [
+      "Paul F. Tompkins","Neil Campbell"
+    ]
+  },{
+    "episode": "643",
+    "tstart": "15:00",
+    "instance": "And I cowrote the lyrics.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Maxwell Keeper","No Time to Die (song)","Billie Eilish","Finneas O'Connell"],
+    "tend": "17:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-02T10:51:29Z",
+    "created_at": "2020-03-02T10:51:29Z",
+    "slug_earwolf": "the-order-of-the-keepers",
+    "episode_title": "The Order of the Keepers",
+    "episode_guests": [
+      "Paul F. Tompkins","Neil Campbell"
+    ]
+  },{
+    "episode": "643",
+    "tstart": "25:50",
+    "instance": "I would imagine the zoo freaks love 8 Mile as well because of Rabbit.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Maxwell Keeper","Lose Yourself (song)",
+"Eminem"],
+    "tend": "26:10",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-02T10:51:29Z",
+    "created_at": "2020-03-02T10:51:29Z",
+    "slug_earwolf": "the-order-of-the-keepers",
+    "episode_title": "The Order of the Keepers",
+    "episode_guests": [
+      "Paul F. Tompkins","Neil Campbell"
+    ]
+  },{
+    "episode": "643",
+    "tstart": "18:45",
+    "instance": "It was fun - I got a giraffe watch.",
+    "bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":["a zoo near tallahasee","site of: The Timekeeper at the zoo"],
+    "tags": ["Maxwell Keeper","Desmond Longo"],
+    "tend": "19:15",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-02T10:51:29Z",
+    "created_at": "2020-03-02T10:51:29Z",
+    "slug_earwolf": "the-order-of-the-keepers",
+    "episode_title": "The Order of the Keepers",
+    "episode_guests": [
+      "Paul F. Tompkins","Neil Campbell"
+    ]
+  },{
+    "episode": "643",
+    "tstart": "54:15",
+    "instance": "I can't imagine he'd do that - he loves me.",
+    "bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":["a zoo near tallahasee","site of: The Timekeeper at the zoo"],
+    "tags": ["Maxwell Keeper","Desmond Longo","JW Stillwater"],
     "tend": "54:30",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
+    "updated_at": "2020-03-02T10:51:29Z",
+    "created_at": "2020-03-02T10:51:29Z",
+    "slug_earwolf": "the-order-of-the-keepers",
+    "episode_title": "The Order of the Keepers",
     "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+      "Paul F. Tompkins","Neil Campbell"
     ]
   },{
-    "episode": "642",
-    "tstart": "54:00",
-    "instance": "America's getting coarser.",
+    "episode": "643",
+    "tstart": "23:10",
+    "instance": "Do you wanna do your third?",
+    "bit": "Tick Tock",
+"elucidation": "the timekeeper's catchphrase",
+    "tags": ["Maxwell Keeper"],
+    "tend": "23:20",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-02T10:51:29Z",
+    "created_at": "2020-03-02T10:51:29Z",
+    "slug_earwolf": "the-order-of-the-keepers",
+    "episode_title": "The Order of the Keepers",
+    "episode_guests": [
+      "Paul F. Tompkins","Neil Campbell"
+    ]
+  },{
+    "episode": "643",
+    "tstart": "29:10",
+    "instance": "You said 'privy.'",
+    "bit": "Technicality. No. Down. Boo. Over.",
+"elucidation": "cbb's foul call",
+    "tags": ["JW Stillwater"],
+    "tend": "29:25",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-02T10:51:29Z",
+    "created_at": "2020-03-02T10:51:29Z",
+    "slug_earwolf": "the-order-of-the-keepers",
+    "episode_title": "The Order of the Keepers",
+    "episode_guests": [
+      "Paul F. Tompkins","Neil Campbell"
+    ]
+  },{
+    "episode": "643",
+    "tstart": "30:20",
+    "instance": "Seems like a Pearl Jam reference I'm not getting.",
+    "bit": "Jeremy, Jeremy, Jeremy",
+"elucidation": "jeremy piven is referenced, often sung (happens a lot)",
+    "tags": ["Maxwell Keeper","JW Stillwater"],
+    "tend": "30:45",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-02T10:51:29Z",
+    "created_at": "2020-03-02T10:51:29Z",
+    "slug_earwolf": "the-order-of-the-keepers",
+    "episode_title": "The Order of the Keepers",
+    "episode_guests": [
+      "Paul F. Tompkins","Neil Campbell"
+    ]
+  },{
+    "episode": "643",
+    "tstart": "30:20",
+    "instance": "Seems like a Pearl Jam reference I'm not getting.",
     "bit": "The Paul Hardcastle of Suicides",
 "elucidation": "any song reference",
-    "tags": ["Albert Roe","I Want to Hold Your Hand (song)",
-"The Beatles (musical combination)"],
-    "tend": "54:30",
+    "tags": ["Maxwell Keeper","Jeremy (song)",
+"Pearl Jam (musical combination)","JW Stillwater"],
+    "tend": "30:45",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
+    "updated_at": "2020-03-02T10:51:29Z",
+    "created_at": "2020-03-02T10:51:29Z",
+    "slug_earwolf": "the-order-of-the-keepers",
+    "episode_title": "The Order of the Keepers",
     "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+      "Paul F. Tompkins","Neil Campbell"
     ]
   },{
-    "episode": "642",
-    "tstart": "54:00",
-    "instance": "America's getting coarser.",
+    "episode": "643",
+    "tstart": "31:30",
+    "instance": "Why are you astonished?",
     "bit": "The Paul Hardcastle of Suicides",
 "elucidation": "any song reference",
-    "tags": ["Albert Roe","Closer (song)",
-"Nine Inch Nails (musical combination)"],
-    "tend": "54:30",
+    "tags": ["Maxwell Keeper","Bewitched Bothered and Bewildered (song)",
+"Lorenz Hart","Richard Rodgers","JW Stillwater"],
+    "tend": "31:45",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
+    "updated_at": "2020-03-02T10:51:29Z",
+    "created_at": "2020-03-02T10:51:29Z",
+    "slug_earwolf": "the-order-of-the-keepers",
+    "episode_title": "The Order of the Keepers",
     "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+      "Paul F. Tompkins","Neil Campbell"
     ]
   },{
-    "episode": "642",
-    "tstart": "49:00",
-    "instance": "After 97 you're done.",
+    "episode": "643",
+    "tstart": "50:00",
+    "instance": "So you know the Harry Potter films?",
     "bit": "The Paul Hardcastle of Suicides",
 "elucidation": "any song reference",
-    "tags": ["99 Bottles of Beer (song)"],
-    "tend": "50:00",
+    "tags": ["Maxwell Keeper","JW Stillwater","Back in Time (song)",
+"Huey Lewis and the News (musical combination)"],
+    "tend": "50:20",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
+    "updated_at": "2020-03-02T10:51:29Z",
+    "created_at": "2020-03-02T10:51:29Z",
+    "slug_earwolf": "the-order-of-the-keepers",
+    "episode_title": "The Order of the Keepers",
     "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+      "Paul F. Tompkins","Neil Campbell"
     ]
   },{
-    "episode": "642",
-    "tstart": "49:00",
-    "instance": "After 97 you're done.",
+    "episode": "643",
+    "tstart": "1:08:20",
+    "instance": "He would be playing a creep.",
     "bit": "The Paul Hardcastle of Suicides",
 "elucidation": "any song reference",
-    "tags": ["Albert Roe","The Wheels on the Bus (song)","Verna Hills"],
-    "tend": "50:00",
+    "tags": ["Maxwell Keeper","JW Stillwater","The Fugees (musical combination)",
+"Killing Me Softly with His Song (song)"],
+    "tend": "1:08:40",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
+    "updated_at": "2020-03-02T10:51:29Z",
+    "created_at": "2020-03-02T10:51:29Z",
+    "slug_earwolf": "the-order-of-the-keepers",
+    "episode_title": "The Order of the Keepers",
     "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+      "Paul F. Tompkins","Neil Campbell"
     ]
   },{
-    "episode": "642",
-    "tstart": "57:30",
-    "instance": "Non-stop. Right to his face.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Albert Roe","The Wheels on the Bus (song)","Verna Hills"],
-    "tend": "57:45",
+    "episode": "643",
+    "tstart": "30:40",
+    "instance": "You had me at 'come on, now.'",
+    "bit": "Come On Guys",
+"elucidation": "cum on guys",
+    "tags": ["Maxwell Keeper","JW Stillwater"],
+    "tend": "31:10",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
+    "updated_at": "2020-03-02T10:51:29Z",
+    "created_at": "2020-03-02T10:51:29Z",
+    "slug_earwolf": "the-order-of-the-keepers",
+    "episode_title": "The Order of the Keepers",
     "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+      "Paul F. Tompkins","Neil Campbell"
     ]
   },{
-    "episode": "642",
-    "tstart": "1:07:35",
-    "instance": "I had ten children in one calendar year.",
-    "bit": "Twins!",
-"elucidation": "someone does that coors commercial",
-    "tags": ["Albert Roe"],
-    "tend": "1:07:55",
+    "episode": "643",
+    "tstart": "32:40",
+    "instance": "What is The Order of The Keepers, JW?",
+    "bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":["cumberbatch county"],
+    "tags": ["JW Stillwater"],
+    "tend": "33:30",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
+    "updated_at": "2020-03-02T10:51:29Z",
+    "created_at": "2020-03-02T10:51:29Z",
+    "slug_earwolf": "the-order-of-the-keepers",
+    "episode_title": "The Order of the Keepers",
     "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+      "Paul F. Tompkins","Neil Campbell"
     ]
   },{
-    "episode": "642",
-    "tstart": "1:13:15",
-    "instance": "We don't do any of the classic store songs you would hear.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Albert Roe","More than Words (song)","Extreme (musical combination)"],
-    "tend": "1:13:30",
+    "episode": "643",
+    "tstart": "45:40",
+    "instance": "Do you want to get them out of the way?",
+    "bit": "Tick Tock",
+"elucidation": "the timekeeper's catchphrase",
+    "tags": ["Maxwell Keeper","JW Stillwater"],
+    "tend": "46:00",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
+    "updated_at": "2020-03-02T10:51:29Z",
+    "created_at": "2020-03-02T10:51:29Z",
+    "slug_earwolf": "the-order-of-the-keepers",
+    "episode_title": "The Order of the Keepers",
     "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+      "Paul F. Tompkins","Neil Campbell"
     ]
   },{
-    "episode": "642",
-    "tstart": "1:15:45",
-    "instance": "I only listen to sighted people.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Gangsta's Paradise (song)","Coolio","Larry Sanders","Doug Rasheed","Stevie Wonder"],
-    "tend": "1:16:30",
+    "episode": "643",
+    "tstart": "48:45",
+    "instance": "Which clock is it - not Big Ben, I hope.",
+    "bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":["a billboard outside of tallahassee","site of: The Timekeeper mistaking a billboard for a crime"],
+    "tags": ["Maxwell Keeper","JW Stillwater"],
+    "tend": "49:30",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
+    "updated_at": "2020-03-02T10:51:29Z",
+    "created_at": "2020-03-02T10:51:29Z",
+    "slug_earwolf": "the-order-of-the-keepers",
+    "episode_title": "The Order of the Keepers",
     "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+      "Paul F. Tompkins","Neil Campbell"
     ]
   },{
-    "episode": "642",
-    "tstart": "1:15:45",
-    "instance": "I only listen to sighted people.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Amish Paradise (song)","Weird Al Yankovic"],
-    "tend": "1:16:30",
+    "episode": "643",
+    "tstart": "2:35",
+    "instance": "I thought I'd get them out of the way.",
+    "bit": "It's Been a While",
+"elucidation": "not it's been",
+    "tags": ["Maxwell Keeper"],
+    "tend": "2:45",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
+    "updated_at": "2020-03-02T10:51:29Z",
+    "created_at": "2020-03-02T10:51:29Z",
+    "slug_earwolf": "the-order-of-the-keepers",
+    "episode_title": "The Order of the Keepers",
     "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+      "Paul F. Tompkins","Neil Campbell"
     ]
   },{
-    "episode": "642",
-    "tstart": "1:15:45",
-    "instance": "I only listen to sighted people.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Pastime Paradise (song)","Stevie Wonder"],
-    "tend": "1:16:30",
+    "episode": "643",
+    "tstart": "59:40",
+    "instance": "Should I be a tourist or a Floridian?",
+    "bit": "Respec Mah Neck",
+"elucidation": "Adrien Brody's SNL Rastaman shows up/is discussed",
+    "tags": ["Maxwell Keeper","JW Stillwater"],
+    "tend": "1:00:02",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-02-25T10:51:29Z",
-    "created_at": "2020-02-25T10:51:29Z",
-    "slug_earwolf": "chicago-chaperone",
-    "episode_title": "Chicago Chaperone",
+    "updated_at": "2020-03-02T10:51:29Z",
+    "created_at": "2020-03-02T10:51:29Z",
+    "slug_earwolf": "the-order-of-the-keepers",
+    "episode_title": "The Order of the Keepers",
     "episode_guests": [
-      "Jimmy Pardo","Niccole Thurman","Matt Apodaca"
+      "Paul F. Tompkins","Neil Campbell"
     ]
   }
 ]
