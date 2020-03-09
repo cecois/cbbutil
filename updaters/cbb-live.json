@@ -1,495 +1,538 @@
 geoms[
   {
-    "episode": "643",
-    "tstart": "2:12",
-    "instance": "What is your Christian name, again?",
-    "bit": "Tick Tock",
-"elucidation": "the timekeeper's catchphrase",
-    "tags": ["Maxwell Keeper"],
-    "tend": "2:45",
+    "episode": "644",
+    "tstart": "3:10",
+    "instance": "Penn Station; Jamaica; Rockville Center; Baldwin; Freeport; Merrick; Bellmore; Wantagh; Seaford; Massapequa; Massapequa Park; Amityville; Copiague; Lindenhurst; and Babylon",
+    "bit": "Babylon, Baby",
+"elucidation": "the lirr by gino",
+    "tags": ["Gino Lambardo"],
+    "tend": "3:45",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-03-02T10:51:29Z",
-    "created_at": "2020-03-02T10:51:29Z",
-    "slug_earwolf": "the-order-of-the-keepers",
-    "episode_title": "The Order of the Keepers",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
     "episode_guests": [
-      "Paul F. Tompkins","Neil Campbell"
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
     ]
-  },{
-    "episode": "643",
-    "tstart": "58:15",
-    "instance": "How would you like a clock face?",
-    "bit": "Tick Tock",
-"elucidation": "the timekeeper's catchphrase",
-    "tags": ["Maxwell Keeper","JW Stillwater"],
-    "tend": "58:35",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-02T10:51:29Z",
-    "created_at": "2020-03-02T10:51:29Z",
-    "slug_earwolf": "the-order-of-the-keepers",
-    "episode_title": "The Order of the Keepers",
-    "episode_guests": [
-      "Paul F. Tompkins","Neil Campbell"
-    ]
-  },{
-    "episode": "643",
-    "tstart": "2:45",
-    "instance": "Hip Heap Hip Hooray - and that's just a Florida saying.",
+  }
+  ,{
+    "episode": "644",
+    "tstart": "5:15",
+    "instance": "There's a lot of stuff going on with the exchange rate these days.",
     "bit": "Location",
 "elucidation": "identifiable earth location",
-"nb":["tallahasee fl"],
-    "tags": ["Maxwell Keeper"],
-    "tend": "3:00",
+"nb":["nassau cc"],
+    "tags": ["Gino Lambardo"],
+    "tend": "5:45",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-03-02T10:51:29Z",
-    "created_at": "2020-03-02T10:51:29Z",
-    "slug_earwolf": "the-order-of-the-keepers",
-    "episode_title": "The Order of the Keepers",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
     "episode_guests": [
-      "Paul F. Tompkins","Neil Campbell"
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
     ]
   },{
-    "episode": "643",
-    "tstart": "4:45",
-    "instance": "That's two more than I thought would let you in.",
-    "bit": "It's Not a Tumor",
-"elucidation": "scott's schwarzenegger thing",
-    "tags": ["Maxwell Keeper"],
-    "tend": "5:05",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-02T10:51:29Z",
-    "created_at": "2020-03-02T10:51:29Z",
-    "slug_earwolf": "the-order-of-the-keepers",
-    "episode_title": "The Order of the Keepers",
-    "episode_guests": [
-      "Paul F. Tompkins","Neil Campbell"
-    ]
-  },{
-    "episode": "643",
-    "tstart": "5:05",
-    "instance": "I love and celebrate time. That's all.",
+    "episode": "644",
+    "tstart": "13:40",
+    "instance": "These fuckin' gulls went apeshit.",
     "bit": "Location",
 "elucidation": "identifiable earth location",
-"nb":["longo watch repair"],
-    "tags": ["Maxwell Keeper","Desmond Longo"],
-    "tend": "6:00",
+"nb":["jones beach field 4"],
+    "tags": ["Gino Lambardo"],
+    "tend": "14:00",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-03-02T10:51:29Z",
-    "created_at": "2020-03-02T10:51:29Z",
-    "slug_earwolf": "the-order-of-the-keepers",
-    "episode_title": "The Order of the Keepers",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
     "episode_guests": [
-      "Paul F. Tompkins","Neil Campbell"
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
     ]
   },{
-    "episode": "643",
-    "tstart": "8:00",
-    "instance": "I'm working for a special interest group.",
+    "episode": "644",
+    "tstart": "13:45",
+    "instance": "Breadcrumb; prosciutto; braciole; capicola; sopressata; pepperoni; salami; mozzarella trail.",
     "bit": "Location",
 "elucidation": "identifiable earth location",
-"nb":["special interest group on K Street, D.C.","new workplace of: Maxwell Keeper"],
-    "tags": ["Maxwell Keeper"],
-    "tend": "8:30",
+"nb":["route of: gino's italian hero trail","jones beach field 4 - wantaugh parkway - sunrise hwy exit - right on twin lakes blvd - left on belltaug"],
+    "tags": ["Gino Lambardo"],
+    "tend": "14:30",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-03-02T10:51:29Z",
-    "created_at": "2020-03-02T10:51:29Z",
-    "slug_earwolf": "the-order-of-the-keepers",
-    "episode_title": "The Order of the Keepers",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
     "episode_guests": [
-      "Paul F. Tompkins","Neil Campbell"
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
     ]
   },{
-    "episode": "643",
-    "tstart": "51:15",
-    "instance": "That's where you been - on K Street?",
+    "episode": "644",
+    "tstart": "5:35",
+    "instance": "Digital radio or some shit?",
+    "bit": "Group Coupon",
+"elucidation": "scott articulates obvious data (acronyms, abbreviations, etc.)",
+    "tags": ["Gino Lambardo"],
+    "tend": "5:50",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
+    "episode_guests": [
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
+    ]
+  },{
+    "episode": "644",
+    "tstart": "10:15",
+    "instance": "So I started living as a dog for a short period of time.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Gino Lambardo","Nuthin' but a 'G' Thang (song)",
+"Dr. Dre"],
+    "tend": "10:40",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
+    "episode_guests": [
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
+    ]
+  },{
+    "episode": "644",
+    "tstart": "16:45",
+    "instance": "She puts two Solo cups in there.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Gino Lambardo","Cups (song)",
+"A. P. Carter","Luisa Gerstein","Anna Kendrick"],
+    "tend": "16:55",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
+    "episode_guests": [
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
+    ]
+  },{
+    "episode": "644",
+    "tstart": "22:10",
+    "instance": "We were both on tank tops.",
     "bit": "Location",
 "elucidation": "identifiable earth location",
-"nb":["special interest group on K Street, D.C.","new workplace of: Maxwell Keeper"],
-    "tags": ["Maxwell Keeper","JW Stillwater"],
-    "tend": "51:45",
+"nb":["a town in iowa with a pond in the middle of it, a red roof inn, and a macy's in a mall","proxy for? winscourt, iowa","hometown of: the Starbos"],
+    "tags": ["Gino Lambardo","Christ Starbo","Christmas Carden Starbo"],
+    "tend": "23:00",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-03-02T10:51:29Z",
-    "created_at": "2020-03-02T10:51:29Z",
-    "slug_earwolf": "the-order-of-the-keepers",
-    "episode_title": "The Order of the Keepers",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
     "episode_guests": [
-      "Paul F. Tompkins","Neil Campbell"
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
     ]
   },{
-    "episode": "643",
-    "tstart": "6:45",
-    "instance": "Back to back, yeah.",
-    "bit": "Jeremy, Jeremy, Jeremy",
-"elucidation": "jeremy piven is referenced, often sung (happens a lot)",
-    "tags": ["Maxwell Keeper"],
-    "tend": "7:10",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-02T10:51:29Z",
-    "created_at": "2020-03-02T10:51:29Z",
-    "slug_earwolf": "the-order-of-the-keepers",
-    "episode_title": "The Order of the Keepers",
-    "episode_guests": [
-      "Paul F. Tompkins","Neil Campbell"
-    ]
-  },{
-    "episode": "643",
-    "tstart": "8:30",
-    "instance": "I haven't listened to ne'ery a tune of theirs.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Maxwell Keeper","The Things We Do for Love (song)","10cc (musical combination)"],
-    "tend": "8:50",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-02T10:51:29Z",
-    "created_at": "2020-03-02T10:51:29Z",
-    "slug_earwolf": "the-order-of-the-keepers",
-    "episode_title": "The Order of the Keepers",
-    "episode_guests": [
-      "Paul F. Tompkins","Neil Campbell"
-    ]
-  },{
-    "episode": "643",
-    "tstart": "51:40",
-    "instance": "Isn't the alphabet the opposite of time?",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-"hero":{"on":true,"attrib":"JW Stillwater"},
-    "tags": ["Maxwell Keeper","Charles Fox",
-"Norman Gimbel",
-"Happy Days (song)","JW Stillwater"],
-    "tend": "52:15",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-02T10:51:29Z",
-    "created_at": "2020-03-02T10:51:29Z",
-    "slug_earwolf": "the-order-of-the-keepers",
-    "episode_title": "The Order of the Keepers",
-    "episode_guests": [
-      "Paul F. Tompkins","Neil Campbell"
-    ]
-  },{
-    "episode": "643",
-    "tstart": "12:25",
-    "instance": "'Justin Bieber, go meet with Dan and Shay.'",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Maxwell Keeper","10,000 Hours (song)","Dan + Shay (musical combination)","Justin Bieber","Jessie Jo Dillon","Jason Boyd","Jordan Reynolds"],
-    "tend": "12:45",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-02T10:51:29Z",
-    "created_at": "2020-03-02T10:51:29Z",
-    "slug_earwolf": "the-order-of-the-keepers",
-    "episode_title": "The Order of the Keepers",
-    "episode_guests": [
-      "Paul F. Tompkins","Neil Campbell"
-    ]
-  },{
-    "episode": "643",
-    "tstart": "15:00",
-    "instance": "And I cowrote the lyrics.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Maxwell Keeper","No Time to Die (song)","Billie Eilish","Finneas O'Connell"],
-    "tend": "17:30",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-02T10:51:29Z",
-    "created_at": "2020-03-02T10:51:29Z",
-    "slug_earwolf": "the-order-of-the-keepers",
-    "episode_title": "The Order of the Keepers",
-    "episode_guests": [
-      "Paul F. Tompkins","Neil Campbell"
-    ]
-  },{
-    "episode": "643",
-    "tstart": "25:50",
-    "instance": "I would imagine the zoo freaks love 8 Mile as well because of Rabbit.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Maxwell Keeper","Lose Yourself (song)",
-"Eminem"],
-    "tend": "26:10",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-02T10:51:29Z",
-    "created_at": "2020-03-02T10:51:29Z",
-    "slug_earwolf": "the-order-of-the-keepers",
-    "episode_title": "The Order of the Keepers",
-    "episode_guests": [
-      "Paul F. Tompkins","Neil Campbell"
-    ]
-  },{
-    "episode": "643",
-    "tstart": "18:45",
-    "instance": "It was fun - I got a giraffe watch.",
+    "episode": "644",
+    "tstart": "33:35",
+    "instance": "We got the land.",
     "bit": "Location",
 "elucidation": "identifiable earth location",
-"nb":["a zoo near tallahasee","site of: The Timekeeper at the zoo"],
-    "tags": ["Maxwell Keeper","Desmond Longo"],
-    "tend": "19:15",
+"nb":["winscourt"],
+    "tags": ["Christ Starbo","Christmas Carden Starbo","Gino Lambardo"],
+    "tend": "34:45",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-03-02T10:51:29Z",
-    "created_at": "2020-03-02T10:51:29Z",
-    "slug_earwolf": "the-order-of-the-keepers",
-    "episode_title": "The Order of the Keepers",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
     "episode_guests": [
-      "Paul F. Tompkins","Neil Campbell"
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
     ]
   },{
-    "episode": "643",
-    "tstart": "54:15",
-    "instance": "I can't imagine he'd do that - he loves me.",
+    "episode": "644",
+    "tstart": "23:15",
+    "instance": "It was a fair that had barbequed items for sale?",
     "bit": "Location",
 "elucidation": "identifiable earth location",
-"nb":["a zoo near tallahasee","site of: The Timekeeper at the zoo"],
-    "tags": ["Maxwell Keeper","Desmond Longo","JW Stillwater"],
-    "tend": "54:30",
+"nb":["a fair near winscourt, iowa","site of: the Starbos' meetcute"],
+    "tags": ["Christ Starbo","Christmas Carden Starbo"],
+    "tend": "26:45",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-03-02T10:51:29Z",
-    "created_at": "2020-03-02T10:51:29Z",
-    "slug_earwolf": "the-order-of-the-keepers",
-    "episode_title": "The Order of the Keepers",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
     "episode_guests": [
-      "Paul F. Tompkins","Neil Campbell"
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
     ]
   },{
-    "episode": "643",
-    "tstart": "23:10",
-    "instance": "Do you wanna do your third?",
-    "bit": "Tick Tock",
-"elucidation": "the timekeeper's catchphrase",
-    "tags": ["Maxwell Keeper"],
-    "tend": "23:20",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-02T10:51:29Z",
-    "created_at": "2020-03-02T10:51:29Z",
-    "slug_earwolf": "the-order-of-the-keepers",
-    "episode_title": "The Order of the Keepers",
-    "episode_guests": [
-      "Paul F. Tompkins","Neil Campbell"
-    ]
-  },{
-    "episode": "643",
-    "tstart": "29:10",
-    "instance": "You said 'privy.'",
-    "bit": "Technicality. No. Down. Boo. Over.",
-"elucidation": "cbb's foul call",
-    "tags": ["JW Stillwater"],
-    "tend": "29:25",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-02T10:51:29Z",
-    "created_at": "2020-03-02T10:51:29Z",
-    "slug_earwolf": "the-order-of-the-keepers",
-    "episode_title": "The Order of the Keepers",
-    "episode_guests": [
-      "Paul F. Tompkins","Neil Campbell"
-    ]
-  },{
-    "episode": "643",
-    "tstart": "30:20",
-    "instance": "Seems like a Pearl Jam reference I'm not getting.",
-    "bit": "Jeremy, Jeremy, Jeremy",
-"elucidation": "jeremy piven is referenced, often sung (happens a lot)",
-    "tags": ["Maxwell Keeper","JW Stillwater"],
-    "tend": "30:45",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-02T10:51:29Z",
-    "created_at": "2020-03-02T10:51:29Z",
-    "slug_earwolf": "the-order-of-the-keepers",
-    "episode_title": "The Order of the Keepers",
-    "episode_guests": [
-      "Paul F. Tompkins","Neil Campbell"
-    ]
-  },{
-    "episode": "643",
-    "tstart": "30:20",
-    "instance": "Seems like a Pearl Jam reference I'm not getting.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Maxwell Keeper","Jeremy (song)",
-"Pearl Jam (musical combination)","JW Stillwater"],
-    "tend": "30:45",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-02T10:51:29Z",
-    "created_at": "2020-03-02T10:51:29Z",
-    "slug_earwolf": "the-order-of-the-keepers",
-    "episode_title": "The Order of the Keepers",
-    "episode_guests": [
-      "Paul F. Tompkins","Neil Campbell"
-    ]
-  },{
-    "episode": "643",
-    "tstart": "31:30",
-    "instance": "Why are you astonished?",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Maxwell Keeper","Bewitched Bothered and Bewildered (song)",
-"Lorenz Hart","Richard Rodgers","JW Stillwater"],
-    "tend": "31:45",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-02T10:51:29Z",
-    "created_at": "2020-03-02T10:51:29Z",
-    "slug_earwolf": "the-order-of-the-keepers",
-    "episode_title": "The Order of the Keepers",
-    "episode_guests": [
-      "Paul F. Tompkins","Neil Campbell"
-    ]
-  },{
-    "episode": "643",
-    "tstart": "50:00",
-    "instance": "So you know the Harry Potter films?",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Maxwell Keeper","JW Stillwater","Back in Time (song)",
-"Huey Lewis and the News (musical combination)"],
-    "tend": "50:20",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-02T10:51:29Z",
-    "created_at": "2020-03-02T10:51:29Z",
-    "slug_earwolf": "the-order-of-the-keepers",
-    "episode_title": "The Order of the Keepers",
-    "episode_guests": [
-      "Paul F. Tompkins","Neil Campbell"
-    ]
-  },{
-    "episode": "643",
-    "tstart": "1:08:20",
-    "instance": "He would be playing a creep.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Maxwell Keeper","JW Stillwater","The Fugees (musical combination)",
-"Killing Me Softly with His Song (song)"],
-    "tend": "1:08:40",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-02T10:51:29Z",
-    "created_at": "2020-03-02T10:51:29Z",
-    "slug_earwolf": "the-order-of-the-keepers",
-    "episode_title": "The Order of the Keepers",
-    "episode_guests": [
-      "Paul F. Tompkins","Neil Campbell"
-    ]
-  },{
-    "episode": "643",
-    "tstart": "30:40",
-    "instance": "You had me at 'come on, now.'",
-    "bit": "Come On Guys",
-"elucidation": "cum on guys",
-    "tags": ["Maxwell Keeper","JW Stillwater"],
-    "tend": "31:10",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-02T10:51:29Z",
-    "created_at": "2020-03-02T10:51:29Z",
-    "slug_earwolf": "the-order-of-the-keepers",
-    "episode_title": "The Order of the Keepers",
-    "episode_guests": [
-      "Paul F. Tompkins","Neil Campbell"
-    ]
-  },{
-    "episode": "643",
-    "tstart": "32:40",
-    "instance": "What is The Order of The Keepers, JW?",
+    "episode": "644",
+    "tstart": "28:50",
+    "instance": "I have a famously wet weiner.",
     "bit": "Location",
 "elucidation": "identifiable earth location",
-"nb":["cumberbatch county"],
-    "tags": ["JW Stillwater"],
-    "tend": "33:30",
+"nb":["winscourt, iowa's welcome sign","site of: crude Winscourt trivia"],
+    "tags": ["Christ Starbo","Christmas Carden Starbo"],
+    "tend": "29:30",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-03-02T10:51:29Z",
-    "created_at": "2020-03-02T10:51:29Z",
-    "slug_earwolf": "the-order-of-the-keepers",
-    "episode_title": "The Order of the Keepers",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
     "episode_guests": [
-      "Paul F. Tompkins","Neil Campbell"
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
     ]
   },{
-    "episode": "643",
-    "tstart": "45:40",
-    "instance": "Do you want to get them out of the way?",
-    "bit": "Tick Tock",
-"elucidation": "the timekeeper's catchphrase",
-    "tags": ["Maxwell Keeper","JW Stillwater"],
-    "tend": "46:00",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-02T10:51:29Z",
-    "created_at": "2020-03-02T10:51:29Z",
-    "slug_earwolf": "the-order-of-the-keepers",
-    "episode_title": "The Order of the Keepers",
-    "episode_guests": [
-      "Paul F. Tompkins","Neil Campbell"
-    ]
-  },{
-    "episode": "643",
-    "tstart": "48:45",
-    "instance": "Which clock is it - not Big Ben, I hope.",
+    "episode": "644",
+    "tstart": "32:15",
+    "instance": "Ew, so you are...bisexual?",
     "bit": "Location",
 "elucidation": "identifiable earth location",
-"nb":["a billboard outside of tallahassee","site of: The Timekeeper mistaking a billboard for a crime"],
-    "tags": ["Maxwell Keeper","JW Stillwater"],
-    "tend": "49:30",
+"nb":["lake placcid","site of: Gino Lambardo on a job"],
+    "tags": ["Christ Starbo","Christmas Carden Starbo","Gino Lambardo"],
+    "tend": "32:30",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-03-02T10:51:29Z",
-    "created_at": "2020-03-02T10:51:29Z",
-    "slug_earwolf": "the-order-of-the-keepers",
-    "episode_title": "The Order of the Keepers",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
     "episode_guests": [
-      "Paul F. Tompkins","Neil Campbell"
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
     ]
   },{
-    "episode": "643",
-    "tstart": "2:35",
-    "instance": "I thought I'd get them out of the way.",
-    "bit": "It's Been a While",
-"elucidation": "not it's been",
-    "tags": ["Maxwell Keeper"],
-    "tend": "2:45",
+    "episode": "644",
+    "tstart": "31:45",
+    "instance": "Usually the summer sports are hot and the winter sports are cold.",
+    "bit": "You're Terrible at This",
+"elucidation": "impromptu reviews of scott's hosting",
+    "tags": ["Christ Starbo","Christmas Carden Starbo","Gino Lambardo"],
+    "tend": "32:10",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-03-02T10:51:29Z",
-    "created_at": "2020-03-02T10:51:29Z",
-    "slug_earwolf": "the-order-of-the-keepers",
-    "episode_title": "The Order of the Keepers",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
     "episode_guests": [
-      "Paul F. Tompkins","Neil Campbell"
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
     ]
   },{
-    "episode": "643",
-    "tstart": "59:40",
-    "instance": "Should I be a tourist or a Floridian?",
-    "bit": "Respec Mah Neck",
-"elucidation": "Adrien Brody's SNL Rastaman shows up/is discussed",
-    "tags": ["Maxwell Keeper","JW Stillwater"],
-    "tend": "1:00:02",
+    "episode": "644",
+    "tstart": "36:20",
+    "instance": "Remember that time we spent a couple hours apart?",
+    "bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":["Macy's in a mall near Winscourt","site of: Chris Starbo in the bathroom"],
+    "tags": ["Christ Starbo","Christmas Carden Starbo","Gino Lambardo"],
+    "tend": "36:45",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-03-02T10:51:29Z",
-    "created_at": "2020-03-02T10:51:29Z",
-    "slug_earwolf": "the-order-of-the-keepers",
-    "episode_title": "The Order of the Keepers",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
     "episode_guests": [
-      "Paul F. Tompkins","Neil Campbell"
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
+    ]
+  },{
+    "episode": "644",
+    "tstart": "40:20",
+    "instance": "We don't wanna brag.",
+    "bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":["Macy's in a mall near Winscourt","site of: Chris Starbo in the bathroom"],
+    "tags": ["Christ Starbo","Christmas Carden Starbo","Gino Lambardo"],
+    "tend": "41:15",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
+    "episode_guests": [
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
+    ]
+  },{
+    "episode": "644",
+    "tstart": "44:20",
+    "instance": "I'm sorry - what did we just learn?",
+    "bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":["Macy's in a mall near Winscourt","site of: Chris Starbo in the bathroom"],
+    "tags": ["Christ Starbo","Christmas Carden Starbo","Gino Lambardo"],
+    "tend": "45:15",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
+    "episode_guests": [
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
+    ]
+  },{
+    "episode": "644",
+    "tstart": "47:10",
+    "instance": "People from all over the world are gonna love it.",
+    "bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":["food court in a mall near Winscourt","site of: the Starbos' primary olympics draw"],
+    "tags": ["Christ Starbo","Christmas Carden Starbo"],
+    "tend": "47:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
+    "episode_guests": [
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
+    ]
+  },{
+    "episode": "644",
+    "tstart": "41:30",
+    "instance": "One of my favorite musicians is Chuck Berry.",
+    "bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":["dthat chuck berry restaurant - also referenced in 'sneaky fellow' instance"],
+    "tags": ["Christ Starbo","Christmas Carden Starbo","Gino Lambardo","Chuck Berry"],
+    "tend": "42:15",
+    "location_type": "point",
+    "location_id": "911",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
+    "episode_guests": [
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
+    ]
+  },{
+    "episode": "644",
+    "tstart": "42:15",
+    "instance": "We were making our own 'Back to the Future.'",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Gino Lambardo","Johnny B. Goode (song)","Back to the Future (film)","Christmas Carden Starbo",
+"Johnny 'Delta' Johnson",
+"Chuck Berry"],
+    "tend": "43:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
+    "episode_guests": [
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
+    ]
+  },{
+    "episode": "644",
+    "tstart": "1:03:10",
+    "instance": "When MJF sang JBG?",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Gino Lambardo","Johnny B. Goode (song)","Christmas Carden Starbo",
+"Johnny 'Delta' Johnson",
+"Chuck Berry"],
+    "tend": "1:03:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
+    "episode_guests": [
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
+    ]
+  },{
+    "episode": "644",
+    "tstart": "1:01:20",
+    "instance": "You started that word at the end.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Bill Walton","Michael Jackson","Christmas Carden Starbo"
+"Say Say Say (song)",
+"Paul McCartney"],
+    "tend": "1:01:50",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
+    "episode_guests": [
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
+    ]
+  },{
+    "episode": "644",
+    "tstart": "43:40",
+    "instance": "Yeah, we call it 'Loose Lips Sink Ships.'",
+    "bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":["int'l waters","site of: Gino Lambardo's annual lip sync party"],
+    "tags": ["Christ Starbo","Christmas Carden Starbo","Gino Lambardo"],
+    "tend": "44:05",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
+    "episode_guests": [
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
+    ]
+  },{
+    "episode": "644",
+    "tstart": "47:25",
+    "instance": "That's called 'Olympic Village,' my friend.",
+    "bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":["red roof inn near Winscourt, iowa","site of: the Starbos' proposed Olympic Village"],
+    "tags": ["Christ Starbo","Christmas Carden Starbo"],
+    "tend": "48:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
+    "episode_guests": [
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
+    ]
+  },{
+    "episode": "644",
+    "tstart": "1:16:45",
+    "instance": "Here's a good chance to plug the pond.",
+    "bit": "Location",
+"elucidation": "identifiable earth location",
+"nb":["pond in the middle of Winscourt, iowa","site of: the Starbos' Toyota Tacoma, now"],
+    "tags": ["Christ Starbo","Christmas Carden Starbo"],
+    "tend": "1:17:10",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
+    "episode_guests": [
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
+    ]
+  },{
+    "episode": "644",
+    "tstart": "1:01:55",
+    "instance": "The river through hell that the old demon would take you on.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Bill Walton","Styx (musical combination)","Mr. Roboto (song)"],
+    "tend": "1:02:15",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
+    "episode_guests": [
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
+    ]
+  },{
+    "episode": "644",
+    "tstart": "1:02:10",
+    "instance": "There's another song that's a devil-worshipin' song.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Bill Walton","Christmas Carden Starbo","Blue (Da Ba Dee) (song)","Eiffel 65 (musical combination)"],
+    "tend": "1:02:25",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
+    "episode_guests": [
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
+    ]
+  },{
+    "episode": "644",
+    "tstart": "1:07:15",
+    "instance": "Paul Dano doing his cover of Mother by Glenn Danzig while playing Guitar Hero 3.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Bill Walton","Christmas Carden Starbo","Mother (song)","Danzig (musical combination)"],
+    "tend": "1:07:45",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
+    "episode_guests": [
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
+    ]
+  },{
+    "episode": "644",
+    "tstart": "1:09:15",
+    "instance": "Laugh my ass fuck off.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Gino Lambardo","Bill Walton","Christmas Carden Starbo","The Hampsterdance Song (song)","Roger Miller","Whistle Stop","The Boomtang Boys (musical combination)"],
+    "tend": "1:09:50",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
+    "episode_guests": [
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
+    ]
+  },{
+    "episode": "644",
+    "tstart": "1:18:00",
+    "instance": "Until you're as dead as Steve Jobs.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Steve Jobs","Christmas Carden Starbo","Lovely Day (song)","Bill Withers","Skip Scarborough"],
+    "tend": "1:18:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
+    "episode_guests": [
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
+    ]
+  },{
+    "episode": "644",
+    "tstart": "1:10:05",
+    "instance": "Did Kevin Smith ever think of buying the town and changing it to Winsjort?",
+    "bit": "Scott's Questions",
+"elucidation": "scott's...questions",
+    "tags": ["Bill Walton","Christmas Carden Starbo"],
+    "tend": "1:10:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-09T10:51:29Z",
+    "created_at": "2020-03-09T10:51:29Z",
+    "slug_earwolf": "fall-olympics",
+    "episode_title": "Fall Olympics",
+    "episode_guests": [
+      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
     ]
   }
 ]

@@ -609,6 +609,7 @@
   - 447,50:45(pw)
 - no rule against dogs playing (football|basketball)
   - 2016.shepherds,42:45
+  - 644,11:45
   - 641,56:30
   - 641,1:09:00
   - 622,38:30
