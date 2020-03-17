@@ -1,525 +1,368 @@
 [
   {
-    "episode": "644",
-    "tstart": "3:10",
-    "instance": "Penn Station; Jamaica; Rockville Center; Baldwin; Freeport; Merrick; Bellmore; Wantagh; Seaford; Massapequa; Massapequa Park; Amityville; Copiague; Lindenhurst; and Babylon",
-    "bit": "Babylon, Baby",
-"elucidation": "the lirr by gino",
-    "tags": ["Gino Lambardo"],
-    "tend": "3:45",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
-    "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
-    ]
-  }
-  ,{
-    "episode": "644",
-    "tstart": "5:15",
-    "instance": "There's a lot of stuff going on with the exchange rate these days.",
-    "bit": "Location",
-"elucidation": "identifiable earth location",
-"nb":["nassau cc"],
-    "tags": ["Gino Lambardo"],
-    "tend": "5:45",
-    "location_type": "point",
-    "location_id": "299",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
-    "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
-    ]
-  },{
-    "episode": "644",
-    "tstart": "13:40",
-    "instance": "These fuckin' gulls went apeshit.",
-    "bit": "Location",
-"elucidation": "identifiable earth location",
-"nb":["jones beach field 4"],
-    "tags": ["Gino Lambardo"],
-    "tend": "14:00",
-    "location_type": "point","location_id": "1239",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
-    "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
-    ]
-  },{
-    "episode": "644",
-    "tstart": "13:45",
-    "instance": "Breadcrumb; prosciutto; braciole; capicola; sopressata; pepperoni; salami; mozzarella trail.",
-    "bit": "Location",
-"elucidation": "identifiable earth location",
-"nb":["route of: gino's italian hero trail","jones beach field 4 - wantaugh parkway - sunrise hwy exit - right on twin lakes blvd - left on belltaug"],
-    "tags": ["Gino Lambardo"],
-    "tend": "14:30",
-    "location_type": "line","location_id": "302",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
-    "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
-    ]
-  },{
-"episode": "644",
-    "tstart": "5:35",
-    "instance": "Digital radio or some shit?",
-    "bit": "Group Coupon",
-"elucidation": "scott articulates obvious data (acronyms, abbreviations, etc.)",
-    "tags": ["Gino Lambardo"],
-    "tend": "5:50",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
-    "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
-    ]
-  },{
-"episode": "644",
-    "tstart": "10:15",
-    "instance": "So I started living as a dog for a short period of time.",
+    "episode": "645",
+    "tstart": "14:10",
+    "instance": "You discovered Aparna!",
     "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Gino Lambardo","Nuthin' but a 'G' Thang (song)",
-"Dr. Dre"],
-    "tend": "10:40",
+    "elucidation": "any song reference",
+    "tags": [
+      "The Fugees (musical combination)",
+      "Killing Me Softly with His Song (song)"
+    ],
+    "tend": "14:20",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
+    "updated_at": "2020-03-16T10:51:29Z",
+    "created_at": "2020-03-16T10:51:29Z",
+    "slug_earwolf": "jack-fm-bumpers",
+    "episode_title": "Jack FM Bumpers",
     "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
+      "Matt Braunger","Will Hines",
+      "Brad Evans",
+      "Nick Ciarelli"
     ]
-  },{
-"episode": "644",
-    "tstart": "16:45",
-    "instance": "She puts two Solo cups in there.",
+  },
+  {
+    "episode": "645",
+    "tstart": "35:50",
+    "instance": "If people are too dumb to know those are separate songs our voices will come in.",
     "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Gino Lambardo","Cups (song)",
-"A. P. Carter","Luisa Gerstein","Anna Kendrick"],
-    "tend": "16:55",
+    "elucidation": "any song reference",
+    "tags": [
+      "Falco",
+      "Rock Me Amadeus (song)",
+      "Lester Brads",
+      "Murf",
+      "Dirt"
+    ],
+    "tend": "36:10",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
+    "updated_at": "2020-03-16T10:51:29Z",
+    "created_at": "2020-03-16T10:51:29Z",
+    "slug_earwolf": "jack-fm-bumpers",
+    "episode_title": "Jack FM Bumpers",
     "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
+      "Matt Braunger","Will Hines",
+      "Brad Evans",
+      "Nick Ciarelli"
     ]
-  },{
-    "episode": "644",
-    "tstart": "22:10",
-    "instance": "We were both on tank tops.",
-    "bit": "Location",
-"elucidation": "identifiable earth location",
-"nb":["a town in iowa with a pond in the middle of it, a red roof inn, and a macy's in a mall","proxy for: Winscourt, Iowa","hometown of: the Starbos"],
-    "tags": ["Gino Lambardo","Christ Starbo","Christmas Carden Starbo"],
-    "tend": "23:00",
-    "location_type": "poly","location_id": "1097",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
+  },
+  {
+    "episode": "645",
+    "tstart": "1:05:05",
+    "instance": "That's a Sir Mix-a-Lot dream, right there.",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+      "Sir Mix-a-Lot",
+"Baby Got Back (song)",
+      "Murf",
+      "Dirt"
+    ],
+    "tend": "1:05:22",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-16T10:51:29Z",
+    "created_at": "2020-03-16T10:51:29Z",
+    "slug_earwolf": "jack-fm-bumpers",
+    "episode_title": "Jack FM Bumpers",
     "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
+      "Matt Braunger","Will Hines",
+      "Brad Evans",
+      "Nick Ciarelli"
     ]
-  },{
-    "episode": "644",
-    "tstart": "33:35",
-    "instance": "We got the land.",
+  },
+  {
+    "episode": "645",
+    "tstart": "35:50",
+    "instance": "If people are too dumb to know those are separate songs our voices will come in.",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+      "Tubthumping (song)",
+      "Chumbawamba (musical combination)",
+      "Lester Brads",
+      "Murf",
+      "Dirt"
+    ],
+    "tend": "36:10",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-16T10:51:29Z",
+    "created_at": "2020-03-16T10:51:29Z",
+    "slug_earwolf": "jack-fm-bumpers",
+    "episode_title": "Jack FM Bumpers",
+    "episode_guests": [
+      "Matt Braunger","Will Hines",
+      "Brad Evans",
+      "Nick Ciarelli"
+    ]
+  },
+  {
+    "episode": "645",
+    "tstart": "36:00",
+    "instance": "This could be five different songs as far as I know.",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+      "Rosalita (song)",
+      "Bruce Springsteen",
+      "Lester Brads",
+      "Murf",
+      "Dirt"
+    ],
+    "tend": "36:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-16T10:51:29Z",
+    "created_at": "2020-03-16T10:51:29Z",
+    "slug_earwolf": "jack-fm-bumpers",
+    "episode_title": "Jack FM Bumpers",
+    "episode_guests": [
+      "Matt Braunger","Will Hines",
+      "Brad Evans",
+      "Nick Ciarelli"
+    ]
+  },
+  {
+    "episode": "645",
+    "tstart": "36:00",
+    "instance": "This could be five different songs as far as I know.",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+      "Stairway to Heaven (song)",
+      "Led Zeppelin (musical combination)",
+      "Lester Brads",
+      "Murf",
+      "Dirt"
+    ],
+    "tend": "36:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-16T10:51:29Z",
+    "created_at": "2020-03-16T10:51:29Z",
+    "slug_earwolf": "jack-fm-bumpers",
+    "episode_title": "Jack FM Bumpers",
+    "episode_guests": [
+      "Matt Braunger","Will Hines",
+      "Brad Evans",
+      "Nick Ciarelli"
+    ]
+  },
+  {
+    "episode": "645",
+    "tstart": "14:30",
+    "instance": "Giving each other a leg up as well as other things.",
+    "bit": "Fantastic.",
+    "elucidation": "one of scott's 25 words",
+    "tags": [],
+    "tend": "14:45",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-16T10:51:29Z",
+    "created_at": "2020-03-16T10:51:29Z",
+    "slug_earwolf": "jack-fm-bumpers",
+    "episode_title": "Jack FM Bumpers",
+    "episode_guests": [
+      "Matt Braunger","Will Hines",
+      "Brad Evans",
+      "Nick Ciarelli"
+    ]
+  },
+  {
+    "episode": "645",
+    "tstart": "47:00",
+    "instance": "I live for conflict - that was what my high school English Composition teacher told me.",
+    "bit": "Fantastic.",
+    "elucidation": "one of scott's 25 words",
+    "tags": [
+      "Lester Brads"
+    ],
+    "tend": "47:10",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-16T10:51:29Z",
+    "created_at": "2020-03-16T10:51:29Z",
+    "slug_earwolf": "jack-fm-bumpers",
+    "episode_title": "Jack FM Bumpers",
+    "episode_guests": [
+      "Matt Braunger","Will Hines",
+      "Brad Evans",
+      "Nick Ciarelli"
+    ]
+  },
+  {
+    "episode": "645",
+    "tstart": "27:20",
+    "instance": "She was a hedge fund investor.",
     "bit": "Location",
-"elucidation": "identifiable earth location",
-"nb":["winscourt"],
-    "tags": ["Christ Starbo","Christmas Carden Starbo","Gino Lambardo"],
+    "elucidation": "identifiable earth location",
+    "nb": [
+      "wall street",
+      "workplace of: Lester Brads and his mother, formerly"
+    ],
+    "tags": [
+      "Lester Brads"
+    ],
+    "tend": "28:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-16T10:51:29Z",
+    "created_at": "2020-03-16T10:51:29Z",
+    "slug_earwolf": "jack-fm-bumpers",
+    "episode_title": "Jack FM Bumpers",
+    "episode_guests": [
+      "Matt Braunger","Will Hines",
+      "Brad Evans",
+      "Nick Ciarelli"
+    ]
+  },
+  {
+    "episode": "645",
+    "tstart": "33:30",
+    "instance": "All the microphones stopped working?",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "nb": [
+      "site of: jackfm, broken microphones",
+      "-118.352172,34.061996"
+    ],
+    "tags": [
+      "Lester Brads",
+      "Murf",
+      "Dirt"
+    ],
+    "tend": "34:15",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-16T10:51:29Z",
+    "created_at": "2020-03-16T10:51:29Z",
+    "slug_earwolf": "jack-fm-bumpers",
+    "episode_title": "Jack FM Bumpers",
+    "episode_guests": [
+      "Matt Braunger","Will Hines",
+      "Brad Evans",
+      "Nick Ciarelli"
+    ]
+  },
+  {
+    "episode": "645",
+    "tstart": "34:15",
+    "instance": "Why did you think there would be microphones there?",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "nb": [
+      "site of: Murf and Dirt looking for mics",
+      "-118.315519,34.098369"
+    ],
+    "tags": [
+      "Lester Brads",
+      "Murf",
+      "Dirt"
+    ],
     "tend": "34:45",
-    "location_type": "poly","location_id": "1097",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
-    "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
-    ]
-  },{
-    "episode": "644",
-    "tstart": "23:15",
-    "instance": "It was a fair that had barbequed items for sale?",
-    "bit": "Location",
-"elucidation": "identifiable earth location",
-"nb":["a fair near winscourt, iowa","site of: the Starbos' meetcute"],
-    "tags": ["Christ Starbo","Christmas Carden Starbo"],
-    "tend": "26:45",
-    "location_type": "point","location_id": "1240",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
-    "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
-    ]
-  },{
-    "episode": "644",
-    "tstart": "28:50",
-    "instance": "I have a famously wet weiner.",
-    "bit": "Location",
-"elucidation": "identifiable earth location",
-"nb":["winscourt, iowa's welcome sign","site of: crude Winscourt trivia"],
-    "tags": ["Christ Starbo","Christmas Carden Starbo"],
-    "tend": "29:30",
-    "location_type": "point","location_id": "1241",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
-    "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
-    ]
-  },{
-    "episode": "644",
-    "tstart": "32:15",
-    "instance": "Ew, so you are...bisexual?",
-    "bit": "Location",
-"elucidation": "identifiable earth location",
-"nb":["lake placcid","site of: Gino Lambardo on a job"],
-    "tags": ["Christ Starbo","Christmas Carden Starbo","Gino Lambardo"],
-    "tend": "32:30",
-    "location_type": "poly","location_id": "1098",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
-    "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
-    ]
-  },{
-    "episode": "644",
-    "tstart": "31:45",
-    "instance": "Usually the summer sports are hot and the winter sports are cold.",
-    "bit": "You're Terrible at This",
-"elucidation": "impromptu reviews of scott's hosting",
-    "tags": ["Christ Starbo","Christmas Carden Starbo","Gino Lambardo"],
-    "tend": "32:10",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
+    "updated_at": "2020-03-16T10:51:29Z",
+    "created_at": "2020-03-16T10:51:29Z",
+    "slug_earwolf": "jack-fm-bumpers",
+    "episode_title": "Jack FM Bumpers",
     "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
+      "Matt Braunger","Will Hines",
+      "Brad Evans",
+      "Nick Ciarelli"
     ]
-  },{
-    "episode": "644",
-    "tstart": "36:20",
-    "instance": "Remember that time we spent a couple hours apart?",
-    "bit": "Location",
-"elucidation": "identifiable earth location",
-"nb":["Macy's in a mall near Winscourt","site of: Chris Starbo in the bathroom"],
-    "tags": ["Christ Starbo","Christmas Carden Starbo","Gino Lambardo"],
-    "tend": "36:45",
-    "location_type": "point","location_id": "1242",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
-    "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
-    ]
-  },{
-    "episode": "644",
-    "tstart": "40:20",
-    "instance": "We don't wanna brag.",
-    "bit": "Location",
-"elucidation": "identifiable earth location",
-"nb":["Macy's in a mall near Winscourt","site of: Chris Starbo in the bathroom"],
-    "tags": ["Christ Starbo","Christmas Carden Starbo","Gino Lambardo"],
-    "tend": "41:15",
-    "location_type": "point","location_id": "1242",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
-    "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
-    ]
-  },{
-    "episode": "644",
-    "tstart": "44:20",
-    "instance": "I'm sorry - what did we just learn?",
-    "bit": "Location",
-"elucidation": "identifiable earth location",
-"nb":["Macy's in a mall near Winscourt","site of: Chris Starbo in the bathroom"],
-    "tags": ["Christ Starbo","Christmas Carden Starbo","Gino Lambardo"],
-    "tend": "45:15",
-    "location_type": "point","location_id": "1242",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
-    "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
-    ]
-  },{
-    "episode": "644",
-    "tstart": "47:10",
-    "instance": "People from all over the world are gonna love it.",
-    "bit": "Location",
-"elucidation": "identifiable earth location",
-"nb":["food court in a mall near Winscourt","site of: the Starbos' primary olympics draw"],
-    "tags": ["Christ Starbo","Christmas Carden Starbo"],
-    "tend": "47:30",
-    "location_type": "point","location_id": "1243",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
-    "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
-    ]
-  },{
-    "episode": "644",
-    "tstart": "41:30",
-    "instance": "One of my favorite musicians is Chuck Berry.",
-    "bit": "Location",
-"elucidation": "identifiable earth location",
-"nb":["dthat chuck berry restaurant - also referenced in 'sneaky fellow' instance"],
-    "tags": ["Christ Starbo","Christmas Carden Starbo","Gino Lambardo","Chuck Berry"],
-    "tend": "42:15",
-    "location_type": "point",
-    "location_id": "911",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
-    "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
-    ]
-  },{
-    "episode": "644",
-    "tstart": "42:15",
-    "instance": "We were making our own 'Back to the Future.'",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Gino Lambardo","Johnny B. Goode (song)","Back to the Future (film)","Christmas Carden Starbo",
-"Johnny 'Delta' Johnson",
-"Chuck Berry"],
-    "tend": "43:30",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
-    "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
-    ]
-  },{
-    "episode": "644",
-    "tstart": "1:03:10",
-    "instance": "When MJF sang JBG?",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Gino Lambardo","Johnny B. Goode (song)","Christmas Carden Starbo",
-"Johnny 'Delta' Johnson",
-"Chuck Berry"],
-    "tend": "1:03:30",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
-    "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
-    ]
-  },{
-    "episode": "644",
-    "tstart": "1:01:20",
-    "instance": "You started that word at the end.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Bill Walton","Michael Jackson","Christmas Carden Starbo",
-"Say Say Say (song)",
-"Paul McCartney"],
-    "tend": "1:01:50",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
-    "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
-    ]
-  },{
-    "episode": "644",
-    "tstart": "43:40",
-    "instance": "Yeah, we call it 'Loose Lips Sink Ships.'",
-    "bit": "Location",
-"elucidation": "identifiable earth location",
-"nb":["int'l waters","site of: Gino Lambardo's annual lip sync party"],
-    "tags": ["Christ Starbo","Christmas Carden Starbo","Gino Lambardo"],
-    "tend": "44:05",
-    "location_type": "line",
-    "location_id": "11",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
-    "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
-    ]
-  },{
-    "episode": "644",
-    "tstart": "47:25",
-    "instance": "That's called 'Olympic Village,' my friend.",
-    "bit": "Location",
-"elucidation": "identifiable earth location",
-"nb":["red roof inn near Winscourt, iowa","site of: the Starbos' proposed Olympic Village"],
-    "tags": ["Christ Starbo","Christmas Carden Starbo"],
+  },
+  {
+    "episode": "645",
+    "tstart": "47:40",
+    "instance": "Is this Candlebox?",
+    "bit": "Amy Poehler is Rude",
+"elucidation": "some asshole talks over the wyr theme",
+    "tags": [
+      "Murf",
+      "Dirt"
+    ],
     "tend": "48:00",
-    "location_type": "point","location_id": "1244",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
-    "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
-    ]
-  },{
-    "episode": "644",
-    "tstart": "1:16:45",
-    "instance": "Here's a good chance to plug the pond.",
-    "bit": "Location",
-"elucidation": "identifiable earth location",
-"nb":["pond in the middle of Winscourt, iowa","site of: the Starbos' Toyota Tacoma, now"],
-    "tags": ["Christ Starbo","Christmas Carden Starbo"],
-    "tend": "1:17:10",
-    "location_type": "poly","location_id": "1099",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
-    "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
-    ]
-  },{
-    "episode": "644",
-    "tstart": "1:01:55",
-    "instance": "The river through hell that the old demon would take you on.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Bill Walton","Styx (musical combination)","Mr. Roboto (song)"],
-    "tend": "1:02:15",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
+    "updated_at": "2020-03-16T10:51:29Z",
+    "created_at": "2020-03-16T10:51:29Z",
+    "slug_earwolf": "jack-fm-bumpers",
+    "episode_title": "Jack FM Bumpers",
     "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
+      "Matt Braunger","Will Hines",
+      "Brad Evans",
+      "Nick Ciarelli"
     ]
-  },{
-"episode": "644",
-    "tstart": "1:02:10",
-    "instance": "There's another song that's a devil-worshipin' song.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Bill Walton","Christmas Carden Starbo","Blue (Da Ba Dee) (song)","Eiffel 65 (musical combination)"],
-    "tend": "1:02:25",
+  },
+  {
+    "episode": "645",
+    "tstart": "47:40",
+    "instance": "Is this Candlebox?",
+    "bit": "Shut the Fuck Up!",
+    "elucidation": "someone simply wants everyone else specifically to shut the fuck up",
+    "tags": [
+      "Murf",
+      "Dirt"
+    ],
+    "tend": "48:00",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
+    "updated_at": "2020-03-16T10:51:29Z",
+    "created_at": "2020-03-16T10:51:29Z",
+    "slug_earwolf": "jack-fm-bumpers",
+    "episode_title": "Jack FM Bumpers",
     "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
+      "Matt Braunger","Will Hines",
+      "Brad Evans",
+      "Nick Ciarelli"
     ]
-  },{
-    "episode": "644",
-    "tstart": "1:07:15",
-    "instance": "Paul Dano doing his cover of Mother by Glenn Danzig while playing Guitar Hero 3.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Bill Walton","Christmas Carden Starbo","Mother (song)","Danzig (musical combination)"],
-    "tend": "1:07:45",
+  },
+  {
+    "episode": "645",
+    "tstart": "50:00",
+    "instance": "I should have been warned!",
+    "bit": "Classic WYR Blunder: The Floor is Not Yet Open",
+"elucidation": "one of several potential wyr blunders",
+    "tags": [
+      "Lester Brads"
+    ],
+    "tend": "50:30",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
+    "updated_at": "2020-03-16T10:51:29Z",
+    "created_at": "2020-03-16T10:51:29Z",
+    "slug_earwolf": "jack-fm-bumpers",
+    "episode_title": "Jack FM Bumpers",
     "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
+      "Matt Braunger","Will Hines",
+      "Brad Evans",
+      "Nick Ciarelli"
     ]
-  },{
-    "episode": "644",
-    "tstart": "1:09:15",
-    "instance": "Laugh my ass fuck off.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Gino Lambardo","Bill Walton","Christmas Carden Starbo","The Hampsterdance Song (song)","Roger Miller","Whistle Stop","The Boomtang Boys (musical combination)"],
-    "tend": "1:09:50",
+  },
+  {
+    "episode": "645",
+    "tstart": "1:01:30",
+    "instance": "I informed you about it, my dear boy.",
+    "bit": "The Floor Closes",
+"elucidation": "the wyr floor closes abruptly",
+    "tags": [
+      "Lester Brads"
+    ],
+    "tend": "1:01:45",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
+    "updated_at": "2020-03-16T10:51:29Z",
+    "created_at": "2020-03-16T10:51:29Z",
+    "slug_earwolf": "jack-fm-bumpers",
+    "episode_title": "Jack FM Bumpers",
     "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
-    ]
-  },{
-    "episode": "644",
-    "tstart": "1:18:00",
-    "instance": "Until you're as dead as Steve Jobs.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Steve Jobs","Christmas Carden Starbo","Lovely Day (song)","Bill Withers","Skip Scarborough"],
-    "tend": "1:18:30",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
-    "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
-    ]
-  },{
-    "episode": "644",
-    "tstart": "1:10:05",
-    "instance": "Did Kevin Smith ever think of buying the town and changing it to Winsjort?",
-    "bit": "Scott's Questions",
-"elucidation": "scott's...questions",
-    "tags": ["Bill Walton","Christmas Carden Starbo"],
-    "tend": "1:10:30",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-09T10:51:29Z",
-    "created_at": "2020-03-09T10:51:29Z",
-    "slug_earwolf": "fall-olympics",
-    "episode_title": "Fall Olympics",
-    "episode_guests": [
-      "D'Arcy Carden","Brandon Scott Jones","Dan Lippert","Jon Gabrus"
+      "Matt Braunger","Will Hines",
+      "Brad Evans",
+      "Nick Ciarelli"
     ]
   }
 ]
