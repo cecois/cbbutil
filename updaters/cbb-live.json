@@ -1,368 +1,425 @@
-[
+geoms[
   {
-    "episode": "645",
-    "tstart": "14:10",
-    "instance": "You discovered Aparna!",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-      "The Fugees (musical combination)",
-      "Killing Me Softly with His Song (song)"
-    ],
-    "tend": "14:20",
+    "episode": "646",
+    "tstart": "2:30",
+    "instance": "I work with guys, dudes, men, boys, bros.",
+    "bit": "Titular",
+"elucidation": "the titular 'titular'",
+    "tags": ["Sprague the Whisperer"],
+    "tend": "2:45",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-03-16T10:51:29Z",
-    "created_at": "2020-03-16T10:51:29Z",
-    "slug_earwolf": "jack-fm-bumpers",
-    "episode_title": "Jack FM Bumpers",
+    "updated_at": "2020-03-23T10:51:29Z",
+    "created_at": "2020-03-23T10:51:29Z",
+    "slug_earwolf": "ninja-nordstrom",
+    "episode_title": "Ninja Nordstrom",
     "episode_guests": [
-      "Matt Braunger","Will Hines",
-      "Brad Evans",
-      "Nick Ciarelli"
+      "Shaun Diston",
+      "Lily Sullivan","Jacob Wysocki"
     ]
-  },
-  {
-    "episode": "645",
-    "tstart": "35:50",
-    "instance": "If people are too dumb to know those are separate songs our voices will come in.",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-      "Falco",
-      "Rock Me Amadeus (song)",
-      "Lester Brads",
-      "Murf",
-      "Dirt"
-    ],
-    "tend": "36:10",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-16T10:51:29Z",
-    "created_at": "2020-03-16T10:51:29Z",
-    "slug_earwolf": "jack-fm-bumpers",
-    "episode_title": "Jack FM Bumpers",
-    "episode_guests": [
-      "Matt Braunger","Will Hines",
-      "Brad Evans",
-      "Nick Ciarelli"
-    ]
-  },
-  {
-    "episode": "645",
-    "tstart": "1:05:05",
-    "instance": "That's a Sir Mix-a-Lot dream, right there.",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-      "Sir Mix-a-Lot",
-"Baby Got Back (song)",
-      "Murf",
-      "Dirt"
-    ],
-    "tend": "1:05:22",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-16T10:51:29Z",
-    "created_at": "2020-03-16T10:51:29Z",
-    "slug_earwolf": "jack-fm-bumpers",
-    "episode_title": "Jack FM Bumpers",
-    "episode_guests": [
-      "Matt Braunger","Will Hines",
-      "Brad Evans",
-      "Nick Ciarelli"
-    ]
-  },
-  {
-    "episode": "645",
-    "tstart": "35:50",
-    "instance": "If people are too dumb to know those are separate songs our voices will come in.",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-      "Tubthumping (song)",
-      "Chumbawamba (musical combination)",
-      "Lester Brads",
-      "Murf",
-      "Dirt"
-    ],
-    "tend": "36:10",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-16T10:51:29Z",
-    "created_at": "2020-03-16T10:51:29Z",
-    "slug_earwolf": "jack-fm-bumpers",
-    "episode_title": "Jack FM Bumpers",
-    "episode_guests": [
-      "Matt Braunger","Will Hines",
-      "Brad Evans",
-      "Nick Ciarelli"
-    ]
-  },
-  {
-    "episode": "645",
-    "tstart": "36:00",
-    "instance": "This could be five different songs as far as I know.",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-      "Rosalita (song)",
-      "Bruce Springsteen",
-      "Lester Brads",
-      "Murf",
-      "Dirt"
-    ],
-    "tend": "36:30",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-16T10:51:29Z",
-    "created_at": "2020-03-16T10:51:29Z",
-    "slug_earwolf": "jack-fm-bumpers",
-    "episode_title": "Jack FM Bumpers",
-    "episode_guests": [
-      "Matt Braunger","Will Hines",
-      "Brad Evans",
-      "Nick Ciarelli"
-    ]
-  },
-  {
-    "episode": "645",
-    "tstart": "36:00",
-    "instance": "This could be five different songs as far as I know.",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-      "Stairway to Heaven (song)",
-      "Led Zeppelin (musical combination)",
-      "Lester Brads",
-      "Murf",
-      "Dirt"
-    ],
-    "tend": "36:30",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-16T10:51:29Z",
-    "created_at": "2020-03-16T10:51:29Z",
-    "slug_earwolf": "jack-fm-bumpers",
-    "episode_title": "Jack FM Bumpers",
-    "episode_guests": [
-      "Matt Braunger","Will Hines",
-      "Brad Evans",
-      "Nick Ciarelli"
-    ]
-  },
-  {
-    "episode": "645",
-    "tstart": "14:30",
-    "instance": "Giving each other a leg up as well as other things.",
-    "bit": "Fantastic.",
-    "elucidation": "one of scott's 25 words",
-    "tags": [],
-    "tend": "14:45",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-16T10:51:29Z",
-    "created_at": "2020-03-16T10:51:29Z",
-    "slug_earwolf": "jack-fm-bumpers",
-    "episode_title": "Jack FM Bumpers",
-    "episode_guests": [
-      "Matt Braunger","Will Hines",
-      "Brad Evans",
-      "Nick Ciarelli"
-    ]
-  },
-  {
-    "episode": "645",
-    "tstart": "47:00",
-    "instance": "I live for conflict - that was what my high school English Composition teacher told me.",
-    "bit": "Fantastic.",
-    "elucidation": "one of scott's 25 words",
-    "tags": [
-      "Lester Brads"
-    ],
-    "tend": "47:10",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-16T10:51:29Z",
-    "created_at": "2020-03-16T10:51:29Z",
-    "slug_earwolf": "jack-fm-bumpers",
-    "episode_title": "Jack FM Bumpers",
-    "episode_guests": [
-      "Matt Braunger","Will Hines",
-      "Brad Evans",
-      "Nick Ciarelli"
-    ]
-  },
-  {
-    "episode": "645",
-    "tstart": "27:20",
-    "instance": "She was a hedge fund investor.",
+  }
+  ,{
+    "episode": "646",
+    "tstart": "3:00",
+    "instance": "Everything's different now in America.",
     "bit": "Location",
-    "elucidation": "identifiable earth location",
-    "nb": [
-      "wall street",
-      "workplace of: Lester Brads and his mother, formerly"
-    ],
-    "tags": [
-      "Lester Brads"
-    ],
-    "tend": "28:00",
+"elucidation": "identifiable earth location",
+    "tags": ["Sprague the Whisperer"],
+    "tend": "3:30",
+    "location_type": "point",
+    "location_id": "1001",
+    "updated_at": "2020-03-23T10:51:29Z",
+    "created_at": "2020-03-23T10:51:29Z",
+    "slug_earwolf": "ninja-nordstrom",
+    "episode_title": "Ninja Nordstrom",
+    "episode_guests": [
+      "Shaun Diston",
+      "Lily Sullivan","Jacob Wysocki"
+    ]
+  },{
+    "episode": "646",
+    "tstart": "4:54",
+    "instance": "I'm friggin worked up.",
+    "bit": "We Knew a Poet Once",
+"elucidation": "various, even vague interminglings of character canon",
+    "tags": ["Sprague the Whisperer","Rudi North"],
+    "tend": "5:15",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-03-16T10:51:29Z",
-    "created_at": "2020-03-16T10:51:29Z",
-    "slug_earwolf": "jack-fm-bumpers",
-    "episode_title": "Jack FM Bumpers",
+    "updated_at": "2020-03-23T10:51:29Z",
+    "created_at": "2020-03-23T10:51:29Z",
+    "slug_earwolf": "ninja-nordstrom",
+    "episode_title": "Ninja Nordstrom",
     "episode_guests": [
-      "Matt Braunger","Will Hines",
-      "Brad Evans",
-      "Nick Ciarelli"
+      "Shaun Diston",
+      "Lily Sullivan","Jacob Wysocki"
     ]
-  },
-  {
-    "episode": "645",
-    "tstart": "33:30",
-    "instance": "All the microphones stopped working?",
+  },{
+    "episode": "646",
+    "tstart": "16:40",
+    "instance": "Scott, they all wear colors and stuff - it's fun.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Sprague the Whisperer","Colors (song)","Ice-T","Afrika Islam"],
+    "tend": "16:50",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-23T10:51:29Z",
+    "created_at": "2020-03-23T10:51:29Z",
+    "slug_earwolf": "ninja-nordstrom",
+    "episode_title": "Ninja Nordstrom",
+    "episode_guests": [
+      "Shaun Diston",
+      "Lily Sullivan","Jacob Wysocki"
+    ]
+  },{
+    "episode": "646",
+    "tstart": "20:50",
+    "instance": "The outcast of the bunch.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Sprague the Whisperer","SpottieOttieDopaliscious (song)","Outkast (musical combination)"],
+    "tend": "21:06",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-23T10:51:29Z",
+    "created_at": "2020-03-23T10:51:29Z",
+    "slug_earwolf": "ninja-nordstrom",
+    "episode_title": "Ninja Nordstrom",
+    "episode_guests": [
+      "Shaun Diston",
+      "Lily Sullivan","Jacob Wysocki"
+    ]
+  },{
+    "episode": "646",
+    "tstart": "21:10",
+    "instance": "So, Scott, there's one turtle left.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Sprague the Whisperer","Back in Time (song)",
+"Huey Lewis & The News (musical combination)"],
+    "tend": "21:20",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-23T10:51:29Z",
+    "created_at": "2020-03-23T10:51:29Z",
+    "slug_earwolf": "ninja-nordstrom",
+    "episode_title": "Ninja Nordstrom",
+    "episode_guests": [
+      "Shaun Diston",
+      "Lily Sullivan","Jacob Wysocki"
+    ]
+  },{
+    "episode": "646",
+    "tstart": "27:50",
+    "instance": "Or pay some guy to squeeze your balls for you.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Sprague the Whisperer",
+        "A Different World Theme (song)","Bill Cosby","Dawnn Lewis","Stu Gardner"
+    ],
+    "tend": "28:05",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-23T10:51:29Z",
+    "created_at": "2020-03-23T10:51:29Z",
+    "slug_earwolf": "ninja-nordstrom",
+    "episode_title": "Ninja Nordstrom",
+    "episode_guests": [
+      "Shaun Diston",
+      "Lily Sullivan","Jacob Wysocki"
+    ]
+  },{
+    "episode": "646",
+    "tstart": "30:44",
+    "instance": "Don't I look 5'2\"?",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Sprague the Whisperer","Sabrina Nordstrom"
+        "Sir Mix-a-Lot","Baby Got Back (song)"
+    ],
+    "tend": "31:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-23T10:51:29Z",
+    "created_at": "2020-03-23T10:51:29Z",
+    "slug_earwolf": "ninja-nordstrom",
+    "episode_title": "Ninja Nordstrom",
+    "episode_guests": [
+      "Shaun Diston",
+      "Lily Sullivan","Jacob Wysocki"
+    ]
+  },{
+    "episode": "646",
+    "tstart": "32:15",
+    "instance": "Unfortunately Chat did fall down the escalator and is no longer with us.",
     "bit": "Location",
-    "elucidation": "identifiable earth location",
-    "nb": [
-      "site of: jackfm, broken microphones",
-      "-118.352172,34.061996"
+"elucidation": "identifiable earth location",
+"nb":["nordstrom hq","-122.3365,47.61237","workplace of: Sabrina Nordstrom, site of: Chat's death"],
+    "tags": ["Sprague the Whisperer","Sabrina Nordstrom"
     ],
-    "tags": [
-      "Lester Brads",
-      "Murf",
-      "Dirt"
-    ],
-    "tend": "34:15",
+    "tend": "35:00",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-03-16T10:51:29Z",
-    "created_at": "2020-03-16T10:51:29Z",
-    "slug_earwolf": "jack-fm-bumpers",
-    "episode_title": "Jack FM Bumpers",
+    "updated_at": "2020-03-23T10:51:29Z",
+    "created_at": "2020-03-23T10:51:29Z",
+    "slug_earwolf": "ninja-nordstrom",
+    "episode_title": "Ninja Nordstrom",
     "episode_guests": [
-      "Matt Braunger","Will Hines",
-      "Brad Evans",
-      "Nick Ciarelli"
+      "Shaun Diston",
+      "Lily Sullivan","Jacob Wysocki"
     ]
-  },
-  {
-    "episode": "645",
-    "tstart": "34:15",
-    "instance": "Why did you think there would be microphones there?",
+  },{
+    "episode": "646",
+    "tstart": "35:40",
+    "instance": "Mr. Norstrom doesn't eat.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Sprague the Whisperer","Sabrina Nordstrom"
+        "Me So Horny (song)",
+"2 Live Crew (musical combination)"
+    ],
+    "tend": "36:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-23T10:51:29Z",
+    "created_at": "2020-03-23T10:51:29Z",
+    "slug_earwolf": "ninja-nordstrom",
+    "episode_title": "Ninja Nordstrom",
+    "episode_guests": [
+      "Shaun Diston",
+      "Lily Sullivan","Jacob Wysocki"
+    ]
+  },{
+    "episode": "646",
+    "tstart": "38:45",
+    "instance": "Why did we turn the lights off?",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Sprague the Whisperer","Sabrina Nordstrom"
+        "Sweet Dreams (song)",
+"Beyoncé","James Scheffer","Wayne Wilkins","Rico Love"
+    ],
+    "tend": "38:55",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-23T10:51:29Z",
+    "created_at": "2020-03-23T10:51:29Z",
+    "slug_earwolf": "ninja-nordstrom",
+    "episode_title": "Ninja Nordstrom",
+    "episode_guests": [
+      "Shaun Diston",
+      "Lily Sullivan","Jacob Wysocki"
+    ]
+  },{
+    "episode": "646",
+    "tstart": "39:55",
+    "instance": "Now of course, this guy...",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Sprague the Whisperer","Sabrina Nordstrom"
+        "Purple Haze (song)",
+"Jimi Hendrix"
+    ],
+    "tend": "40:20",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-23T10:51:29Z",
+    "created_at": "2020-03-23T10:51:29Z",
+    "slug_earwolf": "ninja-nordstrom",
+    "episode_title": "Ninja Nordstrom",
+    "episode_guests": [
+      "Shaun Diston",
+      "Lily Sullivan","Jacob Wysocki"
+    ]
+  },{
+    "episode": "646",
+    "tstart": "40:45",
+    "instance": "So he just sings a capella?",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Sprague the Whisperer","Sabrina Nordstrom"
+        "A Thousand Miles (song)",
+"Vanessa Carlton"
+    ],
+    "tend": "41:15",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-23T10:51:29Z",
+    "created_at": "2020-03-23T10:51:29Z",
+    "slug_earwolf": "ninja-nordstrom",
+    "episode_title": "Ninja Nordstrom",
+    "episode_guests": [
+      "Shaun Diston",
+      "Lily Sullivan","Jacob Wysocki"
+    ]
+  },{
+    "episode": "646",
+    "tstart": "41:00",
+    "instance": "Does he ever do a mashup?",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Sprague the Whisperer","Sabrina Nordstrom"
+        "Where Everybody Knows Your Name (song)",
+"Gary Portnoy",
+"Judy Hart Angelo",
+"Julian Williams"
+    ],
+    "tend": "41:15",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-23T10:51:29Z",
+    "created_at": "2020-03-23T10:51:29Z",
+    "slug_earwolf": "ninja-nordstrom",
+    "episode_title": "Ninja Nordstrom",
+    "episode_guests": [
+      "Shaun Diston",
+      "Lily Sullivan","Jacob Wysocki"
+    ]
+  },{
+    "episode": "646",
+    "tstart": "50:30",
+    "instance": "That's what gloves are for.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Sprague the Whisperer"
+        ,"Burt Bacharach","Carole Bayer Sager"
+        ,"That's What Friends are For (song)"
+    ],
+    "tend": "51:00",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-23T10:51:29Z",
+    "created_at": "2020-03-23T10:51:29Z",
+    "slug_earwolf": "ninja-nordstrom",
+    "episode_title": "Ninja Nordstrom",
+    "episode_guests": [
+      "Shaun Diston",
+      "Lily Sullivan","Jacob Wysocki"
+    ]
+  },{
+    "episode": "646",
+    "tstart": "1:27:00",
+    "instance": "And stay home and don't touch each other.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Sprague the Whisperer"
+        ,"Burt Bacharach","Carole Bayer Sager"
+        ,"That's What Friends are For (song)"
+        ,"Sabrina Nordstrom"
+    ],
+    "tend": "1:27:15",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-23T10:51:29Z",
+    "created_at": "2020-03-23T10:51:29Z",
+    "slug_earwolf": "ninja-nordstrom",
+    "episode_title": "Ninja Nordstrom",
+    "episode_guests": [
+      "Shaun Diston",
+      "Lily Sullivan","Jacob Wysocki"
+    ]
+  },{
+    "episode": "646",
+    "tstart": "57:05",
+    "instance": "$40 - daddy can get some stuff.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Sprague the Whisperer"
+        ,"Burt Bacharach","Carole Bayer Sager"
+        ,"That's What Friends are For (song)",
+        "Griff Hedgley the Diamond Guy","Sabrina Nordstrom"
+    ],
+    "tend": "57:20",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-23T10:51:29Z",
+    "created_at": "2020-03-23T10:51:29Z",
+    "slug_earwolf": "ninja-nordstrom",
+    "episode_title": "Ninja Nordstrom",
+    "episode_guests": [
+      "Shaun Diston",
+      "Lily Sullivan","Jacob Wysocki"
+    ]
+  },{
+    "episode": "646",
+    "tstart": "1:07:45",
+    "instance": "I'm talking drug smugglers.",
+    "bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": ["Sprague the Whisperer"
+        "The Joker (song)",
+"Steve Miller Band (musical combination)"
+        "Griff Hedgley the Diamond Guy"
+    ],
+    "tend": "1:08:30",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-23T10:51:29Z",
+    "created_at": "2020-03-23T10:51:29Z",
+    "slug_earwolf": "ninja-nordstrom",
+    "episode_title": "Ninja Nordstrom",
+    "episode_guests": [
+      "Shaun Diston",
+      "Lily Sullivan","Jacob Wysocki"
+    ]
+  },{
+    "episode": "646",
+    "tstart": "51:40",
+    "instance": "So 'no' or 'run' are the options.",
+    "bit": "Heynong Man",
+"elucidation": "the cbb sorbet",
+    "tags": ["Sprague the Whisperer"
+        ,"Sabrina Nordstrom"
+    ],
+    "tend": "51:55",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-23T10:51:29Z",
+    "created_at": "2020-03-23T10:51:29Z",
+    "slug_earwolf": "ninja-nordstrom",
+    "episode_title": "Ninja Nordstrom",
+    "episode_guests": [
+      "Shaun Diston",
+      "Lily Sullivan","Jacob Wysocki"
+    ]
+  },{
+    "episode": "646",
+    "tstart": "54:15",
+    "instance": "No longer do I sell diamonds on-air.",
     "bit": "Location",
-    "elucidation": "identifiable earth location",
-    "nb": [
-      "site of: Murf and Dirt looking for mics",
-      "-118.315519,34.098369"
-    ],
-    "tags": [
-      "Lester Brads",
-      "Murf",
-      "Dirt"
-    ],
-    "tend": "34:45",
+"elucidation": "identifiable earth location",
+    "nb": ["52694078 willow brook st., boca riton, fl","hometown of: Griff Hedgley"],
+    "tags": ["Griff Hedgley the Diamond Guy"],
+    "tend": "54:50",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-03-16T10:51:29Z",
-    "created_at": "2020-03-16T10:51:29Z",
-    "slug_earwolf": "jack-fm-bumpers",
-    "episode_title": "Jack FM Bumpers",
+    "updated_at": "2020-03-23T10:51:29Z",
+    "created_at": "2020-03-23T10:51:29Z",
+    "slug_earwolf": "ninja-nordstrom",
+    "episode_title": "Ninja Nordstrom",
     "episode_guests": [
-      "Matt Braunger","Will Hines",
-      "Brad Evans",
-      "Nick Ciarelli"
+      "Shaun Diston",
+      "Lily Sullivan","Jacob Wysocki"
     ]
-  },
-  {
-    "episode": "645",
-    "tstart": "47:40",
-    "instance": "Is this Candlebox?",
-    "bit": "Amy Poehler is Rude",
-"elucidation": "some asshole talks over the wyr theme",
-    "tags": [
-      "Murf",
-      "Dirt"
-    ],
-    "tend": "48:00",
+  },{
+    "episode": "646",
+    "tstart": "55:20",
+    "instance": "I'm lookin for hard cash.",
+    "bit": "Location",
+"elucidation": "identifiable earth location",
+    "nb": ["dave & busters near boca riton, fl","workplace of: Griff Hedgley"],
+    "tags": ["Griff Hedgley the Diamond Guy"],
+    "tend": "55:45",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-03-16T10:51:29Z",
-    "created_at": "2020-03-16T10:51:29Z",
-    "slug_earwolf": "jack-fm-bumpers",
-    "episode_title": "Jack FM Bumpers",
+    "updated_at": "2020-03-23T10:51:29Z",
+    "created_at": "2020-03-23T10:51:29Z",
+    "slug_earwolf": "ninja-nordstrom",
+    "episode_title": "Ninja Nordstrom",
     "episode_guests": [
-      "Matt Braunger","Will Hines",
-      "Brad Evans",
-      "Nick Ciarelli"
-    ]
-  },
-  {
-    "episode": "645",
-    "tstart": "47:40",
-    "instance": "Is this Candlebox?",
-    "bit": "Shut the Fuck Up!",
-    "elucidation": "someone simply wants everyone else specifically to shut the fuck up",
-    "tags": [
-      "Murf",
-      "Dirt"
-    ],
-    "tend": "48:00",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-16T10:51:29Z",
-    "created_at": "2020-03-16T10:51:29Z",
-    "slug_earwolf": "jack-fm-bumpers",
-    "episode_title": "Jack FM Bumpers",
-    "episode_guests": [
-      "Matt Braunger","Will Hines",
-      "Brad Evans",
-      "Nick Ciarelli"
-    ]
-  },
-  {
-    "episode": "645",
-    "tstart": "50:00",
-    "instance": "I should have been warned!",
-    "bit": "Classic WYR Blunder: The Floor is Not Yet Open",
-"elucidation": "one of several potential wyr blunders",
-    "tags": [
-      "Lester Brads"
-    ],
-    "tend": "50:30",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-16T10:51:29Z",
-    "created_at": "2020-03-16T10:51:29Z",
-    "slug_earwolf": "jack-fm-bumpers",
-    "episode_title": "Jack FM Bumpers",
-    "episode_guests": [
-      "Matt Braunger","Will Hines",
-      "Brad Evans",
-      "Nick Ciarelli"
-    ]
-  },
-  {
-    "episode": "645",
-    "tstart": "1:01:30",
-    "instance": "I informed you about it, my dear boy.",
-    "bit": "The Floor Closes",
-"elucidation": "the wyr floor closes abruptly",
-    "tags": [
-      "Lester Brads"
-    ],
-    "tend": "1:01:45",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-16T10:51:29Z",
-    "created_at": "2020-03-16T10:51:29Z",
-    "slug_earwolf": "jack-fm-bumpers",
-    "episode_title": "Jack FM Bumpers",
-    "episode_guests": [
-      "Matt Braunger","Will Hines",
-      "Brad Evans",
-      "Nick Ciarelli"
+      "Shaun Diston",
+      "Lily Sullivan","Jacob Wysocki"
     ]
   }
 ]
