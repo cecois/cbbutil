@@ -8,6 +8,13 @@ curl -u 'ccmiller:6t7S8w@Ui4b%' -XPUT 'https://search-cbb-wxjx2uda6c4c7uhvc7c7eo
 
 
 # PUT new index Elastic 7.x
-curl -XDELETE '134.209.213.83:9200/cbb?pretty' -H 'Content-Type: application/json'
+curl -XDELETE 'milleria.org:9200/cbb?pretty' -H 'Content-Type: application/json'
 
-curl -XPUT 'http://134.209.213.83:9200/cbb' -H 'Content-Type: application/json' -d'{"mappings": {"properties": {"episode":{"type":"text"},"tstart":{"type":"text"},"tend":{"type":"text"},"instance":{"type":"keyword"},"bit":{"type":"keyword"},"elucidation":{"type":"keyword"},"location_type":{"type":"text"},"location_id":{"type":"integer"},"updated_at":{"type":"date"},"created_at":{"type":"date"},"slug_earwolf":{"type":"text"},"episode_title":{"type":"keyword"},"episode_guests":{"type":"keyword"},"tags":{"type":"keyword"}}}}'
+curl -XPUT 'http://milleria.org:9200/cbb' -H 'Content-Type: application/json' -d'{"mappings": {"properties": {"episode":{"type":"text"},"tstart":{"type":"text"},"tend":{"type":"text"},"instance":{"type":"keyword"},"bit":{"type":"keyword"},"elucidation":{"type":"keyword"},"location_type":{"type":"text"},"location_id":{"type":"integer"},"updated_at":{"type":"date"},"created_at":{"type":"date"},"slug_earwolf":{"type":"text"},"episode_title":{"type":"keyword"},"episode_guests":{"type":"keyword"},"tags":{"type":"keyword"}}}}'
+
+
+# PUT new index Elastic 7.x
+## prior version keyword fields didn't work
+curl -XDELETE 'milleria.org:9200/cbb?pretty' -H 'Content-Type: application/json'
+
+curl -XPUT 'http://milleria.org:9200/cbb' -H 'Content-Type: application/json' -d'{"mappings": {"properties": {"episode":{"type":"text"},"tstart":{"type":"text"},"tend":{"type":"text"},"instance":{"type":"text"},"bit":{"type":"text"},"elucidation":{"type":"text"},"location_type":{"type":"text"},"location_id":{"type":"integer"},"updated_at":{"type":"date"},"created_at":{"type":"date"},"slug_earwolf":{"type":"text"},"episode_title":{"type":"text"},"episode_guests":{"type":"text"},"tags":{"type":"text"}}}}'

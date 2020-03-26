@@ -126,6 +126,9 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
         
         </p> -->
 
+<div class="notification has-text-weight-bold" style="margin-top:4em;">
+  Something strange happened to our index in March 2020 that we're currently investigating. With ~all that~ coronavirus free time. Search works but is feature-reduced. Facets (and therefore Browse) has been killed altogether. Updates will continue.
+</div>
 
       </div>
     </div NB="/default/home">
@@ -828,7 +831,7 @@ axios.post(this.CONFIG.elastic_bits, QO)
             }
           } //qs
 
-          QO = {"size":10000,"query":{"query_string":{"query":Q}},"aggregations":{"all_bits":{"global":{},"aggregations":{"guests":{"filter":{"query_string":{"query":Q}},"aggregations":{"filtered_guests":{"terms":{"size":10000,"field":"episode_guests.keyword"}}}},"tags":{"filter":{"query_string":{"query":Q}},"aggregations":{"filtered_tags":{"terms":{"size":10000,"field":"tags.keyword"}}}},"bits":{"filter":{"query_string":{"query":Q}},"aggregations":{"filtered_bits":{"terms":{"size":10000,"field":"bit.keyword"}}}},"episodes":{"filter":{"query_string":{"query":Q}},"aggregations":{"filtered_episodes":{"terms":{"size":10000,"field":"episode.keyword"}}}}}}}}
+          QO = {"size":10000,"query":{"query_string":{"query":Q}},"aggregations":{"all_bits":{"global":{},"aggregations":{"guests":{"filter":{"query_string":{"query":Q}},"aggregations":{"filtered_guests":{"terms":{"size":10000,"field":"episode_guests.text"}}}},"tags":{"filter":{"query_string":{"query":Q}},"aggregations":{"filtered_tags":{"terms":{"size":10000,"field":"tags.text"}}}},"bits":{"filter":{"query_string":{"query":Q}},"aggregations":{"filtered_bits":{"terms":{"size":10000,"field":"bit.text"}}}},"episodes":{"filter":{"query_string":{"query":Q}},"aggregations":{"filtered_episodes":{"terms":{"size":10000,"field":"episode.text"}}}}}}}}
 
 //         this.$ES.search({
 //     index: 'cbb',

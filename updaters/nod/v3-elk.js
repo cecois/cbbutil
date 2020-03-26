@@ -698,7 +698,6 @@ console.log("exta.length",exta.length)
 /* ----------------------------------------------- audit
 // we send the fresh stuff and the archive for audit
 // audit maps inca and exta into comparable arrays (concatenating several presumably distinct fields [episode+bit+instance+tags] into one nonsensical but probably-unique string) - N.B. this is not foolproof
-*/
 console.log("awaiting audit...")
 			var audited = await _AUDIT(inca,exta);
 			R.audit = audited
@@ -709,10 +708,10 @@ console.log("audit.flag:",R.audit.flag)
 	throw Error ('audit.flag wz stop due to ',R.audit.msg);
 	process.exit()
 }
+*/
 
 /* ----------------------------------------------- send to mlab
 // audit wz clean so we're sending
-*/
 console.log("--------------------> sending "+inca.length+" documents to MLAB...");
 sent = await _SEND(inca);
 
@@ -720,6 +719,7 @@ if(sent.documents.n !== inca.length){
 	console.log("ERROR: mismatching in sent ("+sent.documents.n+') and incoming raw ('+inca.length+'),  exiting...');
 	process.exit();
 }
+*/
 
 /* -----------------------------------------------
 // Now we repeat bu and most_recent cuzzits gonna have sent.documents.length more
