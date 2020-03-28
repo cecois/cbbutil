@@ -14,7 +14,9 @@ curl -XPUT 'http://milleria.org:9200/cbb' -H 'Content-Type: application/json' -d
 
 
 # PUT new index Elastic 7.x
-## prior version keyword fields didn't work
+## prior version keyword fields don't work
+## no mappings - dynamic mappings
+
 curl -XDELETE 'milleria.org:9200/cbb?pretty' -H 'Content-Type: application/json'
 
-curl -XPUT 'http://milleria.org:9200/cbb' -H 'Content-Type: application/json' -d'{"mappings": {"properties": {"episode":{"type":"text"},"tstart":{"type":"text"},"tend":{"type":"text"},"instance":{"type":"text"},"bit":{"type":"text"},"elucidation":{"type":"text"},"location_type":{"type":"text"},"location_id":{"type":"integer"},"updated_at":{"type":"date"},"created_at":{"type":"date"},"slug_earwolf":{"type":"text"},"episode_title":{"type":"text"},"episode_guests":{"type":"text"},"tags":{"type":"text"}}}}'
+curl -XPUT 'http://milleria.org:9200/cbb'

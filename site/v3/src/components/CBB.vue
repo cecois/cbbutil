@@ -126,9 +126,9 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
         
         </p> -->
 
-<div class="notification has-text-weight-bold" style="margin-top:4em;">
+<!-- <div class="notification has-text-weight-bold" style="margin-top:4em;">
   Something strange happened to our index in March 2020 that we're currently investigating. With ~all that~ coronavirus free time. Search works but is feature-reduced. Facets (and therefore Browse) has been killed altogether. Updates will continue.
-</div>
+</div> -->
 
       </div>
     </div NB="/default/home">
