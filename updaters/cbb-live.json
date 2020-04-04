@@ -1,422 +1,415 @@
 [
   {
-    "episode": "646",
-    "tstart": "2:30",
-    "instance": "I work with guys, dudes, men, boys, bros.",
-    "bit": "Titular",
-"elucidation": "the titular 'titular'",
-    "tags": ["Sprague the Whisperer"],
-    "tend": "2:45",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-23T10:51:29Z",
-    "created_at": "2020-03-23T10:51:29Z",
-    "slug_earwolf": "ninja-nordstrom",
-    "episode_title": "Ninja Nordstrom",
+    "episode": "647",
+    "tstart": "2:45",
+    "instance": "You might even say 'The Heartland,' really.",
+    "bit": "Location",
+"elucidation": "identifiable earth location",
+    "nb": [
+"proxy for: Dignity Falls","Cedar Falls, IA"
+    ],
+    "tags": [
+"Burnt Millipede","Joan Pedestrian"
+    ],
+    "tend": "3:45",
+    "location_type": "poly","location_id": "1100",
+    "updated_at": "2020-03-30T10:51:29Z",
+    "created_at": "2020-03-30T10:51:29Z",
+    "slug_earwolf": "steak-my-day",
+    "episode_title": "Steak My Day",
     "episode_guests": [
-      "Shaun Diston",
-      "Lily Sullivan","Jacob Wysocki"
+      "Paul F. Tompkins",
+      "Nicole Parker","Ryan Gaul"
     ]
   }
   ,{
-    "episode": "646",
-    "tstart": "3:00",
-    "instance": "Everything's different now in America.",
+    "episode": "647",
+    "tstart": "14:20",
+    "instance": "They were putting them into a community plastic bag?",
     "bit": "Location",
 "elucidation": "identifiable earth location",
-    "tags": ["Sprague the Whisperer"],
-    "tend": "3:30",
-    "location_type": "point",
-    "location_id": "1001",
-    "updated_at": "2020-03-23T10:51:29Z",
-    "created_at": "2020-03-23T10:51:29Z",
-    "slug_earwolf": "ninja-nordstrom",
-    "episode_title": "Ninja Nordstrom",
-    "episode_guests": [
-      "Shaun Diston",
-      "Lily Sullivan","Jacob Wysocki"
-    ]
-  },{
-    "episode": "646",
-    "tstart": "4:54",
-    "instance": "I'm friggin worked up.",
-    "bit": "We Knew a Poet Once",
-"elucidation": "various, even vague interminglings of character canon",
-    "tags": ["Sprague the Whisperer","Rudi North"],
-    "tend": "5:15",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-23T10:51:29Z",
-    "created_at": "2020-03-23T10:51:29Z",
-    "slug_earwolf": "ninja-nordstrom",
-    "episode_title": "Ninja Nordstrom",
-    "episode_guests": [
-      "Shaun Diston",
-      "Lily Sullivan","Jacob Wysocki"
-    ]
-  },{
-    "episode": "646",
-    "tstart": "16:40",
-    "instance": "Scott, they all wear colors and stuff - it's fun.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Sprague the Whisperer","Colors (song)","Ice-T","Afrika Islam"],
-    "tend": "16:50",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-23T10:51:29Z",
-    "created_at": "2020-03-23T10:51:29Z",
-    "slug_earwolf": "ninja-nordstrom",
-    "episode_title": "Ninja Nordstrom",
-    "episode_guests": [
-      "Shaun Diston",
-      "Lily Sullivan","Jacob Wysocki"
-    ]
-  },{
-    "episode": "646",
-    "tstart": "20:50",
-    "instance": "The outcast of the bunch.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Sprague the Whisperer","SpottieOttieDopaliscious (song)","Outkast (musical combination)"],
-    "tend": "21:06",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-23T10:51:29Z",
-    "created_at": "2020-03-23T10:51:29Z",
-    "slug_earwolf": "ninja-nordstrom",
-    "episode_title": "Ninja Nordstrom",
-    "episode_guests": [
-      "Shaun Diston",
-      "Lily Sullivan","Jacob Wysocki"
-    ]
-  },{
-    "episode": "646",
-    "tstart": "21:10",
-    "instance": "So, Scott, there's one turtle left.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Sprague the Whisperer","Back in Time (song)",
-"Huey Lewis & The News (musical combination)"],
-    "tend": "21:20",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-23T10:51:29Z",
-    "created_at": "2020-03-23T10:51:29Z",
-    "slug_earwolf": "ninja-nordstrom",
-    "episode_title": "Ninja Nordstrom",
-    "episode_guests": [
-      "Shaun Diston",
-      "Lily Sullivan","Jacob Wysocki"
-    ]
-  },{
-    "episode": "646",
-    "tstart": "27:50",
-    "instance": "Or pay some guy to squeeze your balls for you.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Sprague the Whisperer",
-        "A Different World Theme (song)","Bill Cosby","Dawnn Lewis","Stu Gardner"
+    "nb": [
+"proxy for: a mall in Dignity Falls","Viking Plaza, Cedar Falls, IA"
     ],
-    "tend": "28:05",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-23T10:51:29Z",
-    "created_at": "2020-03-23T10:51:29Z",
-    "slug_earwolf": "ninja-nordstrom",
-    "episode_title": "Ninja Nordstrom",
-    "episode_guests": [
-      "Shaun Diston",
-      "Lily Sullivan","Jacob Wysocki"
-    ]
-  },{
-    "episode": "646",
-    "tstart": "30:44",
-    "instance": "Don't I look 5'2\"?",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Sprague the Whisperer","Sabrina Nordstrom",
-        "Sir Mix-a-Lot","Baby Got Back (song)"
+    "tags": [
+"Burnt Millipede","Joan Pedestrian"
     ],
-    "tend": "31:00",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-23T10:51:29Z",
-    "created_at": "2020-03-23T10:51:29Z",
-    "slug_earwolf": "ninja-nordstrom",
-    "episode_title": "Ninja Nordstrom",
+    "tend": "16:45",
+    "location_type": "point","location_id": "1250",
+    "updated_at": "2020-03-30T10:51:29Z",
+    "created_at": "2020-03-30T10:51:29Z",
+    "slug_earwolf": "steak-my-day",
+    "episode_title": "Steak My Day",
     "episode_guests": [
-      "Shaun Diston",
-      "Lily Sullivan","Jacob Wysocki"
+      "Paul F. Tompkins",
+      "Nicole Parker","Ryan Gaul"
     ]
   },{
-    "episode": "646",
-    "tstart": "32:15",
-    "instance": "Unfortunately Chat did fall down the escalator and is no longer with us.",
+    "episode": "647",
+    "tstart": "52:00",
+    "instance": "You are both allowed to ask questions.",
     "bit": "Location",
 "elucidation": "identifiable earth location",
-"nb":["nordstrom hq","-122.3365,47.61237","workplace of: Sabrina Nordstrom, site of: Chat's death"],
-    "tags": ["Sprague the Whisperer","Sabrina Nordstrom"
+    "nb": [
+"georgia, vt","proxy for: the kingdom of tiffany"
     ],
-    "tend": "35:00",
-    "location_type": "point","location_id": "1247",
-    "updated_at": "2020-03-23T10:51:29Z",
-    "created_at": "2020-03-23T10:51:29Z",
-    "slug_earwolf": "ninja-nordstrom",
-    "episode_title": "Ninja Nordstrom",
+    "tags": [
+"Burnt Millipede","Joan Pedestrian","Dickie Caroline's"
+    ],
+    "tend": "52:20",
+    "location_type": "poly","location_id": "1102",
+    "updated_at": "2020-03-30T10:51:29Z",
+    "created_at": "2020-03-30T10:51:29Z",
+    "slug_earwolf": "steak-my-day",
+    "episode_title": "Steak My Day",
     "episode_guests": [
-      "Shaun Diston",
-      "Lily Sullivan","Jacob Wysocki"
+      "Paul F. Tompkins",
+      "Nicole Parker","Ryan Gaul"
     ]
-  },{
-    "episode": "646",
-    "tstart": "35:40",
-    "instance": "Mr. Norstrom doesn't eat.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Sprague the Whisperer","Sabrina Nordstrom",
-        "Me So Horny (song)",
-"2 Live Crew (musical combination)"
+  }
+  ,{
+    "episode": "647",
+    "tstart": "28:50",
+    "instance": "I'm a pharmacist, by the way.",
+    "bit": "Location",
+"elucidation": "identifiable earth location",
+    "nb": [
+"proxy for: a CVS on Jimmy Carter blvd in Dignity Falls","a CVS in Cedar Falls, IA"
     ],
-    "tend": "36:00",
+    "tags": [
+"Burnt Millipede","Joan Pedestrian"
+    ],
+    "tend": "29:45",
+    "location_type": "point","location_id": "1251",
+    "updated_at": "2020-03-30T10:51:29Z",
+    "created_at": "2020-03-30T10:51:29Z",
+    "slug_earwolf": "steak-my-day",
+    "episode_title": "Steak My Day",
+    "episode_guests": [
+      "Paul F. Tompkins",
+      "Nicole Parker","Ryan Gaul"
+    ]
+  }
+  ,{
+    "episode": "647",
+    "tstart": "3:15",
+    "instance": "Are you talking the dead center of America?",
+    "bit": "Introduction in a Second",
+"elucidation": "scott delays a guest's introduction",
+    "tags": [
+"Burnt Millipede","Joan Pedestrian"
+    ],
+    "tend": "3:45",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-03-23T10:51:29Z",
-    "created_at": "2020-03-23T10:51:29Z",
-    "slug_earwolf": "ninja-nordstrom",
-    "episode_title": "Ninja Nordstrom",
+    "updated_at": "2020-03-30T10:51:29Z",
+    "created_at": "2020-03-30T10:51:29Z",
+    "slug_earwolf": "steak-my-day",
+    "episode_title": "Steak My Day",
     "episode_guests": [
-      "Shaun Diston",
-      "Lily Sullivan","Jacob Wysocki"
+      "Paul F. Tompkins",
+      "Nicole Parker","Ryan Gaul"
     ]
   },{
-    "episode": "646",
-    "tstart": "38:45",
-    "instance": "Why did we turn the lights off?",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Sprague the Whisperer","Sabrina Nordstrom",
-        "Sweet Dreams (song)",
-"Beyoncé","James Scheffer","Wayne Wilkins","Rico Love"
+    "episode": "647",
+    "tstart": "3:45",
+    "instance": "I have not seen too many babies since we've been on lockdown.",
+    "bit": "Introduction in a Second",
+"elucidation": "scott delays a guest's introduction",
+    "tags": [
+"Burnt Millipede","Joan Pedestrian"
     ],
-    "tend": "38:55",
+    "tend": "4:00",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-03-23T10:51:29Z",
-    "created_at": "2020-03-23T10:51:29Z",
-    "slug_earwolf": "ninja-nordstrom",
-    "episode_title": "Ninja Nordstrom",
+    "updated_at": "2020-03-30T10:51:29Z",
+    "created_at": "2020-03-30T10:51:29Z",
+    "slug_earwolf": "steak-my-day",
+    "episode_title": "Steak My Day",
     "episode_guests": [
-      "Shaun Diston",
-      "Lily Sullivan","Jacob Wysocki"
+      "Paul F. Tompkins",
+      "Nicole Parker","Ryan Gaul"
     ]
   },{
-    "episode": "646",
-    "tstart": "39:55",
-    "instance": "Now of course, this guy...",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Sprague the Whisperer","Sabrina Nordstrom",
-        "Purple Haze (song)",
-"Jimi Hendrix"
+    "episode": "647",
+    "tstart": "6:30",
+    "instance": "You just admitted that you've been having this stranger's baby suckle upon your supple breast -- I'm assuming.",
+    "bit": "Introduction in a Second",
+"elucidation": "scott delays a guest's introduction",
+    "tags": [
+"Burnt Millipede","Joan Pedestrian"
     ],
-    "tend": "40:20",
+    "hero":{"on":true,"attrib":"Scott Aukerman"},
+    "tend": "6:55",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-03-23T10:51:29Z",
-    "created_at": "2020-03-23T10:51:29Z",
-    "slug_earwolf": "ninja-nordstrom",
-    "episode_title": "Ninja Nordstrom",
+    "updated_at": "2020-03-30T10:51:29Z",
+    "created_at": "2020-03-30T10:51:29Z",
+    "slug_earwolf": "steak-my-day",
+    "episode_title": "Steak My Day",
     "episode_guests": [
-      "Shaun Diston",
-      "Lily Sullivan","Jacob Wysocki"
+      "Paul F. Tompkins",
+      "Nicole Parker","Ryan Gaul"
     ]
   },{
-    "episode": "646",
-    "tstart": "40:45",
-    "instance": "So he just sings a capella?",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Sprague the Whisperer","Sabrina Nordstrom",
-        "A Thousand Miles (song)",
-"Vanessa Carlton"
+    "episode": "647",
+    "tstart": "13:30",
+    "instance": "We read some posts but then we also interview people.",
+"bit": "Fantastic.",
+"elucidation": "one of scott's 25 words",
+    "tags": [
+"Burnt Millipede","Joan Pedestrian"
     ],
-    "tend": "41:15",
+    "tend": "13:50",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-03-23T10:51:29Z",
-    "created_at": "2020-03-23T10:51:29Z",
-    "slug_earwolf": "ninja-nordstrom",
-    "episode_title": "Ninja Nordstrom",
+    "updated_at": "2020-03-30T10:51:29Z",
+    "created_at": "2020-03-30T10:51:29Z",
+    "slug_earwolf": "steak-my-day",
+    "episode_title": "Steak My Day",
     "episode_guests": [
-      "Shaun Diston",
-      "Lily Sullivan","Jacob Wysocki"
+      "Paul F. Tompkins",
+      "Nicole Parker","Ryan Gaul"
     ]
   },{
-    "episode": "646",
-    "tstart": "41:00",
-    "instance": "Does he ever do a mashup?",
-    "bit": "The Paul Hardcastle of Suicides",
+    "episode": "647",
+    "tstart": "44:40",
+    "instance": "It bloomed during the 'L.A. Law' phase.",
+"bit": "The Paul Hardcastle of Suicides",
 "elucidation": "any song reference",
-    "tags": ["Sprague the Whisperer","Sabrina Nordstrom",
-        "Where Everybody Knows Your Name (song)",
-"Gary Portnoy",
-"Judy Hart Angelo",
-"Julian Williams"
+    "tags": [
+"Burnt Millipede","Joan Pedestrian","L.A. Law (TV)",
+"Happy Birthday to You (song)",
+"Mildred Hill",
+"Patty Hill"
     ],
-    "tend": "41:15",
+    "tend": "46:00",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-03-23T10:51:29Z",
-    "created_at": "2020-03-23T10:51:29Z",
-    "slug_earwolf": "ninja-nordstrom",
-    "episode_title": "Ninja Nordstrom",
+    "updated_at": "2020-03-30T10:51:29Z",
+    "created_at": "2020-03-30T10:51:29Z",
+    "slug_earwolf": "steak-my-day",
+    "episode_title": "Steak My Day",
     "episode_guests": [
-      "Shaun Diston",
-      "Lily Sullivan","Jacob Wysocki"
+      "Paul F. Tompkins",
+      "Nicole Parker","Ryan Gaul"
     ]
   },{
-    "episode": "646",
-    "tstart": "50:30",
-    "instance": "That's what gloves are for.",
-    "bit": "The Paul Hardcastle of Suicides",
+    "episode": "647",
+    "tstart": "1:29:15",
+    "instance": "It is my birthday today.",
+"bit": "The Paul Hardcastle of Suicides",
 "elucidation": "any song reference",
-    "tags": ["Sprague the Whisperer"
-        ,"Burt Bacharach","Carole Bayer Sager"
-        ,"That's What Friends are For (song)"
+    "tags": [
+"Burnt Millipede","Joan Pedestrian",
+"Happy Birthday to You (song)",
+"Mildred Hill",
+"Patty Hill","Dickie Caroline's"
+    ],
+    "tend": "1:29:55",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-30T10:51:29Z",
+    "created_at": "2020-03-30T10:51:29Z",
+    "slug_earwolf": "steak-my-day",
+    "episode_title": "Steak My Day",
+    "episode_guests": [
+      "Paul F. Tompkins",
+      "Nicole Parker","Ryan Gaul"
+    ]
+  },{
+    "episode": "647",
+    "tstart": "50:15",
+    "instance": "Since I graduated high school I decided I'd go into the meat industry.",
+"bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": [
+"Burnt Millipede","Drake",
+"Started from the Bottom (song)","Dickie Caroline's"
     ],
     "tend": "51:00",
     "location_type": "",
     "location_id": "",
-    "updated_at": "2020-03-23T10:51:29Z",
-    "created_at": "2020-03-23T10:51:29Z",
-    "slug_earwolf": "ninja-nordstrom",
-    "episode_title": "Ninja Nordstrom",
+    "updated_at": "2020-03-30T10:51:29Z",
+    "created_at": "2020-03-30T10:51:29Z",
+    "slug_earwolf": "steak-my-day",
+    "episode_title": "Steak My Day",
     "episode_guests": [
-      "Shaun Diston",
-      "Lily Sullivan","Jacob Wysocki"
+      "Paul F. Tompkins",
+      "Nicole Parker","Ryan Gaul"
     ]
   },{
-    "episode": "646",
-    "tstart": "1:27:00",
-    "instance": "And stay home and don't touch each other.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Sprague the Whisperer"
-        ,"Burt Bacharach","Carole Bayer Sager"
-        ,"That's What Friends are For (song)"
-        ,"Sabrina Nordstrom"
-    ],
-    "tend": "1:27:15",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-23T10:51:29Z",
-    "created_at": "2020-03-23T10:51:29Z",
-    "slug_earwolf": "ninja-nordstrom",
-    "episode_title": "Ninja Nordstrom",
-    "episode_guests": [
-      "Shaun Diston",
-      "Lily Sullivan","Jacob Wysocki"
-    ]
-  },{
-    "episode": "646",
-    "tstart": "57:05",
-    "instance": "$40 - daddy can get some stuff.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Sprague the Whisperer"
-        ,"Burt Bacharach","Carole Bayer Sager"
-        ,"That's What Friends are For (song)",
-        "Griff Hedgley the Diamond Guy","Sabrina Nordstrom"
-    ],
-    "tend": "57:20",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-23T10:51:29Z",
-    "created_at": "2020-03-23T10:51:29Z",
-    "slug_earwolf": "ninja-nordstrom",
-    "episode_title": "Ninja Nordstrom",
-    "episode_guests": [
-      "Shaun Diston",
-      "Lily Sullivan","Jacob Wysocki"
-    ]
-  },{
-    "episode": "646",
-    "tstart": "1:07:45",
-    "instance": "I'm talking drug smugglers.",
-    "bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": ["Sprague the Whisperer",
-        "The Joker (song)",
-"Steve Miller Band (musical combination)",
-        "Griff Hedgley the Diamond Guy"
-    ],
-    "tend": "1:08:30",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-23T10:51:29Z",
-    "created_at": "2020-03-23T10:51:29Z",
-    "slug_earwolf": "ninja-nordstrom",
-    "episode_title": "Ninja Nordstrom",
-    "episode_guests": [
-      "Shaun Diston",
-      "Lily Sullivan","Jacob Wysocki"
-    ]
-  },{
-    "episode": "646",
-    "tstart": "51:40",
-    "instance": "So 'no' or 'run' are the options.",
-    "bit": "Heynong Man",
-"elucidation": "the cbb sorbet",
-    "tags": ["Sprague the Whisperer"
-        ,"Sabrina Nordstrom"
-    ],
-    "tend": "51:55",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-23T10:51:29Z",
-    "created_at": "2020-03-23T10:51:29Z",
-    "slug_earwolf": "ninja-nordstrom",
-    "episode_title": "Ninja Nordstrom",
-    "episode_guests": [
-      "Shaun Diston",
-      "Lily Sullivan","Jacob Wysocki"
-    ]
-  },{
-    "episode": "646",
-    "tstart": "54:15",
-    "instance": "No longer do I sell diamonds on-air.",
+    "episode": "647",
+    "tstart": "52:00",
+    "instance": "I've been going into steakhouses; people's houses; kingdoms.",
     "bit": "Location",
 "elucidation": "identifiable earth location",
-    "nb": ["52694078 willow brook st., boca riton, fl","hometown of: Griff Hedgley"],
-    "tags": ["Griff Hedgley the Diamond Guy"],
-    "tend": "54:50",
-    "location_type": "point","location_id": "1248",
-    "updated_at": "2020-03-23T10:51:29Z",
-    "created_at": "2020-03-23T10:51:29Z",
-    "slug_earwolf": "ninja-nordstrom",
-    "episode_title": "Ninja Nordstrom",
+    "nb": [
+"georgia, vt","site of: a kingdom"
+    ],
+    "tags": [
+"Burnt Millipede","Joan Pedestrian","Dickie Caroline's"
+    ],
+    "tend": "52:20",
+    "location_type": "poly","location_id": "1102",
+    "updated_at": "2020-03-30T10:51:29Z",
+    "created_at": "2020-03-30T10:51:29Z",
+    "slug_earwolf": "steak-my-day",
+    "episode_title": "Steak My Day",
     "episode_guests": [
-      "Shaun Diston",
-      "Lily Sullivan","Jacob Wysocki"
+      "Paul F. Tompkins",
+      "Nicole Parker","Ryan Gaul"
     ]
   },{
-    "episode": "646",
-    "tstart": "55:20",
-    "instance": "I'm lookin for hard cash.",
+    "episode": "647",
+    "tstart": "52:20",
+    "instance": "Why were you going to Canada?",
     "bit": "Location",
 "elucidation": "identifiable earth location",
-    "nb": ["dave & busters near boca riton, fl","workplace of: Griff Hedgley"],
-    "tags": ["Griff Hedgley the Diamond Guy"],
-    "tend": "55:45",
-    "location_type": "point","location_id": "1249",
-    "updated_at": "2020-03-23T10:51:29Z",
-    "created_at": "2020-03-23T10:51:29Z",
-    "slug_earwolf": "ninja-nordstrom",
-    "episode_title": "Ninja Nordstrom",
+    "nb": [
+"benningto to montreal va georgia","route of: a kingdom"
+    ],
+    "tags": [
+"Burnt Millipede","Joan Pedestrian","Dickie Caroline's"
+    ],
+    "tend": "53:00",
+    "location_type": "line","location_id": "304",
+    "updated_at": "2020-03-30T10:51:29Z",
+    "created_at": "2020-03-30T10:51:29Z",
+    "slug_earwolf": "steak-my-day",
+    "episode_title": "Steak My Day",
     "episode_guests": [
-      "Shaun Diston",
-      "Lily Sullivan","Jacob Wysocki"
+      "Paul F. Tompkins",
+      "Nicole Parker","Ryan Gaul"
+    ]
+  },{
+    "episode": "647",
+    "tstart": "55:30",
+    "instance": "I don't think it's necessarily an energy you're giving off so much as the home invasions.",
+    "bit": "Location",
+"elucidation": "identifiable earth location",
+    "nb": [
+"a farmouse near georgia, vt","proxy for: a farmouse in the kingdom of tiffany, vermont","site of: a pummeling of Dickie Caroline's, once"
+    ],
+    "tags": [
+"Burnt Millipede","Joan Pedestrian","Dickie Caroline's"
+    ],
+    "hero":{"on":true,"attrib":"Burnt Millipede"},
+    "tend": "57:05",
+    "location_type": "point","location_id": "1252",
+    "updated_at": "2020-03-30T10:51:29Z",
+    "created_at": "2020-03-30T10:51:29Z",
+    "slug_earwolf": "steak-my-day",
+    "episode_title": "Steak My Day",
+    "episode_guests": [
+      "Paul F. Tompkins",
+      "Nicole Parker","Ryan Gaul"
+    ]
+  },{
+    "episode": "647",
+    "tstart": "1:05:00",
+    "instance": "Both of our Hall Passes pretty much involve another dimension.",
+"bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": [
+"Burnt Millipede","Joan Pedestrian","Out of Space (song)","The Prodigy (musical combination)"
+    ],
+    "tend": "1:05:22",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-30T10:51:29Z",
+    "created_at": "2020-03-30T10:51:29Z",
+    "slug_earwolf": "steak-my-day",
+    "episode_title": "Steak My Day",
+    "episode_guests": [
+      "Paul F. Tompkins",
+      "Nicole Parker","Ryan Gaul"
+    ]
+  },{
+    "episode": "647",
+    "tstart": "1:05:30",
+    "instance": "That might just be your settings.",
+"bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": [
+"Burnt Millipede","Joan Pedestrian","Losing My Religion (song)","R.E.M. (musical combination)"
+,"Dickie Caroline's"
+    ],
+    "tend": "1:05:45",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-30T10:51:29Z",
+    "created_at": "2020-03-30T10:51:29Z",
+    "slug_earwolf": "steak-my-day",
+    "episode_title": "Steak My Day",
+    "episode_guests": [
+      "Paul F. Tompkins",
+      "Nicole Parker","Ryan Gaul"
+    ]
+  },{
+    "episode": "647",
+    "tstart": "1:29:15",
+    "instance": "That's a tale for another time.",
+"bit": "The Paul Hardcastle of Suicides",
+"elucidation": "any song reference",
+    "tags": [
+"Burnt Millipede","Joan Pedestrian","Dickie Caroline's"
+,"A Different World Theme (song)",
+"Bill Cosby",
+"Dawnn Lewis",
+"Stu Gardner"
+    ],
+    "tend": "1:29:45",
+    "location_type": "",
+    "location_id": "",
+    "updated_at": "2020-03-30T10:51:29Z",
+    "created_at": "2020-03-30T10:51:29Z",
+    "slug_earwolf": "steak-my-day",
+    "episode_title": "Steak My Day",
+    "episode_guests": [
+      "Paul F. Tompkins",
+      "Nicole Parker","Ryan Gaul"
+    ]
+  },{
+    "episode": "647",
+    "tstart": "1:08:30",
+    "instance": "I guess they call it a Holiday Inn Express.",
+    "bit": "Location",
+"elucidation": "identifiable earth location",
+    "nb": [
+"holiday inn express near i-94 in vermont","workplace of: Dickie Caroline's' Hall Pass"
+    ],
+    "tags": [
+"Burnt Millipede","Joan Pedestrian","Dickie Caroline's"
+    ],
+    "tend": "1:09:45",
+    "location_type": "point","location_id": "1253",
+    "updated_at": "2020-03-30T10:51:29Z",
+    "created_at": "2020-03-30T10:51:29Z",
+    "slug_earwolf": "steak-my-day",
+    "episode_title": "Steak My Day",
+    "episode_guests": [
+      "Paul F. Tompkins",
+      "Nicole Parker","Ryan Gaul"
+    ]
+  },{
+    "episode": "647",
+    "tstart": "1:11:00",
+    "instance": "What's your girlfriend like?",
+    "bit": "Where Are You From?",
+"elucidation": "a character trait or detail is challenged or prompted",
+    "tags": [
+"Burnt Millipede","Joan Pedestrian","Dickie Caroline's"
+    ],
+    "tend": "1:11:30",
+    "location_type": "","location_id": "",
+    "updated_at": "2020-03-30T10:51:29Z",
+    "created_at": "2020-03-30T10:51:29Z",
+    "slug_earwolf": "steak-my-day",
+    "episode_title": "Steak My Day",
+    "episode_guests": [
+      "Paul F. Tompkins",
+      "Nicole Parker","Ryan Gaul"
     ]
   }
 ]

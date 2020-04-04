@@ -124,3 +124,5 @@
 * http://howl.fm/audio/42848/live-from-comic-con-2016,48:00
 * 630,48:45,killacheerleader.com
 * 630,51:45,twomonacles.com
+* 647,59:30
+* 647,1:22:45
