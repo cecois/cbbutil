@@ -1,6 +1,7 @@
 # possible new bits:
 
 0. clean up nephew todd tag, "tiny reviews music" eluc
+0. oj simpson see you later
 1. wilcox poems fulltext
 1. dick francis
 2. fix elucid for pyramid stuff
@@ -135,6 +136,7 @@
   - 451,40:00
 * bajillion (or any) call sheet
   - bo2018.\*
+  - 650,8:50
   - bo2019.1,1:17:00
   - 642,6:40
   - bo2018.3,1:58:00(pw)
@@ -322,6 +324,7 @@
   - 522,3:50
 
 - we're really gonna probe his psyche (in-depth - wtf - actors pain)
+  - 650,1:30
   - 162,33:45
   - 358,2:00(pw)
   - 510,8:45(commercialed)
@@ -610,6 +613,7 @@
 - no rule against dogs playing (football|basketball)
   - 2016.shepherds,42:45
   - 644,11:45
+  - 650,57:30
   - 641,56:30
   - 641,1:09:00
   - 622,38:30
@@ -821,6 +825,7 @@
   - 2016.losangeles,1:01:00
   - 2016.losangeles,1:00:40
 - character bonanzas
+  - 650,daly
   - 300,bill carter+
   - 599,~3+ (first segment)
   - 85,4:00+(neill campbell)

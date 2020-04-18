@@ -666,7 +666,7 @@ console.log("processing bits from "+ln+"...")
 // read in incoming bits from $ln file
 // msg notes length, payload is actual bits
 */
-const inc = await _INCOMING(ln);
+			const inc = await _INCOMING(ln);
 R.incoming=inc.msg
 const inca = inc.payload
 console.log("inca.length",inca.length)

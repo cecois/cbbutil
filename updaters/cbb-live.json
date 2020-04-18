@@ -1,415 +1,47 @@
-[
-  {
-    "episode": "647",
-    "tstart": "2:45",
-    "instance": "You might even say 'The Heartland,' really.",
-    "bit": "Location",
-"elucidation": "identifiable earth location",
-    "nb": [
-"proxy for: Dignity Falls","Cedar Falls, IA"
-    ],
-    "tags": [
-"Burnt Millipede","Joan Pedestrian"
-    ],
-    "tend": "3:45",
-    "location_type": "poly","location_id": "1100",
-    "updated_at": "2020-03-30T10:51:29Z",
-    "created_at": "2020-03-30T10:51:29Z",
-    "slug_earwolf": "steak-my-day",
-    "episode_title": "Steak My Day",
-    "episode_guests": [
-      "Paul F. Tompkins",
-      "Nicole Parker","Ryan Gaul"
-    ]
-  }
-  ,{
-    "episode": "647",
-    "tstart": "14:20",
-    "instance": "They were putting them into a community plastic bag?",
-    "bit": "Location",
-"elucidation": "identifiable earth location",
-    "nb": [
-"proxy for: a mall in Dignity Falls","Viking Plaza, Cedar Falls, IA"
-    ],
-    "tags": [
-"Burnt Millipede","Joan Pedestrian"
-    ],
-    "tend": "16:45",
-    "location_type": "point","location_id": "1250",
-    "updated_at": "2020-03-30T10:51:29Z",
-    "created_at": "2020-03-30T10:51:29Z",
-    "slug_earwolf": "steak-my-day",
-    "episode_title": "Steak My Day",
-    "episode_guests": [
-      "Paul F. Tompkins",
-      "Nicole Parker","Ryan Gaul"
-    ]
-  },{
-    "episode": "647",
-    "tstart": "52:00",
-    "instance": "You are both allowed to ask questions.",
-    "bit": "Location",
-"elucidation": "identifiable earth location",
-    "nb": [
-"georgia, vt","proxy for: the kingdom of tiffany"
-    ],
-    "tags": [
-"Burnt Millipede","Joan Pedestrian","Dickie Caroline's"
-    ],
-    "tend": "52:20",
-    "location_type": "poly","location_id": "1102",
-    "updated_at": "2020-03-30T10:51:29Z",
-    "created_at": "2020-03-30T10:51:29Z",
-    "slug_earwolf": "steak-my-day",
-    "episode_title": "Steak My Day",
-    "episode_guests": [
-      "Paul F. Tompkins",
-      "Nicole Parker","Ryan Gaul"
-    ]
-  }
-  ,{
-    "episode": "647",
-    "tstart": "28:50",
-    "instance": "I'm a pharmacist, by the way.",
-    "bit": "Location",
-"elucidation": "identifiable earth location",
-    "nb": [
-"proxy for: a CVS on Jimmy Carter blvd in Dignity Falls","a CVS in Cedar Falls, IA"
-    ],
-    "tags": [
-"Burnt Millipede","Joan Pedestrian"
-    ],
-    "tend": "29:45",
-    "location_type": "point","location_id": "1251",
-    "updated_at": "2020-03-30T10:51:29Z",
-    "created_at": "2020-03-30T10:51:29Z",
-    "slug_earwolf": "steak-my-day",
-    "episode_title": "Steak My Day",
-    "episode_guests": [
-      "Paul F. Tompkins",
-      "Nicole Parker","Ryan Gaul"
-    ]
-  }
-  ,{
-    "episode": "647",
-    "tstart": "3:15",
-    "instance": "Are you talking the dead center of America?",
-    "bit": "Introduction in a Second",
-"elucidation": "scott delays a guest's introduction",
-    "tags": [
-"Burnt Millipede","Joan Pedestrian"
-    ],
-    "tend": "3:45",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-30T10:51:29Z",
-    "created_at": "2020-03-30T10:51:29Z",
-    "slug_earwolf": "steak-my-day",
-    "episode_title": "Steak My Day",
-    "episode_guests": [
-      "Paul F. Tompkins",
-      "Nicole Parker","Ryan Gaul"
-    ]
-  },{
-    "episode": "647",
-    "tstart": "3:45",
-    "instance": "I have not seen too many babies since we've been on lockdown.",
-    "bit": "Introduction in a Second",
-"elucidation": "scott delays a guest's introduction",
-    "tags": [
-"Burnt Millipede","Joan Pedestrian"
-    ],
-    "tend": "4:00",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-30T10:51:29Z",
-    "created_at": "2020-03-30T10:51:29Z",
-    "slug_earwolf": "steak-my-day",
-    "episode_title": "Steak My Day",
-    "episode_guests": [
-      "Paul F. Tompkins",
-      "Nicole Parker","Ryan Gaul"
-    ]
-  },{
-    "episode": "647",
-    "tstart": "6:30",
-    "instance": "You just admitted that you've been having this stranger's baby suckle upon your supple breast -- I'm assuming.",
-    "bit": "Introduction in a Second",
-"elucidation": "scott delays a guest's introduction",
-    "tags": [
-"Burnt Millipede","Joan Pedestrian"
-    ],
-    "hero":{"on":true,"attrib":"Scott Aukerman"},
-    "tend": "6:55",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-30T10:51:29Z",
-    "created_at": "2020-03-30T10:51:29Z",
-    "slug_earwolf": "steak-my-day",
-    "episode_title": "Steak My Day",
-    "episode_guests": [
-      "Paul F. Tompkins",
-      "Nicole Parker","Ryan Gaul"
-    ]
-  },{
-    "episode": "647",
-    "tstart": "13:30",
-    "instance": "We read some posts but then we also interview people.",
-"bit": "Fantastic.",
-"elucidation": "one of scott's 25 words",
-    "tags": [
-"Burnt Millipede","Joan Pedestrian"
-    ],
-    "tend": "13:50",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-30T10:51:29Z",
-    "created_at": "2020-03-30T10:51:29Z",
-    "slug_earwolf": "steak-my-day",
-    "episode_title": "Steak My Day",
-    "episode_guests": [
-      "Paul F. Tompkins",
-      "Nicole Parker","Ryan Gaul"
-    ]
-  },{
-    "episode": "647",
-    "tstart": "44:40",
-    "instance": "It bloomed during the 'L.A. Law' phase.",
-"bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": [
-"Burnt Millipede","Joan Pedestrian","L.A. Law (TV)",
-"Happy Birthday to You (song)",
-"Mildred Hill",
-"Patty Hill"
-    ],
-    "tend": "46:00",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-30T10:51:29Z",
-    "created_at": "2020-03-30T10:51:29Z",
-    "slug_earwolf": "steak-my-day",
-    "episode_title": "Steak My Day",
-    "episode_guests": [
-      "Paul F. Tompkins",
-      "Nicole Parker","Ryan Gaul"
-    ]
-  },{
-    "episode": "647",
-    "tstart": "1:29:15",
-    "instance": "It is my birthday today.",
-"bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": [
-"Burnt Millipede","Joan Pedestrian",
-"Happy Birthday to You (song)",
-"Mildred Hill",
-"Patty Hill","Dickie Caroline's"
-    ],
-    "tend": "1:29:55",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-30T10:51:29Z",
-    "created_at": "2020-03-30T10:51:29Z",
-    "slug_earwolf": "steak-my-day",
-    "episode_title": "Steak My Day",
-    "episode_guests": [
-      "Paul F. Tompkins",
-      "Nicole Parker","Ryan Gaul"
-    ]
-  },{
-    "episode": "647",
-    "tstart": "50:15",
-    "instance": "Since I graduated high school I decided I'd go into the meat industry.",
-"bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": [
-"Burnt Millipede","Drake",
-"Started from the Bottom (song)","Dickie Caroline's"
-    ],
-    "tend": "51:00",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-30T10:51:29Z",
-    "created_at": "2020-03-30T10:51:29Z",
-    "slug_earwolf": "steak-my-day",
-    "episode_title": "Steak My Day",
-    "episode_guests": [
-      "Paul F. Tompkins",
-      "Nicole Parker","Ryan Gaul"
-    ]
-  },{
-    "episode": "647",
-    "tstart": "52:00",
-    "instance": "I've been going into steakhouses; people's houses; kingdoms.",
-    "bit": "Location",
-"elucidation": "identifiable earth location",
-    "nb": [
-"georgia, vt","site of: a kingdom"
-    ],
-    "tags": [
-"Burnt Millipede","Joan Pedestrian","Dickie Caroline's"
-    ],
-    "tend": "52:20",
-    "location_type": "poly","location_id": "1102",
-    "updated_at": "2020-03-30T10:51:29Z",
-    "created_at": "2020-03-30T10:51:29Z",
-    "slug_earwolf": "steak-my-day",
-    "episode_title": "Steak My Day",
-    "episode_guests": [
-      "Paul F. Tompkins",
-      "Nicole Parker","Ryan Gaul"
-    ]
-  },{
-    "episode": "647",
-    "tstart": "52:20",
-    "instance": "Why were you going to Canada?",
-    "bit": "Location",
-"elucidation": "identifiable earth location",
-    "nb": [
-"benningto to montreal va georgia","route of: a kingdom"
-    ],
-    "tags": [
-"Burnt Millipede","Joan Pedestrian","Dickie Caroline's"
-    ],
-    "tend": "53:00",
-    "location_type": "line","location_id": "304",
-    "updated_at": "2020-03-30T10:51:29Z",
-    "created_at": "2020-03-30T10:51:29Z",
-    "slug_earwolf": "steak-my-day",
-    "episode_title": "Steak My Day",
-    "episode_guests": [
-      "Paul F. Tompkins",
-      "Nicole Parker","Ryan Gaul"
-    ]
-  },{
-    "episode": "647",
-    "tstart": "55:30",
-    "instance": "I don't think it's necessarily an energy you're giving off so much as the home invasions.",
-    "bit": "Location",
-"elucidation": "identifiable earth location",
-    "nb": [
-"a farmouse near georgia, vt","proxy for: a farmouse in the kingdom of tiffany, vermont","site of: a pummeling of Dickie Caroline's, once"
-    ],
-    "tags": [
-"Burnt Millipede","Joan Pedestrian","Dickie Caroline's"
-    ],
-    "hero":{"on":true,"attrib":"Burnt Millipede"},
-    "tend": "57:05",
-    "location_type": "point","location_id": "1252",
-    "updated_at": "2020-03-30T10:51:29Z",
-    "created_at": "2020-03-30T10:51:29Z",
-    "slug_earwolf": "steak-my-day",
-    "episode_title": "Steak My Day",
-    "episode_guests": [
-      "Paul F. Tompkins",
-      "Nicole Parker","Ryan Gaul"
-    ]
-  },{
-    "episode": "647",
-    "tstart": "1:05:00",
-    "instance": "Both of our Hall Passes pretty much involve another dimension.",
-"bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": [
-"Burnt Millipede","Joan Pedestrian","Out of Space (song)","The Prodigy (musical combination)"
-    ],
-    "tend": "1:05:22",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-30T10:51:29Z",
-    "created_at": "2020-03-30T10:51:29Z",
-    "slug_earwolf": "steak-my-day",
-    "episode_title": "Steak My Day",
-    "episode_guests": [
-      "Paul F. Tompkins",
-      "Nicole Parker","Ryan Gaul"
-    ]
-  },{
-    "episode": "647",
-    "tstart": "1:05:30",
-    "instance": "That might just be your settings.",
-"bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": [
-"Burnt Millipede","Joan Pedestrian","Losing My Religion (song)","R.E.M. (musical combination)"
-,"Dickie Caroline's"
-    ],
-    "tend": "1:05:45",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-30T10:51:29Z",
-    "created_at": "2020-03-30T10:51:29Z",
-    "slug_earwolf": "steak-my-day",
-    "episode_title": "Steak My Day",
-    "episode_guests": [
-      "Paul F. Tompkins",
-      "Nicole Parker","Ryan Gaul"
-    ]
-  },{
-    "episode": "647",
-    "tstart": "1:29:15",
-    "instance": "That's a tale for another time.",
-"bit": "The Paul Hardcastle of Suicides",
-"elucidation": "any song reference",
-    "tags": [
-"Burnt Millipede","Joan Pedestrian","Dickie Caroline's"
-,"A Different World Theme (song)",
-"Bill Cosby",
-"Dawnn Lewis",
-"Stu Gardner"
-    ],
-    "tend": "1:29:45",
-    "location_type": "",
-    "location_id": "",
-    "updated_at": "2020-03-30T10:51:29Z",
-    "created_at": "2020-03-30T10:51:29Z",
-    "slug_earwolf": "steak-my-day",
-    "episode_title": "Steak My Day",
-    "episode_guests": [
-      "Paul F. Tompkins",
-      "Nicole Parker","Ryan Gaul"
-    ]
-  },{
-    "episode": "647",
-    "tstart": "1:08:30",
-    "instance": "I guess they call it a Holiday Inn Express.",
-    "bit": "Location",
-"elucidation": "identifiable earth location",
-    "nb": [
-"holiday inn express near i-94 in vermont","workplace of: Dickie Caroline's' Hall Pass"
-    ],
-    "tags": [
-"Burnt Millipede","Joan Pedestrian","Dickie Caroline's"
-    ],
-    "tend": "1:09:45",
-    "location_type": "point","location_id": "1253",
-    "updated_at": "2020-03-30T10:51:29Z",
-    "created_at": "2020-03-30T10:51:29Z",
-    "slug_earwolf": "steak-my-day",
-    "episode_title": "Steak My Day",
-    "episode_guests": [
-      "Paul F. Tompkins",
-      "Nicole Parker","Ryan Gaul"
-    ]
-  },{
-    "episode": "647",
-    "tstart": "1:11:00",
-    "instance": "What's your girlfriend like?",
-    "bit": "Where Are You From?",
-"elucidation": "a character trait or detail is challenged or prompted",
-    "tags": [
-"Burnt Millipede","Joan Pedestrian","Dickie Caroline's"
-    ],
-    "tend": "1:11:30",
-    "location_type": "","location_id": "",
-    "updated_at": "2020-03-30T10:51:29Z",
-    "created_at": "2020-03-30T10:51:29Z",
-    "slug_earwolf": "steak-my-day",
-    "episode_title": "Steak My Day",
-    "episode_guests": [
-      "Paul F. Tompkins",
-      "Nicole Parker","Ryan Gaul"
-    ]
-  }
-]
+keep the 650 stuff[{
+	"episode": "650",
+	"tstart": "29:15",
+	"instance": "When you're done with the house, do you then take the beans with you to go?",
+	"bit": "You're Terrible at This",
+	"elucidation": "impromptu reviews of scott's hosting",
+	"tags": ["Dalton Wilcox"],
+	"tend": "29:40",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2020-04-13T10:51:29Z",
+	"created_at": "2020-04-13T10:51:29Z",
+	"slug_earwolf": "bun-gun-and-a-hot-dog-bullet",
+	"episode_title": "Bun Gun and A Hot Dog Bullet",
+	"episode_guests": ["Jason Mantzoukas", "Andy Daly"]
+}, {
+	"episode": "650",
+	"tstart": "1:07:20",
+	"instance": "Nobody expects the Spanish Inquisition.",
+	"bit": "Possibly Hundreds",
+	"elucidation": "cbb's listenership is questioned",
+	"tags": ["Hot Dog"],
+	"tend": "1:07:40",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2020-04-13T10:51:29Z",
+	"created_at": "2020-04-13T10:51:29Z",
+	"slug_earwolf": "bun-gun-and-a-hot-dog-bullet",
+	"episode_title": "Bun Gun and A Hot Dog Bullet",
+	"episode_guests": ["Jason Mantzoukas", "Andy Daly"]
+}, {
+	"episode": "650",
+	"tstart": "1:15:00",
+	"instance": "The Doobies don't have any dates planned!",
+	"bit": "Location",
+	"elucidation": "identifiable earth location",
+	"nb": ["parking lot/water skiing hall of fame"],
+	"tags": ["Hot Dog"],
+	"tend": "1:15:45",
+	"location_type": "",
+	"location_id": "",
+	"updated_at": "2020-04-13T10:51:29Z",
+	"created_at": "2020-04-13T10:51:29Z",
+	"slug_earwolf": "bun-gun-and-a-hot-dog-bullet",
+	"episode_title": "Bun Gun and A Hot Dog Bullet",
+	"episode_guests": ["Jason Mantzoukas", "Andy Daly"]
+}]
