@@ -18,7 +18,7 @@
     "epic-spinners": "^1.1.0",
     "es": "^0.7.3",
     "http-aws-es": "^6.0.0",
-    "jquery": "^3.2.1",
+    "jquery": "^3.5.0",
     "moment": "^2.24.0",
     "underscore": "^1.8.3",
     "vue": "^2.5.2",
