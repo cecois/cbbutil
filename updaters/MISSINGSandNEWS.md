@@ -1,15 +1,15 @@
 # possible new bits:
 
-0. clean up nephew todd tag, "tiny reviews music" eluc
-0. oj simpson see you later
-1. wilcox poems fulltext
-1. dick francis
-2. fix elucid for pyramid stuff
 0. ~~clean up nephew todd tag~~
 0. ~~"tiny reviews music" eluc~~
-1. complete dick francis
+0. ~~oj simpson you take care/see you later~~
+0. fix alimony tony tag -> Alimony Tony Giachieroni
+1. ~~wilcox poems fulltext~~
+1. ~~dick francis~~
+2. ~~fix elucid for pyramid stuff~~
+0. ~~clean up nephew todd tag~~
+0. ~~"tiny reviews music" eluc~~
 2. missing rudi north christmas tree farm loc?
-2. Wilcox fulltext poems
 2. ~~marshal v marshall~~
 3. ~~fix hey nineteen tags (hardcastle v. steely)~~
 1. ~~fix "Regina Krimp" vs. "Crimp"~~
@@ -24,7 +24,7 @@
 1. ~~lapkus can't make it through a song~~
 2. ~~dads and grads~~
 2. ~~mike the janitor's mantra~~
-1. gino's commuter map
+1. ~~gino's commuter map~~
 1. ~~len wiseman~~
 1. ~~retiring a train~~
 1. URLs (see DOMAINS.md)
@@ -137,6 +137,7 @@
 * bajillion (or any) call sheet
   - bo2018.\*
   - 650,8:50
+  - 651,14:50
   - bo2019.1,1:17:00
   - 642,6:40
   - bo2018.3,1:58:00(pw)
@@ -1151,19 +1152,18 @@
   - 224,58:15(howl)
   - 377,1:19:30(pw)
 - is dick francis a horse?
-    - 398,1:08:00
-    - bo2015.4,1:17:00
-    - bo2015.4,8:00
-  - [180?],54:20
-	  - 2016.chicago10,27:30(pw)
-	  - 2016.leeds,25:32
-  - 399,1:07:50
-	  - 428,14:00(pw)
-    - 479,29:00(pw)
-  - 484,1:07:45(pw)
-  - 507,1:04:50
-    - 507,39:00
-  - 514,1:36:00
+  * - 2016.chicago10,27:30(pw)
+  * - 2016.leeds,25:32
+  * - 398,1:08:00
+  * - 428,14:00(pw)
+  * - 479,29:00(pw)
+  * - 507,39:00
+  * - bo2015.4,1:17:00
+  * - bo2015.4,8:00
+  - 399,1:07:50(falsepoz)
+  * - 484,1:07:45(pw)
+  * - 507,1:04:50
+  * - 514,1:36:00
 - don't joke about irobot
   - bo2015.1,8:20(pw)
   - bo2015.2,11:40(pw)
@@ -1436,7 +1436,6 @@
   - bo2013.1,6:45(howl)
   - bo2013.1,7:45(howl)
   - 484,42:20(howl)
-* fix scott's nephew todd tag
 * buttercream effect
   - 215,~59:30
   - 215,54:20
@@ -2091,6 +2090,7 @@
 - we'll pay for it (if you wanna go on another date)
   - 567,14:00
   - 637,1:05:10
+  - 653,1:13:00
   - 547,1:09:15
   - 631,1:25:00
   - 627,29:50
