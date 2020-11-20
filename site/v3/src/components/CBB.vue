@@ -497,7 +497,7 @@ export default {
       incoming: null,
       MAP: null,
       basemaps: [
-        { "name": "Carto Voyager", "handle": "default", "uri": "c.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png" }
+        { "name": "Carto Voyager", "handle": "default", "uri": "http://c.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png" }
       ],
       actives: { basemap: 'default', pane: 'default', updatekey: null, geom: "000" }
     };
