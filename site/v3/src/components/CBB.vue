@@ -497,7 +497,7 @@ export default {
       incoming: null,
       MAP: null,
       basemaps: [
-        { "name": "Amazonia Grey", "handle": "default", "uri": "http://a.tiles.mapbox.com/v3/infoamazonia.map-xs56h3ri/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiYWoiLCJhIjoiY2lrZW1pczJzMDA1d3VybTJha216azVtdSJ9.vJBkGAq6CvN9vt0IwakQ-A" }
+        { "name": "Carto Voyager", "handle": "default", "uri": "https://c.basemaps.cartocdn.com/rastertiles/voyager/2/3/1@2x.png" }
       ],
       actives: { basemap: 'default', pane: 'default', updatekey: null, geom: "000" }
     };
