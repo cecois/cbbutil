@@ -87,15 +87,12 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
     </div NB="/.columns">
     <div :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='default'">
       <div v-if="hero" style="padding-bottom:3em;" class="column zCBB-hero-column">
-
-
-<p class="is-size-2 has-text-weight-bold has-text-right zCBB-primary" style="padding-right:3em;">
-  {{hero._source.instance}}
-</p>
+        <p class="is-size-2 has-text-weight-bold has-text-right zCBB-primary" style="padding-right:3em;">
+          {{hero._source.instance}}
+        </p>
         <p class="is-size-5 has-text-weight-light has-text-right zCBB-primary-3" style="padding-right:3em;padding-left:3em;">
-        -- {{hero._source.hero.attrib}} (instance of bit: <span @click="setQueryFire({bit:hero._source.bit},['bit'])" class="zCBB-trigger">{{hero._source.bit}}</span>)</p>
-
-<!-- <p class="is-size-2 has-text-weight-bold has-text-right zCBB-primary" style="padding-right:3em;">Special Update!</p>
+          -- {{hero._source.hero.attrib}} (instance of bit: <span @click="setQueryFire({bit:hero._source.bit},['bit'])" class="zCBB-trigger">{{hero._source.bit}}</span>)</p>
+        <!-- <p class="is-size-2 has-text-weight-bold has-text-right zCBB-primary" style="padding-right:3em;">Special Update!</p>
 =======
         <!-- <p class="is-size-2 has-text-weight-bold has-text-right zCBB-primary" style="padding-right:3em;">Special Update!</p>
 >>>>>>> 52b72d8600ca7581be28c5e8e46940aa6be0c984
@@ -125,11 +122,9 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
 </dl>
         
         </p> -->
-
-<!-- <div class="notification has-text-weight-bold" style="margin-top:4em;">
+        <!-- <div class="notification has-text-weight-bold" style="margin-top:4em;">
   Something strange happened to our index in March 2020 that we're currently investigating. With ~all that~ coronavirus free time. Search works but is feature-reduced. Facets (and therefore Browse) has been killed altogether. Updates will continue.
 </div> -->
-
       </div>
     </div NB="/default/home">
     <div :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='huh'">
@@ -410,19 +405,19 @@ export default {
   },
   name: "CBB-GUI",
   created: function() {
-    this.CONFIG = CONFIGG.mode=="prod"?CONFIGG.prod:CONFIGG.dev
+    this.CONFIG = CONFIGG.mode == "prod" ? CONFIGG.prod : CONFIGG.dev
       // this.bootstrap()
       // this.loadings.app = true
-//     this.elasticSearchClient = new es.Client({
-//     host: 'https://search-cbb-wxjx2uda6c4c7uhvc7c7eocdwu.us-east-1.es.amazonaws.com',
-//     connectionClass: awsHttpClient,
-//     amazonES: {
-//         region: this.CONFIG.awsServiceRegion,
-//         accessKey: this.CONFIG.awsAccessKeyId,
-//         secretKey: this.CONFIG.awsSecretAccessKeyId
-//     }
-//     ,awsConfig: new AWS.Config({region: CONFIG.awsServiceRegion})
-// });
+      //     this.elasticSearchClient = new es.Client({
+      //     host: 'https://search-cbb-wxjx2uda6c4c7uhvc7c7eocdwu.us-east-1.es.amazonaws.com',
+      //     connectionClass: awsHttpClient,
+      //     amazonES: {
+      //         region: this.CONFIG.awsServiceRegion,
+      //         accessKey: this.CONFIG.awsAccessKeyId,
+      //         secretKey: this.CONFIG.awsSecretAccessKeyId
+      //     }
+      //     ,awsConfig: new AWS.Config({region: CONFIG.awsServiceRegion})
+      // });
 
     // this.query.facets = (this.$route.params.facets) ? decodeURI(this.$route.params.facets.split(",")) : []
     this.actives = {
@@ -451,7 +446,7 @@ export default {
   mounted: function() {
     // this.CONFIG = CONFIG
     window.addEventListener('keydown', this.keyMonitor)
-      
+
     if (!this.MAP) {
       this.MAP = new L.Map("map", {
         zoomControl: false,
@@ -468,8 +463,8 @@ export default {
 
     this.GEOMS = new L.featureGroup().addTo(this.MAP);
 
-this.getUpdates()
-this.getHero()
+    this.getUpdates()
+    this.getHero()
 
     this.query.string = (this.$route.params.query && this.$route.params.query !== '*') ? this.$route.params.query : null
     if (this.query.string) { this.getBits() }
@@ -478,7 +473,7 @@ this.getHero()
   data() {
     return {
       CONFIG: null,
-loadings: { maplayer: false, app: false, popupopen: false },
+      loadings: { maplayer: false, app: false, popupopen: false },
       hero: null,
       updates: null,
       locations: null,
@@ -502,7 +497,7 @@ loadings: { maplayer: false, app: false, popupopen: false },
       incoming: null,
       MAP: null,
       basemaps: [
-        { "name": "AJ Ashton's Pencil", "handle": "default", "uri": "https://b.tiles.mapbox.com/v4/aj.03e9e12d/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiYWoiLCJhIjoiY2lrZW1pczJzMDA1d3VybTJha216azVtdSJ9.vJBkGAq6CvN9vt0IwakQ-A" }
+        { "name": "Amazonia Grey", "handle": "default", "uri": "http://a.tiles.mapbox.com/v3/infoamazonia.map-xs56h3ri/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiYWoiLCJhIjoiY2lrZW1pczJzMDA1d3VybTJha216azVtdSJ9.vJBkGAq6CvN9vt0IwakQ-A" }
       ],
       actives: { basemap: 'default', pane: 'default', updatekey: null, geom: "000" }
     };
@@ -530,7 +525,7 @@ loadings: { maplayer: false, app: false, popupopen: false },
         .then(response => {
 
           // this.hero=response.data[0].hero;
-this.updates=response.data;
+          this.updates = response.data;
 
         }) //axios.then
         .catch(e => {
@@ -577,40 +572,42 @@ this.updates=response.data;
 
 
       let QO = {
-          "size":1,
-    "query": {
-        "function_score": {
-            "query": { "query_string":{"query":"hero.on:true"} },
+        "size": 1,
+        "query": {
+          "function_score": {
+            "query": { "query_string": { "query": "hero.on:true" } },
             "boost": "5",
-            "random_score": {}, 
-            "boost_mode":"multiply"
+            "random_score": {},
+            "boost_mode": "multiply"
+          }
         }
-    }
-}
+      }
 
 
-//         this.$ES.search({
-//     index: 'cbb',
-//     type: '_doc',
-//     body: QO
-// })
-axios.post(this.CONFIG.elastic_bits, QO)
+      //         this.$ES.search({
+      //     index: 'cbb',
+      //     type: '_doc',
+      //     body: QO
+      // })
+      axios.post(this.CONFIG.elastic_bits, QO)
         .then(response => {
-            this.hero = response.data.hits.hits.length>0?response.data.hits.hits[0]:{_source:{
-                "instance": "Is that more on the guy or more on the horse?",
-                "bit": "Is Dick Francis a Horse?",
-                "elucidation": "inconclusive",
-                "hero":{"on":true,"attrib":"Chesley Burnett Sullenberger"}}
-}
-          }) //.then
-          .catch(e => {
+          this.hero = response.data.hits.hits.length > 0 ? response.data.hits.hits[0] : {
+            _source: {
+              "instance": "Is that more on the guy or more on the horse?",
+              "bit": "Is Dick Francis a Horse?",
+              "elucidation": "inconclusive",
+              "hero": { "on": true, "attrib": "Chesley Burnett Sullenberger" }
+            }
+          }
+        }) //.then
+        .catch(e => {
 
-            this.console.msgs.push({ m: e, c: "error" })
-            console.error(e);
-          }) //.catch
-          .finally(() => {
-            this.loadings.app = false
-          })
+          this.console.msgs.push({ m: e, c: "error" })
+          console.error(e);
+        }) //.catch
+        .finally(() => {
+          this.loadings.app = false
+        })
 
     },
     genGeomID: function(caller, e) {
@@ -640,7 +637,8 @@ axios.post(this.CONFIG.elastic_bits, QO)
     getGeomIDs: function() {
 
       return this.$_.map(this.$_.filter(this.bits, (b) => {
-        return b._source.bit == 'Location' }), (m) => {
+        return b._source.bit == 'Location'
+      }), (m) => {
         return m._source.location_type.toLowerCase() + ':' + m._source.location_id
       })
 
@@ -680,12 +678,14 @@ axios.post(this.CONFIG.elastic_bits, QO)
       L.geoJson(this.locations, {
           pointToLayer: function(feature, latlng) {
             return L.circleMarker(latlng, (feature) => {
-              return __.contains(this.genGeomID('feature', feature)) ? { fillColor: 'white', fillOpacity: .7, color: 'black' } : { fillColor: 'red', fillOpacity: .9, color: 'pink' } });
+              return __.contains(this.genGeomID('feature', feature)) ? { fillColor: 'white', fillOpacity: .7, color: 'black' } : { fillColor: 'red', fillOpacity: .9, color: 'pink' }
+            });
           }
         })
         .bindPopup(
           (l) => {
-            return l.feature.properties.name }
+            return l.feature.properties.name
+          }
         )
         .addTo(this.GEOMS)
         .on("click", (f) => {
@@ -709,10 +709,10 @@ axios.post(this.CONFIG.elastic_bits, QO)
     getGeoms: function() {
       let u = null;
       // if (this.CONFIG.mode !== 'T') {
-        u = this.CONFIG.atlas_geoms + this.getGeomIDs().join(',')
-      // } else {
-      //   u = this.CONFIG.dev.atlas_geoms + this.getGeomIDs().join(',')
-      // }
+      u = this.CONFIG.atlas_geoms + this.getGeomIDs().join(',')
+        // } else {
+        //   u = this.CONFIG.dev.atlas_geoms + this.getGeomIDs().join(',')
+        // }
       if (this.getGeomIDs().length > 0) {
         this.loadings.maplayer = true
         axios.get(u)
@@ -750,7 +750,8 @@ axios.post(this.CONFIG.elastic_bits, QO)
         // let qfg = (this.query.facets.guests.length>0)?' AND (epsode_guests.comma_del:'+__.uniq(this.query.facets.guests).join(' AND epsode_guests.comma_del:')+')':''
         let qfg = (this.query.facets.guests.length > 0) ?
           __.map(__.uniq(this.query.facets.guests), (g) => {
-            return ' +episode_guests:"' + g + '"' }).join("") : ''
+            return ' +episode_guests:"' + g + '"'
+          }).join("") : ''
         let qft = (this.query.facets.tags.length > 0) ? ' +tags:"' + __.uniq(this.query.facets.tags).join('" +tags:"') + '"' : ''
         let qfb = (this.query.facets.bits.length > 0) ? ' +bit:"' + __.uniq(this.query.facets.bits).join('" +bit:"') + '"' : ''
         let qfe = (this.query.facets.episodes.length > 0) ? ' +episode:"' + __.uniq(this.query.facets.episodes).join('" +episode:"') + '"' : ''
@@ -760,7 +761,7 @@ axios.post(this.CONFIG.elastic_bits, QO)
         let qso = this.query.string + qfg + qft + qfb + qfe
         let qsof = (this.query.facets.bits.length > 0 || this.query.facets.episodes.length > 0 || this.query.facets.guests.length > 0 || this.query.facets.tags.length > 0) ? '+' + qso : qso
 
-      var Q = {
+        var Q = {
           "query_string": {
             "query": qsof
           }
@@ -831,15 +832,15 @@ axios.post(this.CONFIG.elastic_bits, QO)
             }
           } //qs
 
-          QO = {"size":10000,"query":{"query_string":{"query":Q}},"aggregations":{"all_bits":{"global":{},"aggregations":{"guests":{"filter":{"query_string":{"query":Q}},"aggregations":{"filtered_guests":{"terms":{"size":10000,"field":"episode_guests.text"}}}},"tags":{"filter":{"query_string":{"query":Q}},"aggregations":{"filtered_tags":{"terms":{"size":10000,"field":"tags.text"}}}},"bits":{"filter":{"query_string":{"query":Q}},"aggregations":{"filtered_bits":{"terms":{"size":10000,"field":"bit.text"}}}},"episodes":{"filter":{"query_string":{"query":Q}},"aggregations":{"filtered_episodes":{"terms":{"size":10000,"field":"episode.text"}}}}}}}}
+        QO = { "size": 10000, "query": { "query_string": { "query": Q } }, "aggregations": { "all_bits": { "global": {}, "aggregations": { "guests": { "filter": { "query_string": { "query": Q } }, "aggregations": { "filtered_guests": { "terms": { "size": 10000, "field": "episode_guests.text" } } } }, "tags": { "filter": { "query_string": { "query": Q } }, "aggregations": { "filtered_tags": { "terms": { "size": 10000, "field": "tags.text" } } } }, "bits": { "filter": { "query_string": { "query": Q } }, "aggregations": { "filtered_bits": { "terms": { "size": 10000, "field": "bit.text" } } } }, "episodes": { "filter": { "query_string": { "query": Q } }, "aggregations": { "filtered_episodes": { "terms": { "size": 10000, "field": "episode.text" } } } } } } } }
 
-//         this.$ES.search({
-//     index: 'cbb',
-//     type: '_doc',
-//     body: QO
-// })
+        //         this.$ES.search({
+        //     index: 'cbb',
+        //     type: '_doc',
+        //     body: QO
+        // })
         axios.post(this.CONFIG.elastic_bits, QO)
-        .then(response => {
+          .then(response => {
             this.bits = response.data.hits.hits
             this.facets = response.data.aggregations.all_bits
           }) //axios.then
@@ -854,9 +855,10 @@ axios.post(this.CONFIG.elastic_bits, QO)
 
       } else {
 
-       let qfg = (this.query.facets.guests.length > 0) ?
+        let qfg = (this.query.facets.guests.length > 0) ?
           __.map(__.uniq(this.query.facets.guests), (g) => {
-            return ' +episode_guests:"' + g + '"' }).join("") : ''
+            return ' +episode_guests:"' + g + '"'
+          }).join("") : ''
         let qft = (this.query.facets.tags.length > 0) ? ' +tags:"' + __.uniq(this.query.facets.tags).join('" +tags:"') + '"' : ''
         let qfb = (this.query.facets.bits.length > 0) ? ' +bit:"' + __.uniq(this.query.facets.bits).join('" +bit:"') + '"' : ''
         let qfe = (this.query.facets.episodes.length > 0) ? ' +episode:"' + __.uniq(this.query.facets.episodes).join('" +episode:"') + '"' : ''
@@ -865,22 +867,22 @@ axios.post(this.CONFIG.elastic_bits, QO)
         let qso = this.query.string.replace("tags:", "tags:").replace('episode_guests:', "episode_guests:") + qfg + qft + qfb + qfe
         let qsof = (this.query.facets.bits.length > 0 || this.query.facets.episodes.length > 0 || this.query.facets.guests.length > 0 || this.query.facets.tags.length > 0) ? '+' + qso : qso
 
-      var Q = {
+        var Q = {
           "query_string": {
             "query": qsof
           }
         }
 
-QO = {"size":10000,"query":Q,"aggregations":{"all_bits":{"global":{},"aggregations":{"guests":{"filter":Q,"aggregations":{"filtered_guests":{"terms":{"size":10000,"field":"episode_guests.keyword"}}}},"tags":{"filter":Q,"aggregations":{"filtered_tags":{"terms":{"size":10000,"field":"tags.keyword"}}}},"bits":{"filter":Q,"aggregations":{"filtered_bits":{"terms":{"size":10000,"field":"bit.keyword"}}}},"episodes":{"filter":Q,"aggregations":{"filtered_episodes":{"terms":{"size":10000,"field":"episode.keyword"}}}}}}}}
-console.log("QO", QO);
+        QO = { "size": 10000, "query": Q, "aggregations": { "all_bits": { "global": {}, "aggregations": { "guests": { "filter": Q, "aggregations": { "filtered_guests": { "terms": { "size": 10000, "field": "episode_guests.keyword" } } } }, "tags": { "filter": Q, "aggregations": { "filtered_tags": { "terms": { "size": 10000, "field": "tags.keyword" } } } }, "bits": { "filter": Q, "aggregations": { "filtered_bits": { "terms": { "size": 10000, "field": "bit.keyword" } } } }, "episodes": { "filter": Q, "aggregations": { "filtered_episodes": { "terms": { "size": 10000, "field": "episode.keyword" } } } } } } } }
+        console.log("QO", QO);
 
-//         this.$ES.search({
-//     index: 'cbb',
-//     type: '_doc',
-//     body: QO
-// })
+        //         this.$ES.search({
+        //     index: 'cbb',
+        //     type: '_doc',
+        //     body: QO
+        // })
         axios.post(this.CONFIG.elastic_bits, QO)
-        .then(response => {
+          .then(response => {
             this.bits = response.data.hits.hits
             this.facets = response.data.aggregations.all_bits
           }) //axios.then
@@ -945,86 +947,86 @@ console.log("QO", QO);
       // let qo = { "size": 0, "query": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "all_bits": { "global": {}, "aggregations": { "guests": { "filter": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "filtered_guests": { "terms": { "size": 1000000, "field": "episode_guests" } } } }, "tags": { "filter": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "filtered_tags": { "terms": { "size": 1000000, "field": "tags" } } } }, "bits": { "filter": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "filtered_bits": { "terms": { "size": 1000000, "field": "bit.keyword" }, "aggs": { "elucidation": { "top_hits": { "size": 1, "_source": { "include": "elucidation" } } } } } } } } } } }
 
       var Q = {
-          "query_string": {
-            "query": '*:*'
-          }
+        "query_string": {
+          "query": '*:*'
         }
+      }
 
-// let QO = {"size":0,"query":Q,"aggregations":{"all_bits":{"global":{},"aggregations":{"guests":{"filter":Q,"aggregations":{"filtered_guests":{"terms":{"size":1000000,"field":"episode_guests.keyword"}}}},"tags":{"filter":Q,"aggregations":{"filtered_tags":{"terms":{"size":1000000,"field":"tags.keyword"}}}},"bits":{"filter":Q,"aggregations":{"filtered_bits":{"terms":{"size":1000000,"field":"bit.keyword"},"aggs":{"elucidation":{"top_hits":{"size":1,"_source":{"include":"elucidation"}}}}}}},"episodes":{"filter":Q,"aggregations":{"filtered_episodes":{"terms":{"size":1000000,"field":"episode.keyword"}}}}}}}}
+      // let QO = {"size":0,"query":Q,"aggregations":{"all_bits":{"global":{},"aggregations":{"guests":{"filter":Q,"aggregations":{"filtered_guests":{"terms":{"size":1000000,"field":"episode_guests.keyword"}}}},"tags":{"filter":Q,"aggregations":{"filtered_tags":{"terms":{"size":1000000,"field":"tags.keyword"}}}},"bits":{"filter":Q,"aggregations":{"filtered_bits":{"terms":{"size":1000000,"field":"bit.keyword"},"aggs":{"elucidation":{"top_hits":{"size":1,"_source":{"include":"elucidation"}}}}}}},"episodes":{"filter":Q,"aggregations":{"filtered_episodes":{"terms":{"size":1000000,"field":"episode.keyword"}}}}}}}}
 
-// let QOx = {
-//     "aggs" : {
-//         "bits_filter" : {
-//             "filter" : { "term": { "bit": "Donk" } },
-//             "aggs" : {
-//                 "associated_elucidation" : { "filter" : { "term": { "bit": "Donk" } },"field" : "elucidation.keyword"  }
-//             }
-//         }
-//     }
-// }
+      // let QOx = {
+      //     "aggs" : {
+      //         "bits_filter" : {
+      //             "filter" : { "term": { "bit": "Donk" } },
+      //             "aggs" : {
+      //                 "associated_elucidation" : { "filter" : { "term": { "bit": "Donk" } },"field" : "elucidation.keyword"  }
+      //             }
+      //         }
+      //     }
+      // }
 
-// let QO={"size":0,
-//   "aggs": {
-//     "bits_filter": {
-//       "filter": { "term": { "bit": "Donk" } },
-//       "aggs": {
-//         "associated_elucidation": {
-//            "terms": { "field": "elucidation.keyword" }
-//         }
-//       }
-//     }
-//   }
-// }
+      // let QO={"size":0,
+      //   "aggs": {
+      //     "bits_filter": {
+      //       "filter": { "term": { "bit": "Donk" } },
+      //       "aggs": {
+      //         "associated_elucidation": {
+      //            "terms": { "field": "elucidation.keyword" }
+      //         }
+      //       }
+      //     }
+      //   }
+      // }
 
 
-// let QO = { "size": 0, "query": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "all_bits": { "global": {}, "aggregations": { "guests": { "filter": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "filtered_guests": { "terms": { "size": 1000000, "field": "episode_guests.keyword" } } } }, "tags": { "filter": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "filtered_tags": { "terms": { "size": 1000000, "field": "tags.keyword" } } } }, "bits": { "filter": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "filtered_bits": { "terms": { "size": 1000000, "field": "bit.keyword" }, "aggs": { "elucidations": { "top_hits": { "size": 1, "_source": { "include": "elucidation" } } } } } } } } } } }
+      // let QO = { "size": 0, "query": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "all_bits": { "global": {}, "aggregations": { "guests": { "filter": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "filtered_guests": { "terms": { "size": 1000000, "field": "episode_guests.keyword" } } } }, "tags": { "filter": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "filtered_tags": { "terms": { "size": 1000000, "field": "tags.keyword" } } } }, "bits": { "filter": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggregations": { "filtered_bits": { "terms": { "size": 1000000, "field": "bit.keyword" }, "aggs": { "elucidations": { "top_hits": { "size": 1, "_source": { "include": "elucidation" } } } } } } } } } } }
 
-let QO = {"size":0,"query":{"query_string":{"default_operator":"AND","query":"*:*"}},"aggs":{"all_bits":{"global":{},"aggs":{"guests":{"filter":{"query_string":{"default_operator":"AND","query":"*:*"}},"aggs":{"filtered_guests":{"terms":{"size":1000000,"field":"episode_guests.keyword"}}}},"tags":{"filter":{"query_string":{"default_operator":"AND","query":"*:*"}},"aggs":{"filtered_tags":{"terms":{"size":1000000,"field":"tags.keyword"}}}},"bits":{"filter":{"query_string":{"default_operator":"AND","query":"*:*"}},"aggs":{"filtered_bits":{"terms":{"size":1000000,"field":"bit.keyword"},"aggs":{"elucidations":{"top_hits":{"_source":["elucidation"],"size":1}}}}}}}}}}
+      let QO = { "size": 0, "query": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggs": { "all_bits": { "global": {}, "aggs": { "guests": { "filter": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggs": { "filtered_guests": { "terms": { "size": 1000000, "field": "episode_guests.keyword" } } } }, "tags": { "filter": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggs": { "filtered_tags": { "terms": { "size": 1000000, "field": "tags.keyword" } } } }, "bits": { "filter": { "query_string": { "default_operator": "AND", "query": "*:*" } }, "aggs": { "filtered_bits": { "terms": { "size": 1000000, "field": "bit.keyword" }, "aggs": { "elucidations": { "top_hits": { "_source": ["elucidation"], "size": 1 } } } } } } } } } }
 
-// let QO = {"aggs":{"bucketsBits":{"composite":{"sources":[{"bits":{"terms":{"field":"bit.keyword"}}},{"elucidations":{"terms":{"field":"elucidation.keyword"}}}]}}}}
+      // let QO = {"aggs":{"bucketsBits":{"composite":{"sources":[{"bits":{"terms":{"field":"bit.keyword"}}},{"elucidations":{"terms":{"field":"elucidation.keyword"}}}]}}}}
 
-// let QO = {"size":0,"aggs":{"data":{"composite":{"size":100,"sources":[{"bit":{"terms":{"field":"bit.keyword"}}},{"elucidation":{"terms":{"field":"elucidation.keyword"}}}]},"aggs":{"test":{"filters":{"filters":{"query":{"query_string":{"query":"all"}}}}}}}}}
+      // let QO = {"size":0,"aggs":{"data":{"composite":{"size":100,"sources":[{"bit":{"terms":{"field":"bit.keyword"}}},{"elucidation":{"terms":{"field":"elucidation.keyword"}}}]},"aggs":{"test":{"filters":{"filters":{"query":{"query_string":{"query":"all"}}}}}}}}}
 
-// let QO = {"size":0,"aggs":{"bits":{"composite":{"size":15,"sources":[{"bit":{"terms":{"field":"bit.keyword"}}},{"elucidation":{"terms":{"field":"elucidation.keyword"}}}]}}}}
+      // let QO = {"size":0,"aggs":{"bits":{"composite":{"size":15,"sources":[{"bit":{"terms":{"field":"bit.keyword"}}},{"elucidation":{"terms":{"field":"elucidation.keyword"}}}]}}}}
 
-// let QO = {
-//     "aggs": {
-//   "platforms": {
-//     "terms": {"field": "bit.keyword"},
-//     "aggs": {
-//       "name": {"terms": {"field": "elucidation.keyword"}},
-//       "url": {"terms": {"field": "elucidation.keyword"}}
-//     }
-//   }
-// }//aggs
-// }//QO
+      // let QO = {
+      //     "aggs": {
+      //   "platforms": {
+      //     "terms": {"field": "bit.keyword"},
+      //     "aggs": {
+      //       "name": {"terms": {"field": "elucidation.keyword"}},
+      //       "url": {"terms": {"field": "elucidation.keyword"}}
+      //     }
+      //   }
+      // }//aggs
+      // }//QO
 
 
       this.loadings.app = true;
 
-      
 
-//         this.$ES.search({
-//     index: 'cbb',
-//     type: '_doc',
-//     body: QO
-// })
-axios.post(this.CONFIG.elastic_bits, QO)
+
+      //         this.$ES.search({
+      //     index: 'cbb',
+      //     type: '_doc',
+      //     body: QO
+      // })
+      axios.post(this.CONFIG.elastic_bits, QO)
         .then(response => {
-            // this.bits = response.hits.hits
-            // this.facets = response.aggregations.all_bits
-            this.browses = response.data.aggregations.all_bits
-          }) //axios.then
-          .catch(e => {
+          // this.bits = response.hits.hits
+          // this.facets = response.aggregations.all_bits
+          this.browses = response.data.aggregations.all_bits
+        }) //axios.then
+        .catch(e => {
 
-            this.console.msgs.push({ m: e, c: "error" })
-            console.error(e);
-          }) //axios.catch
-          .finally(() => {
-            this.loadings.app = false
-          })
-        
- 
+          this.console.msgs.push({ m: e, c: "error" })
+          console.error(e);
+        }) //axios.catch
+        .finally(() => {
+          this.loadings.app = false
+        })
+
+
     }, //bootstrapBrowse
     setRoute: function() {
 
@@ -1041,7 +1043,8 @@ axios.post(this.CONFIG.elastic_bits, QO)
       } //setRoute
 
   } //methods
-  ,watch: {
+  ,
+  watch: {
     bits: {
       handler: function(vnew, vold) {
         this.getGeoms()

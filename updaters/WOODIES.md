@@ -612,3 +612,7 @@ live-from-vulture-fest-2017
 -   week,42:45,lord vader's birthday
 -   week,51:45,what do tits look like?
 -   incel,45:00,i'm an adult
+-   tickets,6:00,can i finish
+-   icecream,7:15,can i finish
+-   icecream,8:15,i said not to spoil it (dvds)
+-   nastymound,53:30,nasty mound

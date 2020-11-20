@@ -1,5 +1,7 @@
 # possible new bits:
 
+0. fix eluc of vicar of yanks bit
+0. bean dip's real name is "sally dunkirk" acc to cbb#659
 0. ~~clean up nephew todd tag~~
 0. ~~"tiny reviews music" eluc~~
 0. ~~oj simpson you take care/see you later~~
@@ -64,6 +66,12 @@
 
 - little boy/big boy
   - 561,17:00
+
+- notorious terf jk rowling
+  - 667,50:00
+  - 667,long before 50:00
+  - 667,1:01:00
+  - 675,19:50
 
 - point flathand fist
   - 530,22:30
@@ -136,6 +144,11 @@
   - 451,40:00
 * bajillion (or any) call sheet
   - bo2018.\*
+  - 665,28:45
+  - 670,12:15
+  - 657,1:00:00
+  - 657,2:24
+  - 657,3:30
   - 650,8:50
   - 651,14:50
   - bo2019.1,1:17:00
@@ -613,6 +626,9 @@
   - 447,50:45(pw)
 - no rule against dogs playing (football|basketball)
   - 2016.shepherds,42:45
+  - washington dc November 27 2019,1:32:15
+  - 655,44:00
+  - 673,22:20
   - 644,11:45
   - 650,57:30
   - 641,56:30
@@ -760,6 +776,7 @@
 - hollywood facts
   - lots
   - 519,1:41:00(commercialed)
+  - 667,24:50
   - 371,56:00(pw)
   - 391,1:22:00(pw)
   - 391,1:22:45(pw)
@@ -1862,6 +1879,7 @@
   - 393,51:40(pw)
   - 525,33:00
 - symmetrical face
+  - 665,18:00
   - 158,1:00:00
   - 379,1:00:20(pw)
   - 397,45:50(pw)
@@ -1919,6 +1937,7 @@
   - 377,45:20(pw)
   - 384,33:00(pw)
 - face / off
+  - 672,55:45
   - 136,1:22:11
   - 2016.minneapolis,30:50 (not sure now)
   - 131,33:00

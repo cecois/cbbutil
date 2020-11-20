@@ -9,8 +9,11 @@ const _GEOMFILES = async(ln) => {
 		let geomfiles = await FS.readdirSync(CONFIG.geomdir)
 		return new Promise(function(resolve, reject) {
 
+			console.log(`${geomfiles.length} geometries`);
 			resolve(
-				geomfiles
+				__.reject(geomfiles, g => {
+					return g.indexOf('.') == 0
+				})
 			)
 
 		}); //promise
@@ -33,7 +36,8 @@ const _MAPGEOMS = async(geoms) => {
 		return new Promise(function(resolve, reject) {
 
 			__.each(geoms, (G, i, l) => {
-					// console.log("doing G", G);
+
+					console.log(`processing ${G}...`);
 
 					let GC = JSON.parse(FS.readFileSync(CONFIG.geomdir + G))
 						// console.log("GC", GC);
@@ -142,12 +146,12 @@ const main = async() => {
 			requestTimeout: Infinity
 		});
 
-		await clientTemp.deleteByQuery({
-			index: 'cbb_geoms',
-			q: '*:*'
-		});
+	await clientTemp.deleteByQuery({
+		index: 'cbb_geoms',
+		q: '*:*'
+	});
 
-		const E = await _ELASTIFY(geomfilesMapped);
+	const E = await _ELASTIFY(geomfilesMapped);
 
 	} //main
 

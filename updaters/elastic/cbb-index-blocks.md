@@ -20,3 +20,4 @@ curl -XPUT 'http://milleria.org:9200/cbb' -H 'Content-Type: application/json' -d
 curl -XDELETE 'milleria.org:9200/cbb?pretty' -H 'Content-Type: application/json'
 
 curl -XPUT 'http://milleria.org:9200/cbb'
+curl -XPUT 'http://milleria.org:9200/cbb_geoms'
