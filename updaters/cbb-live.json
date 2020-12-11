@@ -1,166 +1,375 @@
-[{
-	"tstart": "16:00",
-	"instance": "And these are people that have been on the show?",
-	"bit": "SNL Dream Cast",
-	"elucidation": "scott likes to list his dream snl cast - most people stick to actual snl players",
-	"tend": "16:45",
-	"tags": [],
-	"created_at": "2020-11-17T10:51:29Z",
-	"updated_at": "2020-11-17T10:51:29Z",
-	"episode_guests": ["Colin Quinn", "Jessica McKenna", "Will Hines"],
-	"episode_title": "Colin Quinn's Dream Presentation",
-	"location_type": null,
-	"location_id": null,
-	"slug_earwolf": "colin-quinns-dream-presentation",
-	"episode": 682,
-	"show": "cbb"
-}, {
-	"tstart": "32:00",
-	"instance": "It's nature's jazz hand.",
-	"bit": "Location",
-	"elucidation": "identifiable earth location",
-	"tend": "33:00",
-	"tags": ["Marjory Kershaw"],
-	"nb": ["pinnacles nat'l park"],
-	"created_at": "2020-11-17T10:51:29Z",
-	"updated_at": "2020-11-17T10:51:29Z",
-	"episode_guests": ["Colin Quinn", "Jessica McKenna", "Will Hines"],
-	"episode_title": "Colin Quinn's Dream Presentation",
-	"location_type": "poly",
-	"location_id": 388,
-	"slug_earwolf": "colin-quinns-dream-presentation",
-	"episode": 682,
-	"show": "cbb"
-}, {
-	"tstart": "32:00",
-	"instance": "But: you have to get there by plane. But: we don't give you any official hike recommendations, so that's cute.",
-	"bit": "Location",
-	"elucidation": "identifiable earth location",
-	"tend": "33:00",
-	"tags": ["Marjory Kershaw"],
-	"nb": ["gates of the arctice nat'l park"],
-	"created_at": "2020-11-17T10:51:29Z",
-	"updated_at": "2020-11-17T10:51:29Z",
-	"episode_guests": ["Colin Quinn", "Jessica McKenna", "Will Hines"],
-	"episode_title": "Colin Quinn's Dream Presentation",
-	"location_type": "poly",
-	"location_id": 510,
-	"slug_earwolf": "colin-quinns-dream-presentation",
-	"episode": 682,
-	"show": "cbb"
-}, {
-	"tstart": "32:00",
-	"instance": "You can't camp there - that's cute.",
-	"bit": "Location",
-	"elucidation": "identifiable earth location",
-	"tend": "33:00",
-	"tags": ["Marjory Kershaw"],
-	"nb": ["dry tortugas nat'l park"],
-	"created_at": "2020-11-17T10:51:29Z",
-	"updated_at": "2020-11-17T10:51:29Z",
-	"episode_guests": ["Colin Quinn", "Jessica McKenna", "Will Hines"],
-	"episode_title": "Colin Quinn's Dream Presentation",
-	"location_type": "poly",
-	"location_id": 1014,
-	"slug_earwolf": "colin-quinns-dream-presentation",
-	"episode": 682,
-	"show": "cbb"
-}, {
-	"tstart": "33:00",
-	"instance": "Devout Methodist but that's all I'll say.",
-	"bit": "Location",
-	"elucidation": "identifiable earth location",
-	"tend": "34:00",
-	"tags": ["Marjory Kershaw"],
-	"nb": ["st louis arch nat'l park"],
-	"created_at": "2020-11-17T10:51:29Z",
-	"updated_at": "2020-11-17T10:51:29Z",
-	"episode_guests": ["Colin Quinn", "Jessica McKenna", "Will Hines"],
-	"episode_title": "Colin Quinn's Dream Presentation",
-	"location_type": "poly",
-	"location_id": 227,
-	"slug_earwolf": "colin-quinns-dream-presentation",
-	"episode": 682,
-	"show": "cbb"
-}, {
-	"tstart": "44:45",
-	"instance": "Let's got to a more optimistic topic.",
-	"bit": "SNL Dream Cast",
-	"elucidation": "scott likes to list his dream snl cast - most people stick to actual snl players",
-	"tend": "45:45",
-	"tags": ["Marjory Kershaw"],
-	"created_at": "2020-11-17T10:51:29Z",
-	"updated_at": "2020-11-17T10:51:29Z",
-	"episode_guests": ["Colin Quinn", "Jessica McKenna", "Will Hines"],
-	"episode_title": "Colin Quinn's Dream Presentation",
-	"location_type": null,
-	"location_id": null,
-	"slug_earwolf": "colin-quinns-dream-presentation",
-	"episode": 682,
-	"show": "cbb"
-}, {
-	"tstart": "1:01:00",
-	"instance": "So they would break into that other dimension.",
-	"bit": "The Paul Hardcastle of Suicides",
-	"elucidation": "any song reference",
-	"tend": "1:01:30",
-	"tags": ["Morpheus The Dream Lord", "Out of Space (song)",
-            "The Prodigy (musical combination)"],
-	"created_at": "2020-11-17T10:51:29Z",
-	"updated_at": "2020-11-17T10:51:29Z",
-	"episode_guests": ["Colin Quinn", "Jessica McKenna", "Will Hines"],
-	"episode_title": "Colin Quinn's Dream Presentation",
-	"location_type": null,
-	"location_id": null,
-	"slug_earwolf": "colin-quinns-dream-presentation",
-	"episode": 682,
-	"show": "cbb"
-}, {
-	"tstart": "1:07:30",
-	"instance": "I would love to dream about...a little something called Plugs.",
-	"bit": "Favorite Feature",
-	"elucidation": "consistently the most popular feature of cbb",
-	"tend": "1:08:00",
-	"tags": ["Morpheus The Dream Lord"],
-	"created_at": "2020-11-17T10:51:29Z",
-	"updated_at": "2020-11-17T10:51:29Z",
-	"episode_guests": ["Colin Quinn", "Jessica McKenna", "Will Hines"],
-	"episode_title": "Colin Quinn's Dream Presentation",
-	"location_type": null,
-	"location_id": null,
-	"slug_earwolf": "colin-quinns-dream-presentation",
-	"episode": 682,
-	"show": "cbb"
-}, {
-	"tstart": "1:09:30",
-	"instance": "It's a little kitschy, of course, but the basic themese are important.",
-	"bit": "Fantastic.",
-	"elucidation": "one of scott's 25 words",
-	"tend": "1:10:00",
-	"tags": ["Morpheus The Dream Lord"],
-	"created_at": "2020-11-17T10:51:29Z",
-	"updated_at": "2020-11-17T10:51:29Z",
-	"episode_guests": ["Colin Quinn", "Jessica McKenna", "Will Hines"],
-	"episode_title": "Colin Quinn's Dream Presentation",
-	"location_type": null,
-	"location_id": null,
-	"slug_earwolf": "colin-quinns-dream-presentation",
-	"episode": 682,
-	"show": "cbb"
-}, {
-	"tstart": "1:16:20",
-	"instance": "We'll see you on the next episode - when we're all awake.",
-	"bit": "Who's Paul?",
-	"elucidation": "a character is referred to by the name/pronoun of their player",
-	"tend": "1:16:45",
-	"tags": ["Morpheus The Dream Lord"],
-	"created_at": "2020-11-17T10:51:29Z",
-	"updated_at": "2020-11-17T10:51:29Z",
-	"episode_guests": ["Colin Quinn", "Jessica McKenna", "Will Hines"],
-	"episode_title": "Colin Quinn's Dream Presentation",
-	"location_type": null,
-	"location_id": null,
-	"slug_earwolf": "colin-quinns-dream-presentation",
-	"episode": 682,
-	"show": "cbb"
-}]
+[
+	{
+		"tstart": "15:30",
+		"instance": "A goat kicked over a lantern...into a somersault.",
+		"bit": "Location",
+		"elucidation": "identifiable earth location",
+		"nb": [
+      "chester @ 3rd, nyc (presumably)",
+      "site of: the great Chester/Third Fire",
+      "site of: Paul Rust being saved by Dennis Leary"
+    ],
+		"tend": "16:30",
+		"tags": [],
+		"created_at": "2020-12-04T10:51:29Z",
+		"updated_at": "2020-12-04T10:51:29Z",
+		"episode_guests": [
+      "Paul Rust",
+      "Neil Campbell"
+    ],
+		"episode_title": "The Fix-It Guys",
+		"location_type": null,
+		"location_id": null,
+		"slug_earwolf": "the-fix-it-guys",
+		"episode": 685,
+		"show": "cbb"
+  },
+	{
+		"tstart": "39:30",
+		"instance": "I don't have a relationship problem; I have a different kind of problem.",
+		"bit": "Location",
+		"elucidation": "identifiable earth location",
+		"nb": [
+      "montclair, clamberton county, CA?",
+      "home to: Theresa",
+      "site of: Paul Rust, camping"
+    ],
+		"tend": "40:15",
+		"tags": [
+      "Caller Theresa",
+      "Gary-Ann Fixington",
+      "Clev Fixington",
+      "The Fix-It Guys"
+    ],
+		"created_at": "2020-12-04T10:51:29Z",
+		"updated_at": "2020-12-04T10:51:29Z",
+		"episode_guests": [
+      "Paul Rust",
+      "Neil Campbell"
+    ],
+		"episode_title": "The Fix-It Guys",
+		"location_type": null,
+		"location_id": null,
+		"slug_earwolf": "the-fix-it-guys",
+		"episode": 685,
+		"show": "cbb"
+  },
+	{
+		"tstart": "43:45",
+		"instance": "I got this wife.",
+		"bit": "Location",
+		"elucidation": "identifiable earth location",
+		"nb": [
+      "rochester, ny",
+      "home to: Rod Chester"
+    ],
+		"tend": "44:15",
+		"tags": [
+      "Caller Rod Chester",
+      "Gary-Ann Fixington",
+      "Clev Fixington",
+      "The Fix-It Guys"
+    ],
+		"created_at": "2020-12-04T10:51:29Z",
+		"updated_at": "2020-12-04T10:51:29Z",
+		"episode_guests": [
+      "Paul Rust",
+      "Neil Campbell"
+    ],
+		"episode_title": "The Fix-It Guys",
+		"location_type": null,
+		"location_id": null,
+		"slug_earwolf": "the-fix-it-guys",
+		"episode": 685,
+		"show": "cbb"
+  },
+	{
+		"tstart": "23:00",
+		"instance": "Now did I just do a tuba or did I do a great humpback whale?",
+		"bit": "Location",
+		"elucidation": "identifiable earth location",
+		"nb": [
+      "sea world",
+      "workplace of: Neil and Paul Rust, one summer"
+    ],
+		"tend": "24:15",
+		"tags": [],
+		"created_at": "2020-12-04T10:51:29Z",
+		"updated_at": "2020-12-04T10:51:29Z",
+		"episode_guests": [
+      "Paul Rust",
+      "Neil Campbell"
+    ],
+		"episode_title": "The Fix-It Guys",
+		"location_type": null,
+		"location_id": null,
+		"slug_earwolf": "the-fix-it-guys",
+		"episode": 685,
+		"show": "cbb"
+  },
+	{
+		"tstart": "17:20",
+		"instance": "We're obsessive about secret hidden insignias in products.",
+		"bit": "How Many?",
+		"elucidation": "a pimping subclass: somebody asks for a list of things",
+		"tend": "17:45",
+		"tags": [],
+		"created_at": "2020-12-04T10:51:29Z",
+		"updated_at": "2020-12-04T10:51:29Z",
+		"episode_guests": [
+      "Paul Rust",
+      "Neil Campbell"
+    ],
+		"episode_title": "The Fix-It Guys",
+		"location_type": null,
+		"location_id": null,
+		"slug_earwolf": "the-fix-it-guys",
+		"episode": 685,
+		"show": "cbb"
+  },
+	{
+		"tstart": "31:50",
+		"instance": "How about two more?",
+		"bit": "It's Not a Tumor",
+		"elucidation": "scott's schwarzenegger thing",
+		"tend": "32:15",
+		"tags": [],
+		"created_at": "2020-12-04T10:51:29Z",
+		"updated_at": "2020-12-04T10:51:29Z",
+		"episode_guests": [
+      "Paul Rust",
+      "Neil Campbell"
+    ],
+		"episode_title": "The Fix-It Guys",
+		"location_type": null,
+		"location_id": null,
+		"slug_earwolf": "the-fix-it-guys",
+		"episode": 685,
+		"show": "cbb"
+  },
+	{
+		"tstart": "36:10",
+		"instance": "What kind of back end do you have on these episodes?",
+		"bit": "The Paul Hardcastle of Suicides",
+		"elucidation": "any song reference",
+		"tend": "36:30",
+		"tags": [
+      "Gary-Ann Fixington",
+      "Clev Fixington",
+      "The Fix-It Guys",
+      "Sir Mix-a-Lot",
+      "Baby Got Back (song)"
+    ],
+		"created_at": "2020-12-04T10:51:29Z",
+		"updated_at": "2020-12-04T10:51:29Z",
+		"episode_guests": [
+      "Paul Rust",
+      "Neil Campbell"
+    ],
+		"episode_title": "The Fix-It Guys",
+		"location_type": null,
+		"location_id": null,
+		"slug_earwolf": "the-fix-it-guys",
+		"episode": 685,
+		"show": "cbb"
+  },
+	{
+		"tstart": "50:00",
+		"instance": "Change those lyrics, Prince.",
+		"bit": "The Paul Hardcastle of Suicides",
+		"elucidation": "any song reference",
+		"tend": "50:30",
+		"tags": [
+      "Gary-Ann Fixington",
+      "Clev Fixington",
+      "The Fix-It Guys",
+      "Prince & The Revolution (musical combination)",
+      "Raspberry Beret (song)"
+    ],
+		"created_at": "2020-12-04T10:51:29Z",
+		"updated_at": "2020-12-04T10:51:29Z",
+		"episode_guests": [
+      "Paul Rust",
+      "Neil Campbell"
+    ],
+		"episode_title": "The Fix-It Guys",
+		"location_type": null,
+		"location_id": null,
+		"slug_earwolf": "the-fix-it-guys",
+		"episode": 685,
+		"show": "cbb"
+  },
+	{
+		"tstart": "52:45",
+		"instance": "For a while he was just saying 'Nuthin but a Thang.'",
+		"bit": "The Paul Hardcastle of Suicides",
+		"elucidation": "any song reference",
+		"tend": "53:10",
+		"tags": [
+      "Gary-Ann Fixington",
+      "Clev Fixington",
+      "The Fix-It Guys",
+      "Nuthin' but a 'G' Thang (song)",
+      "Dr. Dre"
+    ],
+		"created_at": "2020-12-04T10:51:29Z",
+		"updated_at": "2020-12-04T10:51:29Z",
+		"episode_guests": [
+      "Paul Rust",
+      "Neil Campbell"
+    ],
+		"episode_title": "The Fix-It Guys",
+		"location_type": null,
+		"location_id": null,
+		"slug_earwolf": "the-fix-it-guys",
+		"episode": 685,
+		"show": "cbb"
+  },
+	{
+		"tstart": "53:10",
+		"instance": "You were there thinking it was a ghost convention.",
+		"bit": "Slimer",
+		"elucidation": "from ghostbusters",
+		"tend": "53:30",
+		"tags": [
+      "Gary-Ann Fixington",
+      "Clev Fixington",
+      "The Fix-It Guys"
+    ],
+		"created_at": "2020-12-04T10:51:29Z",
+		"updated_at": "2020-12-04T10:51:29Z",
+		"episode_guests": [
+      "Paul Rust",
+      "Neil Campbell"
+    ],
+		"episode_title": "The Fix-It Guys",
+		"location_type": null,
+		"location_id": null,
+		"slug_earwolf": "the-fix-it-guys",
+		"episode": 685,
+		"show": "cbb"
+  },
+	{
+		"tstart": "53:20",
+		"instance": "I mean, I saw some of the textbooks.",
+		"bit": "Titular",
+		"elucidation": "the titular 'titular'",
+		"tend": "54:00",
+		"tags": [
+      "Gary-Ann Fixington",
+      "Clev Fixington",
+      "The Fix-It Guys"
+    ],
+		"created_at": "2020-12-04T10:51:29Z",
+		"updated_at": "2020-12-04T10:51:29Z",
+		"episode_guests": [
+      "Paul Rust",
+      "Neil Campbell"
+    ],
+		"episode_title": "The Fix-It Guys",
+		"location_type": null,
+		"location_id": null,
+		"slug_earwolf": "the-fix-it-guys",
+		"episode": 685,
+		"show": "cbb"
+  },
+	{
+		"tstart": "57:20",
+		"instance": "That was the icebreaker.",
+		"bit": "The Paul Hardcastle of Suicides",
+		"elucidation": "any song reference",
+		"tend": "57:45",
+		"tags": [
+      "Gary-Ann Fixington",
+      "Clev Fixington",
+      "The Fix-It Guys", "In the Air Tonight (song)",
+            "Phil Collins"
+    ],
+		"created_at": "2020-12-04T10:51:29Z",
+		"updated_at": "2020-12-04T10:51:29Z",
+		"episode_guests": [
+      "Paul Rust",
+      "Neil Campbell"
+    ],
+		"episode_title": "The Fix-It Guys",
+		"location_type": null,
+		"location_id": null,
+		"slug_earwolf": "the-fix-it-guys",
+		"episode": 685,
+		"show": "cbb"
+  },
+	{
+		"tstart": "1:00:20",
+		"instance": "So he's a hitman who loves what he does.",
+		"bit": "The Paul Hardcastle of Suicides",
+		"elucidation": "any song reference",
+		"tend": "1:00:45",
+		"tags": [
+      "Gary-Ann Fixington",
+      "Clev Fixington",
+      "The Fix-It Guys", "I Can't Dance (song)",
+            "Phil Collins"
+    ],
+		"created_at": "2020-12-04T10:51:29Z",
+		"updated_at": "2020-12-04T10:51:29Z",
+		"episode_guests": [
+      "Paul Rust",
+      "Neil Campbell"
+    ],
+		"episode_title": "The Fix-It Guys",
+		"location_type": null,
+		"location_id": null,
+		"slug_earwolf": "the-fix-it-guys",
+		"episode": 685,
+		"show": "cbb"
+  },
+	{
+		"tstart": "1:00:40",
+		"instance": "Can you pin it on Peter Gabriel?",
+		"bit": "The Paul Hardcastle of Suicides",
+		"elucidation": "any song reference",
+		"tend": "1:01:00",
+		"tags": [
+      "Gary-Ann Fixington",
+      "Clev Fixington",
+      "The Fix-It Guys", "Sledgehammer (song)",
+            "Peter Gabriel"
+    ],
+		"created_at": "2020-12-04T10:51:29Z",
+		"updated_at": "2020-12-04T10:51:29Z",
+		"episode_guests": [
+      "Paul Rust",
+      "Neil Campbell"
+    ],
+		"episode_title": "The Fix-It Guys",
+		"location_type": null,
+		"location_id": null,
+		"slug_earwolf": "the-fix-it-guys",
+		"episode": 685,
+		"show": "cbb"
+  },
+	{
+		"tstart": "57:20",
+		"instance": "That was the icebreaker.",
+		"bit": "Phil Collins",
+		"elucidation": "phil collins is referenced (typically vis-a-vis the concorde)",
+		"tend": "57:45",
+		"tags": [
+      "Gary-Ann Fixington",
+      "Clev Fixington",
+      "The Fix-It Guys"
+    ],
+		"created_at": "2020-12-04T10:51:29Z",
+		"updated_at": "2020-12-04T10:51:29Z",
+		"episode_guests": [
+      "Paul Rust",
+      "Neil Campbell"
+    ],
+		"episode_title": "The Fix-It Guys",
+		"location_type": null,
+		"location_id": null,
+		"slug_earwolf": "the-fix-it-guys",
+		"episode": 685,
+		"show": "cbb"
+  }
+]

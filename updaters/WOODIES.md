@@ -590,7 +590,7 @@ live-from-vulture-fest-2017
 -   32,17:30,look that up on my own time i guess?
 -   33,50:45,gotta get along
 -   3domchallenge,6:30(?),E.T. phone yr lawyer
--   3domchallenge,9:00,dude - fuk dat
+-   3domchallenge,8:30,dude - fuk dat
 -   3domchallenge,9:00,can i finish
 -   lookatmysnaps,0:00,new theme song
 -   lookatmysnaps,3:30,zat yr jacket
@@ -611,7 +611,26 @@ live-from-vulture-fest-2017
 -   week,30:00,acdc guy
 -   week,42:45,lord vader's birthday
 -   week,51:45,what do tits look like?
+-   incel,12:00,popeye roasted
+-   incel,42:30,where a lie becomes true
 -   incel,45:00,i'm an adult
+-   incel,53:00,wasn't doing it (nancy reagan)
+-   incel,56:30,disney beast - in my own words - me go piggy make baby go piggy time
+-   incel,1:06:30,i'm great at oral sex
+-   buffalo,14:00,fuck all the way off
+-   buffalo,43:45,buffal bill cosby - glad i kept talking
+-   buffalo,51:00,mickey rooney sugar bagies ducca callback
+-   buffalo,1:00:00,inem sterious town
+-   buffalo,1:11:45,shaba di doo dah (sandler vegetables)
+-   nude,33:00,what you're pondering - pubes
+-   dogurt,15:00,water and gum
+-   dogurt,19:00,john phillip sousa album
+-   dogurt,23:00,the scott aukerman story
+-   dogurt,46:00,cookie monster p
+-   dogurt,52:00,two sugars!?
+-   dogurt,56:00,ostencil me
+-   dogurt,58:30,zat right, shitbird?
+-   morning,4:30,you sleep in the buff?!
 -   tickets,6:00,can i finish
 -   icecream,7:15,can i finish
 -   icecream,8:15,i said not to spoil it (dvds)

@@ -187,9 +187,11 @@ var _AUDIT = async(inc, ext) => {
 				// see if any match
 			var candidates = __.intersection(inc_finder, ext_finder);
 
-			console.log("candidates.length", candidates.length)
-			console.log("CANDIDATES!!!", candidates)
-				// if there's even 1 we need to halt and investigate so we set the flag we check at the end to stop
+			console.log("candidates.length (zero is good)", candidates.length)
+			if (candidates.length > 0) {
+				console.log("CANDIDATES::", candidates)
+			}
+			// if there's even 1 we need to halt and investigate so we set the flag we check at the end to stop
 			var flag = (candidates.length > 0) ? 'stop' : 'go'
 
 			var r = {
@@ -369,14 +371,14 @@ var _MOST_RECENT = async() => {
 	return new Promise((resolve, reject) => {
 
 			console.log("sniffing most recent...");
-			var files = FS.readdirSync(CONFIG.budir);
-			console.log("found these:" + files)
-				// use underscore for max()
+			var files = FS.readdirSync(CONFIG.budirBits);
+
+			// use underscore for max()
 
 			var max = __.max(__.reject(files, (f) => {
-				return (f == ".DS_Store" || f.indexOf("updates") >= 0)
+				return ((f.indexOf('.') == 0) || f.indexOf("updates") >= 0)
 			}), (f) => {
-				var fullpath = PATH.join(CONFIG.budir, f);
+				var fullpath = PATH.join(CONFIG.budirBits, f);
 
 				// ctime = creation time is used
 				// replace with mtime for modification time
@@ -395,7 +397,7 @@ const _EXTANT_PARSE = async(F) => {
 			var r = {}
 
 			console.log("reading bits from most recent *.json...");
-			FS.readFile(CONFIG.budir + "/" + F, async(e, d) => {
+			FS.readFile(CONFIG.budirBits + "/" + F, async(e, d) => {
 					if (e) {
 						console.log("readfile err");
 						r.flag = 'stop'
@@ -433,7 +435,7 @@ const _EXTANT = async() => {
 
 						console.log("into mlab, writing out...");
 						var runid = MOMENT().format('YYYY_MMMM_DD_dddd_hh_mm_ss');
-						var buf = CONFIG.budir + "/bu." + runid + ".json";
+						var buf = CONFIG.budirBits + "/bu." + runid + ".json";
 
 						FS.writeFile(buf, JSON.stringify(data), (err, res) => {
 
@@ -467,7 +469,7 @@ const bu = async() => {
 
 		var url = 'mongodb://' + CONFIG.mongouser + ':' + CONFIG.mongopsswd + '@' + CONFIG.mongohost + ':' + CONFIG.mongoport + '/' + CONFIG.mongodb;
 		var runid = MOMENT().format('YYYY_MMMM_DD_dddd_hh_mm_ss');
-		var bud = CONFIG.budir + "/" + runid;
+		var bud = CONFIG.budirBits + "/" + runid;
 		var buf = "bu." + runid + ".json";
 		var but = bud + ".tar";
 		var r = []
@@ -529,9 +531,6 @@ const bu = async() => {
 
 const _MAPBITS = (bits) => {
 
-		// return new Promise((resolve,reject)=>{
-
-
 		let mapd = __.map(bits, (b) => {
 
 				switch (true) {
@@ -567,12 +566,6 @@ const _MAPBITS = (bits) => {
 						console.log("MISSING FIELD: LOCATION_ID ••••>", b);
 						process.exit();
 						break;
-						// case !b.hasOwnProperty("updated_at"): 
-						//   console.log("MISSING FIELD: UPDATED_AT ••••>",b);process.exit();
-						//   break;
-						// case !b.hasOwnProperty("created_at"): 
-						//   console.log("MISSING FIELD: CREATED_AT ••••>",b);process.exit();
-						//   break;
 					case !b.hasOwnProperty("slug_earwolf"):
 						console.log("MISSING FIELD: SLUG_EARWOLF ••••>", b);
 						process.exit();
@@ -617,6 +610,26 @@ const _MAPBITS = (bits) => {
 		return mapd;
 	} //mapbits
 
+const _MAPUPDATES = (bits) => {
+
+		let mapd = __.map(bits, (b) => {
+
+				let no = [{
+					"index": {}
+				}, {
+					date: b.date,
+					episodes_summary: b.episodes_summary,
+					query: b.query,
+					eps: b.eps,
+					reports: b.reports
+    }]
+
+				return no;
+
+			}) //map
+		return mapd;
+	} //mapbits
+
 const _ELASTIFY = async(J) => {
 
 		return new Promise((resolve, reject) => {
@@ -625,16 +638,9 @@ const _ELASTIFY = async(J) => {
 				var client = new ELASTIC.Client({
 					host: 'milleria.org:9200',
 					requestTimeout: Infinity
-						// ,log: 'trace'
 				});
 
-				// var elastic_array =[];
-
-
-
-				// letFS.readFile(CONFIG.budir+"/"+J,(err,dat)=>{
-				// if(err){console.log(err);process.exit();}
-				let dat = JSON.parse(FS.readFileSync(CONFIG.budir + "/" + J))
+				let dat = JSON.parse(FS.readFileSync(CONFIG.budirBits + "/" + J))
 				if (!dat) {
 					console.log(err);
 					process.exit();
@@ -667,45 +673,52 @@ const _ELASTIFY = async(J) => {
 					})
 					.then(res => resolve(res));
 
-				// }//fs.readfile
+			}) //promise
 
-				// __.each(datm,(D)=>{
-				// 	elastic_array.push({
-				// 		index: {
-				// 			_index: 'cbb',
-				// 			_type: 'bit',
-				// 			_id: D._id
-				// 		}
-				// 	});
-				// 	delete D._id
-				// 	elastic_array.push(D);
-				// })
+	} //_elastify
 
-				// console.log(JSON.stringify(elastic_array));
-				// 	console.log("expect:",elastic_array.length)
-				// resolve()
+const _ELASTIFYUPDATES = async() => {
 
-				// let CHD = __.chunk(elastic_array, 100)
+		return new Promise((resolve, reject) => {
 
-				// __.each(CHD,(C)=>{
 
-				// console.log('SENDING:::',__.first(elastic_array,2))
+				var client = new ELASTIC.Client({
+					host: 'milleria.org:9200',
+					requestTimeout: Infinity
+				});
 
-				// client.bulk({
-				// 	timeout: '5m',
-				// 	body: __.first(elastic_array,2)
-				// }).then(function (success) {
-				// 	// console.log(JSON.stringify(success));
-				// 	resolve(success);
-				// }, function (err) {
-				// 	console.log(JSON.stringify(err));
-				// 	reject(err);
-				// });
+				let dat = require(`./${CONFIG.masterUpdates}`)
+				if (!dat) {
+					console.log(err);
+					process.exit();
+				}
 
-				// })//each.chd
+				let mapd = _MAPUPDATES(dat);
+				let prefixes = [];
 
-				// })//fs.readfile
+				for (var i = mapd.length - 1; i >= 0; i--) {
+					prefixes.push({
+						"index": {}
+					})
+				}
 
+				let mapz = __.zip(__.map(prefixes, (p) => {
+					return p[0]
+				}), mapd)
+
+				FSND.writeFileSync('/tmp/cbb-updates.fndjson', __.compact(__.flatten(mapz)));
+
+				client.bulk({
+						index: 'cbb_updates',
+						type: '_doc',
+						body: __.compact(__.flatten(mapz))
+					}, {
+						ignore: [404],
+						maxRetries: 3
+					}, (err, result) => {
+						if (err) console.log(err)
+					})
+					.then(res => resolve(res));
 
 			}) //promise
 
@@ -717,15 +730,24 @@ const main = async() => {
 			flag: null
 		}
 
+		/*
+		1. backup previous master w/ timestamp
+		2. get incoming
+		3. audit incoming
+		4. merge previous master with incoming
+		5. elastify
+		6. summarize
+		7. set new master
+		*/
 
 		let OPS = {
-			incoming: true,
-			pullMlab1: true,
-			audit: true,
-			pushMlab: true,
-			pullMlab2: true,
-			elastify: true,
-			summarize: true
+			backup: false,
+			incoming: false,
+			audit: false,
+			merge: false,
+			elastify: false,
+			summarize: false,
+			sendupdates: true
 		}
 
 		try {
@@ -735,6 +757,19 @@ const main = async() => {
 				throw ("typo prolly");
 				process.exit();
 			} else {
+
+				if (OPS.backup) {
+
+					let currentMaster = require(`./${CONFIG.masterFile}`);
+
+					let d = `cbb.master-${MOMENT().format('YYYY-MM-DDTHH')}.json`
+					console.log(`backing up ${currentMaster.length} bits from ${CONFIG.masterFile} as ${d}...`)
+
+					FS.writeFileSync(`${CONFIG.budirBits}/${d}`, JSON.stringify(currentMaster))
+
+
+				}
+
 
 				if (OPS.incoming) {
 					console.log("processing bits from " + ln + "...")
@@ -746,38 +781,24 @@ const main = async() => {
 					R.incoming = inc.msg
 					var inca = inc.payload
 					console.log("inca.length", inca.length)
+					console.log("inca.episodes", __.uniq(__.pluck(inca, 'episode')))
 				}
 
-				if (OPS.pullMlab1) {
-					/* ----------------------------------------------- dump current
-
-					// pull everything out of MLAB into a local file in budir - e.g. bu.2017_November_Sunday_02_06_35.json
-					 */
-					console.log("awaiting extant...")
-					const bu = await _EXTANT();
-
-					/* ----------------------------------------------- determine most recent dump
-					// check budir for the MOST RECENT *.json bu
-					// this allows us to pull/not pull a backup every time
-					 */
-					console.log("awaiting most recent...")
-					const ext_source = await _MOST_RECENT();
-					console.log("found to be:", ext_source)
-						/* ----------------------------------------------- parse most recent dump
-						// parse that file
-						 */
-					const extant_parsed = await _EXTANT_PARSE(ext_source);
-					R.extant = extant_parsed.msg
-					var exta = extant_parsed.payload
-						// console.log("exta.length", exta.length)
-						// exta is now our live copy of everything that's come before
-				}
 
 				if (OPS.audit) {
 					/* ----------------------------------------------- audit
 					// we send the fresh stuff and the archive for audit
 					// audit maps inca and exta into comparable arrays (concatenating several presumably distinct fields [episode+bit+instance+tags] into one nonsensical but probably-unique string) - N.B. this is not foolproof
 					*/
+
+					console.log("awaiting most recent...")
+					const ext_source = await _MOST_RECENT();
+					console.log("found to be:", ext_source)
+
+					const extant_parsed = await _EXTANT_PARSE(ext_source);
+					R.extant = extant_parsed.msg
+					var exta = extant_parsed.payload
+
 					console.log("awaiting audit...")
 					var audited = await _AUDIT(inca, exta);
 					R.audit = audited
@@ -826,14 +847,45 @@ const main = async() => {
 
 
 					console.log("ELASTIFYING!");
-					const E = await _ELASTIFY(ext_source2);
+					let E = await _ELASTIFY(ext_source2);
 				}
 
 				if (OPS.summarize) {
 					console.log("summarize " + inca.length + " new from " + ln + "...")
 					let summary = await _SUMMARIZE(inca);
-					_CLEAN(ext_source2);
-					let update = await _SENDSUMMARY(summary);
+					let summaries = require(`./${CONFIG.masterUpdates}`)
+
+					let d = `cbb.updates-${MOMENT().format('YYYY-MM-DDTHH')}.json`
+					console.log(`backing up ${summaries.length} updates from ${CONFIG.masterUpdates} as ${d}...`)
+
+					FS.writeFileSync(`${CONFIG.budirUpdates}/${d}`, JSON.stringify(summaries))
+
+					console.log(`there are ${summaries.length} prior updates, to which we always only add 1`)
+
+					summaries.push(summary);
+
+					console.log(`... so now there are ${summaries.length} OF COURSE`)
+					console.log(`... ... which we write back out to master==./${CONFIG.masterUpdates}`)
+
+					FS.writeFileSync(`./${CONFIG.masterUpdates}`, JSON.stringify(summaries))
+						// let update = await _SENDSUMMARY(summary);
+				}
+
+				if (OPS.sendupdates) {
+					console.log(`elastifiying updates...`)
+					let clientTemp = new ELASTIC.Client({
+						host: 'milleria.org:9200',
+						requestTimeout: Infinity
+							// ,log: 'trace'
+					});
+
+					await clientTemp.deleteByQuery({
+						index: 'cbb_updates',
+						q: '*:*'
+					});
+
+					let E = await _ELASTIFYUPDATES();
+					console.log(`${E.items.length} updates sent w/ errors==${E.errors}`);
 				}
 
 			}

@@ -126,6 +126,7 @@
   - 406,35:15(pw)
   - 599,6:57:45
   - 374,40:00
+  - 685,30:00
 * standing up shaking your fist/risen
   - 373,multiple
   - 611,1:22:00

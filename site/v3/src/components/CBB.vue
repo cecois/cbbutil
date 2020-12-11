@@ -275,7 +275,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
       </div NB="./column browse bucket">
     </div NB="/browse">
     <div :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='updates'">
-      <div v-for="update in updates" class="column has-text-centered is-one-third">
+      <div v-for="update in updates.reverse()" class="column has-text-centered is-one-third">
         <div class="tile notification has-text-centered">
           <div class="columns" style="padding-left:10%;padding-right:10%;">
             <div class="column is-12">
@@ -516,16 +516,20 @@ export default {
     },
     getUpdates: function() {
 
-      let u = (this.updatekey) ? '&q={date:' + this.updatekey + '}' : '';
+      // let u = (this.updatekey) ? '&q={date:' + this.updatekey + '}' : '';
       // console.log("updatekey:", this.updatekey);
-      let qs = this.CONFIG.atlas_updates + u
+      let qs = `${this.CONFIG.atlas_updates}*`
 
       axios
         .get(qs)
         .then(response => {
 
           // this.hero=response.data[0].hero;
-          this.updates = response.data;
+          let updatae = this.$_.pluck(response.data.hits.hits, '_source')
+          let updata = this.$_.last(this.$_.sortBy(updatae, d => {
+            return new Date(d.date).valueOf();
+          }), 3)
+          this.updates = updata;
 
         }) //axios.then
         .catch(e => {
