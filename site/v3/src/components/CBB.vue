@@ -275,7 +275,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
       </div NB="./column browse bucket">
     </div NB="/browse">
     <div :class="['zCBB-pane','columns',this.page.splayed?'splayed':'']" v-if="actives.pane=='updates'">
-      <div v-for="update in updates.reverse()" class="column has-text-centered is-one-third">
+      <div v-for="update in updates" class="column has-text-centered is-one-third">
         <div class="tile notification has-text-centered">
           <div class="columns" style="padding-left:10%;padding-right:10%;">
             <div class="column is-12">
@@ -475,7 +475,7 @@ export default {
       CONFIG: null,
       loadings: { maplayer: false, app: false, popupopen: false },
       hero: null,
-      updates: null,
+      updates: [],
       locations: null,
       seens: [],
       query: { string: null, facets: { bits: [], episodes: [], guests: [], tags: [] } },
@@ -515,6 +515,7 @@ export default {
       console.log(c1, c2)
     },
     getUpdates: function() {
+      console.log("getUpdates");
 
       // let u = (this.updatekey) ? '&q={date:' + this.updatekey + '}' : '';
       // console.log("updatekey:", this.updatekey);
@@ -529,7 +530,7 @@ export default {
           let updata = this.$_.last(this.$_.sortBy(updatae, d => {
             return new Date(d.date).valueOf();
           }), 3)
-          this.updates = updata;
+          this.updates = updata.reverse();
 
         }) //axios.then
         .catch(e => {

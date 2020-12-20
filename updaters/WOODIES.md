@@ -340,6 +340,10 @@ live-from-vulture-fest-2017
 -   who said it shamon
 -   who’s the most fuckable huxtable? ++++
 - 	600,1:10:00,fuck em with the eyes first
+- 	686,18:45,he also cursed that fig tree
+- 	686,19:30,she's gonna get an easy-bake oven
+- 	686,1:03:45,i'm a christmas guy!
+- 	686,1:08:30,i consider that the bottom
 
 # THREEDOM
 
@@ -635,3 +639,12 @@ live-from-vulture-fest-2017
 -   icecream,7:15,can i finish
 -   icecream,8:15,i said not to spoil it (dvds)
 -   nastymound,53:30,nasty mound
+-   chocalate cheap,6:15,dick needs to do something
+-   chocalate cheap,10,how do you like them olives?
+-   chocalate cheap,16,i bet it was - here's another story i have
+-   chocalate cheap,17,i'm dead (regis)
+-   chocalate cheap,33,we said king tut scott
+-   chocalate cheap,53,nixon resigns - later!
+-   sologamy,49,like they do all those babies
+-   sologamy,1:02:00,are you married to jiminy glick
+

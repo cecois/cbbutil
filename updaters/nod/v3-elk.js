@@ -6,8 +6,8 @@ const __ = require('underscore'),
 	TAR = require("tar-fs"),
 	PATH = require('path'),
 	ZLIB = require('zlib'),
-	DB = require('mongodb').Db,
-	MLAB = require('mongolab-data-api')(CONFIG.mongokey),
+	// DB = require('mongodb').Db,
+	// MLAB = require('mongolab-data-api')(CONFIG.mongokey),
 	ELASTIC = require('elasticsearch'),
 	MOMENT = require('moment'),
 	CHEERIO = require('cheerio'),
@@ -630,7 +630,7 @@ const _MAPUPDATES = (bits) => {
 		return mapd;
 	} //mapbits
 
-const _ELASTIFY = async(J) => {
+const _ELASTIFY = async() => {
 
 		return new Promise((resolve, reject) => {
 
@@ -640,7 +640,8 @@ const _ELASTIFY = async(J) => {
 					requestTimeout: Infinity
 				});
 
-				let dat = JSON.parse(FS.readFileSync(CONFIG.budirBits + "/" + J))
+				let dat = require(`./${CONFIG.masterFile}`)
+					// JSON.parse(FS.readFileSync(CONFIG.budirBits + "/" + J))
 				if (!dat) {
 					console.log(err);
 					process.exit();
@@ -811,6 +812,25 @@ const main = async() => {
 					}
 				} //if.audit
 
+				if (OPS.merge) {
+					/* ----------------------------------------------- audit
+					// we tAKE iNCoMinG and aDD to cURrEnT mAsTeR
+					*/
+
+					console.log("awaiting master...")
+					const exta = require(`./${CONFIG.masterFile}`);
+
+					const inc = await _INCOMING(ln);
+					R.incoming = inc.msg
+					var inca = inc.payload
+
+					let newMaster = __.flatten([inca, exta])
+
+					FS.writeFileSync(`./${CONFIG.masterFile}`, JSON.stringify(newMaster))
+
+
+				} //if.audit
+
 				if (OPS.pushMlab) {
 					/* ----------------------------------------------- send to mlab */
 
@@ -847,7 +867,7 @@ const main = async() => {
 
 
 					console.log("ELASTIFYING!");
-					let E = await _ELASTIFY(ext_source2);
+					let E = await _ELASTIFY();
 				}
 
 				if (OPS.summarize) {
