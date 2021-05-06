@@ -37,7 +37,7 @@
     "node-nominatim2": "^0.1.0",
     "prompt": "^1.0.0",
     "tar": "^2.2.2",
-    "underscore": "^1.9.1",
+    "underscore": "^1.12.1",
     "zlib": "^1.0.5"
   },
   "dependencies": {
