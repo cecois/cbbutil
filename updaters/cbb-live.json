@@ -1,1876 +1,418 @@
-[
-	{
-		"tstart": "0:30",
-		"instance": "That's great to know that he's a listener.",
-		"bit": "The Paul Hardcastle of Suicides",
-		"elucidation": "any song reference",
-		"tend": "1:00",
-		"tags": ["Andrew Lloyd Webber",
-            "Memory (song)"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "1:00:00",
-		"instance": "Do I have to wake you up before this?",
-		"bit": "The Paul Hardcastle of Suicides",
-		"elucidation": "any song reference",
-		"tend": "1:00:15",
-		"tags": ["Ho Ho",
-            "Santa Claus", "Wake Me Up Before You Go-Go (song)",
-            "Wham! (musical combination)"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "1:55",
-		"instance": "Final episode of the year.",
-		"bit": "Open Door Policy",
-		"elucidation": "cbb's open door policy is cited or blamed",
-		"tend": "2:15",
-		"tags": [],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "1:05:30",
-		"instance": "Quick on the draw, as ever.",
-		"bit": "Open Door Policy",
-		"elucidation": "cbb's open door policy is cited or blamed",
-		"tend": "1:05:45",
-		"tags": [],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "4:15",
-		"instance": "New Year's Day; Boxing Day; Flag Day.",
-		"bit": "How Many?",
-		"elucidation": "a pimping subclass: somebody asks for a list of things",
-		"tend": "5:00",
-		"tags": [],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "6:45",
-		"instance": "What about the 'Man ornament?!",
-		"bit": "Heynong Man",
-		"elucidation": "the cbb sorbet",
-		"tend": "7:00",
-		"tags": [],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "7:00",
-		"instance": "You weren't part of that one, I know - very jealous.",
-		"bit": "The Paul Hardcastle of Suicides",
-		"elucidation": "any song reference",
-		"tend": "7:20",
-		"tags": ["Hey Jealousy (song)",
-            "Gin Blossoms (musical combination)"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "1:06:00",
-		"instance": "I'm not quite sure the gender of this guest.",
-		"bit": "The Paul Hardcastle of Suicides",
-		"elucidation": "any song reference",
-		"tend": "1:06:20",
-		"tags": ["I Saw Mommy Kissing Santa Claus (song)",
-            "Tommie Connor", "Mark, the kid who saw mommy kissing santa claus"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "7:20",
-		"instance": "I will shut your shit down.",
-		"bit": "I Want That Pill",
-		"elucidation": "somebody does a ~deniro",
-		"tend": "7:35",
-		"tags": [],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "17:00",
-		"instance": "Did you do it like Dorf?",
-		"bit": "Dorf",
-		"elucidation": "somebody references tim conway's dorf",
-		"tend": "17:30",
-		"tags": ["Santa Claus"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }
-  , {
-		"tstart": "17:00",
-		"instance": "I kneeled on my own boots.",
-		"bit": "The Paul Hardcastle of Suicides",
-		"elucidation": "any song reference",
-		"tend": "17:30",
-		"tags": ["Santa Claus", "Get On Your Boots (song)", "U2 (musical combination)"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "25:30",
-		"instance": "You think you love me?",
-		"bit": "The Paul Hardcastle of Suicides",
-		"elucidation": "any song reference",
-		"tend": "26:00",
-		"tags": ["Santa Claus", "I Feel for You (song)", "Prince", "Chaka Khan"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "25:30",
-		"instance": "You think you love me?",
-		"bit": "The Paul Hardcastle of Suicides",
-		"elucidation": "any song reference",
-		"tend": "26:00",
-		"tags": ["Santa Claus", "I Think I Love You (song)", "Tony Romeo", "The Partridge Family (musical combination)"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }
-  , {
-		"tstart": "26:40",
-		"instance": "It goes a little too far to call me a 'pretzel maker.'",
-		"bit": "Location",
-		"elucidation": "identifiable earth location",
-		"tend": "27:00",
-		"tags": ["Santa Claus", "August Lindt"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": "point",
-		"location_id": 129,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "1:23:45",
-		"instance": "Unless your parents still live there.",
-		"bit": "Location",
-		"elucidation": "identifiable earth location",
-		"tend": "1:24:15",
-		"tags": ["Mark, the kid who saw mommy kissing santa claus"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": "point",
-		"location_id": 345,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "1:31:15",
-		"instance": "I shalt stop.",
-		"bit": "Location",
-		"elucidation": "identifiable earth location",
-		"nb": ["burj khalifa, dubai", "site of: CHIEF on a hot tip"],
-		"tend": "1:31:45",
-		"tags": ["CHIEF"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": "point",
-		"location_id": "1299",
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "2:35:00",
-		"instance": "I'm oiled up; I am dressed down.",
-		"bit": "Location",
-		"elucidation": "identifiable earth location",
-		"nb": ["burj khalifa, dubai", "site of: CHIEF on a hot tip"],
-		"tend": "2:35:20",
-		"tags": ["CHIEF"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": "point",
-		"location_id": "1299",
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "1:04:20",
-		"instance": "Anyone have to leave?",
-		"bit": "Location",
-		"elucidation": "identifiable earth location",
-		"nb": ["norwegian archipelago of svalbaard", "home of: global seed vault", "possible site of: the island of misfit toys"],
-		"tend": "1:05:00",
-		"tags": ["August Lindt", "Santa Claus"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": "poly",
-		"location_id": 1156,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "48:00",
-		"instance": "Two tickets to fuckin' Veinezuela!",
-		"bit": "Location",
-		"elucidation": "identifiable earth location",
-		"nb": ["venezuela", "future site of: Gino Lambardo doing a stem-cell dip"],
-		"tend": "49:00",
-		"tags": ["Gino Lambardo"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": "poly",
-		"location_id": 379,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "28:15",
-		"instance": "Jamaica? Aruba? Come on Pretty Buba?",
-		"bit": "The Paul Hardcastle of Suicides",
-		"elucidation": "any song reference",
-		"tend": "29:00",
-		"tags": ["Santa Claus", "August Lindt", "Kokomo (song)",
-            "The Beach Boys (musical combination)"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "1:32:15",
-		"instance": "It has been a many moon, Scott.",
-		"bit": "The Paul Hardcastle of Suicides",
-		"elucidation": "any song reference",
-		"tend": "1:32:45",
-		"tags": ["I Feel It Coming (song)",
-            "The Weeknd", "CHIEF"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "33:00",
-		"instance": "How about 'Islands in the Stream' - did you go there?",
-		"bit": "The Paul Hardcastle of Suicides",
-		"elucidation": "any song reference",
-		"tend": "33:15",
-		"tags": ["Santa Claus", "August Lindt", "Islands in the Stream (song)",
-            "Kenny Rogers",
-            "Bee Gees (musical combination)",
-            "Dolly Parton"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "37:30",
-		"instance": "There's plenty to drink because there is snow, which is, turns out, really only water, in a sense.",
-		"bit": "The Paul Hardcastle of Suicides",
-		"elucidation": "any song reference",
-		"tend": "38:00",
-		"tags": ["Santa Claus", "August Lindt", "Catch a Falling Star (song)", "Paul Vance", "Lee Pockriss"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "44:30",
-		"instance": "Are you livin' that crypto life?",
-		"bit": "The Paul Hardcastle of Suicides",
-		"elucidation": "any song reference",
-		"tend": "45:00",
-		"tags": ["Gino Lambardo", "Khia",
-            "My Neck My Back (song)"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "56:15",
-		"instance": "Whenever I go to spit on somebody it goes right through it.",
-		"bit": "The Paul Hardcastle of Suicides",
-		"elucidation": "any song reference",
-		"tend": "56:45",
-		"tags": ["Santa Claus", "Ho Ho",
-            "A Whole New World (song)",
-            "Alan Menken",
-            "Tim Rice"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "31:00",
-		"instance": "I went to all the typical islands.",
-		"bit": "Location",
-		"elucidation": "identifiable earth location",
-		"nb": ["islands hamburger - palm desert", "site of: August Lindt visiting 'all the typical islands'"],
-		"tend": "31:30",
-		"tags": ["Santa Claus", "August Lindt"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": "point",
-		"location_id": 1300,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "31:00",
-		"instance": "I went to all the typical islands.",
-		"bit": "Location",
-		"elucidation": "identifiable earth location",
-		"nb": ["the isle of dr. moreau", "site of: August Lindt visiting 'all the typical islands'"],
-		"tend": "31:30",
-		"tags": ["Santa Claus", "August Lindt"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": "poly",
-		"location_id": "1157",
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "33:00",
-		"instance": "They're fugitives - I'm trying to get them back.",
-		"bit": "Location",
-		"elucidation": "identifiable earth location",
-		"nb": ["the island of misfit toys", "see svalbaard, below", "site of: August Lindt visiting 'all the typical islands'"],
-		"tend": "33:30",
-		"tags": ["Santa Claus", "August Lindt"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": "poly",
-		"location_id": "1156",
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "51:00",
-		"instance": "I spent some time in a standing-room-only prison in Venezuela - it's beautiful there.",
-		"bit": "Location",
-		"elucidation": "identifiable earth location",
-		"nb": ["a standing-room-only prison in venezuela", "site of: August Lindt on vacation"],
-		"tend": "52:00",
-		"tags": ["Santa Claus", "August Lindt", "Gino Lambardo"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": "point",
-		"location_id": "1301",
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "52:20",
-		"instance": "Oh no - you and Santa are both depressed?",
-		"bit": "Ho-Ho!",
-		"elucidation": "ho ho's catchphrase",
-		"tend": "53:00",
-		"tags": ["Ho Ho"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "52:20",
-		"instance": "I got two Ho-Hos by you and you didn't even hear 'em.",
-		"bit": "Ho-Ho!",
-		"elucidation": "ho ho's catchphrase",
-		"tend": "53:00",
-		"tags": ["Ho Ho", "Santa Claus"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "53:00",
-		"instance": "But now it's getting really old because I can't frolic with all my friends.",
-		"bit": "Ho-Ho!",
-		"elucidation": "ho ho's catchphrase",
-		"tend": "53:25",
-		"tags": ["Ho Ho", "Santa Claus"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "53:45",
-		"instance": "You know when you get a ring of fire in your asshole from eating too much chili?",
-		"bit": "Ho-Ho!",
-		"elucidation": "ho ho's catchphrase",
-		"hero": {
-			"on": true,
-			"attrib": "Ho Ho"
-		},
-		"tend": "54:00",
-		"tags": ["Ho Ho", "Santa Claus"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "53:45",
-		"instance": "Let Ho Ho talk about firerrhea.",
-		"bit": "Ho-Ho!",
-		"elucidation": "ho ho's catchphrase",
-		"hero": {
-			"on": true,
-			"attrib": "Ho Ho"
-		},
-		"tend": "54:00",
-		"tags": ["Ho Ho", "Gino Lambardo", "Santa Claus"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "53:45",
-		"instance": "It's 2020 - Christmas is canceled - let Ho Ho talk about whatever he wants to talk about.",
-		"bit": "Ho-Ho!",
-		"elucidation": "ho ho's catchphrase",
-		"tend": "54:00",
-		"tags": ["Ho Ho", "Gino Lambardo", "Santa Claus"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "54:30",
-		"instance": "Ho Ho I know pretty good.",
-		"bit": "Ho-Ho!",
-		"elucidation": "ho ho's catchphrase",
-		"tend": "54:45",
-		"tags": ["Ho Ho", "Santa Claus"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "54:45",
-		"instance": "I contracted the Short Story Coronavirus.",
-		"bit": "Ho-Ho!",
-		"elucidation": "ho ho's catchphrase",
-		"tend": "55:00",
-		"tags": ["Ho Ho", "Santa Claus"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "55:00",
-		"instance": "Is just being on this show making you feel better, Ho Ho?",
-		"bit": "Ho-Ho!",
-		"elucidation": "ho ho's catchphrase",
-		"tend": "55:15",
-		"tags": ["Ho Ho", "Santa Claus"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "55:00",
-		"instance": "It's a Zoom loop that I allow Ho Ho to have.",
-		"bit": "Ho-Ho!",
-		"elucidation": "ho ho's catchphrase",
-		"tend": "55:30",
-		"tags": ["Ho Ho", "Santa Claus"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "55:20",
-		"instance": "Dennis Hopper fooled me with that shit, once.",
-		"bit": "Ho-Ho!",
-		"elucidation": "ho ho's catchphrase",
-		"tend": "55:40",
-		"tags": ["Ho Ho", "Santa Claus", "Gino Lambardo"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "56:15",
-		"instance": "When are you going to spit on people?",
-		"bit": "Ho-Ho!",
-		"elucidation": "ho ho's catchphrase",
-		"tend": "56:30",
-		"tags": ["Ho Ho", "Santa Claus"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "56:45",
-		"instance": "You thought it was likes.",
-		"bit": "Ho-Ho!",
-		"elucidation": "ho ho's catchphrase",
-		"tend": "57:00",
-		"tags": ["Ho Ho", "Santa Claus"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "58:30",
-		"instance": "What do you have planned, then, Ho Ho?",
-		"bit": "Ho-Ho!",
-		"elucidation": "ho ho's catchphrase",
-		"tend": "58:45",
-		"tags": ["Ho Ho", "Santa Claus"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "58:30",
-		"instance": "Well I'm gonna make a big ol' pot of hot cocoa, of course.",
-		"bit": "Ho-Ho!",
-		"elucidation": "ho ho's catchphrase",
-		"tend": "58:45",
-		"tags": ["Ho Ho", "Santa Claus"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "58:50",
-		"instance": "You're gonna boil yourself in the hot cocoa?!",
-		"bit": "Ho-Ho!",
-		"elucidation": "ho ho's catchphrase",
-		"tend": "59:10",
-		"tags": ["Ho Ho", "Santa Claus"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "59:50",
-		"instance": "My fairy light in my heart is fading.",
-		"bit": "Ho-Ho!",
-		"elucidation": "ho ho's catchphrase",
-		"tend": "1:00:15",
-		"tags": ["Ho Ho", "Santa Claus"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "1:00:10",
-		"instance": "If you hear me start to scream - don't do anything, like you always do.",
-		"bit": "Ho-Ho!",
-		"elucidation": "ho ho's catchphrase",
-		"tend": "1:00:30",
-		"tags": ["Ho Ho", "Santa Claus"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "1:00:20",
-		"instance": "What are you gonna do - invite me into your house so I can sit in between Mrs. Claus' titties and watch some holiday romantic film?",
-		"bit": "Ho-Ho!",
-		"elucidation": "ho ho's catchphrase",
-		"tend": "1:00:45",
-		"tags": ["Ho Ho", "Santa Claus"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "1:01:10",
-		"instance": "When I see a woman I just wanna say whatever I think about what she looks like.",
-		"bit": "Ho-Ho!",
-		"elucidation": "ho ho's catchphrase",
-		"tend": "1:01:35",
-		"tags": ["Ho Ho", "Santa Claus"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "1:03:30",
-		"instance": "Well, you know how you left all your cocaine out on your desk?",
-		"bit": "Ho-Ho!",
-		"elucidation": "ho ho's catchphrase",
-		"hero": {
-			"on": true,
-			"attrib": "Ho Ho"
-		},
-		"tend": "1:04:00",
-		"tags": ["Ho Ho", "Santa Claus"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "1:32:30",
-		"instance": "I don't like to talk about my musical trappings.",
-		"bit": "The Paul Hardcastle of Suicides",
-		"elucidation": "any song reference",
-		"tend": "1:33:00",
-		"tags": ["Human (song)",
-            "The Human League (musical combination)", "CHIEF", "James Harris III", "Terry Lewis"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "1:32:30",
-		"instance": "Mark, you remind me of Jimmy Jam *and* Terry Lewis.",
-		"bit": "The Paul Hardcastle of Suicides",
-		"elucidation": "any song reference",
-		"tend": "1:33:00",
-		"tags": ["Sensitivity (song)", "Ralph Tresvant", "CHIEF", "James Harris III", "Terry Lewis"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }
-  , {
-		"tstart": "1:38:15",
-		"instance": "What was it named after?",
-		"bit": "The Paul Hardcastle of Suicides",
-		"elucidation": "any song reference",
-		"tend": "1:38:30",
-		"tags": ["Hurricane (song)", "Nooki Barf-Carpet", "Tootie Barf-Carpet", "Bob Dylan"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }
-  , {
-		"tstart": "1:38:00",
-		"instance": "'Hurricane' is the name of the town?",
-		"bit": "Location",
-		"elucidation": "identifiable earth location",
-		"nb": ["a general store in hurricane, UT", "site of: Nooki and Tootie's general store, 'Barf Carpet General Store"],
-		"tend": "1:38:30",
-		"tags": ["Nooki Barf-Carpet", "Tootie Barf-Carpet"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": "poly",
-		"location_id": "1158",
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "2:14:15",
-		"instance": "I've seen some of the shadows...and it looks like to you guys it's maybe hard to do cowboy hats, too.",
-		"bit": "Location",
-		"elucidation": "identifiable earth location",
-		"nb": ["a general store in hurricane, UT", "site of: Nooki and Tootie's general store, 'Barf Carpet General Store"],
-		"tend": "2:14:45",
-		"tags": ["Nooki Barf-Carpet", "Tootie Barf-Carpet", "Sprague the Whisperer", "Frankenstein"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": "poly",
-		"location_id": "1158",
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "1:59:20",
-		"instance": "They're right next to the vodka and the menopause materials.",
-		"bit": "Location",
-		"elucidation": "identifiable earth location",
-		"nb": ["a general store in hurricane, UT", "site of: Nooki and Tootie's general store, 'Barf Carpet General Store"],
-		"tend": "2:00:00",
-		"tags": ["Nooki Barf-Carpet", "Tootie Barf-Carpet", "Sprague the Whisperer"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": "poly",
-		"location_id": "1158",
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "2:02:10",
-		"instance": "I was at Magic City, sitting on a throne, getting a lap dance.",
-		"bit": "Location",
-		"elucidation": "identifiable earth location",
-		"nb": ["magic city?", "site of: CHIEF, ready to put aside her beef w/ Sprague"],
-		"tend": "2:02:30",
-		"tags": ["Nooki Barf-Carpet", "Tootie Barf-Carpet", "Sprague the Whisperer", "CHIEF"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": "point",
-		"location_id": "1302",
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "1:44:00",
-		"instance": "Usually we have to go to Home Depot to fulfill bigger orders.",
-		"bit": "Location",
-		"elucidation": "identifiable earth location",
-		"nb": ["a tree farm near hurricane, utah", "site of: Nooki and Tootie's tree ranch"],
-		"tend": "1:44:30",
-		"tags": ["Nooki Barf-Carpet", "Tootie Barf-Carpet"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": "point",
-		"location_id": "1303",
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "1:44:30",
-		"instance": "Usually we have to go to Home Depot to fulfill bigger orders.",
-		"bit": "Location",
-		"elucidation": "identifiable earth location",
-		"nb": ["a home depot near hurricane, UT", "site of: Nooki and Tootie fulfilling bigger orders"],
-		"tend": "1:45:00",
-		"tags": ["Nooki Barf-Carpet", "Tootie Barf-Carpet"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": "point",
-		"location_id": "1304",
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "1:46:20",
-		"instance": "Do they like being called 'Poligs'? It seems like a slur.",
-		"bit": "Location",
-		"elucidation": "identifiable earth location",
-		"nb": ["colorado city, CO(?)", "site of: tons of Poligs"],
-		"tend": "1:47:10",
-		"tags": ["Nooki Barf-Carpet", "Tootie Barf-Carpet"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": "poly",
-		"location_id": "1159",
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "1:47:45",
-		"instance": "They had all fallen down into shape - that seemed like a Satan shape.",
-		"bit": "The Paul Hardcastle of Suicides",
-		"elucidation": "any song reference",
-		"tend": "1:48:30",
-		"tags": ["Tootie Barf-Carpet", "Nooki Barf-Carpet", "Wake Me Up Before You Go-Go (song)",
-            "Wham! (musical combination)"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "1:55:15",
-		"instance": "I was pacing outside the hospital, fingers crossed, hoping my future wife would be born.",
-		"bit": "The Paul Hardcastle of Suicides",
-		"elucidation": "any song reference",
-		"hero": {
-			"on": true,
-			"attrib": "Tootie Barf-Carpet"
-		},
-		"tend": "1:56:00",
-		"tags": ["Tootie Barf-Carpet", "Nooki Barf-Carpet", "Nookie (song)",
-            "Limp Bizkit (musical combination)"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "2:17:45",
-		"instance": "You sound like my friend, Bill Walton.",
-		"bit": "We Knew a Poet Once",
-		"elucidation": "various, even vague interminglings of character canon",
-		"tend": "2:18:15",
-		"tags": ["Frankenstein", "Bill Walton"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "2:19:45",
-		"instance": "Uh-oh, now Scott's saying it.",
-		"bit": "The Paul Hardcastle of Suicides",
-		"elucidation": "any song reference",
-		"tend": "2:20:00",
-		"tags": ["Frankenstein", "CHIEF", "Black Betty (song)"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }, {
-		"tstart": "2:22:50",
-		"instance": "You shouldn't be doing blackthumb, by the way.",
-		"bit": "The Paul Hardcastle of Suicides",
-		"elucidation": "any song reference",
-		"tend": "2:23:15",
-		"tags": ["Frankenstein", "Sprague the Whisperer", "Sisqó",
-            "The Thong Song (song)"],
-		"created_at": "2020-12-16T10:51:29Z",
-		"updated_at": "2020-12-16T10:51:29Z",
-		"episode_guests": [
-			"Jason Mantzoukas"
-			, "Paul F. Tompkins"
-			, "Andy Daly"
-			, "Jon Gabrus"
-			, "Lauren Lapkus"
-			, "Ego Nwodim"
-			, "Carl Tart"
-			, "Lily Sullivan"
-			, "Tim Baltz"
-			, "Shaun Diston"
-			, "Dan Lippert"
-],
-		"episode_title": "2020 Holiday Spectacular",
-		"location_type": null,
-		"location_id": null,
-		"slug_earwolf": "2020-holiday-spectacular",
-		"episode": 686,
-		"show": "cbb"
-  }
-]
+[{
+	"tstart": "0:30",
+	"instance": "That's good advice in any month of the year.",
+	"bit": "Dads and Grads",
+	"elucidation": "scott's take on june",
+	"tend": "1:00",
+	"tags": [],
+	"created_at": "2021-06-30T10:51:29Z",
+	"updated_at": "2021-06-30T10:51:29Z",
+	"episode_guests": ["Sparks (musical combination)", "Edgar Wright", "Ben Rodgers", "Matt Apodaca"],
+	"episode_title": "A Trio of Duos",
+	"location_type": null,
+	"location_id": null,
+	"slug_earwolf": "a-trio-of-duos",
+	"episode": 710,
+	"show": "cbb"
+}, {
+	"tstart": "18:30",
+	"instance": "The neck brace, of course, is new.",
+	"bit": "Location",
+	"elucidation": "identifiable earth location",
+	"nb": ["crime alley"],
+	"tend": "18:45",
+	"tags": ["Jack Furz"],
+	"created_at": "2021-06-30T10:51:29Z",
+	"updated_at": "2021-06-30T10:51:29Z",
+	"episode_guests": ["Sparks (musical combination)", "Edgar Wright", "Ben Rodgers", "Matt Apodaca"],
+	"episode_title": "A Trio of Duos",
+	"location_type": "poly",
+	"location_id": "951",
+	"slug_earwolf": "a-trio-of-duos",
+	"episode": 710,
+	"show": "cbb"
+}, {
+	"tstart": "50:30",
+	"instance": "Call it a 'sexoskeleton.'",
+	"bit": "The Paul Hardcastle of Suicides",
+	"elucidation": "any song reference",
+	"tend": "50:45",
+	"tags": ["Jack Furz", "Sir Mix-a-Lot", "Baby Got Back (song)", "Buck Tango"],
+	"created_at": "2021-06-30T10:51:29Z",
+	"updated_at": "2021-06-30T10:51:29Z",
+	"episode_guests": ["Sparks (musical combination)", "Edgar Wright", "Ben Rodgers", "Matt Apodaca"],
+	"episode_title": "A Trio of Duos",
+	"location_type": null,
+	"location_id": null,
+	"slug_earwolf": "a-trio-of-duos",
+	"episode": 710,
+	"show": "cbb"
+}, {
+	"tstart": "58:20",
+	"instance": "Maybe Buck Tango is the Nite Wolf.",
+	"bit": "Every Word You Are Saying",
+	"elucidation": "despite everybody's best efforts, a private conversation is overheard",
+	"tend": "58:45",
+	"tags": ["Buck Tango"],
+	"created_at": "2021-06-30T10:51:29Z",
+	"updated_at": "2021-06-30T10:51:29Z",
+	"episode_guests": ["Sparks (musical combination)", "Edgar Wright", "Ben Rodgers", "Matt Apodaca"],
+	"episode_title": "A Trio of Duos",
+	"location_type": null,
+	"location_id": null,
+	"slug_earwolf": "a-trio-of-duos",
+	"episode": 710,
+	"show": "cbb"
+}, {
+	"tstart": "4:20",
+	"instance": "This is a real 'King of Queens' type of situation.",
+	"bit": "Titular",
+	"elucidation": "the titular 'titular'",
+	"tend": "4:30",
+	"tags": [],
+	"created_at": "2021-07-04T10:51:29Z",
+	"updated_at": "2021-07-04T10:51:29Z",
+	"episode_guests": [
+	"Patton Oswalt",
+	"Meredith Salenger",
+	"Drew Tarver",
+	"Betsy Sodaro"],
+	"episode_title": "The Heimlich B-Side",
+	"location_type": null,
+	"location_id": null,
+	"slug_earwolf": "the-heimlich-b-side",
+	"episode": 711,
+	"show": "cbb"
+}, {
+	"tstart": "16:50",
+	"instance": "You sneak up behind someone.",
+	"bit": "Titular",
+	"elucidation": "the titular 'titular'",
+	"tend": "17:15",
+	"tags": ["Henry Heimlich"],
+	"created_at": "2021-07-04T10:51:29Z",
+	"updated_at": "2021-07-04T10:51:29Z",
+	"episode_guests": [
+	"Patton Oswalt",
+	"Meredith Salenger",
+	"Drew Tarver",
+	"Betsy Sodaro"],
+	"episode_title": "The Heimlich B-Side",
+	"location_type": null,
+	"location_id": null,
+	"slug_earwolf": "the-heimlich-b-side",
+	"episode": 711,
+	"show": "cbb"
+}, {
+	"tstart": "13:50",
+	"instance": "Wonderful, wonderful - Syracuse.",
+	"bit": "Fantastic.",
+	"elucidation": "one of scott's 25 words",
+	"tend": "14:10",
+	"tags": [],
+	"created_at": "2021-07-04T10:51:29Z",
+	"updated_at": "2021-07-04T10:51:29Z",
+	"episode_guests": [
+	"Patton Oswalt",
+	"Meredith Salenger",
+	"Drew Tarver",
+	"Betsy Sodaro"],
+	"episode_title": "The Heimlich B-Side",
+	"location_type": null,
+	"location_id": null,
+	"slug_earwolf": "the-heimlich-b-side",
+	"episode": 711,
+	"show": "cbb"
+}, {
+	"tstart": "18:45",
+	"instance": "I saw an angel who was ignoring me.",
+	"bit": "The Paul Hardcastle of Suicides",
+	"elucidation": "any song reference",
+	"tend": "19:55",
+	"tags": ["Henry Heimlich", "(You're the) Devil in Disguise (song)", "Elvis Presley", "Bill Giant"],
+	"created_at": "2021-07-04T10:51:29Z",
+	"updated_at": "2021-07-04T10:51:29Z",
+	"episode_guests": [
+	"Patton Oswalt",
+	"Meredith Salenger",
+	"Drew Tarver",
+	"Betsy Sodaro"],
+	"episode_title": "The Heimlich B-Side",
+	"location_type": null,
+	"location_id": null,
+	"slug_earwolf": "the-heimlich-b-side",
+	"episode": 711,
+	"show": "cbb"
+}, {
+	"tstart": "25:20",
+	"instance": "Maneuvers and classes and...I'm not sure yet.",
+	"bit": "Where Are You From?",
+	"elucidation": "a character trait or detail is challenged or prompted",
+	"tend": "25:55",
+	"tags": ["Henry Heimlich"],
+	"created_at": "2021-07-04T10:51:29Z",
+	"updated_at": "2021-07-04T10:51:29Z",
+	"episode_guests": [
+	"Patton Oswalt",
+	"Meredith Salenger",
+	"Drew Tarver",
+	"Betsy Sodaro"],
+	"episode_title": "The Heimlich B-Side",
+	"location_type": null,
+	"location_id": null,
+	"slug_earwolf": "the-heimlich-b-side",
+	"episode": 711,
+	"show": "cbb"
+}, {
+	"tstart": "25:20",
+	"instance": "So there's a little bit of a twang in the German accent.",
+	"bit": "Location",
+	"elucidation": "identifiable earth location",
+	"nb": ["southern germany", "home to: henry Heimlich"],
+	"tend": "25:55",
+	"tags": ["Henry Heimlich"],
+	"created_at": "2021-07-04T10:51:29Z",
+	"updated_at": "2021-07-04T10:51:29Z",
+	"episode_guests": [
+	"Patton Oswalt",
+	"Meredith Salenger",
+	"Drew Tarver",
+	"Betsy Sodaro"],
+	"episode_title": "The Heimlich B-Side",
+	"location_type": "poly",
+	"location_id": "1189",
+	"slug_earwolf": "the-heimlich-b-side",
+	"episode": 711,
+	"show": "cbb"
+}, {
+	"tstart": "37:00",
+	"instance": "I only get recognition when I write standup for Dave Coulier.",
+	"bit": "Pimpings",
+	"elucidation": "superclass of all otherwise non-specific pimps",
+	"tend": "37:30",
+	"tags": ["Henry Heimlich", "Dave Couliier"],
+	"created_at": "2021-07-04T10:51:29Z",
+	"updated_at": "2021-07-04T10:51:29Z",
+	"episode_guests": [
+	"Patton Oswalt",
+	"Meredith Salenger",
+	"Drew Tarver",
+	"Betsy Sodaro"],
+	"episode_title": "The Heimlich B-Side",
+	"location_type": null,
+	"location_id": null,
+	"slug_earwolf": "the-heimlich-b-side",
+	"episode": 711,
+	"show": "cbb"
+}, {
+	"tstart": "0:40",
+	"instance": "You had your day about a week ago, so let's...take it easy until next year.",
+	"bit": "Dads and Grads",
+	"elucidation": "scott's take on june",
+	"tend": "1:10",
+	"tags": [],
+	"created_at": "2021-07-07T10:51:29Z",
+	"updated_at": "2021-07-07T10:51:29Z",
+	"episode_guests": ["Max Silvestri", "Paul F. Tompkins", "Nicole Parker", "Jacquis Neal"],
+	"episode_title": "Tides Anonymous",
+	"location_type": null,
+	"location_id": null,
+	"slug_earwolf": "tides-anonymous",
+	"episode": 712,
+	"show": "cbb"
+}, {
+	"tstart": "23:40",
+	"instance": "Was it of French descent, originally?",
+	"bit": "Location",
+	"elucidation": "identifiable earth location",
+	"nb": ["ellis island"],
+	"tend": "24:10",
+	"tags": ["Burnt Millipede", "Joan Pedestrian"],
+	"created_at": "2021-07-07T10:51:29Z",
+	"updated_at": "2021-07-07T10:51:29Z",
+	"episode_guests": ["Max Silvestri", "Paul F. Tompkins", "Nicole Parker", "Jacquis Neal"],
+	"episode_title": "Tides Anonymous",
+	"location_type": "poly",
+	"location_id": "420",
+	"slug_earwolf": "tides-anonymous",
+	"episode": 712,
+	"show": "cbb"
+}, {
+	"tstart": "24:30",
+	"instance": "We are neighbors to each other and to other people.",
+	"bit": "Location",
+	"elucidation": "identifiable earth location",
+	"nb": ["proxy for: dignity falls", "????"],
+	"tend": "25:00",
+	"tags": ["Burnt Millipede", "Joan Pedestrian"],
+	"created_at": "2021-07-07T10:51:29Z",
+	"updated_at": "2021-07-07T10:51:29Z",
+	"episode_guests": ["Max Silvestri", "Paul F. Tompkins", "Nicole Parker", "Jacquis Neal"],
+	"episode_title": "Tides Anonymous",
+	"location_type": "poly",
+	"location_id": "1100",
+	"slug_earwolf": "tides-anonymous",
+	"episode": 712,
+	"show": "cbb"
+}, {
+	"tstart": "26:10",
+	"instance": "Dips? Great, everything's fine. Canyons? Uh-oh - lookout.",
+	"bit": "Location",
+	"elucidation": "identifiable earth location",
+	"nb": ["proxy for: burnt's cvs", "CVS #?? in dignityf falls(' proxy)"],
+	"tend": "26:20",
+	"tags": ["Burnt Millipede", "Joan Pedestrian"],
+	"created_at": "2021-07-07T10:51:29Z",
+	"updated_at": "2021-07-07T10:51:29Z",
+	"episode_guests": ["Max Silvestri", "Paul F. Tompkins", "Nicole Parker", "Jacquis Neal"],
+	"episode_title": "Tides Anonymous",
+	"location_type": "point",
+	"location_id": "1251",
+	"slug_earwolf": "tides-anonymous",
+	"episode": 712,
+	"show": "cbb"
+}, {
+	"tstart": "31:45",
+	"instance": "When you say that, you mean the musical 'Gypsy'?",
+	"bit": "The Paul Hardcastle of Suicides",
+	"elucidation": "any song reference",
+	"tend": "32:00",
+	"tags": ["Burnt Millipede", "Joan Pedestrian", "Some People (song)", "Gypsy (musical)", "Jule Styne", "Stephen Sondheim"],
+	"created_at": "2021-07-07T10:51:29Z",
+	"updated_at": "2021-07-07T10:51:29Z",
+	"episode_guests": ["Max Silvestri", "Paul F. Tompkins", "Nicole Parker", "Jacquis Neal"],
+	"episode_title": "Tides Anonymous",
+	"location_type": null,
+	"location_id": null,
+	"slug_earwolf": "tides-anonymous",
+	"episode": 712,
+	"show": "cbb"
+}, {
+	"tstart": "32:00",
+	"instance": "Isn't it weird he has a space between 'Meat' and 'Loaf'?",
+	"bit": "The Paul Hardcastle of Suicides",
+	"elucidation": "any song reference",
+	"tend": "32:30",
+	"tags": ["Burnt Millipede", "Joan Pedestrian", "It's All Coming Back to Me Now (song)", "Jim Steinman", "Meat Loaf", "Celine Dion"],
+	"created_at": "2021-07-07T10:51:29Z",
+	"updated_at": "2021-07-07T10:51:29Z",
+	"episode_guests": ["Max Silvestri", "Paul F. Tompkins", "Nicole Parker", "Jacquis Neal"],
+	"episode_title": "Tides Anonymous",
+	"location_type": null,
+	"location_id": null,
+	"slug_earwolf": "tides-anonymous",
+	"episode": 712,
+	"show": "cbb"
+}, {
+	"tstart": "37:50",
+	"instance": "Can you also put your laundry on this?",
+	"bit": "Mine's Under My Bed",
+	"elucidation": "some purchased thing is never used or no longer used",
+	"tend": "38:10",
+	"tags": ["Burnt Millipede", "Joan Pedestrian"],
+	"created_at": "2021-07-07T10:51:29Z",
+	"updated_at": "2021-07-07T10:51:29Z",
+	"episode_guests": ["Max Silvestri", "Paul F. Tompkins", "Nicole Parker", "Jacquis Neal"],
+	"episode_title": "Tides Anonymous",
+	"location_type": null,
+	"location_id": null,
+	"slug_earwolf": "tides-anonymous",
+	"episode": 712,
+	"show": "cbb"
+}, {
+	"tstart": "45:35",
+	"instance": "He finally got that friend?",
+	"bit": "Who?",
+	"elucidation": "somebody doesn't know who or what something famous is",
+	"tend": "46:00",
+	"tags": ["Burnt Millipede", "Joan Pedestrian"],
+	"created_at": "2021-07-07T10:51:29Z",
+	"updated_at": "2021-07-07T10:51:29Z",
+	"episode_guests": ["Max Silvestri", "Paul F. Tompkins", "Nicole Parker", "Jacquis Neal"],
+	"episode_title": "Tides Anonymous",
+	"location_type": null,
+	"location_id": null,
+	"slug_earwolf": "tides-anonymous",
+	"episode": 712,
+	"show": "cbb"
+}, {
+	"tstart": "1:02:30",
+	"instance": "Sometimes I just talk waiting for you to say something.",
+	"bit": "The Paul Hardcastle of Suicides",
+	"elucidation": "any song reference",
+	"tend": "1:02:55",
+	"tags": ["Burnt Millipede", "Joan Pedestrian", "Old Friends (song)", "Bishop R.L. Bakes", "Simon &amp; Garfunkle (musical combination)"],
+	"created_at": "2021-07-07T10:51:29Z",
+	"updated_at": "2021-07-07T10:51:29Z",
+	"episode_guests": ["Max Silvestri", "Paul F. Tompkins", "Nicole Parker", "Jacquis Neal"],
+	"episode_title": "Tides Anonymous",
+	"location_type": null,
+	"location_id": null,
+	"slug_earwolf": "tides-anonymous",
+	"episode": 712,
+	"show": "cbb"
+}, {
+	"tstart": "1:08:30",
+	"instance": "Don't take a poop on the way to heaven.",
+	"bit": "The Paul Hardcastle of Suicides",
+	"elucidation": "any song reference",
+	"tend": "1:08:50",
+	"tags": ["Burnt Millipede", "Joan Pedestrian", "Stairway to Heaven (song)", "Bishop R.L. Bakes", "Led Zeppelin (musical combination)"],
+	"created_at": "2021-07-07T10:51:29Z",
+	"updated_at": "2021-07-07T10:51:29Z",
+	"episode_guests": ["Max Silvestri", "Paul F. Tompkins", "Nicole Parker", "Jacquis Neal"],
+	"episode_title": "Tides Anonymous",
+	"location_type": null,
+	"location_id": null,
+	"slug_earwolf": "tides-anonymous",
+	"episode": 712,
+	"show": "cbb"
+}, {
+	"tstart": "1:10:00",
+	"instance": "And the last shot is everybody's shoes.",
+	"bit": "The Paul Hardcastle of Suicides",
+	"elucidation": "any song reference",
+	"tend": "1:10:20",
+	"tags": ["Burnt Millipede", "Joan Pedestrian", "George (Shadow) Morton", "The Shangri-Las (musical combination)", "Remember (Walking in the Sand) (song)"],
+	"created_at": "2021-07-07T10:51:29Z",
+	"updated_at": "2021-07-07T10:51:29Z",
+	"episode_guests": ["Max Silvestri", "Paul F. Tompkins", "Nicole Parker", "Jacquis Neal"],
+	"episode_title": "Tides Anonymous",
+	"location_type": null,
+	"location_id": null,
+	"slug_earwolf": "tides-anonymous",
+	"episode": 712,
+	"show": "cbb"
+}, {
+	"tstart": "1:15:00",
+	"instance": "That plug song sounded a lot like my jingle.",
+	"bit": "The Paul Hardcastle of Suicides",
+	"elucidation": "any song reference",
+	"tend": "1:15:25",
+	"tags": ["Burnt Millipede", "Joan Pedestrian", "Give Me a Break (song)", "Michael A. Levine"],
+	"created_at": "2021-07-07T10:51:29Z",
+	"updated_at": "2021-07-07T10:51:29Z",
+	"episode_guests": ["Max Silvestri", "Paul F. Tompkins", "Nicole Parker", "Jacquis Neal"],
+	"episode_title": "Tides Anonymous",
+	"location_type": null,
+	"location_id": null,
+	"slug_earwolf": "tides-anonymous",
+	"episode": 712,
+	"show": "cbb"
+}, {
+	"tstart": "1:19:45",
+	"instance": "We like Turtle.",
+	"bit": "Jeremy, Jeremy, Jeremy",
+	"elucidation": "jeremy piven is referenced, often sung (happens a lot)",
+	"tend": "1:20:00",
+	"tags": ["Burnt Millipede", "Joan Pedestrian", "Bishop R.L. Bakes"],
+	"created_at": "2021-07-07T10:51:29Z",
+	"updated_at": "2021-07-07T10:51:29Z",
+	"episode_guests": ["Max Silvestri", "Paul F. Tompkins", "Nicole Parker", "Jacquis Neal"],
+	"episode_title": "Tides Anonymous",
+	"location_type": null,
+	"location_id": null,
+	"slug_earwolf": "tides-anonymous",
+	"episode": 712,
+	"show": "cbb"
+}]

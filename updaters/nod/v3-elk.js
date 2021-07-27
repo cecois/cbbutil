@@ -22,7 +22,7 @@ CLOUDINARY.config({
 
 const _LAUNDERTAGS = (T) => {
 		let maptags = __.map(T, (t) => {
-				switch (t) {
+				switch (t.trim()) {
 					case "Scott's Nephew Todd":
 						return t;
 						break;
@@ -36,7 +36,7 @@ const _LAUNDERTAGS = (T) => {
 						return "Power Wheels Beth";
 						break;
 					default:
-						return t
+						return t.trim()
 				} //switch
 			}) //map
 
@@ -742,13 +742,13 @@ const main = async() => {
 		*/
 
 		let OPS = {
-			backup: false,
-			incoming: false,
-			audit: false,
-			merge: false,
-			elastify: false,
-			summarize: false,
-			sendupdates: true
+		backup: false,
+		incoming: false,
+		audit: false,
+		merge: false,
+			elastify: true,
+		summarize: false,
+		sendupdates: false
 		}
 
 		try {

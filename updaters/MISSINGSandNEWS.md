@@ -45,6 +45,7 @@
 	* bo2019.3,1:58:50
 	* bo2019.4,1:19:30
   * 643,30:24
+  * 707,1:04:00
 
 - gino's late cues
   * every single one?
@@ -65,6 +66,7 @@
   - bo2018.4,1:34:45(pw)
   - st paul 2019 ii,1:02:00
   - 599,7:31:00 (batman+fourvel)
+  - 691,1:14:00
   - bo2019.4,2:21:50
 
 - little boy/big boy
@@ -76,7 +78,12 @@
   - 667,1:01:00
   - 675,19:50
   - 686,38:45
+  - 701,10:00
 
+- shaggygawea
+  - 688,42:30
+  - 688,1:00:30
+  
 - point flathand fist
   - 530,22:30
   - bo2019.2,38:30
@@ -108,6 +115,19 @@
 	- ",2:02:30
 	- ",2:03:30
 	- ",2:05:30
+  - bo2020.3,2:04:45
+  - 706,34:00
+  - 706,35:00
+  - 706,36:00
+  - 706,38:00
+  - 706,40:30
+  - 706,42:00
+  - 706,44:00
+  - 706,46:00
+  - 706,47:00
+  - 706,53:00
+  - 706,55:00
+  - 706,1:12:00
 
 - germany cannibalism
 	- 429,1:07:00
@@ -241,6 +261,10 @@
   - 530,22:45
   - other previous
 - drippin milk/talkin tang (any subepisode)
+  - 704,1:55:00
+  - 704,1:34:00
+  - 700,7:00
+  - 700,9:00
   - 356,14:00,inaugural
   - 356,44:30
   - 429,17:00(pw)
@@ -848,6 +872,8 @@
   - 2016.losangeles,1:01:00
   - 2016.losangeles,1:00:40
 - character bonanzas
+  - 709,will hines does morpheus and Andy Manders
+  - 707,pft from the jump
   - 650,daly
   - 300,bill carter+
   - 599,~3+ (first segment)
@@ -886,6 +912,7 @@
   - 378,kroll does mailer,live,fabrice,others
   - 537,53:45
 - rounds of catchphrase
+  - 702,25:50
 - all the cities of the country
   - 404,16:00
   - 391,1:31:45(pw)
@@ -916,6 +943,7 @@
   - 175,16:10
   - 180,5:20
 - morch (march)
+  - 700,14:00
   - 411,1:00(pw)
   - 407,9:50(pw)
   - 338,2:30(pw)
@@ -1194,8 +1222,10 @@
   - 512,1:06:30(pw)
   - 484,33:50(pw)
   - bo2017.1,2:22:00
+  - bo2020.3,53:00
 - that sounds good to me
   - 2015 BOs?
+  - 688,1:08:00
   - 2016.chicago10,28:00(pw)
   - 2016.chicago10,31:00
   - 2016.denver,22:30
@@ -1886,6 +1916,7 @@
   - 525,33:00
 - symmetrical face
   - 665,18:00
+  - bo2020.2,1:41:45
   - 158,1:00:00
   - 379,1:00:20(pw)
   - 397,45:50(pw)
@@ -2031,6 +2062,7 @@
   - bo2016.2,2:11:50(pw)
   - 572,1:15:33(pw)
   - jfl toronto 2019,15:20
+  - bo2020.2,11:45
 - saturday (day) night live
   - lots
   - 363,8:30(pw)
@@ -2113,6 +2145,7 @@
 	- lotsa
 	- 
 - we'll pay for it (if you wanna go on another date)
+  - 701,1:15:00
   - 567,14:00
   - 637,1:05:10
   - 653,1:13:00
@@ -2156,9 +2189,15 @@
   - 434,9:30(pw)[]()
 
 - interesting people
+  - 704,52:00
   - several of the 480+ eps
+  - 697:1:30
+  - 693:0:50
   - 643,0:50
+  - 689,16:30
+  - 689,36:50
   - 641,1:55
+  - 687,48:00
   - washington d.c. 2019,5:45
   - portland 2019 early show,3:45
   - portland 2019 late show,5:30

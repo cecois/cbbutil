@@ -29,6 +29,8 @@ live-from-vulture-fest-2017
 
 ### instances
 
+-   704,1:05:00,with the hyphen?
+-   700,51:00,it's a scenario where prince philip is robbing a bank?
 -   035,35:00,the ibrain
 -   seattle2019,1:24:15,chief's prison rules
 -   kansas city 2019,40:30
@@ -316,7 +318,7 @@ live-from-vulture-fest-2017
 -   99,22:38,church basement beauty and the beast
 -   99,33:45,it’s an absolute baccanal
 -   99,41:54,don dimello’s first memory
--   99,9:26,you are interrupting so yr hopes are dashed
+-   99,9:26,you are interrupting so yr hopes are dashed	
 -   b02010,1:54:30,let us link legs at the knee
 -   b02010,59:30,human being pig
 -   bo2010,53:30,huell drowns pigs
@@ -344,6 +346,7 @@ live-from-vulture-fest-2017
 - 	686,19:30,she's gonna get an easy-bake oven
 - 	686,1:03:45,i'm a christmas guy!
 - 	686,1:08:30,i consider that the bottom
+- 	691,1:09:00,and scene - so mike how do you feel?
 
 # THREEDOM
 
@@ -620,12 +623,12 @@ live-from-vulture-fest-2017
 -   incel,45:00,i'm an adult
 -   incel,53:00,wasn't doing it (nancy reagan)
 -   incel,56:30,disney beast - in my own words - me go piggy make baby go piggy time
--   incel,1:06:30,i'm great at oral sex
+-   incel,1:06:30,i'm great at oral sexz
 -   buffalo,14:00,fuck all the way off
 -   buffalo,43:45,buffal bill cosby - glad i kept talking
 -   buffalo,51:00,mickey rooney sugar bagies ducca callback
 -   buffalo,1:00:00,inem sterious town
--   buffalo,1:11:45,shaba di doo dah (sandler vegetables)
+-   buffalo,1:11:45,shaba di doo dah. (sandler vegetables) 
 -   nude,33:00,what you're pondering - pubes
 -   dogurt,15:00,water and gum
 -   dogurt,19:00,john phillip sousa album
@@ -636,15 +639,81 @@ live-from-vulture-fest-2017
 -   dogurt,58:30,zat right, shitbird?
 -   morning,4:30,you sleep in the buff?!
 -   tickets,6:00,can i finish
+-   roundscience,51:00,with your little dick out?
 -   icecream,7:15,can i finish
 -   icecream,8:15,i said not to spoil it (dvds)
+-   icecream,39:00,those are gross brotherz
+-   icecream,44:30,are you bringing more back?
+-   nastymound,11:30,oh did someone interrupt you?
 -   nastymound,53:30,nasty mound
+-   nastymound,42,i wanna know what you're gonna say as well
 -   chocalate cheap,6:15,dick needs to do something
 -   chocalate cheap,10,how do you like them olives?
 -   chocalate cheap,16,i bet it was - here's another story i have
 -   chocalate cheap,17,i'm dead (regis)
 -   chocalate cheap,33,we said king tut scott
+-   chocalate cheap,35,ryan stanger's clementine story
 -   chocalate cheap,53,nixon resigns - later!
+-   circlesonastick,11,closest you've come to doing crack
+-   circlesonastick,1:04:00,i just need to wet my whistle
 -   sologamy,49,like they do all those babies
 -   sologamy,1:02:00,are you married to jiminy glick
-
+-   tigerking,22:00,grapes!
+-   tigerking,58,instrumentals (flute?)
+-   moneybucs,32:30,surgery
+-   homies,23:00,speaking of bombs
+-   halebopp,16:30,threesome
+-   tbs,8:00,fattest tits in l.a.
+-   tbs,25:00,here look at this (drawing of you)
+-   tbs,1:01:30,can she greenlight in the room?
+-   karate,15:00,mr. jerk-off came to town
+-   karate,40:00,long hair problem
+-   karate,45:15,did i talk during blossom?
+-   belly,2:30,disappear into the night
+-   belly,5:30,paula abdul that whole time
+-   belly,8:30,lickin' those cones
+-   belly,8:40,you're not in fifth grade anymore
+-   belly,19:00,tuxedon't
+-   belly,21:00,fuck up a whole town
+-   belly,24:00,faxing (oh it sucks)
+-   belly,??:??,i was a babysitter and then i was in movies
+-   belly,55:00,dear i wanna fuck you
+-   belly,1:07:00,car slot
+-   belly,1:09:00,this game sucks ass
+-   belly,24:00,it was called that or that's all they had?
+-   squish,41:00,two losers 
+-   squish,1:12:30,it's ding dong (what's up, playaz?)
+-   squish,1:13:00,paul you're balding!
+-   squish,27:00,what's fingering?
+-   ghost,1:00:00,jacket (#jacket)
+-   ghost,19:00,a print of the mona lisa?
+-   ghost,45:00,did you get that high times magazine i sent you?
+-   ghost,1:01:00,you fuckin pussy (teddy bear)
+-   dogkey,29:00,why was he a wonder?
+-   dogkey,42:00,what are you - four?
+-   dogkey,48:00,pew pew pew
+-   dogkey,51:00,rip ken ober (starwars)
+-   dogkey,56:00,foul mouthed guest star
+-   plane,11:00,indiana (starwars)
+-   plane,43:00,donkey show!
+-   plane,54:00,wobbley-hipped old slut
+-   plane,1:01:00,male erect penis
+-   couldhappen,2:00,i beg your pardon ma'am (gum drawer)
+-   couldhappen,6:00,what other problems did he have?
+-   couldhappen,16:00,it's not dis-yes-land
+-   couldhappen,30:00,how about expensive champaigne?
+-   couldhappen,10:50,it made me sad
+-   couldhappen,10:50,one day i want you to brawl and fall into the pool
+-   couldhappen,15:00,that one makes me cry
+-   couldhappen,29:00,ignored - our famous catchphrase
+-   couldhappen,23:00,oh he's a dilf - u gotta be careful
+-   couldhappen,36:00,ink-stained wretchess
+-   couldhappen,1:06:00,ding dong hello welcome back
+-   pluminthesun,4:00,now she's a kilf
+-   pluminthesun,7:00,sounds moving
+-   pluminthesun,9:00,i can't - i'm going on a date with that guy
+-   pluminthesun,25:00,you told her about cafe cordiali
+-   pluminthesun,33:00,i forgot he was in the story (mike)
+-   godzilla,28:00,don't say that over the telephone!
+-   clomance,56:00,yeah you're a bad guyw
+-   87 (bowfinger),1:07:00,zat your joke (#jacket)
