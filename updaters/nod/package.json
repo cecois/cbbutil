@@ -33,7 +33,7 @@
     "handlebars": "^4.0.0",
     "json2csv": "^3.7.3",
     "moment": "^2.24.0",
-    "mongodb": "^2.2.36",
+    "mongodb": "^3.1.13",
     "node-nominatim2": "^0.1.0",
     "prompt": "^1.0.0",
     "tar": "^2.2.2",
