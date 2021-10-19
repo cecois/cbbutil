@@ -29,6 +29,7 @@ live-from-vulture-fest-2017
 
 ### instances
 
+-   716,21:50,cut that part out
 -   704,1:05:00,with the hyphen?
 -   700,51:00,it's a scenario where prince philip is robbing a bank?
 -   035,35:00,the ibrain
@@ -253,6 +254,7 @@ live-from-vulture-fest-2017
 -   419,41:03,i'm john lennon, how do you do? \\ i just bought a brand new tennis shoe
 -   419,41:30,rap is foreign to me
 -   419,46:00,what is going on? (bethesda fountain)
+-   723,10:00,exelsior true believers! (stan lee)
 -   419,58:20,morris day (when he went solo)
 -   423,1:04:15,you started to say the stupidest shit
 -   423,29:30,choke on some hot goss
@@ -347,6 +349,8 @@ live-from-vulture-fest-2017
 - 	686,1:03:45,i'm a christmas guy!
 - 	686,1:08:30,i consider that the bottom
 - 	691,1:09:00,and scene - so mike how do you feel?
+- 	713,1:14:00,you've lost your mind!
+- 	722,51:00,jerry mcguire screenplay pdf
 
 # THREEDOM
 
@@ -543,7 +547,7 @@ live-from-vulture-fest-2017
 -   24 (look),21:00,for a woman
 -   24 (look),22:20,can i finish (#canifinish)
 -   24 (look),30:00,when'd you kiss john cho?
--   24 (look),43:40,and buttom up the back of your pants
+-   24 (look),43:40,and button up the back of your pants
 -   24 (look),44:00,dress like johnny appleseed for this bitch
 -   24 (look),50:40,i bought a piano and you can buy one too
 -   25 (cactus),00:45,reporting live from #cafecordialis
@@ -581,17 +585,18 @@ live-from-vulture-fest-2017
 -   28,53:30,if I die
 -   29,3:30,this?
 -   29,50:30,get out
--   29,1:00:30,garbage of ppl
+-   29,1:00:30,garbage of ppl 
 -   30,2:30,solid puh
 -   30,6:30,clue character
 -   30,7:30,Louise ck
 -   30,27:30, finish
 -   30,54:00,i'm back in
--   31,7:15,finish
--   31,7:45,fuck this (long)
--   31,11:45,9/11
--   31,23:30,fucking
--   31,35:00,vulnerable
+-   31-gyms,7:15,finish
+-   31-gyms,7:25,made somebody fat
+-   31-gyms,7:45,fuck this (long)
+-   31-gyms,11:45,9/11
+-   31-gyms,23:30,fucking
+-   31-gyms,35:00,vulnerable
 -   31(1+1?),22:30,who gives a shit?
 -   32(old vegas),1:30,Joanie loves Chachi
 -   32,17:30,look that up on my own time i guess?
@@ -599,6 +604,8 @@ live-from-vulture-fest-2017
 -   3domchallenge,6:30(?),E.T. phone yr lawyer
 -   3domchallenge,8:30,dude - fuk dat
 -   3domchallenge,9:00,can i finish
+-   3domchallenge,11:00,call the dogs
+-   3domchallenge,14:00,hot dog in a condomz
 -   lookatmysnaps,0:00,new theme song
 -   lookatmysnaps,3:30,zat yr jacket
 -   lookatmysnaps,9:15,did you get fatter?
@@ -613,11 +620,21 @@ live-from-vulture-fest-2017
 -   mommyqueen,8:00,it is a comedy?
 -   mommyqueen,16:00,bo derek lineup
 -   mommyqueen,28:30,something i experienced as a child
+	-   pretzelgang,5:00,she was just ugly
+	-   pretzelgang,11:00,more like a condon't
+	-   pretzelgang,12:00,do monkeys have pointed ears bitch?
+	-   pretzelgang,21:00,it's annoying that you would drive one inch
+	-   pretzelgang,35:00,are you afraid of a lizard king?
+	-   pretzelgang,48:00,i was *saying* it
 -   week,17:30,business is good47
 -   week,24:15,in fact I'm smart
 -   week,30:00,acdc guy
 -   week,42:45,lord vader's birthday
 -   week,51:45,what do tits look like?
+-   babylockthemdoors,9,i think she just wanted you to stop talking
+-   babylockthemdoors,22,we might have a hung jury here
+-   babylockthemdoors,28,sorry news we have different news
+-   babylockthemdoors,1:00:00,we don't say that anymore
 -   incel,12:00,popeye roasted
 -   incel,42:30,where a lie becomes true
 -   incel,45:00,i'm an adult
@@ -625,7 +642,7 @@ live-from-vulture-fest-2017
 -   incel,56:30,disney beast - in my own words - me go piggy make baby go piggy time
 -   incel,1:06:30,i'm great at oral sexz
 -   buffalo,14:00,fuck all the way off
--   buffalo,43:45,buffal bill cosby - glad i kept talking
+-   buffalo,43:45,buffalo bill cosby - glad i kept talking
 -   buffalo,51:00,mickey rooney sugar bagies ducca callback
 -   buffalo,1:00:00,inem sterious town
 -   buffalo,1:11:45,shaba di doo dah. (sandler vegetables) 
@@ -638,33 +655,60 @@ live-from-vulture-fest-2017
 -   dogurt,56:00,ostencil me
 -   dogurt,58:30,zat right, shitbird?
 -   morning,4:30,you sleep in the buff?!
+-   tickets,3:00,monthly cooper
 -   tickets,6:00,can i finish
 -   roundscience,51:00,with your little dick out?
 -   icecream,7:15,can i finish
+-   icecream,7:45,who was this rude person?
 -   icecream,8:15,i said not to spoil it (dvds)
 -   icecream,39:00,those are gross brotherz
--   icecream,44:30,are you bringing more back?
+-   icecream,44:30,are you bringing more back? (m&ms)
+-   icecream,52:00,winnie the poop
+-   icecream,1:05:00,an impression of Sam Elliot
 -   nastymound,11:30,oh did someone interrupt you?
 -   nastymound,53:30,nasty mound
--   nastymound,42,i wanna know what you're gonna say as well
--   chocalate cheap,6:15,dick needs to do something
--   chocalate cheap,10,how do you like them olives?
--   chocalate cheap,16,i bet it was - here's another story i have
--   chocalate cheap,17,i'm dead (regis)
--   chocalate cheap,33,we said king tut scott
--   chocalate cheap,35,ryan stanger's clementine story
--   chocalate cheap,53,nixon resigns - later!
+-   nastymound,42,i wanna know what you're gonna say as well (pet peeve)
+-   chocolatecheap,6:15,dick needs to do something
+-   chocolatecheap,10,how do you like them olives?
+-   chocolatecheap,16,i bet it was - here's another story i have
+-   chocolatecheap,17,i'm dead (regis)
+-   chocolatecheap,33,we said king tut scott
+-   chocolatecheap,35,ryan stanger's clementine story
+-   chocolatecheap,45,you guys don't get it (cryptocurrency)
+-   chocolatecheap,53,nixon resigns - later!
+-   chocolatecheap,56,monroe!
+-   chocolatecheap,1:16:00,you were a fart you were a murderer
 -   circlesonastick,11,closest you've come to doing crack
+-   circlesonastick,1:04:00,but there was a little drama
 -   circlesonastick,1:04:00,i just need to wet my whistle
+-   circlesonastick,1:11:00,i don't care anymore
+-   sologamy,16,you don't have to say anything (to a woman on the street)
+-   sologamy,47,9/11 happened today (did you hear what happened yesterday?!)
 -   sologamy,49,like they do all those babies
--   sologamy,1:02:00,are you married to jiminy glick
+-   sologamy,1:00:00,ya fuggin got me (announcement)
+-   sologamy,1:03:00,that's your baby? it looks like your wife
+-   sologamy,1:03:00,are you married to jiminy glick
 -   tigerking,22:00,grapes!
--   tigerking,58,instrumentals (flute?)
--   moneybucs,32:30,surgery
+-   tigerking,29:00,i know what he did (walter murphy's fifth of beethoven)
+-   tigerking,38,are you talking to me?
+-   tigerking,59,instrumentals (flute?)
+-   slapmachines,37,you messy bitches loved drama
+-   perabo,15,believe you're supposed to leave it in
+-   perabo,19+,giving tree (includes richard dreyfuss)
+-   perabo,49,a frisbee we can't see
+-   moneybucks,32:30,surgery (was that when you hurt your but? you guys knowing why i was out makes this insensitive)
+-   moneybucks,59:00,you're both free to do that (talk to other people)
 -   homies,23:00,speaking of bombs
+-   halebopp,13,kulap's friends
 -   halebopp,16:30,threesome
+-   halebopp,49,linament oil (pass)
+-   normalkingdom,24,i have money do you have toilet?
+-   normalkingdom,44,how does this song make you feel?
+-   tbs,6:00,1912 - the ginger ale polka
 -   tbs,8:00,fattest tits in l.a.
 -   tbs,25:00,here look at this (drawing of you)
+-   tbs,43,i get that a lot - here
+-   tbs,55,but they have playstation right?
 -   tbs,1:01:30,can she greenlight in the room?
 -   karate,15:00,mr. jerk-off came to town
 -   karate,40:00,long hair problem
@@ -674,17 +718,22 @@ live-from-vulture-fest-2017
 -   belly,8:30,lickin' those cones
 -   belly,8:40,you're not in fifth grade anymore
 -   belly,19:00,tuxedon't
+-   belly,20,i forgot what we were talking about (restaurant roundup)
 -   belly,21:00,fuck up a whole town
 -   belly,24:00,faxing (oh it sucks)
 -   belly,??:??,i was a babysitter and then i was in movies
 -   belly,55:00,dear i wanna fuck you
+-   belly,1:07:00,oh yeah "rest area" == "parking"
 -   belly,1:07:00,car slot
 -   belly,1:09:00,this game sucks ass
 -   belly,24:00,it was called that or that's all they had?
--   squish,41:00,two losers 
--   squish,1:12:30,it's ding dong (what's up, playaz?)
+-   squish,24,beta only
+-   squish,41:00,two losers
+-   squish,1:06:00,hello i am your waiter this evening
 -   squish,1:13:00,paul you're balding!
 -   squish,27:00,what's fingering?
+-   squish,1:12:00,ding dong is born (what's up, playaz?)
+-   squish,1:13:00,yeah what is her last name?
 -   ghost,1:00:00,jacket (#jacket)
 -   ghost,19:00,a print of the mona lisa?
 -   ghost,45:00,did you get that high times magazine i sent you?
@@ -694,6 +743,7 @@ live-from-vulture-fest-2017
 -   dogkey,48:00,pew pew pew
 -   dogkey,51:00,rip ken ober (starwars)
 -   dogkey,56:00,foul mouthed guest star
+-   plane,00:00,u da paul now dog
 -   plane,11:00,indiana (starwars)
 -   plane,43:00,donkey show!
 -   plane,54:00,wobbley-hipped old slut
@@ -710,10 +760,93 @@ live-from-vulture-fest-2017
 -   couldhappen,36:00,ink-stained wretchess
 -   couldhappen,1:06:00,ding dong hello welcome back
 -   pluminthesun,4:00,now she's a kilf
--   pluminthesun,7:00,sounds moving
+-   pluminthesun,7:00,[coming out of a yawn] sounds moving
 -   pluminthesun,9:00,i can't - i'm going on a date with that guy
 -   pluminthesun,25:00,you told her about cafe cordiali
 -   pluminthesun,33:00,i forgot he was in the story (mike)
 -   godzilla,28:00,don't say that over the telephone!
--   clomance,56:00,yeah you're a bad guyw
--   87 (bowfinger),1:07:00,zat your joke (#jacket)
+-   emojourney,28:00,i'm married
+-   ryanoneedle,29,i don't wanna peer-pressure josh
+-   ryanoneedle,6,spooned by your wife
+-   ryanoneedle,7,broke into the house and loves me
+-   ryanoneedle,14,and you called and that was the guy she was cheating on you with
+-   ryanoneedle,23,she had a tumor in her lip
+-   ryanoneedle,27,they get four teams of famous designers (here i go)
+-   ryanoneedle,35,what juggler...?
+-   ryanoneedle,1:08:00,when the mothbag leaks
+-   clomance,56:00,yeah you're a bad guy
+-   clomance,22:00,then we have a hospital party
+-   clomance,1:00:00,of fucking course you did (we got a visit from popeye coming up)
+-   clomance,1:03:00,sound effects in my library
+-   clomance,9:00,this guy's shittin'!
+-   computer,47,where did she want you to goj?
+-   haha,18,it's illegal to have your dog off the leash
+-   haha,21,hold on (lauren needs to sing)
+-   haha,23,i can't believe all the fuckin restaurant stories we had to sit through
+-   haha,28,hunt! (garden gnomes)
+-   babylockthemdoors,52,so not hugh grant then anyway
+-   hotdog,13,castle takes queen
+-   hotdog,46,you were trying to tell me how cute i'd think my dog's shits were
+-   pachinko,7,put your shirt on
+-   pachinko,10,we're now allowing dorks to work here
+-   pachinko,11,regrets i've had a bunch
+-   pachinko,19,is there a third choice?
+-   pachinko,27,what would you do?  
+-   pachinko,32,here's our reddit thread
+-   pachinko,35,hi ron you say to mickey mouse
+-   pachinko,35,just learned how to get a good haircut
+-   pachinko,59,can you repeat that i was singing
+-   benjibutts,39,hey jill eichenberry it's me
+-   benjibutts,49,you know it's supposed to start as pretty simple right?
+-   bowfinger,1:07:00,zat your joke (#jacket)
+-   bowfinger,6,when did you hear this?
+-   bowfinger,16,burn a few calories
+-   bowfinger,17,that story had everything from i don't remember to what did you say again?
+-   bowfinger,32,you done i gotta go kick some raccoons
+-   bowfinger,40,mommy do we have taste?
+-   bowfinger,44,imagine how kulap felt - it wz their anniversary
+-   bowfinger,47,scrambling scrambling
+-   bowfinger,49,there's shit everywhere - whaddya think of this?
+-   bowfinger,49,we know! (what?)
+-   bowfinger,55,me shut up?! you shut up!
+-   bowfinger,1:00:00,yes here it comes (paul wz just doing bits)
+-   bowfinger,1:04:00,would u say it's a bit of a pig pen around your place?
+-   bowfinger,1:04:00,who me?!
+-   bowfinger,1:05:00,where are your eyes going?
+-   bowfinger,1:07:00,rough (ruf)
+-   threeshots,33,george lopez?
+-   threeshots,26,diane devito?
+-   threeshots,35,couple little cake doughnuts back there
+-   eggtofry,10:00,would u guys ever enter a body-building competition?
+-   eggtofry,18:00,we're so stupid
+-   eggtofry,19:00,three days after my wife dies i go to mars to do a podcast
+-   eggtofry,25:00,i bet that was great (scott's early tv channels bit)
+-   lightbulb,10:00,i can't (do a nixon impression)
+-   lightbulb,12:00,you like when penises cum on you
+-   lightbulb,1:02:00,i'm not always good (avocado)
+-   randomways,25:00,my porno
+-   randomways,31:00,this is how perverts talk
+-   flasier,53:00,amazon.porn
+-   flasier,17:00,i need some more clown white
+-   flasier,26:00,oh '94 ok i woulda been way too old (nixon death)
+-   sprinkle,51:00,i've never heard of a threeture
+-   heyman,3:00,double masectomy?
+-   heyman,27:00,woodberg
+-   heyman,31:00,now i'm gonna relax with my favorite podcast
+-   heyman,32:00,i'm gonna need you to move your house man
+-   heyman,37:00,is it called dorkus?
+-   toothpaste,25:00,i probably got 10000 steps
+-   toothpaste,29:00,no problem already there (pile of clothes)
+-   toothpaste,32:00,what did she say?
+-   toothpaste,39:00,eh this is your third missing dog story
+-   toothpaste,44:00,why are you so remote - wishing you the best
+-   toothpaste,46:00,i'll never send flowers to that bitch
+-   toothpaste,52:00,they activated her poison tooth
+-   pudding,8:00,are chaperones cucks?
+-   pudding,11:00,can you believe you had to be in that time?
+-   pudding,12:00,what the fuck is going on here today (america's next top model)
+-   freewilly,37:00,oh we're still talking about that?
+-   freewilly,40:00,you can buy a lot of candy with $40
+-   tendrils,8:00,dick cavett getting owned
+-   tendrils,16:00,gabity boop (louie armstrong scat)
+-   tendrils,23:00,good catch (red hot chili peppers)

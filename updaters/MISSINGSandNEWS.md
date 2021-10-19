@@ -73,12 +73,14 @@
   - 561,17:00
 
 - notorious terf jk rowling
+  - 715,12:00
   - 667,50:00
   - 667,long before 50:00
   - 667,1:01:00
   - 675,19:50
   - 686,38:45
   - 701,10:00
+  - 713,13:00
 
 - shaggygawea
   - 688,42:30
@@ -195,6 +197,7 @@
   - 379,1:10:45
   - 493,7:00
   - 474,14:30
+  - 726,2:45
 * Bone Queef
   - 430,\*\*\*
   - 599,2:50:15
@@ -684,8 +687,14 @@
 
   - http://howl.fm/audio/42018/may-21-detroit-royal-oak-music-theatre,37:30
 
+- fast & furious presents:
+  - many before 720
+  - 720,5:00
+
+
 - thanks, reggie
   - almost every ep at least thru 84
+  - 720,2:50
   - 537,0:50
   - 572,0:10(pw)
   - 545,1:15(pw)
@@ -804,6 +813,7 @@
   - ~~385,45:00(pw)~~
 - hollywood facts
   - lots
+  - 722,22:00
   - 519,1:41:00(commercialed)
   - 667,24:50
   - 371,56:00(pw)
@@ -1974,6 +1984,8 @@
   - 377,45:20(pw)
   - 384,33:00(pw)
 - face / off
+  - 713,38:00
+  - 713,10:15
   - 672,55:45
   - 136,1:22:11
   - 2016.minneapolis,30:50 (not sure now)
@@ -2065,6 +2077,8 @@
   - bo2020.2,11:45
 - saturday (day) night live
   - lots
+  - 720,1:17:00
+  - 720,2:00
   - 363,8:30(pw)
   - 113,2:30
   - 358,3:30(pw)
@@ -2145,6 +2159,7 @@
 	- lotsa
 	- 
 - we'll pay for it (if you wanna go on another date)
+  - 726,1:28:00
   - 701,1:15:00
   - 567,14:00
   - 637,1:05:10
@@ -2189,6 +2204,11 @@
   - 434,9:30(pw)[]()
 
 - interesting people
+  - 726,52:00
+  - 719,17:00
+  - 718,0:00
+  - 716,1:00
+  - 715,22:00
   - 704,52:00
   - several of the 480+ eps
   - 697:1:30
