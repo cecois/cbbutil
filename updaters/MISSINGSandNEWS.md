@@ -37,6 +37,11 @@
 2. face/off
 1. subepisodes
 
+- do they ever drop the act?
+  * plenty before 737
+  * 737,2:09:00
+  * BO2021.1,21:30
+
 - ooh-la-la sex
 	* bo2019.2,5:50
 	* bo2019.2,19:00
@@ -90,6 +95,7 @@
   - 530,22:30
   - bo2019.2,38:30
   - countless best-ofs
+  - BO2021.1,36:00
 
 - figured it out is from pajama game - see st. paul 2019 pt. 2 for tags
 
@@ -172,6 +178,7 @@
 * bajillion (or any) call sheet
   - bo2018.\*
   - 665,28:45
+  - 731,4:30
   - 670,12:15
   - 657,1:00:00
   - 657,2:24
@@ -693,6 +700,7 @@
 
 
 - thanks, reggie
+  - 731,1:50
   - almost every ep at least thru 84
   - 720,2:50
   - 537,0:50

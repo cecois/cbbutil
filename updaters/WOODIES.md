@@ -29,6 +29,7 @@ live-from-vulture-fest-2017
 
 ### instances
 
+-   730,38:00,don't laugh you're being terrible (hoodies)
 -   716,21:50,cut that part out
 -   704,1:05:00,with the hyphen?
 -   700,51:00,it's a scenario where prince philip is robbing a bank?
@@ -351,6 +352,8 @@ live-from-vulture-fest-2017
 - 	691,1:09:00,and scene - so mike how do you feel?
 - 	713,1:14:00,you've lost your mind!
 - 	722,51:00,jerry mcguire screenplay pdf
+- 	bo2021.2,2:20,email haver at email.com
+- 	bo2021.2,47,what's this 'see you next tuesday'?
 
 # THREEDOM
 
@@ -850,3 +853,31 @@ live-from-vulture-fest-2017
 -   tendrils,8:00,dick cavett getting owned
 -   tendrils,16:00,gabity boop (louie armstrong scat)
 -   tendrils,23:00,good catch (red hot chili peppers)
+-   bedislego,26:00,zat yr jacket
+-   bedislego,56:00,mmm...abortion
+-   bedislego,1:01:00,is your client a monkey?
+-   meetbeef,11:50,you can just call me witch
+-   meetbeef,10,miss my nabe - hold on
+-   meetbeef,37,book the movie?
+-   meetbeef,37,robert dustin hoffman?
+-   magoo,4,zat yr #jacket
+-   magoo,22,it's your blackout
+-   magoo,43,zat yr #jacket
+-   magoo,43:30,zat yr #jacket
+-   boop,5,whatever i just asked?
+-   boop,6,obstacle course in the sky (heaven?)
+-   boop,10,style it that way from now on (no can do chief)
+-   boop,17,thanks for covering for me
+-   boop,24,based on the book precious
+-   boop,27,john kerry reporting for duty
+-   boop,27,you are really lost
+-   boop,27,broke this toilet
+-   boop,30,hey you piece of shit
+-   boop,40,my tits are up here
+-   boop,41,get to the part where you break the toilet
+-   boop,41,a great friend who was dupaul?
+-   boop,48,dirtiest room
+-   boop,53,comic books flying out of the back (of the truck)
+-   crumbelievable,17,can i finish
+-   crumbelievable,41,zat yr #jacket?
+-   crumbelievable,50,while i was climbing its neck it snapped in half
