@@ -67,7 +67,7 @@
     "mongo-async": "^0.2.1",
     "mongobackup": "^0.3.5",
     "mongolab-data-api": "^1.1.6",
-    "node-sass": "^4.5.3",
+    "node-sass": "^7.0.0",
     "potrace": "^2.1.1",
     "request-promise": "^4.2.1",
     "rupture": "^0.6.1",
