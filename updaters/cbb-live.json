@@ -483,4 +483,26 @@
     "slug_earwolf": "the-pool-duel-over-part-duel",
     "episode": 750,
     "show": "cbb"
+}, {
+    "tstart": "1:30:50",
+    "instance": "mmmmmmmmm",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tend": "1:32:00",
+    "tags": ["Byron Denniston", "Brian Burton",
+        "Thomas Callaway",
+        "Gian Franco Reverberi",
+        "Gian Piero Reverberi",
+        "Crazy (song)",
+        "Gnarls Barkley", "Greg (Grizzle) Mallett"
+    ],
+    "created_at": "2022-03-29T10:51:29Z",
+    "updated_at": "2022-03-29T10:51:29Z",
+    "episode_guests": ["Jason Mantzoukas", "Andy Daly", "Paul F. Tompkins"],
+    "episode_title": "The Pool Duel-Over: Part Duel",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "the-pool-duel-over-part-duel",
+    "episode": 750,
+    "show": "cbb"
 }]
