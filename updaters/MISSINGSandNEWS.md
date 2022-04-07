@@ -37,8 +37,13 @@
 2. face/off
 1. subepisodes
 
+- wet day
+  * 750,20
+  * at least one prior, prolly two (possibly not even cbb proper)
+
 - do they ever drop the act?
   * plenty before 737
+  * 748,1:04:20
   * 737,2:09:00
   * BO2021.1,21:30
 
@@ -78,6 +83,8 @@
   - 561,17:00
 
 - notorious terf jk rowling
+  - 747,42
+  - 740,25
   - 715,12:00
   - 667,50:00
   - 667,long before 50:00
@@ -177,6 +184,8 @@
   - 451,40:00
 * bajillion (or any) call sheet
   - bo2018.\*
+  - 749,22:45
+  - 749,34:50
   - 665,28:45
   - 731,4:30
   - 670,12:15
@@ -558,6 +567,8 @@
   - 197,34:30
   - 197,35:50
 - zouks wants clarification (what do you mean?)
+  - 750,1:03:40
+  - 750,6:20
   - 463,2:09:50(pw)
   - 638,1:01:00
   - 622,9:30
@@ -664,6 +675,10 @@
   - 132,6:30
   - 447,50:45(pw)
 - no rule against dogs playing (football|basketball)
+  - 750,1:17:00
+  - 750,1:16:30
+  - 750,1:05:40
+  - 750,49
   - 2016.shepherds,42:45
   - washington dc November 27 2019,1:32:15
   - 655,44:00
@@ -739,6 +754,7 @@
   - 529,22:00
   - 309,45:50(paywall)
   - 484,54:30(howl)
+  - 131,3:30
   - 125,??
   - 126,1:14:28
   - countless
@@ -753,6 +769,7 @@
   - http://howl.fm/audio/26162/live-from-washington-dc-2013-part-2,30:40
   - 485,2:37:15(ads)
 - pft has time for x more questions
+  - 750,1:21:10
   - 59,12:00
   - 2016.nyc05147pm,1:01:00
   - 70,36:45
@@ -890,6 +907,7 @@
   - 2016.losangeles,1:01:00
   - 2016.losangeles,1:00:40
 - character bonanzas
+  - 750,1:00:00+
   - 709,will hines does morpheus and Andy Manders
   - 707,pft from the jump
   - 650,daly
@@ -2167,6 +2185,7 @@
 	- lotsa
 	- 
 - we'll pay for it (if you wanna go on another date)
+  - 747,1:09:00+
   - 726,1:28:00
   - 701,1:15:00
   - 567,14:00
@@ -2188,6 +2207,7 @@
   - now hear this 2017 nyc,1:45
   - may-20-chicago-7pm,52:15
   - 626,1:05:00
+  - 746,1:36:00
 
 - shallatoo (maxwell keeper's new catchphrase)
   - 483,several
@@ -2211,7 +2231,12 @@
 	- live-from-vulture-fest-2017,1:35:00
   - 434,9:30(pw)[]()
 
-- interesting people
+- interesting people (humanity's podcast etc)
+  - 746,10+
+  - 741,19+
+  - 740,6+
+  - 739,1
+  - 739,1
   - 726,52:00
   - 719,17:00
   - 718,0:00
