@@ -9,6 +9,9 @@
 * http://howl.fm/audio/26142/live-from-chicago-2014,51:49,badbitchbailbonds.com
 * http://howl.fm/audio/26142/live-from-chicago-2014,54:10,naughtynotary.net
 * http://howl.fm/audio/26142/live-from-chicago-2014,1:14:15,wrongpussy.pr
+* 752,1:25:00
+* 752,1:20:00
+* 752,1:01:00
 * 750,1:19:50
 * 731,1:45:40
 * 731,43:00

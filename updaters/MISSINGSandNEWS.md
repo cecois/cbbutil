@@ -38,7 +38,8 @@
 1. subepisodes
 
 - wet day
-  * 750,20
+  * 752,:20
+  * 752,2:20
   * at least one prior, prolly two (possibly not even cbb proper)
 
 - do they ever drop the act?
@@ -451,6 +452,15 @@
 
   - missing one from #483
 
+- shimmy lincoln appears (still lost)
+  - 752,33:30
+  - 752,0:30
+  - multiple episodes after (and including?) the episode in which matt gourley's band appeared
+
+- wet day
+
+  - 750,??
+
 - sequel numbering
 
   - 477,15:30
@@ -479,6 +489,7 @@
   - 324,14:00
 - EGOTSGCA (spike guys' choice)
   - 330,25:45(pw)
+  - 751,24+
   - at least once prior
 - race to death/the end
   - multiple prior to 214
@@ -950,6 +961,7 @@
 - rounds of catchphrase
   - 702,25:50
 - all the cities of the country
+  - 752,10:30
   - 404,16:00
   - 391,1:31:45(pw)
   - 485,1:49:00(ads)
@@ -2083,6 +2095,7 @@
   - 2016.tour.bos10,43:00
   - mike the janitor/bachelor bros ep
 - ha'penny
+  - 752,13:45
   - 623,1:03:45
   - portland late show 2019,38:30
   - 2016.sydney,1:21:30
