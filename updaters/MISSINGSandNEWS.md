@@ -108,6 +108,12 @@
 - figured it out is from pajama game - see st. paul 2019 pt. 2 for tags
 
 - you take care
+  - 754,1:19+
+  - 754,1:03+
+  - 754,47+
+  - 754,45+
+  - 754,42+
+  - 754,39+
 	- see oj appearances by carl tart
 	- vancouver2019,1:06:00
 	- ",1:07:00
