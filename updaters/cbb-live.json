@@ -1984,8 +1984,8 @@
     "updated_at": "2022-05-04T10:51:29Z",
     "episode_guests": ["Claudia O'Doherty", "Carl Tart", "Brad Evans", "Nick Ciarelli"],
     "episode_title": "Top Letterboxd Reviews",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "572",
     "slug_earwolf": "top-letterboxd-reviews",
     "episode": 754,
     "show": "cbb"
