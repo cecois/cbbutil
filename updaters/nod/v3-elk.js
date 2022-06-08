@@ -6,13 +6,12 @@ const __ = require('underscore'),
     TAR = require("tar-fs"),
     PATH = require('path'),
     ZLIB = require('zlib'),
-    // DB = require('mongodb').Db,
-    // MLAB = require('mongolab-data-api')(CONFIG.mongokey),
     ELASTIC = require('elasticsearch'),
     MOMENT = require('moment'),
     CHEERIO = require('cheerio'),
     AXIOS = require('axios'),
-    CLOUDINARY = require('cloudinary').v2;
+    CLOUDINARY = require('cloudinary').v2,
+    CBBUTIL = require('./util');
 
 CLOUDINARY.config({
     cloud_name: CONFIG.cloudinary.cloud_name,
@@ -184,7 +183,10 @@ var _AUDIT = async(inc, ext) => {
                 console.log("CANDIDATES::", candidates)
             }
             // if there's even 1 we need to halt and investigate so we set the flag we check at the end to stop
-            var flag = (candidates.length > 0) ? 'stop' : 'go'
+            flag = (candidates.length > 0) ? 'stop' : 'go';
+            flag = CBBUTIL.auditGeoms(inc_finder);
+            console.log("flag", flag);
+            process.exit();
 
             var r = {
                 flag: flag,
@@ -194,7 +196,7 @@ var _AUDIT = async(inc, ext) => {
         }); //Promise
     } //audit
 
-const _SEND = async(bits) => {
+/*const _SEND = async(bits) => {
     return new Promise(function(resolve, reject) {
 
         var options = {
@@ -214,7 +216,7 @@ const _SEND = async(bits) => {
         }); //MONGO.connecdt
 
     }); //Promise
-}
+}*/
 
 const _SENDSUMMARY = async(update) => {
     console.log("   in sendsummary...")
@@ -724,13 +726,13 @@ const main = async() => {
         */
 
         let OPS = {
-        backup: false,
-        incoming: false,
-        audit: false,
-        merge: false,
-            elastify: true,
-        summarize: false,
-        sendupdates: false
+            backup: false,
+            incoming: true,
+            audit: false,
+            merge: false,
+            elastify: false,
+            summarize: false,
+            sendupdates: false
         }
 
         try {
@@ -762,13 +764,17 @@ const main = async() => {
                     R.incoming = inc.msg
                     var inca = inc.payload
                     console.log("inca.length", inca.length)
-                    console.log("inca.episodes", __.uniq(__.pluck(inca, 'episode')))
+                    let eps = __.uniq(__.pluck(inca, 'episode'));
+                    let maxEpisode = CBBUTIL.maxEpisode(eps);
+                    console.log("maxEpisode", maxEpisode);
+                    process.exit();
                 }
 
                 if (OPS.audit) {
                     /* ----------------------------------------------- audit
                     // we send the fresh stuff and the archive for audit
                     // audit maps inca and exta into comparable arrays (concatenating several presumably distinct fields [episode+bit+instance+tags] into one nonsensical but probably-unique string) - N.B. this is not foolproof
+                    // as of 2022.June audit will also check for Location bits with missing keys
                     */
 
                     console.log("awaiting most recent...")
@@ -809,27 +815,23 @@ const main = async() => {
 
                 } //if.audit
 
-                if (OPS.pushMlab) {
-                    /* ----------------------------------------------- send to mlab */
+                /*                if (OPS.pushMlab) {
 
-                    console.log("--------------------> sending " + inca.length + " documents to MLAB...");
-                    sent = await _SEND(inca);
+                                    console.log("--------------------> sending " + inca.length + " documents to MLAB...");
+                                    sent = await _SEND(inca);
 
-                    if (sent.documents.n !== inca.length) {
-                        console.log("ERROR: mismatching in sent (" + sent.documents.n + ') and incoming raw (' + inca.length + '),  exiting...');
-                        process.exit();
-                    }
-                }
+                                    if (sent.documents.n !== inca.length) {
+                                        console.log("ERROR: mismatching in sent (" + sent.documents.n + ') and incoming raw (' + inca.length + '),  exiting...');
+                                        process.exit();
+                                    }
+                                }
 
-                if (OPS.pullMlab2) {
-                    /* -----------------------------------------------
-                    // Now we repeat bu and most_recent cuzzits gonna have sent.documents.length more
-                    */
-                    const bu2 = await _EXTANT();
-                    console.log("getting most recent bu again (should be newer than before");
-                    var ext_source2 = await _MOST_RECENT();
-                    console.log("it's:", ext_source2);
-                }
+                                if (OPS.pullMlab2) {
+                                    const bu2 = await _EXTANT();
+                                    console.log("getting most recent bu again (should be newer than before");
+                                    var ext_source2 = await _MOST_RECENT();
+                                    console.log("it's:", ext_source2);
+                                }*/
 
                 if (OPS.elastify) {
                     var clientTemp = new ELASTIC.Client({
@@ -890,7 +892,8 @@ const main = async() => {
         } catch (error) {
             console.error(error);
         }
-        console.log("WANNA BACK UP DEM GEOMS, CHUMP? USED TO BE ./geobu.js BUT NOW U USIN FILZ")
+        console.log("WANNA BACK UP DEM GEOMS, CHUMP? USED TO BE ./geobu.js BUT NOW U USIN FILZ");
+        console.log(`http://milleria.org:9200/cbb/_search?size=1&q=episode:754`)
     } //main
 
 main();
