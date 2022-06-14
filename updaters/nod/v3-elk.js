@@ -727,12 +727,12 @@ const main = async() => {
 
         let OPS = {
             backup: false,
-            incoming: true,
+            incoming: false,
             audit: false,
             merge: false,
-            elastify: false,
+            elastify: true,
             summarize: false,
-            sendupdates: false
+            sendupdates: true
         }
 
         try {
@@ -884,7 +884,7 @@ const main = async() => {
                     });
 
                     let E = await _ELASTIFYUPDATES();
-                    console.log(`${E.items.length} updates sent w/ errors==${E.errors}`);
+                    console.log(`${E.items.length} updates sent w/ errors==${JSON.stringify(E)}`);
                 }
 
             }

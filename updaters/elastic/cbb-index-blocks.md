@@ -21,3 +21,4 @@ curl -XDELETE 'milleria.org:9200/cbb?pretty' -H 'Content-Type: application/json'
 
 curl -XPUT 'http://milleria.org:9200/cbb'
 curl -XPUT 'http://milleria.org:9200/cbb_geoms'
+curl -XPUT 'http://milleria.org:9200/cbb_updates' -H 'Content-Type: application/json' -d'{"mappings": {"properties": {"date":{"type":"text"},"query":{"type":"text"},"episodes_summary":{"type":"text"},"eps":{"type":"text"}}}}'

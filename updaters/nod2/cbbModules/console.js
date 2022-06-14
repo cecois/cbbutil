@@ -1,9 +1,18 @@
+const {
+    DateTime
+} = require("luxon"),
+    LUXON = DateTime //alias DateTime
+;
 module.exports = {
-        error: (m) => {
-                return `${new Date().toISOString()} - 🚨 - ${m}`;
+        error: (_cfg, _m) => {
+                let mm = `${LUXON.utc().toISO()} - ERROR - ${_m}`;
+                _cfg.liveDebug && console.log(mm);
+                return mm;
             } //error
             ,
-        info: (m) => {
-                console.log(`${new Date().toISOString()} - ℹ - ${m}`);
+        info: (_cfg, _m) => {
+                let mm = `${LUXON.utc().toISO()} - INFO - ${_m}`;
+                _cfg.liveDebug && console.log(mm);
+                return mm;
             } //error
     } //exports

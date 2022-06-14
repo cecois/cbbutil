@@ -1,5 +1,6 @@
 # possible new bits:
 
+0. fix fugees "one time" - no doubt its a ref to *killing me softly* and not any other fugees track
 0. fix eluc of vicar of yanks bit
 0. bean dip's real name is "sally dunkirk" acc to cbb#659
 0. ~~clean up nephew todd tag~~
@@ -36,6 +37,12 @@
 1. ~~s my c~~
 2. face/off
 1. subepisodes
+
+- lily sullivans social handle
+  * 755,2:01:30
+
+- bill walton lists
+  * (every bill walton appearance)
 
 - wet day
   * 752,:20

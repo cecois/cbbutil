@@ -405,19 +405,19 @@ export default {
   },
   name: "CBB-GUI",
   created: function() {
-    this.CONFIG = CONFIGG.mode == "prod" ? CONFIGG.prod : CONFIGG.dev
-      // this.bootstrap()
-      // this.loadings.app = true
-      //     this.elasticSearchClient = new es.Client({
-      //     host: 'https://search-cbb-wxjx2uda6c4c7uhvc7c7eocdwu.us-east-1.es.amazonaws.com',
-      //     connectionClass: awsHttpClient,
-      //     amazonES: {
-      //         region: this.CONFIG.awsServiceRegion,
-      //         accessKey: this.CONFIG.awsAccessKeyId,
-      //         secretKey: this.CONFIG.awsSecretAccessKeyId
-      //     }
-      //     ,awsConfig: new AWS.Config({region: CONFIG.awsServiceRegion})
-      // });
+    // this.CONFIG = CONFIGG.mode == "prod" ? CONFIGG.prod : CONFIGG.dev
+    // this.bootstrap()
+    // this.loadings.app = true
+    //     this.elasticSearchClient = new es.Client({
+    //     host: 'https://search-cbb-wxjx2uda6c4c7uhvc7c7eocdwu.us-east-1.es.amazonaws.com',
+    //     connectionClass: awsHttpClient,
+    //     amazonES: {
+    //         region: this.CONFIG.awsServiceRegion,
+    //         accessKey: this.CONFIG.awsAccessKeyId,
+    //         secretKey: this.CONFIG.awsSecretAccessKeyId
+    //     }
+    //     ,awsConfig: new AWS.Config({region: CONFIG.awsServiceRegion})
+    // });
 
     // this.query.facets = (this.$route.params.facets) ? decodeURI(this.$route.params.facets.split(",")) : []
     this.actives = {
@@ -472,7 +472,12 @@ export default {
   },
   data() {
     return {
-      CONFIG: null,
+      CONFIG: {
+        "elastic_bits": "http://milleria.org:9200/cbb/_search?",
+        "elastic_facets": "http://milleria.org:9200/cbb/_search?",
+        "atlas_geoms": "http://milleria.org:3030/geoms/simple?q=",
+        "atlas_updates": "http://milleria.org:9200/cbb_updates/_search?size=9999&q=",
+      },
       loadings: { maplayer: false, app: false, popupopen: false },
       hero: null,
       updates: [],
