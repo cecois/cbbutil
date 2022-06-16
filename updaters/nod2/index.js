@@ -24,7 +24,7 @@ let OPS = {
         },
         ops: [{
             handle: "backupBits",
-            run: false,
+            run: true,
             messages: null,
             errors: null,
             kill: {
@@ -34,7 +34,7 @@ let OPS = {
             payload: null
         }, {
             handle: "auditBits",
-            run: false,
+            run: true,
             messages: null,
             errors: null,
             kill: {
@@ -122,6 +122,13 @@ let OPS = {
 const _E = (O) => {
     // console.log(jso(O));
 
+    exec('open raycast://confetti', (err, stdout, stderr) => {
+        if (err) {
+            console.error(`exec error: ${err}`);
+            return;
+        }
+    });
+
 }
 
 const _I = () => {
@@ -174,10 +181,3 @@ const _I = () => {
     } //_i
 
 _I();
-
-exec('open raycast://confetti', (err, stdout, stderr) => {
-    if (err) {
-        console.error(`exec error: ${err}`);
-        return;
-    }
-});
