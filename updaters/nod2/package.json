@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "getopts": "^2.3.0",
     "luxon": "^2.4.0",
     "tar": "^6.1.11",
     "underscore": "^1.13.4"
