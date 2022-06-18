@@ -186,7 +186,6 @@ var _AUDIT = async(inc, ext) => {
             flag = (candidates.length > 0) ? 'stop' : 'go';
             flag = CBBUTIL.auditGeoms(inc_finder);
             console.log("flag", flag);
-            process.exit();
 
             var r = {
                 flag: flag,
@@ -726,12 +725,12 @@ const main = async() => {
         */
 
         let OPS = {
-            backup: false,
-            incoming: false,
-            audit: false,
-            merge: false,
+            backup: true,
+            incoming: true,
+            audit: true,
+            merge: true,
             elastify: true,
-            summarize: false,
+            summarize: true,
             sendupdates: true
         }
 
@@ -767,7 +766,6 @@ const main = async() => {
                     let eps = __.uniq(__.pluck(inca, 'episode'));
                     let maxEpisode = CBBUTIL.maxEpisode(eps);
                     console.log("maxEpisode", maxEpisode);
-                    process.exit();
                 }
 
                 if (OPS.audit) {

@@ -16,6 +16,10 @@ const options = getopts(process.argv.slice(2), {
     }
 });
 
+const _ERR = (m) => {
+
+}
+
 /*
 
 																							 e88~-_  888-~88e   d88~\
@@ -27,7 +31,7 @@ const options = getopts(process.argv.slice(2), {
 
 */
 
-const _checkLocations = () => {
+const _locations = () => {
     let bits = require('./live.json');
     console.log("bits.length", bits.length);
     let locationBits = bits.filter(b => b.bit.toLowerCase() == 'location');
@@ -36,7 +40,10 @@ const _checkLocations = () => {
         return (!b.location_id || !b.location_type);
     });
 
-    console.log("... ...locations missing meta", locationBitsMissingMeta.length);
+    let lbl = locationBits.length;
+    let lbmml = locationBitsMissingMeta.length;
+
+    lbl !== lbmml && _ERR(`bits are missing IDs and/or types`);
 
 }
 
@@ -50,7 +57,7 @@ const _checkLocations = () => {
 
 */
 
-options.locations && _checkLocations();
+options.locations && _locations();
 
 exec('open raycast://confetti', (err, stdout, stderr) => {
     if (err) {
