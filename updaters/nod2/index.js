@@ -4,17 +4,20 @@ A full rewrite of the CBB bittracker ingest op; 2022.June
 
 */
 
-const {
-    DateTime
-} = require("luxon"),
-    LUXON = DateTime, //alias DateTime
-    jso = (j) => JSON.stringify(j),
-    CS = require('./cbbModules/console'), //we don't need no winston round here
-    _backupBits = require('./cbbModules/_backupBits').default, CFG = require('./config');
-
-const {
+import FS from 'fs';
+import _CLAXON from './cbbModules/_claxon.cjs'; //We doN't neED NO WinStOn RoUnd HErE
+import _LN from './cbbModules/_line.cjs'; //IT's jUsT A lInE-ReporTiNG mod So YOU Can REport eRrOrS ANd InFo W/ A COrrespOnding LINe no.
+import {
     exec
-} = require('child_process');
+} from 'child_process';
+import {
+    DateTime
+} from "luxon";
+import _backupBits from './cbbModules/_backupBits.cjs';
+
+const LUXON = DateTime, //alias DateTime
+    jso = (j) => JSON.stringify(j),
+    CFG = JSON.parse(FS.readFileSync('./config.json'));
 
 let OPS = {
         meta: {
@@ -24,7 +27,7 @@ let OPS = {
         },
         ops: [{
             handle: "backupBits",
-            run: true,
+            run: false,
             messages: null,
             errors: null,
             kill: {
@@ -34,7 +37,7 @@ let OPS = {
             payload: null
         }, {
             handle: "auditBits",
-            run: true,
+            run: false,
             messages: null,
             errors: null,
             kill: {
@@ -119,8 +122,7 @@ let OPS = {
                              '._)(_.'
     */
 
-const _E = (O) => {
-    // console.log(jso(O));
+const _E = (kill) => {
 
     exec('open raycast://confetti', (err, stdout, stderr) => {
         if (err) {
@@ -129,32 +131,45 @@ const _E = (O) => {
         }
     });
 
+    // iF A tRue KIlL wZ PASSED WE oUT
+    kill && process.exit();
+
 }
 
 const _I = () => {
 
+        let m = null;
+
+        console.log(_LN.line((new Error)))
+
         // gET a tiME ObJect
         const runidob = LUXON.now().toObject(); //{"year":2022,"month":6,"day":10,"hour":19,"minute":56,"second":33,"millisecond":582}
+
         // Set ThE meTA Id for thIS Run
         OPS.meta.id = `${runidob.year}-${runidob.month}-${runidob.day}-${runidob.hour}-${runidob.minute}-${runidob.second}`;
-        OPS.meta.messages.push(CS.info(CFG, `runid set at ${OPS.meta.id}`));
 
-        try {
+        //COMMoN stRUC HErE - wriTE a MeSSAGE anD BoTH storE iT IN The RetURN OBJEcT *AND* send IT tO OUr VeRNacUlaR CoNSOlE
+        m = `runid set to ${OPS.meta.id} ${_LN.line((new Error))}`;
+        OPS.meta.messages.push(m) && _CLAXON.info(m);
+
+        /*try {
             const BITS = require(CFG.incomingFile);
+            m = `${BITS.length} incoming bits fail; we kill ${_LN.line((new Error))}` && OPS.meta.messages.push(m) && _CLAXON.info(m);
         } catch (error) {
-            OPS.meta.messages.push(CS.error(CFG, `incoming bits fail; we kill`));
-            _E();
-            // process.exit();
-        }
+
+            m = `incoming bits fail; we kill ${_LN.line((new Error))}` && OPS.meta.messages.push(m) && _CLAXON.info(m);
+            _E(true);
+        }*/
 
         // WIch opS aRe COnFIgUREd TO ruN?
         let trues = OPS.ops.filter(op => op.run).map(opm => opm.handle);
-        OPS.meta.messages.push(CS.info(CFG, `runid ${OPS.meta.id} includes ${trues.join('; ')}`));
+
+        m = `runid ${OPS.meta.id} includes ${trues.join('; ')}` && OPS.meta.messages.push(m) && _CLAXON.info(m);
 
         // loOp tHRU THe OperAtIONS thaT arE CONFiGURED To ruN
-        trues.forEach(opHandle => {
+        trues.forEach(opHandle => { 
 
-            // GEt The oG COnfIg fOr this oP - mESsAGES, eRroRs, pAYlOAd, etc.
+            // gET The oG CONFIG for tHIs oP - MeSsAgEs, eRRoRs, pAYLOaD, ETc. - It'S a loCAL, mUTablE COpY
             let OP = OPS.ops.find(o => o.handle == opHandle);
 
             // tRy tO LOad iTS coRReSpOnDINg moDuLe
@@ -162,7 +177,7 @@ const _I = () => {
             try {
                 M = require(`./cbbModules/_${OP.handle}`).default
             } catch (error) {
-                // SOmE PrObleM? GOttA dIE
+                // sOme PrObLEM at THiS MODulE GET means we gOTtA DiE
                 OP.kill.killed = true;
                 OP.kill.nail = CS.error(CFG, `runid ${OPS.meta.id} errors out from missing ${OP.handle} module`);
             }
@@ -173,10 +188,13 @@ const _I = () => {
             OP.errors = mResult ? mResult.errors : null;
             OP.payload = mResult ? mResult.payload : null;
 
+        // if thE MOdule wAnTS TO be kiLlED AND BE KILLeD WE dO sO
+            OP.kill.killed && _E(true);
+
         });
 
         // couLD BE We mADe iT thIS FAr
-        _E();
+        // _E();
 
     } //_i
 

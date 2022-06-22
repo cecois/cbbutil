@@ -725,12 +725,12 @@ const main = async() => {
         */
 
         let OPS = {
-            backup: true,
-            incoming: true,
-            audit: true,
-            merge: true,
+            backup: false,
+            incoming: false,
+            audit: false,
+            merge: false,
             elastify: true,
-            summarize: true,
+            summarize: false,
             sendupdates: true
         }
 
