@@ -5,7 +5,7 @@
                     info:(m)=>{
                     	console.log(`${new Date().toLocaleString()} - INFO - ${m}`);
                     },
-                    err:(m)=>{
+                    error:(m)=>{
                     	console.log(`${new Date().toLocaleString()} - ERROR - ${m}`);
                     }
                 } //exports
