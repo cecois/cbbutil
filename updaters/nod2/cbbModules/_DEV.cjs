@@ -1,6 +1,5 @@
             module.exports = {
-                    default: (paramA, paramB) => paramA + paramB,
-                    defaultFunc: (m) => {
+                    default: () => {
                         // rETurn oB
             let r = {
                     messages: [],
@@ -17,6 +16,6 @@ let Things=["children","eldery","therest"]
                     r.errors.push(Things[i])
                 }
 
-                return r;
+                r.errors.reverse();return r;
                     }
                 } //exports

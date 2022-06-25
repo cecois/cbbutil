@@ -3,9 +3,13 @@
                         return m;
                     },
                     info:(m)=>{
-                    	console.log(`${new Date().toLocaleString()} - INFO - ${m}`);
+                    	let mm = `${new Date().toLocaleString()} - INFO - ${m}`;
+                        console.log(mm);
+                        return mm;
                     },
                     error:(m)=>{
-                    	console.log(`${new Date().toLocaleString()} - ERROR - ${m}`);
+                    	let mm = `${new Date().toLocaleString()} - ERROR - ${m}`;
+                        console.log(mm);
+                        return mm;
                     }
                 } //exports
