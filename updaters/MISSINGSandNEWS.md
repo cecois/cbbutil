@@ -72,9 +72,14 @@
   * 632,33:30
   
 - have you ever? (rapper's delight)
+  - all cal solomon's appearances
+  - 758,2:20
+  - 758,11:30
+  - 758,13
+
 - haven't seen a movie in N years
-  _ hot dog #599,19:30
-  _ traci reardon a lot \* al a pterson maybe?
+  - hot dog #599,19:30
+  - traci reardon a lot \* al a pterson maybe?
 
   - a million - extant but needs catchup
 
@@ -519,6 +524,8 @@
   - 307,45:25(pw)
 - hot shit/cold diahrrea
 	- 479,42:45(howl - w/ ads)
+  - 757,54:00
+  - many others
 
 - mike the janitor's mantra
   - =218,24:20(howl)

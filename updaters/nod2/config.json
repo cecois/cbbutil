@@ -1,16 +1,16 @@
 {
-	"NB": "THIS IS CONFIG FOR CBB INGEST V2, A NEAR-COMPLETE REWRITE IN 2022.JUNE",
-	"liveDebug": true,
-	"budirBits": "/Users/ccmiller/Library/Mobile Documents/com~apple~CloudDocs/Documents/bu/cbb-v2",
-	"masterFile": "/Users/ch23936/git/cbbutil/updaters/nod/cbb-master.json",
-	"incomingFile": "/Users/ch23936/git/cbbutil/updaters/cbb-live.json",
-	"interimFile": "/tmp/cbb-interim.json",
-	"masterUpdates": "/Users/ch23936/git/cbbutil/updaters/nod2/cbb-updates.json",
-	"geomdir": "/Users/ccmiller/Library/Mobile Documents/com~apple~CloudDocs/Documents/bu/cbb-v2/cbb-geoms/",
-	"budirUpdates": "/Users/ccmiller/Library/Mobile Documents/com~apple~CloudDocs/Documents/bu/cbb-v2/cbb-updates/",
-	"cloudinary": {
-		"api_key": "499116563672841",
-		"api_secret": "UynamGFEOZJa1welVSCd01uhwMM",
-		"cloud_name": "cecois"
-	}
+    "NB": "THIS IS CONFIG FOR CBB INGEST V2, A NEAR-COMPLETE REWRITE IN 2022.JUNE",
+    "liveDebug": true,
+    "budirBits": "/Users/ccmiller/Library/Mobile Documents/com~apple~CloudDocs/Documents/bu/cbb-v2",
+    "masterFile": "/Users/ccmiller/git/cbbutil/updaters/nod/cbb-master.json",
+    "incomingFile": "/Users/ccmiller/git/cbbutil/updaters/cbb-live.json",
+    "interimFile": "/tmp/cbb-interim.json",
+    "masterUpdates": "/Users/ccmiller/git/cbbutil/updaters/nod2/cbb-updates.json",
+    "geomdir": "/Users/ccmiller/Library/Mobile Documents/com~apple~CloudDocs/Documents/bu/cbb-v2/cbb-geoms/",
+    "budirUpdates": "/Users/ccmiller/Library/Mobile Documents/com~apple~CloudDocs/Documents/bu/cbb-v2/cbb-updates/",
+    "cloudinary": {
+        "api_key": "499116563672841",
+        "api_secret": "UynamGFEOZJa1welVSCd01uhwMM",
+        "cloud_name": "cecois"
+    }
 }
