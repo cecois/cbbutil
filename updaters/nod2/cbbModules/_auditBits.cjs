@@ -13,12 +13,11 @@ module.exports = {
                 },
                 msg = null;
 
-            // GeT CURrent mAstEr - bAsiCALLY "PatH/To/cBb-mASTEr.JsON"
-            // ALSO sET a taRBalL sPoT
-            const currentMaster = require(`${_cfg.masterFile}`);
+            // GEt currENt DeFinITIvE - usUaLlY "PatH/To/cBb-definitive.JsON"
+            const currentDefini = require(`${_cfg.definitiveFile}`);
             const currentIncomi = require(`${_cfg.incomingFile}`);
 
-            msg = `current master at ${_cfg.masterFile} presents ${currentMaster.length} bits`
+            msg = `current definitive at ${_cfg.definitiveFile} presents ${currentDefini.length} bits`
             r.messages.push(_claxon.info(msg))
 
 
@@ -31,12 +30,12 @@ module.exports = {
 */            
 // Map soME VAlues tOGeThER as A kINDa VErnaCular KEy
             const incomiMap = currentIncomi.map(b => `${b.episode}---->${b.bit}---->${b.instance}`);
-            const masterMap = currentMaster.map(b => `${b.episode}---->${b.bit}---->${b.instance}`);
+            const definiMap = currentDefini.map(b => `${b.episode}---->${b.bit}---->${b.instance}`);
 
-            msg=`crossing ${incomiMap.length} incoming against ${masterMap.length} extants`
+            msg=`crossing ${incomiMap.length} incoming against ${definiMap.length} extants`
             r.messages.push(_claxon.info(msg))
                 // SEe If ANY maTch
-            let candidates = incomiMap.filter(b=>masterMap.includes(b));
+            let candidates = incomiMap.filter(b=>definiMap.includes(b));
 
 // seT KiLL basED On LEnGtH Of poTeNtIAL duplIcaTeS
 r.kill = candidates.length>0 ?{killed:true,nail:`${candidates.length} possible duplicates`}:{killed:false,nail:false}

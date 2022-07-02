@@ -25,96 +25,93 @@ let OPS = {
 			log: []
 		},
 		ops: [{
-			handle: "DEV",
-			run: true,
-			log: [],
-			errors: [],
-			kill: {
-				killed: false,
-				nail: null
+				handle: "DEV",
+				run: true,
+				log: [],
+				errors: [],
+				kill: {
+					killed: false,
+					nail: null
+				},
+				payload: null
 			},
-			payload: null
-		}, {
-			handle: "backupBits",
-			run: false,
-			log: [],
-			errors: [],
-			kill: {
-				killed: false,
-				nail: null
+			// tarballs state after last run
+			{
+				handle: "backupBits",
+				run: false,
+				log: [],
+				errors: [],
+				kill: {
+					killed: false,
+					nail: null
+				},
+				payload: null
 			},
-			payload: null
-		}, {
-			handle: "auditBits",
-			run: true,
-			log: [],
-			errors: [],
-			kill: {
-				killed: false,
-				nail: null
+			// tests incoming set for probable duplicates and missing geom attributes
+			{
+				handle: "auditBits",
+				run: false,
+				log: [],
+				errors: [],
+				kill: {
+					killed: false,
+					nail: null
+				},
+				payload: null
 			},
-			payload: null
-		}, {
-			handle: "mergeBits",
-			run: false,
-			log: [],
-			errors: [],
-			kill: {
-				killed: false,
-				nail: null
-			},
-			payload: null
-		}, {
-			handle: "sendBits",
-			run: false,
-			log: [],
-			errors: [],
-			kill: {
-				killed: false,
-				nail: null
-			},
-			payload: null
-		}, {
-			handle: "summarizeBits",
-			run: false,
-			log: [],
-			errors: [],
-			kill: {
-				killed: false,
-				nail: null
-			},
-			payload: null
-		}, {
-			handle: "sendUpdates",
-			run: false,
-			log: [],
-			errors: [],
-			kill: {
-				killed: false,
-				nail: null
-			},
-			payload: null
-		}, {
-			handle: "backupGeoms",
-			run: false,
-			log: [],
-			errors: [],
-			kill: {
-				killed: false,
-				nail: null
-			},
-			payload: null
-		}, {
-			handle: "sendGeoms",
-			run: false,
-			log: [],
-			errors: [],
-			kill: {
-				killed: false,
-				nail: null
-			},
-			payload: null
-		}]
+			// send will take the incoming set (cbb-live.json+cbb-master.json, typically), merge them, elastify them, and save them out as the new master
+			{
+				handle: "sendBits",
+				run: true,
+				log: [],
+				errors: [],
+				kill: {
+					killed: false,
+					nail: null
+				},
+				payload: null
+			}, {
+				handle: "summarizeBits",
+				run: false,
+				log: [],
+				errors: [],
+				kill: {
+					killed: false,
+					nail: null
+				},
+				payload: null
+			}, {
+				handle: "sendUpdates",
+				run: false,
+				log: [],
+				errors: [],
+				kill: {
+					killed: false,
+					nail: null
+				},
+				payload: null
+			}, {
+				handle: "backupGeoms",
+				run: false,
+				log: [],
+				errors: [],
+				kill: {
+					killed: false,
+					nail: null
+				},
+				payload: null
+			}, {
+				handle: "sendGeoms",
+				run: false,
+				log: [],
+				errors: [],
+				kill: {
+					killed: false,
+					nail: null
+				},
+				payload: null
+			}
+		]
 	}
 	/*
 	                           _  _
