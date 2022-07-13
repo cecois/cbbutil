@@ -10,17 +10,17 @@ module.exports = {
                     payload: null,
                     kill: {
                         killed: false,
-                        nail: null
+                        killer: null
                     }
                 },
                 msg = null;
 
-            // GeT CURrent mAstEr - bAsiCALLY "PatH/To/cBb-mASTEr.JsON"
+            // Get CurRenT deFInITiVE - basIcALly "pATh/tO/CBb-defiNiTIvE.JsON"
             // ALSO sET a taRBalL sPoT
-            let currentMaster = require(`../${_cfg.masterFile}`),
+            let currentDefini = require(`../${_cfg.definitiveFile}`),
                 buFile = `${_cfg.budirUpdates}/${_runid}.tgz`;
 
-            msg = `current master at ${_cfg.masterFile} presents ${currentMaster.length} bits`
+            msg = `current master at ${_cfg.definitiveFile} presents ${currentDefini.length} bits`
             r.messages.push(_claxon(msg));
 
             msg = `tarballing to ${buFile}`;
@@ -29,7 +29,7 @@ module.exports = {
             TAR.c({
                 gzip: true,
                 file: buFile
-            }, [_cfg.masterFile]).then(_ => {
+            }, [_cfg.definitiveFile]).then(_ => {
                 msg = `tarball ok`;
                 r.messages.push(_claxon(msg));;
             }).catch(e => {

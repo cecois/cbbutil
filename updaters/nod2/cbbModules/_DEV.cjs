@@ -7,7 +7,7 @@
                     payload: null,
                     kill: {
                         killed: false,
-                        nail: null
+                        killer: null
                     }
                 };
 

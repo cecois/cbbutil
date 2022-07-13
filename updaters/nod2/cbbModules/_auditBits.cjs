@@ -8,19 +8,94 @@ module.exports = {
                     payload: null,
                     kill: {
                         killed: false,
-                        nail: null
+                        killer: null
                     }
                 },
                 msg = null;
 
-            // GeT CURrent mAstEr - bAsiCALLY "PatH/To/cBb-mASTEr.JsON"
-            // ALSO sET a taRBalL sPoT
-            const currentMaster = require(`${_cfg.masterFile}`);
+            // GEt currENt DeFinITIvE - usUaLlY "PatH/To/cBb-definitive.JsON"
+            const currentDefini = require(`${_cfg.definitiveFile}`);
             const currentIncomi = require(`${_cfg.incomingFile}`);
 
-            msg = `current master at ${_cfg.masterFile} presents ${currentMaster.length} bits`
+            msg = `current definitive at ${_cfg.definitiveFile} presents ${currentDefini.length} bits`
             r.messages.push(_claxon.info(msg))
 
+
+/*
+                                                        .        :   ::: .::::::.  .::::::. ::::::.    :::.  .,-:::::/
+                                                        ;;,.    ;;;  ;;;;;;`    ` ;;;`    ` ;;;`;;;;,  `;;;,;;-'````'
+                                                        [[[[, ,[[[[, [[['[==/[[[[,'[==/[[[[,[[[  [[[[[. '[[[[[   [[[[[[/
+                                                        $$$$$$$$"$$$ $$$  '''    $  '''    $$$$  $$$ "Y$c$$"$$c.    "$$
+                                                        888 Y88" 888o888 88b    dP 88b    dP888  888    Y88 `Y8bo,,,o88o
+                                                        MMM  M'  "MMMMMM  "YMmMY"   "YMmMY" MMM  MMM     YM   `'YMUP"YMM
+*/
+
+
+currentIncomi.forEach(b=>{
+                switch (true) {
+                    case !b.hasOwnProperty("episode"):
+                        msg=`MISSING FIELD: EPISODE ••••> ${b}`;
+            r.messages.push(_claxon.info(msg));
+                        process.exit();
+                        break;
+                    case !b.hasOwnProperty("tstart"):
+                        msg=`MISSING FIELD: TSTART ••••> ${b}`;
+            r.messages.push(_claxon.info(msg));
+                        process.exit();
+                        break;
+                    case !b.hasOwnProperty("tend"):
+                        msg=`MISSING FIELD: TEND ••••> ${b}`;
+            r.messages.push(_claxon.info(msg));
+                        process.exit();
+                        break;
+                    case !b.hasOwnProperty("instance"):
+                        msg=`MISSING FIELD: INSTANCE ••••> ${b}`;
+            r.messages.push(_claxon.info(msg));
+                        process.exit();
+                        break;
+                    case !b.hasOwnProperty("bit"):
+                        msg=`MISSING FIELD: BIT ••••> ${b}`;
+            r.messages.push(_claxon.info(msg));
+                        process.exit();
+                        break;
+                    case !b.hasOwnProperty("elucidation"):
+                        msg=`MISSING FIELD: ELUCIDATION ••••> ${b}`;
+            r.messages.push(_claxon.info(msg));
+                        process.exit();
+                        break;
+                    case !b.hasOwnProperty("location_type"):
+                        msg=`MISSING FIELD: LOCATION_TYPE ••••> ${b}`;
+            r.messages.push(_claxon.info(msg));
+                        process.exit();
+                        break;
+                    case !b.hasOwnProperty("location_id"):
+                        msg=`MISSING FIELD: LOCATION_ID ••••> ${b}`;
+            r.messages.push(_claxon.info(msg));
+                        process.exit();
+                        break;
+                    case !b.hasOwnProperty("slug_earwolf"):
+                        msg=`MISSING FIELD: SLUG_EARWOLF ••••> ${b}`;
+            r.messages.push(_claxon.info(msg));
+                        process.exit();
+                        break;
+                    case !b.hasOwnProperty("episode_title"):
+                        msg=`MISSING FIELD: EPISODE_TITLE ••••> ${b}`;
+            r.messages.push(_claxon.info(msg));
+                        process.exit();
+                        break;
+                    case !b.hasOwnProperty("episode_guests"):
+                        msg=`MISSING FIELD: EPISODE_GUESTS ••••> ${b}`;
+            r.messages.push(_claxon.info(msg));
+                        process.exit();
+                        break;
+                    case !b.hasOwnProperty("tags"):
+                        msg=`MISSING FIELD: TAGS ••••> ${b}`;
+            r.messages.push(_claxon.info(msg));
+                        process.exit();
+                        break;
+                } //switch
+
+                });//each.currentIncomi
 
 /*
                             ____ __ ________  __ __________________
@@ -31,12 +106,12 @@ module.exports = {
 */            
 // Map soME VAlues tOGeThER as A kINDa VErnaCular KEy
             const incomiMap = currentIncomi.map(b => `${b.episode}---->${b.bit}---->${b.instance}`);
-            const masterMap = currentMaster.map(b => `${b.episode}---->${b.bit}---->${b.instance}`);
+            const definiMap = currentDefini.map(b => `${b.episode}---->${b.bit}---->${b.instance}`);
 
-            msg=`crossing ${incomiMap.length} incoming against ${masterMap.length} extants`
+            msg=`crossing ${incomiMap.length} incoming against ${definiMap.length} extants`
             r.messages.push(_claxon.info(msg))
                 // SEe If ANY maTch
-            let candidates = incomiMap.filter(b=>masterMap.includes(b));
+            let candidates = incomiMap.filter(b=>definiMap.includes(b));
 
 // seT KiLL basED On LEnGtH Of poTeNtIAL duplIcaTeS
 r.kill = candidates.length>0 ?{killed:true,nail:`${candidates.length} possible duplicates`}:{killed:false,nail:false}

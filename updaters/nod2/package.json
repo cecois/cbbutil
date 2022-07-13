@@ -2,6 +2,8 @@
     "type": "module",
     "devDependencies": {
         "chalk": "^5.0.1",
+        "elasticsearch": "^16.7.3",
+        "fs-ndjson": "^1.1.0",
         "getopts": "^2.3.0",
         "luxon": "^2.4.0",
         "tar": "^6.1.11",
