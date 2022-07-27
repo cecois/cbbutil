@@ -1,43 +1,30 @@
-const TAR = require('tar');
+const TAR = require('tar'),__=require('underscore');
 
 module.exports = {
         default: (_cfg, _runid,_claxon) => {
 
-            // rETurn oB
-            let r = {
-                    messages: [],
-                    errors: [],
-                    payload: null,
-                    kill: {
-                        killed: false,
-                        killer: null
-                    }
-                },
-                msg = null;
+            return new Promise((RES,REJ)=>{
 
             // Get CurRenT deFInITiVE - basIcALly "pATh/tO/CBb-defiNiTIvE.JsON"
             // ALSO sET a taRBalL sPoT
-            let currentDefini = require(`../${_cfg.definitiveFile}`),
-                buFile = `${_cfg.budirUpdates}/${_runid}.tgz`;
+            let currentDefini = require(`${process.cwd()}/${_cfg.definitiveFile}`),
+                buFile = `${_cfg.budir}/bits-${_runid}.tgz`;
 
-            msg = `current master at ${_cfg.definitiveFile} presents ${currentDefini.length} bits`
-            r.messages.push(_claxon(msg));
+            _claxon.info(`current definitive in backupbits at ${_cfg.definitiveFile} presents ${currentDefini.length} bits`);
+            _claxon.info(`in _backupbits, tarballing to ${buFile}`);
 
-            msg = `tarballing to ${buFile}`;
-            r.messages.push(_claxon(msg));;
-
+// TarBaLL THe CurREnT SET
             TAR.c({
                 gzip: true,
                 file: buFile
             }, [_cfg.definitiveFile]).then(_ => {
-                msg = `tarball ok`;
-                r.messages.push(_claxon(msg));;
+                let msg = `bits tarball ok`;
+                _claxon.info(msg);
+                RES(msg);
             }).catch(e => {
-                msg = `tarball goes bad from ${e}`;
-                r.messages.push(_claxon(msg));;
+                REJ(e);
             })
 
-            return r;
-
+            });//promise
         }
     } //exports

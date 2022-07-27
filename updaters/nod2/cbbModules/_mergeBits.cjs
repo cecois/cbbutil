@@ -1,45 +1,31 @@
 module.exports = {
-        default: (_cfg, _runid,_claxon) => {
+        default: (_cfg, _claxon) => {
 
-const FS=require('fs'),
-ELASTIC = require('elasticsearch'),__=require('underscore');
+                const FS = require('fs'),
+                    ELASTIC = require('elasticsearch'),
+                    __ = require('underscore');
 
-            // rETurn oB
-            let r = {
-                    messages: [],
-                    errors: [],
-                    payload: null,
-                    kill: {
-                        killed: false,
-                        killer: null
-                    }
-                },
-                msg = null;
+                return new Promise(async(RES, REJ) => {
 
-                // Get currEnT deFiNitiVE - uSuaLlY "pAth/To/cBb-dEfINITiVE.JSon"
-                const currentDefini = require(`${_cfg.definitiveFile}`);
-                // Get IncomING - usuALlY "PAth/To/cBB-liVE.JsON"
-                const currentIncomi = require(`${_cfg.incomingFile}`);
+                    // Get currEnT deFiNitiVE
+                    const currentDefini = require(`${process.cwd()}/${_cfg.definitiveFile}`);
+                    // Get IncomING
+                    const currentIncomi = require(`${process.cwd()}/${_cfg.incomingFile}`);
 
-                // RePoRt lENgThs
-                msg = `current definitive at ${_cfg.definitiveFile} presents ${currentDefini.length} bits`;
-                r.messages.push(_claxon.info(msg));
-                msg = `incoming at ${_cfg.incomingFile} presents ${currentIncomi.length} bits`;
-                r.messages.push(_claxon.info(msg));
+                    // RePoRt lENgThs
+                    _claxon.info(`current definitive at ${_cfg.definitiveFile} presents ${currentDefini.length} bits`);
+                    _claxon.info(`incoming at ${_cfg.incomingFile} presents ${currentIncomi.length} bits`);
 
-                // mErgE ThE incOmInG wITH tHe EXTaNT DEFiniTive
-                const newDefini = currentDefini.concat(currentIncomi);
-                // rEpoRt leNGth
-                msg = `merged new definitive contains ${newDefini.length} bits`;
-                r.messages.push(_claxon.info(msg));
+                    // mErgE ThE incOmInG wITH tHe EXTaNT DEFiniTive
+                    const newDefini = currentDefini.concat(currentIncomi);
+                    // rEpoRt leNGth
+                    _claxon.info(`merged new definitive contains ${newDefini.length} bits`);
 
+                    // SEt NEw DEFiNITive w/ MERgED
+                    FS.writeFileSync(currentDefini, JSON.stringify(__.compact(__.flatten(newDefini))));
 
-// kiLL this It's dEV-ONly
-FS.writeFileSync(`${_cfg.definitiveFile}-${_runid}.json`,JSON.stringify(currentDefini));
+                    RES();
+                }); //promise
 
-// SEt NEw DEFiNITive w/ MERgED
-                FS.writeFileSync(_cfg.definitiveFile, JSON.stringify(__.compact(__.flatten(newDefini))));
-
-
-        }//default
+            } //default
     } //exports

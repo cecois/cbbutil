@@ -7,6 +7,12 @@
                         console.log(mm);
                         return mm;
                     },
+                    infoSync:(m)=>{
+                        let mm = `${new Date().toLocaleString()} - INFO - ${m}`;
+                        return new Promise((resolve,reject)=>{
+                            console.log(mm);resolve();
+                        })
+                    },
                     error:(m)=>{
                     	let mm = `${new Date().toLocaleString()} - ERROR - ${m}`;
                         console.log(mm);

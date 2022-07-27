@@ -2,6 +2,7 @@ module.exports = {
         default: (_cfg, _runid,_claxon) => {
 
 const FS=require('fs'),
+REPORTS=require('./_updatesReports.cjs'),
 ELASTIC = require('elasticsearch'),__=require('underscore'),FSND = require('fs-ndjson');
 
             // rETurn oB
@@ -21,11 +22,11 @@ ELASTIC = require('elasticsearch'),__=require('underscore'),FSND = require('fs-n
                                                                                                                      _______        _______ _______ _______ _____ _______ __   __
                                                                                                                      |______ |      |_____| |______    |      |   |______   \_/
                                                                                                                      |______ |_____ |     | ______|    |    __|__ |          |
-*/
 const client = new ELASTIC.Client({
                     host: 'milleria.org:9200',
                     requestTimeout: Infinity
                 });
+*/
 
                 // geT cUrrEnT INcomiNg
                 const currentIncomi = require(`${_cfg.incomingFile}`);
@@ -37,14 +38,28 @@ const client = new ELASTIC.Client({
                     process.exit();
                 }
 
-                let updatingEpisodes = __.uniq(__.pluck(currentIncomi, 'episode'));// uniq episodes from whatever the current incoming set happens to be
-                let updatingStatemnt = `${currentIncomi.length} bit${currentIncomi.length>1?'s':''} from ${updatingEpisodes.length} episode${updatingEpisodes.length>1?'s':''}`
-                let updatingQuerystr = updatingEpisodes.map(e=>`episode:${e}`).join(' OR ')
+                let updatingEpisdes = __.uniq(__.pluck(currentIncomi, 'episode'));// uniq episodes from whatever the current incoming set happens to be
+                let updatingStatmnt = `${currentIncomi.length} bit${currentIncomi.length>1?'s':''} from ${updatingEpisdes.length} episode${updatingEpisdes.length>1?'s':''}`
+                let updatingQuerstr = updatingEpisdes.map(e=>`episode:${e}`).join(' OR ');
+                let updatingReports = REPORTS.default(currentIncomi);
+
+// console.log("updatingEpisdes",updatingEpisdes);
+// console.log("updatingStatmnt",updatingStatmnt);
+// console.log("updatingQuerstr",updatingQuerstr);
+// console.log("updatingReports",JSON.stringify(updatingReports));
                 
 
 
             // "2019-04-01T09:37:04Z"
             // MOMENT().format('YYYY-MM-DDTHH:hh:mm:ssZ');
+
+            return {
+                date: _runid,
+                episodes_summary: updatingStatmnt,
+                query: updatingQuerstr,
+                eps: updatingEpisdes,
+                reports: updatingReports
+            }
 
             // let R = {
             //     date: MOMENT().format('YYYY-MM-DDTHH:hh:mm:ss\\Z'),
