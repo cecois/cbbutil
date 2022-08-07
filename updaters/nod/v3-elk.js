@@ -729,7 +729,7 @@ const main = async() => {
             incoming: false,
             audit: false,
             merge: false,
-            elastify: false,
+            elastify: true,
             summarize: false,
             sendupdates: false
         }
