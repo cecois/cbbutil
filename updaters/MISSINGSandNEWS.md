@@ -96,6 +96,7 @@
   - 561,17:00
 
 - notorious terf jk rowling
+  - cbb-2022-live-tour-chicago-chicago,42+
   - 747,42
   - 756,1:05:00
   - 740,25
@@ -2270,6 +2271,9 @@
   - 434,9:30(pw)[]()
 
 - interesting people (humanity's, america's podcast etc)
+  - cbb-2022-live-tour-chicago-chicago,1:16+
+  - cbb-2022-live-tour-chicago-chicago,3+
+  - cbb-2022-live-tour-madison-barrymore,7+
   - 768,22+
   - 767,9+
   - 762,0:50+
