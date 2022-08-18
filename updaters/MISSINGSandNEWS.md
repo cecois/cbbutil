@@ -2101,6 +2101,7 @@
   - 500,3:00
   - anaheim-now-hear-this-2016,1:07:30
 - out of the park (fair ball / foul ball )
+  - cbb-2022-live-tour-st-louis-pageant,1:08+
   - tig+alynne episode
   - 482,25:35(howl)
   - 463,57:50
@@ -2271,6 +2272,8 @@
   - 434,9:30(pw)[]()
 
 - interesting people (humanity's, america's podcast etc)
+  - cbb-2022-live-tour-st-louis,1:33:30+
+  - cbb-2022-live-tour-st-louis,2:50+
   - cbb-2022-live-tour-chicago-chicago,1:16+
   - cbb-2022-live-tour-chicago-chicago,3+
   - cbb-2022-live-tour-madison-barrymore,7+
