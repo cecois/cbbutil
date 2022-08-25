@@ -121,7 +121,19 @@
 
 - figured it out is from pajama game - see st. paul 2019 pt. 2 for tags
 
+reddit for balls
+  - cbb-2022-live-tour-san-francisco-castro,58+
+  - inaugural wz prolly the 2022 tour stop w/ cake boss
+
 - you take care
+  - cbb-2022-live-tour-san-francisco-castro,1:43+
+  - cbb-2022-live-tour-san-francisco-castro,1:39+
+  - cbb-2022-live-tour-san-francisco-castro,1:10+
+  - cbb-2022-live-tour-san-francisco-castro,1:06+
+  - cbb-2022-live-tour-san-francisco-castro,1:05+
+  - cbb-2022-live-tour-san-francisco-castro,57+
+  - cbb-2022-live-tour-san-francisco-castro,54+
+  - cbb-2022-live-tour-san-francisco-castro,51+
   - 754,1:19+
   - 754,1:03+
   - 754,47+
@@ -1124,6 +1136,8 @@
   - 424,1:20:35(pw)
   - 2016.shepherds,15:00
 - look it up, (scotty|pauly) -
+  - cbb-2022-live-tour-san-antonio-empire,1:25:00+
+  - cbb-2022-live-tour-san-antonio-empire,1:09:00+
   - bo2019.1,14:00
   - bo2016.2,1:47:30(pw)
   - bo2016.2,1:48:30(pw)
@@ -1191,6 +1205,7 @@
   - bo2015.2,58:30
   - 2016.nyc0514930,42:00
 - bing it
+  - cbb-2022-live-tour-san-antonio-empire,1:09:00+
   - 164,19:40
   - 164,28:30
   - 164,54:40
@@ -1645,7 +1660,8 @@
   - 423,1:18:30
   - 424,1:20:35(pw)
   - 2016.shepherds,15:00
-* look it up, (scotty|pauly) -
+* look it up, (scotty|pauly)
+  - cbb-2022-live-tour-san-antonio-empire,1:10:00+
   - bo2016.2,1:47:30(pw)
   - bo2016.2,1:48:30(pw)
   - bo2016.2,2:09:45(pw)
@@ -1711,6 +1727,7 @@
   - bo2015.2,58:30
   - 2016.nyc0514930,42:00
 * bing it
+  - cbb-2022-live-tour-san-antonio-empire,1:10:00+
   - 164,19:40
   - 164,28:30
   - 164,54:40
@@ -2045,7 +2062,9 @@
   - 168,1:11:20
   - 377,45:20(pw)
   - 384,33:00(pw)
-- face / off
+- face/off
+  - cbb-2022-live-tour-san-antonio-empire,1:54:00+
+  - cbb-2022-live-tour-san-antonio-empire,54+
   - 767,7:30
   - 761,9:30
   - 713,38:00
@@ -2272,6 +2291,8 @@
   - 434,9:30(pw)[]()
 
 - interesting people (humanity's, america's podcast etc)
+  - cbb-2022-live-tour-san-francisco-castro,6+
+  - cbb-2022-live-tour-austin-paramount,3+
   - cbb-2022-live-tour-san-antonio-empire,4+
   - cbb-2022-live-tour-st-louis,1:33:30+
   - cbb-2022-live-tour-st-louis,2:50+

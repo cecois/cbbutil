@@ -9,6 +9,7 @@
 * http://howl.fm/audio/26142/live-from-chicago-2014,51:49,badbitchbailbonds.com
 * http://howl.fm/audio/26142/live-from-chicago-2014,54:10,naughtynotary.net
 * http://howl.fm/audio/26142/live-from-chicago-2014,1:14:15,wrongpussy.pr
+* cbb-2022-live-tour-san-antonio-empire,1:15:00+
 * cbb-2022-live-tour-madison-barrymore,1:22:30+
 * 763,35
 * 755,2:00:30
