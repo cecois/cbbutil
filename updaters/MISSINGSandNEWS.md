@@ -122,6 +122,7 @@
 - figured it out is from pajama game - see st. paul 2019 pt. 2 for tags
 
 reddit for balls
+  - cbb-2022-live-tour-portland-revolution-early-show,13+
   - cbb-2022-live-tour-san-francisco-castro,58+
   - inaugural wz prolly the 2022 tour stop w/ cake boss
 
@@ -498,6 +499,7 @@ reddit for balls
   - 477,15:30
 
 - the size of screens these days
+  - cbb-2022-live-tour-portland-revolution-early-show,17+
   - 330,10:25(pw)
   - at least once before that
 - someone calls another character by their own name
