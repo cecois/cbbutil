@@ -122,6 +122,7 @@
 - figured it out is from pajama game - see st. paul 2019 pt. 2 for tags
 
 reddit for balls
+  - cbb-2022-live-tour-portland-revolution-late-show,15+
   - cbb-2022-live-tour-portland-revolution-early-show,13+
   - cbb-2022-live-tour-san-francisco-castro,58+
   - inaugural wz prolly the 2022 tour stop w/ cake boss
@@ -1313,6 +1314,7 @@ reddit for balls
   - bo2017.1,2:22:00
   - bo2020.3,53:00
 - that sounds good to me
+  - cbb-2022-live-tour-atlanta-tabernacle,52+
   - 2015 BOs?
   - 688,1:08:00
   - 2016.chicago10,28:00(pw)
@@ -2233,6 +2235,10 @@ reddit for balls
   - 218,20:40(howl)
   - 229,1:10:25(howl)
   - 462,1:10(pw)
+
+- who me? (batman)
+  - 
+
 - can i see you in the kitchen?
 
   - bo2016.1,1:21:00(pw)
@@ -2246,6 +2252,7 @@ reddit for balls
 	- lotsa
 	- 
 - we'll pay for it (if you wanna go on another date)
+  - cbb-2022-live-tour-seattle-moore,f1:14:00+
   - 747,1:09:00+
   - 726,1:28:00
   - 701,1:15:00

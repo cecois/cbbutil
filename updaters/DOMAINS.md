@@ -11,6 +11,7 @@
 * http://howl.fm/audio/26142/live-from-chicago-2014,1:14:15,wrongpussy.pr
 * cbb-2022-live-tour-san-antonio-empire,1:15:00+
 * cbb-2022-live-tour-madison-barrymore,1:22:30+
+* cbb-2022-live-tour-seattle-moore,1:04:00+
 * 763,35
 * 755,2:00:30
 * 752,1:25:00
