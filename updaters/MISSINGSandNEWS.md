@@ -2300,6 +2300,7 @@ reddit for balls
   - 434,9:30(pw)[]()
 
 - interesting people (humanity's, america's podcast etc)
+  - cbb-2022-live-tour-washingtondc-warner,2+
   - cbb-2022-live-tour-san-francisco-castro,6+
   - cbb-2022-live-tour-austin-paramount,3+
   - cbb-2022-live-tour-san-antonio-empire,4+
