@@ -38,6 +38,14 @@
 2. face/off
 1. subepisodes
 
+- staff up/write on snl
+  * cbb-2022-live-tour-boston-chevalier,37+
+  * cbb-2022-live-tour-boston-chevalier,26+
+
+- balcony reports
+  * cbb-2022-live-tour-boston-chevalier,3+
+  * cbb-2022-live-tour-brooklyn-kings,5+
+
 - lily sullivans social handle
   * 755,2:01:30
 
@@ -122,10 +130,12 @@
 - figured it out is from pajama game - see st. paul 2019 pt. 2 for tags
 
 reddit for balls
+  - cbb-2022-live-tour-brooklyn-kings,1:16:00+
+  - cbb-2022-live-tour-brooklyn-kings,26+
   - cbb-2022-live-tour-portland-revolution-late-show,15+
   - cbb-2022-live-tour-portland-revolution-early-show,13+
   - cbb-2022-live-tour-san-francisco-castro,58+
-  - inaugural wz prolly the 2022 tour stop w/ cake boss
+  - inaugural wz likely the 2022 tour stop w/ cake boss & oj simpson
 
 - you take care
   - cbb-2022-live-tour-san-francisco-castro,1:43+
