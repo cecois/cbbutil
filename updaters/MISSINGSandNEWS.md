@@ -130,6 +130,7 @@
 - figured it out is from pajama game - see st. paul 2019 pt. 2 for tags
 
 reddit for balls
+  - cbb-2022-live-tour-boston-chevalier,1:43:00+
   - cbb-2022-live-tour-brooklyn-kings,1:16:00+
   - cbb-2022-live-tour-brooklyn-kings,26+
   - cbb-2022-live-tour-portland-revolution-late-show,15+
