@@ -734,6 +734,7 @@ reddit for balls
   - 132,6:30
   - 447,50:45(pw)
 - no rule against dogs playing (football|basketball)
+  - cbb-2022-live-tour-portland-state,1:27:30+
   - 750,1:17:00
   - 750,1:16:30
   - 750,1:05:40
@@ -897,6 +898,9 @@ reddit for balls
   - ~~307,43:20~~
   - ~~307,1:02:40~~
   - ~~385,45:00(pw)~~
+- scruff mcgruff instructions
+  - cbb-2022-live-tour-portland-state,1:08:00+
+  - all prior mcgruff appearances
 - hollywood facts
   - lots
   - 722,22:00
@@ -2311,6 +2315,7 @@ reddit for balls
   - 434,9:30(pw)[]()
 
 - interesting people (humanity's, america's podcast etc)
+  - cbb-2022-live-tour-portland-state,4+
   - cbb-2022-live-tour-washingtondc-warner,2+
   - cbb-2022-live-tour-san-francisco-castro,6+
   - cbb-2022-live-tour-austin-paramount,3+
