@@ -5,9 +5,9 @@ const __ = require('underscore'),
 	// BITS = require('../updaters/nod/cbb-master.json'),
 	BITS = __.map(require('../updaters/nod/cbb-master.json'), b => {
 		return {
-			bit: b.bit.toLowerCase(),
-			elucidation: b.elucidation.toLowerCase(),
-			tags: (typeof b.tags == 'object') ? b.tags.join(',').toLowerCase() : b.tags.toLowerCase(),
+			bit: b.bit,
+			elucidation: b.elucidation,
+			tags: (typeof b.tags == 'object') ? b.tags.join(',') : b.tags,
 			tagType: (typeof b.tags)
 		};
 	}),
@@ -33,30 +33,35 @@ const _I = () => {
 				q = ARG.a ? ARG.a : ARG.all;
 				break;
 			default:
+				R.target = "all";
 				q = ARG._[0];
 				break;
-		}
+		};
+		!q && console.log("no incoming query");
+		!q && process.exit();
 		R.query = q.toLowerCase();
 		let filteredBits = []; // __.filter(BITS, B => {
 		switch (R.target) {
 			case "tags":
-				filteredBits = __.filter(BITS, b => (b.tags.indexOf(R.query) >= 0));
+				filteredBits = __.filter(BITS, b => (b.tags.toLowerCase().indexOf(R.query) >= 0));
 				R.found = filteredBits.length;
-				filteredBits = __.reject(filteredBits, fb => fb.tags.indexOf(R.not) >= 0);
+				filteredBits = __.reject(filteredBits, fb => fb.tags.toLowerCase().indexOf(R.not) >= 0);
 				R.removed = R.found - filteredBits.length;
 				break;
 			case "all":
 				filteredBits = __.filter(BITS, b => {
-					if (b.tags.indexOf(R.query) >= 0 || b.bit.indexOf(R.query) >= 0 || b.elucidation.indexOf(R.query) >= 0) {
+					if (b.tags.toLowerCase().indexOf(R.query) >= 0 || b.bit.toLowerCase().indexOf(R.query) >= 0 || b.elucidation.toLowerCase().indexOf(R.query) >= 0) {
 						return b;
 					}
 				});
 				filteredBits = __.reject(filteredBits, fb => {
-					if (fb.tags.indexOf(R.not) >= 0 || fb.bit.indexOf(R.not) >= 0 || fb.elucidation.indexOf(R.not) >= 0) {
+					if (fb.tags.toLowerCase().indexOf(R.not) >= 0 || fb.bit.toLowerCase().indexOf(R.not) >= 0 || fb.elucidation.toLowerCase().indexOf(R.not) >= 0) {
 						return fb;
 						cccccckull
 					}
 				});
+				R.found = filteredBits.length;
+				R.removed = R.found - filteredBits.length;
 				break;
 			default:
 				filteredBits = []

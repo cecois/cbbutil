@@ -38,6 +38,9 @@
 2. face/off
 1. subepisodes
 
+- orangest of balls
+  * cbb-2022-live-tour-toronto-massey,1:04:00+
+
 - staff up/write on snl
   * cbb-2022-live-tour-boston-chevalier,37+
   * cbb-2022-live-tour-boston-chevalier,26+
@@ -2315,6 +2318,8 @@ reddit for balls
   - 434,9:30(pw)[]()
 
 - interesting people (humanity's, america's podcast etc)
+  - 770,1+
+  - cbb-2022-live-tour-toronto-massey,3+
   - cbb-2022-live-tour-portland-state,4+
   - cbb-2022-live-tour-washingtondc-warner,2+
   - cbb-2022-live-tour-san-francisco-castro,6+
