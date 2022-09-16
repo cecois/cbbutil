@@ -2085,6 +2085,7 @@ reddit for balls
   - 377,45:20(pw)
   - 384,33:00(pw)
 - face/off
+  - 770,1:15:30+
   - cbb-2022-live-tour-san-antonio-empire,1:54:00+
   - cbb-2022-live-tour-san-antonio-empire,54+
   - 767,7:30
@@ -2318,6 +2319,7 @@ reddit for balls
   - 434,9:30(pw)[]()
 
 - interesting people (humanity's, america's podcast etc)
+  - 770,1:00:00+
   - 770,1+
   - cbb-2022-live-tour-toronto-massey,3+
   - cbb-2022-live-tour-portland-state,4+
