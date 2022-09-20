@@ -1,5 +1,6 @@
 # possible new bits:
 
+0. SHIMMY!
 0. fix fugees "one time" - no doubt its a ref to *killing me softly* and not any other fugees track
 0. fix eluc of vicar of yanks bit
 0. bean dip's real name is "sally dunkirk" acc to cbb#659
@@ -495,12 +496,16 @@ reddit for balls
   - 538,21:00
 - c+ - the highest grade
   - 362,6:15(pw)
-  - 366,23:00(pw)
+- ski & surf in the same day in california
+  - 773,11+
+  - several prior dating way way back - good luck!
 - colin show
 
   - missing one from #483
 
-- shimmy lincoln appears (still lost)
+- shimmy lincoln appears in any way
+  - 772,45+
+  - 772,17:00+
   - 752,33:30
   - 752,0:30
   - multiple episodes after (and including?) the episode in which matt gourley's band appeared
