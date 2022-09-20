@@ -72,4 +72,5 @@ const _I = () => {
         return R;
     } //_i
 let r = _I();
-console.dir(r);
+//console.dir(r);
+console.log(JSON.stringify(r));
