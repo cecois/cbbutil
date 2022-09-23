@@ -15865,7 +15865,7 @@
     "bit": "The Paul Hardcastle of Suicides",
     "elucidation": "any song reference",
     "tags": [
-        "Byron Denniston"
+        "Byron Denniston", "96 Tears (song)", "? and the Mysterians (musical combination)"
     ],
     "created_at": "2022-09-20T10:51:29Z",
     "updated_at": "2022-09-20T10:51:29Z",
@@ -15882,7 +15882,7 @@
     "show": "cbb"
 }, {
     "tstart": "19:10",
-    "instance": "Is this a ripple effect?",
+    "instance": "Is this a ripple effect kind of thing?",
     "tend": "19:30",
     "bit": "Phil Collins",
     "elucidation": "phil collins is referenced (typically vis-a-vis the concorde)",
@@ -15933,12 +15933,278 @@
     "bit": "Location",
     "elucidation": "identifiable earth location",
     "NB": [
-        "harry and meghan's montecito estate"
+        "harry and meghan's montecito estate", "site of: byron denniston while harry and meghan were away"
     ],
     "tags": [
         "Byron Denniston",
         "Meghan Markle",
         "Prince Harry, Duke of Sussex"
+    ],
+    "created_at": "2022-09-20T10:51:29Z",
+    "updated_at": "2022-09-20T10:51:29Z",
+    "episode_guests": [
+        "Jason Mantzoukas",
+        "Andy Daly",
+        "Paul F. Tompkins"
+    ],
+    "episode_title": "Operation Double Decoy",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "operation-double-decoy",
+    "episode": 775,
+    "show": "cbb"
+}, {
+    "tstart": "17:30",
+    "instance": "Is this an easter egg?",
+    "tend": "18:00",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": ["(Don't Fear) The Reaper (song)", "Blue Öyster Cult"],
+    "created_at": "2022-08-15T10:51:29Z",
+    "updated_at": "2022-08-15T10:51:29Z",
+    "episode_guests": [
+        "Bob Odenkirk",
+        "James Austin Johnson",
+        "Carl Tart"
+    ],
+    "episode_title": "Cowbell Saul",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "cowbell-saul",
+    "episode": 769,
+    "show": "cbb"
+}, {
+    "tstart": "34:15",
+    "instance": "I had you shucking oysters for three or four hours.",
+    "tend": "41:14",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "NB": ["bar america", "site of: bobby flay's and bob odenkirk's meetcute; site of: a slider stage; site of: a night in the kitchen party"],
+    "tags": ["Bobby Flay", "Jake from State Farm", "Niecy Nash", "Adam Levine", "Jared Fogle", "Michael Rapaport", "Carson Kressley", "Jim Carter", "Doja Cat", "Sean Paul", "Scarlett Johansson", "Colin Jost", "Darrell Hammond", "Wally Feresten"],
+    "created_at": "2022-08-15T10:51:29Z",
+    "updated_at": "2022-08-15T10:51:29Z",
+    "episode_guests": [
+        "Bob Odenkirk",
+        "James Austin Johnson",
+        "Carl Tart"
+    ],
+    "episode_title": "Cowbell Saul",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "cowbell-saul",
+    "episode": 769,
+    "show": "cbb"
+}, {
+    "tstart": "41:00",
+    "instance": "I don't think he's allowed back there.",
+    "tend": "41:20",
+    "bit": "Respec Mah Neck",
+    "elucidation": "Adrien Brody's SNL Rastaman shows up/is discussed",
+    "tags": [],
+    "created_at": "2022-08-15T10:51:29Z",
+    "updated_at": "2022-08-15T10:51:29Z",
+    "episode_guests": [
+        "Bob Odenkirk",
+        "James Austin Johnson",
+        "Carl Tart"
+    ],
+    "episode_title": "Cowbell Saul",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "cowbell-saul",
+    "episode": 769,
+    "show": "cbb"
+}, {
+    "tstart": "42:50",
+    "instance": "We were actually cooking Toydarian.",
+    "tend": "44:00",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "NB": ["jeff bezos yacht, docked in copenhagen", "site of: a bobby flay party"],
+    "tags": ["Bobby Flay", "Jeff Bezos", "Holly Madison", "Michael Keaton", "Topher Grace", "Watto"],
+    "created_at": "2022-08-15T10:51:29Z",
+    "updated_at": "2022-08-15T10:51:29Z",
+    "episode_guests": [
+        "Bob Odenkirk",
+        "James Austin Johnson",
+        "Carl Tart"
+    ],
+    "episode_title": "Cowbell Saul",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "cowbell-saul",
+    "episode": 769,
+    "show": "cbb"
+}, {
+    "tstart": "52:50",
+    "instance": "We get about five [minions] a week.",
+    "tend": "54:00",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "NB": ["malfi vegas", "site of: a bobby flay restaurant; site of: shipments of nude minions"],
+    "tags": ["Bobby Flay"],
+    "created_at": "2022-08-15T10:51:29Z",
+    "updated_at": "2022-08-15T10:51:29Z",
+    "episode_guests": [
+        "Bob Odenkirk",
+        "James Austin Johnson",
+        "Carl Tart"
+    ],
+    "episode_title": "Cowbell Saul",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "cowbell-saul",
+    "episode": 769,
+    "show": "cbb"
+}, {
+    "tstart": "57:40",
+    "instance": "We get about five [minions] a week.",
+    "tend": "58:40",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "NB": ["one of flay's restaurants", "possible site of: paella night with dikembe mutombo"],
+    "tags": ["Bobby Flay", "Dikembe Mutombo", "Kinta Maida", "Josh the Wine", "Josh Gad", "BeBe Winans", "CeCe Winans", "Gigi Hadid", "Vin Scully"],
+    "created_at": "2022-08-15T10:51:29Z",
+    "updated_at": "2022-08-15T10:51:29Z",
+    "episode_guests": [
+        "Bob Odenkirk",
+        "James Austin Johnson",
+        "Carl Tart"
+    ],
+    "episode_title": "Cowbell Saul",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "cowbell-saul",
+    "episode": 769,
+    "show": "cbb"
+}, {
+    "tstart": "1:03:50",
+    "instance": "I'd rather be on a real boat.",
+    "tend": "1:04:15",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": ["Bobby Flay", "Italiano Jones", "Get Lucky (song)", "Daft Punk (musical combination)"],
+    "created_at": "2022-08-15T10:51:29Z",
+    "updated_at": "2022-08-15T10:51:29Z",
+    "episode_guests": [
+        "Bob Odenkirk",
+        "James Austin Johnson",
+        "Carl Tart"
+    ],
+    "episode_title": "Cowbell Saul",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "cowbell-saul",
+    "episode": 769,
+    "show": "cbb"
+}, {
+    "tstart": "1:10:45",
+    "instance": "My client thought the food was farting.",
+    "tend": "1:11:30",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "NB": ["piper's alley theatre", "-87.63565437268217,41.91136158218695", "site of: mistaken location of a crime"],
+    "tags": ["Italiano Jones"],
+    "created_at": "2022-08-15T10:51:29Z",
+    "updated_at": "2022-08-15T10:51:29Z",
+    "episode_guests": [
+        "Bob Odenkirk",
+        "James Austin Johnson",
+        "Carl Tart"
+    ],
+    "episode_title": "Cowbell Saul",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "cowbell-saul",
+    "episode": 769,
+    "show": "cbb"
+}, {
+    "tstart": "1:11:20",
+    "instance": "Is this a sidebar or a salad bar?",
+    "tend": "1:12:00",
+    "bit": "Every Word You Are Saying",
+    "elucidation": "despite everybody's best efforts, a private conversation is overheard",
+    "tags": ["Italiano Jones", "Bobby Flay"],
+    "created_at": "2022-08-15T10:51:29Z",
+    "updated_at": "2022-08-15T10:51:29Z",
+    "episode_guests": [
+        "Bob Odenkirk",
+        "James Austin Johnson",
+        "Carl Tart"
+    ],
+    "episode_title": "Cowbell Saul",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "cowbell-saul",
+    "episode": 769,
+    "show": "cbb"
+}, {
+    "tstart": "1:14:45",
+    "instance": "If you wanna hear all about the obscure comedy of the last 30 years - I can tell you about some of it.",
+    "tend": "1:15:00",
+    "bit": "Fantastic.",
+    "elucidation": "one of scott's 25 words",
+    "tags": [],
+    "created_at": "2022-08-15T10:51:29Z",
+    "updated_at": "2022-08-15T10:51:29Z",
+    "episode_guests": [
+        "Bob Odenkirk",
+        "James Austin Johnson",
+        "Carl Tart"
+    ],
+    "episode_title": "Cowbell Saul",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "cowbell-saul",
+    "episode": 769,
+    "show": "cbb"
+}, {
+    "tstart": "1:19:40",
+    "instance": "That was 'Autumn Plug Bag.'",
+    "tend": "1:20:10",
+    "bit": "Fantastic.",
+    "elucidation": "one of scott's 25 words",
+    "tags": [],
+    "created_at": "2022-08-15T10:51:29Z",
+    "updated_at": "2022-08-15T10:51:29Z",
+    "episode_guests": [
+        "Bob Odenkirk",
+        "James Austin Johnson",
+        "Carl Tart"
+    ],
+    "episode_title": "Cowbell Saul",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "cowbell-saul",
+    "episode": 769,
+    "show": "cbb"
+}, {
+    "tstart": "",
+    "instance": "",
+    "tend": "",
+
+    "tags": [],
+    "created_at": "2022-09-20T10:51:29Z",
+    "updated_at": "2022-09-20T10:51:29Z",
+    "episode_guests": [
+        "Jason Mantzoukas",
+        "Andy Daly",
+        "Paul F. Tompkins"
+    ],
+    "episode_title": "Operation Double Decoy",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "operation-double-decoy",
+    "episode": 775,
+    "show": "cbb"
+}, {
+    "tstart": "18:50",
+    "instance": "Where we prognosticate about the future deaths of people.",
+    "tend": "19:30",
+    "bit": "Not That Kind of a Show",
+    "elucidation": "cbb gets a little blue",
+    "tags": [
+        "Byron Denniston"
     ],
     "created_at": "2022-09-20T10:51:29Z",
     "updated_at": "2022-09-20T10:51:29Z",
@@ -15982,22 +16248,557 @@
     "episode": 775,
     "show": "cbb"
 }, {
-    "tstart": "",
-    "instance": "",
-    "tend": "",
-
-    "tags": [],
-    "created_at": "2022-08-15T10:51:29Z",
-    "updated_at": "2022-08-15T10:51:29Z",
-    "episode_guests": [
-        "Bob Odenkirk",
-        "James Austin Johnson",
-        "Carl Tart"
+    "tstart": "21:10",
+    "instance": "And also you drowned.",
+    "tend": "24:00",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "NB": [
+        "scott's pool",
+        "site of: byron denniston, faking a drowning; site of: byron denniston's gravestone in scott's pool; site of: the griz' gravestone in scott's pool"
     ],
-    "episode_title": "Cowbell Saul",
+    "tags": [
+        "Byron Denniston", "Greg (Grizzle) Mallett", "Dan Aykroyd"
+    ],
+    "created_at": "2022-09-20T10:51:29Z",
+    "updated_at": "2022-09-20T10:51:29Z",
+    "episode_guests": [
+        "Jason Mantzoukas",
+        "Andy Daly",
+        "Paul F. Tompkins"
+    ],
+    "episode_title": "Operation Double Decoy",
     "location_type": null,
     "location_id": null,
-    "slug_earwolf": "cowbell-saul",
-    "episode": 769,
+    "slug_earwolf": "operation-double-decoy",
+    "episode": 775,
+    "show": "cbb"
+}, {
+    "tstart": "23:45",
+    "instance": "'Byron, British guy, died here.'",
+    "tend": "24:20",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "NB": [
+        "scott's pool",
+        "site of: byron denniston, faking a drowning; site of: byron denniston's gravestone in scott's pool; site of: the griz' gravestone in scott's pool"
+    ],
+    "tags": [
+        "Byron Denniston", "Greg (Grizzle) Mallett", "David S. Pumpkins"
+    ],
+    "created_at": "2022-09-20T10:51:29Z",
+    "updated_at": "2022-09-20T10:51:29Z",
+    "episode_guests": [
+        "Jason Mantzoukas",
+        "Andy Daly",
+        "Paul F. Tompkins"
+    ],
+    "episode_title": "Operation Double Decoy",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "operation-double-decoy",
+    "episode": 775,
+    "show": "cbb"
+}, {
+    "tstart": "40:45",
+    "instance": "But it says 'David S. Pumpkins' and we crossed it out and put 'Griz.'",
+    "tend": "41:30",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "NB": [
+        "scott's pool",
+        "site of: byron denniston, faking a drowning; site of: byron denniston's gravestone in scott's pool; site of: the griz' gravestone in scott's pool"
+    ],
+    "tags": [
+        "Byron Denniston", "Greg (Grizzle) Mallett", "David S. Pumpkins"
+    ],
+    "created_at": "2022-09-20T10:51:29Z",
+    "updated_at": "2022-09-20T10:51:29Z",
+    "episode_guests": [
+        "Jason Mantzoukas",
+        "Andy Daly",
+        "Paul F. Tompkins"
+    ],
+    "episode_title": "Operation Double Decoy",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "operation-double-decoy",
+    "episode": 775,
+    "show": "cbb"
+}, {
+    "tstart": "24:10",
+    "instance": "You say the Qeen died?",
+    "tend": "24:45",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+        "Byron Denniston", "The Queen Is Dead (song)", "The Smiths (musical combination)"
+    ],
+    "created_at": "2022-09-20T10:51:29Z",
+    "updated_at": "2022-09-20T10:51:29Z",
+    "episode_guests": [
+        "Jason Mantzoukas",
+        "Andy Daly",
+        "Paul F. Tompkins"
+    ],
+    "episode_title": "Operation Double Decoy",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "operation-double-decoy",
+    "episode": 775,
+    "show": "cbb"
+}, {
+    "tstart": "25:25",
+    "instance": "She has faked her own death.",
+    "tend": "26:45",
+    "bit": "We Knew a Poet Once",
+    "elucidation": "various, even vague interminglings of character canon",
+    "tags": [
+        "Byron Denniston", "Smooth Criminal Al A. Peterson", "Elizabeth II"
+    ],
+    "created_at": "2022-09-20T10:51:29Z",
+    "updated_at": "2022-09-20T10:51:29Z",
+    "episode_guests": [
+        "Jason Mantzoukas",
+        "Andy Daly",
+        "Paul F. Tompkins"
+    ],
+    "episode_title": "Operation Double Decoy",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "operation-double-decoy",
+    "episode": 775,
+    "show": "cbb"
+}, {
+    "tstart": "28:15",
+    "instance": "Why Philadelphia?",
+    "tend": "29:00",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "NB": ["a tarmac in philadelphia", "site of: phil collins' concorde landing; site of: byron denniston on his way to earwolf"],
+    "tags": [
+        "Byron Denniston"
+    ],
+    "created_at": "2022-09-20T10:51:29Z",
+    "updated_at": "2022-09-20T10:51:29Z",
+    "episode_guests": [
+        "Jason Mantzoukas",
+        "Andy Daly",
+        "Paul F. Tompkins"
+    ],
+    "episode_title": "Operation Double Decoy",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "operation-double-decoy",
+    "episode": 775,
+    "show": "cbb"
+}, {
+    "tstart": "28:30",
+    "instance": "A lot of soul music, too.",
+    "tend": "29:00",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+        "Byron Denniston", "We Are the World (song)", "USA for Africa (musical combination)"
+    ],
+    "created_at": "2022-09-20T10:51:29Z",
+    "updated_at": "2022-09-20T10:51:29Z",
+    "episode_guests": [
+        "Jason Mantzoukas",
+        "Andy Daly",
+        "Paul F. Tompkins"
+    ],
+    "episode_title": "Operation Double Decoy",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "operation-double-decoy",
+    "episode": 775,
+    "show": "cbb"
+}, {
+    "tstart": "29:00",
+    "instance": "They were also inspired to write a decent song - unlike the Americans.",
+    "tend": "29:30",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+        "Byron Denniston", "Do They Know It's Christmas (song)", "Band Aid (musical combination)", "Bob Geldof", "Midge Ure"
+    ],
+    "created_at": "2022-09-20T10:51:29Z",
+    "updated_at": "2022-09-20T10:51:29Z",
+    "episode_guests": [
+        "Jason Mantzoukas",
+        "Andy Daly",
+        "Paul F. Tompkins"
+    ],
+    "episode_title": "Operation Double Decoy",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "operation-double-decoy",
+    "episode": 775,
+    "show": "cbb"
+}, {
+    "tstart": "29:00",
+    "instance": "They were also inspired to write a decent song - unlike the Americans.",
+    "tend": "29:30",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+        "Byron Denniston", "We Are the World (song)", "USA for Africa (musical combination)", "Michael Jackson", "Lionel Richie"
+    ],
+    "created_at": "2022-09-20T10:51:29Z",
+    "updated_at": "2022-09-20T10:51:29Z",
+    "episode_guests": [
+        "Jason Mantzoukas",
+        "Andy Daly",
+        "Paul F. Tompkins"
+    ],
+    "episode_title": "Operation Double Decoy",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "operation-double-decoy",
+    "episode": 775,
+    "show": "cbb"
+}, {
+    "tstart": "31:15",
+    "instance": "Isn't he mentally-ill in this?",
+    "tend": "31:45",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+        "Byron Denniston", "Lydia, the Tattooed Lady (song)"
+    ],
+    "created_at": "2022-09-20T10:51:29Z",
+    "updated_at": "2022-09-20T10:51:29Z",
+    "episode_guests": [
+        "Jason Mantzoukas",
+        "Andy Daly",
+        "Paul F. Tompkins"
+    ],
+    "episode_title": "Operation Double Decoy",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "operation-double-decoy",
+    "episode": 775,
+    "show": "cbb"
+}, {
+    "tstart": "33:50",
+    "instance": "No, I wear the glove.",
+    "tend": "34:45",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "NB": ["neverland? - where did MJ die?", "site of: byron denniston observing the king of pop"],
+    "tags": [
+        "Byron Denniston", "Michael Jackson", "Dr. Conrad Murray"
+    ],
+    "created_at": "2022-09-20T10:51:29Z",
+    "updated_at": "2022-09-20T10:51:29Z",
+    "episode_guests": [
+        "Jason Mantzoukas",
+        "Andy Daly",
+        "Paul F. Tompkins"
+    ],
+    "episode_title": "Operation Double Decoy",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "operation-double-decoy",
+    "episode": 775,
+    "show": "cbb"
+}, {
+    "tstart": "34:30",
+    "instance": "A journalist doesn't put himself in the story.",
+    "tend": "34:45",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "NB": ["lady amelia windsor's flat in notting hiill and both on both sides", "site of: byron denniston, royal-watching"],
+    "tags": [
+        "Byron Denniston", "Lady Amelia Windsor"
+    ],
+    "created_at": "2022-09-20T10:51:29Z",
+    "updated_at": "2022-09-20T10:51:29Z",
+    "episode_guests": [
+        "Jason Mantzoukas",
+        "Andy Daly",
+        "Paul F. Tompkins"
+    ],
+    "episode_title": "Operation Double Decoy",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "operation-double-decoy",
+    "episode": 775,
+    "show": "cbb"
+}, {
+    "tstart": "44:30",
+    "instance": "Sometimes if I'm dressed up as something that doesn't have eyes I can't watch.",
+    "tend": "45:45",
+    "hero": {
+        "on": true,
+        "attrib": "Byron Denniston"
+    },
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "NB": ["a buckingham palace chimney", "site of: byron denniston, missing key details"],
+    "tags": [
+        "Byron Denniston", "Greg (Grizzle) Mallett"
+    ],
+    "created_at": "2022-09-20T10:51:29Z",
+    "updated_at": "2022-09-20T10:51:29Z",
+    "episode_guests": [
+        "Jason Mantzoukas",
+        "Andy Daly",
+        "Paul F. Tompkins"
+    ],
+    "episode_title": "Operation Double Decoy",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "operation-double-decoy",
+    "episode": 775,
+    "show": "cbb"
+}, {
+    "tstart": "47:50",
+    "instance": "Maybe you met him in a dream.",
+    "tend": "48:20",
+    "bit": "We Knew a Poet Once",
+    "elucidation": "various, even vague interminglings of character canon",
+    "tags": [
+        "Byron Denniston", "Greg (Grizzle) Mallett", "Gra V. Digger", "Lady Amelia Windsor"
+    ],
+    "created_at": "2022-09-20T10:51:29Z",
+    "updated_at": "2022-09-20T10:51:29Z",
+    "episode_guests": [
+        "Jason Mantzoukas",
+        "Andy Daly",
+        "Paul F. Tompkins"
+    ],
+    "episode_title": "Operation Double Decoy",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "operation-double-decoy",
+    "episode": 775,
+    "show": "cbb"
+}, {
+    "tstart": "51:00",
+    "instance": "I was hidden in the pipes.",
+    "tend": "52:00",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+        "Byron Denniston", "Greg (Grizzle) Mallett", "Danny Boy (song)", "Londonderry Air (song)"
+    ],
+    "created_at": "2022-09-20T10:51:29Z",
+    "updated_at": "2022-09-20T10:51:29Z",
+    "episode_guests": [
+        "Jason Mantzoukas",
+        "Andy Daly",
+        "Paul F. Tompkins"
+    ],
+    "episode_title": "Operation Double Decoy",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "operation-double-decoy",
+    "episode": 775,
+    "show": "cbb"
+}, {
+    "tstart": "53:00",
+    "instance": "It's exciting to have a royal.",
+    "tend": "54:00",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "NB": [
+        "Balmoral Castle",
+        "site of: byron denniston hearing and seeing things"
+    ],
+    "tags": [
+        "Byron Denniston", "Greg (Grizzle) Mallett"
+    ],
+    "created_at": "2022-09-20T10:51:29Z",
+    "updated_at": "2022-09-20T10:51:29Z",
+    "episode_guests": [
+        "Jason Mantzoukas",
+        "Andy Daly",
+        "Paul F. Tompkins"
+    ],
+    "episode_title": "Operation Double Decoy",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "operation-double-decoy",
+    "episode": 775,
+    "show": "cbb"
+}, {
+    "tstart": "59:15",
+    "instance": "Only to now just be, like, absolutely humiliated.",
+    "tend": "1:00:00",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+        "Byron Denniston", "Greg (Grizzle) Mallett", "Huey Lewis & The News (musical combination)", "I Want a New Drug (song)"
+    ],
+    "created_at": "2022-09-20T10:51:29Z",
+    "updated_at": "2022-09-20T10:51:29Z",
+    "episode_guests": [
+        "Jason Mantzoukas",
+        "Andy Daly",
+        "Paul F. Tompkins"
+    ],
+    "episode_title": "Operation Double Decoy",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "operation-double-decoy",
+    "episode": 775,
+    "show": "cbb"
+}, {
+    "tstart": "1:01:50",
+    "instance": "It's tricky with sirs and ladies things like that.",
+    "tend": "1:02:20",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+        "Byron Denniston", "Greg (Grizzle) Mallett", "Rocket Man (song)", "Elton John"
+    ],
+    "created_at": "2022-09-20T10:51:29Z",
+    "updated_at": "2022-09-20T10:51:29Z",
+    "episode_guests": [
+        "Jason Mantzoukas",
+        "Andy Daly",
+        "Paul F. Tompkins"
+    ],
+    "episode_title": "Operation Double Decoy",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "operation-double-decoy",
+    "episode": 775,
+    "show": "cbb"
+}, {
+    "tstart": "1:04:45",
+    "instance": "...go kill yourself?",
+    "tend": "1:05:20",
+    "bit": "Garbage Island",
+    "elucidation": "somebody (usually pft) references that cluster of waste in the pacific ocean",
+    "tags": [
+        "Byron Denniston", "Greg (Grizzle) Mallett"
+    ],
+    "created_at": "2022-09-20T10:51:29Z",
+    "updated_at": "2022-09-20T10:51:29Z",
+    "episode_guests": [
+        "Jason Mantzoukas",
+        "Andy Daly",
+        "Paul F. Tompkins"
+    ],
+    "episode_title": "Operation Double Decoy",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "operation-double-decoy",
+    "episode": 775,
+    "show": "cbb"
+}, {
+    "tstart": "1:12:30",
+    "instance": "Everybody gets diverted.",
+    "tend": "1:13:40",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "NB": ["10' away from hawaii", "decoy australia"],
+    "tags": [
+        "Byron Denniston", "Zirg"
+    ],
+    "created_at": "2022-09-20T10:51:29Z",
+    "updated_at": "2022-09-20T10:51:29Z",
+    "episode_guests": [
+        "Jason Mantzoukas",
+        "Andy Daly",
+        "Paul F. Tompkins"
+    ],
+    "episode_title": "Operation Double Decoy",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "operation-double-decoy",
+    "episode": 775,
+    "show": "cbb"
+}, {
+    "tstart": "1:15:30",
+    "instance": "I was datin' me own mutha.",
+    "tend": "1:16:30",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "NB": ["a hospital in australia", "site of: the birth of Zirg"],
+    "tags": [
+        "Zirg", "Lady Alemia Renspence"
+    ],
+    "created_at": "2022-09-20T10:51:29Z",
+    "updated_at": "2022-09-20T10:51:29Z",
+    "episode_guests": [
+        "Jason Mantzoukas",
+        "Andy Daly",
+        "Paul F. Tompkins"
+    ],
+    "episode_title": "Operation Double Decoy",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "operation-double-decoy",
+    "episode": 775,
+    "show": "cbb"
+}, {
+    "tstart": "1:16:20",
+    "instance": "I thought I could - I can't really, though, can I.",
+    "tend": "1:17:00",
+    "bit": "Who am I?",
+    "elucidation": "a character wonders aloud if they're being played well",
+    "tags": [
+        "Zirg", "Noryb Notsinned"
+    ],
+    "created_at": "2022-09-20T10:51:29Z",
+    "updated_at": "2022-09-20T10:51:29Z",
+    "episode_guests": [
+        "Jason Mantzoukas",
+        "Andy Daly",
+        "Paul F. Tompkins"
+    ],
+    "episode_title": "Operation Double Decoy",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "operation-double-decoy",
+    "episode": 775,
+    "show": "cbb"
+}, {
+    "tstart": "1:18:00",
+    "instance": "Oh, that's not a good idea.",
+    "tend": "1:18:30",
+    "bit": "Verisimilitude",
+    "elucidation": "some conceit of the show is abused, broken, or exposed",
+    "tags": [
+        "Zirg", "Noryb Notsinned", "Byron Denniston"
+    ],
+    "created_at": "2022-09-20T10:51:29Z",
+    "updated_at": "2022-09-20T10:51:29Z",
+    "episode_guests": [
+        "Jason Mantzoukas",
+        "Andy Daly",
+        "Paul F. Tompkins"
+    ],
+    "episode_title": "Operation Double Decoy",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "operation-double-decoy",
+    "episode": 775,
+    "show": "cbb"
+}, {
+    "tstart": "1:19:30",
+    "instance": "American Popeye.",
+    "tend": "1:19:45",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+        "Zirg", "Noryb Notsinned", "American Woman (song)", "The Guess Who (musical combination)", "Popeye the Sailor Man"
+    ],
+    "created_at": "2022-09-20T10:51:29Z",
+    "updated_at": "2022-09-20T10:51:29Z",
+    "episode_guests": [
+        "Jason Mantzoukas",
+        "Andy Daly",
+        "Paul F. Tompkins"
+    ],
+    "episode_title": "Operation Double Decoy",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "operation-double-decoy",
+    "episode": 775,
     "show": "cbb"
 }]

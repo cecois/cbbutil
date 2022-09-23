@@ -28,6 +28,14 @@ const _I = () => {
                 R.target = "tags";
                 q = ARG.t ? ARG.t : ARG.tags;
                 break;
+            case (typeof ARG.b == 'string' || typeof ARG.bit == 'string'):
+                R.target = "bit";
+                q = ARG.b ? ARG.b : ARG.bit;
+                break;
+            case (typeof ARG.e == 'string' || typeof ARG.elucidation == 'string'):
+                R.target = "elucidation";
+                q = ARG.e ? ARG.e : ARG.elucidation;
+                break;
             case (typeof ARG.a == 'string' || typeof ARG.all == 'string'):
                 R.target = "all";
                 q = ARG.a ? ARG.a : ARG.all;
@@ -46,6 +54,18 @@ const _I = () => {
                 filteredBits = __.filter(BITS, b => (b.tags.toLowerCase().indexOf(R.query) >= 0));
                 R.found = filteredBits.length;
                 filteredBits = __.reject(filteredBits, fb => fb.tags.toLowerCase().indexOf(R.not) >= 0);
+                R.removed = R.found - filteredBits.length;
+                break;
+            case "bit":
+                filteredBits = __.filter(BITS, b => (b.bit.toLowerCase().indexOf(R.query) >= 0));
+                R.found = filteredBits.length;
+                filteredBits = __.reject(filteredBits, fb => fb.bit.toLowerCase().indexOf(R.not) >= 0);
+                R.removed = R.found - filteredBits.length;
+                break;
+            case "elucidation":
+                filteredBits = __.filter(BITS, b => (b.elucidation.toLowerCase().indexOf(R.query) >= 0));
+                R.found = filteredBits.length;
+                filteredBits = __.reject(filteredBits, fb => fb.elucidation.toLowerCase().indexOf(R.not) >= 0);
                 R.removed = R.found - filteredBits.length;
                 break;
             case "all":
@@ -73,4 +93,5 @@ const _I = () => {
     } //_i
 let r = _I();
 //console.dir(r);
-console.log(JSON.stringify(r));
+// console.log(JSON.stringify(r));
+console.log(JSON.stringify(r, null, 4));

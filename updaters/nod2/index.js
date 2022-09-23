@@ -55,7 +55,7 @@ let OPS = {
             run: true,
             type: "prep"
         },
-        // merge will take the incoming set (cbb-live.json+cbb-master.json, typically), merge them, save them out
+        // merge will take the incoming set (cbb-live.json+cbb-definitive.json, typically), merge them, save them out
         {
             handle: "mergeBits",
             run: false,
@@ -67,7 +67,7 @@ let OPS = {
             run: false,
             type: "send"
         },
-        // send will take the current on-disk merged set (cbb-live.json+cbb-master.json, typically), elastify them, and save them out as the new master
+        // send will take the current on-disk merged set (cbb-live.json+cbb-definitive.json, typically), elastify them, and save them out as the new definitive
         {
             handle: "sendBits",
             run: false,
@@ -109,13 +109,15 @@ const _I = async() => {
                 */
 
         let opSets = {
-            "AUDIT": false, //safety check & audit
+            "AUDIT": true, //safety check & audit
             "BACKP": false, //backup of definitive & geoms
-            "MERGE": false //merge incoming with definitive
-                "CLEAR": true //clear out bits index
+            "MERGE": false, //merge incoming with definitive
+            "CLEAR": false //clear out bits index
         };
 
         _CLAXON.info(JSON.stringify(opSets));
+
+        // HErE'S tHE actiOn StUFf - If a gIvEn op iN OPSeTS IS tRUE, WE cRaFT An aRRAY OF prOMiSeS And then Run Em
 
         try {
             promises = opSets.AUDIT ? [SFTY.default(CFG, _CLAXON), AUDT.default(CFG, _CLAXON)] : [_CLAXON.infoSync("AUDIT is off")];
