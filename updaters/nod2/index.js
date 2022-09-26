@@ -10,6 +10,7 @@ import DEVO from './cbbModules/_DEV.cjs';
 import SFTY from './cbbModules/_safety.cjs';
 import BBTS from './cbbModules/_backupBits.cjs';
 import AUDT from './cbbModules/_auditBits.cjs';
+import GEOM from './cbbModules/_auditGeom.cjs';
 import MERG from './cbbModules/_mergeBits.cjs';
 import DELE from './cbbModules/_deleteBits.cjs';
 import SEND from './cbbModules/_sendBits.cjs';
@@ -109,7 +110,8 @@ const _I = async() => {
                 */
 
         let opSets = {
-            "AUDIT": true, //safety check & audit
+            "AUDIT": false, //safety check & audit
+            "GEOMS": true, //safety check & audit
             "BACKP": false, //backup of definitive & geoms
             "MERGE": false, //merge incoming with definitive
             "CLEAR": false //clear out bits index
@@ -125,7 +127,16 @@ const _I = async() => {
         } catch (err) {
             _E({
                 killed: true,
-                killer: `audit set fail: ${err}`
+                killer: `audit fail: ${err}`
+            });
+        }
+        try {
+            promises = opSets.GEOMS ? [GEOM.default(CFG, _CLAXON)] : [_CLAXON.infoSync("GEOMS is off")];
+            await Promise.all(promises);
+        } catch (err) {
+            _E({
+                killed: true,
+                killer: `geom audit fail: ${err}`
             });
         }
 

@@ -1,1527 +1,4 @@
 [{
-    "tstart": "0:30",
-    "tend": "0:45",
-    "instance": "That's my note.",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-        "588-2300 Empire!"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "10:00",
-    "tend": "10:30",
-    "instance": "The city of Saint Antonio?",
-    "bit": "What's This, Now?!",
-    "elucidation": "something surprises someone",
-    "tags": [
-        "Andrew Lloyd Webber"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "10:25",
-    "tend": "10:40",
-    "instance": "What a pleasure to be with you here in your American Southwest.",
-    "bit": "Scottrick",
-    "elucidation": "akin to \"topping hat\" -- a dsalwism",
-    "tags": [
-        "Andrew Lloyd Webber"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "11:15",
-    "tend": "11:35",
-    "instance": "Shit out of luck.",
-    "bit": "Scottrick",
-    "elucidation": "akin to \"topping hat\" -- a dsalwism",
-    "tags": [
-        "Andrew Lloyd Webber",
-        "Sting"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "13:00",
-    "tend": "13:20",
-    "instance": "You simply must!",
-    "bit": "Scottrick",
-    "elucidation": "akin to \"topping hat\" -- a dsalwism",
-    "tags": [
-        "Andrew Lloyd Webber"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "13:45",
-    "tend": "14:10",
-    "instance": "If you saw it you'd throw up.",
-    "bit": "Scottrick",
-    "elucidation": "akin to \"topping hat\" -- a dsalwism",
-    "tags": [
-        "Andrew Lloyd Webber"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "14:30",
-    "tend": "14:45",
-    "instance": "He probably doesn't have that many friends - he's so ugly.",
-    "bit": "Scottrick",
-    "elucidation": "akin to \"topping hat\" -- a dsalwism",
-    "tags": [
-        "Andrew Lloyd Webber"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "15:15",
-    "tend": "15:30",
-    "instance": "I was approached to do a musical adaptation of 'The Hunger Games.'",
-    "bit": "Scottrick",
-    "elucidation": "akin to \"topping hat\" -- a dsalwism",
-    "tags": [
-        "Andrew Lloyd Webber",
-        "The Hunger Games (film)",
-        "The Hunger Games (book)"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "17:30",
-    "tend": "18:00",
-    "instance": "She was the one who inspired me to write about a man with a fucked-up face.",
-    "bit": "Scottrick",
-    "elucidation": "akin to \"topping hat\" -- a dsalwism",
-    "tags": [
-        "Andrew Lloyd Webber",
-        "Sarah Brightman"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "30:15",
-    "tend": "30:50",
-    "instance": "Birds - absolutely not.",
-    "bit": "Scottrick",
-    "elucidation": "akin to \"topping hat\" -- a dsalwism",
-    "tags": [
-        "Andrew Lloyd Webber"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "37:00",
-    "tend": "37:20",
-    "instance": "I'm having fun with you.",
-    "bit": "Scottrick",
-    "elucidation": "akin to \"topping hat\" -- a dsalwism",
-    "tags": [
-        "Andrew Lloyd Webber"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "37:40",
-    "tend": "38:00",
-    "instance": "We've known each other for quite a long time.",
-    "bit": "Scottrick",
-    "elucidation": "akin to \"topping hat\" -- a dsalwism",
-    "tags": [
-        "Andrew Lloyd Webber"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "52:25",
-    "tend": "52:45",
-    "instance": "Well, I appreciate the pitch but I don't this is ever going to take off.",
-    "bit": "Scottrick",
-    "elucidation": "akin to \"topping hat\" -- a dsalwism",
-    "tags": [
-        "Andrew Lloyd Webber"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "56:20",
-    "tend": "56:45",
-    "instance": "So I thought I'd come and crash the show.",
-    "bit": "Scottrick",
-    "elucidation": "akin to \"topping hat\" -- a dsalwism",
-    "tags": [
-        "Andrew Lloyd Webber"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "51:15",
-    "tend": "51:45",
-    "instance": "They stand erect...and they jump around.",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-        "Andrew Lloyd Webber",
-        "House of Pain (musical combination)",
-        "Jump Around (song)"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:00:30",
-    "tend": "1:00:50",
-    "instance": "And he lives on the seventh floor.",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-        "Andrew Lloyd Webber",
-        "Luka (song)",
-        "Suzanne Vega"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:03:15",
-    "tend": "1:03:45",
-    "instance": "Are you just gonna name anyone?",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-        "Andrew Lloyd Webber",
-        "Mark London",
-        "To Sir with Love (song)",
-        "Lulu",
-        "Don Black"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:01:50",
-    "tend": "1:02:20",
-    "instance": "I had the most terrible dream.",
-    "bit": "Scottrick",
-    "elucidation": "akin to \"topping hat\" -- a dsalwism",
-    "tags": [
-        "Andrew Lloyd Webber"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:04:00",
-    "tend": "1:04:30",
-    "instance": "I'm already out here.",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-        "Andrew Lloyd Webber",
-        "SisQó",
-        "The Thong Song (song)"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:05:20",
-    "tend": "1:06:00",
-    "instance": "Much like a lot of what has happened to you.",
-    "bit": "Location",
-    "elucidation": "identifiable earth location",
-    "NB": [
-        "san antonio airport (austin, prolly)",
-        "site of: SisQó's lost luggage, years ago"
-    ],
-    "tags": [
-        "Andrew Lloyd Webber",
-        "SisQó"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": "poly",
-    "location_id": "1256",
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:05:45",
-    "tend": "1:06:20",
-    "instance": "They lost one of my steamer trunks when I was making a crossing.",
-    "bit": "Location",
-    "elucidation": "identifiable earth location",
-    "NB": [
-        "queen mary bt London and somewhere",
-        "site of: the queen mary cruise losing DSALW's steamer trunk"
-    ],
-    "tags": [
-        "Andrew Lloyd Webber",
-        "SisQó"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": "poly",
-    "location_id": "1257",
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:06:30",
-    "tend": "1:07:00",
-    "instance": "Peppers on a toothpick.",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-        "Andrew Lloyd Webber",
-        "SisQó",
-        "Shave and a Haircut (song)"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:07:20",
-    "tend": "1:07:45",
-    "instance": "I saw Richard Nixon.",
-    "bit": "Location",
-    "elucidation": "identifiable earth location",
-    "NB": [
-        "alamo - san antonio",
-        "site of: SisQó and Richard Nixon at the same time"
-    ],
-    "tags": [
-        "Andrew Lloyd Webber",
-        "SisQó",
-        "Richard Nixon"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": "poly",
-    "location_id": "1258",
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:08:45",
-    "tend": "1:09:00",
-    "instance": "Like Milhous's dad from 'The Simpsons'?",
-    "bit": "Who?",
-    "elucidation": "somebody doesn't know who or what something famous is",
-    "tags": [
-        "Andrew Lloyd Webber",
-        "SisQó",
-        "Richard Nixon"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:09:50",
-    "tend": "1:10:30",
-    "instance": "What year did Richard Nixon die?",
-    "bit": "Scottrick",
-    "elucidation": "akin to \"topping hat\" -- a dsalwism",
-    "tags": [
-        "Andrew Lloyd Webber",
-        "SisQó",
-        "Richard Nixon"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:11:50",
-    "tend": "1:12:20",
-    "instance": "Don't gaslight SisQó.",
-    "bit": "Scottrick",
-    "elucidation": "akin to \"topping hat\" -- a dsalwism",
-    "tags": [
-        "Andrew Lloyd Webber",
-        "SisQó"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:14:40",
-    "tend": "1:15:00",
-    "instance": "SisQó, are you reading me?",
-    "bit": "Scottrick",
-    "elucidation": "akin to \"topping hat\" -- a dsalwism",
-    "tags": [
-        "Andrew Lloyd Webber",
-        "SisQó"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:21:20",
-    "tend": "1:21:35",
-    "instance": "I'm glad I could broker that.",
-    "bit": "Scottrick",
-    "elucidation": "akin to \"topping hat\" -- a dsalwism",
-    "tags": [
-        "Andrew Lloyd Webber",
-        "SisQó"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:22:50",
-    "tend": "1:23:10",
-    "instance": "Maybe he's right.",
-    "bit": "Scottrick",
-    "elucidation": "akin to \"topping hat\" -- a dsalwism",
-    "tags": [
-        "Andrew Lloyd Webber",
-        "SisQó"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:10:00",
-    "tend": "1:11:00",
-    "instance": "Richard Nixon died in nineteen hundred and ninety-four.",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-        "Andrew Lloyd Webber",
-        "SisQó",
-        "Richard Nixon",
-        "Na Na Hey Hey Kiss Him Goodbye (song)",
-        "Steam (musical combination)"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:13:30",
-    "tend": "1:14:25",
-    "instance": "I don't just sing about thongs - I live thongs, Scotty D.",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-        "Andrew Lloyd Webber",
-        "SisQó",
-        "The Thong Song (song)"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:16:50",
-    "tend": "1:17:30",
-    "instance": "Let him see those thongs.",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-        "Andrew Lloyd Webber",
-        "SisQó",
-        "The Thong Song (song)"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:20:00",
-    "tend": "1:20:30",
-    "instance": "Ooh that shell so scandalous \\ cuz you know another turtle couldn't handle it",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-        "Andrew Lloyd Webber",
-        "SisQó",
-        "The Thong Song (song)"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:38:40",
-    "tend": "1:39:00",
-    "instance": "Exqueese me, Scotty?",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-        "Andrew Lloyd Webber",
-        "SisQó",
-        "The Thong Song (song)",
-        "Seth Berkowitz"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:38:40",
-    "tend": "1:39:00",
-    "instance": "Exqueese me, Scotty?",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-        "Andrew Lloyd Webber",
-        "SisQó",
-        "Unleash the Dragon (song)",
-        "Seth Berkowitz"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:17:00",
-    "tend": "1:17:35",
-    "instance": "So you took this whole experience and turned it into music.",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-        "Andrew Lloyd Webber",
-        "SisQó",
-        "The Wheels on the Bus (song)",
-        "Verna Hills"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:20:50",
-    "tend": "1:21:10",
-    "instance": "Movin so slow I'm jealous-jealous \\ we in the sewer-sewer",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-        "Andrew Lloyd Webber",
-        "SisQó",
-        "Livin' la Vida Loca (song)",
-        "Draco Rosa",
-        "Desmond Child",
-        "Ricky Martin"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:16:40",
-    "tend": "1:17:10",
-    "instance": "Everyone stand up and show SisQó your undewear.",
-    "bit": "Not That Kind of a Show",
-    "elucidation": "cbb gets a little blue",
-    "tags": [
-        "Andrew Lloyd Webber",
-        "SisQó"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:23:00",
-    "tend": "1:25:00",
-    "instance": "Don't walk to the other theatre - there are even less people there.",
-    "bit": "Location",
-    "elucidation": "identifiable earth location",
-    "NB": [
-        "san antonio airport tarmac - -98.46306732204563,29.533856043353225",
-        "site of: SisQó's luggage, strewn across the tarmac",
-        "proxy for: David Robinson International Airport"
-    ],
-    "tags": [
-        "Andrew Lloyd Webber",
-        "SisQó"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": "point",
-    "location_id": "1529",
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:23:00",
-    "tend": "1:25:00",
-    "instance": "I can't afford water - all of my cash was in the thongs.",
-    "bit": "Location",
-    "elucidation": "identifiable earth location",
-    "NB": [
-        "san antonio airport tarmac to the alamo",
-        "route of: SisQó the Alamo one sad day"
-    ],
-    "tags": [
-        "Andrew Lloyd Webber",
-        "SisQó"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": "line",
-    "location_id": "331",
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:29:10",
-    "tend": "1:29:30",
-    "instance": "SisQó ain't never said that!",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-        "Andrew Lloyd Webber",
-        "SisQó",
-        "Camptown Races (song)"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:30:00",
-    "tend": "1:31:00",
-    "instance": "How my name is 'Dragon.'",
-    "bit": "Location",
-    "elucidation": "identifiable earth location",
-    "NB": [
-        "louie tussaud's wax museum - -98.4872760616154,29.425285331339456",
-        "site of: the origin of SisQó's name, 'Dragon' and a SisQó tour launch in 2022"
-    ],
-    "tags": [
-        "Andrew Lloyd Webber",
-        "SisQó"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": "point",
-    "location_id": "1525",
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:32:00",
-    "tend": "1:32:45",
-    "instance": "Next to the world's tallest man.",
-    "bit": "Location",
-    "elucidation": "identifiable earth location",
-    "NB": [
-        "louie tussaud's wax museum - across from the alamo in san antonio",
-        "site of: the origin of SisQó's name, 'Dragon' and a SisQó tour launch in 2022"
-    ],
-    "tags": [
-        "Andrew Lloyd Webber",
-        "SisQó"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": "point",
-    "location_id": "1525",
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:40:30",
-    "tend": "1:40:55",
-    "instance": "I think Bart's 10, Lisa's 8.",
-    "bit": "Who?",
-    "elucidation": "somebody doesn't know who or what something famous is",
-    "tags": [
-        "Andrew Lloyd Webber",
-        "SisQó",
-        "Seth Berkowitz"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:42:35",
-    "tend": "1:42:55",
-    "instance": "He's wearing one of my thongs.",
-    "bit": "Location",
-    "elucidation": "identifiable earth location",
-    "NB": [
-        "outside of an 'american west' airlines terminal in phoenix",
-        "site of: a 1994 transaction between Kevin Johnson and Seth Berkowitz"
-    ],
-    "tags": [
-        "SisQó",
-        "Seth Berkowitz",
-        "Kevin Johnson"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": "point",
-    "location_id": "1526",
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:43:12",
-    "tend": "1:43:45",
-    "instance": "So you're waiting for comedy tours to be where you are?",
-    "bit": "Location",
-    "elucidation": "identifiable earth location",
-    "NB": [
-        "Morongo Casino, Resort & Spa",
-        "site of: Seth Berkowitz, off by a few days to catch Sinbad's tour"
-    ],
-    "tags": [
-        "SisQó",
-        "Seth Berkowitz",
-        "Sinbad",
-        "Andrew Lloyd Webber"
-    ],
-    "created_at": "2022-08-118T10:51:29Z",
-    "updated_at": "2022-08-118T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Empire Theatre, San Antonio TX - 08/05/22",
-    "location_type": "poly",
-    "location_id": "1259",
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-san-antonio-empire",
-    "show": "cbb"
-}, {
-    "tstart": "1:50",
-    "tend": "2:20",
-    "instance": "Scared the fucking shit outta me.",
-    "bit": "The Train Effect",
-    "elucidation": "among scott's favorite films is evidently \"l'arrivé d'un train en gare de la ciotat\"",
-    "tags": [],
-    "created_at": "2022-08-119T10:51:29Z",
-    "updated_at": "2022-08-119T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Paramount Theatre, Austin TX - 08/06/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-austin-paramount",
-    "show": "cbb"
-}, {
-    "tstart": "11:20",
-    "tend": "11:45",
-    "instance": "I had prepared two monologues.",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-        "Oh, What a Beautiful Mornin' (song)",
-        "Richard Rodgers",
-        "Oscar Hammerstein II",
-        "Chesley Burnett Sullenberger"
-    ],
-    "created_at": "2022-08-119T10:51:29Z",
-    "updated_at": "2022-08-119T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Paramount Theatre, Austin TX - 08/06/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-austin-paramount",
-    "show": "cbb"
-}, {
-    "tstart": "24:45",
-    "tend": "25:10",
-    "instance": "I wouldn't call myself a Luciano Pavarotti.",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-        "Luciano Pavarotti",
-        "Chesley Burnett Sullenberger",
-        "Safelite Repair, Safelite Replace (song)"
-    ],
-    "created_at": "2022-08-119T10:51:29Z",
-    "updated_at": "2022-08-119T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Paramount Theatre, Austin TX - 08/06/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-austin-paramount",
-    "show": "cbb"
-}, {
-    "tstart": "30:40",
-    "tend": "31:00",
-    "instance": "I don't have a brother.",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-        "Chesley Burnett Sullenberger",
-        "Out of Space (song)",
-        "The Prodigy (musical combination)"
-    ],
-    "created_at": "2022-08-119T10:51:29Z",
-    "updated_at": "2022-08-119T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Paramount Theatre, Austin TX - 08/06/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-austin-paramount",
-    "show": "cbb"
-}, {
-    "tstart": "34:15",
-    "tend": "34:30",
-    "instance": "'Liberty' - such a great word.",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-        "Chesley Burnett Sullenberger",
-        "Liberty Mutual Jingle (song)",
-        "Elias Art Music House"
-    ],
-    "created_at": "2022-08-119T10:51:29Z",
-    "updated_at": "2022-08-119T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Paramount Theatre, Austin TX - 08/06/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-austin-paramount",
-    "show": "cbb"
-}, {
-    "tstart": "43:07",
-    "tend": "43:45",
-    "instance": "Let me know when you're ready to hear the emu story.",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-        "Chesley Burnett Sullenberger",
-        "Liberty Mutual Jingle (song)",
-        "Elias Art Music House",
-        "MC Sugar Butt"
-    ],
-    "created_at": "2022-08-119T10:51:29Z",
-    "updated_at": "2022-08-119T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Paramount Theatre, Austin TX - 08/06/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-austin-paramount",
-    "show": "cbb"
-}, {
-    "tstart": "54:30",
-    "tend": "55:00",
-    "instance": "What's the biggest pyramid you've ever cleaned?",
-    "bit": "Location",
-    "elucidation": "identifiable earth location",
-    "NB": [
-        "a pyramid in miami",
-        "site of: the biggest pyramid ever cleaned by mc sugar butt"
-    ],
-    "tags": [
-        "Chesley Burnett Sullenberger",
-        "MC Sugar Butt"
-    ],
-    "created_at": "2022-08-119T10:51:29Z",
-    "updated_at": "2022-08-119T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Paramount Theatre, Austin TX - 08/06/22",
-    "location_type": "point",
-    "location_id": "1527",
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-austin-paramount",
-    "show": "cbb"
-}, {
-    "tstart": "54:30",
-    "tend": "55:00",
-    "instance": "What's the biggest pyramid you've ever cleaned?",
-    "bit": "Location",
-    "elucidation": "identifiable earth location",
-    "NB": [
-        "a pyramid in egypt",
-        "site of: the smallest pyramid ever cleaned by mc sugar butt"
-    ],
-    "tags": [
-        "Chesley Burnett Sullenberger",
-        "MC Sugar Butt"
-    ],
-    "created_at": "2022-08-119T10:51:29Z",
-    "updated_at": "2022-08-119T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Paramount Theatre, Austin TX - 08/06/22",
-    "location_type": "poly",
-    "location_id": "1260",
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-austin-paramount",
-    "show": "cbb"
-}, {
-    "tstart": "54:30",
-    "tend": "55:15",
-    "instance": "Big Miami pyramid.",
-    "bit": "Recent Pyramid Stuff",
-    "elucidation": "somebody (PFT, usually) reports recent pyramid news",
-    "tags": [
-        "Chesley Burnett Sullenberger",
-        "MC Sugar Butt"
-    ],
-    "created_at": "2022-08-119T10:51:29Z",
-    "updated_at": "2022-08-119T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Paramount Theatre, Austin TX - 08/06/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-austin-paramount",
-    "show": "cbb"
-}, {
-    "tstart": "1:02:20",
-    "tend": "1:02:45",
-    "instance": "You put the sugar butt \\ into my brain",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-        "Chesley Burnett Sullenberger",
-        "MC Sugar Butt",
-        "Wake Me Up Before You Go-Go (song)",
-        "Wham! (musical combination)"
-    ],
-    "created_at": "2022-08-119T10:51:29Z",
-    "updated_at": "2022-08-119T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Paramount Theatre, Austin TX - 08/06/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-austin-paramount",
-    "show": "cbb"
-}, {
-    "tstart": "1:03:40",
-    "tend": "1:09:20",
-    "instance": "He's an educator.",
-    "bit": "Location",
-    "elucidation": "identifiable earth location",
-    "NB": [
-        "hamilton high - 1100 Keokuk St, Hamilton, IL 62341",
-        "proxy for: hamilton high",
-        "workplace of: Todd Padre"
-    ],
-    "tags": [
-        "Chesley Burnett Sullenberger",
-        "MC Sugar Butt",
-        "Estadre (Todd) Toiletman Padre"
-    ],
-    "created_at": "2022-08-119T10:51:29Z",
-    "updated_at": "2022-08-119T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Paramount Theatre, Austin TX - 08/06/22",
-    "location_type": "point",
-    "location_id": "1528",
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-austin-paramount",
-    "show": "cbb"
-}, {
-    "tstart": "1:11:20",
-    "tend": "1:12:30",
-    "instance": "And then Jack Lemon died immediately.",
-    "bit": "Location",
-    "elucidation": "identifiable earth location",
-    "NB": [
-        "shrine auditorium",
-        "site of: the 50th Primetime Emmy Awards; Todd Padre doing seatfill work"
-    ],
-    "tags": [
-        "Ving Rhames",
-        "Jack Lemmon",
-        "MC Sugar Butt",
-        "Estadre (Todd) Toiletman Padre",
-        "Chesley Burnett Sullenberger"
-    ],
-    "created_at": "2022-08-119T10:51:29Z",
-    "updated_at": "2022-08-119T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Paramount Theatre, Austin TX - 08/06/22",
-    "location_type": "point",
-    "location_id": "797",
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-austin-paramount",
-    "show": "cbb"
-}, {
-    "tstart": "1:17:45",
-    "tend": "1:19:00",
-    "instance": "No that's my play 'Baby Back Robbers.'",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-        "MC Sugar Butt",
-        "Estadre (Todd) Toiletman Padre",
-        "Chesley Burnett Sullenberger",
-        "Guy Bommarito",
-        "Willie McCoy",
-        "Chili's (Baby Back Ribs) (song)"
-    ],
-    "created_at": "2022-08-119T10:51:29Z",
-    "updated_at": "2022-08-119T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Paramount Theatre, Austin TX - 08/06/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-austin-paramount",
-    "show": "cbb"
-}, {
-    "tstart": "1:21:20",
-    "tend": "1:21:40",
-    "instance": "You just saw two men who have never met each other having a connection.",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-        "MC Sugar Butt",
-        "Estadre (Todd) Toiletman Padre",
-        "Chesley Burnett Sullenberger",
-        "Connection (song)",
-        "Elastica (musical combination)"
-    ],
-    "created_at": "2022-08-119T10:51:29Z",
-    "updated_at": "2022-08-119T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Paramount Theatre, Austin TX - 08/06/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-austin-paramount",
-    "show": "cbb"
-}, {
-    "tstart": "1:21:20",
-    "tend": "1:21:40",
-    "instance": "We're on a great wavelength, here.",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-        "MC Sugar Butt",
-        "Estadre (Todd) Toiletman Padre",
-        "Chesley Burnett Sullenberger",
-        "Unbelievable (song)",
-        "EMF (musical combination)"
-    ],
-    "created_at": "2022-08-119T10:51:29Z",
-    "updated_at": "2022-08-119T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Paramount Theatre, Austin TX - 08/06/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-austin-paramount",
-    "show": "cbb"
-}, {
-    "tstart": "1:21:20",
-    "tend": "1:21:40",
-    "instance": "We're on a great wavelength, here.",
-    "bit": "The Paul Hardcastle of Suicides",
-    "elucidation": "any song reference",
-    "tags": [
-        "MC Sugar Butt",
-        "Estadre (Todd) Toiletman Padre",
-        "Chesley Burnett Sullenberger",
-        "Crumbelievable (song)",
-        "EMF (musical combination)"
-    ],
-    "created_at": "2022-08-119T10:51:29Z",
-    "updated_at": "2022-08-119T10:51:29Z",
-    "episode_guests": [
-        "Paul F. Tompkins",
-        "Carl Tart",
-        "Dan Lippert"
-    ],
-    "episode_title": "Live from The Paramount Theatre, Austin TX - 08/06/22",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": null,
-    "episode": "cbb-2022-live-tour-austin-paramount",
-    "show": "cbb"
-}, {
     "tstart": "7:00",
     "tend": "7:30",
     "instance": "Every part of the studio, I clean - I love doing it.",
@@ -5436,7 +3913,8 @@
     "bit": "Location",
     "elucidation": "identifiable earth location",
     "NB": [
-        "site of: Pearl's (pearl henderson's bar)",
+        "oscar's bar: -118.20916985353419,33.909925835548854",
+        "proxy for: Pearl's (pearl henderson's bar); site of: two people kissing under a cape",
         "a bar in compton"
     ],
     "tags": [
@@ -5451,8 +3929,8 @@
         "Drew Tarver"
     ],
     "episode_title": "Live from The Moore Theatre, Seattle WA - 08/13/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1566",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-seattle-moore",
     "show": "cbb"
@@ -5478,8 +3956,8 @@
         "Drew Tarver"
     ],
     "episode_title": "Live from The Moore Theatre, Seattle WA - 08/13/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1275",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-seattle-moore",
     "show": "cbb"
@@ -5506,8 +3984,8 @@
         "Drew Tarver"
     ],
     "episode_title": "Live from The Moore Theatre, Seattle WA - 08/13/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "304",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-seattle-moore",
     "show": "cbb"
@@ -5543,7 +4021,7 @@
     "bit": "Location",
     "elucidation": "identifiable earth location",
     "NB": [
-        "7007 aldea av, lake balboa, ca 91406",
+        "7007 aldea av, lake balboa, ca 91406: -118.50906159687283,34.19785802077257",
         "home to: doug gropes"
     ],
     "tags": [
@@ -5558,8 +4036,8 @@
         "Drew Tarver"
     ],
     "episode_title": "Live from The Moore Theatre, Seattle WA - 08/13/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1567",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-seattle-moore",
     "show": "cbb"
@@ -5635,8 +4113,8 @@
         "Drew Tarver"
     ],
     "episode_title": "Live from The Moore Theatre, Seattle WA - 08/13/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "268",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-seattle-moore",
     "show": "cbb"
@@ -6049,17 +4527,13 @@
     "show": "cbb"
 }, {
     "tstart": "30:15",
-    "instance": "A mechanism got screwed up and they started shaking their heads 'yes.'",
+    "instance": "Do you have any of New Edition?",
     "tend": "31:00",
-    "bit": "Location",
-    "elucidation": "identifiable earth location",
-    "NB": [
-        "bobblehead factory",
-        "site of: a happy accident, once"
-    ],
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
     "tags": [
         "Darren Matichek",
-        "Batman"
+        "Batman", "New Edition (musical combination)", "Cool It Now (song)"
     ],
     "created_at": "2022-08-299T10:51:29Z",
     "updated_at": "2022-08-299T10:51:29Z",
@@ -6072,6 +4546,34 @@
     "episode_title": "Live from The Theatre at the Ace Hotel, Los Angeles CA - 08/14/22",
     "location_type": null,
     "location_id": null,
+    "slug_earwolf": null,
+    "episode": "cbb-2022-live-tour-la-ace",
+    "show": "cbb"
+}, {
+    "tstart": "30:15",
+    "instance": "A mechanism got screwed up and they started shaking their heads 'yes.'",
+    "tend": "31:00",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "NB": [
+        "a bobblehead factory", "Bobble Factory - 8224 Lehigh Ave, Morton Grove, IL 60053: -87.7850727056808,42.0313785176404",
+        "site of: a happy accident, once, when bobbleheads were switched to nod yes instead"
+    ],
+    "tags": [
+        "Darren Matichek",
+        "Batman", "Shimmy Lincoln"
+    ],
+    "created_at": "2022-08-299T10:51:29Z",
+    "updated_at": "2022-08-299T10:51:29Z",
+    "episode_guests": [
+        "Paul F. Tompkins",
+        "Bobby Moynihan",
+        "Tim Baltz",
+        "Lily Sullivan"
+    ],
+    "episode_title": "Live from The Theatre at the Ace Hotel, Los Angeles CA - 08/14/22",
+    "location_type": "point",
+    "location_id": "1568",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-la-ace",
     "show": "cbb"
@@ -6125,8 +4627,8 @@
         "Lily Sullivan"
     ],
     "episode_title": "Live from The Theatre at the Ace Hotel, Los Angeles CA - 08/14/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "32",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-la-ace",
     "show": "cbb"
@@ -6306,8 +4808,8 @@
         "Lily Sullivan"
     ],
     "episode_title": "Live from The Theatre at the Ace Hotel, Los Angeles CA - 08/14/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1276",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-la-ace",
     "show": "cbb"
@@ -6592,8 +5094,7 @@
     "bit": "Location",
     "elucidation": "identifiable earth location",
     "NB": [
-        "obi ron kenobi's old car wash",
-        "site of: bto's takin care of business, played relentlessly and exclusively"
+        "Matt's Auto Wash: -83.78308681407468,43.060020226551444", "possible site of: obi ron kenobi's old car wash;site of: bto's takin care of business, played relentlessly and exclusively"
     ],
     "tags": [
         "Obi Ron Kenobi"
@@ -6607,8 +5108,8 @@
         "Lily Sullivan"
     ],
     "episode_title": "Live from The Tabernacle, Atlanta GA - 08/17/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1569",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-atlanta-tabernacle",
     "show": "cbb"
@@ -6734,8 +5235,8 @@
         "Lily Sullivan"
     ],
     "episode_title": "Live from The Tabernacle, Atlanta GA - 08/17/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": 71,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-atlanta-tabernacle",
     "show": "cbb"
@@ -6762,8 +5263,8 @@
         "Lily Sullivan"
     ],
     "episode_title": "Live from The Tabernacle, Atlanta GA - 08/17/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": 71,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-atlanta-tabernacle",
     "show": "cbb"
@@ -6790,8 +5291,8 @@
         "Lily Sullivan"
     ],
     "episode_title": "Live from The Tabernacle, Atlanta GA - 08/17/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": 1050,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-atlanta-tabernacle",
     "show": "cbb"
@@ -6818,8 +5319,8 @@
         "Lily Sullivan"
     ],
     "episode_title": "Live from The Tabernacle, Atlanta GA - 08/17/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": 1050,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-atlanta-tabernacle",
     "show": "cbb"
@@ -6935,7 +5436,8 @@
     "bit": "Location",
     "elucidation": "identifiable earth location",
     "NB": [
-        "site of: the choking/car accident death of henry heimlich's daughter",
+        "Fairmount Rd, Novelty, OH", "-81.32099784585449,41.490609975524954",
+        "possible site of: the choking/car accident death of henry heimlich's daughter",
         "rural ohio, presumably"
     ],
     "tags": [
@@ -6952,8 +5454,8 @@
         "Lily Sullivan"
     ],
     "episode_title": "Live from The Tabernacle, Atlanta GA - 08/17/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": 1570,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-atlanta-tabernacle",
     "show": "cbb"
@@ -6964,8 +5466,8 @@
     "bit": "Location",
     "elucidation": "identifiable earth location",
     "NB": [
-        "30' under the water near a beach near ohio (presumably)",
-        "site of: henry heimlich's girlfriend's underwater choking"
+        "30' under the water near a beach near ohio (presumably):-81.55685895685245,41.610401226780226",
+        "2000' off Utopia Beach, Cleveland, OH", "possible site of: henry heimlich's girlfriend's underwater choking"
     ],
     "tags": [
         "Becky",
@@ -6981,8 +5483,8 @@
         "Lily Sullivan"
     ],
     "episode_title": "Live from The Tabernacle, Atlanta GA - 08/17/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": 1571,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-atlanta-tabernacle",
     "show": "cbb"
@@ -7091,7 +5593,7 @@
     "elucidation": "identifiable earth location",
     "NB": [
         "a prison somewhere",
-        "site of: big chunky bubbles' mother's death by electrocution"
+        "possible site of: big chunky bubbles' mother's death by electrocution"
     ],
     "tags": [
         "Big Chunky Bubbles"
@@ -7106,8 +5608,8 @@
         "Drew Tarver"
     ],
     "episode_title": "Live from Knight Theater, Charlotte NC - 08/18/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": 1277,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-charlotte-knight",
     "show": "cbb"
@@ -7136,8 +5638,8 @@
         "Drew Tarver"
     ],
     "episode_title": "Live from Knight Theater, Charlotte NC - 08/18/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": 1277,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-charlotte-knight",
     "show": "cbb"
@@ -7172,7 +5674,7 @@
     "bit": "Location",
     "elucidation": "identifiable earth location",
     "NB": [
-        "a theatre somewhere",
+        "a theatre somewhere: -75.57668187661824,40.5549988413453", "Movie Tavern Trexlertown",
         "possible site of: BCB's father's grisly death by his mother's hand"
     ],
     "tags": [
@@ -7188,8 +5690,8 @@
         "Drew Tarver"
     ],
     "episode_title": "Live from Knight Theater, Charlotte NC - 08/18/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": 1572,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-charlotte-knight",
     "show": "cbb"
@@ -7227,8 +5729,8 @@
     "bit": "Location",
     "elucidation": "identifiable earth location",
     "NB": [
-        "hot dog factory",
-        "workplace of: BCB's mother; site of: BCB's parents' final row"
+        "hot dog factory: -75.52193752884571,40.5215179828106", "Hatfield Quality Meats",
+        "possible workplace of: BCB's mother; site of: BCB's parents' final row"
     ],
     "tags": [
         "Big Chunky Bubbles"
@@ -7243,8 +5745,8 @@
         "Drew Tarver"
     ],
     "episode_title": "Live from Knight Theater, Charlotte NC - 08/18/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": 1573,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-charlotte-knight",
     "show": "cbb"
@@ -7271,8 +5773,8 @@
         "Drew Tarver"
     ],
     "episode_title": "Live from Knight Theater, Charlotte NC - 08/18/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": 1573,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-charlotte-knight",
     "show": "cbb"
@@ -7327,8 +5829,8 @@
         "Drew Tarver"
     ],
     "episode_title": "Live from Knight Theater, Charlotte NC - 08/18/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": 965,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-charlotte-knight",
     "show": "cbb"
@@ -7419,8 +5921,8 @@
     "bit": "Location",
     "elucidation": "identifiable earth location",
     "NB": [
-        "motor show venue in charlotte",
-        "site of: the 2022 Ford Rock Hard Girl Competition"
+        "motor show venue in charlotte", "Charlotte Convention Center",
+        "probable site of: the 2022 Ford Rock Hard Girl Competition"
     ],
     "tags": [
         "Kayla Dickie"
@@ -7435,8 +5937,8 @@
         "Drew Tarver"
     ],
     "episode_title": "Live from Knight Theater, Charlotte NC - 08/18/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": 1278,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-charlotte-knight",
     "show": "cbb"
@@ -7446,7 +5948,7 @@
     "tend": "1:27:00",
     "bit": "Location",
     "elucidation": "identifiable earth location",
-    "NB": [
+    "NB": ["turkey creek, la",
         "proxy for: a suburb of black pepper gravy, louisiana; hometown of: sawyer junior"
     ],
     "tags": [
@@ -7462,8 +5964,8 @@
         "Drew Tarver"
     ],
     "episode_title": "Live from Knight Theater, Charlotte NC - 08/18/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": 1279,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-charlotte-knight",
     "show": "cbb"
@@ -7499,7 +6001,7 @@
     "tend": "1:42:00",
     "bit": "Location",
     "elucidation": "identifiable earth location",
-    "NB": [
+    "NB": ["Excelsior Springs, MO",
         "proxy for: Clogged Artery, MO; site of: a sawyer junior tour stop"
     ],
     "tags": [
@@ -7515,8 +6017,8 @@
         "Drew Tarver"
     ],
     "episode_title": "Live from Knight Theater, Charlotte NC - 08/18/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": 1280,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-charlotte-knight",
     "show": "cbb"
@@ -7757,6 +6259,28 @@
         "Drew Tarver"
     ],
     "episode_title": "Live from Warner Theater, Washington D.C. - 08/19/22",
+    "location_type": "point",
+    "location_id": 1457,
+    "slug_earwolf": null,
+    "episode": "cbb-2022-live-tour-washingtondc-warner",
+    "show": "cbb"
+}, {
+    "tstart": "50:40",
+    "instance": "public relations",
+    "tend": "51:00",
+    "bit": "Group Coupon",
+    "elucidation": "scott articulates obvious data (acronyms, abbreviations, etc.)",
+    "tags": [
+        "Francesca Bolognese"
+    ],
+    "created_at": "2022-09-019T10:51:29Z",
+    "updated_at": "2022-09-019T10:51:29Z",
+    "episode_guests": [
+        "Paul F. Tompkins",
+        "Lily Sullivan",
+        "Drew Tarver"
+    ],
+    "episode_title": "Live from Warner Theater, Washington D.C. - 08/19/22",
     "location_type": null,
     "location_id": null,
     "slug_earwolf": null,
@@ -7784,8 +6308,8 @@
         "Drew Tarver"
     ],
     "episode_title": "Live from Warner Theater, Washington D.C. - 08/19/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": 1181,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-washingtondc-warner",
     "show": "cbb"
@@ -7965,8 +6489,8 @@
         "Drew Tarver"
     ],
     "episode_title": "Live from The King's Theatre, Brooklyn NY - 08/20/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": 264,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-brooklyn-kings",
     "show": "cbb"
@@ -7977,7 +6501,7 @@
     "bit": "Location",
     "elucidation": "identifiable earth location",
     "NB": [
-        "MTA station prolly near the dakota",
+        "MTA station prolly near the dakota", "72 st MTA", "-73.9761889679583,40.776221804361946",
         "possible site of: john lennon, in a scuba suit, getting dragged by a subway train"
     ],
     "tags": [
@@ -7993,8 +6517,8 @@
         "Drew Tarver"
     ],
     "episode_title": "Live from The King's Theatre, Brooklyn NY - 08/20/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": 1574,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-brooklyn-kings",
     "show": "cbb"
@@ -8048,8 +6572,8 @@
         "Drew Tarver"
     ],
     "episode_title": "Live from The King's Theatre, Brooklyn NY - 08/20/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": 1281,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-brooklyn-kings",
     "show": "cbb"
@@ -8102,8 +6626,8 @@
         "Drew Tarver"
     ],
     "episode_title": "Live from The King's Theatre, Brooklyn NY - 08/20/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": 1282,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-brooklyn-kings",
     "show": "cbb"
@@ -8133,8 +6657,8 @@
         "Drew Tarver"
     ],
     "episode_title": "Live from The King's Theatre, Brooklyn NY - 08/20/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": 1282,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-brooklyn-kings",
     "show": "cbb"
@@ -8145,7 +6669,7 @@
     "bit": "Location",
     "elucidation": "identifiable earth location",
     "NB": [
-        "along the brooklyn, southbound",
+        "along the brooklyn, southbound", "-73.9960432107484,40.70534824029838",
         "site of: the Nesquik bunny, 'Quik', in an altercation with his driver"
     ],
     "tags": [
@@ -8164,8 +6688,8 @@
         "Drew Tarver"
     ],
     "episode_title": "Live from The King's Theatre, Brooklyn NY - 08/20/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": 1575,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-brooklyn-kings",
     "show": "cbb"
@@ -8176,8 +6700,8 @@
     "bit": "Location",
     "elucidation": "identifiable earth location",
     "NB": [
-        "a sample vaughns market - west coast",
-        "site of: a package of Nesquik lil' smokies"
+        "a sample vons market - west coast", "-119.658997598568,37.33038832951974", "Vons - Oakhurst",
+        "possible site of: a package of Nesquik lil' smokies"
     ],
     "tags": [
         "John Lennon",
@@ -8194,8 +6718,8 @@
         "Drew Tarver"
     ],
     "episode_title": "Live from The King's Theatre, Brooklyn NY - 08/20/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": 1576,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-brooklyn-kings",
     "show": "cbb"
@@ -8206,8 +6730,8 @@
     "bit": "Location",
     "elucidation": "identifiable earth location",
     "NB": [
-        "a sample hy•vee market - midwest",
-        "site of: a package of Nesquik lil' smokies"
+        "a sample hy•vee market - midwest", "Hy-Vee Iowa City 1", "-91.52970514173501,41.64278371011292",
+        "possible site of: a package of Nesquik lil' smokies"
     ],
     "tags": [
         "John Lennon",
@@ -8224,8 +6748,8 @@
         "Drew Tarver"
     ],
     "episode_title": "Live from The King's Theatre, Brooklyn NY - 08/20/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": 1577,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-brooklyn-kings",
     "show": "cbb"
@@ -8236,8 +6760,8 @@
     "bit": "Location",
     "elucidation": "identifiable earth location",
     "NB": [
-        "a sample kee foods - east",
-        "site of: a package of Nesquik lil' smokies"
+        "key food ", "-73.41470833734877,41.11592261651652",
+        "possible site of: a package of Nesquik lil' smokies"
     ],
     "tags": [
         "John Lennon",
@@ -8254,8 +6778,8 @@
         "Drew Tarver"
     ],
     "episode_title": "Live from The King's Theatre, Brooklyn NY - 08/20/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": 1578,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-brooklyn-kings",
     "show": "cbb"
@@ -8266,7 +6790,7 @@
     "bit": "Location",
     "elucidation": "identifiable earth location",
     "NB": [
-        "a factory in muscatine, ia",
+        "a factory in muscatine, ia", "Muscatine Foods Corporation", "-91.02913468802733,41.455472775390376",
         "site of: nesquik factory tours"
     ],
     "tags": [
@@ -8284,8 +6808,8 @@
         "Drew Tarver"
     ],
     "episode_title": "Live from The King's Theatre, Brooklyn NY - 08/20/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": 1579,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-brooklyn-kings",
     "show": "cbb"
@@ -15954,6 +14478,26 @@
     "episode": 775,
     "show": "cbb"
 }, {
+    "tstart": "16:00",
+    "tend": "17:00",
+    "instance": "It's hard to make volcanoes go off.",
+    "bit": "That is the Dream",
+    "elucidation": "scott seems jealous or just commendatory",
+    "tags": [],
+    "created_at": "2022-08-15T10:51:29Z",
+    "updated_at": "2022-08-15T10:51:29Z",
+    "episode_guests": [
+        "Bob Odenkirk",
+        "James Austin Johnson",
+        "Carl Tart"
+    ],
+    "episode_title": "Cowbell Saul",
+    "location_type": null,
+    "location_id": null,
+    "slug_earwolf": "cowbell-saul",
+    "episode": 769,
+    "show": "cbb"
+}, {
     "tstart": "17:30",
     "instance": "Is this an easter egg?",
     "tend": "18:00",
@@ -15979,7 +14523,7 @@
     "tend": "41:14",
     "bit": "Location",
     "elucidation": "identifiable earth location",
-    "NB": ["bar america", "site of: bobby flay's and bob odenkirk's meetcute; site of: a slider stage; site of: a night in the kitchen party"],
+    "NB": ["bar americain", "site of: bobby flay's and bob odenkirk's meetcute; site of: a slider stage; site of: a night in the kitchen party"],
     "tags": ["Bobby Flay", "Jake from State Farm", "Niecy Nash", "Adam Levine", "Jared Fogle", "Michael Rapaport", "Carson Kressley", "Jim Carter", "Doja Cat", "Sean Paul", "Scarlett Johansson", "Colin Jost", "Darrell Hammond", "Wally Feresten"],
     "created_at": "2022-08-15T10:51:29Z",
     "updated_at": "2022-08-15T10:51:29Z",
@@ -15989,14 +14533,14 @@
         "Carl Tart"
     ],
     "episode_title": "Cowbell Saul",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1522",
     "slug_earwolf": "cowbell-saul",
     "episode": 769,
     "show": "cbb"
 }, {
     "tstart": "41:00",
-    "instance": "I don't think he's allowed back there.",
+    "instance": "Part of that's the abuse.",
     "tend": "41:20",
     "bit": "Respec Mah Neck",
     "elucidation": "Adrien Brody's SNL Rastaman shows up/is discussed",
@@ -16051,8 +14595,8 @@
         "Carl Tart"
     ],
     "episode_title": "Cowbell Saul",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1523",
     "slug_earwolf": "cowbell-saul",
     "episode": 769,
     "show": "cbb"
@@ -16083,7 +14627,10 @@
     "tend": "1:04:15",
     "bit": "The Paul Hardcastle of Suicides",
     "elucidation": "any song reference",
-    "tags": ["Bobby Flay", "Italiano Jones", "Get Lucky (song)", "Daft Punk (musical combination)"],
+    "tags": ["Bobby Flay", "Italiano Jones", "Get Lucky (song)", "Nile Rodgers",
+        "Pharrell Williams",
+        "Daft Punk (musical combination)"
+    ],
     "created_at": "2022-08-15T10:51:29Z",
     "updated_at": "2022-08-15T10:51:29Z",
     "episode_guests": [
@@ -16094,6 +14641,61 @@
     "episode_title": "Cowbell Saul",
     "location_type": null,
     "location_id": null,
+    "slug_earwolf": "cowbell-saul",
+    "episode": 769,
+    "show": "cbb"
+}, {
+    "tstart": "1:04:00",
+    "tend": "1:04:30",
+    "instance": "We have Scientology in Italy.",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "NB": [
+        "proxy for: a Discovery Zone in Italy",
+        "site of: Scientology recruiting",
+        "9.726185714101794,44.10766470249469"
+    ],
+    "tags": [
+        "Bobby Flay",
+        "Italiano Jones"
+    ],
+    "created_at": "2022-08-15T10:51:29Z",
+    "updated_at": "2022-08-15T10:51:29Z",
+    "episode_guests": [
+        "Bob Odenkirk",
+        "James Austin Johnson",
+        "Carl Tart"
+    ],
+    "episode_title": "Cowbell Saul",
+    "location_type": "point",
+    "location_id": "1524",
+    "slug_earwolf": "cowbell-saul",
+    "episode": 769,
+    "show": "cbb"
+}, {
+    "tstart": "1:09:50",
+    "tend": "1:10:30",
+    "instance": "I don't know how many clues he needed to be given that the food would be served hot.",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "NB": [
+        "a bobby flay location",
+        "proxy for: pipers piping hot restaurant",
+        "site of: an heavily-litigated mouth-burning"
+    ],
+    "tags": [
+        "Bobby Flay"
+    ],
+    "created_at": "2022-08-15T10:51:29Z",
+    "updated_at": "2022-08-15T10:51:29Z",
+    "episode_guests": [
+        "Bob Odenkirk",
+        "James Austin Johnson",
+        "Carl Tart"
+    ],
+    "episode_title": "Cowbell Saul",
+    "location_type": "poly",
+    "location_id": "1255",
     "slug_earwolf": "cowbell-saul",
     "episode": 769,
     "show": "cbb"
@@ -16177,25 +14779,6 @@
     "location_id": null,
     "slug_earwolf": "cowbell-saul",
     "episode": 769,
-    "show": "cbb"
-}, {
-    "tstart": "",
-    "instance": "",
-    "tend": "",
-
-    "tags": [],
-    "created_at": "2022-09-20T10:51:29Z",
-    "updated_at": "2022-09-20T10:51:29Z",
-    "episode_guests": [
-        "Jason Mantzoukas",
-        "Andy Daly",
-        "Paul F. Tompkins"
-    ],
-    "episode_title": "Operation Double Decoy",
-    "location_type": null,
-    "location_id": null,
-    "slug_earwolf": "operation-double-decoy",
-    "episode": 775,
     "show": "cbb"
 }, {
     "tstart": "18:50",

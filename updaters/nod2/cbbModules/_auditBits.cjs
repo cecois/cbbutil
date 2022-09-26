@@ -24,43 +24,43 @@ _claxon.info(`promising _audit...`)
 */
 
 
-currentIncomi.forEach(b=>{
+currentIncomi.forEach((b,bi)=>{
                 switch (true) {
                     case !b.hasOwnProperty("episode"):
-            errors.push(`MISSING FIELD: EPISODE ••••> ${b.instance}`);
+            errors.push(`MISSING FIELD: EPISODE ••••> ${b.instance} (just after ${currentIncomi[bi-1].instance})`);
                         break;
                     case !b.hasOwnProperty("tstart"):
-            errors.push(`MISSING FIELD: TSTART ••••> ${b.instance}`);
+            errors.push(`MISSING FIELD: TSTART ••••> ${b.instance} (just after ${currentIncomi[bi-1].instance})`);
                         break;
                     case !b.hasOwnProperty("tend"):
-            errors.push(`MISSING FIELD: TEND ••••> ${b.instance}`);
+            errors.push(`MISSING FIELD: TEND ••••> ${b.instance} (just after ${currentIncomi[bi-1].instance})`);
                         break;
                     case !b.hasOwnProperty("instance"):
-            errors.push(`MISSING FIELD: INSTANCE ••••> ${b.instance}`);
+            errors.push(`MISSING FIELD: INSTANCE ••••> ${b.instance} (just after ${currentIncomi[bi-1].instance})`);
                         break;
                     case !b.hasOwnProperty("bit"):
-            errors.push(`MISSING FIELD: BIT ••••> ${b.instance}`);
+            errors.push(`MISSING FIELD: BIT ••••> ${b.instance} (just after ${currentIncomi[bi-1].instance})`);
                         break;
                     case !b.hasOwnProperty("elucidation"):
-            errors.push(`MISSING FIELD: ELUCIDATION ••••> ${b.instance}`);
+            errors.push(`MISSING FIELD: ELUCIDATION ••••> ${b.instance} (just after ${currentIncomi[bi-1].instance})`);
                         break;
                     case !b.hasOwnProperty("location_type"):
-            errors.push(`MISSING FIELD: LOCATION_TYPE ••••> ${b.instance}`);
+            errors.push(`MISSING FIELD: LOCATION_TYPE ••••> ${b.instance} (just after ${currentIncomi[bi-1].instance})`);
                         break;
                     case !b.hasOwnProperty("location_id"):
-            errors.push(`MISSING FIELD: LOCATION_ID ••••> ${b.instance}`);
+            errors.push(`MISSING FIELD: LOCATION_ID ••••> ${b.instance} (just after ${currentIncomi[bi-1].instance})`);
                         break;
                     case !b.hasOwnProperty("slug_earwolf"):
-            errors.push(`MISSING FIELD: SLUG_EARWOLF ••••> ${b.instance}`);
+            errors.push(`MISSING FIELD: SLUG_EARWOLF ••••> ${b.instance} (just after ${currentIncomi[bi-1].instance})`);
                         break;
                     case !b.hasOwnProperty("episode_title"):
-            errors.push(`MISSING FIELD: EPISODE_TITLE ••••> ${b.instance}`);
+            errors.push(`MISSING FIELD: EPISODE_TITLE ••••> ${b.instance} (just after ${currentIncomi[bi-1].instance})`);
                         break;
                     case !b.hasOwnProperty("episode_guests"):
-            errors.push(`MISSING FIELD: EPISODE_GUESTS ••••> ${b.instance}`);
+            errors.push(`MISSING FIELD: EPISODE_GUESTS ••••> ${b.instance} (just after ${currentIncomi[bi-1].instance})`);
                         break;
                     case !b.hasOwnProperty("tags"):
-            errors.push(`MISSING FIELD: TAGS ••••> ${b.instance}`);
+            errors.push(`MISSING FIELD: TAGS ••••> ${b.instance} (just after ${currentIncomi[bi-1].instance})`);
                         break;
                 } //switch
 
@@ -85,27 +85,9 @@ errors.length>0 && REJ(errors.join('; '))
             let candidates = incomiMap.filter(b=>definiMap.includes(b));
 
 // seT KiLL basED On LEnGtH Of poTeNtIAL duplIcaTeS
-candidates.length>0 && REJ(`audit says likely duplicate is ${c}`);
+candidates.length>0 && REJ(`audit says likely duplicate is ${candidates[0]}`);
 
-
-/*
-                  ___  ____  __   _  _  ____
-                 / __)(  __)/  \ ( \/ )/ ___)
-                ( (_ \ ) _)(  O )/ \/ \\___ \
-                 \___/(____)\__/ \_)(_/(____/
-
-currentIncomi.forEach(b=>{
-    if(b.bit=='Location' && (!b.location_type || !b.location_id)){
-
-        _claxon.error(`${b.instance} is missing location attrs`);
-        
-    }
-})
- */
-
- let geomdeads = currentIncomi.filter(ci=>ci.bit=='Location' && (!ci.location_type || !ci.location_id));
- geomdeads.length>0 && REJ(`audit says geom is missing attr: ${geomdeads[0].instance}`);
- RES();
+RES();//OThErwIse we GOOd
         
 
 });//promise

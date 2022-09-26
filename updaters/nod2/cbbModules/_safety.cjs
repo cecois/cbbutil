@@ -5,9 +5,17 @@ const TAR = require('tar'),
 module.exports = {
         default: (_cfg, _claxon) => {
 
+            /*
+default in safety grabs the currently-configured incomingFile;
+it plucks the uniq episode IDs;
+it maps them as queries against the current index, then maps those against a promise.all that actually runs them (via axios GETs);
+if there's even one hit it means that we possibly have sent some of these before and we need to manually check;
+
+there are scenarios where an episode has been logged but then a re-listen turns up more bits, certainly; but it's rare enough that this is still much safer
+            */
+
             return new Promise(async(RES, REJ) => {
 
-                let errors = [];
                 _claxon.info(`promising _safety...`);
 
                 // Get CurRenT deFInITiVE - basIcALly "pATh/tO/CBb-defiNiTIvE.JsON"

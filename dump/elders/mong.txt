@@ -1,0 +1,8 @@
+# regex
+mongo cbbbits --eval 'printjson(db.bits.findOne({"instance": {"$regex": ".*Perth.*"}}))'
+
+# episode
+mongo cbbbits --eval 'printjson(db.bits.findOne({"episode": 52}))'
+
+
+mongo --quiet cbbbits --eval 'printjson(db.bits.findOne({"episode": 52},{_id:0,episode:1,show:1,time:1,tstart:1,tend:1,instance:1,bit:1,elucidation:1,created_at:1,updated_at:1,url_soundcloud:1,tagarray:1,tags:1,tagarray_og:1,slug_soundcloud:1,location_type:1,location_id:1,slug_earwolf:1,id_wikia:1,holding:1,episode_title:1,episode_guests:1}))'|subl
