@@ -43,8 +43,10 @@
   * cbb-2022-live-tour-toronto-massey,1:04:00+
 
 - staff up/write on snl
+  * 777,10+
   * cbb-2022-live-tour-boston-chevalier,37+
   * cbb-2022-live-tour-boston-chevalier,26+
+  * many previous
 
 - balcony reports
   * cbb-2022-live-tour-boston-chevalier,3+
@@ -745,6 +747,7 @@ reddit for balls
   - 132,6:30
   - 447,50:45(pw)
 - no rule against dogs playing (football|basketball)
+  - 778,47+
   - cbb-2022-live-tour-portland-state,1:27:30+
   - 750,1:17:00
   - 750,1:16:30
