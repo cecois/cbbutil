@@ -10395,4 +10395,19 @@
     "slug_earwolf": "celebrity-auction-list",
     "episode": 778,
     "show": "cbb"
+}, {
+    "tstart": "",
+    "instance": "",
+    "tend": "",
+
+    "tags": [],
+    "location_type": null,
+    "location_id": null,
+    "created_at": "2022-10-11T10:51:29Z",
+    "updated_at": "2022-10-11T10:51:29Z",
+    "episode_guests": ["Kyle Bornheimer", "Dan Lippert", "Erin Keif"],
+    "episode_title": "He Did It His Way",
+    "slug_earwolf": "he-did-it-his-way",
+    "episode": 779,
+    "show": "cbb"
 }]
