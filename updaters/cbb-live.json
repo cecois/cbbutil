@@ -10396,11 +10396,179 @@
     "episode": 778,
     "show": "cbb"
 }, {
-    "tstart": "",
-    "instance": "",
-    "tend": "",
-
-    "tags": [],
+    "tstart": "6:20",
+    "instance": "There's a great show on it right now.",
+    "tend": "6:45",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": ["Sir Mix-a-Lot",
+        "Baby Got Back (song)"
+    ],
+    "location_type": null,
+    "location_id": null,
+    "created_at": "2022-10-11T10:51:29Z",
+    "updated_at": "2022-10-11T10:51:29Z",
+    "episode_guests": ["Kyle Bornheimer", "Dan Lippert", "Erin Keif"],
+    "episode_title": "He Did It His Way",
+    "slug_earwolf": "he-did-it-his-way",
+    "episode": 779,
+    "show": "cbb"
+}, {
+    "tstart": "7:30",
+    "instance": "Like, what are we talking - crack cocaine?",
+    "tend": "8:00",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": ["Nirvana (musical combination)",
+        "Smells Like Teen Spirit (song)"
+    ],
+    "location_type": null,
+    "location_id": null,
+    "created_at": "2022-10-11T10:51:29Z",
+    "updated_at": "2022-10-11T10:51:29Z",
+    "episode_guests": ["Kyle Bornheimer", "Dan Lippert", "Erin Keif"],
+    "episode_title": "He Did It His Way",
+    "slug_earwolf": "he-did-it-his-way",
+    "episode": 779,
+    "show": "cbb"
+}, {
+    "tstart": "10:20",
+    "instance": "I love the music of the 1890s, too.",
+    "tend": "10:40",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+        "Oh My Darling, Clementine (song)"
+    ],
+    "location_type": null,
+    "location_id": null,
+    "created_at": "2022-10-11T10:51:29Z",
+    "updated_at": "2022-10-11T10:51:29Z",
+    "episode_guests": ["Kyle Bornheimer", "Dan Lippert", "Erin Keif"],
+    "episode_title": "He Did It His Way",
+    "slug_earwolf": "he-did-it-his-way",
+    "episode": 779,
+    "show": "cbb"
+}, {
+    "tstart": "13:20",
+    "instance": "They did a good job with that.",
+    "tend": "13:45",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+        "Today (song)", "Smashing Pumpkins (musical combination)"
+    ],
+    "location_type": null,
+    "location_id": null,
+    "created_at": "2022-10-11T10:51:29Z",
+    "updated_at": "2022-10-11T10:51:29Z",
+    "episode_guests": ["Kyle Bornheimer", "Dan Lippert", "Erin Keif"],
+    "episode_title": "He Did It His Way",
+    "slug_earwolf": "he-did-it-his-way",
+    "episode": 779,
+    "show": "cbb"
+}, {
+    "tstart": "21:45",
+    "instance": "I don't even know  how to finish this.",
+    "tend": "22:00",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": [
+        "Nookie (song)", "Limp Bizkit (musical combination)", "Prof. Lloyd Garterbelt"
+    ],
+    "location_type": null,
+    "location_id": null,
+    "created_at": "2022-10-11T10:51:29Z",
+    "updated_at": "2022-10-11T10:51:29Z",
+    "episode_guests": ["Kyle Bornheimer", "Dan Lippert", "Erin Keif"],
+    "episode_title": "He Did It His Way",
+    "slug_earwolf": "he-did-it-his-way",
+    "episode": 779,
+    "show": "cbb"
+}, {
+    "tstart": "22:00",
+    "instance": "What audience are you?",
+    "tend": "22:30",
+    "bit": "Where Are You From?",
+    "elucidation": "a character trait or detail is challenged or prompted",
+    "tags": [
+        "Prof. Lloyd Garterbelt"
+    ],
+    "location_type": null,
+    "location_id": null,
+    "created_at": "2022-10-11T10:51:29Z",
+    "updated_at": "2022-10-11T10:51:29Z",
+    "episode_guests": ["Kyle Bornheimer", "Dan Lippert", "Erin Keif"],
+    "episode_title": "He Did It His Way",
+    "slug_earwolf": "he-did-it-his-way",
+    "episode": 779,
+    "show": "cbb"
+}, {
+    "tstart": "26:00",
+    "instance": "I am currently between professions.",
+    "tend": "28:00",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "NB": ["washington university in st. louis", "former workplace of: lloyd garterbelt"],
+    "tags": [
+        "Prof. Lloyd Garterbelt"
+    ],
+    "location_type": null,
+    "location_id": null,
+    "created_at": "2022-10-11T10:51:29Z",
+    "updated_at": "2022-10-11T10:51:29Z",
+    "episode_guests": ["Kyle Bornheimer", "Dan Lippert", "Erin Keif"],
+    "episode_title": "He Did It His Way",
+    "slug_earwolf": "he-did-it-his-way",
+    "episode": 779,
+    "show": "cbb"
+}, {
+    "tstart": "39:20",
+    "instance": "We love a woman with a sense of humor, us men.",
+    "tend": "40:00",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "NB": ["a strip club two blocks away from earwolf", "site of: lloyd garterbelt's proposed date w/ kyle bornheimer"],
+    "tags": [
+        "Prof. Lloyd Garterbelt"
+    ],
+    "location_type": null,
+    "location_id": null,
+    "created_at": "2022-10-11T10:51:29Z",
+    "updated_at": "2022-10-11T10:51:29Z",
+    "episode_guests": ["Kyle Bornheimer", "Dan Lippert", "Erin Keif"],
+    "episode_title": "He Did It His Way",
+    "slug_earwolf": "he-did-it-his-way",
+    "episode": 779,
+    "show": "cbb"
+}, {
+    "tstart": "39:45",
+    "instance": "And a huge eye-roll to that whole sentence.",
+    "tend": "40:15",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "NB": ["star gardens, north hollywood", "site of: lloyd garterbelt, eschewing kyle bornheimer's recommended joint"],
+    "tags": [
+        "Prof. Lloyd Garterbelt"
+    ],
+    "location_type": null,
+    "location_id": null,
+    "created_at": "2022-10-11T10:51:29Z",
+    "updated_at": "2022-10-11T10:51:29Z",
+    "episode_guests": ["Kyle Bornheimer", "Dan Lippert", "Erin Keif"],
+    "episode_title": "He Did It His Way",
+    "slug_earwolf": "he-did-it-his-way",
+    "episode": 779,
+    "show": "cbb"
+}, {
+    "tstart": "41:45",
+    "instance": "I am not quite getting your whole thing.",
+    "tend": "42:15",
+    "bit": "Where Are You From?",
+    "elucidation": "a character trait or detail is challenged or prompted",
+    "tags": [
+        "Prof. Lloyd Garterbelt"
+    ],
     "location_type": null,
     "location_id": null,
     "created_at": "2022-10-11T10:51:29Z",
