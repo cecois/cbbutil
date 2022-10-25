@@ -1335,14 +1335,6 @@ reddit for balls
   * - 484,1:07:45(pw)
   * - 507,1:04:50
   * - 514,1:36:00
-- don't joke about irobot
-  - bo2015.1,8:20(pw)
-  - bo2015.2,11:40(pw)
-  - bo2016.2,2:15:30
-  - 512,1:06:30(pw)
-  - 484,33:50(pw)
-  - bo2017.1,2:22:00
-  - bo2020.3,53:00
 - that sounds good to me
   - cbb-2022-live-tour-atlanta-tabernacle,52+
   - 2015 BOs?
@@ -1875,12 +1867,15 @@ reddit for balls
   - 507,1:04:50
   - 479,29:00(pw)
 * don't joke about irobot
+  - 781,55:50
   - bo2015.1,8:20(pw)
   - bo2015.2,11:40(pw)
   - bo2016.2,2:15:30
   - 512,1:06:30(pw)
   - 484,33:50(pw)
   - bo2017.1,2:22:00
+  - bo2020.3,53:00
+ 
 * that sounds good to me
   - 2015 BOs?
   - 2016.chicago10,28:00(pw)
