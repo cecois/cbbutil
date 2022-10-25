@@ -11297,4 +11297,19 @@
     "slug_earwolf": "bong-hugs",
     "episode": 780,
     "show": "cbb"
+}, {
+    "tstart": "",
+    "instance": "",
+    "tend": "",
+
+    "tags": [],
+    "location_type": null,
+    "location_id": null,
+    "created_at": "2022-10-24T10:51:29Z",
+    "updated_at": "2022-10-24T10:51:29Z",
+    "episode_guests": ["Kevin Nealon", "Ryan Rosenberg", "Dave Theune"],
+    "episode_title": "Ump-and-coming Umps",
+    "slug_earwolf": "ump-and-coming-umps",
+    "episode": 781,
+    "show": "cbb"
 }]
