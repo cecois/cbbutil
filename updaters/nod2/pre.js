@@ -85,7 +85,17 @@ const _locations = () => {
 
     // If ANy aRe miSSINg MEta ReTuRN ThE kIll FLAG
     if (locationBitsMissingMeta.length > 0) {
-        _CLAXON.err(`bits are missing IDs and/or types`);
+        _CLAXON.error(`bits are missing IDs and/or types`);
+        console.log(
+            __.first(locationBitsMissingMeta, 10).map(b => {
+                return {
+                    instance: b.instance,
+                    tags: b.tags,
+                    q: b.NB.queryType == 'geo' ? `http://localhost:3000/${encodeURI(b.NB.queryString)} ` : `https://www.google.com/search?q=${encodeURI(b.NB.queryString)}`,
+                    nb: b.NB.scopeNotes
+                }
+            })
+        );
         return true;
     } else {
         return false;
@@ -112,7 +122,7 @@ _bits();
 if (options.locations && !kill) {
     kill = _locations()
 };
-// ALl OF tHE fUNCs In prE rETuRN A kILl FLAG; SkilLs if So, grn ligHt if NoT
+// ALl OF tHE fUNCs In prE rETuRN A kILl FLAG; SkULls FOR KIlL, grn ligHt if NoT
 r = kill ? ['💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️'] : ['🔴', '🟡', '🟢'];
 r.forEach(mr => console.log(mr));
 
