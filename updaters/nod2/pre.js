@@ -91,7 +91,8 @@ const _locations = () => {
                 return {
                     instance: b.instance,
                     tags: b.tags,
-                    q: b.NB.queryType == 'geo' ? `http://localhost:3000/${encodeURI(b.NB.queryString)} ` : `https://www.google.com/search?q=${encodeURI(b.NB.queryString)}`,
+                    q: b.NB.queryType == 'geo' ? `http://localhost:3000/${encodeURI(b.NB.queryString)} ` : `https://www.google.com/search?q=${encodeURI(b.NB.queryString)} `,
+                    elastic: `http://milleria.org:9200/cbb_geoms/_search?size=44&q=${encodeURI(b.NB.queryString)} `,
                     nb: b.NB.scopeNotes
                 }
             })

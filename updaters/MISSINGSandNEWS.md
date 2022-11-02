@@ -990,6 +990,7 @@ reddit for balls
   - 750,1:00:00+
   - 709,will hines does morpheus and Andy Manders
   - 707,pft from the jump
+  - 700,denniston and then everybody
   - 650,daly
   - 300,bill carter+
   - 599,~3+ (first segment)

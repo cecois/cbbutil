@@ -5884,17 +5884,17 @@
     "bit": "Location",
     "elucidation": "identifiable earth location",
     "NB": {
-        "queryType": "search",
-        "queryString": "hentai cruise",
-        "scopeNotes": ["site of: chippy dipps' and scott aukerman's meetcute"]
+        "queryType": "geo",
+        "queryString": "33.18814360447244,-120.80956083437451",
+        "scopeNotes": ["site of: chippy dipps' and scott aukerman's meetcute aboard a hentai cruise"]
     },
     "tags": ["Chippy Dipps", "Scott Aukerman"],
     "created_at": "2022-09-079T10:51:29Z",
     "updated_at": "2022-09-079T10:51:29Z",
     "episode_guests": ["Ted Leo", "Shaun Diston", "Paul F. Tompkins", "Lily Sullivan", "Ryan Gaul"],
     "episode_title": "Live from The Columbus Theatre, Providence MA - 08/23/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1594",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-providence-columbus",
     "show": "cbb"
@@ -5917,8 +5917,8 @@
     "updated_at": "2022-09-079T10:51:29Z",
     "episode_guests": ["Ted Leo", "Shaun Diston", "Paul F. Tompkins", "Lily Sullivan", "Ryan Gaul"],
     "episode_title": "Live from The Columbus Theatre, Providence MA - 08/23/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1594",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-providence-columbus",
     "show": "cbb"
@@ -5962,16 +5962,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "pepsi factory near providence, ri",
-        "scopeNotes": ["site of: vats full of pepsid and piss"]
+        "queryString": "Pepsi Cola Bottling Company - Cranston",
+        "scopeNotes": ["site of: vats full of pepsi and piss", "pepsi factory near providence, ri", "41.74266691497882,-71.45252984733357"]
     },
     "tags": ["Frank Wonderbread"],
     "created_at": "2022-09-079T10:51:29Z",
     "updated_at": "2022-09-079T10:51:29Z",
     "episode_guests": ["Ted Leo", "Shaun Diston", "Paul F. Tompkins", "Lily Sullivan", "Ryan Gaul"],
     "episode_title": "Live from The Columbus Theatre, Providence MA - 08/23/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1595",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-providence-columbus",
     "show": "cbb"
@@ -5983,16 +5983,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "mansions near providence, ri",
-        "scopeNotes": ["home to: frank wonderbread; site of: frank wonderbread's future grave"]
+        "queryString": "Chateau-sur-Mer",
+        "scopeNotes": ["posssible home to: frank wonderbread; site of: frank wonderbread's future grave", "41.47127310801246,-71.3054093029184"]
     },
     "tags": ["Frank Wonderbread"],
     "created_at": "2022-09-079T10:51:29Z",
     "updated_at": "2022-09-079T10:51:29Z",
     "episode_guests": ["Ted Leo", "Shaun Diston", "Paul F. Tompkins", "Lily Sullivan", "Ryan Gaul"],
     "episode_title": "Live from The Columbus Theatre, Providence MA - 08/23/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1596",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-providence-columbus",
     "show": "cbb"
@@ -6004,16 +6004,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "mansions near providence, ri",
-        "scopeNotes": ["home to: frank wonderbread; site of: frank wonderbread's future grave"]
+        "queryString": "Chateau-sur-Mer",
+        "scopeNotes": ["posssible home to: frank wonderbread; site of: frank wonderbread's future grave", "41.47127310801246,-71.3054093029184"]
     },
     "tags": ["Frank Wonderbread"],
     "created_at": "2022-09-079T10:51:29Z",
     "updated_at": "2022-09-079T10:51:29Z",
     "episode_guests": ["Ted Leo", "Shaun Diston", "Paul F. Tompkins", "Lily Sullivan", "Ryan Gaul"],
     "episode_title": "Live from The Columbus Theatre, Providence MA - 08/23/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1596",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-providence-columbus",
     "show": "cbb"
@@ -6033,8 +6033,8 @@
     "updated_at": "2022-09-079T10:51:29Z",
     "episode_guests": ["Ted Leo", "Shaun Diston", "Paul F. Tompkins", "Lily Sullivan", "Ryan Gaul"],
     "episode_title": "Live from The Columbus Theatre, Providence MA - 08/23/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "line",
+    "location_id": "334",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-providence-columbus",
     "show": "cbb"
@@ -6054,8 +6054,8 @@
     "updated_at": "2022-09-079T10:51:29Z",
     "episode_guests": ["Ted Leo", "Shaun Diston", "Paul F. Tompkins", "Lily Sullivan", "Ryan Gaul"],
     "episode_title": "Live from The Columbus Theatre, Providence MA - 08/23/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1287",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-providence-columbus",
     "show": "cbb"
@@ -6067,16 +6067,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "taco bell between boston and providence, ma",
-        "scopeNotes": []
+        "queryString": "Taco Bell #040864",
+        "scopeNotes": ["site of: scott aukerman seeing a taco bell", "taco bell between boston and providence, ma", "42.15409280765473,-71.20492164194151"]
     },
     "tags": ["Frank Wonderbread", "Kevin Attenborough"],
     "created_at": "2022-09-079T10:51:29Z",
     "updated_at": "2022-09-079T10:51:29Z",
     "episode_guests": ["Ted Leo", "Shaun Diston", "Paul F. Tompkins", "Lily Sullivan", "Ryan Gaul"],
     "episode_title": "Live from The Columbus Theatre, Providence MA - 08/23/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1597",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-providence-columbus",
     "show": "cbb"
@@ -6352,16 +6352,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "cvs near state theatre, portland",
-        "scopeNotes": ["source of: Carissa's Smirnoff Ice and cocaine"]
+        "queryString": "CVS #454",
+        "scopeNotes": ["source of: Carissa's Smirnoff Ice and cocaine", "cvs near state theatre, portland", "43.655910767718666, -70.26037057436007"]
     },
     "tags": ["Werner Herzog", "Carissa"],
     "created_at": "2022-09-099T10:51:29Z",
     "updated_at": "2022-09-099T10:51:29Z",
     "episode_guests": ["Shaun Diston", "Paul F. Tompkins", "Lily Sullivan", "Ryan Gaul"],
     "episode_title": "Live from State Theatre, Portland ME - 08/24/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1598",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-portland-state",
     "show": "cbb"
@@ -6446,6 +6446,27 @@
     "episode": "cbb-2022-live-tour-portland-state",
     "show": "cbb"
 }, {
+    "tstart": "1:10:00",
+    "instance": "They lost my socks bag.",
+    "tend": "1:10:30",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "NB": {
+        "queryType": "geo",
+        "queryString": "Portland International Jetport",
+        "scopeNotes": ["site of: mcgruff's socks bag still, probably"]
+    },
+    "tags": ["McGruff the Crime Dog"],
+    "created_at": "2022-09-099T10:51:29Z",
+    "updated_at": "2022-09-099T10:51:29Z",
+    "episode_guests": ["Shaun Diston", "Paul F. Tompkins", "Lily Sullivan", "Ryan Gaul"],
+    "episode_title": "Live from State Theatre, Portland ME - 08/24/22",
+    "location_type": "poly",
+    "location_id": "1288",
+    "slug_earwolf": null,
+    "episode": "cbb-2022-live-tour-portland-state",
+    "show": "cbb"
+}, {
     "tstart": "1:10:30",
     "instance": "I used to do a series of commercials in the 80s and 90s.",
     "tend": "1:11:00",
@@ -6453,7 +6474,7 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": null,
+        "queryString": "south america",
         "scopeNotes": ["mcgruff doing wet work"]
     },
     "tags": ["Werner Herzog", "McGruff the Crime Dog"],
@@ -6543,16 +6564,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "a post office somewhere",
-        "scopeNotes": ["workplace of: Marmaduke"]
+        "queryString": "GOFF — Post Office",
+        "scopeNotes": ["possible workplace of: Marmaduke", "39.6641847633341, -95.93183166551017"]
     },
     "tags": ["McGruff the Crime Dog", "Marmaduke", "Werner Herzog", "Carissa"],
     "created_at": "2022-09-099T10:51:29Z",
     "updated_at": "2022-09-099T10:51:29Z",
     "episode_guests": ["Shaun Diston", "Paul F. Tompkins", "Lily Sullivan", "Ryan Gaul"],
     "episode_title": "Live from State Theatre, Portland ME - 08/24/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1599",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-portland-state",
     "show": "cbb"
@@ -6572,8 +6593,8 @@
     "updated_at": "2022-09-099T10:51:29Z",
     "episode_guests": ["Shaun Diston", "Paul F. Tompkins", "Lily Sullivan", "Ryan Gaul"],
     "episode_title": "Live from State Theatre, Portland ME - 08/24/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1248",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-portland-state",
     "show": "cbb"
@@ -6593,8 +6614,8 @@
     "updated_at": "2022-09-099T10:51:29Z",
     "episode_guests": ["Shaun Diston", "Paul F. Tompkins", "Lily Sullivan", "Ryan Gaul"],
     "episode_title": "Live from State Theatre, Portland ME - 08/24/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "line",
+    "location_id": "335",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-portland-state",
     "show": "cbb"
@@ -6606,16 +6627,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "concord trailways from south portland to portlant",
-        "scopeNotes": ["route of: Pudj to the State Theatre"]
+        "queryString": "South Portland to Portland",
+        "scopeNotes": ["route of: Pudj to the State Theatre", "concord trailways from south portland to portlant"]
     },
     "tags": ["Jason (Pudj) O'Reilly Sullivan Red"],
     "created_at": "2022-09-099T10:51:29Z",
     "updated_at": "2022-09-099T10:51:29Z",
     "episode_guests": ["Shaun Diston", "Paul F. Tompkins", "Lily Sullivan", "Ryan Gaul"],
     "episode_title": "Live from State Theatre, Portland ME - 08/24/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "line",
+    "location_id": "336",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-portland-state",
     "show": "cbb"
@@ -6643,16 +6664,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "marc maron's garage",
-        "scopeNotes": ["site of: Pudj three different times, still trying to find those retrievers"]
+        "queryString": "Marc Maron's Garage",
+        "scopeNotes": ["site of: Pudj three different times, still trying to find those retrievers", "34.12621466447279, -118.20068105804998"]
     },
     "tags": ["Jason (Pudj) O'Reilly Sullivan Red", "Marc Maron", "Werner Herzog"],
     "created_at": "2022-09-099T10:51:29Z",
     "updated_at": "2022-09-099T10:51:29Z",
     "episode_guests": ["Shaun Diston", "Paul F. Tompkins", "Lily Sullivan", "Ryan Gaul"],
     "episode_title": "Live from State Theatre, Portland ME - 08/24/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1600",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-portland-state",
     "show": "cbb"
@@ -6822,8 +6843,8 @@
     "updated_at": "2022-09-109T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines"],
     "episode_title": "Live from The Agora Theatre, Cleveland OH - 08/26/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1601",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-cleveland-agora",
     "show": "cbb"
@@ -6875,8 +6896,8 @@
     "updated_at": "2022-09-109T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines"],
     "episode_title": "Live from The Agora Theatre, Cleveland OH - 08/26/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1602",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-cleveland-agora",
     "show": "cbb"
@@ -6896,8 +6917,8 @@
     "updated_at": "2022-09-109T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines"],
     "episode_title": "Live from The Agora Theatre, Cleveland OH - 08/26/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1289",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-cleveland-agora",
     "show": "cbb"
@@ -6917,8 +6938,8 @@
     "updated_at": "2022-09-109T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines"],
     "episode_title": "Live from The Agora Theatre, Cleveland OH - 08/26/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1290",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-cleveland-agora",
     "show": "cbb"
@@ -6938,8 +6959,8 @@
     "updated_at": "2022-09-109T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines"],
     "episode_title": "Live from The Agora Theatre, Cleveland OH - 08/26/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1291",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-cleveland-agora",
     "show": "cbb"
@@ -6959,8 +6980,8 @@
     "updated_at": "2022-09-109T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines"],
     "episode_title": "Live from The Agora Theatre, Cleveland OH - 08/26/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1291",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-cleveland-agora",
     "show": "cbb"
@@ -7026,15 +7047,15 @@
     "NB": {
         "queryType": "geo",
         "queryString": "-119.843118,37.834697",
-        "scopeNotes": ["a no-man's land of jurisdiction within Yosemite NP", "site of: utter lawlessness"]
+        "scopeNotes": ["possible site of: a no-man's land of jurisdiction within Yosemite NP", "site of: utter lawlessness"]
     },
     "tags": ["Margery Kershaw", "Smooth Criminal Al A. Peterson"],
     "created_at": "2022-09-109T10:51:29Z",
     "updated_at": "2022-09-109T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines"],
     "episode_title": "Live from The Agora Theatre, Cleveland OH - 08/26/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1603",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-cleveland-agora",
     "show": "cbb"
@@ -7078,16 +7099,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "ranger station near brandywine falls",
-        "scopeNotes": ["exact workplace of: margery kershaw in 2022"]
+        "queryString": "Coonrad Ranger Station",
+        "scopeNotes": ["exact workplace of: margery kershaw in 2022", "41.28064379714217, -81.57255911640947", "ranger station near brandywine falls"]
     },
     "tags": ["Margery Kershaw", "Smooth Criminal Al A. Peterson"],
     "created_at": "2022-09-109T10:51:29Z",
     "updated_at": "2022-09-109T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines"],
     "episode_title": "Live from The Agora Theatre, Cleveland OH - 08/26/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1604",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-cleveland-agora",
     "show": "cbb"
@@ -7220,16 +7241,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "a lake in acadia np, maine",
-        "scopeNotes": ["site of: Margery krenshaw's ideal marriage proposal"]
+        "queryString": "Eagle Lake",
+        "scopeNotes": ["site of: Margery krenshaw's ideal marriage proposal", "a lake in acadia np, maine"]
     },
     "tags": ["Margery Kershaw", "Smooth Criminal Al A. Peterson"],
     "created_at": "2022-09-109T10:51:29Z",
     "updated_at": "2022-09-109T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines"],
     "episode_title": "Live from The Agora Theatre, Cleveland OH - 08/26/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1292",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-cleveland-agora",
     "show": "cbb"
@@ -7249,8 +7270,8 @@
     "updated_at": "2022-09-109T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines"],
     "episode_title": "Live from The Agora Theatre, Cleveland OH - 08/26/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "264",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-cleveland-agora",
     "show": "cbb"
@@ -7432,16 +7453,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "a tv station in Gethsemane",
-        "scopeNotes": ["site of: a lot of turnover due to — supposedly — groundwater poisoning"]
+        "queryString": "WDPN-TV",
+        "scopeNotes": ["possible site of: a lot of turnover due to — supposedly — groundwater poisoning", "40.041694, -75.236139", "a tv station in Gethsemane"]
     },
     "tags": ["Original Fig Catatonica", "Susan Haytown"],
     "created_at": "2022-09-129T10:51:29Z",
     "updated_at": "2022-09-129T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines", "Lisa Gilroy"],
     "episode_title": "Live from Royal Oak Music Theatre, Detroit MI - 08/27/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1605",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-detroit-royal-oak",
     "show": "cbb"
@@ -7613,16 +7634,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "physical therapy office in los feliz",
-        "scopeNotes": ["possible workplace of: Stanley Chamberlin"]
+        "queryString": "MOTI Physiotherapy",
+        "scopeNotes": ["possible workplace of: Stanley Chamberlin", "physical therapy office in los feliz", "34.10751293332497, -118.28764636132101"]
     },
     "tags": ["Stanley Chamberlin"],
     "created_at": "2022-09-129T10:51:29Z",
     "updated_at": "2022-09-129T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines", "Lisa Gilroy"],
     "episode_title": "Live from Royal Oak Music Theatre, Detroit MI - 08/27/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1606",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-detroit-royal-oak",
     "show": "cbb"
@@ -7642,8 +7663,8 @@
     "updated_at": "2022-09-129T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines", "Lisa Gilroy"],
     "episode_title": "Live from Royal Oak Music Theatre, Detroit MI - 08/27/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1606",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-detroit-royal-oak",
     "show": "cbb"
@@ -7655,16 +7676,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "johns hopkins University - east",
-        "scopeNotes": ["former school of: Stanley Chamberlin"]
+        "queryString": "Johns Hopkins - East Baltimore",
+        "scopeNotes": ["former school of: Stanley Chamberlin", "700 N. Wolfe St., Baltimore, MD"]
     },
     "tags": ["Stanley Chamberlin"],
     "created_at": "2022-09-129T10:51:29Z",
     "updated_at": "2022-09-129T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines", "Lisa Gilroy"],
     "episode_title": "Live from Royal Oak Music Theatre, Detroit MI - 08/27/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1158",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-detroit-royal-oak",
     "show": "cbb"
@@ -7676,16 +7697,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "johns hopkins University - west coast (san jose)",
-        "scopeNotes": ["site of: a shadow john hopkins"]
+        "queryString": "Mironda Frankenberger Medical School",
+        "scopeNotes": ["proxy for: johns hopkins University - west coast (san jose) - a shadow john hopkins", "37.34142025533848, -121.89277010212442"]
     },
     "tags": ["Stanley Chamberlin"],
     "created_at": "2022-09-129T10:51:29Z",
     "updated_at": "2022-09-129T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines", "Lisa Gilroy"],
     "episode_title": "Live from Royal Oak Music Theatre, Detroit MI - 08/27/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1607",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-detroit-royal-oak",
     "show": "cbb"
@@ -7705,8 +7726,8 @@
     "updated_at": "2022-09-129T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines", "Lisa Gilroy"],
     "episode_title": "Live from Royal Oak Music Theatre, Detroit MI - 08/27/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1293",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-detroit-royal-oak",
     "show": "cbb"
@@ -7726,8 +7747,8 @@
     "updated_at": "2022-09-129T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines", "Lisa Gilroy"],
     "episode_title": "Live from Royal Oak Music Theatre, Detroit MI - 08/27/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1293",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-detroit-royal-oak",
     "show": "cbb"
@@ -7747,8 +7768,8 @@
     "updated_at": "2022-09-129T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines", "Lisa Gilroy"],
     "episode_title": "Live from Royal Oak Music Theatre, Detroit MI - 08/27/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "line",
+    "location_id": "337",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-detroit-royal-oak",
     "show": "cbb"
@@ -7789,8 +7810,8 @@
     "updated_at": "2022-09-129T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines", "Lisa Gilroy"],
     "episode_title": "Live from Royal Oak Music Theatre, Detroit MI - 08/27/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "69",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-detroit-royal-oak",
     "show": "cbb"
@@ -7810,8 +7831,8 @@
     "updated_at": "2022-09-129T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines", "Lisa Gilroy"],
     "episode_title": "Live from Royal Oak Music Theatre, Detroit MI - 08/27/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1235",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-detroit-royal-oak",
     "show": "cbb"
@@ -7823,16 +7844,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "somewhere in belgium",
-        "scopeNotes": ["site of: stanley chamberlin involved in a horse incident"]
+        "queryString": "Alfa Stables",
+        "scopeNotes": ["site of: stanley chamberlin involved in a horse incident", "somewhere in belgium - 50.93059610119574, 5.189237302145648"]
     },
     "tags": ["Stanley Chamberlin"],
     "created_at": "2022-09-129T10:51:29Z",
     "updated_at": "2022-09-129T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines", "Lisa Gilroy"],
     "episode_title": "Live from Royal Oak Music Theatre, Detroit MI - 08/27/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1608",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-detroit-royal-oak",
     "show": "cbb"
@@ -7844,7 +7865,7 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "geo",
-        "queryString": "detroit, mi",
+        "queryString": "Detroit, MI",
         "scopeNotes": ["site of: mrs. aukerman failing a riddle"]
     },
     "tags": ["Stanley Chamberlin", "RumpleDimpleScream", "Original Fig Catatonica", "Linda Aukerman"],
@@ -7852,8 +7873,8 @@
     "updated_at": "2022-09-129T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines", "Lisa Gilroy"],
     "episode_title": "Live from Royal Oak Music Theatre, Detroit MI - 08/27/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "457",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-detroit-royal-oak",
     "show": "cbb"
@@ -7969,8 +7990,8 @@
     "updated_at": "2022-09-139T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines", "Lisa Gilroy"],
     "episode_title": "Live from Massey Hall, Toronto ON - 08/28/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1309",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-toronto-massey",
     "show": "cbb"
@@ -7982,16 +8003,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "The Sugarhill Gang's recording studio",
-        "scopeNotes": ["site of: cal solomon hearing some hard truths"]
+        "queryString": "Sugar Hill Studios",
+        "scopeNotes": ["site of: cal solomon hearing some hard truths", "96 West St (W. Demarest Ave.), Englewood, NJ 07631", "40.89777465596139, -73.97445923226361"]
     },
     "tags": ["Cal Solomon", "The Sugarhill Gang (musical combination)"],
     "created_at": "2022-09-139T10:51:29Z",
     "updated_at": "2022-09-139T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines", "Lisa Gilroy"],
     "episode_title": "Live from Massey Hall, Toronto ON - 08/28/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1609",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-toronto-massey",
     "show": "cbb"
@@ -8011,8 +8032,8 @@
     "updated_at": "2022-09-139T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines", "Lisa Gilroy"],
     "episode_title": "Live from Massey Hall, Toronto ON - 08/28/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "445",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-toronto-massey",
     "show": "cbb"
@@ -8064,8 +8085,8 @@
     "updated_at": "2022-09-139T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines", "Lisa Gilroy"],
     "episode_title": "Live from Massey Hall, Toronto ON - 08/28/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "378",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-toronto-massey",
     "show": "cbb"
@@ -8085,8 +8106,8 @@
     "updated_at": "2022-09-139T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines", "Lisa Gilroy"],
     "episode_title": "Live from Massey Hall, Toronto ON - 08/28/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1294",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-toronto-massey",
     "show": "cbb"
@@ -8122,8 +8143,8 @@
     "updated_at": "2022-09-139T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines", "Lisa Gilroy"],
     "episode_title": "Live from Massey Hall, Toronto ON - 08/28/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "445",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-toronto-massey",
     "show": "cbb"
@@ -8175,8 +8196,8 @@
     "updated_at": "2022-09-139T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines", "Lisa Gilroy"],
     "episode_title": "Live from Massey Hall, Toronto ON - 08/28/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "137",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-toronto-massey",
     "show": "cbb"
@@ -8212,8 +8233,8 @@
     "updated_at": "2022-09-139T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines", "Lisa Gilroy"],
     "episode_title": "Live from Massey Hall, Toronto ON - 08/28/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1610",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-toronto-massey",
     "show": "cbb"
@@ -8257,8 +8278,8 @@
     "updated_at": "2022-09-139T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines", "Lisa Gilroy"],
     "episode_title": "Live from Massey Hall, Toronto ON - 08/28/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1460",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-toronto-massey",
     "show": "cbb"
@@ -8278,8 +8299,8 @@
     "updated_at": "2022-09-13T10:51:29Z",
     "episode_guests": ["Silversun Pickups (musical combination)", "Will Hines", "Matt Apodaca", "Ele Woods"],
     "episode_title": "Bean Time with Silversun Pickups",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1460",
     "slug_earwolf": "bean-time-with-silversun-pickups",
     "episode": 771,
     "show": "cbb"
@@ -8299,8 +8320,8 @@
     "updated_at": "2022-09-13T10:51:29Z",
     "episode_guests": ["Silversun Pickups (musical combination)", "Will Hines", "Matt Apodaca", "Ele Woods"],
     "episode_title": "Bean Time with Silversun Pickups",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1460",
     "slug_earwolf": "bean-time-with-silversun-pickups",
     "episode": 771,
     "show": "cbb"
@@ -8392,16 +8413,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "an arby's in tennessee",
-        "scopeNotes": ["site of: peanut parton discovering the subsequent celines program"]
+        "queryString": "Arby's #8173",
+        "scopeNotes": ["site of: peanut parton discovering the subsequent celines program", "35.84279376161243, -83.57148448883444"]
     },
     "tags": ["Peanut Parton", "Celune DeLune"],
     "created_at": "2022-09-139T10:51:29Z",
     "updated_at": "2022-09-139T10:51:29Z",
     "episode_guests": ["Jess McKenna", "Paul F. Tompkins", "Will Hines", "Lisa Gilroy"],
     "episode_title": "Live from Massey Hall, Toronto ON - 08/28/22",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1611",
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-toronto-massey",
     "show": "cbb"
@@ -8447,9 +8468,8 @@
         "queryType": "search",
         "queryString": "random house tower",
         "scopeNotes": [
-            "odenkirk book release party",
-            "maybe random house tower https://en.wikipedia.org/wiki/Random_House_Tower",
-            "site of: funny food, funny food, funny food and then dramatic food"
+            "possible site of: odenkirk book release party; site of: funny food, funny food, funny food and then dramatic food",
+            "maybe random house tower https://en.wikipedia.org/wiki/Random_House_Tower"
         ]
     },
     "tags": [
@@ -8467,8 +8487,8 @@
     "updated_at": "2022-08-15T10:51:29Z",
     "episode_guests": ["Bob Odenkirk", "James Austin Johnson", "Carl Tart"],
     "episode_title": "Cowbell Saul",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1295",
     "slug_earwolf": "cowbell-saul",
     "episode": 769,
     "show": "cbb"
@@ -8552,8 +8572,8 @@
     "updated_at": "2022-09-13T10:51:29Z",
     "episode_guests": ["Tatiana Maslany", "Paul F. Tompkins", "Caitlin Reilly"],
     "episode_title": "She-Garbage People",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "line",
+    "location_id": "338",
     "slug_earwolf": "she-garbage-people",
     "episode": 770,
     "show": "cbb"
@@ -8573,8 +8593,8 @@
     "updated_at": "2022-09-13T10:51:29Z",
     "episode_guests": ["Tatiana Maslany", "Paul F. Tompkins", "Caitlin Reilly"],
     "episode_title": "She-Garbage People",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "343",
     "slug_earwolf": "she-garbage-people",
     "episode": 770,
     "show": "cbb"
@@ -8628,22 +8648,22 @@
     "show": "cbb"
 }, {
     "tstart": "51:50",
-    "instance": "I'd ove a non-nom, personally.",
+    "instance": "I'd love a non-nom, personally.",
     "tend": "52:20",
     "bit": "Location",
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "geo",
-        "queryString": "mgm studios",
-        "scopeNotes": ["home to: lucy bukater"]
+        "queryString": "sony pictures studios",
+        "scopeNotes": ["home to: lucy bukater", "mgm studios"]
     },
     "tags": ["Lucy Bukater", "Butina Johansson", "Obi Ron Kenobi"],
     "created_at": "2022-09-13T10:51:29Z",
     "updated_at": "2022-09-13T10:51:29Z",
     "episode_guests": ["Tatiana Maslany", "Paul F. Tompkins", "Caitlin Reilly"],
     "episode_title": "She-Garbage People",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1296",
     "slug_earwolf": "she-garbage-people",
     "episode": 770,
     "show": "cbb"
@@ -8679,8 +8699,8 @@
     "updated_at": "2022-09-13T10:51:29Z",
     "episode_guests": ["Tatiana Maslany", "Paul F. Tompkins", "Caitlin Reilly"],
     "episode_title": "She-Garbage People",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1297",
     "slug_earwolf": "she-garbage-people",
     "episode": 770,
     "show": "cbb"
@@ -8716,8 +8736,8 @@
     "updated_at": "2022-09-13T10:51:29Z",
     "episode_guests": ["Tatiana Maslany", "Paul F. Tompkins", "Caitlin Reilly"],
     "episode_title": "She-Garbage People",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "line",
+    "location_id": "339",
     "slug_earwolf": "she-garbage-people",
     "episode": 770,
     "show": "cbb"
@@ -8891,8 +8911,8 @@
     "updated_at": "2022-09-13T10:51:29Z",
     "episode_guests": ["Silversun Pickups (musical combination)", "Will Hines", "Matt Apodaca", "Ele Woods"],
     "episode_title": "Bean Time with Silversun Pickups",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1298",
     "slug_earwolf": "bean-time-with-silversun-pickups",
     "episode": 771,
     "show": "cbb"
@@ -8912,8 +8932,8 @@
     "updated_at": "2022-09-13T10:51:29Z",
     "episode_guests": ["Silversun Pickups (musical combination)", "Will Hines", "Matt Apodaca", "Ele Woods"],
     "episode_title": "Bean Time with Silversun Pickups",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1612",
     "slug_earwolf": "bean-time-with-silversun-pickups",
     "episode": 771,
     "show": "cbb"
@@ -9029,8 +9049,8 @@
     "updated_at": "2022-09-13T10:51:29Z",
     "episode_guests": ["Silversun Pickups (musical combination)", "Will Hines", "Matt Apodaca", "Ele Woods"],
     "episode_title": "Bean Time with Silversun Pickups",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1057",
     "slug_earwolf": "bean-time-with-silversun-pickups",
     "episode": 771,
     "show": "cbb"
@@ -9171,15 +9191,15 @@
     "NB": {
         "queryType": "search",
         "queryString": "just outsite the dolby theatre",
-        "scopeNotes": ["site of: maximo tootie, doing his show"]
+        "scopeNotes": ["site of: maximo tootie, doing his show", "34.101542, -118.339629"]
     },
     "tags": ["Maximo Tootie"],
     "created_at": "2022-09-13T10:51:29Z",
     "updated_at": "2022-09-13T10:51:29Z",
     "episode_guests": ["Silversun Pickups (musical combination)", "Will Hines", "Matt Apodaca", "Ele Woods"],
     "episode_title": "Bean Time with Silversun Pickups",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1613",
     "slug_earwolf": "bean-time-with-silversun-pickups",
     "episode": 771,
     "show": "cbb"
@@ -9199,8 +9219,8 @@
     "updated_at": "2022-09-13T10:51:29Z",
     "episode_guests": ["Silversun Pickups (musical combination)", "Will Hines", "Matt Apodaca", "Ele Woods"],
     "episode_title": "Bean Time with Silversun Pickups",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1613",
     "slug_earwolf": "bean-time-with-silversun-pickups",
     "episode": 771,
     "show": "cbb"
@@ -9236,8 +9256,8 @@
     "updated_at": "2022-09-13T10:51:29Z",
     "episode_guests": ["Silversun Pickups (musical combination)", "Will Hines", "Matt Apodaca", "Ele Woods"],
     "episode_title": "Bean Time with Silversun Pickups",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1274",
     "slug_earwolf": "bean-time-with-silversun-pickups",
     "episode": 771,
     "show": "cbb"
@@ -9691,7 +9711,7 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "towns in connecticut",
+        "queryString": "Bridgewater, CT",
         "scopeNotes": ["proxy for: bridgerton, CT; home to: dre wonka"]
     },
     "tags": ["Dre Wonka", "Shimmy Lincoln"],
@@ -9699,8 +9719,8 @@
     "updated_at": "2022-09-15T10:51:29Z",
     "episode_guests": ["Bridger Winegar", "Paul F. Tompkins", "Lamar Woods"],
     "episode_title": "Half Wonka/Half Loompa",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1299",
     "slug_earwolf": "half-wonka-half-loompa",
     "episode": 772,
     "show": "cbb"
@@ -9712,7 +9732,7 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "downton abbey modeled after",
+        "queryString": "Belcourt of Newport",
         "scopeNotes": ["proxy for: downton abbey, RI; home to: shimmy lincoln"]
     },
     "tags": ["Dre Wonka", "Shimmy Lincoln"],
@@ -9720,8 +9740,8 @@
     "updated_at": "2022-09-15T10:51:29Z",
     "episode_guests": ["Bridger Winegar", "Paul F. Tompkins", "Lamar Woods"],
     "episode_title": "Half Wonka/Half Loompa",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1614",
     "slug_earwolf": "half-wonka-half-loompa",
     "episode": 772,
     "show": "cbb"
@@ -9734,15 +9754,15 @@
     "NB": {
         "queryType": "search",
         "queryString": "englewood, chicago, il",
-        "scopeNotes": ["proxy for: englewood, chicago, il;future site of: a wonka theme park"]
+        "scopeNotes": ["future site of: a wonka theme park"]
     },
     "tags": ["Dre Wonka", "Shimmy Lincoln", "Malcolm X"],
     "created_at": "2022-09-15T10:51:29Z",
     "updated_at": "2022-09-15T10:51:29Z",
     "episode_guests": ["Bridger Winegar", "Paul F. Tompkins", "Lamar Woods"],
     "episode_title": "Half Wonka/Half Loompa",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1300",
     "slug_earwolf": "half-wonka-half-loompa",
     "episode": 772,
     "show": "cbb"
@@ -9762,8 +9782,8 @@
     "updated_at": "2022-09-15T10:51:29Z",
     "episode_guests": ["Bridger Winegar", "Paul F. Tompkins", "Lamar Woods"],
     "episode_title": "Half Wonka/Half Loompa",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1300",
     "slug_earwolf": "half-wonka-half-loompa",
     "episode": 772,
     "show": "cbb"
@@ -9894,8 +9914,8 @@
     "updated_at": "2022-09-18T10:51:29Z",
     "episode_guests": ["Adam Scott", "Matt Besser", "Monika Smith", "Toni Charline"],
     "episode_title": "Olafer Only",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1040",
     "slug_earwolf": "olafer-only",
     "episode": 773,
     "show": "cbb"
@@ -9979,8 +9999,29 @@
     "updated_at": "2022-09-19T10:51:29Z",
     "episode_guests": ["Jon Hamm", "Lily Sullivan", "Devin Field"],
     "episode_title": "InFletchtion",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1301",
+    "slug_earwolf": "infletchtion",
+    "episode": 774,
+    "show": "cbb"
+}, {
+    "tstart": "1:08:20",
+    "instance": "Maybe Devon should take a permanent vacation to the other side of the world.",
+    "tend": "1:09:00",
+    "bit": "Location",
+    "elucidation": "identifiable earth location",
+    "NB": {
+        "queryType": "geo",
+        "queryString": "mumbai, india",
+        "scopeNotes": ["site of: steve spinx learning to crawl under a chassis and ride home"]
+    },
+    "tags": ["Steve Spinx", "Bridget Jones"],
+    "created_at": "2022-09-19T10:51:29Z",
+    "updated_at": "2022-09-19T10:51:29Z",
+    "episode_guests": ["Jon Hamm", "Lily Sullivan", "Devin Field"],
+    "episode_title": "InFletchtion",
+    "location_type": "poly",
+    "location_id": "1305",
     "slug_earwolf": "infletchtion",
     "episode": 774,
     "show": "cbb"
@@ -10000,8 +10041,8 @@
     "updated_at": "2022-09-19T10:51:29Z",
     "episode_guests": ["Jon Hamm", "Lily Sullivan", "Devin Field"],
     "episode_title": "InFletchtion",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1302",
     "slug_earwolf": "infletchtion",
     "episode": 774,
     "show": "cbb"
@@ -10037,8 +10078,8 @@
     "updated_at": "2022-09-19T10:51:29Z",
     "episode_guests": ["Jon Hamm", "Lily Sullivan", "Devin Field"],
     "episode_title": "InFletchtion",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1011",
     "slug_earwolf": "infletchtion",
     "episode": 774,
     "show": "cbb"
@@ -10066,16 +10107,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "target on sunset blvd, hollywood",
-        "scopeNotes": ["site of: bridget jones, taking in L.A."]
+        "queryString": "Target #2479",
+        "scopeNotes": ["site of: bridget jones, taking in L.A.", "34.09790552954933, -118.30975396075793"]
     },
     "tags": ["Bridget Jones"],
     "created_at": "2022-09-18T10:51:29Z",
     "updated_at": "2022-09-18T10:51:29Z",
     "episode_guests": ["Jon Hamm", "Lily Sullivan", "Devin Field"],
     "episode_title": "InFletchtion",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1615",
     "slug_earwolf": "infletchtion",
     "episode": 774,
     "show": "cbb"
@@ -10095,8 +10136,8 @@
     "updated_at": "2022-09-18T10:51:29Z",
     "episode_guests": ["Jon Hamm", "Lily Sullivan", "Devin Field"],
     "episode_title": "InFletchtion",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "30",
     "slug_earwolf": "infletchtion",
     "episode": 774,
     "show": "cbb"
@@ -10108,16 +10149,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "yogurtland on sunset blvd, hollywood",
-        "scopeNotes": ["site of: bridget jones, taking in L.A."]
+        "queryString": "Yogurtland #1266",
+        "scopeNotes": ["site of: bridget jones, taking in L.A.", "34.09826369732795, -118.31079678092134"]
     },
     "tags": ["Bridget Jones"],
     "created_at": "2022-09-18T10:51:29Z",
     "updated_at": "2022-09-18T10:51:29Z",
     "episode_guests": ["Jon Hamm", "Lily Sullivan", "Devin Field"],
     "episode_title": "InFletchtion",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1616",
     "slug_earwolf": "infletchtion",
     "episode": 774,
     "show": "cbb"
@@ -10129,16 +10170,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "game stop on sunset blvd, hollywood",
-        "scopeNotes": ["site of: bridget jones, taking in L.A."]
+        "queryString": "GameStop #2630",
+        "scopeNotes": ["site of: bridget jones, taking in L.A.", "34.098236453050255, -118.31047618462472"]
     },
     "tags": ["Bridget Jones"],
     "created_at": "2022-09-18T10:51:29Z",
     "updated_at": "2022-09-18T10:51:29Z",
     "episode_guests": ["Jon Hamm", "Lily Sullivan", "Devin Field"],
     "episode_title": "InFletchtion",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1617",
     "slug_earwolf": "infletchtion",
     "episode": 774,
     "show": "cbb"
@@ -10150,16 +10191,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "burrito place on sunset blvd",
-        "scopeNotes": ["site of: bridget jones, taking in L.A."]
+        "queryString": "Los Burritos (The Original) -- Sunset",
+        "scopeNotes": ["site of: bridget jones, taking in L.A.", "34.09826700133452, -118.29705249880197"]
     },
     "tags": ["Bridget Jones"],
     "created_at": "2022-09-18T10:51:29Z",
     "updated_at": "2022-09-18T10:51:29Z",
     "episode_guests": ["Jon Hamm", "Lily Sullivan", "Devin Field"],
     "episode_title": "InFletchtion",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1618",
     "slug_earwolf": "infletchtion",
     "episode": 774,
     "show": "cbb"
@@ -10171,16 +10212,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "netflix offices on sunset blvd, hollywood, ca",
-        "scopeNotes": ["site of: bridget jones, taking in L.A."]
+        "queryString": "Netflix HQ",
+        "scopeNotes": ["site of: bridget jones, taking in L.A.", "34.097781700651005, -118.31639462302142"]
     },
     "tags": ["Bridget Jones"],
     "created_at": "2022-09-18T10:51:29Z",
     "updated_at": "2022-09-18T10:51:29Z",
     "episode_guests": ["Jon Hamm", "Lily Sullivan", "Devin Field"],
     "episode_title": "InFletchtion",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1619",
     "slug_earwolf": "infletchtion",
     "episode": 774,
     "show": "cbb"
@@ -10192,16 +10233,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "an italian restaurant in hollywood",
-        "scopeNotes": ["site of: bridget jones ordering ravioli; site of: billy ray cyrus getting a gig"]
+        "queryString": "Miceli's",
+        "scopeNotes": ["site of: bridget jones ordering ravioli; site of: billy ray cyrus getting a gig", "an italian restaurant in hollywood", "34.10133427795864, -118.33606040981198"]
     },
     "tags": ["Bridget Jones"],
     "created_at": "2022-09-18T10:51:29Z",
     "updated_at": "2022-09-18T10:51:29Z",
     "episode_guests": ["Jon Hamm", "Lily Sullivan", "Devin Field"],
     "episode_title": "InFletchtion",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1620",
     "slug_earwolf": "infletchtion",
     "episode": 774,
     "show": "cbb"
@@ -10221,8 +10262,8 @@
     "updated_at": "2022-09-18T10:51:29Z",
     "episode_guests": ["Jon Hamm", "Lily Sullivan", "Devin Field"],
     "episode_title": "InFletchtion",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1303",
     "slug_earwolf": "infletchtion",
     "episode": 774,
     "show": "cbb"
@@ -10314,16 +10355,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "geo",
-        "queryString": "harry and meghan's montecito estate",
-        "scopeNotes": ["site of: byron denniston while harry and meghan were away"]
+        "queryString": "765 Rockbridge Rd",
+        "scopeNotes": ["site of: byron denniston while harry and meghan were away", "34.44270692323132, -119.64726189329198"]
     },
     "tags": ["Byron Denniston", "Meghan Markle", "Prince Harry, Duke of Sussex"],
     "created_at": "2022-09-20T10:51:29Z",
     "updated_at": "2022-09-20T10:51:29Z",
     "episode_guests": ["Jason Mantzoukas", "Andy Daly", "Paul F. Tompkins"],
     "episode_title": "Operation Double Decoy",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1621",
     "slug_earwolf": "operation-double-decoy",
     "episode": 775,
     "show": "cbb"
@@ -10419,16 +10460,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "jeff bezos yacht, docked in copenhagen",
-        "scopeNotes": ["site of: a bobby flay party"]
+        "queryString": "WSV Alblasserdam",
+        "scopeNotes": ["site of: a bobby flay party", "51.86121498944919, 4.6563914487748415", "jeff bezos yacht, docked in copenhagen"]
     },
     "tags": ["Bobby Flay", "Jeff Bezos", "Holly Madison", "Michael Keaton", "Topher Grace", "Watto"],
     "created_at": "2022-08-15T10:51:29Z",
     "updated_at": "2022-08-15T10:51:29Z",
     "episode_guests": ["Bob Odenkirk", "James Austin Johnson", "Carl Tart"],
     "episode_title": "Cowbell Saul",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1622",
     "slug_earwolf": "cowbell-saul",
     "episode": 769,
     "show": "cbb"
@@ -10461,8 +10502,8 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "flay's restaurants",
-        "scopeNotes": ["possible site of: paella night with dikembe mutombo"]
+        "queryString": "Bobby Flay Steak",
+        "scopeNotes": ["possible site of: paella night with dikembe mutombo", "39.37739874357512, -74.43568844176805"]
     },
     "tags": [
         "Bobby Flay",
@@ -10479,8 +10520,8 @@
     "updated_at": "2022-08-15T10:51:29Z",
     "episode_guests": ["Bob Odenkirk", "James Austin Johnson", "Carl Tart"],
     "episode_title": "Cowbell Saul",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1623",
     "slug_earwolf": "cowbell-saul",
     "episode": 769,
     "show": "cbb"
@@ -10530,15 +10571,15 @@
     "NB": {
         "queryType": "search",
         "queryString": "a bobby flay location",
-        "scopeNotes": ["proxy for: pipers piping hot restaurant", "site of: an heavily-litigated mouth-burning"]
+        "scopeNotes": ["proxy for: pipers piping hot restaurant", "site of: an heavily-litigated mouth-burning", "36.117075588323615, -115.17480581998859"]
     },
     "tags": ["Bobby Flay"],
     "created_at": "2022-08-15T10:51:29Z",
     "updated_at": "2022-08-15T10:51:29Z",
     "episode_guests": ["Bob Odenkirk", "James Austin Johnson", "Carl Tart"],
     "episode_title": "Cowbell Saul",
-    "location_type": "poly",
-    "location_id": "1255",
+    "location_type": "point",
+    "location_id": "1624",
     "slug_earwolf": "cowbell-saul",
     "episode": 769,
     "show": "cbb"
@@ -10550,16 +10591,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "geo",
-        "queryString": "-87.63565437268217,41.91136158218695",
-        "scopeNotes": ["piper's alley theatre", "site of: mistaken location of a crime"]
+        "queryString": "Piper's Alley",
+        "scopeNotes": ["piper's alley theatre", "site of: mistaken location of a crime", "41.91136058416532, -87.63565303163784"]
     },
     "tags": ["Italiano Jones"],
     "created_at": "2022-08-15T10:51:29Z",
     "updated_at": "2022-08-15T10:51:29Z",
     "episode_guests": ["Bob Odenkirk", "James Austin Johnson", "Carl Tart"],
     "episode_title": "Cowbell Saul",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1625",
     "slug_earwolf": "cowbell-saul",
     "episode": 769,
     "show": "cbb"
@@ -10643,8 +10684,8 @@
     "updated_at": "2022-09-20T10:51:29Z",
     "episode_guests": ["Jason Mantzoukas", "Andy Daly", "Paul F. Tompkins"],
     "episode_title": "Operation Double Decoy",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1304",
     "slug_earwolf": "operation-double-decoy",
     "episode": 775,
     "show": "cbb"
@@ -10656,9 +10697,9 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "scott aukerman's pool",
+        "queryString": "Scott Aukerman's Pool",
         "scopeNotes": [
-            "site of: byron denniston, faking a drowning; site of: byron denniston's gravestone in scott's pool; site of: the griz' gravestone in scott's pool"
+            "site of: byron denniston, faking a drowning; site of: byron denniston's gravestone in scott's pool; site of: the griz' gravestone in scott's pool", "34.113680575394596, -118.3686866121131"
         ]
     },
     "tags": ["Byron Denniston", "Greg (Grizzle) Mallett", "Dan Aykroyd"],
@@ -10666,8 +10707,8 @@
     "updated_at": "2022-09-20T10:51:29Z",
     "episode_guests": ["Jason Mantzoukas", "Andy Daly", "Paul F. Tompkins"],
     "episode_title": "Operation Double Decoy",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1626",
     "slug_earwolf": "operation-double-decoy",
     "episode": 775,
     "show": "cbb"
@@ -10679,10 +10720,9 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "scott aukerman's pool",
+        "queryString": "Scott Aukerman's Pool",
         "scopeNotes": [
-            "scott's pool",
-            "site of: byron denniston, faking a drowning; site of: byron denniston's gravestone in scott's pool; site of: the griz' gravestone in scott's pool"
+            "site of: byron denniston, faking a drowning; site of: byron denniston's gravestone in scott's pool; site of: the griz' gravestone in scott's pool", "34.113680575394596, -118.3686866121131"
         ]
     },
     "tags": ["Byron Denniston", "Greg (Grizzle) Mallett", "David S. Pumpkins"],
@@ -10690,8 +10730,8 @@
     "updated_at": "2022-09-20T10:51:29Z",
     "episode_guests": ["Jason Mantzoukas", "Andy Daly", "Paul F. Tompkins"],
     "episode_title": "Operation Double Decoy",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1626",
     "slug_earwolf": "operation-double-decoy",
     "episode": 775,
     "show": "cbb"
@@ -10703,10 +10743,9 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "scott aukerman's pool",
+        "queryString": "Scott Aukerman's Pool",
         "scopeNotes": [
-            "scott's pool",
-            "site of: byron denniston, faking a drowning; site of: byron denniston's gravestone in scott's pool; site of: the griz' gravestone in scott's pool"
+            "site of: byron denniston, faking a drowning; site of: byron denniston's gravestone in scott's pool; site of: the griz' gravestone in scott's pool", "34.113680575394596, -118.3686866121131"
         ]
     },
     "tags": ["Byron Denniston", "Greg (Grizzle) Mallett", "David S. Pumpkins"],
@@ -10714,8 +10753,8 @@
     "updated_at": "2022-09-20T10:51:29Z",
     "episode_guests": ["Jason Mantzoukas", "Andy Daly", "Paul F. Tompkins"],
     "episode_title": "Operation Double Decoy",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1626",
     "slug_earwolf": "operation-double-decoy",
     "episode": 775,
     "show": "cbb"
@@ -10759,16 +10798,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "a tarmac in philadelphia",
-        "scopeNotes": ["site of: phil collins' concorde landing; site of: byron denniston on his way to earwolf"]
+        "queryString": "British Airways Tarmac - JFK International Airport",
+        "scopeNotes": ["proxy for: phil collins' concorde landing in philadelphia; site of: byron denniston on his way to earwolf", "40.650680958110655, -73.78181672463323"]
     },
     "tags": ["Byron Denniston"],
     "created_at": "2022-09-20T10:51:29Z",
     "updated_at": "2022-09-20T10:51:29Z",
     "episode_guests": ["Jason Mantzoukas", "Andy Daly", "Paul F. Tompkins"],
     "episode_title": "Operation Double Decoy",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1627",
     "slug_earwolf": "operation-double-decoy",
     "episode": 775,
     "show": "cbb"
@@ -10844,16 +10883,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "neverland? - where did MJ die?",
-        "scopeNotes": ["site of: byron denniston observing the king of pop"]
+        "queryString": "100 North Carolwood Drive",
+        "scopeNotes": ["site of: byron denniston observing the king of pop", "34.081256148782074, -118.42530274965395"]
     },
     "tags": ["Byron Denniston", "Michael Jackson", "Dr. Conrad Murray"],
     "created_at": "2022-09-20T10:51:29Z",
     "updated_at": "2022-09-20T10:51:29Z",
     "episode_guests": ["Jason Mantzoukas", "Andy Daly", "Paul F. Tompkins"],
     "episode_title": "Operation Double Decoy",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1628",
     "slug_earwolf": "operation-double-decoy",
     "episode": 775,
     "show": "cbb"
@@ -10865,16 +10904,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "lady amelia windsor's flat in notting hiil",
-        "scopeNotes": ["and both on both sides", "site of: byron denniston, royal-watching"]
+        "queryString": "Lady Amelia Windsor's Flat In Notting Hill",
+        "scopeNotes": ["and both on both sides", "site of: byron denniston, royal-watching", "51.5127637308557, -0.20640381090222076"]
     },
     "tags": ["Byron Denniston", "Lady Amelia Windsor"],
     "created_at": "2022-09-20T10:51:29Z",
     "updated_at": "2022-09-20T10:51:29Z",
     "episode_guests": ["Jason Mantzoukas", "Andy Daly", "Paul F. Tompkins"],
     "episode_title": "Operation Double Decoy",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1629",
     "slug_earwolf": "operation-double-decoy",
     "episode": 775,
     "show": "cbb"
@@ -10890,16 +10929,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "a buckingham palace chimney",
-        "scopeNotes": ["site of: byron denniston, missing key details"]
+        "queryString": "Buckingham Palace Chimney NE",
+        "scopeNotes": ["site of: byron denniston, missing key details", "51.50163813971939, -0.14222338209501884"]
     },
     "tags": ["Byron Denniston", "Greg (Grizzle) Mallett"],
     "created_at": "2022-09-20T10:51:29Z",
     "updated_at": "2022-09-20T10:51:29Z",
     "episode_guests": ["Jason Mantzoukas", "Andy Daly", "Paul F. Tompkins"],
     "episode_title": "Operation Double Decoy",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1630",
     "slug_earwolf": "operation-double-decoy",
     "episode": 775,
     "show": "cbb"
@@ -10951,8 +10990,8 @@
     "updated_at": "2022-09-20T10:51:29Z",
     "episode_guests": ["Jason Mantzoukas", "Andy Daly", "Paul F. Tompkins"],
     "episode_title": "Operation Double Decoy",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1304",
     "slug_earwolf": "operation-double-decoy",
     "episode": 775,
     "show": "cbb"
@@ -11060,16 +11099,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "10' away from hawaii",
-        "scopeNotes": ["decoy australia"]
+        "queryString": "4000' Off Hawaii",
+        "scopeNotes": ["site of: decoy australia; proxy for: 10' away from hawaii", "-156.0461472,19.7875145"]
     },
     "tags": ["Byron Denniston", "The Zzirg"],
     "created_at": "2022-09-20T10:51:29Z",
     "updated_at": "2022-09-20T10:51:29Z",
     "episode_guests": ["Jason Mantzoukas", "Andy Daly", "Paul F. Tompkins"],
     "episode_title": "Operation Double Decoy",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1631",
     "slug_earwolf": "operation-double-decoy",
     "episode": 775,
     "show": "cbb"
@@ -11081,16 +11120,16 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "a hospital in australia",
-        "scopeNotes": ["site of: the birth of Zirg"]
+        "queryString": "Fiona Stanley Hospital",
+        "scopeNotes": ["possible site of: the birth of Zzirg", "a hospital in australia"]
     },
     "tags": ["The Zzirg", "Lady Alemia Renspence"],
     "created_at": "2022-09-20T10:51:29Z",
     "updated_at": "2022-09-20T10:51:29Z",
     "episode_guests": ["Jason Mantzoukas", "Andy Daly", "Paul F. Tompkins"],
     "episode_title": "Operation Double Decoy",
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1306",
     "slug_earwolf": "operation-double-decoy",
     "episode": 775,
     "show": "cbb"
@@ -11479,8 +11518,8 @@
         "scopeNotes": ["possible site of: meryl streep's first wedding (possibly to Hellraiser)"]
     },
     "tags": ["Cecil Sotheby", "Meryl Streep", "Hellraiser"],
-    "location_type": null,
-    "location_id": null,
+    "location_type": "line",
+    "location_id": "340",
     "created_at": "2022-10-03T10:51:29Z",
     "updated_at": "2022-10-03T10:51:29Z",
     "episode_guests": ["Dan Wilson", "Paul Rust", "Christine Bullen", "Charlie McCrackin"],
@@ -11500,8 +11539,8 @@
         "scopeNotes": ["possible site of: meryl streep's first wedding (possibly to Hellraiser)"]
     },
     "tags": ["Cecil Sotheby", "Meryl Streep", "Hellraiser"],
-    "location_type": null,
-    "location_id": null,
+    "location_type": "line",
+    "location_id": "340",
     "created_at": "2022-10-03T10:51:29Z",
     "updated_at": "2022-10-03T10:51:29Z",
     "episode_guests": ["Dan Wilson", "Paul Rust", "Christine Bullen", "Charlie McCrackin"],
@@ -11511,18 +11550,18 @@
     "show": "cbb"
 }, {
     "tstart": "42:30",
-    "instance": "He was trying to purchase mistltoe.",
+    "instance": "He was trying to purchase mistletoe.",
     "tend": "43:30",
     "bit": "Location",
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "the loading dock of a montgomery ward location",
-        "scopeNotes": ["possible site of: the grisly death of myrtle mcgee's first husband"]
+        "queryString": "Montgomery Ward - State Road Shopping Center",
+        "scopeNotes": ["possible site of: the grisly death of myrtle mcgee's first husband", "41.14875978503475, -81.50810856647834", "the loading dock of a montgomery ward location"]
     },
     "tags": ["Myrtle Mcgee"],
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1632",
     "created_at": "2022-10-03T10:51:29Z",
     "updated_at": "2022-10-03T10:51:29Z",
     "episode_guests": ["Dan Wilson", "Paul Rust", "Christine Bullen", "Charlie McCrackin"],
@@ -11538,12 +11577,12 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "somewhere in the amazon jungle",
-        "scopeNotes": ["possible site of: the grisly death of myrtle mcgee's second husband, remington (poison dart accident)"]
+        "queryString": "-66.06861638066863,-3.55319830032256",
+        "scopeNotes": ["possible site of: the grisly death of myrtle mcgee's second husband, remington (poison dart accident)", "somewhere in the amazon jungle"]
     },
     "tags": ["Myrtle Mcgee", "Cecil Sotheby"],
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1633",
     "created_at": "2022-10-03T10:51:29Z",
     "updated_at": "2022-10-03T10:51:29Z",
     "episode_guests": ["Dan Wilson", "Paul Rust", "Christine Bullen", "Charlie McCrackin"],
@@ -11559,12 +11598,12 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "somewhere in the swiss alps",
-        "scopeNotes": ["possible site of: the grisly death of myrtle mcgee's third husband, orland (sledding accident)"]
+        "queryString": "Bifertenstock",
+        "scopeNotes": ["possible site of: the grisly death of myrtle mcgee's third husband, orland (sledding accident)", "somewhere in the swiss alps", "8.957523671110406,46.80380687413291"]
     },
     "tags": ["Myrtle Mcgee", "Cecil Sotheby"],
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1634",
     "created_at": "2022-10-03T10:51:29Z",
     "updated_at": "2022-10-03T10:51:29Z",
     "episode_guests": ["Dan Wilson", "Paul Rust", "Christine Bullen", "Charlie McCrackin"],
@@ -11580,12 +11619,12 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "a marshmallow eating contest somewhere",
-        "scopeNotes": ["possible site of: the grisly death of myrtle mcgee's seventeenth husband, mitch (chubby bunny choking accident)"]
+        "queryString": "What the Fluff?",
+        "scopeNotes": ["proxy for: a marshmallow eating contest somewhere; possible site of: the grisly death of myrtle mcgee's seventeenth husband, mitch (chubby bunny choking accident)", "-71.09622962471059,42.3797874195367"]
     },
     "tags": ["Myrtle Mcgee", "Cecil Sotheby"],
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1635",
     "created_at": "2022-10-03T10:51:29Z",
     "updated_at": "2022-10-03T10:51:29Z",
     "episode_guests": ["Dan Wilson", "Paul Rust", "Christine Bullen", "Charlie McCrackin"],
@@ -11633,12 +11672,12 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "a residence somewhere, possibly in a town that also had a montgomery ward for a while",
-        "scopeNotes": ["possible site of: the grisly death of myrtle mcgee's ninth husband, also named remington (death by ceiling fan)"]
+        "queryString": "2438 15th St",
+        "scopeNotes": ["possible site of: the grisly death of myrtle mcgee's ninth husband, also named remington (death by ceiling fan)", "-81.50095081842285,41.141273513873806", "a residence somewhere, possibly in a town that also had a montgomery ward for a while"]
     },
     "tags": ["Cecil Sotheby", "Myrtle Mcgee"],
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1636",
     "created_at": "2022-10-03T10:51:29Z",
     "updated_at": "2022-10-03T10:51:29Z",
     "episode_guests": ["Dan Wilson", "Paul Rust", "Christine Bullen", "Charlie McCrackin"],
@@ -11654,12 +11693,12 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "somewhere out in the pacific ocean",
-        "scopeNotes": ["possible site of: the grisly death of paul bunyon"]
+        "queryString": "-140.16921871139022,27.182292216034718",
+        "scopeNotes": ["possible site of: the grisly death of paul bunyon", "-140.16921871139022,27.182292216034718", "somewhere out in the pacific ocean"]
     },
     "tags": ["Cordwood Pete Bunyan", "Myrtle Mcgee"],
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1637",
     "created_at": "2022-10-03T10:51:29Z",
     "updated_at": "2022-10-03T10:51:29Z",
     "episode_guests": ["Dan Wilson", "Paul Rust", "Christine Bullen", "Charlie McCrackin"],
@@ -11679,8 +11718,8 @@
         "scopeNotes": ["former home state of: the Bunyan family"]
     },
     "tags": ["Cordwood Pete Bunyan", "Myrtle Mcgee"],
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1003",
     "created_at": "2022-10-03T10:51:29Z",
     "updated_at": "2022-10-03T10:51:29Z",
     "episode_guests": ["Dan Wilson", "Paul Rust", "Christine Bullen", "Charlie McCrackin"],
@@ -11700,8 +11739,8 @@
         "scopeNotes": ["deathplace of: the Bunyan family parents"]
     },
     "tags": ["Cordwood Pete Bunyan", "Myrtle Mcgee"],
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1307",
     "created_at": "2022-10-03T10:51:29Z",
     "updated_at": "2022-10-03T10:51:29Z",
     "episode_guests": ["Dan Wilson", "Paul Rust", "Christine Bullen", "Charlie McCrackin"],
@@ -11721,8 +11760,8 @@
         "scopeNotes": ["site of: Cordwood Bunyan after a long walk"]
     },
     "tags": ["Cordwood Pete Bunyan"],
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1308",
     "created_at": "2022-10-03T10:51:29Z",
     "updated_at": "2022-10-03T10:51:29Z",
     "episode_guests": ["Dan Wilson", "Paul Rust", "Christine Bullen", "Charlie McCrackin"],
@@ -11739,11 +11778,11 @@
     "NB": {
         "queryType": "geo",
         "queryString": "puget sound to earwolf",
-        "scopeNotes": ["site of: Cordwood Bunyan from puget sound to earwolf"]
+        "scopeNotes": ["route of: Cordwood Bunyan from puget sound to earwolf"]
     },
     "tags": ["Cordwood Pete Bunyan"],
-    "location_type": null,
-    "location_id": null,
+    "location_type": "line",
+    "location_id": "341",
     "created_at": "2022-10-03T10:51:29Z",
     "updated_at": "2022-10-03T10:51:29Z",
     "episode_guests": ["Dan Wilson", "Paul Rust", "Christine Bullen", "Charlie McCrackin"],
@@ -11875,8 +11914,8 @@
         "scopeNotes": ["former workplace of: lloyd garterbelt"]
     },
     "tags": ["Prof. Lloyd Garterbelt"],
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1309",
     "created_at": "2022-10-11T10:51:29Z",
     "updated_at": "2022-10-11T10:51:29Z",
     "episode_guests": ["Kyle Bornheimer", "Dan Lippert", "Erin Keif"],
@@ -11892,12 +11931,12 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "search",
-        "queryString": "a strip club two blocks away from earwolf",
-        "scopeNotes": ["site of: lloyd garterbelt's proposed date w/ kyle bornheimer"]
+        "queryString": "jumbo's clown room",
+        "scopeNotes": ["possible site of: lloyd garterbelt's proposed date w/ kyle bornheimer", "a strip club two blocks away from earwolf"]
     },
     "tags": ["Prof. Lloyd Garterbelt"],
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1638",
     "created_at": "2022-10-11T10:51:29Z",
     "updated_at": "2022-10-11T10:51:29Z",
     "episode_guests": ["Kyle Bornheimer", "Dan Lippert", "Erin Keif"],
@@ -11914,11 +11953,11 @@
     "NB": {
         "queryType": "search",
         "queryString": "star gardens, north hollywood",
-        "scopeNotes": ["site of: lloyd garterbelt, eschewing kyle bornheimer's recommended joint"]
+        "scopeNotes": ["site of: lloyd garterbelt, eschewing kyle bornheimer's recommended joint", "-118.38751618017037,34.19132297867535"]
     },
     "tags": ["Prof. Lloyd Garterbelt"],
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1639",
     "created_at": "2022-10-11T10:51:29Z",
     "updated_at": "2022-10-11T10:51:29Z",
     "episode_guests": ["Kyle Bornheimer", "Dan Lippert", "Erin Keif"],
@@ -12034,8 +12073,8 @@
         "scopeNotes": ["16 Kennard", "site of: conan obriens childhood home"]
     },
     "tags": ["Matilda Gravyman", "Conan O'Brien"],
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1640",
     "created_at": "2022-10-11T10:51:29Z",
     "updated_at": "2022-10-11T10:51:29Z",
     "episode_guests": ["Kyle Bornheimer", "Dan Lippert", "Erin Keif"],
@@ -12071,8 +12110,8 @@
         "scopeNotes": ["former workplace of: matilda gravyman"]
     },
     "tags": ["Matilda Gravyman"],
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1310",
     "created_at": "2022-10-11T10:51:29Z",
     "updated_at": "2022-10-11T10:51:29Z",
     "episode_guests": ["Kyle Bornheimer", "Dan Lippert", "Erin Keif"],
@@ -12088,12 +12127,12 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "geo",
-        "queryString": "17 milk st., boston, ma",
-        "scopeNotes": ["birthplace of: benjamin franklin (not new hampshire)"]
+        "queryString": "Ben Franklin House",
+        "scopeNotes": ["birthplace of: benjamin franklin (not new hampshire)", "-71.05848697432745,42.35669166581318", "17 milk st., boston, ma"]
     },
     "tags": ["Matilda Gravyman", "Benjamin Franklin"],
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1641",
     "created_at": "2022-10-11T10:51:29Z",
     "updated_at": "2022-10-11T10:51:29Z",
     "episode_guests": ["Kyle Bornheimer", "Dan Lippert", "Erin Keif"],
@@ -12358,8 +12397,8 @@
         "scopeNotes": ["hometown of: donald ump"]
     },
     "tags": ["Donald Ump"],
-    "location_type": null,
-    "location_id": null,
+    "location_type": "poly",
+    "location_id": "1311",
     "created_at": "2022-10-24T10:51:29Z",
     "updated_at": "2022-10-24T10:51:29Z",
     "episode_guests": ["Kevin Nealon", "Ryan Rosenberg", "Dave Theune"],
@@ -12376,11 +12415,11 @@
     "NB": {
         "queryType": "geo",
         "queryString": "Ozaukee County Courthouse",
-        "scopeNotes": ["site of: robby delmuda's first two trials (embezzlement and tax evasion)"]
+        "scopeNotes": ["site of: robby delmuda's first two trials (embezzlement and tax evasion)", "-87.89863717623088,43.373519692960194"]
     },
     "tags": ["Robby Delmuda"],
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1642",
     "created_at": "2022-10-24T10:51:29Z",
     "updated_at": "2022-10-24T10:51:29Z",
     "episode_guests": ["Kevin Nealon", "Ryan Rosenberg", "Dave Theune"],
@@ -12396,12 +12435,12 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "geo",
-        "queryString": "50 West Union Ave, Cedar Grove, WI 53013",
-        "scopeNotes": ["Cedar Grove - Belgium Elementary School", "site of: robby delmuda attending school during the day"]
+        "queryString": "Cedar Grove - Belgium Elementary School",
+        "scopeNotes": ["50 West Union Ave, Cedar Grove, WI 53013", "site of: robby delmuda attending school during the day", "-87.82258275089907,43.573501957999774"]
     },
     "tags": ["Robby Delmuda"],
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1643",
     "created_at": "2022-10-24T10:51:29Z",
     "updated_at": "2022-10-24T10:51:29Z",
     "episode_guests": ["Kevin Nealon", "Ryan Rosenberg", "Dave Theune"],
@@ -12421,8 +12460,8 @@
         "scopeNotes": ["Cedar Grove - Belgium Elementary School", "site of: robby delmuda attending school during the day"]
     },
     "tags": ["Robby Delmuda"],
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1643",
     "created_at": "2022-10-24T10:51:29Z",
     "updated_at": "2022-10-24T10:51:29Z",
     "episode_guests": ["Kevin Nealon", "Ryan Rosenberg", "Dave Theune"],
@@ -12438,12 +12477,12 @@
     "elucidation": "identifiable earth location",
     "NB": {
         "queryType": "geo",
-        "queryString": "42.484556288085464,-91.12717457742154",
-        "scopeNotes": ["a crosswalk in dyersville, ia", "site of: donald ump's arrest for jaywalking (indecent exposure)"]
+        "queryString": "1st Av @ 3rd St, Dyersville",
+        "scopeNotes": ["a crosswalk in dyersville, ia", "site of: donald ump's arrest for jaywalking (indecent exposure)", "42.484556288085464,-91.12717457742154"]
     },
     "tags": ["Donald Ump"],
-    "location_type": null,
-    "location_id": null,
+    "location_type": "point",
+    "location_id": "1644",
     "created_at": "2022-10-24T10:51:29Z",
     "updated_at": "2022-10-24T10:51:29Z",
     "episode_guests": ["Kevin Nealon", "Ryan Rosenberg", "Dave Theune"],
@@ -12503,5 +12542,117 @@
     "episode_title": "Ump-and-coming Umps",
     "slug_earwolf": "ump-and-coming-umps",
     "episode": 781,
+    "show": "cbb"
+}, {
+    "tstart": "16:45",
+    "instance": "A good haunted house always has a Dracula at the end.",
+    "tend": "17:10",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": ["Eminem", "Without Me (song)", "John Lennon"],
+    "location_type": null,
+    "location_id": null,
+    "created_at": "2022-11-01T10:51:29Z",
+    "updated_at": "2022-11-01T10:51:29Z",
+    "episode_guests": ["Kurt Braunohler", "Mike Hanford", "Jacob Wysocki"],
+    "episode_title": "Unique Stuff",
+    "slug_earwolf": "unique-stuff",
+    "episode": 782,
+    "show": "cbb"
+}, {
+    "tstart": "27:50",
+    "instance": "Told ya!",
+    "tend": "28:10",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": ["Last Night a D.J. Saved My Life (song)", "Indeep (musical combination)", "John Lennon"],
+    "location_type": null,
+    "location_id": null,
+    "created_at": "2022-11-01T10:51:29Z",
+    "updated_at": "2022-11-01T10:51:29Z",
+    "episode_guests": ["Kurt Braunohler", "Mike Hanford", "Jacob Wysocki"],
+    "episode_title": "Unique Stuff",
+    "slug_earwolf": "unique-stuff",
+    "episode": 782,
+    "show": "cbb"
+}, {
+    "tstart": "31:30",
+    "instance": "And then they finally get to Dracula?",
+    "tend": "32:00",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": ["Atlantic City (song)", "Bruce Springsteen"],
+    "location_type": null,
+    "location_id": null,
+    "created_at": "2022-11-01T10:51:29Z",
+    "updated_at": "2022-11-01T10:51:29Z",
+    "episode_guests": ["Kurt Braunohler", "Mike Hanford", "Jacob Wysocki"],
+    "episode_title": "Unique Stuff",
+    "slug_earwolf": "unique-stuff",
+    "episode": 782,
+    "show": "cbb"
+}, {
+    "tstart": "32:40",
+    "instance": "He had great cars.",
+    "tend": "33:10",
+    "bit": "Any of the Cake Money",
+    "elucidation": "leno's financial plan",
+    "tags": ["John Lennon"],
+    "location_type": null,
+    "location_id": null,
+    "created_at": "2022-11-01T10:51:29Z",
+    "updated_at": "2022-11-01T10:51:29Z",
+    "episode_guests": ["Kurt Braunohler", "Mike Hanford", "Jacob Wysocki"],
+    "episode_title": "Unique Stuff",
+    "slug_earwolf": "unique-stuff",
+    "episode": 782,
+    "show": "cbb"
+}, {
+    "tstart": "41:10",
+    "instance": "Tell me about your favorite morning.",
+    "tend": "41:45",
+    "bit": "Where Are You From?",
+    "elucidation": "a character trait or detail is challenged or prompted",
+    "tags": ["John Lennon", "COOTER"],
+    "location_type": null,
+    "location_id": null,
+    "created_at": "2022-11-01T10:51:29Z",
+    "updated_at": "2022-11-01T10:51:29Z",
+    "episode_guests": ["Kurt Braunohler", "Mike Hanford", "Jacob Wysocki"],
+    "episode_title": "Unique Stuff",
+    "slug_earwolf": "unique-stuff",
+    "episode": 782,
+    "show": "cbb"
+}, {
+    "tstart": "41:20",
+    "instance": "This was the voice that was programmed for me.",
+    "tend": "41:10",
+    "bit": "Donkey!",
+    "elucidation": "somebody does the shrek 'donkeh'",
+    "tags": ["John Lennon", "COOTER"],
+    "location_type": null,
+    "location_id": null,
+    "created_at": "2022-11-01T10:51:29Z",
+    "updated_at": "2022-11-01T10:51:29Z",
+    "episode_guests": ["Kurt Braunohler", "Mike Hanford", "Jacob Wysocki"],
+    "episode_title": "Unique Stuff",
+    "slug_earwolf": "unique-stuff",
+    "episode": 782,
+    "show": "cbb"
+}, {
+    "tstart": "42:40",
+    "instance": "Option Five - engaging.",
+    "tend": "43:00",
+    "bit": "The Paul Hardcastle of Suicides",
+    "elucidation": "any song reference",
+    "tags": ["John Lennon", "COOTER", "I Am the Walrus (song)", "The Beatles (musical combination)"],
+    "location_type": null,
+    "location_id": null,
+    "created_at": "2022-11-01T10:51:29Z",
+    "updated_at": "2022-11-01T10:51:29Z",
+    "episode_guests": ["Kurt Braunohler", "Mike Hanford", "Jacob Wysocki"],
+    "episode_title": "Unique Stuff",
+    "slug_earwolf": "unique-stuff",
+    "episode": 782,
     "show": "cbb"
 }]
