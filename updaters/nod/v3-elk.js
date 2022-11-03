@@ -731,7 +731,7 @@ const main = async() => {
             merge: false,
             elastify: true,
             summarize: false,
-            sendupdates: true
+            sendupdates: false
         }
 
         try {

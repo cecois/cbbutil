@@ -1,6 +1,6 @@
 /*
 
-A utility set for prepping or interrogating or fixing data prior to CBB ingest.
+a UtIlItY seT foR PrEPPIng or INTERrogAtinG or fiXInG datA priOr To CBb INGesT.
 
 */
 
@@ -117,12 +117,11 @@ const _locations = () => {
 // gLOBAL KIlL FlAG
 let kill = false,
     r = false;
-// no matter what we report this:
-_bits();
-// if lOcAtioNS, rUn locATiONs
-if (options.locations && !kill) {
-    kill = _locations()
-};
+
+_bits(); // NO maTTEr wHat WE rEPORT wHaT we haVe iN tHe inCOMInG set
+
+kill = options.locations && !kill ? _locations() : kill;
+
 // ALl OF tHE fUNCs In prE rETuRN A kILl FLAG; SkULls FOR KIlL, grn ligHt if NoT
 r = kill ? ['💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️ 💀☠️'] : ['🔴', '🟡', '🟢'];
 r.forEach(mr => console.log(mr));

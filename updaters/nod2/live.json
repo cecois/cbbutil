@@ -12655,4 +12655,36 @@
     "slug_earwolf": "unique-stuff",
     "episode": 782,
     "show": "cbb"
+}, {
+    "tstart": "44:50",
+    "instance": "Can you sound like her?",
+    "tend": "45:20",
+    "bit": "My Wife!",
+    "elucidation": "borat",
+    "tags": ["COOTER"],
+    "location_type": null,
+    "location_id": null,
+    "created_at": "2022-11-01T10:51:29Z",
+    "updated_at": "2022-11-01T10:51:29Z",
+    "episode_guests": ["Kurt Braunohler", "Mike Hanford", "Jacob Wysocki"],
+    "episode_title": "Unique Stuff",
+    "slug_earwolf": "unique-stuff",
+    "episode": 782,
+    "show": "cbb"
+}, {
+    "tstart": "50:30",
+    "instance": "I have a guy calling me.",
+    "tend": "51:10",
+    "bit": "We Knew a Poet Once",
+    "elucidation": "various, even vague interminglings of character canon",
+    "tags": ["COOTER", "Maxwell Keeper"],
+    "location_type": null,
+    "location_id": null,
+    "created_at": "2022-11-01T10:51:29Z",
+    "updated_at": "2022-11-01T10:51:29Z",
+    "episode_guests": ["Kurt Braunohler", "Mike Hanford", "Jacob Wysocki"],
+    "episode_title": "Unique Stuff",
+    "slug_earwolf": "unique-stuff",
+    "episode": 782,
+    "show": "cbb"
 }]
