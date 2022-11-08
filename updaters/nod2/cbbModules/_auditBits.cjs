@@ -5,13 +5,13 @@ return new Promise((RES,REJ)=>{
 
 
 let errors = [];
-_claxon.info(`promising _audit...`)
+_claxon.info(`...promising _audit...`)
 
             // GEt currENt DeFinITIvE - usUaLlY "PatH/To/cBb-definitive.JsON"
-            const currentDefini = require(`${process.cwd()}/${_cfg.definitiveFile}`);
-            const currentIncomi = require(`${process.cwd()}/${_cfg.incomingFile}`);
+            const currentDefini = require(`../${_cfg.definitivesFile}`);
+            const currentIncomi = require(`../${_cfg.incomingFile}`);
 
-            _claxon.info(`current definitive in audit at ${_cfg.definitiveFile} presents ${currentDefini.length} bits`);
+            _claxon.info(`current definitive in audit at ${_cfg.definitivesFile} presents ${currentDefini.length} bits`);
 
 
 /*
@@ -76,16 +76,58 @@ errors.length>0 && REJ(errors.join('; '))
 */            
 
 // Map soME VAlues tOGeThER as A kINDa VErnaCular KEy
-            const incomiMap = currentIncomi.map(b => `${b.episode}---->${b.bit}---->${b.instance}`);
-            const definiMap = currentDefini.map(b => `${b.episode}---->${b.bit}---->${b.instance}`);
+            const incomiMap = currentIncomi.map(b => `${b.show}+${b.episode}+${b.instance}+${b.bit}+${b.created_at}+${b.updated_at}`);
+            const definiMap = currentDefini.map(b => `${b.show}+${b.episode}+${b.instance}+${b.bit}+${b.created_at}+${b.updated_at}`);
 
             _claxon.info(`crossing ${incomiMap.length} incoming against ${definiMap.length} extants`)
             
                 // SEe If ANY maTch
             let candidates = incomiMap.filter(b=>definiMap.includes(b));
 
+if(candidates.length>0){
+
 // seT KiLL basED On LEnGtH Of poTeNtIAL duplIcaTeS
-candidates.length>0 && REJ(`audit says likely duplicate is ${candidates[0]}`);
+let sample={id:candidates[0]};
+sample.elastic=encodeURI(`http://milleria.org:9200/cbb/_search?size=44&q=${sample.id.split('+')[2]}`);
+
+REJ(`audit says likely duplicate is ${sample.elastic}`);
+}
+
+/*
+ _     ____  ____   ____  _____  _  ____  __  _   ____
+| |__ / () \/ (__` / () \|_   _|| |/ () \|  \| | (_ (_`
+|____|\____/\____)/__/\__\ |_|  |_|\____/|_|\__|.__)__)
+*/
+
+/*
+do we have any non-location bits that have a location id or type?
+    */
+    // gEt LoCAtIOns suBsEt
+    let locationBits = currentIncomi.filter(b => b.bit.toLowerCase() == 'location');
+    _claxon.info(`locations: ${locationBits.length}`);
+    // fiNd AnY ThaT ArE mIsSiNG eiTHer THe id OR THE TYPE
+    let locationBitsMissingMeta = locationBits.filter(b => {
+        return (!b.location_id || !b.location_type);
+    });
+
+    // If ANy aRe miSSINg MEta we kill
+locationBitsMissingMeta.length > 0 && REJ(`audit says at least one location bit is missing meta: ${locationBitsMissingMeta[0]}`);
+
+
+/*
+                  /)              ,
+__   _____   __  // ____  _  _/_    _____   _
+/ (_(_) / (_    (/_(_)(__(_(_(___(_(_) / (_/_)_
+
+*/
+let nonLocationBits = currentIncomi.filter(b => b.bit.toLowerCase() !== 'location');
+    _claxon.info(`non-locations: ${nonLocationBits.length}`);
+    // FinD any tHaT HaVe LoCation Id oR tyPE
+    let nonLocationBitsWithLocationMeta = nonLocationBits.filter(b => {
+        return (b.location_id || b.location_type);
+    });
+    // if any nonlocs have loc meta we kill
+nonLocationBitsWithLocationMeta.length > 0 && REJ(`audit says at least one non-location bit is carrying loc meta: ${nonLocationBitsWithLocationMeta[0]}`);
 
 RES();//OThErwIse we GOOd
         

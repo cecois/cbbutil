@@ -1,8 +1,8 @@
             module.exports = {
-                    default: (_cfg, _claxon) => {
+                    default: (_cfg, _runid,_claxon) => {
                         let errors=[];
 
-                            _claxon.info(`promising _dev...`)
+                            _claxon.info(`...promising _dev w/ runid ${_runid}`)
 
                             return new Promise((RES, REJ) => {
 

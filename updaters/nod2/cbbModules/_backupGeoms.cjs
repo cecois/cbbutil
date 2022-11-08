@@ -4,9 +4,6 @@ module.exports = {
         default: (_cfg, _runid,_claxon) => {
 
             return new Promise((RES,REJ)=>{
-// 
-// budirBits
-// geomdir
 
 let geomsCount = FS.readdirSync(_cfg.geomdir).length
 ,buFile = `${_cfg.budir}/geoms-${_runid}.tgz`;

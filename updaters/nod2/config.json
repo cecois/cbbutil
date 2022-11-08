@@ -1,15 +1,15 @@
 {
     "NB": "THIS IS CONFIG FOR CBB INGEST V2, A NEAR-COMPLETE REWRITE IN 2022.JUNE",
     "budir": "/Users/ccmiller/Library/Mobile Documents/com~apple~CloudDocs/Documents/bu/cbb-v2",
-    "definitiveFile": "cbb-definitive.json",
-    "incomingFile": "cbb-live-dev.json",
+    "definitivesFile": "definitives.json",
+    "incomingFile": "cbb.json",
     "interimFile": "/tmp/cbb-interim.json",
-    "definitiveUpdates": "cbb-updates.json",
+    "updatesFile": "updates.json",
     "index": {
         "host": "milleria.org",
         "port": "9200"
     },
-    "geomdir": "/Users/ccmiller/Library/Mobile Documents/com~apple~CloudDocs/Documents/bu/cbb-v2/cbb-geoms/",
+    "geomdir": "/Users/ccmiller/Documents/bu/cbb-geoms/",
     "cloudinary": {
         "api_key": "499116563672841",
         "api_secret": "UynamGFEOZJa1welVSCd01uhwMM",

@@ -4,18 +4,17 @@ A full rewrite of the CBB bittracker ingest op; 2022.June
 
 */
 import FS from 'fs';
-import _CLAXON from './cbbModules/_claxon.cjs'; //We doN't neED NO WinStOn RoUnd HErE
+import _CLAXON from './cbbModules/_claxon.cjs'; //logGIng anD sHOutINg
 import _LN from './cbbModules/_line.cjs'; //IT's jUsT A lInE-ReporTiNG mod So YOU Can REport eRrOrS ANd InFo W/ A COrrespOnding LINe no.
-import DEVO from './cbbModules/_DEV.cjs';
-import SFTY from './cbbModules/_safety.cjs';
-import BBTS from './cbbModules/_backupBits.cjs';
 import AUDT from './cbbModules/_auditBits.cjs';
-import GEOM from './cbbModules/_auditGeom.cjs';
-import MERG from './cbbModules/_mergeBits.cjs';
-import DELE from './cbbModules/_deleteBits.cjs';
-import SEND from './cbbModules/_sendBits.cjs';
-import UPDT from './cbbModules/_sendUpdates.cjs';
+import BBTS from './cbbModules/_backupBits.cjs';
 import BGMS from './cbbModules/_backupGeoms.cjs';
+import DELE from './cbbModules/_deleteBits.cjs';
+import DEVO from './cbbModules/_DEV.cjs';
+import MERG from './cbbModules/_mergeBits.cjs';
+import SEND from './cbbModules/_sendBits.cjs';
+import SFTY from './cbbModules/_safety.cjs';
+import UPDT from './cbbModules/_sendUpdates.cjs';
 import {
     exec
 } from 'child_process';
@@ -31,61 +30,13 @@ let OPS = {
     meta: {
         id: null
     }
-    /*,ops: [{
-            handle: "DEV",
-            run: true,
-            type: "prep"
-        }, {
-            handle: "safety",
-            run: true,
-            type: "prep"
-        },
-        // tarballs state after last run
-        {
-            handle: "backupBits",
-            run: false,
-            type: "prep"
-        }, {
-            handle: "backupGeoms",
-            run: false,
-            type: "prep"
-        },
-        // tests incoming set for probable duplicates and missing geom attributes
-        {
-            handle: "auditBits",
-            run: true,
-            type: "prep"
-        },
-        // merge will take the incoming set (cbb-live.json+cbb-definitive.json, typically), merge them, save them out
-        {
-            handle: "mergeBits",
-            run: false,
-            type: "send"
-        },
-        // delete will kill the current bits index
-        {
-            handle: "deleteBits",
-            run: false,
-            type: "send"
-        },
-        // send will take the current on-disk merged set (cbb-live.json+cbb-definitive.json, typically), elastify them, and save them out as the new definitive
-        {
-            handle: "sendBits",
-            run: false,
-            type: "send"
-        }, {
-            handle: "sendUpdates",
-            run: false,
-            type: "send"
-        }, {
-            handle: "sendGeoms",
-            run: false,
-            type: "send"
-        }
-    ]*/
+
 }
 
 const _E = (kill) => {
+    /*
+_e iS hOw wE EnD thE WHolE thIng
+    */
     exec('open raycast://confetti', resp => resp);
     kill && _CLAXON.error(kill.killer);
     kill && process.exit();
@@ -110,38 +61,52 @@ const _I = async() => {
                 */
 
         let opSets = {
-            "AUDIT": false, //safety check & audit
-            "GEOMS": true, //safety check & audit
-            "BACKP": false, //backup of definitive & geoms
-            "MERGE": false, //merge incoming with definitive
-            "CLEAR": false //clear out bits index
+            "DEVVV": true, //just testing
+            "SAFTY": true, //safety check - are any incoming ep ids already in the index? (it's rare but possible this is ok)
+            "AUDIT": true, //audit
+            "BACKP": false, //backup of bits, definitives, and geoms
+            "MERGE": true, //merge incoming with definitives
+            "SENDD": false, //send new definitives (incoming+merged) for indexing (first clears current index)
+            "SENDG": false, //send geoms for indexing (first clears current index)
+            "SUMMA": false, //summarize incoming to local summary store
+            "SENDS": false, //send summaries for indexing (first clears current index)
         };
 
-        _CLAXON.info(JSON.stringify(opSets));
+        _CLAXON.info(`running ${Object.keys(opSets).filter(okey=>opSets[okey]).join('; ')}`);
 
         // HErE'S tHE actiOn StUFf - If a gIvEn op iN OPSeTS IS tRUE, WE cRaFT An aRRAY OF prOMiSeS And then Run Em
 
         try {
-            promises = opSets.AUDIT ? [SFTY.default(CFG, _CLAXON), AUDT.default(CFG, _CLAXON)] : [_CLAXON.infoSync("AUDIT is off")];
+            promises = opSets.DEVVV ? [DEVO.default(CFG, OPS.meta.id, _CLAXON)] : [_CLAXON.infoSync("DEVVV is off")];
             await Promise.all(promises);
         } catch (err) {
             _E({
                 killed: true,
-                killer: `audit fail: ${err}`
-            });
-        }
-        try {
-            promises = opSets.GEOMS ? [GEOM.default(CFG, _CLAXON)] : [_CLAXON.infoSync("GEOMS is off")];
-            await Promise.all(promises);
-        } catch (err) {
-            _E({
-                killed: true,
-                killer: `geom audit fail: ${err}`
+                killer: `dev fail: ${err}`
             });
         }
 
         try {
-            promises = opSets.BACKP ? [BBTS.default(CFG, OPS.meta.id, _CLAXON), BGMS.default(CFG, OPS.meta.id, _CLAXON)] : [_CLAXON.infoSync("BACKP is off")];
+            promises = opSets.SAFTY ? [SFTY.default(CFG, _CLAXON)] : [_CLAXON.infoSync("SAFTY is off")];
+            await Promise.all(promises);
+        } catch (err) {
+            _E({
+                killed: true,
+                killer: `safety fail: ${err}`
+            });
+        }
+        try {
+            promises = opSets.AUDIT ? [AUDT.default(CFG, _CLAXON)] : [_CLAXON.infoSync("AUDIT is off")];
+            await Promise.all(promises);
+        } catch (err) {
+            _E({
+                killed: true,
+                killer: `bit audit fail: ${err}`
+            });
+        }
+
+        try {
+            promises = opSets.BACKP ? [BBTS.incoming(CFG, OPS.meta.id, _CLAXON), BBTS.definitives(CFG, OPS.meta.id, _CLAXON), BGMS.default(CFG, OPS.meta.id, _CLAXON)] : [_CLAXON.infoSync("BACKP is off")];
             await Promise.all(promises);
         } catch (err) {
             _E({
@@ -160,104 +125,15 @@ const _I = async() => {
             });
         }
 
-        try {
-            promises = opSets.CLEAR ? [CLEAR.default(CFG, _CLAXON)] : [_CLAXON.infoSync("CLEAR is off")];
-            await Promise.all(promises);
-        } catch (err) {
-            _E({
-                killed: true,
-                killer: `clear set fail: ${err}`
-            });
-        }
-
-        // loOp tHRU THe OperAtIONS thaT arE CONFiGURED To ruN
-        // trues.forEach(async opHandle => {
-        // gET The oG CONFIG for tHIs oP - MeSsAgEs, eRRoRs, pAYLOaD, ETc. - It'S a loCAL, mUTablE COpY
-        // let OP = OPS.ops.find(o => o.handle == opHandle);
-        // Let's eXEcutE MOduLE bASED on (DynaMiC iMPorts SImPly aREn't wOrKinG)
-        // let mResult = null;
-        // if (OP.handle.toLowerCase() == 'safety') {
-        //     try {
-        //         mResult = await SFTY.default(CFG, OPS.meta.id, _CLAXON);
-        //         _E();
-        //     } catch (error) {
-        //         _E({
-        //             killed: true,
-        //             killer: `SFTY: ${error}`
-        //         });
-        //     }
+        // try {
+        //     promises = opSets.CLEAR ? [CLEAR.default(CFG, _CLAXON)] : [_CLAXON.infoSync("CLEAR is off")];
+        //     await Promise.all(promises);
+        // } catch (err) {
+        //     _E({
+        //         killed: true,
+        //         killer: `clear set fail: ${err}`
+        //     });
         // }
 
-        // switch (true) {
-        //     case (OP.handle.toLowerCase() == 'safety'):
-        //         try {
-        //             mResult = await SFTY.default(CFG, OPS.meta.id, _CLAXON);
-        //             _E();
-        //         } catch (error) {
-        //             _E({
-        //                 killed: true,
-        //                 killer: `SFTY: ${error}`
-        //             });
-        //         }
-        //         break;
-        //     case (OP.handle.toLowerCase() == 'dev'):
-        //         try {
-        //             mResult = await DEV.default(CFG, OPS.meta.id, _CLAXON);
-        //             _E();
-        //         } catch (error) {
-        //             _E({
-        //                 killed: true,
-        //                 killer: `DEV: ${error}`
-        //             });
-        //         }
-        //         break;
-
-        //     case (OP.handle.toLowerCase() == 'backupbits'):
-        //         try {
-        //             mResult = await BBTS.default(CFG, OPS.meta.id, _CLAXON);
-        //             _E();
-        //         } catch (error) {
-        //             _E({
-        //                 killed: true,
-        //                 killer: `BBTS: ${error}`
-        //             });
-        //         }
-        //         break;
-        //     case (OP.handle.toLowerCase() == 'auditbits'):
-        //         try {
-        //             mResult = await AUDT.default(CFG, OPS.meta.id, _CLAXON);
-        //             _E();
-        //         } catch (error) {
-        //             _E({
-        //                 killed: true,
-        //                 killer: `AUDT: ${error}`
-        //             });
-        //         }
-        //         break;
-        //     case (OP.handle.toLowerCase() == 'mergebits'):
-        //         mResult = MERG.default(CFG, OPS.meta.id, _CLAXON);
-        //         break;
-        //     case (OP.handle.toLowerCase() == 'deletebits'):
-        //         mResult = DELE.default(CFG, OPS.meta.id, _CLAXON);
-        //         break;
-        //     case (OP.handle.toLowerCase() == 'sendbits'):
-        //         mResult = SEND.default(CFG, OPS.meta.id, _CLAXON);
-        //         break;
-        //     case (OP.handle.toLowerCase() == 'sendupdates'):
-        //         mResult = UPDT.default(CFG, OPS.meta.id, _CLAXON);
-        //         break;
-        //     default:
-        //         mResult = null;
-        // }
-        // OP.messages = mResult ? mResult.messages : null;
-        // OP.errors = mResult ? mResult.errors : null;
-        // OP.payload = mResult ? mResult.payload : null;
-        // if thE MOdule wAnTS TO be kiLlED WE dO sO
-        // OP.kill.killed && _E(OP, true);
-        // console.log(opHandle);
-        // });
-
-        // CoulD Be we MADE It thIs FAR, Tho
-        // _E(OPS);
     } //_i
 _I();

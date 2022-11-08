@@ -2355,8 +2355,8 @@
     "updated_at": "2022-08-269T10:51:29Z",
     "episode_guests": ["Dan Mangan", "Paul F. Tompkins", "Carl Tart", "Ego Nwodim", "Drew Tarver"],
     "episode_title": "Live from The Vogue, Vancouver, BC Canada - 08/12/22",
-    "location_type": "poly",
-    "location_id": "1100",
+    "location_type": null,
+    "location_id": null,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-vancouver-vogue",
     "show": "cbb"
@@ -2371,8 +2371,8 @@
     "updated_at": "2022-08-269T10:51:29Z",
     "episode_guests": ["Dan Mangan", "Paul F. Tompkins", "Carl Tart", "Ego Nwodim", "Drew Tarver"],
     "episode_title": "Live from The Vogue, Vancouver, BC Canada - 08/12/22",
-    "location_type": "poly",
-    "location_id": "1100",
+    "location_type": null,
+    "location_id": null,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-vancouver-vogue",
     "show": "cbb"
@@ -3091,8 +3091,8 @@
     "updated_at": "2022-08-289T10:51:29Z",
     "episode_guests": ["Neil Campbell", "Ryan Gaul", "Ego Nwodim", "Drew Tarver"],
     "episode_title": "Live from The Moore Theatre, Seattle WA - 08/13/22",
-    "location_type": "poly",
-    "location_id": "526",
+    "location_type": null,
+    "location_id": null,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-seattle-moore",
     "show": "cbb"
@@ -3107,8 +3107,8 @@
     "updated_at": "2022-08-289T10:51:29Z",
     "episode_guests": ["Neil Campbell", "Ryan Gaul", "Ego Nwodim", "Drew Tarver"],
     "episode_title": "Live from The Moore Theatre, Seattle WA - 08/13/22",
-    "location_type": "poly",
-    "location_id": "526",
+    "location_type": null,
+    "location_id": null,
     "slug_earwolf": null,
     "episode": "cbb-2022-live-tour-seattle-moore",
     "show": "cbb"

@@ -16,10 +16,10 @@ there are scenarios where an episode has been logged but then a re-listen turns 
 
             return new Promise(async(RES, REJ) => {
 
-                _claxon.info(`promising _safety...`);
+                _claxon.info(`...promising _safety...`);
 
                 // Get CurRenT deFInITiVE - basIcALly "pATh/tO/CBb-defiNiTIvE.JsON"
-                const currentIncomi = require(`${process.cwd()}/${_cfg.incomingFile}`);
+                const currentIncomi = require(`../${_cfg.incomingFile}`);
                 _claxon.info(`incoming in safety at ${_cfg.incomingFile} presents ${currentIncomi.length} bits`);
 
                 const epids = __.uniq(__.pluck(currentIncomi, 'episode'));

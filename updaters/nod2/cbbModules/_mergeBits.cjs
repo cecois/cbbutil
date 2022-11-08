@@ -2,15 +2,14 @@ module.exports = {
         default: (_cfg, _claxon) => {
 
                 const FS = require('fs'),
-                    ELASTIC = require('elasticsearch'),
                     __ = require('underscore');
 
                 return new Promise(async(RES, REJ) => {
 
                     // Get currEnT deFiNitiVE
-                    const currentDefini = require(`${process.cwd()}/${_cfg.definitiveFile}`);
+                                const currentDefini = require(`../${_cfg.definitivesFile}`);
                     // Get IncomING
-                    const currentIncomi = require(`${process.cwd()}/${_cfg.incomingFile}`);
+            const currentIncomi = require(`../${_cfg.incomingFile}`);
 
                     // RePoRt lENgThs
                     _claxon.info(`current definitive at ${_cfg.definitiveFile} presents ${currentDefini.length} bits`);
@@ -22,7 +21,7 @@ module.exports = {
                     _claxon.info(`merged new definitive contains ${newDefini.length} bits`);
 
                     // SEt NEw DEFiNITive w/ MERgED
-                    FS.writeFileSync(currentDefini, JSON.stringify(__.compact(__.flatten(newDefini))));
+                    FS.writeFileSync(_cfg.definitivesFile, JSON.stringify(__.compact(__.flatten(newDefini))));
 
                     RES();
                 }); //promise
