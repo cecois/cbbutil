@@ -16,7 +16,7 @@ module.exports = {
                     _claxon.info(`incoming at ${_cfg.incomingFile} presents ${currentIncomi.length} bits`);
 
                     // mErgE ThE incOmInG wITH tHe EXTaNT DEFiniTive
-                    const newDefini = currentDefini.concat(currentIncomi);
+                    const newDefini = [...currentDefini,...currentIncomi];
                     // rEpoRt leNGth
                     _claxon.info(`merged new definitive contains ${newDefini.length} bits`);
 

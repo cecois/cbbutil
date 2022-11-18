@@ -12,6 +12,7 @@ import BGMS from './cbbModules/_backupGeoms.cjs';
 import DELE from './cbbModules/_deleteBits.cjs';
 import DEVO from './cbbModules/_DEV.cjs';
 import MERG from './cbbModules/_mergeBits.cjs';
+import SUMB from './cbbModules/_summarizeBits.cjs';
 import SEND from './cbbModules/_sendBits.cjs';
 import SFTY from './cbbModules/_safety.cjs';
 import UPDT from './cbbModules/_sendUpdates.cjs';
@@ -65,7 +66,7 @@ const _I = async() => {
             "SAFTY": true, //safety check - are any incoming ep ids already in the index? (it's rare but possible this is ok)
             "AUDIT": true, //audit
             "BACKP": false, //backup of bits, definitives, and geoms
-            "MERGE": true, //merge incoming with definitives
+            "MERGE": false, //merge incoming with definitives
             "SENDD": false, //send new definitives (incoming+merged) for indexing (first clears current index)
             "SENDG": false, //send geoms for indexing (first clears current index)
             "SUMMA": false, //summarize incoming to local summary store
@@ -122,6 +123,16 @@ const _I = async() => {
             _E({
                 killed: true,
                 killer: `merge set fail: ${err}`
+            });
+        }
+
+        try {
+            promises = opSets.SUMMA ? [SUMB.default(CFG, _CLAXON)] : [_CLAXON.infoSync("SUMMA is off")];
+            await Promise.all(promises);
+        } catch (err) {
+            _E({
+                killed: true,
+                killer: `summary fail: ${err}`
             });
         }
 

@@ -111,7 +111,7 @@ do we have any non-location bits that have a location id or type?
     });
 
     // If ANy aRe miSSINg MEta we kill
-locationBitsMissingMeta.length > 0 && REJ(`audit says at least one location bit is missing meta: ${locationBitsMissingMeta[0]}`);
+locationBitsMissingMeta.length > 0 && REJ(`audit says at least one location bit is missing meta: ${JSON.stringify(locationBitsMissingMeta[0])}`);
 
 
 /*

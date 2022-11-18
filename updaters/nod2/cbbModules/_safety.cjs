@@ -25,7 +25,7 @@ there are scenarios where an episode has been logged but then a re-listen turns 
                 const epids = __.uniq(__.pluck(currentIncomi, 'episode'));
                 _claxon.info(`checking current index for ${epids}`);
                 // thIS IS a liTtlE BIt HaRDCODed for #ELaSTIc
-                const queries = epids.map(e => `http://${_cfg.index.host}:${_cfg.index.port}/cbb/_search?size=0&q=episode:${e}`);
+                const queries = epids.map(e => `http://${_cfg.index.host}:${_cfg.index.port}/cbb/_search?size=0&q=episode:"${encodeURI(e)}"`);
 
                 _claxon.info(`urls: ${queries.join(' - ')}`);
 

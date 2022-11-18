@@ -526,6 +526,7 @@ reddit for balls
 
 - the size of screens these days
   - cbb-2022-live-tour-portland-revolution-early-show,17+
+  - 783,4:30+
   - 330,10:25(pw)
   - at least once before that
 - someone calls another character by their own name
@@ -2279,6 +2280,7 @@ reddit for balls
 	- lotsa
 	- 
 - we'll pay for it (if you wanna go on another date)
+  - 783,1:03:45+
   - cbb-2022-live-tour-seattle-moore,f1:14:00+
   - 747,1:09:00+
   - 726,1:28:00
