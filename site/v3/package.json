@@ -13,7 +13,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "aws-sdk": "^2.573.0",
+    "aws-sdk": "^2.814.0",
     "elasticsearch": "^16.5.0",
     "epic-spinners": "^1.1.0",
     "es": "^0.7.3",
