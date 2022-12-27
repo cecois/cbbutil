@@ -14,5 +14,11 @@
         "api_key": "499116563672841",
         "api_secret": "UynamGFEOZJa1welVSCd01uhwMM",
         "cloud_name": "cecois"
+    },
+    "elastic": {
+        "host": "milleria.org:9200",
+        "indexBits": "dev_cbb",
+        "indexUpdates": "dev_cbb_updates",
+        "indexGeoms": "dev_cbb_geoms"
     }
 }

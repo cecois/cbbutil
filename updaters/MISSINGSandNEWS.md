@@ -1,103 +1,117 @@
 # possible new bits:
 
 0. SHIMMY!
-0. fix fugees "one time" - no doubt its a ref to *killing me softly* and not any other fugees track
-0. fix eluc of vicar of yanks bit
-0. bean dip's real name is "sally dunkirk" acc to cbb#659
-0. ~~clean up nephew todd tag~~
-0. ~~"tiny reviews music" eluc~~
-0. ~~oj simpson you take care/see you later~~
-0. fix alimony tony tag -> Alimony Tony Giachieroni
-1. ~~wilcox poems fulltext~~
-1. ~~dick francis~~
-2. ~~fix elucid for pyramid stuff~~
-0. ~~clean up nephew todd tag~~
-0. ~~"tiny reviews music" eluc~~
-2. missing rudi north christmas tree farm loc?
-2. ~~marshal v marshall~~
-3. ~~fix hey nineteen tags (hardcastle v. steely)~~
-1. ~~fix "Regina Krimp" vs. "Crimp"~~
-1. ~~you say baby too~~
-2. hollywood facts
-1. ~~fix doobie brothers tag~~
-2. ~~change tag Beth to Power Wheels Beth~~
-2. fix gramercy may 13 ep title times (9:30 v 7)
-1. ~~mr. microphone~~
-1. ~~jarles~~
-1. ~~clumsy portmanteau~~
-1. ~~lapkus can't make it through a song~~
-2. ~~dads and grads~~
-2. ~~mike the janitor's mantra~~
-1. ~~gino's commuter map~~
-1. ~~len wiseman~~
-1. ~~retiring a train~~
-1. URLs (see DOMAINS.md)
-1. literally nowhere else
-1. germany cannibalism
-1. ~~icona pop~~
-1. ~~s my c~~
-2. face/off
-1. subepisodes
+1. fix fugees "one time" - no doubt its a ref to _killing me softly_ and not any other fugees track
+2. fix eluc of vicar of yanks bit
+3. bean dip's real name is "sally dunkirk" acc to cbb#659
+4. ~~clean up nephew todd tag~~
+5. ~~"tiny reviews music" eluc~~
+6. ~~oj simpson you take care/see you later~~
+7. fix alimony tony tag -> Alimony Tony Giachieroni
+8. ~~wilcox poems fulltext~~
+9. ~~dick francis~~
+10. ~~fix elucid for pyramid stuff~~
+11. ~~clean up nephew todd tag~~
+12. ~~"tiny reviews music" eluc~~
+13. missing rudi north christmas tree farm loc?
+14. ~~marshal v marshall~~
+15. ~~fix hey nineteen tags (hardcastle v. steely)~~
+16. ~~fix "Regina Krimp" vs. "Crimp"~~
+17. ~~you say baby too~~
+18. hollywood facts
+19. ~~fix doobie brothers tag~~
+20. ~~change tag Beth to Power Wheels Beth~~
+21. fix gramercy may 13 ep title times (9:30 v 7)
+22. ~~mr. microphone~~
+23. ~~jarles~~
+24. ~~clumsy portmanteau~~
+25. ~~lapkus can't make it through a song~~
+26. ~~dads and grads~~
+27. ~~mike the janitor's mantra~~
+28. ~~gino's commuter map~~
+29. ~~len wiseman~~
+30. ~~retiring a train~~
+31. URLs (see DOMAINS.md)
+32. literally nowhere else
+33. germany cannibalism
+34. ~~icona pop~~
+35. ~~s my c~~
+36. face/off
+37. subepisodes
 
 - orangest of balls
-  * cbb-2022-live-tour-toronto-massey,1:04:00+
+
+  - 788,1:10+
+  - cbb-2022-live-tour-toronto-massey,1:04:00+
 
 - staff up/write on snl
-  * 777,10+
-  * cbb-2022-live-tour-boston-chevalier,37+
-  * cbb-2022-live-tour-boston-chevalier,26+
-  * many previous
+
+  - 777,10+
+  - 632,2:02:00+
+  - cbb-2022-live-tour-boston-chevalier,37+
+  - cbb-2022-live-tour-boston-chevalier,26+
+  - many previous
 
 - balcony reports
-  * cbb-2022-live-tour-boston-chevalier,3+
-  * cbb-2022-live-tour-brooklyn-kings,5+
+
+  - cbb-2022-live-tour-boston-chevalier,3+
+  - cbb-2022-live-tour-brooklyn-kings,5+
 
 - lily sullivans social handle
-  * 755,2:01:30
+
+  - 755,2:01:30
 
 - bill walton lists
-  * (every bill walton appearance)
+
+  - (every bill walton appearance)
 
 - wet day
-  * 752,:20
-  * 752,2:20
-  * at least one prior, prolly two (possibly not even cbb proper)
+
+  - 752,:20
+  - 752,2:20
+  - at least one prior, prolly two (possibly not even cbb proper)
 
 - do they ever drop the act?
-  * plenty before 737
-  * 748,1:04:20
-  * 737,2:09:00
-  * BO2021.1,21:30
+
+  - 788,2:17+
+  - plenty before 737 (and plenty after)
+  - 748,1:04:20
+  - 737,2:09:00
+  - BO2021.1,21:30
 
 - ooh-la-la sex
-	* bo2019.2,5:50
-	* bo2019.2,19:00
-	* bo2019.1,????
-	* bo2019.2,1:42:45
-	* bo2019.3,1:58:50
-	* bo2019.4,1:19:30
-  * 643,30:24
-  * 707,1:04:00
+
+  - bo2019.2,5:50
+  - bo2019.2,19:00
+  - bo2019.1,27+
+  - bo2019.2,1:42:45
+  - bo2019.3,1:58:50
+  - bo2019.4,1:19:30
+  - 643,30:24
+  - 707,1:04:00
 
 - gino's late cues
-  * every single one?
+
+  - every single one?
 
 - gino's search terms
-  * 632,33:30
-  
+  - 632,33:30
 - have you ever? (rapper's delight)
+
   - all cal solomon's appearances
   - 758,2:20
   - 758,11:30
   - 758,13
 
 - haven't seen a movie in N years
+
   - hot dog #599,19:30
   - traci reardon a lot \* al a pterson maybe?
 
   - a million - extant but needs catchup
 
 - notorious powerbottom ebenezer scrooge
+
   - bo2018.\*
   - bo2018.4,15:40(pw)
   - bo2018.4,1:34:45(pw)
@@ -107,12 +121,16 @@
   - bo2019.4,2:21:50
 
 - little boy/big boy
+
   - 561,17:00
 
 - bridget jones' british slang
+
   - 774,27+
 
 - notorious terf jk rowling
+
+  - 768,16+
   - cbb-2022-live-tour-chicago-chicago,42+
   - 747,42
   - 756,1:05:00
@@ -129,8 +147,8 @@
 - shaggygawea
   - 688,42:30
   - 688,1:00:30
-  
 - point flathand fist
+
   - 530,22:30
   - bo2019.2,38:30
   - countless best-ofs
@@ -139,15 +157,17 @@
 - figured it out is from pajama game - see st. paul 2019 pt. 2 for tags
 
 reddit for balls
-  - cbb-2022-live-tour-boston-chevalier,1:43:00+
-  - cbb-2022-live-tour-brooklyn-kings,1:16:00+
-  - cbb-2022-live-tour-brooklyn-kings,26+
-  - cbb-2022-live-tour-portland-revolution-late-show,15+
-  - cbb-2022-live-tour-portland-revolution-early-show,13+
-  - cbb-2022-live-tour-san-francisco-castro,58+
-  - inaugural wz likely the 2022 tour stop w/ cake boss & oj simpson
+
+- cbb-2022-live-tour-boston-chevalier,1:43:00+
+- cbb-2022-live-tour-brooklyn-kings,1:16:00+
+- cbb-2022-live-tour-brooklyn-kings,26+
+- cbb-2022-live-tour-portland-revolution-late-show,15+
+- cbb-2022-live-tour-portland-revolution-early-show,13+
+- cbb-2022-live-tour-san-francisco-castro,58+
+- inaugural wz likely the 2022 tour stop w/ cake boss & oj simpson
 
 - you take care
+
   - cbb-2022-live-tour-san-francisco-castro,1:43+
   - cbb-2022-live-tour-san-francisco-castro,1:39+
   - cbb-2022-live-tour-san-francisco-castro,1:10+
@@ -162,29 +182,29 @@ reddit for balls
   - 754,45+
   - 754,42+
   - 754,39+
-	- see oj appearances by carl tart
-	- vancouver2019,1:06:00
-	- ",1:07:00
-	- ",1:08:00
-	- ",1:09:00
-	- ",1:09:40
-	- ",1:11:00
-	- ",1:14:30
-	- ",1:19:00
-	- ",1:21:30
-	- ",1:22:30
-	- ",1:23:40
-	- ",1:28:15
-	- ",1:50:14
-	- ",2:04:30
-	- philadelpha 2019,1:35:30
-	- ",1:36:45
-	- ",1:41:00
-	- ",1:41:45
-	- ",1:49:45
-	- ",2:02:30
-	- ",2:03:30
-	- ",2:05:30
+  - see oj appearances by carl tart
+  - vancouver2019,1:06:00
+  - ",1:07:00
+  - ",1:08:00
+  - ",1:09:00
+  - ",1:09:40
+  - ",1:11:00
+  - ",1:14:30
+  - ",1:19:00
+  - ",1:21:30
+  - ",1:22:30
+  - ",1:23:40
+  - ",1:28:15
+  - ",1:50:14
+  - ",2:04:30
+  - philadelpha 2019,1:35:30
+  - ",1:36:45
+  - ",1:41:00
+  - ",1:41:45
+  - ",1:49:45
+  - ",2:02:30
+  - ",2:03:30
+  - ",2:05:30
   - bo2020.3,2:04:45
   - 706,34:00
   - 706,35:00
@@ -200,9 +220,9 @@ reddit for balls
   - 706,1:12:00
 
 - germany cannibalism
-	- 429,1:07:00
-	- 637,38:00
-	- COUNTLESS OTHERS
+  - 429,1:07:00
+  - 637,38:00
+  - COUNTLESS OTHERS
 
 * closing sentiment-off
   - ??
@@ -238,6 +258,9 @@ reddit for balls
   - 482,1:03:45(pw)
   - 451,40:00
 * bajillion (or any) call sheet
+  - BO2022.2,1:00:00+
+  - BO2022.2,13+
+  - BO2022.1,10:40
   - bo2018.\*
   - 778,1:16:40
   - 749,22:45
@@ -509,7 +532,22 @@ reddit for balls
 
   - missing one from #483
 
+- hudson news
+
+  - 785,48+
+
 - shimmy lincoln appears in any way
+
+  - BO2022.1,57:50+
+  - 787,1:23+
+  - 787,45+
+  - 787,43+
+  - 787,5:50+
+  - 787,5+
+  - 787,1+
+  - 785,10:30
+  - 785,2:30
+  - 785,1+
   - 772,45+
   - 772,17:00+
   - 752,33:30
@@ -565,7 +603,8 @@ reddit for balls
   - 539,13:20(pw)
   - 307,45:25(pw)
 - hot shit/cold diahrrea
-	- 479,42:45(howl - w/ ads)
+
+  - 479,42:45(howl - w/ ads)
   - 757,54:00
   - many others
 
@@ -786,9 +825,9 @@ reddit for balls
   - http://howl.fm/audio/42018/may-21-detroit-royal-oak-music-theatre,37:30
 
 - fast & furious presents:
+
   - many before 720
   - 720,5:00
-
 
 - thanks, reggie
   - 759,1:15:50
@@ -1325,19 +1364,20 @@ reddit for balls
   - 224,58:15(howl)
   - 377,1:19:30(pw)
 - is dick francis a horse?
-  * - 2016.chicago10,27:30(pw)
-  * - 2016.leeds,25:32
-  * - 398,1:08:00
-  * - 428,14:00(pw)
-  * - 479,29:00(pw)
-  * - 507,39:00
-  * - bo2015.4,1:17:00
-  * - bo2015.4,8:00
-  - 399,1:07:50(falsepoz)
-  * - 484,1:07:45(pw)
-  * - 507,1:04:50
-  * - 514,1:36:00
+  - - 2016.chicago10,27:30(pw)
+  - - 2016.leeds,25:32
+  - - 398,1:08:00
+  - - 428,14:00(pw)
+  - - 479,29:00(pw)
+  - - 507,39:00
+  - - bo2015.4,1:17:00
+  - - bo2015.4,8:00
+  * 399,1:07:50(falsepoz)
+  - - 484,1:07:45(pw)
+  - - 507,1:04:50
+  - - 514,1:36:00
 - that sounds good to me
+  - BO2022.1,23+
   - cbb-2022-live-tour-atlanta-tabernacle,52+
   - 2015 BOs?
   - 688,1:08:00
@@ -1374,27 +1414,27 @@ reddit for balls
   - 338,1:23:10(pw)
 - you say baby too
 
-	  - 508,45:12(pw)
-	  - 515,12:30
-	  - 521,1:02:00
-	  - 525,33:00
-	  - 525,5:00
-	  - 536,16:00
-	  - 536,19:50
-	  - 565,1:08:20(pw)
-	  - 571,48:20(pw)
-	  - 579,2:02:05(pw)
-	  - 579,41:30(pw)
-	  - 579,48:00(pw)
-	  - 599,5:02:15(tortellini)
-	  - 599,5:08:45(tortellini)
-	  - 599,5:13:00(tortellini)
-	  - 599,5:18:00(tortellini)
-	  - bo2017.4,3:03:00
-	  - boston wilbur 7pm,40:00
-	  - http://howl.fm/audio/41284/may-4-tarrytown-ny-tarrytown-music-hall,18:00(pw)
-	  - http://howl.fm/audio/46644/live-from-vulture-fest-2017,39:29(pw)
-	  - nyc may 13 gramercy 7pm,31:00
+  - 508,45:12(pw)
+  - 515,12:30
+  - 521,1:02:00
+  - 525,33:00
+  - 525,5:00
+  - 536,16:00
+  - 536,19:50
+  - 565,1:08:20(pw)
+  - 571,48:20(pw)
+  - 579,2:02:05(pw)
+  - 579,41:30(pw)
+  - 579,48:00(pw)
+  - 599,5:02:15(tortellini)
+  - 599,5:08:45(tortellini)
+  - 599,5:13:00(tortellini)
+  - 599,5:18:00(tortellini)
+  - bo2017.4,3:03:00
+  - boston wilbur 7pm,40:00
+  - http://howl.fm/audio/41284/may-4-tarrytown-ny-tarrytown-music-hall,18:00(pw)
+  - http://howl.fm/audio/46644/live-from-vulture-fest-2017,39:29(pw)
+  - nyc may 13 gramercy 7pm,31:00
 
   * see [cbb-smc.json](/Users/ccmiller/Desktop/cbb/updaters/cbb-smc.json)
 
@@ -1787,6 +1827,7 @@ reddit for balls
   - 215:1:04:30(howl)
   - 191,1:12:00
   - 246,31:40(howl)
+
 - mr. microphone
   - ~~2016.nyc930,32:45~~
   - ~~349,38:25(pw)~~
@@ -1810,6 +1851,7 @@ reddit for balls
   - 419,4:20
   - bo2015.4,1:09:00(pw)
   - bo2017.3,1:15
+
 * and...10 more minutes
   - 133,41:50
   - 133,55:59
@@ -1869,6 +1911,7 @@ reddit for balls
   - 507,1:04:50
   - 479,29:00(pw)
 * don't joke about irobot
+
   - 781,55:50
   - bo2015.1,8:20(pw)
   - bo2015.2,11:40(pw)
@@ -1877,7 +1920,7 @@ reddit for balls
   - 484,33:50(pw)
   - bo2017.1,2:22:00
   - bo2020.3,53:00
- 
+
 * that sounds good to me
   - 2015 BOs?
   - 2016.chicago10,28:00(pw)
@@ -1980,7 +2023,6 @@ reddit for balls
   - 326,2:10:13(paywall)
   - leeds,10:30
   - 615,1:20:20
-  
 - German craigslist
 
   - 401,50:45
@@ -2035,6 +2077,7 @@ reddit for balls
   - 393,51:40(pw)
   - 525,33:00
 - symmetrical face
+  - 785,1:12:00+
   - 665,18:00
   - bo2020.2,1:41:45
   - 158,1:00:00
@@ -2085,7 +2128,7 @@ reddit for balls
   - ~~606,0:45~~
   - ~~607,0:50~~
 - first and last
-	- 562,4:00(inaugural)
+  - 562,4:00(inaugural)
 - classic joke structure
   - 2016.austin,18:10
   - 168,1:01:20
@@ -2126,10 +2169,10 @@ reddit for balls
   - 349,22:50(pw)
   - 349,30:00(pw)
 - bro's weed strains
-	- 439,34:00(maybe earlier)
+  - 439,34:00(maybe earlier)
 - walking down the street
-	- a billion eps
-	- 439,4:00
+  - a billion eps
+  - 439,4:00
 - clumsy portmanteau
   - ~~438,30:50(pw)~~
   - ~~463,15:50(pw)~~
@@ -2173,6 +2216,7 @@ reddit for balls
   - 2016.tour.bos10,43:00
   - mike the janitor/bachelor bros ep
 - ha'penny
+  - 787,28+
   - 752,13:45
   - 623,1:03:45
   - portland late show 2019,38:30
@@ -2215,6 +2259,7 @@ reddit for balls
   - 189,1:08:30
   - (previous herzog appear)
 - of note/in his own right
+
   - 292,2:24
   - vancouver2019,8:10
   - 335,2:45
@@ -2265,7 +2310,8 @@ reddit for balls
   - 462,1:10(pw)
 
 - who me? (batman)
-  - 
+
+  -
 
 - can i see you in the kitchen?
 
@@ -2276,10 +2322,12 @@ reddit for balls
   - bo2017.2,2:19:45
 
 - ...living (qualification on a compliment)
-	- 607,05:00
-	- lotsa
-	- 
+  - 607,05:00
+  - lotsa
+  -
 - we'll pay for it (if you wanna go on another date)
+
+  - 788,2:02:30+
   - 783,1:03:45+
   - cbb-2022-live-tour-seattle-moore,f1:14:00+
   - 747,1:09:00+
@@ -2318,17 +2366,21 @@ reddit for balls
   - 262,??
 
 - i was walking down the street
-	- billions
-	- peecast2018,27:00
-	- peecast2018,28:15
+  - billions
+  - peecast2018,27:00
+  - peecast2018,28:15
 - the story of sting
   - bo2017.2,1:53:00
   - other Best-Ofs[]()
 - moveon.org
-	- live-from-vulture-fest-2017,1:35:00
+
+  - live-from-vulture-fest-2017,1:35:00
   - 434,9:30(pw)[]()
 
 - interesting people (humanity's, america's podcast etc)
+
+  - bo2022.2,1:07:45+
+  - 786,1+
   - 770,1:00:00+
   - 770,1+
   - cbb-2022-live-tour-toronto-massey,3+

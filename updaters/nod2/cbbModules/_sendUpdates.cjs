@@ -1,109 +1,116 @@
 module.exports = {
-        default: (_cfg, _runid,_claxon) => {
+    default: (_cfg, _claxon) => {
+        const FS = require("fs"),
+            ELASTIC = require("elasticsearch"),
+            __ = require("underscore"),
+            FSND = require("fs-ndjson");
 
-const FS=require('fs'),
-REPORTS=require('./_updatesReports.cjs'),
-ELASTIC = require('elasticsearch'),__=require('underscore'),FSND = require('fs-ndjson');
-
-            // rETurn oB
-            let r = {
-                    messages: [],
-                    errors: [],
-                    payload: null,
-                    kill: {
-                        killed: false,
-                        killer: null
-                    }
-                },
-                msg = null;
-                
-                
-/*
+        /*
                                                                                                                      _______        _______ _______ _______ _____ _______ __   __
                                                                                                                      |______ |      |_____| |______    |      |   |______   \_/
                                                                                                                      |______ |_____ |     | ______|    |    __|__ |          |
-const client = new ELASTIC.Client({
-                    host: 'milleria.org:9200',
-                    requestTimeout: Infinity
-                });
 */
+        const client = new ELASTIC.Client({
+            host: _cfg.elastic.host,
+            requestTimeout: Infinity,
+        });
 
-                // geT cUrrEnT INcomiNg
-                const currentIncomi = require(`${_cfg.incomingFile}`);
-                msg = `current incoming in sendUpdates at ${_cfg.incomingFile} presents ${currentIncomi.length} bits`;
-                r.messages.push(_claxon.info(msg));
-                if (!currentIncomi) {
-                    msg = `couldn't get incoming`;
-                r.messages.push(_claxon.info(msg));
-                    process.exit();
-                }
+        return new Promise(async (RES, REJ) => {
+            // gEt CUrREnT UpdAte sEt Out Of coNfIG
+            const currentUpdates = require(`../${_cfg.updatesFile}`);
+            _claxon.info(
+                `current updates in sendUpdates ${_cfg.updatesFile} presents ${currentUpdates.length} updates`
+            );
 
-                let updatingEpisdes = __.uniq(__.pluck(currentIncomi, 'episode'));// uniq episodes from whatever the current incoming set happens to be
-                let updatingStatmnt = `${currentIncomi.length} bit${currentIncomi.length>1?'s':''} from ${updatingEpisdes.length} episode${updatingEpisdes.length>1?'s':''}`
-                let updatingQuerstr = updatingEpisdes.map(e=>`episode:${e}`).join(' OR ');
-                let updatingReports = REPORTS.default(currentIncomi);
+            // clear current index
+            let del = await client.deleteByQuery({
+                index: _cfg.elastic.indexUpdates,
+                q: "*:*",
+            });
+            _claxon.info(
+                `result of the ${_cfg.elastic.indexUpdates} clear: ${del.deleted} deleted`
+            );
 
-// console.log("updatingEpisdes",updatingEpisdes);
-// console.log("updatingStatmnt",updatingStatmnt);
-// console.log("updatingQuerstr",updatingQuerstr);
-// console.log("updatingReports",JSON.stringify(updatingReports));
-                
+            // DIe If WE CAN'T geT it
+            !currentUpdates &&
+                REJ(`could not access updates at ${_cfg.updatesFile}`);
 
+            // mAP ThE sEt tO fNDjsoN
+            let mapd = __.map(currentUpdates, (u) => {
+                let no = [
+                    {
+                        index: {},
+                    },
+                    u,
+                ];
+                return no;
+            }); //map
 
-            // "2019-04-01T09:37:04Z"
-            // MOMENT().format('YYYY-MM-DDTHH:hh:mm:ssZ');
+            let prefixes = [];
 
-            return {
-                date: _runid,
-                episodes_summary: updatingStatmnt,
-                query: updatingQuerstr,
-                eps: updatingEpisdes,
-                reports: updatingReports
+            for (var i = mapd.length - 1; i >= 0; i--) {
+                prefixes.push({
+                    index: {},
+                });
             }
 
-            // let R = {
-            //     date: MOMENT().format('YYYY-MM-DDTHH:hh:mm:ss\\Z'),
-            //     episodes_summary: bits.length + " bits from " + episodes_updated.length + " episode" + plur + " (ep" + plur + " " + __.map(episodes_updated, (E) => {
-            //         return E.split(":::")[0]
-            //     }).join(", ") + ")",
-            //     query: "(" + __.map(episodes_updated, (e) => {
-            //         return "episode:\"" + e.split(":::")[0] + '"'
-            //     }).join(" OR ") + ")",
-            //     eps: episodes_updated,
-            //     reports: await _REPORTS(episodes_updated, bits)
-            // }
+            // ziP The PReFIX inDEX iNtO ThE MApD
+            let mapz = __.zip(
+                __.map(prefixes, (p) => {
+                    return p[0];
+                }),
+                mapd
+            );
 
-                    // let summary = await _SUMMARIZE(inca);
-                    // let summaries = require(`./${CONFIG.masterUpdates}`)
+            // DebugginG only bUT We'll LeAve iT HArdWIReD FOr Now
+            // FSND.writeFileSync(
+            //     `/tmp/${_cfg.elastic.indexUpdates}.fndjson`,
+            //     __.compact(__.flatten(mapz))
+            // );
 
-                    // let d = `cbb.updates-${MOMENT().format('YYYY-MM-DDTHH')}.json`
-                    // console.log(`backing up ${summaries.length} updates from ${CONFIG.masterUpdates} as ${d}...`)
+            // Send to inDex
+            let esResponse = await client.bulk(
+                {
+                    index: _cfg.elastic.indexUpdates,
+                    type: "_doc",
+                    body: __.compact(__.flatten(mapz)),
+                },
+                {
+                    ignore: [404],
+                    maxRetries: 3,
+                }
+            ); //client.bulk
 
-                    // FS.writeFileSync(`${CONFIG.budirUpdates}/${d}`, JSON.stringify(summaries))
+            /*
+                                            
+                                             ___  __  __  ___  __  __
+                                            ( o_)( _)( _)( o )( _)(_'
+                                             \(  /_\ /_\  \_/ /_\ /__)
+                                            
+*/
+            if (esResponse.errors) {
+                esResponse.items.forEach((action, i) => {
+                    if (action.index.error) {
+                        _claxon.error(action.index.error);
+                    }
+                });
+            }
 
-                    // console.log(`there are ${summaries.length} prior updates, to which we always only add 1`)
+            esResponse.errors && _claxon.error(esResponse.errors); //err we bReak tHe PrOmisE
 
-                    // summaries.push(summary);
+            // else we report the items count and offer a helpful little link
+            _claxon.info(
+                `💚 indexed ${esResponse.items.length} items at ${_cfg.elastic.indexUpdates}`
+            );
 
-                    // console.log(`... so now there are ${summaries.length} OF COURSE`)
-                    // console.log(`... ... which we write back out to master==./${CONFIG.masterUpdates}`)
-
-                    // FS.writeFileSync(`./${CONFIG.masterUpdates}`, JSON.stringify(summaries))
-
-                    // console.log(`elastifiying updates...`)
-                    // let clientTemp = new ELASTIC.Client({
-                    //     host: 'milleria.org:9200',
-                    //     requestTimeout: Infinity
-                    //         // ,log: 'trace'
-                    // });
-
-                    // await clientTemp.deleteByQuery({
-                    //     index: 'cbb_updates',
-                    //     q: '*:*'
-                    // });
-
-                    // let E = await _ELASTIFYUPDATES();
-                    // console.log(`${E.items.length} updates sent w/ errors==${JSON.stringify(E)}`);
-
-        }//default
-    } //exports
+            _claxon.info(
+                `http://${_cfg.elastic.host}/${
+                    _cfg.elastic.indexUpdates
+                }/_search?size=1&q=eps:${
+                    __.last(__.last(currentUpdates).reports).episode
+                }`
+            );
+            RES(esResponse); //OtheRwisE we fULfiLL
+        }); //promise
+    }, //default
+}; //exports

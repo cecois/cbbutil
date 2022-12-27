@@ -3,7 +3,7 @@ const __ = require('underscore'),
     CHALK = require('chalk'),
     LOG = console.log,
     // BITS = require('../updaters/nod/cbb-master.json'),
-    BITS = __.map(require('../updaters/nod/cbb-master.json'), b => {
+    BITS = __.map(require('../updaters/nod2/definitives.json'), b => {
         return {
             bit: b.bit,
             elucidation: b.elucidation,
