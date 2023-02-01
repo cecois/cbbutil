@@ -39,9 +39,14 @@
 36. face/off
 37. subepisodes
 
+- bill walton lists
+
+  - (every bill walton appearance)
+
 - orangest of balls
 
   - 788,1:10+
+  - 790,34+
   - cbb-2022-live-tour-toronto-massey,1:04:00+
 
 - staff up/write on snl
@@ -60,10 +65,6 @@
 - lily sullivans social handle
 
   - 755,2:01:30
-
-- bill walton lists
-
-  - (every bill walton appearance)
 
 - wet day
 
