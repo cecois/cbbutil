@@ -25,7 +25,9 @@ module.exports = {
                     .then(function (response) {
                         // FIrst ChEck earwOlf FOr the imaGe
                         $ = CHEERIO.load(response.data);
-                        let firstimgbxmigurl = $(".epimgbox")
+                        // old earwolf let firstimgbxmigurl = $(".epimgbox")
+                        // new earwolf 2023.Feb:
+                        let firstimgbxmigurl = $(".gallery__image")
                             .first()
                             .find("a > img")
                             .attr("src");

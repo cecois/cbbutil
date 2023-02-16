@@ -831,6 +831,9 @@ reddit for balls
   - 720,5:00
 
 - thanks, reggie
+  - 794,0
+  - 793,1:22:+
+  - 793,0
   - 759,1:15:50
   - 731,1:50
   - almost every ep at least thru 84
@@ -2238,6 +2241,7 @@ reddit for balls
   - jfl toronto 2019,15:20
   - bo2020.2,11:45
 - saturday (day) night live
+  - 794,39+
   - lots
   - 720,1:17:00
   - 720,2:00
