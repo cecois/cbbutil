@@ -539,6 +539,9 @@ reddit for balls
 
 - shimmy lincoln appears in any way
 
+  - 795,1:20:10+
+  - 795,22
+  - 795,17
   - BO2022.1,57:50+
   - 787,1:23+
   - 787,45+
@@ -831,6 +834,7 @@ reddit for balls
   - 720,5:00
 
 - thanks, reggie
+  - 795,0
   - 794,0
   - 793,1:22:+
   - 793,0
@@ -1283,6 +1287,7 @@ reddit for balls
   - bo2015.2,58:30
   - 2016.nyc0514930,42:00
 - bing it
+  - 795,53+
   - cbb-2022-live-tour-san-antonio-empire,1:09:00+
   - 164,19:40
   - 164,28:30
@@ -2141,6 +2146,7 @@ reddit for balls
   - 377,45:20(pw)
   - 384,33:00(pw)
 - face/off
+  - 795,57+
   - 770,1:15:30+
   - cbb-2022-live-tour-san-antonio-empire,1:54:00+
   - cbb-2022-live-tour-san-antonio-empire,54+
