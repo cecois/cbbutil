@@ -9,9 +9,9 @@
         "location_id": null,
         "created_at": "2023-03-05T10:51:29Z",
         "updated_at": "2023-03-05T10:51:29Z",
-        "episode_guests": [],
-        "episode_title": "",
-        "slug_earwolf": "",
+        "episode_guests": ["Andy Daly", "Edi Patterson", "Zach Galifianakis"],
+        "episode_title": "Hans’s Opus",
+        "slug_earwolf": "hanss-opus",
         "episode": 796,
         "show": "cbb"
     }
