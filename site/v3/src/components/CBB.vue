@@ -884,7 +884,6 @@ export default {
         }
 
         QO = { "size": 10000, "query": Q, "aggregations": { "all_bits": { "global": {}, "aggregations": { "guests": { "filter": Q, "aggregations": { "filtered_guests": { "terms": { "size": 10000, "field": "episode_guests.keyword" } } } }, "tags": { "filter": Q, "aggregations": { "filtered_tags": { "terms": { "size": 10000, "field": "tags.keyword" } } } }, "bits": { "filter": Q, "aggregations": { "filtered_bits": { "terms": { "size": 10000, "field": "bit.keyword" } } } }, "episodes": { "filter": Q, "aggregations": { "filtered_episodes": { "terms": { "size": 10000, "field": "episode.keyword" } } } } } } } }
-        console.log("QO", QO);
 
         //         this.$ES.search({
         //     index: 'cbb',
