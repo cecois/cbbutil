@@ -58,6 +58,7 @@ module.exports = {
                         tstart: b.tstart,
                         tend: b.tend,
                         instance: b.instance,
+                        nb: b.NB,
                         bit: b.bit,
                         elucidation: b.elucidation,
                         location_type: b.location_type,
