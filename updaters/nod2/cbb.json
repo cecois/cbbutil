@@ -55,8 +55,8 @@
             "scopeNotes": ["site of: Tony Nails getting ocean tone"]
         },
         "tags": ["Tony Nails", "Bo Derek", "10 (film)"],
-        "location_type": null,
-        "location_id": null,
+        "location_type": "line",
+        "location_id": "343",
         "created_at": "2023-03-23T10:51:29Z",
         "updated_at": "2023-03-23T10:51:29Z",
         "episode_guests": [
@@ -122,12 +122,14 @@
         "elucidation": "identifiable earth location",
         "NB": {
             "queryType": "search",
-            "queryString": "123 santa monica ln, santa monica, ca",
-            "scopeNotes": ["home to: Tony Nails"]
+            "queryString": "123 santa monica blvd, santa monica, ca",
+            "scopeNotes": [
+                "proxy for: 123 santa monica ln; home to: Tony Nails"
+            ]
         },
         "tags": ["Tony Nails"],
-        "location_type": null,
-        "location_id": null,
+        "location_type": "point",
+        "location_id": "1682",
         "created_at": "2023-03-23T10:51:29Z",
         "updated_at": "2023-03-23T10:51:29Z",
         "episode_guests": [
@@ -629,4 +631,3 @@
         "show": "cbb"
     }
 ]
-0
