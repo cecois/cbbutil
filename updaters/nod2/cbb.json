@@ -151,12 +151,12 @@
         "elucidation": "identifiable earth location",
         "NB": {
             "queryType": "search",
-            "queryString": "cyprus high school",
+            "queryString": "cypress high school",
             "scopeNotes": ["site of: scott aukerman's first acting class"]
         },
         "tags": ["Filomena Trappp"],
-        "location_type": null,
-        "location_id": null,
+        "location_type": "poly",
+        "location_id": "1332",
         "created_at": "2023-03-23T10:51:29Z",
         "updated_at": "2023-03-23T10:51:29Z",
         "episode_guests": [
@@ -178,12 +178,14 @@
         "elucidation": "identifiable earth location",
         "NB": {
             "queryType": "search",
-            "queryString": "124 santa monica ln, santa monica, ca",
-            "scopeNotes": ["site of: hq of union local IATSE 420/69"]
+            "queryString": "124 W Channel Rd, santa monica, ca - -118.51861708996688,34.02854044838999",
+            "scopeNotes": [
+                "proxy for: 124 santa monica ln, santa monica; site of: hq of union local IATSE 420/69"
+            ]
         },
         "tags": ["Filomena Trappp", "Tony Nails"],
-        "location_type": null,
-        "location_id": null,
+        "location_type": "point",
+        "location_id": "1683",
         "created_at": "2023-03-23T10:51:29Z",
         "updated_at": "2023-03-23T10:51:29Z",
         "episode_guests": [
@@ -205,12 +207,12 @@
         "elucidation": "identifiable earth location",
         "NB": {
             "queryType": "geo",
-            "queryString": "dorcester, ma",
+            "queryString": "dorchester, ma",
             "scopeNotes": ["probable home to: ryan headboard"]
         },
         "tags": ["Ryan Headboard"],
-        "location_type": null,
-        "location_id": null,
+        "location_type": "poly",
+        "location_id": "1333",
         "created_at": "2023-03-28T10:51:29Z",
         "updated_at": "2023-03-28T10:51:29Z",
         "episode_guests": [
