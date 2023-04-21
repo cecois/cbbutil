@@ -539,6 +539,7 @@ reddit for balls
 
 - shimmy lincoln appears in any way
 
+  - 800,8+
   - 795,1:20:10+
   - 795,22
   - 795,17
