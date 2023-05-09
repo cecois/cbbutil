@@ -539,6 +539,15 @@ reddit for balls
 
 - shimmy lincoln appears in any way
 
+  - 800,1:08+
+  - 800,42+,is that what's been holding you back? (malt ingredients on cruises)
+  - 800,34+,should i know that? (golden orb)
+  - 800,33+,N/A
+  - 800,23+
+  - 800,22+
+  - 800,21+
+  - 800,18+
+  - 800,16+
   - 800,8+
   - 795,1:20:10+
   - 795,22
@@ -966,7 +975,9 @@ reddit for balls
   - cbb-2022-live-tour-portland-state,1:08:00+
   - all prior mcgruff appearances
 - hollywood facts
-  - lots
+  - 801,27+
+  - 801,5+
+  - 801,4+
   - 722,22:00
   - 519,1:41:00(commercialed)
   - 667,24:50
@@ -1166,6 +1177,7 @@ reddit for balls
   - 513,1:03:12
   - 423,41:00(pw)
 - fictional people - dead but reasonable
+  - 800,1:01+
   - 289,21:45(howl)
   - san francisco 2012,23:00+
   - philadelphia 2019,21:50
@@ -2046,6 +2058,7 @@ reddit for balls
   - 398,1:08:00
   - 2016.chicago10,27:30
 - jason hates scott
+  - 800,1:51+
   - 384,18:30(pw)
   - 176,8:45
   - 274,4:37
@@ -2148,6 +2161,7 @@ reddit for balls
   - 377,45:20(pw)
   - 384,33:00(pw)
 - face/off
+  - 800,57+
   - 795,57+
   - 770,1:15:30+
   - cbb-2022-live-tour-san-antonio-empire,1:54:00+
@@ -2249,6 +2263,7 @@ reddit for balls
   - jfl toronto 2019,15:20
   - bo2020.2,11:45
 - saturday (day) night live
+  - 801,1+
   - 794,39+
   - lots
   - 720,1:17:00
