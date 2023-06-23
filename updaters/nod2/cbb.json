@@ -239,8 +239,8 @@
             "queryString": "HM Prison Wandsworth",
             "scopeNotes": ["former site of: gary glitter"]
         },
-        "location_type": null,
-        "location_id": null,
+        "location_type": "point",
+        "location_id": "938",
         "updated_at": "2023-04-20T05:51:29.000-05:00",
         "created_at": "2023-04-20T05:51:29.000-05:00",
         "slug_earwolf": "operation-golden-orb",
@@ -702,8 +702,8 @@
                 "site of: hot dog water skiing the hudson river and not seeing the statue of liberty"
             ]
         },
-        "location_type": null,
-        "location_id": null,
+        "location_type": "point",
+        "location_id": "1687",
         "updated_at": "2023-04-20T05:51:29.000-05:00",
         "created_at": "2023-04-20T05:51:29.000-05:00",
         "slug_earwolf": "operation-golden-orb",
@@ -725,8 +725,8 @@
                 "site of: hot dog taking in a battle of the bands out on the barge"
             ]
         },
-        "location_type": null,
-        "location_id": null,
+        "location_type": "poly",
+        "location_id": "1167",
         "updated_at": "2023-04-20T05:51:29.000-05:00",
         "created_at": "2023-04-20T05:51:29.000-05:00",
         "slug_earwolf": "operation-golden-orb",
@@ -748,8 +748,8 @@
                 "route of: the queen mary from new york to southampton (and therefore the route of hot dog to same)"
             ]
         },
-        "location_type": null,
-        "location_id": null,
+        "location_type": "line",
+        "location_id": "344",
         "updated_at": "2023-04-20T05:51:29.000-05:00",
         "created_at": "2023-04-20T05:51:29.000-05:00",
         "slug_earwolf": "operation-golden-orb",
@@ -809,11 +809,11 @@
         "elucidation": "identifiable earth location",
         "NB": {
             "queryType": "geo",
-            "westminster abbey": null,
+            "queryString": "westminster abbey",
             "scopeNotes": ["site of: the decoy coronation of charles iii"]
         },
-        "location_type": null,
-        "location_id": null,
+        "location_type": "poly",
+        "location_id": "1171",
         "updated_at": "2023-04-20T05:51:29.000-05:00",
         "created_at": "2023-04-20T05:51:29.000-05:00",
         "slug_earwolf": "operation-golden-orb",
@@ -1156,8 +1156,8 @@
                 "proxy for: bailey's irish cream, Ireland; hometown of: Sister Margaret"
             ]
         },
-        "location_type": null,
-        "location_id": null,
+        "location_type": "point",
+        "location_id": "1688",
         "updated_at": "2023-05-09T05:51:29.000-05:00",
         "created_at": "2023-05-09T05:51:29.000-05:00",
         "slug_earwolf": "wifi-for-a-wife-guy",
@@ -1406,8 +1406,8 @@
             "queryString": "milwaukee, wi",
             "scopeNotes": ["city never left by: darren Matichek"]
         },
-        "location_type": null,
-        "location_id": null,
+        "location_type": "poly",
+        "location_id": "32",
         "updated_at": "2023-05-09T05:51:29.000-05:00",
         "created_at": "2023-05-09T05:51:29.000-05:00",
         "slug_earwolf": "crown-prince-of-slime",
@@ -2404,5 +2404,318 @@
             "Lipps Inc (musical combination)",
             "Funkytown (song)"
         ]
+    },
+    {
+        "episode": 805,
+        "tstart": "2:30",
+        "tend": "3:30",
+        "instance": "They doxed me.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB": {
+            "queryType": "search",
+            "queryString": "drag shows in wantagh, ny",
+            "scopeNotes": [
+                "pool in wantagh",
+                "possible site of: george santos bilking gino lambardo outta $40 after a 50-yard freestyle race"
+            ]
+        },
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2023-06-19T05:51:29.000-05:00",
+        "created_at": "2023-06-19T05:51:29.000-05:00",
+        "slug_earwolf": "wet-work-nurse",
+        "episode_title": "Wet Work Nurse",
+        "episode_guests": ["Jon Gabrus", "Dave Theune", "Ben Rodgers"],
+        "tags": ["Gino Lombardo", "George Santos"]
+    },
+    {
+        "episode": 805,
+        "tstart": "3:45",
+        "tend": "4:30",
+        "instance": "She tugged off some sailor who was, like, 19 years old.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB": {
+            "queryType": "search",
+            "queryString": "frankie g's, sunrise highway, long island, ny",
+            "scopeNotes": [
+                "frankie g's on sunrise highway",
+                "former workplace of: gino lombardo's aunt; site of: george santos suspending from the ceiling (later to be retold as participation in spider man: turn off the dark)"
+            ]
+        },
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2023-06-19T05:51:29.000-05:00",
+        "created_at": "2023-06-19T05:51:29.000-05:00",
+        "slug_earwolf": "wet-work-nurse",
+        "episode_title": "Wet Work Nurse",
+        "episode_guests": ["Jon Gabrus", "Dave Theune", "Ben Rodgers"],
+        "tags": ["Gino Lombardo", "George Santos"]
+    },
+    {
+        "episode": 805,
+        "tstart": "5:05",
+        "tend": "5:45",
+        "instance": "I have Gynecomastia [sic].",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB": {
+            "queryType": "search",
+            "queryString": "gold's gym, newbridge rd, long island, ny",
+            "scopeNotes": [
+                "site of: some bullies who call gino's gynomastia 'bitch tits'"
+            ]
+        },
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2023-06-19T05:51:29.000-05:00",
+        "created_at": "2023-06-19T05:51:29.000-05:00",
+        "slug_earwolf": "wet-work-nurse",
+        "episode_title": "Wet Work Nurse",
+        "episode_guests": ["Jon Gabrus", "Dave Theune", "Ben Rodgers"],
+        "tags": ["Gino Lombardo", "Gynecomastia"]
+    },
+    {
+        "episode": 805,
+        "tstart": "5:05",
+        "tend": "5:45",
+        "instance": "I been goin' fukkin ham on the soy milk.",
+        "bit": "Bottom of a Deep Pool",
+        "elucidation": "gino explains his behavior via some physical trauma",
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2023-06-19T05:51:29.000-05:00",
+        "created_at": "2023-06-19T05:51:29.000-05:00",
+        "slug_earwolf": "wet-work-nurse",
+        "episode_title": "Wet Work Nurse",
+        "episode_guests": ["Jon Gabrus", "Dave Theune", "Ben Rodgers"],
+        "tags": ["Gino Lombardo"]
+    },
+    {
+        "episode": 805,
+        "tstart": "5:30",
+        "tend": "6:00",
+        "instance": "I wanna say 'ex-intern' because you're hardly ever here.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB": {
+            "queryType": "search",
+            "queryString": null,
+            "scopeNotes": ["nassau cc"]
+        },
+        "location_type": "point",
+        "location_id": "299",
+        "updated_at": "2023-06-19T05:51:29.000-05:00",
+        "created_at": "2023-06-19T05:51:29.000-05:00",
+        "slug_earwolf": "wet-work-nurse",
+        "episode_title": "Wet Work Nurse",
+        "episode_guests": ["Jon Gabrus", "Dave Theune", "Ben Rodgers"],
+        "tags": ["Gino Lombardo"]
+    },
+    {
+        "episode": 805,
+        "tstart": "7:30",
+        "tend": "8:30",
+        "instance": "I bought this book with, like, a guy in a Speedo on the cover.",
+        "bit": "Babylon, Baby",
+        "elucidation": "the lirr by gino",
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2023-06-19T05:51:29.000-05:00",
+        "created_at": "2023-06-19T05:51:29.000-05:00",
+        "slug_earwolf": "wet-work-nurse",
+        "episode_title": "Wet Work Nurse",
+        "episode_guests": ["Jon Gabrus", "Dave Theune", "Ben Rodgers"],
+        "tags": ["Gino Lombardo"]
+    },
+    {
+        "episode": 805,
+        "tstart": "12:00",
+        "tend": "12:20",
+        "instance": "Women can be captains now.",
+        "bit": "The Doctor is a Woman",
+        "elucidation": "that old riddle",
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2023-06-19T05:51:29.000-05:00",
+        "created_at": "2023-06-19T05:51:29.000-05:00",
+        "slug_earwolf": "wet-work-nurse",
+        "episode_title": "Wet Work Nurse",
+        "episode_guests": ["Jon Gabrus", "Dave Theune", "Ben Rodgers"],
+        "tags": ["Gino Lombardo"]
+    },
+    {
+        "episode": 805,
+        "tstart": "14:30",
+        "tend": "15:00",
+        "instance": "I guess they were a 'Drifters' cover band, technically.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2023-06-19T05:51:29.000-05:00",
+        "created_at": "2023-06-19T05:51:29.000-05:00",
+        "slug_earwolf": "wet-work-nurse",
+        "episode_title": "Wet Work Nurse",
+        "episode_guests": ["Jon Gabrus", "Dave Theune", "Ben Rodgers"],
+        "tags": [
+            "Gino Lombardo",
+            "Under the Boardwalk (song)",
+            "The Drifters (musical combination)"
+        ]
+    },
+    {
+        "episode": 805,
+        "tstart": "17:30",
+        "tend": "18:00",
+        "instance": "Chris Rock got slapped?!",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB": {
+            "queryType": "search",
+            "queryString": "frankie g's, sunrise highway, long island, ny",
+            "scopeNotes": [
+                "frankie g's on sunrise highway",
+                "former workplace of: gino lombardo's aunt; site of: george santos suspending from the ceiling (later to be retold as participation in spider man: turn off the dark)"
+            ]
+        },
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2023-06-19T05:51:29.000-05:00",
+        "created_at": "2023-06-19T05:51:29.000-05:00",
+        "slug_earwolf": "wet-work-nurse",
+        "episode_title": "Wet Work Nurse",
+        "episode_guests": ["Jon Gabrus", "Dave Theune", "Ben Rodgers"],
+        "tags": ["Gino Lombardo", "George Santos", "Chris Rock", "Will Smith"]
+    },
+    {
+        "episode": 805,
+        "tstart": "25:50",
+        "tend": "26:30",
+        "instance": "Not Great Singers, Not Great Hogs",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB": {
+            "queryType": "search",
+            "queryString": "amt theatre, 354 W 45th St., New York, NY",
+            "scopeNotes": [
+                "site of: gino lambardo taking in 'naked boys singing'"
+            ]
+        },
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2023-06-19T05:51:29.000-05:00",
+        "created_at": "2023-06-19T05:51:29.000-05:00",
+        "slug_earwolf": "wet-work-nurse",
+        "episode_title": "Wet Work Nurse",
+        "episode_guests": ["Jon Gabrus", "Dave Theune", "Ben Rodgers"],
+        "tags": ["Gino Lombardo", "Naked Boys Singing! (musical)"]
+    },
+    {
+        "episode": 805,
+        "tstart": "27:45",
+        "tend": "28:00",
+        "instance": "SCUBA",
+        "bit": "Group Coupon",
+        "elucidation": "scott articulates obvious data (acronyms, abbreviations, etc.)",
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2023-06-19T05:51:29.000-05:00",
+        "created_at": "2023-06-19T05:51:29.000-05:00",
+        "slug_earwolf": "wet-work-nurse",
+        "episode_title": "Wet Work Nurse",
+        "episode_guests": ["Jon Gabrus", "Dave Theune", "Ben Rodgers"],
+        "tags": ["Gino Lombardo"]
+    },
+    {
+        "episode": 805,
+        "tstart": "31:00",
+        "tend": "38:00",
+        "instance": "The dude from 'Captain Phillips.'",
+        "bit": "Group Coupon",
+        "elucidation": "scott articulates obvious data (acronyms, abbreviations, etc.)",
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2023-06-19T05:51:29.000-05:00",
+        "created_at": "2023-06-19T05:51:29.000-05:00",
+        "slug_earwolf": "wet-work-nurse",
+        "episode_title": "Wet Work Nurse",
+        "episode_guests": ["Jon Gabrus", "Dave Theune", "Ben Rodgers"],
+        "tags": ["Gino Lombardo", "Captain Phillips (film)", "Robby Delmuda"]
+    },
+    {
+        "episode": 805,
+        "tstart": "38:20",
+        "tend": "38:40",
+        "instance": "Some people have said...you don't sound like a little kid at all.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB": { "queryType": "search", "queryString": null, "scopeNotes": [] },
+        "location_type": "poly",
+        "location_id": "1214",
+        "updated_at": "2023-06-19T05:51:29.000-05:00",
+        "created_at": "2023-06-19T05:51:29.000-05:00",
+        "slug_earwolf": "wet-work-nurse",
+        "episode_title": "Wet Work Nurse",
+        "episode_guests": ["Jon Gabrus", "Dave Theune", "Ben Rodgers"],
+        "tags": ["Gino Lombardo", "Robby Delmuda"]
+    },
+    {
+        "episode": 805,
+        "tstart": "49:20",
+        "tend": "49:40",
+        "instance": "What would you sing to her if you could sing to her right now.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2023-06-19T05:51:29.000-05:00",
+        "created_at": "2023-06-19T05:51:29.000-05:00",
+        "slug_earwolf": "wet-work-nurse",
+        "episode_title": "Wet Work Nurse",
+        "episode_guests": ["Jon Gabrus", "Dave Theune", "Ben Rodgers"],
+        "tags": [
+            "Gino Lombardo",
+            "Robby Delmuda",
+            "Dirty Diana (song)",
+            "Michael Jackson"
+        ]
+    },
+    {
+        "episode": 805,
+        "tstart": "53:50",
+        "tend": "54:20",
+        "instance": "You need a wet nurse and that's something I can do.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB": {
+            "queryType": "search",
+            "queryString": "grocery store hollywood hills",
+            "scopeNotes": ["possible site of: the odd hiring of ernest taylor"]
+        },
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2023-06-19T05:51:29.000-05:00",
+        "created_at": "2023-06-19T05:51:29.000-05:00",
+        "slug_earwolf": "wet-work-nurse",
+        "episode_title": "Wet Work Nurse",
+        "episode_guests": ["Jon Gabrus", "Dave Theune", "Ben Rodgers"],
+        "tags": ["Gino Lombardo", "Ernest Taylor"]
+    },
+    {
+        "episode": 806,
+        "tstart": "",
+        "tend": "",
+        "instance": "",
+
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2023-06-23T05:51:29.000-05:00",
+        "created_at": "2023-06-23T05:51:29.000-05:00",
+        "slug_earwolf": "swiwwy-boys-with-aunty-donna",
+        "episode_title": "Swiwwy Boys with Aunty Donna",
+        "episode_guests": ["Aunty Donna (comedy combination)"],
+        "tags": []
     }
 ]

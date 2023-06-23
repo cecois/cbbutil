@@ -131,6 +131,7 @@
 
 - notorious terf jk rowling
 
+  - 805,16+
   - 768,16+
   - cbb-2022-live-tour-chicago-chicago,42+
   - 747,42
@@ -360,6 +361,7 @@ reddit for balls
   - 530,22:45
   - other previous
 - drippin milk/talkin tang (any subepisode)
+  - 805,1:01:50
   - 704,1:55:00
   - 704,1:34:00
   - 700,7:00
