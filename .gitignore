@@ -14,3 +14,4 @@ site/v2/node_modules
 site/v3/node_modules
 site/v3/src/Config.json
 *.python-version
+yarn.lock
