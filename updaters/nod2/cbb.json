@@ -1562,8 +1562,8 @@
                 "site of: one of our best ballerinas; site of: david wain, sometimes"
             ]
         },
-        "location_type": null,
-        "location_id": null,
+        "location_type": "point",
+        "location_id": "546",
         "updated_at": "2023-05-15T05:51:29.000-05:00",
         "created_at": "2023-05-15T05:51:29.000-05:00",
         "slug_earwolf": "john-wick-my-eyes-are-up-here",
@@ -1583,8 +1583,8 @@
             "queryString": "rocky statue",
             "scopeNotes": ["not the site of: an Arthur Fonzarelli statue"]
         },
-        "location_type": null,
-        "location_id": null,
+        "location_type": "point",
+        "location_id": "1689",
         "updated_at": "2023-05-15T05:51:29.000-05:00",
         "created_at": "2023-05-15T05:51:29.000-05:00",
         "slug_earwolf": "john-wick-my-eyes-are-up-here",
@@ -1601,13 +1601,13 @@
         "elucidation": "identifiable earth location",
         "NB": {
             "queryType": "search",
-            "queryString": "chili's in orange county, used to be a friday's, now it's a crematorium",
+            "queryString": "chili's in orange county, used to be a friday's, now it's a crematorium - 33.87260601467521, -117.73593080183227",
             "scopeNotes": [
                 "former site of: a friday's and maybe a scott aukerman"
             ]
         },
-        "location_type": null,
-        "location_id": null,
+        "location_type": "point",
+        "location_id": "1690",
         "updated_at": "2023-05-15T05:51:29.000-05:00",
         "created_at": "2023-05-15T05:51:29.000-05:00",
         "slug_earwolf": "john-wick-my-eyes-are-up-here",
@@ -1627,8 +1627,8 @@
             "queryString": "united kingdom",
             "scopeNotes": ["site of: brexit"]
         },
-        "location_type": null,
-        "location_id": null,
+        "location_type": "poly",
+        "location_id": "172",
         "updated_at": "2023-05-15T05:51:29.000-05:00",
         "created_at": "2023-05-15T05:51:29.000-05:00",
         "slug_earwolf": "john-wick-my-eyes-are-up-here",
@@ -1645,11 +1645,11 @@
         "elucidation": "identifiable earth location",
         "NB": {
             "queryType": "search",
-            "queryString": "a residence in orange county with a sunken living room",
+            "queryString": "a residence in orange county with a sunken living room - 33.826797, -117.960632",
             "scopeNotes": ["site of: scott's CCD teacher's old house"]
         },
-        "location_type": null,
-        "location_id": null,
+        "location_type": "point",
+        "location_id": "1691",
         "updated_at": "2023-05-15T05:51:29.000-05:00",
         "created_at": "2023-05-15T05:51:29.000-05:00",
         "slug_earwolf": "john-wick-my-eyes-are-up-here",
@@ -1666,11 +1666,11 @@
         "elucidation": "identifiable earth location",
         "NB": {
             "queryType": "search",
-            "queryString": "a deli in orange county",
+            "queryString": "a deli in orange county - 33.828083, -117.853394",
             "scopeNotes": ["workplace of: Frank Cacciatore, the butcher"]
         },
-        "location_type": null,
-        "location_id": null,
+        "location_type": "point",
+        "location_id": "1692",
         "updated_at": "2023-05-15T05:51:29.000-05:00",
         "created_at": "2023-05-15T05:51:29.000-05:00",
         "slug_earwolf": "john-wick-my-eyes-are-up-here",
@@ -1707,11 +1707,11 @@
         "elucidation": "identifiable earth location",
         "NB": {
             "queryType": "search",
-            "queryString": "wooded area in scott's hometown",
+            "queryString": "wooded area in scott's hometown - 33.816775, -117.791424",
             "scopeNotes": ["proxy for: bear trap cove"]
         },
-        "location_type": null,
-        "location_id": null,
+        "location_type": "point",
+        "location_id": "1693",
         "updated_at": "2023-05-15T05:51:29.000-05:00",
         "created_at": "2023-05-15T05:51:29.000-05:00",
         "slug_earwolf": "john-wick-my-eyes-are-up-here",
@@ -1748,13 +1748,13 @@
         "elucidation": "identifiable earth location",
         "NB": {
             "queryType": "search",
-            "queryString": "scott aukerman's high school",
+            "queryString": "cypress high school",
             "scopeNotes": [
                 "workplace of: lots of Scott's old colleagues and compatriots, including Paul Reiser (not that one)"
             ]
         },
-        "location_type": null,
-        "location_id": null,
+        "location_type": "poly",
+        "location_id": "1332",
         "updated_at": "2023-05-15T05:51:29.000-05:00",
         "created_at": "2023-05-15T05:51:29.000-05:00",
         "slug_earwolf": "john-wick-my-eyes-are-up-here",
@@ -1771,11 +1771,11 @@
         "elucidation": "identifiable earth location",
         "NB": {
             "queryType": "search",
-            "queryString": "corner of Main St. & Street St. in orange county, ca",
-            "scopeNotes": ["formerly a CVS"]
+            "queryString": "CVS #9725; corner of Main St. & Street St. in orange county, ca - 33.780901882607246, -117.86826085059275",
+            "scopeNotes": ["site of: former CVS"]
         },
-        "location_type": null,
-        "location_id": null,
+        "location_type": "point",
+        "location_id": "1694",
         "updated_at": "2023-05-15T05:51:29.000-05:00",
         "created_at": "2023-05-15T05:51:29.000-05:00",
         "slug_earwolf": "john-wick-my-eyes-are-up-here",
@@ -1852,7 +1852,7 @@
         "bit": "Location",
         "elucidation": "identifiable earth location",
         "NB": {
-            "queryType": "geo",
+            "queryType": "search",
             "queryString": "a starbucks near dugalle in paris, france",
             "scopeNotes": ["site of: susan christmas on a layover"]
         },
@@ -1873,7 +1873,7 @@
         "bit": "Location",
         "elucidation": "identifiable earth location",
         "NB": {
-            "queryType": "geo",
+            "queryType": "search",
             "queryString": "a pret-a-manger near dugalle in paris, france",
             "scopeNotes": ["site of: susan christmas on a layover"]
         },
@@ -2708,7 +2708,8 @@
         "tstart": "16:20",
         "tend": "17:00",
         "instance": "These are not the kind of guns you use in a sketch show.",
-"bit": "The Paul Hardcastle of Suicides","elucidation": "any song reference",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
         "location_type": null,
         "location_id": null,
         "updated_at": "2023-06-23T05:51:29.000-05:00",
@@ -2723,7 +2724,13 @@
         "tstart": "24:30",
         "tend": "25:00",
         "instance": "I've not been out of America before.",
-"bit": "Location","elucidation": "identifiable earth location","NB": {"queryType": "geo","queryString": "juneau, alaska, usa","scopeNotes": ["birthplace of: American Jimmy"]},
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB": {
+            "queryType": "geo",
+            "queryString": "juneau, alaska, usa",
+            "scopeNotes": ["birthplace of: American Jimmy"]
+        },
         "location_type": null,
         "location_id": null,
         "updated_at": "2023-06-23T05:51:29.000-05:00",
@@ -2738,7 +2745,15 @@
         "tstart": "24:30",
         "tend": "25:00",
         "instance": "I've not been out of America before.",
-"bit": "Location","elucidation": "identifiable earth location","NB": {"queryType": "search","queryString": "alaska thru canada to usa","scopeNotes": ["route of: American Jimmy from alaska to the contiguous US in 1978"]},
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB": {
+            "queryType": "search",
+            "queryString": "alaska thru canada to usa",
+            "scopeNotes": [
+                "route of: American Jimmy from alaska to the contiguous US in 1978"
+            ]
+        },
         "location_type": null,
         "location_id": null,
         "updated_at": "2023-06-23T05:51:29.000-05:00",
@@ -2753,7 +2768,15 @@
         "tstart": "28:20",
         "tend": "28:45",
         "instance": "It depicts one street in Los Angeles.",
-"bit": "Location","elucidation": "identifiable earth location","NB": {"queryType": "search","queryString": "la brea tarpits","scopeNotes": ["setting of: one of American Jimmy's favorite Hollywood shows"]},
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB": {
+            "queryType": "search",
+            "queryString": "la brea tarpits",
+            "scopeNotes": [
+                "setting of: one of American Jimmy's favorite Hollywood shows"
+            ]
+        },
         "location_type": null,
         "location_id": null,
         "updated_at": "2023-06-23T05:51:29.000-05:00",
@@ -2765,10 +2788,18 @@
     },
     {
         "episode": 806,
-     "tstart": "42:00",
+        "tstart": "42:00",
         "tend": "42:30",
         "instance": "They have still got dinosaurs there.",
-"bit": "Location","elucidation": "identifiable earth location","NB": {"queryType": "search","queryString": "la brea tarpits","scopeNotes": ["setting of: one of American Jimmy's favorite Hollywood shows"]},
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB": {
+            "queryType": "search",
+            "queryString": "la brea tarpits",
+            "scopeNotes": [
+                "setting of: one of American Jimmy's favorite Hollywood shows"
+            ]
+        },
         "location_type": null,
         "location_id": null,
         "updated_at": "2023-06-23T05:51:29.000-05:00",
@@ -2783,7 +2814,8 @@
         "tstart": "28:20",
         "tend": "28:45",
         "instance": "The lead characters name is 'Stan.'",
-"bit": "The Paul Hardcastle of Suicides","elucidation": "any song reference",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
         "location_type": null,
         "location_id": null,
         "updated_at": "2023-06-23T05:51:29.000-05:00",
@@ -2791,14 +2823,15 @@
         "slug_earwolf": "swiwwy-boys-with-aunty-donna",
         "episode_title": "Swiwwy Boys with Aunty Donna",
         "episode_guests": ["Aunty Donna (comedy combination)"],
-        "tags": ["American Jimmy","Stan (song)","Eminem","Dido"]
+        "tags": ["American Jimmy", "Stan (song)", "Eminem", "Dido"]
     },
     {
         "episode": 806,
         "tstart": "34:40",
         "tend": "35:00",
         "instance": "I don't sing too much.",
-"bit": "The Paul Hardcastle of Suicides","elucidation": "any song reference",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
         "location_type": null,
         "location_id": null,
         "updated_at": "2023-06-23T05:51:29.000-05:00",
@@ -2806,15 +2839,19 @@
         "slug_earwolf": "swiwwy-boys-with-aunty-donna",
         "episode_title": "Swiwwy Boys with Aunty Donna",
         "episode_guests": ["Aunty Donna (comedy combination)"],
-        "tags": ["American Jimmy","Gary Portnoy","Where Everybody Knows Your Name (song)"]
+        "tags": [
+            "American Jimmy",
+            "Gary Portnoy",
+            "Where Everybody Knows Your Name (song)"
+        ]
     },
     {
         "episode": 806,
         "tstart": "37:40",
         "tend": "38:00",
         "instance": "We should check back in on The Friends.",
-"bit": "Shoulda Mailed it to Yourself, Stupid",
-            "elucidation": "someone (usually pft) recommends email (attachments) as a solution",
+        "bit": "Shoulda Mailed it to Yourself, Stupid",
+        "elucidation": "someone (usually pft) recommends email (attachments) as a solution",
         "location_type": null,
         "location_id": null,
         "updated_at": "2023-06-23T05:51:29.000-05:00",
@@ -2822,6 +2859,218 @@
         "slug_earwolf": "swiwwy-boys-with-aunty-donna",
         "episode_title": "Swiwwy Boys with Aunty Donna",
         "episode_guests": ["Aunty Donna (comedy combination)"],
-        "tags": ["American Jimmy","Friends (TV)"]
+        "tags": ["American Jimmy", "Friends (TV)"]
+    },
+    {
+        "episode": 806,
+        "tstart": "52:00",
+        "tend": "53:00",
+        "instance": "Fourteen-hour flight.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB": {
+            "queryType": "search",
+            "queryString": "hollywood",
+            "scopeNotes": [
+                "a stop on the north american tour by: Australian Dad on a Holiday"
+            ]
+        },
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2023-06-23T05:51:29.000-05:00",
+        "created_at": "2023-06-23T05:51:29.000-05:00",
+        "slug_earwolf": "swiwwy-boys-with-aunty-donna",
+        "episode_title": "Swiwwy Boys with Aunty Donna",
+        "episode_guests": ["Aunty Donna (comedy combination)"],
+        "tags": ["Australian Dad on a Holiday"]
+    },
+    {
+        "episode": 806,
+        "tstart": "52:00",
+        "tend": "53:00",
+        "instance": "Fourteen-hour flight.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB": {
+            "queryType": "search",
+            "queryString": "new york city",
+            "scopeNotes": [
+                "a stop on the north american tour by: Australian Dad on a Holiday"
+            ]
+        },
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2023-06-23T05:51:29.000-05:00",
+        "created_at": "2023-06-23T05:51:29.000-05:00",
+        "slug_earwolf": "swiwwy-boys-with-aunty-donna",
+        "episode_title": "Swiwwy Boys with Aunty Donna",
+        "episode_guests": ["Aunty Donna (comedy combination)"],
+        "tags": ["Australian Dad on a Holiday"]
+    },
+    {
+        "episode": 806,
+        "tstart": "52:00",
+        "tend": "53:00",
+        "instance": "Fourteen-hour flight.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB": {
+            "queryType": "search",
+            "queryString": "boston, mass",
+            "scopeNotes": [
+                "a stop on the north american tour by: Australian Dad on a Holiday"
+            ]
+        },
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2023-06-23T05:51:29.000-05:00",
+        "created_at": "2023-06-23T05:51:29.000-05:00",
+        "slug_earwolf": "swiwwy-boys-with-aunty-donna",
+        "episode_title": "Swiwwy Boys with Aunty Donna",
+        "episode_guests": ["Aunty Donna (comedy combination)"],
+        "tags": ["Australian Dad on a Holiday"]
+    },
+    {
+        "episode": 806,
+        "tstart": "52:00",
+        "tend": "53:00",
+        "instance": "Fourteen-hour flight.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB": {
+            "queryType": "search",
+            "queryString": "toronto, ont",
+            "scopeNotes": [
+                "a stop on the north american tour by: Australian Dad on a Holiday"
+            ]
+        },
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2023-06-23T05:51:29.000-05:00",
+        "created_at": "2023-06-23T05:51:29.000-05:00",
+        "slug_earwolf": "swiwwy-boys-with-aunty-donna",
+        "episode_title": "Swiwwy Boys with Aunty Donna",
+        "episode_guests": ["Aunty Donna (comedy combination)"],
+        "tags": ["Australian Dad on a Holiday"]
+    },
+    {
+        "episode": 806,
+        "tstart": "55:20",
+        "tend": "55:45",
+        "instance": "I've never been more serious in my life.",
+        "bit": "My Wife!",
+        "elucidation": "borat",
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2023-06-23T05:51:29.000-05:00",
+        "created_at": "2023-06-23T05:51:29.000-05:00",
+        "slug_earwolf": "swiwwy-boys-with-aunty-donna",
+        "episode_title": "Swiwwy Boys with Aunty Donna",
+        "episode_guests": ["Aunty Donna (comedy combination)"],
+        "tags": ["Silly Boy"]
+    },
+    {
+        "episode": 806,
+        "tstart": "1:01:40",
+        "tend": "1:02:00",
+        "instance": "The kids are out of school now and we gotta have fun.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB": {
+            "queryType": "search",
+            "geo": "Noosa Shire",
+            "scopeNotes": [
+                "favorite haunt of: australian dad on a holiday (and his wife)"
+            ]
+        },
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2023-06-23T05:51:29.000-05:00",
+        "created_at": "2023-06-23T05:51:29.000-05:00",
+        "slug_earwolf": "swiwwy-boys-with-aunty-donna",
+        "episode_title": "Swiwwy Boys with Aunty Donna",
+        "episode_guests": ["Aunty Donna (comedy combination)"],
+        "tags": ["Australian Dad on a Holiday"]
+    },
+    {
+        "episode": 806,
+        "tstart": "1:01:40",
+        "tend": "1:02:15",
+        "instance": "The kids are out of school now and we gotta have fun.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB": {
+            "queryType": "search",
+            "geo": "Port Douglas",
+            "scopeNotes": [
+                "favorite haunt of: australian dad on a holiday (and his wife)"
+            ]
+        },
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2023-06-23T05:51:29.000-05:00",
+        "created_at": "2023-06-23T05:51:29.000-05:00",
+        "slug_earwolf": "swiwwy-boys-with-aunty-donna",
+        "episode_title": "Swiwwy Boys with Aunty Donna",
+        "episode_guests": ["Aunty Donna (comedy combination)"],
+        "tags": ["Australian Dad on a Holiday"]
+    },
+    {
+        "episode": 806,
+        "tstart": "1:01:40",
+        "tend": "1:02:33",
+        "instance": "The kids are out of school now and we gotta have fun.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB": {
+            "queryType": "geo",
+            "geo": "melbourne",
+            "scopeNotes": [
+                "favorite haunt of: australian dad on a holiday (and his wife)"
+            ]
+        },
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2023-06-23T05:51:29.000-05:00",
+        "created_at": "2023-06-23T05:51:29.000-05:00",
+        "slug_earwolf": "swiwwy-boys-with-aunty-donna",
+        "episode_title": "Swiwwy Boys with Aunty Donna",
+        "episode_guests": ["Aunty Donna (comedy combination)"],
+        "tags": ["Australian Dad on a Holiday"]
+    },
+    {
+        "episode": 806,
+        "tstart": "1:09:30",
+        "tend": "1:10:20",
+        "instance": "I'm trying to think of any Rolling Stones song that anyone would ever wanna hear one play.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2023-06-23T05:51:29.000-05:00",
+        "created_at": "2023-06-23T05:51:29.000-05:00",
+        "slug_earwolf": "swiwwy-boys-with-aunty-donna",
+        "episode_title": "Swiwwy Boys with Aunty Donna",
+        "episode_guests": ["Aunty Donna (comedy combination)"],
+        "tags": ["Love Gun (song)", "KISS (musical combination)"]
+    },
+    {
+        "episode": 806,
+        "tstart": "1:09:30",
+        "tend": "1:10:20",
+        "instance": "I'm trying to think of any Rolling Stones song that anyone would ever wanna hear one play.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2023-06-23T05:51:29.000-05:00",
+        "created_at": "2023-06-23T05:51:29.000-05:00",
+        "slug_earwolf": "swiwwy-boys-with-aunty-donna",
+        "episode_title": "Swiwwy Boys with Aunty Donna",
+        "episode_guests": ["Aunty Donna (comedy combination)"],
+        "tags": [
+            "Sympathy for the Devil (song)",
+            "The Rolling Stones (musical combination)"
+        ]
     }
 ]
