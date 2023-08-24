@@ -361,6 +361,7 @@ reddit for balls
   - 530,22:45
   - other previous
 - drippin milk/talkin tang (any subepisode)
+  - 807,7
   - 805,1:01:50
   - 704,1:55:00
   - 704,1:34:00
@@ -696,6 +697,7 @@ reddit for balls
   - 197,34:30
   - 197,35:50
 - zouks wants clarification (what do you mean?)
+  - 807,26
   - 750,1:03:40
   - 750,6:20
   - 463,2:09:50(pw)

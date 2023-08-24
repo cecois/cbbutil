@@ -3,10 +3,10 @@
 import Vue from "vue";
 import App from "./App";
 import router from "./router";
-import CONFIGD from "./Config.json";
-import moment from 'moment';
+// import CONFIGD from "./Config.json";
+import moment from "moment";
 import underscore from "vue-underscore";
-import vueHeadful from 'vue-headful';
+import vueHeadful from "vue-headful";
 // import AWS from 'aws-sdk';
 // import es from 'es';
 // import awsHttpClient from 'http-aws-es';
@@ -21,11 +21,10 @@ import vueHeadful from 'vue-headful';
 //   }
 // });
 
-let CONFIG=CONFIGD.mode=='prod'?CONFIGD.prod:CONFIGD.dev
+// let CONFIG=CONFIGD.mode=='prod'?CONFIGD.prod:CONFIGD.dev
 
 // const AWS = require('aws-sdk')
 // const awsHttpClient = require('http-aws-es')
-
 
 // let es = require('elasticsearch').Client({
 //   host: CONFIG.elastic_bits
@@ -52,19 +51,18 @@ let CONFIG=CONFIGD.mode=='prod'?CONFIGD.prod:CONFIGD.dev
 // })
 // .then(res => console.log(res));
 
-Vue.component('vue-headful', vueHeadful)
+Vue.component("vue-headful", vueHeadful);
 Vue.use(underscore);
 
 Vue.config.productionTip = false;
-Object.defineProperty(Vue.prototype, '$MOMENT', { value: moment })
+Object.defineProperty(Vue.prototype, "$MOMENT", { value: moment });
 // Object.defineProperty(Vue.prototype, '$ES', { value: es })
 /* eslint-disable no-new */
 new Vue({
-	el: "#app"
-	, router
-	, template: "<App/>"
-	, components: {
-		App
-	}
+	el: "#app",
+	router,
+	template: "<App/>",
+	components: {
+		App,
+	},
 });
-

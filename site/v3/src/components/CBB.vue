@@ -396,7 +396,7 @@ cb<i class="fas fa-exclamation" style="font-size:3.5em;top:-4px;position:relativ
 </template>
 
 <script>
-import CONFIGG from '../Config.json'
+// import CONFIGG from '../Config.json'
 import { AtomSpinner } from 'epic-spinners'
 
 export default {
