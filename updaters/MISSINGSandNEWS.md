@@ -39,15 +39,26 @@
 36. face/off
 37. subepisodes
 
+- cal solomon's medical history
+
+  - 809,31,32 root canals
+  - 809,32,2 appendix surgeries
+
 - bill walton lists
 
   - (every bill walton appearance)
 
 - orangest of balls
 
+  - 814,28
   - 788,1:10+
   - 790,34+
   - cbb-2022-live-tour-toronto-massey,1:04:00+
+
+- all out of bleeps
+
+  - 813,48
+  - 813,35:15
 
 - staff up/write on snl
 
@@ -131,6 +142,8 @@
 
 - notorious terf jk rowling
 
+  - 843,1:01:30
+  - 810,11+
   - 805,16+
   - 768,16+
   - cbb-2022-live-tour-chicago-chicago,42+
@@ -170,6 +183,8 @@ reddit for balls
 
 - you take care
 
+  - 816,1:11:00+
+  - 816,1:09:30+
   - cbb-2022-live-tour-san-francisco-castro,1:43+
   - cbb-2022-live-tour-san-francisco-castro,1:39+
   - cbb-2022-live-tour-san-francisco-castro,1:10+
@@ -260,6 +275,7 @@ reddit for balls
   - 482,1:03:45(pw)
   - 451,40:00
 * bajillion (or any) call sheet
+  - 822,9+
   - BO2022.2,1:00:00+
   - BO2022.2,13+
   - BO2022.1,10:40
@@ -360,7 +376,11 @@ reddit for balls
 - content deleters
   - 530,22:45
   - other previous
-- drippin milk/talkin tang (any subepisode)
+- drippin milk/talkin tang/throwin lace (any subepisode)
+  - 810,4+
+  - 809,20
+  - 809,6
+  - 808,23
   - 807,7
   - 805,1:01:50
   - 704,1:55:00
@@ -528,10 +548,15 @@ reddit for balls
   - (many)
   - 538,21:00
 - c+ - the highest grade
+
   - 362,6:15(pw)
+
 - ski & surf in the same day in california
+
+  - 816,5+
   - 773,11+
   - several prior dating way way back - good luck!
+
 - colin show
 
   - missing one from #483
@@ -542,6 +567,14 @@ reddit for balls
 
 - shimmy lincoln appears in any way
 
+  - 832,1+
+  - 827,55+
+  - 810,5+,throwin lace
+  - 810,2+,i'm back
+  - 810,2+,it would be easier if you stayed
+  - 810,2+,code for a penis
+  - 810,1+,accentuate the positive
+  - 810,0+,neuget
   - 800,1:08+
   - 800,42+,is that what's been holding you back? (malt ingredients on cruises)
   - 800,34+,should i know that? (golden orb)
@@ -697,6 +730,9 @@ reddit for balls
   - 197,34:30
   - 197,35:50
 - zouks wants clarification (what do you mean?)
+  - 809,1:15:00
+  - 808,1:40:20
+  - 808,50
   - 807,26
   - 750,1:03:40
   - 750,6:20
@@ -806,6 +842,7 @@ reddit for balls
   - 132,6:30
   - 447,50:45(pw)
 - no rule against dogs playing (football|basketball)
+  - 838,25+
   - 778,47+
   - cbb-2022-live-tour-portland-state,1:27:30+
   - 750,1:17:00
@@ -848,6 +885,9 @@ reddit for balls
   - 720,5:00
 
 - thanks, reggie
+  - 841,41+
+  - 833,1+
+  - 814,10+
   - 795,0
   - 794,0
   - 793,1:22:+
@@ -907,6 +947,7 @@ reddit for balls
   - http://howl.fm/audio/26162/live-from-washington-dc-2013-part-2,30:40
   - 485,2:37:15(ads)
 - pft has time for x more questions
+  - 808,1:40:00+
   - 763,16
   - 750,1:21:10
   - 59,12:00
@@ -1051,6 +1092,7 @@ reddit for balls
   - 2016.losangeles,1:01:00
   - 2016.losangeles,1:00:40
 - character bonanzas
+  - 820,35+
   - 750,1:00:00+
   - 709,will hines does morpheus and Andy Manders
   - 707,pft from the jump
@@ -1235,6 +1277,7 @@ reddit for balls
   - 424,1:20:35(pw)
   - 2016.shepherds,15:00
 - look it up, (scotty|pauly) -
+  - 819,29+
   - cbb-2022-live-tour-san-antonio-empire,1:25:00+
   - cbb-2022-live-tour-san-antonio-empire,1:09:00+
   - bo2019.1,14:00
@@ -1304,6 +1347,7 @@ reddit for balls
   - bo2015.2,58:30
   - 2016.nyc0514930,42:00
 - bing it
+  - 835,1:16+
   - 796,59
   - 795,53+
   - cbb-2022-live-tour-san-antonio-empire,1:09:00+
@@ -1584,6 +1628,7 @@ reddit for balls
   - 2016.losangeles,1:00:40
   - chicago-may-20-7pm,1:01:30
 * character bonanzas
+  - 816,1:06:00+
   - 300,bill carter+
   - 599,~3+ (first segment)
   - 599,7:00:00+ (moynihan)
@@ -1939,6 +1984,7 @@ reddit for balls
   - 479,29:00(pw)
 * don't joke about irobot
 
+  - 813,1:03:00+
   - 781,55:50
   - bo2015.1,8:20(pw)
   - bo2015.2,11:40(pw)
@@ -2135,6 +2181,8 @@ reddit for balls
   - 2016.nyc930,1:03:30
 
 - dads and grads
+  - 816,1:17:30+
+  - 816,1+
   - ~~296,0:45(paywall)~~
   - ~~296,45:10(paywall)~~
   - ~~297,00:57(paywall)~~
@@ -2225,6 +2273,8 @@ reddit for balls
   - 500,3:00
   - anaheim-now-hear-this-2016,1:07:30
 - out of the park (fair ball / foul ball )
+  - 821,41+
+  - 821,14+
   - cbb-2022-live-tour-st-louis-pageant,1:08+
   - tig+alynne episode
   - 482,25:35(howl)
@@ -2360,6 +2410,7 @@ reddit for balls
   -
 - we'll pay for it (if you wanna go on another date)
 
+  - 825,1:17:50+
   - 798,1:19:00+
   - 788,2:02:30+
   - 783,1:03:45+
@@ -2413,6 +2464,15 @@ reddit for balls
 
 - interesting people (humanity's, america's podcast etc)
 
+  - 833,1:16:00+
+  - 833,1:03:00+
+  - 833,17+
+  - 829,0+
+  - 827,0+
+  - 822,0+
+  - 820,24+
+  - 820,0+
+  - 812,2:10+
   - bo2022.2,1:07:45+
   - 786,1+
   - 770,1:00:00+

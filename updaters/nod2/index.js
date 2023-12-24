@@ -54,8 +54,8 @@ _e iS hOw wE EnD thE WHolE thIng
 
 let opSets = {
     OP_DEVVV: false, //just testing
-    OP_SAFTY: false, //safety check - are any incoming ep ids already in the index? (it's rare but possible this is ok)
     OP_AUDIT: false, //audit
+    OP_SAFTY: false, //safety check - are any incoming ep ids already in the index? (it's rare but possible this is ok)
     OP_BACKP: false, //backup of bits, definitives, and geoms
     OP_MERGE: false, //merge incoming with definitives
     OP_SUMMA: false, //summarize incoming to local summary store
@@ -77,7 +77,7 @@ const _I = async () => {
     _CLAXON.info(
         `running ${Object.keys(opSets)
             .filter((okey) => opSets[okey])
-            .join("; ")}`
+            .join("; ")}`,
     );
 
     // HEre's ThE actiOn stUFf - If A gIven oP IN oPsEts is tRuE, wE cRAfT AN Array oF pROmIses for thAt moduLe  And then Run Em

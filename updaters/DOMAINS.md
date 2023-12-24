@@ -1,3 +1,5 @@
+-   827,1:32:15+,ken-lunch.com
+-   827,31+,abernathycombs.net
 -   http://howl.fm/audio/26157/live-from-philadelphia-2013,49:35,fuglyducklings.biz
 -   http://howl.fm/audio/26157/live-from-philadelphia-2013,49:35,barelylegalcollegeprep.org
 -   http://howl.fm/audio/26157/live-from-philadelphia-2013,58:15,emptydouchebags.org
@@ -12,6 +14,7 @@
 -   cbb-2022-live-tour-san-antonio-empire,1:15:00+
 -   cbb-2022-live-tour-madison-barrymore,1:22:30+
 -   cbb-2022-live-tour-seattle-moore,1:04:00+
+-   843,2:13:00+
 -   802,1:07+
 -   763,35
 -   755,2:00:30

@@ -5,7 +5,7 @@
   "author": "cecois <cecmcgee@gmail.com>",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "dev": "webpack-dev-server --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
     "test": "npm run unit",
@@ -14,7 +14,6 @@
   },
   "dependencies": {
     "aws-sdk": "^2.573.0",
-    "elasticsearch": "^16.5.0",
     "epic-spinners": "^1.1.0",
     "es": "^0.7.3",
     "http-aws-es": "^6.0.0",
