@@ -1,43 +1,52 @@
 # possible new bits:
 
 0. SHIMMY!
+1. zouks' (usually) "what do you mean?" (but shimmy asked about ogre glasses, also)
 1. fix fugees "one time" - no doubt its a ref to _killing me softly_ and not any other fugees track
-2. fix eluc of vicar of yanks bit
-3. bean dip's real name is "sally dunkirk" acc to cbb#659
-4. ~~clean up nephew todd tag~~
-5. ~~"tiny reviews music" eluc~~
-6. ~~oj simpson you take care/see you later~~
-7. fix alimony tony tag -> Alimony Tony Giachieroni
-8. ~~wilcox poems fulltext~~
-9. ~~dick francis~~
-10. ~~fix elucid for pyramid stuff~~
-11. ~~clean up nephew todd tag~~
-12. ~~"tiny reviews music" eluc~~
-13. missing rudi north christmas tree farm loc?
-14. ~~marshal v marshall~~
-15. ~~fix hey nineteen tags (hardcastle v. steely)~~
-16. ~~fix "Regina Krimp" vs. "Crimp"~~
-17. ~~you say baby too~~
-18. hollywood facts
-19. ~~fix doobie brothers tag~~
-20. ~~change tag Beth to Power Wheels Beth~~
-21. fix gramercy may 13 ep title times (9:30 v 7)
-22. ~~mr. microphone~~
-23. ~~jarles~~
-24. ~~clumsy portmanteau~~
-25. ~~lapkus can't make it through a song~~
-26. ~~dads and grads~~
-27. ~~mike the janitor's mantra~~
-28. ~~gino's commuter map~~
-29. ~~len wiseman~~
-30. ~~retiring a train~~
-31. URLs (see DOMAINS.md)
-32. literally nowhere else
-33. germany cannibalism
-34. ~~icona pop~~
-35. ~~s my c~~
-36. face/off
-37. subepisodes
+1. process wet day
+1. fix eluc of vicar of yanks bit
+1. bean dip's real name is "sally dunkirk" acc to cbb#659
+1. ~~clean up nephew todd tag~~
+1. ~~"tiny reviews music" eluc~~
+1. ~~oj simpson you take care/see you later~~
+1. fix alimony tony tag -> Alimony Tony Giachieroni
+1. ~~wilcox poems fulltext~~
+1. ~~dick francis~~
+1. ~~fix elucid for pyramid stuff~~
+1. ~~clean up nephew todd tag~~
+1. ~~"tiny reviews music" eluc~~
+1. missing rudi north christmas tree farm loc?
+1. ~~marshal v marshall~~
+1. ~~fix hey nineteen tags (hardcastle v. steely)~~
+1. ~~fix "Regina Krimp" vs. "Crimp"~~
+1. ~~you say baby too~~
+1. hollywood facts
+1. ~~fix doobie brothers tag~~
+1. ~~change tag Beth to Power Wheels Beth~~
+1. fix gramercy may 13 ep title times (9:30 v 7)
+1. ~~mr. microphone~~
+1. ~~jarles~~
+1. ~~clumsy portmanteau~~
+1. ~~lapkus can't make it through a song~~
+1. ~~dads and grads~~
+1. ~~mike the janitor's mantra~~
+1. ~~gino's commuter map~~
+1. ~~len wiseman~~
+1. ~~retiring a train~~
+1. URLs (see DOMAINS.md)
+1. literally nowhere else
+1. germany cannibalism
+1. ~~icona pop~~
+1. ~~s my c~~
+1. face/off
+1. subepisodes
+
+- no dings
+
+  - 863,0+
+  - 863,42+
+  - 850,?
+  - https://podscripts.co/podkeywordsearch/?search_type=basic&podSelectedId=27&keywordsToSearch=dings
 
 - cal solomon's medical history
 
@@ -55,8 +64,13 @@
   - 790,34+
   - cbb-2022-live-tour-toronto-massey,1:04:00+
 
-- all out of bleeps
+- all out of bleeps/editing machine is broken
 
+  - 862,31+
+  - (lots and lots of others)
+  - 854,39+
+  - 850,1:11+
+  - 852,41+
   - 813,48
   - 813,35:15
 
@@ -85,6 +99,8 @@
 
 - do they ever drop the act?
 
+  - 863,1:22+
+  - 860,1:12+
   - 788,2:17+
   - plenty before 737 (and plenty after)
   - 748,1:04:20
@@ -142,6 +158,8 @@
 
 - notorious terf jk rowling
 
+  - 857,1:04:00+
+  - bo2023.3,39:30
   - 843,1:01:30
   - 810,11+
   - 805,16+
@@ -183,6 +201,8 @@ reddit for balls
 
 - you take care
 
+  - 864,1:41+
+  - 864,1:13+
   - 816,1:11:00+
   - 816,1:09:30+
   - cbb-2022-live-tour-san-francisco-castro,1:43+
@@ -385,8 +405,8 @@ reddit for balls
   - 805,1:01:50
   - 704,1:55:00
   - 704,1:34:00
-  - 700,7:00
-  - 700,9:00
+  - 700,7+
+  - 700,9+
   - 356,14:00,inaugural
   - 356,44:30
   - 429,17:00(pw)
@@ -565,8 +585,23 @@ reddit for balls
 
   - 785,48+
 
+- roboshimmy appears in any way
+
+  - 850,5+
+
 - shimmy lincoln appears in any way
 
+  - 863,1:45+
+  - 863,42+
+  - 863,37+
+  - 863,1+
+  - 863,6+
+  - 856,21+
+  - 856,20+
+  - 850,8+
+  - 850,5+
+  - 850,3+
+  - 850,1+
   - 832,1+
   - 827,55+
   - 810,5+,throwin lace
@@ -729,7 +764,9 @@ reddit for balls
 - jelloems
   - 197,34:30
   - 197,35:50
-- zouks wants clarification (what do you mean?)
+- zouks (usually) wants clarification (what do you mean?)
+  - 854,2:45+
+  - 850,8+
   - 809,1:15:00
   - 808,1:40:20
   - 808,50
@@ -885,6 +922,8 @@ reddit for balls
   - 720,5:00
 
 - thanks, reggie
+  - 862,0+
+  - 844,26:30++
   - 841,41+
   - 833,1+
   - 814,10+
@@ -1092,6 +1131,7 @@ reddit for balls
   - 2016.losangeles,1:01:00
   - 2016.losangeles,1:00:40
 - character bonanzas
+  - 850
   - 820,35+
   - 750,1:00:00+
   - 709,will hines does morpheus and Andy Manders
@@ -1347,6 +1387,7 @@ reddit for balls
   - bo2015.2,58:30
   - 2016.nyc0514930,42:00
 - bing it
+  - 846,53:50+
   - 835,1:16+
   - 796,59
   - 795,53+
@@ -2213,6 +2254,8 @@ reddit for balls
   - 377,45:20(pw)
   - 384,33:00(pw)
 - face/off
+  - 864,72+
+  - 850,6+
   - 800,57+
   - 795,57+
   - 770,1:15:30+
@@ -2410,6 +2453,12 @@ reddit for balls
   -
 - we'll pay for it (if you wanna go on another date)
 
+  - 859,52+
+  - 858,28+
+  - 857,1:13+
+  - 854,1:12+
+  - 852,1:01:50+
+  - 848,1:07:15+
   - 825,1:17:50+
   - 798,1:19:00+
   - 788,2:02:30+
@@ -2464,6 +2513,7 @@ reddit for balls
 
 - interesting people (humanity's, america's podcast etc)
 
+  - 849,0:45+
   - 833,1:16:00+
   - 833,1:03:00+
   - 833,17+

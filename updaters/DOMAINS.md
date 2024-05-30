@@ -1,3 +1,7 @@
+-   864,1:30+,scottaukermanandojsimpson.com
+-   854,1:17+,calvinstriplets site
+-   853,26+,(emails)
+-   845,1:17:45+,jonnycochran(notthatone)/yougotjohnny(noh)/iftheglovedontfityoumustacquit.com
 -   827,1:32:15+,ken-lunch.com
 -   827,31+,abernathycombs.net
 -   http://howl.fm/audio/26157/live-from-philadelphia-2013,49:35,fuglyducklings.biz

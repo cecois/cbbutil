@@ -28,13 +28,13 @@ module.exports = {
             });
 
             _claxon.info(
-                `current count of geoms in ${_cfg.geomdir} presents ${currentGeoms.length} geojsons`
+                `current count of geoms in ${_cfg.geomdir} presents ${currentGeoms.length} geojsons`,
             );
 
             // let geoms = [];
             let geoms = __.map(currentGeoms, (geomFilePath) => {
                 let gcContents = JSON.parse(
-                    FS.readFileSync(`${_cfg.geomdir}/${geomFilePath}`)
+                    FS.readFileSync(`${_cfg.geomdir}/${geomFilePath}`),
                 );
 
                 let geomTypes = {
@@ -62,6 +62,11 @@ module.exports = {
                         : null,
                     cartodb_id: gcContents.properties.cartodb_id
                         ? gcContents.properties.cartodb_id
+                        : null,
+                    vid: gcContents.properties.cartodb_id
+                        ? `${
+                              geomTypes[gcContents.geometry.type.toLowerCase()]
+                          }.${gcContents.properties.cartodb_id}`
                         : null,
                     created_at: gcContents.properties.created_at
                         ? LUXON.fromISO(gcContents.properties.created_at)
@@ -92,7 +97,7 @@ module.exports = {
                 q: "*:*",
             });
             _claxon.info(
-                `result of the ${_cfg.elastic.indexGeoms} clear: ${del.deleted} deleted`
+                `result of the ${_cfg.elastic.indexGeoms} clear: ${del.deleted} deleted`,
             );
 
             // mAP ThE sEt tO fNDjsoN
@@ -119,7 +124,7 @@ module.exports = {
                 __.map(prefixes, (p) => {
                     return p[0];
                 }),
-                mapd
+                mapd,
             );
 
             // DebugginG only bUT We'll LeAve iT HArdWIReD FOr Now
@@ -138,19 +143,9 @@ module.exports = {
                 {
                     ignore: [404],
                     maxRetries: 3,
-                }
+                },
             ); //client.bulk
 
-            // ,
-            // (err, result) => {
-            //     err && REJ(err); //err we bReak tHe PrOmisE
-            //     _claxon.info(
-            //         `http://${_cfg.elastic.host}/${
-            //             _cfg.elastic.indexGeoms
-            //         }/_search?size=1&q=jsonob:${__.last(geoms).jsonob}`
-            //     );
-            //     RES(result); //OtheRwisE we fULfiLL
-            // }
             /*
                                             
                                              ___  __  __  ___  __  __
@@ -171,13 +166,13 @@ module.exports = {
 
             // else we report the items count and offer a helpful little link
             _claxon.info(
-                `💚 indexed ${esResponse.items.length} items at ${_cfg.elastic.indexGeoms}`
+                `💚 indexed ${esResponse.items.length} items at ${_cfg.elastic.indexGeoms}`,
             );
 
             _claxon.info(
                 `http://${_cfg.elastic.host}/${
                     _cfg.elastic.indexGeoms
-                }/_search?size=1&q=fn:${encodeURI(__.last(geoms).fn)}`
+                }/_search?size=1&q=fn:${encodeURI(__.last(geoms).fn)}`,
             );
             RES(esResponse); //OtheRwisE we fULfiLL
         }); //promise
