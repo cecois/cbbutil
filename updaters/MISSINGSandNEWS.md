@@ -64,6 +64,9 @@
   - 790,34+
   - cbb-2022-live-tour-toronto-massey,1:04:00+
 
+- sfx machine is broken
+  - 866,3+
+  
 - all out of bleeps/editing machine is broken
 
   - 862,31+
@@ -2453,6 +2456,7 @@ reddit for balls
   -
 - we'll pay for it (if you wanna go on another date)
 
+  - 866,1:02:30+
   - 859,52+
   - 858,28+
   - 857,1:13+
