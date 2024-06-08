@@ -66,7 +66,6 @@
 
 - sfx machine is broken
   - 866,3+
-  
 - all out of bleeps/editing machine is broken
 
   - 862,31+
@@ -2225,6 +2224,7 @@ reddit for balls
   - 2016.nyc930,1:03:30
 
 - dads and grads
+  - 867,0+
   - 816,1:17:30+
   - 816,1+
   - ~~296,0:45(paywall)~~
