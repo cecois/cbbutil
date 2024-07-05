@@ -68,6 +68,8 @@
   - 866,3+
 - all out of bleeps/editing machine is broken
 
+  - 2024-06-19-atlanta-tabernacle,40+
+  - 2024-06-15-philadelphia-miller,1:06:20+
   - 862,31+
   - (lots and lots of others)
   - 854,39+
@@ -86,8 +88,18 @@
 
 - balcony reports
 
-  - cbb-2022-live-tour-boston-chevalier,3+
-  - cbb-2022-live-tour-brooklyn-kings,5+
+  - 2024-06-21-nashville-marathon-music-works,5
+  - 2024-06-20-st-louis-pageant,4
+  - 2024-06-19-atlanta-tabernacle,3
+  - 2024-06-18-durham-carolina,5
+  - 2024-06-17-washington-dc-warner,3
+  - 2024-06-15-philadelphia-miller,4
+  - 2024-06-14-brooklyn-paramount,4
+  - 2024-06-13-boston-wilbur,1
+  - 2024-06-12-boston-wilbur,1
+  - cbb-2022-live-tour-boston-chevalier,3
+  - cbb-2022-live-tour-brooklyn-kings,5
+  - 2024-06-12-boston-wilbur,3
 
 - lily sullivans social handle
 
@@ -160,6 +172,7 @@
 
 - notorious terf jk rowling
 
+  - 870,21:20+
   - 857,1:04:00+
   - bo2023.3,39:30
   - 843,1:01:30
@@ -201,8 +214,13 @@ reddit for balls
 - cbb-2022-live-tour-san-francisco-castro,58+
 - inaugural wz likely the 2022 tour stop w/ cake boss & oj simpson
 
-- you take care
+- take care/just sayin (o.j. simpson's catchphrase)
 
+  - 2024-06-14-brooklyn-paramount,1:50:30+
+  - 2024-06-14-brooklyn-paramount,1:44:00+
+  - 2024-06-14-brooklyn-paramount,1:38:20+
+  - 2024-06-14-brooklyn-paramount,1:28:40+
+  - 2024-06-14-brooklyn-paramount,1:29:40+
   - 864,1:41+
   - 864,1:13+
   - 816,1:11:00+
@@ -2456,6 +2474,8 @@ reddit for balls
   -
 - we'll pay for it (if you wanna go on another date)
 
+  - 870,46+
+  - 2024-06-15-philadelphia-miller,1:33:45+
   - 866,1:02:30+
   - 859,52+
   - 858,28+
@@ -2517,6 +2537,7 @@ reddit for balls
 
 - interesting people (humanity's, america's podcast etc)
 
+  - 2024-06-13-boston-wilbur,25+
   - 849,0:45+
   - 833,1:16:00+
   - 833,1:03:00+

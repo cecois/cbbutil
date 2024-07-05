@@ -1,3 +1,5 @@
+-   871,1:04:00+,goodweddings.com/fuck
+-   868,49+,paulhasopinionsandhesfedup.substack.com
 -   864,1:30+,scottaukermanandojsimpson.com
 -   854,1:17+,calvinstriplets site
 -   853,26+,(emails)

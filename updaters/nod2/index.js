@@ -53,7 +53,7 @@ _e iS hOw wE EnD thE WHolE thIng
                 */
 
 let opSets = {
-    OP_DEVVV: false, //just testing
+    // OP_DEVVV: false, //just testing
     OP_AUDIT: true, //audit - check the integrity of the bit records (missing keys, etc)
     OP_SAFTY: false, //safety check - are any incoming ep ids already in the index? (it's rare but possible this is ok)
     OP_BACKP: false, //backup of bits, definitives, and geoms
