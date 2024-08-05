@@ -68,6 +68,7 @@
   - 866,3+
 - all out of bleeps/editing machine is broken
 
+  - 2024-07-26-majestic-theatre-dallas,41+
   - 2024-06-19-atlanta-tabernacle,40+
   - 2024-06-15-philadelphia-miller,1:06:20+
   - 862,31+
@@ -88,6 +89,18 @@
 
 - balcony reports
 
+  - 2024-08-02-egyptian-room-indianapolis,5
+  - 2024-08-01-agora-theatre-cleveland,4
+  - 2024-07-30-roxian-theatre-pittsburgh,4
+  - 2024-07-29-royal-oak-music-theatre-royal-oak,4
+  - 2024-07-28-toronto-danforth,4
+  - 2024-07-26-majestic-theatre-dallas,4
+  - 2024-07-25-paramount-theatre-austin,3
+  - 2024-07-24-paramount-theatre-denver,5
+  - 2024-07-23-the-complex-salt-lake-city,6
+  - 2024-07-13-san-diego-observatory-north-park,4
+  - 2024-07-12-phoenix-van-buren,4
+  - 2024-07-11-tuscon-rialto,4
   - 2024-06-21-nashville-marathon-music-works,5
   - 2024-06-20-st-louis-pageant,4
   - 2024-06-19-atlanta-tabernacle,3
@@ -216,6 +229,12 @@ reddit for balls
 
 - take care/just sayin (o.j. simpson's catchphrase)
 
+  - 2024-07-29-royal-oak-music-theatre-royal-oak,72+
+  - 2024-07-29-royal-oak-music-theatre-royal-oak,62+
+  - 2024-07-29-royal-oak-music-theatre-royal-oak,54+
+  - 2024-07-29-royal-oak-music-theatre-royal-oak,51+
+  - 2024-07-29-royal-oak-music-theatre-royal-oak,49+
+  - 2024-07-29-royal-oak-music-theatre-royal-oak,49+
   - 2024-06-14-brooklyn-paramount,1:50:30+
   - 2024-06-14-brooklyn-paramount,1:44:00+
   - 2024-06-14-brooklyn-paramount,1:38:20+
@@ -612,6 +631,9 @@ reddit for balls
 
 - shimmy lincoln appears in any way
 
+  - 874,14:50+
+  - 874,14+
+  - 874,10+
   - 863,1:45+
   - 863,42+
   - 863,37+
@@ -900,6 +922,8 @@ reddit for balls
   - 132,6:30
   - 447,50:45(pw)
 - no rule against dogs playing (football|basketball)
+  - 2024-07-28-toronto-danforth,51+
+  - 2024-07-12-phoenix-van-buren,37+
   - 838,25+
   - 778,47+
   - cbb-2022-live-tour-portland-state,1:27:30+
@@ -943,6 +967,8 @@ reddit for balls
   - 720,5:00
 
 - thanks, reggie
+  - 875,1:12:00+
+  - 875,0+
   - 862,0+
   - 844,26:30++
   - 841,41+
@@ -2514,23 +2540,29 @@ reddit for balls
   - 746,1:36:00
 
 - shallatoo (maxwell keeper's new catchphrase)
+
   - 483,several
   - 483,18:10
   - 483,29:30
   - 483,33:15
   - 483,35:40
   - 483,52:52
+
 - strains credulity
 
   - 262,??
 
 - i was walking down the street
+
   - billions
   - peecast2018,27:00
   - peecast2018,28:15
+
 - the story of sting
+
   - bo2017.2,1:53:00
   - other Best-Ofs[]()
+
 - moveon.org
 
   - live-from-vulture-fest-2017,1:35:00
