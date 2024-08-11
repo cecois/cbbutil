@@ -89,6 +89,9 @@
 
 - balcony reports
 
+  - 2024-08-05-fitzgerald-theatre-st-paul,5
+  - 2024-08-04-barrymore-theatre-madison-wi,5
+  - 2024-08-03-chicago-theatre-chicago,4
   - 2024-08-02-egyptian-room-indianapolis,5
   - 2024-08-01-agora-theatre-cleveland,4
   - 2024-07-30-roxian-theatre-pittsburgh,4
@@ -922,6 +925,8 @@ reddit for balls
   - 132,6:30
   - 447,50:45(pw)
 - no rule against dogs playing (football|basketball)
+  - 2024-08-05-fitzgerald-theatre-st-paul,56
+  - 2024-08-03-chicago-theatre-chicago,26
   - 2024-07-28-toronto-danforth,51+
   - 2024-07-12-phoenix-van-buren,37+
   - 838,25+
@@ -996,6 +1001,7 @@ reddit for balls
   - 537,00:35
   - bo2010,46:30(pw)
 - german craigslist
+  - 2024-08-03-chicago-theatre-chicago,30
   - 59,42:25 (pw)
   - 583,1:25:30(pw)
   - 429,1:06:45(pw)
