@@ -54,14 +54,14 @@ _e iS hOw wE EnD thE WHolE thIng
 
 let opSets = {
     // OP_DEVVV: false, //just testing
-    OP_AUDIT: true, //audit - check the integrity of the bit records (missing keys, etc)
+    OP_AUDIT: false, //audit - check the integrity of the bit records (missing keys, etc)
     OP_SAFTY: false, //safety check - are any incoming ep ids already in the index? (it's rare but possible this is ok)
     OP_BACKP: false, //backup of bits, definitives, and geoms
     OP_MERGE: false, //merge incoming with definitives
     OP_SUMMA: false, //summarize incoming to local summary store
     OP_SENDU: false, //send summaries for indexing
-    OP_SENDG: false, //send geoms for indexing
-    OP_SENDB: false, //send new definitives (incoming+merged) for indexing
+    OP_SENDG: true, //send geoms for indexing
+    OP_SENDB: true, //send new definitives (incoming+merged) for indexing
 };
 
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

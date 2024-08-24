@@ -89,6 +89,12 @@
 
 - balcony reports
 
+  - 2024-08-18-vogue-theatre-vancouver,3
+  - 2024-08-17-moore-theatre-seattle,4
+  - 2024-08-16-revolution-hall-portland-late-show,4
+  - 2024-08-16-revolution-hall-portland,4
+  - 2024-08-15-fox-theater-oakland,5
+  - 2024-08-03-chicago-theatre-chicago,5
   - 2024-08-05-fitzgerald-theatre-st-paul,5
   - 2024-08-04-barrymore-theatre-madison-wi,5
   - 2024-08-03-chicago-theatre-chicago,4
@@ -167,6 +173,10 @@
   - traci reardon a lot \* al a pterson maybe?
 
   - a million - extant but needs catchup
+
+- huge jacked man (hugh jackman)
+
+  - 877,60+
 
 - notorious powerbottom ebenezer scrooge
 
@@ -925,6 +935,7 @@ reddit for balls
   - 132,6:30
   - 447,50:45(pw)
 - no rule against dogs playing (football|basketball)
+  - 2024-08-14-crest-theatre-sacramento,36
   - 2024-08-05-fitzgerald-theatre-st-paul,56
   - 2024-08-03-chicago-theatre-chicago,26
   - 2024-07-28-toronto-danforth,51+
@@ -2078,6 +2089,7 @@ reddit for balls
   - 479,29:00(pw)
 * don't joke about irobot
 
+  - 877,1+
   - 813,1:03:00+
   - 781,55:50
   - bo2015.1,8:20(pw)
@@ -2507,6 +2519,8 @@ reddit for balls
   -
 - we'll pay for it (if you wanna go on another date)
 
+  - 878,37+
+  - 877,1:28:00+
   - 870,46+
   - 2024-06-15-philadelphia-miller,1:33:45+
   - 866,1:02:30+
