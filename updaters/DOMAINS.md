@@ -1,3 +1,4 @@
+-   2024-09-11-sugar-club-dublin,25,crime.com
 -   2024-07-29-royal-oak-music-theatre-royal-oak,45+,ojsimpsonandscottaukerman.com
 -   2024-07-12-phoenix-van-buren,45+,toddpadre.artist
 -   871,1:04:00+,goodweddings.com/fuck

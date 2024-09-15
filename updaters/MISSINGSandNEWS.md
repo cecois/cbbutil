@@ -89,6 +89,11 @@
 
 - balcony reports
 
+  - 2024-09-11-liberty-hall-dublin,4
+  - 2024-09-11-sugar-club-dublin,3
+  - 2024-09-09-st-georges-bristol-bristol,5
+  - 2024-09-06-hackney-empire-london,4
+  - 2024-09-05-swg3-glasgow-scotland,4
   - 2024-08-18-vogue-theatre-vancouver,3
   - 2024-08-17-moore-theatre-seattle,4
   - 2024-08-16-revolution-hall-portland-late-show,4
@@ -1328,6 +1333,7 @@ reddit for balls
   - 513,1:03:12
   - 423,41:00(pw)
 - fictional people - dead but reasonable
+  - 2024-09-11-liberty-hall-dublin,15+
   - 800,1:01+
   - 289,21:45(howl)
   - san francisco 2012,23:00+
@@ -1382,6 +1388,7 @@ reddit for balls
   - 424,1:20:35(pw)
   - 2016.shepherds,15:00
 - look it up, (scotty|pauly) -
+  - 2024-09-10-sugar-club-dublin,28+
   - 819,29+
   - cbb-2022-live-tour-san-antonio-empire,1:25:00+
   - cbb-2022-live-tour-san-antonio-empire,1:09:00+
@@ -2520,6 +2527,7 @@ reddit for balls
   -
 - we'll pay for it (if you wanna go on another date)
 
+  - 2024-09-06-hackney-empire-london,1:42:00+
   - 878,37+
   - 877,1:28:00+
   - 870,46+
