@@ -41,6 +41,10 @@
 1. face/off
 1. subepisodes
 
+- we are friends and we like each other
+  - 2024-09-11-liberty-hall-dublin,41+
+  - a thousand prior
+
 - no dings
 
   - 863,0+
@@ -66,8 +70,11 @@
 
 - sfx machine is broken
   - 866,3+
+  
 - all out of bleeps/editing machine is broken
-
+  - 882,44+
+  - 882,32+
+  - 882,24+
   - 2024-07-26-majestic-theatre-dallas,41+
   - 2024-06-19-atlanta-tabernacle,40+
   - 2024-06-15-philadelphia-miller,1:06:20+
@@ -89,8 +96,9 @@
 
 - balcony reports
 
+  - 2024-09-12-new-century-hall-manchester,4
   - 2024-09-11-liberty-hall-dublin,4
-  - 2024-09-11-sugar-club-dublin,3
+  - 2024-09-10-sugar-club-dublin,3
   - 2024-09-09-st-georges-bristol-bristol,5
   - 2024-09-06-hackney-empire-london,4
   - 2024-09-05-swg3-glasgow-scotland,4
@@ -2352,6 +2360,7 @@ reddit for balls
   - 426,41:15(pw)
   - 426,1:06:50(pw)
 - i'm from new jersey
+  - 2024-09-11-liberty-hall-dublin,1:02:00+
   - 2016.detroit,18:10
   - 2016.detroit,22:28
   - 2016.detroit,38:20
