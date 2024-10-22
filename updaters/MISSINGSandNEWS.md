@@ -41,6 +41,10 @@
 1. face/off
 1. subepisodes
 
+- music man plot logic
+  - 887,37+
+  - 886,?
+
 - we are friends and we like each other
   - 2024-09-11-liberty-hall-dublin,41+
   - a thousand prior
@@ -72,6 +76,8 @@
   - 866,3+
   
 - all out of bleeps/editing machine is broken
+  - 886,38+
+  - 883,35+
   - 882,44+
   - 882,32+
   - 882,24+
@@ -96,6 +102,9 @@
 
 - balcony reports
 
+  - 2024-10-18-live-at-college-street-music-hall-new-haven-ct,4
+  - 2024-10-17-live-at-troy-savings-bank-music-hall-troy-ny,5
+  - 2024-10-16-live-at-mtelus-montreal-quebec,5
   - 2024-09-12-new-century-hall-manchester,4
   - 2024-09-11-liberty-hall-dublin,4
   - 2024-09-10-sugar-club-dublin,3
@@ -148,6 +157,7 @@
 
 - do they ever drop the act?
 
+  - 882,1:14+
   - 863,1:22+
   - 860,1:12+
   - 788,2:17+
@@ -658,6 +668,15 @@ reddit for balls
 
 - shimmy lincoln appears in any way
 
+  - 887,20+
+  - 887,17+
+  - 887,15+
+  - 887,4+
+  - 887,3+
+  - 887,1+
+  - 886,20+
+  - 886,14+
+  - 886,1+
   - 874,14:50+
   - 874,14+
   - 874,10+
@@ -1467,6 +1486,7 @@ reddit for balls
   - bo2015.2,58:30
   - 2016.nyc0514930,42:00
 - bing it
+  - 886,50:45+
   - 846,53:50+
   - 835,1:16+
   - 796,59
@@ -2399,6 +2419,7 @@ reddit for balls
   - 500,3:00
   - anaheim-now-hear-this-2016,1:07:30
 - out of the park (fair ball / foul ball )
+  - 885,10+
   - 821,41+
   - 821,14+
   - cbb-2022-live-tour-st-louis-pageant,1:08+
@@ -2536,6 +2557,7 @@ reddit for balls
   -
 - we'll pay for it (if you wanna go on another date)
 
+  - 2024-10-18-live-at-college-street-music-hall-new-haven-ct,1:16+
   - 2024-09-06-hackney-empire-london,1:42:00+
   - 878,37+
   - 877,1:28:00+
@@ -2608,6 +2630,7 @@ reddit for balls
 
 - interesting people (humanity's, america's podcast etc)
 
+  - 2024-10-17-live-at-troy-savings-bank-music-hall-troy-ny,1:48+
   - 2024-06-13-boston-wilbur,25+
   - 849,0:45+
   - 833,1:16:00+

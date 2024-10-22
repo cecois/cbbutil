@@ -1,3 +1,6 @@
+-   2024-10-16-live-at-mtelus-montreal-quebec,1:46+,youtube.com/grillinwiththezouks/noskips
+-   885,1:12:00+,bigmike.com
+-   882,1:13:00+,www.berkowitzanddershowitznotthoseones.com
 -   2024-09-11-sugar-club-dublin,25,crime.com
 -   2024-07-29-royal-oak-music-theatre-royal-oak,45+,ojsimpsonandscottaukerman.com
 -   2024-07-12-phoenix-van-buren,45+,toddpadre.artist

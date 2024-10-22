@@ -203,7 +203,7 @@ __   _____   __  // ____  _  _/_    _____   _
             // if any nonlocs have loc meta we kill
             nonLocationBitsWithLocationMeta.length > 0 &&
                 REJ(
-                    `audit says at least one non-location bit is carrying loc meta: ${nonLocationBitsWithLocationMeta[0]}`,
+                    `audit says at least one non-location bit is carrying loc meta: ${nonLocationBitsWithLocationMeta[0].instance}`,
                 );
 
             RES(); //OThErwIse we GOOd
