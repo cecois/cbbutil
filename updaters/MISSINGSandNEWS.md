@@ -102,6 +102,8 @@
 
 - balcony reports
 
+  - 2024-10-21-live-at-the-count-basie-center-for-the-arts-red-bank-nj,4
+  - 2024-10-20-live-at-tarrytown-music-hall-tarrytown-ny,5
   - 2024-10-18-live-at-college-street-music-hall-new-haven-ct,4
   - 2024-10-17-live-at-troy-savings-bank-music-hall-troy-ny,5
   - 2024-10-16-live-at-mtelus-montreal-quebec,5
@@ -265,6 +267,7 @@ reddit for balls
 
 - take care/just sayin (o.j. simpson's catchphrase)
 
+  - 2024-10-20-live-at-tarrytown-music-hall-tarrytown-ny,1:02+
   - 2024-07-29-royal-oak-music-theatre-royal-oak,72+
   - 2024-07-29-royal-oak-music-theatre-royal-oak,62+
   - 2024-07-29-royal-oak-music-theatre-royal-oak,54+
@@ -968,6 +971,7 @@ reddit for balls
   - 132,6:30
   - 447,50:45(pw)
 - no rule against dogs playing (football|basketball)
+  - 2024-10-20-live-at-tarrytown-music-hall-tarrytown-ny,40+
   - 2024-08-14-crest-theatre-sacramento,36
   - 2024-08-05-fitzgerald-theatre-st-paul,56
   - 2024-08-03-chicago-theatre-chicago,26
@@ -2630,6 +2634,7 @@ reddit for balls
 
 - interesting people (humanity's, america's podcast etc)
 
+  - 2024-10-21-live-at-the-count-basie-center-for-the-arts-red-bank-nj,1:36+
   - 2024-10-17-live-at-troy-savings-bank-music-hall-troy-ny,1:48+
   - 2024-06-13-boston-wilbur,25+
   - 849,0:45+
