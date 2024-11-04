@@ -2,6 +2,7 @@
 
 0. SHIMMY!
 1. zouks' (usually) "what do you mean?" (but shimmy asked about ogre glasses, also)
+2. nephew todd's list of things he hears scott doing at night
 1. fix fugees "one time" - no doubt its a ref to _killing me softly_ and not any other fugees track
 1. process wet day
 1. fix eluc of vicar of yanks bit
