@@ -77,6 +77,7 @@
   - 866,3+
   
 - all out of bleeps/editing machine is broken
+  - 895,1:22:00+
   - 886,38+
   - 883,35+
   - 882,44+
@@ -92,6 +93,10 @@
   - 852,41+
   - 813,48
   - 813,35:15
+
+- famous lover of blowjobs
+  - 889,8+
+  - many, many prior
 
 - staff up/write on snl
 
@@ -224,6 +229,8 @@
 
 - notorious terf jk rowling
 
+  - 892,6+
+  - 889,59+
   - 870,21:20+
   - 857,1:04:00+
   - bo2023.3,39:30
@@ -672,6 +679,10 @@ reddit for balls
 
 - shimmy lincoln appears in any way
 
+  - 895,8+
+  - 895,4+
+  - 895,4+
+  - 895,0+
   - 887,20+
   - 887,17+
   - 887,15+
@@ -1021,6 +1032,7 @@ reddit for balls
   - 720,5:00
 
 - thanks, reggie
+  - 890,2+
   - 875,1:12:00+
   - 875,0+
   - 862,0+
@@ -2635,6 +2647,8 @@ reddit for balls
 
 - interesting people (humanity's, america's podcast etc)
 
+  - 894,1+
+  - 893,28+
   - 2024-10-21-live-at-the-count-basie-center-for-the-arts-red-bank-nj,1:36+
   - 2024-10-17-live-at-troy-savings-bank-music-hall-troy-ny,1:48+
   - 2024-06-13-boston-wilbur,25+

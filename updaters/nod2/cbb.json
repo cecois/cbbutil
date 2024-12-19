@@ -1,19 +1,2250 @@
 [
     {
-        "episode": 889,
-        "tstart": null,
-        "tend": null,
-        "instance": null,
+        "episode": 895,
+        "tstart": "15:20",
+        "tend": "15:45",
+        "instance": "Strike three - you're out.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "search",
+            "queryString": null,
+            "scopeNotes":
+            [
+                "workplace of: hoover personae"
+            ]
+        },
+        "hero": null,
+        "location_type": "point",
+        "location_id": "1889",
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Hoover Personae"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "18:20",
+        "tend": "18:45",
+        "instance": "Because I don't want people to make fun of me.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "search",
+            "queryString": null,
+            "scopeNotes":
+            [
+                "workplace of: hoover personae"
+            ]
+        },
+        "hero": null,
+        "location_type": "point",
+        "location_id": "1889",
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Hoover Personae"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "9:40",
+        "tend": "10:00",
+        "instance": "An un-American swap?",
+        "bit": "Oh Boy",
+        "elucidation": "something is disgusting in some way",
         "hero": null,
         "location_type": null,
         "location_id": null,
-        "updated_at": "2024-11-04T06:51:29.000-04:00",
-        "created_at": "2024-11-04T06:51:29.000-04:00",
-        "slug_earwolf": null,
-        "episode_title": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
         "episode_guests":
-        [],
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
         "tags":
         []
+    },
+    {
+        "episode": 895,
+        "tstart": "1:22:45",
+        "tend": "1:23:00",
+        "instance": "I can just go to womens' prisons?",
+        "bit": "Oh Boy",
+        "elucidation": "something is disgusting in some way",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Terry Alamander"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "22:30",
+        "tend": "23:00",
+        "instance": "You're asking what was my intention as a little boy?",
+        "bit": "Oh Boy",
+        "elucidation": "something is disgusting in some way",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Hoover Personae"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "21:45",
+        "tend": "22:00",
+        "instance": "Yes, I spit down people's chimneys.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "geo",
+            "queryString": "new orleans, la",
+            "scopeNotes":
+            [
+                "hometown of: hoover personae"
+            ]
+        },
+        "hero": null,
+        "location_type": "point",
+        "location_id": "143",
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Hoover Personae"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "28:30",
+        "tend": "29:00",
+        "instance": "In what way?",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Hoover Personae",
+            "My Sharona (song)",
+            "The Knack (musical combination)"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "30:15",
+        "tend": "30:45",
+        "instance": "They slipped a mickey in my milkshake.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Hoover Personae",
+            "Get Me to the Church on Time (song)",
+            "Frederick Loewe",
+            "Alan Jay Lerner"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "32:15",
+        "tend": "33:00",
+        "instance": "It's an inorganic grocery store with an unauthorized circular?",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "search",
+            "queryString": "non-organic grocery store in garden grove, ca",
+            "scopeNotes":
+            [
+                "proxy for: grocery queen (grocery store); workplace of: hoover personae's nemesis"
+            ]
+        },
+        "hero": null,
+        "location_type": "point",
+        "location_id": "2056",
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Hoover Personae"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "33:45",
+        "tend": "34:30",
+        "instance": "Not very good bookends.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Hoover Personae",
+            "Ironic (song)",
+            "Alanis Morissette"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "37:35",
+        "tend": "38:00",
+        "instance": "It is the holidays, of course.",
+        "bit": "Blech",
+        "elucidation": "ho ho's pukes",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Ho Ho"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "40:00",
+        "tend": "40:20",
+        "instance": "You're such a Scrooge.",
+        "bit": "Blech",
+        "elucidation": "ho ho's pukes",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Ho Ho"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "37:35",
+        "tend": "38:05",
+        "instance": "My dick is a candy cane, bitches.",
+        "bit": "Ho-Ho!",
+        "elucidation": "ho ho's catchphrase",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Ho Ho"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "1:23:15",
+        "tend": "1:23:45",
+        "instance": "Can I have that dollar as a blanket?",
+        "bit": "Ho-Ho!",
+        "elucidation": "ho ho's catchphrase",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Ho Ho",
+            "Terry Alamander"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "1:14:10",
+        "tend": "1:14:20",
+        "instance": "They're all doing their catchphrases.",
+        "bit": "Ho-Ho!",
+        "elucidation": "ho ho's catchphrase",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Ho Ho"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "38:30",
+        "tend": "38:50",
+        "instance": "I got distracted by this bag of candy coming at me.",
+        "bit": "Ho-Ho!",
+        "elucidation": "ho ho's catchphrase",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Ho Ho",
+            "Hoover Personae"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "38:40",
+        "tend": "39:00",
+        "instance": "How do you have time to be on this show?",
+        "bit": "Ho-Ho!",
+        "elucidation": "ho ho's catchphrase",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Ho Ho"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "38:50",
+        "tend": "39:00",
+        "instance": "What's big this year for terrible things?",
+        "bit": "Ho-Ho!",
+        "elucidation": "ho ho's catchphrase",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Ho Ho"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "38:50",
+        "tend": "39:00",
+        "instance": "You gives out knives and weapons of all sorts.",
+        "bit": "Ho-Ho!",
+        "elucidation": "ho ho's catchphrase",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Ho Ho"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "42:40",
+        "tend": "43:00",
+        "instance": "I'm just a little guy.",
+        "bit": "Ho-Ho!",
+        "elucidation": "ho ho's catchphrase",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Ho Ho",
+            "Hoover Personae"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "45:40",
+        "tend": "46:10",
+        "instance": "I have a long tongue like a special lizard.",
+        "bit": "Ho-Ho!",
+        "elucidation": "ho ho's catchphrase",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Ho Ho"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "45:55",
+        "tend": "46:05",
+        "instance": "We're gonna have more Jason.",
+        "bit": "Ho-Ho!",
+        "elucidation": "ho ho's catchphrase",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Ho Ho"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "46:20",
+        "tend": "46:35",
+        "instance": "I'd love a Christmas song with 'heynong man' in it.",
+        "bit": "Ho-Ho!",
+        "elucidation": "ho ho's catchphrase",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Ho Ho"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "47:40",
+        "tend": "48:00",
+        "instance": "I think we just discovered that Ho Ho pees yellow snow.",
+        "bit": "Ho-Ho!",
+        "elucidation": "ho ho's catchphrase",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Ho Ho"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "41:30",
+        "tend": "41:45",
+        "instance": "Those ghosts should have been talking about that.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Ho Ho",
+            "Underneath the Tree (song)",
+            "Kelly Clarkson"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "41:50",
+        "tend": "42:10",
+        "instance": "Do you only sing Christmas songs?",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Ho Ho",
+            "Hark! The Herald Angels Sing (song)"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "42:00",
+        "tend": "42:45",
+        "instance": "Do you only sing Christmas songs?",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Ho Ho",
+            "God Rest You Merry, Gentlemen (song)"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "42:50",
+        "tend": "43:15",
+        "instance": "And you throw a big blanket.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Ho Ho",
+            "Big Poppa (song)",
+            "The Notorious B.I.G."
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "46:30",
+        "tend": "47:30",
+        "instance": "let's hear them jizzing, squizzing \\ and gooing all of that goo",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Ho Ho",
+            "Sleigh Ride",
+            "Leroy Anderson",
+            "Mitchell Parish"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "51:55",
+        "tend": "52:05",
+        "instance": "Do you have any songs about sixpence?",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Tony Sony",
+            "Kiss Me (song)",
+            "Sixpense None the Richer (musical combination)"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "46:15",
+        "tend": "46:30",
+        "instance": "You know the lingo and the jargon - I love that.",
+        "bit": "Heynong Man",
+        "elucidation": "the cbb sorbet",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Hoover Personae"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "49:30",
+        "tend": "49:45",
+        "instance": "Best pizza of your fucking life.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "search",
+            "queryString": null,
+            "scopeNotes":
+            []
+        },
+        "hero": null,
+        "location_type": "point",
+        "location_id": "1827",
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Tony Sony"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "51:20",
+        "tend": "52:00",
+        "instance": "I take a break during Christmas for the sweet baby Jesus.",
+        "bit": "Ho-Ho!",
+        "elucidation": "ho ho's catchphrase",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Tony Sony",
+            "Ho Ho"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "57:45",
+        "tend": "58:00",
+        "instance": "I really think that you and Ho Ho should collab.",
+        "bit": "Ho-Ho!",
+        "elucidation": "ho ho's catchphrase",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Tony Sony",
+            "Ho Ho"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "1:03:15",
+        "tend": "1:03:45",
+        "instance": "And my favorite cartoon - Gaffy Guck.",
+        "bit": "Ho-Ho!",
+        "elucidation": "ho ho's catchphrase",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Ho Ho"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "1:12:15",
+        "tend": "1:12:28",
+        "instance": "You love laying pipe.",
+        "bit": "Ho-Ho!",
+        "elucidation": "ho ho's catchphrase",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Ho Ho",
+            "Room Tone Tony Nails"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "52:40",
+        "tend": "53:00",
+        "instance": "This one goes out to all the goomahs.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Tony Sony",
+            "Santa Baby (song)",
+            "Joan Javits",
+            "Philip Springer"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "57:45",
+        "tend": "58:20",
+        "instance": "I really think that you and Ho Ho should collab.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Tony Sony",
+            "Ho Ho",
+            "Baby, It's Cold Outside (song)",
+            "Frank Loesser"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "57:45",
+        "tend": "58:20",
+        "instance": "I really think that you and Ho Ho should collab.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Tony Sony",
+            "Ho Ho",
+            "Tossed Salad and Scrambled Eggs (song)",
+            "Kelsey Grammer",
+            "Bruce Miller"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "59:15",
+        "tend": "59:45",
+        "instance": "would you like to jizz on a star \\ carry moon jizz off in a jar",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Room Tone Tony Nails",
+            "Swinging on a Star (song)",
+            "Jimmy Van Heusen",
+            "Johnny Burke"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "1:00:00",
+        "tend": "1:00:45",
+        "instance": "I haven't been doing a lot of room tone lately.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Room Tone Tony Nails",
+            "Hoover Personae",
+            "Memory (song)",
+            "Andrew Lloyd Webber",
+            "Ho Ho"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "1:00:00",
+        "tend": "1:00:45",
+        "instance": "I haven't been doing a lot of room tone lately.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Room Tone Tony Nails",
+            "The Way We Were (song)",
+            "Barbra Streisand",
+            "Ho Ho"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "1:00:00",
+        "tend": "1:00:45",
+        "instance": "I haven't been doing a lot of room tone lately.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Room Tone Tony Nails",
+            "Santa Baby (song)",
+            "Joan Javits",
+            "Philip Springer",
+            "Tony Sony",
+            "Ho Ho"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "1:04:15",
+        "tend": "1:05:00",
+        "instance": "Who's O.J. Leno?",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Tony Sony",
+            "Old MacDonald Had a Farm (song)"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "1:05:15",
+        "tend": "1:05:33",
+        "instance": "Um, liquid metal?",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Tony Sony",
+            "Black or White (song)",
+            "Hoover Personae",
+            "Michael Jackson"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "1:08:10",
+        "tend": "1:08:30",
+        "instance": "What about the Union of the Snake?",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Hoover Personae",
+            "Union of the Snake (song)",
+            "Room Tone Tony Nails",
+            "Duran Duran (musical combination)"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "1:14:10",
+        "tend": "1:14:30",
+        "instance": "sleigh not like us \\ sleigh not like us",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Room Tone Tony Nails",
+            "Not Like Us (song)",
+            "Kendrick Lamar"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "1:15:40",
+        "tend": "1:16:00",
+        "instance": "You've got a foal in the fam?",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Terry Alamander",
+            "Ho Ho",
+            "You've Got a Friend in Me (song)",
+            "Randy Newman"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "1:19:00",
+        "tend": "1:19:30",
+        "instance": "He 'kinta wanta'?",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Terry Alamander",
+            "Tony Sony",
+            "Superhero (Main Theme from 'Entourage') (song)",
+            "TV (musical combination)"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "1:21:20",
+        "tend": "1:21:50",
+        "instance": "That's just book money.",
+        "bit": "Any of the Cake Money",
+        "elucidation": "leno's financial plan",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Terry Alamander"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "1:35:50",
+        "tend": "1:36:10",
+        "instance": "I gotta go-go.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Terry Alamander",
+            "Wham! (musical combination)",
+            "Wake Me Up Before You Go-Go (song)"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "1:35:55",
+        "tend": "1:36:10",
+        "instance": "wake me up before i ho-ho \\ cuz i'm not jizzing any snow-snow",
+        "bit": "Blech",
+        "elucidation": "ho ho's pukes",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Ho Ho"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "1:36:19",
+        "tend": "1:36:35",
+        "instance": "The holiday Heynong Man is here.",
+        "bit": "Heynong Man",
+        "elucidation": "the cbb sorbet",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        []
+    },
+    {
+        "episode": 895,
+        "tstart": "1:37:15",
+        "tend": "1:37:35",
+        "instance": "say it ain't cum \\ your jizz is a heartbreaker",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Weezer (musical combination)",
+            "Room Tone Tony Nails",
+            "Say it Ain't So (song)"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "1:48:10",
+        "tend": "1:48:30",
+        "instance": "These are two guns.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Aerosmith (musical combination)",
+            "Papa Mia",
+            "Walk This Way (song)"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "1:50:10",
+        "tend": "1:50:28",
+        "instance": "After an exhausting workday I just want to play an hour of video games.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Alice in Chains (musical combination)",
+            "Papa Mia",
+            "Man in the Box (song)"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "2:12:45",
+        "tend": "2:13:00",
+        "instance": "A Tale of Presidents and Primaries",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Primus (musical combination)",
+            "Hoover Personae",
+            "Schoolteacher Glen",
+            "Wynona's Big Brown Beaver (song)"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "2:13:30",
+        "tend": "2:13:45",
+        "instance": "What's one of the songs?",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Schoolteacher Glen",
+            "Jingle Bells (song)",
+            "Room Tone Tony Nails"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "2:14:20",
+        "tend": "2:14:45",
+        "instance": "So really: three.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Schoolteacher Glen",
+            "Hoover Personae",
+            "My Humps (song)",
+            "The Black Eyed Peas (musical combination)",
+            "Room Tone Tony Nails"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "2:21:00",
+        "tend": "2:21:20",
+        "instance": "It's narratively continuous.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Schoolteacher Glen",
+            "Hoover Personae",
+            "Sleigh Ride (song)"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "2:21:50",
+        "tend": "2:22:10",
+        "instance": "Enter: Savago",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Schoolteacher Glen",
+            "Mike Savago",
+            "Metallica (musical combination)",
+            "Enter Sandman (song)"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "2:23:30",
+        "tend": "2:24:10",
+        "instance": "Weird zoning.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "search",
+            "queryString": "school for criminally insane children (near a prison)",
+            "scopeNotes":
+            [
+                "proxy for: pembroke elementary school; site of: glen, missing the 2024 christmas pageant"
+            ]
+        },
+        "hero": null,
+        "location_type": "poly",
+        "location_id": "1605",
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Schoolteacher Glen"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "2:30:50",
+        "tend": "2:31:10",
+        "instance": "Would you like a chef who secretly hides a screw in your spaghetti, baby?",
+        "bit": "You Say 'Baby' Too?",
+        "elucidation": "somebody says baby also",
+        "hero":
+        {
+            "on": true,
+            "attrib": "DeLuca's Chophouse"
+        },
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "DeLuca's Chophouse"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "2:37:30",
+        "tend": "2:37:41",
+        "instance": "In two days it's my birthday.",
+        "bit": "Fantastic.",
+        "elucidation": "one of scott's 25 words",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        []
+    },
+    {
+        "episode": 895,
+        "tstart": "2:38:52",
+        "tend": "2:39:00",
+        "instance": "That's a lot of seasons - I love that.",
+        "bit": "Fantastic.",
+        "elucidation": "one of scott's 25 words",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Papa Mia"
+        ]
+    },
+    {
+        "episode": 895,
+        "tstart": "2:41:05",
+        "tend": "2:41:45",
+        "instance": "jizz jizz jizz \\ on van nuys",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2024-12-16T06:51:29.000-04:00",
+        "created_at": "2024-12-16T06:51:29.000-04:00",
+        "slug_earwolf": "2024-holiday-spectacular",
+        "episode_title": "2024 Holiday Spectacular",
+        "episode_guests":
+        [
+            "Dan Lippert",
+            "Gil Ozeri",
+            "Jason Mantzoukas",
+            "Jessica McKenna",
+            "Lauren Lapkus",
+            "Lily Sullivan",
+            "Paul F. Tompkins",
+            "Shaun Diston",
+            "Vic Michaelis",
+            "Will Hines"
+        ],
+        "tags":
+        [
+            "Keyes on Van Nuys (song)"
+        ]
     }
 ]
