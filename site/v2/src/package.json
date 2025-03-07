@@ -27,7 +27,7 @@
     "jquery": "^3.2.1",
     "leaflet": "^1.2.0",
     "moment": "^2.18.1",
-    "mongodb": "^2.2.31",
+    "mongodb": "^3.1.13",
     "nprogress": "^0.2.0",
     "request-promise": "^4.2.1",
     "solr-client": "^0.7.0",
