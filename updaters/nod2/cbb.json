@@ -1,2315 +1,838 @@
 [
     {
-        "episode": 896,
-        "tstart": "0:25",
-        "tend": "1:00",
-        "instance": "everybody wants \\ to listen to scott",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Ariana Grande",
-            "Nicki Minaj",
-            "Jessie J",
-            "Bang Bang (song)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "1:00",
-        "tend": "1:10",
-        "instance": "it's a celebration",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Chic (musical combination)",
-            "Le Freak (song)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "1:30",
-        "tend": "1:45",
-        "instance": "all i want for christmas \\ is jews",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "All I Want For Christmas Is You (song)",
-            "Mariah Carey"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "2:30",
-        "tend": "2:45",
-        "instance": "and all we want \\ is freaking jews",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "All I Want For Christmas Is You (song)",
-            "Mariah Carey"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "2:40",
-        "tend": "2:55",
-        "instance": "Every Christmas song is a Jewish anthem.",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Rudolph the Red-Nosed Reindeer (song)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "10:20",
-        "tend": "10:30",
-        "instance": "Your underwear is so weird.",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Happy Holiday (song)",
-            "Irving Berlin"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "11:00",
-        "tend": "11:45",
-        "instance": "i'll be home for christmas \\ i'm sorry i went away",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "I'll Be Home for Christmas (song)",
-            "Kim Gannon",
-            "Walter Kent"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "11:25",
-        "tend": "11:45",
-        "instance": "Yeah, Bing Crosby - The Whistler.",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "The Entertainer (song)",
-            "Billy Joel"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "12:00",
-        "tend": "12:45",
-        "instance": "How good are you at whistling?",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Jingle Bells (song)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "12:00",
-        "tend": "12:45",
-        "instance": "How good are you at whistling?",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Doubleback (song)",
-            "ZZ Top (musical combination)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "14:10",
-        "tend": "14:30",
-        "instance": "Do you like the movie, 'Ghost'?",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "I Shot the Sheriff (song)",
-            "Bob Marley",
-            "Ghost (film)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "14:10",
-        "tend": "14:30",
-        "instance": "Do you like the movie, 'Ghost'?",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "It Only Makes Me Laugh (song)",
-            "Danny Elfman",
-            "Ghost (film)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "14:30",
-        "tend": "15:10",
-        "instance": "He was also in a band.",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Jack's Lament (song)",
-            "Danny Elfman"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "16:20",
-        "tend": "16:30",
-        "instance": "danny \\ can you hear me",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Tommy Can You Hear Me? (song)",
-            "The Who (musical combination)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "17:20",
-        "tend": "17:45",
-        "instance": "Let's just go to the ocean.",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Walk on the Ocean (song)",
-            "Toad the Wet Sprocket (musical combination)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "20:40",
-        "tend": "21:00",
-        "instance": "Anyway, we're back.",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "My Boyfriend's Back (song)",
-            "The Angels (musical combination)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "20:40",
-        "tend": "21:00",
-        "instance": "Anyway, we're back.",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Hess Truck Jingle (song)",
-            "The Angels (musical combination)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "24:15",
-        "tend": "24:45",
-        "instance": "I don't bigtime anybody.",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "unk (song)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "26:50",
-        "tend": "27:15",
-        "instance": "You've had your hand up Miss Piggy for centuries, at this point.",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Oh Yeah (song)",
-            "Yello (musical combination)",
-            "Frank Oz",
-            "Miss Piggy"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "27:10",
-        "tend": "27:25",
-        "instance": "How about this one?",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Mr. Sandman (song)",
-            "Pat Ballard"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: prompt",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "The Christmas Song (song)",
-            "Mel Tormé",
-            "Bob Wells"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: christmas",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Sleigh Ride (song)",
-            "Leroy Anderson",
-            "Mitchell Parish"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: weather",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "It's Raining Men (song)",
-            "The Weather Girls (musical combination)",
-            "Paul Jabara",
-            "Paul Shaffer"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: man",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Shania Twain",
-            "Man! I Feel Like A Woman (song)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: (?)",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Oh Yeah (song)",
-            "Yello (musical combination)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: (?)",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Wheels on the Bus (song)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: town",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "unk (song)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: on fire",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Rock Master Scott & the Dynamic Three (musical combination)",
-            "The Roof is on Fire (song)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: on fire",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Get Low (song)",
-            "Lil Jon & The East Side Boyz (musical combination)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: walls",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "We're Off to See the Wizard (song)",
-            "Harold Arlen"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: wizard of oz",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Defying Gravity (song)",
-            "Stephen Schwartz"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: stop",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "We Didn't Start the Fire (song)",
-            "Billy Joel"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: we",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "We Got the Beat (song)",
-            "The Go-Go's"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: (?)",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "The Christmas Song (song)",
-            "Mel Tormé",
-            "Bob Wells"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: christmas",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Christmas Time Is Here (song)",
-            "Vince Guaraldi",
-            "Lee Mendelson"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: christmas",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Sleigh Ride (song)",
-            "Leroy Anderson",
-            "Mitchell Parish"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: you",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "We Didn't Start the Fire (song)",
-            "Billy Joel"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: billy joel",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Piano Man (song)",
-            "Billy Joel"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: (doo wop)",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "The Overtones (musical combination)",
-            "Goodnight Sweetheart (song)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: (a little night music)",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Cats (musical)",
-            "Memories (song)",
-            "Andrew Lloyd Webber"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: musicals",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Some Enchanted Evening (song)",
-            "Richard Rodgers",
-            "Oscar Hammerstein II",
-            "South Pacific (musical)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: floor",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Get Low (song)",
-            "Lil Jon & The East Side Boyz (musical combination)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: floor",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Get Low (song)",
-            "Lil Jon & The East Side Boyz (musical combination)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: low",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Low (song)",
-            "Flo Rida"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: (?)",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Rudolph the Red-Nosed Reindeer (song)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: christmas",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "What's This? (song)",
-            "Danny Elfman"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: (long vowel)",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Cats (musical)",
-            "Memories (song)",
-            "Andrew Lloyd Webber"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: (musicals)",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Send in the Clowns (song)",
-            "Stephen Sondheim"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: don't",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Don't Cry for Me Argentina (song)",
-            "Andrew Lloyd Webber",
-            "Tim Rice"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: (?)",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "The Final Countdown (song)",
-            "Europe (musical combination)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: ba-ba-ba-ba",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Gonna Fly Now (song)",
-            "Bill Conti",
-            "Carol Connors",
-            "Ayn Robbins"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: bum-bum-bum-bum",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Little Drummer Boy (song)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: bum-bum-bum-bum",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Star Spangled Banner (song)",
-            "Francis Scott Key"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: (?)",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "One Jump Ahead (song)",
-            "Brad Kane"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: aladdin",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Prince Ali (song)",
-            "Alan Menken",
-            "Howard Ashman"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: lover",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "50 Ways to Leave Your Lover (song)",
-            "Paul Simon"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: lover",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Paul Simon",
-            "You Can Call me All (song)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: al",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Fat (song)",
-            "Weird Al Yankovic"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: weird al",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Melanie (song)",
-            "Weird Al Yankovic"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: weird al",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "I Want a New Duck (song)",
-            "Weird Al Yankovic"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: weird al",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "My Generation (song)",
-            "Weird Al Yankovic"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: (stuttering)",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Billy Joel",
-            "Movin' Out (Anthony's Song) (song)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: billy joel",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Billy Joel",
-            "My Life (song)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: billy joel",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Billy Joel",
-            "Scenes from an Italian Restaurant (song)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: bottle of red",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Fred Fassert",
-            "The Regents (musical combination)",
-            "Barbara-Ann (song)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: (?)",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Led Zeppelin (musical combination)",
-            "Immigrant Song (song)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: (?)",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Defying Gravity (song)",
-            "Stephen Schwartz"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: wicked",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Popular (song)",
-            "Stephen Schwartz"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: (popularity?)",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Leader of the Pack (song)",
-            "George (Shadow) Morton",
-            "Jeff Barry",
-            "Ellie Greenwich",
-            "The Shangri-Las (musical combination)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: leader of the pack",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Dentist! (song)",
-            "Little Shop of Horrors (musical)",
-            "Alan Menken",
-            "Howard Ashman"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: cocaine",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Don't Sniff Coke (song)",
-            "Pato Banton"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: (reggae)",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Pass the Dutchie (song)",
-            "Musical Youth (musical combination)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: (scat)",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Scatman (song)",
-            "Scatman John"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: (rhyme)",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Taxman (song)",
-            "The Beatles (musical combination)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: beatles",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Yesterday (song)",
-            "The Beatles (musical combination)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: little shop",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Suddenly Seymour (song)",
-            "Little Shop of Horrors (musical)",
-            "Alan Menken",
-            "Howard Ashman"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: little shop",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Somewhere That's Green (song)",
-            "Little Shop of Horrors (musical)",
-            "Alan Menken",
-            "Howard Ashman"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: green",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Bein' Green (song)",
-            "Joe Raposo"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: somewhere",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Somewhere Out There (song)",
-            "James Horner",
-            "Barry Mann",
-            "Cynthia Weil"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: somewhere",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Over the Rainbow (song)",
-            "Harold Arlen",
-            "Yip Harburg"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: (lullaby)",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Go to Sleep Lullaby (song)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: (?)",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Defying Gravity (song)",
-            "Stephen Schwartz"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: oh",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Star Spangled Banner (song)",
-            "Francis Scott Key"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: C",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "C is for Cookie (song)",
-            "Joe Raposo"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: sesame street",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Rubber Duckie (song)",
-            "Jeff Moss",
-            "Joe Raposo"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: cookie",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
-        "episode_guests":
-        [
-            "Ben Schwartz"
-        ],
-        "tags":
-        [
-            "Nookie (song)",
-            "Limp Bizkit (musical combination)"
-        ]
-    },
-    {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: bum",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
+        "episode": 916,
+        "tstart": "31:00",
+        "tend": "32:00",
+        "instance": "There's so much news.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "geo",
+            "queryString": "university of alabama",
+            "scopeNotes":
+            [
+                "workplace of (2025): biff brisket"
+            ]
+        },
         "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
+        "location_type": "poly",
+        "location_id": "1630",
+        "updated_at": "2025-05-19T06:51:29.000-04:00",
+        "created_at": "2025-05-19T06:51:29.000-04:00",
+        "slug_earwolf": "scream-time",
+        "episode_title": "Scream Time",
         "episode_guests":
         [
-            "Ben Schwartz"
+            "Sarah Silverman",
+            "Erin Keif",
+            "Talia Tabin"
         ],
         "tags":
         [
-            "Sir Mix-a-Lot",
-            "Baby Got Back (song)"
+            "Biff Briskett"
         ]
     },
     {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: (rhythm)",
+        "episode": 916,
+        "tstart": "35:15",
+        "tend": "35:45",
+        "instance": "You're out of a job?",
         "bit": "The Paul Hardcastle of Suicides",
         "elucidation": "any song reference",
         "hero": null,
         "location_type": null,
         "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
+        "updated_at": "2025-05-19T06:51:29.000-04:00",
+        "created_at": "2025-05-19T06:51:29.000-04:00",
+        "slug_earwolf": "scream-time",
+        "episode_title": "Scream Time",
         "episode_guests":
         [
-            "Ben Schwartz"
+            "Sarah Silverman",
+            "Erin Keif",
+            "Talia Tabin"
         ],
         "tags":
         [
-            "Back in Time (song)",
+            "Biff Briskett",
+            "I Want a New Drug (song)",
             "Huey Lewis and the News (musical combination)"
         ]
     },
     {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: (?)",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
+        "episode": 916,
+        "tstart": "42:45",
+        "tend": "43:10",
+        "instance": "They think I'm very, very sick.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "search",
+            "queryString": "ralph's north hollywood",
+            "scopeNotes":
+            [
+                "site of: biff briskett buying curious grocieres"
+            ]
+        },
         "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
+        "location_type": "point",
+        "location_id": "1724",
+        "updated_at": "2025-05-19T06:51:29.000-04:00",
+        "created_at": "2025-05-19T06:51:29.000-04:00",
+        "slug_earwolf": "scream-time",
+        "episode_title": "Scream Time",
         "episode_guests":
         [
-            "Ben Schwartz"
+            "Sarah Silverman",
+            "Erin Keif",
+            "Talia Tabin"
         ],
         "tags":
         [
-            "Singin' in the Rain (song)",
-            "Arthur Freed",
-            "Nacio Herb Brown"
+            "Biff Briskett"
         ]
     },
     {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: happy",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
+        "episode": 916,
+        "tstart": "57:40",
+        "tend": "57:55",
+        "instance": "Toilet-papering a house - does that entail shitting?",
+        "bit": "Who's Paul?",
+        "elucidation": "a character is referred to by the name/pronoun of their player",
         "hero": null,
         "location_type": null,
         "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
+        "updated_at": "2025-05-19T06:51:29.000-04:00",
+        "created_at": "2025-05-19T06:51:29.000-04:00",
+        "slug_earwolf": "scream-time",
+        "episode_title": "Scream Time",
         "episode_guests":
         [
-            "Ben Schwartz"
+            "Sarah Silverman",
+            "Erin Keif",
+            "Talia Tabin"
         ],
         "tags":
         [
-            "Happy (song)",
-            "Pharrell Williams"
+            "Biff Briskett",
+            "Elsie Lynn"
         ]
     },
     {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: happy",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
+        "episode": 916,
+        "tstart": "1:03:20",
+        "tend": "1:03:35",
+        "instance": "'Irons in fires' is maybe a little more common in my neck of the woods.",
+        "bit": "Fantastic.",
+        "elucidation": "one of scott's 25 words",
         "hero": null,
         "location_type": null,
         "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
+        "updated_at": "2025-05-19T06:51:29.000-04:00",
+        "created_at": "2025-05-19T06:51:29.000-04:00",
+        "slug_earwolf": "scream-time",
+        "episode_title": "Scream Time",
         "episode_guests":
         [
-            "Ben Schwartz"
+            "Sarah Silverman",
+            "Erin Keif",
+            "Talia Tabin"
         ],
         "tags":
         [
-            "Happy Birthday to You (song)",
-            "Mildred Jane Hill",
-            "Patty Hill"
+            "Biff Briskett"
         ]
     },
     {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: santa",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
+        "episode": 917,
+        "tstart": "8:55",
+        "tend": "9:30",
+        "instance": "That's a lot of social impressions.",
+        "bit": "Fantastic.",
+        "elucidation": "one of scott's 25 words",
         "hero": null,
         "location_type": null,
         "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
+        "updated_at": "2025-05-26T06:51:29.000-04:00",
+        "created_at": "2025-05-26T06:51:29.000-04:00",
+        "slug_earwolf": "wingo-bingo",
+        "episode_title": "Wingo Bingo",
         "episode_guests":
         [
-            "Ben Schwartz"
+            "Nick Kroll",
+            "Owen Burke",
+            "Hannah Pilkes"
         ],
         "tags":
         [
-            "Frosty the Snowman (song)",
-            "Walter Rollins",
-            "Steve Nelson"
+            "Rich Little"
         ]
     },
     {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: santa",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
+        "episode": 917,
+        "tstart": "14:00",
+        "tend": "14:45",
+        "instance": "Why did you reserve that so long ago?",
+        "bit": "Jeffrey Characterwheaties",
+        "elucidation": "a real sweetheart plays a real dirtbag",
         "hero": null,
         "location_type": null,
         "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
+        "updated_at": "2025-05-26T06:51:29.000-04:00",
+        "created_at": "2025-05-26T06:51:29.000-04:00",
+        "slug_earwolf": "wingo-bingo",
+        "episode_title": "Wingo Bingo",
         "episode_guests":
         [
-            "Ben Schwartz"
+            "Nick Kroll",
+            "Owen Burke",
+            "Hannah Pilkes"
         ],
         "tags":
         [
-            "I Have a Little Dreidel (song)"
+            "Adjacent Mantzoukas"
         ]
     },
     {
-        "episode": 896,
-        "tstart": "39:10",
-        "tend": "59:00",
-        "instance": "Olympic Song Challenge: santa",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
+        "episode": 917,
+        "tstart": "51:45",
+        "tend": "52:30",
+        "instance": "I'm Taft-Hartleyed.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "search",
+            "queryString": "intersection of bonnie brae & 3rd, hollywood, ca",
+            "scopeNotes":
+            [
+                "site of: Bait Turfoil getting accidently taft-hartleyed"
+            ]
+        },
         "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
+        "location_type": "point",
+        "location_id": "2100",
+        "updated_at": "2025-05-26T06:51:29.000-04:00",
+        "created_at": "2025-05-26T06:51:29.000-04:00",
+        "slug_earwolf": "wingo-bingo",
+        "episode_title": "Wingo Bingo",
         "episode_guests":
         [
-            "Ben Schwartz"
+            "Nick Kroll",
+            "Owen Burke",
+            "Hannah Pilkes"
         ],
         "tags":
         [
-            "The Christmas Song (song)",
-            "Mel Tormé",
-            "Bob Wells"
+            "Bait Turfoil",
+            "the rookie (TV)"
         ]
     },
     {
-        "episode": 896,
-        "tstart": "1:02:50",
-        "tend": "1:03:10",
-        "instance": "You gotta bet hard.",
+        "episode": 917,
+        "tstart": "1:02:10",
+        "tend": "1:02:50",
+        "instance": "Road trip!",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "search",
+            "queryString": "mann's chinese theatre",
+            "scopeNotes":
+            [
+                "future site of: Bait Turfoil, Scott Aukerman, and Nick Kroll"
+            ]
+        },
+        "hero": null,
+        "location_type": "poly",
+        "location_id": "107",
+        "updated_at": "2025-05-26T06:51:29.000-04:00",
+        "created_at": "2025-05-26T06:51:29.000-04:00",
+        "slug_earwolf": "wingo-bingo",
+        "episode_title": "Wingo Bingo",
+        "episode_guests":
+        [
+            "Nick Kroll",
+            "Owen Burke",
+            "Hannah Pilkes"
+        ],
+        "tags":
+        [
+            "Bait Turfoil",
+            "Leonard Nimoy",
+            "Benji (dog)"
+        ]
+    },
+    {
+        "episode": 917,
+        "tstart": "1:02:10",
+        "tend": "1:02:50",
+        "instance": "Road trip!",
         "bit": "The Paul Hardcastle of Suicides",
         "elucidation": "any song reference",
         "hero": null,
         "location_type": null,
         "location_id": null,
-        "updated_at": "2024-12-20T06:51:29.000-04:00",
-        "created_at": "2024-12-20T06:51:29.000-04:00",
-        "slug_earwolf": "solo-bolo-ho-ho-holo",
-        "episode_title": "Solo Bolo Ho Ho Holo",
+        "updated_at": "2025-05-26T06:51:29.000-04:00",
+        "created_at": "2025-05-26T06:51:29.000-04:00",
+        "slug_earwolf": "wingo-bingo",
+        "episode_title": "Wingo Bingo",
         "episode_guests":
         [
-            "Ben Schwartz"
+            "Nick Kroll",
+            "Owen Burke",
+            "Hannah Pilkes"
         ],
         "tags":
         [
-            "Ariana Grande",
-            "Nicki Minaj",
-            "Jessie J",
-            "Bang Bang (song)"
+            "Bait Turfoil",
+            "Holiday Road (song)",
+            "Lindsey Buckingham"
+        ]
+    },
+    {
+        "episode": 917,
+        "tstart": "1:03:45",
+        "tend": "1:04:20",
+        "instance": "Oh, our friend from the north.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "geo",
+            "queryString": "quebec",
+            "scopeNotes":
+            [
+                "home to: Pamela the Goose"
+            ]
+        },
+        "hero": null,
+        "location_type": "poly",
+        "location_id": "1631",
+        "updated_at": "2025-05-26T06:51:29.000-04:00",
+        "created_at": "2025-05-26T06:51:29.000-04:00",
+        "slug_earwolf": "wingo-bingo",
+        "episode_title": "Wingo Bingo",
+        "episode_guests":
+        [
+            "Nick Kroll",
+            "Owen Burke",
+            "Hannah Pilkes"
+        ],
+        "tags":
+        [
+            "Pamela the Goose"
+        ]
+    },
+    {
+        "episode": 917,
+        "tstart": "1:07:10",
+        "tend": "1:08:20",
+        "instance": "Because you lay eggs?",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "search",
+            "queryString": "the chicken breast strip club near quebec, canada",
+            "scopeNotes":
+            [
+                "proxy for: the chicken breast (strip club); former workplace of: Pamela the Goose"
+            ]
+        },
+        "hero": null,
+        "location_type": "point",
+        "location_id": "2101",
+        "updated_at": "2025-05-26T06:51:29.000-04:00",
+        "created_at": "2025-05-26T06:51:29.000-04:00",
+        "slug_earwolf": "wingo-bingo",
+        "episode_title": "Wingo Bingo",
+        "episode_guests":
+        [
+            "Nick Kroll",
+            "Owen Burke",
+            "Hannah Pilkes"
+        ],
+        "tags":
+        [
+            "Pamela the Goose"
+        ]
+    },
+    {
+        "episode": 917,
+        "tstart": "1:11:50",
+        "tend": "1:12:50",
+        "instance": "What are some of the bird lullabies?",
+        "bit": "I'd Love to Hear It",
+        "elucidation": "pimping subclass: request for a poem, song, or monologue",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-05-26T06:51:29.000-04:00",
+        "created_at": "2025-05-26T06:51:29.000-04:00",
+        "slug_earwolf": "wingo-bingo",
+        "episode_title": "Wingo Bingo",
+        "episode_guests":
+        [
+            "Nick Kroll",
+            "Owen Burke",
+            "Hannah Pilkes"
+        ],
+        "tags":
+        [
+            "Pamela the Goose"
+        ]
+    },
+    {
+        "episode": 917,
+        "tstart": "1:11:50",
+        "tend": "1:12:50",
+        "instance": "What are some of the bird lullabies?",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-05-26T06:51:29.000-04:00",
+        "created_at": "2025-05-26T06:51:29.000-04:00",
+        "slug_earwolf": "wingo-bingo",
+        "episode_title": "Wingo Bingo",
+        "episode_guests":
+        [
+            "Nick Kroll",
+            "Owen Burke",
+            "Hannah Pilkes"
+        ],
+        "tags":
+        [
+            "Pamela the Goose",
+            "I'm Like a Bird (song)",
+            "Nelly Furtado"
+        ]
+    },
+    {
+        "episode": 917,
+        "tstart": "1:11:50",
+        "tend": "1:12:50",
+        "instance": "What are some of the bird lullabies?",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-05-26T06:51:29.000-04:00",
+        "created_at": "2025-05-26T06:51:29.000-04:00",
+        "slug_earwolf": "wingo-bingo",
+        "episode_title": "Wingo Bingo",
+        "episode_guests":
+        [
+            "Nick Kroll",
+            "Owen Burke",
+            "Hannah Pilkes"
+        ],
+        "tags":
+        [
+            "Pamela the Goose",
+            "Blackbird (song)",
+            "The Beatles (musical combination)"
+        ]
+    },
+    {
+        "episode": 917,
+        "tstart": "1:13:30",
+        "tend": "1:14:30",
+        "instance": "So not just bird songs?",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-05-26T06:51:29.000-04:00",
+        "created_at": "2025-05-26T06:51:29.000-04:00",
+        "slug_earwolf": "wingo-bingo",
+        "episode_title": "Wingo Bingo",
+        "episode_guests":
+        [
+            "Nick Kroll",
+            "Owen Burke",
+            "Hannah Pilkes"
+        ],
+        "tags":
+        [
+            "Pamela the Goose",
+            "Fly Away (song)",
+            "Lenny Kravitz"
+        ]
+    },
+    {
+        "episode": 917,
+        "tstart": "1:13:30",
+        "tend": "1:14:30",
+        "instance": "So not just bird songs?",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-05-26T06:51:29.000-04:00",
+        "created_at": "2025-05-26T06:51:29.000-04:00",
+        "slug_earwolf": "wingo-bingo",
+        "episode_title": "Wingo Bingo",
+        "episode_guests":
+        [
+            "Nick Kroll",
+            "Owen Burke",
+            "Hannah Pilkes"
+        ],
+        "tags":
+        [
+            "Pamela the Goose",
+            "Fly Me to the Moon (song)",
+            "Frank Sinatra"
+        ]
+    },
+    {
+        "episode": 917,
+        "tstart": "1:15:30",
+        "tend": "1:16:20",
+        "instance": "This commercial had a live band?",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "search",
+            "queryString": "birds restaurant near hollywood, ca",
+            "scopeNotes":
+            [
+                "site of: Bait Turfoil at lunch, once"
+            ]
+        },
+        "hero": null,
+        "location_type": "point",
+        "location_id": "2102",
+        "updated_at": "2025-05-26T06:51:29.000-04:00",
+        "created_at": "2025-05-26T06:51:29.000-04:00",
+        "slug_earwolf": "wingo-bingo",
+        "episode_title": "Wingo Bingo",
+        "episode_guests":
+        [
+            "Nick Kroll",
+            "Owen Burke",
+            "Hannah Pilkes"
+        ],
+        "tags":
+        [
+            "Bait Turfoil"
+        ]
+    },
+    {
+        "episode": 917,
+        "tstart": "1:16:00",
+        "tend": "1:16:30",
+        "instance": "They all have their shit together?",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "search",
+            "queryString": "la poubelle",
+            "scopeNotes":
+            [
+                "not the site of: Bait Turfoil counciling grief"
+            ]
+        },
+        "hero": null,
+        "location_type": "point",
+        "location_id": "25",
+        "updated_at": "2025-05-26T06:51:29.000-04:00",
+        "created_at": "2025-05-26T06:51:29.000-04:00",
+        "slug_earwolf": "wingo-bingo",
+        "episode_title": "Wingo Bingo",
+        "episode_guests":
+        [
+            "Nick Kroll",
+            "Owen Burke",
+            "Hannah Pilkes"
+        ],
+        "tags":
+        [
+            "Bait Turfoil"
+        ]
+    },
+    {
+        "episode": 917,
+        "tstart": "1:16:00",
+        "tend": "1:16:30",
+        "instance": "They all have their shit together?",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "search",
+            "queryString": "bougouis pig restaurant, hollywood",
+            "scopeNotes":
+            [
+                "site of: Bait Turfoil counciling trauma"
+            ]
+        },
+        "hero": null,
+        "location_type": "poly",
+        "location_id": "1632",
+        "updated_at": "2025-05-26T06:51:29.000-04:00",
+        "created_at": "2025-05-26T06:51:29.000-04:00",
+        "slug_earwolf": "wingo-bingo",
+        "episode_title": "Wingo Bingo",
+        "episode_guests":
+        [
+            "Nick Kroll",
+            "Owen Burke",
+            "Hannah Pilkes"
+        ],
+        "tags":
+        [
+            "Bait Turfoil"
+        ]
+    },
+    {
+        "episode": 917,
+        "tstart": "1:20:30",
+        "tend": "1:21:00",
+        "instance": "I flew Alaska.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "search",
+            "queryString": "newark international airport",
+            "scopeNotes":
+            [
+                "site of: Pamela the Goose during a layover in 2025"
+            ]
+        },
+        "hero": null,
+        "location_type": "poly",
+        "location_id": "215",
+        "updated_at": "2025-05-26T06:51:29.000-04:00",
+        "created_at": "2025-05-26T06:51:29.000-04:00",
+        "slug_earwolf": "wingo-bingo",
+        "episode_title": "Wingo Bingo",
+        "episode_guests":
+        [
+            "Nick Kroll",
+            "Owen Burke",
+            "Hannah Pilkes"
+        ],
+        "tags":
+        [
+            "Pamela the Goose"
+        ]
+    },
+    {
+        "episode": 917,
+        "tstart": "1:24:30",
+        "tend": "1:25:00",
+        "instance": "They have a good cheeseburger, I've heard.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "search",
+            "queryString": "jumbo's clown room",
+            "scopeNotes":
+            [
+                "site of: Pamela the Goose, stripping in Spring 2025"
+            ]
+        },
+        "hero": null,
+        "location_type": "point",
+        "location_id": "1638",
+        "updated_at": "2025-05-26T06:51:29.000-04:00",
+        "created_at": "2025-05-26T06:51:29.000-04:00",
+        "slug_earwolf": "wingo-bingo",
+        "episode_title": "Wingo Bingo",
+        "episode_guests":
+        [
+            "Nick Kroll",
+            "Owen Burke",
+            "Hannah Pilkes"
+        ],
+        "tags":
+        [
+            "Pamela the Goose"
+        ]
+    },
+    {
+        "episode": 917,
+        "tstart": "35:00",
+        "tend": "36:00",
+        "instance": "Any deaths, recently?",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "search",
+            "queryString": "hvac repair school near los angeles, ca",
+            "scopeNotes":
+            [
+                "possible alma mater of: Bait Turfoil"
+            ]
+        },
+        "hero": null,
+        "location_type": "point",
+        "location_id": "2103",
+        "updated_at": "2025-05-26T06:51:29.000-04:00",
+        "created_at": "2025-05-26T06:51:29.000-04:00",
+        "slug_earwolf": "wingo-bingo",
+        "episode_title": "Wingo Bingo",
+        "episode_guests":
+        [
+            "Nick Kroll",
+            "Owen Burke",
+            "Hannah Pilkes"
+        ],
+        "tags":
+        [
+            "Bait Turfoil"
+        ]
+    },
+    {
+        "episode": 917,
+        "tstart": "46:35",
+        "tend": "47:15",
+        "instance": "Can I ask about your background a little bit?",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "search",
+            "queryString": "some remote woods near woody harrelson's weed facility",
+            "scopeNotes":
+            [
+                "possible site of: Bait Turfoil being abandoned by his biological parents"
+            ]
+        },
+        "hero": null,
+        "location_type": "point",
+        "location_id": "2104",
+        "updated_at": "2025-05-26T06:51:29.000-04:00",
+        "created_at": "2025-05-26T06:51:29.000-04:00",
+        "slug_earwolf": "wingo-bingo",
+        "episode_title": "Wingo Bingo",
+        "episode_guests":
+        [
+            "Nick Kroll",
+            "Owen Burke",
+            "Hannah Pilkes"
+        ],
+        "tags":
+        [
+            "Bait Turfoil"
+        ]
+    },
+    {
+        "episode": 917,
+        "tstart": "1:01:20",
+        "tend": "1:02:00",
+        "instance": "You ever squish yourself up in a Craftmatic trying to...?",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "search",
+            "queryString": "a hospital near hollywood, ca",
+            "scopeNotes":
+            [
+                "possible site of: Bait Turfoil attempting a self-fellate"
+            ]
+        },
+        "hero": null,
+        "location_type": "poly",
+        "location_id": "204",
+        "updated_at": "2025-05-26T06:51:29.000-04:00",
+        "created_at": "2025-05-26T06:51:29.000-04:00",
+        "slug_earwolf": "wingo-bingo",
+        "episode_title": "Wingo Bingo",
+        "episode_guests":
+        [
+            "Nick Kroll",
+            "Owen Burke",
+            "Hannah Pilkes"
+        ],
+        "tags":
+        [
+            "Bait Turfoil"
+        ]
+    },
+    {
+        "episode": 917,
+        "tstart": "1:15:00",
+        "tend": "1:16:00",
+        "instance": "You can really taste the spit.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "search",
+            "queryString": "a radio studio near birds restaurant in los angeles, ca",
+            "scopeNotes":
+            [
+                "possible site of: Bait Turfoil, stumbling upon a Pringles commercial recording"
+            ]
+        },
+        "hero": null,
+        "location_type": "point",
+        "location_id": "2105",
+        "updated_at": "2025-05-26T06:51:29.000-04:00",
+        "created_at": "2025-05-26T06:51:29.000-04:00",
+        "slug_earwolf": "wingo-bingo",
+        "episode_title": "Wingo Bingo",
+        "episode_guests":
+        [
+            "Nick Kroll",
+            "Owen Burke",
+            "Hannah Pilkes"
+        ],
+        "tags":
+        [
+            "Bait Turfoil"
+        ]
+    },
+    {
+        "episode": 917,
+        "tstart": "1:16:50",
+        "tend": "1:17:10",
+        "instance": "Okay, brag a lot.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "search",
+            "queryString": "the hungry cat restaurant near los angeles, ca",
+            "scopeNotes":
+            [
+                "occasional site of: Bait Turfoil working on raising his cholesterol"
+            ]
+        },
+        "hero": null,
+        "location_type": "point",
+        "location_id": "2106",
+        "updated_at": "2025-05-26T06:51:29.000-04:00",
+        "created_at": "2025-05-26T06:51:29.000-04:00",
+        "slug_earwolf": "wingo-bingo",
+        "episode_title": "Wingo Bingo",
+        "episode_guests":
+        [
+            "Nick Kroll",
+            "Owen Burke",
+            "Hannah Pilkes"
+        ],
+        "tags":
+        [
+            "Bait Turfoil",
+            "Pamela the Goose"
         ]
     }
 ]

@@ -43,18 +43,23 @@
 1. subepisodes
 
 - music man plot logic
+  - (many more - see 2024 tour also)
+  - 900,54+ 
+  - 900,21+
   - 887,37+
-  - 886,?
+  - 886,46+
 
 - we are friends and we like each other
+  - 886,1:00:45+
+  - 850,50
   - 2024-09-11-liberty-hall-dublin,41+
-  - a thousand prior
+  - a thousand prior and after
 
 - no dings
 
   - 863,0+
   - 863,42+
-  - 850,?
+  - 850,45
   - https://podscripts.co/podkeywordsearch/?search_type=basic&podSelectedId=27&keywordsToSearch=dings
 
 - cal solomon's medical history
@@ -77,6 +82,12 @@
   - 866,3+
   
 - all out of bleeps/editing machine is broken
+  - 914,39+
+  - 914,38+
+  - 914,33+
+  - 2024-12-13-live-at-the-united-theater-on-broadway-los-angeles-ca,19+
+  - 902,19+
+  - 901,1+
   - 895,1:22:00+
   - 886,38+
   - 883,35+
@@ -108,6 +119,7 @@
 
 - balcony reports
 
+  - 2024-12-13-live-at-the-united-theater-on-broadway-los-angeles-ca,2
   - 2024-10-21-live-at-the-count-basie-center-for-the-arts-red-bank-nj,4
   - 2024-10-20-live-at-tarrytown-music-hall-tarrytown-ny,5
   - 2024-10-18-live-at-college-street-music-hall-new-haven-ct,4
@@ -165,6 +177,7 @@
 
 - do they ever drop the act?
 
+  - 901,1:10+
   - 882,1:14+
   - 863,1:22+
   - 860,1:12+
@@ -211,6 +224,7 @@
 
 - notorious powerbottom ebenezer scrooge
 
+  - BO2024.3,2+
   - bo2018.\*
   - bo2018.4,15:40(pw)
   - bo2018.4,1:34:45(pw)
@@ -229,6 +243,8 @@
 
 - notorious terf jk rowling
 
+  - 917,47+
+  - 907,4+
   - 892,6+
   - 889,59+
   - 870,21:20+
@@ -275,6 +291,8 @@ reddit for balls
 
 - take care/just sayin (o.j. simpson's catchphrase)
 
+
+  - 908,43 (this is deion sanders tho)
   - 2024-10-20-live-at-tarrytown-music-hall-tarrytown-ny,1:02+
   - 2024-07-29-royal-oak-music-theatre-royal-oak,72+
   - 2024-07-29-royal-oak-music-theatre-royal-oak,62+
@@ -381,6 +399,8 @@ reddit for balls
   - 482,1:03:45(pw)
   - 451,40:00
 * bajillion (or any) call sheet
+  - 907,25
+  - 907,18
   - 879,17
   - 872,1+
   - 822,9+
@@ -679,6 +699,8 @@ reddit for balls
 
 - shimmy lincoln appears in any way
 
+  - 914,1+
+  - 900,10+
   - 895,8+
   - 895,4+
   - 895,4+
@@ -2140,8 +2162,10 @@ reddit for balls
   - 507,39:00
   - 507,1:04:50
   - 479,29:00(pw)
+
 * don't joke about irobot
 
+  - 909,23+
   - 877,1+
   - 813,1:03:00+
   - 781,55:50
@@ -2574,6 +2598,7 @@ reddit for balls
   -
 - we'll pay for it (if you wanna go on another date)
 
+  - 2025-03-08-live-at-sxsw,52+
   - 2024-10-18-live-at-college-street-music-hall-new-haven-ct,1:16+
   - 2024-09-06-hackney-empire-london,1:42:00+
   - 878,37+
@@ -2645,8 +2670,13 @@ reddit for balls
   - live-from-vulture-fest-2017,1:35:00
   - 434,9:30(pw)[]()
 
-- interesting people (humanity's, america's podcast etc)
+- interesting people (humanity's, america's, animal kingdom's podcast, we care, etc)
 
+  - 916,0+
+  - several "we care" starting 2025 or so
+  - 914,4+
+  - 911,55+
+  - 910,4+
   - 894,1+
   - 893,28+
   - 2024-10-21-live-at-the-count-basie-center-for-the-arts-red-bank-nj,1:36+
