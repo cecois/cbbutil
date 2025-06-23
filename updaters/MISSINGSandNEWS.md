@@ -82,6 +82,9 @@
   - 866,3+
   
 - all out of bleeps/editing machine is broken
+  - 918,55+
+  - 918,41+
+  - 918,17+
   - 914,39+
   - 914,38+
   - 914,33+
@@ -399,6 +402,9 @@ reddit for balls
   - 482,1:03:45(pw)
   - 451,40:00
 * bajillion (or any) call sheet
+  - 919,23
+  - 919,2
+  - 918,5
   - 907,25
   - 907,18
   - 879,17
@@ -2165,6 +2171,7 @@ reddit for balls
 
 * don't joke about irobot
 
+  - 918,10+
   - 909,23+
   - 877,1+
   - 813,1:03:00+
