@@ -1,21 +1,181 @@
 [
     {
         "episode": 925,
-        "tstart": null,
-        "tend": null,
-        "instance": null,
-        "bit": null,
-        "elucidation": null,
+        "tstart": "5:10",
+        "tend": "5:30",
+        "instance": "And yet the title is quite clunky.",
+        "bit": "Fantastic.",
+        "elucidation": "one of scott's 25 words",
         "hero": null,
         "location_type": null,
         "location_id": null,
         "updated_at": "2025-07-21T06:51:29.000-04:00",
         "created_at": "2025-07-21T06:51:29.000-04:00",
-        "slug_earwolf": null,
-        "episode_title": null,
+        "slug_earwolf": "thong-seduction",
+        "episode_title": "Thong Seduction",
         "episode_guests":
-        [],
+        [
+            "Andy Samberg",
+            "Mitra Jouhari",
+            "Neil Campbell"
+        ],
         "tags":
         []
+    },
+    {
+        "episode": 925,
+        "tstart": "11:20",
+        "tend": "11:45",
+        "instance": "Is that Quentin Tarantino?",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-07-21T06:51:29.000-04:00",
+        "created_at": "2025-07-21T06:51:29.000-04:00",
+        "slug_earwolf": "thong-seduction",
+        "episode_title": "Thong Seduction",
+        "episode_guests":
+        [
+            "Andy Samberg",
+            "Mitra Jouhari",
+            "Neil Campbell"
+        ],
+        "tags":
+        [
+            "Sussudio (song)",
+            "Phil Collins"
+        ]
+    },
+    {
+        "episode": 925,
+        "tstart": "20:20",
+        "tend": "20:45",
+        "instance": "That's so trevor rabin.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-07-21T06:51:29.000-04:00",
+        "created_at": "2025-07-21T06:51:29.000-04:00",
+        "slug_earwolf": "thong-seduction",
+        "episode_title": "Thong Seduction",
+        "episode_guests":
+        [
+            "Andy Samberg",
+            "Mitra Jouhari",
+            "Neil Campbell"
+        ],
+        "tags":
+        [
+            "Owner of a Lonely Heart (song)",
+            "Yes (musical combination)"
+        ]
+    },
+    {
+        "episode": 925,
+        "tstart": "21:20",
+        "tend": "21:45",
+        "instance": "It's a lot like Wicked.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-07-21T06:51:29.000-04:00",
+        "created_at": "2025-07-21T06:51:29.000-04:00",
+        "slug_earwolf": "thong-seduction",
+        "episode_title": "Thong Seduction",
+        "episode_guests":
+        [
+            "Andy Samberg",
+            "Mitra Jouhari",
+            "Neil Campbell"
+        ],
+        "tags":
+        [
+            "Defying Gravity (song)",
+            "Wicked (musical)"
+        ]
+    },
+    {
+        "episode": 925,
+        "tstart": "25:10",
+        "tend": "26:00",
+        "instance": "A superfan of Spoofmas.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-07-21T06:51:29.000-04:00",
+        "created_at": "2025-07-21T06:51:29.000-04:00",
+        "slug_earwolf": "thong-seduction",
+        "episode_title": "Thong Seduction",
+        "episode_guests":
+        [
+            "Andy Samberg",
+            "Mitra Jouhari",
+            "Neil Campbell"
+        ],
+        "tags":
+        [
+            "Human (song)",
+            "The Killers (musical combination)"
+        ]
+    }
+    ,
+    {
+        "episode": 925,
+        "tstart": "25:10",
+        "tend": "26:00",
+        "instance": "A superfan of Spoofmas.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-07-21T06:51:29.000-04:00",
+        "created_at": "2025-07-21T06:51:29.000-04:00",
+        "slug_earwolf": "thong-seduction",
+        "episode_title": "Thong Seduction",
+        "episode_guests":
+        [
+            "Andy Samberg",
+            "Mitra Jouhari",
+            "Neil Campbell"
+        ],
+        "tags":
+        [
+            "All By Myself (song)","Eric Carmen"
+        ]
+    }
+    ,
+    {
+        "episode": 925,
+        "tstart": "25:10",
+        "tend": "26:00",
+        "instance": "A superfan of Spoofmas.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-07-21T06:51:29.000-04:00",
+        "created_at": "2025-07-21T06:51:29.000-04:00",
+        "slug_earwolf": "thong-seduction",
+        "episode_title": "Thong Seduction",
+        "episode_guests":
+        [
+            "Andy Samberg",
+            "Mitra Jouhari",
+            "Neil Campbell"
+        ],
+        "tags":
+        [
+            "Have Yourself a Merry Little Christmas","Hugh Martin","Ralph Blane","Judy Garland"
+        ]
     }
 ]
