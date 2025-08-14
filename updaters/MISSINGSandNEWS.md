@@ -180,6 +180,7 @@
 
 - do they ever drop the act?
 
+  - 927,1:26+
   - 901,1:10+
   - 882,1:14+
   - 863,1:22+
@@ -838,6 +839,7 @@ reddit for balls
   - =384,42:50(pw)
   - =2016.dallas,37:40
 - auggiedoggie
+  - 928,0+
   - tons
   - 515,1:00
   - 450,1:00(pw)
@@ -1461,6 +1463,7 @@ reddit for balls
   - 424,1:20:35(pw)
   - 2016.shepherds,15:00
 - look it up, (scotty|pauly) -
+  - 928,59+
   - 2024-09-10-sugar-club-dublin,28+
   - 819,29+
   - cbb-2022-live-tour-san-antonio-empire,1:25:00+
@@ -2606,6 +2609,7 @@ reddit for balls
   -
 - we'll pay for it (if you wanna go on another date)
 
+  - 925,64+
   - 2025-03-08-live-at-sxsw,52+
   - 2024-10-18-live-at-college-street-music-hall-new-haven-ct,1:16+
   - 2024-09-06-hackney-empire-london,1:42:00+
@@ -2680,6 +2684,7 @@ reddit for balls
 
 - interesting people (humanity's, america's, animal kingdom's podcast, we care, etc)
 
+  - 928,0+
   - 916,0+
   - several "we care" starting 2025 or so
   - 914,4+

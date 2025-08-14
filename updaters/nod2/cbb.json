@@ -1,181 +1,783 @@
 [
     {
-        "episode": 925,
-        "tstart": "5:10",
-        "tend": "5:30",
-        "instance": "And yet the title is quite clunky.",
+        "episode": 928,
+        "tstart": "6:40",
+        "tend": "7:00",
+        "instance": "He came here as a fetus?",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "search",
+            "queryString": "ellis island",
+            "scopeNotes":
+            [
+                "site of: Dr. Dementor, losing the r"
+            ]
+        },
+        "hero": null,
+        "location_type": "poly",
+        "location_id": "420",
+        "updated_at": "2025-08-11T06:51:29.000-04:00",
+        "created_at": "2025-08-11T06:51:29.000-04:00",
+        "slug_earwolf": "sixteen-toilets-and-another-day-older",
+        "episode_title": "Sixteen Toilets And Another Day Older",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Andy Daly"
+        ],
+        "tags":
+        [
+            "Dr. Bill Blondie",
+            "C. Everett Koop",
+            "Dr. Demento"
+        ]
+    },
+    {
+        "episode": 928,
+        "tstart": "20:30",
+        "tend": "20:55",
+        "instance": "It looked like a cardboard box.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-08-11T06:51:29.000-04:00",
+        "created_at": "2025-08-11T06:51:29.000-04:00",
+        "slug_earwolf": "sixteen-toilets-and-another-day-older",
+        "episode_title": "Sixteen Toilets And Another Day Older",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Andy Daly"
+        ],
+        "tags":
+        [
+            "Dr. Bill Blondie",
+            "Happy Birthday to You (song)",
+            "Mildred Jane Hill",
+            "Patty Hill"
+        ]
+    },
+    {
+        "episode": 928,
+        "tstart": "9:00",
+        "tend": "10:00",
+        "instance": "It's all beanbag chairs.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "search",
+            "queryString": "office of the surgeon general of the united states of america",
+            "scopeNotes":
+            [
+                "workplace of: Dr. Bill Blondie in 2025"
+            ]
+        },
+        "hero": null,
+        "location_type": "poly",
+        "location_id": "1651",
+        "updated_at": "2025-08-11T06:51:29.000-04:00",
+        "created_at": "2025-08-11T06:51:29.000-04:00",
+        "slug_earwolf": "sixteen-toilets-and-another-day-older",
+        "episode_title": "Sixteen Toilets And Another Day Older",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Andy Daly"
+        ],
+        "tags":
+        [
+            "Dr. Bill Blondie"
+        ]
+    },
+    {
+        "episode": 928,
+        "tstart": "9:20",
+        "tend": "10:00",
+        "instance": "That means, yes, there's an air hockey table in the bathroom.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-08-11T06:51:29.000-04:00",
+        "created_at": "2025-08-11T06:51:29.000-04:00",
+        "slug_earwolf": "sixteen-toilets-and-another-day-older",
+        "episode_title": "Sixteen Toilets And Another Day Older",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Andy Daly"
+        ],
+        "tags":
+        [
+            "Dr. Bill Blondie",
+            "Mirror in the Bathroom (song)",
+            "The English Beat (musical combination)"
+        ]
+    },
+    {
+        "episode": 928,
+        "tstart": "13:00",
+        "tend": "13:40",
+        "instance": "English Beat?",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-08-11T06:51:29.000-04:00",
+        "created_at": "2025-08-11T06:51:29.000-04:00",
+        "slug_earwolf": "sixteen-toilets-and-another-day-older",
+        "episode_title": "Sixteen Toilets And Another Day Older",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Andy Daly"
+        ],
+        "tags":
+        [
+            "Dr. Bill Blondie",
+            "No More (song)",
+            "Into the Woods (musical)"
+        ]
+    },
+    {
+        "episode": 928,
+        "tstart": "15:40",
+        "tend": "15:55",
+        "instance": "That one you knew.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-08-11T06:51:29.000-04:00",
+        "created_at": "2025-08-11T06:51:29.000-04:00",
+        "slug_earwolf": "sixteen-toilets-and-another-day-older",
+        "episode_title": "Sixteen Toilets And Another Day Older",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Andy Daly"
+        ],
+        "tags":
+        [
+            "Dr. Bill Blondie",
+            "Tennessee (song)",
+            "Arrested Development (musical combination)"
+        ]
+    },
+    {
+        "episode": 928,
+        "tstart": "25:40",
+        "tend": "26:30",
+        "instance": "How did we get there?",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-08-11T06:51:29.000-04:00",
+        "created_at": "2025-08-11T06:51:29.000-04:00",
+        "slug_earwolf": "sixteen-toilets-and-another-day-older",
+        "episode_title": "Sixteen Toilets And Another Day Older",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Andy Daly"
+        ],
+        "tags":
+        [
+            "Dr. Bill Blondie",
+            "American Pie (song)",
+            "The Big Bopper",
+            "Don McLean",
+            "Norm MacDonald"
+        ]
+    },
+    {
+        "episode": 928,
+        "tstart": "25:40",
+        "tend": "26:40",
+        "instance": "I would argue - the invention of the telephone.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-08-11T06:51:29.000-04:00",
+        "created_at": "2025-08-11T06:51:29.000-04:00",
+        "slug_earwolf": "sixteen-toilets-and-another-day-older",
+        "episode_title": "Sixteen Toilets And Another Day Older",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Andy Daly"
+        ],
+        "tags":
+        [
+            "Dr. Bill Blondie",
+            "Chantilly Lace (song)",
+            "The Big Bopper"
+        ]
+    },
+    {
+        "episode": 928,
+        "tstart": "31:45",
+        "tend": "32:15",
+        "instance": "You didn't even welcome me?",
+        "bit": "Good Advice",
+        "elucidation": "a guest performs before they're announced",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-08-11T06:51:29.000-04:00",
+        "created_at": "2025-08-11T06:51:29.000-04:00",
+        "slug_earwolf": "sixteen-toilets-and-another-day-older",
+        "episode_title": "Sixteen Toilets And Another Day Older",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Andy Daly"
+        ],
+        "tags":
+        [
+            "Dr. Bill Blondie",
+            "Danny Mahoney"
+        ]
+    },
+    {
+        "episode": 928,
+        "tstart": "32:45",
+        "tend": "33:15",
+        "instance": "Do you want to leave?",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "geo",
+            "queryString": "torrance, california",
+            "scopeNotes":
+            [
+                "2025 home to: danny mahoney"
+            ]
+        },
+        "hero": null,
+        "location_type": "poly",
+        "location_id": "1652",
+        "updated_at": "2025-08-11T06:51:29.000-04:00",
+        "created_at": "2025-08-11T06:51:29.000-04:00",
+        "slug_earwolf": "sixteen-toilets-and-another-day-older",
+        "episode_title": "Sixteen Toilets And Another Day Older",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Andy Daly"
+        ],
+        "tags":
+        [
+            "Dr. Bill Blondie",
+            "Danny Mahoney"
+        ]
+    },
+    {
+        "episode": 928,
+        "tstart": "33:45",
+        "tend": "34:15",
+        "instance": "There's a 'd' in 'death' and a 'd' in 'danny.'",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "geo",
+            "queryString": "ellis island",
+            "scopeNotes":
+            [
+                "site of: danny mahoney's grandfather shortening his own name form o'mahoney to mahoney"
+            ]
+        },
+        "hero": null,
+        "location_type": "poly",
+        "location_id": "420",
+        "updated_at": "2025-08-11T06:51:29.000-04:00",
+        "created_at": "2025-08-11T06:51:29.000-04:00",
+        "slug_earwolf": "sixteen-toilets-and-another-day-older",
+        "episode_title": "Sixteen Toilets And Another Day Older",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Andy Daly"
+        ],
+        "tags":
+        [
+            "Dr. Bill Blondie",
+            "Danny Mahoney"
+        ]
+    },
+    {
+        "episode": 928,
+        "tstart": "44:45",
+        "tend": "45:10",
+        "instance": "Do you imagine that I'm leaving now?",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-08-11T06:51:29.000-04:00",
+        "created_at": "2025-08-11T06:51:29.000-04:00",
+        "slug_earwolf": "sixteen-toilets-and-another-day-older",
+        "episode_title": "Sixteen Toilets And Another Day Older",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Andy Daly"
+        ],
+        "tags":
+        [
+            "I Want a New Drug (song)",
+            "Huey Lewis and the News (musical combination)",
+            "Danny Mahoney"
+        ]
+    },
+    {
+        "episode": 928,
+        "tstart": "46:00",
+        "tend": "46:45",
+        "instance": "Have I done speed and done that entire theme park in less than nine minutes?",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "search",
+            "queryString": "disneyland theme park",
+            "scopeNotes":
+            [
+                "site of: danny mohoney, on speed"
+            ]
+        },
+        "hero": null,
+        "location_type": "poly",
+        "location_id": "1007",
+        "updated_at": "2025-08-11T06:51:29.000-04:00",
+        "created_at": "2025-08-11T06:51:29.000-04:00",
+        "slug_earwolf": "sixteen-toilets-and-another-day-older",
+        "episode_title": "Sixteen Toilets And Another Day Older",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Andy Daly"
+        ],
+        "tags":
+        [
+            "Dr. Bill Blondie",
+            "Danny Mahoney"
+        ]
+    },
+    {
+        "episode": 928,
+        "tstart": "51:50",
+        "tend": "52:10",
+        "instance": "Everybody should vape.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-08-11T06:51:29.000-04:00",
+        "created_at": "2025-08-11T06:51:29.000-04:00",
+        "slug_earwolf": "sixteen-toilets-and-another-day-older",
+        "episode_title": "Sixteen Toilets And Another Day Older",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Andy Daly"
+        ],
+        "tags":
+        [
+            "Dr. Bill Blondie",
+            "Billy Joel",
+            "Danny Mahoney",
+            "And So It Goes (song)"
+        ]
+    },
+    {
+        "episode": 928,
+        "tstart": "50:00",
+        "tend": "50:30",
+        "instance": "Well you learned to dance with my hand in your pants.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-08-11T06:51:29.000-04:00",
+        "created_at": "2025-08-11T06:51:29.000-04:00",
+        "slug_earwolf": "sixteen-toilets-and-another-day-older",
+        "episode_title": "Sixteen Toilets And Another Day Older",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Andy Daly"
+        ],
+        "tags":
+        [
+            "Dr. Bill Blondie",
+            "Danny Mahoney",
+            "Billy Joel",
+            "Captain Jack (song)"
+        ]
+    },
+    {
+        "episode": 928,
+        "tstart": "53:20",
+        "tend": "53:40",
+        "instance": "Demonstration commercials.",
+        "bit": "Group Coupon",
+        "elucidation": "scott articulates obvious data",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-08-11T06:51:29.000-04:00",
+        "created_at": "2025-08-11T06:51:29.000-04:00",
+        "slug_earwolf": "sixteen-toilets-and-another-day-older",
+        "episode_title": "Sixteen Toilets And Another Day Older",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Andy Daly"
+        ],
+        "tags":
+        [
+            "Danny Mahoney"
+        ]
+    },
+    {
+        "episode": 928,
+        "tstart": "57:00",
+        "tend": "57:30",
+        "instance": "But they were also scrubs in the pejorative way.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-08-11T06:51:29.000-04:00",
+        "created_at": "2025-08-11T06:51:29.000-04:00",
+        "slug_earwolf": "sixteen-toilets-and-another-day-older",
+        "episode_title": "Sixteen Toilets And Another Day Older",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Andy Daly"
+        ],
+        "tags":
+        [
+            "Danny Mahoney",
+            "Dr. Bill Blondie",
+            "No Scrubs (song)",
+            "T.L.C. (musical combination)"
+        ]
+    },
+    {
+        "episode": 928,
+        "tstart": "1:01:10",
+        "tend": "1:02:00",
+        "instance": "This is so disgusting about where we are in America right now.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-08-11T06:51:29.000-04:00",
+        "created_at": "2025-08-11T06:51:29.000-04:00",
+        "slug_earwolf": "sixteen-toilets-and-another-day-older",
+        "episode_title": "Sixteen Toilets And Another Day Older",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Andy Daly"
+        ],
+        "tags":
+        [
+            "Danny Mahoney",
+            "Dr. Bill Blondie",
+            "Sixteen Tons (song)",
+            "Merle Travis"
+        ]
+    },
+    {
+        "episode": 928,
+        "tstart": "1:02:00",
+        "tend": "1:02:30",
+        "instance": "Are you guys whispering to each other right now?",
+        "bit": "Every Word You Are Saying",
+        "elucidation": "despite all efforts, a private conversation is overheard",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-08-11T06:51:29.000-04:00",
+        "created_at": "2025-08-11T06:51:29.000-04:00",
+        "slug_earwolf": "sixteen-toilets-and-another-day-older",
+        "episode_title": "Sixteen Toilets And Another Day Older",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Andy Daly"
+        ],
+        "tags":
+        [
+            "Danny Mahoney",
+            "Dr. Bill Blondie"
+        ]
+    },
+    {
+        "episode": 928,
+        "tstart": "1:03:00",
+        "tend": "1:04:00",
+        "instance": "Why does your phone work fine?",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "geo",
+            "queryString": "hawaii, usa",
+            "scopeNotes":
+            [
+                "never the site of (as of late 2025): danny mahoney"
+            ]
+        },
+        "hero": null,
+        "location_type": "poly",
+        "location_id": "153",
+        "updated_at": "2025-08-11T06:51:29.000-04:00",
+        "created_at": "2025-08-11T06:51:29.000-04:00",
+        "slug_earwolf": "sixteen-toilets-and-another-day-older",
+        "episode_title": "Sixteen Toilets And Another Day Older",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Andy Daly"
+        ],
+        "tags":
+        [
+            "Danny Mahoney",
+            "Dr. Bill Blondie"
+        ]
+    },
+    {
+        "episode": 928,
+        "tstart": "1:04:20",
+        "tend": "1:04:40",
+        "instance": "On my phone; in my phone bill.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-08-11T06:51:29.000-04:00",
+        "created_at": "2025-08-11T06:51:29.000-04:00",
+        "slug_earwolf": "sixteen-toilets-and-another-day-older",
+        "episode_title": "Sixteen Toilets And Another Day Older",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Andy Daly"
+        ],
+        "tags":
+        [
+            "Danny Mahoney",
+            "Dr. Bill Blondie",
+            "One World (Not Three) (song)",
+            "The Police (musical combination)"
+        ]
+    },
+    {
+        "episode": 928,
+        "tstart": "1:13:50",
+        "tend": "1:14:50",
+        "instance": "Did he work at the Arclight before it closed down?",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "search",
+            "queryString": "arclight",
+            "scopeNotes":
+            [
+                "former workplace of: cactus tony"
+            ]
+        },
+        "hero": null,
+        "location_type": "poly",
+        "location_id": "133",
+        "updated_at": "2025-08-11T06:51:29.000-04:00",
+        "created_at": "2025-08-11T06:51:29.000-04:00",
+        "slug_earwolf": "sixteen-toilets-and-another-day-older",
+        "episode_title": "Sixteen Toilets And Another Day Older",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Andy Daly"
+        ],
+        "tags":
+        [
+            "Danny Mahoney",
+            "Dr. Bill Blondie",
+            "Cactus Tony"
+        ]
+    },
+    {
+        "episode": 928,
+        "tstart": "1:14:20",
+        "tend": "1:14:59",
+        "instance": "I got a regular posse.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "search",
+            "queryString": "pasadena fairytale theatre",
+            "scopeNotes":
+            [
+                "former workplace of: don dimello"
+            ]
+        },
+        "hero": null,
+        "location_type": "point",
+        "location_id": "6",
+        "updated_at": "2025-08-11T06:51:29.000-04:00",
+        "created_at": "2025-08-11T06:51:29.000-04:00",
+        "slug_earwolf": "sixteen-toilets-and-another-day-older",
+        "episode_title": "Sixteen Toilets And Another Day Older",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Andy Daly"
+        ],
+        "tags":
+        [
+            "Danny Mahoney",
+            "Dr. Bill Blondie",
+            "Don DiMello"
+        ]
+    },
+    {
+        "episode": 928,
+        "tstart": "1:18:30",
+        "tend": "1:19:10",
+        "instance": "Where did you go to fucking medical school?",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "search",
+            "queryString": "tufts university medical school",
+            "scopeNotes":
+            [
+                "professed alma mater of: both dr. bill blondie ('72) and, before that ('when the teachers wuz good') danny mahoney ('68)"
+            ]
+        },
+        "hero": null,
+        "location_type": "point",
+        "location_id": "2130",
+        "updated_at": "2025-08-11T06:51:29.000-04:00",
+        "created_at": "2025-08-11T06:51:29.000-04:00",
+        "slug_earwolf": "sixteen-toilets-and-another-day-older",
+        "episode_title": "Sixteen Toilets And Another Day Older",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Andy Daly"
+        ],
+        "tags":
+        [
+            "Danny Mahoney",
+            "Dr. Bill Blondie"
+        ]
+    },
+    {
+        "episode": 928,
+        "tstart": "1:22:10",
+        "tend": "1:22:45",
+        "instance": "So this is a totally different guy.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-08-11T06:51:29.000-04:00",
+        "created_at": "2025-08-11T06:51:29.000-04:00",
+        "slug_earwolf": "sixteen-toilets-and-another-day-older",
+        "episode_title": "Sixteen Toilets And Another Day Older",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Andy Daly"
+        ],
+        "tags":
+        [
+            "Danny Mahoney",
+            "Dr. Bill Blondie",
+            "Insane in the Brain (song)",
+            "Cypress Hill (musical combination)",
+            "Barack Insane Obama"
+        ]
+    },
+    {
+        "episode": 928,
+        "tstart": "1:23:20",
+        "tend": "1:23:40",
+        "instance": "It sounds that way because it is.",
         "bit": "Fantastic.",
         "elucidation": "one of scott's 25 words",
         "hero": null,
         "location_type": null,
         "location_id": null,
-        "updated_at": "2025-07-21T06:51:29.000-04:00",
-        "created_at": "2025-07-21T06:51:29.000-04:00",
-        "slug_earwolf": "thong-seduction",
-        "episode_title": "Thong Seduction",
+        "updated_at": "2025-08-11T06:51:29.000-04:00",
+        "created_at": "2025-08-11T06:51:29.000-04:00",
+        "slug_earwolf": "sixteen-toilets-and-another-day-older",
+        "episode_title": "Sixteen Toilets And Another Day Older",
         "episode_guests":
         [
-            "Andy Samberg",
-            "Mitra Jouhari",
-            "Neil Campbell"
-        ],
-        "tags":
-        []
-    },
-    {
-        "episode": 925,
-        "tstart": "11:20",
-        "tend": "11:45",
-        "instance": "Is that Quentin Tarantino?",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2025-07-21T06:51:29.000-04:00",
-        "created_at": "2025-07-21T06:51:29.000-04:00",
-        "slug_earwolf": "thong-seduction",
-        "episode_title": "Thong Seduction",
-        "episode_guests":
-        [
-            "Andy Samberg",
-            "Mitra Jouhari",
-            "Neil Campbell"
+            "Paul F. Tompkins",
+            "Andy Daly"
         ],
         "tags":
         [
-            "Sussudio (song)",
-            "Phil Collins"
+            "Danny Mahoney",
+            "Dr. Bill Blondie"
         ]
     },
     {
-        "episode": 925,
-        "tstart": "20:20",
-        "tend": "20:45",
-        "instance": "That's so trevor rabin.",
+        "episode": 928,
+        "tstart": "1:24:20",
+        "tend": "1:24:40",
+        "instance": "It's not a toilet-type situation in your mind, at least?",
         "bit": "The Paul Hardcastle of Suicides",
         "elucidation": "any song reference",
         "hero": null,
         "location_type": null,
         "location_id": null,
-        "updated_at": "2025-07-21T06:51:29.000-04:00",
-        "created_at": "2025-07-21T06:51:29.000-04:00",
-        "slug_earwolf": "thong-seduction",
-        "episode_title": "Thong Seduction",
+        "updated_at": "2025-08-11T06:51:29.000-04:00",
+        "created_at": "2025-08-11T06:51:29.000-04:00",
+        "slug_earwolf": "sixteen-toilets-and-another-day-older",
+        "episode_title": "Sixteen Toilets And Another Day Older",
         "episode_guests":
         [
-            "Andy Samberg",
-            "Mitra Jouhari",
-            "Neil Campbell"
+            "Paul F. Tompkins",
+            "Andy Daly"
         ],
         "tags":
         [
-            "Owner of a Lonely Heart (song)",
-            "Yes (musical combination)"
-        ]
-    },
-    {
-        "episode": 925,
-        "tstart": "21:20",
-        "tend": "21:45",
-        "instance": "It's a lot like Wicked.",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2025-07-21T06:51:29.000-04:00",
-        "created_at": "2025-07-21T06:51:29.000-04:00",
-        "slug_earwolf": "thong-seduction",
-        "episode_title": "Thong Seduction",
-        "episode_guests":
-        [
-            "Andy Samberg",
-            "Mitra Jouhari",
-            "Neil Campbell"
-        ],
-        "tags":
-        [
-            "Defying Gravity (song)",
-            "Wicked (musical)"
-        ]
-    },
-    {
-        "episode": 925,
-        "tstart": "25:10",
-        "tend": "26:00",
-        "instance": "A superfan of Spoofmas.",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2025-07-21T06:51:29.000-04:00",
-        "created_at": "2025-07-21T06:51:29.000-04:00",
-        "slug_earwolf": "thong-seduction",
-        "episode_title": "Thong Seduction",
-        "episode_guests":
-        [
-            "Andy Samberg",
-            "Mitra Jouhari",
-            "Neil Campbell"
-        ],
-        "tags":
-        [
-            "Human (song)",
-            "The Killers (musical combination)"
-        ]
-    }
-    ,
-    {
-        "episode": 925,
-        "tstart": "25:10",
-        "tend": "26:00",
-        "instance": "A superfan of Spoofmas.",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2025-07-21T06:51:29.000-04:00",
-        "created_at": "2025-07-21T06:51:29.000-04:00",
-        "slug_earwolf": "thong-seduction",
-        "episode_title": "Thong Seduction",
-        "episode_guests":
-        [
-            "Andy Samberg",
-            "Mitra Jouhari",
-            "Neil Campbell"
-        ],
-        "tags":
-        [
-            "All By Myself (song)","Eric Carmen"
-        ]
-    }
-    ,
-    {
-        "episode": 925,
-        "tstart": "25:10",
-        "tend": "26:00",
-        "instance": "A superfan of Spoofmas.",
-        "bit": "The Paul Hardcastle of Suicides",
-        "elucidation": "any song reference",
-        "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2025-07-21T06:51:29.000-04:00",
-        "created_at": "2025-07-21T06:51:29.000-04:00",
-        "slug_earwolf": "thong-seduction",
-        "episode_title": "Thong Seduction",
-        "episode_guests":
-        [
-            "Andy Samberg",
-            "Mitra Jouhari",
-            "Neil Campbell"
-        ],
-        "tags":
-        [
-            "Have Yourself a Merry Little Christmas","Hugh Martin","Ralph Blane","Judy Garland"
+            "Danny Mahoney",
+            "Dr. Bill Blondie",
+            "unk (song)"
         ]
     }
 ]
