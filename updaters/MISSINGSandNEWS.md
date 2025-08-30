@@ -82,6 +82,7 @@
   - 866,3+
   
 - all out of bleeps/editing machine is broken
+  - 929,50+
   - 918,55+
   - 918,41+
   - 918,17+
@@ -839,6 +840,8 @@ reddit for balls
   - =384,42:50(pw)
   - =2016.dallas,37:40
 - auggiedoggie
+  - 930,0+
+  - 929,55+
   - 928,0+
   - tons
   - 515,1:00
@@ -1014,6 +1017,8 @@ reddit for balls
   - 132,6:30
   - 447,50:45(pw)
 - no rule against dogs playing (football|basketball)
+  - 929,68+
+  - 929,19+
   - 2024-10-20-live-at-tarrytown-music-hall-tarrytown-ny,40+
   - 2024-08-14-crest-theatre-sacramento,36
   - 2024-08-05-fitzgerald-theatre-st-paul,56
@@ -2609,6 +2614,7 @@ reddit for balls
   -
 - we'll pay for it (if you wanna go on another date)
 
+  - 929,65+
   - 925,64+
   - 2025-03-08-live-at-sxsw,52+
   - 2024-10-18-live-at-college-street-music-hall-new-haven-ct,1:16+
@@ -2684,6 +2690,8 @@ reddit for balls
 
 - interesting people (humanity's, america's, animal kingdom's podcast, we care, etc)
 
+  - 930,81+
+  - 930,62+
   - 928,0+
   - 916,0+
   - several "we care" starting 2025 or so
