@@ -1,3 +1,6 @@
+-   933,70+,pussy.com
+-   931,78+,buggle.com
+-   931,55+,wesellprintersnotdickshoes.com
 -   923,1:21+,hollywoodfours.com
 -   923,18+,ww.cooldickshoes.wcom
 -   914,1:51+,bork.gov

@@ -1,273 +1,704 @@
 [
     {
-        "episode": 930,
+        "episode": 936,
         "tstart": "0:20",
-        "tend": "0:50",
-        "instance": "My roommate, Gary, would probably drink  it without asking me.",
+        "tend": "1:00",
+        "instance": "Batman fits in his suit because his booty's so tight.",
         "bit": "The Paul Hardcastle of Suicides",
         "elucidation": "any song reference",
         "hero": null,
         "location_type": null,
         "location_id": null,
-        "updated_at": "2025-08-25T06:51:29.000-04:00",
-        "created_at": "2025-08-25T06:51:29.000-04:00",
-        "slug_earwolf": "skids",
-        "episode_title": "Skids+",
+        "updated_at": "2025-10-06T06:51:29.000-04:00",
+        "created_at": "2025-10-06T06:51:29.000-04:00",
+        "slug_earwolf": "https://podcasts.apple.com/us/podcast/the-bat-emoji-and-the-eggplant-emoji-paul-f/id316045799?i=1000730364644",
+        "episode_title": "The Bat Emoji and The Eggplant Emoji",
         "episode_guests":
         [
-            "Adam Scott",
-            "Dan Gregor",
-            "Doug Mand"
+            "Paul F. Tompkins",
+            "Kylie Brakeman",
+            "Brett Morris",
+            "Nicole Parker Redford"
         ],
         "tags":
         [
-            "Time in a Bottle (song)",
-            "Jim Croce"
+            "Stuck in the Middle With You (song)",
+            "Stealers Wheel (musical combination)"
         ]
     },
     {
-        "episode": 930,
-        "tstart": "19:30",
-        "tend": "20:30",
-        "instance": "You're frustrating to talk to.",
+        "episode": 936,
+        "tstart": "10:00",
+        "tend": "11:00",
+        "instance": "Like, more microsopes?",
         "bit": "Location",
         "elucidation": "identifiable earth location",
         "NB":
         {
             "queryType": "search",
-            "queryString": "rochester",
+            "queryString": "cvs in dignity falls",
             "scopeNotes":
-            [
-                "possible home to: Rod Chester"
-            ]
+            []
         },
         "hero": null,
-        "location_type": "poly",
-        "location_id": "1154",
-        "updated_at": "2025-08-25T06:51:29.000-04:00",
-        "created_at": "2025-08-25T06:51:29.000-04:00",
-        "slug_earwolf": "skids",
-        "episode_title": "Skids+",
+        "location_type": "point",
+        "location_id": "1251",
+        "updated_at": "2025-10-06T06:51:29.000-04:00",
+        "created_at": "2025-10-06T06:51:29.000-04:00",
+        "slug_earwolf": "https://podcasts.apple.com/us/podcast/the-bat-emoji-and-the-eggplant-emoji-paul-f/id316045799?i=1000730364644",
+        "episode_title": "The Bat Emoji and The Eggplant Emoji",
         "episode_guests":
         [
-            "Adam Scott",
-            "Dan Gregor",
-            "Doug Mand"
+            "Paul F. Tompkins",
+            "Kylie Brakeman",
+            "Brett Morris",
+            "Nicole Parker Redford"
         ],
         "tags":
         [
-            "Rod Chester"
+            "Stuck in the Middle With You (song)",
+            "Stealers Wheel (musical combination)"
         ]
     },
     {
-        "episode": 930,
-        "tstart": "21:00",
-        "tend": "21:30",
-        "instance": "I think you may have dozed off.",
-        "bit": "What's This, Now?!",
-        "elucidation": "something surprises someone",
+        "episode": 936,
+        "tstart": "24:10",
+        "tend": "25:00",
+        "instance": "Oh, you have an in-home Sizzler?",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "search",
+            "queryString": "2218 center st, cedar falls, ia",
+            "scopeNotes":
+            [
+                "possible location of: the pedestrian home in which doug pedestrian has reconstructed a sizzler restaurant"
+            ]
+        },
         "hero": null,
-        "location_type": null,
-        "location_id": null,
-        "updated_at": "2025-08-25T06:51:29.000-04:00",
-        "created_at": "2025-08-25T06:51:29.000-04:00",
-        "slug_earwolf": "skids",
-        "episode_title": "Skids+",
+        "location_type": "point",
+        "location_id": "2147",
+        "updated_at": "2025-10-06T06:51:29.000-04:00",
+        "created_at": "2025-10-06T06:51:29.000-04:00",
+        "slug_earwolf": "https://podcasts.apple.com/us/podcast/the-bat-emoji-and-the-eggplant-emoji-paul-f/id316045799?i=1000730364644",
+        "episode_title": "The Bat Emoji and The Eggplant Emoji",
         "episode_guests":
         [
-            "Adam Scott",
-            "Dan Gregor",
-            "Doug Mand"
+            "Paul F. Tompkins",
+            "Kylie Brakeman",
+            "Brett Morris",
+            "Nicole Parker Redford"
         ],
         "tags":
-        []
+        [
+            "Burnt Millipede",
+            "Joan Pedestrian",
+            "Doug Pedestrian"
+        ]
     },
     {
-        "episode": 930,
-        "tstart": "26:00",
-        "tend": "26:20",
-        "instance": "I'm going to spend the rest of my time here, on earth, making sure that you cast that vote for me.",
+        "episode": 936,
+        "tstart": "25:10",
+        "tend": "25:30",
+        "instance": "Do we have the garlicy cheese bread hear?",
         "bit": "Fantastic.",
         "elucidation": "one of scott's 25 words",
         "hero": null,
         "location_type": null,
         "location_id": null,
-        "updated_at": "2025-08-25T06:51:29.000-04:00",
-        "created_at": "2025-08-25T06:51:29.000-04:00",
-        "slug_earwolf": "skids",
-        "episode_title": "Skids+",
+        "updated_at": "2025-10-06T06:51:29.000-04:00",
+        "created_at": "2025-10-06T06:51:29.000-04:00",
+        "slug_earwolf": "https://podcasts.apple.com/us/podcast/the-bat-emoji-and-the-eggplant-emoji-paul-f/id316045799?i=1000730364644",
+        "episode_title": "The Bat Emoji and The Eggplant Emoji",
         "episode_guests":
         [
-            "Adam Scott",
-            "Dan Gregor",
-            "Doug Mand"
+            "Paul F. Tompkins",
+            "Kylie Brakeman",
+            "Brett Morris",
+            "Nicole Parker Redford"
         ],
         "tags":
         [
-            "Severence (TV)"
+            "Burnt Millipede",
+            "Joan Pedestrian",
+            "Doug Pedestrian"
         ]
     },
     {
-        "episode": 930,
-        "tstart": "42:10",
-        "tend": "42:30",
-        "instance": "There couldn't be anything else, could there?",
-        "bit": "Location",
-        "elucidation": "identifiable earth location",
-        "NB":
-        {
-            "queryType": "geo",
-            "queryString": "delaware, usa",
-            "scopeNotes":
-            [
-                "home to:  Bob PBS"
-            ]
-        },
-        "hero": null,
-        "location_type": "poly",
-        "location_id": "149",
-        "updated_at": "2025-08-25T06:51:29.000-04:00",
-        "created_at": "2025-08-25T06:51:29.000-04:00",
-        "slug_earwolf": "skids",
-        "episode_title": "Skids+",
-        "episode_guests":
-        [
-            "Adam Scott",
-            "Dan Gregor",
-            "Doug Mand"
-        ],
-        "tags":
-        [
-            "Bob PBS"
-        ]
-    },
-    {
-        "episode": 930,
-        "tstart": "42:30",
-        "tend": "43:00",
-        "instance": "He took the Biden train.",
+        "episode": 936,
+        "tstart": "25:40",
+        "tend": "26:00",
+        "instance": "We've gone underground.",
         "bit": "Location",
         "elucidation": "identifiable earth location",
         "NB":
         {
             "queryType": "search",
-            "queryString": "nyu to delaware by train",
+            "queryString": "venetian casino, las vegas",
             "scopeNotes":
             [
-                "route of:  Barron Trump from NYU to Delaware"
+                "site of: doug pedestrian being inspired by the venetian casino"
             ]
         },
         "hero": null,
-        "location_type": "line",
-        "location_id": "378",
-        "updated_at": "2025-08-25T06:51:29.000-04:00",
-        "created_at": "2025-08-25T06:51:29.000-04:00",
-        "slug_earwolf": "skids",
-        "episode_title": "Skids+",
+        "location_type": "poly",
+        "location_id": "1667",
+        "updated_at": "2025-10-06T06:51:29.000-04:00",
+        "created_at": "2025-10-06T06:51:29.000-04:00",
+        "slug_earwolf": "https://podcasts.apple.com/us/podcast/the-bat-emoji-and-the-eggplant-emoji-paul-f/id316045799?i=1000730364644",
+        "episode_title": "The Bat Emoji and The Eggplant Emoji",
         "episode_guests":
         [
-            "Adam Scott",
-            "Dan Gregor",
-            "Doug Mand"
+            "Paul F. Tompkins",
+            "Kylie Brakeman",
+            "Brett Morris",
+            "Nicole Parker Redford"
         ],
         "tags":
         [
-            "Bob PBS",
-            "Barron Trump",
-            "Joe Biden"
+            "Burnt Millipede",
+            "Joan Pedestrian",
+            "Doug Pedestrian"
         ]
     },
     {
-        "episode": 930,
-        "tstart": "51:33",
-        "tend": "52:33",
-        "instance": "All my guests can take one thing from my house.",
-        "bit": "Every Word You Are Saying",
-        "elucidation": "despite all efforts, a private conversation is overheard",
+        "episode": 936,
+        "tstart": "32:45",
+        "tend": "33:00",
+        "instance": "That lore is gone.",
+        "bit": "Fantastic.",
+        "elucidation": "one of scott's 25 words",
         "hero": null,
         "location_type": null,
         "location_id": null,
-        "updated_at": "2025-08-25T06:51:29.000-04:00",
-        "created_at": "2025-08-25T06:51:29.000-04:00",
-        "slug_earwolf": "skids",
-        "episode_title": "Skids+",
+        "updated_at": "2025-10-06T06:51:29.000-04:00",
+        "created_at": "2025-10-06T06:51:29.000-04:00",
+        "slug_earwolf": "https://podcasts.apple.com/us/podcast/the-bat-emoji-and-the-eggplant-emoji-paul-f/id316045799?i=1000730364644",
+        "episode_title": "The Bat Emoji and The Eggplant Emoji",
         "episode_guests":
         [
-            "Adam Scott",
-            "Dan Gregor",
-            "Doug Mand"
+            "Paul F. Tompkins",
+            "Kylie Brakeman",
+            "Brett Morris",
+            "Nicole Parker Redford"
         ],
         "tags":
         [
-            "Bob PBS"
+            "Burnt Millipede",
+            "Joan Pedestrian",
+            "Doug Pedestrian"
         ]
     },
     {
-        "episode": 930,
-        "tstart": "1:04:10",
-        "tend": "1:05:00",
-        "instance": "If you want to give. I don't want to take.",
-        "bit": "Location",
-        "elucidation": "identifiable earth location",
-        "NB":
-        {
-            "queryType": "geo",
-            "queryString": "wells fargo center, philadelphia",
-            "scopeNotes":
-            [
-                "site of: jim del monte doing the running man on his first jumbotron and banning"
-            ]
-        },
-        "hero": null,
-        "location_type": "poly",
-        "location_id": "1654",
-        "updated_at": "2025-08-25T06:51:29.000-04:00",
-        "created_at": "2025-08-25T06:51:29.000-04:00",
-        "slug_earwolf": "skids",
-        "episode_title": "Skids+",
-        "episode_guests":
-        [
-            "Adam Scott",
-            "Dan Gregor",
-            "Doug Mand"
-        ],
-        "tags":
-        [
-            "Jim del Monte"
-        ]
-    },
-    {
-        "episode": 930,
-        "tstart": "1:17:50",
-        "tend": "1:18:15",
-        "instance": "They'll throw cold water on that right away.",
+        "episode": 936,
+        "tstart": "36:00",
+        "tend": "36:30",
+        "instance": "Lava landings are pretty common.",
         "bit": "Location",
         "elucidation": "identifiable earth location",
         "NB":
         {
             "queryType": "search",
-            "queryString": "villanova university basketball arena",
+            "queryString": "mount etna volcano eruption",
             "scopeNotes":
             [
-                "site of: jim del monte, refused entry"
+                "site of: burnt Millipede and his girlfriend, gabby, doing an emergency lava landing"
             ]
         },
         "hero": null,
         "location_type": "poly",
-        "location_id": "1654",
-        "updated_at": "2025-08-25T06:51:29.000-04:00",
-        "created_at": "2025-08-25T06:51:29.000-04:00",
-        "slug_earwolf": "skids",
-        "episode_title": "Skids+",
+        "location_id": "1668",
+        "updated_at": "2025-10-06T06:51:29.000-04:00",
+        "created_at": "2025-10-06T06:51:29.000-04:00",
+        "slug_earwolf": "https://podcasts.apple.com/us/podcast/the-bat-emoji-and-the-eggplant-emoji-paul-f/id316045799?i=1000730364644",
+        "episode_title": "The Bat Emoji and The Eggplant Emoji",
         "episode_guests":
         [
-            "Adam Scott",
-            "Dan Gregor",
-            "Doug Mand"
+            "Paul F. Tompkins",
+            "Kylie Brakeman",
+            "Brett Morris",
+            "Nicole Parker Redford"
         ],
         "tags":
         [
-            "Jim del Monte"
+            "Burnt Millipede",
+            "Joan Pedestrian",
+            "Doug Pedestrian"
+        ]
+    },
+    {
+        "episode": 936,
+        "tstart": "47:30",
+        "tend": "48:00",
+        "instance": "Not a nepo kind - it's more of the monster kind.",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "search",
+            "queryString": "a castle",
+            "scopeNotes":
+            [
+                "possible home to: ellen dracula and her son, dracula"
+            ]
+        },
+        "hero": null,
+        "location_type": "poly",
+        "location_id": "1669",
+        "updated_at": "2025-10-06T06:51:29.000-04:00",
+        "created_at": "2025-10-06T06:51:29.000-04:00",
+        "slug_earwolf": "https://podcasts.apple.com/us/podcast/the-bat-emoji-and-the-eggplant-emoji-paul-f/id316045799?i=1000730364644",
+        "episode_title": "The Bat Emoji and The Eggplant Emoji",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Kylie Brakeman",
+            "Brett Morris",
+            "Nicole Parker Redford"
+        ],
+        "tags":
+        [
+            "Burnt Millipede",
+            "Ellen Dracula",
+            "Joan Pedestrian",
+            "Doug Pedestrian"
+        ]
+    },
+    {
+        "episode": 936,
+        "tstart": "49:00",
+        "tend": "49:15",
+        "instance": "Why was it only just that one?",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-10-06T06:51:29.000-04:00",
+        "created_at": "2025-10-06T06:51:29.000-04:00",
+        "slug_earwolf": "https://podcasts.apple.com/us/podcast/the-bat-emoji-and-the-eggplant-emoji-paul-f/id316045799?i=1000730364644",
+        "episode_title": "The Bat Emoji and The Eggplant Emoji",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Kylie Brakeman",
+            "Brett Morris",
+            "Nicole Parker Redford"
+        ],
+        "tags":
+        [
+            "Burnt Millipede",
+            "Somebody That I Used to Know (song)",
+            "Gotye",
+            "Ellen Dracula",
+            "Joan Pedestrian",
+            "Doug Pedestrian"
+        ]
+    },
+    {
+        "episode": 936,
+        "tstart": "52:00",
+        "tend": "52:25",
+        "instance": "Can you just, like, clench your vagina muscles really hard or something?",
+        "bit": "Not That Kind of a Show",
+        "elucidation": "cbb gets a little blue",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-10-06T06:51:29.000-04:00",
+        "created_at": "2025-10-06T06:51:29.000-04:00",
+        "slug_earwolf": "https://podcasts.apple.com/us/podcast/the-bat-emoji-and-the-eggplant-emoji-paul-f/id316045799?i=1000730364644",
+        "episode_title": "The Bat Emoji and The Eggplant Emoji",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Kylie Brakeman",
+            "Brett Morris",
+            "Nicole Parker Redford"
+        ],
+        "tags":
+        [
+            "Burnt Millipede",
+            "Ellen Dracula",
+            "Joan Pedestrian",
+            "Doug Pedestrian"
+        ]
+    },
+    {
+        "episode": 936,
+        "tstart": "55:45",
+        "tend": "56:00",
+        "instance": "He gets his share.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-10-06T06:51:29.000-04:00",
+        "created_at": "2025-10-06T06:51:29.000-04:00",
+        "slug_earwolf": "https://podcasts.apple.com/us/podcast/the-bat-emoji-and-the-eggplant-emoji-paul-f/id316045799?i=1000730364644",
+        "episode_title": "The Bat Emoji and The Eggplant Emoji",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Kylie Brakeman",
+            "Brett Morris",
+            "Nicole Parker Redford"
+        ],
+        "tags":
+        [
+            "Burnt Millipede",
+            "Miami Sound Machine (musical combination)",
+            "Bad Boy (song)",
+            "Ellen Dracula",
+            "Joan Pedestrian",
+            "Doug Pedestrian"
+        ]
+    },
+    {
+        "episode": 936,
+        "tstart": "57:15",
+        "tend": "57:20",
+        "instance": "He sounds a little bit like that movie star, Borat.",
+        "bit": "My Wife!",
+        "elucidation": "borat",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-10-06T06:51:29.000-04:00",
+        "created_at": "2025-10-06T06:51:29.000-04:00",
+        "slug_earwolf": "https://podcasts.apple.com/us/podcast/the-bat-emoji-and-the-eggplant-emoji-paul-f/id316045799?i=1000730364644",
+        "episode_title": "The Bat Emoji and The Eggplant Emoji",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Kylie Brakeman",
+            "Brett Morris",
+            "Nicole Parker Redford"
+        ],
+        "tags":
+        [
+            "Burnt Millipede",
+            "Ellen Dracula",
+            "Joan Pedestrian",
+            "Doug Pedestrian"
+        ]
+    },
+    {
+        "episode": 936,
+        "tstart": "59:15",
+        "tend": "59:25",
+        "instance": "What are his hobbies; what are his interests?",
+        "bit": "You're Terrible at This",
+        "elucidation": "impromptu reviews of scott's hosting",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-10-06T06:51:29.000-04:00",
+        "created_at": "2025-10-06T06:51:29.000-04:00",
+        "slug_earwolf": "https://podcasts.apple.com/us/podcast/the-bat-emoji-and-the-eggplant-emoji-paul-f/id316045799?i=1000730364644",
+        "episode_title": "The Bat Emoji and The Eggplant Emoji",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Kylie Brakeman",
+            "Brett Morris",
+            "Nicole Parker Redford"
+        ],
+        "tags":
+        [
+            "Burnt Millipede",
+            "Ellen Dracula",
+            "Joan Pedestrian",
+            "Doug Pedestrian"
+        ]
+    },
+    {
+        "episode": 936,
+        "tstart": "1:00:00",
+        "tend": "1:00:45",
+        "instance": "They go to bed there?",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "search",
+            "queryString": "a fully-staffed blood bank somewhere",
+            "scopeNotes":
+            [
+                "possible site of: Jack dracula, stealing blood"
+            ]
+        },
+        "hero": null,
+        "location_type": "point",
+        "location_id": "2148",
+        "updated_at": "2025-10-06T06:51:29.000-04:00",
+        "created_at": "2025-10-06T06:51:29.000-04:00",
+        "slug_earwolf": "https://podcasts.apple.com/us/podcast/the-bat-emoji-and-the-eggplant-emoji-paul-f/id316045799?i=1000730364644",
+        "episode_title": "The Bat Emoji and The Eggplant Emoji",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Kylie Brakeman",
+            "Brett Morris",
+            "Nicole Parker Redford"
+        ],
+        "tags":
+        [
+            "Burnt Millipede",
+            "Ellen Dracula",
+            "Jack Dracula",
+            "Joan Pedestrian",
+            "Doug Pedestrian"
+        ]
+    },
+    {
+        "episode": 936,
+        "tstart": "1:02:00",
+        "tend": "1:02:15",
+        "instance": "When you're a dracula...",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-10-06T06:51:29.000-04:00",
+        "created_at": "2025-10-06T06:51:29.000-04:00",
+        "slug_earwolf": "https://podcasts.apple.com/us/podcast/the-bat-emoji-and-the-eggplant-emoji-paul-f/id316045799?i=1000730364644",
+        "episode_title": "The Bat Emoji and The Eggplant Emoji",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Kylie Brakeman",
+            "Brett Morris",
+            "Nicole Parker Redford"
+        ],
+        "tags":
+        [
+            "Burnt Millipede",
+            "Ellen Dracula",
+            "Jet Song (song)",
+            "Leonard Bernstein",
+            "Stephen Sondheim"
+        ]
+    },
+    {
+        "episode": 936,
+        "tstart": "1:09:15",
+        "tend": "1:09:45",
+        "instance": "Is that term okay to use - 'fraternize'?",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-10-06T06:51:29.000-04:00",
+        "created_at": "2025-10-06T06:51:29.000-04:00",
+        "slug_earwolf": "https://podcasts.apple.com/us/podcast/the-bat-emoji-and-the-eggplant-emoji-paul-f/id316045799?i=1000730364644",
+        "episode_title": "The Bat Emoji and The Eggplant Emoji",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Kylie Brakeman",
+            "Brett Morris",
+            "Nicole Parker Redford"
+        ],
+        "tags":
+        [
+            "Burnt Millipede",
+            "Joan Pedestrian",
+            "Ellen Dracula",
+            "Bobby 'Boris' Pickett",
+            "Monster Mash (song)"
+        ]
+    },
+    {
+        "episode": 936,
+        "tstart": "1:12:15",
+        "tend": "1:12:45",
+        "instance": "Could you say that address again?",
+        "bit": "Location",
+        "elucidation": "identifiable earth location",
+        "NB":
+        {
+            "queryType": "search",
+            "queryString": "a castle in tansylvania",
+            "scopeNotes":
+            [
+                "possible home of: jack dracula"
+            ]
+        },
+        "hero": null,
+        "location_type": "poly",
+        "location_id": "1669",
+        "updated_at": "2025-10-06T06:51:29.000-04:00",
+        "created_at": "2025-10-06T06:51:29.000-04:00",
+        "slug_earwolf": "https://podcasts.apple.com/us/podcast/the-bat-emoji-and-the-eggplant-emoji-paul-f/id316045799?i=1000730364644",
+        "episode_title": "The Bat Emoji and The Eggplant Emoji",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Kylie Brakeman",
+            "Brett Morris",
+            "Nicole Parker Redford"
+        ],
+        "tags":
+        [
+            "Burnt Millipede",
+            "Joan Pedestrian",
+            "Ellen Dracula",
+            "Jack Dracula"
+        ]
+    },
+    {
+        "episode": 936,
+        "tstart": "1:22:00",
+        "tend": "1:22:15",
+        "instance": "Like a Hamilton.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-10-06T06:51:29.000-04:00",
+        "created_at": "2025-10-06T06:51:2e9.000-04:00",
+        "slug_earwolf": "https://podcasts.apple.com/us/podcast/the-bat-emoji-and-the-eggplant-emoji-paul-f/id316045799?i=1000730364644",
+        "episode_title": "The Bat Emoji and The Eggplant Emoji",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Kylie Brakeman",
+            "Brett Morris",
+            "Nicole Parker Redford"
+        ],
+        "tags":
+        [
+            "Burnt Millipede",
+            "Joan Pedestrian",
+            "Ellen Dracula",
+            "Depeche Mode (musical combination)",
+            "A Question of Lust (song)"
+        ]
+    },
+    {
+        "episode": 936,
+        "tstart": "1:27:40",
+        "tend": "1:28:05",
+        "instance": "Sounds a little crazy.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-10-06T06:51:29.000-04:00",
+        "created_at": "2025-10-06T06:51:2e9.000-04:00",
+        "slug_earwolf": "https://podcasts.apple.com/us/podcast/the-bat-emoji-and-the-eggplant-emoji-paul-f/id316045799?i=1000730364644",
+        "episode_title": "The Bat Emoji and The Eggplant Emoji",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Kylie Brakeman",
+            "Brett Morris",
+            "Nicole Parker Redford"
+        ],
+        "tags":
+        [
+            "Burnt Millipede",
+            "Joan Pedestrian",
+            "Ellen Dracula",
+            "Sheryl Crow",
+            "If it Makes You Happy (song)"
+        ]
+    },
+    {
+        "episode": 936,
+        "tstart": "1:36:30",
+        "tend": "1:36:45",
+        "instance": "I thought I raised him right.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-10-06T06:51:29.000-04:00",
+        "created_at": "2025-10-06T06:51:2e9.000-04:00",
+        "slug_earwolf": "https://podcasts.apple.com/us/podcast/the-bat-emoji-and-the-eggplant-emoji-paul-f/id316045799?i=1000730364644",
+        "episode_title": "The Bat Emoji and The Eggplant Emoji",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Kylie Brakeman",
+            "Brett Morris",
+            "Nicole Parker Redford"
+        ],
+        "tags":
+        [
+            "Burnt Millipede",
+            "Joan Pedestrian",
+            "Ellen Dracula",
+            "Town of Cats (musical combination)",
+            "Goblin's Lament (song)"
+        ]
+    },
+    {
+        "episode": 936,
+        "tstart": "1:38:15",
+        "tend": "1:38:35",
+        "instance": "We're coming back to California.",
+        "bit": "The Paul Hardcastle of Suicides",
+        "elucidation": "any song reference",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-10-06T06:51:29.000-04:00",
+        "created_at": "2025-10-06T06:51:2e9.000-04:00",
+        "slug_earwolf": "https://podcasts.apple.com/us/podcast/the-bat-emoji-and-the-eggplant-emoji-paul-f/id316045799?i=1000730364644",
+        "episode_title": "The Bat Emoji and The Eggplant Emoji",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Kylie Brakeman",
+            "Brett Morris",
+            "Nicole Parker Redford"
+        ],
+        "tags":
+        [
+            "Burnt Millipede",
+            "Joan Pedestrian",
+            "Ellen Dracula",
+            "2Pac",
+            "California Love (song)"
+        ]
+    },
+    {
+        "episode": 936,
+        "tstart": "1:43:00",
+        "tend": "1:43:15",
+        "instance": "We presume the main character is dead by now.",
+        "bit": "Cactus Something",
+        "elucidation": "a superclass of inter-episode callbacks/forwards and/or character cross-pollenization or canon-building",
+        "hero": null,
+        "location_type": null,
+        "location_id": null,
+        "updated_at": "2025-10-06T06:51:29.000-04:00",
+        "created_at": "2025-10-06T06:51:2e9.000-04:00",
+        "slug_earwolf": "https://podcasts.apple.com/us/podcast/the-bat-emoji-and-the-eggplant-emoji-paul-f/id316045799?i=1000730364644",
+        "episode_title": "The Bat Emoji and The Eggplant Emoji",
+        "episode_guests":
+        [
+            "Paul F. Tompkins",
+            "Kylie Brakeman",
+            "Brett Morris",
+            "Nicole Parker Redford"
+        ],
+        "tags":
+        [
+            "Burnt Millipede",
+            "Joan Pedestrian",
+            "Ellen Dracula",
+            "Chewbacca",
+            "Ice Castles (film)"
         ]
     }
 ]
