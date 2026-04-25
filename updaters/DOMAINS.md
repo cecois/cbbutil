@@ -1,3 +1,9 @@
+-   950,81+,darkweb.com
+-   946,58+,scottdickshoes.com
+-   946,53+,www.maha.gov
+-   946,51+,printersnotdickshoes.com
+-   946,51+,wesellprintersnotdickshoes.com
+-   946,50+,cooldickshoes.com
 -   933,70+,pussy.com
 -   931,78+,buggle.com
 -   931,55+,wesellprintersnotdickshoes.com
@@ -5,6 +11,7 @@
 -   923,18+,ww.cooldickshoes.wcom
 -   914,1:51+,bork.gov
 -   908,57+
+-   945,9+,ojsimpsonandscottaukerman.com
 -   2024-10-18-live-at-tarrytown-music-hall-tarrytown-ny,1:02+,ojsimpsonandscottaukerman.com
 -   2024-10-16-live-at-mtelus-montreal-quebec,1:46+,youtube.com/grillinwiththezouks/noskips
 -   885,1:12:00+,bigmike.com

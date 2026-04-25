@@ -1,6 +1,8 @@
 # possible new bits:
 
 0. SHIMMY!
+0. Dred Zeppelin
+0. elucidate wet day rule inaugurations
 1. zouks' (usually) "what do you mean?" (but shimmy asked about ogre glasses, also)
 2. nephew todd's list of things he hears scott doing at night
 1. fix fugees "one time" - no doubt its a ref to _killing me softly_ and not any other fugees track
@@ -42,6 +44,14 @@
 1. face/off
 1. subepisodes
 
+- dred zeppelin
+  - 950,4+
+  - 950,5+
+  - 950,49+
+  - 950,43+
+  - 950,13+
+  - 950,7+
+
 - music man plot logic
   - (many more - see 2024 tour also)
   - 900,54+ 
@@ -73,6 +83,7 @@
 
 - orangest of balls
 
+  - 942,24+
   - 935,34+
   - 814,28
   - 788,1:10+
@@ -83,6 +94,8 @@
   - 866,3+
   
 - all out of bleeps/editing machine is broken
+  - 963,45+
+  - 945,29+
   - 931,48+
   - 929,50+
   - 918,55+
@@ -183,6 +196,9 @@
 
 - do they ever drop the act?
 
+  - 957,67+
+  - 948,73+
+  - 945,71+
   - 934,1:16+
   - 927,1:26+
   - 901,1:10+
@@ -251,6 +267,9 @@
 
 - notorious terf jk rowling
 
+  - 952,77+
+  - 943,2+
+  - 937,41+
   - 917,47+
   - 907,4+
   - 892,6+
@@ -299,7 +318,13 @@ reddit for balls
 
 - take care/just sayin (o.j. simpson's catchphrase)
 
-
+  - 945,57+
+  - 945,50+
+  - 945,28+
+  - 945,16+
+  - 945,9+
+  - 945,7+
+  - 945,7+
   - 908,43 (this is deion sanders tho)
   - 2024-10-20-live-at-tarrytown-music-hall-tarrytown-ny,1:02+
   - 2024-07-29-royal-oak-music-theatre-royal-oak,72+
@@ -713,6 +738,17 @@ reddit for balls
 
 - shimmy lincoln appears in any way
 
+  - 963,1+
+  - 950,51+
+  - 950,51+
+  - 950,2+
+  - 950,1+
+  - 946,13+
+  - 946,12+
+  - 946,6+
+  - 946,5+
+  - 946,5+
+  - 946,3+
   - 914,1+
   - 900,10+
   - 895,8+
@@ -788,6 +824,7 @@ reddit for balls
   - 477,15:30
 
 - the size of screens these days
+  - 955,1+
   - cbb-2022-live-tour-portland-revolution-early-show,17+
   - 783,4:30+
   - 330,10:25(pw)
@@ -1074,6 +1111,7 @@ reddit for balls
   - 720,5:00
 
 - thanks, reggie
+  - 943,4+
   - 890,2+
   - 875,1:12:00+
   - 875,0+
@@ -1287,6 +1325,8 @@ reddit for balls
   - 2016.losangeles,1:01:00
   - 2016.losangeles,1:00:40
 - character bonanzas
+  - 950,pft & daly both do lotsa ppl
+  - 946,pft is rfk & santa
   - 850
   - 820,35+
   - 750,1:00:00+
@@ -1419,6 +1459,7 @@ reddit for balls
   - 513,1:03:12
   - 423,41:00(pw)
 - fictional people - dead but reasonable
+  - 949,13+
   - 2024-09-11-liberty-hall-dublin,15+
   - 800,1:01+
   - 289,21:45(howl)
@@ -1546,6 +1587,7 @@ reddit for balls
   - bo2015.2,58:30
   - 2016.nyc0514930,42:00
 - bing it
+  - 962,14+
   - 886,50:45+
   - 846,53:50+
   - 835,1:16+
@@ -1619,6 +1661,7 @@ reddit for balls
   - 394,41:10
 - interesting vote from an interesting player
   - http://howl.fm/audio/26163/live-from-vancouver-2013,51:50
+  - 953,79+
   - 198,53:00
   - 562,1:13:30(pw)
   - 586,1:02:10(pw)
@@ -2356,6 +2399,7 @@ reddit for balls
   - 393,51:40(pw)
   - 525,33:00
 - symmetrical face
+  - 938,40+
   - 785,1:12:00+
   - 665,18:00
   - bo2020.2,1:41:45
@@ -2620,6 +2664,12 @@ reddit for balls
   -
 - we'll pay for it (if you wanna go on another date)
 
+  - 960,63+
+  - 960,60+
+  - 960,43+
+  - 960,39+
+  - 958,65+
+  - 954,85+
   - 936,96+
   - 929,65+
   - 925,64+
@@ -2697,6 +2747,14 @@ reddit for balls
 
 - interesting people (humanity's, america's, animal kingdom's podcast, we care, etc)
 
+  - 959,2+
+  - bo2025.4,2:25:00+
+  - 943,52+
+  - 939,22+
+  - 938,53+
+  - 938,1+
+  - 937,40+
+  - 937,24+
   - 935,45+
   - 935,3+
   - 932,86+
