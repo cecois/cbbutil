@@ -45,6 +45,8 @@
 1. subepisodes
 
 - dred zeppelin
+  - 964,50+
+  - gotta be some in bt here
   - 950,4+
   - 950,5+
   - 950,49+
@@ -83,6 +85,7 @@
 
 - orangest of balls
 
+  - 965,72+
   - 942,24+
   - 935,34+
   - 814,28
@@ -1587,6 +1590,7 @@ reddit for balls
   - bo2015.2,58:30
   - 2016.nyc0514930,42:00
 - bing it
+  - 964,71+
   - 962,14+
   - 886,50:45+
   - 846,53:50+
@@ -2747,6 +2751,7 @@ reddit for balls
 
 - interesting people (humanity's, america's, animal kingdom's podcast, we care, etc)
 
+  - 964,28+
   - 959,2+
   - bo2025.4,2:25:00+
   - 943,52+
