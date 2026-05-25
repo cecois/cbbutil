@@ -435,6 +435,7 @@ reddit for balls
   - 482,1:03:45(pw)
   - 451,40:00
 * bajillion (or any) call sheet
+  - 966,9+
   - 931,59+
   - 923,7
   - 919,23
@@ -1062,6 +1063,7 @@ reddit for balls
   - 132,6:30
   - 447,50:45(pw)
 - no rule against dogs playing (football|basketball)
+  - 967,64+
   - 943,73+
   - 929,68+
   - 929,19+
@@ -2751,6 +2753,7 @@ reddit for balls
 
 - interesting people (humanity's, america's, animal kingdom's podcast, we care, etc)
 
+  - 967,32+
   - 964,28+
   - 959,2+
   - bo2025.4,2:25:00+
